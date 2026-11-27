@@ -1,29 +1,31 @@
 {
  "MDCU67|RoB|76": {
-  "interp": "ถาม<b>เนื้องอกอัณฑะที่พบบ่อยที่สุดในเด็ก</b>",
-  "why": "ในเด็กเล็ก (ทารก–ก่อนวัยรุ่น) เนื้องอกอัณฑะที่พบบ่อยที่สุดคือ <b>yolk sac tumor (endodermal sinus tumor)</b> — <b>AFP สูง</b> · รองลงมาคือ teratoma (ในเด็กมักเป็น benign) · ผู้ใหญ่ 25–40 ปีพบ seminoma/ mixed GCT · &gt; 50 ปีพบ lymphoma · ไฟล์ขีด D ลายมือ <b>\"80%\"</b> และแปะตาราง <b>Age wise incidence of testicular tumour</b> (Yolk sac tumour — infancy &amp; child hood)",
+  "interp": "ถามเนื้องอกอัณฑะที่พบบ่อยที่สุดในเด็ก — ต้องรู้ว่าเนื้องอกอัณฑะในเด็กก่อนวัยเจริญพันธุ์ต่างจากผู้ใหญ่ ในตำราดั้งเดิม yolk sac tumor เป็นชนิดที่พบบ่อยที่สุด (โดยเฉพาะอายุ &lt; 3 ปี) ส่วนผู้ใหญ่พบ seminoma มากที่สุด",
+  "why": "เนื้องอกอัณฑะในเด็กพบ<b>สองช่วง</b>: ทารก–ก่อน 3 ปี และวัยรุ่นหลังเข้าสู่วัยเจริญพันธุ์ (ซึ่งเหมือนผู้ใหญ่) · ในเด็กเล็ก ตำราดั้งเดิมระบุว่า <b>yolk sac tumor (endodermal sinus tumor)</b> พบบ่อยที่สุด ราว <b>60–80%</b> ของเนื้องอก germ cell ชนิดร้าย อายุเฉลี่ยราว 18 เดือน · มาด้วย<b>ก้อนแข็งไม่เจ็บในถุงอัณฑะ</b> · tumor marker คือ <b>AFP สูง</b> (~90%) ซึ่งต้องแปลผลตามอายุเพราะทารกมี AFP สูงตามธรรมชาติจนถึงราว 8 เดือน · พยาธิ: <b>Schiller-Duval bodies</b> · ส่วนใหญ่เป็น stage I จำกัดที่อัณฑะ รักษาด้วย <b>radical inguinal orchiectomy</b> แล้วติดตาม AFP และภาพ · กลับเป็นซ้ำให้เคมีบำบัด (cisplatin-based) อัตรารอดชีพ &gt; 95% · <b>teratoma</b> ในเด็กก่อนวัยเจริญพันธุ์เป็นชนิดไม่ร้าย จึงทำ <b>testis-sparing surgery</b> ได้ · ตรงคีย์ D — ไฟล์ขีดเส้นใต้ \"<b>in children</b>\" ขีด D เขียน \"<b>80%</b>\" และแปะตาราง \"Age wise incidence\" ที่ระบุ \"<b>Yolk sac Tumour — infancy &amp; childhood</b>\"",
   "wrong": {
-   "A": "Seminoma พบในผู้ใหญ่ 35–40 ปี (ตาราง) · จะถูกถ้าคำถามถามเนื้องอกอัณฑะที่พบบ่อยที่สุดในผู้ใหญ่",
-   "B": "Choriocarcinoma พบ 25–35 ปี β-hCG สูงมาก กระจายทางเลือด · จะถูกถ้าคำถามถาม GCT ที่ hCG สูงมาก + ปอดกระจาย",
-   "C": "Teratoma พบในเด็กรองลงมา (pure teratoma — pediatric age group) · จะถูกถ้าคำถามถามเนื้องอกอัณฑะในเด็กที่ AFP ปกติ",
-   "E": "Embryonal carcinoma พบ 25–30 ปี · จะถูกถ้าคำถามถาม NSGCT ในวัยหนุ่ม"
+   "A": "Seminoma เป็นเนื้องอกอัณฑะที่<b>พบบ่อยที่สุดในผู้ใหญ่</b> อายุ 35–40 ปี (ตามตารางในไฟล์) β-hCG อาจสูงเล็กน้อย AFP ปกติ ไวต่อรังสีและเคมีบำบัด แทบไม่พบในเด็กก่อนวัยเจริญพันธุ์ · จะถูกถ้าเป็นชาย 35 ปีมีก้อนแข็งไม่เจ็บที่อัณฑะขวา 2 เดือน US เป็นก้อน hypoechoic เนื้อเดียวกัน AFP ปกติ LDH สูง",
+   "B": "Choriocarcinoma เป็น germ cell tumor ที่ร้ายที่สุด <b>β-hCG สูงมาก</b> แพร่ทางเลือดเร็วไปปอดและสมอง (อาจเลือดออก) อาจมี gynecomastia หรือ hyperthyroidism จาก hCG พบในผู้ใหญ่อายุ 25–35 ปี ไม่ใช่เด็ก · จะถูกถ้าเป็นชาย 28 ปีไอเป็นเลือด เต้านมโต CT ปอดมีก้อนหลายก้อน β-hCG &gt; 100,000 IU/L และก้อนอัณฑะเล็ก",
+   "C": "Teratoma เป็นเนื้องอกที่พบบ่อยในเด็กเช่นกัน (ตารางในไฟล์ระบุ pure teratoma ในกลุ่มเด็ก) และงานทะเบียนรุ่นใหม่ในเด็กก่อนวัยเจริญพันธุ์พบ teratoma บ่อยกว่า yolk sac ด้วยซ้ำ แต่ในเด็กเป็นชนิดไม่ร้าย AFP ปกติ ตามตำราดั้งเดิมของข้อสอบนี้จึงไม่ใช่คำตอบ · จะถูกถ้าเป็นเด็กชาย 2 ปีก้อนอัณฑะที่ US เห็นเป็นถุงน้ำมีหินปูนและไขมัน AFP ปกติตามอายุ และคำถามถามเนื้องอกไม่ร้ายที่ทำ testis-sparing surgery ได้",
+   "E": "Embryonal carcinoma พบในผู้ใหญ่อายุ 25–30 ปี มักเป็นส่วนหนึ่งของ mixed germ cell tumor ลุกลามเร็ว ก้อนเจ็บได้ AFP และ β-hCG อาจสูงได้ทั้งคู่ ไม่ใช่เนื้องอกหลักในเด็กเล็ก · จะถูกถ้าเป็นชาย 26 ปีก้อนอัณฑะซ้าย CT พบต่อมน้ำเหลือง para-aortic โต AFP และ β-hCG สูงทั้งคู่ พยาธิเป็น mixed germ cell tumor ที่มี embryonal เด่น"
   },
-  "trap": "ตอบ seminoma เพราะพบบ่อยที่สุดในผู้ใหญ่",
+  "trap": "คนจำว่า seminoma เป็นเนื้องอกอัณฑะที่พบบ่อยที่สุดโดยไม่สนใจคำว่า <b>\"in children\"</b> (ไฟล์ขีดเส้นใต้) · เด็กเล็กเนื้องอกชนิดร้ายที่พบบ่อยคือ <b>yolk sac tumor (AFP สูง)</b> ส่วน teratoma ในเด็กเป็นชนิดไม่ร้าย",
   "summary": [
-   "เด็ก: yolk sac tumor (AFP ↑) &gt; teratoma",
-   "ผู้ใหญ่ 25–40: seminoma · mixed GCT",
-   "&gt; 50 ปี: lymphoma",
-   "Marker: AFP (yolk sac) · β-hCG (chorio) · LDH",
-   "Radical inguinal orchiectomy (ห้ามผ่าผ่านถุงอัณฑะ)",
-   "Teratoma ในเด็กก่อนวัยรุ่น → testis-sparing ได้"
+   "เนื้องอกอัณฑะเด็กก่อนวัยเจริญพันธุ์: yolk sac tumor (ชนิดร้ายที่พบบ่อยสุด) และ teratoma (ไม่ร้าย) · gonadal stromal tumor (Leydig, Sertoli) ส่วนน้อย",
+   "Yolk sac tumor: อายุ &lt; 3 ปี, AFP สูง (~90%), Schiller-Duval bodies · stage I ~85% → radical inguinal orchiectomy + ติดตาม AFP",
+   "AFP ทารกสูงตามธรรมชาติ ลดถึงระดับผู้ใหญ่ราว 8 เดือน · half-life AFP 5–7 วัน, β-hCG 24–36 ชม.",
+   "Prepubertal teratoma: ไม่ร้าย · testis-sparing (enucleation) ได้ · หลังวัยเจริญพันธุ์ teratoma เป็นชนิดร้ายได้",
+   "ผู้ใหญ่: seminoma (35–40 ปี) · nonseminoma: embryonal, yolk sac, choriocarcinoma, teratoma, mixed (25–35 ปี)",
+   "ทุกรายใช้ radical inguinal orchiectomy (ห้ามผ่าผ่านถุงอัณฑะ) · scrotal violation เปลี่ยนทางระบายน้ำเหลืองไป inguinal",
+   "ปัจจัยเสี่ยง: cryptorchidism (เสี่ยง ~2–8 เท่า), ประวัติมะเร็งอัณฑะอีกข้าง, ญาติสายตรง, GCNIS"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และตาราง",
-  "mnemonic": "<b>'เด็ก = ไข่แดง (Yolk sac) · AFP'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Testicular tumors; EAU Guidelines on Paediatric Urology (2025)",
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ขีด D \"80%\") มั่นใจปานกลาง — yolk sac tumor เป็นเนื้องอกอัณฑะชนิดร้ายที่พบบ่อยที่สุดในเด็กเล็กตามตำราและตารางในไฟล์ · ข้อสังเกต: ข้อมูลจาก Prepubertal Testis Tumor Registry และงานรุ่นใหม่พบ teratoma บ่อยกว่า yolk sac ในเด็กก่อนวัยเจริญพันธุ์ ถ้าข้อสอบหมายถึง \"เนื้องอกทุกชนิด\" คำตอบอาจเป็น teratoma แต่ถ้าหมายถึง \"ชนิดร้าย\" คือ yolk sac",
+  "mnemonic": "<b>'ก้อนอัณฑะ: เด็ก = Yolk sac (AFP) · ผู้ใหญ่ = Seminoma · ร้ายสุด = Chorio (hCG ทะลุ)'</b>",
+  "guide": "Holcomb and Ashcraft Pediatric Surgery 7th ed. (2020) ch. Testicular tumors; Ross JH et al. The Prepubertal Testis Tumor Registry (J Urol 2002)",
   "variants": [
-   "เด็ก 2 ปี อัณฑะโตแข็ง ไม่เจ็บ AFP สูง → yolk sac tumor → radical inguinal orchiectomy",
-   "ชาย 30 ปี อัณฑะโต marker ปกติ → seminoma",
-   "ชาย 70 ปี อัณฑะโตทั้งสองข้าง → lymphoma"
+   "เด็กชาย 18 เดือนก้อนแข็งไม่เจ็บที่อัณฑะซ้าย AFP 2,000 ng/mL → yolk sac tumor ทำ radical inguinal orchiectomy",
+   "เด็กชาย 3 ปีก้อนอัณฑะ US เป็นถุงน้ำมีหินปูน AFP ปกติ → prepubertal teratoma ทำ testis-sparing excision",
+   "ชาย 32 ปีก้อนอัณฑะ AFP ปกติ β-hCG สูงเล็กน้อย → seminoma",
+   "ทำไมต้องผ่าตัดผ่านขาหนีบ → ผูก spermatic cord ที่ internal ring ก่อนจับก้อนและไม่ทำลายถุงอัณฑะ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 119 — หัวข้อ Uro · ตัวพิมพ์: <b>76. Most common testicular tumor in children — A. Seminoma B. Choriocarcinoma C. Teratoma D. Yolk sac tumor E. Embryonal carcinoma</b><br>ลายมือ: ขีดเส้นใต้ \"in children\" · ขีด D + \"80%\"<br>ไฮไลต์: \"Most common testicular tumor in children\" · D (เหลือง)<br>รูปที่แปะ: ตาราง (ลายมือ \"internet\") Age wise incidence of testicular tumour — 1. Seminoma 35-40 · 2. Pure Terratoma — Pediatric age group · 3. Embryonal CA 25-30 · 4. Chorio CA 25-35 · 5. Yolk sac Tumour — infancy &amp; child hood · 6. Mixed terrato CA 25-30 · 7. Lymphoma &gt; 50",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 119",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU67|RoB|80": {
-  "interp": "ทารกหญิงแรกเกิด <b>clitoromegaly + labioscrotal fusion</b> ปัสสาวะปกติ → ถามการจัดการ<b>เบื้องต้น</b>",
-  "why": "อวัยวะเพศกำกวม (ambiguous genitalia) ในทารกที่ดูเป็นหญิง = <b>46,XX DSD</b> สาเหตุที่พบบ่อยที่สุดคือ <b>congenital adrenal hyperplasia (CAH — 21-hydroxylase deficiency)</b> · <b>salt-wasting crisis</b> (Na ต่ำ K สูง น้ำตาลต่ำ ช็อก) เกิดได้ในสัปดาห์ที่ 1–3 อันตรายถึงชีวิต → เบื้องต้นต้องส่ง <b>karyotype + serum electrolytes</b> (± 17-OHP, glucose) ก่อนตัดสินใจเรื่องเพศหรือผ่าตัด · ไฟล์ขีด B ลายมือ <b>\"R/O CAH\"</b>",
+  "interp": "ทารกแรกเกิดที่ดูเป็นเพศหญิงมี clitoromegaly และ labioscrotal fusion ปัสสาวะได้ปกติ — คือ atypical/ ambiguous genitalia (DSD) ถามการจัดการเริ่มต้น สาเหตุที่พบบ่อยและอันตรายที่สุดคือ congenital adrenal hyperplasia ที่อาจเกิด salt-wasting crisis จึงต้องตรวจโครโมโซมและเกลือแร่ก่อนเสมอ",
+  "why": "ทารกเพศหญิงที่มีลักษณะเป็นชาย (virilized 46,XX) สาเหตุที่พบบ่อยที่สุดคือ <b>congenital adrenal hyperplasia (CAH)</b> จาก <b>21-hydroxylase deficiency</b> (~90–95%) — สร้าง cortisol และ aldosterone ไม่ได้ สารตั้งต้นจึงไปสร้าง androgen เกิน · ราว 2/3 เป็นชนิด <b>salt-wasting</b> ซึ่งเกิด <b>adrenal crisis</b> (Na ต่ำ K สูง น้ำตาลต่ำ ช็อก) ราวสัปดาห์ที่ 1–3 และ<b>ถึงตายได้</b> · ภาวะ DSD เป็น<b>ภาวะเร่งด่วนทางสังคมและการแพทย์</b>: ไม่ควรกำหนดเพศก่อนผลตรวจ · การตรวจเริ่มต้น: <b>karyotype</b> (หรือ SRY FISH ด่วน), <b>17-hydroxyprogesterone</b>, <b>serum electrolytes และน้ำตาล</b> ติดตามทุกวัน, US อุ้งเชิงกราน (มดลูก ต่อมเพศ) และทีมสหสาขา · รักษา CAH ด้วย <b>hydrocortisone</b> ± fludrocortisone และเกลือ · การผ่าตัด (clitoroplasty, vaginoplasty) <b>ไม่ใช่สิ่งเร่งด่วน</b> และปัจจุบันมีแนวโน้มเลื่อนออกไปเพื่อให้ผู้ป่วยมีส่วนตัดสินใจ · ตรงคีย์ B — ไฟล์ขีด B และเขียน \"<b>R/O CAH</b>\"",
   "wrong": {
-   "A": "ทายา steroid ไม่ใช่การรักษา CAH (ต้อง hydrocortisone ระบบ ± fludrocortisone หลังวินิจฉัย) · จะถูกถ้าคำถามถาม labial adhesion ในเด็กหญิงที่ใช้ estrogen cream",
-   "C": "ผ่าตัดทันทีโดยยังไม่วินิจฉัย/ ไม่ประเมินเพศไม่เหมาะ · จะถูกถ้าคำถามถาม (ในอดีต) การผ่าตัดหลังยืนยัน CAH ผ่าน multidisciplinary team",
-   "D": "การผ่าตัดเป็นเรื่องหลังวินิจฉัยและปรึกษาทีม (ปัจจุบันเลื่อน/ ให้ผู้ป่วยร่วมตัดสินใจได้) · จะถูกถ้าคำถามถามแผนผ่าตัดหลังยืนยัน CAH และตัดสินใจร่วมกับครอบครัว",
-   "E": "เช่นเดียวกัน ไม่ใช่ขั้นแรก · จะถูกถ้าคำถามถามลำดับการผ่าตัดหลังวินิจฉัย"
+   "A": "ยาทาสเตียรอยด์ใช้รักษา labial adhesion (ริมแคมเล็กติดกันจาก estrogen ต่ำในเด็กเล็ก) ด้วย estrogen หรือ steroid ครีม ไม่ใช่ภาวะที่มี clitoris โต และไม่ได้รักษา CAH ซึ่งต้องใช้ hydrocortisone กิน · จะถูกถ้าเป็นเด็กหญิง 2 ปีที่ clitoris ขนาดปกติ มีเพียงแคมเล็กติดกันเป็นแผ่นบาง ๆ ตรงกลาง ปัสสาวะได้ (labial adhesion) ซึ่งทาครีม estrogen ได้",
+   "C": "การผ่าตัดลด clitoris ทันทีโดยยังไม่รู้โครโมโซม ฮอร์โมน และไม่ได้คุม salt-wasting เป็นอันตรายและผิดหลักจริยธรรม (กำหนดเพศก่อนวินิจฉัย ทำลายเนื้อเยื่อประสาท) · จะถูกถ้าเป็นเด็กหญิง 46,XX CAH ที่คุมฮอร์โมนได้ดีแล้ว ผ่านการปรึกษาทีมสหสาขาและครอบครัวเลือกผ่าตัดแก้ไข ซึ่งก็ไม่ใช่ \"ทันที\" หลังคลอด",
+   "D": "การวางแผนผ่าตัดลด clitoris ที่ 6–12 เดือนเป็นแนวทางเดิมบางแห่งสำหรับ CAH ที่ virilized มาก แต่ต้องมาหลังการวินิจฉัย คุม salt-wasting และตัดสินใจร่วมกันแล้ว ไม่ใช่ initial management · จะถูกถ้าเป็นทารก 46,XX CAH ที่ได้ hydrocortisone และ fludrocortisone เกลือแร่ปกติ Prader stage 4 และครอบครัวตัดสินใจหลังรับคำปรึกษาครบถ้วนว่าต้องการผ่าตัดช่วงขวบปีแรก",
+   "E": "การแยก labioscrotal fusion ก่อนและผ่าตัด clitoris ตอนวัยรุ่นเป็นการวางแผนผ่าตัดที่ข้ามการวินิจฉัยและการคุมภาวะ adrenal crisis ที่อาจถึงตาย · จะถูกถ้าเป็นเด็กหญิง 46,XX CAH ที่คุมฮอร์โมนได้ดี มี urogenital sinus ต่ำ และทีมสหสาขาเลือกเลื่อนการผ่าตัด clitoris ไปจนผู้ป่วยตัดสินใจเองได้"
   },
-  "trap": "รีบผ่าตัดแก้รูปลักษณ์ — ต้องหาสาเหตุ (CAH) ที่อาจทำให้ salt-wasting crisis ก่อน",
+  "trap": "ภาพทางกายวิภาคชวนให้คิดถึงการผ่าตัดแก้ไข — ทารกที่มีอวัยวะเพศกำกวมต้อง<b>หาสาเหตุก่อนเสมอ</b> โดยเฉพาะ <b>CAH ที่ salt-wasting ถึงตายได้</b> จึงตรวจ karyotype + electrolytes (+ 17-OHP) และ<b>ไม่กำหนดเพศหรือผ่าตัดเร่งด่วน</b>",
   "summary": [
-   "Ambiguous genitalia = medical emergency (CAH)",
-   "46,XX DSD: CAH (21-OHD) พบบ่อยที่สุด",
-   "ตรวจ: karyotype · electrolytes · glucose · 17-OHP · US pelvis",
-   "Salt-wasting: Na ↓ K ↑ → hydrocortisone + fludrocortisone + NaCl",
-   "ยังไม่กำหนดเพศจนกว่าทีม multidisciplinary ประเมิน",
-   "คลำได้อัณฑะในทารก 'หญิง' → ไม่ใช่ CAH"
+   "Atypical genitalia = DSD · ภาวะเร่งด่วน · ไม่กำหนดเพศก่อนผลตรวจ · ทีมสหสาขา (กุมารต่อมไร้ท่อ ศัลย์ จิตแพทย์ พันธุกรรม)",
+   "46,XX virilized: CAH (21-hydroxylase ~90–95%, 11β-hydroxylase มีความดันสูง) · maternal androgen (luteoma, ยา) · aromatase deficiency",
+   "Salt-wasting CAH: Na ต่ำ K สูง น้ำตาลต่ำ อาเจียน ช็อก สัปดาห์ที่ 1–3 → hydrocortisone stress dose + NSS + dextrose",
+   "ตรวจ: karyotype/ SRY, 17-OHP (หลัง 24–48 ชม.), electrolytes ทุกวัน, glucose, US อุ้งเชิงกราน, ACTH stimulation, testosterone/ DHT, AMH",
+   "รักษา CAH: hydrocortisone 10–15 mg/m²/วัน + fludrocortisone + NaCl ในทารก · เพิ่มขนาดเมื่อเจ็บป่วย (stress dose)",
+   "46,XY undervirilized: androgen insensitivity, 5α-reductase deficiency, gonadal dysgenesis · mixed gonadal dysgenesis 45,X/46,XY (เสี่ยง gonadoblastoma)",
+   "ผ่าตัด: clitoroplasty/ vaginoplasty ไม่เร่งด่วน มีแนวโน้มเลื่อนเพื่อให้ผู้ป่วยร่วมตัดสินใจ · ทำในศูนย์เฉพาะทาง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'อวัยวะเพศกำกวม: Karyotype + Na/K ก่อน (CAH ฆ่าได้)'</b>",
-  "guide": "Endocrine Society Clinical Practice Guideline: Congenital Adrenal Hyperplasia Due to 21-Hydroxylase Deficiency (J Clin Endocrinol Metab 2018;103:4043); Consensus Statement on Management of Intersex Disorders (Pediatrics 2006;118:e488)",
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ขีด B \"R/O CAH\") มั่นใจสูงมาก — การตรวจโครโมโซมและเกลือแร่เป็นขั้นแรกของทารกอวัยวะเพศกำกวมเพื่อวินิจฉัยและป้องกัน salt-wasting crisis · ข้อสังเกต: ในทางปฏิบัติควรส่ง 17-hydroxyprogesterone ร่วมด้วย และช้อยผ่าตัดทั้งหมดไม่ใช่ initial management ไม่ว่าเวลาที่วางแผน",
+  "mnemonic": "<b>'อวัยวะเพศกำกวม: อย่าเพิ่งตั้งชื่อ อย่าเพิ่งผ่า — Karyotype + Electrolytes + 17-OHP (หา CAH ก่อนเกลือหาย)'</b>",
+  "guide": "Speiser PW et al. Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency: Endocrine Society Clinical Practice Guideline (J Clin Endocrinol Metab 2018); Lee PA et al. Global DSD Update Consortium (Horm Res Paediatr 2016)",
   "variants": [
-   "ทารกอวัยวะเพศกำกวม อายุ 10 วัน อาเจียน ซึม Na 125 K 7 → CAH salt-wasting",
-   "ทารก 'หญิง' คลำได้ก้อนที่ขาหนีบ → AIS/ 46,XY DSD",
-   "ทารก 46,XX + 17-OHP สูง → 21-hydroxylase deficiency"
+   "ทารกอวัยวะเพศกำกวมวันที่ 10 อาเจียน ซึม Na 125 K 7.0 → salt-wasting CAH ให้ hydrocortisone ฉีด NSS และ dextrose",
+   "ทารก 46,XX 17-OHP สูงมาก US มีมดลูก → 21-hydroxylase deficiency เริ่ม hydrocortisone + fludrocortisone",
+   "ทารกดูเป็นชาย คลำอัณฑะไม่ได้ทั้งสองข้างร่วม hypospadias → ตรวจ karyotype และ 17-OHP หา 46,XX CAH",
+   "ทำไม CAH ทำให้ทารกหญิงมีลักษณะเป็นชาย → สร้าง cortisol ไม่ได้ ACTH สูง สารตั้งต้นไหลไปสร้าง androgen ตั้งแต่ในครรภ์"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 119 — ตัวพิมพ์: <b>80. ผู้ป่วยเด็กหญิงแรกเกิด ตรวจร่างกายพบ clitoromegaly and labioscrotal fusion ปัสสาวะได้ปกติ จงบอก initial management — A. ทายา steriod B. Chromosome study + serum electrolytes C. ผ่าลดขนาด clitoris ทันที และผ่าแยก labioscrotal fusion เมื่ออายุ 6-12 เดือน D. ผ่าลดขนาด clitoris ตอนอายุ 6-12 เดือน และผ่าแก้ labioscrotal fusion เมื่อเข้า puberty E. ผ่าแก้ labioscrotal fusion ตอนอายุ 6-12 เดือน และผ่าลดขนาด clitoris เมื่อเข้า puberty</b><br>ลายมือ: ขีด B + \"R/O CAH\"<br>ไฮไลต์: \"หญิงแรกเกิด\" \"clitoromegaly and labioscrotal fusion\" \"ปัสสาวะได้ปกติ\" \"initial management\" · B (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 119",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU67|RoB|81": {
-  "interp": "เด็ก 5 ปี <b>คลำได้ก้อนที่ชายโครงซ้าย</b> (hydronephrosis) <b>renal scan: ไตทำงาน 5%</b> · VCUG ปกติ → ถามการจัดการ",
-  "why": "Hydronephrosis + VCUG ปกติ (ไม่มี reflux) = <b>UPJ obstruction</b> · ไตข้างนั้นทำงานเหลือ<b>น้อยมาก (5% — ต่ำกว่า ~10%)</b> ซึ่งไม่น่าจะฟื้นหลังซ่อม → <b>nephrectomy</b> · ถ้าการทำงานยังพอ (&gt; ~10%) → <b>pyeloplasty</b> · ถ้าไม่มีอาการและการทำงาน &gt; 40% → ติดตาม · ไฟล์ขีด B ลายมือ <b>\"hydronephrosis\"</b> · <b>\"= no reflux obs.\"</b> · <b>\"UPJ obs.\"</b> · <b>\"Sx\"</b> · A <b>\"&lt; 40%\"</b> · B <b>\"&lt; 10%\"</b> และแปะสไลด์ <b>Treatment: primary UPJO (Conservative if no symptom and good differential renal function (&gt; 40%) · Surgery: pyeloplasty)</b>",
+  "interp": "เด็ก 5 ปีมีก้อนที่ชายโครงซ้ายจากไตบวมน้ำ renal scan ไตข้างนั้นทำงานเพียง 5% VCUG ปกติ (ไม่มี reflux) — คือ UPJ obstruction ที่ไตเสียการทำงานมาก ถามการรักษา หลักคือไตที่ทำงาน &lt; 10% มักฟื้นไม่ได้และพิจารณาตัดไต ส่วนไตที่ทำงาน 10–40% ทำ pyeloplasty",
+  "why": "<b>Ureteropelvic junction (UPJ) obstruction</b> เป็นสาเหตุไตบวมน้ำในเด็กที่พบบ่อยที่สุด (intrinsic stenosis, หลอดเลือดพาดข้าง lower pole) · มาด้วยไตบวมน้ำก่อนคลอด ก้อนที่ท้อง ปวดเอวเป็นพัก UTI หรือเลือดในปัสสาวะ · <b>VCUG ปกติ</b>ตัด VUR ซึ่งทำให้ไตบวมน้ำได้เช่นกัน · ใช้ <b>diuretic renogram (MAG3)</b> ดู differential renal function (DRF) และรูปแบบการระบาย · การตัดสินใจ: <b>DRF &lt; 40%</b>, DRF ลดลง &gt; 10%, อาการ, UTI หรือ AP diameter เพิ่ม → <b>pyeloplasty</b> (Anderson-Hynes dismembered) · ไตที่ <b>DRF &lt; 10% (ไม่ทำงาน)</b> มักฟื้นได้น้อย และถ้าไตอีกข้างปกติ พิจารณา <b>nephrectomy</b> เพื่อลดภาวะแทรกซ้อน (ติดเชื้อ ปวด ความดันสูง) · บางสถาบันใส่ PCN ระบาย 4–6 สัปดาห์ก่อนเพื่อทดสอบว่าไตฟื้นได้หรือไม่ · ตรงคีย์ B — ไฟล์ขีด B เขียน \"<b>&lt; 10%</b>\" ที่ A เขียน \"<b>&lt; 40%</b>\" และเขียน \"<b>hydronephrosis</b>\" \"<b>= no reflux obs.</b>\" \"<b>UPJ obs.</b>\"",
   "wrong": {
-   "A": "Pyeloplasty ใช้เมื่อไตยังทำงานพอ (การทำงานลดลง &lt; 40% แต่ยังเหลือ &gt; ~10%) หรือมีอาการ · จะถูกถ้า renal scan ไตทำงาน 30% + ปวด/ ติดเชื้อ",
-   "C": "สังเกตอาการใช้เมื่อไม่มีอาการและไตทำงาน &gt; 40% · จะถูกถ้าเป็น antenatal hydronephrosis ไม่มีอาการ split function 48%",
-   "D": "Percutaneous drainage ใช้ชั่วคราวเมื่อติดเชื้อ (pyonephrosis) หรือประเมินว่าไตฟื้นได้หรือไม่ · จะถูกถ้ามีไข้ hydronephrosis ติดเชื้อ หรือไม่แน่ใจว่าไตจะฟื้น",
-   "E": "JJ stent ใช้ชั่วคราว ไม่ใช่การรักษาหลักใน UPJO เด็ก · จะถูกถ้าคำถามถามระบายชั่วคราวในผู้ใหญ่ก่อนผ่าตัด"
+   "A": "Pyeloplasty เป็นการรักษาหลักของ UPJ obstruction ที่ไตยัง<b>ทำงานพอ (DRF 10–40%)</b> หรือมีอาการ (ไฟล์เขียน \"&lt; 40%\") ตัดส่วนตีบแล้วต่อใหม่ สำเร็จ &gt; 90% แต่ไตที่ทำงานเพียง 5% ฟื้นได้น้อย · จะถูกถ้าเป็นเด็กชาย 5 ปีปวดเอวซ้ายเป็นพักหลังดื่มน้ำมาก US ไตบวมน้ำ MAG3 แสดงไตซ้ายทำงาน 32% และระบายแบบอุดตัน",
+   "C": "การเฝ้าดูใช้กับไตบวมน้ำที่ไตยังทำงานดี (DRF &gt; 40%) ไม่มีอาการ และระบายได้ ซึ่งหลายรายดีขึ้นเองเมื่อโต แต่ไตที่ทำงาน 5% และเป็นก้อนคลำได้ไม่ควรเฝ้าดูเฉย ๆ · จะถูกถ้าเป็นทารก 3 เดือนที่ US ก่อนคลอดพบไตซ้ายบวมน้ำ ไม่มีอาการ MAG3 DRF 46% และระบายได้ช้าเล็กน้อย",
+   "D": "Percutaneous nephrostomy ใช้ระบายด่วนในไตบวมน้ำที่<b>ติดเชื้อ (pyonephrosis)</b> หรือเป็นการทดลองระบาย 4–6 สัปดาห์เพื่อดูว่าไตที่ทำงานน้อยฟื้นได้หรือไม่ แต่ไม่ใช่การรักษาถาวร · จะถูกถ้าเป็นเด็กชาย 5 ปีเดียวกันที่มีไข้สูงหนาวสั่น ช็อก US ไตบวมน้ำมีหนองข้างใน ต้องระบายด่วนก่อนการรักษาถาวร",
+   "E": "Cystoscopy + JJ stent ระบายชั่วคราวผ่านทางท่อไต ใช้ในผู้ใหญ่หรือในภาวะอุดตันเฉียบพลัน แต่ในเด็กใส่ยากผ่าน UPJ ที่ตีบ และไม่ใช่การรักษาถาวร · จะถูกถ้าเป็นหญิงตั้งครรภ์ 28 สัปดาห์ที่มี UPJ obstruction เดิมปวดเอวมากและไตบวมน้ำเพิ่มขึ้น ต้องระบายชั่วคราวจนคลอดค่อยทำ pyeloplasty"
   },
-  "trap": "ผ่า pyeloplasty ทุกราย — ไตที่ทำงาน &lt; 10% มักไม่ฟื้น ตัดไตออก",
+  "trap": "ได้ยิน UPJ obstruction แล้วตอบ pyeloplasty ทันที — ต้องดู <b>differential renal function</b>: 10–40% → pyeloplasty · <b>&lt; 10% (ไฟล์เขียน)</b> ไตแทบไม่ทำงาน และไตอีกข้างปกติ → <b>nephrectomy</b>",
   "summary": [
-   "UPJO: hydronephrosis ไม่มี hydroureter · VCUG ปกติ",
-   "Diuretic renogram (MAG3): อุดกั้น + split function",
-   "&gt; 40% ไม่มีอาการ → ติดตาม",
-   "ทำงานลดลง/ มีอาการ/ ติดเชื้อ/ นิ่ว → pyeloplasty (Anderson-Hynes)",
-   "&lt; 10% → nephrectomy (± PCN ทดสอบก่อน)",
-   "ติดเชื้อ → PCN ระบายก่อน"
+   "UPJ obstruction: สาเหตุไตบวมน้ำเด็กที่พบบ่อยสุด · ชาย &gt; หญิง · ซ้าย &gt; ขวา · intrinsic aperistaltic segment หรือ crossing vessel (เด็กโต)",
+   "อาการ: antenatal hydronephrosis, ก้อนที่ท้อง (สาเหตุก้อนท้องทารกที่พบบ่อยสุด), Dietl crisis, UTI, hematuria หลังบาดเจ็บเล็กน้อย",
+   "ตรวจ: US (APD, SFU grade) → MAG3 diuretic renogram (DRF, drainage curve) → VCUG ตัด VUR",
+   "Pyeloplasty: DRF &lt; 40%, DRF ลด &gt; 10%, อาการ, UTI ซ้ำ, APD เพิ่มขึ้น · Anderson-Hynes dismembered (open, laparoscopic, robotic)",
+   "DRF &lt; 10% + ไตอีกข้างปกติ → nephrectomy (หรือ PCN trial ก่อนในบางราย) · ไตข้างเดียว → พยายามรักษาไตไว้",
+   "เฝ้าดู: DRF &gt; 40% ไม่มีอาการ ระบายได้ → US/ renogram เป็นระยะ หลายรายหายเอง",
+   "Pyonephrosis → PCN ด่วน + ยาปฏิชีวนะ ก่อนการรักษาถาวร"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางค่อนข้างสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ (บางแหล่งแนะนำ PCN ประเมินการฟื้นตัวก่อนในเด็ก)",
-  "mnemonic": "<b>'UPJO: &gt; 40% ดู · 10–40% ซ่อม · &lt; 10% ตัด'</b>",
-  "guide": "EAU Guidelines on Paediatric Urology (2025) — UPJ obstruction; Campbell-Walsh-Wein Urology 12th ed. (2020)",
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ขีด B \"&lt; 10%\") มั่นใจปานกลาง — ไตที่ทำงาน 5% ร่วมไตอีกข้างปกติเข้าเกณฑ์ nephrectomy ตามลายมือ · ข้อสังเกต: ในเด็กไตที่อุดตันบางส่วนฟื้นได้มากกว่าที่คาด หลายศูนย์จึงใส่ PCN ระบาย 4–6 สัปดาห์แล้ววัด DRF ซ้ำก่อนตัดสินใจตัดไต และบางแหล่งทำ pyeloplasty แม้ DRF ต่ำ ข้อสอบนี้ใช้เกณฑ์ดั้งเดิม",
+  "mnemonic": "<b>'UPJ: ไตทำงาน &gt; 40% ดูไป · 10–40% ต่อใหม่ (pyeloplasty) · &lt; 10% ตัดทิ้ง'</b>",
+  "guide": "Nguyen HT et al. Multidisciplinary consensus on the classification of prenatal and postnatal urinary tract dilation (UTD system) (J Pediatr Urol 2014); EAU Guidelines on Paediatric Urology 2025 (UPJ obstruction)",
   "variants": [
-   "เด็กปวดท้องเป็นพัก ๆ หลังดื่มน้ำมาก (Dietl crisis) hydronephrosis split 35% → pyeloplasty",
-   "ทารก antenatal hydronephrosis split 45% ไม่มีอาการ → ติดตาม",
-   "hydronephrosis + hydroureter + VCUG reflux → VUR (ไม่ใช่ UPJO)"
+   "ทารก US ไตขวาบวมน้ำ MAG3 DRF 45% ระบายได้ ไม่มีอาการ → เฝ้าดู US เป็นระยะ",
+   "เด็ก 8 ปีปวดเอวเป็นพักหลังดื่มน้ำมาก CT เห็นหลอดเลือด lower pole พาด UPJ → laparoscopic pyeloplasty ย้ายท่อไตไปหน้าหลอดเลือด",
+   "ไตบวมน้ำติดเชื้อ ไข้สูง → PCN ด่วน + ยาปฏิชีวนะ",
+   "ทำไมต้องตรวจ VCUG ในไตบวมน้ำ → VUR ทำให้ท่อไตและไตขยายได้เหมือนการอุดตัน แต่รักษาต่างกัน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 119 — ตัวพิมพ์: <b>81. เด็กอายุ 5 ปี คลำพบก้อนที่ชายโครงซ้าย renal function scan ทำงานได้ 5%, VCUG ปกติ ถามว่าควร management อย่างไร — A. Pyeloplasty B. Nephrectomy C. D. Percutaneous drainage E. Cystoscopic with J stent</b><br>ลายมือ: \"hydronephrosis\" · \"&lt; 40%\" · \"= no reflux obs.\" · \"UPJ obs.\" · \"Sx\" · A \"&lt; 40%\" · ขีด B + \"&lt; 10%\"<br>ไฮไลต์: \"5 ปี\" \"ก้อนที่ชายโครงซ้าย\" \"renal function scan ทำงานได้ 5%\" \"VCUG ปกติ\" \"management อย่างไร\" · B (เหลือง)<br>รูปที่แปะ: ① สไลด์ Treatment: primary UPJO — Conservative if no symptom and good differential renal function (&gt; 40%) · Surgery: pyeloplasty + ลายมือ ② สไลด์ Pyeloplasty + ภาพ<br>ที่ปรับในเว็บ: เติมช้อย C (Observation) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 119",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU67|RoB|82": {
-  "interp": "ชาย 75 ปี หกล้ม <b>กระดูก humerus หัก</b> X-ray พบรอยโรค (สงสัยกระดูกหักจากมะเร็ง) มี LUTS · ต่อมลูกหมาก &gt; 50 g <b>ผิวขรุขระ</b> · <b>PSA &gt; 100</b> → ถามการรักษา",
-  "why": "PSA &gt; 100 + ต่อมลูกหมากขรุขระ + pathologic fracture = <b>metastatic prostate cancer (bone metastasis)</b> → รักษาหลักคือ <b>androgen deprivation therapy (ADT)</b> ซึ่ง <b>bilateral orchiectomy</b> เป็น ADT แบบผ่าตัด (ถูก ได้ผลทันที ไม่ต้องฉีดยาซ้ำ) หรือ LHRH agonist/ antagonist (ปัจจุบันมักให้ร่วมกับ ARPI ± docetaxel) · ไฟล์ขีด D ลายมือ <b>\"→ bone met. CA prostate\"</b> · <b>\"!\"</b> หลัง PSA &gt; 100 · A <b>\"ใน local, locally advanced CA\"</b> · B–C <b>\"ให้เป็น palliative ต่อ\"</b> และแปะสไลด์การรักษาตาม staging",
+  "interp": "ชาย 75 ปีหกล้มกระดูกต้นแขนหัก ภาพรังสีเห็นรอยโรคในกระดูก มีอาการทางเดินปัสสาวะ ต่อมลูกหมากใหญ่ผิวขรุขระ PSA &gt; 100 — คือมะเร็งต่อมลูกหมากแพร่กระจายไปกระดูก (pathological fracture) ถามการรักษา หลักคือ androgen deprivation therapy ซึ่งการตัดอัณฑะสองข้างเป็นวิธีหนึ่ง",
+  "why": "<b>PSA &gt; 100 ng/mL</b> ร่วม<b>ต่อมลูกหมากแข็งขรุขระ</b>และ<b>รอยโรคกระดูกจนหัก</b> บ่งชี้ <b>metastatic prostate cancer</b> อย่างมาก (มะเร็งต่อมลูกหมากแพร่ไปกระดูกเป็นแบบ <b>osteoblastic</b> ที่กระดูกสันหลัง เชิงกราน ซี่โครง และต้นแขนขา) · การรักษาหลักของระยะแพร่กระจายคือ <b>androgen deprivation therapy (ADT)</b> เพราะเซลล์มะเร็งต้องพึ่ง testosterone: <b>bilateral (subcapsular) orchiectomy</b> (surgical castration ลด testosterone ภายในชั่วโมง ราคาถูก ไม่ต้องฉีดซ้ำ) หรือ <b>LHRH agonist</b> (leuprolide, goserelin; ระวัง flare ช่วงแรกให้ antiandrogen นำ) หรือ <b>LHRH antagonist</b> (degarelix, relugolix) · ปัจจุบันแนะนำ <b>ADT ร่วม ARPI</b> (abiraterone, enzalutamide, apalutamide, darolutamide) ± docetaxel ใน metastatic hormone-sensitive disease · กระดูกหัก: ยึดตรึงกระดูก + รังสีรักษาเฉพาะที่ · ป้องกันกระดูก: denosumab/ zoledronic acid · ต้องยืนยันชิ้นเนื้อก่อน (ต่อมลูกหมากหรือรอยโรคกระดูก) · ตรงคีย์ D — ไฟล์ขีด D เขียน \"<b>→ bone met. CA prostate</b>\" ที่ A เขียน \"<b>ใน local, locally advanced CA</b>\" และวงเล็บ B–C \"<b>ให้เป็น palliative</b>\" พร้อมแปะสไลด์ \"<b>Hormonal therapy: Orchiectomy · LH-RH analogue · Antiandrogen</b>\"",
   "wrong": {
-   "A": "TURP แก้การอุดกั้นทางเดินปัสสาวะ ไม่รักษามะเร็งที่กระจาย · จะถูกถ้าคำถามถามผู้ป่วยมะเร็งระยะลุกลามที่ปัสสาวะไม่ออกจากต่อมอุดกั้น (channel TURP)",
-   "B": "รังสีรักษาใช้ palliative กับจุดกระดูกที่ปวด/ เสี่ยงหัก (ลายมือ) · จะถูกถ้าคำถามถามรักษาอาการปวดกระดูกเฉพาะที่หลังเริ่ม ADT",
-   "C": "เคมีบำบัด (docetaxel) ใช้ร่วม ADT ใน high-volume หรือเมื่อดื้อฮอร์โมน (castration-resistant) · จะถูกถ้าคำถามถามโรคที่ดำเนินต่อแม้ testosterone อยู่ระดับ castrate",
-   "E": "Brachytherapy ใช้กับมะเร็งเฉพาะที่ (localized) · จะถูกถ้ามะเร็งระยะ T1–T2 low/ intermediate risk"
+   "A": "TURP แก้การอุดตันทางเดินปัสสาวะจากต่อมโต เป็นการรักษาอาการเฉพาะที่ ไม่รักษามะเร็งที่แพร่กระจาย (ไฟล์เขียนว่าใช้ใน local/ locally advanced) และ palliative TURP ทำได้เมื่อปัสสาวะคั่งไม่ตอบสนองต่อ ADT · จะถูกถ้าเป็นชาย 75 ปีมะเร็งต่อมลูกหมากระยะแพร่กระจายที่ได้ ADT มาแล้ว 3 เดือน แต่ยังปัสสาวะคั่งซ้ำจนถอดสายไม่ได้",
+   "B": "Radiation ใช้รักษาเฉพาะที่ เช่นรังสีต่อกระดูกที่ปวดหรือหัก (8 Gy ครั้งเดียว) หรือรังสีที่ต่อมลูกหมากใน low-volume metastatic disease ร่วมกับ ADT แต่ไม่ใช่การรักษาหลักทั้งระบบ (ไฟล์วงเล็บว่า palliative) · จะถูกถ้าเป็นชาย 70 ปีมะเร็งต่อมลูกหมากแพร่ไปกระดูกที่ได้ ADT แล้ว ยังปวดกระดูกสันหลังส่วนเอวจุดเดียวมากแม้ใช้ยาแก้ปวด",
+   "C": "เคมีบำบัด (docetaxel) ใช้ร่วมกับ ADT ใน high-volume metastatic hormone-sensitive disease ที่ผู้ป่วยแข็งแรงพอ หรือในระยะ castration-resistant ไม่ใช่การรักษาเดี่ยวขั้นแรก และผู้ป่วยอายุ 75 ปีต้องประเมินความทนทานก่อน · จะถูกถ้าเป็นชาย 65 ปีแข็งแรงดี ได้ ADT แล้ว PSA ขึ้นซ้ำทั้งที่ testosterone อยู่ในระดับ castrate (&lt; 50 ng/dL) และมีรอยโรคกระดูกใหม่ (mCRPC)",
+   "E": "Brachytherapy (ฝังแร่) เป็นรังสีรักษา<b>มะเร็งเฉพาะที่</b> (localized, low–intermediate risk, ต่อมไม่ใหญ่มาก &lt; 50–60 mL) ไม่ใช้ในระยะแพร่กระจายและต่อมใหญ่ &gt; 50 g · จะถูกถ้าเป็นชาย 65 ปีมะเร็งต่อมลูกหมาก Gleason 3+4 PSA 7 ต่อมขนาด 35 mL ไม่มีการแพร่กระจาย และต้องการหลีกเลี่ยงการผ่าตัด"
   },
-  "trap": "รักษาเฉพาะที่ (TURP/ brachytherapy) — มะเร็งกระจายต้องคุมทั้งระบบด้วยฮอร์โมน",
+  "trap": "อาการทางเดินปัสสาวะและต่อมโตชวนเลือก TURP หรือรังสีเฉพาะที่ — แต่ <b>PSA &gt; 100 + กระดูกหักจากรอยโรค</b> = มะเร็งแพร่กระจาย ต้องรักษา<b>ทั้งระบบด้วย ADT</b> (orchiectomy หรือยาฉีด) เป็นหลัก การรักษาเฉพาะที่เป็นเพียง palliative",
   "summary": [
-   "Localized (≤ T2): radical prostatectomy/ RT/ active surveillance",
-   "Locally advanced (T3N0M0): RT + ADT ± ผ่าตัด",
-   "Metastatic: ADT (orchiectomy/ LHRH) + ARPI ± docetaxel",
-   "Bone mets: denosumab/ zoledronic acid · palliative RT",
-   "Castration-resistant: ARPI · docetaxel · Lu-PSMA",
-   "PSA &gt; 100 แทบยืนยันการกระจาย"
+   "Metastatic prostate cancer: กระดูก (osteoblastic) &gt; ต่อมน้ำเหลือง &gt; ปอด ตับ · PSA &gt; 100 บ่งแพร่กระจายสูงมาก",
+   "ADT: bilateral orchiectomy (surgical) · LHRH agonist (ระวัง flare → antiandrogen 2–4 สัปดาห์ก่อน) · LHRH antagonist (degarelix, relugolix ไม่มี flare)",
+   "mHSPC: ADT + ARPI (abiraterone + prednisone, enzalutamide, apalutamide, darolutamide) ± docetaxel (high volume) · รังสีที่ต่อมใน low volume",
+   "mCRPC: PSA ขึ้นทั้งที่ testosterone &lt; 50 ng/dL → ARPI ที่ยังไม่ใช้, docetaxel/ cabazitaxel, PARP inhibitor (BRCA), Lu-177 PSMA, radium-223",
+   "กระดูก: denosumab หรือ zoledronic acid (ลด skeletal-related events) · แคลเซียม + วิตามิน D · pathological fracture → ยึดตรึง + RT",
+   "Spinal cord compression: dexamethasone ทันที + MRI + รังสี/ ผ่าตัดด่วน",
+   "ผลข้างเคียง ADT: ร้อนวูบวาบ กระดูกพรุน กล้ามเนื้อลด เบาหวาน โรคหัวใจ ความต้องการทางเพศลด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ · ปัจจุบันมาตรฐานคือ ADT ร่วมกับยาเสริม (ARPI ± docetaxel)",
-  "mnemonic": "<b>'Prostate CA กระจาย = ตัดฮอร์โมน (ตัดไข่/ ฉีด LHRH)'</b>",
-  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer (2025); NCCN Prostate Cancer v.2025",
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ขีด D \"bone met. CA prostate\") มั่นใจสูง — ADT ด้วย bilateral orchiectomy เป็นการรักษาหลักของมะเร็งต่อมลูกหมากระยะแพร่กระจายตามสไลด์ hormonal therapy ในไฟล์ · ข้อสังเกต: แนวทาง EAU/ NCCN ปัจจุบันให้ ADT ร่วม ARPI ไม่ใช่ ADT เดี่ยว และต้องยืนยันชิ้นเนื้อก่อนเริ่ม แต่ในชุดช้อยนี้ orchiectomy คือ ADT ข้อเดียว",
+  "mnemonic": "<b>'มะเร็งต่อมลูกหมากแพร่กระจาย = ตัดฮอร์โมน (ADT): ตัดอัณฑะ หรือ ฉีด LHRH'</b>",
+  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2025; NCCN Clinical Practice Guidelines in Oncology: Prostate Cancer (2025)",
   "variants": [
-   "ชาย 80 ปี ปวดหลัง PSA 250 bone scan หลายจุด → ADT",
-   "ชาย 65 ปี PSA 8 Gleason 7 ไม่มีกระจาย → radical prostatectomy/ RT",
-   "กำลังรักษา ADT แต่ PSA สูงขึ้น testosterone &lt; 50 → castration-resistant"
+   "ชาย 70 ปีปวดหลัง PSA 250 bone scan รอยโรคหลายตำแหน่ง → ADT + abiraterone หรือ enzalutamide/ apalutamide",
+   "เริ่ม leuprolide วันแรกแล้วปวดกระดูกมากขึ้น ขาอ่อนแรง → tumor flare ควรให้ antiandrogen นำก่อน และตรวจ MRI กระดูกสันหลังด่วน",
+   "ได้ ADT 2 ปี PSA ขึ้นทั้งที่ testosterone 20 ng/dL → castration-resistant prostate cancer",
+   "ทำไม orchiectomy ได้ผลในมะเร็งต่อมลูกหมาก → testosterone ~90–95% สร้างจากอัณฑะ เซลล์มะเร็งต้องพึ่ง androgen receptor"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 119 — ตัวพิมพ์: <b>82. ผู้ป่วยอายุ 75 ปี หกล้ม humerus หัก x-ray พบก้อน ตรวจก้อนพบว่าเป็นต่อม ROS: พบความผิดปกติที่ระบบขับถ่าย, ตรวจ Prostate ขนาด &gt; 50 g irregular surface, PSA &gt; 100 ควรทำอะไรต่อ — A. TURP B. Radiation C. Chemotherapy D. Orchiectomy E. ฝัง radiation</b><br>ลายมือ: \"→ bone met. CA prostate\" · \"!\" หลัง PSA &gt; 100 · A \"ใน local, locally advanced CA\" · วงเล็บ B–C \"ให้เป็น palliative ต่อ · ดีขึ้น 2–3 yr จะ recurrence\" · ขีด D<br>ไฮไลต์: \"อายุ 75 ปี หกล้ม humerus หัก x-ray พบก้อน\" \"ต่อม\" \"ผิดปกติที่ระบบขับถ่าย\" \"ตรวจ Prostate ขนาด &gt; 50 g irregular surface, PSA &gt; 100\" · D (เหลือง)<br>รูปที่แปะ: ① สไลด์ การรักษา — Staging: 1. Localized cancer = lower or T2 · 2. Locally advanced cancer = T3N0M0 · 3. Metastatic cancer = T4/N1/M1 + ลายมือ (เช่น \"HT: orchiectomy\" \"Palliative: HT\") ② (หน้า 118 คอลัมน์ขวาล่าง) สไลด์ Advanced cancer — Hormonal therapy: Orchiectomy · LH-RH analogue · Antiandrogen e.g. flutamide, bicalutamide · Diethyl-stilbestrol, Ketoconazole / Advanced cancer — Palliative treatment: Radiation to metastatic bone · Chemotherapy · Hormone Refractory Prostate cancer<br>ที่ปรับในเว็บ: ช้อย D เขียนเป็น Bilateral orchiectomy",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 119",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU67|RoB|84": {
-  "interp": "ชาย 65 ปี <b>LUTS รุนแรง (IPSS 30)</b> ต่อมลูกหมาก &gt; 50 g เรียบนุ่ม · UA WBC/ RBC มาก · <b>ไตบวมน้ำทั้ง 2 ข้าง</b> · <b>นิ่วในกระเพาะปัสสาวะ</b> → ถามการจัดการ",
-  "why": "<b>BPH ที่มีภาวะแทรกซ้อน</b> (bilateral hydronephrosis จากปัสสาวะคั่งเรื้อรัง · นิ่วในกระเพาะปัสสาวะ · ติดเชื้อ) = <b>ข้อบ่งชี้ผ่าตัด</b> · ขั้นแรก<b>ใส่สายสวนระบายทันที</b> (ลดแรงดันไต ให้ไตฟื้น และคุมการติดเชื้อ) แล้วจึง <b>TURP + cystolitholapaxy</b> (เอานิ่วออกพร้อมกัน) · ยาอย่างเดียวไม่พอเมื่อมีภาวะแทรกซ้อน · ไฟล์ขีด D ลายมือ <b>\"BPH c̄ complication → Sx\"</b> และแปะสไลด์ภาวะแทรกซ้อนของ BPH",
+  "interp": "ชาย 65 ปี LUTS รุนแรง (IPSS 30) ต่อมลูกหมากโตเรียบหยุ่น &gt; 50 g มีการติดเชื้อ ไตบวมน้ำสองข้าง และนิ่วในกระเพาะปัสสาวะ — คือ BPH ที่มีภาวะแทรกซ้อน ถามการรักษา ต้องระบายก่อน (แก้ไตบวมน้ำและติดเชื้อ) แล้วจึงผ่าตัด TURP ร่วมเอานิ่วออก",
+  "why": "<b>BPH with complications</b> เป็นข้อบ่งชี้<b>ผ่าตัด</b> ไม่ใช่การรักษาด้วยยา: ภาวะแทรกซ้อนที่เป็นข้อบ่งชี้ได้แก่ <b>ปัสสาวะคั่งซ้ำ/ ถอดสายไม่ได้</b>, <b>UTI ซ้ำ</b>, <b>นิ่วในกระเพาะปัสสาวะ</b> (จาก stasis), <b>ไตบวมน้ำ/ ไตเสื่อมจากการอุดตัน</b> (high-pressure chronic retention), เลือดออกซ้ำจากต่อม · ขั้นตอน: <b>(1) ใส่สายสวนระบายทันที</b> เพื่อลดแรงดันให้ไตบวมน้ำยุบและการทำงานไตฟื้น (ระวัง <b>post-obstructive diuresis</b>) ร่วม<b>รักษาการติดเชื้อ</b>ตามผลเพาะเชื้อ เพราะการผ่าตัดขณะติดเชื้อเสี่ยง urosepsis และผ่าตัดในภาวะไตวายเสี่ยงสูง <b>(2) ผ่าตัดเมื่อพร้อม</b>: <b>TURP</b> (หรือ HoLEP สำหรับต่อมใหญ่) พร้อม <b>cystolitholapaxy</b> (ทุบนิ่วในกระเพาะปัสสาวะผ่านกล้อง) ในครั้งเดียวกัน · ตรงคีย์ D — ไฟล์ขีด D เขียน \"<b>Sx</b>\" และลากลูกศรจาก UA ไตบวมน้ำ และนิ่ว ไปที่ \"<b>BPH c̄ complication → Sx</b>\" พร้อมแปะสไลด์ภาวะแทรกซ้อนของ BPH (การติดเชื้อ นิ่วจาก stasis ไตวายจากปัสสาวะไหลย้อน)",
   "wrong": {
-   "A": "ผ่าตัดทันทีโดยไม่ระบายก่อน ขณะไตบวมน้ำและติดเชื้อ เสี่ยง sepsis/ ไตแย่ · จะถูกถ้าไม่มี hydronephrosis/ ติดเชื้อ มีเพียงนิ่วกระเพาะ",
-   "B": "ยาไม่เพียงพอเมื่อมีภาวะแทรกซ้อน (นิ่ว/ ไตบวมน้ำ) · จะถูกถ้า LUTS ปานกลาง ต่อมโต &gt; 40 g ไม่มีภาวะแทรกซ้อน",
-   "C": "ยาปฏิชีวนะ + α-blocker ไม่แก้นิ่วและไตบวมน้ำ · จะถูกถ้าคำถามถามการเตรียมก่อนผ่าตัดร่วมกับการสวน",
-   "E": "Urodynamic ใช้เมื่อสงสัยกระเพาะปัสสาวะบีบตัวไม่ดี/ neurogenic ก่อนผ่าตัด แต่ข้อนี้มีนิ่วต้องเอาออก · จะถูกถ้าไม่มีนิ่ว แต่สงสัย detrusor underactivity (ผู้ป่วยเบาหวาน residual สูงมาก)"
+   "A": "TURP ร่วม cystolitholapaxy เป็นการผ่าตัดที่ถูกต้องในท้ายที่สุด แต่การผ่าตัด<b>ทันที</b>ขณะมีการติดเชื้อและไตบวมน้ำสองข้าง (อาจมีไตวาย) เสี่ยง urosepsis เลือดออก และภาวะแทรกซ้อนจากไตวาย ต้องระบายและรักษาการติดเชื้อก่อน · จะถูกถ้าเป็นชาย 65 ปี BPH ที่มีนิ่วในกระเพาะปัสสาวะ ปัสสาวะไม่มีการติดเชื้อ ไตปกติไม่บวมน้ำ creatinine ปกติ และนัดผ่าตัดแบบ elective ได้เลย",
+   "B": "Alpha-blocker ร่วม 5-ARI (combination therapy) เหมาะกับ BPH ที่มีอาการปานกลางถึงรุนแรง ต่อม &gt; 30–40 mL <b>โดยไม่มีภาวะแทรกซ้อน</b> ลดความเสี่ยง AUR และการผ่าตัดในระยะยาว แต่ไม่แก้นิ่ว ไตบวมน้ำ และการติดเชื้อที่มีอยู่ · จะถูกถ้าเป็นชาย 65 ปี IPSS 22 ต่อม 55 g ผิวเรียบ PSA 3 ปัสสาวะค้าง 80 mL ไม่มีนิ่ว ไตปกติ ไม่ติดเชื้อ",
+   "C": "ยาปฏิชีวนะร่วม alpha-blocker รักษาการติดเชื้อและอาการได้ชั่วคราว แต่ไม่แก้การอุดตันที่เป็นต้นเหตุของไตบวมน้ำ นิ่ว และการติดเชื้อซ้ำ ซึ่งต้องผ่าตัด · จะถูกถ้าเป็นชาย 60 ปี acute bacterial prostatitis ไข้ ต่อมลูกหมากบวมกดเจ็บมาก ปัสสาวะแสบขัด ไม่มีนิ่วหรือไตบวมน้ำ",
+   "E": "การระบายแล้วทำ TURP ถูกต้อง แต่ urodynamic study <b>ไม่จำเป็น</b>เมื่อมีหลักฐานการอุดตันชัด (ต่อมโต ไตบวมน้ำ นิ่ว) และไม่ได้จัดการนิ่วในกระเพาะปัสสาวะ ซึ่งต้องทำ cystolitholapaxy พร้อมกัน · จะถูกถ้าเป็นชาย 65 ปีเบาหวาน 20 ปี LUTS รุนแรง ต่อมไม่โตมาก (25 mL) ปัสสาวะค้างมาก สงสัยกระเพาะปัสสาวะบีบตัวอ่อน (detrusor underactivity) ก่อนตัดสินใจผ่าตัด"
   },
-  "trap": "ผ่าตัดทันทีหรือให้ยา — ต้องระบายก่อนแล้วผ่าตัดแก้ทั้งต่อมและนิ่ว",
+  "trap": "ช้อย A กับ D ต่างกันเพียง \"ใส่สายสวนทันที\" — ข้อนี้มี<b>ติดเชื้อ + ไตบวมน้ำสองข้าง</b> จึงต้อง<b>ระบายและรักษาติดเชื้อก่อน</b> แล้วผ่าตัดพร้อมเอานิ่วออก · ส่วนยาใช้ได้เฉพาะ BPH ที่ไม่มีภาวะแทรกซ้อน",
   "summary": [
-   "ภาวะแทรกซ้อน BPH: AUR ซ้ำ · นิ่วกระเพาะ · ไตเสื่อม/ hydronephrosis · UTI ซ้ำ · hematuria ซ้ำ",
-   "มีภาวะแทรกซ้อน → ผ่าตัด (TURP/ HoLEP/ open)",
-   "Hydronephrosis สองข้าง → สวนระบายก่อน · ระวัง post-obstructive diuresis",
-   "นิ่วกระเพาะ → cystolitholapaxy พร้อม TURP",
-   "ต่อม &gt; 80–100 g → HoLEP/ open prostatectomy",
-   "ไม่มีภาวะแทรกซ้อน → α-blocker ± 5-ARI"
+   "ข้อบ่งชี้ผ่าตัด BPH (absolute): AUR ซ้ำ/ ถอดสายไม่ได้, UTI ซ้ำ, นิ่วในกระเพาะปัสสาวะ, ไตบวมน้ำ/ ไตเสื่อมจากการอุดตัน, gross hematuria ซ้ำจากต่อม, bladder diverticulum ใหญ่",
+   "High-pressure chronic retention: ไตบวมน้ำสองข้าง creatinine สูง → ใส่สายสวน ระวัง post-obstructive diuresis (&gt; 200 mL/hr) และ hematuria จากการลดแรงดัน",
+   "ผ่าตัด: TURP (ต่อม 30–80 mL) · HoLEP/ ThuLEP (ทุกขนาด) · open/ robotic simple prostatectomy (&gt; 80–100 mL) · minimally invasive (UroLift, Rezum) ในต่อมเล็ก",
+   "นิ่วในกระเพาะปัสสาวะจาก BPH: cystolitholapaxy (transurethral) ในครั้งเดียวกับ TURP · นิ่วใหญ่มาก → percutaneous/ open cystolithotomy",
+   "ภาวะแทรกซ้อน TURP: TUR syndrome (hyponatremia จาก glycine ใน monopolar), เลือดออก, retrograde ejaculation (~65–75%), stricture, กลั้นไม่อยู่",
+   "Medical: alpha-blocker (เร็ว) · 5-ARI (ต่อม &gt; 30–40 mL, 6 เดือนเห็นผล) · combination ลด AUR/ ผ่าตัด (MTOPS, CombAT) · PDE5i",
+   "Urodynamics: ก่อนผ่าตัดในรายที่ไม่ชัด (อายุ &lt; 50 หรือ &gt; 80, ต่อมเล็ก, โรคระบบประสาท, ปัสสาวะค้างมากผิดสัดส่วน)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'BPH แทรกซ้อน: สวนก่อน → ผ่า (TURP) + เก็บนิ่ว'</b>",
-  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS (2025); AUA Guideline: Management of LUTS Attributed to BPH (J Urol 2021;206:806)",
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ขีด D \"BPH c̄ complication → Sx\") มั่นใจสูง — BPH ที่มีนิ่ว ไตบวมน้ำ และติดเชื้อเป็นข้อบ่งชี้ผ่าตัด โดยระบายก่อนแล้วจึงทำ TURP ร่วมเอานิ่วออก · ข้อสังเกต: โจทย์ในไฟล์ไม่ระบุขนาดนิ่ว (เขียนเพียง \"cm\") ถ้านิ่วใหญ่มากอาจต้องเปิดผ่าตัดกระเพาะปัสสาวะแทนการทุบผ่านกล้อง",
+  "mnemonic": "<b>'BPH มีแทรกซ้อน (นิ่ว · ไตบวม · ติดเชื้อ · คั่งซ้ำ) = Drain ก่อน แล้ว Operate'</b>",
+  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2025; Lerner LB et al. Management of LUTS Attributed to BPH: AUA Guideline (J Urol 2021, amended 2023)",
   "variants": [
-   "BPH + AUR ครั้งที่ 2 หลัง TWOC ล้มเหลว → TURP",
-   "BPH + Cr สูง + hydronephrosis สองข้าง → Foley → ไตฟื้น → TURP",
-   "BPH LUTS ปานกลาง ต่อม 60 g → α-blocker + 5-ARI"
+   "ชาย 70 ปี BPH creatinine 3.2 ไตบวมน้ำสองข้าง ปัสสาวะค้าง 1.5 L → ใส่สายสวน เฝ้าระวัง post-obstructive diuresis แล้ววางแผนผ่าตัด",
+   "ชาย 68 ปี BPH มีนิ่วในกระเพาะปัสสาวะ 2 cm ไม่ติดเชื้อ ไตปกติ → TURP + cystolitholapaxy แบบ elective",
+   "ชาย 62 ปี IPSS 20 ต่อม 60 g ไม่มีภาวะแทรกซ้อน → alpha-blocker + 5-ARI",
+   "ทำไม BPH ทำให้เกิดนิ่วในกระเพาะปัสสาวะ → ปัสสาวะค้าง (stasis) และติดเชื้อทำให้ผลึกตกตะกอนรวมเป็นนิ่ว"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 119 — ตัวพิมพ์: <b>84. ผู้ป่วยชายอายุ 65 ปีมาด้วยอาการ... สรุปว่าเป็น LUTS (IPSS = 30) DRE: Prostate &gt; 50 g smooth rubbery well-defined border UA: WBC, RBC จำนวนมาก, \"ไตบวมน้ำทั้ง 2 ข้าง\", พบ \"นิ่ว\"ในกระเพาะปัสสาวะ cm จงบอก management — A. TURP + cystolithopaxy B. α-blocker + 5α reductase inhibitor C. Antibiotic + α-blocker D. ใส่สายสวนทันที + TURP + cystolithopaxy E. ใส่สายสวนทันที + TURP + urodynamic test</b><br>ลายมือ: \"BPH c̄ complication → Sx\" (ลูกศรจาก UA, ไตบวมน้ำ, นิ่ว) · ขีด D + \"Sx\"<br>ไฮไลต์: \"ชายอายุ 65 ปี\" \"LUTS (IPSS = 30)\" \"DRE: Prostate &gt; 50 g smooth rubbery well-defined border\" \"UA: WBC, RBC จำนวนมาก\" \"ไตบวมน้ำทั้ง 2 ข้าง\" \"นิ่วในกระเพาะปัสสาวะ\" \"management\" · D (เหลือง)<br>รูปที่แปะ: สไลด์ Benign Prostatic Hyperplasia (BPH) — ภาวะแทรกซ้อนของ BPH: การติดเชื้อที่กระเพาะปัสสาวะ ต่อมลูกหมาก และ epididymis · เกิดนิ่วในกระเพาะปัสสาวะจาก stasis of urine · ไตวายจากการมีปัสสาวะคั่งเรื้อรัง จนมีปัสสาวะไหลย้อนกลับไปทำลายไต · ปัสสาวะเป็นเลือด + ภาพ + ลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 119",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU67|RoB|85": {
-  "interp": "ชาย 30 ปี ปัสสาวะแสบขัด 3 วัน ปัสสาวะมีเลือดทุกครั้ง ครั่นเนื้อครั่นตัว ปวดหลังซ้าย และ<b>ปวดอัณฑะซ้าย 3 ชม.</b> → ถามประวัติที่ควรซักเพิ่ม",
-  "why": "ชายหนุ่มอายุ &lt; 35 ปีมีอาการทางเดินปัสสาวะอักเสบ + ปวดอัณฑะ = สงสัย <b>epididymo-orchitis จากการติดเชื้อย้อนขึ้น (ascending) ทาง ejaculatory duct/ vas</b> · ในช่วงอายุนี้มักเกิดจาก<b>เชื้อติดต่อทางเพศสัมพันธ์ (Chlamydia trachomatis, N. gonorrhoeae)</b> → ต้องซัก<b>ประวัติเพศสัมพันธ์</b> (คู่นอน, ป้องกัน, ปัสสาวะขุ่น/ หนอง) เพื่อเลือกยา (ceftriaxone + doxycycline) และรักษาคู่นอน · ไฟล์ขีด A ลายมือ <b>\"UTI\"</b> · <b>\"ascending ทาง ejaculatory duct\"</b> · <b>\"epididymo-orchitis\"</b> และแปะสไลด์กรณีชาย 15 ปีปวดอัณฑะ (ซักประวัติเพิ่มเติม)",
+  "interp": "ชาย 30 ปีปัสสาวะแสบขัด 3 วัน ต่อมามีเลือดปนทุกครั้ง ไข้ ปวดหลังซ้าย และปวดอัณฑะซ้าย 3 ชั่วโมง — กลุ่มอาการติดเชื้อทางเดินปัสสาวะที่ลามขึ้นไปท่อนำอสุจิจนเกิด epididymo-orchitis ถามประวัติที่ต้องซักเพิ่ม ซึ่งในชายอายุน้อยคือประวัติเพศสัมพันธ์ (หาเชื้อติดต่อทางเพศสัมพันธ์)",
+  "why": "<b>Acute epididymitis/ epididymo-orchitis</b> เกิดจากเชื้อ<b>ลามย้อนจากท่อปัสสาวะ</b>ผ่าน ejaculatory duct และ vas deferens (ตามลายมือในไฟล์) · เชื้อขึ้นกับอายุ: <b>ชายอายุ &lt; 35 ปีที่มีเพศสัมพันธ์</b> → เชื้อติดต่อทางเพศสัมพันธ์ <b>Chlamydia trachomatis</b> และ <b>Neisseria gonorrhoeae</b> เป็นหลัก (ชายที่มีเพศสัมพันธ์ทางทวารหนักแบบรับ พบ E. coli ได้) · <b>อายุ &gt; 35 ปี</b> หรือมีการอุดตันทางเดินปัสสาวะ/ ใส่สาย → <b>เชื้อลำไส้ (E. coli)</b> · ดังนั้น<b>ประวัติเพศสัมพันธ์</b> (คู่นอนใหม่ ใช้ถุงยาง หนองไหล ประวัติ STI) จึงสำคัญที่สุด เพราะ<b>เปลี่ยนการเลือกยา</b> (ceftriaxone 500 mg IM ครั้งเดียว + doxycycline 100 mg bid 10 วัน) และ<b>ต้องรักษาคู่นอน</b> · ต้องแยก <b>testicular torsion</b> เสมอเพราะปวดอัณฑะเพียง 3 ชั่วโมง — epididymitis ค่อยเป็น มีไข้ ปัสสาวะผิดปกติ Prehn sign บวก cremasteric reflex ยังอยู่ · ตรงคีย์ A — ไฟล์ขีด A เขียน \"<b>UTI</b>\" \"<b>ascending ทาง ejaculatory duct</b>\" และ \"<b>epididymo-orchitis</b>\"",
   "wrong": {
-   "B": "อุบัติเหตุต่ออวัยวะเพศทำให้ปวดอัณฑะ/ hematoma แต่ไม่อธิบายแสบขัด ไข้ · จะถูกถ้าปวดอัณฑะหลังถูกเตะ ถุงอัณฑะบวมช้ำ",
-   "C": "นิ่วอธิบายปวดหลัง/ ปัสสาวะเลือด แต่ไม่ใช่เหตุหลักของปวดอัณฑะร่วมแสบขัด · จะถูกถ้าปวดบิดเอวร้าวลงขาหนีบ/ อัณฑะเป็นพัก ๆ ไม่มีไข้",
-   "D": "ประวัติแรกคลอดสัมพันธ์กับอัณฑะไม่ลงถุง/ ไส้เลื่อนในเด็ก · จะถูกถ้าคำถามถามเด็กที่คลำอัณฑะไม่ได้",
-   "E": "ประวัติมะเร็งในครอบครัวไม่ช่วยในภาวะติดเชื้อเฉียบพลัน · จะถูกถ้าคำถามถามก้อนอัณฑะไม่เจ็บโตช้า"
+   "B": "ประวัติอุบัติเหตุต่ออวัยวะเพศสำคัญในผู้ที่ปวดอัณฑะหลังบาดเจ็บ (testicular rupture, hematocele) แต่ผู้ป่วยมีอาการติดเชื้อทางเดินปัสสาวะนำมาก่อน 3 วัน ไข้ และไม่มีเรื่องบาดเจ็บ · จะถูกถ้าเป็นชาย 20 ปีถูกลูกฟุตบอลกระแทกถุงอัณฑะ 2 ชั่วโมงก่อน ปวดและบวมมาก ไม่มีไข้ ปัสสาวะปกติ",
+   "C": "ประวัตินิ่วเกี่ยวข้องกับปวดเอวและปัสสาวะเป็นเลือด ซึ่งนิ่วที่ท่อไตส่วนล่างอาจปวดร้าวลงอัณฑะได้ แต่ไม่อธิบายแสบขัดก่อน 3 วัน ไข้ และปวดเฉพาะที่อัณฑะ ส่วน KUB ในข้อถัดไปช่วยตัดนิ่วอยู่แล้ว · จะถูกถ้าเป็นชาย 35 ปีปวดบิดเอวซ้ายเป็นพักร้าวลงถุงอัณฑะทันที ปัสสาวะมีเลือด ไม่มีไข้ อัณฑะตรวจปกติไม่บวมไม่เจ็บ",
+   "D": "ประวัติการคลอดสำคัญในเด็ก เช่นอัณฑะไม่ลงถุง ไส้เลื่อน หรือความผิดปกติแต่กำเนิด ไม่ช่วยในชาย 30 ปีที่ติดเชื้อเฉียบพลัน · จะถูกถ้าเป็นทารกชาย 2 วันที่ถุงอัณฑะซ้ายแข็งคล้ำตั้งแต่เกิด (perinatal torsion) ซึ่งต้องถามประวัติการคลอดยากและท่าก้น",
+   "E": "ประวัติครอบครัวเป็นมะเร็งเกี่ยวข้องกับก้อนอัณฑะไม่เจ็บที่ค่อยเป็น (มะเร็งอัณฑะในญาติสายตรงเพิ่มเสี่ยง) ไม่ใช่การอักเสบเฉียบพลันร่วมไข้และแสบขัด · จะถูกถ้าเป็นชาย 28 ปีคลำได้ก้อนแข็งไม่เจ็บที่อัณฑะซ้าย 2 เดือน พี่ชายเป็นมะเร็งอัณฑะ"
   },
-  "trap": "ซักประวัตินิ่วเพราะมีปวดหลังและเลือดในปัสสาวะ — ชายหนุ่มปวดอัณฑะ + แสบขัด ต้องคิดถึง STI",
+  "trap": "ปวดอัณฑะกับปัสสาวะเป็นเลือดชวนคิดถึงบาดเจ็บหรือนิ่ว — แต่อาการ<b>แสบขัดนำ + ไข้ + ปวดอัณฑะ</b>ในชายอายุ &lt; 35 ปี ชี้ไปที่ epididymo-orchitis จาก <b>STI</b> ประวัติเพศสัมพันธ์จึงเปลี่ยนการรักษาและต้องรักษาคู่นอน",
   "summary": [
-   "Epididymo-orchitis &lt; 35 ปี: Chlamydia/ gonorrhea",
-   "&gt; 35 ปี/ insertive anal sex: enteric gram-negative (E. coli)",
-   "รักษา STI: ceftriaxone 500 mg IM + doxycycline 10–14 วัน",
-   "Enteric: fluoroquinolone 10–14 วัน",
-   "แยก torsion: เริ่มฉับพลัน · cremasteric reflex หาย · อัณฑะยก/ แนวขวาง",
-   "Doppler US ถ้าไม่แน่ใจ · สงสัย torsion → explore"
+   "Epididymo-orchitis: เชื้อลามย้อนจากท่อปัสสาวะ · &lt; 35 ปี: C. trachomatis, N. gonorrhoeae · &gt; 35 ปี/ BPH/ ใส่สาย: E. coli · MSM แบบรับ: เชื้อลำไส้ร่วม STI",
+   "อาการ: ปวดอัณฑะค่อยเป็น ไข้ แสบขัด หนองไหล epididymis บวมเจ็บด้านหลังอัณฑะ · Prehn sign บวก (ยกอัณฑะแล้วปวดลดลง) · cremasteric reflex ปกติ",
+   "Testicular torsion: เฉียบพลัน คลื่นไส้อาเจียน อัณฑะยกสูงแกนขวาง cremasteric reflex หาย · TWIST score · US Doppler ไม่มีเลือด → ผ่าตัดภายใน 6 ชม.",
+   "ตรวจ: UA, urine culture, NAAT จากปัสสาวะส่วนแรก (Chlamydia/ Gonorrhea), CBC, US Doppler (เลือดเพิ่มขึ้นใน epididymitis)",
+   "ยา STI: ceftriaxone 500 mg IM (1 g ถ้า ≥ 150 kg) + doxycycline 100 mg bid 10 วัน · enteric: levofloxacin 10 วัน · รักษาคู่นอน",
+   "Orchitis จาก mumps: ไม่มีอาการปัสสาวะ ต่อมน้ำลายโตนำ · เสี่ยงอัณฑะฝ่อ",
+   "ภาวะแทรกซ้อน: ฝีที่อัณฑะ, อัณฑะฝ่อ, มีบุตรยาก, epididymitis เรื้อรัง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'ชายหนุ่มปวดไข่ + ฉี่แสบ → ถามเรื่องเพศสัมพันธ์'</b>",
-  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines 2021 — Epididymitis; EAU Guidelines on Urological Infections (2025)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A) มั่นใจสูง — ชายอายุ 30 ปีที่มีอาการติดเชื้อทางเดินปัสสาวะร่วมปวดอัณฑะ ต้องซักประวัติเพศสัมพันธ์เพื่อหาเชื้อ STI ตามลายมือ \"ascending ทาง ejaculatory duct\" · ข้อสังเกต: ไฟล์ช้อย E เว้นว่าง เว็บเติม \"Family history of cancer\" และปวดอัณฑะ 3 ชั่วโมงยังต้องคิดถึง torsion ทุกครั้ง",
+  "mnemonic": "<b>'ชาย &lt; 35 + epididymitis = ถามเรื่องเพศ (Chlamydia/ Gono) · &gt; 35 = ถามเรื่องท่อ (E. coli)'</b>",
+  "guide": "Workowski KA et al. CDC Sexually Transmitted Infections Treatment Guidelines 2021 (MMWR Recomm Rep 2021); EAU Guidelines on Urological Infections 2025 (Acute epididymitis)",
   "variants": [
-   "ชาย 22 ปี ปวดอัณฑะค่อยเป็น ไข้ ปัสสาวะมีหนอง → epididymitis (STI) → ceftriaxone + doxycycline",
-   "ชาย 60 ปี BPH ปวดอัณฑะ ไข้ → enteric epididymitis → fluoroquinolone",
-   "เด็กชาย 14 ปี ปวดอัณฑะฉับพลัน อาเจียน cremasteric หาย → torsion → explore ด่วน"
+   "ชาย 25 ปีมีคู่นอนใหม่ ปวดอัณฑะขวาค่อยเป็น 2 วัน ไข้ หนองไหล → ceftriaxone IM + doxycycline 10 วัน และรักษาคู่นอน",
+   "ชาย 65 ปี BPH ปัสสาวะคั่ง ปวดอัณฑะซ้ายบวม ไข้ → epididymo-orchitis จาก E. coli ให้ fluoroquinolone",
+   "วัยรุ่นชาย 15 ปีปวดอัณฑะซ้ายทันทีขณะนอน อาเจียน อัณฑะยกสูงแนวขวาง → testicular torsion ผ่าตัดทันที",
+   "ทำไม Prehn sign ช่วยแยกโรค → ยกอัณฑะแล้วปวดลดใน epididymitis แต่ไม่ลดใน torsion"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 119 — ตัวพิมพ์: <b>85-87 ผู้ป่วยชายอายุ 30 ปี มาด้วยอาการปัสสาวะแสบขัดมา 3 วัน ตอนนี้ปัสสาวะมีสีแดงปนมาด้วยทุกครั้ง มีอาการครั่นเนื้อครั่นตัว ปวดหลังด้านซ้าย ปวดอัณฑะซ้ายมา 3 ชั่วโมง · 85. ท่านจะซักประวัติอะไรเพิ่มเติม — A. ประวัติเพศสัมพันธ์ B. ประวัติอุบัติเหตุต่ออวัยวะเพศ C. ประวัติเคยเป็นนิ่ว D. ประวัติแรกคลอด E.</b><br>ลายมือ: \"UTI\" · \"ascending ทาง ejaculatory duct\" (ลูกศรลง) · \"epididymo-orchitis\" · ขีด A<br>ไฮไลต์: \"ชายอายุ 30 ปี\" \"ปัสสาวะแสบขัดมา 3 วัน\" \"ปัสสาวะมีสีแดงปนมาด้วยทุกครั้ง\" \"ครั่นเนื้อครั่นตัว ปวดหลังด้านซ้าย ปวดอัณฑะซ้ายมา 3 ชั่วโมง\" \"ซักประวัติอะไรเพิ่มเติม\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ \"• ผู้ป่วยชายไทย อายุ 15 ปี • ปวดอัณฑะซ้ายมาสองชั่วโมง • ซักประวัติเพิ่มเติม\" + ลายมือเล็ก (DDx — acute epididymitis, torsion, trauma/ hematoma, testicular tumor, hernia, ureteric stone … อ่านได้บางส่วน)<br>ที่ปรับในเว็บ: เติมช้อย E (Family history of cancer) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 119",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU67|RoB|86": {
-  "interp": "ผู้ป่วยรายเดิม (สงสัย epididymo-orchitis + ปวดหลังซ้าย ปัสสาวะเป็นเลือด) → ถามการตรวจเพิ่มเติมที่ควรส่ง",
-  "why": "ตรวจที่เหมาะสม: <b>UA</b> (pyuria, hematuria) · <b>urine culture</b> (เชื้อและความไวยา) · <b>CBC</b> (WBC สูง ภาวะติดเชื้อทั่วร่างกาย) · <b>plain KUB</b> (ปวดหลังซ้าย + ปัสสาวะเป็นเลือดทุกครั้ง ต้องหานิ่วร่วม) → ทุกข้อ = E · (ควรส่ง NAAT สำหรับ Chlamydia/ gonorrhea และ Doppler US ถ้าแยก torsion ไม่ได้) · ไฟล์ขีด E และแปะตาราง <b>testicular torsion vs acute epididymo-orchitis</b> และสไลด์ Treatment",
+  "interp": "ผู้ป่วยชาย 30 ปีเดิม (แสบขัด ปัสสาวะเป็นเลือด ไข้ ปวดเอวซ้ายและอัณฑะซ้าย) ถามการตรวจเพิ่มเติม — ทุกช้อยมีบทบาท: UA และเพาะเชื้อยืนยันการติดเชื้อและเลือกยา CBC ดูการติดเชื้อทั่วร่างกาย และ plain KUB ช่วยหานิ่วที่อาจเป็นต้นเหตุของปวดเอวและเลือดในปัสสาวะ",
+  "why": "ผู้ป่วยมีภาพของ <b>UTI ที่ลามไปท่อนำอสุจิ (epididymo-orchitis)</b> ร่วมกับ<b>ปวดเอวซ้ายและปัสสาวะเป็นเลือด</b> การตรวจเพิ่มเติมที่ควรทำทั้งหมด: <b>(1) urinalysis</b> — pyuria, bacteriuria, hematuria ยืนยันการติดเชื้อ <b>(2) urine culture</b> — ระบุเชื้อและความไวต่อยา (ร่วมกับ <b>NAAT</b> หา Chlamydia/ Gonorrhea จากปัสสาวะส่วนแรกในชายอายุน้อย) <b>(3) CBC</b> — เม็ดเลือดขาวสูงบ่งการติดเชื้อทั่วร่างกาย จำเป็นเมื่อมีไข้หนาวสั่น <b>(4) plain KUB</b> — ปวดเอวร่วมเลือดในปัสสาวะต้องหา<b>นิ่วที่ทึบรังสี</b> (~90% ของนิ่วเห็นใน KUB) ซึ่งเป็นปัจจัยของการติดเชื้อซ้ำหรือการอุดตัน · นอกจากนี้ควรทำ <b>scrotal US with Doppler</b> เพื่อยืนยัน epididymitis (เลือดไหลเวียนเพิ่ม) และ<b>ตัด testicular torsion</b> (ไม่มีเลือด) ซึ่งเป็นภาวะฉุกเฉินที่ต้องแยกเสมอในผู้ป่วยปวดอัณฑะเฉียบพลัน · ตรงคีย์ E — ไฟล์ขีด E ไฮไลต์ A–D และแปะตาราง \"<b>testicular torsion vs acute epididymo-orchitis</b>\"",
   "wrong": {
-   "A": "UA จำเป็นแต่ไม่ครบ · จะถูกถ้าคำถามให้เลือกการตรวจเดียวที่เร็วที่สุดข้างเตียง",
-   "B": "Urine culture จำเป็นแต่ไม่ครบ · จะถูกถ้าคำถามถามการตรวจที่ใช้เลือกยาปฏิชีวนะ",
-   "C": "CBC จำเป็นแต่ไม่ครบ · จะถูกถ้าคำถามถามการตรวจประเมินการติดเชื้อทั่วร่างกาย",
-   "D": "Plain KUB ช่วยหานิ่ว (ปวดหลัง + เลือด) แต่ไม่ครบ · จะถูกถ้าคำถามถามการตรวจหานิ่วทึบรังสีเบื้องต้น"
+   "A": "Urinalysis จำเป็นจริงและเป็นการตรวจแรกที่ยืนยันการติดเชื้อ (WBC, nitrite, leukocyte esterase) แต่ช้อย B, C, D ก็จำเป็นด้วย คำตอบจึงเป็นถูกทุกข้อ · จะถูกถ้าเป็นหญิง 25 ปีแสบขัดปัสสาวะบ่อย 1 วัน ไม่มีไข้ (uncomplicated cystitis) ซึ่งอาจตรวจเพียง dipstick/ UA ก่อนให้ยา และคำถามให้เลือกการตรวจเดียว",
+   "B": "Urine culture จำเป็นใน UTI ของผู้ชาย (ถือเป็น complicated) และเมื่อมีไข้ เพื่อเลือกยาตามความไว แต่ไม่ใช่การตรวจเดียวที่ต้องทำ · จะถูกถ้าเป็นชาย 50 ปีที่ได้ยาปฏิชีวนะ 3 วันแล้วยังมีไข้และแสบขัด ต้องการผลเพาะเชื้อและความไวต่อยาเพื่อเปลี่ยนยา",
+   "C": "CBC จำเป็นเมื่อมีไข้หนาวสั่นเพื่อดูการติดเชื้อทั่วร่างกายและแนวโน้ม sepsis แต่ไม่ระบุตำแหน่งหรือเชื้อ ต้องตรวจร่วมกับข้ออื่น · จะถูกถ้าเป็นชาย 40 ปีไข้สูง ความดันต่ำ หลังผ่าตัดทางเดินปัสสาวะ สงสัย urosepsis ต้องการดูเม็ดเลือดขาวและเกล็ดเลือดอย่างเร่งด่วน",
+   "D": "Plain KUB จำเป็นเพราะผู้ป่วยมีปวดเอวและเลือดในปัสสาวะ ช่วยหานิ่วทึบรังสีที่อาจเป็นต้นเหตุ แต่ไม่ยืนยันการติดเชื้อ ต้องตรวจร่วม UA และเพาะเชื้อ (หลายสถาบันใช้ non-contrast CT KUB แทน) · จะถูกถ้าเป็นชาย 45 ปีที่เคยเป็นนิ่ว calcium ทึบรังสี ปวดบิดเอวซ้ายแบบเดิม ไม่มีไข้ ต้องการติดตามนิ่วด้วยภาพที่ใช้รังสีต่ำ"
   },
-  "trap": "ส่งเฉพาะการตรวจอัณฑะ — ผู้ป่วยมีปวดหลังและเลือดในปัสสาวะต้องหาทั้งการติดเชื้อและนิ่ว",
+  "trap": "คนลังเลว่า KUB เกี่ยวข้องหรือไม่เพราะคิดว่าเป็นแค่ epididymitis — ผู้ป่วยมี<b>ปวดเอวและเลือดในปัสสาวะ</b>ด้วย จึงต้องหานิ่ว · ทุกช้อยมีบทบาท จึงตอบ<b>ถูกทุกข้อ</b> และอย่าลืม US Doppler ตัด torsion",
   "summary": [
-   "Epididymo-orchitis: UA · urine culture · NAAT (CT/ NG) · CBC",
-   "Doppler US: เลือดเพิ่ม (epididymitis) vs ลดลง (torsion)",
-   "ปวดหลัง + hematuria → KUB/ US/ CT หานิ่ว",
-   "Prehn sign: ยกอัณฑะแล้วปวดลดใน epididymitis (ไม่เชื่อถือได้เต็มที่)",
-   "Cremasteric reflex: มีใน epididymitis · หายใน torsion",
-   "แยก torsion ไม่ได้ → ส่ง urologist ด่วน"
+   "UTI ในผู้ชาย = complicated → UA + urine culture ทุกราย · ยา 7–14 วัน",
+   "ชาย &lt; 35 ปีที่มี epididymitis: NAAT ปัสสาวะส่วนแรก (Chlamydia, Gonorrhea) ± HIV/ syphilis screening",
+   "ไข้ หนาวสั่น: CBC, blood culture, creatinine, lactate ถ้าสงสัย sepsis",
+   "ปวดเอว + hematuria: KUB (นิ่วทึบรังสี ~90%) หรือ non-contrast CT KUB (มาตรฐาน) · US ดูไตบวมน้ำ",
+   "Scrotal US Doppler: epididymitis → เลือดเพิ่ม epididymis บวม · torsion → เลือดลดหรือไม่มี, whirlpool sign ของ cord",
+   "Torsion vs epididymitis: เฉียบพลัน vs ค่อยเป็น · คลื่นไส้อาเจียนบ่อย vs ไม่บ่อย · ไข้ไม่บ่อย vs บ่อย · อัณฑะยกแกนขวาง vs แกนปกติ · cremasteric หาย vs มี",
+   "Pyelonephritis ในผู้ชาย: ไข้ ปวดเอว → ยา 10–14 วัน · หาความผิดปกติทางเดินปัสสาวะ (ต่อมลูกหมาก นิ่ว)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ปวดไข่ + ปวดหลัง + เลือด = ส่งครบ (UA, UC, CBC, KUB)'</b>",
-  "guide": "EAU Guidelines on Urological Infections (2025); CDC Sexually Transmitted Infections Treatment Guidelines 2021 — Epididymitis",
+  "opinion": "เห็นด้วยกับคีย์ E (ไฟล์ขีด E) มั่นใจสูง — UA, เพาะเชื้อ, CBC และ KUB ล้วนจำเป็นในผู้ป่วยชายที่มีไข้ แสบขัด ปวดเอวร่วมเลือดในปัสสาวะ และปวดอัณฑะ · ข้อสังเกต: การตรวจที่สำคัญที่ไม่อยู่ในช้อยคือ scrotal US with Doppler (ตัด torsion) และ NAAT สำหรับเชื้อ STI ซึ่งตารางในไฟล์ใช้แยกโรคทางคลินิก",
+  "mnemonic": "<b>'ชายไข้ + แสบขัด + ปวดเอว + ปวดไข่: UA–UC–CBC–KUB ครบ + US Doppler ตัด torsion'</b>",
+  "guide": "EAU Guidelines on Urological Infections 2025; Workowski KA et al. CDC STI Treatment Guidelines 2021 (MMWR Recomm Rep 2021)",
   "variants": [
-   "ปวดอัณฑะค่อยเป็น ไข้ UA pyuria → epididymo-orchitis",
-   "ปวดอัณฑะฉับพลัน Doppler ไม่มีเลือด → torsion → OR",
-   "ปวดเอวร้าวลงอัณฑะ ปัสสาวะเลือด ไม่มีไข้ → ureteric stone → CT KUB"
+   "ชาย 30 ปี epididymitis UA มี WBC มาก NAAT พบ Chlamydia → doxycycline 10 วัน + รักษาคู่นอน",
+   "ชาย 40 ปีไข้ ปวดเอวซ้าย KUB เห็นนิ่วที่ท่อไตส่วนต้น US ไตบวมน้ำ → obstructed infected kidney ระบายด่วน",
+   "ปวดอัณฑะ 4 ชม. US Doppler ไม่มีเลือดไปอัณฑะ → testicular torsion ผ่าตัดทันที",
+   "ทำไม UTI ในผู้ชายจัดเป็น complicated → ท่อปัสสาวะยาว การติดเชื้อมักมีความผิดปกติร่วมหรือลามถึงต่อมลูกหมาก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 120 — ตัวพิมพ์: <b>86. จะส่งตรวจอะไรเพิ่มเติม — A. UA B. UC C. CBC D. X-ray plain KUB E. ถูกทุกข้อ</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"ส่งตรวจอะไรเพิ่มเติม\" · A–D (เหลือง)<br>รูปที่แปะ: ① ตาราง Clinical — testicular torsion vs acute epididymo-orchitis: onset sudden / gradual · n/v common / uncommon · fever uncommon / common · dysuria/discharge uncommon / maybe · testis elevated, abnormal axis / normal axis · cremasteric reflex absent / present · Prehn's sign tender / same · pyuria uncommon / common + ลายมือเล็ก ② สไลด์ Treatment — Acute epididymo-orchitis --&gt; antibiotic · Fluoroquinolone, +/- doxycycline for 10-14 days · Bed rest, hydration, scrotal support · If testicular torsion can't be excluded --&gt; refer to urologist as soon as possible",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 120",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU67|RoB|87": {
-  "interp": "ผู้ป่วยรายเดิม (ชาย 30 ปี แสบขัด ปัสสาวะเลือด ไข้ ปวดหลังซ้าย <b>ปวดอัณฑะซ้าย</b>) → ถามการวินิจฉัยที่น่าจะเป็นที่สุด",
-  "why": "อาการทางเดินปัสสาวะอักเสบนำมาก่อน (3 วัน) แล้วตามด้วย<b>ปวดอัณฑะซ้าย</b> + ไข้ = เชื้อย้อนขึ้นตาม vas deferens ถึง epididymis/ อัณฑะ → <b>acute left epididymo-orchitis</b> (ไฟล์พิมพ์ \"Acute orchitis (Lt.)\") · ลักษณะสนับสนุนตามตารางในไฟล์: เริ่มค่อยเป็น ไข้ มีแสบขัด pyuria · ไฟล์ขีด A และแปะตาราง torsion vs epididymo-orchitis",
+  "interp": "ผู้ป่วยชาย 30 ปีเดิม (แสบขัด เลือดในปัสสาวะ ไข้ ปวดเอวซ้าย ปวดอัณฑะซ้าย 3 ชั่วโมง) ถามการวินิจฉัยที่น่าจะเป็นที่สุด — อาการที่อัณฑะเป็นจุดเด่นที่โรคอื่นในช้อยไม่อธิบาย จึงเป็น acute epididymo-orchitis ที่ลามจาก UTI",
+  "why": "ผู้ป่วยมีอาการ<b>ติดเชื้อทางเดินปัสสาวะส่วนล่างนำมา 3 วัน</b> (แสบขัด เลือดปน) ร่วม<b>ไข้</b> แล้วตามด้วย<b>ปวดอัณฑะซ้าย</b> — เข้ากับ <b>acute epididymo-orchitis</b> ที่เชื้อลามย้อนผ่าน vas deferens · อาการปวดหลังซ้ายอธิบายได้จากการปวดร้าวตามเส้นทางของ spermatic cord และ vas (เส้นประสาท T10–L1 ร่วมกับไต) หรือมีการติดเชื้อทางเดินปัสสาวะส่วนบนร่วม · ตรวจร่างกายจะพบ<b>epididymis บวมเจ็บด้านหลังอัณฑะ</b> อาจลามทั้งอัณฑะ Prehn sign บวก cremasteric reflex อยู่ · ยืนยันด้วย <b>US Doppler</b> (เลือดไหลเวียนเพิ่ม) · ต้อง<b>แยก testicular torsion</b> เพราะปวดเพียง 3 ชั่วโมง — torsion ปวดเฉียบพลันรุนแรง อาเจียน ไม่มีไข้หรืออาการปัสสาวะ · รักษา: ยาตามกลุ่มเชื้อ (STI ในชาย &lt; 35 ปี) พักผ่อน ยกถุงอัณฑะ ยาแก้ปวด NSAIDs · ตรงคีย์ A — ไฟล์ขีด A (\"<b>Acute orchitis (Lt.)</b>\") และแปะตาราง torsion vs acute epididymo-orchitis กับสไลด์ treatment",
   "wrong": {
-   "B": "Acute prostatitis: ไข้สูง หนาวสั่น ปวดฝีเย็บ/ ท้องน้อย ต่อมลูกหมากกดเจ็บมาก ไม่ปวดอัณฑะเด่น · จะถูกถ้า PR พบต่อมลูกหมากบวมกดเจ็บมาก",
-   "C": "Acute cystitis ไม่มีไข้และไม่ปวดอัณฑะ · จะถูกถ้ามีเพียงแสบขัด ถ่ายบ่อย ไม่มีไข้",
-   "D": "Pyelonephritis อธิบายไข้และปวดหลังได้ แต่ไม่อธิบายปวดอัณฑะ (อาการใหม่เด่นที่สุด) · จะถูกถ้ามีไข้ ปวดเอว CVA tenderness โดยไม่มีอาการที่อัณฑะ",
-   "E": "มีคำตอบที่เข้าได้คือ A · จะถูกถ้าอาการชี้ไปที่ torsion (ไม่อยู่ในตัวเลือก)"
+   "B": "Acute prostatitis ทำให้ไข้สูง หนาวสั่น แสบขัด ปัสสาวะลำบาก ปวดฝีเย็บหรือท้องน้อย ต่อมลูกหมากบวมกดเจ็บมาก แต่ไม่อธิบาย<b>ปวดอัณฑะข้างเดียว</b>เป็นอาการเด่น (prostatitis อาจลามเป็น epididymitis ได้แต่จะวินิจฉัยตามจุดเด่น) · จะถูกถ้าเป็นชาย 45 ปีไข้ 39.5 °C หนาวสั่น ปวดฝีเย็บ ปัสสาวะลำบาก PR ต่อมลูกหมากบวมร้อนกดเจ็บมาก อัณฑะปกติ",
+   "C": "Acute cystitis อธิบายแสบขัดและเลือดในปัสสาวะได้ แต่ไม่มีไข้สูง ไม่ปวดเอว และไม่ทำให้ปวดอัณฑะ · ในผู้ชาย cystitis เดี่ยว ๆ พบน้อยและมักมีสาเหตุร่วม · จะถูกถ้าเป็นชาย 70 ปีใส่สายสวนปัสสาวะคา มีปัสสาวะขุ่นแสบขัดหลังถอดสาย ไม่มีไข้ อัณฑะและต่อมลูกหมากปกติ",
+   "D": "Acute pyelonephritis ซ้ายอธิบายไข้ ปวดเอวซ้าย และเลือดในปัสสาวะได้ แต่<b>ไม่อธิบายปวดอัณฑะ</b>ซึ่งเป็นอาการใหม่ที่เด่นและต้องได้รับการวินิจฉัยเฉพาะ · จะถูกถ้าเป็นชาย 30 ปีไข้ 39 °C ปวดเอวซ้าย CVA tenderness แสบขัด อัณฑะตรวจปกติไม่บวมไม่เจ็บ",
+   "E": "ไม่ถูกเพราะ epididymo-orchitis อธิบายอาการทั้งหมดได้ดีที่สุด · จะถูกถ้าเป็นชาย 30 ปีที่ปวดอัณฑะซ้ายร่วมปวดเอวและเลือดในปัสสาวะ แต่ US Doppler พบอัณฑะไม่มีเลือดไปเลี้ยง (testicular torsion) หรือพบนิ่วท่อไตส่วนล่างปวดร้าวลงอัณฑะ ซึ่งไม่ใช่โรคในช้อย A–D"
   },
-  "trap": "ตอบ pyelonephritis เพราะมีไข้ ปวดหลัง — อาการเด่นใหม่คือปวดอัณฑะ",
+  "trap": "ปวดเอวและไข้ชวนตอบ pyelonephritis — ให้หาอาการที่<b>โรคอื่นอธิบายไม่ได้</b>: ปวดอัณฑะข้างเดียวหลัง UTI = <b>epididymo-orchitis</b> · และต้องคิดถึง torsion เสมอเมื่อปวดอัณฑะไม่กี่ชั่วโมง",
   "summary": [
-   "Epididymo-orchitis: ค่อยเป็น · ไข้ · แสบขัด · pyuria",
-   "Isolated orchitis: มักจากไวรัส (คางทูม)",
-   "Torsion: ฉับพลัน · อาเจียน · อัณฑะยก แนวขวาง · ไม่มี cremasteric",
-   "&lt; 35 ปี: STI · &gt; 35 ปี: enteric",
-   "ยา + พัก + ยกถุงอัณฑะ",
-   "ไม่ดีขึ้น 72 ชม. → US หา abscess"
+   "Acute scrotum DDx: testicular torsion (ฉุกเฉิน), torsion of appendix testis (blue dot sign), epididymo-orchitis, trauma, incarcerated hernia, Fournier gangrene, HSP, ก้อนเลือดออก",
+   "Epididymo-orchitis: ค่อยเป็น, ไข้, อาการปัสสาวะ, epididymis บวมเจ็บ, Prehn sign บวก, cremasteric reflex มี, US Doppler เลือดเพิ่ม",
+   "Torsion: เฉียบพลัน, อาเจียน, อายุ 12–18 ปีบ่อย, bell-clapper deformity, อัณฑะยกแกนขวาง, cremasteric หาย → ผ่าตัด detorsion + orchidopexy สองข้างภายใน 6 ชม.",
+   "Testicular salvage: ~90–100% ใน 6 ชม. · ~50% ที่ 12 ชม. · &lt; 10% หลัง 24 ชม.",
+   "รักษา epididymitis: ยาตามอายุ/ ความเสี่ยง STI + NSAIDs + ยกถุงอัณฑะ · ไม่ดีขึ้นใน 3 วัน → หาฝี/ มะเร็ง",
+   "Acute prostatitis: ไข้สูง ปวดฝีเย็บ ต่อมกดเจ็บมาก (ห้ามนวดต่อม) · fluoroquinolone/ TMP-SMX 2–4 สัปดาห์",
+   "Pyelonephritis ในผู้ชาย: ยา 10–14 วัน · หา obstruction/ นิ่ว/ ต่อมลูกหมาก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (เว็บเขียนเป็น epididymo-orchitis ให้ครอบคลุมพยาธิสภาพ)",
-  "mnemonic": "<b>'ฉี่แสบนำ → ปวดไข่ตาม = Epididymo-orchitis'</b>",
-  "guide": "EAU Guidelines on Urological Infections (2025); CDC Sexually Transmitted Infections Treatment Guidelines 2021",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A) มั่นใจสูง — UTI ที่ตามด้วยปวดอัณฑะข้างเดียวพร้อมไข้เข้ากับ epididymo-orchitis ตามตาราง torsion vs epididymo-orchitis ในไฟล์ · ข้อสังเกต: ไฟล์เขียนช้อย A ว่า \"Acute orchitis (Lt.)\" เว็บแก้เป็น epididymo-orchitis เพราะการติดเชื้อจากทางเดินปัสสาวะเริ่มที่ epididymis ก่อน ส่วน orchitis เดี่ยวมักเกิดจากไวรัส (mumps)",
+  "mnemonic": "<b>'UTI → ปวดไข่ข้างเดียว + ไข้ = Epididymo-orchitis (ยกแล้วดีขึ้น = Prehn บวก)'</b>",
+  "guide": "EAU Guidelines on Urological Infections 2025 (Acute epididymitis); Workowski KA et al. CDC STI Treatment Guidelines 2021 (MMWR Recomm Rep 2021)",
   "variants": [
-   "ชาย 25 ปี ปวดอัณฑะขวาค่อยเป็น 2 วัน ไข้ Prehn sign ปวดลด → epididymo-orchitis",
-   "เด็กชาย 10 ปี อัณฑะบวมทั้งสองข้างหลังต่อมน้ำลายอักเสบ → mumps orchitis",
-   "ชาย 60 ปี ไข้สูง ปวดฝีเย็บ PR ต่อมลูกหมากกดเจ็บ → acute prostatitis"
+   "ชาย 28 ปีแสบขัด 4 วัน แล้วอัณฑะขวาบวมเจ็บ ไข้ Prehn sign บวก → epididymo-orchitis ให้ ceftriaxone + doxycycline",
+   "เด็กชาย 9 ปีปวดอัณฑะ มีจุดสีฟ้าคล้ำที่ขั้วบน cremasteric reflex ปกติ → torsion of appendix testis รักษาตามอาการ",
+   "ชาย 60 ปี epididymitis รักษา 1 สัปดาห์แล้วอัณฑะยังบวม มีจุดนุ่มกดเจ็บ US เห็นโพรงน้ำ → testicular abscess ระบายหนอง",
+   "ทำไมการติดเชื้อทางเดินปัสสาวะลามถึง epididymis → ท่อปัสสาวะต่อกับ ejaculatory duct และ vas deferens เชื้อย้อนขึ้นได้"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 120 — ตัวพิมพ์: <b>87. ท่านคิดว่าผู้ป่วยเป็นโรคอะไรมากที่สุด — A. Acute orchitis (Lt.) B. Acute prostitis C. Acute cystitis D. Acute pyelonephritis (Lt.) E. None of above</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"โรคอะไรมากที่สุด\" · A (เหลือง)<br>รูปที่แปะ: ตาราง testicular torsion vs acute epididymo-orchitis และสไลด์ Treatment (ชุดเดียวกับข้อ 86)<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น Acute left epididymo-orchitis",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 120",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU67|RoC|1": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับการใช้ <b>steroid ใน brain tumor</b>",
-  "why": "Steroid (dexamethasone) ใน brain tumor ลด <b>vasogenic edema</b> รอบก้อน (ไม่ใช่ cytotoxic) → อาการดีขึ้นเร็ว แต่<b>ไม่ลดการโตของก้อน</b> · ให้<b>ขนาดสูงก่อน</b> (เช่น 10 mg IV stat แล้ว 4–5 mg q 6 ชม.) แล้ว<b>ค่อย ๆ ลด</b>เมื่ออาการดีขึ้น · ใช้ได้และมีประโยชน์ (ระวังผลข้างเคียง) → ข้อ B, C, D ผิดหมด = <b>E ไม่มีข้อถูก</b> · ไฟล์ขีด E ลายมือ B แก้ \"cytotoxic\" → <b>\"vasogenic\"</b> · C แก้ \"น้อยๆ\" → <b>\"↑\"</b> และ \"เพิ่ม\" → <b>\"ลด\"</b> · D ขีดฆ่า \"ไม่\" และแปะสไลด์ <b>Management: \"Steroid ช่วยลด vasogenic brain edema … แต่ steroid จะไม่ช่วยลด tumor growth · Dose คือ 10 mg iv stat และ 5 mg iv q 6 hours ลด dose ลงเมื่ออาการดีขึ้น\"</b>",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับการใช้ steroid ในเนื้องอกสมอง — ต้องรู้ว่า dexamethasone ลด vasogenic edema (ไม่ใช่ cytotoxic) ไม่ทำให้ก้อนส่วนใหญ่เล็กลง เริ่มขนาดสูงแล้วลดลงหาขนาดต่ำสุดที่ได้ผล และใช้อย่างปลอดภัยได้ จึงไม่มีข้อใดถูก",
+  "why": "เนื้องอกสมองทำให้ <b>blood-brain barrier รั่ว</b> (หลอดเลือดในก้อนผิดปกติ หลั่ง VEGF) น้ำและโปรตีนรั่วออกนอกหลอดเลือดเข้า white matter เป็น <b>vasogenic edema</b> ซึ่งเพิ่ม mass effect และ ICP · <b>Dexamethasone</b> (glucocorticoid ฤทธิ์ mineralocorticoid ต่ำ) <b>ลดการรั่วของหลอดเลือด</b> ลด vasogenic edema อาการดีขึ้นภายในชั่วโมงถึงวัน · <b>ไม่ได้ลด cytotoxic edema</b> (เซลล์บวมจากขาดพลังงาน เช่น stroke, บาดเจ็บศีรษะ — CRASH trial พบ steroid เพิ่มอัตราตายใน TBI) · ขนาด: เริ่ม<b>สูง</b> เช่น 10 mg IV แล้ว 4 mg ทุก 6 ชม. (หรือ 4–16 mg/วัน ตามอาการ) แล้ว<b>ค่อยลดลง</b>หาขนาดต่ำสุดที่คุมอาการได้ เพื่อลดผลข้างเคียง (น้ำตาลสูง กล้ามเนื้ออ่อนแรง กระเพาะ PJP ติดเชื้อ) · <b>ไม่ทำให้ก้อนเล็กลง</b> ยกเว้น <b>primary CNS lymphoma</b> ที่ steroid ทำลายเซลล์ lymphoma จนก้อนยุบ (จึงควร<b>งด steroid ก่อน biopsy</b> ถ้าสงสัย lymphoma) · ใช้ได้ปลอดภัยเมื่อมีข้อบ่งชี้ · ตรงคีย์ E — ไฟล์ขีด E แก้ B จาก \"cytotoxic\" เป็น \"<b>vasogenic</b>\" และแก้ C เป็น \"<b>เริ่ม dose สูงแล้วลด</b>\"",
   "wrong": {
-   "A": "Steroid ไม่ลดขนาดก้อนเนื้องอกทั่วไป (สไลด์: ไม่ช่วยลด tumor growth) — ยกเว้น primary CNS lymphoma ที่ก้อนยุบได้ · จะถูกถ้าคำถามถาม primary CNS lymphoma (จึงควรเลี่ยง steroid ก่อน biopsy)",
-   "B": "ลด vasogenic edema ไม่ใช่ cytotoxic (ลายมือแก้) · จะถูกถ้าข้อความว่า \"ลด vasogenic edema\"",
-   "C": "เริ่มขนาดสูงแล้วค่อยลด (ลายมือแก้) · จะถูกถ้าข้อความว่า \"เริ่มขนาดสูงแล้วค่อย ๆ ลด\"",
-   "D": "ใช้ได้และมีประโยชน์ เพียงระวังผลข้างเคียง (น้ำตาลสูง แผลในกระเพาะ ติดเชื้อ) · จะถูกถ้าคำถามถาม steroid ใน traumatic brain injury (CRASH: เพิ่มอัตราตาย ไม่ควรใช้)"
+   "A": "Steroid <b>ไม่ทำให้เนื้องอกสมองส่วนใหญ่เล็กลง</b> อาการที่ดีขึ้นมาจากการลดสมองบวมรอบก้อน ข้อยกเว้นคือ primary CNS lymphoma ที่ steroid ทำให้เซลล์ตาย (apoptosis) ก้อนยุบชั่วคราว · จะถูกถ้าเป็นชาย 60 ปีติดเชื้อ HIV มีก้อนเพิ่มสีรอบ ventricle หลายก้อน ได้ dexamethasone ก่อนตัดชิ้นเนื้อแล้ว MRI ซ้ำพบก้อนยุบเกือบหมด (primary CNS lymphoma)",
+   "B": "Steroid ลด <b>vasogenic</b> edema ไม่ใช่ cytotoxic edema (ไฟล์แก้คำนี้) · cytotoxic edema เกิดจากเซลล์ขาดพลังงาน ปั๊ม Na/K ล้มเหลว เช่น ischemic stroke และ TBI ซึ่ง steroid ไม่ช่วยและอาจเป็นอันตราย · จะถูกถ้าเป็นหญิง 55 ปีที่มี metastasis ก้อนเดียวใน parietal lobe มีสมองบวมรอบก้อนเป็นรูปนิ้วมือใน white matter (vasogenic edema) ซึ่งตอบสนองดีต่อ dexamethasone",
+   "C": "ตรงกันข้าม: เริ่มด้วย<b>ขนาดสูง</b>เพื่อคุมอาการจาก mass effect เร็ว แล้ว<b>ค่อย ๆ ลด</b>ลงหาขนาดต่ำสุดที่ได้ผล (ไฟล์แก้เป็น \"เริ่ม dose สูงแล้วลด\") และหยุดแบบค่อยเป็นเพื่อเลี่ยง adrenal insufficiency · จะถูกถ้าเป็นชาย 50 ปีที่มีก้อนเนื้องอกเล็กไม่มีอาการ มีสมองบวมเล็กน้อย ซึ่งแนวทาง ASCO-SNO แนะนำให้เริ่ม dexamethasone ขนาดต่ำ (เช่น 4–8 mg/วัน) เมื่อมีอาการเล็กน้อย",
+   "D": "Steroid มีผลข้างเคียงจริง (น้ำตาลสูง กล้ามเนื้ออ่อนแรงต้นแขนขา ติดเชื้อ PJP แผลในกระเพาะ กระดูกพรุน จิตใจเปลี่ยนแปลง) แต่<b>ไม่ใช่ข้อห้าม</b> เป็นยาสำคัญที่ลดอาการได้เร็ว ใช้อย่างระวังตามข้อบ่งชี้ · จะถูกถ้าเป็นชาย 45 ปีที่สงสัย primary CNS lymphoma จาก MRI และยังไม่ได้ตัดชิ้นเนื้อ อาการคงที่ ซึ่งควรงด steroid ไว้ก่อนเพื่อไม่ให้ผลชิ้นเนื้อเสีย"
   },
-  "trap": "สับสน vasogenic กับ cytotoxic edema — steroid ได้ผลกับ vasogenic (BBB รั่ว) ไม่ได้ผลกับ cytotoxic (stroke)",
+  "trap": "\"ลด cytotoxic edema\" กับ \"เริ่มขนาดน้อย\" ฟังดูถูกเพราะคำคล้ายกับความจริง — ความจริงคือ<b>vasogenic</b> และ<b>เริ่มสูงแล้วลด</b> · ก้อนส่วนใหญ่ไม่เล็กลงจาก steroid (ยกเว้น lymphoma) และใช้ได้อย่างปลอดภัย จึงไม่มีข้อถูก",
   "summary": [
-   "Vasogenic edema (tumor, abscess): BBB รั่ว · white matter → steroid ได้ผล",
-   "Cytotoxic edema (ischemia/ stroke): เซลล์บวม · steroid ไม่ได้ผล",
-   "Dexamethasone: 10 mg IV stat → 4–5 mg q 6 ชม. → ลดขนาด",
-   "ให้ PPI ป้องกันแผลในกระเพาะ · คุมน้ำตาล",
-   "สงสัย lymphoma → เลี่ยง steroid ก่อน biopsy",
-   "ห้ามใช้ steroid ใน TBI (CRASH)"
+   "Vasogenic edema: BBB รั่ว (เนื้องอก ฝี) → น้ำใน white matter รูปนิ้วมือ · ตอบสนองต่อ steroid",
+   "Cytotoxic edema: เซลล์บวมจากขาดพลังงาน (stroke, TBI, hypoxia) → grey + white matter · steroid ไม่ช่วย (CRASH trial: เพิ่มอัตราตายใน TBI)",
+   "Dexamethasone: เลือกเพราะ half-life ยาว ฤทธิ์ mineralocorticoid ต่ำ · อาการรุนแรง 16 mg/วัน (เช่น 4 mg q6h) · เล็กน้อย 4–8 mg/วัน · ลดลงเร็วที่สุดที่ทำได้",
+   "ไม่ให้ steroid ในผู้ที่ไม่มีอาการจากสมองบวม (ASCO-SNO-ASTRO 2021)",
+   "Primary CNS lymphoma: steroid ทำให้ก้อนยุบและผลชิ้นเนื้อเสีย → งด steroid ก่อน stereotactic biopsy ถ้าอาการคงที่",
+   "ผลข้างเคียง: hyperglycemia, myopathy, PJP (ให้ prophylaxis ถ้า &gt; 4–6 สัปดาห์), GI bleed (PPI), insomnia/ psychosis, osteoporosis, adrenal suppression",
+   "Bevacizumab: ลด radiation necrosis/ edema ที่ดื้อ steroid"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'Steroid ใน tumor: Vasogenic · High → Low · ไม่ลดก้อน'</b>",
-  "guide": "EANO Guidelines on the Diagnosis and Treatment of Diffuse Gliomas (Nat Rev Clin Oncol 2021;18:170); Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Corticosteroids",
+  "opinion": "เห็นด้วยกับคีย์ E (ไฟล์ขีด E และแก้ช้อย B, C) มั่นใจสูง — steroid ลด vasogenic edema ใช้ขนาดสูงแล้วลด ไม่ได้ทำให้ก้อนเล็กลงทั่วไป และไม่ใช่ยาต้องห้าม · ไฟล์ช้อย A เว้นว่าง เว็บเติม \"It shrinks the tumor itself\" ซึ่งผิดยกเว้นใน lymphoma",
+  "mnemonic": "<b>'Dexa ในก้อนสมอง: ลด Vasogenic (ไม่ใช่ Cytotoxic) · เริ่มสูงแล้วลง · ห้ามก่อน biopsy ถ้าสงสัย Lymphoma'</b>",
+  "guide": "Jessurun CAC et al. Evidence-based dexamethasone dosing in malignant brain tumors (Neurooncol Pract 2019); Vogelbaum MA et al. Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline (J Clin Oncol 2022)",
   "variants": [
-   "ก้อน metastasis + edema รอบ ซึม → dexamethasone IV",
-   "สงสัย primary CNS lymphoma → งด steroid จนได้ biopsy",
-   "TBI รุนแรง → ไม่ให้ steroid"
+   "ชาย 60 ปี metastasis 3 cm ซึม อ่อนแรงซีกขวา สมองบวมมาก → dexamethasone 10 mg IV แล้ว 4 mg ทุก 6 ชม. ก่อนผ่าตัด",
+   "ผู้ป่วยหลังรังสีรักษาลด dexamethasone เร็ว อ่อนเพลีย ความดันต่ำ → adrenal insufficiency",
+   "สงสัย primary CNS lymphoma อาการคงที่ → งด steroid ทำ stereotactic biopsy ก่อน",
+   "ทำไม steroid ไม่ช่วยสมองบวมหลังบาดเจ็บศีรษะ → เป็น cytotoxic edema จากเซลล์ขาดพลังงาน ไม่ใช่ BBB รั่ว"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 122 — หน้า 121 หัวเรื่อง <b>MDCU67 R3</b> · หน้า 122 หัวเรื่อง AC Subspeciality Surgery R3/2557 · NEURO SURGERY · ตัวพิมพ์: <b>1. ข้อใดถูกเกี่ยวกับการใช้ steroid ใน brain tumor — A. B. ลด cytotoxic edema ได้ C. เริ่มใช้จาก dose น้อยๆก่อน แล้วค่อยๆ เพิ่ม D. อันตราย ไม่ควรใช้ E. ไม่มีข้อถูก</b><br>ลายมือ: B ขีดฆ่า \"cytotoxic\" + \"vasogenic\" · C ขีดฆ่า \"น้อยๆ\" + \"↑\" · ขีดฆ่า \"เพิ่ม\" + \"ลด\" · D ขีดฆ่า \"ไม่\" · ขีด E<br>ไฮไลต์: \"การใช้ steroid ใน brain tumor\" (เหลือง)<br>รูปที่แปะ: สไลด์ Management — Medication: Steroid ช่วยลด vasogenic brain edema ที่มักมีอยู่รอบๆ tumor ช่วยลดอาการลงได้อย่างรวดเร็ว แต่ steroid จะไม่ช่วยลด tumor growth · Dose คือ 10 mg iv stat และ 5 mg iv q 6 hours ลด dose ลงเมื่ออาการดีขึ้น เพื่อลดผลข้างเคียงของ steroid · Anticonvulsant กรณีที่มีชัก + ภาพ CT (edema รอบ tumor) + ลายมือ (vasogenic edema: white matter, พบใน brain tumor · cytotoxic edema: gray-white, พบใน stroke, infarct · ฯลฯ)<br>ที่ปรับในเว็บ: เติมช้อย A (It shrinks the tumor itself) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 122",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU67|RoC|2": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>brain tumor</b>",
-  "why": "เมื่อนับรวม <b>brain metastasis</b> (ซึ่งพบบ่อยกว่า primary brain tumor หลายเท่าและเป็น malignant ทั้งหมด) → <b>malignant พบมากกว่า benign</b> = D (ลายมือ \"จาก metas.\") · ข้ออื่นผิด: malignant brain tumor <b>ไม่ค่อย</b>กระจายนอกสมอง (ตายจากผลในกะโหลก) · ผู้ใหญ่พบ <b>supratentorial</b> มากกว่า · metastasis <b>ผ่าตัดได้</b> (ก้อนเดี่ยว/ เพื่อบรรเทาอาการ) · <b>secondary (metastasis) พบมากกว่า primary</b> · ไฟล์ขีด D ลายมือ <b>\"จาก metas.\"</b> · A ขีดฆ่า \"ออกนอกสมอง\" + <b>\"ไม่ค่อย metas.\"</b> · B แก้ infra → <b>\"supra\"</b> · C ขีดฆ่า \"ไม่\" + <b>\"palliative Sx\"</b> · E แก้ primary → <b>\"2°\"</b> secondary → <b>\"1°\"</b>",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับเนื้องอกสมอง — ต้องรู้ภาพรวม: เมื่อนับรวม metastasis ซึ่งพบมากกว่าเนื้องอกปฐมภูมิ เนื้องอกชนิดร้ายจึงพบมากกว่าชนิดไม่ร้าย มะเร็งสมองแทบไม่แพร่นอก CNS ผู้ใหญ่พบ supratentorial มาก และ metastasis ผ่าตัดได้ในบางกรณี",
+  "why": "<b>Brain metastasis พบมากกว่าเนื้องอกปฐมภูมิ</b> (ราว 3–10 เท่า) เกิดใน <b>20–40% ของผู้ป่วยมะเร็ง</b> · ในเนื้องอก<b>ปฐมภูมิ</b> ส่วนใหญ่เป็นชนิดไม่ร้าย (ราว 63–70% เช่น meningioma) แต่เมื่อรวม metastasis ซึ่งเป็นมะเร็งทั้งหมด <b>เนื้องอกชนิดร้ายจึงพบมากกว่าชนิดไม่ร้ายในภาพรวม</b> (ตามลายมือ \"จาก metas.\") · ข้อเท็จจริงอื่น: มะเร็งสมอง<b>แทบไม่แพร่นอก CNS</b> (&lt; 1–2%) จึงตายจาก<b>การลุกลามเฉพาะที่</b> · ผู้ใหญ่พบ <b>supratentorial</b> ~70–80% ส่วนเด็ก 1–12 ปีพบ infratentorial มาก · metastasis <b>ผ่าตัดได้</b>ในก้อนเดี่ยวหรือน้อยก้อนที่เข้าถึงได้ ก้อนใหญ่ที่มี mass effect หรือต้องการชิ้นเนื้อ และผู้ป่วยแข็งแรงที่โรคนอกสมองคุมได้ (Patchell 1990: ผ่าตัด + WBRT ดีกว่า WBRT อย่างเดียว) ร่วมกับ SRS · ตรงคีย์ D — ไฟล์ขีด D เขียน \"<b>จาก metas.</b>\" แก้ A เป็น \"<b>ไม่ค่อย metas.</b>\" B เป็น \"<b>supra</b>\" C เป็น \"<b>palliative Sx</b>\" และ E กลับเป็น \"<b>2° &gt; 1°</b>\" พร้อมแปะ infographic \"<b>20–40% of all other cancers later develop brain metastases</b>\"",
   "wrong": {
-   "A": "Malignant brain tumor ไม่ค่อยกระจายนอกสมอง (ลายมือ) ตายจากการกดเบียด/ ICP · จะถูกถ้าข้อความว่า \"มักตายจากผลภายในกะโหลก\"",
-   "B": "ผู้ใหญ่พบ supratentorial มากกว่า (ลายมือแก้) · จะถูกถ้าข้อความถามเด็ก (infratentorial มากกว่า)",
-   "C": "Metastasis ผ่าตัดได้ (ก้อนเดี่ยว ผู้ป่วยแข็งแรง หรือ palliative) (ลายมือ) · จะถูกถ้าคำถามถามก้อนกระจายหลายสิบก้อนในผู้ป่วยระยะสุดท้าย",
-   "E": "Secondary (metastasis) พบมากกว่า primary (ลายมือแก้) · จะถูกถ้าข้อความว่า \"secondary พบมากกว่า primary\""
+   "A": "ไม่จริง: มะเร็งสมองปฐมภูมิ<b>แทบไม่แพร่ออกนอกสมอง</b> (ไฟล์แก้เป็น \"ไม่ค่อย metas.\") ผู้ป่วยตายจากการลุกลามเฉพาะที่ ICP สูง และ herniation · จะถูกถ้าเป็นชาย 50 ปีมะเร็งปอดที่แพร่มาสมอง ซึ่งการเสียชีวิตส่วนใหญ่มาจากโรคนอกสมองที่ลุกลาม (ไม่ใช่มะเร็งสมองปฐมภูมิ)",
+   "B": "ไม่จริง: ผู้ใหญ่พบเนื้องอก<b>supratentorial</b> ~70–80% (ไฟล์แก้ \"infra\" เป็น \"supra\") เช่น glioma, meningioma, metastasis ส่วน infratentorial เด่นในเด็ก · จะถูกถ้าเป็นกลุ่มเด็กอายุ 1–12 ปี ซึ่งเนื้องอกส่วนใหญ่ (~50–60%) อยู่ใน posterior fossa เช่น medulloblastoma, pilocytic astrocytoma, ependymoma",
+   "C": "ไม่จริง: metastasis <b>ผ่าตัดได้</b>ในผู้ป่วยที่เหมาะสม (ไฟล์แก้เป็น \"palliative Sx\") เช่นก้อนเดี่ยวเข้าถึงได้ ก้อนใหญ่ &gt; 3 cm มี mass effect หรือต้องการชิ้นเนื้อวินิจฉัย การผ่าตัดยืดชีวิตและคุณภาพชีวิต · จะถูกถ้าเป็นชาย 70 ปีที่มี metastasis 15 ก้อนทั่วสมอง โรคนอกสมองลุกลามไม่ตอบสนองต่อยา และ performance status แย่ ซึ่งไม่เหมาะผ่าตัด",
+   "E": "ไม่จริง: <b>secondary (metastasis) พบมากกว่า primary</b> (ไฟล์สลับเป็น \"2° &gt; 1°\") ในผู้ใหญ่ราว 3–10 เท่า และเพิ่มขึ้นเพราะผู้ป่วยมะเร็งอยู่ได้นานขึ้นและตรวจ MRI มากขึ้น · จะถูกถ้าเป็นกลุ่มเด็ก ซึ่งเนื้องอกสมองส่วนใหญ่เป็นปฐมภูมิและ metastasis มาสมองพบน้อย"
   },
-  "trap": "นับเฉพาะ primary brain tumor (benign ~2/3) — คำถามรวมทุกก้อน metastasis ทำให้ malignant ชนะ",
+  "trap": "ตัวเลข \"primary 63% benign\" ทำให้คิดว่า benign พบมากกว่า — แต่ข้อความถามเนื้องอกสมอง<b>ทั้งหมด</b> ซึ่งรวม <b>metastasis</b> (มะเร็งทั้งหมดและพบมากที่สุด) จึงทำให้ malignant มากกว่า benign ตามที่ไฟล์เขียน \"จาก metas.\"",
   "summary": [
-   "ก้อนในสมองผู้ใหญ่: metastasis &gt; primary",
-   "Primary: benign (meningioma) ~2/3 · malignant (glioma) ~1/3",
-   "รวม metastasis → malignant &gt; benign",
-   "ผู้ใหญ่ supratentorial · เด็ก infratentorial",
-   "Metastasis เดี่ยว → ผ่าตัด + SRS · หลายก้อน → SRS/ WBRT",
-   "Primary malignant แทบไม่กระจายนอก CNS"
+   "เนื้องอกในสมองผู้ใหญ่: metastasis &gt; primary (3–10 เท่า) · 20–40% ของผู้ป่วยมะเร็งเกิด brain metastasis",
+   "Primary: benign ~63–70% (meningioma พบบ่อยสุด) · malignant ~30–37% (glioblastoma พบบ่อยสุด)",
+   "แหล่ง metastasis: ปอด &gt; เต้านม &gt; melanoma &gt; ไต &gt; ลำไส้ใหญ่ · ตำแหน่ง grey-white junction · supratentorial ~80%",
+   "มะเร็งสมองปฐมภูมิแพร่นอก CNS &lt; 1–2% · แพร่ทาง CSF ได้ (medulloblastoma, ependymoma, germinoma)",
+   "ผู้ใหญ่ supratentorial ~70–80% · เด็ก 1–12 ปี infratentorial ~50–60%",
+   "ผ่าตัด metastasis: ก้อนเดี่ยว/ น้อยก้อน เข้าถึงได้ &gt; 3 cm หรือ mass effect, KPS ดี, โรคนอกสมองคุมได้ → resection + SRS ที่ cavity",
+   "SRS: 1–4 (ถึง 10) ก้อน ขนาดเล็ก · WBRT + hippocampal avoidance + memantine เมื่อก้อนมาก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลางค่อนข้างสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ (ถูกเมื่อรวม metastasis · infographic ที่แปะแสดง primary brain tumor เป็น benign 63%)",
-  "mnemonic": "<b>'สมอง: Secondary &gt; Primary · ดังนั้น Malignant &gt; Benign'</b>",
-  "guide": "WHO Classification of Tumours of the Central Nervous System 5th ed. (2021); CBTRUS Statistical Report (Neuro-Oncology 2023)",
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ขีด D \"จาก metas.\") มั่นใจปานกลาง — เมื่อนับรวม metastasis เนื้องอกชนิดร้ายพบมากกว่าชนิดไม่ร้าย และช้อยอื่นผิดชัดตามที่ไฟล์แก้ · ข้อสังเกต: ถ้านับเฉพาะเนื้องอกปฐมภูมิ benign พบมากกว่า (63% ตาม infographic ในไฟล์) ข้อความ D จึงขึ้นกับว่ารวม metastasis หรือไม่ แต่เป็นข้อเดียวที่ถูกในชุดนี้",
+  "mnemonic": "<b>'สมองผู้ใหญ่: 2° มากกว่า 1° · มะเร็งไม่ออกนอก CNS · Supra ในผู้ใหญ่ Infra ในเด็ก · Mets ผ่าได้'</b>",
+  "guide": "Ostrom QT et al. CBTRUS Statistical Report: Primary Brain and Other CNS Tumors (Neuro Oncol 2023); Patchell RA et al. Surgery for single brain metastasis (N Engl J Med 1990)",
   "variants": [
-   "ผู้ใหญ่ชักครั้งแรก ก้อนหลายก้อนที่ gray-white junction → metastasis",
-   "ก้อน metastasis เดี่ยว 3 cm โรคต้นทางคุมได้ → resection + SRS",
-   "เด็กก้อนใน posterior fossa → infratentorial"
+   "หญิง 55 ปีมะเร็งเต้านม มี metastasis ก้อนเดี่ยว 4 cm ที่ cerebellum กด fourth ventricle → ผ่าตัดเอาก้อนออก + SRS ที่ cavity",
+   "ชาย 65 ปี metastasis 3 ก้อนขนาด &lt; 2 cm โรคนอกสมองคุมได้ → stereotactic radiosurgery",
+   "เด็ก 7 ปีเดินเซ อาเจียนตอนเช้า → posterior fossa tumor (infratentorial พบบ่อยในเด็ก)",
+   "ทำไม metastasis พบมากขึ้นในปัจจุบัน → ผู้ป่วยมะเร็งรอดชีพนานขึ้น และยาหลายชนิดผ่าน BBB ไม่ได้ สมองจึงเป็นที่หลบของมะเร็ง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 122 — ตัวพิมพ์: <b>2. ข้อใดถูกต้องเกี่ยวกับ Brain tumor — A. Malignant brain tumor มักตายจาก metastasis ออกนอกสมอง B. ในผู้ใหญ่มักพบ infratentorial tumor C. metastasis จะไม่ผ่า เพราะเป็น end stage cancer แล้ว D. malignant พบมากกว่า benign E. primary พบมากกว่า secodary</b><br>ลายมือ: A ขีดฆ่า \"ออกนอกสมอง\" + \"ไม่ค่อย metas.\" · B ขีดฆ่า \"infra\" + \"supra\" · C ขีดฆ่า \"ไม่\" + \"palliative Sx\" · ขีด D + \"จาก metas.\" · E ขีดฆ่า \"primary\" + \"2°\" · ขีดฆ่า \"secondary\" + \"1°\"<br>ไฮไลต์: \"ถูกต้องเกี่ยวกับ Brain tumor\" · D (เหลือง)<br>รูปที่แปะ: ① infographic Facts about brain tumors in the United States (20–40% of all other cancers later develop brain metastases · primary brain tumors 63% benign / 37% malignant) ② สไลด์ Benign VS Malignant (ชุดเดียวกับรอบก่อน — \"Malignant Brain tumor มักไม่ metastases ออกนอก CNS\")",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 122",
