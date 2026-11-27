@@ -1,29 +1,31 @@
 {
  "MDCU67|RoC|62": {
-  "interp": "ถาม <b>malignant tumor ที่พบบ่อยที่สุดในเด็ก</b> ในตัวเลือก (extracranial solid tumor)",
-  "why": "<b>Neuroblastoma</b> เป็น<b>มะเร็งก้อนตันนอกกะโหลกศีรษะที่พบบ่อยที่สุดในเด็ก</b> (และพบบ่อยที่สุดในทารก) — มาจาก sympathetic ganglion/ ต่อมหมวกไตชั้นใน · (มะเร็งเด็กโดยรวมที่พบบ่อยที่สุดคือ leukemia และ brain tumor ซึ่งไม่อยู่ในตัวเลือก) · ไฟล์ขีด A และแปะสไลด์ <b>Neurogenic Tumor: Sympathetic ganglion — Ganglioneuroma · Neuroblastoma (most common malignant tumor)</b>",
+  "interp": "ถามเนื้องอก<b>ชนิดร้าย (malignant) ที่เป็นก้อนเนื้อแข็งนอกกะโหลกศีรษะ (extracranial solid tumor)</b> ที่พบบ่อยที่สุดในเด็ก — ต้องแยกมะเร็งจริงออกจากก้อนที่ไม่ใช่มะเร็ง (hydronephrosis, duplication cyst) และรู้อันดับระบาดวิทยาของมะเร็งเด็ก",
+  "why": "มะเร็งเด็กที่พบบ่อยที่สุดโดยรวมคือ <b>leukemia</b> ตามด้วย <b>brain tumor</b> (ซึ่งเป็น solid tumor ที่พบบ่อยที่สุด) แต่ถ้านับเฉพาะ solid tumor นอกกะโหลก อันดับหนึ่งคือ <b>neuroblastoma</b> และยังเป็นมะเร็งที่พบบ่อยที่สุดในทารกขวบปีแรก · neuroblastoma มาจาก <b>neural crest cell</b> ของระบบประสาท sympathetic จึงเกิดได้ทุกจุดตามแนว sympathetic chain — <b>ต่อมหมวกไต (adrenal medulla)</b> พบบ่อยที่สุด รองลงมาคือ paraspinal ganglia ในช่องท้อง ช่องอก (posterior mediastinum) คอ และ pelvis · อายุมัธยฐานตอนวินิจฉัยราว 1–2 ปี · ก้อนมักแข็ง ไม่เรียบ <b>ข้ามแนวกลางลำตัว</b> มี calcification ใน CT และหุ้มหลอดเลือดใหญ่ (encasement) · ตรวจ urine <b>VMA/HVA</b> สูง และ <b>MIBG scan</b> · ปัจจัยพยากรณ์โรคแย่คือ อายุ ≥ 18 เดือน, <b>MYCN amplification</b>, unfavorable histology · ไฟล์ขีด A และแปะสไลด์ Neurogenic tumor ที่เขียนว่า <b>\"Neuroblastoma (most common malignant tumor)\"</b>",
   "wrong": {
-   "B": "Nephroblastoma (Wilms) พบบ่อยรองลงมา (ก้อนไตในเด็ก 3–4 ปี) · จะถูกถ้าคำถามถาม renal tumor ที่พบบ่อยที่สุดในเด็ก",
-   "C": "Hydronephrosis ไม่ใช่เนื้องอก (เป็นก้อนในท้องเด็กแรกเกิดที่พบบ่อยที่สุด) · จะถูกถ้าคำถามถามก้อนในท้องทารกแรกเกิดที่พบบ่อยที่สุด",
-   "D": "Duplication cyst ไม่ใช่มะเร็ง · จะถูกถ้าคำถามถามก้อน cystic ติดลำไส้ในเด็ก",
-   "E": "Rhabdomyosarcoma เป็น soft tissue sarcoma ที่พบบ่อยที่สุดในเด็ก แต่น้อยกว่า neuroblastoma · จะถูกถ้าคำถามถาม soft tissue sarcoma ในเด็ก"
+   "B": "Nephroblastoma (Wilms tumor) เป็นมะเร็ง<b>ไต</b>ที่พบบ่อยที่สุดในเด็กและเป็น solid tumor ในช่องท้องอันดับสองรองจาก neuroblastoma อายุที่พบบ่อยคือ 3–4 ปี ก้อนผิวเรียบ ไม่ข้ามแนวกลาง เด็กมักดูแข็งแรง สัมพันธ์กับ WT1, WAGR, Beckwith–Wiedemann · จะถูกถ้าเป็นเด็ก 3 ปีที่แม่คลำได้ก้อนเรียบที่ท้องข้างหนึ่งตอนอาบน้ำ เด็กร่าเริงดี CT เห็นก้อนเกิดจากเนื้อไต (claw sign)",
+   "C": "Hydronephrosis ไม่ใช่เนื้องอกแต่เป็นการขยายของกรวยไตจากการอุดกั้น (เช่น UPJ obstruction) และเป็น<b>ก้อนในช่องท้องที่พบบ่อยที่สุดในทารกแรกเกิด</b> ซึ่งส่วนใหญ่มาจากไต · จะถูกถ้าเป็นทารกแรกเกิดที่อัลตราซาวนด์ก่อนคลอดเห็นไตบวมน้ำ หลังคลอดคลำได้ก้อนนุ่มที่บั้นเอว US พบ pelvicalyceal dilatation โดยไม่มีท่อไตโป่ง",
+   "D": "Duplication cyst เป็นความผิดปกติแต่กำเนิดชนิดไม่ร้าย มีผนังกล้ามเนื้อเรียบและเยื่อบุทางเดินอาหาร ติดกับลำไส้ (พบที่ ileum บ่อยสุด) อาจทำให้ลำไส้อุดตัน ลำไส้กลืนกัน หรือเลือดออกจาก ectopic gastric mucosa · จะถูกถ้าเป็นทารก 6 เดือนที่อาเจียนเป็นพัก ๆ คลำได้ก้อนกลมเคลื่อนได้ US เห็นผนังสองชั้น (gut signature sign)",
+   "E": "Rhabdomyosarcoma เป็นมะเร็ง<b>เนื้อเยื่ออ่อน (soft tissue sarcoma)</b> ที่พบบ่อยที่สุดในเด็ก แต่ภาพรวมพบน้อยกว่า neuroblastoma ตำแหน่งที่พบบ่อยคือศีรษะและคอ (orbit, parameningeal) และระบบปัสสาวะสืบพันธุ์ · จะถูกถ้าเป็นเด็กหญิง 2 ปีที่มีก้อนคล้ายพวงองุ่นยื่นออกมาจากช่องคลอด (sarcoma botryoides, embryonal type)"
   },
-  "trap": "ตอบ Wilms tumor — neuroblastoma พบบ่อยกว่า",
+  "trap": "คนที่อ่านแค่ \"malignant tumor ที่พบบ่อยที่สุดในเด็ก\" อาจตอบ Wilms เพราะคุ้นกับก้อนท้องในเด็ก หรือคิดถึง leukemia/brain tumor ที่ไม่มีในช้อย · ต้องจำลำดับ: ทั้งหมด = leukemia · solid = brain · extracranial solid และมะเร็งในทารก = neuroblastoma · มะเร็งไต = Wilms · soft tissue sarcoma = rhabdomyosarcoma · และตัด hydronephrosis/duplication cyst ซึ่งไม่ใช่มะเร็งออกก่อน",
   "summary": [
-   "Extracranial solid tumor เด็ก: neuroblastoma &gt; Wilms",
-   "Neuroblastoma: &lt; 2 ปี · ก้อนข้ามแนวกลาง · หินปูน · VMA/ HVA สูง",
-   "Wilms: 3–4 ปี · ก้อนไตไม่ข้ามแนวกลาง · ไม่ค่อยมีหินปูน",
-   "Neuroblastoma: opsoclonus-myoclonus · raccoon eyes · blueberry muffin",
-   "Stage 4S (ทารก) อาจหายเอง",
-   "Rhabdomyosarcoma: soft tissue sarcoma ที่พบบ่อยสุดในเด็ก"
+   "ลำดับมะเร็งเด็ก: leukemia (ALL มากสุด) → CNS tumor (solid tumor อันดับหนึ่ง) → lymphoma → <b>neuroblastoma</b> (extracranial solid tumor อันดับหนึ่งและมะเร็งที่พบบ่อยที่สุดในทารก) → Wilms → rhabdomyosarcoma",
+   "Neuroblastoma มาจาก neural crest ตำแหน่ง: adrenal medulla มากสุด ตามด้วย retroperitoneal paraspinal ganglia, posterior mediastinum, คอ, pelvis · ก้อนในช่องอกมักพยากรณ์ดีกว่าในช่องท้อง",
+   "อาการเด่นของ neuroblastoma: ก้อนท้องแข็งขรุขระข้ามแนวกลาง · periorbital ecchymosis (raccoon eyes) และ proptosis จากกระจายไป orbit · Horner syndrome · opsoclonus–myoclonus (paraneoplastic) · watery diarrhea จาก VIP · ไข้ ซีด ปวดกระดูก",
+   "การตรวจ: urine VMA/HVA สูงราว 90% · CT/MRI เห็น calcification และ vascular encasement · MIBG scan ดูการกระจาย · bone marrow aspiration · ชิ้นเนื้อดู histology และ MYCN",
+   "Stage MS (เดิม 4S): อายุ &lt; 18 เดือน กระจายเฉพาะผิวหนัง (blueberry muffin) ตับ ไขกระดูก (&lt; 10%) — ส่วนใหญ่ <b>ยุบเองได้</b> (spontaneous regression) มักแค่ติดตาม",
+   "แยก neuroblastoma กับ Wilms: NB อายุน้อยกว่า (&lt; 2 ปี) ก้อนขรุขระข้ามแนวกลาง calcification บ่อย เด็กดูป่วย · Wilms 3–4 ปี ผิวเรียบไม่ข้ามแนวกลาง calcification น้อย เด็กดูแข็งแรง ลุกลามเข้า renal vein/IVC ได้",
+   "การรักษาตามความเสี่ยง (COG): low risk → ผ่าตัดอย่างเดียวหรือเฝ้าดู · intermediate → ผ่าตัด + chemotherapy · high risk (MYCN amplified, อายุมากที่กระจาย) → induction chemotherapy, ผ่าตัด, high-dose chemotherapy + autologous stem cell rescue, radiotherapy, anti-GD2 immunotherapy และ isotretinoin"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ (โจทย์หมายถึงมะเร็งก้อนตันนอกกะโหลก)",
-  "mnemonic": "<b>'เด็ก: Neuroblastoma ข้ามเส้น · Wilms อยู่ข้างเดียว'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Neuroblastoma",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ (ขีด A) และสไลด์ที่แปะว่า neuroblastoma คือ most common malignant tumor · เว็บเติมคำว่า extracranial solid ทำให้คำถามชัดขึ้น เพราะถ้าถามมะเร็งเด็กทุกชนิด คำตอบจะเป็น leukemia ซึ่งไม่อยู่ในช้อย",
+  "mnemonic": "<b>'Leukemia → Brain → Neuroblastoma: \"ทั้งหมดเลือด · แข็งในหัวคือสมอง · แข็งนอกหัวคือ Neuro\"'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Neuroblastoma; Coran: Pediatric Surgery 8th ed. (Elsevier 2023)",
   "variants": [
-   "ทารก 1 ปี ก้อนท้องข้ามแนวกลาง หินปูน VMA สูง → neuroblastoma",
-   "เด็ก 3 ปี ก้อนไตข้างเดียว เรียบ ความดันสูง → Wilms",
-   "เด็กก้อนรอบตา ตาโปน → rhabdomyosarcoma (orbit)"
+   "ทารก 4 เดือน มีตุ่มสีม่วงน้ำเงินทั่วตัว ตับโต ก้อนเล็กที่ต่อมหมวกไต MYCN ไม่ขยาย → neuroblastoma stage MS → ติดตามเฝ้าดู เพราะมักยุบเอง",
+   "เด็ก 2 ปี ตากระตุกไปมาเร็ว ๆ (dancing eyes) แขนขากระตุก เดินเซ → opsoclonus–myoclonus syndrome → ตรวจหา neuroblastoma (urine VMA/HVA, CT/MRI ช่องอกและท้อง)",
+   "เด็ก 3 ปี ความดันสูง ปัสสาวะเป็นเลือด ก้อนผิวเรียบในท้องข้างซ้ายไม่ข้ามแนวกลาง → Wilms tumor → ห้ามเจาะชิ้นเนื้อผ่านผิวหนังก่อน (NWTS/COG) ทำ radical nephroureterectomy + lymph node sampling",
+   "ทำไม MYCN amplification สำคัญ → เป็นตัวพยากรณ์โรคแย่ที่สุด จัดเป็น high risk ทันทีแม้ stage ต่ำ ต้องได้การรักษาแบบเข้มข้น"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 131 — ตัวพิมพ์: <b>62. อะไรคือ malignant tumor ที่พบบ่อยที่สุดในเด็ก — A. Neuroblastoma B. Nephroblastoma C. Hydronephosis D. Duplication cyst E. Rhabdomyosarcoma</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"malignant tumor ที่พบบ่อยที่สุดในเด็ก\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Neurogenic Tumor — Nerve sheath tumor (MIC): Neurilemmoma (schwannoma) · Neurofibroma · Malignant schwannoma / Sympathetic ganglion: Ganglioneuroma · Neuroblastoma (most common malignant tumor)<br>ที่ปรับในเว็บ: โจทย์ระบุ extracranial solid tumor",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 131",
@@ -33,30 +35,31 @@
   ]
  },
  "MDCU67|RoC|63": {
-  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>testicular torsion</b>",
-  "why": "ใน torsion การ<b>ยกถุงอัณฑะ (Prehn sign) ไม่ช่วยให้ปวดลดลง</b> (ปวดเท่าเดิมหรือมากขึ้น) — ต่างจาก epididymitis ที่ปวดลดลง → A ผิด · ข้ออื่นถูก: อาจมีปวดแบบเป็น ๆ หาย ๆ มาก่อน (intermittent torsion) · ปัสสาวะไม่มีเม็ดเลือดขาว (ไม่ใช่การติดเชื้อ) · อัณฑะยกสูง/ คลำยาก · <b>แนวอัณฑะขวาง (horizontal lie)</b> · ไฟล์ขีด A ขีดฆ่า \"ลดลง\" เขียน <b>\"มากขึ้น\"</b> · ✓ ที่ B–E · C <b>\"∵ not infection\"</b>",
+  "interp": "ถามข้อที่<b>ผิด</b>เกี่ยวกับ testicular torsion — ต้องรู้อาการ อาการแสดงที่ใช้แยกจาก epididymo-orchitis (Prehn sign, cremasteric reflex, pyuria) และกายวิภาค bell clapper ที่ทำให้อัณฑะวางตัวแนวนอน",
+  "why": "Testicular torsion คืออัณฑะบิดรอบ spermatic cord ทำให้ venous outflow อุดก่อน แล้ว arterial inflow อุดตามจนอัณฑะขาดเลือด · พบมากในวัยรุ่น 12–18 ปี และทารกแรกเกิด (extravaginal torsion) · ส่วนใหญ่เกิดจาก <b>bell clapper deformity</b> — tunica vaginalis หุ้มสูงเกินจนอัณฑะลอยแกว่งได้ จึงเห็นอัณฑะ<b>วางแนวนอน (horizontal lie)</b> และอยู่สูง (high-riding) · อาการแสดงที่ไวที่สุดคือ <b>cremasteric reflex หายไป</b> · <b>Prehn sign ลบ</b>: ยกถุงอัณฑะขึ้นแล้ว<b>ไม่หายเจ็บหรือเจ็บมากขึ้น</b> (ต่างจาก epididymitis ที่การยกช่วยลดปวด) ข้อ A จึงผิด · ปัสสาวะไม่มี WBC เพราะไม่ใช่การติดเชื้อ · ผู้ป่วยบางรายเคยปวดเป็นพัก ๆ แล้วหายเอง (intermittent torsion–detorsion) · เวลาคือสิ่งสำคัญ: ผ่าตัดภายใน <b>6 ชั่วโมง</b>รักษาอัณฑะได้ราว 90% ขึ้นไป หลัง 24 ชั่วโมงเหลือน้อยมาก ไม่ควรรอ Doppler ถ้าอาการชัด · ไฟล์ขีด A ขีดฆ่าคำว่า \"ลดลง\" และเขียนลายมือแก้เป็น <b>\"มากขึ้น\"</b>",
   "wrong": {
-   "B": "ถูก — อาจมีปวดเป็นพัก ๆ มาก่อน (intermittent torsion) (ลายมือ ✓) · จะถูกถ้าข้อความว่าไม่เคยมีอาการมาก่อนเสมอ",
-   "C": "ถูก — ไม่มี pyuria (ลายมือ \"not infection\") · จะถูกถ้าข้อความว่าพบ WBC มากในปัสสาวะ (epididymitis)",
-   "D": "ถูก — อัณฑะยกสูงบวมกดเจ็บ คลำแยกยาก (ลายมือ ✓) · จะถูกถ้าข้อความว่าคลำอัณฑะได้ปกติเสมอ",
-   "E": "ถูก — horizontal lie (bell clapper) (ลายมือ ✓) · จะถูกถ้าข้อความว่าแนวอัณฑะปกติ"
+   "B": "ข้อความถูก: ผู้ป่วย torsion ราวหนึ่งในสี่ถึงหนึ่งในสามเคยมีอาการปวดอัณฑะเฉียบพลันแล้วหายเองมาก่อน ซึ่งคือ intermittent torsion ที่บิดแล้วคลายเอง เป็นข้อบ่งชี้ให้ทำ elective bilateral orchiopexy · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับประวัติของเด็กชาย 14 ปีที่ปวดอัณฑะซ้ายเฉียบพลันตอนตี 3 และเล่าว่าเดือนก่อนเคยปวดแบบเดียวกัน 30 นาทีแล้วหาย",
+   "C": "ข้อความถูก: torsion เป็นภาวะขาดเลือด ไม่ใช่การติดเชื้อ ปัสสาวะจึงมักไม่พบเม็ดเลือดขาว (ลายมือ \"∵ not infection\") ต่างจาก epididymitis ที่มักมี pyuria และไข้ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับผลตรวจของวัยรุ่นชายที่ปวดอัณฑะขวาทันทีขณะเล่นฟุตบอล อาเจียน ไม่มีไข้ UA ปกติ",
+   "D": "ข้อความถูก: อัณฑะที่บิดจะบวม เจ็บมาก และถูกดึงขึ้นสูงชิดรูขาหนีบเพราะ cord สั้นลงจากการบิด จึงคลำอัณฑะในตำแหน่งปกติได้ยาก (ไฟล์เดิมเขียนว่าคลำไม่พบอัณฑะในข้างนั้น) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการตรวจร่างกายของเด็กชาย 13 ปีปวดอัณฑะ 3 ชั่วโมง คลำได้อัณฑะอยู่สูงบวมแข็งตึง แยกขอบ epididymis ไม่ได้",
+   "E": "ข้อความถูก: bell clapper deformity ทำให้อัณฑะห้อยแกว่งและวางตัวแนวนอนแทนแนวตั้ง ซึ่งมักเป็นทั้งสองข้าง จึงต้องเย็บตรึงอัณฑะอีกข้างด้วยเสมอ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลักษณะที่ตรวจพบในวัยรุ่นชาย 15 ปีที่ยืนตรวจแล้วเห็นอัณฑะข้างปวดวางแนวขวางและอยู่สูงกว่าอีกข้าง"
   },
-  "trap": "สับสน Prehn sign — ยกแล้วดีขึ้นคือ epididymitis",
+  "trap": "Prehn sign ชวนสับสนเพราะเป็นการตรวจเดียวกันที่ให้ผลตรงข้ามในสองโรค — ยกแล้วหายเจ็บคือ <b>epididymitis (Prehn บวก)</b> ส่วน torsion ยกแล้วไม่ดีขึ้นหรือแย่ลง · ข้อ D อ่านแล้วคล้ายผิดเพราะคิดว่าต้องคลำได้เสมอ แต่อัณฑะบิดจะบวมและถูกดึงขึ้นสูง · และ Prehn sign เองไม่น่าเชื่อถือพอจะตัด torsion ได้ ถ้าสงสัยต้องสำรวจผ่าตัด",
   "summary": [
-   "Torsion: ปวดฉับพลัน · อาเจียน · อัณฑะยก/ แนวขวาง · cremasteric reflex หาย",
-   "Prehn sign: ไม่ดีขึ้น (torsion) · ดีขึ้น (epididymitis)",
-   "ไม่ต้องรอ US ถ้าชัด → explore ด่วน",
-   "Detorsion ภายใน 6 ชม. รักษาอัณฑะได้ &gt; 90%",
-   "Orchidopexy สองข้าง (bell clapper)",
-   "Manual detorsion: หมุนออกด้านนอก (open book)"
+   "Testicular torsion: peak วัยรุ่น 12–18 ปี (intravaginal จาก bell clapper) และทารกแรกเกิด (extravaginal ทั้ง cord และ tunica บิด) · อาการปวดอัณฑะทันที รุนแรง มักปลุกตื่นตอนกลางคืน ร่วมกับคลื่นไส้อาเจียน",
+   "ตรวจร่างกาย: อัณฑะอยู่สูงวางแนวนอน บวมเจ็บทั้งลูก · <b>cremasteric reflex หาย</b> (ไวที่สุด ถ้ายังมีอยู่ทำให้ torsion น้อยลง) · Prehn sign ลบ · Blue dot sign เป็นของ torsion of appendix testis",
+   "TWIST score (บวม 2, อัณฑะแข็ง 2, cremasteric reflex หาย 1, คลื่นไส้อาเจียน 1, high-riding 1): ≥ 5 ความเสี่ยงสูง → ผ่าตัดเลยไม่ต้องรอภาพ · คะแนนกลาง → Doppler US (ไม่มีหรือลดการไหลเวียน, whirlpool sign ที่ cord)",
+   "เวลา: salvage ราว 90–100% ถ้าภายใน 6 ชั่วโมง ลดลงชัดหลัง 12 ชั่วโมง และต่ำมากหลัง 24 ชั่วโมง · อัณฑะที่ตายแล้วต้องตัดออก (orchiectomy) เพื่อลดการอักเสบและ antisperm antibody",
+   "ระหว่างรอผ่าตัดอาจลอง manual detorsion แบบ \"open book\" (หมุนจากด้านในออกด้านนอก) ถ้าหายปวดทันทียังต้องผ่าตัดเย็บตรึงตามมา · ผ่าตัด: scrotal exploration, detorsion, ประเมินสีหลังอุ่น, bilateral orchiopexy",
+   "แยกจาก epididymo-orchitis: ค่อย ๆ ปวดหลายวัน มีไข้ อาการปัสสาวะแสบขัด pyuria Prehn บวก cremasteric reflex ยังอยู่ Doppler เห็นเลือดไหลเวียนเพิ่ม · torsion of appendix testis: ปวดเฉพาะขั้วบน มี blue dot รักษาแบบประคับประคอง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Torsion: ยกแล้วไม่หาย (Prehn ลบ) · cremasteric หาย'</b>",
-  "guide": "EAU Guidelines on Paediatric Urology (2025) — Acute scrotum",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ขีด A และแก้คำว่า \"ลดลง\" เป็น \"มากขึ้น\" · Prehn sign ใน torsion ต้องไม่ดีขึ้น ข้ออื่นเป็นข้อเท็จจริงของ torsion ทั้งหมด (ไฟล์ติ๊กถูก B–E) โดยเว็บปรับ D ให้เป็นคลำได้ยากซึ่งแม่นกว่าคำว่าคลำไม่พบ",
+  "mnemonic": "<b>'\"Prehn = Pain relief → epididymitis · Torsion ยกแล้ว Tor-ture ต่อ\"'</b>",
+  "guide": "EAU Guidelines on Paediatric Urology 2024 — Acute scrotum; Campbell-Walsh-Wein Urology 12th ed. (2020) — Disorders of the scrotal contents",
   "variants": [
-   "เด็กชาย 14 ปี ปวดอัณฑะฉับพลัน อาเจียน อัณฑะขวาง → explore ด่วน",
-   "ชาย 25 ปี ปวดค่อยเป็น ไข้ ยกแล้วดีขึ้น → epididymitis",
-   "เด็ก 8 ปี ปวดอัณฑะ จุดสีน้ำเงิน (blue dot) → torsion of appendix testis → ประคับประคอง"
+   "เด็กชาย 14 ปี ปวดอัณฑะขวาทันที 2 ชั่วโมง อัณฑะอยู่สูงแนวนอน cremasteric reflex หาย → ผ่าตัด scrotal exploration ทันที ไม่ต้องรอ Doppler",
+   "เด็กชาย 9 ปี ปวดเฉพาะขั้วบนของอัณฑะ มองผ่านผิวเห็นจุดสีน้ำเงินเล็ก ๆ cremasteric reflex ปกติ → torsion of appendix testis → ยาแก้ปวด พัก ประคบเย็น",
+   "ผ่าตัดพบอัณฑะบิด 720 องศา หลังคลายและอุ่นด้วยผ้าชุบน้ำอุ่น 10 นาทียังดำ กรีดดูไม่มีเลือดออก → orchiectomy + orchiopexy อัณฑะอีกข้าง",
+   "ทารกแรกเกิดมีอัณฑะข้างหนึ่งแข็ง ไม่เจ็บ สีคล้ำตั้งแต่คลอด → extravaginal (prenatal) torsion → มักไม่สามารถรักษาอัณฑะได้ แต่หลายแห่งยังผ่าตัดเพื่อเย็บตรึงข้างตรงข้าม"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 131 — ตัวพิมพ์: <b>63. ข้อใดผิดเกี่ยวกับ Torsion tessis — A. ยกถุงอัณฑะขึ้นแล้วเจ็บลดลง (Phren's test) B. อาจมีอาการเจ็บมาก่อนหน้านี้ C. ไม่พบเม็ดขาวในปัสสาวะ D. คลำไม่พบอัณฑะในข้างนั้น E. พบแกนของอัณฑะในแนวนอน</b><br>ลายมือ: ขีด A + ขีดฆ่า \"ลดลง\" + \"มากขึ้น\" · B ✓ · C ✓ + \"∵ not infection\" · D ✓ · E ✓<br>ไฮไลต์: \"ผิด\" \"Torsion tessis\" · A (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 131",
@@ -66,30 +69,32 @@
   ]
  },
  "MDCU67|RoC|65": {
-  "interp": "เด็กชาย 3 ปี <b>ก้อนที่คอขวา แข็ง ผิวเรียบ ไม่แดง</b> · <b>PPD บวก</b> → ถามการตรวจขั้นต่อไป",
-  "why": "ก้อนต่อมน้ำเหลืองที่คอในเด็ก + PPD บวก สงสัย <b>TB lymphadenitis (scrofula)</b> แต่ต้อง<b>ยืนยันการวินิจฉัยด้วยเนื้อเยื่อ</b>ก่อนให้ยา 6 เดือน — <b>FNA</b> (ส่ง AFB stain, culture, PCR, cytology) ทำได้ง่าย รุกล้ำน้อย · ในเด็กเล็ก <b>nontuberculous mycobacteria (NTM)</b> พบบ่อยและ PPD อาจบวกข้ามกลุ่มได้ (NTM รักษาด้วยการผ่าตัดออก ไม่ใช่ยา TB) และต้องแยก lymphoma · คีย์ในไฟล์ขีด <b>B (start anti-TB)</b> ลายมือ <b>\"TB lymphadenitis\"</b>",
+  "interp": "เด็กชาย 3 ปีมีก้อนที่คอข้างขวา แข็ง ผิวเรียบ ไม่แดง และ PPD บวก — ทำให้คิดถึง <b>mycobacterial lymphadenitis</b> (TB หรือ nontuberculous mycobacteria) แต่ยังต้องแยก lymphoma · คำถามถาม<b>การตรวจถัดไป (next investigation)</b> เพื่อพิสูจน์การวินิจฉัยก่อนรักษา",
+  "why": "ต่อมน้ำเหลืองคอโตที่ไม่ใช่ reactive (แข็ง ไม่เจ็บ ไม่แดง ไม่ยุบ) ต้องได้<b>ชิ้นเนื้อหรือเซลล์</b>มายืนยัน · PPD บวกบอกเพียงว่าเคยสัมผัสเชื้อ mycobacteria ไม่ได้ยืนยันว่าต่อมน้ำเหลืองเป็นวัณโรค โดยเฉพาะในเด็กไทยที่ได้ <b>BCG</b> ตั้งแต่แรกเกิด และ NTM ก็ทำให้ PPD บวกแบบอ่อนได้ · <b>Fine needle aspiration (FNA)</b> ทำง่าย บาดเจ็บน้อย ส่งได้ทั้ง cytology (granuloma, caseous necrosis หรือเซลล์มะเร็ง), <b>AFB stain, mycobacterial culture และ Xpert MTB/RIF</b> ซึ่งแยก M. tuberculosis จาก NTM และบอกการดื้อ rifampicin ได้ · ถ้า FNA ไม่ได้ผลชัดหรือยังสงสัย lymphoma จึงทำ <b>excisional biopsy</b> (ไม่ใช่ incisional เพราะเกิด sinus tract เรื้อรัง) · ผลวินิจฉัยกำหนดการรักษาต่างกันมาก: TB lymphadenitis → ยาต้านวัณโรค 2HRZE/4HR · NTM → excision เป็นหลัก ยามักไม่ตอบสนอง · ไฟล์ขีด B (Start anti-TB drug) และเขียนลายมือ <b>\"TB lymphadenitis\"</b> ใต้ PPD +ve",
   "wrong": {
-   "A": "Excisional biopsy ได้ผลวินิจฉัยดีที่สุด (และรักษา NTM) แต่รุกล้ำกว่าและทำเป็นลำดับถัดไปเมื่อ FNA ไม่ได้ผล · จะถูกถ้าคำถามถามสงสัย lymphoma หรือ FNA ไม่ได้ผลวินิจฉัย",
-   "B": "เริ่มยา TB โดยไม่ยืนยัน (คีย์ในไฟล์) เสี่ยงรักษาผิดโรค (NTM/ lymphoma) · จะถูกถ้ามี TB ปอดยืนยันแล้ว/ สัมผัสผู้ป่วย TB ชัด + ก้อนเข้ากันมาก",
-   "C": "ทำ PPD ซ้ำไม่ช่วย · จะถูกถ้า PPD ครั้งแรกแปลผลไม่ได้/ ทำผิดวิธี",
-   "D": "US + เฝ้าดูเหมาะกับต่อมน้ำเหลืองอักเสบทั่วไปที่ไม่สงสัยโรคเฉพาะ · จะถูกถ้าเด็กมีต่อมน้ำเหลืองโตเล็ก นุ่ม หลังเป็นหวัด PPD ลบ"
+   "A": "Excisional biopsy ได้ชิ้นเนื้อทั้งต่อม ให้ทั้ง histology และ culture และเป็นการรักษาหลักของ NTM lymphadenitis แต่ต้องดมยาสลบในเด็ก เสี่ยงบาดเจ็บ marginal mandibular nerve และไม่ใช่ขั้นแรกเมื่อ FNA ยังไม่ได้ทำ · frozen section ไม่จำเป็นในการวินิจฉัย mycobacteria · จะถูกถ้าเป็นเด็ก 3 ปีที่ FNA ได้เพียงเลือด ผล AFB และ Xpert ลบ แต่ก้อนยังโตต่อเนื่องหลัง 4 สัปดาห์",
+   "B": "การเริ่มยาต้านวัณโรคเป็นการรักษา ไม่ใช่การตรวจ และการให้ยา 6 เดือนโดยไม่มีหลักฐานจากต่อมน้ำเหลืองเสี่ยงรักษาผิดโรค (NTM ไม่ตอบสนองต่อ HRZE, lymphoma จะถูกวินิจฉัยช้า) · จะถูกถ้าเป็นเด็ก 3 ปีที่ FNA ต่อมน้ำเหลืองคอพบ caseous granuloma และ Xpert MTB/RIF ตรวจพบ M. tuberculosis ไม่ดื้อ rifampicin",
+   "C": "การทำ PPD ซ้ำไม่ช่วยวินิจฉัยเพิ่ม เพราะผลบวกอยู่แล้ว และการทดสอบซ้ำอาจเกิด booster effect ให้ผลบวกปลอม · จะถูกถ้าเป็นเด็กที่สัมผัสผู้ป่วยวัณโรคปอดในบ้าน ผล PPD ครั้งแรกลบภายใน 8 สัปดาห์หลังสัมผัส (ช่วง window period) จึงต้องทดสอบซ้ำหลังพ้น 8–10 สัปดาห์",
+   "D": "US ช่วยดูขนาด โครงสร้างภายใน necrosis และ abscess ได้ แต่การเฝ้าดูเหมาะกับ reactive lymphadenopathy ที่ก้อนนุ่ม &lt; 2 cm ไม่มีลักษณะน่าสงสัย ไม่ใช่ก้อนแข็งที่ PPD บวก · จะถูกถ้าเป็นเด็ก 3 ปีหลังเป็นหวัดเจ็บคอ คลำได้ต่อมน้ำเหลืองคอหลายต่อม ขนาด 1 cm นุ่ม เคลื่อนได้ ไม่มีไข้หรือน้ำหนักลด"
   },
-  "trap": "PPD บวกแล้วให้ยา TB ทันที — ต้องยืนยันด้วยเนื้อเยื่อและแยก NTM",
+  "trap": "PPD บวกในเด็กมีก้อนที่คอชวนให้กระโดดไปเริ่มยาต้านวัณโรคตามคีย์ในไฟล์ แต่คำถามใช้คำว่า <b>investigation</b> และ PPD เป็นเพียงหลักฐานการสัมผัสเชื้อ · เด็ก 1–5 ปีที่ต่อมเดียวโตไม่เจ็บ มักเป็น NTM ซึ่งต้องผ่าตัดไม่ใช่ใช้ยา · และก้อนแข็งที่คอต้องแยก lymphoma เสมอ ดังนั้นต้องได้เซลล์ก่อน",
   "summary": [
-   "ก้อนคอเด็ก: reactive LN พบบ่อยสุด",
-   "TB lymphadenitis: ไม่เจ็บ · matted · cold abscess · ± TB ปอด",
-   "NTM (เด็ก 1–5 ปี): ข้างเดียว ผิวม่วง → excision",
-   "วินิจฉัย: FNA (AFB, culture, PCR) → excisional biopsy ถ้าไม่ได้ผล",
-   "TB: ยา 6 เดือน (2HRZE/4HR)",
-   "สงสัย lymphoma: excisional biopsy"
+   "Cervical lymphadenopathy ในเด็ก: ส่วนใหญ่เป็น reactive จากการติดเชื้อทางเดินหายใจ · Red flags: &gt; 2 cm, แข็ง ติดแน่น, supraclavicular, โตต่อเนื่อง &gt; 4–6 สัปดาห์, ไข้ น้ำหนักลด เหงื่อออกกลางคืน, ตับม้ามโต → หา lymphoma/ mycobacteria",
+   "TB lymphadenitis (scrofula): พบบ่อยที่สุดของวัณโรคนอกปอด ต่อมหลายต่อมตามแนว posterior triangle จับกันเป็นกลุ่ม (matted) อาจเกิด cold abscess และ sinus · PPD มักบวกแรง CXR อาจผิดปกติ",
+   "NTM lymphadenitis (M. avium complex, M. scrofulaceum): เด็ก 1–5 ปี ต่อมเดียว ใต้ขากรรไกร ผิวเปลี่ยนเป็นสีม่วงบางเหมือนกระดาษ ไม่มีไข้ PPD บวกอ่อน CXR ปกติ ไม่ติดคนอื่น → complete excision หายได้มากที่สุด",
+   "FNA ต่อมน้ำเหลือง: cytology + AFB stain + culture (ใช้เวลาหลายสัปดาห์) + Xpert MTB/RIF (ได้ผลภายในวัน บอก rifampicin resistance) · ถ้าไม่ได้ข้อสรุป → excisional biopsy ทั้งต่อม",
+   "ยาต้านวัณโรคสำหรับ TB lymphadenitis: 2HRZE/4HR รวม 6 เดือน ต่อมอาจโตชั่วคราวระหว่างรักษา (paradoxical reaction) ไม่ได้แปลว่าดื้อยา",
+   "PPD (Mantoux 5 TU): อ่าน induration ที่ 48–72 ชั่วโมง · ≥ 5 mm บวกในผู้ที่ภูมิคุ้มกันบกพร่อง/ สัมผัสใกล้ชิด · ≥ 10 mm ในเด็กทั่วไปและพื้นที่ระบาด · BCG และ NTM ทำให้บวกปลอม · IGRA ไม่ cross-react กับ BCG",
+   "เทคนิคผ่าตัดต่อมน้ำเหลืองใต้ขากรรไกร: กรีดต่ำกว่าขอบขากรรไกร 2 นิ้วมือเพื่อเลี่ยง marginal mandibular branch ของ facial nerve · หลีกเลี่ยง incision and drainage ของ NTM เพราะเกิดรูหนองเรื้อรัง"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ MCQ Key 2 (B) — เว็บตอบ E ความมั่นใจปานกลาง เพราะควรยืนยันการวินิจฉัยด้วย FNA ก่อนให้ยา TB นาน 6 เดือน (แยก NTM และมะเร็ง) · ลายมือในไฟล์สงสัย TB lymphadenitis",
-  "mnemonic": "<b>'ก้อนคอ + PPD บวก = เจาะยืนยันก่อน (FNA) ค่อยให้ยา'</b>",
-  "guide": "WHO Consolidated Guidelines on Tuberculosis: Module 5 — Management in Children and Adolescents (2022); AAP Red Book 2024–2027 — Tuberculosis/ NTM",
+  "opinion": "เห็นด้วยกับคำตอบ E ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ที่ขีด B (Start anti-TB drug) พร้อมลายมือว่า TB lymphadenitis · เว็บตอบ FNA เพราะคำถามถาม investigation และ PPD บวกไม่พอจะยืนยันวัณโรคต่อมน้ำเหลือง ต้องได้ cytology/ AFB/ Xpert จากต่อมก่อนเริ่มยา 6 เดือน และต้องแยก NTM กับ lymphoma",
+  "mnemonic": "<b>'\"PPD บวก = เคยเจอเชื้อ ไม่ใช่ใบสั่งยา → เจาะ (FNA) ก่อนจ่าย\"'</b>",
+  "guide": "WHO Consolidated Guidelines on Tuberculosis Module 5: Management of TB in Children and Adolescents (2022); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Lesions of the neck: lymphadenopathy",
   "variants": [
-   "เด็ก 2 ปี ก้อนคอข้างเดียว ผิวม่วง PPD บวกเล็กน้อย CXR ปกติ → NTM → excision",
-   "วัยรุ่นก้อนคอ matted ไอเรื้อรัง CXR cavity → TB → FNA + ยา TB",
-   "เด็กต่อมน้ำเหลืองโต + ไข้ เหงื่อออก ตับม้ามโต → excisional biopsy (lymphoma)"
+   "เด็ก 2 ปี ก้อนใต้ขากรรไกรข้างเดียว ผิวเหนือก้อนสีม่วงบาง ไม่มีไข้ PPD 7 mm CXR ปกติ → NTM lymphadenitis → complete surgical excision",
+   "หญิง 25 ปี ต่อมน้ำเหลืองคอหลายต่อมติดกัน มี sinus หนองไหลเรื้อรัง ไอเรื้อรัง → TB lymphadenitis → FNA/ หนองส่ง Xpert แล้วให้ 2HRZE/4HR",
+   "เด็ก 12 ปี ต่อมน้ำเหลือง supraclavicular ซ้าย 3 cm แข็ง ไข้ น้ำหนักลด CXR เห็น mediastinum กว้าง → สงสัย lymphoma → excisional biopsy (ไม่พึ่ง FNA อย่างเดียว เพราะต้องดูโครงสร้างต่อม)",
+   "ระหว่างรักษา TB lymphadenitis เดือนที่ 2 ต่อมน้ำเหลืองโตขึ้นและมีต่อมใหม่ ผู้ป่วยกินยาสม่ำเสมอ Xpert ไม่ดื้อ → paradoxical reaction → ให้ยาต่อ ไม่ต้องเปลี่ยนสูตร"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 131 — ตัวพิมพ์: <b>65. 3 years old boy come to your office with right neck mass, firm, smooth surface, no erythema, PPD +ve. What is your next investigation? — A. Biopsy, Frozen-section, Excision B. Start Anti-TB drug C. PPD test again D. Ultrasound and watchful waiting E. FNA for diagnosis</b><br>ลายมือ: \"TB lymphadenitis\" ใต้ PPD +ve · ขีด B<br>ไฮไลต์: \"3 years old boy\" \"right neck mass, firm, smooth surface\" \"PPD +ve\" \"investigation\" · B (เหลือง)<br>ที่ปรับในเว็บ: เฉลย E (FNA) ต่างจากคีย์ในไฟล์ (B)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 131",
@@ -99,30 +104,32 @@
   ]
  },
  "MDCU67|RoC|67": {
-  "interp": "ทารกหญิง 2 เดือน <b>ตัวเหลือง อุจจาระสีซีด ปัสสาวะสีเข้ม</b> ตับโต ดูแข็งแรงดี → ถามการจัดการ<b>เบื้องต้น</b>",
-  "why": "ดีซ่าน &gt; 2 สัปดาห์ + อุจจาระซีด + ปัสสาวะเข้ม = <b>cholestatic jaundice</b> สงสัย <b>biliary atresia</b> · ขั้นแรกต้อง<b>ยืนยันว่าเป็น conjugated hyperbilirubinemia</b> ด้วย <b>LFT (total/ direct bilirubin)</b> แล้วจึง <b>US</b> (ถุงน้ำดีเล็ก triangular cord sign) → DISIDA scan/ liver biopsy → <b>IOC ± Kasai</b> (ก่อน 60 วัน) · ไฟล์ขีด B ลายมือ <b>\"→ USG → DISIDA/ Bx → IOC ± Kasai\"</b> และแปะแผนผังการประเมินทารกตัวเหลือง",
+  "interp": "ทารกหญิง 2 เดือน ตัวเหลือง <b>อุจจาระซีด (acholic stool)</b> ปัสสาวะสีเข้ม ตับโต แต่แข็งแรงดี — เป็นภาพ <b>prolonged neonatal cholestasis</b> ที่ต้องคิดถึง <b>biliary atresia</b> ก่อน · ถามการจัดการแรก ซึ่งคือการยืนยันว่าเป็นภาวะ conjugated hyperbilirubinemia",
+  "why": "ทารกที่ตัวเหลือง<b>เกิน 2 สัปดาห์</b> (หรือ 3 สัปดาห์ในทารกกินนมแม่) ต้องตรวจ <b>serum total และ direct (conjugated) bilirubin</b> เป็นขั้นแรก · cholestasis คือ direct bilirubin &gt; 1.0 mg/dL (NASPGHAN/ESPGHAN 2017) · ปัสสาวะเข้มและอุจจาระซีดบอกว่าน้ำดีไม่ลงลำไส้ — สาเหตุที่ต้องผ่าตัดและแข่งกับเวลาคือ <b>biliary atresia</b> ซึ่ง <b>Kasai portoenterostomy</b> ได้ผลดีที่สุดเมื่อทำก่อนอายุราว <b>60 วัน</b> ยิ่งช้า ตับยิ่งเป็น cirrhosis · ขั้นตอนตามลายมือในไฟล์: <b>LFT</b> (ยืนยัน direct hyperbilirubinemia, ดู GGT ที่มักสูงมาก) → <b>US</b> (งดนม 4 ชั่วโมง ดู gallbladder เล็กหรือไม่มี, triangular cord sign, ตัด choledochal cyst) → <b>HIDA (DISIDA) scan</b> (ไม่มีสารออกสู่ลำไส้) และ/หรือ <b>liver biopsy</b> (bile ductular proliferation, bile plug, portal fibrosis) → <b>intraoperative cholangiogram (IOC)</b> ซึ่งเป็น gold standard แล้วทำ Kasai ในคราวเดียว · ร่วมกับเจาะ PT/INR และให้ vitamin K เพราะ cholestasis ทำให้ขาด vitamin K เลือดออกในสมองได้ · ไฟล์ขีด B และเขียนลายมือ <b>\"→ USG → DISIDA/ Bx → IOC ± Kasai\"</b>",
   "wrong": {
-   "A": "ใส่ NG ไม่เกี่ยวกับภาวะดีซ่านจากท่อน้ำดีอุดตัน · จะถูกถ้าทารกอาเจียนน้ำดี ท้องอืด สงสัยลำไส้อุดตัน",
-   "C": "Doppler US ใช้ดูหลอดเลือด/ portal hypertension · US ธรรมดาเป็นขั้นถัดไปหลังยืนยัน direct hyperbilirubinemia · จะถูกถ้าคำถามถามประเมิน portal vein thrombosis",
-   "D": "MRCP ในทารกทำยาก ต้องดมยา ไม่ใช่ขั้นแรก · จะถูกถ้าคำถามถามแยก choledochal cyst ก่อนผ่าตัด",
-   "E": "FibroScan ประเมินพังผืดตับ ไม่ใช่การวินิจฉัยเบื้องต้น · จะถูกถ้าคำถามถามติดตามตับแข็งหลัง Kasai"
+   "A": "การใส่ NG tube ใช้ลดแรงดันในทารกที่ลำไส้อุดตัน อาเจียนน้ำดีหรือท้องอืด แต่ทารกรายนี้กินได้ ไม่อาเจียน ปัญหาอยู่ที่ทางเดินน้ำดีไม่ใช่ลำไส้ · จะถูกถ้าเป็นทารก 3 วันที่ท้องอืด อาเจียนเขียว ไม่ถ่าย meconium และ X-ray เห็นลำไส้พองหลายขด",
+   "C": "Doppler US เป็นขั้นถัดจาก LFT ใช้ดู gallbladder, triangular cord sign, hepatic artery โตจากการชดเชย และ polysplenia/ situs anomaly แต่ต้องรู้ก่อนว่าเป็น conjugated hyperbilirubinemia จริง · จะถูกถ้าเป็นทารก 7 สัปดาห์ที่ตรวจเลือดแล้ว direct bilirubin 5 mg/dL GGT สูง และกำลังวางแผนหาสาเหตุทางเดินน้ำดี",
+   "D": "MRCP ไม่ใช่การตรวจหลักในทารก เพราะท่อน้ำดีเล็กมาก มองไม่เห็นได้ทั้งในทารกปกติและ biliary atresia ต้องดมยาสลบ และไม่ช่วยตัดสินใจเร็ว · จะถูกถ้าเป็นเด็ก 4 ปีที่ปวดท้องเป็นพัก ๆ ตัวเหลือง คลำได้ก้อนใต้ชายโครงขวา US พบถุงโป่งของท่อน้ำดี ต้องดูกายวิภาคก่อนผ่าตัด choledochal cyst",
+   "E": "Liver FibroScan (transient elastography) วัดความแข็งของตับเพื่อประเมิน fibrosis ใช้ติดตามโรคตับเรื้อรังหรือหลัง Kasai ไม่ใช่การตรวจแรกเพื่อหาสาเหตุตัวเหลือง · จะถูกถ้าเป็นเด็ก 5 ปีหลังผ่าตัด Kasai ที่ตัวไม่เหลืองแล้ว แพทย์ต้องการติดตามการดำเนินไปของ fibrosis และ portal hypertension"
   },
-  "trap": "ข้ามไปทำภาพทันที — ยืนยัน direct hyperbilirubinemia ก่อน",
+  "trap": "อาการชัดมากว่าเป็น biliary atresia ทำให้อยากข้ามไปทำภาพหรือผ่าตัดเลย แต่คำถามถาม <b>initial management</b> — ขั้นแรกเสมอคือยืนยัน direct hyperbilirubinemia ด้วย LFT เพราะ indirect hyperbilirubinemia (breast milk jaundice, hemolysis, hypothyroid) มีการดูแลต่างกันสิ้นเชิง · ห้ามรอดูจนเลย 60 วัน",
   "summary": [
-   "ดีซ่าน &gt; 2 สัปดาห์ → ตรวจ total/ direct bilirubin",
-   "Direct &gt; 1 mg/dL (หรือ &gt; 20% ของ total) = cholestasis",
-   "อุจจาระซีด = สัญญาณ BA",
-   "US: triangular cord · ถุงน้ำดีเล็ก/ ไม่มี",
-   "DISIDA: ไม่มีการขับสู่ลำไส้ · liver biopsy: ductular proliferation",
-   "IOC ยืนยัน → Kasai ก่อน 60 วัน"
+   "Prolonged jaundice: ตัวเหลือง &gt; 14 วันในทารกครบกำหนด (&gt; 21 วันถ้ากินนมแม่) → ตรวจ total และ direct bilirubin ทุกราย · ใช้ stool color card ช่วยคัดกรองอุจจาระซีด",
+   "Biliary atresia: ท่อน้ำดีนอกตับอักเสบและตีบตันแบบก้าวหน้า พบราว 1:5,000–1:12,000 ในเอเชีย (สูงกว่าตะวันตก) · ประมาณ 10% เป็นชนิด syndromic (BASM: polysplenia, situs inversus, preduodenal portal vein, IVC ขาด)",
+   "US: gallbladder เล็ก/ ไม่มี/ ผนังผิดรูป, triangular cord sign (เนื้อเยื่อพังผืด ≥ 4 mm ที่ porta hepatis), hepatic artery โต · HIDA: สารเข้าตับดีแต่ไม่ออกลำไส้ใน 24 ชั่วโมง (ไวสูงแต่จำเพาะต่ำ)",
+   "Liver biopsy: bile ductular proliferation, bile plug, portal edema/ fibrosis ความแม่นยำราว 90% · IOC เป็น gold standard ทำในห้องผ่าตัดก่อนตัดสินใจ Kasai",
+   "Kasai portoenterostomy: ตัด fibrous remnant ที่ porta hepatis แล้วต่อ Roux-en-Y jejunal limb · ทำก่อน 60 วันมีโอกาสน้ำดีไหลดีกว่า · ภาวะแทรกซ้อน: cholangitis (บ่อยสุด), portal hypertension, ขาดวิตามินที่ละลายในไขมัน",
+   "Biliary atresia เป็นข้อบ่งชี้การปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก · ข้อบ่งชี้: Kasai ล้มเหลว (bilirubin ไม่ลด), cholangitis ซ้ำ, ตับแข็งและโตไม่ได้",
+   "หลังผ่าตัด: ursodeoxycholic acid, antibiotic prophylaxis ป้องกัน cholangitis, MCT formula และวิตามิน ADEK · บางแห่งให้ steroid หลังผ่าตัดแต่ผลยังไม่ชัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'ดีซ่านทารก: LFT → US → DISIDA/ Bx → IOC/ Kasai'</b>",
-  "guide": "NASPGHAN/ESPGHAN Guideline for the Evaluation of Cholestatic Jaundice in Infants (J Pediatr Gastroenterol Nutr 2017;64:154)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ขีด B และเขียนลำดับ LFT → USG → DISIDA/ Bx → IOC ± Kasai ซึ่งตรงกับแผนผังประเมินทารกตัวเหลือง 2–12 สัปดาห์ที่แปะไว้ · ขั้นแรกคือแยก direct จาก indirect hyperbilirubinemia",
+  "mnemonic": "<b>'\"อึขาว ฉี่ชา อายุ &lt; 60 วัน → LFT วันนี้ Kasai ก่อน 60\"'</b>",
+  "guide": "Fawaz R, et al. Guideline for the Evaluation of Cholestatic Jaundice in Infants: Joint Recommendations of NASPGHAN and ESPGHAN. J Pediatr Gastroenterol Nutr 2017; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary atresia",
   "variants": [
-   "ทารก 6 สัปดาห์ อุจจาระซีด direct bilirubin 6 → US → BA → Kasai",
-   "ทารก 3 สัปดาห์ เหลือง อุจจาระปกติ indirect สูง กินนมแม่ → breast milk jaundice",
-   "ทารกเหลือง + ก้อนใต้ชายโครงขวา → choledochal cyst"
+   "ทารก 6 สัปดาห์ direct bilirubin 6 mg/dL US ไม่เห็น gallbladder มี triangular cord sign → ส่งผ่าตัด IOC และทำ Kasai โดยเร็ว",
+   "ทารก 3 สัปดาห์กินนมแม่ ตัวเหลือง อุจจาระเหลืองทอง ปัสสาวะใส direct bilirubin ปกติ indirect สูงเล็กน้อย → breast milk jaundice → ให้นมแม่ต่อ ติดตาม",
+   "ทารกตัวเหลือง อุจจาระซีด มีจ้ำเลือดและชักจากเลือดออกในสมอง PT ยาว → vitamin K deficiency bleeding จาก cholestasis → ให้ vitamin K ทางหลอดเลือดและหาสาเหตุ",
+   "เด็ก 1 ปีหลัง Kasai มีไข้สูง ตัวเหลืองขึ้น อุจจาระกลับซีด → ascending cholangitis → IV antibiotics ครอบคลุม gram negative"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 131 — ตัวพิมพ์: <b>67. The 2 month old girl present with jaundice, acholic stool, dark urine. PE reveal jaundice and hepatomegaly. The girl was otherwise healthy. What is your initial management? — A. NG intubation B. LFT C. Doppler ultrasound D. MRLP E. Liver fibroscan</b><br>ลายมือ: ขีด B + \"→ USG → DISIDA/ Bx → IOC ± Kasai\"<br>ไฮไลต์: \"2 month old girl\" \"jaundice\" \"acholic stool, dark urine\" \"hepatomegaly\" \"initial management\" · B (เหลือง)<br>รูปที่แปะ: แผนผังการประเมิน Jaundiced infant 2-12 weeks of age (serum total and direct bilirubin → direct bilirubin สูง → sick? / pale stool? → US (small GB, triangular cord sign) → DISIDA scan/ Liver bx → IOC ± Kasai operation) + ลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 131",
@@ -132,30 +139,32 @@
   ]
  },
  "MDCU67|RoC|68": {
-  "interp": "ทารก <b>congenital diaphragmatic hernia (CDH) ข้างซ้าย</b> → ถามสิ่งที่<b>ไม่ควรทำ</b>",
-  "why": "CDH: ลำไส้เข้าไปในช่องอก — การใส่ <b>chest drain ไม่ควรทำ</b> (เสี่ยงแทงลำไส้/ ไม่ใช่ pneumothorax) · สิ่งที่ควรทำ: <b>ใส่ท่อช่วยหายใจ</b> (ห้ามบีบ bag-mask เพราะลมเข้ากระเพาะ/ ลำไส้ เบียดปอดมากขึ้น) · <b>ใส่ OG/ NG ดูดลม decompress</b> · IV · CXR ยืนยัน · ไฟล์ขีด E ลายมือ ✓ ที่ A–D · B <b>\"→ decompress\"</b> และแปะข้อความตำราการดูแลระยะแรก (ใส่ endotracheal tube ไม่ใช้ mask · คาท่อ nasogastric · ถ้าใส่ intercostal drainage หลังผ่าตัดไม่ควรต่อ suction)",
+  "interp": "ทารกแรกเกิดที่เป็น <b>congenital diaphragmatic hernia (CDH) ข้างซ้าย</b> — ถามสิ่งที่<b>ไม่ควรทำ</b> ซึ่งต้องรู้หลักการดูแลแรกรับ: ห้ามทำสิ่งที่เพิ่มลมในลำไส้ในช่องอก และห้ามแทงสิ่งใดเข้าช่องอกที่มีลำไส้อยู่",
+  "why": "CDH ข้างซ้าย (ราว 80–85%) เกิดจาก <b>Bochdalek hernia</b> ทางด้านหลังข้าง ลำไส้ กระเพาะ ม้าม และตับบางส่วนขึ้นไปในช่องอก ทำให้ปอด<b>เจริญไม่เต็มที่ (pulmonary hypoplasia)</b> และ<b>ความดันหลอดเลือดปอดสูง (pulmonary hypertension)</b> ซึ่งเป็นตัวกำหนดการรอดชีวิต · การดูแลแรกรับ: <b>ใส่ท่อช่วยหายใจทันที</b> (ห้ามใช้ bag-mask เพราะลมเข้ากระเพาะและลำไส้ในช่องอก เบียดปอดและหัวใจ) · ใส่ <b>orogastric/ nasogastric tube ต่อ suction</b> เพื่อดูดลมออกจากลำไส้ · เปิดเส้นเลือด (umbilical line) ให้สารน้ำและยา · CXR ยืนยันการวินิจฉัย (ลำไส้ในช่องอกซ้าย ปลายสาย OG อยู่ในช่องอก mediastinum เบนไปขวา) · ใช้ <b>gentle ventilation</b> ยอม permissive hypercapnia ตั้งเป้า preductal SpO2 80–95% เลี่ยง barotrauma · ผ่าตัดเมื่อเด็กคงที่ ไม่ใช่ผ่าตัดฉุกเฉิน · <b>ห้ามใส่ chest drain</b> เพราะเงาลำไส้ในช่องอกอาจดูเหมือน pneumothorax การแทงท่อจะทะลุลำไส้หรือกระเพาะ · ไฟล์ขีด E ติ๊กถูก A–D และเขียนลายมือที่ OG ว่า <b>\"→ decompress\"</b>",
   "wrong": {
-   "A": "ควรทำ — IV สำหรับสารน้ำ/ ยา (ลายมือ ✓) · จะถูกถ้าคำถามถามสิ่งที่ไม่จำเป็น (ไม่มีกรณีที่เข้า)",
-   "B": "ควรทำ — OG ดูดลม decompress ลำไส้ในช่องอก (ลายมือ) · จะถูกถ้าคำถามถามสิ่งที่ห้ามทำ (ห้าม bag-mask ไม่ใช่ห้าม OG)",
-   "C": "ควรทำ — CXR ยืนยัน (ลำไส้ในช่องอก ปลาย OG ในอก) · จะถูกถ้าคำถามถามการตรวจที่ไม่ช่วย",
-   "D": "ควรทำ — ใส่ท่อช่วยหายใจทันที (ห้ามใช้ mask) · จะถูกถ้าข้อความเป็น \"bag-mask ventilation\""
+   "A": "ข้อความถูก: ต้องเปิดเส้นเลือด (umbilical venous และ arterial catheter) เพื่อให้สารน้ำ inotrope ยาระงับประสาท ติดตามความดันและ blood gas · จะถูกถ้าต้องเลือกสิ่งที่ควรทำในทารกครบกำหนดที่คลอดแล้วเขียว อกซ้ายฟังเสียงหายใจไม่ได้ ท้องแฟบ และอัลตราซาวนด์ก่อนคลอดพบ CDH ซ้าย",
+   "B": "ข้อความถูก: OG tube ต่อ suction ดูดลมและสารคัดหลั่งในกระเพาะและลำไส้ที่ขึ้นไปอยู่ในช่องอก ลดการเบียดปอดและหัวใจ (ลายมือ \"→ decompress\") · จะถูกถ้าต้องเลือกสิ่งที่ควรทำทันทีหลังใส่ท่อช่วยหายใจในทารก CDH ข้างซ้ายที่ท้องแฟบและอกซ้ายป่อง",
+   "C": "ข้อความถูก: CXR ช่วยยืนยันการวินิจฉัย เห็นเงาลำไส้ในช่องอกซ้าย ปลาย OG tube ในช่องอก mediastinum เบนขวา และดูตำแหน่งท่อและสาย · จะถูกถ้าต้องเลือกการตรวจแรกในทารกแรกเกิดหายใจหอบ เขียว ท้องแฟบ ฟังได้เสียงลำไส้ที่อกซ้าย โดยไม่เคยฝากครรภ์",
+   "D": "ข้อความถูก: ใส่ท่อช่วยหายใจทันทีในห้องคลอด (ไม่ใช้ bag-mask) และช่วยหายใจแบบนุ่มนวล PIP ต่ำ ยอม CO2 สูงได้ เพื่อลดการบาดเจ็บของปอดที่เจริญไม่เต็มที่ · จะถูกถ้าต้องเลือกการช่วยหายใจที่ถูกในทารก CDH ซ้ายที่คลอดแล้ว SpO2 ต่ำ หายใจหอบ ในห้องคลอด"
   },
-  "trap": "เห็นภาพลมในช่องอกแล้วคิดว่าเป็น pneumothorax จึงใส่ท่อระบาย",
+  "trap": "เมื่อเห็น CXR ที่อกซ้ายมีเงาลมเป็นโพรงหลายโพรง mediastinum เบนขวา อาจคิดว่าเป็น tension pneumothorax หรือ cystic lesion แล้วใส่ chest drain — แต่โพรงลมเหล่านั้นคือลำไส้ · จุดแยก: ท้องแฟบ (scaphoid abdomen) ปลาย OG tube วนอยู่ในช่องอก และเห็นเงาลำไส้เป็นขด ๆ · ไฟล์ตำราที่แปะยังบอกว่าแม้หลังผ่าตัด การใส่ drain ก็ยังเห็นต่างและห้ามต่อ suction",
   "summary": [
-   "CDH: Bochdalek ซ้าย ~85% · ท้องแฟบ (scaphoid) · เสียงหัวใจย้ายขวา",
-   "Intubate ทันที · ห้าม bag-mask",
-   "OG/ NG decompress",
-   "Gentle ventilation (permissive hypercapnia) · ระวัง pulmonary hypertension",
-   "ผ่าตัดเมื่อคงที่ (ไม่ใช่ emergency)",
-   "ห้ามใส่ chest drain ก่อนผ่าตัด"
+   "CDH พบราว 1:2,500–1:4,000 ทารกเกิดมีชีพ · Bochdalek (posterolateral) ราว 95% ส่วนใหญ่ซ้าย · Morgagni (anterior retrosternal) พบน้อย มักไม่มีอาการ พบในเด็กโต",
+   "ตัวกำหนดการรอดชีวิตคือ pulmonary hypoplasia และ pulmonary hypertension ไม่ใช่ตัวไส้เลื่อน · ก่อนคลอดประเมินด้วย observed/expected lung-to-head ratio (O/E LHR) และ liver herniation (liver up พยากรณ์แย่)",
+   "การดูแลแรกรับ: intubate ทันที ไม่ bag-mask · OG/ NG suction · umbilical lines · preductal SpO2 เป้า 80–95% postductal preductal SpO2 เป้า 80–95% (≥ 85% หลังช่วงแรก)gt; 70% · gentle ventilation PIP ≤ 25 cmH2O · permissive hypercapnia PaCO2 50–70 mmHg",
+   "Pulmonary hypertension: ประเมินด้วย echocardiography · ใช้ iNO, milrinone, sildenafil · ถ้าล้มเหลวต่อ conventional และ HFOV → ECMO ในศูนย์ที่มี",
+   "ผ่าตัดเมื่อทารกคงที่ทางสรีรวิทยา (delayed repair) · เปิดทางหน้าท้อง ดึงอวัยวะลงแล้วเย็บกะบังลม ถ้าช่องว่างใหญ่ใช้ patch (Gore-Tex) หรือ muscle flap · patch มี recurrence สูงกว่า",
+   "Prenatal: Fetoscopic endoluminal tracheal occlusion (FETO) ในรายรุนแรงเพิ่มอัตรารอดชีวิตได้ (TOTAL trial, NEJM 2021) · ภาวะร่วม: หัวใจพิการ, chromosomal anomaly (trisomy 18, 13), malrotation",
+   "ระยะยาว: GERD พบบ่อยมาก, chronic lung disease, hearing loss, neurodevelopmental delay, chest wall deformity และไส้เลื่อนกลับเป็นซ้ำ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และข้อความตำรา",
-  "mnemonic": "<b>'CDH: ท่อในคอ + ท่อในกระเพาะ · ไม่ใส่ท่อในอก · ไม่บีบ mask'</b>",
-  "guide": "CDH EURO Consortium Consensus — 2015 Update (Neonatology 2016;110:66); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ขีด E และติ๊กถูก IV, OG, CXR, ใส่ท่อช่วยหายใจ ตามตำราไทยที่แปะว่าแรกรับใช้ endotracheal tube ไม่ใช้ mask และดูดลมด้วยสายทางจมูก ส่วน chest drainage ไม่ใช่การรักษาแรกรับและเสี่ยงแทงทะลุลำไส้",
+  "mnemonic": "<b>'\"CDH: Tube เข้าคอ Tube เข้ากระเพาะ แต่ไม่มี Tube เข้าอก\"'</b>",
+  "guide": "CDH EURO Consortium Consensus — Standardized Postnatal Management of Infants with CDH: 2015 Update (Neonatology 2016); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Congenital diaphragmatic hernia and eventration",
   "variants": [
-   "ทารกหายใจลำบาก ท้องแฟบ เสียงหัวใจขวา → CDH → intubate + OG",
-   "ทารก CDH SpO<sub>2</sub> ต่ำ pulmonary HT → gentle ventilation ± iNO/ ECMO",
-   "ทารก CDH คงที่ 3 วัน → ผ่าตัดซ่อม"
+   "ทารกแรกเกิดเขียว ท้องแฟบ ฟังเสียงลำไส้ที่อกซ้าย พยาบาลเตรียมบีบ ambu bag ผ่าน mask → หยุด ใส่ endotracheal tube ทันทีและใส่ OG tube ดูดลม",
+   "เด็ก 5 ปี ไม่มีอาการ CXR พบเงาก้อนที่มุม cardiophrenic ขวาด้านหน้า CT เห็น omentum และ transverse colon ผ่านกะบังลมหน้าหลังกระดูกอก → Morgagni hernia → ซ่อมแซมทางกล้อง",
+   "ทารก CDH หลังใส่ท่อช่วยหายใจ preductal SpO2 92% postductal 70% echo พบ right-to-left shunt ผ่าน PDA → pulmonary hypertension → ปรับ ventilation อย่างนุ่มนวล ให้ iNO",
+   "ทำไมไม่ผ่าตัด CDH ทันทีหลังคลอด → การผ่าตัดไม่ได้แก้ pulmonary hypoplasia และ pulmonary hypertension การรอให้ทารกคงที่ก่อนให้ผลรอดชีวิตดีกว่า"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 131–132 — ตัวพิมพ์: <b>68. congental diaphragmatic hernia ข้างซ้าย ไม่ทำอะไร — A. IV B. OG C. CXR D. ใส่tube E. chest drainage</b><br>ลายมือ: A ✓ · B ✓ + \"→ decompress\" · C ✓ · D ✓ · ขีด E<br>ไฮไลต์: \"congental diaphragmatic hernia ข้างซ้าย\" \"ไม่ทำอะไร\" · A–D (ส้ม) · E (เหลือง)<br>รูปที่แปะ: ข้อความตำราไทย (Treatment ระยะแรกรับ — ใจความ: ช่วยหายใจด้วย endotracheal tube และ ambu bag ไม่ใช้ mask เพราะลมเข้ากระเพาะ/ ลำไส้ทำให้ปอดถูกเบียดมากขึ้น · คาท่อ nasogastric ดูดลมและน้ำ · แก้ภาวะน้ำ เกลือแร่ กรด hypoxia hypercarbia ก่อนผ่าตัด · ปัจจุบันผ่าตัดหลังเด็กคงที่ทางช่องท้อง · การใส่ intercostal drainage หลังผ่าตัดยังเห็นต่าง ถ้าใส่ไม่ควรต่อ suction — ไฮไลต์แดง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 131",
@@ -165,30 +174,32 @@
   ]
  },
  "MDCU67|RoC|69": {
-  "interp": "ทารกอายุ 2 วัน GA 34 wk 2,500 g <b>ท้องอืด</b> อาเจียน<b>ปนน้ำดี</b> <b>ไม่ถ่ายขี้เทา</b> → ถามการวินิจฉัย",
-  "why": "อาเจียนน้ำดี + <b>ท้องอืด</b> + ไม่ถ่ายขี้เทา = <b>ลำไส้อุดตันส่วนล่างกว่า duodenum</b> → <b>jejunal atresia</b> (ลำไส้ขยายหลายห่วง ท้องอืด, สัมพันธ์ SGA) · duodenal atresia เป็น upper obstruction <b>ท้องไม่อืด</b> (double bubble, สัมพันธ์ Down/ preterm) · ไฟล์ขีด B ลายมือ <b>\"ท้องอืด ∵ lower gut\"</b> (ลูกศรลง B) · A <b>\"→ upper gut obs. ไม่ท้องอืด\"</b> · <b>\"ass. anomaly, preterm\"</b> · B <b>\"ass. SGA\"</b> และแปะสไลด์ Clinical presentation ของ jejunoileal และ duodenal atresia",
+  "interp": "ทารกอายุ 2 วัน คลอด GA 34 สัปดาห์ หนัก 2,500 g มี<b>ท้องอืด อาเจียนเป็นน้ำดี และยังไม่ถ่าย meconium</b> — เป็นลำไส้อุดตันในทารกแรกเกิด ถามว่าโรคใด ต้องแยกการอุดตัน<b>ส่วนบน (ไม่ท้องอืด)</b> จาก<b>ส่วนล่าง (ท้องอืดทั่ว)</b>",
+  "why": "หลักแยกตำแหน่งอุดตันในทารกแรกเกิด: <b>อาเจียนน้ำดี</b>บอกว่าอุดใต้ ampulla of Vater · <b>ท้องอืดมาก</b>บอกว่าอุดต่ำ เพราะต้องมีลำไส้หลายขดเหนือจุดอุดให้พองลม (duodenal atresia ท้องบนป่องเล็กน้อย ท้องล่างแฟบ) · <b>jejunoileal atresia</b> เกิดจาก<b>หลอดเลือด mesentery ขาดเลือดในครรภ์</b> (in utero vascular accident) ลำไส้ส่วนนั้นตายและถูกดูดซึมไป จึงมักไม่มีความผิดปกติอื่นร่วม ต่างจาก duodenal atresia ที่เป็นความล้มเหลวของ recanalization และสัมพันธ์กับ Down syndrome · อาการ: polyhydramnios, อาเจียนน้ำดีใน 24–48 ชั่วโมงแรก ท้องอืด ตัวเหลือง ถ่าย meconium ไม่ปกติหรือไม่ถ่าย · X-ray เห็นลำไส้พองหลายขดมี air–fluid level ไม่มีลมส่วนปลาย (ยิ่งอุดต่ำ ยิ่งเห็นขดมาก) · contrast enema เห็น <b>microcolon</b> (unused colon) · รักษาด้วย NG decompression, สารน้ำ แล้วผ่าตัดตัดส่วนที่ตีบและต่อปลายต่อปลาย (tapering ส่วนต้นที่โป่ง) · ไฟล์ขีด B ลายมือ <b>\"ท้องอืด ∵ lower gut\"</b> และที่ช้อย A <b>\"upper gut obs. ไม่ท้องอืด\"</b>",
   "wrong": {
-   "A": "Duodenal atresia = upper obstruction ท้องไม่อืด (scaphoid) double bubble (ลายมือ) · จะถูกถ้าทารก Down syndrome อาเจียนน้ำดี ท้องแฟบ",
-   "C": "Hirschsprung: ท้องอืด ไม่ถ่ายขี้เทา แต่อาเจียนน้ำดีมาทีหลัง มักครบกำหนด · จะถูกถ้าทารกครบกำหนด ไม่ถ่ายขี้เทา 48 ชม. PR แล้วพุ่ง (blast sign)",
-   "D": "Malrotation ± volvulus: อาเจียนน้ำดีฉับพลัน ท้องมักไม่อืดในช่วงแรก · จะถูกถ้าทารกที่เคยถ่ายปกติ อาเจียนน้ำดีเฉียบพลัน",
-   "E": "Pyloric stenosis: อาเจียน<b>ไม่ปน</b>น้ำดี พุ่ง อายุ 3–6 สัปดาห์ · จะถูกถ้าทารก 4 สัปดาห์ อาเจียนพุ่งไม่มีน้ำดี คลำ olive"
+   "A": "Duodenal atresia อุดสูงจึงอาเจียน (ส่วนใหญ่มีน้ำดีเพราะ 80% อุดใต้ ampulla) ภายในชั่วโมงแรก ๆ แต่<b>ท้องไม่อืด</b>หรือป่องเฉพาะลิ้นปี่ X-ray เห็น double bubble ไม่มีลมส่วนปลาย สัมพันธ์กับ Down syndrome, preterm และ malrotation · จะถูกถ้าเป็นทารก Down syndrome อายุ 1 วัน อาเจียนเขียวทุกมื้อ ท้องแฟบ X-ray เห็นฟองลมสองฟอง",
+   "C": "Hirschsprung disease ทำให้ไม่ถ่าย meconium ใน 24–48 ชั่วโมง ท้องอืด อาเจียนน้ำดีได้เหมือนกัน แต่พบมากในทารก<b>ครบกำหนด</b> และการทำ rectal examination มักมีลมและอุจจาระพุ่งออก (blast sign) ท้องยุบชั่วคราว · จะถูกถ้าเป็นทารกชายครบกำหนดอายุ 3 วัน ไม่ถ่าย meconium ท้องอืด ตรวจทางทวารหนักแล้วมีอุจจาระพุ่งตามนิ้วออกมา",
+   "D": "Malrotation with midgut volvulus ทำให้อาเจียนน้ำดีทันทีในทารกที่เคยปกติ ระยะแรกท้อง<b>มักแฟบ</b>เพราะอุดที่ duodenum ส่วนที่สาม และอาจถ่ายได้ปกติ ท้องจะอืดเมื่อลำไส้ขาดเลือดแล้ว · จะถูกถ้าเป็นทารก 5 วันที่กินและถ่ายปกติมาก่อน แล้วอาเจียนเขียวพุ่งทันที ท้องแบน UGI study เห็น DJ flexure อยู่ขวาของกระดูกสันหลัง",
+   "E": "Infantile hypertrophic pyloric stenosis อุดเหนือ ampulla จึงอาเจียน<b>ไม่มีน้ำดี</b> และเริ่มอาการที่อายุ 2–8 สัปดาห์ ไม่ใช่วันที่ 2 ท้องไม่อืด ถ่าย meconium ปกติ · จะถูกถ้าเป็นทารกชายลูกคนแรก อายุ 5 สัปดาห์ อาเจียนพุ่งเป็นนมทุกมื้อ หิวตลอด คลำได้ก้อนขนาดมะกอกที่ลิ้นปี่ hypochloremic metabolic alkalosis"
   },
-  "trap": "เห็นอาเจียนน้ำดีแล้วตอบ duodenal atresia — ท้องอืดบอกว่าอุดตันต่ำกว่า",
+  "trap": "ทารกคลอดก่อนกำหนดชวนให้นึกถึง duodenal atresia (ไฟล์จดว่า 45% premature) แต่สิ่งที่แยกคือ<b>ท้องอืด</b> — duodenal atresia อุดสูงจึงท้องแฟบ · Hirschsprung ก็ไม่ถ่าย meconium และท้องอืด แต่พบในทารกครบกำหนดมากกว่า อาเจียนน้ำดีมาช้ากว่า และมี blast sign ส่วน atresia ที่ jejunum มาเร็วในวันแรก ๆ",
   "summary": [
-   "Upper (duodenal): ท้องแฟบ · double bubble · Down · preterm",
-   "Jejunoileal: ท้องอืด · หลายห่วง · SGA · vascular accident in utero",
-   "Polyhydramnios: อุดตันส่วนบน",
-   "Bilious vomiting → แยก malrotation ด่วน",
-   "Hirschsprung: ไม่ถ่ายขี้เทา &gt; 48 ชม. · contrast enema",
-   "Pyloric stenosis: non-bilious · hypochloremic metabolic alkalosis"
+   "ลำไส้อุดตันทารกแรกเกิด 4 อาการ: polyhydramnios ในครรภ์, อาเจียนน้ำดี, ท้องอืด, ไม่ถ่าย meconium ใน 24–48 ชั่วโมง · อาเจียนน้ำดี = surgical evaluation ทุกราย",
+   "Duodenal atresia: incidence ราว 1:10,000 · สาเหตุ failure of recanalization · ร่วม Down syndrome ~30%, malrotation, annular pancreas, หัวใจพิการ · X-ray double bubble · ผ่าตัด duodenoduodenostomy แบบ diamond-shape (Kimura)",
+   "Jejunoileal atresia: สาเหตุ in utero mesenteric vascular accident · ความผิดปกติอื่นร่วมน้อย · แบ่ง type I (membrane), II (fibrous cord), IIIa (V-shaped mesenteric defect), IIIb (apple-peel/ Christmas tree), IV (หลายจุด)",
+   "Type IIIb apple-peel atresia: ลำไส้ส่วนปลายพันรอบหลอดเลือดเส้นเดียว ลำไส้สั้นเสี่ยง short bowel syndrome · ผ่าตัดต้องตรวจตลอดลำไส้หา atresia หลายจุดเสมอ",
+   "Contrast enema ในลำไส้อุดตันต่ำ: microcolon (jejunoileal atresia, meconium ileus) · transition zone (Hirschsprung) · small left colon (ทารกแม่เบาหวาน) · meconium plug",
+   "Meconium ileus: meconium เหนียวอุด terminal ileum ใน cystic fibrosis · X-ray soap-bubble appearance ไม่ค่อยมี air–fluid level · uncomplicated รักษาด้วย Gastrografin enema",
+   "หลังผ่าตัด atresia: ลำไส้ส่วนต้นที่โป่งเคลื่อนไหวไม่ดีจึงต้อง taper หรือตัดออก · อาจต้องให้ parenteral nutrition นานจนลำไส้ทำงาน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'น้ำดี + ท้องแฟบ = Duodenal · น้ำดี + ท้องอืด = Jejunal/ ต่ำกว่า'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Jejunoileal atresia",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือในไฟล์ที่ขีด B และเขียนว่าท้องอืดเพราะอุดส่วนล่าง ส่วน duodenal atresia อุดบนไม่ท้องอืด · Hirschsprung เป็นตัวลวงที่ใกล้ที่สุด แต่อาเจียนน้ำดีในวันที่ 2 ร่วมท้องอืดในทารกก่อนกำหนดเข้ากับ jejunal atresia มากกว่า",
+  "mnemonic": "<b>'\"ท้องแบน = อุดบน (Duodenum) · ท้องป่อง = อุดล่าง (Jejunum ลงไป)\"'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Duodenal and intestinal atresia and stenosis; Coran: Pediatric Surgery 8th ed. (Elsevier 2023)",
   "variants": [
-   "ทารก Down อาเจียนน้ำดี ท้องแฟบ double bubble → duodenal atresia",
-   "ทารกท้องอืด อาเจียนน้ำดี AXR ลำไส้ขยายหลายห่วง → jejunoileal atresia",
-   "ทารก 5 วัน อาเจียนน้ำดีเฉียบพลัน → UGI → malrotation/ volvulus"
+   "ทารก 1 วัน อาเจียนเขียว ท้องอืดทั่ว X-ray เห็นลำไส้พองหลายขด contrast enema เห็นลำไส้ใหญ่เล็กมาก → distal ileal atresia หรือ meconium ileus → ผ่าตัด/ Gastrografin enema ตามชนิด",
+   "ทารกครบกำหนด 2 วันไม่ถ่าย meconium ท้องอืด rectal exam อุจจาระพุ่ง contrast enema เห็น transition zone ที่ rectosigmoid → Hirschsprung → suction rectal biopsy ยืนยัน",
+   "ผ่าตัดทารกพบ jejunum ปลายต้นโป่งมาก ลำไส้ส่วนปลายพันรอบหลอดเลือดเส้นเดียวคล้ายเปลือกแอปเปิล → type IIIb atresia → ต่อลำไส้และเตรียม parenteral nutrition ระยะยาว",
+   "ทำไม jejunoileal atresia มักไม่มีความพิการอื่นร่วม → เกิดจากหลอดเลือดขาดเลือดเฉพาะที่หลังอวัยวะสร้างเสร็จแล้ว ไม่ใช่ความผิดปกติของการพัฒนาตัวอ่อนทั้งระบบ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 132 — ตัวพิมพ์: <b>69. เด็กอายุ\"2วัน\" GA 34 wk, 2500g, \"ท้องอืด\" อ้วกออกปนbile ไม่ถ่ายmeconium เป็นอะไร — A. duodenal atresia B. jejuna atresia C. Hirshsprung D. intertinenal malrotation E. infantile hypertrophic pyrolic stenosis</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"2วัน\" \"ท้องอืด\" · \"ท้องอืด ∵ lower gut\" (ลูกศรลง B) · A \"→ upper gut obs. ไม่ท้องอืด\" · \"ass. anomaly, preterm\" · ขีด B + \"ass. SGA\"<br>ไฮไลต์: \"2วัน GA 34 wk, 2500g, ท้องอืด อ้วกออกปนbile ไม่ถ่ายmeconium\" · B (เหลือง)<br>รูปที่แปะ: ① สไลด์ Clinical presentation (jejunoileal) — Maternal polyhydramnios · Prenatal U/S multiple distended loops of bowel with vigorous peristalsis · Bilious vomiting · Abdominal distention · Jaundice · Abnormal meconium ② สไลด์ Clinical presentation (ลายมือ \"duodenal atresia\") — Incidence ~1:10,000 · Male:Female ~1:1 · 45% Premature · 50% Associated anomalies (33% Down syndrome · 33% Intestinal malrotation · 5% Distal atresia · 1% Esophageal atresia, Anorectal malformation) · 80% site of obstruction is distal to bile duct opening · Bilious vomiting · Fullness of upper abdomen, lower abdomen scaphoid ③ สไลด์ Clinical presentation — Maternal polyhydramnios · Prenatal U/S \"DOUBLE BUBBLE\" obstructive pattern · Bilious or non-bilious vomiting · Non-distended abdomen · NG tube &gt; 20 ml intestinal obstruction · Meconium (delay or character change or normal meconium)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 131",
@@ -198,30 +209,32 @@
   ]
  },
  "MDCU67|RoC|71": {
-  "interp": "เด็กชาย 6 เดือน <b>อาเจียน ปวดท้อง ถ่ายมูกปนเลือด</b> → ถามสาเหตุ",
-  "why": "อายุ 6 เดือน (peak 3–8 เดือน ช่วง 2 เดือน–2 ปี) + ปวดท้องเป็นพัก ๆ + อาเจียน + ถ่าย red currant jelly = <b>intussusception</b> (ileocolic) · lead point ในทารกมักเป็น <b>Peyer patch โต</b>หลังติดเชื้อไวรัส · ไฟล์ขีด C ลายมือ <b>\"peak 3–8 mo\"</b> · <b>\"2 mo – 2 yo\"</b>",
+  "interp": "เด็กชาย 6 เดือนมี<b>อาเจียน ปวดท้อง และถ่ายมูกปนเลือด (mucous bloody stool)</b> — อายุและกลุ่มอาการเข้ากับลำไส้กลืนกัน ถามการวินิจฉัย ต้องแยกจากสาเหตุเลือดออกทางทวารหนักอื่นในเด็กที่มักไม่ปวดท้อง",
+  "why": "<b>Intussusception</b> คือลำไส้ส่วนต้น (intussusceptum) มุดเข้าไปในลำไส้ส่วนถัดไป (intussuscipiens) ส่วนใหญ่ราว 90% เป็น <b>ileocolic</b> · ในเด็กเล็กเกือบทั้งหมดเป็น <b>idiopathic</b> โดยมี <b>Peyer patch ที่โตหลังติดเชื้อไวรัส</b> (adenovirus, rotavirus) เป็นจุดนำ · mesentery ถูกดึงเข้าไปด้วยจึงเกิด venous congestion → เยื่อบุบวมขาดเลือดหลั่งมูกปนเลือดเป็น <b>currant jelly stool</b> (อาการระยะหลัง) → ถ้าทิ้งไว้ arterial ischemia, gangrene, perforation · พบอายุ 3 เดือน–3 ปี มากที่สุดในขวบปีแรก · อาการ: <b>ปวดเป็นพัก ๆ</b> ร้องกรีดดึงขาขึ้นทุก 15–20 นาที ระหว่างนั้นซึมหรือหลับ อาเจียน คลำได้<b>ก้อนรูปไส้กรอก</b>ใต้ชายโครงขวา และท้องน้อยขวาว่าง (Dance sign) · triad ครบพบไม่ถึงครึ่ง · วินิจฉัยด้วย <b>US: target/ doughnut sign</b> (ไวและจำเพาะสูงมาก) · รักษาด้วย <b>air หรือ hydrostatic enema reduction</b> ถ้าไม่มี peritonitis/ perforation/ shock · ไฟล์ขีด C และเขียนลายมือ <b>\"peak 3–8 mo\"</b> และ \"2 mo – 2 yo\"",
   "wrong": {
-   "A": "Peyer patch hypertrophy เป็น<b>จุดนำ (lead point)</b> ของ intussusception ไม่ใช่การวินิจฉัย · จะถูกถ้าคำถามถาม lead point ที่พบบ่อยในทารก",
-   "B": "Meckel diverticulum: เลือดออกไม่เจ็บปริมาณมาก (สีแดงคล้ำ) ในเด็ก ~2 ปี · จะถูกถ้าเด็ก 2 ปีถ่ายเลือดมากไม่เจ็บ ซีด",
-   "D": "ริดสีดวงพบน้อยมากในทารก · จะถูกถ้าคำถามถามผู้ใหญ่ถ่ายเลือดสดหยด",
-   "E": "Juvenile polyp: เด็ก 2–5 ปี ถ่ายเลือดสดไม่เจ็บ · จะถูกถ้าเด็ก 4 ปีถ่ายเลือดสดเคลือบอุจจาระ ไม่ปวด"
+   "A": "Peyer patch hypertrophy (lymphoid hyperplasia ของ terminal ileum) เป็น<b>จุดนำ (lead point)</b> ของ intussusception ชนิด idiopathic ไม่ใช่โรคที่ทำให้ถ่ายมูกเลือดโดยตรง และไม่ได้วินิจฉัยทางคลินิก · จะถูกถ้าเป็นการผ่าตัดเด็ก 7 เดือนที่ enema ลดไม่สำเร็จ หลังดันลำไส้คืนพบผนัง terminal ileum หนานุ่มเป็นปื้นโดยไม่มีก้อนอื่น หลังติดเชื้อ adenovirus",
+   "B": "Meckel diverticulum (ileum ห่าง ileocecal valve ราว 2 ฟุต) ที่มี ectopic gastric mucosa ทำให้เกิดแผลที่ ileum ข้างเคียงและ<b>เลือดออกมาก สีแดงคล้ำ ไม่ปวดท้อง</b> ในเด็กอายุ &lt; 2 ปี และยังเป็น pathologic lead point ที่พบบ่อยที่สุดในเด็กโต · จะถูกถ้าเป็นเด็กชาย 18 เดือนที่ถ่ายเลือดสีแดงคล้ำปริมาณมาก ซีดลง ไม่ปวดท้อง Tc-99m pertechnetate scan เห็นจุดติดสารที่ท้องน้อยขวา",
+   "D": "ริดสีดวงทวารพบน้อยมากในทารก ถ้าพบมักสัมพันธ์กับ portal hypertension หรือท้องผูกเรื้อรังในเด็กโต ให้เลือดสดหยดตามอุจจาระ ไม่มีอาการปวดท้องหรืออาเจียน (เลือดสดในทารกที่พบบ่อยกว่าคือ anal fissure) · จะถูกถ้าเป็นเด็ก 10 ปีที่เคยผ่าตัด portal vein thrombosis มี varices รอบทวารหนัก ถ่ายมีเลือดสดหยดหลังเบ่งโดยไม่ปวดท้อง",
+   "E": "Juvenile polyp เป็น hamartoma ที่ rectosigmoid พบอายุ 2–5 ปี ทำให้<b>เลือดสดไม่เจ็บ</b>ปนกับผิวอุจจาระ และอาจหลุดยื่นออกมาทางทวาร ไม่ทำให้อาเจียนหรือปวดท้องเป็นพัก ๆ · จะถูกถ้าเป็นเด็ก 4 ปีที่ถ่ายมีเลือดสดติดผิวอุจจาระเป็นครั้งคราว ร่าเริงดี และแม่เห็นก้อนสีแดงโผล่ออกจากทวารหนักขณะเบ่ง"
   },
-  "trap": "ตอบ Meckel — Meckel ถ่ายเลือดไม่เจ็บ ไม่อาเจียน",
+  "trap": "ถ่ายมูกปนเลือดในเด็กชวนให้คิดถึงโรคที่มีเลือดออกอื่น (Meckel, polyp) แต่ทั้งสองโรคนั้น<b>ไม่ปวดท้อง</b> · การมีอาเจียนและปวดท้องร่วมกับเลือดคือลำไส้อุดตันร่วมขาดเลือด · Peyer patch hypertrophy ใช่ \"สาเหตุ\" แต่ไม่ใช่ \"การวินิจฉัย\" อ่านคำถามให้ดี",
   "summary": [
-   "Intussusception: 3 เดือน–3 ปี · peak 3–8 เดือน",
-   "ปวดเป็นพัก ๆ · อาเจียน · red currant jelly · sausage mass",
-   "US: target/ donut",
-   "Air/ hydrostatic reduction",
-   "Peritonitis/ ลดไม่สำเร็จ → ผ่าตัด",
-   "Meckel: กฎ 2 (2% · 2 ฟุต · 2 นิ้ว · 2 ปี)"
+   "Intussusception: ileocolic ราว 90% · ในเด็กเล็ก idiopathic จาก lymphoid hyperplasia · pathologic lead point พบบ่อยขึ้นเมื่ออายุ &gt; 2–3 ปี: Meckel diverticulum (บ่อยสุด), polyp, duplication cyst, lymphoma, HSP (มักเป็น ileoileal)",
+   "อาการ: ปวดท้องเป็นพัก ๆ ร้องกรีดดึงขาขึ้น, อาเจียน (ต่อมามีน้ำดี), ซึมระหว่างพัก (lethargy อาจเด่นจนคล้ายโรคระบบประสาท), sausage-shaped mass, Dance sign, currant jelly stool เป็นอาการช้า",
+   "US: target/ doughnut sign ในภาพตัดขวาง และ pseudokidney sign ในภาพตามยาว · ความไวและจำเพาะใกล้ 100% เป็นการตรวจแรก · plain film อาจปกติหรือเห็นลำไส้อุดตัน/ free air",
+   "Non-operative reduction: air (pneumatic) หรือ hydrostatic (saline/ contrast) ภายใต้ fluoroscopy หรือ US สำเร็จราว 80–90% · ข้อห้าม: peritonitis, free air, shock ที่แก้ไม่ได้ · ภาวะแทรกซ้อนสำคัญ perforation ราว 1%",
+   "ถ้า enema ลดได้บางส่วนและเด็กคงที่ อาจทำ delayed repeat enema หลัง 30 นาทีถึงหลายชั่วโมงก่อนผ่าตัด · กลับเป็นซ้ำราว 10% ส่วนใหญ่ใน 72 ชั่วโมงแรก ทำ enema ได้อีก",
+   "ผ่าตัด: บีบดันจากปลายลำไส้ขึ้นไป (milk ไม่ใช่ดึง) · ถ้าลดไม่ได้หรือลำไส้ตายหรือมี pathologic lead point → bowel resection + primary anastomosis · ส่วนใหญ่ตัดไส้ติ่งร่วมด้วย",
+   "เลือดออกทางทวารในเด็กตามอายุ: ทารก → anal fissure, allergic colitis (cow's milk protein), NEC · 6 เดือน–2 ปี → intussusception, Meckel · 2–5 ปี → juvenile polyp · ทุกวัย → infectious colitis"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'ทารก 6 เดือน ปวดเป็นพัก ถ่ายเยลลี่แดง = Intussusception'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ขีด C พร้อมช่วงอายุ peak 3–8 เดือน · เด็ก 6 เดือนที่อาเจียน ปวดท้อง และถ่ายมูกเลือดเป็นภาพคลาสสิกของ intussusception · ช้อย E เป็นของที่เว็บเติมเพราะในไฟล์ว่างไว้ และไม่กระทบคำตอบ",
+  "mnemonic": "<b>'\"ปวดเป็นพัก + ก้อนไส้กรอก + วุ้นแยมเลือด → Target sign → เป่าลมดัน\"'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception; ACR Appropriateness Criteria: Suspected Intussusception — Child (2019)",
   "variants": [
-   "เด็ก 9 เดือน ร้องงอขาเป็นพัก ๆ คลำก้อนท้องขวาบน → US → air enema",
-   "เด็ก 2 ปี ถ่ายเลือดแดงคล้ำมาก ไม่ปวด → Meckel scan",
-   "เด็ก 4 ปี เลือดสดเคลือบอุจจาระ → juvenile polyp → colonoscopy"
+   "เด็ก 9 เดือน ร้องกรีดเป็นพัก ๆ ทุก 20 นาที อาเจียน US เห็น target sign ที่ท้องด้านขวา สัญญาณชีพปกติ ไม่มี peritonitis → air enema reduction ภายใต้ fluoroscopy",
+   "เด็ก 1 ปี ลำไส้กลืนกันมา 3 วัน ซึม ความดันต่ำ ท้องแข็งกดเจ็บทั่ว X-ray มี free air → resuscitation แล้วผ่าตัด ห้ามทำ enema",
+   "เด็ก 6 ปี ผื่นจ้ำเลือดนูนที่ขา ปวดข้อ ปวดท้องเป็นพัก ๆ US พบ intussusception ที่ลำไส้เล็ก → HSP ที่เกิด ileoileal intussusception (บริเวณที่ enema เข้าไม่ถึง)",
+   "ทำไมเด็ก 8 ปีที่เป็น intussusception ต้องหา lead point → อายุมากเกินช่วง idiopathic ต้องหา lymphoma, Meckel diverticulum หรือ polyp มักต้องผ่าตัด"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 132 — ตัวพิมพ์: <b>71. เด็กชาย 6 เดือน มาด้วยอาเจียน ปวดท้อง mucous bloody stool สาเหตุคืออะไร — A. Payer's Patch hypertrophy B. meckel's diverticulum C. Intussusception D. Hemorrhoid E.</b><br>ลายมือ: ขีด C + \"peak 3–8 mo\" · \"2 mo – 2 yo\"<br>ไฮไลต์: \"ชาย 6 เดือน\" \"อาเจียน ปวดท้อง\" \"mucous bloody stool\" · C (เหลือง)<br>ที่ปรับในเว็บ: เติมช้อย E (Juvenile polyp) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 132",
@@ -231,30 +244,32 @@
   ]
  },
  "MDCU67|RoC|72": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>gastroschisis</b>",
-  "why": "Gastroschisis: ลำไส้แช่น้ำคร่ำไม่มีถุงหุ้ม → ผนังลำไส้อักเสบหนา → <b>prolonged adynamic ileus หลังซ่อม</b> (ต้อง TPN นาน) → C ถูก · ข้ออื่นเป็นลักษณะของ <b>omphalocele</b> (chromosome ผิดปกติ, anomaly ร่วมสูง, ตับ/ ม้ามออกมา) · intestinal atresia ใน gastroschisis ~10% ไม่ใช่ 80% · ไฟล์ขีด C ลายมือ วงเล็บ A–B <b>\"omphalocele\"</b> · D แก้ 80 → <b>\"10%\"</b> · วงเล็บ D–E <b>\"omphalocele\"</b>",
+  "interp": "ถามข้อที่<b>ถูก</b>เกี่ยวกับ <b>gastroschisis</b> — ทุกช้อยผิดเป็นลักษณะของ omphalocele หรือใส่ตัวเลขผิด ต้องแยกผนังหน้าท้องบกพร่องสองโรคนี้ให้ได้ทั้งตำแหน่ง ถุง อวัยวะที่ออกมา ความผิดปกติร่วม และปัญหาหลังผ่าตัด",
+  "why": "<b>Gastroschisis</b> เป็นรูโหว่ผนังหน้าท้องเต็มความหนา มักอยู่<b>ทางขวาของสายสะดือ</b>ที่ติดปกติ <b>ไม่มีถุงหุ้ม</b> ลำไส้ลอยอยู่ใน<b>น้ำคร่ำ</b>ตลอดการตั้งครรภ์ น้ำคร่ำและการรัดที่ขอบรูทำให้ผนังลำไส้อักเสบหนามีแผ่นพังผืดคลุม (<b>serositis/ peel</b>) ลำไส้สั้นและเคลื่อนไหวไม่ดี → หลังเย็บปิดจึงเกิด <b>prolonged adynamic ileus</b> ต้องให้ <b>parenteral nutrition</b> นานหลายสัปดาห์ ข้อ C จึงถูก · ความผิดปกติร่วมพบน้อย ยกเว้น<b>ความผิดปกติของลำไส้เอง</b> โดยเฉพาะ intestinal atresia ราว 10% (ไม่ใช่ 80%) · พบมากในมารดาอายุน้อย (&lt; 20 ปี) สูบบุหรี่ ใช้สารเสพติด · ส่วน <b>omphalocele</b> อยู่กลางสะดือ มีถุง (amnion–peritoneum) สายสะดือเกาะบนถุง อาจมีตับออกมา และมีความผิดปกติร่วมสูง (หัวใจ chromosomal, Beckwith–Wiedemann) · ไฟล์ขีด C วงเล็บ A–B และ D–E เขียนลายมือ <b>\"omphalocele\"</b> และแก้ตัวเลข 80 เป็น <b>\"10%\"</b>",
   "wrong": {
-   "A": "Chromosomal syndrome (trisomy 13, 18) เป็นของ omphalocele (ลายมือ) · จะถูกถ้าคำถามถาม omphalocele",
-   "B": "Anomaly ร่วมสูงเป็นของ omphalocele (ลายมือ) · จะถูกถ้าคำถามถาม omphalocele",
-   "D": "Atresia ~10% ไม่ใช่ 80% (ลายมือแก้) · จะถูกถ้าตัวเลขเป็น ~10%",
-   "E": "ตับ/ ม้ามออกมาพบใน omphalocele ขนาดใหญ่ (ลายมือ) · จะถูกถ้าคำถามถาม giant omphalocele"
+   "A": "ความผิดปกติของโครโมโซม (trisomy 13, 18, 21) สัมพันธ์กับ <b>omphalocele</b> ราวหนึ่งในสาม (โดยเฉพาะถุงเล็กที่มีแต่ลำไส้) ส่วน gastroschisis แทบไม่สัมพันธ์กับโครโมโซม · จะถูกถ้าเป็นทารกที่มีถุงใสหุ้มลำไส้ตรงกลางสะดือ สายสะดือเกาะบนถุง ร่วมกับนิ้วเกิน หัวใจรั่ว และมือกำนิ้วซ้อน (trisomy 18)",
+   "B": "ความผิดปกติร่วมของหลายระบบ (หัวใจราว 20–50%, ไต, ระบบประสาท, กลุ่มอาการ) เป็นลักษณะของ <b>omphalocele</b> ซึ่งต้องทำ echocardiography และ karyotype ทุกราย ส่วน gastroschisis มักมีแค่ปัญหาลำไส้ · จะถูกถ้าเป็นทารกตัวโตผิดปกติ ลิ้นใหญ่ น้ำตาลในเลือดต่ำ มีถุงหุ้มอวัยวะที่สะดือ (Beckwith–Wiedemann syndrome)",
+   "D": "Intestinal atresia ใน gastroschisis พบราว <b>10%</b> (ลายมือแก้ 80 เป็น 10%) เกิดจากลำไส้ถูกรัดที่ขอบรูหรือบิดขาดเลือด ตัวเลข 80% เกินจริงมาก · จะถูกถ้าเป็นทารก gastroschisis ที่หลังเย็บปิดผนังหน้าท้อง 4 สัปดาห์ยังอาเจียนน้ำดีตลอด contrast study พบลำไส้ตีบตันที่ jejunum (กลุ่ม complex gastroschisis)",
+   "E": "ตับและม้ามที่ออกนอกช่องท้องพบใน <b>giant omphalocele</b> ซึ่งมีถุงหุ้ม (รูกว้าง &gt; 5 cm ตับอยู่ในถุง) ส่วน gastroschisis รูเล็กราว 2–4 cm จึงมีแต่ลำไส้ กระเพาะ และบางครั้งอัณฑะหรือรังไข่ ไม่ค่อยมีตับ · จะถูกถ้าเป็นทารกที่มีถุงขนาดใหญ่กลางท้องมีตับเกือบทั้งก้อนอยู่ในถุง ช่องท้องเล็กมาก"
   },
-  "trap": "สลับลักษณะกับ omphalocele",
+  "trap": "ช้อยผิดทุกข้อเป็นคำอธิบายของ omphalocele ที่สลับชื่อ — ถ้าจำสองโรคปนกันจะเลือกผิด · จำแบบแยก: omphalocele มี<b>ถุง</b> มี<b>ความผิดปกติร่วม</b> มี<b>ตับ</b> พยากรณ์ขึ้นกับโรคร่วม · gastroschisis <b>ไม่มีถุง</b> ความผิดปกติร่วมน้อย พยากรณ์ขึ้นกับ<b>ลำไส้</b> (peel, atresia, ileus) · และระวังตัวเลข atresia ที่ใส่ผิด",
   "summary": [
-   "Gastroschisis: ขวาของสะดือ · ไม่มีถุง · แม่อายุน้อย · SGA",
-   "Anomaly ร่วมน้อย (atresia ~10%)",
-   "Prolonged ileus → TPN",
-   "ผ่าตัดเร่งด่วน: primary closure/ silo",
-   "Omphalocele: มีถุง · ตับ ± · chromosome · หัวใจ",
-   "พยากรณ์ gastroschisis ขึ้นกับสภาพลำไส้"
+   "Gastroschisis: รูขวาของสะดือ ไม่มีถุง สายสะดือปกติ ลำไส้สัมผัสน้ำคร่ำ → peel และ dysmotility · มารดาอายุน้อย สูบบุหรี่ ใช้ยา vasoconstrictor/ สารเสพติด · อุบัติการณ์เพิ่มขึ้นทั่วโลก",
+   "Omphalocele: รูกลางสะดือ มีถุง (amnion + Wharton jelly + peritoneum) สายสะดือเกาะบนถุง · ร่วมกับหัวใจพิการ, trisomy 13/18/21, Beckwith–Wiedemann, pentalogy of Cantrell, OEIS complex",
+   "แรกคลอด gastroschisis: ห่อลำไส้ด้วย bowel bag/ พลาสติกปลอดเชื้อ จัดท่านอนตะแคงขวาเพื่อไม่ให้ mesentery พับ, OG decompression, IV fluid ปริมาณมาก (สูญเสียน้ำและความร้อนมาก), antibiotics",
+   "การปิด gastroschisis: primary closure ถ้าไม่ทำให้ความดันในช่องท้องสูง (เฝ้าระวัง abdominal compartment syndrome) · ถ้าไม่ได้ใส่ <b>preformed silo</b> แล้วค่อย ๆ ดันลงทุกวันก่อนปิด · มีวิธี sutureless closure ใช้สายสะดือปิด",
+   "Giant omphalocele: \"paint and wait\" ทาสารฆ่าเชื้อ (silver sulfadiazine, povidone-iodine) ให้ถุงเกิด eschar และผิวหนังคลุม แล้วซ่อมแซมผนังหน้าท้องภายหลังเมื่อโต · omphalocele ถุงแตกต้องรีบคลุมหรือผ่าตัด",
+   "Complex gastroschisis (มี atresia, perforation, necrosis, volvulus) ราว 10–15% เสี่ยง short bowel syndrome และ intestinal failure–associated liver disease จาก PN ระยะยาว",
+   "พยากรณ์: gastroschisis แบบ simple รอดชีวิต &gt; 90% · omphalocele ขึ้นกับความผิดปกติร่วม โดยเฉพาะหัวใจและโครโมโซม และ pulmonary hypoplasia ใน giant omphalocele"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Gastroschisis = ลำไส้ป่วย (ileus นาน) · Omphalocele = ทั้งตัวป่วย (anomaly)'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ขีด C · ผู้จดวงเล็บช้อย A, B, D, E ว่าเป็นลักษณะของ omphalocele และแก้อัตรา atresia เป็น 10% ซึ่งตรงกับตำรา · prolonged ileus หลังผ่าตัดเป็นปัญหาหลักของ gastroschisis จริง",
+  "mnemonic": "<b>'\"Gastroschisis = Gut only, Gone right, Garbage peel · Omphalocele = Others (anomalies) + sac\"'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Congenital abdominal wall defects; Coran: Pediatric Surgery 8th ed. (Elsevier 2023)",
   "variants": [
-   "แม่อายุ 18 ทารกลำไส้ออกขวาสะดือ ไม่มีถุง → gastroschisis → silo",
-   "ทารกถุงที่สะดือมีตับ + trisomy 18 → omphalocele",
-   "หลังปิด gastroschisis 3 สัปดาห์ยังกินไม่ได้ → prolonged ileus → TPN"
+   "ทารกคลอดจากมารดาอายุ 17 ปี ลำไส้ออกมาทางขวาของสะดือไม่มีถุง ลำไส้บวมแดง → ห่อลำไส้ วางตะแคงขวา OG IV fluid แล้วปิดด้วย silo หรือ primary closure",
+   "ทารกมีถุงใสกลางสะดือขนาด 3 cm มีแต่ลำไส้ → omphalocele เล็ก → echocardiography และ karyotype ก่อนผ่าตัด primary closure",
+   "หลังดันลำไส้ gastroschisis เข้าช่องท้อง ปัสสาวะออกน้อยลง ตั้งเครื่องช่วยหายใจยากขึ้น bladder pressure 25 mmHg → abdominal compartment syndrome → เปิดผนังหน้าท้องใส่ silo",
+   "ทำไมทารก gastroschisis ต้องได้ IV fluid มากกว่าปกติ → ลำไส้ที่สัมผัสอากาศสูญเสียน้ำและความร้อนจำนวนมาก และมีน้ำรั่วเข้า third space จากผนังลำไส้อักเสบ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 132 — ตัวพิมพ์: <b>72. What is true about gastroschisis — A. Associated chromosomal syndrome B. High incidence of association anormalies C. Prolong adynaamic ileus after repair D. Intestinal atresia 80 % most case E. Eviscesation of spleen and liver</b><br>ลายมือ: วงเล็บ A–B \"omphalocele\" · ขีด C · D ขีดฆ่า \"80\" + \"10%\" · วงเล็บ D–E \"omphalocele\"<br>ไฮไลต์: \"true about gastroschisis\" · C (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 132",
@@ -264,30 +279,32 @@
   ]
  },
  "MDCU67|RoC|76": {
-  "interp": "ชาย 45 ปี <b>ก้อนไตซ้าย 3 cm</b> ไตขวาปกติ <b>ปัสสาวะเป็นเลือดไม่เจ็บ</b> → ถามการจัดการ",
-  "why": "ก้อนในเนื้อไต (solid renal mass) ในผู้ใหญ่ สงสัย <b>renal cell carcinoma</b> · ก้อน <b>T1a (≤ 4 cm)</b> → <b>partial nephrectomy (nephron-sparing)</b> เป็นมาตรฐาน — ผลการคุมมะเร็งเท่า radical nephrectomy และรักษาการทำงานของไตไว้ได้ดีกว่า · ไฟล์ขีด A ลายมือ <b>\"RCC?\"</b> · แทรกคำว่า <b>\"partial\"</b> หน้า Nephrectomy · <b>\"&lt; 4 cm\"</b> และแปะสไลด์ <b>RCC TREATMENT</b>",
+  "interp": "ชาย 45 ปีมี<b>ก้อนที่ไตซ้าย 3 cm</b> ไตขวาปกติ และปัสสาวะเป็นเลือดไม่เจ็บ — ก้อนเนื้อไตที่เป็น solid mass ในผู้ใหญ่ถือเป็น <b>renal cell carcinoma (RCC)</b> จนกว่าจะพิสูจน์ว่าไม่ใช่ ขนาด ≤ 4 cm = <b>cT1a</b> · ถามการผ่าตัดที่เหมาะสม",
+  "why": "ก้อน solid ที่ไตซึ่ง CT มี enhancement ≥ 15–20 HU หลังฉีดสี ถือเป็น RCC (clear cell พบมากที่สุดราว 75%) · ส่วนใหญ่ตรวจพบโดยบังเอิญ triad คลาสสิก (ปวดบั้นเอว ปัสสาวะเลือด คลำได้ก้อน) พบน้อยและมักเป็นระยะลุกลาม · สำหรับ <b>T1a (≤ 4 cm)</b> แนวทาง EAU และ AUA ให้ <b>partial nephrectomy (nephron-sparing surgery)</b> เป็นมาตรฐาน เพราะผลการควบคุมมะเร็งเท่ากับ radical nephrectomy แต่<b>รักษาเนื้อไต</b> ลดความเสี่ยงไตเรื้อรังและโรคหัวใจหลอดเลือดในระยะยาว ซึ่งสำคัญมากในผู้ป่วยอายุ 45 ปีที่มีชีวิตอีกนาน · ทำได้ทั้งแบบเปิด laparoscopic หรือ robotic ต้องได้ <b>ขอบตัดปลอดเนื้องอก</b> (ไม่จำเป็นต้องกว้าง) · T1b (4–7 cm) ก็ใช้ partial ได้ถ้าทำได้ทางเทคนิค · <b>radical nephrectomy</b> สงวนไว้ก้อนใหญ่ (T2 &gt; 7 cm) ลุกลาม renal vein หรือตำแหน่งที่ partial ไม่ได้ · ไฟล์เขียนลายมือ <b>\"RCC?\"</b> แทรกคำ <b>\"partial\"</b> หน้า Nephrectomy ขีด A และเขียน \"&lt; 4 cm\"",
   "wrong": {
-   "B": "Nephroureterectomy ใช้กับ upper tract urothelial carcinoma (ก้อนใน renal pelvis/ ท่อไต) · จะถูกถ้า CT พบ filling defect ใน renal pelvis",
-   "C": "เอาก้อนออกทางผิวหนัง (percutaneous) ใช้กับนิ่ว/ UTUC low-risk บางราย ไม่ใช่ RCC · จะถูกถ้าคำถามถามนิ่ว staghorn",
-   "D": "ส่องกล้องท่อไตใช้กับนิ่ว/ UTUC low-grade ขนาดเล็ก · จะถูกถ้าคำถามถาม UTUC low-grade 1 cm ในผู้ป่วยไตข้างเดียว",
-   "E": "เฝ้าระวัง (active surveillance) ใช้กับก้อนเล็ก &lt; 2–3 cm ในผู้สูงอายุ/ โรคร่วมมาก · จะถูกถ้าผู้ป่วย 85 ปี ก้อน 1.5 cm โรคหัวใจรุนแรง"
+   "B": "Radical nephroureterectomy (ตัดไต ท่อไตทั้งเส้น และ bladder cuff) เป็นมาตรฐานของ <b>upper tract urothelial carcinoma</b> ระดับ high risk ไม่ใช่ RCC ซึ่งไม่ลามตามเยื่อบุลงท่อไต · จะถูกถ้าเป็นชายสูบบุหรี่อายุ 68 ปี ปัสสาวะเลือดไม่เจ็บ CT urography เห็น filling defect ในกรวยไตซ้าย ส่องกล้อง ureteroscopy ตัดชิ้นเนื้อได้ high-grade urothelial carcinoma",
+   "C": "การเจาะผ่านผิวหนังเข้าไตเพื่อนำออก (percutaneous nephrolithotomy) ใช้กับ<b>นิ่วไต</b> &gt; 2 cm หรือ staghorn และบางครั้งตัด low-grade urothelial tumor ในกรวยไต การเจาะผ่านก้อน RCC เสี่ยงเนื้องอกฝังตามแนวเจาะและตัดออกได้ไม่หมด · จะถูกถ้าเป็นชาย 45 ปีที่มีนิ่วไตซ้ายขนาด 3 cm ใน renal pelvis ปวดบั้นเอวและติดเชื้อซ้ำ CT ไม่ฉีดสีเห็นนิ่วทึบรังสี",
+   "D": "Ureteroscopic removal ใช้กับนิ่วท่อไตหรือนิ่วไตขนาดเล็ก (&lt; 2 cm) และ kidney-sparing management ของ <b>low-risk UTUC</b> (ก้อนเดียว &lt; 2 cm low grade) ไม่สามารถเข้าถึงหรือตัดก้อนในเนื้อไตได้ · จะถูกถ้าเป็นชาย 45 ปีปวดบั้นเอวร้าวลงขาหนีบ CT KUB เห็นนิ่ว 8 mm ที่ท่อไตส่วนต้น ไม่หลุดเองหลังให้ยา 4 สัปดาห์",
+   "E": "Active surveillance ของ small renal mass ใช้ในผู้ป่วย<b>สูงอายุหรือมีโรคร่วมมาก</b> อายุคาดเฉลี่ยสั้น เพราะก้อนเล็กโตช้าและแพร่กระจายน้อย แต่ไม่ใช่ผู้ป่วย 45 ปีแข็งแรงที่มีอาการปัสสาวะเลือด · จะถูกถ้าเป็นชาย 84 ปีมีหัวใจล้มเหลวรุนแรงและไตเรื้อรัง CT พบก้อนไต 2 cm โดยบังเอิญ ไม่มีอาการ"
   },
-  "trap": "ตัดไตทั้งข้าง (radical) ทั้งที่ก้อนเล็ก",
+  "trap": "เห็น \"painless hematuria\" แล้วคิดถึงมะเร็งเยื่อบุทางเดินปัสสาวะ จึงเลือก nephroureterectomy — แต่โจทย์ระบุเป็น renal mass ซึ่งคือเนื้อไต (RCC) ไม่ใช่ก้อนในกรวยไต · อีกกับดักคือคิดว่ามะเร็งต้องตัดไตทั้งข้าง ทั้งที่ T1a มาตรฐานคือ partial และไฟล์เดิมเขียนช้อยเป็น nephrectomy ก่อนผู้จดแทรกคำ partial",
   "summary": [
-   "Solid renal mass ผู้ใหญ่ = RCC จนกว่าจะพิสูจน์ว่าไม่ใช่",
-   "T1a (≤ 4 cm) → partial nephrectomy",
-   "T1b (4–7 cm) → partial ถ้าทำได้ · radical",
-   "T2+ / central ใหญ่ → radical nephrectomy",
-   "ก้อนเล็ก ผู้สูงอายุ → active surveillance/ ablation",
-   "Triad (ปวด ก้อน hematuria) พบน้อย — ส่วนใหญ่พบโดยบังเอิญ"
+   "RCC: clear cell ~75% (VHL/ chromosome 3p), papillary ~15%, chromophobe ~5% · ปัจจัยเสี่ยง: สูบบุหรี่ อ้วน ความดันสูง ฟอกไตนาน (acquired cystic disease) von Hippel–Lindau",
+   "T staging: T1a ≤ 4 cm · T1b &gt; 4–7 cm · T2 &gt; 7 cm จำกัดในไต · T3a เข้า renal vein หรือ perirenal/ sinus fat · T3b IVC ใต้กะบังลม · T3c IVC เหนือกะบังลม · T4 เกิน Gerota fascia หรือ adrenal ข้างเดียวกันแบบต่อเนื่อง",
+   "Paraneoplastic ของ RCC: hypercalcemia (PTHrP), polycythemia (erythropoietin), hypertension (renin), Stauffer syndrome (ตับทำงานผิดปกติโดยไม่มีการกระจาย) · varicocele ข้างซ้ายที่ไม่ยุบเมื่อนอน → ก้อนอุดตัน left renal vein",
+   "Partial nephrectomy: มาตรฐานของ T1a และทางเลือกใน T1b · ข้อบ่งชี้เด็ดขาด: ไตข้างเดียว, ก้อนทั้งสองข้าง, ไตเสื่อม, กลุ่มพันธุกรรม (VHL) · ใช้ R.E.N.A.L. nephrometry score ประเมินความยาก",
+   "Radical nephrectomy: ตัดไตนอก Gerota fascia · ตัด adrenal เฉพาะเมื่อภาพพบความผิดปกติหรือก้อนติด · lymphadenectomy ไม่ทำเป็นประจำใน cN0 (ต่างจากหลัก Robson ดั้งเดิมในสไลด์)",
+   "ทางเลือกสำหรับ small renal mass ในผู้สูงอายุ/ โรคร่วม: active surveillance หรือ thermal ablation (cryoablation, radiofrequency) ควรเจาะชิ้นเนื้อก่อน ablation",
+   "Metastatic RCC: ดื้อต่อ chemotherapy และรังสีแบบเดิม · ใช้ immune checkpoint inhibitor ร่วม VEGF-TKI (เช่น pembrolizumab + axitinib) · adjuvant pembrolizumab หลังผ่าตัดในกลุ่มเสี่ยงสูง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับลายมือในไฟล์ MCQ Key 2 (คีย์ขีด A ซึ่งไฟล์พิมพ์ \"Neprectomy\" และผู้จดเติม \"partial\")",
-  "mnemonic": "<b>'RCC &lt; 4 cm = เก็บไตไว้ (partial)'</b>",
-  "guide": "EAU Guidelines on Renal Cell Carcinoma (2025); AUA Guideline: Renal Mass and Localized Renal Cancer (J Urol 2021;206:199)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่แทรก \"partial\" หน้า nephrectomy ขีด A และเขียนเกณฑ์ &lt; 4 cm ตามสไลด์ RCC treatment (&gt; 7 cm radical · &lt; 4 cm partial) · ชาย 45 ปีก้อน 3 cm เป็น T1a ที่ควรเก็บเนื้อไตไว้",
+  "mnemonic": "<b>'\"4–7 กฎของไต: ≤ 4 Partial · &gt; 7 Radical · ระหว่างนั้น Partial ถ้าทำได้\"'</b>",
+  "guide": "EAU Guidelines on Renal Cell Carcinoma 2025; Campbell SC, et al. Renal Mass and Localized Renal Cancer: AUA Guideline Part I (J Urol 2021)",
   "variants": [
-   "ก้อนไต 3 cm ขอบนอก → partial nephrectomy",
-   "ก้อนไต 9 cm + renal vein thrombus → radical nephrectomy + thrombectomy",
-   "ผู้สูงอายุ ก้อน 2 cm โรคร่วมมาก → active surveillance/ ablation"
+   "ชายมีไตข้างเดียวพบก้อน RCC 5 cm ที่ขั้วล่าง → partial nephrectomy (imperative indication) แม้ก้อนเกิน 4 cm",
+   "ชาย 60 ปี ก้อนไตขวา 11 cm CT พบ tumor thrombus ใน IVC ใต้ตับ ไม่มีการกระจาย → radical nephrectomy + IVC thrombectomy",
+   "ชาย 50 ปี มี varicocele ซ้ายเกิดใหม่ไม่ยุบเมื่อนอนราบ → ตรวจ CT หาก้อนไตซ้ายที่อุด left renal vein",
+   "หญิง 40 ปี CT พบก้อนไต 4 cm มีไขมันความหนาแน่นต่ำ (−20 HU) ร่วมกับ tuberous sclerosis → angiomyolipoma → ติดตาม หรือ selective embolization/ everolimus ถ้าก้อนโตหรือเสี่ยงเลือดออก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 133 — หัวข้อ Uro · ตัวพิมพ์: <b>76. ชาย45ปี Left renal mass 3cm, normal right kidney, painless hematuria managementอย่างไร — A. Neprectomy B. Neprouretectomy C. Transneprostomy with removal D. Ureteropelvis with removal</b><br>ลายมือ: \"RCC?\" · แทรก \"partial\" หน้า Neprectomy · ขีด A + \"&lt; 4 cm\"<br>ไฮไลต์: \"ชาย45ปี Left renal mass 3cm\" \"painless hematuria\" \"management\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ RCC TREATMENT — Surgery: mainstay for curative treatment · Radical nephrectomy: principle — Remove kidney outside Gerota's fascia · Excision of ipsilateral adrenal gland · Regional lymphadenectomy + ภาพผ่าตัด + ลายมือ (\"large mass &gt; 7 cm → radical · &lt; 4 cm → partial\")<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น Partial nephrectomy และเพิ่มช้อย E (Observation)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 133",
@@ -297,30 +314,31 @@
   ]
  },
  "MDCU67|RoC|77": {
-  "interp": "ถาม<b>ชนิดของมะเร็งกระเพาะปัสสาวะที่พบบ่อยที่สุด</b>",
-  "why": "<b>Urothelial carcinoma (transitional cell carcinoma, TCC)</b> พบ ~90% ของมะเร็งกระเพาะปัสสาวะ · ปัจจัยเสี่ยง: สูบบุหรี่ (สำคัญที่สุด) สารเคมี (aromatic amines) cyclophosphamide · SCC สัมพันธ์ schistosomiasis/ ใส่สายสวนเรื้อรัง · adenocarcinoma สัมพันธ์ urachal remnant · ไฟล์ไม่มีช้อยครบ (มี A, B) ลายมือเขียน <b>\"→ TCC\"</b>",
+  "interp": "ถามชนิดทางพยาธิวิทยาของมะเร็งกระเพาะปัสสาวะที่พบบ่อยที่สุด — คำตอบคือ urothelial carcinoma (ชื่อเดิม transitional cell carcinoma, TCC) และต้องรู้สาเหตุและบริบทของชนิดรองลงมาแต่ละชนิด",
+  "why": "เยื่อบุกระเพาะปัสสาวะเป็น <b>urothelium (transitional epithelium)</b> มะเร็งส่วนใหญ่จึงเป็น <b>urothelial carcinoma</b> ราว 90% ในประเทศพัฒนาแล้ว · ปัจจัยเสี่ยงสำคัญที่สุดคือ <b>สูบบุหรี่</b> (ราวครึ่งหนึ่งของผู้ป่วย) ตามด้วยสาร <b>aromatic amines</b> จากอุตสาหกรรมสีย้อม ยาง ปิโตรเคมี (benzidine, β-naphthylamine), cyclophosphamide (acrolein), การฉายรังสีบริเวณเชิงกราน และ arsenic ในน้ำดื่ม · urothelial carcinoma เกิดได้ตลอดแนวเยื่อบุตั้งแต่กรวยไตถึงท่อปัสสาวะ (<b>field cancerization</b>) จึงมักหลายจุดและกลับเป็นซ้ำ ต้องตรวจ upper tract ร่วมเสมอ · ชนิดอื่นพบน้อยกว่ามากและสัมพันธ์กับการระคายเคืองเรื้อรังหรือความผิดปกติแต่กำเนิด · อาการเด่นคือ <b>ปัสสาวะเป็นเลือดไม่เจ็บ</b>เป็นพัก ๆ วินิจฉัยด้วย cystoscopy และ TURBT · ไฟล์ไม่มีช้อยเฉลย ผู้จดเขียนลายมือ <b>\"→ TCC\"</b> ไว้ข้างคำถาม",
   "wrong": {
-   "A": "SCC ~5% (สูงขึ้นในพื้นที่ schistosomiasis/ การระคายเคืองเรื้อรัง) · จะถูกถ้าคำถามถามมะเร็งกระเพาะปัสสาวะในผู้ป่วยใส่สายสวนถาวร/ นิ่วเรื้อรัง",
-   "B": "Adenocarcinoma &lt; 2% (urachal ที่ยอดกระเพาะ) · จะถูกถ้าคำถามถามก้อนที่ dome ของกระเพาะปัสสาวะ/ bladder exstrophy",
-   "D": "Small cell carcinoma พบน้อยมาก aggressive · จะถูกถ้าคำถามถามชนิดที่รักษาด้วยเคมีบำบัดแบบ small cell lung cancer",
-   "E": "Sarcoma พบน้อยมาก (rhabdomyosarcoma ในเด็ก) · จะถูกถ้าคำถามถามก้อนกระเพาะปัสสาวะในเด็ก (sarcoma botryoides)"
+   "A": "Squamous cell carcinoma พบราว 3–5% ในประเทศตะวันตก แต่พบสูงในพื้นที่ระบาดของ <b>Schistosoma haematobium</b> (อียิปต์ แอฟริกา) และในการระคายเคืองเรื้อรัง เช่น สายสวนค้างนาน นิ่วกระเพาะปัสสาวะ หรือผู้ป่วยไขสันหลังบาดเจ็บ มักลุกลามตั้งแต่วินิจฉัย · จะถูกถ้าเป็นชาย 45 ปีจากอียิปต์ที่เคยติดพยาธิใบไม้เลือด ปัสสาวะเลือดเรื้อรัง ชิ้นเนื้อพบ keratin pearls",
+   "B": "Adenocarcinoma พบราว 2% แบ่งเป็นชนิด<b>urachal</b> (เกิดที่ dome จากเศษ urachus) และ non-urachal ที่สัมพันธ์กับ bladder exstrophy และ cystitis glandularis ต้องแยกจากมะเร็งลำไส้ใหญ่ที่ลามมา · จะถูกถ้าเป็นชาย 50 ปีที่มีก้อนที่ยอดกระเพาะปัสสาวะต่อเนื่องขึ้นไปทางสะดือ ปัสสาวะมีมูก (mucusuria) ชิ้นเนื้อเป็น mucinous adenocarcinoma",
+   "D": "Small cell (neuroendocrine) carcinoma พบน้อยกว่า 1% แต่ดุร้ายมาก แพร่กระจายเร็ว รักษาคล้าย small cell carcinoma ของปอดด้วย neoadjuvant chemotherapy (etoposide + platinum) ก่อนผ่าตัดหรือฉายรังสี · จะถูกถ้าเป็นชายสูบบุหรี่ 70 ปีปัสสาวะเลือด TURBT พบเซลล์เล็กนิวเคลียสใหญ่ ย้อม synaptophysin และ chromogranin บวก",
+   "E": "Sarcoma ของกระเพาะปัสสาวะพบน้อยมาก ในผู้ใหญ่ที่พบบ่อยคือ leiomyosarcoma (สัมพันธ์กับ cyclophosphamide และการฉายรังสี) ในเด็กคือ <b>rhabdomyosarcoma</b> ชนิด embryonal/ botryoid · จะถูกถ้าเป็นเด็กชาย 3 ปีปัสสาวะไม่ออก คลำได้ก้อนเหนือหัวหน่าว cystoscopy เห็นก้อนคล้ายพวงองุ่นที่ trigone"
   },
-  "trap": "ตอบ SCC เพราะพบบ่อยในตำราเกี่ยวกับ schistosomiasis",
+  "trap": "ชื่อ squamous ชวนเลือกเพราะเป็นมะเร็งเยื่อบุที่พบบ่อยในอวัยวะอื่น และในตำราอาจเน้นว่าพบมากในพื้นที่ schistosomiasis · แต่ทั่วโลกและในไทยชนิดที่พบมากที่สุดคือ urothelial · คีย์ในไฟล์ไม่มีช้อย มีเพียงลายมือ TCC ซึ่งเป็นชื่อเดิมของ urothelial carcinoma (WHO เลิกใช้คำ TCC แล้ว)",
   "summary": [
-   "มะเร็งกระเพาะปัสสาวะ: urothelial ~90%",
-   "ปัจจัยเสี่ยงหลัก: สูบบุหรี่",
-   "อาการ: hematuria ไม่เจ็บ",
-   "วินิจฉัย: cystoscopy + TURBT",
-   "NMIBC → TURBT ± BCG · MIBC → neoadjuvant chemo + radical cystectomy",
-   "ติดตาม: cystoscopy ซ้ำ (กลับเป็นซ้ำบ่อย)"
+   "Bladder cancer: ชายมากกว่าหญิงราว 3–4 เท่า อายุมัธยฐานตอนวินิจฉัยราว 70 ปี · ราว 75% เป็น NMIBC ตอนวินิจฉัย",
+   "Urothelial carcinoma ~90% · SCC ~3–5% (สูงในพื้นที่ schistosomiasis) · adenocarcinoma ~2% (urachal) · small cell &lt; 1% · sarcoma และ lymphoma น้อยมาก",
+   "ปัจจัยเสี่ยง urothelial: บุหรี่ (เพิ่มความเสี่ยงราว 3 เท่า), aromatic amines (สีย้อม ยาง หนัง), cyclophosphamide, pelvic radiation, arsenic, aristolochic acid (สมุนไพรจีน สัมพันธ์กับ UTUC), Lynch syndrome (UTUC)",
+   "Variant histology ของ urothelial carcinoma (micropapillary, plasmacytoid, sarcomatoid, nested, squamous/ glandular differentiation) พยากรณ์แย่กว่า จัดเป็น very high risk NMIBC และมักพิจารณา early cystectomy",
+   "Field cancerization: เยื่อบุทั้งแนวเสี่ยง จึงพบ UTUC ร่วมหรือตามมา · ผู้ป่วย bladder cancer ต้องตรวจ upper tract (CT urography) และ UTUC มีโอกาสเกิดในกระเพาะปัสสาวะตามมาราว 20–50%",
+   "Urine cytology: ไวสูงใน high-grade และ CIS แต่ไวต่ำใน low-grade · cystoscopy + TURBT ให้ทั้งการวินิจฉัย staging (ต้องมี detrusor muscle ในชิ้นเนื้อ) และการรักษา NMIBC"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่มีช้อยนี้และไม่มีคีย์ แต่ลายมือเขียน \"TCC\" ตรงกับคำตอบ",
-  "mnemonic": "<b>'Bladder CA = TCC (สูบบุหรี่)'</b>",
-  "guide": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (2025); NCCN Bladder Cancer v.2025",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ไม่มีคีย์และมีช้อยเพียง A–B ผู้จดเขียนลายมือ TCC ซึ่งเป็นชื่อเดิมของ urothelial carcinoma เว็บจึงเติมช้อย C–E และใช้ urothelial carcinoma เป็นคำตอบ ตรงกับระบาดวิทยาทั่วโลกและในไทย",
+  "mnemonic": "<b>'\"Bladder = Urothelium → Urothelial · Schisto → Squamous · Urachus (dome) → Adeno\"'</b>",
+  "guide": "WHO Classification of Tumours: Urinary and Male Genital Tumours 5th ed. (2022); EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer 2025",
   "variants": [
-   "ชาย 65 ปี สูบบุหรี่ ปัสสาวะเลือดไม่เจ็บ → cystoscopy → urothelial carcinoma",
-   "ผู้ป่วย spinal cord injury ใส่สายสวน 20 ปี → SCC",
-   "ก้อนที่ dome กระเพาะปัสสาวะ → urachal adenocarcinoma"
+   "ชาย 62 ปี ทำงานโรงงานย้อมสีมา 25 ปี ปัสสาวะเลือดไม่เจ็บเป็นพัก ๆ → สงสัย urothelial carcinoma จาก aromatic amines → CT urography + cystoscopy",
+   "ชายอัมพาตท่อนล่างคาสายสวนปัสสาวะมา 15 ปี ปัสสาวะเลือดและมีเศษเนื้อ → SCC จากการระคายเคืองเรื้อรัง → cystoscopy ตัดชิ้นเนื้อ",
+   "หญิงเคยได้ cyclophosphamide รักษา lupus nephritis ปัสสาวะเลือดหลายปีต่อมา → เสี่ยงทั้ง urothelial carcinoma และ leiomyosarcoma ของกระเพาะปัสสาวะ → ส่องกล้องตรวจ",
+   "ทำไมผู้ป่วย UTUC หลังผ่าตัด nephroureterectomy ต้องส่อง cystoscopy เป็นระยะ → field cancerization และเซลล์มะเร็งฝังตัวลงไปตามน้ำปัสสาวะ เกิด bladder recurrence ได้บ่อย"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 133 — ตัวพิมพ์: <b>77. CA bladder ที่พบบ่อยที่สุด — A. squamous cell carcinoma B. Adenocarcinoma</b> (ไม่มีช้อยอื่นในไฟล์)<br>ลายมือ: \"→ TCC\"<br>ไฮไลต์: \"CA bladder ที่พบบ่อยที่สุด\" \"TCC\" (เหลือง)<br>ที่ปรับในเว็บ: เติมช้อย C–E (Urothelial carcinoma · Small cell carcinoma · Sarcoma)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 133",
