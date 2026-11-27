@@ -1,29 +1,31 @@
 {
  "MDCU70|RoC|55": {
-  "interp": "ผู้ป่วยนอก ไข้ ไอ หอบ มีน้ำในช่องเยื่อหุ้มปอดขวา เจาะได้<b>น้ำข้นสีเขียว (หนอง)</b> → ถามการรักษาต่อ",
-  "why": "เจาะได้<b>หนอง</b> = <b>empyema thoracis</b> (ระยะ fibrinopurulent) → ต้อง<b>ระบายหนองออกด้วยสาย (intercostal chest drain)</b> ร่วมกับ<b>ยาปฏิชีวนะทางหลอดเลือด</b>ครอบคลุมเชื้อที่พบบ่อย (รวม anaerobe) · ยาอย่างเดียวไม่พอเพราะยาเข้าโพรงหนองได้ไม่ดี · ระบายไม่ดี/ มี loculation → intrapleural tPA + DNase หรือ VATS · ระยะ organizing (เปลือกหนา ปอดไม่ขยาย) → decortication · ไฟล์ P'Ing วง 3 แก้ \"oral\" เป็น <b>\"IV\"</b> และลายมือ <b>\"empyema thoracis\"</b> <b>\"fluid = ICD drain ได้\"</b>",
+  "interp": "ผู้ป่วยนอกมีไข้ ไอ หอบ มี effusion ข้างขวา เจาะได้<b>น้ำข้นสีเขียว (หนอง)</b> = <b>empyema thoracis</b> — ถามการรักษาต่อ ซึ่งต้องทั้ง<b>ระบายหนอง</b>และให้<b>ยาปฏิชีวนะทางหลอดเลือด</b> ไม่ใช่ยาอย่างเดียว และยังไม่ถึงขั้นผ่าตัด",
+  "why": "เจาะได้<b>หนองชัด</b>คือ empyema ซึ่งเป็นข้อบ่งชี้ระบายทันทีโดยไม่ต้องรอผล pH/ glucose · หนองในช่องเยื่อหุ้มปอดเป็นโพรงปิดที่ยาเข้าไปได้น้อยและเชื้อยังเพิ่มจำนวน จึงต้อง<b>ใส่ intercostal chest drain</b> ร่วมกับ<b>ยาปฏิชีวนะทางหลอดเลือด</b>ที่ครอบคลุมเชื้อที่พบบ่อย · ติดเชื้อในชุมชน: <b>Streptococcus anginosus (milleri) group</b>, S. pneumoniae, <b>anaerobe</b> (เพาะเชื้อขึ้นยาก) → เช่น ampicillin-sulbactam หรือ ceftriaxone + metronidazole · ติดในโรงพยาบาล: เพิ่มครอบคลุม MRSA และ gram-negative ที่ดื้อยา · ไม่ใช้ aminoglycoside เพราะเข้าช่องเยื่อหุ้มปอดได้น้อยและเสื่อมฤทธิ์ในหนองที่เป็นกรด · ให้ IV จนไข้ลงและอาการดีขึ้นแล้วเปลี่ยนเป็นยากิน รวมราว 3–6 สัปดาห์ · ติดตามด้วยปริมาณที่ระบาย CXR และ CRP · ระบายไม่ดีหรือมีช่องกั้นใช้ intrapleural tPA + DNase ไม่ได้ผลจึง VATS/ decortication · ไฟล์วง 3 (ICD) ลายมือ P'Ing <b>\"empyema thoracis\"</b> <b>\"fluid = ICD drain ได้\"</b> และขีดฆ่า oral แก้เป็น <b>\"IV\"</b> ATB",
   "wrong": {
-   "A": "ยากินอย่างเดียวไม่ระบายหนอง และผู้ป่วยหอบควรได้ยาทางหลอดเลือด (P'Ing แก้ oral เป็น IV) · จะถูกถ้าเป็นปอดอักเสบไม่รุนแรงที่มีน้ำในเยื่อหุ้มปอดเล็กน้อยแบบ simple parapneumonic (ใส pH ปกติ)",
-   "B": "สายระบายขนาดเล็ก (small-bore) ใช้ระบาย empyema ได้ แต่ช้อยนี้ไม่ได้ให้ยาปฏิชีวนะร่วม · จะถูกถ้าช้อยเป็นใส่สายระบายขนาดเล็กร่วมกับ IV ATB (แนวทาง BTS ยอมรับ)",
-   "D": "Decortication ใช้ระยะ organizing ที่ระบายแล้วไม่ได้ผล ปอดถูกเปลือกรัด · จะถูกถ้าใส่ ICD 1–2 สัปดาห์ยังมีไข้ CT เห็นเปลือกหนา ปอดไม่ขยาย",
-   "E": "เจาะซ้ำ ๆ ระบายหนองข้นไม่หมด · จะถูกถ้าเป็น simple parapneumonic effusion ปริมาณปานกลางที่เจาะระบายครั้งเดียวแล้วดีขึ้น"
+   "A": "ยาปฏิชีวนะชนิดกินอย่างเดียวไม่พอสำหรับหนองในช่องเยื่อหุ้มปอด เพราะยาเข้าโพรงหนองได้น้อยและไม่ได้ระบาย (P'Ing ขีดฆ่า oral แก้เป็น IV) — จะถูกถ้าเป็นหญิง 40 ปีปอดอักเสบไม่รุนแรงรักษาแบบผู้ป่วยนอก มี effusion เล็กหนาน้อยกว่า 1 cm ใน lateral decubitus ไม่ต้องเจาะ",
+   "B": "สายระบายเล็กแบบ pigtail ที่ใส่ภายใต้ ultrasound/ CT ใช้ได้ผลดีในการระบาย pleural infection ตามแนวทางปัจจุบัน แต่ช้อยนี้ไม่มียาปฏิชีวนะ IV และหนองข้นมากอาจอุดสายเล็กจนต้องล้างสายบ่อย — จะถูกถ้าเป็นชาย 50 ปี empyema ที่ให้ IV antibiotics แล้ว CT เห็นหนองเป็นช่องเดียวด้านหลังที่ ICD เดิมระบายไม่ถึง จึงใส่ CT-guided pigtail เพิ่ม",
+   "D": "Decortication ลอกเปลือก fibrous ที่หุ้มปอดใช้ในระยะ organizing หรือเมื่อระบายด้วย ICD และยาละลาย fibrin แล้วไม่ได้ผล ไม่ใช่ขั้นแรกของหนองที่เจาะได้ครั้งแรก — จะถูกถ้าเป็นชาย 55 ปี empyema ที่ใส่ ICD และให้ยา 2 สัปดาห์ยังไข้ CT เห็นเปลือกหนารัดปอดไม่ขยาย (trapped lung)",
+   "E": "เจาะดูดซ้ำหลายครั้งระบายหนองข้นได้ไม่หมด หนองกลับมาสะสมและเกิดช่องกั้นตามมา จึงไม่ใช่การรักษามาตรฐานในผู้ใหญ่ — จะถูกถ้าเป็นหญิง 65 ปีมะเร็งเต้านมระยะแพร่กระจาย มี malignant effusion ไม่ติดเชื้อที่กลับมาช้า ๆ และต้องการบรรเทาอาการหอบเป็นครั้งคราว"
   },
-  "trap": "ให้ยาอย่างเดียวเพราะผู้ป่วยมาจาก OPD — หนองในช่องเยื่อหุ้มปอดต้องระบาย",
+  "trap": "ผู้ป่วยมาที่ OPD และสัญญาณชีพยังพอได้ ชวนให้เลือกยากินกลับบ้าน หรือเลือกสายเล็กเพราะเจ็บน้อย · หลักคือ<b>หนองต้องระบาย + ยาต้องเข้าทางหลอดเลือด</b> ทั้งสองอย่างคู่กัน · decortication เป็นขั้นตอนสุดท้ายเมื่อการระบายล้มเหลว",
   "summary": [
-   "Empyema: หนอง/ gram stain หรือ culture บวก",
-   "รักษา: ระบาย (ICD) + IV ATB (ครอบคลุม anaerobe)",
-   "Loculated → tPA + DNase/ VATS",
-   "Organizing (เปลือก) → decortication",
-   "Complicated parapneumonic: pH &lt; 7.2 · glucose &lt; 60 → ระบาย",
-   "ระยะ: exudative → fibrinopurulent → organizing"
+   "Empyema: เจาะได้หนองหรือ Gram stain/ culture บวก → ระบายทันที · หนองข้นสีเขียว/ เหลืองไม่ต้องรอผล pH",
+   "เชื้อในชุมชน: S. anginosus group, S. pneumoniae, anaerobe · ในโรงพยาบาล: S. aureus (รวม MRSA), gram-negative (Enterobacterales, Pseudomonas) · เพาะเชื้อขึ้นเพียงราวครึ่งหนึ่ง",
+   "ยา: ampicillin-sulbactam หรือ ceftriaxone + metronidazole (ชุมชน) · piperacillin-tazobactam/ meropenem ± vancomycin (ในโรงพยาบาล) · หลีกเลี่ยง aminoglycoside · รวมราว 3–6 สัปดาห์",
+   "ICD: ใส่ใน safe triangle (ขอบหน้า latissimus dorsi, ขอบข้าง pectoralis major, แนวเหนือหัวนม ICS 5) ต่อขวดใต้น้ำ (underwater seal) ล้างสายเล็กด้วยน้ำเกลือเป็นระยะ",
+   "ช่องกั้น/ ระบายไม่ดี → intrapleural tPA 10 mg + DNase 5 mg วันละ 2 ครั้ง 3 วัน (MIST-2) ลดขนาดน้ำและความจำเป็นต้องผ่าตัด",
+   "RAPID score (อายุ, urea, ติดเชื้อที่ไหน, purulence, albumin) ทำนายการเสียชีวิตของ pleural infection · ล้มเหลวที่ 5–7 วัน → VATS debridement/ decortication",
+   "ระยะเรื้อรังในผู้ที่ผ่าตัดใหญ่ไม่ได้ → open window thoracostomy (Eloesser flap) ระบายหนองระยะยาว"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง 3 และการแก้ของ P'Ing ในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
-  "mnemonic": "<b>'เจาะได้หนอง = Tube + IV ATB'</b>",
-  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); AATS Expert Consensus Guidelines for the Management of Empyema (J Thorac Cardiovasc Surg 2017;153:e129)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง 3 (ICD) เขียน \"empyema thoracis · fluid = ICD drain ได้\" และแก้ oral เป็น IV ATB · แนวทาง BTS ปัจจุบันยอมรับสายเล็กใส่ภายใต้ภาพ (ช้อย B) แต่ช้อยนั้นไม่รวมยา IV คำตอบที่ครบที่สุดจึงเป็น C · ต้นฉบับมี 4 ช้อย เว็บเติม E",
+  "mnemonic": "<b>'Empyema = \"Drain + Drug IV\" · Decortication เมื่อ Drain ล้มเหลว'</b>",
+  "guide": "Roberts ME et al. British Thoracic Society Guideline for pleural disease (Thorax 2023); Rahman NM et al. Intrapleural use of tissue plasminogen activator and DNase in pleural infection — MIST2 (N Engl J Med 2011)",
   "variants": [
-   "เจาะน้ำใส pH 7.4 glucose ปกติ → simple parapneumonic → ATB อย่างเดียว",
-   "ใส่ ICD แล้วระบายไม่ออก CT เห็นหลายช่อง → tPA + DNase",
-   "empyema 3 สัปดาห์ เปลือกหนา ปอดไม่ขยาย → VATS decortication"
+   "ชาย 60 ปีติดสุรา ฟันผุ empyema ข้างขวาเพาะเชื้อไม่ขึ้น → ยาที่ครอบคลุม anaerobe เช่น ampicillin-sulbactam ร่วมกับ ICD",
+   "ผู้ป่วย empyema ใส่ ICD แล้ว 3 วันสายไม่มีหนองออกแต่ CT ยังเห็นน้ำหลายช่อง → intrapleural tPA + DNase",
+   "หญิง 30 ปีหลังผ่าตัดหลอดอาหารมี empyema หนองมีเศษอาหาร → นึกถึง anastomotic leak ต้องหาและแก้รูรั่วร่วมกับระบาย",
+   "ทำไม aminoglycoside ไม่เหมาะใน empyema → เข้าช่องเยื่อหุ้มปอดได้น้อยและฤทธิ์ลดลงมากในหนองที่เป็นกรดและออกซิเจนต่ำ"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 16 — ตัวพิมพ์: <b>55.at opd ไข้ ไอ หอบ มีright pleural effusion tapได้ thick green fluid รักษาอย่างไรต่อ — 1.oral ATB 2.percutaneous drain 3.ICD 4.decorticate</b><br>ลายมือ: \"empyema thoracis\" · \"fluid = ICD drain ได้\" · 1 ขีดฆ่า \"or\" แล้วเขียน \"IV\" (แดง)<br>ไฮไลต์: วง 3 · \"opd ไข้ ไอ หอบ มีright pleural effusion tapได้\" · \"thick green fluid\" (เหลือง)<br>ที่ปรับในเว็บ: ICD ระบุร่วมกับ IV ATB ตามที่ P'Ing แก้ · ต้นฉบับมี 4 ช้อย → เติม E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 16",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU70|RoC|59": {
-  "interp": "ทารกแรกเกิด<b>น้ำลายมาก</b> ฟิล์มเห็น<b>ลมในลำไส้</b> เข้าได้กับ <b>EA with distal TEF</b> → ถามการรักษา",
-  "why": "EA + <b>มีลมในท้อง</b> = มี distal TEF (<b>type C, ~86%</b>) · ปลายหลอดอาหารสองข้างมักอยู่ใกล้กัน → ผ่าตัด (right thoracotomy แบบ extrapleural หรือ thoracoscopic) <b>ผูก/ ตัด fistula + ต่อหลอดอาหารปลายต่อปลายทันที (immediate primary repair — esophagoesophagostomy)</b> ซึ่งเป็นวิธีที่ใช้บ่อยที่สุด · ก่อนผ่าตัด: ดูดน้ำลาย (Replogle), ศีรษะสูง, หา VACTERL, echo ดูข้าง aortic arch · <b>Delayed primary repair</b> (+ feeding gastrostomy) ใช้กับ long gap/ isolated EA (type A) · ไฟล์ P'Ing วง 3 ลายมือ <b>\"esophageal atresia\" \"มี distal TEF\" → \"type C\"</b> และที่ 1 \"x delayed 1° repair + gastrostomy ใช้ใน Type A (isolated EA)\"",
+  "interp": "ทารกแรกเกิด<b>น้ำลายไหลมาก</b> (กลืนไม่ลง) และภาพรังสีมี<b>ลมในลำไส้</b> = <b>esophageal atresia ร่วมกับ distal tracheoesophageal fistula (Gross type C)</b> — ถามวิธีผ่าตัด ต้องรู้ว่าชนิดนี้ส่วนใหญ่ทำผูก fistula และต่อหลอดอาหารได้ทันที",
+  "why": "<b>Esophageal atresia (EA)</b> พบราว 1 ใน 3,000–4,500 การเกิด ชนิดที่พบบ่อยที่สุดคือ <b>type C (Gross)</b> — หลอดอาหารส่วนบนตัน ส่วนล่างต่อกับหลอดลม (<b>distal TEF</b>) ราว 85% · อาการ: <b>น้ำลายฟูมปาก</b> สำลัก ไอ เขียวเมื่อป้อนนม ใส่สาย OG/ NG ไม่ลง · X-ray เห็น<b>สายขดอยู่ใน upper pouch</b> และ<b>ลมในกระเพาะ/ ลำไส้</b> (ลมผ่าน distal TEF) ส่วน pure EA (type A) ท้องจะแฟบไม่มีลม · ก่อนผ่าตัด: ใส่ <b>Replogle tube</b> ดูดน้ำลายต่อเนื่อง นอนหัวสูง หลีกเลี่ยงการบีบ bag-mask แรง (ลมเข้ากระเพาะทาง fistula) และหา <b>VACTERL</b> โดยเฉพาะ<b>echocardiogram</b> (หัวใจพิการเป็นตัวกำหนดผลการรักษา และ right aortic arch เปลี่ยนข้างที่ผ่า) · ผ่าตัดผ่าน right extrapleural thoracotomy (หรือ thoracoscopic) <b>ผูกและตัด TEF แล้วต่อหลอดอาหารปลายชนปลายทันที (immediate primary repair)</b> · ไฟล์วง 3 ลายมือ P'Ing <b>\"มี distal TEF → type C\"</b> ช้อย 1 <b>\"x delayed 1° repair + gastrostomy ใช้ใน Type A (isolated EA)\"</b> และสไลด์ Operative management: <b>Immediate primary repair (Most common)</b>",
   "wrong": {
-   "A": "Delayed primary repair + gastrostomy ใช้กับ isolated EA/ long gap (ลายมือ \"x delayed 1° repair + gastrostomy ใช้ใน Type A\") · จะถูกถ้าทารก EA ท้องไม่มีลม (pure EA) ระยะห่างปลายหลอดอาหารยาว",
-   "B": "\"Divert fistula\" ไม่ใช่การรักษามาตรฐาน fistula ต้องผูก/ ตัดปิดเพื่อกันน้ำย่อยไหลย้อนเข้าปอด · จะถูกถ้าคำถามถามการผ่าตัดแบบแบ่งขั้นในทารกน้ำหนักน้อยมาก/ ไม่คงที่ (ผูก fistula + gastrostomy ก่อน ต่อหลอดอาหารทีหลัง)",
-   "D": "Gastrostomy + cervical esophagostomy เป็นการรักษาสำรองเมื่อต่อไม่ได้ (long gap ล้มเหลว) · จะถูกถ้าทารก pure EA ระยะห่างยาวมากหลังรอแล้วยังต่อไม่ได้",
-   "E": "เปลี่ยนหลอดอาหารด้วยลำไส้ใหญ่/ กระเพาะใช้เมื่อต่อหลอดอาหารเดิมไม่ได้ · จะถูกถ้าเด็ก long gap EA ที่ต่อไม่ได้และทำ esophagostomy ไว้แล้ว"
+   "A": "ผูก fistula แล้วรอต่อหลอดอาหารทีหลัง (delayed primary repair) ใช้เมื่อปลายสองข้างห่างกันมาก (long gap) โดยเฉพาะ pure EA type A ที่ให้อาหารทาง gastrostomy รอให้หลอดอาหารโตก่อน (ลายมือ \"ใช้ใน Type A\") — จะถูกถ้าเป็นทารกน้ำลายไหลมาก ท้องแฟบ X-ray ไม่มีลมในท้องเลย (pure EA) และระยะห่างระหว่างปลายมากกว่า 3 vertebral bodies",
+   "B": "การเบี่ยง (divert) fistula ไม่ใช่การผ่าตัดมาตรฐาน TEF ต้องผูกและตัดเพื่อหยุดลมและน้ำย่อยไหลเข้าปอด และการต่อหลอดอาหารที่ยังมี fistula เปิดอยู่เสี่ยงปอดอักเสบจากกรดและรั่ว — จะถูกถ้าเป็นทารกเกิดก่อนกำหนดมาก 900 g หายใจลำบากจากลมรั่วผ่าน TEF ท้องอืดตึง ต้องรีบผูก fistula ก่อนเป็นการฉุกเฉิน แล้วต่อหลอดอาหารเมื่อคงที่",
+   "D": "Gastrostomy ร่วมกับ cervical esophagostomy (spit fistula) เป็นทางออกเมื่อต่อหลอดอาหารเดิมไม่ได้ เพื่อระบายน้ำลายและให้อาหารรอผ่าตัดเปลี่ยนหลอดอาหาร ทำให้เสียหลอดอาหารเดิมไป — จะถูกถ้าเป็นทารก long-gap EA ที่พยายามยืดหลอดอาหารหลายเดือนแล้วยังต่อไม่ได้ และรอทำ gastric transposition",
+   "E": "Esophageal replacement ด้วยลำไส้ใหญ่ (หรือกระเพาะ/ jejunum) สงวนไว้เมื่อเก็บหลอดอาหารเดิมไม่ได้ เช่น long gap ที่ต่อไม่สำเร็จ หรือรอยต่อตีบรุนแรงแก้ไม่ได้ ไม่ใช่การรักษาแรกของ type C — จะถูกถ้าเป็นเด็ก 2 ปีที่ผ่าตัด EA แล้วรอยต่อรั่วและตีบซ้ำจนหลอดอาหารเสียหายถาวร ต้องทำ colon interposition"
   },
-  "trap": "ใช้การรักษาของ pure EA (delayed + gastrostomy) กับ type C — มีลมในท้อง = ต่อได้ทันที",
+  "trap": "ช้อย delayed repair ฟังดูปลอดภัยกว่าสำหรับทารก จึงมีคนเลือก · ตัวชี้ขาดคือ<b>ลมในลำไส้</b> = มี distal TEF (type C) ซึ่งปลายหลอดอาหารสองข้างมักอยู่ใกล้กันพอต่อได้ทันที · ท้องแฟบไม่มีลม = pure EA (type A) ที่มัก long gap ต้อง gastrostomy และรอ",
   "summary": [
-   "Type C (EA + distal TEF) 86% → ผูก TEF + immediate primary repair",
-   "Type A (pure EA) → gastrostomy + delayed primary repair (6–12 สัปดาห์)",
-   "ก่อนผ่าตัด: Replogle tube · ศีรษะสูง · ATB · echo (aortic arch)",
-   "VACTERL association",
-   "ภาวะแทรกซ้อน: anastomotic leak · stricture · recurrent TEF · GERD · tracheomalacia",
-   "Right aortic arch → ผ่าตัดทางซ้าย"
+   "Gross classification: A pure EA (ราว 8%) · B EA + proximal TEF (ราว 1%) · C EA + distal TEF (ราว 85%) · D EA + proximal และ distal TEF (ราว 1–2%) · E H-type TEF ไม่มี atresia (ราว 4%)",
+   "ก่อนคลอด: polyhydramnios + กระเพาะเล็กหรือมองไม่เห็นใน ultrasound · หลังคลอด: น้ำลายฟูม สำลักเมื่อกินนม ใส่สายลงกระเพาะไม่ได้ (ค้างราว 10 cm จากเหงือก)",
+   "VACTERL: Vertebral, Anorectal, Cardiac, TE fistula, Renal, Limb · ตรวจ echo, renal US, X-ray กระดูกสันหลังและแขนขา · ราวครึ่งหนึ่งมีความผิดปกติร่วม",
+   "Preop: Replogle tube ดูดต่อเนื่อง, นอนหัวสูง, งดอาหาร, ยาปฏิชีวนะ, หลีกเลี่ยง positive pressure ventilation แรง · echo ดูข้างของ aortic arch",
+   "Spitz classification ทำนายการรอดชีวิต: น้ำหนักแรกเกิด &lt; 1,500 g และหัวใจพิการรุนแรง (ไม่มีทั้งสองข้อรอดเกือบทั้งหมด)",
+   "ภาวะแทรกซ้อนหลังผ่าตัด: anastomotic leak (ราว 10–20%), stricture (ราว 30–40% ต้องขยาย), recurrent TEF, GERD (พบมาก), tracheomalacia",
+   "H-type TEF มาช้า: ไอสำลักเวลากิน ปอดอักเสบซ้ำ ท้องอืด → prone pull-back esophagogram หรือ bronchoscopy แล้วผ่าตัดทางคอ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง 3 และลายมือ/ สไลด์ในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'EA มีลมในท้อง (type C) = ผูก fistula + ต่อเลย'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Esophageal atresia and tracheoesophageal fistula; ERNICA Consensus Conference on Esophageal Atresia (Eur J Pediatr Surg 2019;29:510)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง 3 และเขียน \"มี distal TEF → type C\" พร้อมสไลด์ที่ระบุ immediate primary repair เป็นวิธีที่พบบ่อยที่สุด · ลายมือในไฟล์บอกว่า delayed repair ใช้ใน type A รอราว 6–12 เดือน (ตำราส่วนใหญ่รอราว 2–3 เดือนให้ปลายโตเข้าหากัน) · ต้นฉบับมี 3 ช้อย เว็บเติม D, E",
+  "mnemonic": "<b>'\"ลมในท้อง = TEF ล่าง = Type C = ผูก + ต่อทันที\" · ท้องแฟบ = Type A = Gastrostomy + รอ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Esophageal atresia and tracheoesophageal fistula; Krishnan U et al. ESPGHAN-NASPGHAN Guidelines for the Evaluation and Treatment of GI and Nutritional Complications in Children With EA-TEF (J Pediatr Gastroenterol Nutr 2016)",
   "variants": [
-   "ทารก EA ท้องไม่มีลม → pure EA → gastrostomy + delayed primary repair",
-   "หลังผ่าตัด EA 3 สัปดาห์กลืนลำบาก → anastomotic stricture → balloon dilatation",
-   "ทารก EA type C มี right aortic arch → left thoracotomy"
+   "ทารกแรกเกิดน้ำลายไหลมาก ใส่ OG ไม่ลง X-ray ท้องแฟบไม่มีลม → pure EA (type A) ทำ gastrostomy ประเมิน gap แล้วรอต่อทีหลัง",
+   "เด็ก 1 ปีไอสำลักขณะกินนม ปอดอักเสบซ้ำที่ปอดขวาบน ท้องอืดบ่อย → H-type TEF ตรวจ prone esophagogram",
+   "เด็กหลังผ่าตัด EA type C 2 เดือน กลืนลำบาก อาเจียน → anastomotic stricture ทำ balloon dilatation",
+   "ทำไมต้องทำ echocardiogram ก่อนผ่าตัด EA → หาหัวใจพิการที่กำหนดความเสี่ยงการดมยา และ right aortic arch ทำให้ต้องเปลี่ยนไปผ่าตัดข้างซ้าย"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 16 — ตัวพิมพ์: <b>59. Newborn, excessive drooling, มี air in bowel loop รักษายังไง — 1.Ligate fistula, delayed primary repair 2.Divert fistula, esophageal anastomosis 3. Ligate fistula, immediate primary repair (esophageal anastomosis/esophagoesophagostomy)</b> (ช้อย 3 เป็นลายมือ)<br>ลายมือ: \"esophageal atresia\" ใต้ excessive drooling · \"มี distal TEF → type C\" · 1 \"x delayed 1° repair + gastrostomy ใช้ใน Type A (isolated EA)\" (แดง)<br>ไฮไลต์: วง 3 · \"Newborn\" · \"excessive drooling\" \"มี air in bowel loop\" (เหลือง)<br>รูปที่แปะ: สไลด์ Management (Preoperative, Operative) และ Operative management — Immediate primary repair (Most common) (ลายมือ \"ใน type C · ligate TEF, Esophagoesophagostomy เอาปลายมาต่อกัน\") · Delayed primary repair (ลายมือ \"6 mo – 1 ปี ค่อยผ่า, ex มี U/D ♡ anomaly\") – dilated proximal pouch – isolated EA (feeding gastrostomy) (ลายมือ \"type A · รอ 6–12 mo ค่อย Sx definite\") พร้อมภาพการต่อหลอดอาหาร",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 16",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU70|RoC|72": {
-  "interp": "หญิงเป็น<b>เบาหวานและ HIV</b> มีไข้ ปวดหัว CT สมองพบ <b>ring-enhancing หลายก้อนที่ basal ganglia</b> → ถามวินิจฉัย",
-  "why": "ผู้ป่วย <b>HIV (ภูมิต่ำ)</b> + ไข้ ปวดหัว + รอยโรค ring-enhancing <b>หลายก้อนที่ basal ganglia</b>/ รอยต่อเนื้อเทา-ขาว = <b>cerebral toxoplasmosis</b> (โรคก้อนในสมองที่พบบ่อยที่สุดใน AIDS มักเมื่อ CD4 &lt; 100) · ติดจาก<b>แมว</b> (oocyst) หรือเนื้อดิบ แล้วกลับมากำเริบเมื่อภูมิต่ำ · รักษาตามประสบการณ์ด้วย <b>pyrimethamine + sulfadiazine</b> + leucovorin แล้วดูภาพซ้ำ 2 สัปดาห์ · ไม่ดีขึ้น → biopsy แยก primary CNS lymphoma · ไฟล์ P'Ing วง 4 ลายมือ <b>\"immunocompromised\"</b> และแปะสไลด์ <b>\"Toxoplasmosis · Toxoplasma gondii · Source: cat · Rx: Sulfadiazine, Pyrimethamine\"</b>",
+  "interp": "หญิงเป็นเบาหวานและ <b>HIV</b> มีไข้ ปวดหัว CT สมองพบ<b>ก้อนเพิ่มสารทึบรังสีเป็นวงหลายก้อนที่ basal ganglia</b> — ถามการวินิจฉัย ต้องรู้โรคติดเชื้อฉวยโอกาสของสมองที่พบบ่อยที่สุดในผู้ป่วยเอดส์และตำแหน่งที่ชอบ",
+  "why": "ใน HIV ที่ภูมิต่ำ (CD4 &lt; 100) ก้อนในสมองที่พบบ่อยที่สุดคือ <b>cerebral toxoplasmosis</b> · วงจรชีวิต: <b>แมวเป็น definitive host</b> ปล่อย oocyst ในอุจจาระ คนติดจากดิน/ ผักที่ปนเปื้อน หรือกิน tissue cyst ในเนื้อหมู/ แกะที่ไม่สุก แล้วเชื้ออยู่ในรูป bradyzoite cyst ในสมองตลอดชีวิต · เมื่อ CD4 ต่ำ เชื้อเปลี่ยนเป็น tachyzoite แบ่งตัวทำลายเนื้อสมอง → <b>ก้อน ring-enhancing หลายก้อนที่ basal ganglia</b>, thalamus และรอยต่อ gray–white matter ร่วมกับบวม · ทางปฏิบัติไม่ต้อง biopsy ก่อน: Toxoplasma IgG บวก + ภาพเข้าได้ → <b>ให้ยารักษาเลย</b> คือ <b>pyrimethamine + sulfadiazine</b> (+ leucovorin ป้องกันกดไขกระดูก) หรือ TMP-SMX · ส่วนใหญ่อาการดีขึ้นในราว 1–2 สัปดาห์ ถ้าไม่ดีขึ้นต้องคิดถึง primary CNS lymphoma, tuberculoma, cryptococcoma และทำ biopsy · เริ่ม ART ภายในราว 2 สัปดาห์หลังเริ่มยา และเฝ้าระวัง IRIS · ไฟล์วง 4 (toxoplasmosis) ลายมือ P'Ing <b>\"immunocompromised\"</b> เหนือ DM HIV และแปะสไลด์ Toxoplasmosis — <b>T. gondii · Source: cat · Rx: Sulfadiazine, Pyrimethamine</b>",
   "wrong": {
-   "A": "Neurocysticercosis เป็นถุงน้ำหลายก้อนมี scolex พบในคนภูมิปกติจากพื้นที่ระบาด อาการเด่นคือชัก · จะถูกถ้าเด็ก 12 ปีชักครั้งแรก MRI ถุงน้ำเล็กจำนวนมากมีจุดตรงกลาง",
-   "B": "Metastasis พบในผู้มีมะเร็ง ไม่มีไข้ ก้อนที่รอยต่อเนื้อเทา-ขาว · จะถูกถ้าผู้ป่วยมะเร็งปอดมีอาการทางประสาท ring หลายก้อนบวมมาก",
-   "C": "ฝีจากแบคทีเรียมักเป็นก้อนเดี่ยว มีแหล่งติดเชื้อ (หู ไซนัส ฟัน หัวใจ) · จะถูกถ้าผู้ป่วยหูน้ำหนวกเรื้อรัง ปวดหัว ring-enhancing ก้อนเดียวที่ temporal lobe",
-   "E": "GBM เป็นก้อนเดี่ยวขนาดใหญ่ ring ขอบหนาไม่เรียบ เนื้อตาย ไม่มีไข้ · จะถูกถ้าชาย 60 ปีอาการแย่ลงเร็ว MRI ก้อนใหญ่ข้าม corpus callosum"
+   "A": "Neurocysticercosis พบในคนภูมิปกติในพื้นที่ระบาด มาด้วยชัก ภาพเป็นถุงน้ำเล็กหลายระยะ เห็น scolex เป็นจุดในถุง ไม่ใช่ไข้กับก้อนวงที่ basal ganglia ในเอดส์ — จะถูกถ้าเป็นชาย 22 ปีแรงงานจากพื้นที่ชนบทที่เลี้ยงหมู ชักครั้งแรก CT เห็นถุงเล็กหลายถุงและจุดหินปูนกระจายทั่วสมอง",
+   "B": "Metastasis พบในผู้สูงอายุที่มีมะเร็งปฐมภูมิ ก้อนวงหนาไม่เรียบบวมมาก มักไม่มีไข้ และไม่ได้เลือกที่ basal ganglia — จะถูกถ้าเป็นชาย 65 ปีสูบบุหรี่ น้ำหนักลด ไอเป็นเลือด CT สมองเห็นก้อนวงหลายก้อนที่รอยต่อ gray–white matter และ CXR มีก้อนที่ปอด",
+   "C": "Bacterial brain abscess มักเป็นก้อนเดียวหรือไม่กี่ก้อนจากแหล่งติดเชื้อใกล้เคียงหรือทางเลือด ขอบวงบางเรียบ DWI สว่าง ไม่ใช่ opportunistic infection ที่ basal ganglia ในเอดส์ — จะถูกถ้าเป็นชาย 35 ปีไซนัสอักเสบเรื้อรัง ไข้ ปวดหัว ซึม MRI ก้อนวง 3 cm ที่ frontal lobe ติดกับ frontal sinus",
+   "E": "Glioblastoma เป็นเนื้องอกร้ายปฐมภูมิในผู้สูงอายุ ก้อนเดียวขนาดใหญ่มีเนื้อตาย ลามข้าม corpus callosum ไม่มีไข้และไม่สัมพันธ์กับ HIV — จะถูกถ้าเป็นหญิง 60 ปีปวดหัวและบุคลิกเปลี่ยน 1 เดือน MRI ก้อนวงหนาเนื้อตายตรงกลางที่ frontal ลามข้ามไปซีกตรงข้าม"
   },
-  "trap": "เห็น ring + ไข้แล้วตอบฝีแบคทีเรีย — HIV + หลายก้อนที่ basal ganglia = toxoplasmosis",
+  "trap": "มีทั้งเบาหวานและ HIV ทำให้ลังเลระหว่าง bacterial abscess กับ toxoplasmosis · ตัวชี้คือ <b>HIV + ก้อนวงหลายก้อนที่ basal ganglia</b> = toxoplasmosis · ส่วน PCNSL ใน HIV มักเป็นก้อนเดียวรอบโพรงสมอง และ neurocysticercosis เป็นถุงหลายระยะที่ไม่เลือกภูมิคุ้มกัน",
   "summary": [
-   "Toxoplasmosis: HIV CD4 &lt; 100 · ring หลายก้อน basal ganglia",
-   "แหล่งติด: แมว (oocyst) · เนื้อดิบ",
-   "รักษา: pyrimethamine + sulfadiazine + leucovorin (ทางเลือก TMP-SMX)",
-   "ป้องกัน: TMP-SMX เมื่อ CD4 &lt; 100 + IgG บวก",
-   "ไม่ดีขึ้น 2 สัปดาห์ → biopsy (CNS lymphoma)",
-   "PML: white matter ไม่ enhance ไม่มี mass effect"
+   "T. gondii: แมวเป็น definitive host · คนติดจาก oocyst (ดิน ผัก กระบะทรายแมว) หรือ tissue cyst (เนื้อไม่สุก) · ผู้ใหญ่จำนวนมากมี IgG บวกจากการติดเชื้อแฝง",
+   "Cerebral toxoplasmosis ใน HIV: CD4 &lt; 100 · ไข้ ปวดหัว สับสน อ่อนแรงครึ่งซีก ชัก · ก้อน ring-enhancing หลายก้อนที่ basal ganglia/ thalamus/ gray–white junction",
+   "วินิจฉัยแบบ empiric: IgG บวก + ภาพเข้าได้ → ให้ยา · อาการดีขึ้นใน 1–2 สัปดาห์ ภาพดีขึ้นใน 2–3 สัปดาห์ · ไม่ดีขึ้น → stereotactic biopsy",
+   "ยา: pyrimethamine + sulfadiazine + leucovorin (แพ้ sulfa → pyrimethamine + clindamycin) หรือ TMP-SMX อย่างน้อย 6 สัปดาห์ แล้ว maintenance",
+   "เริ่ม ART ภายในราว 2 สัปดาห์หลังเริ่มยารักษา toxoplasma · ระวัง IRIS ที่ก้อนบวมมากขึ้นชั่วคราว",
+   "PCNSL ใน HIV: ก้อนเดียวหรือน้อยก้อน อยู่รอบโพรงสมอง/ corpus callosum, CSF EBV DNA บวก, SPECT thallium/ PET จับสารสูง (toxoplasma จับต่ำ)",
+   "ป้องกัน: TMP-SMX DS วันละครั้งเมื่อ CD4 &lt; 100 และ IgG บวก · หยุดได้เมื่อ CD4 &gt; 200 นานกว่า 3 เดือนด้วย ART"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับวง 4 และสไลด์ที่แปะในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
-  "mnemonic": "<b>'HIV + ring หลายก้อน + แมว = Toxo'</b>",
-  "guide": "NIH/ CDC/ HIVMA-IDSA Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV — Toxoplasma gondii encephalitis (updated 2024)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง 4 เขียน \"immunocompromised\" และแปะสไลด์ Toxoplasmosis (source: cat · Rx sulfadiazine, pyrimethamine) · ต้นฉบับไม่ได้บรรยายภาพ เว็บเติมภาพก้อนวงหลายก้อนที่ basal ganglia ตามสไลด์ และเติมช้อย E",
+  "mnemonic": "<b>'\"HIV + Hot Basal ganglia rings = Toxo (Cat)\" → Pyrimethamine + Sulfadiazine'</b>",
+  "guide": "Panel on Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV — Toxoplasma gondii encephalitis (NIH/CDC/HIVMA-IDSA, updated 2024)",
   "variants": [
-   "ผู้ป่วย HIV CD4 30 IgG toxo บวก → TMP-SMX prophylaxis",
-   "ผู้ป่วย HIV ก้อนเดี่ยวรอบโพรงสมอง EBV DNA บวกใน CSF → primary CNS lymphoma",
-   "ผู้ป่วย HIV สับสน white matter ผิดปกติไม่ enhance → PML (JC virus)"
+   "หญิงตั้งครรภ์เลี้ยงแมว ตรวจพบ Toxoplasma IgM เพิ่งบวกในไตรมาสแรก → spiramycin ลดการติดต่อสู่ทารกและตรวจ amniotic fluid PCR",
+   "ผู้ป่วย HIV ได้ยา toxoplasma 2 สัปดาห์อาการไม่ดีขึ้น Toxoplasma IgG ลบ MRI ก้อนเดียวรอบโพรงสมอง → stereotactic biopsy หา primary CNS lymphoma",
+   "ผู้ป่วย HIV แพ้ sulfa รุนแรงมี cerebral toxoplasmosis → pyrimethamine + clindamycin + leucovorin",
+   "ทำไม toxoplasmosis ใน HIV ส่วนใหญ่เป็นการกลับมาของเชื้อเดิม → เชื้อแฝงเป็น bradyzoite cyst ในสมองมานาน เมื่อ T-cell ลดลงจึงเปลี่ยนเป็น tachyzoite แบ่งตัว"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 16 — ตัวพิมพ์: <b>72.ผู้หญิง DM HIV มีไข้ ปวดหัว CT brain ถาม Dx — 1.Cystic cercosis 2.Metastasis 3.Brain abscess 4.Toxoplasmosis</b><br>ลายมือ: \"immunocompromised\" เหนือ DM HIV<br>ไฮไลต์: วง 4 · \"DM HIV มีไข้ ปวดหัว CT brain\"<br>รูปที่แปะ: สไลด์ Toxoplasmosis — Toxoplasma gondii · Source: cat · Rx: Sulfadiazine, Pyrimethamine (ลายมือเล็ก) · ภาพ CT สมอง Toxoplasmosis<br>ที่ปรับในเว็บ: stem บรรยายภาพ CT · ต้นฉบับมี 4 ช้อย → เติม E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 16",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU70|RoC|73": {
-  "interp": "ผู้ป่วยมี<b>ก้อนใน anterior mediastinum</b> ร่วมกับอาการ <b>myasthenia gravis</b> (หนังตาตก อ่อนแรง) → ถามการรักษา",
-  "why": "ก้อน anterior mediastinum + MG = <b>thymoma</b> (เนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum ผู้ใหญ่ อายุ 30–50 ปี) · ก้อนที่ดูผ่าตัดได้ (encapsulated) <b>ไม่ควรเจาะชิ้นเนื้อผ่านผิว</b> (เสี่ยงเซลล์ฝังในเยื่อหุ้มปอด) → <b>total thymectomy</b> เอาก้อนพร้อมต่อมไทมัสปกติและไขมันรอบออกหมด (en bloc) ผ่าน sternotomy หรือ VATS/ robotic · <b>ลุกลาม/ ตัดไม่หมด → รังสีรักษาเสริม</b> (thymoma ไวต่อรังสี) ± เคมีบำบัด · เตรียม MG ให้คงที่ก่อนผ่าตัด (pyridostigmine, IVIG/ plasmapheresis) · ไฟล์ P'Ing วง 1 ลายมือ <b>\"thymoma\"</b> และแปะสไลด์ <b>\"TREATMENT · Surgical excision (complete about 90% of cases) · Total thymectomy include normal thymic tissue\"</b>",
+  "interp": "ก้อนที่ <b>anterior mediastinum</b> ร่วมกับอาการ <b>myasthenia gravis</b> (หนังตาตก อ่อนแรง) = <b>thymoma</b> — ถามการรักษาที่เหมาะสม ซึ่งหลักคือผ่าตัดเอาต่อม thymus ออกทั้งหมด แล้วให้การรักษาเสริมตามระยะการลุกลามและความสมบูรณ์ของการตัด",
+  "why": "<b>Thymoma</b> เป็นเนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum ในผู้ใหญ่ (ช่วงอายุ 30–50 ปีขึ้นไป ชายหญิงพอกัน) และสัมพันธ์กับ <b>myasthenia gravis</b> มากที่สุด — ผู้ป่วย thymoma มี MG ราว 30–50% (สไลด์ในไฟล์เขียน 50–80%) ส่วนผู้ป่วย MG มี thymoma ราว 10–15% · paraneoplastic อื่น: pure red cell aplasia, hypogammaglobulinemia (Good syndrome) · CT ทรวงอกฉีดสีเห็นก้อนขอบเรียบหน้า aorta · ก้อนที่ภาพเข้าได้กับ thymoma และผ่าตัดได้<b>ไม่ต้อง biopsy ก่อน</b> (เลี่ยงการทำให้แคปซูลแตกและเซลล์หว่าน) · การรักษาหลักคือ <b>total thymectomy</b> เอาก้อนพร้อมต่อม thymus ปกติและไขมันรอบออกทั้งหมด (median sternotomy หรือ VATS/ robotic) ผ่าตัดออกหมดได้ราว 90% · ก่อนผ่าตัด<b>ต้องคุม MG ให้คงที่</b> (pyridostigmine, IVIG หรือ plasmapheresis) ป้องกัน myasthenic crisis หลังผ่าตัด · การรักษาเสริม: ลุกลามเกินแคปซูล (Masaoka-Koga III) หรือตัดไม่หมด → <b>รังสีหลังผ่าตัด</b> · ผ่าตัดไม่ได้ → เคมีบำบัดสูตร cisplatin นำก่อนแล้วประเมินผ่าตัด · ไฟล์วง 1 ลายมือ P'Ing <b>\"thymoma\"</b> พร้อมสไลด์ Thymoma TREATMENT — <b>surgical excision (complete about 90%) · total thymectomy include normal thymic tissue</b>",
   "wrong": {
-   "B": "เคมี/ รังสีก่อนใช้กับ thymoma ลุกลามที่ตัดไม่ได้ (induction) แล้วผ่าตัดตาม · จะถูกถ้า CT พบ thymoma ลุกลามหลอดเลือดใหญ่/ เยื่อหุ้มหัวใจ ตัดไม่ได้ในครั้งแรก",
-   "C": "Thymoma ไวต่อรังสี (ไม่ใช่ดื้อรังสี) จึงใช้รังสีเสริมหลังผ่าตัดในรายลุกลาม · จะถูกถ้าคำถามเป็นเนื้องอกที่ดื้อรังสีและต้องใช้เคมีบำบัดหลังผ่าตัด",
-   "D": "Steroid คุมอาการ MG แต่ไม่รักษาก้อน thymoma ที่ต้องเอาออก · จะถูกถ้าผู้ป่วย MG ไม่มี thymoma อาการคุมด้วย pyridostigmine ไม่ได้ (เพิ่ม immunosuppression)",
-   "E": "เจาะชิ้นเนื้อก่อนใช้เมื่อก้อนตัดไม่ได้หรือสงสัยโรคอื่น (lymphoma, germ cell) และรังสีอย่างเดียวไม่ใช่การรักษาหลักของก้อนที่ตัดได้ · จะถูกถ้าชายหนุ่มก้อน anterior mediastinum ต่อมน้ำเหลืองโต LDH สูง (lymphoma → biopsy)"
+   "B": "เคมีบำบัดร่วมรังสีเป็นหลักแล้วผ่าตัดเฉพาะก้อนที่เหลือเป็นแนวทางของ nonseminomatous germ cell tumor หรือ lymphoma ไม่ใช่ thymoma ที่ผ่าตัดได้ — จะถูกถ้าเป็นชาย 22 ปีก้อนใหญ่ที่ anterior mediastinum AFP และ β-hCG สูงมาก ได้เคมีบำบัด BEP แล้วผ่าตัดก้อนที่เหลือ",
+   "C": "Thymoma ไวต่อรังสีจึงใช้รังสีเป็นการรักษาเสริม ข้ออ้างว่าดื้อรังสีจึงผิด และเคมีบำบัดหลังผ่าตัดไม่ใช่มาตรฐานของ thymoma ที่ตัดได้หมด — แนวผ่าตัดแล้วตามด้วยเคมีบำบัดจะถูกถ้าเป็นชาย 55 ปีมี thymic carcinoma ที่ผ่าตัดแล้วยังเหลือก้อนที่มองเห็น (R2) ซึ่งให้เคมีบำบัดร่วมกับรังสีหลังผ่าตัด",
+   "D": "Steroid และยา immunosuppressant รักษาอาการ MG ได้ แต่ไม่ได้รักษาเนื้องอกที่ลุกลามเฉพาะที่ได้ และ steroid ขนาดสูงช่วงแรกอาจทำให้ MG แย่ลงชั่วคราว — จะถูกถ้าเป็นหญิง 70 ปีมี ocular MG ไม่มีก้อนใน CT อาการไม่ดีขึ้นด้วย pyridostigmine จึงเริ่ม prednisolone ขนาดต่ำ",
+   "E": "CT-guided biopsy ใช้เมื่อก้อนผ่าตัดไม่ได้หรือสงสัยโรคอื่น (lymphoma, germ cell) และรังสีอย่างเดียวเป็นทางเลือกเฉพาะผู้ที่ผ่าตัดไม่ได้ — จะถูกถ้าเป็นชาย 82 ปีหัวใจล้มเหลวรุนแรง มีก้อน thymoma ลุกเข้าหลอดเลือดใหญ่ผ่าตัดไม่ได้ จึงเจาะชิ้นเนื้อยืนยันแล้วฉายรังสี"
   },
-  "trap": "เจาะชิ้นเนื้อก่อนทุกก้อน — thymoma ที่ดูตัดได้ + MG ให้ผ่าตัดเอาออกทั้งหมดโดยไม่ต้องเจาะก่อน",
+  "trap": "ก้อนในทรวงอกทำให้คนคิดว่าต้อง biopsy ก่อนหรือคิดว่าเป็นมะเร็งต้องเคมีบำบัด · หลักคือ<b>ก้อน anterior mediastinum + MG = thymoma → total thymectomy</b> เป็นทั้งการวินิจฉัยและรักษา · ต้องแยกกับ 4T (thymoma, teratoma/ germ cell, thyroid, terrible lymphoma) ด้วยอายุ อาการ และ tumor marker ก่อนผ่าตัด",
   "summary": [
-   "Anterior mediastinum (4T): Thymoma · Teratoma/ germ cell · Thyroid · Terrible lymphoma",
-   "Thymoma + MG: ~30–50% ของ thymoma มี MG",
-   "Total thymectomy (en bloc) · complete resection = ปัจจัยพยากรณ์สำคัญ",
-   "ไม่เจาะผ่านผิวถ้าก้อนตัดได้",
-   "Masaoka stage ≥ II/ ตัดไม่หมด → RT เสริม",
-   "MG ไม่มี thymoma อายุ 18–65 ปี AChR+ → thymectomy ช่วย (MGTX)"
+   "Anterior mediastinal mass \"4T\": Thymoma, Teratoma/ germ cell tumor, Thyroid (retrosternal goiter), Terrible lymphoma · ชายหนุ่มตรวจ AFP/ β-hCG ทุกราย",
+   "Thymoma: พบบ่อยสุดใน anterior mediastinum ผู้ใหญ่ · MG ราว 30–50% ของผู้ป่วย thymoma · paraneoplastic อื่น: pure red cell aplasia, hypogammaglobulinemia",
+   "ก้อนที่ภาพเข้าได้กับ thymoma และผ่าตัดได้ → ผ่าตัดเลยไม่ต้อง biopsy · biopsy เมื่อผ่าตัดไม่ได้หรือสงสัย lymphoma/ germ cell",
+   "Total thymectomy: เอาก้อน + thymus ปกติ + ไขมันรอบออกทั้งหมด ผ่าน median sternotomy หรือ VATS/ robotic · ตัดออกหมด (R0) เป็นปัจจัยพยากรณ์โรคที่สำคัญที่สุด",
+   "Masaoka-Koga: I แคปซูลยังสมบูรณ์ · II ลุกผ่านแคปซูลเข้าไขมัน · III ลุกอวัยวะข้างเคียง · IVa กระจายในเยื่อหุ้มปอด/หัวใจ · IVb กระจายทางเลือด/น้ำเหลือง · WHO histology A, AB, B1–B3, thymic carcinoma",
+   "รังสีหลังผ่าตัด: ตัดไม่หมดหรือระยะ III ขึ้นไป · เคมีบำบัด cisplatin-based นำก่อนผ่าตัดในก้อนลุกลามมาก",
+   "ก่อนผ่าตัดคุม MG ให้คงที่ (IVIG/ plasmapheresis ในรายรุนแรง) · MGTX trial: thymectomy ช่วย MG ชนิด AChR-positive แม้ไม่มี thymoma"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง 1 และสไลด์ในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'ก้อนหน้าอก + MG = Thymoma → Thymectomy ทั้งต่อม (ไม่เจาะก่อน)'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Thymomas and Thymic Carcinomas v.2025; ESMO Clinical Practice Guidelines: Thymic Epithelial Tumours (Ann Oncol 2015;26:v40)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง 1 (thymomectomy) เขียน \"thymoma\" และสไลด์ Thymoma TREATMENT ที่ใช้การผ่าตัดเป็นหลัก · ต้นฉบับช้อย 1 เขียน \"biopsy if malignant start CMT RT\" เว็บปรับเป็นการรักษาเสริมถ้าลุกลามให้ตรงแนวทางปัจจุบัน (รังสีเสริมเป็นหลัก) และเติมช้อย D, E",
+  "mnemonic": "<b>'\"MG + Anterior mass = Take the Thymus (ทั้งต่อม)\" · Invasive/ ไม่หมด → RT'</b>",
+  "guide": "NCCN Guidelines Thymomas and Thymic Carcinomas (2025); Wolfe GI et al. Randomized Trial of Thymectomy in Myasthenia Gravis — MGTX (N Engl J Med 2016); Sabiston Textbook of Surgery 21st ed. (2022) — Mediastinum",
   "variants": [
-   "ชายหนุ่มก้อน anterior mediastinum AFP/ β-hCG สูง → non-seminomatous germ cell tumor → เคมีบำบัด",
-   "ก้อน anterior mediastinum + ต่อมน้ำเหลืองโต เหงื่อกลางคืน → lymphoma → biopsy",
-   "thymoma ลุกลามเยื่อหุ้มหัวใจ ตัดได้หมด → RT เสริม"
+   "หญิง 45 ปีตรวจสุขภาพพบก้อน 4 cm ขอบเรียบที่ anterior mediastinum ไม่ลุกอวัยวะรอบ ไม่มีอาการ → total thymectomy โดยไม่ต้อง biopsy ก่อน",
+   "ชาย 25 ปีมีไข้ เหงื่อออกกลางคืน น้ำหนักลด ก้อน anterior mediastinum ต่อมน้ำเหลืองคอโต → biopsy ต่อมน้ำเหลืองหา Hodgkin lymphoma",
+   "ผู้ป่วย thymoma มีซีดมาก reticulocyte ต่ำ ไขกระดูกไม่มีเซลล์ตั้งต้นเม็ดเลือดแดง → pure red cell aplasia",
+   "ทำไมต้องคุม MG ก่อนตัด thymoma → การดมยาและการผ่าตัดกระตุ้น myasthenic crisis หายใจล้มเหลวต้องใส่เครื่องช่วยหายใจนาน"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 17 — ตัวพิมพ์: <b>73. Anterior mediastinal mass with clinical MG (ptosis, weakness). What would be proper management in this patient? — 1. Thymomectomy + biopsy if malignant start CMT RT 2. CMT RT as treatment, Sx is just for residual tumor 3. Sx excision then CMT therapy due to ray resistance</b><br>ลายมือ: \"thymoma\" เหนือ Anterior<br>ไฮไลต์: วง 1 · \"Anterior mediastinal mass with clinical MG (ptosis, weakness)\" (เหลือง) · \"What would be proper management\"<br>รูปที่แปะ: สไลด์ Anterior Mediastinal Tumors — THYMOMA: Most common neoplasm of anterior mediastinal mass and second most common of mediastinal mass · Peak incidence 30-50 years of age · Male = Female · MG is the most common associated (50-80%) · สไลด์ Thymoma Diagnosis — By clinical and investigation · Confirmed by pathology · Difficult to determine malignant by histology · Finding is better for determine malignant (ลายมือเล็ก) · สไลด์ Thymoma TREATMENT — Surgical excision (complete about 90% of cases): Operative assess · Wide opening both pleural sacs · Total thymectomy include normal thymic tissue · Extend resection of invasive tumor · Excision of all pleural implants<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 17",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU70|RoC|88": {
-  "interp": "ถามการรักษา <b>fistula-in-ano</b> ข้อใด<b>ไม่ถูกต้อง</b>",
-  "why": "หลักการรักษา fistula-in-ano คือ<b>ปิดรูโดยรักษาหูรูดให้มากที่สุด</b> · <b>Low fistula</b> (intersphincteric/ low transsphincteric กินหูรูดน้อย) → <b>fistulotomy</b> (เปิดทางตลอดแนว หายสูง) · <b>High/ complex fistula</b> (กินหูรูดภายนอกมาก) → วิธีเก็บหูรูด: <b>draining/ cutting seton</b>, <b>LIFT</b>, <b>endorectal advancement flap</b>, fistula plug/ glue · <b>Fistulotomy ในรูสูงด้านหน้าของผู้หญิง</b> (หูรูดด้านหน้าสั้น ± บาดเจ็บจากการคลอด) เสี่ยง<b>กลั้นอุจจาระไม่อยู่</b>สูงมาก → ข้อห้าม · Crohn's fistula → seton + ยาชีวภาพ · ไฟล์จดเพียงหัวข้อ <b>\"88. fistula in ano รักษาแบบใด incorrect\"</b> และ P'Ing แปะสรุป fistula-in-ano",
+  "interp": "ถามการรักษา <b>fistula-in-ano</b> ที่<b>ไม่ถูกต้อง</b> — ต้องรู้การแบ่งชนิด fistula ตามความสัมพันธ์กับกล้ามเนื้อหูรูด (Parks) และหลักเลือกวิธี: fistula ต่ำตัดเปิดได้ fistula สูงหรือซับซ้อนต้องใช้วิธีเก็บหูรูดเพื่อกันกลั้นอุจจาระไม่อยู่",
+  "why": "Fistula-in-ano ส่วนใหญ่ (ราว 90%) มาจาก<b>ต่อม anal gland ติดเชื้อ (cryptoglandular)</b> หลังฝีคัณฑสูตรระบาย ราว 1/3 กลายเป็น fistula · Parks classification: <b>intersphincteric</b> (พบบ่อยสุด), <b>transsphincteric</b>, suprasphincteric, extrasphincteric · <b>Goodsall rule</b>: รูนอกด้านหลังแนวขวาง → ทางโค้งไปเปิดที่ posterior midline · ด้านหน้า → ตรงเข้าหาทวารแนวรัศมี · ประเมินซับซ้อนด้วย MRI pelvis หรือ endoanal US · <b>Simple fistula</b> (intersphincteric หรือ transsphincteric ต่ำที่ตัดหูรูดน้อยกว่าราว 30%) → <b>fistulotomy</b> หายเกิน 90% · <b>Complex fistula</b> ได้แก่ fistula สูง (ผ่านหูรูดนอกมากกว่า 30%), suprasphincteric/ extrasphincteric, <b>anterior fistula ในผู้หญิง</b> (หูรูดด้านหน้าสั้นและอาจเคยบาดเจ็บจากการคลอด), กลับเป็นซ้ำ, Crohn, เคยฉายรังสี หรือกลั้นไม่อยู่อยู่ก่อน → ต้อง<b>เก็บหูรูด</b>: draining seton, LIFT, endorectal advancement flap, fibrin glue/ plug · ดังนั้น<b>fistulotomy ใน high anterior fistula ของผู้หญิง</b>จึงผิด เพราะเสี่ยงกลั้นอุจจาระไม่อยู่สูง · ไฟล์จดหัวข้อ <b>\"fistula in ano รักษาแบบใด incorrect\"</b> ไม่มีช้อยและไม่มีคีย์ P'Ing แปะสรุปลายมือแผนผัง Parks/ fistulotomy/ seton/ LIFT/ flap",
   "wrong": {
-   "A": "ถูก — fistulotomy เป็นการรักษามาตรฐานของ low intersphincteric fistula หายสูง · จะถูกถ้าช้อยใช้ fistulotomy กับรูที่กินหูรูดภายนอก &gt; 30% ในผู้หญิงด้านหน้า",
-   "B": "ถูก — draining seton ระบายหนอง ควบคุมการติดเชื้อในรูสูง/ ซับซ้อน ก่อนผ่าตัดเก็บหูรูด · จะถูกถ้าช้อยบอกว่า seton ใช้แทนการระบายฝีเฉียบพลันที่ยังไม่ได้ผ่า",
-   "C": "ถูก — LIFT ผูกตัดทางในร่อง intersphincteric เก็บหูรูด ใช้กับ transsphincteric · จะถูกถ้าช้อยบอกว่า LIFT ใช้กับ suprasphincteric/ extrasphincteric ที่ซับซ้อนมากทุกราย",
-   "D": "ถูก — endorectal advancement flap ปิดรูภายในโดยไม่ตัดหูรูด ใช้กับรูสูง · จะถูกถ้าช้อยใช้ flap ขณะยังมีฝี/ การอักเสบรุนแรงที่ยังไม่ระบาย"
+   "A": "ข้อความถูก: fistula ชนิด intersphincteric ต่ำไม่ผ่าน external sphincter การตัดเปิดทางทั้งแนว (fistulotomy) ตัดแค่ internal sphincter ส่วนล่างเล็กน้อย หายเกิน 90% และกลั้นอุจจาระดี — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 35 ปีมีหนองซึมจากรูข้างทวารด้านหลังซ้าย 1 cm จากขอบทวาร หลังระบายฝีเมื่อ 3 เดือนก่อน ตรวจพบทางต่ำที่ไม่ผ่านหูรูดนอก",
+   "B": "ข้อความถูก: fistula สูงที่ผ่านหูรูดมากใส่ draining seton (ยางหรือไหมหลวม ๆ) ให้หนองระบาย ลดการอักเสบ ทำให้ทางเป็นพังผืดก่อนทำวิธีเก็บหูรูด และใช้ระยะยาวใน Crohn — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 40 ปีเป็น Crohn's disease มีฝีและ fistula transsphincteric สูงหลายทาง ที่ใส่ seton ร่วมกับยา anti-TNF",
+   "C": "ข้อความถูก: LIFT (ligation of intersphincteric fistula tract) เข้าทาง intersphincteric groove ผูกตัดทางระหว่างหูรูดโดยไม่ตัดกล้ามเนื้อ เหมาะกับ transsphincteric fistula ที่ทางชัด — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับหญิง 38 ปีมี transsphincteric fistula ผ่านหูรูดนอกครึ่งหนึ่ง ใส่ seton มา 2 เดือนจนทางเป็นพังผืดดีแล้ว",
+   "D": "ข้อความถูก: endorectal advancement flap ปิดรูเปิดภายในด้วยแผ่นเยื่อบุ-กล้ามเนื้อจากไส้ตรงที่เลื่อนลงมา แล้วขูดทางที่เหลือ ใช้กับ fistula สูงหรือ anterior fistula ในผู้หญิงโดยไม่ตัดหูรูด — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับหญิง 45 ปีคลอดลูกทางช่องคลอด 3 ครั้ง มี high transsphincteric fistula ด้านหน้าและ endoanal US พบหูรูดด้านหน้าบาง"
   },
-  "trap": "คิดว่า fistulotomy ใช้ได้กับทุกรูเพราะหายสูงสุด — รูสูงโดยเฉพาะด้านหน้าในผู้หญิงเสี่ยงกลั้นอุจจาระไม่อยู่",
+  "trap": "Fistulotomy เป็นวิธีที่หายดีที่สุดจึงชวนให้คิดว่าใช้ได้ทุกชนิด · ตัวแยกคือ<b>ปริมาณหูรูดที่ต้องตัด</b>และ<b>กลุ่มเสี่ยงกลั้นไม่อยู่</b> โดยเฉพาะผู้หญิงที่ fistula อยู่ด้านหน้า ซึ่งหูรูดสั้นและมักบาดเจ็บจากการคลอด · seton, LIFT และ flap ล้วนเป็นวิธีเก็บหูรูดที่ถูกต้อง",
   "summary": [
-   "Parks: intersphincteric · transsphincteric · suprasphincteric · extrasphincteric",
-   "Goodsall rule: รูภายนอกด้านหลัง → โค้งเข้าแนวกลางหลัง · ด้านหน้า → ตรงเข้าหา",
-   "Low → fistulotomy",
-   "High/ complex → seton · LIFT · advancement flap",
-   "ผู้หญิงรูด้านหน้า/ เคยคลอดยาก/ Crohn → หลีกเลี่ยง fistulotomy",
-   "MRI pelvis: ดูทางซับซ้อน"
+   "Cryptoglandular theory: anal gland ที่เปิดใน anal crypt ติดเชื้อ → ฝี (perianal, ischiorectal, intersphincteric, supralevator) → fistula ราว 1/3 หลังระบายฝี",
+   "Parks: intersphincteric (ราว 45–70%) · transsphincteric (ราว 25%) · suprasphincteric (ราว 5%) · extrasphincteric (ราว 1–5% มักจากโรคในอุ้งเชิงกรานหรือบาดเจ็บ)",
+   "Goodsall rule: รูนอกด้านหลังแนวขวาง → ทางโค้งไป posterior midline · ด้านหน้า → ตรงแนวรัศมี (ยกเว้นรูนอกห่างขอบทวารมากกว่า 3 cm อาจโค้งไปด้านหลัง)",
+   "การตรวจ: EUA + probe, MRI pelvis (มาตรฐานสำหรับ fistula ซับซ้อนหรือกลับเป็นซ้ำ), endoanal ultrasound ดูหูรูด",
+   "Simple (ตัดหูรูดน้อยกว่าราว 30% ไม่มีปัจจัยเสี่ยง) → fistulotomy · complex → draining seton, LIFT (หายราว 60–90%), advancement flap (ราว 60–80%), fibrin glue/ plug (ต่ำกว่า)",
+   "Complex fistula: สูง, anterior ในผู้หญิง, หลายทาง, กลับเป็นซ้ำ, Crohn, เคยฉายรังสี, HIV, กลั้นไม่อยู่อยู่ก่อน",
+   "Crohn perianal fistula: ระบายฝี + draining seton + anti-TNF (infliximab/ adalimumab) · ไม่ทำ fistulotomy ในทางที่ซับซ้อนหรือมี proctitis"
   ],
-  "opinion": "ตอบ E ความมั่นใจสูง — ไฟล์จดเพียงหัวข้อ ไม่มีช้อยและคีย์ ช้อยแต่งตามหลัก ASCRS และสรุปที่ P'Ing แปะ",
-  "mnemonic": "<b>'รูต่ำ = ผ่าเปิด (fistulotomy) · รูสูง/ หน้าในผู้หญิง = เก็บหูรูด (seton, LIFT, flap)'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
+  "opinion": "เห็นด้วยกับคำตอบ E ในเว็บ ความมั่นใจสูง — ไฟล์จดแค่หัวข้อไม่มีช้อยและไม่มีคีย์ เว็บแต่งทั้งช้อยและเฉลยตามสรุปลายมือ P'Ing ที่แปะไว้ · fistulotomy ใน high anterior fistula ของผู้หญิงขัดกับแนวทาง ASCRS ที่จัดเป็น complex fistula ต้องใช้วิธีเก็บหูรูด ส่วนช้อยอื่นเป็นการรักษาที่ถูกต้องตามชนิด",
+  "mnemonic": "<b>'\"Low = Lay open · High/ Anterior female = Hold the sphincter (Seton-LIFT-Flap)\"'</b>",
+  "guide": "Gaertner WB et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022); Sabiston Textbook of Surgery 21st ed. (2022) — Anus",
   "variants": [
-   "ชายรู intersphincteric ต่ำ → fistulotomy",
-   "หญิงหลังคลอดรู transsphincteric ด้านหน้า → advancement flap/ LIFT",
-   "Crohn มีรูซับซ้อนหลายทาง → draining seton + biologic"
+   "ชาย 30 ปีปวดก้นบวมแดงร้อนข้างทวาร มีไข้ คลำได้ก้อนนุ่ม → incision and drainage ฝีคัณฑสูตร (ไม่หาและตัด fistula ในครั้งแรกถ้าไม่ชัด)",
+   "รูนอกอยู่ด้านหลังซ้ายของทวาร → ตาม Goodsall rule รูเปิดภายในน่าจะอยู่ที่ posterior midline",
+   "ผู้ป่วย fistula กลับเป็นซ้ำหลายครั้ง ไม่รู้ทางชัด → MRI pelvis ก่อนผ่าตัด",
+   "ทำไม anterior fistula ในผู้หญิงจัดเป็น complex → หูรูดด้านหน้าสั้นและบาง มักมีรอยบาดเจ็บจากการคลอด ตัดเพียงเล็กน้อยก็กลั้นไม่อยู่ได้"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 17 — ตัวพิมพ์: <b>88. fistula in ano รักษาแบบใด incorrect</b> (ไม่มีช้อย)<br>ลายมือ: ไม่มี<br>ไฮไลต์: \"fistula in ano\" · \"รักษาแบบใด incorrect\" (ชมพู)<br>รูปที่แปะ: สรุปลายมือ fistula-in-ano แบบแผนผัง (ชนิด Parks, การตรวจ, การรักษา fistulotomy/ seton/ LIFT/ flap พร้อมภาพ) — ตัวเล็ก อ่านได้บางส่วน<br>ที่ปรับในเว็บ: ไฟล์จดแค่หัวข้อ → แต่งช้อยและเฉลยทั้งข้อ",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 17",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU70|RoC|ไม่มีเลข 1": {
-  "interp": "ผู้ป่วยนอนโรงพยาบาลด้วย <b>acute pyelonephritis</b> (ไข้ ปวดสีข้าง อาเจียน) → ถามการรักษาที่เหมาะสม",
-  "why": "APN ที่ต้องนอนโรงพยาบาล (ไข้สูง อาเจียนกินยาไม่ได้ sepsis หรือ complicated) → <b>ยาปฏิชีวนะทางหลอดเลือด</b> (เช่น ceftriaxone ตามเชื้อดื้อยาในพื้นที่) + <b>ให้สารน้ำ</b> + <b>ยาลดไข้/ แก้ปวด</b> + พัก · เพาะเชื้อปัสสาวะ ± เลือดก่อนให้ยา · ภาพ (US/ CT) เมื่อสงสัยอุดตัน/ ฝี หรือ<b>ไม่ดีขึ้นใน 72 ชม.</b> · มีการอุดตัน → ระบาย (DJ stent/ PCN) · รวมยา 7–14 วัน · Uncomplicated อาการไม่มาก → ยากินแบบผู้ป่วยนอก · ไฟล์ผู้จดตอบ <b>\"Ans.bed rest,IV ATB,Anti-pyretic drug,hydration (all of the above)\"</b> และ P'Ing แปะสไลด์ Acute pyelonephritis (APN)",
+  "interp": "ผู้ป่วยรับไว้ในโรงพยาบาลด้วย <b>acute pyelonephritis</b> (ไข้ ปวดสีข้าง อาเจียน) — ถามการรักษาที่เหมาะสม ต้องรู้ว่ารายที่ต้อง admit ใช้ยาปฏิชีวนะทางหลอดเลือดร่วมกับการประคับประคอง และเมื่อใดต้องทำภาพหาการอุดตันหรือฝี",
+  "why": "Acute pyelonephritis (APN) เป็นการติดเชื้อเนื้อไตและกรวยไต ส่วนใหญ่ขึ้นมาจากกระเพาะปัสสาวะ เชื้อหลักคือ <b>E. coli</b> (รวม ESBL ที่พบมากขึ้น) · ส่งเพาะเชื้อปัสสาวะ (และเลือดในรายรุนแรง) ก่อนให้ยาทุกราย · <b>Uncomplicated</b> ที่กินได้และไม่รุนแรง → ผู้ป่วยนอกด้วยยากิน เช่น ciprofloxacin 7 วัน หรือ levofloxacin 5 วัน (ถ้าเชื้อดื้อในพื้นที่ต่ำ) · <b>ต้อง admit</b> เมื่ออาเจียนกินไม่ได้ sepsis ตั้งครรภ์ มีการอุดตัน/ นิ่ว เบาหวาน ภูมิคุ้มกันต่ำ หรือดูแลตัวเองไม่ได้ → <b>ยาปฏิชีวนะทางหลอดเลือด</b> (ceftriaxone, fluoroquinolone, aminoglycoside หรือ carbapenem ถ้าเสี่ยง ESBL) ร่วมกับ<b>สารน้ำ ยาลดไข้ แก้ปวด พัก</b> แล้วเปลี่ยนเป็นยากินเมื่อไข้ลง รวม 7–14 วัน (10–14 วันถ้าเชื้อในเลือดบวก) · <b>ไม่ดีขึ้นใน 48–72 ชม.</b> → ทำ US/ CT หา obstruction, renal/ perinephric abscess, emphysematous pyelonephritis · <b>ไตอุดตันร่วมติดเชื้อ</b>ต้องระบายด่วนด้วย PCN หรือ DJ stent · ไฟล์ตัวพิมพ์ <b>\"Ans. bed rest, IV ATB, Anti-pyretic drug, hydration (all of the above)\"</b> และ P'Ing แปะสไลด์ APN: uncomplicated OPD oral ATB · complicated admit IV ATB · unfavorable response (not improve in 72 hrs) → imaging",
   "wrong": {
-   "B": "Nitrofurantoin ระดับยาในเนื้อไตต่ำ ใช้ได้เฉพาะ cystitis ไม่ใช้รักษา pyelonephritis · จะถูกถ้าหญิงเป็น uncomplicated cystitis ไม่มีไข้ (nitrofurantoin 5 วัน)",
-   "C": "ไม่ตัดไตในกรวยไตอักเสบทั่วไป · จะถูกถ้าเป็น emphysematous pyelonephritis รุนแรง (ไตทั้งไตมีแก๊ส) ที่ระบายแล้วยังทรุดลง",
-   "D": "จำกัดน้ำและให้ยาขับปัสสาวะทำให้ขาดน้ำ ช็อกแย่ลง · จะถูกถ้าผู้ป่วยหัวใจวายน้ำเกิน ปอดบวมน้ำ",
-   "E": "ไม่ให้ยาปฏิชีวนะเสี่ยง urosepsis/ ฝีในไต · จะถูกถ้าเป็น asymptomatic bacteriuria ในผู้สูงอายุที่ไม่ตั้งครรภ์และไม่ได้จะทำหัตถการทางเดินปัสสาวะ"
+   "B": "Nitrofurantoin มีระดับยาในปัสสาวะสูงแต่<b>ไม่ถึงระดับรักษาในเนื้อไตและเลือด</b> จึงห้ามใช้ใน pyelonephritis และการให้ยาสั้น 3–5 วันเป็นการรักษา cystitis — การใช้ยากินระยะสั้นจะถูกถ้าเป็นหญิง 25 ปีไม่ตั้งครรภ์ ปัสสาวะแสบขัดบ่อย ไม่มีไข้ไม่ปวดสีข้าง (uncomplicated cystitis) ให้ nitrofurantoin 5 วันหรือ fosfomycin ครั้งเดียว",
+   "C": "Nephrectomy เป็นการควบคุมแหล่งติดเชื้อเฉพาะไตที่ถูกทำลายจนไม่ทำงาน หรือ emphysematous pyelonephritis รุนแรงที่ระบายและยาไม่ได้ผล ไม่ใช่การรักษา APN ทั่วไปซึ่งหายด้วยยา — จะถูกถ้าเป็นหญิงเบาหวาน 60 ปี sepsis ช็อก CT เห็นแก๊สกระจายทั่วเนื้อไตซ้ายและรอบไต อาการแย่ลงแม้ใส่ PCN และให้ยาครอบคลุมแล้ว",
+   "D": "การจำกัดน้ำและให้ยาขับปัสสาวะทำให้ขาดน้ำมากขึ้นในผู้ป่วยที่มีไข้และอาเจียน เสี่ยงไตวายเฉียบพลันและ sepsis แย่ลง ผู้ป่วย APN ต้องได้สารน้ำเพียงพอ — จะถูกถ้าเป็นชาย 70 ปีหัวใจล้มเหลวกำเริบ หอบนอนราบไม่ได้ crepitation ทั้งสองปอด ขาบวม CXR มีน้ำท่วมปอด",
+   "E": "APN ที่มีไข้และปวดสีข้างต้องรักษาด้วยยาปฏิชีวนะเสมอ การไม่ให้ยาเสี่ยง sepsis ฝีในไต และไตเป็นแผลเป็น — การไม่ให้ยาปฏิชีวนะจะถูกถ้าเป็นหญิง 80 ปีอยู่บ้านพักคนชรา ไม่มีอาการ ผลเพาะเชื้อปัสสาวะขึ้น E. coli (asymptomatic bacteriuria) และไม่ได้ตั้งครรภ์หรือรอผ่าตัดทางเดินปัสสาวะ"
   },
-  "trap": "ใช้ยาของ cystitis กับ pyelonephritis — nitrofurantoin/ fosfomycin ไม่เข้าเนื้อไต",
+  "trap": "Nitrofurantoin เป็นยาที่คุ้นในการรักษา UTI ทำให้เลือกโดยไม่แยก cystitis กับ pyelonephritis · หลักคือ<b>ไข้ + ปวดสีข้าง = ติดเชื้อในเนื้อไต</b> ต้องใช้ยาที่ถึงระดับในเนื้อไตและเลือด และรายที่อาเจียนต้อง admit ให้ยา IV + สารน้ำ · ไม่ดีขึ้นใน 72 ชม. ให้หาการอุดตันหรือฝี",
   "summary": [
-   "APN: ไข้ หนาวสั่น ปวดสีข้าง CVA tenderness ± อาเจียน",
-   "Uncomplicated: OPD ยากิน (ciprofloxacin 7 วัน/ levofloxacin 5 วัน ตามเชื้อดื้อยา)",
-   "Complicated/ sepsis/ กินไม่ได้: admit IV ATB + สารน้ำ",
-   "อุดตัน → ระบายด่วน (DJ stent/ PCN)",
-   "ไม่ดีขึ้น 72 ชม. → ภาพ (CT) + เพาะเชื้อซ้ำ",
-   "Hemoculture บวก → รวมยา 10–14 วัน"
+   "APN: ไข้ หนาวสั่น ปวดสีข้าง เคาะ CVA เจ็บ คลื่นไส้อาเจียน ± อาการ cystitis · UA มี pyuria, WBC cast · เพาะเชื้อปัสสาวะทุกราย",
+   "Uncomplicated ไม่รุนแรง: ยากินแบบผู้ป่วยนอก (ciprofloxacin 7 วัน, levofloxacin 5 วัน หรือ cephalosporin รุ่นที่ 3 กิน 10 วัน) ถ้าเชื้อดื้อ fluoroquinolone ในพื้นที่สูงให้ ceftriaxone เข็มแรกก่อน",
+   "Admit: อาเจียนกินไม่ได้, sepsis, ตั้งครรภ์, เบาหวานควบคุมไม่ได้, อุดตัน/ นิ่ว, ภูมิคุ้มกันต่ำ, ผู้สูงอายุ · ยา IV + สารน้ำ + ยาลดไข้ แล้วเปลี่ยนเป็นยากินเมื่อดีขึ้น",
+   "ภาพ (US/ CT) ทันทีถ้า sepsis, สงสัยนิ่ว/ อุดตัน, ไตข้างเดียว · หรือเมื่อไข้ไม่ลงใน 48–72 ชม. หา obstruction, abscess, emphysematous pyelonephritis",
+   "Obstructive pyelonephritis = urological emergency → ระบายด่วนด้วย PCN หรือ ureteral (DJ) stent แล้วจึงรักษานิ่วภายหลังเมื่อหายติดเชื้อ",
+   "Emphysematous pyelonephritis: เบาหวานเกือบทุกราย เชื้อ E. coli/ Klebsiella สร้างแก๊สในเนื้อไต → ยา IV + PCN · ไม่ดีขึ้น → nephrectomy",
+   "Renal abscess &lt; 3 cm มักหายด้วยยา · &gt; 3–5 cm → percutaneous drainage"
   ],
-  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียน (bed rest, IV ATB, antipyretic, hydration) และสไลด์ในไฟล์ · ต้นฉบับเป็น \"all of the above\" ไม่มีรายละเอียดช้อย จึงแต่งช้อยใหม่",
-  "mnemonic": "<b>'APN นอนโรงพยาบาล = ยาเข้าเส้น + น้ำ + ลดไข้ (ไม่ดีขึ้น 72 ชม. → ภาพ)'</b>",
-  "guide": "EAU Guidelines on Urological Infections 2024; IDSA/ ESCMID Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women (Clin Infect Dis 2011;52:e103)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์ที่ตัวพิมพ์เขียน \"Ans. bed rest, IV ATB, Anti-pyretic drug, hydration (all of the above)\" และสไลด์ APN ที่ P'Ing แปะ (complicated → admit IV ATB) · ต้นฉบับเป็นข้อ all of the above เว็บรวมการรักษาเหล่านี้เป็นช้อย A และแต่งช้อยที่ผิดเป็นตัวลวง",
+  "mnemonic": "<b>'APN admit = \"IV ATB + IV Fluid + Antipyretic\" · 72 ชม. ไม่ดีขึ้น → Image'</b>",
+  "guide": "EAU Guidelines on Urological Infections 2025; Gupta K et al. IDSA/ESCMID International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women (Clin Infect Dis 2011)",
   "variants": [
-   "หญิงไข้ ปวดสีข้าง กินได้ ไม่มี sepsis → ยากิน OPD",
-   "APN + นิ่วอุดตัน + ความดันต่ำ → ระบายด่วน (DJ stent/ PCN) + IV ATB",
-   "ผู้ป่วยเบาหวาน APN CT เห็นแก๊สในเนื้อไต → emphysematous pyelonephritis"
+   "หญิงตั้งครรภ์ 28 สัปดาห์ ไข้ ปวดสีข้างขวา → admit ให้ ceftriaxone IV (หลีกเลี่ยง fluoroquinolone) และติดตามทารกในครรภ์",
+   "ชาย 50 ปี APN ไข้สูงช็อก US พบ hydronephrosis ซ้ายจากนิ่วท่อไต → PCN หรือ DJ stent ด่วนร่วมกับยา IV",
+   "หญิง 30 ปี APN ได้ ceftriaxone 3 วันยังไข้สูง → CT หา renal/ perinephric abscess หรือการอุดตัน",
+   "ทำไม nitrofurantoin ใช้รักษา cystitis ได้แต่ไม่ใช้ใน pyelonephritis → ยาถูกขับเข้าปัสสาวะเร็ว ระดับในเลือดและเนื้อไตต่ำเกินรักษา"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 17 — ตัวพิมพ์: <b>XX.Pyelonephritis treatment Ans.bed rest,IV ATB,Anti-pyretic drug,hydration (all of the above)</b><br>ลายมือ: ไม่มี<br>ไฮไลต์: วง \"Ans\" · \"Pyelonephritis treatment\"<br>รูปที่แปะ: สไลด์ Acute pyelonephritis (APN) — Management: Uncomplicated – OPD case oral antibiotic (Ciprofloxacin 7 days/levofloxacin 5 days) · Complicated – admit IV antibiotic (Obstruction → procedure (urinary diversion), Positive hemoculture → total antibiotic course 10-14 days) · Unfavorable response (not improve in 72 hrs.) → imaging + repeat septic work up<br>ที่ปรับในเว็บ: ต้นฉบับเป็น all of the above → แต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 17",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU70|RoC|ไม่มีเลข 2": {
-  "interp": "ถามการรักษา <b>communicating hydrocele</b> ในเด็กที่ไม่หายเอง",
-  "why": "<b>Communicating hydrocele</b> เกิดจาก<b>processus vaginalis ยังเปิด</b> ทำให้น้ำในช่องท้องไหลลงถุงอัณฑะ (ขนาดเปลี่ยนตามเวลา — เช้าเล็ก เย็นใหญ่) → พยาธิสภาพเดียวกับไส้เลื่อน จึง <b>\"treat as hernia\"</b>: ผ่าตัด<b>ทางขาหนีบ</b> ผูก processus vaginalis ที่ internal ring (herniotomy/ high ligation) ± เปิดระบายถุงส่วนปลาย · ทารกส่วนใหญ่หายเองภายใน 1–2 ปี จึงสังเกตก่อน ผ่าตัดเมื่อยังอยู่หลัง ~1–2 ปี โตขึ้น หรือแยกไส้เลื่อนไม่ได้ · ไฟล์ P'Ing วง 5 ลายมือ <b>\"treat as hernia\"</b> และแปะสไลด์ <b>\"Communicating hydroceles · Treat as hernia → Hydrocelectomy/ Herniotomy\"</b>",
+  "interp": "เด็กมี <b>communicating hydrocele</b> ที่ไม่หายเอง — ถามการรักษา ต้องรู้ว่ากลไกคือ <b>processus vaginalis ยังเปิด</b> ต่อกับช่องท้องเหมือน indirect inguinal hernia จึงรักษาแบบไส้เลื่อนทางขาหนีบ ไม่ใช่ผ่าที่ถุงอัณฑะแบบผู้ใหญ่",
+  "why": "ช่วงตั้งครรภ์ อัณฑะเคลื่อนลงถุงอัณฑะพร้อมเยื่อบุช่องท้องที่ยื่นตามลงมา (<b>processus vaginalis</b>) ซึ่งปกติปิดก่อนหรือหลังคลอดไม่นาน · ถ้า<b>ปิดไม่หมดแต่รูเล็ก</b> น้ำในช่องท้องไหลลงไปได้ = <b>communicating hydrocele</b> ก้อนถุงอัณฑะขนาด<b>เปลี่ยนไปตามวัน</b> (เล็กตอนเช้า ใหญ่ตอนเย็นหรือหลังร้องไห้) ส่องไฟโปร่งแสง ถ้ารูกว้างพอให้ลำไส้ลงได้คือ indirect inguinal hernia · <b>Noncommunicating hydrocele</b> ในทารกมักยุบเองภายใน 1–2 ปีจึงติดตามได้ · communicating hydrocele ที่<b>คงอยู่เกินราว 1–2 ปี</b> หรือใหญ่มาก มีโอกาสหายเองน้อยและเสี่ยงเป็นไส้เลื่อน → <b>ผ่าตัดทางขาหนีบ (inguinal incision)</b> หา patent processus vaginalis แยกจาก cord แล้ว<b>ผูกที่ internal ring (high ligation/ herniotomy)</b> และเปิดระบายถุงน้ำส่วนปลาย · ไม่ทำ aspiration/ sclerotherapy ในเด็กเพราะรูยังต่อกับช่องท้อง (สารระคายเคืองเข้าช่องท้อง น้ำกลับมาเร็ว และเสี่ยงติดเชื้อ) · ไฟล์วง 5 ลายมือ P'Ing <b>\"treat as hernia\"</b> และขีดเส้นใต้ <b>\"inguinal incision\"</b> พร้อมสไลด์ Hydrocele — Communicating hydroceles: Treat as hernia → Hydrocelectomy/ Herniotomy (ลายมือ \"ผูก patent processus vaginalis\")",
   "wrong": {
-   "A": "เจาะดูดน้ำออกกลับเป็นซ้ำเพราะท่อยังเปิด และเสี่ยงติดเชื้อ/ เจาะโดนลำไส้ · จะถูกถ้าผู้ใหญ่สูงอายุ non-communicating hydrocele ที่ผ่าตัดไม่ได้ (ร่วมกับ sclerotherapy)",
-   "B": "Sclerotherapy ห้ามในชนิด communicating (สารไหลเข้าช่องท้อง) · จะถูกถ้าผู้ใหญ่ hydrocele ชนิดไม่ติดต่อช่องท้องที่ไม่ต้องการผ่าตัด",
-   "C": "รอถึง 10 ปีนานเกินไป เสี่ยงกลายเป็นไส้เลื่อน · จะถูกถ้าทารกแรกเกิด hydrocele ไม่มีอาการ (สังเกตถึง 1–2 ปี)",
-   "D": "ผ่าทางถุงอัณฑะ (Jaboulay/ Lord) เป็นการรักษา hydrocele ผู้ใหญ่ชนิด non-communicating ไม่ได้ผูก processus vaginalis · จะถูกถ้าชายวัยกลางคนถุงอัณฑะบวมโตส่องไฟทะลุ ขนาดไม่เปลี่ยน"
+   "A": "เจาะดูดน้ำออกจากถุงอัณฑะไม่ได้ปิดทางเชื่อมกับช่องท้อง น้ำจึงกลับมาเร็ว และเสี่ยงติดเชื้อ เลือดออก หรือแทงโดนลำไส้ถ้ามีไส้เลื่อนร่วม — จะถูกถ้าเป็นชาย 80 ปีหัวใจล้มเหลวรุนแรงดมยาไม่ได้ มี noncommunicating hydrocele ขนาดใหญ่ทำให้เดินลำบาก ซึ่งเจาะดูดบรรเทาอาการชั่วคราว",
+   "B": "Sclerotherapy ฉีดสาร (เช่น tetracycline, ethanol) ให้ถุงน้ำติดกัน ใช้ได้เฉพาะ noncommunicating hydrocele ของผู้ใหญ่ที่ไม่ต้องการผ่าตัด ห้ามในเด็กเพราะสารไหลเข้าช่องท้องทาง processus vaginalis — จะถูกถ้าเป็นชาย 70 ปี noncommunicating hydrocele ข้างขวา ไม่อยากผ่าตัด รับได้ว่าอาจต้องฉีดซ้ำ",
+   "C": "การรอดูถึงอายุ 10 ปีนานเกินไป hydrocele ในทารกที่จะหายเองมักหายภายใน 1–2 ปี ที่เหลือโดยเฉพาะชนิด communicating มีโอกาสกลายเป็นไส้เลื่อนและ incarcerate — จะถูกถ้าเป็นทารกชาย 3 เดือนมี noncommunicating hydrocele สองข้างขนาดคงที่ ส่องไฟโปร่งแสง ไม่มีก้อนที่ขาหนีบ (ติดตามจนถึงราว 1–2 ปี)",
+   "D": "Hydrocelectomy ผ่านถุงอัณฑะ (Jaboulay/ Lord) เป็นการรักษา noncommunicating hydrocele ของผู้ใหญ่ ซึ่งไม่มีทางเชื่อมช่องท้องแล้ว แต่ในเด็กแผลที่ถุงอัณฑะไม่ได้ปิด patent processus vaginalis จึงกลับเป็นซ้ำ (ลายมือในไฟล์ขีดเส้นใต้ inguinal incision ที่ช้อยถัดไป) — จะถูกถ้าเป็นชาย 50 ปีถุงอัณฑะขวาโตช้า ๆ 2 ปี ขนาดคงที่ ส่องไฟโปร่งแสง US อัณฑะปกติ ไม่มีไส้เลื่อน"
   },
-  "trap": "รักษาแบบ hydrocele ผู้ใหญ่ (ผ่าทางถุงอัณฑะ) — เด็ก communicating ต้องผูก processus vaginalis ทางขาหนีบ",
+  "trap": "คำว่า hydrocele ชวนให้เลือก hydrocelectomy ผ่านถุงอัณฑะแบบผู้ใหญ่ · หลักคือ<b>communicating = มีทางเชื่อมช่องท้อง = ไส้เลื่อนขนาดเล็ก</b> ต้องผูก processus vaginalis ทางขาหนีบ (ลายมือในไฟล์ \"treat as hernia\") · ผู้ใหญ่ noncommunicating จึงจะผ่าทางถุงอัณฑะ",
   "summary": [
-   "Communicating: processus vaginalis เปิด · ขนาดเปลี่ยนตามวัน",
-   "Non-communicating: ขนาดคงที่ มักหายเองในทารก",
-   "ทารก: สังเกตถึง 1–2 ปี",
-   "ยังอยู่/ communicating ชัด → inguinal herniotomy (high ligation)",
-   "ผู้ใหญ่: scrotal hydrocelectomy (Jaboulay, Lord)",
-   "Hydrocele of the cord: US แยกจาก incarcerated hernia"
+   "Hydrocele: น้ำสะสมใน tunica vaginalis · communicating (processus vaginalis เปิด ขนาดเปลี่ยนตามวัน) vs noncommunicating (ขนาดคงที่) · hydrocele of the cord = ถุงน้ำค้างบนสายอสุจิ",
+   "ตรวจ: ส่องไฟโปร่งแสง คลำขอบบนของก้อนได้ (ต่างจากไส้เลื่อน) · ก้อนที่ส่องไม่โปร่งหรือคลำอัณฑะไม่ได้ → US แยกไส้เลื่อนติดค้างและเนื้องอกอัณฑะ",
+   "ทารก noncommunicating: ส่วนใหญ่ยุบเองภายใน 1–2 ปี → ติดตาม · คงอยู่เกินราว 1–2 ปี, ขนาดเปลี่ยน (communicating) หรือมีไส้เลื่อนร่วม → ผ่าตัด",
+   "ผ่าตัดเด็ก: inguinal incision → high ligation ของ patent processus vaginalis ที่ internal ring (herniotomy) + เปิดระบายถุงส่วนปลาย · ทำ laparoscopic ได้",
+   "ผู้ใหญ่: noncommunicating จาก epididymitis, บาดเจ็บ, เนื้องอกอัณฑะ, filariasis · ต้อง US อัณฑะเสมอ · ผ่าตัดทางถุงอัณฑะ (Jaboulay eversion, Lord plication) เมื่อมีอาการ",
+   "Hydrocele ที่เกิดใหม่ในชายหนุ่มอาจเป็นอาการแรกของ testicular tumor → US และ tumor marker",
+   "Hydrocele ข้างเดียวกับ varicocele หลังผ่าตัด varicocelectomy เกิดจากท่อน้ำเหลืองถูกผูก (พบมากในการผูกแบบไม่เก็บท่อน้ำเหลือง)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับวง 5 และลายมือ/ สไลด์ในไฟล์ · ต้นฉบับจำได้เฉพาะช้อย 4, 5 จึงแต่ง A–C เพิ่ม",
-  "mnemonic": "<b>'Hydrocele เด็กที่ติดต่อช่องท้อง = ไส้เลื่อนน้ำ → ผ่าทางขาหนีบผูกท่อ'</b>",
-  "guide": "EAU Guidelines on Paediatric Urology 2024 — Hydrocele; Coran's Pediatric Surgery 8th ed. (2019)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วงช้อย 5 (hydrocelectomy through inguinal incision) เขียน \"treat as hernia\" และสไลด์ที่ให้ผูก patent processus vaginalis · ต้นฉบับจำได้เฉพาะช้อย 4 และ 5 เว็บแต่ง A–C และเขียน E เป็น inguinal ligation of the processus vaginalis ให้ชัดว่าทำอะไร",
+  "mnemonic": "<b>'\"Kid + Communicating = Hernia → ผูกที่ขาหนีบ\" · Adult = ผ่าถุงอัณฑะ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Inguinal hernias and hydroceles; Campbell-Walsh-Wein Urology 12th ed. (2020) — Surgery of the scrotum",
   "variants": [
-   "ทารก 3 เดือนถุงอัณฑะบวมใสขนาดคงที่ → สังเกต (มักหายเอง)",
-   "เด็ก 3 ปีถุงอัณฑะบวมเย็นมากกว่าเช้า → communicating hydrocele → inguinal herniotomy",
-   "ชาย 50 ปีถุงอัณฑะบวมโตส่องไฟทะลุ → scrotal hydrocelectomy"
+   "เด็กชาย 3 ปีถุงอัณฑะขวาโตตอนเย็น ยุบตอนเช้า ส่องไฟโปร่งแสง → communicating hydrocele ผ่าตัด high ligation ทางขาหนีบ",
+   "เด็กชาย 5 ปีมีก้อนกลมนุ่มโปร่งแสงเหนืออัณฑะบนสายอสุจิ แยกจากอัณฑะได้ → hydrocele of the cord ผ่าตัดทางขาหนีบ",
+   "ชาย 28 ปีถุงอัณฑะโตขึ้นใน 1 เดือน ส่องไฟโปร่งแสงแต่คลำอัณฑะไม่ได้ → US อัณฑะหาเนื้องอกก่อนผ่าตัด hydrocele",
+   "ทำไม hydrocele ในทารกส่วนใหญ่หายเอง → processus vaginalis ยังปิดต่อหลังคลอด น้ำที่ค้างค่อย ๆ ถูกดูดซึมไป"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 17 — ตัวพิมพ์: <b>XX.Management of communication hydrocele — 4. Hydrocelectomy through scrotal incision 5. Hydrocelectomy through inguinal incision</b><br>ลายมือ: \"treat as hernia\" เหนือ communication hydrocele<br>ไฮไลต์: วง 5 · \"Management\" \"communication hydrocele\" · ขีดเส้นใต้ \"inguinal incision\"<br>รูปที่แปะ: สไลด์ Hydrocele — Communicating hydroceles: Treat as hernia → Hydrocelectomy/ Herniotomy (ลายมือ \"ผูก patent processus vaginalis\") · Hydrocele of the cord: Obliteration of the proximal and distal processus, with retention of a fluid-filled sac along the spermatic cord · Ultrasound help differentiate from incarcerated inguinal hernia<br>ที่ปรับในเว็บ: จำได้เฉพาะช้อย 4, 5 → แต่ง A–C และเขียน E เป็น inguinal ligation of the processus vaginalis",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 17",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU70|RoC|ไม่มีเลข 3": {
-  "interp": "เจาะน้ำในช่องเยื่อหุ้มปอดได้<b>หนองข้นสีเขียว</b> → ถามการรักษาที่เลือก",
-  "why": "เจาะได้หนอง = <b>empyema thoracis</b> → การรักษาหลักคือ<b>ระบายหนองด้วย intercostal chest drain (ICD)</b> ร่วมกับยาปฏิชีวนะทางหลอดเลือด · ระบายไม่ดี/ มีหลายช่อง → intrapleural tPA + DNase หรือ VATS · ระยะ organizing ปอดถูกรัด → decortication · ข้อนี้ซ้ำกับข้อ 55 ของ 70C · ไฟล์ P'Ing วง A ลายมือ <b>\"empyema thoracis\"</b>",
+  "interp": "เจาะ effusion ได้<b>หนองข้นสีเขียว</b> = <b>empyema thoracis</b> — ถามวิธีจัดการที่เป็นมาตรฐาน (management of choice) ต้องรู้ว่าหนองในช่องเยื่อหุ้มปอดระยะแรกที่ยังไหลได้ ระบายด้วย <b>intercostal chest drain</b> ได้ก่อนพิจารณาผ่าตัด",
+  "why": "Empyema คือ<b>หนองในช่องเยื่อหุ้มปอด</b> ส่วนใหญ่ตามหลังปอดอักเสบ (รองลงมาคือหลังผ่าตัดทรวงอก บาดเจ็บ หลอดอาหารทะลุ ฝีใต้กระบังลม) · หลักการเหมือนฝีทั่วไปคือ<b>ต้องระบาย</b> · ในระยะ exudative ถึง fibrinopurulent ที่หนองยังไหลได้ ระบายด้วย <b>ICD</b> ต่อขวดใต้น้ำ (underwater seal) ใส่ใน safe triangle ร่วมกับยาปฏิชีวนะ — ได้ผลในผู้ป่วยส่วนใหญ่ · เกณฑ์ว่าระบายได้ผล: ไข้ลง หนองลดลง ปอดขยายเต็มใน CXR CRP ลดลง แล้วจึงถอดสายเมื่อน้ำน้อยกว่าราว 50–100 mL/วันและใส · ระบายไม่ได้ผลเพราะมีช่องกั้น → <b>intrapleural fibrinolytic</b> (tPA + DNase) · เข้าระยะ organizing มีเปลือก fibrous หนารัดปอด (<b>trapped lung</b>) → <b>VATS หรือ open decortication</b> · ผู้ป่วยไม่พร้อมผ่าตัดใหญ่ → <b>open window thoracostomy (Eloesser flap)</b> หรือ rib resection drainage · ไฟล์วง A (ICD) ลายมือ P'Ing <b>\"empyema thoracis\"</b> เหนือ thick green",
   "wrong": {
-   "B": "Percutaneous drainage with stent ไม่ใช่วิธีมาตรฐานของ empyema (stent ใช้กับท่อ เช่น ท่อน้ำดี/ ท่อไต) · จะถูกถ้าเป็นฝีในตับหรือท่อไตอุดตันที่ต้องใส่สายระบายผ่านผิวหนัง",
-   "C": "Decortication ใช้ระยะ organizing ที่ระบายแล้วไม่ได้ผล · จะถูกถ้าใส่ ICD แล้ว 2 สัปดาห์ยังไข้ ปอดไม่ขยาย CT เห็นเปลือกหนา",
-   "D": "ยากินอย่างเดียวไม่ระบายหนอง · จะถูกถ้าเป็นปอดอักเสบไม่รุนแรงที่มีน้ำในเยื่อหุ้มปอดเล็กน้อย (simple parapneumonic)",
-   "E": "เจาะซ้ำระบายหนองข้นไม่หมด · จะถูกถ้าเป็น simple parapneumonic effusion ปริมาณปานกลางที่เจาะแล้วดีขึ้น"
+   "B": "Percutaneous drainage ด้วยสายเล็กภายใต้ภาพใช้ได้ในบางราย โดยเฉพาะหนองเป็นช่องที่เข้าถึงยาก แต่ \"stent\" ไม่ใช่อุปกรณ์ในช่องเยื่อหุ้มปอด และหนองข้นอาจอุดสายเล็ก — จะถูกถ้าเป็นชาย 65 ปีมีฝีใต้กระบังลมขวาหลังผ่าตัดถุงน้ำดี ไม่ได้อยู่ในช่องเยื่อหุ้มปอด จึงใส่ CT-guided pigtail drain ระบายฝีใต้กระบังลม",
+   "C": "Decortication ลอกเปลือกพังผืดที่หุ้มปอดใช้ในระยะ organizing หรือเมื่อ ICD และ fibrinolytic ไม่ได้ผล ไม่ใช่ขั้นแรกเมื่อเพิ่งเจาะพบหนอง — จะถูกถ้าเป็นหญิง 50 ปี empyema 4 สัปดาห์ ใส่ ICD แล้วยังมีไข้ CT เห็นเยื่อหุ้มปอดหนาตัวรัดปอดแฟบและหนองเป็นช่อง",
+   "D": "ยาปฏิชีวนะกินอย่างเดียวไม่พอสำหรับหนองในช่องปิดที่ยาเข้าได้น้อย การไม่ระบายทำให้ติดเชื้อลุกลาม เป็น sepsis และกลายเป็นเปลือกรัดปอด — จะถูกถ้าเป็นชาย 35 ปีปอดอักเสบจากชุมชนไม่รุนแรง ไม่มี effusion หรือมีน้อยมาก กินยาได้ รักษาแบบผู้ป่วยนอก",
+   "E": "เจาะดูดซ้ำหลายครั้งระบายหนองข้นไม่หมด ต้องเจ็บซ้ำ เสี่ยง pneumothorax และหนองสะสมใหม่จนเป็นช่องกั้น จึงไม่ใช่ทางเลือกหลักของ empyema ในผู้ใหญ่ — จะถูกถ้าเป็นหญิง 70 ปีมี transudate จากหัวใจล้มเหลวกลับมาสะสมจนหอบ ทั้งที่ปรับยาขับปัสสาวะแล้ว จึงเจาะระบายบรรเทาอาการ"
   },
-  "trap": "ข้ามไปลอกเปลือกเลย — เริ่มจากระบายด้วย ICD ก่อน",
+  "trap": "ช้อย percutaneous drainage และ decortication ฟังดูทันสมัยหรือครบถ้วนกว่า · หลักคือดู<b>ระยะ</b>ของ empyema: หนองที่เพิ่งเจาะพบและยังไหลได้ → <b>ICD เป็นมาตรฐาน</b> · มีช่องกั้น → fibrinolytic · เปลือกหนารัดปอด → decortication · ยาอย่างเดียวหรือเจาะซ้ำไม่พอสำหรับหนอง",
   "summary": [
-   "Empyema: หนอง/ gram stain หรือ culture บวก",
-   "ICD + IV ATB",
-   "Loculated → tPA + DNase/ VATS",
-   "Organizing → decortication",
-   "Stent: ใช้กับท่อ (น้ำดี ท่อไต) ไม่ใช่ช่องเยื่อหุ้มปอด",
-   "Light criteria แยก exudate/ transudate"
+   "สาเหตุ empyema: ปอดอักเสบ (มากสุด), หลังผ่าตัดทรวงอก, บาดเจ็บทรวงอก/ hemothorax ติดเชื้อ, หลอดอาหารทะลุ, ฝีใต้กระบังลม, ฝีในปอดแตก",
+   "ระยะ: I exudative (น้ำใสไหลอิสระ) → II fibrinopurulent (หนอง fibrin เป็นช่อง) → III organizing (fibroblast สร้างเปลือกหนา ปอดถูกรัด)",
+   "ICD: ใส่ใน safe triangle ระดับ ICS 4–5 แนว mid-axillary เหนือขอบบนของซี่โครง (เลี่ยงหลอดเลือดเส้นประสาทใต้ซี่โครง) ต่อขวดใต้น้ำ ดู swinging และ bubbling",
+   "ระบายได้ผล: ไข้ลง หนองลด ปอดขยาย CRP ลด · ถอดสายเมื่อน้ำน้อยและใส ปอดขยายเต็ม",
+   "ระบายไม่ดี: ตรวจตำแหน่งสาย ล้างสาย CT ดูช่องกั้น → tPA + DNase · ล้มเหลว → VATS debridement (ได้ผลดีถ้าทำเร็วในระยะ II)",
+   "ระยะ III/ trapped lung → decortication (VATS หรือ thoracotomy) · ผู้ป่วยเปราะบาง → Eloesser flap หรือ rib resection with open drainage",
+   "Hemothorax ที่ระบายไม่หมดเสี่ยง empyema และ fibrothorax → VATS เอาก้อนเลือดออกภายในราว 3–7 วัน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง A และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'หนองในปอด = ท่อ (ICD) ก่อน · เปลือก = ลอก (decortication) ทีหลัง'</b>",
-  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); AATS Expert Consensus Guidelines for the Management of Empyema (J Thorac Cardiovasc Surg 2017;153:e129)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A (ICD) และเขียน \"empyema thoracis\" · หนองที่เพิ่งเจาะพบระบายด้วย ICD ร่วมยาปฏิชีวนะเป็นมาตรฐาน ส่วน decortication เป็นขั้นตอนเมื่อระบายล้มเหลว · ต้นฉบับมี 3 ช้อย เว็บเติมยากินอย่างเดียวและเจาะซ้ำ",
+  "mnemonic": "<b>'Empyema stage \"I-II-III = Tube-Lytic-Peel\" (ICD → tPA/DNase → Decortication)'</b>",
+  "guide": "Roberts ME et al. British Thoracic Society Guideline for pleural disease (Thorax 2023); Shen KR et al. AATS expert consensus guidelines for the management of empyema (J Thorac Cardiovasc Surg 2017)",
   "variants": [
-   "เจาะได้น้ำขุ่น pH 7.0 → complicated parapneumonic → ICD",
-   "empyema มีหลายช่อง ระบายไม่ออก → tPA + DNase/ VATS",
-   "empyema เรื้อรัง ปอดไม่ขยาย → decortication"
+   "ชาย 45 ปีหลังถูกแทงทรวงอก 1 สัปดาห์ ใส่ ICD แล้วยังมีก้อนเลือดค้าง มีไข้ → VATS เอาก้อนเลือดและหนองออกก่อนกลายเป็น fibrothorax",
+   "ชาย 50 ปีอาเจียนรุนแรงแล้วเจ็บหน้าอก effusion ข้างซ้ายเจาะได้น้ำมีเศษอาหาร amylase สูง → Boerhaave syndrome ต้องผ่าตัดซ่อมหลอดอาหารและระบาย",
+   "หญิง 80 ปีโรคร่วมมาก empyema เรื้อรังที่ระบายด้วยสายไม่หมด ดมยานานไม่ได้ → open window thoracostomy (Eloesser flap)",
+   "ทำไม ICD ต้องใส่เหนือขอบบนของซี่โครง → หลอดเลือดและเส้นประสาท intercostal วิ่งในร่องใต้ขอบล่างของซี่โครง"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 17 — ตัวพิมพ์: <b>XX. Pleural effusion, tapped found thick green. What will be the management of choice? — A. ICD B. Percutaneous drainage with stent C. Decorticate</b><br>ลายมือ: \"empyema thoracis\" เหนือ thick green<br>ไฮไลต์: วง A · \"Pleural effusion,\" · \"found thick green\" (เหลือง)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 17",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU70|RoC|ไม่มีเลข 4": {
-  "interp": "ถามระบบจำแนกที่ใช้แบ่งระยะ <b>complicated acute diverticulitis</b> ตามการทะลุและเยื่อบุช่องท้องอักเสบ",
-  "why": "<b>Hinchey classification</b> แบ่ง perforated diverticulitis: <b>I</b> pericolic/ mesenteric abscess · <b>II</b> pelvic/ distant abscess · <b>III</b> purulent peritonitis · <b>IV</b> fecal peritonitis (modified Hinchey เพิ่ม 0 = mild clinical, Ia = phlegmon) · ใช้วางแผน: I–II ฝีเล็ก &lt; 3 cm → ATB, ฝีใหญ่ → percutaneous drainage · III → laparoscopic lavage/ resection · IV → Hartmann/ resection + anastomosis ± diverting stoma · ระบบอื่นที่ใช้: Hansen &amp; Stock, WSES (ตาม CT) · ไฟล์ผู้จดเขียน <b>\"Her....\"</b> (จำชื่อไม่ได้ น่าจะเป็น Hinchey) และ P'Ing แปะตาราง <b>\"Hansen &amp; Stock Classification of Colonic Diverticular Disease\"</b>",
+  "interp": "ถามระบบที่ใช้<b>แบ่งระยะ complicated acute diverticulitis</b> ตามความรุนแรงของการทะลุและเยื่อบุช่องท้องอักเสบ — ต้องรู้ <b>Hinchey classification</b> และแยกจากระบบอื่นที่ใช้กับริดสีดวงทวาร มะเร็งลำไส้ ตับแข็ง และตับอ่อนอักเสบ",
+  "why": "<b>Hinchey classification</b> แบ่ง perforated diverticulitis ตามสิ่งที่พบ (เดิมจากการผ่าตัด ปัจจุบันใช้ CT): <b>I</b> ฝีรอบลำไส้หรือใน mesentery (pericolic abscess) · <b>II</b> ฝีที่อยู่ไกลออกไป (pelvic/ retroperitoneal abscess) · <b>III</b> <b>เยื่อบุช่องท้องอักเสบทั่วไปจากหนอง (purulent peritonitis)</b> · <b>IV</b> <b>เยื่อบุช่องท้องอักเสบจากอุจจาระ (fecal peritonitis)</b> · <b>modified Hinchey</b> (Wasvary) เพิ่ม 0 (diverticulitis ไม่รุนแรง) Ia (phlegmon/ อักเสบจำกัดรอบลำไส้) Ib (ฝีรอบลำไส้) · การรักษาตามระยะ: uncomplicated → ผู้ป่วยนอก บางรายไม่ต้องให้ยาปฏิชีวนะ · ฝีเล็ก (&lt; 3–4 cm) → ยาปฏิชีวนะ · ฝีใหญ่ → <b>percutaneous drainage</b> · Hinchey III → resection ร่วม primary anastomosis ± diverting ileostomy หรือ Hartmann procedure (laparoscopic lavage ใช้ในรายเลือก) · Hinchey IV → <b>Hartmann procedure</b> หรือ resection · หลังหายส่องกล้องลำไส้ใหญ่ราว 6–8 สัปดาห์หามะเร็งในรายที่ complicated · ระบบที่ใช้ในยุโรปอีกระบบคือ Hansen &amp; Stock ซึ่งแบ่งตาม CT · ไฟล์ตัวพิมพ์จดคำตอบไม่ครบ <b>\"Staging diverticulitis Her....\"</b> และ P'Ing แปะตาราง <b>Hansen &amp; Stock Classification</b> (0 diverticulosis · I uncomplicated · IIa phlegmon · IIb abscess/ covered perforation · IIc free perforation · III chronic recurrent)",
   "wrong": {
-   "B": "Goligher ใช้แบ่งระดับริดสีดวงภายใน (1–4 ตามการยื่น) · จะถูกถ้าคำถามถามการแบ่งระดับริดสีดวงที่ยื่นออกมาแล้วดันกลับได้เอง",
-   "C": "Dukes ใช้แบ่งระยะมะเร็งลำไส้ใหญ่ (A–D) · จะถูกถ้าคำถามถามระบบแบ่งระยะมะเร็งลำไส้ใหญ่แบบเดิมก่อน TNM",
-   "D": "Child-Pugh ใช้ประเมินความรุนแรงของตับแข็ง · จะถูกถ้าคำถามถามการประเมินความเสี่ยงผ่าตัดในผู้ป่วยตับแข็ง",
-   "E": "Ranson ใช้ประเมินความรุนแรงของตับอ่อนอักเสบเฉียบพลัน · จะถูกถ้าคำถามถามเกณฑ์พยากรณ์ acute pancreatitis ที่แรกรับและ 48 ชม."
+   "B": "Goligher classification แบ่ง internal hemorrhoid ตามการยื่น: I ไม่ยื่น · II ยื่นและกลับเอง · III ต้องดันกลับ · IV ดันกลับไม่ได้ ใช้เลือกการรักษาริดสีดวงทวาร ไม่เกี่ยวกับ diverticulitis — จะถูกถ้าเป็นชาย 45 ปีถ่ายเป็นเลือดสด มีก้อนยื่นจากทวารเวลาเบ่งและต้องใช้นิ้วดันกลับ (grade III) ซึ่งพิจารณา hemorrhoidectomy",
+   "C": "Dukes classification เป็นระบบเก่าของ staging มะเร็งลำไส้ใหญ่และไส้ตรง (A จำกัดผนัง · B ทะลุผนัง · C ต่อมน้ำเหลือง · D กระจายไกล) ปัจจุบันใช้ TNM — จะถูกถ้าเป็นชาย 65 ปีผ่าตัด sigmoid colectomy จากมะเร็ง ผลพยาธิพบก้อนทะลุผนังและต่อมน้ำเหลืองมีมะเร็ง 3 ต่อม (Dukes C)",
+   "D": "Child-Pugh ประเมินความรุนแรงของตับแข็งจาก bilirubin, albumin, INR, ascites และ encephalopathy (A, B, C) ใช้ทำนายการรอดชีวิตและความเสี่ยงผ่าตัด — จะถูกถ้าเป็นชาย 55 ปีตับแข็งจากสุรา มีน้ำในท้องปานกลาง bilirubin 2.5 albumin 2.8 INR 1.9 ต้องประเมินความเสี่ยงก่อนผ่าตัดไส้เลื่อนสะดือ",
+   "E": "Ranson criteria ทำนายความรุนแรงของ acute pancreatitis จาก 5 ค่าแรกรับ (อายุ, WBC, glucose, LDH, AST) และ 6 ค่าที่ 48 ชม. — จะถูกถ้าเป็นชาย 60 ปีปวดท้องร้าวทะลุหลัง lipase สูง 5 เท่า มีนิ่วในถุงน้ำดี WBC 18,000 glucose 250 ต้องประเมินความรุนแรงของตับอ่อนอักเสบ"
   },
-  "trap": "จำชื่อสลับกับ Hansen &amp; Stock — ระบบที่ใช้ในข้อสอบและการผ่าตัดบ่อยที่สุดคือ Hinchey",
+  "trap": "ระบบ classification ทางศัลยกรรมมีชื่อคล้ายกันและถูกถามรวมกันบ่อย จึงจับคู่ผิด · ไฟล์จดได้เพียง \"Her....\" ส่วน P'Ing แปะ Hansen &amp; Stock ทำให้สับสน · จำว่า <b>Hinchey = diverticulitis ที่ทะลุ (ฝี → หนอง → อุจจาระ)</b> · Goligher = ริดสีดวง · Dukes = มะเร็งลำไส้ · Child-Pugh = ตับแข็ง · Ranson = ตับอ่อนอักเสบ",
   "summary": [
-   "Hinchey I: pericolic abscess · II: pelvic/ distant abscess",
-   "Hinchey III: purulent peritonitis · IV: fecal peritonitis",
-   "Uncomplicated: ATB เลือกใช้ได้ หรือไม่ให้ในผู้ภูมิปกติ (ASCRS)",
-   "ฝี &gt; 3 cm → percutaneous drainage",
-   "III–IV: resection (Hartmann หรือ primary anastomosis ± stoma)",
-   "หลังหาย ~6–8 สัปดาห์ → colonoscopy ตัดมะเร็ง"
+   "Hinchey: I pericolic/ mesenteric abscess · II pelvic/ distant abscess · III purulent peritonitis · IV fecal peritonitis · modified Hinchey เพิ่ม 0, Ia (phlegmon), Ib (abscess)",
+   "Diverticulitis ส่วนใหญ่ที่ sigmoid ในชาวตะวันตก · ชาวเอเชียพบด้านขวา (cecum/ ascending) มากกว่า · CT ฉีดสีเป็นการตรวจมาตรฐาน",
+   "Uncomplicated: ผู้ป่วยนอก อาหารเหลว · ผู้ป่วยภูมิปกติไม่มี sepsis อาจไม่ต้องให้ยาปฏิชีวนะ (AVOD, DIABOLO trials)",
+   "Abscess: เล็กกว่าราว 3–4 cm → ยาปฏิชีวนะ IV · ใหญ่กว่า → CT-guided percutaneous drainage แล้วพิจารณา elective resection",
+   "Hinchey III: laparoscopic lavage หรือ resection with primary anastomosis ± diverting ileostomy ในผู้ป่วยคงที่ (DIVERTI, LADIES) · Hartmann ในผู้ป่วยไม่คงที่",
+   "Hinchey IV: resection ส่วนทะลุ ส่วนใหญ่ทำ Hartmann procedure (end colostomy + ปิดตอไส้ตรง) แล้วต่อกลับภายหลัง",
+   "หลัง complicated diverticulitis → colonoscopy ราว 6–8 สัปดาห์หามะเร็ง · elective resection ตัดสินรายบุคคล ไม่ได้ทำเพียงเพราะเป็นครั้งที่ 2"
   ],
-  "opinion": "ตอบ A ความมั่นใจปานกลาง-สูง — ไฟล์จดเพียง \"Her....\" ซึ่งน่าจะหมายถึง Hinchey ส่วนตารางที่ P'Ing แปะเป็น Hansen &amp; Stock · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
-  "mnemonic": "<b>'Hinchey 1-2-3-4: ฝีใกล้ → ฝีไกล → หนอง → อุจจาระ'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728); WSES Guidelines for the Management of Acute Left-Sided Colonic Diverticulitis (World J Emerg Surg 2020;15:32)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์จดคำตอบไม่ครบ (\"Her....\") ซึ่งตีความได้ว่า Hinchey ระบบที่ใช้แบ่ง perforated diverticulitis ตามระดับฝีและเยื่อบุช่องท้องอักเสบ ตรงกับคำถามในเว็บ · ตาราง Hansen &amp; Stock ที่ P'Ing แปะเป็นอีกระบบที่ใช้ในเยอรมนี ไม่อยู่ในช้อย · ต้นฉบับไม่มีช้อย เว็บแต่ง B–E เป็นระบบของโรคอื่น",
+  "mnemonic": "<b>'Hinchey \"ฝีใกล้ → ฝีไกล → หนองทั่วท้อง → อึทั่วท้อง\" (I-II-III-IV)'</b>",
+  "guide": "Hall J et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020); Sartelli M et al. 2020 update of the WSES guidelines for the management of acute colonic diverticulitis in the emergency setting (World J Emerg Surg 2020)",
   "variants": [
-   "CT ฝีข้างลำไส้ sigmoid 5 cm → Hinchey I → percutaneous drainage + ATB",
-   "ช่องท้องมีหนองทั่ว ไม่มีอุจจาระ → Hinchey III",
-   "ช่องท้องมีอุจจาระ ช็อก → Hinchey IV → Hartmann procedure"
+   "ชาย 60 ปีปวดท้องน้อยซ้าย ไข้ CT เห็นฝี 5 cm ข้าง sigmoid → Hinchey Ib/ II ทำ CT-guided percutaneous drainage + ยาปฏิชีวนะ",
+   "หญิง 70 ปีปวดท้องทั่ว ช็อก CT มีลมอิสระและอุจจาระในช่องท้อง → Hinchey IV ผ่าตัด Hartmann procedure ด่วน",
+   "ชาย 50 ปีปวดท้องน้อยซ้าย ไข้ต่ำ กินได้ CT เห็น sigmoid อักเสบไม่มีฝีหรือลมอิสระ → uncomplicated diverticulitis รักษาแบบผู้ป่วยนอก",
+   "ทำไมต้องส่องกล้องลำไส้ใหญ่หลัง complicated diverticulitis หาย → มะเร็งลำไส้ที่ทะลุอาจมีภาพ CT เหมือน diverticulitis มีฝี"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 17 — ตัวพิมพ์: <b>XX.Staging diverticulitis Her....</b> (ไม่มีช้อย)<br>ลายมือ: ไม่มี<br>ไฮไลต์: \"Staging diverticulitis\"<br>รูปที่แปะ: ตาราง Hansen &amp; Stock Classification of Colonic Diverticular Disease (Ritz et al 2010) — 0 Diverticulosis · I Acute uncomplicated diverticulitis · II Complicated diverticulitis: IIa Peridiverticulitis, phlegmonous diverticulitis · IIb Abscess diverticulitis, covered perforation, fistulization · IIc Free perforation · III Chronic recurrent diverticulitis (พร้อมคอลัมน์ CT Scan)<br>ที่ปรับในเว็บ: \"Her....\" ตีความเป็น Hinchey · ไม่มีช้อย → แต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 17",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU70|RoC|ไม่มีเลข 5": {
-  "interp": "ถามภาพรังสีธรรมดาท่าที่ใช้ดู <b>maxilla</b>",
-  "why": "<b>Waters view (occipitomental)</b> เงยคางให้กระดูก petrous ลงไปใต้ maxillary sinus จึงเห็น<b>ใบหน้าส่วนกลาง</b>ชัด: maxilla, maxillary sinus, zygoma, orbital floor/ rim · เห็นเลือด/ air-fluid level ใน maxillary sinus จากกระดูกหัก · ปัจจุบันมาตรฐานคือ <b>CT facial bone</b> · ข้อนี้ซ้ำกับข้อ maxillary fracture ของ 70B · ไฟล์ผู้จดเขียนคำตอบ <b>\"1. Water's view\"</b>",
+  "interp": "ถามท่าถ่ายภาพรังสีธรรมดา (plain film) ที่ใช้ดู<b>กระดูก maxilla</b> — ต้องรู้ท่ามาตรฐานของภาพรังสีใบหน้าและกะโหลกแต่ละท่าว่าเหมาะกับโครงสร้างใด แม้ปัจจุบัน CT จะเป็นการตรวจหลักของกระดูกใบหน้าหัก",
+  "why": "<b>Waters view (occipitomental view)</b> ถ่ายจากหลังไปหน้าโดยให้คางยกขึ้น (เส้น orbitomeatal ทำมุมราว 37° กับฟิล์ม) ทำให้ <b>petrous ridge ถูกยกลงไปใต้ maxillary sinus</b> จึงเห็น <b>maxilla, maxillary sinus, orbital floor และ infraorbital rim, zygoma</b> ชัดที่สุดในภาพรังสีธรรมดา · ใช้ประเมิน <b>Le Fort fracture</b>, zygomaticomaxillary complex fracture, <b>orbital blowout fracture</b> (เห็นเงาเนื้อเยื่อห้อยลงใน maxillary sinus รูป <b>teardrop sign</b>), ระดับน้ำ/ เลือดใน maxillary sinus (air-fluid level) และไซนัสอักเสบ · ท่าอื่น: <b>Caldwell</b> (PA เอียง 15°) ดู frontal และ ethmoid sinus · <b>Towne</b> ดู occipital bone, foramen magnum และ condyle ของ mandible · <b>Panoramic (OPG)</b> ดู mandible และฟัน · <b>Submentovertex</b> ดู zygomatic arch และฐานกะโหลก · ปัจจุบัน<b>CT maxillofacial แบบ thin-cut พร้อม 3D</b> เป็นมาตรฐานของกระดูกใบหน้าหักเพราะเห็นทุกส่วนพร้อมกัน · ไฟล์ตัวพิมพ์ \"view ที่ใช้ดู maxilla\" และลายมือคำตอบ <b>\"1. Water's view\"</b>",
   "wrong": {
-   "B": "Towne view ดู occipital bone และ condyle ของขากรรไกรล่าง · จะถูกถ้าสงสัยกระดูก condyle หักหลังคางกระแทก",
-   "C": "Panoramic ดู mandible และฟัน · จะถูกถ้าสงสัย mandibular fracture ฟันสบผิด ชาริมฝีปากล่าง",
-   "D": "Lateral C-spine ดูกระดูกคอ · จะถูกถ้าผู้ป่วยบาดเจ็บศีรษะ/ ใบหน้าที่ต้องประเมินกระดูกคอ (ปัจจุบันใช้ CT)",
-   "E": "Submentovertex (jug-handle) ดู zygomatic arch · จะถูกถ้าสงสัยโหนกแก้มยุบ (zygomatic arch fracture) อ้าปากไม่ได้"
+   "B": "Towne view ถ่ายท่า AP เอียงลงล่างราว 30° ใช้ดู occipital bone, foramen magnum และ condyle/ ramus ของ mandible ไม่ใช่ maxilla — จะถูกถ้าเป็นชาย 30 ปีถูกชกคางแล้วปวดหน้าหูทั้งสองข้าง อ้าปากไม่ได้ สงสัย mandibular condyle หักในโรงพยาบาลที่ไม่มี CT",
+   "C": "Panoramic view (orthopantomogram) ถ่ายภาพโค้งของขากรรไกรทั้งบนล่างและฟัน เป็น plain film ที่ดีที่สุดสำหรับ mandible ทั้งชิ้น แต่เห็น maxilla ส่วนบนและพื้น orbit ได้ไม่ดี — จะถูกถ้าเป็นชาย 25 ปีถูกต่อยขากรรไกรล่าง สบฟันผิด ชาริมฝีปากล่าง สงสัย mandible body และ angle หัก",
+   "D": "Lateral cervical spine ใช้คัดกรองกระดูกคอหักในผู้บาดเจ็บ ต้องเห็นตั้งแต่ฐานกะโหลกถึงรอยต่อ C7–T1 (ปัจจุบันใช้ CT เป็นหลัก) ไม่ได้ดูกระดูกใบหน้า — จะถูกถ้าเป็นชาย 40 ปีรถชนปวดคอ กดเจ็บแนวกลางคอ ในโรงพยาบาลที่ไม่มี CT และต้องประเมินกระดูกคอเบื้องต้น",
+   "E": "Submentovertex (jug-handle) view ถ่ายจากใต้คางขึ้นด้านบน เห็น <b>zygomatic arch</b> เป็นรูปหูหิ้ว และฐานกะโหลก ไม่ได้ดูตัว maxilla — จะถูกถ้าเป็นชาย 20 ปีถูกตีที่ขมับข้างใบหน้าเป็นรอยบุ๋ม อ้าปากได้น้อยเพราะ arch ที่หักกด coronoid process"
   },
-  "trap": "สับสนท่าดู zygomatic arch (submentovertex) กับท่าดู maxilla (Waters)",
+  "trap": "ท่าภาพรังสีกะโหลกมีหลายท่าชื่อคล้ายกันจึงจำสลับ · ผูกท่ากับโครงสร้าง: <b>Waters = maxilla/ maxillary sinus/ orbit floor</b> · Caldwell = frontal/ ethmoid · Towne = occiput/ condyle · Panoramic = mandible/ ฟัน · Submentovertex = zygomatic arch · ในทางคลินิกจริงใช้ CT maxillofacial",
   "summary": [
-   "Maxilla/ midface/ orbital floor → Waters",
-   "Zygomatic arch → submentovertex",
-   "Mandible → panoramic · condyle → Towne",
-   "Frontal sinus/ orbit → Caldwell",
-   "มาตรฐาน: CT facial bone",
-   "Le Fort I/ II/ III: maxilla หลุดแยกตามระดับ"
+   "Waters (occipitomental): maxilla, maxillary sinus, orbital floor, infraorbital rim, zygoma, nasal bone · ใช้ดู Le Fort, ZMC fracture, blowout, sinusitis",
+   "Blowout fracture ใน Waters view: teardrop sign (เนื้อเยื่อในเบ้าตาห้อยลง maxillary sinus) และ air-fluid level · อาการ: มองขึ้นแล้วเห็นภาพซ้อน (inferior rectus ติด), ชาแก้ม (infraorbital nerve), ตาจม",
+   "Caldwell (PA 15°): frontal sinus, ethmoid sinus, lateral orbital wall · Towne (AP 30° caudal): occipital bone, foramen magnum, mandibular condyle",
+   "Panoramic (OPG): plain film ที่ดีที่สุดสำหรับ mandible (body, angle, ramus) และฟัน · ร่วมกับ PA mandible ให้เห็นสองระนาบ",
+   "Submentovertex (jug-handle): zygomatic arch, ฐานกะโหลก · arch หักกด coronoid process ทำให้อ้าปากไม่ได้ (trismus)",
+   "CT maxillofacial thin-cut + 3D reconstruction เป็นมาตรฐานปัจจุบันของการบาดเจ็บใบหน้า เห็นทั้ง Le Fort, NOE, orbit และวางแผนผ่าตัด",
+   "Le Fort ประเมินทางคลินิก: จับฟันหน้าบนโยกแล้วดูว่าส่วนใดขยับตาม (I เฉพาะ palate · II จมูกขยับด้วย · III ทั้งใบหน้าขยับ)"
   ],
-  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียน · ไฟล์มีช้อยเดียว จึงแต่งช้อย B–E",
-  "mnemonic": "<b>'Waters = ใบหน้ากลาง · SMV = โหนกแก้ม (arch)'</b>",
-  "guide": "Fonseca's Oral and Maxillofacial Trauma 4th ed. (2013)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์ที่ลายมือเขียนคำตอบ \"1. Water's view\" ใต้คำถาม view ที่ใช้ดู maxilla · เป็นท่ามาตรฐานของ maxilla และ maxillary sinus ในตำรา ต้นฉบับจำช้อยได้ข้อเดียว เว็บแต่ง B–E เป็นท่าภาพรังสีที่ใช้ดูโครงสร้างอื่น",
+  "mnemonic": "<b>'\"Waters = Water in the sinus\" → ดู Maxilla/ Maxillary sinus · Towne = ท้ายทอย · Pano = Mandible'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial fractures; Fonseca RJ. Oral and Maxillofacial Trauma 4th ed. (2013)",
   "variants": [
-   "สงสัย Le Fort II หลังรถชน → CT facial bone",
-   "โหนกแก้มยุบ อ้าปากไม่ได้ → submentovertex/ CT",
-   "คางกระแทก ปวดหน้าหู อ้าปากเบี้ยว → condyle fracture → panoramic/ Towne/ CT"
+   "ชาย 25 ปีถูกต่อยตา มองขึ้นแล้วเห็นภาพซ้อน ชาแก้ม Waters view เห็น teardrop sign → orbital floor blowout fracture ทำ CT orbit",
+   "หญิง 30 ปีปวดแก้ม น้ำมูกเขียว Waters view เห็น air-fluid level ใน maxillary sinus ข้างขวา → acute maxillary sinusitis",
+   "ชายถูกตีที่โหนกแก้ม อ้าปากไม่ได้ เห็นรอยบุ๋มด้านข้างใบหน้า → submentovertex view หรือ CT เห็น zygomatic arch หัก",
+   "ทำไม Waters view ต้องยกคางขึ้น → เพื่อให้ petrous ridge ที่ทึบรังสีเลื่อนลงไปใต้ maxillary sinus ไม่บังภาพ maxilla"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 17 — ตัวพิมพ์: <b>XX.view ที่ใช้ดู maxilla</b><br>ลายมือ: \"1. Water's view\" (คำตอบเขียนด้วยลายมือ)<br>ไฮไลต์: วง 1 · \"view ที่ใช้ดู maxilla\"<br>ที่ปรับในเว็บ: มีช้อยเดียว → แต่งช้อย B–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 17",

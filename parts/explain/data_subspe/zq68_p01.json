@@ -1,29 +1,31 @@
 {
  "MDCU68|RoB|3": {
-  "interp": "มี<b>ก้อนในปากที่เจ็บ</b> → ถามการจัดการเบื้องต้น",
-  "why": "ก้อน/ แผลในช่องปากที่<b>เจ็บ</b>ส่วนใหญ่เกิดจาก<b>การอักเสบหรือบาดเจ็บ</b> (aphthous ulcer, ฟันกัด, ฟันปลอมเสียดสี, ติดเชื้อ) ซึ่งหายเองได้ → <b>กำจัดสาเหตุที่ระคายเคืองแล้วเฝ้าดู 2–3 สัปดาห์</b> · ถ้า<b>ไม่หายภายใน 2–3 สัปดาห์</b> หรือมีลักษณะน่าสงสัย (แข็ง ขอบนูน เลือดออก ต่อมน้ำเหลืองโต ผู้สูบบุหรี่/ เคี้ยวหมาก) → <b>biopsy</b> เพื่อแยกมะเร็ง · ไฟล์ขีด 1 ลายมือ <b>\"2–3 wk\"</b> (หัวข้อ \"Plastic ตรงแอคมากเลยจ้า\")",
+  "interp": "มี<b>ก้อนในช่องปากที่เจ็บ</b> ไม่บอกอายุ ปัจจัยเสี่ยง หรือลักษณะน่าสงสัย — ถามการจัดการเบื้องต้น ต้องรู้ว่ารอยโรคในปากที่เจ็บส่วนใหญ่เป็นการอักเสบหรือบาดเจ็บที่หายเอง และรู้เกณฑ์เวลาที่ต้องตัดชิ้นเนื้อเพื่อแยกมะเร็ง",
+  "why": "รอยโรคในช่องปากที่<b>เจ็บ</b>ส่วนใหญ่เกิดจาก<b>การอักเสบหรือบาดเจ็บ</b> เช่น aphthous ulcer, traumatic ulcer จากฟันคมหรือฟันปลอมเสียดสี, กัดกระพุ้งแก้ม, mucocele, การติดเชื้อของต่อมน้ำลายหรือฟัน ซึ่งหายเองเมื่อเอาสาเหตุออก ส่วน <b>oral SCC ระยะแรกมักไม่เจ็บ</b> (เจ็บเมื่อลุกลามเส้นประสาทหรือเป็นแผลติดเชื้อแล้ว) · หลักจึงเป็น <b>กำจัดสิ่งระคายเคือง (ลบฟันคม ปรับฟันปลอม) แล้วนัดดูซ้ำใน 2–3 สัปดาห์</b> · ถ้า<b>ไม่หายภายใน 2–3 สัปดาห์</b> (NICE ใช้เกณฑ์แผลในปากที่อธิบายไม่ได้ &gt; 3 สัปดาห์ให้ส่งต่อด่วน) หรือมีลักษณะน่าสงสัยตั้งแต่แรก — แข็ง (induration) ขอบนูน ติดแน่น เลือดออกง่าย มี leukoplakia/ erythroplakia ร่วม ต่อมน้ำเหลืองคอโต ผู้สูบบุหรี่ ดื่มสุรา เคี้ยวหมาก — ต้อง <b>biopsy</b> (incisional ถ้าก้อนใหญ่/ สงสัยมะเร็ง · excisional ถ้าก้อนเล็ก &lt; 1 cm ลักษณะไม่ร้าย) · ไฟล์ขีด 1 ลายมือ <b>\"2–3 wk\"</b> ใต้หัวข้อที่เขียนว่า Plastic ตรงแอค",
   "wrong": {
-   "B": "Excision ทันทีไม่จำเป็นสำหรับรอยโรคอักเสบที่หายเองได้ · จะถูกถ้าก้อนไม่เจ็บ คงอยู่ &gt; 3 สัปดาห์ ขนาดเล็ก ตัดออกทั้งก้อนเพื่อส่งตรวจ (excisional biopsy)",
-   "C": "Incisional biopsy ทันทียังไม่จำเป็นถ้าเพิ่งเป็นและเจ็บ (อักเสบ) · จะถูกถ้าแผลแข็งไม่เจ็บ &gt; 3 สัปดาห์ในผู้เคี้ยวหมาก/ สูบบุหรี่",
-   "D": "Radiotherapy ใช้หลังวินิจฉัยมะเร็งแล้ว · จะถูกถ้าชิ้นเนื้อยืนยัน SCC ระยะลุกลามที่ผ่าตัดไม่ได้หรือเสริมหลังผ่าตัด",
-   "E": "ยาปฏิชีวนะนาน 6 สัปดาห์ไม่ใช่การรักษามาตรฐาน · จะถูกถ้าคำถามถามการรักษา actinomycosis ของขากรรไกร (penicillin นาน)"
+   "B": "Excision (excisional biopsy) ใช้กับก้อนเล็ก &lt; 1 cm ที่ลักษณะไม่ร้ายและคงอยู่นาน การตัดทันทีโดยยังไม่ให้รอยโรคอักเสบได้หายเองเป็นการผ่าตัดเกินจำเป็น · จะถูกถ้าเป็นหญิง 40 ปีมีก้อนนุ่มไม่เจ็บขนาด 6 mm ที่กระพุ้งแก้มตรงแนวฟันกัด คงอยู่มา 6 เดือน (irritation fibroma) หรือ mucocele ที่ริมฝีปากล่างเป็นซ้ำ",
+   "C": "Incisional biopsy ทันทีใช้เมื่อรอยโรคมีลักษณะน่าสงสัยมะเร็งตั้งแต่แรก เพราะต้องได้ผลพยาธิก่อนวางแผนผ่าตัดใหญ่ แต่ก้อนเจ็บที่ไม่มีลักษณะร้ายควรให้โอกาสหาย 2–3 สัปดาห์ก่อน · จะถูกถ้าเป็นชาย 60 ปี สูบบุหรี่และเคี้ยวหมาก มีแผลขอบนูนแข็งที่ขอบลิ้นด้านข้างมา 5 สัปดาห์ เลือดออกง่าย คลำได้ต่อมน้ำเหลืองใต้คางโตแข็ง",
+   "D": "Radiotherapy ห้ามให้โดยไม่มีผลพยาธิยืนยันมะเร็ง ในมะเร็งช่องปากใช้เป็น adjuvant หลังผ่าตัดเป็นหลัก (ถ้ามี chemoradiation เมื่อขอบบวกหรือ extranodal extension) · จะถูกถ้าเป็นผู้ป่วย oral tongue SCC หลังผ่าตัด glossectomy + neck dissection ที่พยาธิพบ perineural invasion และต่อมน้ำเหลืองบวกหลายต่อม",
+   "E": "ยาปฏิชีวนะ 6 สัปดาห์เป็นการรักษาการติดเชื้อลึกเรื้อรัง ไม่ใช่ก้อนในปากทั่วไป และการให้ยานานทำให้วินิจฉัยมะเร็งช้า · จะถูกถ้าเป็นชาย 35 ปีหลังถอนฟันกรามล่างมีก้อนแข็งที่มุมขากรรไกร มีรูหนองไหลออกที่ผิวหนังและพบเม็ดสีเหลือง (sulfur granules) = cervicofacial actinomycosis ต้องได้ penicillin ระยะยาว"
   },
-  "trap": "รีบ biopsy/ ตัดทุกก้อนในปาก — ก้อนเจ็บส่วนใหญ่อักเสบ ให้เฝ้าดู 2–3 สัปดาห์ก่อน",
+  "trap": "กลัวพลาดมะเร็งจนเลือก biopsy หรือ excision ทันที · จุดสำคัญคือคำว่า <b>เจ็บ</b> ซึ่งชี้ไปทางอักเสบ/ บาดเจ็บ และไม่มีปัจจัยเสี่ยงหรือลักษณะร้ายในโจทย์ — ขั้นแรกจึงเอาสาเหตุออกแล้วเฝ้าดู 2–3 สัปดาห์ แต่ถ้ามีแข็ง ติดแน่น ต่อมน้ำเหลืองโต หรือปัจจัยเสี่ยง ให้ biopsy ทันที",
   "summary": [
-   "แผล/ ก้อนในปากเจ็บ ใหม่ → กำจัดสาเหตุ + เฝ้าดู 2–3 สัปดาห์",
-   "ไม่หายใน 2–3 สัปดาห์ → biopsy",
-   "สัญญาณเตือนมะเร็ง: แข็ง ไม่เจ็บ ขอบนูน เลือดออก ต่อมน้ำเหลืองโต",
-   "ปัจจัยเสี่ยง: บุหรี่ แอลกอฮอล์ หมาก ฟันปลอมระคาย",
-   "Leukoplakia/ erythroplakia → biopsy",
-   "ก้อนเล็ก → excisional · ก้อนใหญ่ → incisional biopsy"
+   "รอยโรคในปากที่เจ็บส่วนใหญ่เป็น aphthous ulcer, traumatic ulcer, mucocele หรือการติดเชื้อ → เอาสาเหตุระคายเคืองออก แล้วนัดดูซ้ำใน 2–3 สัปดาห์",
+   "กฎ 2–3 สัปดาห์: แผลหรือก้อนในปากที่ไม่หายใน 2–3 สัปดาห์หลังเอาสาเหตุออก ต้อง biopsy เพื่อแยก squamous cell carcinoma (NICE: แผลในปาก &gt; 3 สัปดาห์ → ส่งต่อด่วน)",
+   "ลักษณะน่าสงสัยมะเร็ง: induration ขอบนูน ติดแน่น เลือดออกง่าย ไม่เจ็บในระยะแรก ร่วมกับ leukoplakia/ erythroplakia (erythroplakia เสี่ยงกลายเป็นมะเร็งสูงกว่า leukoplakia มาก)",
+   "ปัจจัยเสี่ยง oral SCC: บุหรี่ สุรา (เสริมกันแบบทวีคูณ) เคี้ยวหมาก ฟันคมหรือฟันปลอมเสียดสีเรื้อรัง · oropharyngeal SCC สัมพันธ์กับ HPV-16",
+   "Incisional biopsy สำหรับรอยโรคใหญ่หรือสงสัยมะเร็ง (เก็บขอบรอยโรคติดเนื้อปกติ หลีกเลี่ยงตรงกลางที่ตาย) · excisional biopsy สำหรับก้อนเล็ก &lt; 1 cm ที่ลักษณะไม่ร้าย",
+   "ตำแหน่ง oral SCC ที่พบบ่อย: ขอบลิ้นด้านข้างและใต้ลิ้น พื้นปาก · ในคนเคี้ยวหมากพบที่กระพุ้งแก้มมาก · ต่อมน้ำเหลืองระดับ I–III เป็นจุดแพร่กระจายแรก",
+   "รักษา oral cavity SCC: ผ่าตัดเป็นหลัก (wide excision ขอบ ≥ 1 cm + neck dissection ถ้า depth of invasion &gt; 3–4 mm หรือคลำต่อมได้) ± adjuvant RT/ CRT ตามพยาธิ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ \"2–3 wk\" · ต้นฉบับมี 2 ช้อย จึงเติม C–E",
-  "mnemonic": "<b>'แผลในปาก: 2–3 สัปดาห์ไม่หาย = Biopsy'</b>",
-  "guide": "NCCN Clinical Practice Guidelines: Head and Neck Cancers v.2.2025 — Oral cavity workup; AAOM clinical practice statement on oral lesions",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด 1 พร้อมลายมือ 2–3 wk และ MCQ Key_1 ขีด A) · ต้นฉบับมีแค่ observe กับ excision ซึ่งจุดประสงค์คือให้รู้ว่าก้อนเจ็บในปากให้เฝ้าดู 2–3 สัปดาห์ก่อน แต่ในชีวิตจริงต้องคัดกรองลักษณะร้ายและปัจจัยเสี่ยงทุกครั้ง ถ้ามีให้ biopsy ทันที",
+  "mnemonic": "<b>'เจ็บในปาก → เอาสาเหตุออก รอ 2–3 wk · ไม่หาย/ แข็ง/ ติด → Biopsy'</b>",
+  "guide": "NICE NG12 Suspected cancer: recognition and referral (updated 2023) — head and neck cancers; NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers (current version)",
   "variants": [
-   "แผลเจ็บที่ลิ้นจากฟันคม 1 สัปดาห์ → กรอฟัน + เฝ้าดู",
-   "แผลแข็งไม่เจ็บที่ลิ้น 2 เดือนในผู้สูบบุหรี่ → biopsy",
-   "ปื้นขาวเช็ดไม่ออกที่กระพุ้งแก้ม → leukoplakia → biopsy"
+   "ชายเคี้ยวหมาก มีปื้นสีแดงกำมะหยี่ที่พื้นปาก ไม่เจ็บ คงอยู่ 1 เดือน → incisional biopsy (erythroplakia เสี่ยง dysplasia/ มะเร็งสูง)",
+   "หญิง 25 ปี แผลตื้นขอบแดงเจ็บมาก 2–3 แผลที่ริมฝีปากด้านใน เป็นซ้ำปีละหลายครั้ง หายเองใน 10 วัน → recurrent aphthous stomatitis ให้ยาทาสเตียรอยด์และนัดดู",
+   "ผู้สูงอายุใส่ฟันปลอมหลวม มีแผลเจ็บตรงขอบฟันปลอม → ถอดหรือแก้ฟันปลอม นัดดู 2 สัปดาห์ ถ้ายังไม่หาย → biopsy",
+   "ผลชิ้นเนื้อเป็น oral tongue SCC ความลึก 6 mm ไม่มีต่อมน้ำเหลืองโต → partial glossectomy ขอบปลอดภัย + elective neck dissection ระดับ I–III"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 69 — หัวกระดาษ: Ac subspe · Plastic ตรงแอคมากเลยจ้า · ตัวพิมพ์: <b>3. มีก้อนในปาก เจ็บ ถาม management — 1) observe 2) excision</b><br>ลายมือ: ขีด 1 + \"2-3 wk\"<br>ไฮไลต์: \"ก้อนในปาก เจ็บ\" \"management\" · 1 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 60: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C–E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 69",
@@ -34,30 +36,32 @@
   ]
  },
  "MDCU68|RoB|4": {
-  "interp": "ถามกระดูกหักตำแหน่งใดที่<b>ทำให้การสบฟัน (occlusion) ผิดปกติ</b>",
-  "why": "การสบฟันขึ้นกับความสัมพันธ์ของฟันบน (maxilla) และฟันล่าง (mandible) → กระดูกหักที่<b>มีฟันอยู่ (tooth-bearing)</b> คือ <b>mandible</b> (เช่น <b>parasymphysis</b>, body, angle, condyle) และ <b>maxilla</b> (Le Fort I–III) ทำให้ malocclusion · รักษาโดยจัดการสบฟันให้ถูก (maxillomandibular fixation) ร่วม ORIF · ไฟล์ขีด 4 ลายมือ <b>\"mandible, maxilla\"</b>",
+  "interp": "ถามว่ากระดูกใบหน้าหักตำแหน่งใดทำให้<b>การสบฟัน (dental occlusion)</b> ผิดปกติ — ต้องรู้ว่าฟันฝังอยู่ในกระดูกใดบ้าง (mandible และ maxilla) และอาการเด่นของการหักแต่ละตำแหน่งของใบหน้า",
+  "why": "การสบฟันเกิดจากฟันบนที่ฝังใน <b>maxilla (alveolar process)</b> สบกับฟันล่างที่ฝังใน <b>mandible</b> ดังนั้น<b>กระดูกที่มีฟันหักแล้วเคลื่อน</b>เท่านั้นที่ทำให้ <b>malocclusion</b> — คือ mandible fracture (symphysis/ parasymphysis, body, angle, ramus, condyle) และ maxillary fracture แบบ Le Fort I–III · parasymphysis อยู่ระหว่าง canine ทั้งสองข้าง ชิ้นกระดูกถูกกล้ามเนื้อ genioglossus/ geniohyoid และ digastric ดึงเคลื่อนจนเกิด step-off ระหว่างฟันและสบฟันไม่ลง มักมีแผลเหงือกฉีกจึงเป็น open fracture · การหักสองข้างของ parasymphysis ทำให้ส่วนหน้าของขากรรไกรหลุดถูกดึงไปด้านหลัง ลิ้นตกอุดทางเดินหายใจ · หลักรักษาคือ<b>คืนการสบฟันเดิมก่อน</b> ด้วย maxillomandibular fixation (MMF) แล้ว ORIF ด้วย miniplate ตามแนว Champy ร่วมกับยาปฏิชีวนะ · ไฟล์ขีด 4 ลายมือ <b>\"mandible, maxilla\"</b> เหนือคำ occlusion",
   "wrong": {
-   "A": "Zygoma หักทำให้แก้มยุบ ชาใต้ตา trismus (กด coronoid) แต่ไม่เปลี่ยนการสบฟันโดยตรง · จะถูกถ้าคำถามถามกระดูกหักที่ทำให้อ้าปากไม่ขึ้นจากกด coronoid process",
-   "B": "Nasal bone หักทำให้จมูกคด เลือดกำเดา ไม่เกี่ยวการสบฟัน · จะถูกถ้าคำถามถามกระดูกใบหน้าที่หักบ่อยที่สุด",
-   "C": "Blowout fracture ทำให้ตาจม เห็นภาพซ้อน กลอกตาขึ้นไม่ได้ ไม่เกี่ยวการสบฟัน · จะถูกถ้าผู้ป่วยถูกชกตา มองขึ้นไม่ได้ เห็นภาพซ้อน",
-   "E": "NOE fracture ทำให้หัวตากว้าง (telecanthus) น้ำไขสันหลังรั่ว ไม่เกี่ยวการสบฟันโดยตรง · จะถูกถ้าผู้ป่วยระยะห่างหัวตากว้างขึ้นหลังอุบัติเหตุ"
+   "A": "Zygomaticomaxillary complex fracture ทำให้โหนกแก้มแบน ชาใต้ตา (infraorbital nerve) เห็นภาพซ้อน และ zygomatic arch ที่ยุบกดกล้ามเนื้อ temporalis/ coronoid process ทำให้<b>อ้าปากไม่ขึ้น (trismus)</b> แต่ฟันยังสบปกติ · จะถูกถ้าเป็นชาย 30 ปีถูกต่อยที่โหนกแก้ม อ้าปากได้ไม่สุด แก้มแบน ชาที่แก้มและริมฝีปากบนข้างเดียวกัน",
+   "B": "Nasal bone fracture เป็นกระดูกใบหน้าที่หักบ่อยที่สุด ทำให้จมูกคด เลือดกำเดา และต้องตรวจหา septal hematoma ซึ่งต้องเจาะระบายทันทีเพื่อกันกระดูกอ่อนตาย (saddle nose) แต่ไม่เกี่ยวกับฟัน · จะถูกถ้าเป็นวัยรุ่นถูกบอลกระแทกจมูก จมูกเบี้ยว เลือดกำเดาไหล ส่องพบก้อนม่วงนุ่มที่ผนังกั้นจมูก",
+   "C": "Orbital blowout fracture ผนังพื้นหรือผนังในของเบ้าตาแตกจากแรงดันในเบ้าตา ทำให้กล้ามเนื้อ inferior rectus ติดค้าง มองขึ้นแล้วเห็นภาพซ้อน ตาจม (enophthalmos) และชาใต้ตา · จะถูกถ้าเป็นเด็ก 12 ปีถูกลูกบอลกระแทกตา มองขึ้นไม่ได้ ปวด คลื่นไส้ ชีพจรช้า (oculocardiac reflex จาก trapdoor fracture ต้องผ่าตัดด่วน)",
+   "E": "Naso-orbito-ethmoid fracture ทำให้ระยะหัวตาสองข้างห่าง (telecanthus) สันจมูกแบน และอาจมี CSF rhinorrhea จาก cribriform plate แตก ไม่เกี่ยวกับกระดูกที่มีฟัน · จะถูกถ้าเป็นคนขับรถชนพวงมาลัยที่กลางหน้า หัวตาห่างออก สันจมูกยุบ มีน้ำใสไหลจากจมูกที่ตรวจพบ beta-2 transferrin"
   },
-  "trap": "เลือก zygoma เพราะใกล้ขากรรไกรและทำให้อ้าปากลำบาก — malocclusion มาจากกระดูกที่มีฟัน (mandible/ maxilla)",
+  "trap": "NOE และ zygoma อยู่ใกล้ maxilla จึงคิดว่ากระทบการสบฟัน และ zygoma ทำให้อ้าปากไม่ขึ้นจนสับสนกับ malocclusion · ให้ถามว่าฟันฝังในกระดูกชิ้นไหน — มีแค่ mandible กับ maxilla (Le Fort) · trismus คืออ้าปากยาก ส่วน malocclusion คือฟันสบไม่ตรงเดิม",
   "summary": [
-   "Malocclusion: mandible fracture · maxilla (Le Fort)",
-   "Mandible หักบ่อยเป็นคู่ (เช่น parasymphysis + condyle ฝั่งตรงข้าม)",
-   "Le Fort I: แยกฟันบน · II: pyramidal · III: craniofacial disjunction",
-   "Zygoma: แก้มยุบ ชาใต้ตา trismus",
-   "Blowout: ตาจม ภาพซ้อน กล้ามเนื้อติด",
-   "รักษา: MMF + ORIF จัดการสบฟันให้ถูก"
+   "Malocclusion เกิดจากกระดูกที่มีฟันหักเท่านั้น: mandible ทุกตำแหน่ง และ maxilla (Le Fort I–III, alveolar fracture) · ถามผู้ป่วยว่าฟันสบเหมือนเดิมไหมเป็นคำถามที่ไวที่สุด",
+   "Mandible เป็นวงแหวน มักหัก 2 ตำแหน่ง (เช่น parasymphysis ข้างหนึ่ง + condyle/ angle อีกข้าง) · ตำแหน่งที่หักบ่อย: condyle, angle, body, parasymphysis",
+   "Le Fort I แนวนอนเหนือรากฟัน (เพดานโยก) · Le Fort II รูปพีระมิดผ่าน nasal bone และ infraorbital rim · Le Fort III craniofacial dysjunction ผ่าน zygomatic arch — ทุกแบบมี pterygoid plate หัก",
+   "Bilateral parasymphyseal fracture: ชิ้นหน้าถูกกล้ามเนื้อดึงไปหลัง ลิ้นตกอุดทางเดินหายใจ → ดูแล airway ก่อน (ดึงลิ้น/ ใส่ท่อช่วยหายใจ)",
+   "รักษา mandible fracture: คืนการสบฟันด้วย MMF (arch bar/ IMF screw) แล้ว ORIF ด้วย miniplate ตามแนว Champy · fracture ผ่านฟันหรือเหงือก = open fracture ให้ยาปฏิชีวนะ",
+   "Condylar fracture ส่วนใหญ่รักษาแบบ closed (MMF ระยะสั้น + ฝึกขยับขากรรไกรเร็ว) โดยเฉพาะเด็ก เพราะเสี่ยง TMJ ankylosis ถ้าตรึงนาน",
+   "Zygoma: trismus + แก้มแบน + ชา infraorbital · Orbital floor: diplopia มองขึ้น + enophthalmos · NOE: telecanthus + CSF leak"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
-  "mnemonic": "<b>'สบฟันผิด = กระดูกที่มีฟัน (Mandible + Maxilla)'</b>",
-  "guide": "AO Surgery Reference: CMF — Mandible and midface trauma; Neligan's Plastic Surgery 5th ed. (2023) — Facial fractures",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด 4 พร้อมลายมือ mandible, maxilla และ MCQ Key_1 ขีด D) · ช้อยอื่นเป็นกระดูกที่ไม่มีฟัน แม้ zygoma ทำให้อ้าปากยากแต่ไม่ได้เปลี่ยนการสบฟัน",
+  "mnemonic": "<b>'สบฟันเพี้ยน = กระดูกที่มีฟันหัก (Mandible + Maxilla)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial fractures; AO Surgery Reference: CMF Trauma (Mandible, Midface)",
   "variants": [
-   "ถูกชกคาง สบฟันไม่ลง เจ็บหน้าหูอีกข้าง → parasymphysis + condyle fracture",
-   "อุบัติเหตุหน้ากระแทก ขยับฟันบนได้ทั้งแผง → Le Fort I",
-   "ถูกชกตา มองขึ้นไม่ได้ ภาพซ้อน → orbital blowout fracture"
+   "ชายถูกต่อยที่คาง ฟันหน้าล่างเหลื่อมเป็นขั้น เหงือกฉีก สบฟันไม่ลง → parasymphyseal fracture (open) → ยาปฏิชีวนะ + MMF + ORIF",
+   "ผู้ป่วยอุบัติเหตุ จับฟันบนโยกได้ทั้งแผงแต่จมูกไม่ขยับ → Le Fort I",
+   "ผู้ป่วยหักกระดูกขากรรไกรล่างทั้งสองข้างที่ parasymphysis มีเสียงหายใจครืดคราด → ดึงลิ้นไปข้างหน้า/ ใส่ท่อช่วยหายใจก่อน",
+   "ทำไม mandible หักแล้วต้องหาจุดที่สองเสมอ → ขากรรไกรล่างเป็นโครงรูปวงแหวน แรงกระแทกที่คางส่งไปหัก condyle อีกข้างได้บ่อย"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 69 — ตัวพิมพ์: <b>4. Which bony fracture affects occlusion — 1 zygoma 2 nasal bone 3 blow out fracture 4 parasymphisis of mandible 5 naso orbital ethmoidal complex</b><br>ลายมือ: \"mandible, maxilla\" เหนือคำ occlusion · ขีด 4<br>ไฮไลต์: \"bony fracture affects occlusion\" · 4 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 60: ขีด D (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 69",
@@ -68,30 +72,32 @@
   ]
  },
  "MDCU68|RoB|7": {
-  "interp": "ภาพ <b>cleft palate</b> → ถามอายุที่ควรผ่าตัดซ่อม",
-  "why": "ซ่อมเพดานโหว่ (palatoplasty) ที่อายุ <b>~9–18 เดือน (ราว 1 ปี)</b> — <b>ก่อนเริ่มพูด</b> เพื่อให้กล้ามเนื้อเพดานอ่อน (levator veli palatini) ทำงานได้และพูดได้ชัด (ลดเสียงขึ้นจมูก) แต่ไม่เร็วเกินจนรบกวนการเจริญของกระดูก maxilla · ส่วนปากแหว่ง (cleft lip) ซ่อมที่ ~3 เดือน (rule of 10s) · ไฟล์ขีด C ลายมือ <b>\"ก่อนพูดไม่ชัด\"</b>",
+  "interp": "ให้รูป<b>เพดานโหว่ (cleft palate)</b> ถามอายุที่ควรผ่าตัดปิดเพดาน (palatoplasty) — ต้องรู้ลำดับเวลาการรักษาปากแหว่งเพดานโหว่ และเหตุผลที่ต้องปิดเพดานก่อนเด็กเริ่มพูด แต่ไม่เร็วจนรบกวนการเจริญของขากรรไกรบน",
+  "why": "เป้าหมายหลักของ palatoplasty คือ<b>การพูด</b> — ต้องสร้าง velopharyngeal mechanism โดยเย็บกล้ามเนื้อ <b>levator veli palatini</b> ที่แยกออกให้เป็นสลิงกลับมา (intravelar veloplasty หรือ Furlow double-opposing Z-plasty) ให้ทันก่อนเด็กเริ่มพูดคำแรก (~ 12 เดือน) ถ้าช้าเด็กจะติด<b>การออกเสียงชดเชย</b> (glottal stop, เสียงขึ้นจมูก) ที่แก้ยาก · แต่ถ้าเร็วเกินไป แผลเป็นที่เพดานจะรบกวนการเจริญของ maxilla ทำให้ใบหน้าส่วนกลางแบนและฟันล่างยื่นเมื่อโต จึงยอมรับร่วมกันที่ <b>9–12 เดือน</b> (ACPA ให้ทำภายใน 18 เดือน) · ลำดับรวม: ปากแหว่งผ่าตัดราว 3 เดือน (rule of 10: อายุ 10 สัปดาห์ น้ำหนัก 10 ปอนด์ Hb 10 g/dL) · เพดาน ~1 ปี · แก้ velopharyngeal insufficiency 3–5 ปี · alveolar bone graft 7–11 ปีก่อนเขี้ยวขึ้น · orthognathic/ rhinoplasty เมื่อโตเต็มที่ · ไฟล์ขีด C ลายมือ <b>\"ก่อนพูดไม่ชัด\"</b>",
   "wrong": {
-   "A": "1 เดือนเร็วเกินไป ทารกเล็กเสี่ยงการดมยาและเพดานยังเล็ก · จะถูกถ้าคำถามถามการใส่เพดานเทียม (feeding plate) หรือ nasoalveolar molding ช่วงแรกเกิด",
-   "B": "6 เดือนเร็วไปเล็กน้อยสำหรับเพดาน (อาจรบกวนการเจริญ maxilla) · จะถูกถ้าคำถามถามอายุที่ซ่อมปากแหว่งในบางสถาบัน (3–6 เดือน)",
-   "D": "1.5 ปียังอยู่ในช่วงที่ยอมรับได้แต่เริ่มช้า ยิ่งช้ายิ่งเสี่ยงพูดไม่ชัด · จะถูกถ้าคำถามถามขีดสุดของอายุที่ควรซ่อมก่อนพัฒนาการพูด",
-   "E": "2 ปีช้าเกินไป เด็กเริ่มพูดแล้ว เกิดเสียงขึ้นจมูก/ compensatory articulation · จะถูกถ้าคำถามถามสาเหตุของ velopharyngeal insufficiency หลังซ่อมช้า"
+   "A": "อายุ 1 เดือนเร็วเกินไป ทั้งความเสี่ยงยาสลบในทารกแรกเกิด เพดานเล็กผ่าตัดยาก และแผลเป็นรบกวนการเจริญของขากรรไกรบน · ช่วงนี้เน้นการให้นม (ขวดพิเศษ/ จุกนิ่มบีบได้) · จะถูกถ้าเป็นทารก 1–2 สัปดาห์ที่มี cleft lip and palate กว้าง แล้วเริ่มใส่เครื่องมือ nasoalveolar molding (NAM) เพื่อจัดกระดูกและรูปจมูกก่อนผ่าตัดปาก",
+   "B": "6 เดือนยังเร็วกว่าช่วงมาตรฐานของการปิดเพดานทั้งหมด แม้บางศูนย์ทำ 6–12 เดือน แต่ข้อเสียคือรบกวนการเจริญของ maxilla มากขึ้น · จะถูกถ้าเป็นทารก cleft lip and palate ในศูนย์ที่ใช้ two-stage protocol ซึ่งเย็บเพดานอ่อน (velum) ก่อนราว 6 เดือน แล้วค่อยปิดเพดานแข็งภายหลัง",
+   "D": "1.5 ปียังอยู่ในขอบบนที่ ACPA ยอมรับแต่เลยช่วงที่เด็กเริ่มพูดคำแรก เสี่ยงติดการออกเสียงชดเชยมากขึ้น จึงไม่ใช่อายุที่แนะนำ · จะถูกถ้าเป็นทารก Pierre Robin sequence ที่ต้องรอให้ทางเดินหายใจและน้ำหนักขึ้นดีก่อน หรือมีโรคหัวใจพิการแต่กำเนิดที่ต้องแก้ไขก่อน จึงเลื่อนการปิดเพดานออกไป",
+   "E": "2 ปีช้าเกินไป เด็กพูดเป็นคำแล้วและเรียนรู้การออกเสียงผิด (เสียงขึ้นจมูก glottal stop) ที่ต้องฝึกพูดนานและอาจต้องผ่าตัดซ้ำ · จะถูกถ้าเป็นเด็ก 2 ปีจากพื้นที่ห่างไกลที่เพิ่งมาพบแพทย์ครั้งแรกโดยยังไม่เคยผ่าตัด → ปิดเพดานทันทีที่พร้อม ร่วมกับนักแก้ไขการพูด"
   },
-  "trap": "สับสนอายุซ่อมปากแหว่ง (~3 เดือน) กับเพดานโหว่ (~1 ปี ก่อนพูด)",
+  "trap": "สับสนระหว่างอายุผ่าตัด<b>ปากแหว่ง (~3 เดือน, rule of 10)</b> กับ<b>เพดานโหว่ (~1 ปี)</b> จึงเลือก 1 หรือ 6 เดือน · จำเหตุผลคู่กัน: ต้องปิดเพดานก่อนพูด (speech) แต่ไม่เร็วเกินจนขัดการเจริญของ maxilla (growth) จุดสมดุลคือราว 1 ปี",
   "summary": [
-   "Cleft lip: ~3 เดือน (rule of 10s: 10 สัปดาห์ · 10 ปอนด์ · Hb 10)",
-   "Cleft palate: 9–18 เดือน (ก่อนพูด)",
-   "Alveolar bone graft: 8–11 ปี (ก่อนเขี้ยวแท้ขึ้น)",
-   "VPI หลังซ่อม → speech therapy ± pharyngeal flap",
-   "Cleft palate → OME → ใส่ท่อระบายหู",
-   "ทีมสหสาขา: ศัลย์ พูด ฟัน หู พันธุกรรม"
+   "ลำดับเวลา: NAM แรกเกิด–3 เดือน · cleft lip repair ~3 เดือน (rule of 10) · palatoplasty 9–12 เดือน (ACPA ≤ 18 เดือน) · VPI surgery 3–5 ปี · alveolar bone graft 7–11 ปี · orthognathic/ rhinoplasty หลังโตเต็มที่",
+   "Palatoplasty มุ่งการพูด: ซ่อม levator veli palatini ที่เกาะผิดที่ (เกาะขอบหลังเพดานแข็ง) ให้กลับมาเป็นสลิง — เทคนิค intravelar veloplasty, Furlow double-opposing Z-plasty, two-flap palatoplasty (Bardach)",
+   "Trade-off: ผ่าเร็ว → พูดดีแต่ maxilla โตน้อย (midface hypoplasia, class III) · ผ่าช้า → maxilla โตดีกว่าแต่ติดการออกเสียงชดเชย",
+   "Velopharyngeal insufficiency หลังปิดเพดาน ~10–20%: เสียงขึ้นจมูก ลมรั่วทางจมูก → ประเมินด้วย nasoendoscopy/ videofluoroscopy → pharyngeal flap หรือ sphincter pharyngoplasty",
+   "เด็กเพดานโหว่เกือบทุกรายมี otitis media with effusion จาก tensor veli palatini ทำงานผิดปกติ → ตรวจการได้ยิน มักต้องใส่ tympanostomy tube พร้อมการผ่าตัด",
+   "ปัญหาแรกเกิดคือการให้นม (ดูดไม่เกิดแรงดูด): ใช้ขวดบีบ/ จุกพิเศษ ให้ท่าตั้งตรง · Pierre Robin sequence (micrognathia, glossoptosis, U-shaped cleft) ระวังทางเดินหายใจอุดตัน",
+   "Alveolar bone graft (ใช้ cancellous bone จาก iliac crest) ช่วงฟันผสมก่อนเขี้ยวแท้ขึ้น เพื่อให้เขี้ยวขึ้นผ่านกระดูก ปิดรูรั่วจมูก–ปาก และรองรับฐานจมูก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
-  "mnemonic": "<b>'ปาก 3 เดือน · เพดาน 1 ปี (ก่อนพูด)'</b>",
-  "guide": "ACPA Parameters for Evaluation and Treatment of Patients with Cleft Lip/Palate or Other Craniofacial Differences (2018)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด C พร้อมลายมือ ก่อนพูดไม่ชัด และ MCQ Key_1 ขีด C) · ไฟล์ไม่มีรูปแนบแต่คำถามชัดว่าเป็นเพดานโหว่ อายุ 1 ปีตรงช่วงมาตรฐาน 9–12 เดือนที่ปิดก่อนเด็กเริ่มพูด",
+  "mnemonic": "<b>'ปาก 3 เดือน (rule of 10) · เพดาน 1 ปี (ก่อนพูด) · กระดูก 9 ขวบ (ก่อนเขี้ยวขึ้น)'</b>",
+  "guide": "American Cleft Palate–Craniofacial Association: Parameters for Evaluation and Treatment of Patients with Cleft Lip/Palate or Other Craniofacial Differences (Cleft Palate Craniofac J 2018;55:137–156); Grabb and Smith's Plastic Surgery 8th ed. (2020)",
   "variants": [
-   "ทารกปากแหว่ง 10 สัปดาห์ น้ำหนัก 5 kg Hb 11 → cheiloplasty",
-   "เด็ก 4 ขวบหลังซ่อมเพดานเสียงขึ้นจมูก → VPI → speech therapy/ pharyngeal flap",
-   "เด็กเพดานโหว่หูอื้อ → OME → ventilation tube"
+   "ทารกปากแหว่งข้างเดียว อายุ 10 สัปดาห์ น้ำหนัก 5 kg Hb 11 g/dL → พร้อมผ่าตัดซ่อมปากแหว่ง",
+   "เด็ก 4 ขวบหลังปิดเพดานแล้ว พูดเสียงขึ้นจมูก ลมรั่วออกจมูกเวลาออกเสียง ป, ส → velopharyngeal insufficiency → ประเมิน nasoendoscopy แล้วพิจารณา pharyngeal flap",
+   "เด็ก 9 ขวบ cleft lip and palate มีรูต่อระหว่างเหงือกกับจมูก เขี้ยวแท้ยังไม่ขึ้น → alveolar bone graft จาก iliac crest",
+   "ทารกคางเล็ก ลิ้นตกไปหลัง เพดานโหว่รูปตัว U หายใจลำบากเวลานอนหงาย → Pierre Robin sequence → จัดท่านอนคว่ำ/ nasopharyngeal airway ก่อนพิจารณาผ่าตัดขากรรไกร"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 69 — ตัวพิมพ์: <b>7. ให้รูป Cleft palate ควรผ่าตัดเมื่ออายุเท่าใด — A. 1 month B. 6 month C. 1 year D. 1.5 year E. 2 year</b><br>ลายมือ: ขีด C + \"ก่อนพูดไม่ชัด\"<br>ไฮไลต์: \"Cleft palate\" \"ผ่าตัดเมื่ออายุเท่าใด\" · C (เหลือง)<br>หมายเหตุ: ไฟล์ไม่มีรูปแนบ · ก่อนหน้ามี \"6 ตรงแอค stensen duct\" (ขีด 6)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 60: ขีด C (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 69",
@@ -102,30 +108,32 @@
   ]
  },
  "MDCU68|RoB|11": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับแผลไหม้ <b>full thickness</b>",
-  "why": "Full-thickness (third-degree) burn ทำลาย<b>หนังกำพร้าและหนังแท้ทั้งชั้น</b> (รวม adnexa และปลายประสาท) → ผิวแข็งเหมือนหนัง (leathery) สีขาว/ น้ำตาล/ ดำ <b>ไม่เจ็บ</b> (ปลายประสาทถูกทำลาย) <b>ไม่หายเอง</b> (ยกเว้นแผลเล็กมากหายจากขอบ) → ต้อง<b>ตัดเนื้อตายและปลูกผิวหนัง (excision + grafting)</b> · ไฟล์ขีด A",
+  "interp": "ถามข้อความที่<b>ถูก</b>เกี่ยวกับ<b>แผลไหม้ชนิด full-thickness</b> — ต้องรู้การแบ่งความลึกของแผลไหม้ ลักษณะทางคลินิก ระยะเวลาหาย ความเจ็บ และความจำเป็นต้องผ่าตัดปลูกผิวของแต่ละระดับ",
+  "why": "Full-thickness (third-degree) burn ทำลาย<b>หนังกำพร้าและหนังแท้ทั้งชั้น</b> รวมถึง hair follicle, sweat gland ซึ่งเป็นแหล่ง epithelial cell ที่ใช้สร้างผิวใหม่ จึง<b>หายเองไม่ได้</b> (นอกจากแผลเล็กมากที่หดตัวและสร้างผิวจากขอบ) · ลักษณะ: แข็งเหมือนหนัง (leathery) สีขาว น้ำตาล หรือดำไหม้ ไม่มีตุ่มน้ำ กดไม่ซีด ไม่มี capillary refill และ<b>ไม่เจ็บ</b>เพราะปลายประสาทถูกทำลาย · ต้อง<b>ตัดเนื้อตายออกเร็ว (early tangential excision ภายใน 3–5 วันเมื่อ resuscitation คงที่) แล้วปลูกผิว</b> ด้วย split-thickness skin graft (ใช้ meshed graft หรือ skin substitute เมื่อแผลกว้าง) · แผลที่ล้อมรอบแขนขาหรือทรวงอกทำให้ compartment syndrome หรือหายใจไม่ได้ ต้องทำ escharotomy · ไฟล์ขีด A (ต้นฉบับเขียน destroy whole epidermis layer เว็บปรับเป็น epidermis and dermis ให้ตรงนิยาม)",
   "wrong": {
-   "B": "หายเองใน 7 วันคือแผลไหม้ superficial (first degree)/ superficial partial · จะถูกถ้าคำถามถามแผลไหม้แดดผิวแดงไม่มีตุ่มน้ำ",
-   "C": "หายเองใน ~14 วันคือ superficial partial thickness (ตุ่มน้ำ ชมพู เจ็บมาก) · จะถูกถ้าแผลมีตุ่มน้ำ พื้นชมพูชุ่ม กดซีดแล้วแดงกลับ",
-   "D": "Full thickness ต้องปลูกผิวหนัง (ยกเว้นแผลเล็กมาก) · จะถูกถ้าแผลเป็น superficial partial thickness",
-   "E": "Full thickness ไม่เจ็บเพราะปลายประสาทถูกทำลาย (ขอบแผลที่ไหม้ตื้นกว่ายังเจ็บได้) · จะถูกถ้าคำถามถาม superficial partial thickness ซึ่งเจ็บมากที่สุด"
+   "B": "หายเองใน 3–7 วันเป็นลักษณะของ<b>superficial (first-degree) burn</b> ที่ทำลายแค่หนังกำพร้า ผิวแดง เจ็บ ไม่มีตุ่มน้ำ หายไม่เป็นแผลเป็น และไม่นับใน %TBSA สำหรับคำนวณสารน้ำ · จะถูกถ้าเป็นหญิง 20 ปีที่ผิวไหม้แดดหลังเที่ยวทะเล ผิวแดงแสบ ไม่มีตุ่มน้ำ",
+   "C": "หายเองใน 10–14 วันเป็นลักษณะของ<b>superficial partial-thickness burn</b> (ถึง papillary dermis) มีตุ่มน้ำ พื้นแผลชมพูชื้น กดซีด เจ็บมาก หายจากเซลล์ในรูขุมขนโดยแผลเป็นน้อย · จะถูกถ้าเป็นเด็ก 3 ปีที่โดนน้ำร้อนลวกแขน มีตุ่มน้ำใส พื้นแผลชมพูชื้นกดซีด ร้องเจ็บเมื่อแตะ",
+   "D": "แผล full-thickness ส่วนใหญ่ต้องตัดเนื้อตายและปลูกผิว เพราะไม่เหลือ dermal appendage ให้สร้างผิวใหม่ ถ้าปล่อยหายเองจะใช้เวลานานมาก ติดเชื้อ และหดรั้ง · จะถูกถ้าเป็นแผล superficial partial-thickness 3% TBSA ที่ปลายแขน ซึ่งทำแผลด้วย dressing ก็หายเองใน 2 สัปดาห์",
+   "E": "ความเจ็บมากเป็นลักษณะของแผล partial-thickness ที่ปลายประสาทยังอยู่และถูกกระตุ้น ส่วน full-thickness ชาเพราะปลายประสาทถูกทำลาย (ผู้ป่วยอาจเจ็บจากแผลตื้นที่ล้อมรอบ) · จะถูกถ้าเป็นชาย 30 ปีถูกไอน้ำร้อนลวกหน้าอก มีตุ่มน้ำแตก พื้นแผลแดงชื้น เจ็บแม้ลมพัดผ่าน"
   },
-  "trap": "คิดว่าแผลไหม้ลึกต้องเจ็บมาก — full thickness ไม่เจ็บ",
+  "trap": "คิดว่าแผลยิ่งลึกยิ่งเจ็บจึงเลือก E หรือจำระยะเวลาหายของแต่ละระดับสลับกัน · ให้ยึดว่าความลึกตัดสินจาก<b>ส่วนของผิวที่เหลือ</b>: ยังมี dermal appendage → หายเองได้และเจ็บ · ไม่เหลือเลย (full-thickness) → ชา หายเองไม่ได้ ต้อง excision + graft",
   "summary": [
-   "Superficial: แดง เจ็บ ไม่มีตุ่มน้ำ · หาย 5–7 วัน",
-   "Superficial partial: ตุ่มน้ำ ชมพูชุ่ม เจ็บมาก · หาย ~14–21 วัน",
-   "Deep partial: ขาวด่าง กดไม่ซีด เจ็บลดลง · หาย &gt; 3 สัปดาห์ แผลเป็นมาก → มัก graft",
-   "Full thickness: แข็งเหมือนหนัง ไม่เจ็บ · excision + graft",
-   "Fourth degree: ถึงกล้ามเนื้อ/ กระดูก",
-   "Circumferential full thickness → escharotomy"
+   "Superficial (epidermis): แดง แห้ง เจ็บ ไม่มีตุ่มน้ำ หาย 3–7 วัน ไม่เป็นแผลเป็น ไม่นับใน %TBSA",
+   "Superficial partial-thickness (papillary dermis): ตุ่มน้ำ ชมพูชื้น กดซีด เจ็บมาก หายใน 2 สัปดาห์ แผลเป็นน้อย",
+   "Deep partial-thickness (reticular dermis): ขาวปนแดง ชื้นน้อย กดซีดช้าหรือไม่ซีด เจ็บน้อยลง หาย &gt; 3 สัปดาห์และเกิด hypertrophic scar → มักต้อง excision + graft",
+   "Full-thickness: แข็งเหมือนหนัง ขาว/ น้ำตาล/ ดำ ไม่มี capillary refill ชา หายเองไม่ได้ → early excision ภายใน 3–5 วัน + split-thickness skin graft",
+   "Fourth-degree: ลึกถึง fascia กล้ามเนื้อ กระดูก (เช่น ไฟฟ้าแรงสูง) → debridement มาก อาจต้องใช้ flap หรือตัดแขนขา",
+   "Circumferential full-thickness burn ที่แขนขา/ ทรวงอก → eschar ไม่ยืด กดหลอดเลือดและจำกัดการหายใจ → escharotomy ตามแนว mid-axial",
+   "แผลไหม้เป็นพลวัต ความลึกอาจเพิ่มใน 48–72 ชั่วโมงแรก (burn wound conversion) จึงประเมินซ้ำ · Parkland: 4 mL × kg × %TBSA (partial + full) ครึ่งแรกใน 8 ชม. · ATLS 10th ใช้ 2 mL/kg/%TBSA ในผู้ใหญ่"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · เว็บเขียนช้อย A ให้ครบเป็นทั้งหนังกำพร้าและหนังแท้",
-  "mnemonic": "<b>'Full thickness = ลึกสุด ไม่เจ็บ ไม่หาย ต้อง graft'</b>",
-  "guide": "ABA Advanced Burn Life Support Provider Manual; ISBI Practice Guidelines for Burn Care (Burns 2016;42:953)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด A และ MCQ Key_1 ขีด A) · ต้นฉบับเขียนว่า destroy whole epidermis layer ซึ่งไม่ครบนิยาม เว็บเขียนเป็น epidermis and dermis ถูกต้องกว่า ช้อยอื่นเป็นลักษณะของแผลไหม้ที่ตื้นกว่า",
+  "mnemonic": "<b>'ลึกสุด = ชาสุด · ไม่มีขุมขนเหลือ = ไม่หายเอง = ต้อง Graft'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal Injuries; Sabiston Textbook of Surgery 21st ed. (2022) — Burns",
   "variants": [
-   "แผลไหม้มีตุ่มน้ำ ชมพู เจ็บมาก → superficial partial → dressing หายใน 2 สัปดาห์",
-   "แผลไหม้แข็งขาวไม่เจ็บรอบแขน → full thickness → escharotomy + graft",
-   "แผลไหม้แดดแดงไม่มีตุ่มน้ำ → superficial → ไม่ต้องคิดใน TBSA"
+   "คนงานถูกไฟลวกทั้งรอบน่องแข็งเหมือนหนัง ชา ปลายเท้าเย็นและปวดมากขึ้น → escharotomy",
+   "ชายถูกไฟคลอกแผลขาวแข็งไม่เจ็บ 15% TBSA หลัง resuscitation คงที่วันที่ 3 → tangential excision + split-thickness skin graft",
+   "แผลน้ำร้อนลวกที่ดูเป็นตุ่มน้ำวันแรก แต่วันที่ 3 พื้นแผลซีดขาวและเจ็บน้อยลง → แผลลึกขึ้น (burn wound conversion) ประเมินใหม่ว่าต้องผ่าตัดหรือไม่",
+   "ผู้ใหญ่ 70 kg แผลไหม้ partial + full thickness 30% TBSA → Parkland 8,400 mL Ringer's lactate ใน 24 ชม. ครึ่งแรกภายใน 8 ชม.แรกนับจากเวลาเกิดเหตุ ปรับตาม urine output 0.5 mL/kg/hr"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 69 — ตัวพิมพ์: <b>11. Which is true in full thickness skin burn? — A. Destroy whole epidermis layer B. หายเองใน 7 วัน C. หายเองใน 14 วัน D. Not require graft E. Painful</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"true in full thickness skin burn\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 60: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น whole epidermis and dermis",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 69",
@@ -136,30 +144,32 @@
   ]
  },
  "MDCU68|RoB|24": {
-  "interp": "ถามว่า <b>glioblastoma multiforme (GBM)</b> คืออะไร",
-  "why": "GBM คือ <b>astrocytoma ชนิดร้ายแรงที่สุด (WHO grade 4)</b> — เป็นเนื้องอกปฐมภูมิของสมองชนิดร้ายที่พบบ่อยที่สุดในผู้ใหญ่ ลักษณะทางพยาธิ: <b>necrosis (pseudopalisading)</b> และ <b>microvascular proliferation</b> · MRI: ก้อน ring enhancement ตรงกลางตาย (central necrosis) บวมรอบ ข้าม corpus callosum (butterfly) · รักษา: ผ่าตัดเอาออกมากที่สุด + <b>RT + temozolomide (Stupp)</b> · มัธยฐานการรอดชีวิต ~15 เดือน · ไฟล์ขีด D ลายมือ <b>\"grade 4 + มี central necrosis\"</b> และแปะสไลด์ Glioma",
+  "interp": "ถามนิยามของ <b>glioblastoma multiforme (GBM)</b> ว่าเป็นเนื้องอกชนิดใด — ต้องรู้ว่า GBM มาจาก glial cell ชนิด astrocyte และเป็นระดับร้ายแรงสูงสุดของ astrocytic tumor ตามระบบ WHO CNS",
+  "why": "Glioma คือเนื้องอกของ <b>glial cell</b> แบ่งตามเซลล์ต้นกำเนิดเป็น astrocytoma, oligodendroglioma และ ependymoma · <b>GBM คือ astrocytoma ที่ร้ายแรงที่สุด (WHO CNS grade 4)</b> และเป็นเนื้องอกสมองปฐมภูมิชนิดร้ายที่พบบ่อยที่สุดในผู้ใหญ่ (อายุเฉลี่ย ~ 60 ปี) · พยาธิสภาพเด่นคือ<b>เนื้อตายแบบ pseudopalisading necrosis</b> และ <b>microvascular proliferation</b> · WHO CNS5 (2021) ใช้ข้อมูลโมเลกุลร่วม: <b>glioblastoma, IDH-wildtype</b> (ถ้า astrocytic tumor IDH-wildtype มี TERT promoter mutation, EGFR amplification หรือ +7/−10 ก็จัดเป็น GBM แม้ไม่เห็น necrosis) ส่วนชนิด IDH-mutant ที่รุนแรงเรียกใหม่ว่า astrocytoma, IDH-mutant, grade 4 · MRI เห็นก้อน<b>ขอบ enhance เป็นวงรอบเนื้อตายตรงกลาง</b> บวมรอบมาก และอาจลามข้าม corpus callosum (butterfly glioma) · รักษา: maximal safe resection แล้ว <b>Stupp protocol</b> (RT 60 Gy ใน 30 ครั้ง + temozolomide พร้อมฉายแสงและต่ออีก 6 รอบ) · MGMT promoter methylation พยากรณ์ตอบสนองต่อ temozolomide · median survival ~ 15 เดือน · ไฟล์ขีด D ลายมือ <b>\"grade 4 + มี central necrosis\"</b> และสไลด์ glioma ที่แปะเขียนว่า GBM prognosis ไม่ดี",
   "wrong": {
-   "A": "Malignant nerve sheath tumor (MPNST) เกิดจาก Schwann cell เส้นประสาทส่วนปลาย สัมพันธ์ NF1 · จะถูกถ้าผู้ป่วย NF1 มี plexiform neurofibroma ที่โตเร็วและปวดขึ้น",
-   "B": "Malignant (anaplastic) meningioma มาจากเยื่อหุ้มสมอง (arachnoid cap cell) ไม่ใช่ glial cell · จะถูกถ้าก้อนติด dura มี dural tail แต่ลุกลามเนื้อสมอง ชิ้นเนื้อ WHO grade 3",
-   "C": "เนื้องอก neuroendocrine ไม่ร้ายไม่ใช่ GBM · จะถูกถ้าคำถามถาม pituitary adenoma/ paraganglioma",
-   "E": "มีคำตอบที่ถูก (D) · จะถูกถ้าทุกช้อยไม่ใช่ astrocytoma"
+   "A": "Malignant peripheral nerve sheath tumor เกิดจาก Schwann cell/ เส้นประสาทส่วนปลาย ไม่ใช่ glial cell ในสมอง ราวครึ่งหนึ่งเกิดใน neurofibromatosis type 1 มักกลายจาก plexiform neurofibroma · จะถูกถ้าเป็นผู้ป่วย NF1 อายุ 30 ปีที่ก้อน plexiform neurofibroma ที่ต้นขาโตเร็วขึ้นภายในไม่กี่เดือนและปวดมากขึ้น",
+   "B": "Malignant (anaplastic) meningioma WHO grade 3 มาจาก arachnoid cap cell เป็นก้อนนอกเนื้อสมองติดเยื่อดูรา (dural tail) ไม่ใช่ astrocyte · จะถูกถ้าเป็นหญิง 60 ปีที่ก้อนติดเยื่อหุ้มสมองกลับเป็นซ้ำเร็วหลังผ่าตัด พยาธิพบ mitosis ≥ 20 ต่อ 10 HPF ลักษณะคล้าย carcinoma",
+   "C": "Benign neuroendocrine tumor ในกะโหลกที่พบบ่อยคือ pituitary adenoma (ปัจจุบันเรียก PitNET) ซึ่งไม่ใช่เนื้องอกของ glial cell และไม่ใช่ชนิดร้ายแรง ขณะที่ GBM ร้ายแรงที่สุด · จะถูกถ้าเป็นหญิง 35 ปีที่มีก้อนที่ sella ทำให้ประจำเดือนขาด น้ำนมไหล และลานสายตาด้านข้างทั้งสองข้างแคบ (bitemporal hemianopia)",
+   "E": "None of the above ผิดเพราะช้อย D นิยาม GBM ได้ถูกต้อง · ช้อยนี้จะเหมาะเฉพาะก้อนในสมองที่ไม่ใช่ชนิดใดในช้อยทั้งหมด — จะถูกถ้าเป็นผู้ป่วย HIV ที่ CD4 &lt; 100 มีก้อน enhance รอบ ventricle หลายก้อน ซึ่งคือ primary CNS lymphoma (หรือ toxoplasmosis) ไม่ใช่ astrocytoma, meningioma, nerve sheath tumor หรือ neuroendocrine tumor"
   },
-  "trap": "สับสนว่า GBM มาจากเยื่อหุ้มสมองหรือเส้นประสาท — GBM เป็น glial (astrocytic) tumor grade 4",
+  "trap": "ชื่อ multiforme ไม่บอกเซลล์ต้นกำเนิด ทำให้บางคนเดาเป็นเนื้องอกชนิดอื่นที่มีคำว่า malignant · ให้จำว่า GBM คือ astrocytoma grade 4 — คำว่า malignant meningioma และ MPNST ก็ร้ายแต่ต้นกำเนิดคนละเซลล์ (arachnoid cap cell และ Schwann cell)",
   "summary": [
-   "Glioma: astrocytoma · oligodendroglioma · ependymoma",
-   "GBM = astrocytoma WHO grade 4 · พบบ่อยที่สุดในผู้ใหญ่",
-   "พยาธิ: pseudopalisading necrosis · microvascular proliferation",
-   "MRI: ring enhancement · butterfly glioma",
-   "Stupp: ผ่าตัด + RT + temozolomide (MGMT methylation ตอบสนองดี)",
-   "WHO 2021: IDH-wildtype = GBM · IDH-mutant = astrocytoma grade 4"
+   "Glioma = เนื้องอกของ glial cell: astrocytoma, oligodendroglioma (1p/19q codeletion + IDH-mutant), ependymoma — GBM คือ astrocytic tumor ที่ร้ายแรงที่สุด",
+   "WHO CNS5 (2021): glioblastoma, IDH-wildtype grade 4 · astrocytoma, IDH-mutant grade 2–4 · ใช้ CNS WHO grade เลขอารบิก 1–4 และแบ่งเกรดภายในชนิดเนื้องอก",
+   "พยาธิ GBM: pseudopalisading necrosis + microvascular proliferation · ข้อมูลโมเลกุลที่ยกระดับเป็น GBM: TERT promoter mutation, EGFR amplification, +7/−10",
+   "MRI: ก้อน ring enhancement ขอบหนาไม่เรียบ ล้อมเนื้อตายตรงกลาง บวมรอบมาก ข้าม corpus callosum ได้ (butterfly) · DDx ring-enhancing: metastasis, abscess, lymphoma, demyelination",
+   "รักษา GBM: maximal safe resection (ใช้ 5-ALA/ neuronavigation) → Stupp: RT 60 Gy/ 30 fx + concurrent temozolomide 75 mg/m² ต่อด้วย adjuvant 6 รอบ ± tumor-treating fields",
+   "พยากรณ์: median survival ~ 15 เดือนด้วย Stupp · MGMT promoter methylated ตอบสนองต่อ temozolomide ดีกว่า · อายุน้อยและ KPS ดีพยากรณ์ดีกว่า",
+   "Glioma ส่วนใหญ่แทรกซึมเนื้อสมองจึงตัดออกหมดไม่ได้ ต้องให้ chemoradiation ต่อ (ตามลายมือในไฟล์) · ยกเว้น pilocytic astrocytoma grade 1 ที่ขอบชัดผ่าตัดหายขาดได้"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
-  "mnemonic": "<b>'GBM = Grade 4 + Big necrosis (Butterfly)'</b>",
-  "guide": "WHO Classification of Tumours of the CNS 5th ed. (2021); NCCN Clinical Practice Guidelines: Central Nervous System Cancers v.2025 — Glioblastoma",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด D พร้อมลายมือ grade 4 + central necrosis และ MCQ Key_1 ขีด D) · ตามระบบ WHO ปัจจุบันชื่อที่ใช้คือ glioblastoma, IDH-wildtype แต่สาระว่าเป็น malignant astrocytic tumor ระดับ 4 ยังเหมือนเดิม",
+  "mnemonic": "<b>'GBM = Grade 4 astrocytoma = Big Necrosis (ring enhance) → Stupp'</b>",
+  "guide": "Louis DN, et al. The 2021 WHO Classification of Tumors of the Central Nervous System: a summary (Neuro-Oncology 2021;23:1231–1251); Stupp R, et al. NEJM 2005;352:987–996; Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "ชาย 60 ปีปวดหัว ชัก MRI ก้อน ring enhancement ข้าม corpus callosum → GBM",
-   "หลังผ่าตัด GBM → RT 60 Gy + temozolomide",
-   "เด็กก้อน cerebellum มีถุงน้ำ + mural nodule → pilocytic astrocytoma (grade 1)"
+   "ชาย 62 ปี ปวดศีรษะตอนเช้า อ่อนแรงซีกขวา 1 เดือน MRI ก้อน ring enhancement ที่ frontal lobe ซ้ายข้าม corpus callosum → สงสัย GBM → maximal safe resection แล้ว Stupp protocol",
+   "เด็ก 8 ปี เดินเซ MRI ก้อนถุงน้ำมี mural nodule enhance ใน cerebellum → pilocytic astrocytoma (grade 1) → ผ่าตัดออกหมดหายขาดได้",
+   "ผลพยาธิ astrocytic tumor IDH-wildtype ไม่เห็น necrosis แต่มี EGFR amplification → จัดเป็น glioblastoma, IDH-wildtype grade 4",
+   "ทำไมผู้ป่วย GBM ที่ MGMT promoter methylated อยู่ได้นานกว่า → เซลล์เนื้องอกซ่อม DNA ที่ถูก temozolomide ทำลายไม่ได้ ยาจึงได้ผลดีกว่า"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 69 — หัวข้อ Neuro · ตัวพิมพ์: <b>24. What is Glioblastoma Multiforme? — A. Malignant nerve sheath tumor B. Malignant meningiomas C. Benign Neuroendocrine tumor D. Malignant Astrocytoma E. None of all above.</b><br>ลายมือ: ขีด D + \"grade 4 + มี central necrosis\"<br>ไฮไลต์: \"Glioblastoma Multiforme\" · D (เหลือง)<br>รูปที่แปะ: สไลด์ Glioma (ลายมือ \"tumor ของ glial cell · ตัดออกหมดไม่ได้ ∴ Bx หลังด้วย chemoradiation ✓\") · Histological subtype (\"แบ่งตาม cell ต้นกำเนิด\"): ① Astrocytoma ② Oligodendroglioma ③ Ependymoma ④ Glioblastoma multiforme (\"→ prognosis ไม่ดี\") พร้อมภาพ MRI ก้อนในสมอง<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 60: ขีด D (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 69",
@@ -170,30 +180,32 @@
   ]
  },
  "MDCU68|RoB|25": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับเนื้องอกสมอง",
-  "why": "<b>มะเร็งสมองปฐมภูมิมักไม่กระจายออกนอกระบบประสาทส่วนกลาง (CNS)</b> — เพราะไม่มีระบบท่อน้ำเหลืองในสมอง และ blood-brain barrier (กระจายได้ตามน้ำไขสันหลังภายใน CNS เช่น medulloblastoma drop mets หรือนอก CNS เมื่อผ่าน shunt/ ผ่าตัด) · ข้ออื่นผิด: เนื้องอกไม่ร้าย<b>ทำให้ตายได้</b>เพราะโตในกะโหลกที่ปิด, WHO grade ที่ร้ายที่สุดคือ <b>grade 4</b> (ไม่ใช่ 1), มะเร็งที่กระจายมาสมอง<b>ยังรักษาได้</b> (ผ่าตัด/ stereotactic radiosurgery/ WBRT/ ยา) · ไฟล์ขีด E และแก้ลายมือ: A ขีดฆ่า \"ไม่\" (→ ทำให้ตาย) · C ขีดฆ่า \"X\" เขียน <b>\"IV\"</b> · D ขีดฆ่า \"ไม่\" เขียน <b>\"palliative Sx\"</b> และแปะสไลด์ <b>Benign VS Malignant</b>",
+  "interp": "ถามข้อความที่<b>ถูก</b>เกี่ยวกับเนื้องอกสมอง — ช้อยเป็นความเชื่อผิดที่พบบ่อยเรื่องเนื้องอกไม่ร้ายในสมอง ระบบเกรดของ WHO การรักษา brain metastasis และการแพร่กระจายของเนื้องอกสมองชนิดร้าย",
+  "why": "เนื้องอกสมองชนิดร้ายปฐมภูมิ (เช่น GBM) <b>แทบไม่แพร่กระจายออกนอกระบบประสาทส่วนกลาง</b> (extraneural metastasis &lt; 1–2%) เพราะสมองไม่มีระบบท่อน้ำเหลืองแบบอวัยวะอื่น มีเยื่อดูราและ blood–brain barrier กั้น และผู้ป่วยส่วนใหญ่เสียชีวิตจากก้อนในกะโหลกก่อน แต่<b>แพร่ไปตามน้ำไขสันหลังได้ (CSF seeding/ drop metastasis)</b> ไปไขสันหลังและสมองส่วนอื่น โดยเฉพาะ medulloblastoma, ependymoma, germ cell tumor · ส่วนข้อความอื่นผิด: เนื้องอกไม่ร้ายก็ทำให้ตายได้เพราะโตในกะโหลกที่ปิด (Monro–Kellie) จนสมองเคลื่อน และอาจอยู่ใน eloquent area ที่ตัดออกไม่หมด · WHO grade 4 ร้ายที่สุด (grade 1 ร้ายน้อยที่สุด) · brain metastasis ยังรักษาได้ด้วย surgery, stereotactic radiosurgery, whole-brain RT, steroid และยามุ่งเป้า เพื่อคุมอาการและยืดชีวิต · ไฟล์ขีด E และสไลด์ที่แปะเขียนว่า <b>\"Malignant brain tumor มักไม่ metastases ออกนอก CNS\"</b> พร้อมลายมือ <b>\"seeding ไปตาม CSF ได้\"</b>",
   "wrong": {
-   "A": "ผิด — เนื้องอกไม่ร้ายทำให้ตายได้จากการโตในกะโหลกที่ปิด (ลายมือขีดฆ่า \"ไม่\") · จะถูกถ้าช้อยบอกว่าเนื้องอกไม่ร้ายก็ทำให้ตายได้",
-   "B": "ผิด — grade 1 ร้ายน้อยที่สุด (เช่น pilocytic astrocytoma) · จะถูกถ้าช้อยบอกว่า grade 1 มีพยากรณ์ดีที่สุด",
-   "C": "ผิด — WHO grade สูงสุดคือ 4 (ลายมือแก้เป็น IV) ไม่ใช่ grade 2 · จะถูกถ้าช้อยเขียนว่า grade 4 ร้ายที่สุด",
-   "D": "ผิด — ยังรักษาได้ (ผ่าตัดก้อนเดี่ยว SRS WBRT ยาเป้าหมาย) ลายมือ \"palliative Sx\" · จะถูกถ้าช้อยบอกว่า brain metastasis หลายก้อนในผู้ป่วยสภาพแย่มาก (KPS ต่ำ) เน้นประคับประคอง"
+   "A": "ข้อความผิด — เนื้องอกไม่ร้ายในสมอง (เช่น meningioma, vestibular schwannoma) โตในกะโหลกที่ขยายไม่ได้ ทำให้ความดันในกะโหลกสูง สมองเคลื่อนและเสียชีวิตได้ (ลายมือแก้ว่าทำให้ตายได้) · จะถูกถ้าเป็นหญิง 70 ปีที่พบ meningioma ขนาด 1 cm โดยบังเอิญ ไม่มีอาการ และ MRI ติดตามหลายปีไม่โต จึงเฝ้าดูได้โดยไม่เป็นอันตราย",
+   "B": "ข้อความผิด — WHO grade 1 คือเนื้องอกที่ร้ายน้อยที่สุด เซลล์แบ่งตัวช้า ขอบชัด ผ่าตัดออกหมดอาจหายขาด เช่น pilocytic astrocytoma, meningioma grade 1 · จะถูกถ้ากล่าวถึง grade 4 เช่น ชาย 60 ปีที่มีก้อน ring-enhancing ในสมองผลพยาธิเป็น glioblastoma ซึ่งร้ายที่สุด",
+   "C": "ข้อความผิด — grade 2 (เช่น diffuse astrocytoma IDH-mutant, oligodendroglioma) แทรกซึมเนื้อสมองและกลายเป็นเกรดสูงได้ในหลายปี แต่ยังไม่ร้ายที่สุด (ต้นฉบับเขียน grade X ลายมือแก้เป็น IV) · จะถูกถ้าเป็นเกรด 4 เช่นผู้ป่วยที่ผลชิ้นเนื้อมี necrosis และ microvascular proliferation (glioblastoma)",
+   "D": "ข้อความผิด — brain metastasis ยังรักษาได้ (ลายมือเขียน palliative Sx): ก้อนเดียวหรือไม่กี่ก้อนในผู้ป่วยสภาพดี → ผ่าตัด/ stereotactic radiosurgery ซึ่งยืดชีวิตได้ · หลายก้อน → SRS หรือ whole-brain RT · บวมมาก → dexamethasone · จะถูกถ้าเป็นผู้ป่วยมะเร็งปอดที่ KPS &lt; 50 มี brain metastasis หลายก้อนและโรคทั่วตัวคุมไม่ได้ ซึ่งให้ best supportive care + steroid อย่างเดียว (QUARTZ trial)"
   },
-  "trap": "คิดว่าเนื้องอกไม่ร้ายไม่อันตราย หรือ grade 1 ร้ายที่สุด — WHO grade ยิ่งสูงยิ่งร้าย (4 สูงสุด)",
+  "trap": "สับสนกับมะเร็งอวัยวะอื่นที่ร้ายแปลว่าแพร่กระจายไกล จึงไม่กล้าเลือก E · หรือคิดว่า benign ปลอดภัยเสมอ · ในสมองให้คิดว่าตำแหน่งและพื้นที่จำกัดสำคัญกว่าชนิดเซลล์ และเนื้องอกชนิดร้ายแพร่ไปตาม CSF มากกว่าออกนอก CNS",
   "summary": [
-   "Benign brain tumor ทำให้ตายได้ (กะโหลกปิด · eloquent area · infiltrate)",
-   "WHO CNS grade 1–4 · 4 ร้ายที่สุด (GBM)",
-   "มะเร็งสมองปฐมภูมิแทบไม่กระจายนอก CNS",
-   "กระจายใน CNS ทาง CSF: medulloblastoma · ependymoma · germinoma",
-   "Brain metastasis: ผ่าตัดก้อนเดี่ยว · SRS · WBRT · targeted therapy",
-   "Brain metastasis พบบ่อยกว่ามะเร็งสมองปฐมภูมิในผู้ใหญ่"
+   "Benign ในสมองก็ตายได้: กะโหลกปิด (Monro–Kellie) ก้อนโต → ICP สูง → herniation · อยู่ใน eloquent area (motor, speech, visual cortex) หรือ infiltrate จึงตัดหมดไม่ได้",
+   "CNS WHO grade 1–4: grade 1 ขอบชัดโตช้า (pilocytic astrocytoma) · grade 2 แทรกซึมโตช้า · grade 3 anaplastic (mitosis มาก) · grade 4 necrosis/ microvascular proliferation (GBM, medulloblastoma)",
+   "Extraneural metastasis ของเนื้องอกสมองปฐมภูมิพบน้อยมาก (&lt; 1–2%) มักหลังผ่าตัดหรือ shunt · CSF seeding (drop metastasis) พบได้ใน medulloblastoma, ependymoma, germinoma → MRI ไขสันหลัง + CSF cytology",
+   "Brain metastasis เป็นเนื้องอกในกะโหลกที่พบบ่อยที่สุดในผู้ใหญ่ ต้นกำเนิด: ปอด เต้านม melanoma ไต ลำไส้ · มักอยู่ที่ gray–white junction หลายก้อน",
+   "รักษา brain metastasis: ก้อนเดียวที่เข้าถึงได้ + โรคทั่วตัวคุมได้ → ผ่าตัด + SRS ที่ cavity · 1–4 (ถึง 10) ก้อนเล็ก → SRS · หลายก้อน → WBRT (hippocampal avoidance + memantine) · ยามุ่งเป้า/ immunotherapy ผ่าน BBB ได้ในบางชนิด",
+   "Dexamethasone ลด vasogenic edema รอบก้อน (ไม่ช่วย cytotoxic edema) · ยากันชักให้เฉพาะผู้ที่เคยชัก ไม่ให้ป้องกันในผู้ที่ไม่เคยชัก",
+   "ผู้ป่วย brain metastasis ที่ KPS ต่ำ โรคทั่วตัวลุกลาม → best supportive care + steroid (QUARTZ: WBRT ไม่เพิ่มชีวิตหรือคุณภาพชีวิตใน NSCLC กลุ่มนี้)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ในไฟล์ · ต้นฉบับช้อย C เขียน \"WHO grade X\" ผู้จดแก้เป็น IV เว็บเขียนเป็น grade II เพื่อให้เป็นข้อผิด",
-  "mnemonic": "<b>'Brain tumor: Benign ก็ตายได้ · Grade 4 ร้ายสุด · Malignant ไม่ออกนอก CNS'</b>",
-  "guide": "WHO Classification of Tumours of the CNS 5th ed. (2021); ASCO-SNO-ASTRO Guideline: Treatment for Brain Metastases (J Clin Oncol 2022;40:492)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด E พร้อมสไลด์ Benign VS Malignant และ MCQ Key_1 ขีด E) · ลายมือแก้ช้อยอื่นทุกข้อ (A ทำให้ตายได้, grade IV ร้ายสุด, D ยังรักษาแบบ palliative) ยืนยันว่ามีเพียง E ที่ถูก",
+  "mnemonic": "<b>'สมอง: Benign ก็ฆ่าได้ · Grade 4 ร้ายสุด · Mets ยังรักษา · Malignant ไม่ออกนอก CNS แต่ลง CSF'</b>",
+  "guide": "Louis DN, et al. WHO Classification of Tumours of the CNS 5th ed. (Neuro-Oncology 2021); Vogelbaum MA, et al. Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline (J Clin Oncol 2022;40:492–516); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "meningioma ก้อนใหญ่กดก้านสมอง → เสียชีวิตได้แม้ไม่ร้าย",
-   "มะเร็งปอดกระจายสมองก้อนเดียว สภาพดี → ผ่าตัด/ SRS",
-   "medulloblastoma กระจายตามไขสันหลัง → craniospinal irradiation"
+   "เด็ก 6 ปีผ่าตัด medulloblastoma ที่ cerebellum ก่อนให้การรักษาต่อ → MRI ทั้งไขสันหลังและตรวจ CSF cytology หา drop metastasis",
+   "หญิงมะเร็งเต้านมคุมโรคทั่วตัวได้ มี brain metastasis ก้อนเดียว 3 cm ที่ cerebellum กดโพรงสมองที่ 4 → ผ่าตัดเอาก้อนออก + SRS ที่โพรง",
+   "ผู้ป่วย meningioma ก้อนใหญ่ที่ sphenoid wing ซึมลง รูม่านตาข้างเดียวกันขยาย → herniation จากเนื้องอกไม่ร้าย ต้องลดความดันในกะโหลกและผ่าตัดด่วน",
+   "ทำไมเนื้องอกสมองชนิดร้ายไม่ค่อยแพร่ออกนอก CNS → สมองไม่มีระบบท่อน้ำเหลืองแบบทั่วไป มีเยื่อดูรากั้น และผู้ป่วยมักเสียชีวิตจากก้อนในกะโหลกก่อน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 69–70 — ตัวพิมพ์: <b>25 ข้อใดถูก — A benign tumor ใน brain ไม่ทำให้ตาย B WHO grade I มีความเป็นmalignant มากที่สุด C WHO grade X มีความเป็นmalignant มากที่สุด D tumor ที่ metas มาที่brain ไม่ต้องรักษาแล้ว เพราะเป็น stage 4 แล้ว E malignant มักไม่metas ออกนอกcns</b><br>ลายมือ: A ขีดฆ่า \"ไม่\" · C ขีดฆ่า \"X\" เขียน \"IV\" · D ขีดฆ่า \"ไม่\" + \"palliative Sx\" · ขีด E<br>ไฮไลต์: E (เหลือง)<br>รูปที่แปะ: สไลด์ Benign VS Malignant — \"ในทาง pathology อาจแบ่ง brain tumor ออกเป็น benign หรือ malignant แต่เมื่อเทียบกับอวัยวะอื่น · <b>Benign tumor ก็ทำให้คนไข้ตายได้ เพราะมันโตขึ้นเรื่อยๆในกะโหลกซึ่งเป็นที่ปิด</b> · Benign tumor ไม่ได้แปลว่าจะผ่าตัดออกได้ง่ายหรือได้หมด เพราะมันอาจ infiltrate ในเนื้อเป็นวงกว้างจนตัดออกไม่ได้หมด หรืออาจอยู่ในสมองส่วนสำคัญที่หากผ่าตัดอาจเกิดความพิการมาก (eloquent brain) · <b>Malignant Brain tumor มักไม่ metastases ออกนอก CNS</b>\" (ลายมือเล็ก: ไม่ค่อย metas แต่ seeding ไปตาม CSF ได้ → spinal cord, brain อื่น · eloquent ex. Motor cortex → อ่อนแรงครึ่งซีก, visual cortex → ตาบอด)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 61: ขีด E (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย C เขียนเป็น grade II",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 69",
@@ -205,30 +217,32 @@
   ]
  },
  "MDCU68|RoB|26": {
-  "interp": "ชาย 25 ปี ถูกตีศีรษะ <b>บวมที่ frontotemporal</b> GCS E1M4V2 <b>decerebrate ขวา รูม่านตาซ้าย 5 mm ขวา 3 mm</b> → ถามชนิดของ herniation",
-  "why": "<b>รูม่านตาขยายข้างเดียวกับรอยโรค (ipsilateral, ซ้าย)</b> + <b>อ่อนแรง/ posturing ด้านตรงข้าม (ขวา)</b> + ซึมลง = <b>uncal (transtentorial) herniation</b> — uncus ของ temporal lobe เคลื่อนผ่าน tentorial notch กด <b>CN III</b> (parasympathetic fibers ด้านนอก → รูม่านตาขยาย) และกด cerebral peduncle → อ่อนแรงด้านตรงข้าม · มักเกิดจาก epidural/ subdural hematoma ที่ temporal · ไฟล์ไฮไลต์ 2 (ผู้จดเขียน \"ซ้ำ\" และระบุ \"ตรงๆแอคปีก่อนๆ\")",
+  "interp": "ชายบาดเจ็บศีรษะ บวมที่ frontotemporal ซึมมาก (E1V2M4) <b>รูม่านตาซ้ายขยาย 5 mm</b> และ <b>decerebrate ด้านขวา</b> (ตรงข้ามกับรูม่านตาที่ขยาย) — ถามชนิดของ brain herniation ซึ่งต้องจับคู่อาการกับตำแหน่งที่สมองเคลื่อนกดโครงสร้าง",
+  "why": "<b>Uncal (transtentorial lateral) herniation</b> เกิดจากก้อนเลือดหรือก้อนเนื้องอกที่ temporal/ middle fossa ดัน <b>uncus</b> ของ medial temporal lobe ลอดขอบ tentorium ลงไป → กด<b>เส้นประสาทสมองคู่ที่ 3 ข้างเดียวกัน</b> ซึ่ง parasympathetic fiber อยู่ผิวนอกจึงเสียก่อน → <b>รูม่านตาขยายไม่ตอบสนองแสงข้างเดียวกับก้อน</b> (ต่อมาหนังตาตก ตามองลงออกนอก) · และกด <b>cerebral peduncle ข้างเดียวกัน</b> ซึ่ง corticospinal tract ยังไม่ไขว้ → <b>อ่อนแรง/ posturing ด้านตรงข้าม</b> · กดหลอดเลือด posterior cerebral artery → occipital infarct · ระดับความรู้สึกตัวลดจากการกด reticular activating system ในก้านสมอง · ผู้ป่วยมี GCS 7 (E1V2M4) ≤ 8 ต้องใส่ท่อช่วยหายใจ ให้ hyperventilation ระยะสั้น (PaCO₂ 30–35) และ mannitol 0.25–1 g/kg หรือ hypertonic saline เป็นสะพาน แล้ว CT และผ่าตัดด่วน · ไฟล์ไฮไลต์ช้อย 2 uncal herniation และลายมือเขียนว่าซ้ำ",
   "wrong": {
-   "A": "Central herniation: diencephalon เคลื่อนลงตรงกลาง → รูม่านตาเล็กทั้งสองข้าง ซึม Cheyne-Stokes ไม่ใช่รูม่านตาขยายข้างเดียว · จะถูกถ้าผู้ป่วยสมองบวมทั่ว (diffuse) รูม่านตาเล็กสองข้าง ค่อย ๆ ซึม",
-   "C": "Subfalcine herniation: cingulate gyrus ลอดใต้ falx กด ACA → ขาอ่อนแรง ไม่มีรูม่านตาขยาย · จะถูกถ้า CT เห็น midline shift มาก ผู้ป่วยขาอ่อนแรงด้านตรงข้าม",
-   "D": "Tonsillar herniation: cerebellar tonsil ลงผ่าน foramen magnum กด medulla → หยุดหายใจ ความดันแปรปรวน · จะถูกถ้าก้อน posterior fossa ผู้ป่วยคอแข็ง หยุดหายใจทันที",
-   "E": "Upward herniation: ก้อน posterior fossa ดัน cerebellum ขึ้น (มักหลังระบาย CSF จาก EVD) · จะถูกถ้าผู้ป่วยก้อน cerebellum ซึมลงหลังใส่ EVD"
+   "A": "Central (transtentorial downward) herniation เกิดจากก้อนกลางหรือบวมทั้งสองข้าง ดัน diencephalon และก้านสมองลงตรง ๆ → รูม่านตาเล็กแล้วค้างกลางทั้งสองข้าง หายใจแบบ Cheyne–Stokes posturing ทั้งสองข้าง และ CN VI palsy ไม่มีรูม่านตาขยายข้างเดียวในระยะแรก · จะถูกถ้าเป็นชาย 50 ปีที่มีสมองบวมทั่วหลังขาดออกซิเจนจากหัวใจหยุดเต้น รูม่านตาทั้งสองข้างเล็กเท่ากันแล้วค้างกลาง",
+   "C": "Subfalcine herniation พบบ่อยที่สุด cingulate gyrus ลอดใต้ falx ไปอีกข้าง กด anterior cerebral artery → ขาข้างตรงข้ามอ่อนแรง เห็นเป็น midline shift บน CT ไม่ทำให้รูม่านตาขยาย · จะถูกถ้าเป็นผู้ป่วย acute SDH ที่ frontal ด้านขวา CT เห็น midline shift ไปซ้าย และขาซ้ายอ่อนแรงมากกว่าแขน",
+   "D": "Tonsillar herniation ต่อม cerebellar tonsil ลงผ่าน foramen magnum กด medulla → หยุดหายใจ หัวใจเต้นผิดจังหวะ ตายเฉียบพลัน คอแข็ง มักจากก้อนใน posterior fossa หรือเจาะหลังขณะความดันในกะโหลกสูง · จะถูกถ้าเป็นผู้ป่วยก้อนในสมองน้อยที่ถูกเจาะน้ำไขสันหลังแล้วหยุดหายใจทันที",
+   "E": "Upward (ascending transtentorial) herniation เกิดจากก้อนใน posterior fossa ดัน vermis ขึ้นผ่าน tentorial notch โดยเฉพาะหลังระบายน้ำไขสันหลังจากโพรงสมองด้านบนเร็วเกินไป → กด midbrain, aqueduct (hydrocephalus), superior cerebellar artery · จะถูกถ้าเป็นผู้ป่วย cerebellar hemorrhage ที่ใส่ external ventricular drain แล้วซึมลงทันทีและมองขึ้นไม่ได้"
   },
-  "trap": "ใช้ด้านอ่อนแรงบอกตำแหน่งรอยโรค — ด้านรูม่านตาขยายบอกตำแหน่งได้แม่นกว่า (~90%)",
+  "trap": "เห็นอ่อนแรงด้านขวาแล้วคิดว่าก้อนอยู่ขวาเพราะรูม่านตาขวาเล็กกว่า · ให้ยึดรูม่านตาที่<b>ขยาย</b>เป็นด้านของก้อน (ซ้าย) และ posturing ด้านตรงข้ามคือรูปแบบคลาสสิกของ uncal herniation · ระวังว่าโจทย์เขียน M4 (withdrawal) แต่บรรยาย decerebrate ซึ่งตามนิยามคือ M2",
   "summary": [
-   "Uncal: รูม่านตาขยายข้างเดียวกับรอยโรค + อ่อนแรงด้านตรงข้าม",
-   "Kernohan notch: อ่อนแรงข้างเดียวกับรอยโรค (false localizing)",
-   "Central: รูม่านตาเล็กสองข้าง · Cheyne-Stokes · decorticate → decerebrate",
-   "Subfalcine: ACA → ขาอ่อนแรง",
-   "Tonsillar: หยุดหายใจ · Cushing triad",
-   "รักษา: ยกศีรษะ 30° · mannitol/ hypertonic saline · hyperventilation ชั่วคราว · ผ่าตัด"
+   "Monro–Kellie: กะโหลกมีปริมาตรคงที่ (สมอง ~80% เลือด ~10% CSF ~10%) เมื่อชดเชยด้วยการไล่ CSF/ เลือดดำหมด ความดันในกะโหลกจะพุ่งขึ้นและสมองเคลื่อน",
+   "Uncal: CN III ข้างเดียวกัน (รูม่านตาขยาย → หนังตาตก ตาลงออกนอก) + อ่อนแรง/ posturing ตรงข้าม + PCA infarct · เกิดจากก้อนที่ temporal เช่น epidural hematoma",
+   "Central: diencephalon/ ก้านสมองลงตรง → รูม่านตาเล็กแล้วค้างกลางทั้งสองข้าง Cheyne–Stokes, CN VI palsy, decorticate → decerebrate, Duret hemorrhage",
+   "Subfalcine (บ่อยสุด): cingulate gyrus ใต้ falx กด ACA → ขาตรงข้ามอ่อนแรง · Tonsillar: medulla ถูกกด → หยุดหายใจ, Cushing triad · Upward: ก้อน posterior fossa + ระบาย CSF ด้านบน",
+   "Posturing: decorticate (แขนงอ ขาเหยียด = รอยโรคเหนือ red nucleus, GCS M3) · decerebrate (แขนเหยียดหมุนเข้า = midbrain/ pons, GCS M2) พยากรณ์แย่กว่า",
+   "GCS ≤ 8 → ใส่ท่อช่วยหายใจ · สงสัย herniation: ยกหัวเตียง 30° hyperventilation ระยะสั้นเป้า PaCO₂ 30–35 mmHg mannitol 0.25–1 g/kg หรือ hypertonic saline แล้ว CT + ผ่าตัดด่วน",
+   "รูม่านตาที่ขยายบอกด้านก้อนได้แม่นกว่าด้านที่อ่อนแรง เพราะอาจเกิด Kernohan notch ทำให้อ่อนแรงข้างเดียวกับก้อน (false localizing sign)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ไฟล์ไม่ได้ขีดแต่ไฮไลต์ uncal herniation · ต้นฉบับช้อย 5 ว่าง จึงเติม E",
-  "mnemonic": "<b>'Uncal = Unilateral pupil (CN III) ข้างเดียวกับก้อน'</b>",
-  "guide": "ATLS 10th ed. (2018) — Head trauma; Brain Trauma Foundation Guidelines for the Management of Severe TBI 4th ed. (2016)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ไฮไลต์ uncal herniation และ MCQ Key_1 ขีด B) · รูม่านตาซ้ายขยายร่วมกับ posturing ด้านขวาคือรูปแบบคลาสสิก แม้โจทย์มี M4 ซึ่งไม่ตรงกับ decerebrate (M2) แต่ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Uncal = ตาข้างก้อน (CN III) + แขนขาข้างตรงข้าม'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Head Trauma; Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Herniation syndromes",
   "variants": [
-   "ถูกตีขมับ หมดสติแล้วตื่น (lucid interval) แล้วซึมลง → epidural hematoma → craniotomy",
-   "รูม่านตาขยายซ้าย อ่อนแรงซ้าย → Kernohan notch (ก้อนอยู่ซ้าย)",
-   "สมองบวมทั่ว รูม่านตาเล็กสองข้าง → central herniation"
+   "ผู้ป่วยบาดเจ็บศีรษะ รูม่านตาขวาขยาย อ่อนแรงซีกซ้าย GCS 6 → uncal herniation จากก้อนเลือดด้านขวา → ใส่ท่อ mannitol แล้ว CT + craniotomy ด่วน",
+   "ผู้ป่วยก้อนใน cerebellum ความดันโลหิตสูงขึ้น ชีพจรช้า หายใจไม่สม่ำเสมอ → Cushing triad จาก tonsillar herniation",
+   "CT เห็น acute SDH ด้านซ้ายทำ midline shift 12 mm ผู้ป่วยขาขวาอ่อนแรง → subfalcine herniation กด ACA",
+   "ทำไมรูม่านตาขยายก่อนตาจะขยับผิด → parasympathetic fiber อยู่ผิวนอกของ CN III จึงถูกกดก่อน motor fiber ที่อยู่ด้านใน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 70 — ตัวพิมพ์: <b>26. จำโจทย์เป๊ะๆไม่ได้อ่ะ ประมาณนี้ ตรงๆแอคปีก่อนๆ A 25 year old man was hit at his head. Swelling frontotemporal region, E1M4V2 decerebrate posturing Rt, Rt pupil 3 mm, Lt pupil 5mm. — 1.central herniation 2.uncal herniation 3.sulfalcine herniation 4.tonsillar herniation 5.</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ไม่ได้ขีดช้อย<br>ไฮไลต์: 2 uncal herniation (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 61: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย 5 ว่าง → เติม E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 70",
@@ -239,30 +253,32 @@
   ]
  },
  "MDCU68|RoB|27": {
-  "interp": "โจทย์เดียวกับข้อก่อน (ถูกตีศีรษะ บวม frontotemporal รูม่านตาซ้ายขยาย posturing ขวา) → ถาม<b>การวินิจฉัย</b>",
-  "why": "ถูกตีที่ <b>temporal</b> (กระดูกบาง ใต้มี <b>middle meningeal artery</b>) → กะโหลกร้าวฉีกหลอดเลือดแดง → <b>acute epidural hematoma</b> · CT: <b>ก้อนเลือดรูปเลนส์นูนสองด้าน (biconvex)</b> ไม่ข้าม suture · อาการคลาสสิก lucid interval (~20–50%) แล้วซึมลงเร็ว + uncal herniation · มีก้อนกดและ herniation → <b>craniotomy ด่วน</b> พยากรณ์ดีถ้าผ่าตัดทัน · ไฟล์เขียนคำตอบ <b>\"&gt;&gt; Acute epidural hematoma\"</b>",
+  "interp": "ใช้ผู้ป่วยรายเดิม — ชายหนุ่มถูกตีศีรษะ บวมที่ frontotemporal ซึมลง รูม่านตาซ้ายขยาย อ่อนแรงด้านขวา (uncal herniation) — ถามการวินิจฉัยก้อนเลือดในกะโหลก ต้องรู้ว่ากลไกและตำแหน่งบาดเจ็บนี้สัมพันธ์กับเลือดออกชนิดใด",
+  "why": "บาดเจ็บที่ <b>frontotemporal (บริเวณ pterion)</b> ซึ่งกระดูก squamous temporal บางที่สุด ทำให้กะโหลกร้าวและฉีก <b>middle meningeal artery</b> ที่วิ่งในร่องใต้กระดูก → เลือดแดงความดันสูงเซาะแยกเยื่อดูราออกจากกะโหลก = <b>acute epidural hematoma (EDH)</b> · CT เห็นก้อนเลือด<b>รูปเลนส์นูนสองด้าน (biconvex)</b> ที่<b>ไม่ข้ามรอยต่อกะโหลก (suture)</b> เพราะดูรายึดแน่นที่ suture · คลาสสิกคือ <b>lucid interval</b> (สลบ ตื่นดี แล้วซึมลงเร็ว พบราว 20–50%) แล้วก้อนโตเร็วจนเกิด uncal herniation · ข้อบ่งชี้ผ่าตัด (Brain Trauma Foundation): ปริมาตร &gt; 30 cm³ ไม่ว่า GCS เท่าใด หรือ <b>GCS &lt; 9 ร่วมกับรูม่านตาไม่เท่ากัน → craniotomy เอาก้อนเลือดออกเร็วที่สุด</b> · ก้อน &lt; 30 cm³ หนา &lt; 15 mm shift &lt; 5 mm GCS &gt; 8 ไม่มี focal deficit รักษาแบบเฝ้าระวังและ CT ซ้ำได้ · สมองข้างใต้มักไม่ช้ำมาก ถ้าผ่าตัดทันพยากรณ์ดี · ไฟล์เขียนคำตอบ <b>\"Acute epidural hematoma\"</b> และไฮไลต์ไว้",
   "wrong": {
-   "B": "Chronic SDH พบในผู้สูงอายุ/ ดื่มสุรา หลังบาดเจ็บเล็กน้อยหลายสัปดาห์ อาการค่อยเป็น · จะถูกถ้าผู้สูงอายุกินยาต้านเกล็ดเลือด หกล้มเล็กน้อย 3 สัปดาห์ก่อน ค่อย ๆ สับสน",
-   "C": "DAI: หมดสติตั้งแต่ต้นจากแรงเร่ง/ หมุน CT ปกติหรือจุดเลือดเล็ก ไม่มีก้อนกด · จะถูกถ้าอุบัติเหตุรถความเร็วสูง GCS ต่ำแต่ CT แทบปกติ",
-   "D": "Traumatic SAH มักไม่ทำให้ herniation เฉียบพลันข้างเดียว · จะถูกถ้า CT เห็นเลือดใน sulci ผู้ป่วยปวดหัว คอแข็ง ไม่มีก้อนกด",
-   "E": "Concussion: สับสน/ หมดสติชั่วคราว CT ปกติ ไม่มี focal sign · จะถูกถ้านักกีฬาศีรษะกระแทก มึนงงชั่วคราว ตรวจระบบประสาทปกติ"
+   "B": "Chronic subdural hematoma เกิดจาก bridging vein ฉีกช้า ๆ ในผู้สูงอายุที่สมองฝ่อ ดื่มสุรา หรือกินยาต้านการแข็งตัวของเลือด อาการค่อยเป็นหลายสัปดาห์ (สับสน ปวดศีรษะ อ่อนแรง) CT เป็นก้อนรูปจันทร์เสี้ยวสีเข้ม ไม่ใช่การซึมลงเฉียบพลันหลังถูกตี · จะถูกถ้าเป็นชาย 78 ปีกิน warfarin ล้มหัวกระแทกเล็กน้อยเมื่อ 6 สัปดาห์ก่อน แล้วค่อย ๆ สับสนและเดินเซ → burr-hole drainage",
+   "C": "Diffuse axonal injury เกิดจากแรงเร่ง–หน่วงหมุน (rotational) ทำให้ axon ฉีกทั่วสมอง ผู้ป่วยหมดสติตั้งแต่ขณะเกิดเหตุและ CT แทบปกติ ไม่มีก้อนที่ทำ herniation ข้างเดียว · จะถูกถ้าเป็นผู้ขับมอเตอร์ไซค์ชนด้วยความเร็วสูง โคม่า GCS 5 ตั้งแต่แรก CT ปกติหรือมีจุดเลือดเล็ก ๆ แต่ MRI (SWI) พบ microhemorrhage ที่ corpus callosum และก้านสมอง",
+   "D": "Subarachnoid hemorrhage จากอุบัติเหตุพบบ่อยแต่เป็นชั้นบาง ๆ ในร่องสมอง ไม่เป็นก้อนที่กดจนเกิด uncal herniation · SAH ที่ต้องรู้จักคือจาก aneurysm แตก · จะถูกถ้าเป็นหญิง 50 ปีปวดศีรษะรุนแรงที่สุดในชีวิตทันที (thunderclap) คอแข็ง CT เห็นเลือดใน basal cistern → CTA หา aneurysm",
+   "E": "Cerebral concussion คือการทำงานของสมองผิดปกติชั่วคราวจากแรงกระแทก ไม่มีรอยโรคบน CT มีหมดสติสั้น ๆ หรือสับสน ปวดศีรษะ ลืมเหตุการณ์ GCS 13–15 ไม่ทำรูม่านตาขยายหรือ posturing · จะถูกถ้าเป็นนักฟุตบอลที่ปะทะศีรษะ สับสนจำเหตุการณ์ไม่ได้ 10 นาที ตรวจระบบประสาทปกติ CT ปกติ → พักสมองและค่อยกลับไปเล่น"
   },
-  "trap": "ตอบ subdural เพราะพบบ่อยกว่า — ถูกตีขมับ + herniation เร็ว + คนหนุ่ม = epidural (middle meningeal a.)",
+  "trap": "สับสน EDH กับ acute SDH ที่ก็ทำ herniation ได้ — แยกที่ EDH เกิดจากหลอดเลือดแดง (middle meningeal) ร่วมกับกะโหลกร้าวบริเวณขมับ ก้อนนูนสองด้านไม่ข้าม suture และมี lucid interval ส่วน SDH มาจาก bridging vein รูปจันทร์เสี้ยวข้าม suture สมองข้างใต้ช้ำมาก · ช้อยนี้ไม่มี acute SDH จึงเลือก EDH ได้ชัด",
   "summary": [
-   "EDH: middle meningeal a. · biconvex · ไม่ข้าม suture · lucid interval",
-   "SDH: bridging veins · crescent · ข้าม suture · ผู้สูงอายุ/ สุรา",
-   "ผ่าตัด EDH: &gt; 30 mL หรือ GCS ≤ 8 + anisocoria",
-   "ผ่าตัด SDH: หนา &gt; 10 mm หรือ shift &gt; 5 mm",
-   "DAI: CT ปกติแต่ GCS ต่ำ · MRI เห็นดีกว่า",
-   "พยากรณ์ EDH ดีถ้าผ่าตัดทัน"
+   "EDH: middle meningeal artery ฉีกจากกะโหลกขมับร้าว (pterion) · ก้อน biconvex ไม่ข้าม suture · lucid interval 20–50% · พบมากในคนหนุ่ม (ดูรายังไม่ติดกะโหลกแน่น)",
+   "Acute SDH: bridging vein ฉีก · ก้อนรูปจันทร์เสี้ยวข้าม suture แต่ไม่ข้าม falx/ tentorium · สมองช้ำร่วมมาก พยากรณ์แย่กว่า EDH",
+   "ข้อบ่งชี้ผ่าตัด EDH (BTF): &gt; 30 cm³ ทุก GCS · GCS &lt; 9 + anisocoria → ผ่าตัดเร็วที่สุด · เฝ้าระวังได้เมื่อ &lt; 30 cm³, หนา &lt; 15 mm, shift &lt; 5 mm, GCS &gt; 8 ไม่มี focal deficit (CT ซ้ำใกล้ชิด)",
+   "ข้อบ่งชี้ผ่าตัด acute SDH (BTF): หนา &gt; 10 mm หรือ midline shift &gt; 5 mm ทุก GCS · หรือ GCS ลดลง ≥ 2 แต้ม/ รูม่านตาไม่เท่า/ ICP &gt; 20 mmHg",
+   "Chronic SDH: ผู้สูงอายุ ยาต้านเลือด สุรา อาการเป็นสัปดาห์ · burr-hole drainage + ใส่สายระบาย · ปัจจุบันมีการอุด middle meningeal artery (embolization) ช่วยลดการกลับเป็นซ้ำ",
+   "DAI: หมดสติตั้งแต่แรกไม่สมดุลกับ CT · MRI SWI/ DWI เห็น microhemorrhage ที่ gray–white junction, corpus callosum, dorsolateral brainstem",
+   "Head CT ด่วนในบาดเจ็บศีรษะเล็กน้อย (Canadian CT Head Rule): GCS &lt; 15 ที่ 2 ชม. สงสัยกะโหลกยุบ/ basal skull fracture อาเจียน ≥ 2 ครั้ง อายุ ≥ 65 ปี"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ (ไฟล์เขียนคำตอบไว้ตรง ๆ) · ต้นฉบับไม่มีช้อย จึงเขียนช้อย B–E ใหม่",
-  "mnemonic": "<b>'Epidural = Elliptical (เลนส์) · Emergency · Every artery (middle meningeal)'</b>",
-  "guide": "Brain Trauma Foundation: Surgical Management of Acute Epidural Hematomas (Neurosurgery 2006;58:S2-7); ATLS 10th ed. (2018)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 เขียนคำตอบ Acute epidural hematoma และ MCQ Key_1 ขีด A) · ต้นฉบับไม่มีช้อย เว็บสร้าง A–E ใหม่โดยไม่ใส่ acute SDH ไว้เป็นตัวลวง ซึ่งช่วยให้คำตอบชัด",
+  "mnemonic": "<b>'Epidural = Elliptical (เลนส์) + Elevated pressure Artery (MMA) + lucid interval'</b>",
+  "guide": "Bullock MR, et al. Guidelines for the Surgical Management of Traumatic Brain Injury (Neurosurgery 2006;58:S2-1–S2-62); ATLS 10th ed. (2018); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "CT ก้อนเลือดเลนส์นูน 40 mL ที่ขมับ → craniotomy ด่วน",
-   "ผู้สูงอายุสับสนค่อยเป็น 3 สัปดาห์หลังล้ม → chronic SDH → burr hole",
-   "อุบัติเหตุรถเร็ว GCS 6 CT แทบปกติ → DAI"
+   "ชาย 22 ปีถูกตีที่ขมับ สลบไปครู่หนึ่ง ตื่นพูดคุยปกติ 2 ชั่วโมงต่อมาซึมลง รูม่านตาข้างเดียวกันขยาย → EDH จาก middle meningeal artery → craniotomy ด่วน",
+   "CT พบ EDH ขนาด 15 cm³ หนา 8 mm shift 2 mm GCS 15 ไม่มีอ่อนแรง → รับไว้สังเกตอาการใน ICU และ CT ซ้ำใน 6–8 ชม.",
+   "ผู้สูงอายุกินยาต้านการแข็งตัวของเลือด ล้มหัวกระแทก CT พบก้อนรูปจันทร์เสี้ยวหนา 14 mm shift 8 mm → acute SDH → แก้การแข็งตัวของเลือดและ craniotomy",
+   "ทำไม EDH ไม่ข้าม suture → เยื่อดูรายึดกะโหลกแน่นที่รอยต่อ เลือดที่เซาะระหว่างดูรากับกะโหลกจึงถูกจำกัดเป็นรูปเลนส์"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 70 — ตัวพิมพ์: <b>(27.ใช้โจทย์เดียวกัน แต่ถามdx &gt;&gt;Acute epidural hematoma</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ<br>ไฮไลต์: \"Acute epidural hematoma\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 61: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับไม่มีช้อย → เขียน A–E ใหม่",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 70",
@@ -273,30 +289,32 @@
   ]
  },
  "MDCU68|RoB|28": {
-  "interp": "โจทย์เดียวกัน แต่ <b>decerebrate posturing อยู่ซ้าย (ข้างเดียวกับรูม่านตาขยาย)</b> → ถามปรากฏการณ์ที่อธิบาย",
-  "why": "<b>Kernohan notch phenomenon</b>: ก้อนดัน midbrain ไปชิดขอบ tentorium <b>ด้านตรงข้าม</b> → cerebral peduncle ด้านตรงข้ามถูกกด (เกิดรอยบุ๋ม = Kernohan notch) → อ่อนแรง/ posturing <b>ข้างเดียวกับรอยโรค</b> (false localizing sign) · ดังนั้นตำแหน่งรอยโรคให้ดูจาก<b>ข้างรูม่านตาขยาย</b>ซึ่งแม่นกว่า · ไฟล์เขียนคำตอบ <b>\"&gt;&gt; Kernohan\"</b> และ \"28 ข้อ kernohan ตรงแอค\"",
+  "interp": "ผู้ป่วยรายเดิมที่รูม่านตาซ้ายขยาย แต่คราวนี้ <b>decerebrate ด้านซ้าย</b> (ข้างเดียวกับรูม่านตาที่ขยายและก้อน) — ถามปรากฏการณ์ที่อธิบายการอ่อนแรงข้างเดียวกับรอยโรค ซึ่งเป็น false localizing sign ของ uncal herniation",
+  "why": "ใน uncal herniation ตามปกติ uncus กด cerebral peduncle ข้างเดียวกันจึงอ่อนแรงด้านตรงข้าม · แต่ถ้าก้อนดันก้านสมองส่วน midbrain ทั้งก้อนให้เคลื่อนไปอีกข้าง <b>cerebral peduncle ด้านตรงข้ามจะถูกอัดกับขอบแข็งของ tentorium (Kernohan's notch)</b> — corticospinal tract ตรงนี้ยังไม่ไขว้ จึงเกิด<b>อ่อนแรง/ posturing ข้างเดียวกับก้อน (ipsilateral hemiparesis)</b> เรียก <b>Kernohan–Woltman notch phenomenon</b> · ความสำคัญทางคลินิกคือเป็น <b>false localizing sign</b> ถ้าใช้ด้านที่อ่อนแรงตัดสินด้านผ่าตัดอาจเปิดกะโหลกผิดข้าง — จึงใช้<b>รูม่านตาที่ขยาย</b>และ <b>CT</b> เป็นหลักในการบอกด้านของก้อน · ไฟล์เขียนคำตอบ <b>\"Kernohan\"</b> ไฮไลต์ไว้ และหมายเหตุว่าเป็นข้อที่ตรงกับแอค",
   "wrong": {
-   "B": "Cushing reflex: ความดันสูง หัวใจช้า หายใจผิดปกติ จาก ICP สูง ไม่อธิบายด้านอ่อนแรง · จะถูกถ้าคำถามถามสัญญาณชีพของ ICP สูงก่อน herniation",
-   "C": "Monro-Kellie doctrine: ปริมาตรในกะโหลก (สมอง + เลือด + CSF) คงที่ เพิ่มอย่างหนึ่งต้องลดอีกอย่าง · จะถูกถ้าคำถามถามหลักการที่อธิบายว่าทำไมก้อนเลือดทำให้ ICP สูง",
-   "D": "Duret hemorrhage: เลือดออกที่ pons/ midbrain จากหลอดเลือดฉีกเมื่อก้านสมองถูกดันลง (ผลระยะท้าย) · จะถูกถ้าคำถามถามเลือดออกในก้านสมองหลัง herniation",
-   "E": "Brown-Séquard: บาดเจ็บไขสันหลังครึ่งซีก อ่อนแรงข้างเดียวกัน ชา pain/ temp ด้านตรงข้าม · จะถูกถ้าถูกแทงหลังข้างเดียว"
+   "B": "Cushing reflex คือความดันโลหิตสูงขึ้น (pulse pressure กว้าง) ชีพจรช้า และหายใจไม่สม่ำเสมอ จากก้านสมองขาดเลือดเมื่อความดันในกะโหลกสูงมาก เป็นสัญญาณระยะท้าย ไม่ได้อธิบายด้านของการอ่อนแรง · จะถูกถ้าเป็นผู้ป่วยบาดเจ็บศีรษะที่ซึมลง ความดันขึ้นเป็น 190/80 mmHg ชีพจร 48 ครั้ง/ นาที หายใจเป็นช่วง ๆ → ใกล้ herniation ต้องลดความดันในกะโหลกด่วน",
+   "C": "Monro–Kellie doctrine คือหลักว่ากะโหลกมีปริมาตรคงที่ ผลรวมของสมอง เลือด และ CSF ต้องคงที่ ก้อนที่เพิ่มขึ้นจึงชดเชยได้ระยะหนึ่งก่อนความดันพุ่ง เป็นพื้นฐานของ herniation ทุกชนิด ไม่ได้อธิบายการอ่อนแรงข้างเดียวกับก้อน · จะถูกถ้าเป็นผู้ป่วย EDH ที่ก้อนโตช้า ๆ อาการคงที่หลายชั่วโมงแล้วซึมลงทันทีเมื่อการชดเชยด้วย CSF และเลือดดำหมดลง",
+   "D": "Duret hemorrhage คือเลือดออกเป็นเส้นในก้านสมอง (pons/ midbrain) จากแขนงเล็กของ basilar artery ฉีกเมื่อก้านสมองถูกดันลงอย่างรวดเร็ว เป็นผลระยะท้ายของ transtentorial herniation พยากรณ์แย่มาก · จะถูกถ้าเป็นผู้ป่วยหลังเกิด uncal herniation นานจนรูม่านตาทั้งสองข้างขยายค้าง CT ซ้ำพบจุดเลือดออกกลาง pons",
+   "E": "Brown-Séquard syndrome คือไขสันหลังถูกตัดครึ่งซีก ทำให้อ่อนแรงและเสีย proprioception/ vibration ข้างเดียวกัน ส่วนปวดและอุณหภูมิเสียด้านตรงข้ามต่ำกว่ารอยโรค 1–2 ระดับ เป็นรอยโรคไขสันหลัง ไม่ใช่ในกะโหลก · จะถูกถ้าเป็นชายถูกแทงกลางหลังระดับอก ขาขวาอ่อนแรง ส่วนขาซ้ายไม่รู้สึกเจ็บและร้อนเย็น"
   },
-  "trap": "ใช้ด้านอ่อนแรงบอกข้างรอยโรคแล้วผ่าผิดข้าง — Kernohan notch อ่อนแรงข้างเดียวกับรอยโรค ให้ยึดข้างรูม่านตาขยาย",
+  "trap": "นึกว่าอ่อนแรงข้างเดียวกับรูม่านตาขยายแปลว่ามีสองก้อน หรือเลือก Cushing reflex เพราะเป็นชื่อปรากฏการณ์ที่คุ้นในความดันในกะโหลกสูง · ให้จำว่าการอ่อนแรง<b>ข้างเดียวกับก้อน</b>ใน uncal herniation มีคำอธิบายเดียวคือ Kernohan notch ซึ่งเกิดจากการกด peduncle ด้านตรงข้ามกับขอบ tentorium",
   "summary": [
-   "Kernohan notch: อ่อนแรงข้างเดียวกับก้อน (false localizing)",
-   "รูม่านตาขยายบอกข้างรอยโรคแม่นกว่า (~90%)",
-   "Uncal herniation ปกติ: อ่อนแรงด้านตรงข้าม",
-   "Cushing reflex: HT + bradycardia + หายใจผิดปกติ",
-   "Duret hemorrhage: เลือดออกก้านสมองหลัง herniation",
-   "CT ยืนยันข้างก่อนผ่าตัดเสมอ"
+   "Kernohan notch phenomenon: midbrain ถูกดันไปกดกับขอบ tentorium อีกข้าง → peduncle ตรงข้ามช้ำ → อ่อนแรงข้างเดียวกับก้อน (false localizing sign)",
+   "บอกด้านของก้อน: รูม่านตาที่ขยายตรงกับด้านก้อนในราว 80–90% ของราย แม่นกว่าด้านที่อ่อนแรง · ยืนยันด้วย CT ก่อนผ่าตัดเสมอถ้าทำได้",
+   "False localizing sign อื่น: CN VI palsy จากความดันในกะโหลกสูง (เส้นประสาทยาวถูกยืด) · Kernohan notch · ทั้งสองไม่ได้บอกตำแหน่งก้อนจริง",
+   "Cushing triad (ความดันสูง pulse pressure กว้าง ชีพจรช้า หายใจไม่สม่ำเสมอ) = สัญญาณระยะท้ายของ ICP สูง/ ก้านสมองขาดเลือด",
+   "Monro–Kellie: ICP ปกติ 5–15 mmHg · รักษาเมื่อ ICP &gt; 22 mmHg (BTF 4th ed.) · CPP = MAP − ICP เป้า 60–70 mmHg",
+   "Duret hemorrhage: เลือดออกกลาง pons/ midbrain จาก perforator ของ basilar artery ฉีกหลัง descending herniation → พยากรณ์แย่มาก",
+   "ลำดับดูแล herniation: airway + ใส่ท่อ → ยกหัวเตียง 30° → osmotherapy (mannitol/ hypertonic saline) → hyperventilation ระยะสั้น → CT → ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ (ไฟล์เขียนคำตอบไว้ตรง ๆ) · ต้นฉบับไม่มีช้อย จึงเขียนช้อย B–E ใหม่",
-  "mnemonic": "<b>'Kernohan = Kick ไปฝั่งตรงข้าม → อ่อนแรงข้างเดียวกับก้อน'</b>",
-  "guide": "Greenberg Handbook of Neurosurgery 10th ed. (2023) — Herniation syndromes",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 เขียน Kernohan และหมายเหตุว่าตรงแอค และ MCQ Key_1 ขีด A) · ต้นฉบับไม่มีช้อย เว็บสร้างช้อยอื่นเป็นปรากฏการณ์ที่เกี่ยวกับความดันในกะโหลกเพื่อใช้แยก",
+  "mnemonic": "<b>'Kernohan = Kontralateral peduncle ถูก Kut ที่ notch → อ่อนแรงข้างเดียวกับก้อน'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Herniation syndromes; Carney N, et al. Guidelines for the Management of Severe TBI 4th ed. (Neurosurgery 2017;80:6–15)",
   "variants": [
-   "รูม่านตาขยายขวา อ่อนแรงขวา → Kernohan → ก้อนอยู่ขวา",
-   "ICP สูง ความดัน 200/100 ชีพจร 48 → Cushing reflex",
-   "หลัง herniation CT เห็นเลือดใน pons → Duret hemorrhage"
+   "ผู้ป่วย EDH ด้านขวา รูม่านตาขวาขยาย แต่อ่อนแรงซีกขวา → Kernohan notch → ผ่าตัดด้านขวาตามรูม่านตาและ CT",
+   "ผู้ป่วยความดันในกะโหลกสูงจาก idiopathic intracranial hypertension มองออกด้านข้างไม่ได้ทั้งสองข้าง → CN VI palsy (false localizing sign)",
+   "ผู้ป่วย severe TBI ใส่สายวัด ICP ได้ 28 mmHg MAP 85 mmHg → CPP 57 ต่ำกว่าเป้า → ลด ICP และเพิ่ม MAP",
+   "ทำไมการอ่อนแรงข้างเดียวกับก้อนจึงอันตรายในการตัดสินใจผ่าตัด → ถ้าใช้ด้านอ่อนแรงบอกตำแหน่งจะเปิดกะโหลกผิดข้าง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 70 — ตัวพิมพ์: <b>28.เปลี่ยนเป็น Lt decerebrate &gt;&gt;Kernohan)</b> · <b>28 ข้อ kernohan ตรงแอค</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ<br>ไฮไลต์: \"Kernohan\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 61: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับไม่มีช้อย → เขียน A–E ใหม่",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 70",
@@ -307,30 +325,32 @@
   ]
  },
  "MDCU68|RoB|37": {
-  "interp": "ชาย 65 ปี LUTS รุนแรง (IPSS 25) DRE ต่อมแข็งเรียบ แต่ <b>PSA 8 ng/mL (สูงกว่า 4)</b> → ถามการจัดการ",
-  "why": "PSA สูง (&gt; 4 ng/mL) ในชายที่คาดว่าจะมีชีวิตอีก &gt; 10 ปี → ต้อง<b>หามะเร็งต่อมลูกหมากก่อน</b>เริ่มรักษา BPH แม้ DRE ปกติ · แนวทางปัจจุบัน: ตรวจ PSA ซ้ำ/ <b>MRI prostate (mpMRI) แล้ว targeted + systematic biopsy</b> · ในข้อสอบนี้ตอบ <b>TRUS-guided biopsy</b> · ห้ามเริ่ม 5-ARI ก่อนเพราะจะลด PSA ราวครึ่งหนึ่ง ทำให้แปลผลยาก · ไฟล์ขีด E ลายมือ <b>\"&gt;4\"</b> ใต้ PSA และลูกศร <b>\"แนะนำ\"</b> ชี้ไป E",
+  "interp": "ชาย 65 ปี มี LUTS รุนแรง (IPSS 25) ต่อมลูกหมากคลำได้ firm smooth แต่ <b>PSA 8 ng/mL (&gt; 4)</b> — ถามขั้นต่อไป ต้องรู้ว่า PSA สูงในชายวัยนี้ต้องประเมินมะเร็งต่อมลูกหมากก่อน แม้ DRE ดูเหมือน BPH",
+  "why": "<b>DRE ปกติตัดมะเร็งต่อมลูกหมากไม่ได้</b> เพราะมะเร็งส่วนใหญ่ปัจจุบันตรวจพบจาก PSA (stage T1c) ที่คลำไม่ได้ · PSA &gt; 4 ng/mL (หรือสูงตามช่วงอายุ) ในชายที่คาดว่ามีชีวิตอีก &gt; 10 ปี จึงต้องประเมินต่อ: <b>ตรวจ PSA ซ้ำ</b> หลังตัดปัจจัยที่ทำให้สูงชั่วคราว (UTI, prostatitis, retention, การใส่สายสวน/ ส่องกล้อง, การหลั่งน้ำอสุจิ) · ปัจจุบันแนวทาง EAU แนะนำ <b>MRI ต่อมลูกหมาก (mpMRI) ก่อนเจาะชิ้นเนื้อ</b> แล้ว <b>prostate biopsy</b> (systematic 10–12 core ± targeted ตาม PI-RADS ≥ 3) โดย<b>ทาง transperineal นิยมกว่า transrectal</b> เพราะติดเชื้อน้อยกว่า · ต้องรู้ผลก่อนเริ่มยา BPH เพราะ <b>5-ARI ลด PSA ลงราวครึ่งหนึ่ง</b> ใน 6–12 เดือน ทำให้บดบังมะเร็ง · ไฟล์ขีด E ลายมือ <b>\"&gt;4\"</b> ใต้ PSA และลูกศร <b>\"แนะนำ\"</b> ไปที่ TRUS + biopsy",
   "wrong": {
-   "A": "เฝ้าดูไม่เหมาะเมื่อ PSA สูงและอาการรุนแรง · จะถูกถ้าผู้ป่วย LUTS อาการน้อย (IPSS &lt; 8) PSA ปกติ",
-   "B": "Alpha-blocker รักษาอาการ BPH ได้ แต่ต้องหามะเร็งก่อนเมื่อ PSA สูง · จะถูกถ้า PSA ปกติ ต่อมเรียบ IPSS ปานกลาง–รุนแรง",
-   "C": "5-ARI ลด PSA ~50% บดบังมะเร็ง และไม่ใช่ขั้นแรกเมื่อ PSA สูงยังไม่ได้หาสาเหตุ · จะถูกถ้าต่อม &gt; 40 g PSA ปกติ biopsy ลบแล้ว",
-   "D": "ผ่าตัดต่อมลูกหมากยังไม่ใช่ขั้นตอนแรก ต้องวินิจฉัยก่อน · จะถูกถ้า biopsy ยืนยันมะเร็งเฉพาะที่ หรือ BPH ที่ retention ซ้ำ"
+   "A": "Watchful waiting เหมาะกับ LUTS เล็กน้อย (IPSS 0–7) หรือปานกลางที่ไม่รบกวนชีวิต ร่วมกับ PSA ปกติ แต่ IPSS 25 คือรุนแรง และ PSA 8 ยังไม่ได้ตัดมะเร็ง · จะถูกถ้าเป็นชาย 60 ปี ปัสสาวะกลางคืน 1 ครั้ง IPSS 6 ไม่รำคาญ DRE ต่อมโตเล็กน้อยเรียบ PSA 1.2 ng/mL",
+   "B": "Alpha-blocker (tamsulosin, alfuzosin, doxazosin) คลายกล้ามเนื้อเรียบที่ bladder neck/ prostate ลดอาการได้ภายในไม่กี่วัน เป็นยาแรกของ LUTS ปานกลาง–รุนแรง แต่ต้องตัดมะเร็งก่อนเมื่อ PSA สูง (ลายมือลากเส้นจาก B ไป E) · จะถูกถ้าเป็นชาย 65 ปี IPSS 18 รบกวนการนอน DRE เรียบ PSA 1.5 ng/mL ต่อมขนาด 30 mL",
+   "C": "5-alpha reductase inhibitor (finasteride, dutasteride) ลดขนาดต่อม 20–30% ใน 6–12 เดือน ลดความเสี่ยง acute urinary retention และการผ่าตัดในต่อมโต &gt; 40 mL แต่ลด PSA ราวครึ่งหนึ่ง จึงห้ามเริ่มก่อนประเมินมะเร็ง · จะถูกถ้าเป็นชาย 70 ปี IPSS 20 ต่อมขนาด 60 mL PSA 3 ng/mL ที่ MRI/ ชิ้นเนื้อไม่พบมะเร็ง → ให้ร่วมกับ alpha-blocker",
+   "D": "Prostatectomy (TURP หรือ simple prostatectomy ในต่อมใหญ่มาก) ทำเมื่อ BPH มีภาวะแทรกซ้อนหรือยาไม่ได้ผล ส่วน radical prostatectomy ทำหลังวินิจฉัยมะเร็งเฉพาะที่ยืนยันด้วยชิ้นเนื้อแล้ว ไม่ใช่ขั้นแรก · จะถูกถ้าเป็นชาย 75 ปี PSA ปกติ ปัสสาวะไม่ออกซ้ำ 2 ครั้ง ถอดสายสวนไม่ผ่านแม้ได้ tamsulosin → TURP"
   },
-  "trap": "ทุ่มรักษา BPH ตามอาการ — PSA สูงต้องตัดมะเร็งก่อน (DRE เรียบไม่ตัดมะเร็ง)",
+  "trap": "เห็น LUTS + DRE เรียบแล้วนึกถึง BPH ทันทีจึงเลือกยา · แต่ PSA 8 ต้องตัดมะเร็งก่อน เพราะ DRE ปกติไม่ตัดมะเร็ง และ 5-ARI ทำให้ค่า PSA ต่ำลงจนตามไม่ได้ · ปัจจุบันขั้นตอนที่ถูกกว่าคือ PSA ซ้ำ → mpMRI → biopsy (TRUS ในช้อยคือภาพรวมของการเจาะชิ้นเนื้อ)",
   "summary": [
-   "PSA &gt; 4 ng/mL (หรือสูงตามอายุ) → ตรวจซ้ำ ± mpMRI → biopsy",
-   "DRE แข็งขรุขระ → biopsy แม้ PSA ปกติ",
-   "mpMRI PI-RADS ≥ 3 → targeted + systematic biopsy",
-   "5-ARI ลด PSA ~50% (คูณ 2 เมื่อแปลผล)",
-   "BPH: alpha-blocker ± 5-ARI · ผ่าตัดเมื่อมีข้อบ่งชี้",
-   "PSA สูงได้จาก BPH ต่อมอักเสบ สวนปัสสาวะ หลังหลั่ง"
+   "IPSS 0–7 mild · 8–19 moderate · 20–35 severe (+ คำถามคุณภาพชีวิต) · ใช้ติดตามอาการ ไม่ใช่วินิจฉัยโรค",
+   "ประเมิน LUTS ชาย: ประวัติ IPSS, DRE, UA, PSA (ถ้าผลจะเปลี่ยนการรักษา/ คาดชีวิต &gt; 10 ปี), Cr ถ้าสงสัยไตเสื่อม, uroflowmetry, post-void residual",
+   "PSA สูงชั่วคราว: UTI/ prostatitis, retention, ใส่สายสวน/ ส่องกล้อง, biopsy, หลั่งน้ำอสุจิ · ตรวจซ้ำก่อนตัดสินใจ · PSA density &gt; 0.15 ng/mL/cc เพิ่มความสงสัยมะเร็ง",
+   "Pathway ปัจจุบัน (EAU): PSA สูง → mpMRI → PI-RADS ≥ 3 → targeted + systematic biopsy · ทาง transperineal ติดเชื้อน้อยกว่า transrectal",
+   "ยา BPH: alpha-blocker ออกฤทธิ์เร็ว (ระวังความดันตกเมื่อลุก, floppy iris ระหว่างผ่าตัดต้อกระจก) · 5-ARI สำหรับต่อม &gt; 40 mL ลด PSA ~50% (คูณ 2 เมื่อแปลผล) · combination ดีกว่าเดี่ยวในต่อมใหญ่ (MTOPS, CombAT)",
+   "ข้อบ่งชี้ผ่าตัด BPH: retention ซ้ำ/ ถอดสายไม่ผ่าน, UTI ซ้ำ, gross hematuria ซ้ำจากต่อม, นิ่วในกระเพาะปัสสาวะ, ไตเสื่อมจากการอุดกั้น, ยาไม่ได้ผล → TURP (มาตรฐาน), HoLEP, simple prostatectomy",
+   "Grading มะเร็ง: Gleason score → ISUP Grade Group 1–5 · ร่วมกับ PSA และ T stage แบ่งกลุ่มเสี่ยง (very low ถึง very high) เพื่อเลือก active surveillance, radical prostatectomy หรือ radiotherapy"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ \"แนะนำ\" · ปัจจุบันนิยม mpMRI ก่อน biopsy",
-  "mnemonic": "<b>'LUTS + PSA สูง = หามะเร็งก่อน (Biopsy) ค่อยรักษา BPH'</b>",
-  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2024; AUA/SUO Guideline: Early Detection of Prostate Cancer (2023)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด E พร้อมลายมือ &gt;4 และลูกศรแนะนำ และ MCQ Key_1 ขีด E) · ในแนวทางปัจจุบันควรตรวจ PSA ซ้ำและทำ mpMRI ก่อนเจาะชิ้นเนื้อ แต่ในช้อยที่มี การประเมินมะเร็งด้วยการเจาะชิ้นเนื้อคือคำตอบที่ถูก",
+  "mnemonic": "<b>'PSA สูง → ตัด CA ก่อนรักษา BPH (Repeat PSA → MRI → Biopsy)'</b>",
+  "guide": "EAU Guidelines on Prostate Cancer 2025; EAU Guidelines on Management of Non-neurogenic Male LUTS 2025; AUA Guideline: Management of LUTS Attributed to BPH (2021, amended 2023)",
   "variants": [
-   "ชาย 60 ปี PSA 9 DRE ปกติ → mpMRI → PI-RADS 4 → targeted biopsy",
-   "ชาย 70 ปี LUTS PSA 2 ต่อมเรียบ 50 g → alpha-blocker + 5-ARI",
-   "DRE ต่อมแข็งเป็นก้อน PSA 3 → biopsy"
+   "ชาย 68 ปี PSA 9 ng/mL mpMRI พบรอยโรค PI-RADS 4 ที่ peripheral zone → targeted + systematic biopsy",
+   "ชาย 70 ปีกิน finasteride มา 1 ปี PSA 3 ng/mL → แปลผลเทียบเท่า ~6 ng/mL ต้องประเมินมะเร็งต่อ",
+   "ชาย 66 ปี มีไข้ ปัสสาวะแสบขัด ต่อมกดเจ็บ PSA 15 ng/mL → รักษา acute prostatitis ก่อน แล้วตรวจ PSA ซ้ำหลังหายอย่างน้อย 6 สัปดาห์",
+   "ชาย 72 ปี ปัสสาวะไม่ออกซ้ำ ถอดสายสวนไม่ผ่านแม้ได้ alpha-blocker ชิ้นเนื้อไม่พบมะเร็ง ต่อม 50 mL → TURP"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 70 — หัวข้อ Uro · ตัวพิมพ์: <b>37.ผู้ป่วยชายอายุ 65ปี มีอาการLUTS Blah... (IPSS=25) ตรวจDRE ได้ firm smooth surface prostate ตรวจค่าPSA=8(normal=0-4) ควรทำอย่างไร — A.follow up + observe B.alpha antagonist C.5- alpha reductase D.prostectomy E.TRUS+biopsy</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · \"&gt;4\" ใต้ PSA ลากลูกศร \"แนะนำ\" ไป E · แก้ตัวสะกด TRUS · ขีด E<br>ไฮไลต์: \"อาการLUTS\" \"DRE ได้ firm smooth surface\" \"PSA=8\" · E (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 61: ขีด E (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 70",

@@ -1,261 +1,412 @@
 {
  "MDCU75|RoD|Ped 2": {
-  "interp": "เด็กหลังผ่าตัด Kasai สำหรับ biliary atresia · ข้อ <b>NOT</b> — หาสิ่งที่ไม่ใช่ภาวะแทรกซ้อนระยะยาว",
-  "why": "สไลด์ Complications ในคีย์ (Maimai & Ig): <b>ascending cholangitis 30–60%, portal hypertension 34–76%, hepatopulmonary syndrome, intrahepatic biliary cysts</b><br><b>นอกสไลด์:</b> Kasai ระบายน้ำดีจาก porta hepatis ลง Roux limb แต่ท่อน้ำดีในตับยังอักเสบและเป็นพังผืดต่อ → cholangitis จากลำไส้ย้อนขึ้น และตับแข็งค่อย ๆ มากขึ้น → portal hypertension และภาวะที่ปอด · hepatoblastoma ไม่สัมพันธ์กับโรคนี้",
+  "interp": "เด็กที่ผ่าตัด <b>Kasai portoenterostomy</b> รักษา biliary atresia แล้ว — ถามว่าข้อใด<b>ไม่ใช่</b>ภาวะแทรกซ้อนระยะยาวที่ยอมรับกัน ต้องรู้ว่าหลัง Kasai โรคตับยังดำเนินต่อ (cholangitis, fibrosis → cirrhosis → portal hypertension และผลต่อปอด) ส่วน hepatoblastoma ไม่ได้อยู่ในรายการ",
+  "why": "Kasai portoenterostomy ตัด fibrous remnant ที่ porta hepatis แล้วต่อ Roux-en-Y jejunal limb เข้ากับ porta เพื่อให้น้ำดีจาก ductule ขนาดเล็กไหลออก · ผลดีที่สุดเมื่อทำ<b>ก่อนอายุ 60 วัน</b> แต่แม้ดีซ่านหาย ตับก็ยังมี fibrosis ต่อเนื่อง จึงมีภาวะแทรกซ้อนระยะยาวที่ต้องติดตาม: ① <b>ascending cholangitis</b> พบบ่อยที่สุด (ราว 30–60%) มักเกิดใน 2 ปีแรก เพราะ Roux limb ต่อตรงกับท่อน้ำดีในตับโดยไม่มีหูรูด มาด้วยไข้ ดีซ่านกลับมา อุจจาระซีด รักษาด้วย IV antibiotics ที่ครอบ gram-negative ② <b>portal hypertension</b> (ราว 34–76%) จาก fibrosis → splenomegaly, hypersplenism, ascites ③ <b>variceal bleeding</b> จาก esophageal varices ซึ่งเป็นผลตามมาของ portal hypertension ④ ผลต่อปอด: <b>hepatopulmonary syndrome</b> (intrapulmonary shunt → cyanosis, hypoxemia) และ portopulmonary hypertension ⑤ intrahepatic biliary cysts (bile lakes) ซึ่งเป็นจุดตั้งต้นของ cholangitis ซ้ำ · ผู้ป่วยที่ล้มเหลวหรือ cirrhosis ลุกลามต้องทำ <b>liver transplantation</b> (biliary atresia เป็นข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก) · Hepatoblastoma เป็นเนื้องอกตับของเด็กเล็กที่สัมพันธ์กับ prematurity/ น้ำหนักแรกคลอดต่ำมาก, Beckwith-Wiedemann และ FAP ไม่ใช่ภาวะแทรกซ้อนที่คาดได้หลัง Kasai · ไฟล์ไฮไลต์ C และแปะสไลด์ <b>\"Complications: ascending cholangitis 30–60%, portal hypertension 34–76%, hepato-pulmonary syndrome, intrahepatic biliary cysts\"</b>",
   "wrong": {
-   "A": "Portal hypertension อยู่ในสไลด์ (34–76%) · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ portal hypertension ไม่ใช่ภาวะแทรกซ้อนระยะยาวของ Kasai เพราะพังผืดในตับยังดำเนินต่อแม้ระบายน้ำดีได้",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เลือดออกจาก varices ไม่ใช่ภาวะแทรกซ้อนระยะยาวของ Kasai เพราะเป็นผลโดยตรงของ portal hypertension ที่ตามมาจากตับแข็ง",
-   "D": "Cholangitis พบบ่อยสุดในสไลด์ (30–60%) · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ cholangitis ไม่ใช่ภาวะแทรกซ้อนของ Kasai เพราะ Roux limb ที่ต่อกับ porta hepatis เปิดทางให้เชื้อจากลำไส้ย้อนขึ้น และท่อน้ำดีในตับยังผิดปกติ",
-   "E": "Hepatopulmonary syndrome อยู่ในสไลด์ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ HPS ไม่ใช่ภาวะแทรกซ้อนระยะยาวของ Kasai เพราะเกิดจากตับแข็งและ portal hypertension ที่ดำเนินต่อหลังผ่าตัด"
+   "A": "ข้อความถูก: portal hypertension เกิดได้ราว 34–76% หลัง Kasai แม้ดีซ่านหายแล้ว เพราะ fibrosis ในตับยังเดินหน้าต่อ มาด้วยม้ามโต เกล็ดเลือดต่ำจาก hypersplenism และน้ำในท้อง — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับภาวะที่ทำให้เด็กอายุ 3 ปีหลัง Kasai มาตรวจพบม้ามโต เกล็ดเลือด 70,000 และ ascites",
+   "B": "ข้อความถูก: variceal bleeding เป็นผลตามมาของ portal hypertension หลัง Kasai อาจเป็นอาการแรกของ portal hypertension และเป็นเหตุสำคัญที่ต้องส่องกล้องรัดหรือฉีดเส้นเลือดขอด และพิจารณาปลูกถ่ายตับ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็ก 4 ขวบหลัง Kasai ที่อาเจียนเป็นเลือดสด ม้ามโต ส่องกล้องพบ esophageal varices",
+   "D": "ข้อความถูก: ascending cholangitis เป็นภาวะแทรกซ้อนที่พบบ่อยที่สุดหลัง Kasai (ราว 30–60%) มักใน 2 ปีแรก เพราะลำไส้ Roux limb ต่อเข้ากับท่อน้ำดีโดยไม่มีหูรูดกั้นเชื้อ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 5 เดือนหลัง Kasai ที่มีไข้สูง ดีซ่านกลับมา อุจจาระซีดลง และต้องให้ IV antibiotics ครอบเชื้อ gram-negative",
+   "E": "ข้อความถูก: hepatopulmonary syndrome เกิดจากหลอดเลือดในปอดขยายเป็น intrapulmonary shunt ในโรคตับเรื้อรัง/ portal hypertension ทำให้ cyanosis นิ้วปุ้ม และ O₂ saturation ต่ำลงเมื่อลุกนั่ง (orthodeoxia) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็ก 6 ขวบหลัง Kasai ที่เหนื่อยง่าย ริมฝีปากเขียว นิ้วปุ้ม และ bubble echocardiography พบ shunt ในปอด"
   },
-  "trap": "คิดว่าตับแข็งเรื้อรังแล้วมะเร็งตับชนิดใดก็เกิดได้ หรือคิดว่า hepatopulmonary syndrome เป็นโรคปอดที่ไม่เกี่ยวกับ Kasai — HPS เป็นภาวะแทรกซ้อนจริง ส่วน hepatoblastoma ไม่ใช่",
+  "trap": "คำว่า hepatoblastoma เป็นเนื้องอกตับในเด็กจึงดูเข้ากับโรคตับเรื้อรังได้ บางคนจึงคิดว่า hepatopulmonary syndrome ซึ่งเป็นศัพท์ไกลตับมากกว่าคือคำตอบ — ให้ไล่ตามกลไก: ทุกข้อที่เกิดจาก cholangitis, fibrosis/ portal hypertension หรือผลต่อปอดของโรคตับคือภาวะแทรกซ้อนจริง ส่วน hepatoblastoma มีปัจจัยเสี่ยงของตัวเอง (prematurity, Beckwith-Wiedemann, FAP)",
   "summary": [
-   "<b>นอกสไลด์:</b> Hepatopulmonary syndrome: เขียว นิ้วปุ้ม หายใจเหนื่อยเวลานั่ง/ยืนและ SpO2 ลดเมื่อลุกนั่ง (platypnea-orthodeoxia) จากหลอดเลือดปอดขยาย · ดีขึ้นหลังปลูกถ่ายตับ",
-   "<b>นอกสไลด์:</b> ตับแข็งต่อเนื่อง แม้ Kasai ระบายน้ำดีได้",
-   "<b>นอกสไลด์:</b> Hepatoblastoma สัมพันธ์กับคลอดก่อนกำหนดน้ำหนักน้อยมาก, Beckwith-Wiedemann, FAP — ไม่ใช่ภาวะแทรกซ้อนที่ยอมรับของ biliary atresia (มะเร็งที่มีรายงานในตับแข็งจาก BA คือ HCC/cholangiocarcinoma ซึ่งพบน้อย)"
+   "Biliary atresia: ท่อน้ำดีนอกตับอักเสบอุดตันแบบ fibrosing ในทารก มาด้วยดีซ่านเกิน 2 สัปดาห์ อุจจาระซีด ปัสสาวะเข้ม direct bilirubin สูง และถ้าไม่รักษาจะเป็น cirrhosis เสียชีวิตในราว 2 ปี",
+   "Kasai portoenterostomy: ตัด fibrous remnant ที่ porta hepatis แล้วต่อ Roux-en-Y hepaticojejunostomy เข้ากับ porta ผลดีที่สุดเมื่อทำก่อนอายุ 60 วัน และจะได้ผลน้อยลงเมื่ออายุมากขึ้น",
+   "Cholangitis: ภาวะแทรกซ้อนที่พบบ่อยที่สุด (30–60%) มักใน 2 ปีแรก มาด้วยไข้ ดีซ่านกลับมา อุจจาระซีด ต้องให้ IV antibiotics ทันที และ cholangitis ซ้ำบ่อยเร่ง fibrosis",
+   "Portal hypertension (34–76%) → splenomegaly, hypersplenism, ascites และ esophageal varices ที่อาจแตกเป็น variceal bleeding แม้ในเด็กที่ดีซ่านหายแล้ว",
+   "ผลต่อปอดจากโรคตับเรื้อรัง: hepatopulmonary syndrome (shunt → hypoxemia, cyanosis, orthodeoxia) และ portopulmonary hypertension ซึ่งทั้งคู่มีผลต่อการตัดสินใจปลูกถ่ายตับ",
+   "Biliary atresia เป็นข้อบ่งชี้ liver transplantation ที่พบบ่อยที่สุดในเด็ก ทั้งในรายที่ Kasai ล้มเหลว (ดีซ่านไม่หาย) และรายที่ cirrhosis ลุกลามในภายหลัง",
+   "Hepatoblastoma: เนื้องอกตับร้ายที่พบบ่อยที่สุดในเด็กเล็ก (ส่วนใหญ่ &lt; 3 ปี) AFP สูง สัมพันธ์กับ prematurity/ น้ำหนักแรกคลอดต่ำมาก, Beckwith-Wiedemann และ FAP"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (Maimai & Ig) ตามสไลด์ในคีย์ (แก้ช้อย D ที่กำกวม) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ C และสไลด์ Complications ที่แปะไว้ระบุ cholangitis, portal hypertension, hepatopulmonary syndrome และ biliary cysts · ในไฟล์ช้อย D เดิมคือ choledochal cyst (ก็ไม่ใช่ภาวะแทรกซ้อนเช่นกัน) และ E ว่าง เว็บจึงเปลี่ยนเป็น cholangitis และ hepatopulmonary syndrome ให้เหลือคำตอบเดียว",
+  "mnemonic": "<b>'หลัง Kasai: C-P-V-H = Cholangitis, Portal HT, Varices, HPS — ไม่มี Hepatoblastoma'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary Atresia; Hartley JL, Davenport M, Kelly DA. Biliary atresia. Lancet 2009",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กหลัง Kasai 6 เดือน ไข้ ตัวเหลืองขึ้นใหม่ อุจจาระซีดลง → ascending cholangitis ให้ยาปฏิชีวนะทางหลอดเลือด",
-   "<b>นอกสไลด์:</b> หลัง Kasai 3 เดือน bilirubin ยังไม่ลด → Kasai ไม่สำเร็จ ส่งประเมินปลูกถ่ายตับ"
+   "ทารก 7 สัปดาห์ ดีซ่าน อุจจาระสีซีด ultrasound พบ triangular cord sign ถุงน้ำดีเล็ก → intraoperative cholangiogram ยืนยัน แล้ว Kasai portoenterostomy ทันที",
+   "หลัง Kasai 3 เดือน ดีซ่านไม่ลดเลย bilirubin สูงขึ้น ตับแข็งขึ้น → Kasai ล้มเหลว ส่งประเมิน liver transplantation",
+   "ทำไม cholangitis พบบ่อยหลัง Kasai → Roux limb ต่อตรงเข้ากับท่อน้ำดีเล็กในตับโดยไม่มีหูรูด เชื้อจากลำไส้จึงขึ้นไปได้ง่าย",
+   "เด็ก 2 ขวบน้ำหนักแรกคลอด 900 กรัม คลำได้ก้อนในท้องด้านขวาบน AFP สูงมาก → hepatoblastoma (ไม่เกี่ยวกับ biliary atresia)"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 2 — ตัวพิมพ์: <b>Which choice is not a long term post kasai complication? — A. portal hypertension B. variceal bleeding C. hepatoblastoma D. choledochal cyst E. ….</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีช้อย D choledochal cyst และ E ว่าง → เปลี่ยน D เป็น ascending cholangitis, E เป็น hepatopulmonary syndrome เพื่อให้เหลือคำตอบเดียว (choledochal cyst ก็ไม่ใช่ภาวะแทรกซ้อน) · คีย์แปะสไลด์ Complications",
+  "src": "S75DQ · หน้า 2",
+  "kimg": [
+   "ks75d_ped2"
   ]
  },
  "MDCU75|RoD|Ped 3": {
-  "interp": "ทารกชายไม่มีรูทวาร (anorectal malformation) อาการคงที่ · ถามสิ่งที่ทำใน 24 ชม.แรก",
-  "why": "ลายมือในคีย์ (Maimai & Ig): <b>รอใน 24 hrs → รอ fistula · ไม่เจอ fistula → lateral prone cross-table X-ray</b><br><b>นอกสไลด์:</b> ขี้เทาต้องใช้เวลาให้ความดันในลำไส้สูงพอดันผ่าน fistula ออกมาที่ฝีเย็บหรือในปัสสาวะ ช่วงแรกจึงตรวจฝีเย็บซ้ำและดูปัสสาวะ",
+  "interp": "ทารกชายแรกเกิด<b>ไม่มีรูทวาร</b> (anorectal malformation) สัญญาณชีพคงที่ — ถามสิ่งที่ต้องทำใน<b>24 ชั่วโมงแรก</b> ตามหลักของ Peña: ยังไม่ต้องรีบผ่าตัดหรือถ่ายภาพ ต้องรอให้ meconium ดันออกทาง fistula ก่อน แล้วตรวจฝีเย็บและปัสสาวะซ้ำ ๆ เพื่อแยกชนิด",
+  "why": "ในทารกแรกเกิด ความดันในลำไส้ยังไม่พอจะดัน meconium ผ่าน fistula ที่แคบได้ จนกว่าจะผ่านไปราว <b>16–24 ชั่วโมง</b> การตัดสินใจก่อนหน้านั้นจึงอาจผิด · ระหว่างนี้ให้งดนม ใส่ NG tube ให้สารน้ำทางหลอดเลือด และ <b>ตรวจฝีเย็บซ้ำเป็นระยะ</b> ดู meconium ที่ midline raphe/ scrotum (perineal fistula, bucket-handle) และ<b>ดูปัสสาวะ</b>ว่ามี meconium ปน (บ่ง rectourinary fistula) · พร้อมกันนั้นค้นหาความผิดปกติร่วมแบบ <b>VACTERL</b>: echocardiography, renal ultrasound (ไตและทางเดินปัสสาวะผิดปกติพบบ่อยที่สุด), spine/ sacrum X-ray และ spinal ultrasound หา tethered cord, ใส่ NG tube ตัด esophageal atresia · เมื่อครบ 24 ชม.: ถ้าพบ perineal fistula → anoplasty/ minimal PSARP ได้เลยโดยไม่ต้อง colostomy · ถ้า meconium ในปัสสาวะหรือไม่พบ fistula → ทำ <b>prone cross-table lateral X-ray</b> ถ้าลม rectum อยู่ห่างผิวหนัง &gt; 1 cm, sacrum ผิดปกติ หรือมีความผิดปกติร่วมรุนแรง → <b>colostomy</b> ก่อน แล้วทำ PSARP ภายหลัง · ไฟล์ไฮไลต์ A ลายมือ <b>\"รอใน 24 hrs → รอ fistula · ไม่เจอ fistula → lateral prone cross table X-ray\"</b>",
   "wrong": {
-   "B": "ทำเมื่อสิ้นสุดการเฝ้าดู (ลายมือในคีย์) · <b>นอกสไลด์:</b> จะถูกถ้าถึงชั่วโมงที่ 24 แล้วไม่เห็น fistula ที่ฝีเย็บและไม่มีขี้เทาในปัสสาวะ",
-   "C": "<b>นอกสไลด์:</b> ไม่ทำ colostomy ก่อนรู้ชนิด · จะถูกถ้าระหว่างเฝ้าดูเห็นขี้เทาปนในปัสสาวะชัด (rectourinary fistula) — ทำ colostomy ได้โดยไม่ต้องรอภาพรังสี",
-   "D": "<b>นอกสไลด์:</b> ไม่ผ่าตัดก่อนรู้ระดับ · จะถูกถ้าเห็นรูเปิด fistula ที่ฝีเย็บชัดตั้งแต่แรก — ทำ anoplasty/PSARP แบบจำกัดได้เลยโดยไม่ต้อง colostomy",
-   "E": "<b>นอกสไลด์:</b> สวนแป้งทำไม่ได้เมื่อไม่มีรูทวาร · จะถูกถ้าทารกมีรูทวารปกติแต่ไม่ถ่ายขี้เทาเกิน 48 ชม. ท้องอืด สงสัย meconium plug หรือ Hirschsprung"
+   "B": "Prone cross-table lateral X-ray ใช้วัดระยะจากปลาย rectum ที่มีลมถึงผิวหนังฝีเย็บ แต่ถ้าถ่ายก่อน 24 ชม. ลมยังไม่ลงถึงปลาย rectum และ meconium ยังอุดอยู่ ทำให้ดูเหมือนปลายลำไส้อยู่สูงเกินจริง — จะถูกถ้าเป็นทารกชายอายุ 24 ชม. ที่ตรวจฝีเย็บแล้วไม่พบ fistula และไม่มี meconium ในปัสสาวะ",
+   "C": "Colostomy เป็นการผ่าตัดเบี่ยงอุจจาระสำหรับ ARM ชนิดสูง (rectourethral/ rectovesical fistula) แต่ทำทันทีโดยไม่รอแยกชนิด อาจทำ stoma โดยไม่จำเป็นในรายที่เป็น perineal fistula — จะถูกถ้าเป็นทารกชายอายุ 30 ชม. ที่มี meconium ปนในปัสสาวะ และ cross-table X-ray พบลม rectum อยู่สูงกว่าผิวหนังเกิน 1 cm",
+   "D": "PSARP (posterior sagittal anorectoplasty) เป็นการผ่าตัดซ่อมแซมจริง แต่ทำทันทีโดยไม่รู้ระดับของลำไส้และตำแหน่ง fistula เสี่ยงทำลาย urethra และกล้ามเนื้อหูรูด — จะถูกถ้าเป็นทารกอายุ 2 วันที่พบ meconium ออกทางรูเล็กที่ midline raphe ด้านหน้าตำแหน่งทวารปกติ (perineal fistula) ทำ minimal PSARP โดยไม่ต้อง colostomy",
+   "E": "Contrast enema ใช้ในทารกที่<b>มีทวาร</b>แต่ไม่ถ่าย meconium เพื่อหา transition zone ของ Hirschsprung, meconium ileus หรือ small left colon ใน ARM ไม่มีรูให้สอดสาย (ภาพที่ใช้หลังทำ stoma คือ distal colostogram) — จะถูกถ้าเป็นทารก 3 วัน ทวารปกติ ไม่ถ่าย meconium ใน 48 ชม. ท้องอืด อาเจียนเขียว"
   },
-  "trap": "รีบทำภาพรังสีหรือผ่าตัดตั้งแต่ชั่วโมงแรก — ก่อน 24 ชม. rectum อาจยังไม่ได้ลมเต็มและ fistula ยังไม่โผล่ ทำให้ประเมินระดับผิด",
+  "trap": "ความรู้สึกว่าไม่มีรูทวารเป็นภาวะฉุกเฉินทำให้อยากผ่าตัดทันที (colostomy/ PSARP) หรือรีบส่ง X-ray — แต่ทารกที่สัญญาณชีพดีไม่มีอะไรต้องรีบภายใน 24 ชม. การรอให้ meconium ดันออกทำให้รู้ชนิดของ fistula และเลือกการผ่าตัดถูก · X-ray ทำ<b>หลัง</b>รอครบ 24 ชม.และหา fistula ไม่เจอเท่านั้น",
   "summary": [
-   "ลายมือในคีย์: รอ 24 ชม. ดู fistula → ไม่เจอ → prone cross-table lateral X-ray",
-   "<b>นอกสไลด์:</b> ระหว่างรอ: งดน้ำงดอาหาร สายระบายกระเพาะ สารน้ำ · หาความผิดปกติร่วม (VACTERL): echo หัวใจ, ultrasound ไต/กระเพาะปัสสาวะ, กระดูกสันหลัง/sacrum",
-   "<b>นอกสไลด์:</b> ความผิดปกติของทางเดินปัสสาวะพบราวครึ่งหนึ่ง",
-   "<b>นอกสไลด์:</b> ชาย: ขี้เทาในปัสสาวะ → colostomy ก่อน แล้ว PSARP ภายหลัง · ภาพรังสี rectum ห่างผิว ≤ 1 cm → PSARP ได้เลย · PSARP เป็นการผ่าตัดหลักของ ARM ทุกชนิด"
+   "ARM พบราว 1 ใน 4,000–5,000 การเกิด ในเพศชายชนิดที่พบบ่อยที่สุดคือ rectourethral (bulbar) fistula ส่วนเพศหญิงคือ rectovestibular fistula",
+   "24 ชม.แรก: งดนม NG tube สารน้ำ ยาปฏิชีวนะ ตรวจฝีเย็บซ้ำและดู meconium ในปัสสาวะ เพราะต้องรอให้ความดันในลำไส้ดัน meconium ผ่าน fistula",
+   "ค้นหา VACTERL ทุกราย: echocardiography, renal ultrasound, X-ray spine/ sacrum (sacral ratio), spinal ultrasound หา tethered cord และใส่ NG tube ตัด esophageal atresia",
+   "Perineal fistula (meconium ที่ raphe, bucket-handle) → anoplasty/ minimal PSARP ในช่วงแรกเกิดโดยไม่ต้องทำ colostomy",
+   "Meconium ในปัสสาวะ หรือหา fistula ไม่เจอหลัง 24 ชม. → prone cross-table lateral X-ray: ระยะ &gt; 1 cm, sacrum ผิดปกติหรือ flat bottom → colostomy (divided sigmoid) ก่อน",
+   "หลัง colostomy ทำ distal colostogram ด้วยความดันเพื่อหาตำแหน่ง fistula แล้วทำ PSARP ตามแผน ตามด้วยการขยายทวาร (anal dilatation) และปิด colostomy",
+   "ทารกหญิงที่มีรูเปิดเดียวที่ฝีเย็บ = cloaca ต้องตรวจ hydrocolpos และทางเดินปัสสาวะ มักต้อง colostomy ± vaginostomy ก่อนซ่อมใหญ่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ A และลายมือ \"รอใน 24 hrs → รอ fistula\" ตามแนวทางของ Peña · ในไฟล์ช้อย A เดิมเขียนว่า Perineal examination และมีช้อย Urine examination ซึ่งก็เป็นส่วนของการเฝ้าดู เว็บจึงปรับ A เป็น serial perineal examination และตัด urine examination ออกให้เหลือคำตอบเดียว",
+  "mnemonic": "<b>'ไม่มีรูทวาร: Wait 24 → หา Fistula → ไม่เจอ ค่อย X-ray'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Anorectal Malformations; Levitt MA, Peña A. Anorectal malformations. Orphanet J Rare Dis 2007",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกหญิงไม่มีรูทวาร มีขี้เทาออกจาก vestibule หลังเยื่อพรหมจารี → vestibular fistula ทำ PSARP แบบจำกัด (ไม่ใช่ anoplasty)",
-   "<b>นอกสไลด์:</b> ทารกหญิงมีรูเปิดที่ฝีเย็บรูเดียว → cloaca ทำ colostomy และประเมินทางเดินปัสสาวะ/ช่องคลอด"
+   "ทารกชายอายุ 20 ชม. ไม่มีทวาร พบ meconium สีเขียวเป็นเส้นตาม raphe ของ scrotum → perineal fistula → anoplasty โดยไม่ต้อง colostomy",
+   "ทารกชายอายุ 26 ชม. ปัสสาวะมีเศษ meconium ปน → rectourinary fistula → divided sigmoid colostomy ก่อน แล้ว PSARP ภายหลัง",
+   "ทารก ARM ที่ renal ultrasound พบ hydronephrosis ข้างเดียว → ต้องประเมินทางเดินปัสสาวะเพิ่มเพราะเป็นความผิดปกติร่วมที่พบบ่อยที่สุดของ ARM",
+   "ทารกหญิงมีรูเปิดเดียวที่ฝีเย็บ ท้องล่างคลำได้ก้อน → cloaca ร่วม hydrocolpos → colostomy ร่วมระบาย hydrocolpos"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 2 — ตัวพิมพ์: <b>เด็กแรกเกิด absence of anal opening ทำไรใน 24 ชม.แรก — A. Perineal examination B. Prone lateral cross table C. Urine examination</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เปลี่ยน A เป็น Serial perineal examination และเติม C–E (ช้อย Urine examination เดิมตัดออกเพราะก็เป็นส่วนของการเฝ้าดูใน 24 ชม.) · คีย์ลายมือ รอ 24 ชม.รอ fistula ไม่เจอ fistula → prone cross table X-ray",
+  "src": "S75DQ · หน้า 2",
+  "kimg": [
+   "ks75d_ped3"
   ]
  },
  "MDCU75|RoD|Ped 4": {
-  "interp": "ทารกชาย 1 เดือน แข็งแรง ไส้เลื่อนขาหนีบสองข้างดันกลับได้ · ถามการผ่าตัดที่เหมาะสม",
-  "why": "ข้อความ Schwartz's ในคีย์ (Maimai & Ig): <b>high ligation of the hernia sac</b><br><b>นอกสไลด์:</b> ไส้เลื่อนขาหนีบในเด็กเกือบทั้งหมดเป็น indirect จาก processus vaginalis ที่ไม่ปิด ผนังหน้าท้อง (floor) ปกติ จึงแค่แยกถุงจาก cord แล้วผูกที่ internal ring ไม่ต้องซ่อม floor หรือใช้ mesh · ทารกเสี่ยงไส้เลื่อนติดค้างสูง จึงผ่าตัดเร็วหลังวินิจฉัย",
+  "interp": "ทารกชาย 1 เดือน แข็งแรง มี<b>ไส้เลื่อนขาหนีบทั้งสองข้างที่ดันกลับได้</b> — ถามการรักษาที่เหมาะสม ต้องรู้ว่าไส้เลื่อนในเด็กเป็น indirect จาก patent processus vaginalis ผนังหลังปกติ จึงรักษาด้วยการผูกถุงไส้เลื่อนสูงอย่างเดียว ไม่ต้องซ่อมผนังหรือใส่ mesh แบบผู้ใหญ่",
+  "why": "ไส้เลื่อนขาหนีบในเด็กเกือบทั้งหมดเป็น <b>indirect inguinal hernia</b> เกิดจาก <b>processus vaginalis ไม่ปิด</b> ส่วน transversalis fascia และผนังหลังของ inguinal canal ปกติ · การรักษาคือ <b>herniotomy = high ligation of the hernia sac</b>: เปิด inguinal canal แยกถุงออกจาก vas deferens และ testicular vessels อย่างนุ่มนวล แล้วผูกถุงที่ระดับ internal ring (หรือทำผ่านกล้อง) โดย<b>ไม่ต้องซ่อม posterior wall</b> และไม่ใช้ mesh · ไส้เลื่อนในเด็กไม่หายเอง และเสี่ยง <b>incarceration</b> สูงสุดในขวบปีแรก จึงควรผ่าตัดแบบ elective เร็วหลังวินิจฉัย ไม่รอ · bilateral → ซ่อมทั้งสองข้างในการผ่าตัดครั้งเดียว · ถ้า incarcerated แต่ไม่มี peritonitis ให้ sedation ลดกลับด้วยมือ แล้วผ่าตัดหลังบวมยุบราว 24–48 ชม. · ทารกคลอดก่อนกำหนดที่อายุหลังปฏิสนธิ &lt; 60 สัปดาห์ เสี่ยง apnea หลังดมยาต้องเฝ้าดูค้างคืน · ไฟล์ไฮไลต์ B ทั้ง 2 แถว และแปะข้อความ Schwartz's <b>\"high ligation of the hernia sac\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Mesh ใช้ซ่อม floor ที่อ่อนแอในผู้ใหญ่ ไม่ใช้ในทารก · จะถูกถ้าเป็นชายผู้ใหญ่ไส้เลื่อนขาหนีบสองข้างที่ไม่เหมาะกับการส่องกล้อง → open preperitoneal mesh repair",
-   "C": "<b>นอกสไลด์:</b> Cooper ligament (McVay) repair ปิดได้ทั้ง inguinal และ femoral canal · จะถูกถ้าเป็นหญิงผู้ใหญ่ที่มี femoral hernia และไม่ใช้ mesh",
-   "D": "<b>นอกสไลด์:</b> Bassini เป็นการซ่อม floor ด้วยเนื้อเยื่อในผู้ใหญ่ · จะถูกถ้าผู้ใหญ่มี strangulated inguinal hernia ที่ต้องตัดลำไส้เน่า — สนามผ่าตัดปนเปื้อนจึงเลี่ยง mesh",
-   "E": "<b>นอกสไลด์:</b> Shouldice เป็น tissue repair หลายชั้นในผู้ใหญ่ · จะถูกถ้าชายผู้ใหญ่ไส้เลื่อนข้างเดียวครั้งแรกที่ไม่ต้องการใช้ mesh และผ่าตัดในศูนย์ที่ชำนาญวิธีนี้"
+   "A": "Open preperitoneal mesh repair เป็นการซ่อมของผู้ใหญ่ (เช่น Stoppa/ TEP แบบเปิด) ที่เสริมผนังหลังที่อ่อนแอ ในเด็กผนังปกติ และ mesh เสี่ยงทำ vas deferens ตีบ/ ภาวะมีบุตรยากและไม่โตตามตัว — จะถูกถ้าเป็นชาย 60 ปี มี recurrent bilateral inguinal hernia หลังซ่อมแบบเปิดด้านหน้ามาแล้ว",
+   "C": "Cooper ligament (McVay) repair เย็บ transversalis fascia เข้ากับ Cooper ligament ปิดได้ทั้ง direct, indirect และ femoral defect เป็นการซ่อมผนังหลังของผู้ใหญ่ ไม่จำเป็นในเด็ก — จะถูกถ้าเป็นหญิง 65 ปี มีก้อนใต้ inguinal ligament ด้านในต่อ femoral vein (femoral hernia) ที่ต้องซ่อมแบบไม่ใช้ mesh",
+   "D": "Bassini repair เย็บ conjoint tendon เข้ากับ inguinal ligament เสริมผนังหลัง เป็น tissue repair แบบคลาสสิกของผู้ใหญ่ ในทารกจะสร้างแรงตึงโดยไม่จำเป็นเพราะผนังหลังไม่ได้อ่อนแอ — จะถูกถ้าเป็นชาย 70 ปี strangulated inguinal hernia ที่ต้องตัดต่อลำไส้ (แผลปนเปื้อน ไม่ควรใส่ mesh) จึงซ่อมด้วยเนื้อเยื่อ",
+   "E": "Shouldice repair ซ่อมผนังหลังแบบเย็บ transversalis fascia ซ้อนหลายชั้น เป็น tissue repair ที่อัตรากลับเป็นซ้ำต่ำที่สุดในผู้ใหญ่ แต่เกินความจำเป็นสำหรับเด็กที่ปัญหาคือ processus vaginalis เปิดอย่างเดียว — จะถูกถ้าเป็นชาย 35 ปี primary inguinal hernia ที่ไม่ต้องการใช้ mesh"
   },
-  "trap": "ใช้หลักไส้เลื่อนผู้ใหญ่กับเด็ก — เด็กไม่มี floor defect ทำแค่ high ligation · และต่างจาก hydrocele ที่รอได้",
+  "trap": "ช้อยทุกข้อยกเว้น B เป็นชื่อการซ่อมไส้เลื่อนที่เรียนในผู้ใหญ่ จึงชวนเลือกวิธีที่ฟังดูแข็งแรงที่สุด (mesh หรือ Shouldice) — แยกด้วยพยาธิกำเนิด: เด็ก = indirect hernia จาก patent processus vaginalis ผนังหลังปกติ แก้ด้วยผูกถุงสูงพอ ส่วนผู้ใหญ่ผนังหลังอ่อนแอจึงต้อง herniorrhaphy/ hernioplasty",
   "summary": [
-   "ข้อความในคีย์: เด็กใช้ high ligation of the hernia sac",
-   "<b>นอกสไลด์:</b> พบมากในเด็กคลอดก่อนกำหนด เด็กชาย และข้างขวา · ทารกเสี่ยงติดค้างสูงที่สุดในขวบปีแรก",
-   "<b>นอกสไลด์:</b> ไส้เลื่อนติดค้างในทารก: ดันกลับด้วยมือ (± ยาระงับประสาท) ถ้าสำเร็จนัดผ่าตัดภายใน 24–48 ชม. เมื่อบวมยุบ · ดันไม่เข้า/มีอาการขาดเลือด → ผ่าตัดฉุกเฉิน",
-   "<b>นอกสไลด์:</b> ผ่าตัดเปิดหรือส่องกล้องได้ · การส่องกล้องเห็นอีกข้างได้ด้วย"
+   "ไส้เลื่อนขาหนีบในเด็ก: indirect เกือบทั้งหมด พบราว 1–5% ในทารกครบกำหนด และสูงขึ้นมากในทารกคลอดก่อนกำหนด ชายมากกว่าหญิงหลายเท่า ข้างขวาบ่อยกว่าซ้าย",
+   "การรักษา: herniotomy (high ligation of the hernia sac ที่ internal ring) แบบเปิดหรือผ่านกล้อง ไม่ซ่อม posterior wall ไม่ใช้ mesh",
+   "ควรผ่าตัดแบบ elective เร็วหลังวินิจฉัย เพราะไม่หายเอง และเสี่ยง incarceration สูงสุดในขวบปีแรก ซึ่งทำให้ลำไส้และอัณฑะขาดเลือดได้",
+   "Incarcerated hernia ที่ไม่มี peritonitis: sedation + manual reduction สำเร็จส่วนใหญ่ แล้วผ่าตัดหลังบวมยุบราว 24–48 ชม. · ลดไม่ได้หรือมี peritonitis → ผ่าตัดฉุกเฉิน",
+   "ทารกคลอดก่อนกำหนดอายุหลังปฏิสนธิ &lt; 60 สัปดาห์ เสี่ยง postoperative apnea ต้องเฝ้าดู monitor ค้างคืนหลังผ่าตัด",
+   "ภาวะแทรกซ้อนเฉพาะในเด็ก: บาดเจ็บ vas deferens, testicular atrophy (โดยเฉพาะหลัง incarceration), iatrogenic undescended testis และกลับเป็นซ้ำราว 1%",
+   "ในเด็กหญิงที่คลำได้ก้อนในถุงไส้เลื่อนอาจเป็นรังไข่ และไส้เลื่อนทั้งสองข้างในเด็กหญิงต้องนึกถึง complete androgen insensitivity syndrome"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (Maimai & Ig) ตาม Schwartz's ในคีย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ B ทั้ง 2 แถวและอ้าง Schwartz's ว่า high ligation of the hernia sac · ในไฟล์ข้อนี้มี 2 แถวจากผู้จดคนละคนที่เป็นข้อเดียวกัน เว็บรวมเป็นข้อเดียว คำตอบไม่ต่างกัน",
+  "mnemonic": "<b>'เด็ก = ผูกถุงสูง (Herniotomy) · ผู้ใหญ่ = ซ่อมผนัง (Herniorrhaphy)'</b>",
+  "guide": "Schwartz's Principles of Surgery 11th ed. (2019) — Pediatric Surgery: Inguinal Hernia; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Inguinal and Umbilical Hernias",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกคลอดก่อนกำหนดใน NICU มีไส้เลื่อนขาหนีบ ใกล้กลับบ้าน → ผ่าตัดก่อนกลับบ้าน",
-   "<b>นอกสไลด์:</b> เด็กหญิงมีไส้เลื่อนขาหนีบ ผ่าตัดพบ gonad ในถุง → สงสัย androgen insensitivity ส่งตรวจ karyotype"
+   "ทารกชาย 3 เดือน ก้อนที่ขาหนีบขวาแข็ง ร้องกวน ดันไม่กลับ ไม่มีไข้ ท้องไม่อืด → sedation + manual reduction แล้ว herniotomy หลัง 24–48 ชม.",
+   "ทารกคลอด 30 สัปดาห์ อายุหลังปฏิสนธิ 40 สัปดาห์ มีไส้เลื่อนขาหนีบ → herniotomy แล้วนอนดู apnea monitor ค้างคืน",
+   "ทำไมเด็กไม่ต้องซ่อม posterior wall → พยาธิสภาพคือ processus vaginalis เปิดค้าง ผนังหลังของ inguinal canal ยังแข็งแรงปกติ",
+   "เด็กหญิง 2 ปี ไส้เลื่อนขาหนีบทั้งสองข้าง ระหว่างผ่าตัดพบเนื้อเยื่อคล้ายอัณฑะในถุง → สงสัย complete androgen insensitivity ส่งตรวจ karyotype"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 2 — ตัวพิมพ์: <b>A 1 month old healthy baby boy with bilat. inguinal hernia, which is the most appropriate management — A. Open preperitoneal prosthetic mesh repair B. High ligation of the hernia sac C. A cooper ligament repair D. A bassini type repair E. A shouldice repair · (แถวซ้ำในไฟล์: เด็ก1เดือน bilat IIH ทำไร — A. mesh repair B. high ligation of hernia sac C. Basini repair D. ….repair E. …..repair)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีโจทย์นี้ 2 แถว (recall คนละคน คอลัมน์ซ้ายฉบับอังกฤษ + คอลัมน์ขวา \"เด็ก1เดือน bilat IIH ทำไร\") = ข้อเดียวกันในปีเดียวกัน → รวมเป็นข้อเดียวตามกติการวมคีย์ · ครอปคีย์ทั้ง 2 แถว · คีย์แปะข้อความ Schwartz's",
+  "src": "S75DQ · หน้า 2",
+  "kimg": [
+   "ks75d_ped4a",
+   "ks75d_ped4b"
   ]
  },
  "MDCU75|RoD|Ped 5": {
-  "interp": "ทารก 4 เดือน ตัวเหลือง อุจจาระซีด ปัสสาวะเข้ม ตับโต → cholestasis สงสัย biliary atresia · ถามการตรวจต่อไป",
-  "why": "สไลด์ The diagnosis of BA ในคีย์ (Maimai & Ig): <b>ultrasound → triangular cord sign → intraoperative cholangiogram/Kasai · choledochal cyst → surgery</b><br><b>นอกสไลด์:</b> อุจจาระซีดและปัสสาวะเข้มบอกว่าเป็นตัวเหลืองแบบอุดกั้นแล้ว imaging แรกคือ ultrasound (± Doppler): triangular cord sign, ถุงน้ำดีเล็ก/ไม่มี และแยก choledochal cyst · การตรวจเลือดแยก direct bilirubin ส่งคู่กันได้",
+  "interp": "ทารกชาย 4 เดือน มี<b>ดีซ่าน อุจจาระซีด (acholic) ปัสสาวะสีเข้ม และตับโต</b> = cholestatic jaundice ที่ต้องคิดถึง <b>biliary atresia</b> และ choledochal cyst ก่อน — ถาม investigation ถัดไปที่ควรส่ง ซึ่งคือภาพถ่ายที่ทำได้เร็ว ไม่รุกล้ำ และแยกโรคที่ต้องผ่าตัดได้",
+  "why": "ทารกที่ดีซ่านเกิน 2–3 สัปดาห์ต้องเจาะ <b>direct/ conjugated bilirubin</b> เสมอ (cholestasis เมื่อ conjugated bilirubin &gt; 1.0 mg/dL ตาม NASPGHAN) แต่ในข้อนี้อาการบอกชัดแล้วว่าเป็น cholestasis (อุจจาระซีด ปัสสาวะเข้ม) ขั้นต่อไปที่ช่วยแยก<b>ภาวะที่ต้องผ่าตัด</b>คือ <b>abdominal ultrasonography (ร่วม Doppler)</b> หลังงดนม 4 ชม.: ① ตัด <b>choledochal cyst</b> ซึ่งเห็นเป็นถุงน้ำต่อกับท่อน้ำดี → ผ่าตัด cyst excision + hepaticojejunostomy ② ลักษณะที่สนับสนุน biliary atresia: <b>triangular cord sign</b> (เนื้อเยื่อ echogenic หนาราว ≥ 3–4 mm หน้าต่อ portal vein), ถุงน้ำดีเล็ก/ รูปร่างผิดปกติ/ ไม่หดหลังกินนม, hepatic artery ใหญ่ขึ้นบน Doppler และหา polysplenia/ situs anomaly (BASM) · ถ้า US สงสัย BA → ยืนยันด้วย <b>intraoperative cholangiogram + liver biopsy</b> แล้วทำ Kasai ทันที · Kasai ได้ผลดีที่สุดก่อนอายุ 60 วัน อายุ 4 เดือน (ราว 120 วัน) ผลแย่ลงมาก อาจยังทำได้ถ้ายังไม่ cirrhosis มาก หรือพิจารณาปลูกถ่ายตับ · ไฟล์ไฮไลต์ B และแปะสไลด์ <b>\"The diagnosis of BA: ultrasound → triangular cord sign → IOC/ Kasai; choledochal cyst → surgery\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> LFT/direct bilirubin ส่งคู่กันได้ แต่ไม่บอกสาเหตุ · จะถูกถ้าทารก 3 สัปดาห์ตัวเหลืองแต่อุจจาระสีปกติ ปัสสาวะไม่เข้ม — ต้องแยกก่อนว่าเป็น direct หรือ indirect",
-   "C": "<b>นอกสไลด์:</b> Elastography วัดความแข็งของตับ ไม่วินิจฉัยสาเหตุ · จะถูกถ้าเป็นเด็กหลัง Kasai ที่ติดตามดูว่าตับแข็งมากขึ้นหรือไม่",
-   "D": "<b>นอกสไลด์:</b> MRCP ในทารกต้องดมยาและเห็นท่อเล็กได้ไม่ดี ไม่ใช่การตรวจแรก · จะถูกถ้าผู้ใหญ่สงสัยนิ่วในท่อน้ำดีระดับความเสี่ยงปานกลางและ ultrasound ไม่ชัด",
-   "E": "<b>นอกสไลด์:</b> HIDA ไม่ priming ทำให้ผลลบลวงต่ำลง ไม่ใช่การตรวจแรกในทารก · จะถูกถ้าผู้ใหญ่ปวดท้องขวาบน ultrasound ก้ำกึ่ง สงสัย acute cholecystitis"
+   "A": "Liver function test (fractionated bilirubin, GGT, AST/ ALT) ต้องส่งทุกรายเพื่อยืนยัน cholestasis แต่ไม่บอกตำแหน่งหรือแยก biliary atresia จาก neonatal hepatitis/ choledochal cyst ได้ จึงไม่ใช่ตัวตัดสินขั้นต่อไป — จะถูกถ้าเป็นทารก 3 สัปดาห์ที่ดีซ่านอยู่ อุจจาระสีปกติ ยังไม่รู้ว่าเป็น direct หรือ indirect hyperbilirubinemia",
+   "C": "Liver elastography (Fibroscan) วัดความแข็งของตับเพื่อประเมิน fibrosis มีงานวิจัยว่าค่าสูงใน BA แต่ยังไม่ใช่การตรวจมาตรฐานเพื่อวินิจฉัยและไม่เห็นกายวิภาคของท่อน้ำดี — จะถูกถ้าเป็นเด็ก 8 ปีหลัง Kasai ที่ดีซ่านหายแล้วและต้องติดตามความก้าวหน้าของ fibrosis เป็นระยะ",
+   "D": "MRCP ในทารกเห็นท่อน้ำดีขนาดเล็กได้ไม่ชัด ต้องให้ยาสลบ/ sedation และไม่สามารถตัด BA ได้แน่นอน จึงไม่ใช่การตรวจแรก — จะถูกถ้าเป็นเด็กหญิง 5 ปีที่ปวดท้องขวาบน ดีซ่านเป็นพัก ๆ คลำได้ก้อน US พบ choledochal cyst และต้องดูกายวิภาคท่อน้ำดีและ pancreaticobiliary maljunction ก่อนผ่าตัด",
+   "E": "HIDA scan ดูการขับสารเข้าลำไส้ ถ้าไม่ขับเลยสนับสนุน BA (ไวสูงแต่จำเพาะต่ำ) และในทารกต้อง <b>priming ด้วย phenobarbital</b> 3–5 วันเพื่อลดผลบวกลวงจาก neonatal hepatitis ทำแบบไม่ priming จึงแปลผลยากและทำให้ล่าช้า — จะถูกถ้าเป็นหญิง 45 ปี ปวดใต้ชายโครงขวามีไข้ US ไม่ชัดเจน ต้องการยืนยัน acute cholecystitis"
   },
-  "trap": "เลือก LFT เพราะเป็นพื้นฐาน — ข้อนี้อาการบอก cholestasis ชัดแล้ว คำถามคือ imaging หาสาเหตุ (ultrasound)",
+  "trap": "ช้อย A (LFT) ดูเป็นขั้นแรกตามความเคยชิน และ MRCP/ HIDA ดูเจาะจงต่อท่อน้ำดีกว่า แต่ทารกนี้มีลักษณะ cholestasis ชัดแล้ว สิ่งที่ต้องรีบคือแยกโรคที่ต้องผ่าตัด ซึ่ง ultrasound ทำได้ทันที ไม่ต้องดมยา · อายุ 4 เดือนเลยช่วง Kasai ที่ดีที่สุดแล้วจึงยิ่งต้องไม่เสียเวลา",
   "summary": [
-   "สไลด์ในคีย์: ultrasound (triangular cord sign) → intraoperative cholangiogram → Kasai · ถ้าเป็น choledochal cyst → ผ่าตัด",
-   "<b>นอกสไลด์:</b> Neonatal cholestasis: direct bilirubin > 1.0 mg/dL (NASPGHAN/ESPGHAN 2017) · ทารกตัวเหลืองเกิน 2 สัปดาห์ต้องตรวจ direct bilirubin",
-   "<b>นอกสไลด์:</b> Ultrasound ใน BA: triangular cord sign, ถุงน้ำดีเล็ก/รูปร่างผิดปกติ/ไม่หดหลังกิน · ปกติก็ไม่ได้ตัด BA",
-   "<b>นอกสไลด์:</b> ยืนยัน: intraoperative cholangiogram (มาตรฐาน) · Kasai ได้ผลดีที่สุดเมื่อทำก่อนอายุราว 60 วัน"
+   "ดีซ่านในทารกที่เกิน 2 สัปดาห์ (ครบกำหนด) หรือ 3 สัปดาห์ (คลอดก่อนกำหนด/ กินนมแม่) ต้องเจาะ total และ direct bilirubin เพื่อคัดกรอง cholestasis",
+   "Cholestasis: conjugated bilirubin &gt; 1.0 mg/dL · อุจจาระซีด (ใช้ stool color card) + ปัสสาวะเข้ม → ต้องตัด biliary atresia ภายในไม่กี่วัน",
+   "Ultrasound: triangular cord sign, ถุงน้ำดีเล็ก/ ผิดรูป/ ไม่หด, hepatic artery โต, polysplenia/ preduodenal portal vein (BASM) และตัด choledochal cyst",
+   "HIDA scan (priming phenobarbital 5 mg/kg/วัน 3–5 วัน): มีสารในลำไส้ = ตัด BA ได้ · ไม่ขับ = ยังแยก BA จาก neonatal hepatitis ไม่ได้",
+   "Gold standard: intraoperative cholangiogram + liver biopsy (ductular proliferation, bile plugs, portal fibrosis) แล้วทำ Kasai ในการผ่าตัดเดียวกัน",
+   "Kasai ดีที่สุดก่อน 60 วัน · ยิ่งช้ายิ่งได้ผลน้อย ถ้าอายุมากและมี cirrhosis/ ascites ชัดอาจพิจารณา primary liver transplantation",
+   "Choledochal cyst (Todani type I พบบ่อยสุด) → excision + Roux-en-Y hepaticojejunostomy เพราะเสี่ยง cholangitis, pancreatitis และมะเร็งท่อน้ำดี"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (Maimai & Ig) ตามสไลด์ในคีย์ · ความมั่นใจปานกลาง — ในเวชปฏิบัติส่ง direct bilirubin คู่กันเสมอ",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ B และสไลด์ที่เริ่ม algorithm ด้วย ultrasound · ในทางปฏิบัติ LFT ส่งไปพร้อมกันเสมอ แต่ตัวที่เปลี่ยนการจัดการคือ US · ไฟล์เดิมมี 4 ช้อย เว็บเติม E (HIDA ไม่ priming) และอายุ 4 เดือนบ่งว่าเลยช่วงทองของ Kasai แล้ว",
+  "mnemonic": "<b>'ดีซ่าน + อุจจาระซีด → US หา Triangular cord ก่อน 60 วัน'</b>",
+  "guide": "Fawaz R, et al. Guideline for the Evaluation of Cholestatic Jaundice in Infants: NASPGHAN/ESPGHAN. J Pediatr Gastroenterol Nutr 2017; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary Atresia",
   "variants": [
-   "<b>นอกสไลด์:</b> Ultrasound ทารกตัวเหลืองพบถุงน้ำที่ท่อน้ำดีร่วมโป่ง → choledochal cyst ผ่าตัดตัดถุงและต่อ hepaticojejunostomy",
-   "<b>นอกสไลด์:</b> ทารก 4 เดือนเพิ่งวินิจฉัย BA ตับแข็งชัดแล้ว → ผล Kasai ด้อยลงมาก พิจารณาปลูกถ่ายตับ"
+   "ทารก 6 สัปดาห์ ดีซ่าน อุจจาระซีด US พบ triangular cord sign และถุงน้ำดีเล็กไม่หด → intraoperative cholangiogram แล้ว Kasai ทันที",
+   "ทารก 5 สัปดาห์ ดีซ่าน US พบถุงน้ำรูปกระสวยต่อกับ common bile duct → choledochal cyst → excision + hepaticojejunostomy",
+   "ทารก 7 สัปดาห์ ดีซ่าน HIDA หลัง priming phenobarbital พบสารเข้าลำไส้ → ตัด biliary atresia ได้ คิดถึง neonatal hepatitis/ สาเหตุอื่น",
+   "ทำไม US ต้องงดนมก่อนตรวจ → เพื่อให้ถุงน้ำดีพองเต็ม ดูขนาดได้ และดูการหดตัวหลังให้นมเพื่อแยก BA"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 2 — ตัวพิมพ์: <b>เด็กชายอายุ 4 เดือนมาด้วย jaundice, acolic stool, dark urine ตรวจร่างกายพบ hepatomegaly ส่ง investigation อะไร — A. Liver function test B. Doppler us C. Liver fibroscan D. MRCP</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 4 ช้อย → เติม E · ⚠ อายุ 4 เดือนเลยช่วง Kasai ที่ดีที่สุด แต่โจทย์ถาม investigation",
+  "src": "S75DQ · หน้า 2",
+  "kimg": [
+   "ks75d_ped5"
   ]
  },
  "MDCU75|RoD|Ped 6": {
-  "interp": "เด็ก 10 ปี เพิ่งเป็นกระเพาะลำไส้อักเสบ ตอนนี้ปวดท้องขวาล่าง 4 วัน ไข้ · ultrasound เห็นต่อมน้ำเหลืองใน mesentery โตหลายต่อม ไส้ติ่งปกติ → ถามการวินิจฉัย",
-  "why": "ลายมือในคีย์ (Maimai & Ig): <b>ตามหลัง gastroenteritis, ไข้</b> · A = อายุราว 2 ปี · B = อายุราว 3 ปี<br><b>นอกสไลด์:</b> Mesenteric adenitis คือต่อมน้ำเหลืองใน mesentery โตจากการติดเชื้อ (ไวรัส, Yersinia) มักตามหลังลำไส้อักเสบหรือหวัด ปวดขวาล่างเลียนแบบไส้ติ่ง · ultrasound ที่เห็นไส้ติ่งปกติร่วมกับต่อมน้ำเหลืองโตเป็นกลุ่มช่วยวินิจฉัย · รักษาประคับประคอง",
+  "interp": "เด็กชาย 10 ปี เพิ่งเป็น gastroenteritis ได้ยาปฏิชีวนะ ต่อมาปวดท้องขวาล่าง 4 วัน ไข้ หัวใจเต้นเร็ว กดเจ็บ RLQ แต่ <b>US พบต่อมน้ำเหลือง mesentery โตหลายต่อมที่ RLQ และไส้ติ่งปกติ</b> — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ซึ่งต้องแยกจาก appendicitis และโรคอื่นที่ปวด RLQ ในเด็ก",
+  "why": "<b>Mesenteric adenitis</b> คือต่อมน้ำเหลืองใน mesentery บริเวณ ileocecal อักเสบโต มักตามหลัง<b>การติดเชื้อไวรัสทางเดินหายใจหรือทางเดินอาหาร</b> หรือเชื้อแบคทีเรีย เช่น <b>Yersinia enterocolitica</b>, Campylobacter, Salmonella พบในเด็กและวัยรุ่น อาการเลียนแบบ appendicitis ได้มาก (ไข้ ปวด RLQ คลื่นไส้) แต่ไข้มักขึ้นก่อนหรือพร้อมปวด ปวดกระจายกว่าและกดเจ็บไม่ชัดที่จุดเดียว · การวินิจฉัยด้วย <b>ultrasound</b>: กลุ่มต่อมน้ำเหลืองโต (นิยมใช้ ≥ 3 ต่อม แกนสั้น ≥ 5 mm) ร่วมกับ<b>เห็นไส้ติ่งปกติ</b> (กดยุบได้ เส้นผ่านศูนย์กลาง ≤ 6 mm ไม่มี periappendiceal fat stranding) — ข้อสำคัญคือต้องเห็นไส้ติ่งปกติ เพราะต่อมน้ำเหลืองโตพบร่วมกับ appendicitis ได้ด้วย (secondary adenitis) · รักษาแบบประคับประคอง: ยาแก้ปวด ลดไข้ สารน้ำ หายเองใน 1–2 สัปดาห์ ถ้าอาการไม่ดีขึ้นหรือแย่ลงให้ตรวจซ้ำ (US/ CT) · ไฟล์ไฮไลต์ E ลายมือ <b>\"ตามหลัง gastroenteritis, ไข้\"</b> และเขียนตัดช้อยอื่น: A = 2 years old, B = 3 years old, C ✗, D ✗",
   "wrong": {
-   "A": "ลายมือในคีย์: Meckel พบในเด็กเล็ก · <b>นอกสไลด์:</b> จะถูกถ้า ultrasound/CT เห็นถุงลำไส้อักเสบที่ ileum ห่างจาก ileocecal valve ขณะที่ไส้ติ่งปกติ",
-   "B": "ลายมือในคีย์: intussusception พบในเด็กเล็ก · <b>นอกสไลด์:</b> จะถูกถ้าเด็ก 1 ปีปวดท้องเป็นพัก ๆ ร้องงอตัว ถ่ายมูกเลือด ultrasound เห็น target sign",
-   "C": "<b>นอกสไลด์:</b> นิ่วในท่อไตปวดบิดร้าวลงขาหนีบ มีเลือดในปัสสาวะ ไม่มีไข้ · จะถูกถ้า ultrasound เห็นไตบวมน้ำข้างขวาร่วมกับเลือดในปัสสาวะ",
-   "D": "<b>นอกสไลด์:</b> ฝีไส้ติ่งต้องเห็นไส้ติ่งอักเสบ/ก้อนของเหลว · จะถูกถ้าปวดขวาล่าง 4–5 วัน คลำได้ก้อน ultrasound/CT เห็นโพรงหนองติดไส้ติ่งที่อักเสบ"
+   "A": "Meckel diverticulitis เลียนแบบ appendicitis ได้ (ปวด RLQ หรือรอบสะดือ ไข้) แต่ US จะเห็นถุงที่อักเสบแยกจากไส้ติ่ง และอาการที่พบบ่อยกว่าในเด็กเล็กคือเลือดออกไม่เจ็บ (ลายมือเขียน 2 years old ตามกฎ rule of 2s) — จะถูกถ้าเป็นเด็กชาย 2 ปี ถ่ายเป็นเลือดแดงคล้ำปริมาณมากไม่ปวดท้อง Meckel scan (Tc-99m pertechnetate) พบจุดสะสมสารที่ RLQ",
+   "B": "Intussusception พบมากในอายุ 3 เดือน–3 ปี (ลายมือเขียน 3 years old) มาด้วยปวดเป็นพัก ๆ ถ่ายมูกเลือด และ US เห็น target sign ไม่ใช่ต่อมน้ำเหลืองโตกับไส้ติ่งปกติ ในเด็กโตต้องหา lead point — จะถูกถ้าเป็นเด็ก 10 เดือน ร้องกวนขาขึ้นท้องเป็นพัก ๆ ถ่ายมูกปนเลือด US พบ target sign ที่ใต้ชายโครงขวา",
+   "C": "Ureteric stone ปวดบิดเป็นพัก ๆ ที่บั้นเอวร้าวลงขาหนีบ มีเลือดในปัสสาวะ ไม่มีไข้สูงถ้าไม่ติดเชื้อ US เห็น hydronephrosis/ นิ่ว ไม่ใช่ต่อมน้ำเหลืองโต และพบไม่บ่อยในเด็ก — จะถูกถ้าเป็นเด็กหญิง 12 ปี ปวดบิดบั้นเอวขวาร้าวลงขาหนีบ UA พบ RBC มาก US พบ hydronephrosis และนิ่วที่ ureterovesical junction",
+   "D": "Appendiceal abscess เกิดเมื่อไส้ติ่งแตกแล้วถูกห่อหุ้ม มักปวดนานเกิน 3–5 วัน คลำได้ก้อน และยาปฏิชีวนะที่ได้มาก่อนอาจบดบังอาการ แต่ US จะเห็นก้อนน้ำ/ phlegmon รอบไส้ติ่ง ไม่ใช่ไส้ติ่งปกติ — จะถูกถ้าเป็นเด็ก 9 ปีปวด RLQ 6 วัน ไข้สูง คลำได้ก้อนกดเจ็บ US พบ complex fluid collection ขนาด 4 cm รอบไส้ติ่ง (รักษาด้วย antibiotics ± percutaneous drainage)"
   },
-  "trap": "ปวดนาน 4 วันและเคยได้ยาปฏิชีวนะชวนคิดฝีไส้ติ่ง — แต่ ultrasound เห็นไส้ติ่งปกติและต่อมน้ำเหลืองโต",
+  "trap": "ไข้ ปวด RLQ กดเจ็บ และหัวใจเต้นเร็ว ทำให้ตอบ appendicitis/ appendiceal abscess ทันที (ปวด 4 วันหลังได้ยาปฏิชีวนะยิ่งชวนคิดถึง abscess) — แต่จุดตัดสินคือ<b>ผล US ที่เห็นไส้ติ่งปกติ</b>ร่วมต่อมน้ำเหลืองโตหลายต่อม และประวัติติดเชื้อทางเดินอาหารนำมาก่อน ซึ่งเป็นภาพของ mesenteric adenitis",
   "summary": [
-   "<b>นอกสไลด์:</b> Mesenteric adenitis: เด็กโต/วัยรุ่น ไข้นำมาก่อนหรือพร้อมปวด กดเจ็บไม่จำกัดจุดเท่าไส้ติ่ง มักมีหวัด/ลำไส้อักเสบนำ",
-   "<b>นอกสไลด์:</b> เป็นการวินิจฉัยหลังแยกไส้ติ่งอักเสบแล้ว · ถ้า ultrasound ไม่เห็นไส้ติ่งชัด ให้ตรวจซ้ำเป็นระยะหรือทำภาพเพิ่ม",
-   "<b>นอกสไลด์:</b> รักษา: ยาแก้ปวด ลดไข้ สารน้ำ · อาการหายเองในไม่กี่วัน"
+   "Mesenteric adenitis: ต่อมน้ำเหลือง ileocecal mesentery อักเสบ พบในเด็ก/ วัยรุ่น ตามหลังติดเชื้อไวรัสหรือ Yersinia, Campylobacter, Salmonella เป็น differential ที่สำคัญที่สุดของ appendicitis ในเด็ก",
+   "แยกจาก appendicitis: ไข้มักนำหรือมาพร้อมปวด มีอาการติดเชื้อทางเดินหายใจ/ ท้องเสียนำ ปวดกระจาย กดเจ็บไม่จำกัดที่ McBurney · ใน appendicitis ปวดมักนำก่อนไข้",
+   "US: ต่อมน้ำเหลืองโตเป็นกลุ่ม (≥ 3 ต่อม แกนสั้น ≥ 5 mm) + ไส้ติ่งปกติ (กดยุบ ≤ 6 mm) · ถ้ามองไม่เห็นไส้ติ่งยังตัด appendicitis ไม่ได้",
+   "รักษาประคับประคอง หายเองใน 1–2 สัปดาห์ · ถ้าอาการไม่ดีขึ้นใน 24–48 ชม. หรือแย่ลง ให้ตรวจร่างกายซ้ำและถ่ายภาพซ้ำ",
+   "Meckel diverticulum (rule of 2s): ประชากร 2%, ห่าง ileocecal valve ราว 2 ฟุต, ยาวราว 2 นิ้ว, เนื้อเยื่อ ectopic 2 ชนิด (gastric, pancreatic), มีอาการมักก่อนอายุ 2 ปี",
+   "Intussusception: 3 เดือน–3 ปี peak 6–18 เดือน · ในเด็ก &gt; 5 ปีต้องหา pathologic lead point เช่น Meckel diverticulum, polyp, lymphoma",
+   "Perforated appendicitis/ appendiceal abscess: ปวดนาน &gt; 72 ชม. ก้อนที่ RLQ · abscess ที่ห่อหุ้มดีให้ antibiotics ± percutaneous drainage แล้วจึงพิจารณา interval appendectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E (Maimai & Ig) — stem เติมประวัติและผล ultrasound ตามลายมือคีย์ · recall เดิมไม่ชัด ถ้าโจทย์จริงเน้นปวดนาน + ได้ยาแล้ว อาจเป็นฝีไส้ติ่ง · ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ E พร้อมลายมือ \"ตามหลัง gastroenteritis, ไข้\" · แต่ recall ในไฟล์จดไม่ครบ (\"1 สัปดาห์ ปวดท้อง 4 วัน, กิน ATB อ้วก\") ถ้าเป็นปวด 4 วันหลังได้ยาปฏิชีวนะ appendiceal abscess ก็เป็นไปได้ เว็บจึงเติมประวัติ gastroenteritis และผล US ที่เห็นไส้ติ่งปกติให้เหลือคำตอบเดียวตามคีย์",
+  "mnemonic": "<b>'ไข้นำ + ต่อมโต + ไส้ติ่งปกติ = Mesenteric adenitis'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis; Sabiston Textbook of Surgery 21st ed. (2022) — The Appendix",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กปวดท้องขวาล่าง ไข้ ultrasound ไม่เห็นไส้ติ่ง เห็นแค่ต่อมน้ำเหลืองโต → นอนสังเกตอาการ ตรวจท้องซ้ำ ยังไม่ตัดไส้ติ่ง",
-   "<b>นอกสไลด์:</b> วัยรุ่นปวดขวาล่างร่วมกับถ่ายเหลว ผ่าตัดพบไส้ติ่งปกติ terminal ileum บวม ต่อมน้ำเหลืองโต → Yersinia (pseudoappendicitis)"
+   "เด็กหญิง 8 ปี เป็นหวัดเจ็บคอ 3 วันต่อมาปวดรอบสะดือและ RLQ ไข้ US พบต่อมน้ำเหลือง mesentery โตเป็นกลุ่ม ไส้ติ่ง 4 mm กดยุบ → ให้ยาแก้ปวดและนัดตรวจซ้ำ",
+   "เด็กชาย 11 ปี ปวดรอบสะดือย้ายไป RLQ แล้วจึงมีไข้ต่ำ US ไส้ติ่ง 9 mm กดไม่ยุบ มีต่อมน้ำเหลืองโตรอบ ๆ → acute appendicitis → appendectomy",
+   "วัยรุ่น 15 ปี ปวด RLQ ไข้ ท้องเสีย หลังกินเนื้อหมูไม่สุก เพาะเชื้ออุจจาระขึ้น Yersinia → pseudoappendicitis จาก mesenteric adenitis",
+   "ทำไมต้องเห็นไส้ติ่งปกติก่อนวินิจฉัย mesenteric adenitis → ต่อมน้ำเหลืองโตพบร่วมกับ appendicitis ได้บ่อย การเห็นแค่ต่อมโตจึงตัด appendicitis ไม่ได้"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 2 — ตัวพิมพ์: <b>เด็กชาย 10 ปี 1 สัปดาห์ ปวดท้อง 4 วัน, กิน ATB อ้วก ไม่อยากอาหาร วันนี้ที่รพ tachycadia ปวด RLQ — A. Meckel diverticulitis B. intussusception C. ureteric stone D. appendiceal abscess E. mesenteric adenomitis</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ recall จดไม่สมบูรณ์ (\"1 สัปดาห์ ปวดท้อง 4 วัน, กิน ATB อ้วก\") ตีความได้หลายแบบ — ถ้าเป็นปวดนาน 4 วัน + ได้ ATB ไปแล้ว ก็อาจเป็น appendiceal abscess · คีย์ตอบ E (มีลายมือว่าตามหลัง gastroenteritis) → เติมประวัติ gastroenteritis + ผล US ให้เหลือคำตอบเดียวตามคีย์",
+  "src": "S75DQ · หน้า 2",
+  "kimg": [
+   "ks75d_ped6"
   ]
  },
  "MDCU75|RoD|Ped 7": {
-  "interp": "ทารก 4 เดือน ถุงอัณฑะข้างเดียวบวม ขนาดไม่เปลี่ยนระหว่างวัน silk glove sign ลบ ส่องไฟผ่าน → non-communicating hydrocele · ถามการจัดการ",
-  "why": "ลายมือในคีย์ (Maimai & Ig): silk glove บวก = processus vaginalis ไม่ปิด → communicating · <b>hydrocele ควรหายใน 1 ปี ไม่หายจึงผ่า</b><br><b>นอกสไลด์:</b> น้ำในถุงที่ไม่ต่อกับช่องท้องมักถูกดูดซึมหายเองในทารก จึงเฝ้าดูและนัดประเมินซ้ำ · ผ่าตัดเมื่อไม่ยุบหลังราว 1–2 ปี ขนาดเปลี่ยนไปมาจนเป็น communicating หรือมีไส้เลื่อนร่วม",
+  "interp": "ทารก 4 เดือน ถุงอัณฑะบวมข้างเดียว <b>ขนาดไม่เปลี่ยนตลอดวัน</b> silk glove sign ลบ และ <b>transillumination บวก</b> = non-communicating hydrocele ในทารก — ถามการจัดการ ซึ่งต้องรู้ว่าส่วนใหญ่หายเองภายในขวบปีแรก",
+  "why": "ทารกแรกเกิดมี hydrocele ได้บ่อยเพราะ processus vaginalis ปิดช้า แล้วน้ำค้างใน tunica vaginalis · <b>Non-communicating hydrocele</b> (ขนาดคงที่ ไม่โตเมื่อร้องหรือตอนเย็น ไม่มีถุงไส้เลื่อน: silk glove sign ลบ) ส่วนใหญ่<b>หายเองภายใน 12–18 เดือน</b> จึง<b>ติดตามดู</b> ไม่ต้องผ่าตัดหรือเจาะ · ผ่าตัดเมื่อ: ① ไม่หายหลังอายุราว 1–2 ปี ② เป็น <b>communicating hydrocele</b> (ขนาดขึ้นลงระหว่างวัน = waxing and waning, silk glove sign บวก แสดงว่า processus vaginalis ยังเปิด) ซึ่งเปรียบเหมือนไส้เลื่อนและไม่หายเอง ③ hydrocele ใหญ่ตึงมากจนคลำอัณฑะไม่ได้ หรือสงสัยไส้เลื่อนร่วม · วิธีผ่าตัดในเด็กคือ<b>เข้าทาง inguinal</b> ผูก patent processus vaginalis สูงเหมือน herniotomy ร่วมเปิดระบายถุงน้ำ ไม่ใช่ scrotal hydrocelectomy แบบผู้ใหญ่ · ต้องคลำอัณฑะให้ได้ทุกครั้ง ถ้าคลำไม่ได้หรือ hydrocele เกิดใหม่ในเด็กโตให้ทำ US หาสาเหตุ (tumor, torsion, epididymitis) · ไฟล์ไฮไลต์ A ลายมือ <b>\"silk glove positive = patent processus vaginalis → communicating hydrocele · hydrocele = 1 ปีต้องหาย ไม่หายจึงผ่า\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> เจาะดูดในเด็กน้ำกลับมาเร็วและเสี่ยงติดเชื้อ · จะถูกถ้าชายสูงอายุมี hydrocele ใหญ่ที่ความเสี่ยงผ่าตัดสูง → เจาะดูดร่วมกับฉีดสาร sclerosant",
-   "C": "<b>นอกสไลด์:</b> ทารกยังมีโอกาสหายเอง · จะถูกถ้าเป็นชายผู้ใหญ่มี hydrocele ใหญ่รำคาญ เดินลำบาก → hydrocelectomy ทางถุงอัณฑะ",
-   "D": "<b>นอกสไลด์:</b> ไม่ใช่ไส้เลื่อน ไม่ต้องรีบผ่า · จะถูกถ้าเป็นไส้เลื่อนขาหนีบติดค้างในทารกที่ดันกลับได้แล้ว — ผ่าตัดภายใน 24–48 ชม.",
-   "E": "<b>นอกสไลด์:</b> ก้อนใสส่องไฟผ่าน คลำอัณฑะได้ปกติไม่ต้องตรวจมะเร็ง · จะถูกถ้าทารกมีก้อนแข็งที่ตัวอัณฑะ ส่องไฟไม่ผ่าน → ultrasound และ AFP (yolk sac tumor)"
+   "B": "การเจาะดูดน้ำที่ OPD ในเด็กไม่ทำ เพราะน้ำกลับมาใหม่เกือบทุกครั้ง เสี่ยงติดเชื้อ/ เลือดออก และถ้าเป็น communicating hydrocele หรือมีไส้เลื่อนร่วม อาจแทงโดนลำไส้ — จะถูกถ้าเป็นชาย 80 ปี hydrocele ใหญ่ที่เสี่ยงสูงต่อการดมยาและไม่ประสงค์ผ่าตัด ใช้ aspiration ± sclerotherapy บรรเทาชั่วคราว",
+   "C": "Hydrocelectomy แบบ elective ผ่านถุงอัณฑะ (Jaboulay/ Lord) เป็นการผ่าตัดของผู้ใหญ่ ในทารก 4 เดือนยังไม่ควรผ่าเพราะส่วนใหญ่หายเอง และถ้าต้องผ่าในเด็กจะเข้าทาง inguinal ผูก processus vaginalis — จะถูกถ้าเป็นชาย 50 ปี hydrocele ข้างขวาใหญ่ขึ้นเรื่อย ๆ หนักถ่วงจนรบกวนการเดิน และ US ยืนยันอัณฑะปกติ",
+   "D": "Herniotomy ภายใน 48 ชม. คือแนวทางของไส้เลื่อนที่ incarcerated แล้วลดกลับได้ (รอบวมยุบ 24–48 ชม.) หรือความเร่งด่วนของไส้เลื่อนในทารก แต่ hydrocele ที่ขนาดคงที่ silk glove sign ลบไม่มีไส้เลื่อน — จะถูกถ้าเป็นทารก 2 เดือนที่ไส้เลื่อนขาหนีบติดค้างและเพิ่ง sedation ลดกลับได้สำเร็จ",
+   "E": "Scrotal US และ tumor markers (AFP, β-hCG) ใช้เมื่อสงสัยเนื้องอกอัณฑะหรือคลำอัณฑะไม่ได้ ในทารกที่ transillumination บวกและคลำอัณฑะปกติไม่จำเป็น — จะถูกถ้าเป็นเด็กชาย 15 ปี มี hydrocele ขึ้นใหม่ร่วมกับคลำได้ก้อนแข็งในอัณฑะ (secondary hydrocele จาก testicular tumor)"
   },
-  "trap": "ผ่าตัดเร็วแบบไส้เลื่อน — hydrocele ในทารกรอได้ ไส้เลื่อนรอไม่ได้",
+  "trap": "คำว่าอัณฑะบวมชวนให้คิดว่าต้องผ่าตัดหรือเจาะดูด และ hydrocele ฟังคล้ายไส้เลื่อนจนเลือก herniotomy — แยกด้วยประวัติขนาดคงที่ silk glove sign ลบ = non-communicating ในทารกซึ่งหายเองได้ ส่วน communicating (ขนาดขึ้นลง silk glove บวก) จึงจะผ่าตัดเหมือนไส้เลื่อน",
   "summary": [
-   "ลายมือในคีย์: silk glove บวก = processus vaginalis เปิด (communicating) · hydrocele ในทารกควรหายใน 1 ปี",
-   "<b>นอกสไลด์:</b> Non-communicating: ขนาดคงที่ · communicating: ขนาดเปลี่ยนระหว่างวัน (เล็กตอนเช้า ใหญ่ตอนเย็น)",
-   "<b>นอกสไลด์:</b> ทารกเฝ้าดูได้ถึงราว 1–2 ปี · เด็กผ่าตัดทางขาหนีบผูก processus vaginalis (เหมือนไส้เลื่อน) · ผู้ใหญ่ผ่าทางถุงอัณฑะ",
-   "<b>นอกสไลด์:</b> Hydrocele ที่เกิดใหม่ในเด็กโต/วัยรุ่นอาจเป็น reactive จากเนื้องอก บิดขั้ว หรือ epididymitis"
+   "Hydrocele = น้ำค้างใน tunica vaginalis · transillumination บวก · ต้องคลำอัณฑะได้แยกจากก้อน และตรวจหาไส้เลื่อนร่วมทุกครั้ง",
+   "Non-communicating (ขนาดคงที่ silk glove sign ลบ) ในทารก: ส่วนใหญ่หายเองภายใน 12–18 เดือน → ติดตามดู ผ่าตัดถ้ายังอยู่หลังอายุ 1–2 ปี",
+   "Communicating hydrocele: ขนาดขึ้นลงระหว่างวัน (เล็กตอนเช้า โตตอนเย็น/ ร้อง) silk glove sign บวก → processus vaginalis เปิด ไม่หายเอง ผ่าตัดแบบ elective",
+   "การผ่าตัดในเด็ก: inguinal approach ผูก patent processus vaginalis สูง (เหมือน herniotomy) ไม่ใช่ scrotal hydrocelectomy และไม่เจาะดูด",
+   "Hydrocele of the cord: ก้อนน้ำตาม spermatic cord แยกจากอัณฑะ transillumination บวก รักษาเหมือน communicating hydrocele",
+   "Hydrocele ในเด็กโต/ วัยรุ่นที่เกิดใหม่: คิดถึง secondary cause (torsion, epididymitis, trauma, testicular tumor) → scrotal US",
+   "ผู้ใหญ่: hydrocele ที่มีอาการ → scrotal hydrocelectomy (Jaboulay eversion หรือ Lord plication) · aspiration ± sclerotherapy ใช้ในผู้เสี่ยงผ่าตัดสูง กลับซ้ำบ่อย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ A และลายมือ \"hydrocele = 1 ปีต้องหาย ไม่หายจึงผ่า\" · ช้อย A เดิมในไฟล์เขียนว่า Follow up in next 2 months เว็บปรับเป็น follow-up and reassess และเติม D, E · ข้อสังเกต: ลายมือในไฟล์เขียน silk glove positive ส่วนข้อนี้ silk glove ลบ จึงเป็น non-communicating ที่รอดูได้",
+  "mnemonic": "<b>'Hydrocele ทารก: ขนาดคงที่ = รอ 1 ปี · ขึ้นลง = ผ่าแบบไส้เลื่อน'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Inguinal and Umbilical Hernias (Hydrocele); Campbell-Walsh-Wein Urology 12th ed. (2020) — Pediatric Inguinal Hernia and Hydrocele",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 3 ปี ถุงอัณฑะบวมเล็กตอนเช้า ใหญ่ตอนเย็น → communicating hydrocele ผ่าตัดผูก processus vaginalis ทางขาหนีบ",
-   "<b>นอกสไลด์:</b> วัยรุ่นมี hydrocele เกิดใหม่ คลำอัณฑะไม่ชัด → ultrasound ดูอัณฑะ"
+   "เด็กชาย 2 ปี ถุงอัณฑะซ้ายบวม ตอนเช้าเล็ก ตอนเย็นโต silk glove sign บวก → communicating hydrocele → inguinal ligation of patent processus vaginalis",
+   "ทารก 18 เดือน hydrocele ขนาดคงที่ยังไม่ยุบ → ผ่าตัดทาง inguinal ผูก processus vaginalis และเปิดระบายถุงน้ำ",
+   "เด็กชาย 7 ปี ก้อนนิ่มตามแนว spermatic cord เหนืออัณฑะ แยกจากอัณฑะได้ transillumination บวก → hydrocele of the cord",
+   "ทำไมห้ามเจาะดูด hydrocele ในเด็ก → น้ำกลับมาใหม่ เสี่ยงติดเชื้อ และถ้ามี processus vaginalis เปิดหรือไส้เลื่อนร่วมอาจแทงโดนลำไส้"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 2 — ตัวพิมพ์: <b>เด็กอายุ 4 เดือนมาตรวจที่ well baby clinic คลำได้อัณฑะโตข้างนึง no waxing and waning, silk glove sign negative, transillumination test positive มี management อย่างไร — A. Follow up in next 2 months B. Tab fluid at OPD C. Elective hydrocelectomy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เติม D, E · ปรับ \"Follow up in next 2 months\" เป็น Follow-up and reassess",
+  "src": "S75DQ · หน้า 2",
+  "kimg": [
+   "ks75d_ped7"
   ]
  },
  "MDCU75|RoD|Plastic 1": {
-  "interp": "แผลไฟลวกที่รักแร้ 10 × 10 cm พื้นแผลชมพู ชื้น เจ็บมาก capillary refill เร็ว → superficial partial thickness · ถามการรักษา",
-  "why": "ลายมือในคีย์ (Maimai & Ig): แผลตื้น → <b>conservative Rx</b> · B–D สำหรับ full thickness · E สำหรับแผลรอบวง (คีย์แปะตาราง burn wound management และ topical antibiotics)<br><b>นอกสไลด์:</b> แผลที่ชมพู ชื้น เจ็บมาก กดซีดแล้วแดงกลับเร็ว ยังมีชั้น dermis และรากขนเหลือมาก จึงหายเองจากการงอกของเซลล์ผิวในราว 2–3 สัปดาห์ · ทำแผลด้วยยาทาต้านเชื้อหรือ dressing ที่มีเงิน",
+  "interp": "ชาย 57 ปี flame burn ที่รักแร้ขวาขนาด 10 × 10 cm ฐานแผล<b>ชมพู ชุ่มชื้น ปวดมาก capillary refill เร็ว</b> = แผลไหม้ตื้น (superficial partial thickness) พื้นที่ราว 1% TBSA — ถามการจัดการแผล ซึ่งต้องประเมินความลึกก่อนแล้วเลือกการรักษาตามความลึก",
+  "why": "ความลึกของแผลไหม้กำหนดการรักษา: ① <b>Superficial (1st degree)</b> เฉพาะ epidermis แดง แห้ง ไม่มี blister ปวด หายใน 3–7 วัน ② <b>Superficial partial thickness</b> ถึง papillary dermis: ชมพู ชุ่มชื้น มี blister <b>ปวดมาก</b> กดแล้วซีดและ<b>เลือดกลับเร็ว</b> หายเองภายใน 2–3 สัปดาห์ แผลเป็นน้อย ③ <b>Deep partial thickness</b> ถึง reticular dermis: ซีด/ ด่าง ปวดน้อยลง เลือดกลับช้า หายช้ากว่า 3 สัปดาห์ เสี่ยง hypertrophic scar ④ <b>Full thickness</b>: ขาวซีดหรือน้ำตาลแข็งแบบหนัง ไม่ปวด ไม่ซีดเมื่อกด · แผลที่คาดว่าหายเองภายใน 2–3 สัปดาห์ → <b>ล้างแผล + dressing ด้วย topical antimicrobial</b> เช่น silver sulfadiazine หรือ silver dressing/ biosynthetic dressing ให้แผลชุ่มชื้นและกันติดเชื้อ · แผลที่ไม่หายใน 3 สัปดาห์หรือ deep partial/ full thickness → <b>early excision + split-thickness skin graft</b> ภายในสัปดาห์แรก · รักแร้เป็นบริเวณข้อที่เสี่ยง contracture ถ้าแผลลึก ต้องจัดท่าแขนกาง (abduction ~90°) และทำกายภาพ · 10 × 10 cm ≈ 100 cm² ราว 1% TBSA จึงไม่ต้อง fluid resuscitation · ไฟล์ไฮไลต์ A ลายมือ <b>\"1st degree burn → conservative Rx\"</b> และเขียน B–D สำหรับ full thickness, E สำหรับ circumferential burn",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Flap ใช้ปิดแผลที่โครงสร้างสำคัญโผล่ หรือแก้แผลเป็นหดรั้ง · จะถูกถ้าแผลหายแล้วกลายเป็นแผลเป็นดึงรั้งรักแร้จนยกแขนไม่ขึ้น → ตัดแผลเป็นแล้วปิดด้วย local flap/Z-plasty",
-   "C": "<b>นอกสไลด์:</b> Excision + STSG ใช้กับแผลลึกที่ไม่หายใน 3 สัปดาห์ · จะถูกถ้าพื้นแผลสีขาว แข็งเหมือนหนัง ไม่เจ็บ กดไม่ซีด (full thickness)",
-   "D": "<b>นอกสไลด์:</b> FTSG ใช้กับแผลเล็กในตำแหน่งที่ต้องการสีและหดตัวน้อย · จะถูกถ้าเป็นแผลลึกเต็มชั้นขนาดเล็กที่เปลือกตา",
-   "E": "Escharotomy สำหรับแผลลึกรอบวง (ลายมือในคีย์) · <b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลลึกเต็มชั้นรอบแขน มือเย็น ชีพจรเบา"
+   "B": "Debridement + local flap ใช้ปิดแผลลึกที่โครงสร้างสำคัญโผล่ (กระดูก tendon เส้นประสาท) หรือคลายแผลเป็นหดรั้งระยะหลัง แผลไหม้ตื้นที่ยังมี dermis เหลือหายเองได้ จึงไม่ต้องย้ายเนื้อเยื่อ — จะถูกถ้าเป็นชาย 40 ปี 1 ปีหลังไฟไหม้รักแร้ มีแผลเป็นหดรั้งแขนกางได้ไม่ถึง 60° แก้ด้วย Z-plasty/ local flap",
+   "C": "Debridement + STSG เป็นมาตรฐานของ deep partial และ full thickness burn ที่ไม่หายใน 3 สัปดาห์ (early excision and grafting) แต่แผลชมพู ปวด เลือดกลับเร็วยังมี dermal appendage พอให้ผิวงอกเอง — จะถูกถ้าเป็นชาย 50 ปีถูกไฟไหม้รักแร้ แผลขาวซีดแข็งแบบหนัง ไม่ปวด กดไม่ซีด (full thickness) พื้นที่ 6% TBSA",
+   "D": "Debridement + FTSG ใช้กับแผลเล็กที่ต้องการสีและผิวใกล้เคียง เช่น ใบหน้า หรือฝ่ามือ แต่ต้องมีผิวหนังบริเวณให้และฐานแผลดี ไม่ใช่การรักษาแรกของแผลไหม้ตื้น — จะถูกถ้าเป็นหญิง 30 ปี มีแผลไหม้ full thickness ขนาด 2 × 2 cm ที่เปลือกตาล่าง ซึ่งต้องปิดด้วย FTSG จากหลังหูเพื่อกัน ectropion",
+   "E": "Escharotomy คือการกรีดผ่าน eschar ของแผล full thickness ที่ไหม้<b>รอบ</b>แขนขาหรือลำตัวจนเลือดไปปลายมือไม่ได้หรือหายใจไม่ได้ แผลนี้ตื้นและไม่รอบแขน — จะถูกถ้าเป็นชาย 35 ปี ไหม้ full thickness รอบต้นแขนทั้งวง 6 ชม. ต่อมามือเย็น ซีด ชา และ Doppler สัญญาณ radial artery หายไป"
   },
-  "trap": "เห็นตำแหน่งรักแร้ (ข้อพับ) แล้วกลัวแผลเป็นหด จึงเลือกปลูกผิวหนัง — แผลตื้นหายเองได้ดี ป้องกันการหดด้วยการจัดท่า",
+  "trap": "คำว่า flame burn ที่รักแร้ (บริเวณข้อที่ทำงานสำคัญ) และ debridement ฟังดูจริงจังกว่า จนเลือกผ่าตัด — ต้องดูลักษณะแผล: ชมพู ชุ่ม ปวดมาก เลือดกลับเร็ว = แผลตื้นที่ยังมีเส้นประสาทและหลอดเลือดใน dermis หายเองได้ ส่วนแผลที่ไม่ปวด ซีด/ แข็ง เลือดกลับช้าหรือไม่มี จึงจะต้อง excision + graft",
   "summary": [
-   "<b>นอกสไลด์:</b> ความลึก: superficial (แดง แห้ง เจ็บ ไม่มีตุ่มน้ำ) · superficial partial (ชมพู ชื้น ตุ่มน้ำ เจ็บมาก กดซีดเร็ว หายใน 2–3 สัปดาห์) · deep partial (ด่าง/ขาว เจ็บน้อยลง กดซีดช้า > 3 สัปดาห์) · full thickness (ขาว/ดำ แข็ง ไม่เจ็บ)",
-   "<b>นอกสไลด์:</b> Superficial partial → ทำแผล + ยาทา (silver sulfadiazine หรือ dressing ที่มีเงิน) · deep partial/full thickness → ตัดเนื้อตายและปลูกผิวหนังแต่เนิ่น ๆ",
-   "<b>นอกสไลด์:</b> แผลที่ข้อพับ (รักแร้) จัดท่าแขนกาง ทำกายภาพตั้งแต่แรกเพื่อกันข้อติด"
+   "ความลึกแผลไหม้: superficial (แดง แห้ง ไม่มี blister) · superficial partial (ชมพู ชุ่ม blister ปวดมาก เลือดกลับเร็ว) · deep partial (ซีด/ ด่าง ปวดน้อย เลือดกลับช้า) · full thickness (ขาว/ น้ำตาลแข็ง ไม่ปวด)",
+   "เวลาหาย: superficial 3–7 วัน · superficial partial ภายใน 2–3 สัปดาห์ · แผลที่คาดว่าไม่หายใน 3 สัปดาห์ → early excision + STSG เพื่อลด hypertrophic scar",
+   "ขนาด: ฝ่ามือรวมนิ้วของผู้ป่วยราว 1% TBSA · Rule of 9s ในผู้ใหญ่ · ไม่นับ superficial (1st degree) ในการคำนวณ TBSA",
+   "Fluid resuscitation (Parkland 4 mL/kg/%TBSA ครึ่งแรกใน 8 ชม.จากเวลาไหม้ หรือ ATLS 10th: 2 mL/kg/%TBSA ในผู้ใหญ่) เมื่อ partial/ full thickness &gt; 20% TBSA ปรับตาม urine output 0.5 mL/kg/hr",
+   "Silver sulfadiazine: ครอบคลุมเชื้อกว้าง ไม่เจ็บเวลาทา · ผลเสีย transient leukopenia, pseudoeschar ทำให้ประเมินความลึกยาก · ห้ามในผู้แพ้ sulfa หญิงตั้งครรภ์ใกล้คลอด และทารก &lt; 2 เดือน (kernicterus)",
+   "Escharotomy: full thickness ที่ไหม้รอบแขนขา/ ลำตัว มีภาวะขาดเลือดปลายแขนขาหรือหายใจไม่ได้ · กรีดตามแนว mid-medial/ mid-lateral ผ่าน eschar ถึงไขมัน",
+   "แผลไหม้บริเวณข้อ (รักแร้ ข้อศอก มือ) ต้องจัดท่ายืดสู้ contracture (รักแร้ abduction ~90°) splint และกายภาพตั้งแต่แรก แผลลึกที่ข้อใหญ่ ใบหน้า มือ เท้า อวัยวะเพศควรส่ง burn center"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) · ลายมือคีย์เขียน 1st degree แต่ลักษณะตามโจทย์เป็น superficial partial thickness · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ A ลายมือเขียน \"1st degree burn → conservative Rx\" · ลักษณะที่เว็บบรรยาย (ชมพู ชุ่ม ปวดมาก เลือดกลับเร็ว) เข้ากับ superficial partial thickness มากกว่า 1st degree แต่การจัดการเหมือนกันคือ dressing แบบอนุรักษ์ · ไฟล์ระบุว่ามีรูปแต่ในไฟล์ไม่มีรูปให้ เว็บจึงบรรยายลักษณะแผลแทน",
+  "mnemonic": "<b>'ชมพู ชุ่ม เจ็บ = ตื้น → Dressing · ขาว แข็ง ชา = ลึก → Excise + Graft'</b>",
+  "guide": "ISBI Practice Guidelines for Burn Care. Burns 2016; ATLS Student Course Manual 10th ed. (2018) — Thermal Injuries; Sabiston Textbook of Surgery 21st ed. (2022) — Burns",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยแพ้ยากลุ่ม sulfa มีแผล superficial partial thickness → ใช้ dressing ที่มีเงินหรือยาทาอื่นแทน silver sulfadiazine",
-   "<b>นอกสไลด์:</b> ประเมินแผลซ้ำวันที่ 3 พบส่วนที่เคยชมพูกลายเป็นสีขาวด่าง กดซีดช้า → แผลลึกขึ้น (burn wound conversion) วางแผนตัดและปลูกผิวหนัง"
+   "ชาย 30 ปี น้ำร้อนลวกหน้าแข้ง แผลแดงไม่มี blister แห้ง เจ็บเล็กน้อย → superficial burn ทา moisturizer/ ยาแก้ปวด หายใน 1 สัปดาห์",
+   "หญิง 45 ปี ไฟไหม้ต้นขา แผลซีดด่าง ปวดน้อย เลือดกลับช้า วันที่ 21 ยังไม่หาย → excision + STSG",
+   "ชาย 70 กก. ไหม้ partial/ full thickness 30% TBSA → Parkland 4 × 70 × 30 = 8,400 mL ใน 24 ชม. ให้ครึ่งหนึ่งใน 8 ชม.แรก ปรับตาม urine output",
+   "ทำไม silver sulfadiazine ห้ามในทารกอายุ &lt; 2 เดือน → sulfonamide แย่งจับ albumin กับ bilirubin เสี่ยง kernicterus"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 3 — ตัวพิมพ์: <b>[Plastic] (มีรูปให้) male, 57 yo, flame burn at right armpit, 10*10 cm painful pink wound bed, appropriate management? — A. Dressing wound with silver sulfadiazine B. Debridement + local flap coverage C. Debridement + STSG D. Debridement + FTSG E. Escharotomy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์บอก \"มีรูปให้\" แต่ในไฟล์ไม่มีรูป → บรรยายลักษณะแผลใน stem · คีย์ลายมือเขียน 1st degree burn → conservative Rx (ลักษณะตามโจทย์เข้ากับ superficial partial-thickness มากกว่า)",
+  "src": "S75DQ · หน้า 3",
+  "kimg": [
+   "ks75d_plastic1"
   ]
  },
  "MDCU75|RoD|Colo 1": {
-  "interp": "ข้อ <b>NOT</b> — หาโครงสร้างที่ไม่ใช่ของ colon",
-  "why": "ลายมือในคีย์ (Maimai & Ig): A กล้ามเนื้อเรียบ 3 แถบ · B ไขมันห้อยจาก serosa · C collateral circulation · D peritoneal reflection ของ ascending/descending colon · <b>E อยู่ที่ rectum</b><br><b>นอกสไลด์:</b> Valves of Houston คือรอยพับขวางของ rectum ราว 3 อัน · ที่ rectosigmoid junction แถบ taenia ทั้งสามแผ่รวมเป็นชั้นกล้ามเนื้อตามยาวรอบวง rectum จึงไม่มี taenia, haustra และ appendices epiploicae",
+  "interp": "ถามกายวิภาคของ colon ว่าโครงสร้างใด<b>ไม่ใช่</b>ส่วนของ colon — ต้องรู้ลักษณะเฉพาะของ colon (taeniae coli, haustra, appendices epiploicae, marginal artery, line of Toldt) และแยกจากลักษณะของ rectum ซึ่งไม่มี taeniae และมี valves of Houston",
+  "why": "ลักษณะเฉพาะของ <b>colon</b>: ① <b>taeniae coli</b> กล้ามเนื้อเรียบชั้นนอกที่รวมเป็น 3 แถบ (mesocolic, omental, free) ลู่มาบรรจบที่ฐานไส้ติ่ง (ใช้หาไส้ติ่งระหว่างผ่าตัด) และกระจายเป็นชั้นตามยาวรอบวงที่ <b>rectosigmoid junction</b> ② haustra ③ <b>appendices epiploicae</b> ก้อนไขมันห้อยจาก serosa (อักเสบ/ บิดได้เป็น epiploic appendagitis) ④ เลือดเลี้ยงจาก SMA (ileocolic, right colic, middle colic) และ IMA (left colic, sigmoid, superior rectal) เชื่อมกันด้วย <b>marginal artery of Drummond</b> ตามขอบ mesentery และ arc of Riolan · จุด watershed ที่ขาดเลือดง่าย: Griffiths point (splenic flexure) และ Sudeck point (rectosigmoid) ⑤ <b>white line of Toldt</b> คือแนว peritoneal reflection ด้านข้างของ ascending/ descending colon ที่ศัลยแพทย์กรีดเพื่อ mobilize colon · ส่วน <b>valves of Houston</b> เป็นรอยพับขวางของเยื่อบุ <b>rectum</b> 3 อัน (ซ้าย–ขวา–ซ้าย) อันกลางชัดที่สุดอยู่ด้านขวาราวระดับ peritoneal reflection · rectum ยาวราว 12–15 cm ไม่มี taeniae, haustra และ appendices epiploicae · ไฟล์ไฮไลต์ E ทั้ง 2 แถว ลายมือที่ E เขียน <b>\"rectum\"</b> พร้อมรูป และอธิบาย A–D ว่าเป็นของ colon",
   "wrong": {
-   "A": "ลายมือในคีย์: กล้ามเนื้อเรียบตามยาว 3 แถบ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ taenia coli ไม่ใช่โครงสร้างของ colon เพราะเป็นลักษณะเฉพาะของ colon (และ cecum) ที่ใช้แยกจากลำไส้เล็กและ rectum",
-   "B": "ลายมือในคีย์: ไขมันห้อยจาก serosa · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ appendices epiploicae ไม่ใช่โครงสร้างของ colon เพราะพบเฉพาะที่ผิว colon ตามแนว taenia",
-   "C": "ลายมือในคีย์: collateral circulation · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ marginal artery ไม่ใช่ของ colon เพราะเป็นหลอดเลือดที่วิ่งตามขอบ mesentery ของ colon เชื่อมแขนงจาก SMA และ IMA",
-   "D": "ลายมือในคีย์: peritoneal reflection ด้านข้างของ ascending/descending colon · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ white line of Toldt ไม่ใช่ของ colon เพราะคือแนวที่เยื่อบุช่องท้องพับจากผนังด้านข้างมาคลุม colon"
+   "A": "ข้อความถูก: taeniae coli คือกล้ามเนื้อเรียบชั้นตามยาวของ colon ที่รวมเป็น 3 แถบ ทำให้เกิด haustra บรรจบที่ฐานไส้ติ่งและหายไปที่ rectosigmoid junction — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับสิ่งที่ศัลยแพทย์ตามหาเพื่อหาฐานไส้ติ่งในผู้ป่วยชาย 20 ปีที่ผ่าตัด appendectomy แล้วหาไส้ติ่งที่ซ่อนหลัง cecum ไม่เจอ",
+   "B": "ข้อความถูก: appendices epiploicae เป็นถุงไขมันห้อยจาก serosa ของ colon ไม่พบใน rectum อาจบิดหรือขาดเลือดเป็น epiploic appendagitis — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับหญิง 40 ปีปวดท้องซ้ายล่างเฉพาะจุด ไม่มีไข้ CT พบก้อนไขมันรูปไข่ขอบวงแหวนติดผนัง sigmoid colon",
+   "C": "ข้อความถูก: marginal artery of Drummond วิ่งขนานขอบ mesentery เชื่อมแขนงของ SMA และ IMA เป็น collateral ที่สำคัญ โดยเฉพาะเมื่อผูก IMA ใน colectomy หรือซ่อม aortic aneurysm — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเหตุที่ชาย 70 ปีหลังผูก IMA ระหว่างผ่าตัด AAA แล้ว sigmoid colon ยังไม่ขาดเลือด",
+   "D": "ข้อความถูก: white line of Toldt คือ peritoneal reflection ด้านข้างของ ascending และ descending colon ที่กรีดเพื่อ mobilize colon ใน right/ left hemicolectomy — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับแนวที่ศัลยแพทย์กรีดเพื่อเลาะ descending colon ขึ้นมาในผู้ป่วยหญิง 65 ปีที่ทำ left hemicolectomy จากมะเร็ง"
   },
-  "trap": "สับสนโครงสร้างของ rectum กับ colon",
+  "trap": "ทุกช้อยเป็นศัพท์กายวิภาคของลำไส้ใหญ่ที่คุ้นหู และ valves of Houston ก็อยู่ใน large bowel จึงจำสลับได้ — แยกด้วยหลัก colon มี taeniae/ haustra/ appendices epiploicae ส่วน rectum ไม่มีทั้งสามอย่างแต่มี valves of Houston และ mesorectum แทน",
   "summary": [
-   "<b>นอกสไลด์:</b> ลักษณะ colon: taenia coli 3 แถบ, haustra, appendices epiploicae · rectum: กล้ามเนื้อตามยาวรอบวง, valves of Houston ราว 3 อัน",
-   "<b>นอกสไลด์:</b> เลือด: SMA (ileocolic, right colic, middle colic) เลี้ยงถึงราวสองในสามของ transverse · IMA เลี้ยงส่วนที่เหลือถึง rectum ส่วนบน · marginal artery เชื่อมสองระบบ",
-   "<b>นอกสไลด์:</b> White line of Toldt: แนวที่กรีดเพื่อเลาะ colon ด้านขวา/ซ้ายขึ้นมาตอนผ่าตัด",
-   "<b>นอกสไลด์:</b> Taenia ทั้งสามมาบรรจบที่ฐานไส้ติ่ง — ใช้หาไส้ติ่งระหว่างผ่าตัด"
+   "Colon: taeniae coli 3 แถบ, haustra, appendices epiploicae · rectum ไม่มีทั้ง 3 อย่างเพราะ taeniae กระจายเป็นชั้นตามยาวรอบวงที่ rectosigmoid junction",
+   "Taeniae coli บรรจบกันที่ฐานไส้ติ่ง → ใช้ไล่หาไส้ติ่งระหว่างผ่าตัด ไม่ว่าไส้ติ่งจะอยู่ตำแหน่งใด (retrocecal, pelvic, subcecal)",
+   "เลือดเลี้ยง: SMA → ileocolic, right colic, middle colic (ถึงราว 2/3 ของ transverse colon) · IMA → left colic, sigmoid, superior rectal",
+   "Marginal artery of Drummond ตามขอบ mesentery + arc of Riolan (meandering mesenteric artery) เป็น collateral ระหว่าง SMA–IMA · watershed: Griffiths point (splenic flexure) และ Sudeck point (rectosigmoid)",
+   "White line of Toldt = lateral peritoneal reflection ของ ascending/ descending colon กรีดเพื่อ mobilize แบบ lateral-to-medial",
+   "Rectum ยาวราว 12–15 cm จาก anal verge · valves of Houston 3 อัน (ซ้าย–ขวา–ซ้าย) อันกลางชัดที่สุดที่ด้านขวา ราวระดับ peritoneal reflection",
+   "Peritoneum ของ rectum: 1/3 บนคลุมด้านหน้าและข้าง · 1/3 กลางคลุมเฉพาะด้านหน้า · 1/3 ล่างอยู่นอก peritoneum ทั้งหมด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E (Maimai & Ig) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ E ทั้ง 2 แถว ลายมือเขียนว่า E เป็นของ rectum และอธิบาย A–D ว่าเป็นโครงสร้างของ colon · ไฟล์มีโจทย์นี้ 2 แถว (ฉบับอังกฤษและไทย) ช้อยเหมือนกัน เว็บรวมเป็นข้อเดียว",
+  "mnemonic": "<b>'Colon มี T-H-A (Taeniae, Haustra, Appendices) · Rectum มี Houston'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Colon and Rectum; The ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022) — Anatomy",
   "variants": [
-   "<b>นอกสไลด์:</b> ปวดท้องซ้ายล่างจุดเดียว CT เห็นก้อนไขมันรูปไข่ขอบทึบติดผนัง colon → epiploic appendagitis รักษาด้วยยาแก้ปวด",
-   "<b>นอกสไลด์:</b> ผู้ป่วยช็อกนานหลังผ่าตัดใหญ่ ถ่ายเป็นเลือด ส่องกล้องพบลำไส้ขาดเลือดที่ splenic flexure → watershed ตรง Griffiths' point"
+   "ระหว่าง appendectomy หาไส้ติ่งไม่เจอ → ไล่ตาม taeniae coli บน cecum ลงไปถึงจุดบรรจบ = ฐานไส้ติ่ง",
+   "ชาย 75 ปีหลังผ่าตัด AAA ถ่ายเป็นเลือด ปวดท้องซ้าย → ischemic colitis ที่ sigmoid/ splenic flexure (watershed) → ส่องกล้องประเมิน",
+   "Rigid sigmoidoscopy ส่องผ่าน rectum ต้องหมุนกล้องหลบรอยพับขวางของเยื่อบุ → valves of Houston",
+   "ทำไมการวัดระยะมะเร็ง rectum สำคัญ → rectum 1/3 ล่างอยู่นอก peritoneum ทำ neoadjuvant chemoradiation ตามระยะ ต่างจาก colon cancer"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 3 — ตัวพิมพ์: <b>[COLO] Which structure is not related to colonic anatomy? — A. Taenia coli B. appendices epiploicae C. Marginal artery connecting SMA and IMA D. White line of toldt E. Valves of Houston · (แถวซ้ำในไฟล์: ข้อใดไม่ใช่ anatomy of colon — A. Tenia coli B. Appendix epiploica C. Marginal arteries between sma&amp;ima D. White line of toldt E. Valve of Houston)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีโจทย์นี้ 2 แถว (ฉบับอังกฤษ + \"ข้อใดไม่ใช่ anatomy of colon\") = ข้อเดียวกันในปีเดียวกัน → รวมเป็นข้อเดียว · ครอปคีย์ครอบทั้ง 2 แถว",
+  "src": "S75DQ · หน้า 3",
+  "kimg": [
+   "ks75d_colo1"
   ]
  },
  "MDCU75|RoD|Uro 1": {
-  "interp": "ถามอาการนำที่พบบ่อยที่สุดของมะเร็ง urothelium ที่กรวยไต (upper tract urothelial carcinoma)",
-  "why": "สไลด์ Clinical presentations ในคีย์ (Maimai & Ig): <b>hematuria (microscopic/gross) most common</b>, flank pain, abdominal mass, azotemia, อาการของการแพร่กระจาย<br><b>นอกสไลด์:</b> ก้อนงอกจากเยื่อบุโพรงกรวยไตจึงมีเลือดออกเข้าปัสสาวะตั้งแต่ระยะแรก · ปวดสีข้างเกิดเมื่อก้อน/ลิ่มเลือดอุดท่อไต",
+  "interp": "ถามอาการนำที่พบบ่อยที่สุดของ <b>transitional cell (urothelial) carcinoma ของ renal pelvis</b> = upper tract urothelial carcinoma (UTUC) — ต้องรู้ว่ามะเร็งเยื่อบุทางเดินปัสสาวะทุกตำแหน่งมาด้วยปัสสาวะเป็นเลือดเป็นหลัก ส่วนอาการอื่นพบน้อยกว่า",
+  "why": "<b>Upper tract urothelial carcinoma</b> (renal pelvis และ ureter) พบราว 5–10% ของมะเร็ง urothelial ทั้งหมด (ส่วนใหญ่อยู่ที่กระเพาะปัสสาวะ) renal pelvis พบบ่อยกว่า ureter ราว 2 เท่า · ปัจจัยเสี่ยง: <b>สูบบุหรี่</b> (สำคัญที่สุด), aromatic amines ในอาชีพ, aristolochic acid (Balkan nephropathy/ สมุนไพร), ใช้ phenacetin นาน, <b>Lynch syndrome</b> · อาการที่พบบ่อยที่สุดคือ <b>hematuria (gross หรือ microscopic) ราว 70–80%</b> · flank pain พบราว 20% จากลิ่มเลือดหรือก้อนอุดตัน (clot colic/ hydronephrosis) · คลำได้ก้อนพบน้อย (ราว 10%) และอาการทั่วตัว/ จากการแพร่กระจายบ่งโรคระยะลุกลาม · วินิจฉัยด้วย <b>CT urography</b> (filling defect ใน collecting system) + cystoscopy (ตัดมะเร็งกระเพาะปัสสาวะร่วม) + ureteroscopy with biopsy และ selective cytology · รักษามาตรฐานของ high-risk คือ <b>radical nephroureterectomy with bladder cuff excision</b> ร่วม single postoperative intravesical chemotherapy เพื่อลดการเกิดซ้ำในกระเพาะปัสสาวะ · low-risk อาจรักษาแบบ kidney-sparing · ไฟล์ไฮไลต์ A ทั้ง 2 แถว และแปะสไลด์ <b>\"Clinical presentations: hematuria (microscopic/ gross) most common, flank pain, abdominal mass, azotemia, symptoms of metastasis\"</b>",
   "wrong": {
-   "B": "Azotemia อยู่ในสไลด์แต่พบน้อย · <b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ป่วยมะเร็งท่อไตในไตข้างเดียวที่เหลืออยู่ อุดตันจนไตวาย",
-   "C": "<b>นอกสไลด์:</b> UTUC ส่วนใหญ่มีอาการ · จะถูกถ้าเป็น renal cell carcinoma ในปัจจุบัน — ส่วนใหญ่พบโดยบังเอิญจากการทำภาพ",
-   "D": "คลำก้อนได้อยู่ในสไลด์แต่พบน้อย · <b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กเล็กที่มี Wilms tumor — พ่อแม่คลำพบก้อนในท้องขณะอาบน้ำ",
-   "E": "ปวดสีข้างอยู่ในสไลด์เป็นอันดับรอง · <b>นอกสไลด์:</b> จะถูกถ้าเป็นนิ่วในท่อไต — ปวดบิดสีข้างร้าวลงขาหนีบ"
+   "B": "Azotemia เกิดเมื่อไตทั้งสองข้างเสีย (หรือไตข้างเดียวที่เหลือถูกอุด) ซึ่งไม่ใช่ลักษณะของ UTUC ที่ส่วนใหญ่เป็นข้างเดียวและไตอีกข้างปกติ จึงพบไม่บ่อย — จะถูกถ้าเป็นชาย 65 ปีที่มีไตข้างเดียว (เคยตัดไตอีกข้าง) แล้วก้อน urothelial carcinoma อุด ureter จน creatinine ขึ้นจาก 1.0 เป็น 4.5 mg/dL",
+   "C": "ไม่มีอาการและพบโดยบังเอิญจากภาพถ่าย เป็นลักษณะที่พบบ่อยของ renal cell carcinoma (incidental renal mass จาก US/ CT) ไม่ใช่ UTUC ซึ่งเยื่อบุที่เป็นมะเร็งเลือดออกง่ายจึงมักมีเลือดในปัสสาวะ — จะถูกถ้าเป็นชาย 55 ปีตรวจสุขภาพประจำปีด้วย US แล้วพบก้อนเนื้อตันที่ไตขวา 3 cm ไม่มีอาการใด ๆ",
+   "D": "คลำได้ก้อนในท้องพบเพียงส่วนน้อย (ราว 10%) และมักบ่งโรคระยะลุกลามหรือไตบวมน้ำมาก · ใน RCC ก็พบ triad (hematuria, flank pain, mass) ไม่ถึง 10% — จะถูกถ้าเป็นเด็ก 3 ปีที่แม่คลำได้ก้อนในท้องด้านข้างตอนอาบน้ำ เด็กดูแข็งแรง (Wilms tumor ซึ่งอาการนำส่วนใหญ่คือก้อนในท้อง)",
+   "E": "Flank pain พบราว 20% เกิดจากลิ่มเลือดหรือก้อนอุด ureter/ UPJ ทำให้ปวดแบบ colic หรือปวดตื้อจาก hydronephrosis แต่พบน้อยกว่า hematuria — จะถูกถ้าเป็นชาย 40 ปีปวดบิดบั้นเอวร้าวลงขาหนีบทันที บิดตัวไปมา และ CT KUB พบนิ่วขนาด 6 mm ที่ ureter ส่วนต้น"
   },
-  "trap": "สับสนกับ RCC (classic triad และปัจจุบันพบโดยบังเอิญ) — มะเร็ง urothelium ที่กรวยไตมาด้วยปัสสาวะเป็นเลือดเป็นหลัก",
+  "trap": "ก้อนอยู่ที่ renal pelvis ชวนให้นึกถึงอาการของไต (ปวดบั้นเอว ก้อน ไตวาย) หรือนึกถึงมะเร็งไตที่มักพบโดยบังเอิญ — แต่ UTUC เป็นมะเร็งเยื่อบุแบบเดียวกับกระเพาะปัสสาวะ อาการเด่นจึงเหมือนกันคือ<b>ปัสสาวะเป็นเลือดไม่เจ็บ</b> · ช้อย Hematuria ในไฟล์ เว็บปรับเป็น gross hematuria ซึ่งยังเป็นคำตอบเดียวในช้อย",
   "summary": [
-   "สไลด์ในคีย์: hematuria พบบ่อยสุด > flank pain > abdominal mass, azotemia, อาการแพร่กระจาย",
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง: สูบบุหรี่, aristolochic acid (สมุนไพร/Balkan nephropathy), ยา phenacetin",
-   "<b>นอกสไลด์:</b> ตรวจ: CT urography + ส่องกล้องท่อไต (ureteroscopy) ตัดชิ้นเนื้อ + urine cytology · ส่องกระเพาะปัสสาวะหาก้อนร่วม",
-   "<b>นอกสไลด์:</b> รักษามาตรฐาน: radical nephroureterectomy พร้อมตัด bladder cuff · POUT: adjuvant gem-cis เมื่อ GFR ≥ 50 ในระยะลุกลาม"
+   "UTUC: 5–10% ของ urothelial carcinoma · renal pelvis บ่อยกว่า ureter · ราว 60% เป็น invasive ตั้งแต่วินิจฉัย (ต่างจาก bladder ที่ส่วนใหญ่เป็น NMIBC)",
+   "ปัจจัยเสี่ยง: สูบบุหรี่, aromatic amines, aristolochic acid, phenacetin, Lynch syndrome (ผู้ป่วย UTUC อายุน้อยหรือมีประวัติครอบครัวมะเร็งลำไส้ใหญ่/ มดลูก ควรคัดกรอง)",
+   "อาการ: hematuria 70–80% · flank pain ราว 20% (clot colic/ hydronephrosis) · ก้อนในท้องราว 10% · อาการทั่วตัวบ่งโรคลุกลาม",
+   "วินิจฉัย: CT urography (filling defect) + cystoscopy ทุกราย (มะเร็งกระเพาะปัสสาวะร่วม) + ureteroscopy with biopsy/ selective cytology",
+   "Radical nephroureterectomy with bladder cuff excision = มาตรฐาน high-risk · ให้ single postoperative intravesical chemotherapy ลดการเกิดซ้ำในกระเพาะปัสสาวะ (เกิดซ้ำราว 22–47%)",
+   "Kidney-sparing (ureteroscopic ablation, segmental ureterectomy) ใน low-risk: ก้อนเดียว &lt; 2 cm, low grade, CT ไม่เห็นการลุกลาม หรือผู้ป่วยไตข้างเดียว/ ไตเสื่อม",
+   "ติดตาม: cystoscopy ตลอด เพราะ urothelium ทั้งระบบเสี่ยง (field change) และในรายที่เก็บไตไว้ต้องส่องดู upper tract ซ้ำเป็นระยะ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) ตามสไลด์ในคีย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ A ทั้ง 2 แถว และสไลด์ที่แปะระบุ hematuria (microscopic/ gross) most common · ไฟล์มีโจทย์นี้ 2 แถวที่ช้อยต่างกันเล็กน้อย (Azotemia กับ Abdominal mass) เว็บรวมช้อยจากทั้ง 2 แถวและเติม flank pain คำตอบไม่เปลี่ยน",
+  "mnemonic": "<b>'Urothelium ที่ไหนก็ Bleed ก่อน (Hematuria 70–80%)'</b>",
+  "guide": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma 2024; Campbell-Walsh-Wein Urology 12th ed. (2020) — Urothelial Tumors of the Upper Urinary Tract",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 45 ปีมะเร็งกรวยไต มีพ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 40 → สงสัย Lynch syndrome",
-   "<b>นอกสไลด์:</b> หลัง nephroureterectomy → ส่องกระเพาะปัสสาวะติดตามเป็นระยะ เพราะกลับเป็นที่กระเพาะปัสสาวะบ่อย"
+   "ชาย 68 ปีสูบบุหรี่ ปัสสาวะเป็นเลือดไม่เจ็บ CT urography พบ filling defect ใน renal pelvis ซ้าย cystoscopy ปกติ → ureteroscopy + biopsy",
+   "Biopsy ยืนยัน high-grade urothelial carcinoma ใน renal pelvis ไตอีกข้างปกติ → radical nephroureterectomy with bladder cuff excision + single intravesical chemotherapy หลังผ่าตัด",
+   "หญิง 45 ปี UTUC ร่วมกับประวัติครอบครัวมะเร็งลำไส้ใหญ่และมะเร็งเยื่อบุโพรงมดลูก → คัดกรอง Lynch syndrome (MMR/ MSI)",
+   "ทำไมต้อง cystoscopy ในผู้ป่วย UTUC → มะเร็ง urothelial เกิดได้หลายตำแหน่ง (field change) และพบมะเร็งกระเพาะปัสสาวะร่วมหรือตามมาบ่อย"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 3 — ตัวพิมพ์: <b>[URO] Most common presentation transitional cell invade renal pelvis — A. Hematuria B. Azotemia C. Asymptomatic · (แถวซ้ำในไฟล์: Most presentation of TCC of renal pelvis? — A. Hematuria B. Abdominal mass C. Asymptomatic)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีโจทย์นี้ 2 แถว (คนละคนจด ช้อยต่างกันเล็กน้อย: Azotemia vs Abdominal mass) = ข้อเดียวกันในปีเดียวกัน → รวมเป็นข้อเดียว รวมช้อยจากทั้ง 2 แถว + เติม Flank pain",
+  "src": "S75DQ · หน้า 3",
+  "kimg": [
+   "ks75d_uro1a",
+   "ks75d_uro1b"
   ]
  },
  "MDCU75|RoD|Uro 2": {
-  "interp": "ชาย 68 ปี PSA 114 DRE ต่อมโต แข็ง เป็นปุ่ม → สงสัยมะเร็งต่อมลูกหมากสูงมาก · ถามขั้นต่อไป",
-  "why": "ลายมือในคีย์ (Maimai & Ig): <b>PSA > 4 ng/mL หรือ DRE ผิดปกติ → biopsy (TRUS-Bx)</b><br><b>นอกสไลด์:</b> ต้องมีชิ้นเนื้อยืนยันและให้ grade (Gleason/ISUP) ก่อนวางแผนรักษา แม้ PSA สูงมากจนเกือบแน่ใจ · staging (bone scan, CT หรือ PSMA PET) ทำหลังได้ผลชิ้นเนื้อ",
+  "interp": "ชาย 68 ปี <b>PSA 114 ng/mL</b> และ DRE พบต่อมลูกหมาก<b>แข็ง ขรุขระเป็นปุ่ม</b> = สงสัยมะเร็งต่อมลูกหมากอย่างมาก (น่าจะระยะลุกลาม) — ถามขั้นต่อไปที่เหมาะสมที่สุด ซึ่งคือการยืนยันด้วยชิ้นเนื้อก่อนวางแผนรักษา",
+  "why": "ข้อบ่งชี้ทำ prostate biopsy คือ <b>DRE ผิดปกติ</b> (แข็ง เป็นปุ่ม ไม่สมมาตร) และ/ หรือ <b>PSA สูง</b> (ค่าตัดดั้งเดิม &gt; 4 ng/mL โดยพิจารณาร่วมกับอายุ PSA density และ MRI) ในผู้ที่คาดว่าจะมีชีวิตยืนยาวพอได้ประโยชน์ · การวินิจฉัยมะเร็งต้องมี<b>ผลพยาธิ</b>เสมอเพราะ Gleason score/ ISUP grade group จากชิ้นเนื้อเป็นตัวกำหนดความเสี่ยงและการรักษา · วิธีมาตรฐาน: <b>systematic biopsy 10–12 cores</b> นำทางด้วย transrectal ultrasound (TRUS) หรือ <b>transperineal</b> (แนวทางปัจจุบันนิยมเพราะติดเชื้อน้อยกว่า) และแนวทาง EAU/ AUA แนะนำทำ <b>multiparametric MRI ก่อน biopsy</b> เพื่อเก็บชิ้นเนื้อเจาะจงรอยโรค PI-RADS ≥ 3 · PSA &gt; 100 ng/mL เกือบแน่นอนว่ามีการแพร่กระจายแล้ว จึงต้อง <b>staging</b> ต่อด้วย bone scan + CT abdomen-pelvis (หรือ PSMA PET/ CT) หลังได้ชิ้นเนื้อ แล้วรักษาด้วย androgen deprivation therapy ร่วมยาเสริม (เช่น androgen receptor pathway inhibitor ± docetaxel) · ไฟล์ไฮไลต์ C (TUR-Bx) ลายมือ <b>\"serum PSA &gt; 4 ng/mL, abnormal DRE → for biopsy · TRUS-Bx\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Staging ทำหลังยืนยันมะเร็ง · จะถูกถ้าผลชิ้นเนื้อเป็น adenocarcinoma ISUP grade สูงแล้ว — ต้อง staging ก่อนเลือกการรักษา",
-   "B": "<b>นอกสไลด์:</b> TURP เป็นการรักษาต่อมโตที่อุดกั้น ไม่ใช่การวินิจฉัยมะเร็ง · จะถูกถ้าชายต่อมลูกหมากโตปัสสาวะไม่ออกซ้ำ ใช้ยาไม่ได้ผล DRE เรียบ PSA เข้ากับขนาดต่อม",
-   "D": "<b>นอกสไลด์:</b> เริ่มฮอร์โมนก่อนมีชิ้นเนื้อไม่ใช่มาตรฐาน · จะถูกถ้าชายสูงอายุมาก สุขภาพเปราะบาง อายุขัยสั้น PSA สูงมาก bone scan กระจายทั่ว และไม่พร้อม/ไม่ยอมตัดชิ้นเนื้อ",
-   "E": "<b>นอกสไลด์:</b> รอ PSA ซ้ำใช้เมื่อค่าสูงเล็กน้อยและอาจมีสาเหตุชั่วคราว · จะถูกถ้า PSA 5 ในชายที่ DRE ปกติ ไม่มีปัจจัยเสี่ยงอื่น"
+   "A": "CT abdomen + bone scan เป็น staging ที่ต้องทำแน่เมื่อ PSA สูงขนาดนี้ (&gt; 20 ng/mL หรือ ISUP grade สูงถือเป็น high risk) แต่ทำ<b>หลัง</b>ได้ผลชิ้นเนื้อยืนยันมะเร็งแล้ว ไม่ใช่แทนการวินิจฉัย — จะถูกถ้าเป็นชาย 70 ปีที่ TRUS biopsy เพิ่งยืนยัน adenocarcinoma ISUP grade group 4 และ PSA 60 ng/mL ต้องประเมินการแพร่กระจาย",
+   "B": "TURP ตัดเนื้อต่อมลูกหมากผ่านท่อปัสสาวะเพื่อแก้การอุดกั้น ใช้รักษา BPH ไม่ใช่วิธีวินิจฉัยมะเร็ง เพราะเก็บเนื้อจาก transition zone ส่วนมะเร็งส่วนใหญ่อยู่ peripheral zone — จะถูกถ้าเป็นชาย 72 ปี LUTS รุนแรง ปัสสาวะไม่ออกซ้ำแม้ใช้ alpha-blocker และ 5-ARI DRE โตเรียบนุ่ม PSA 2.8 ng/mL",
+   "D": "ADT ก่อนมีชิ้นเนื้อไม่ทำในกรณีทั่วไป เพราะต้องรู้ grade ต้องแยกจากโรคอื่น และยามีผลเสียระยะยาว (กระดูกพรุน เมตาบอลิก หัวใจ) — จะถูกถ้าเป็นชาย 82 ปี ปวดหลัง ขาอ่อนแรงเฉียบพลันจาก spinal cord compression PSA 1,500 ng/mL bone scan พบ metastasis ทั่วตัว ต้องเริ่มรักษาด่วนก่อนได้ผลชิ้นเนื้อ",
+   "E": "ตรวจ PSA ซ้ำใช้เมื่อค่าสูงเล็กน้อยและอาจเกิดจากปัจจัยชั่วคราว (UTI, prostatitis, ใส่สายสวน, หลังหลั่งน้ำอสุจิ) โดย DRE ปกติ ไม่ใช่ PSA 114 ร่วม DRE แข็งเป็นปุ่ม — จะถูกถ้าเป็นชาย 58 ปี PSA 5.2 ng/mL ตรวจหลังเป็น UTI มีไข้ ปัสสาวะแสบขัด DRE ปกติ จึงรักษาการติดเชื้อแล้วตรวจซ้ำในอีกหลายสัปดาห์"
   },
-  "trap": "PSA สูงมากจนข้ามไป staging หรือให้ฮอร์โมนเลย — ยังต้องมีชิ้นเนื้อก่อน (ยกเว้นภาวะฉุกเฉิน)",
+  "trap": "PSA 114 บ่งการแพร่กระจายจนอยากทำ staging (A) หรือให้ ADT (D) ทันที — ลำดับที่ถูกคือ<b>วินิจฉัยด้วยชิ้นเนื้อก่อน</b>เสมอ แล้วจึง staging และรักษา · ช้อย C ในไฟล์เขียนว่า TUR-Bx ซึ่งอาจสับสนกับ TURP แต่คีย์อธิบายว่าเป็น TRUS-Bx และ TURP ไม่ใช่วิธีวินิจฉัยมะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> MRI ก่อน biopsy: EAU strong · AUA/SUO 2023 conditional · PSA สูงเล็กน้อยให้ตรวจซ้ำ/DRE และแยกการติดเชื้อก่อน MRI",
-   "<b>นอกสไลด์:</b> Biopsy ผ่าน perineum ติดเชื้อน้อยกว่าผ่าน rectum",
-   "<b>นอกสไลด์:</b> Staging ในกลุ่มเสี่ยงสูง: PSMA PET หรือ CT + bone scan"
+   "ข้อบ่งชี้ biopsy: DRE ผิดปกติ หรือ PSA สูง (&gt; 4 ng/mL โดยพิจารณาอายุ PSA density &gt; 0.15 ng/mL/cc ประวัติครอบครัว BRCA2) ในผู้มี life expectancy เพียงพอ",
+   "MRI ก่อน biopsy: PI-RADS ≥ 3 → targeted + systematic biopsy · PI-RADS 1–2 ร่วม PSA density ต่ำอาจเลี่ยง biopsy ได้",
+   "Biopsy: systematic 10–12 cores ผ่าน TRUS หรือ transperineal (ติดเชื้อน้อยกว่า) · ภาวะแทรกซ้อน: hematuria, hematospermia, ติดเชื้อ/ sepsis, ปัสสาวะไม่ออก",
+   "Risk: low = PSA &lt; 10 + ISUP 1 + cT1–T2a · intermediate = PSA 10–20 หรือ ISUP 2–3 หรือ cT2b · high = PSA &gt; 20 หรือ ISUP 4–5 หรือ cT2c ขึ้นไป",
+   "Staging: high risk/ intermediate บางราย → bone scan + CT abdomen-pelvis หรือ PSMA PET/ CT ซึ่งไวกว่า · PSA &gt; 100 ng/mL บ่ง metastasis เกือบแน่นอน",
+   "Metastatic hormone-sensitive prostate cancer: ADT (LHRH agonist/ antagonist หรือ orchiectomy) ร่วม ARPI (abiraterone, enzalutamide, apalutamide) ± docetaxel · ระวัง flare จาก LHRH agonist ให้ antiandrogen ก่อน",
+   "Localized: active surveillance (low risk), radical prostatectomy หรือ radiotherapy ± ADT ตามความเสี่ยงและอายุขัย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (TRUS biopsy) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ C ลายมือ \"serum PSA &gt; 4, abnormal DRE → for biopsy · TRUS-Bx\" · ไฟล์ไม่ได้จดอายุและมี 3 ช้อย เว็บเติมอายุ 68 ปีและช้อย D, E โดยคำตอบไม่เปลี่ยน · แนวทางปัจจุบันอาจทำ MRI ก่อนเพื่อเลือกตำแหน่งเจาะ แต่ไม่มีช้อยนี้ biopsy จึงเป็นคำตอบที่ดีที่สุด",
+  "mnemonic": "<b>'PSA สูง + DRE แข็ง → Biopsy ก่อน แล้วค่อย Stage แล้วค่อย Treat'</b>",
+  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2024; Campbell-Walsh-Wein Urology 12th ed. (2020) — Prostate Cancer Diagnosis and Staging",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายกิน finasteride มา 1 ปี PSA 3 → คูณ 2 = 6 ถือว่าผิดปกติ ประเมินต่อ",
-   "<b>นอกสไลด์:</b> ชิ้นเนื้อ ISUP 5 bone scan กระจายหลายจุด → ADT ร่วมกับยากลุ่ม androgen receptor pathway inhibitor"
+   "ชาย 62 ปี PSA 7.5 ng/mL DRE ปกติ → MRI prostate พบ PI-RADS 4 → targeted + systematic biopsy",
+   "ชาย 70 ปี biopsy ได้ ISUP grade group 5, PSA 40 → staging ด้วย bone scan + CT หรือ PSMA PET/ CT",
+   "ชาย 75 ปี มะเร็งต่อมลูกหมากแพร่กระจายไปกระดูก เริ่ม LHRH agonist → ให้ antiandrogen (bicalutamide) ก่อนหรือร่วมใน 1–2 สัปดาห์แรกกัน testosterone flare",
+   "ทำไม TURP ไม่ใช่วิธีวินิจฉัยมะเร็งต่อมลูกหมาก → ตัดเฉพาะ transition zone รอบท่อปัสสาวะ ส่วนมะเร็งราว 70% อยู่ peripheral zone"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 3 — ตัวพิมพ์: <b>yo male psa=114, DRE enlarged prostate — A. ct abdomen and bone scan B. TURP C. TUR-Bx</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ไม่ได้จดอายุ (\"yo male\") → เติม 68 ปี · ช้อย C เขียน TUR-Bx — คีย์อธิบายว่าเป็น TRUS-Bx · ไฟล์มี 3 ช้อย → เติม D, E",
+  "src": "S75DQ · หน้า 3",
+  "kimg": [
+   "ks75d_uro2"
   ]
  },
  "MDCU75|RoD|Uro 3": {
-  "interp": "หญิงเลือดในปัสสาวะ ปัสสาวะมีเม็ดเลือดขาวมาก CT พบนิ่วเขากวางเต็มกรวยไต · ประวัติกระดูกบาง เบาหวานคุมไม่ได้ (ตัวหลอก) → ถามสาเหตุของนิ่ว",
-  "why": "ลายมือในคีย์ (Maimai & Ig): <b>staghorn → struvite = urease-producing bacteria, infection</b><br><b>นอกสไลด์:</b> เชื้อที่สร้าง urease ย่อย urea เป็น ammonia ทำให้ปัสสาวะด่าง magnesium ammonium phosphate จึงตกผลึกเร็วและโตตามรูปกรวยไต · เม็ดเลือดขาวในปัสสาวะ (pyuria) สนับสนุนการติดเชื้อเรื้อรัง",
+  "interp": "หญิง 45 ปี microscopic hematuria ไม่มีอาการ UA พบ <b>WBC 20–30/HPF</b> CT urography พบ <b>complete staghorn stone</b> มี osteopenia และ DM คุมไม่ดี — ถามสาเหตุของนิ่วที่น่าจะเป็นที่สุด ต้องรู้ว่า staghorn ส่วนใหญ่เป็น struvite จากการติดเชื้อแบคทีเรียที่สร้าง urease",
+  "why": "<b>Staghorn calculus</b> คือนิ่วที่เติมเต็ม renal pelvis และแตกแขนงเข้า calyces ส่วนใหญ่เป็น <b>struvite (magnesium ammonium phosphate) ร่วม carbonate apatite</b> = infection stone · กลไก: แบคทีเรียที่สร้าง <b>urease</b> (<b>Proteus mirabilis</b> พบบ่อยที่สุด, Klebsiella, Pseudomonas, Providencia, Staphylococcus saprophyticus — E. coli ส่วนใหญ่ไม่สร้าง) ย่อย urea → ammonia + CO₂ → ปัสสาวะเป็นด่าง (pH &gt; 7.2) ทำให้ magnesium ammonium phosphate ตกผลึกเร็วและนิ่วโตเร็วจนเต็มไต · พบบ่อยในหญิง ผู้มี UTI ซ้ำ ใส่สายสวน neurogenic bladder และ urinary diversion · เชื้ออยู่ในเนื้อนิ่ว ยาปฏิชีวนะอย่างเดียวกำจัดไม่ได้ ต้อง<b>เอานิ่วออกให้หมด</b>: <b>PCNL เป็นการรักษาแรก</b>ของ staghorn (AUA/ EAU) ร่วมยาปฏิชีวนะตามผลเพาะเชื้อ · ถ้าไม่รักษาไตจะถูกทำลายและเสี่ยง urosepsis · acetohydroxamic acid (urease inhibitor) ใช้เสริมในรายที่เอาออกไม่หมด · ไฟล์ไฮไลต์ B ลายมือ <b>\"staghorn → struvite = urease-producing bacteria, infection\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> แคลเซียม/วิตามินดีขนาดสูงทำให้ปัสสาวะมีแคลเซียมมาก เกิดนิ่ว calcium ไม่ใช่ staghorn ติดเชื้อ · จะถูกถ้ากินวิตามินดีเกินขนาด แคลเซียมในเลือดและปัสสาวะสูง เป็นนิ่ว calcium ก้อนเล็กซ้ำ ปัสสาวะไม่มีเม็ดเลือดขาว",
-   "C": "<b>นอกสไลด์:</b> เบาหวาน/ภาวะดื้ออินซูลินทำให้ปัสสาวะเป็นกรด สัมพันธ์กับนิ่ว uric acid · จะถูกถ้านิ่วไม่เห็นใน KUB แต่เห็นใน CT pH ปัสสาวะราว 5.0 ในผู้ป่วยเบาหวาน",
-   "D": "<b>นอกสไลด์:</b> การอุดกั้นทำให้ปัสสาวะค้างเป็นปัจจัยเสริม ไม่ใช่สาเหตุหลักของนิ่วติดเชื้อ · จะถูกถ้ามีนิ่วเล็กหลายก้อนในกรวยไตที่โป่งจาก UPJ obstruction ปัสสาวะไม่ติดเชื้อ",
-   "E": "<b>นอกสไลด์:</b> Primary hyperoxaluria เป็นโรคพันธุกรรมที่มักเริ่มในเด็ก · จะถูกถ้าเด็กเป็นนิ่ว calcium oxalate ซ้ำร่วมกับ nephrocalcinosis และไตเสื่อมเร็ว"
+   "A": "แคลเซียมและวิตามินดีเสริมอาจเพิ่ม hypercalciuria เกิดนิ่ว calcium oxalate/ phosphate ก้อนเล็กกลับเป็นซ้ำ ไม่ใช่ staghorn ที่ปัสสาวะมี WBC มาก (แคลเซียมในอาหารร่วมมื้ออาหารกลับลดการดูดซึม oxalate) — จะถูกถ้าเป็นหญิง 60 ปีกิน calcium carbonate ขนาดสูงระหว่างมื้อร่วม vitamin D ขนาดสูง 24-hr urine calcium สูง มีนิ่ว calcium oxalate ก้อนเล็กหลายก้อน",
+   "C": "DM/ insulin resistance ทำให้ไตสร้าง ammonium ได้น้อยลง ปัสสาวะเป็นกรด (pH &lt; 5.5) จึงเสี่ยง<b>นิ่ว uric acid</b> ซึ่งเป็น staghorn ได้บ้างแต่ไม่มีการติดเชื้อนำ — จะถูกถ้าเป็นชาย 55 ปีอ้วน DM ปัสสาวะ pH 5.0 นิ่วมองไม่เห็นใน KUB แต่เห็นใน CT (radiolucent, ราว 400 HU) รักษาด้วย potassium citrate ทำให้ปัสสาวะเป็นด่าง",
+   "D": "การอุดกั้น/ ปัสสาวะค้าง (เช่น UPJ obstruction, calyceal diverticulum, horseshoe kidney) ส่งเสริมการตกผลึกและติดเชื้อ แต่เป็นปัจจัยร่วม ไม่ใช่ชนิดของนิ่ว และ CT ไม่ได้บอกว่ามีการอุดกั้น — จะถูกถ้าเป็นชาย 25 ปีมี UPJ obstruction แต่กำเนิด ไตบวมน้ำ พบนิ่วหลายก้อนใน calyces ที่ขยาย ต้องผ่าตัด pyeloplasty ร่วมเอานิ่วออก",
+   "E": "Primary hyperoxaluria เป็นโรคพันธุกรรม autosomal recessive (type 1 จาก AGXT, enzyme ในตับ) ทำให้นิ่ว calcium oxalate กลับเป็นซ้ำตั้งแต่เด็ก nephrocalcinosis และไตวายจน oxalate สะสมทั่วตัว — จะถูกถ้าเป็นเด็กชาย 6 ปี นิ่วกลับเป็นซ้ำหลายครั้ง US พบ nephrocalcinosis ทั้งสองข้าง และ urine oxalate สูงมาก"
   },
-  "trap": "ประวัติเบาหวานและกระดูกบางชวนเลือก C หรือ A — staghorn + pyuria ชี้ไปที่การติดเชื้อ",
+  "trap": "Osteopenia และ DM ที่ใส่มาชวนให้คิดถึง hyperparathyroidism/ แคลเซียมเสริม หรือนิ่ว uric acid จาก DM — แต่คำว่า <b>complete staghorn</b> ร่วม <b>WBC 20–30/HPF</b> (pyuria) บ่ง infection stone ชัด · จำไว้ว่า DM เพิ่มความเสี่ยงติดเชื้อทางเดินปัสสาวะซึ่งเป็นสาเหตุของ struvite ด้วย",
   "summary": [
-   "<b>นอกสไลด์:</b> เชื้อ: Proteus (บ่อยสุด), Klebsiella, Pseudomonas, Providencia · E. coli ส่วนใหญ่ไม่สร้าง urease · นิ่วมัก struvite ปน calcium apatite",
-   "<b>นอกสไลด์:</b> ต้องเอานิ่วออกให้หมด เพราะเศษนิ่วมีเชื้ออยู่ข้างใน — PCNL เป็นวิธีแรกสำหรับ staghorn · ร่วมกับยาปฏิชีวนะตามเชื้อ",
-   "<b>นอกสไลด์:</b> ปล่อยไว้: ไตเสื่อม ติดเชื้อรุนแรง/sepsis, xanthogranulomatous pyelonephritis"
+   "Staghorn: นิ่วเติม renal pelvis แตกแขนงเข้า calyces (partial/ complete) ส่วนใหญ่เป็น struvite + carbonate apatite ที่เหลือเป็น cystine, uric acid หรือ calcium",
+   "Urease-producing bacteria: Proteus mirabilis (บ่อยสุด), Klebsiella, Pseudomonas, Providencia, Staph saprophyticus · urea → NH₃ + CO₂ → urine pH &gt; 7.2 → struvite ตกผลึก",
+   "ปัจจัยเสี่ยง struvite: หญิง, UTI ซ้ำ, สายสวนปัสสาวะค้าง, neurogenic bladder/ spinal cord injury, urinary diversion, ปัสสาวะค้าง",
+   "PCNL = first-line ของ staghorn (ร่วมยาปฏิชีวนะก่อนและหลังผ่าตัด) · ESWL อย่างเดียวไม่เหมาะกับนิ่วก้อนใหญ่ · เป้าหมายคือ stone-free เพราะเศษนิ่วยังมีเชื้อ",
+   "Struvite ที่ไม่รักษาทำลายไตจนไม่ทำงาน และเสี่ยง urosepsis/ xanthogranulomatous pyelonephritis · ไตที่เสียหน้าที่มากอาจต้อง nephrectomy",
+   "Uric acid stone: ปัสสาวะเป็นกรด (DM, metabolic syndrome, gout) radiolucent ใน KUB แต่เห็นใน CT · ละลายได้ด้วย potassium citrate ให้ urine pH 6.5–7.0",
+   "Cystinuria (autosomal recessive) ให้ staghorn ในคนอายุน้อย ผลึกรูปหกเหลี่ยม · primary hyperoxaluria → nephrocalcinosis และไตวายในเด็ก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (Maimai & Ig) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ B ลายมือ \"staghorn → struvite = urease-producing bacteria, infection\" · ช้อย B ในไฟล์จดไม่ครบ (Chronic infection with …) เว็บเติม urease-producing bacteria และเติมช้อย E ซึ่งไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Staghorn + Pyuria = Struvite จาก Proteus (Urease → ปัสสาวะด่าง)'</b>",
+  "guide": "Assimos D, et al. Surgical Management of Stones: AUA/Endourological Society Guideline. J Urol 2016; EAU Guidelines on Urolithiasis 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยทำ ileal conduit หลังตัดกระเพาะปัสสาวะ ปัสสาวะด่างติดเชื้อเรื้อรัง มีนิ่วในไต → นิ่วติดเชื้อ (urinary diversion เป็นปัจจัยเสี่ยง)",
-   "<b>นอกสไลด์:</b> นิ่ว staghorn ในผู้ป่วยติดเตียง ไตข้างนั้นทำงานเหลือน้อยมากและติดเชื้อซ้ำ → nephrectomy"
+   "หญิง 50 ปี UTI ซ้ำ urine pH 8.0 เพาะเชื้อขึ้น Proteus mirabilis CT พบ complete staghorn ไตซ้าย → PCNL ร่วมยาปฏิชีวนะตามผลเพาะเชื้อ",
+   "ผู้ป่วย spinal cord injury ใส่สายสวนค้างนาน มีนิ่วเต็มไตและปัสสาวะขุ่นเหม็น → struvite stone จาก urease-producing bacteria",
+   "ชาย 20 ปี staghorn ทั้งสองข้าง ปัสสาวะพบผลึกรูปหกเหลี่ยม ประวัติครอบครัวเป็นนิ่ว → cystinuria",
+   "ทำไมยาปฏิชีวนะอย่างเดียวรักษา struvite stone ไม่หาย → เชื้ออยู่ในเนื้อนิ่ว ยาเข้าไม่ถึง ต้องเอานิ่วออกให้หมด"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 3 — ตัวพิมพ์: <b>A 45 year-year-old presents with asymptomatic microscopic hematuria. Urinalysis shows sp.gr 1.025 RBC 10-20 WBC 20-30 and epithelium 0-1 cell. CTU demonstrates complete staghorn stone. Past medical history reveals osteopenia and poorly controlled DM. What is most likely etiology of the stone? — A. Dietary Ca and Vit D B. Chronic infection with … C. Poorly controlled DM D. urinary obstruction</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ช้อย B ในไฟล์จดไม่ครบ (\"Chronic infection with …\") → เติม urease-producing bacteria · เติมช้อย E",
+  "src": "S75DQ · หน้า 3",
+  "kimg": [
+   "ks75d_uro3"
   ]
  },
  "MDCU75|RoD|Neuro 1": {
-  "interp": "ชาย 30 ปี ชักครั้งแรก MRI (ภาพในข้อ) เห็นถุงน้ำเล็กจำนวนมากกระจายทั่วเนื้อสมอง หลายถุงมีจุดทึบเล็กข้างใน → ถามการวินิจฉัย",
-  "why": "ลายมือในคีย์ (Maimai & Ig): <b>มี scolex ใน cyst = dot → neurocysticercosis</b><br><b>นอกสไลด์:</b> ถุงน้ำที่มีจุดเล็ก (scolex) อยู่ข้างใน — cyst with a dot — จำเพาะกับตัวอ่อนพยาธิตืดหมู (Taenia solium) ที่ฝังในสมอง และเป็นสาเหตุสำคัญของโรคลมชักที่เกิดภายหลังในประเทศกำลังพัฒนา",
+  "interp": "ชาย 30 ปี <b>ชักครั้งแรก</b> พร้อมภาพ MRI สมอง (ในไฟล์ลายมือบรรยายว่าเห็นถุงน้ำที่มีจุดอยู่ข้างใน) — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องรู้ภาพ <b>cyst with scolex (hole-with-dot)</b> ของ neurocysticercosis และแยกจากรอยโรคติดเชื้อ/ เนื้องอกอื่นในสมอง",
+  "why": "<b>Neurocysticercosis</b> เกิดจากตัวอ่อน (cysticercus) ของ <b>Taenia solium</b> เข้าสู่สมองหลังกลืนไข่พยาธิที่ปนเปื้อนอาหาร/ มือ (fecal–oral จากผู้เป็นพาหะพยาธิตืดหมู) ไม่ใช่จากการกินเนื้อหมูดิบโดยตรง (ซึ่งทำให้เกิดพยาธิตืดในลำไส้) · เป็น<b>สาเหตุที่พบบ่อยที่สุดของโรคลมชักที่เกิดภายหลังทั่วโลก</b> · ภาพตามระยะ: ① <b>vesicular</b>: ถุงน้ำใสผนังบาง ไม่ enhance มี <b>scolex เป็นจุดภายใน (hole-with-dot sign)</b> ซึ่งเป็น pathognomonic ② colloidal: ถุงขุ่น ring enhancement + edema รอบ (ตัวอ่อนตายแล้วเกิดการอักเสบ — ชักบ่อยที่สุด) ③ granular nodular ④ <b>calcified</b> จุดหินปูนเล็ก · รักษา: <b>ยากันชัก</b>ทุกราย · ถุงที่ยังมีชีวิต (viable) ให้ <b>albendazole</b> (15 mg/kg/วัน ราว 10–14 วัน) ร่วม praziquantel ถ้ามี &gt; 2 ถุง และให้ <b>corticosteroid</b> ร่วมเพื่อลดการอักเสบจากพยาธิตาย · ตรวจตา (fundoscopy) หา ocular cysticercosis และประเมิน hydrocephalus ก่อนให้ยาฆ่าพยาธิ · ไม่ให้ยาฆ่าพยาธิในถุงที่เป็นหินปูนแล้ว หรือ cysticercal encephalitis ที่สมองบวมมาก · intraventricular cyst/ hydrocephalus → endoscopic removal หรือ shunt · ไฟล์ไฮไลต์ A ลายมือ <b>\"มี scolex ใน cyst = dot → neurocysticercosis\"</b> พร้อมรูป cysticercosis",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ฝีในสมองหลายก้อนเป็น ring-enhancing ที่มีหนองตรงกลาง diffusion restriction ไม่มีจุด scolex · จะถูกถ้าผู้ป่วยลิ้นหัวใจติดเชื้อมีไข้ ชัก MRI เห็นก้อนขอบเรืองหลายก้อน DWI สว่าง",
-   "C": "<b>นอกสไลด์:</b> วัณโรคเยื่อหุ้มสมองเห็นเยื่อหุ้มที่ฐานสมองเรืองแสง hydrocephalus และสมองขาดเลือด · จะถูกถ้าผู้ป่วยไข้ปวดศีรษะเป็นสัปดาห์ เส้นประสาทสมองคู่ที่ 6 อ่อนแรง",
-   "D": "<b>นอกสไลด์:</b> สมองอักเสบจากไวรัส (เช่น HSV) เห็นสัญญาณผิดปกติที่ temporal lobe · จะถูกถ้าผู้ป่วยไข้ สับสน พฤติกรรมเปลี่ยน ชัก MRI เห็น temporal lobe ด้านในบวม",
-   "E": "<b>นอกสไลด์:</b> Gliomatosis cerebri (ปัจจุบันถือเป็นรูปแบบการลุกลามของ diffuse glioma) แทรกกระจายไม่มีขอบ ไม่เป็นถุง · จะถูกถ้า MRI เห็นสัญญาณ T2 ผิดปกติลุกลามตั้งแต่ 3 กลีบขึ้นไปโดยไม่มีก้อนชัดและไม่มีถุง"
+   "B": "Multiple brain abscesses เป็นรอยโรค ring-enhancing ผนังเรียบบาง ขอบด้าน ventricle บางกว่า ตรงกลาง <b>DWI restriction</b> (หนอง) มีไข้และแหล่งติดเชื้อ (sinusitis, otitis, endocarditis, cyanotic heart disease) ไม่มี scolex ภายใน — จะถูกถ้าเป็นเด็ก 8 ปี tetralogy of Fallot ไข้ ปวดศีรษะ แขนขาซ้ายอ่อนแรง MRI พบก้อน ring-enhancing หลายก้อนที่ DWI สว่าง",
+   "C": "TB meningitis ภาพเด่นคือ <b>basal meningeal enhancement</b>, hydrocephalus และ infarct ที่ basal ganglia อาการกึ่งเฉียบพลันเป็นสัปดาห์ (ไข้ ปวดศีรษะ ซึม cranial nerve palsy) ไม่ใช่ถุงน้ำมีจุด — จะถูกถ้าเป็นชาย 35 ปี HIV ไข้ ปวดศีรษะ 3 สัปดาห์ ตาเหล่จาก CN VI palsy CSF lymphocyte เด่น glucose ต่ำ protein สูง",
+   "D": "Viral encephalitis (โดยเฉพาะ HSV-1) ทำให้ไข้ สับสน พฤติกรรมเปลี่ยน ชัก MRI พบ T2/ FLAIR hyperintensity ที่ <b>medial temporal lobe และ insula</b> ไม่ใช่ถุงน้ำ — จะถูกถ้าเป็นหญิง 40 ปี ไข้ 3 วัน พูดจาสับสน ชัก MRI พบรอยโรค temporal lobe ซ้าย CSF HSV PCR บวก ให้ IV acyclovir ทันที",
+   "E": "Gliomatosis cerebri เป็นรูปแบบการลุกลามของ diffuse glioma ที่แทรกซึมกว้าง ≥ 3 lobes (WHO 2016 ไม่ถือเป็นโรคแยก) MRI เป็น T2 hyperintensity กระจายกว้าง ไม่ค่อย enhance มี mass effect น้อย ไม่มีถุงน้ำ — จะถูกถ้าเป็นชาย 50 ปี ความจำและบุคลิกเปลี่ยนช้า ๆ หลายเดือน MRI พบ T2 hyperintensity แทรกซึมกว้างทั้ง 3 lobes ไม่มี enhancement"
   },
-  "trap": "เห็นถุงหลายอันแล้วตอบฝีหลายก้อน — จุดเล็กในถุง (scolex) คือกุญแจของ neurocysticercosis",
+  "trap": "ภาพถุง/ ring หลายจุดในสมองชวนให้ตอบ brain abscess หรือนึกถึง TB ซึ่งพบบ่อยในไทย — จุดแยกคือ <b>จุด scolex ภายในถุง (hole-with-dot)</b> ที่ pathognomonic ของ neurocysticercosis ส่วน abscess ตรงกลางเป็นหนองที่ DWI สว่าง และ TB meningitis เด่นที่ basal meninges ไม่ใช่ในเนื้อสมอง",
   "summary": [
-   "<b>นอกสไลด์:</b> ติดจากการกินไข่พยาธิที่ปนเปื้อนอุจจาระคนที่มีตืดในลำไส้ (ไม่ใช่จากกินหมูดิบ ซึ่งทำให้เป็นตืดในลำไส้)",
-   "<b>นอกสไลด์:</b> ระยะในภาพ: vesicular (ถุงใส + scolex) → colloidal (ขอบเรือง + สมองบวม) → granular nodular → calcified",
-   "<b>นอกสไลด์:</b> ถุงที่ยังมีชีวิต: albendazole (± praziquantel เมื่อถุงมากกว่า 2) ร่วมกับ steroid · ตรวจจอตาก่อนให้ยาฆ่าพยาธิ · ร่วมกับยากันชัก",
-   "<b>นอกสไลด์:</b> ถุงจำนวนมากร่วมกับสมองบวมทั่ว (cysticercal encephalitis) ห้ามให้ยาฆ่าพยาธิ ใช้ steroid ก่อน"
+   "Neurocysticercosis: ตัวอ่อน Taenia solium จากการกลืนไข่ (fecal–oral) · สาเหตุที่พบบ่อยที่สุดของโรคลมชักที่เกิดภายหลังทั่วโลก · พบในพื้นที่เลี้ยงหมูที่สุขาภิบาลไม่ดี",
+   "ระยะภาพ: vesicular (ถุงใส + scolex = hole-with-dot) → colloidal (ring enhancement + edema) → granular nodular → calcified (จุดหินปูน)",
+   "วินิจฉัย: CT/ MRI (CT เห็นหินปูนดีกว่า MRI เห็นถุงและ scolex ดีกว่า) ร่วม serology (EITB) โดยเฉพาะเมื่อภาพไม่ชัด",
+   "Viable parenchymal cysts: albendazole 15 mg/kg/วัน ราว 10–14 วัน (+ praziquantel ถ้า &gt; 2 ถุง) ร่วม corticosteroid และยากันชัก",
+   "ก่อนให้ยาฆ่าพยาธิ: ตรวจตาหา ocular cysticercosis และแก้ hydrocephalus ก่อน · ไม่ให้ยาฆ่าพยาธิใน calcified lesion หรือ cysticercal encephalitis (ใช้ steroid)",
+   "Intraventricular cyst (มักที่ ventricle ที่ 4) → obstructive hydrocephalus → neuroendoscopic removal · subarachnoid/ racemose ที่ basal cisterns พยากรณ์แย่กว่า",
+   "Brain abscess แยกด้วย DWI restriction ตรงกลาง · tuberculoma: ring/ nodular enhancement ร่วม TB meningitis (basal enhancement)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) ภาพเข้ากับ cyst with a dot หลายถุง · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ไฮไลต์ A ลายมือ \"มี scolex ใน cyst = dot → neurocysticercosis\" · ไฟล์จดแค่ว่ามีรูป MRI ถาม dx เว็บเติมอายุและอาการชักโดยไม่บรรยายภาพ ซึ่งต้องอาศัยการอ่านภาพ hole-with-dot จากรูปเอง",
+  "mnemonic": "<b>'Hole-with-Dot = Cysticercosis (Dot = Scolex)'</b>",
+  "guide": "White AC Jr, et al. Diagnosis and Treatment of Neurocysticercosis: IDSA/ASTMH Clinical Practice Guidelines. Clin Infect Dis 2018; Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Parasitic Infections",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยชัก CT เห็นจุดหินปูนเล็กจุดเดียวในสมอง ไม่มีถุง → neurocysticercosis ระยะหินปูน ให้ยากันชักอย่างเดียว",
-   "<b>นอกสไลด์:</b> ถุง cysticercus ใน ventricle ที่ 4 ทำให้ hydrocephalus → ผ่าตัดเอาถุงออก (ผ่านกล้องถ้าทำได้ หรือผ่าตัดเปิด)"
+   "ชาย 28 ปี ชักครั้งแรก CT พบจุดหินปูนเล็กเดียวในเนื้อสมอง ไม่มี edema → calcified neurocysticercosis → ยากันชักอย่างเดียว ไม่ต้องให้ albendazole",
+   "หญิง 35 ปี ปวดศีรษะ อาเจียน MRI พบถุงใน ventricle ที่ 4 และ hydrocephalus → neuroendoscopic cyst removal",
+   "เด็ก 12 ปี ชักหลายครั้ง MRI พบถุงจำนวนมากกระจายทั่วสมองพร้อมสมองบวม (cysticercal encephalitis) → corticosteroid ไม่ให้ยาฆ่าพยาธิ",
+   "ทำไมต้องให้ steroid ร่วมกับ albendazole → พยาธิที่ตายปล่อยแอนติเจนกระตุ้นการอักเสบ edema เพิ่มขึ้นและชักมากขึ้นได้"
+  ],
+  "notes": "ไฟล์ S75DQ หน้า 4 — ตัวพิมพ์: <b>[NEURO] (มีรูป MRI) ถาม dx — A. Cerebral cysticercosis B. multiple brain abscess C. TB meningitis D. viral encephalitis E. gliomatosis cerebri</b><br>ลายมือ/ ไฮไลต์ในไฟล์: รูป MRI ในโจทย์ (qs75d_neuro1 จากไฟล์โจทย์หน้า 4) · ไฟล์จดแค่ \"ถาม dx\" → เติมอายุและอาการชักใน stem (ไม่บอกลักษณะภาพ)",
+  "src": "S75DQ · หน้า 4",
+  "kimg": [
+   "ks75d_neuro1"
   ]
  }
 }

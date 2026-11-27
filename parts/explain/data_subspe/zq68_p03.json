@@ -1,29 +1,31 @@
 {
  "MDCU68|RoB|84": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับการติดเชื้อราที่ปอด",
-  "why": "<b>Histoplasma capsulatum</b> อยู่ในดินที่ปนมูลนก/ ค้างคาว — สูดสปอร์เข้าไปแล้วส่วนใหญ่ไม่มีอาการ หรือเกิด<b>อาการคล้ายไข้หวัดใหญ่ (flu-like: ไข้ ไอ ปวดเมื่อย)</b> หายเองได้ · ข้ออื่นผิด: การลุกลามกระดูกซี่โครง/ ผนังทรวงอก ชี้ <b>actinomycosis</b> (ไม่ใช่ histoplasmosis), aspergilloma ไอเป็นเลือด<b>บ่อย (~50–85%)</b> และอาจรุนแรง, mucormycosis เกิดใน<b>ผู้ภูมิคุ้มกันต่ำ</b> (เบาหวาน DKA, neutropenia), coccidioidomycosis ส่วนใหญ่เป็น nodule/ infiltrate มีโพรงเพียงส่วนน้อย (~5%) · ไฟล์ขีด 5 ลายมือขีดฆ่า \"rib\" ที่ช้อย 1 และช้อย 3 แก้ 50% เป็น <b>\"10%\"</b> พร้อม <b>\"cryptococcal meningitis\"</b>",
+  "interp": "ถามข้อความที่<b>ถูก</b>เกี่ยวกับ<b>การติดเชื้อราในปอด</b> — ช้อยเป็นลักษณะเฉพาะของเชื้อแต่ละชนิด (histoplasmosis, aspergilloma, mucormycosis, coccidioidomycosis) ต้องรู้กลไกติดเชื้อ อาการ ภาพรังสี และกลุ่มผู้ป่วยของแต่ละโรค",
+  "why": "<b>Histoplasma capsulatum</b> เป็นราสองรูป (dimorphic) อยู่ในดินที่ปนมูลค้างคาวและนก ติดต่อโดย<b>สูด microconidia (spore) เข้าปอด</b> ในคนภูมิคุ้มกันปกติ <b>ส่วนใหญ่ไม่มีอาการหรือเป็นไข้คล้ายไข้หวัดใหญ่ (flu-like illness)</b> ไอ ปวดเมื่อย หายเองใน 2–3 สัปดาห์ ทิ้งรอย calcified granuloma ในปอดและต่อมน้ำเหลือง hilar · ถ้าสูดเชื้อปริมาณมากหรือภูมิคุ้มกันต่ำ (HIV CD4 &lt; 150, ยากดภูมิ) จะเป็นปอดอักเสบรุนแรงหรือแพร่กระจาย รักษาด้วย amphotericin B แล้วต่อ itraconazole · บทบาทศัลยกรรมคือภาวะแทรกซ้อน เช่น fibrosing mediastinitis, broncholithiasis หรือก้อนที่ต้องแยกมะเร็ง · ไฟล์ขีด 5 ไฮไลต์ <b>\"H. capsulatum spore\" \"develop flu-like infection\"</b> และลายมือแก้ช้อยอื่น",
   "wrong": {
-   "A": "ผิด — การลุกลามซี่โครง/ ผนังทรวงอก (ทะลุ fascia, sinus tract มี sulfur granules) เป็นลักษณะของ actinomycosis (ลายมือขีดฆ่า \"rib\") · จะถูกถ้าช้อยบอกว่า rib involvement ชี้ actinomycosis",
-   "B": "ผิด — aspergilloma ไอเป็นเลือดพบบ่อย (~50–85%) และอาจถึงตาย · จะถูกถ้าช้อยบอกว่าไอเป็นเลือดเป็นอาการที่พบบ่อยที่สุดของ aspergilloma",
-   "C": "ผิด — mucormycosis เกิดในผู้ภูมิคุ้มกันต่ำ (เบาหวาน DKA neutropenia ปลูกถ่ายอวัยวะ) · จะถูกถ้าช้อยบอกว่า mucormycosis พบในผู้ป่วยเบาหวานคุมไม่ได้",
-   "D": "ผิด — coccidioidomycosis ส่วนใหญ่เป็น pneumonia/ nodule มีโพรงเพียงส่วนน้อย (~5%) · จะถูกถ้าช้อยบอกว่าโพรงผนังบาง (thin-walled cavity) เป็นลักษณะเฉพาะที่พบได้ของ cocci"
+   "A": "การลุกลามกระดูกซี่โครงและผนังทรวงอก (ข้าม fascial plane เกิด sinus tract มีหนองปน sulfur granules) เป็นลักษณะเด่นของ <b>actinomycosis</b> (แบคทีเรีย Actinomyces) ไม่ใช่ histoplasmosis · จะถูกถ้าเป็นชาย 50 ปีฟันผุ ดื่มสุรา มีก้อนที่ปอดลามทะลุผนังทรวงอก ซี่โครงกร่อน มีรูหนองที่ผิวหนังพบเม็ดสีเหลือง → penicillin ระยะยาว",
+   "B": "Aspergilloma (fungus ball ในโพรงเดิมจากวัณโรค) มาด้วย<b>ไอเป็นเลือดเป็นอาการที่พบบ่อยที่สุด</b> ราว 50–85% (ลายมือแก้) และอาจเป็น massive hemoptysis ถึงชีวิต ไม่ใช่น้อยกว่า 10% · จะถูกถ้าเป็นชาย 55 ปีเคยเป็นวัณโรค ไอเป็นเลือดซ้ำ CT เห็นก้อนในโพรงที่ปลายปอดเคลื่อนตามท่า (air crescent) → lobectomy หรือ bronchial artery embolization เป็นสะพาน",
+   "C": "Mucormycosis (Rhizopus, Mucor) เป็นราที่<b>รุกรานหลอดเลือด</b>ทำให้เนื้อตาย เกิดเกือบทั้งหมดในผู้ภูมิคุ้มกันบกพร่อง (เบาหวาน DKA, neutropenia, ปลูกถ่ายอวัยวะ, ได้ deferoxamine) ไม่ใช่คนสุขภาพดี · จะถูกถ้าเป็นผู้ป่วยเบาหวานใน DKA มีไข้ ปวดหน้า น้ำมูกปนเลือด พบเนื้อตายสีดำที่เพดานหรือโพรงจมูก → amphotericin B liposomal + ผ่าตัดเอาเนื้อตายออกด่วน",
+   "D": "Coccidioidomycosis (Valley fever จากดินแห้งทางตะวันตกเฉียงใต้ของสหรัฐฯ) มักเป็นปอดอักเสบหรือก้อน nodule เกิดโพรง (thin-walled cavity) เพียงราว 5% (ลายมือแก้) จึงไม่ใช่รอยโรคหลัก · จะถูกถ้าเป็นชาย 30 ปีหลังเดินทางในแอริโซนา มีไข้ ไอ ผื่น erythema nodosum ปวดข้อ (desert rheumatism) CT ปอดเป็นปื้นอักเสบ"
   },
-  "trap": "สับสน rib involvement ว่าเป็นเชื้อรา — การทะลุผนังทรวงอกเป็นของ actinomycosis (แบคทีเรีย)",
+  "trap": "ข้อนี้เป็นข้อจำรายละเอียดเชื้อราหลายชนิด ตัวลวงมาจากการสลับลักษณะของโรคหนึ่งไปใส่อีกโรค (ซี่โครงของ actinomycosis ไปใส่ histoplasmosis) และตัวเลขที่กลับด้าน (ไอเป็นเลือดใน aspergilloma พบบ่อย ไม่ใช่น้อย) · ให้ยึดว่า histoplasmosis ในคนปกติส่วนใหญ่ไม่มีอาการหรือเป็นไข้หวัดหายเอง",
   "summary": [
-   "Histoplasmosis: มูลนก/ ค้างคาว · ส่วนใหญ่ไม่มีอาการ/ flu-like · หินปูนในปอดและม้าม",
-   "Aspergilloma: fungus ball ในโพรงเดิม (TB) · ไอเป็นเลือดบ่อย · air-crescent sign",
-   "Mucormycosis: ภูมิต่ำ (DKA) · ลุกลามหลอดเลือด → debride + amphotericin B",
-   "Actinomycosis: ทะลุผนังทรวงอก/ ซี่โครง · sulfur granules → penicillin",
-   "Cryptococcus: ปอด + meningitis ในผู้ภูมิต่ำ",
-   "Aspergilloma ไอเลือดมาก → embolization/ ผ่าตัด"
+   "Histoplasmosis: มูลค้างคาว/ นก (ถ้ำ เล้าไก่) · สูด spore · คนปกติส่วนใหญ่ไม่มีอาการ/ flu-like หายเอง · ทิ้ง calcified granuloma · HIV → disseminated (ตับม้ามโต แผลในปาก ซีด)",
+   "Aspergillus: aspergilloma ในโพรงเดิม (วัณโรค sarcoidosis) → ไอเป็นเลือด 50–85% · invasive aspergillosis ใน neutropenia (halo sign) → voriconazole · ABPA ในหอบหืด/ cystic fibrosis",
+   "ผ่าตัด aspergilloma: ไอเป็นเลือดซ้ำ/ รุนแรงในผู้ที่สมรรถภาพปอดพอ → lobectomy · ไม่พร้อมผ่าตัด → bronchial artery embolization (เลือดหยุดชั่วคราว กลับเป็นซ้ำบ่อย)",
+   "Mucormycosis: เบาหวาน DKA, neutropenia, ปลูกถ่ายอวัยวะ, deferoxamine · รุกรานหลอดเลือด → เนื้อตายดำ (rhino-orbital-cerebral/ ปอด) · liposomal amphotericin B + debridement ด่วน",
+   "Coccidioidomycosis: Valley fever ไข้ erythema nodosum ปวดข้อ · nodule/ ปื้นอักเสบ · โพรงผนังบาง ~5% อาจแตกเกิด pyopneumothorax",
+   "Cryptococcus: นกพิราบ · ก้อนในปอดในคนปกติ · meningitis ในผู้ป่วย HIV (CD4 &lt; 100) ตรวจ cryptococcal antigen",
+   "Actinomycosis (แบคทีเรีย ไม่ใช่รา): ลามข้าม fascial plane ผนังทรวงอก ซี่โครง sinus tract sulfur granules · penicillin นานหลายเดือน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด) · ต้นฉบับช้อย 3 ผู้จดจำไม่ได้ (\"50% …\") เว็บเขียนเป็น mucormycosis",
-  "mnemonic": "<b>'Histo = Hay-fever-like (flu-like) จากมูลค้างคาว · ซี่โครงทะลุ = Actinomyces'</b>",
-  "guide": "IDSA Clinical Practice Guidelines for Histoplasmosis (Clin Infect Dis 2007;45:807); IDSA Practice Guidelines for Aspergillosis (Clin Infect Dis 2016;63:e1)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ MCQ Key 2 ที่ขีด 5 และลายมือแก้ช้อยอื่นว่าผิด (rib → actinomycosis, hemoptysis 50–85%, cavity ~5%) · MCQ Key_1 ไม่ได้ขีด · ต้นฉบับช้อย 3 ไม่ครบ (50% …) เว็บเขียนเป็นข้อความเรื่อง mucormycosis ที่ผิดชัดแทน",
+  "mnemonic": "<b>'Histo = Hut ค้างคาว → Hu-Flu (ส่วนใหญ่แค่ไข้หวัด) · Asper-ball = เลือดออก'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung infections; Wheat LJ, et al. IDSA Clinical Practice Guidelines for the Management of Histoplasmosis (Clin Infect Dis 2007;45:807–825); Patterson TF, et al. IDSA Guidelines for Aspergillosis (Clin Infect Dis 2016;63:e1–e60)",
   "variants": [
-   "นักสำรวจถ้ำค้างคาวมีไข้ ไอ หลังกลับ 2 สัปดาห์ → acute histoplasmosis",
-   "ผู้ป่วยเคยเป็น TB มีโพรง ไอเป็นเลือด CT air-crescent → aspergilloma",
-   "ผู้ป่วย DKA มีแผลดำที่จมูก/ เพดาน → mucormycosis"
+   "นักสำรวจถ้ำ 3 คนมีไข้ ไอ ปวดเมื่อยพร้อมกันหลังเข้าถ้ำค้างคาว 2 สัปดาห์ ฟิล์มปอดเห็นจุดกระจายและต่อม hilar โต → acute histoplasmosis ส่วนใหญ่หายเอง",
+   "ผู้ป่วยมะเร็งเม็ดเลือดขาวหลังเคมีบำบัด neutropenia มีไข้ไม่ลดแม้ให้ยาปฏิชีวนะ CT ปอดเห็นก้อนมี halo sign → invasive aspergillosis → voriconazole",
+   "ผู้ป่วย aspergilloma ไอเป็นเลือด 300 mL ใน 24 ชั่วโมง → ป้องกันทางเดินหายใจ นอนตะแคงข้างที่เลือดออก bronchial artery embolization แล้วพิจารณา lobectomy",
+   "ผู้ป่วย HIV CD4 40 ปวดศีรษะ ไข้ ความดันน้ำไขสันหลังสูง → cryptococcal meningitis → amphotericin B + flucytosine และเจาะระบาย CSF ลดความดัน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 72 — ตัวพิมพ์: <b>84) fungal lung infection — 1) involve rib suggest histoplasmosis 2) less than 10% hemoptysis in aspergillus 3) 50% ………… 4) cavitary lesion in cocciodio 5) H. capsulatum spore will develop flu-like infection</b><br>ลายมือ: 1 ขีดฆ่า \"rib\" · 3 ขีดฆ่า \"50\" เขียน \"10%\" + \"cryptococcal meningitis\" · ขีด 5<br>ไฮไลต์: \"fungal lung infection\" · 5 \"H. capsulatum spore\" \"develop flu-like infection\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 63: ไม่มีขีด<br>ที่ปรับในเว็บ: ช้อย 3 เขียนเป็น mucormycosis",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 72",
@@ -34,30 +36,32 @@
   ]
  },
  "MDCU68|RoB|86": {
-  "interp": "ผู้ป่วย<b>อาเจียนแล้วมีเจ็บอกและน้ำในช่องเยื่อหุ้มปอด</b> → <b>Boerhaave syndrome</b> (หลอดอาหารแตกทะลุจากการอาเจียน) → ถามการจัดการ",
-  "why": "Boerhaave = หลอดอาหารทะลุทั้งชั้นจากความดันสูงขณะอาเจียน มักที่<b>ผนังด้านซ้ายหลังของหลอดอาหารส่วนล่าง</b> → น้ำย่อย/ อาหารรั่วเข้า mediastinum และช่องอกซ้าย (left pleural effusion, pneumomediastinum, Mackler triad: อาเจียน เจ็บอก ลมใต้ผิวหนัง) → mediastinitis/ sepsis อัตราตายสูง · รักษา: NPO, ยาปฏิชีวนะครอบคลุม, สารน้ำ และ<b>ผ่าตัดซ่อม (primary repair) โดยเร็ว</b> — ภายใน 24 ชม. ผลดีที่สุด (ไฟล์เขียน \"ใน 12 hr\") ด้วยการเลาะเนื้อตาย เย็บเยื่อบุและกล้ามเนื้อสองชั้น เสริมด้วย flap ± ระบายช่องอก · ไฟล์ขีด 3 ลายมือ <b>\"Boerhaave's syndrome\"</b> · <b>\"common @ Lt.\"</b> · 3 <b>\"repair ; ใน 12 hr\"</b> และแปะบทความ Wright et al. <b>Primary repair of esophageal perforation</b> (Ann Thorac Surg 1995)",
+  "interp": "ผู้ป่วย<b>อาเจียนแรงแล้วเจ็บหน้าอก</b>และมี<b>น้ำในช่องเยื่อหุ้มปอด</b> — นึกถึงหลอดอาหารทะลุจากการอาเจียน (Boerhaave syndrome) ถามการรักษา ต้องรู้ว่าเป็นภาวะฉุกเฉินที่ผลลัพธ์ขึ้นกับเวลา และหลักของการเย็บซ่อม",
+  "why": "<b>Boerhaave syndrome</b> คือหลอดอาหาร<b>ฉีกขาดทุกชั้น (full-thickness)</b> จากแรงดันในหลอดอาหารสูงขึ้นทันทีขณะอาเจียนโดยหูรูดส่วนบนไม่คลาย มักฉีก<b>ที่ผนังด้านซ้ายหลังของหลอดอาหารส่วนปลาย</b> 2–3 cm เหนือ GE junction (ผนังกล้ามเนื้ออ่อนแอและไม่มีอวัยวะพยุง) จึงเกิดน้ำ/ ลมในช่องเยื่อหุ้มปอด<b>ซ้าย</b> · อาการ Mackler triad: อาเจียน เจ็บหน้าอกรุนแรง ลมใต้ผิวหนัง · วินิจฉัยด้วย CT ทรวงอกร่วมกับให้สารทึบรังสีทางปาก หรือ contrast esophagram (สารละลายน้ำก่อน) · น้ำในช่องปอดมี amylase สูง pH ต่ำ มีเศษอาหาร · รักษา: งดน้ำงดอาหาร resuscitation ยาปฏิชีวนะกว้าง ± ยาต้านรา PPI ระบายช่องปอด และ<b>ผ่าตัดเย็บซ่อมปฐมภูมิ (primary repair) โดยเร็ว</b> โดยเฉพาะภายใน 24 ชั่วโมง — ตัดขอบที่ตายออก เปิดกล้ามเนื้อให้เห็นขอบเยื่อบุที่ฉีกทั้งหมด เย็บสองชั้นแล้ว<b>เสริมด้วย flap</b> (intercostal muscle, pleura, omentum) · แผลกว้างหรือเนื้อเยื่อไม่ดี → esophagectomy/ diversion · ไฟล์ขีด 3 ลายมือ <b>\"Boerhaave's syndrome\"</b> <b>\"common @ Lt.\"</b> <b>\"repair ; ใน 12 hr\"</b> พร้อมบทความ primary repair (Ann Thorac Surg 1995)",
   "wrong": {
-   "A": "Bronchoscopy ไม่ใช่การวินิจฉัยหรือรักษาหลอดอาหารทะลุ · จะถูกถ้าสงสัยสิ่งแปลกปลอมในหลอดลม/ หลอดลมบาดเจ็บ",
-   "B": "รักษาประคับประคองใช้ได้เฉพาะรูรั่วเล็ก ขังอยู่ใน mediastinum ระบายกลับเข้าหลอดอาหารได้ ไม่มี sepsis (Cameron criteria) · จะถูกถ้ารูทะลุจากการส่องกล้อง เล็ก contained ไม่มีอาการทั้งระบบ",
-   "D": "Pleurodesis ใช้กับ pleural effusion/ pneumothorax ซ้ำ ไม่ใช่หลอดอาหารทะลุ · จะถูกถ้าผู้ป่วยมะเร็งมี malignant pleural effusion ซ้ำ",
-   "E": "ห้ามกินทางปาก ต้อง NPO · จะถูกถ้าคำถามถามการดูแลหลังซ่อมแล้วและ contrast study ไม่มีรั่ว"
+   "A": "Bronchoscopy ใช้ดูทางเดินหายใจ (หาตำแหน่งเลือดออกในหลอดลม สิ่งแปลกปลอม การบาดเจ็บของหลอดลม) ไม่ได้ช่วยวินิจฉัยหรือรักษาหลอดอาหารทะลุ และทำให้การรักษาที่ต้องรีบช้าลง · จะถูกถ้าเป็นเด็ก 2 ปีสำลักถั่วลิสง ไอทันที หายใจเสียงวี้ดข้างเดียว ฟิล์มเห็นปอดขวาลมค้าง (air trapping) → rigid bronchoscopy เอาออก",
+   "B": "การรักษาแบบไม่ผ่าตัดใช้ได้เฉพาะการทะลุที่<b>ถูกจำกัดอยู่ใน mediastinum</b> สารทึบรังสีไหลกลับเข้าหลอดอาหาร อาการน้อย ไม่มีภาวะติดเชื้อ (Cameron criteria) แต่ผู้ป่วยมีน้ำในช่องปอดซึ่งแปลว่ารั่วเข้าช่องเยื่อหุ้มปอดแล้ว · จะถูกถ้าเป็นชาย 60 ปีหลังขยายหลอดอาหารด้วยบอลลูน มีเจ็บหน้าอกเล็กน้อย ไม่มีไข้ esophagram เห็นสารทึบรังสีรั่วเล็กน้อยใน mediastinum แล้วไหลกลับ",
+   "D": "Pleurodesis ทำให้เยื่อหุ้มปอดสองชั้นติดกันเพื่อป้องกันน้ำหรือลมกลับเป็นซ้ำ ไม่ได้แก้รูรั่วของหลอดอาหาร และการใส่สารระคายเคืองในช่องปอดที่ติดเชื้อเป็นอันตราย · จะถูกถ้าเป็นหญิง 65 ปีมะเร็งเต้านมแพร่กระจาย มีน้ำในช่องปอดจากมะเร็งกลับเป็นซ้ำหลังเจาะระบายหลายครั้ง ปอดขยายได้เต็ม → talc pleurodesis",
+   "E": "การเฝ้าดูและให้กินอาหารทางปากเหมาะกับ<b>Mallory–Weiss tear</b> ซึ่งฉีกแค่เยื่อบุที่ GE junction ทำให้อาเจียนเป็นเลือด ไม่มีลมหรือน้ำในช่องปอด ส่วนการกินในหลอดอาหารทะลุทุกชั้นจะทำให้ช่องอกติดเชื้อรุนแรง · จะถูกถ้าเป็นชาย 30 ปีดื่มสุราหนักแล้วอาเจียนหลายครั้ง ตามด้วยอาเจียนมีเลือดสดเล็กน้อย สัญญาณชีพปกติ ส่องกล้องเห็นรอยฉีกตื้นที่หยุดเลือดแล้ว"
   },
-  "trap": "คิดว่าเจ็บอก + น้ำในปอดหลังอาเจียนเป็นปอดอักเสบจากสำลัก — Boerhaave ต้องผ่าตัดเร็ว",
+  "trap": "สับสนกับ Mallory–Weiss tear ที่ก็เกิดหลังอาเจียนแต่ฉีกเฉพาะเยื่อบุและรักษาประคับประคอง · ตัวแยกคือ<b>เจ็บหน้าอก + น้ำ/ ลมในช่องปอดหรือ mediastinum</b> = ทะลุทุกชั้น · และอย่าคิดว่าแค่ใส่สายระบายช่องปอดพอ ต้องปิดรูรั่วต้นเหตุโดยเร็ว",
   "summary": [
-   "Boerhaave: อาเจียนแรง → หลอดอาหารส่วนล่างด้านซ้ายหลังแตก",
-   "Mackler triad: อาเจียน + เจ็บอก + ลมใต้ผิวหนัง",
-   "CXR: left pleural effusion · pneumomediastinum",
-   "วินิจฉัย: water-soluble contrast esophagram/ CT with oral contrast",
-   "รักษา: NPO + ATB + primary repair (เสริม flap) ภายใน 24 ชม.",
-   "Mallory-Weiss: ฉีกเฉพาะเยื่อบุ เลือดออก รักษาประคับประคอง"
+   "Boerhaave: ทะลุทุกชั้นหลังอาเจียน · ด้านซ้ายหลัง หลอดอาหารส่วนปลาย 2–3 cm เหนือ GE junction · Mackler triad: อาเจียน + เจ็บหน้าอก + subcutaneous emphysema",
+   "ภาพรังสี: ลมใน mediastinum (V sign of Naclerio), ลม/ น้ำช่องปอดซ้าย · ยืนยันด้วย CT ทรวงอก + สารทึบรังสีทางปาก หรือ esophagram (water-soluble ก่อน ถ้าไม่เห็นตาม barium)",
+   "น้ำในช่องปอด: amylase สูง (จากน้ำลาย) pH &lt; 6 มีเศษอาหาร · เป็นสัญญาณว่าหลอดอาหารทะลุ",
+   "หลักรักษา: งดอาหาร, ยาปฏิชีวนะกว้าง ± ยาต้านรา, PPI, ระบายช่องปอด/ mediastinum, ให้อาหารทางสายเข้าลำไส้ และปิดรูรั่ว — ผลดีที่สุดเมื่อรักษาภายใน 24 ชั่วโมง",
+   "Primary repair: ตัดขอบตาย → เปิดกล้ามเนื้อให้เห็นรอยฉีกเยื่อบุทั้งหมด (มักยาวกว่ารอยกล้ามเนื้อ) → เย็บสองชั้น → เสริม flap (intercostal muscle/ pleura/ omentum/ fundoplication)",
+   "เนื้อเยื่อเน่า แผลกว้าง หรือมีโรคหลอดอาหารเดิม (มะเร็ง achalasia ตีบรุนแรง) → esophagectomy หรือ diversion · ผู้ป่วยบางรายใช้ covered stent ร่วมกับระบาย",
+   "สาเหตุทะลุที่พบบ่อยที่สุดคือหัตถการ (iatrogenic: ส่องกล้อง ขยายหลอดอาหาร) มักอยู่ที่คอบริเวณ cricopharyngeus · Boerhaave พบน้อยกว่าแต่อันตรายกว่า"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับช้อย 4–5 ว่าง จึงเติม",
-  "mnemonic": "<b>'Boerhaave = Burst ทั้งชั้น → Boom ผ่าซ่อมเร็ว (Mallory-Weiss = แค่ Mucosa)'</b>",
-  "guide": "WSES Guidelines on Esophageal Perforation (World J Emerg Surg 2019;14:26); ACG Clinical Guideline: Esophageal Perforation (2021)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด 3 พร้อมลายมือ Boerhaave's syndrome และ repair พร้อมบทความ primary repair ที่แปะ และ MCQ Key_1 ขีด C) · ต้นฉบับช้อย 4–5 ว่าง เว็บเติม pleurodesis และ observation with oral diet",
+  "mnemonic": "<b>'อาเจียน + เจ็บอก + น้ำปอดซ้าย = Boerhaave → ซ่อมเร็ว (≤ 24 ชม.) + Flap เสริม'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Esophagus; Wright CD, et al. Reinforced primary repair of thoracic esophageal perforation (Ann Thorac Surg 1995;60:245–249); Chirica M, et al. Management of oesophageal perforations: WSES guidelines (World J Emerg Surg 2019;14:26)",
   "variants": [
-   "ชายดื่มสุราอาเจียนแรง เจ็บอก ลมใต้ผิวหนังที่คอ → Boerhaave → CT/ esophagram → ผ่าตัด",
-   "อาเจียนแล้วอาเจียนเป็นเลือดสด ไม่มีเจ็บอก → Mallory-Weiss → ประคับประคอง/ ส่องกล้อง",
-   "รูทะลุเล็กหลังขยายหลอดอาหาร contained ไม่มีไข้ → NPO + ATB + เฝ้าดู"
+   "ชาย 50 ปีดื่มสุราอาเจียนแรงแล้วเจ็บหน้าอกทันที คลำมีลมใต้ผิวหนังที่คอ ฟิล์มเห็นน้ำในช่องปอดซ้าย 6 ชั่วโมงหลังเกิดเหตุ → CT + ยาปฏิชีวนะ + thoracotomy ซ้ายเย็บซ่อมและเสริม intercostal muscle flap",
+   "ผู้ป่วย Boerhaave มาช้า 4 วัน mediastinitis ช็อก หลอดอาหารเน่าเป็นแนวยาว → esophageal diversion/ esophagectomy ระบายช่องอก แล้วสร้างทางใหม่ภายหลัง",
+   "เจาะน้ำในช่องปอดได้น้ำขุ่นมีเศษอาหาร amylase สูงมาก pH 5.5 → สงสัยหลอดอาหารทะลุ ทำ esophagram/ CT ด่วน",
+   "ทำไมต้องเปิดกล้ามเนื้อหลอดอาหารให้เห็นรอยฉีกเยื่อบุให้ครบก่อนเย็บ → รอยฉีกเยื่อบุมักยาวกว่ารอยฉีกกล้ามเนื้อ ถ้าเย็บไม่ครบจะรั่วซ้ำ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 72 — ตัวพิมพ์: <b>86.Vomit แล้วมี pleural effision — 1.bronchoscopy 2.conservative 3.surgery 4. 5.</b><br>ลายมือ: \"common @ Lt. ∵ esc. เปิด Lt.\" · \"Boerhaave's syndrome\" · ขีด 3 + \"repair ; ใน 12 hr\"<br>ไฮไลต์: \"Vomit แล้วมี pleural effision\" · 3 (เหลือง)<br>รูปที่แปะ: บทความ WRIGHT ET AL — PRIMARY REPAIR OF ESOPHAGEAL PERFORATION (Ann Thorac Surg 1995;60:245–9) Fig 1 Technique of reinforced primary repair of thoracic esophageal perforations (A–E) พร้อมลายมือ \"Tx\" · \"debride ขอบแผล\" · \"① debride ขอบ · ② 1st repair ได้เลย (แผลสด ไม่ตึงมาก) · เย็บปิดได้ ไม่เสีย length · primary suture ✓\" · \"เอา flap มาเสริมได้\" · \"ถ้าแผลกว้างมาก/ ตัดเยอะ → esophagectomy + conduit\" · \"≠ Trauma → cut ตามขวาง → เสีย length → ตึง ↑ → โอกาส leak ↑ ∴ มัก end up ด้วย esophagectomy + ยก conduit\"<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 63: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย 4–5 ว่าง → เติม D, E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 72",
@@ -68,30 +72,32 @@
   ]
  },
  "MDCU68|RoC|1": {
-  "interp": "ถามกลุ่มอาการที่<b>เนื้องอก pineal</b> มักทำให้เกิด",
-  "why": "เนื้องอกบริเวณ pineal กด<b>หลังคาสมองส่วนกลาง (dorsal midbrain/ tectum)</b> → <b>Parinaud syndrome</b>: มองขึ้นไม่ได้ (upward gaze palsy), light-near dissociation, convergence-retraction nystagmus, eyelid retraction (Collier sign) · ร่วมกับกด <b>aqueduct of Sylvius</b> → <b>obstructive hydrocephalus</b> (ปวดหัว อาเจียน) · ชนิดพบบ่อย: germinoma (ชายวัยรุ่น), pineoblastoma, teratoma · ไฟล์ขีด D (หัวข้อ Neuro · หัวกระดาษ AC Subspecialties Sx Rotate 3/2558)",
+  "interp": "ถามกลุ่มอาการที่<b>เนื้องอกบริเวณต่อม pineal</b> มักทำให้เกิด — ต้องรู้ตำแหน่งของ pineal gland ที่อยู่เหนือ tectal plate ของ midbrain และติดกับ cerebral aqueduct จึงกดโครงสร้างควบคุมการกลอกตาแนวดิ่งและทางเดินน้ำไขสันหลัง",
+  "why": "Pineal gland อยู่หลัง third ventricle เหนือ <b>dorsal midbrain (superior colliculus/ pretectal area)</b> และ<b>คร่อม cerebral aqueduct</b> · เนื้องอกบริเวณนี้จึงกด pretectum เกิด <b>Parinaud (dorsal midbrain) syndrome</b>: <b>มองขึ้นไม่ได้ (upward gaze palsy)</b>, <b>light–near dissociation</b> (รูม่านตาไม่หดต่อแสงแต่หดเมื่อมองใกล้), convergence–retraction nystagmus เมื่อพยายามมองขึ้น, หนังตาบนรั้ง (Collier sign) · และกด aqueduct เกิด <b>obstructive hydrocephalus</b> (ปวดศีรษะ อาเจียน papilledema) ซึ่งมักเป็นอาการนำ · ชนิดเนื้องอก: <b>germ cell tumor</b> พบบ่อยที่สุด (germinoma ในเด็กชายวัยรุ่น), pineocytoma/ pineoblastoma, teratoma, glioma · ตรวจ <b>AFP และ β-hCG ในเลือดและน้ำไขสันหลัง</b> (germinoma บริสุทธิ์ markers ปกติหรือ β-hCG สูงเล็กน้อย, NGGCT สูงมาก) · germinoma ไวต่อรังสี/ เคมีบำบัดมาก ไม่ต้องผ่าตัดใหญ่ · hydrocephalus แก้ด้วย endoscopic third ventriculostomy (ทำ biopsy ได้ในคราวเดียว) · ไฟล์ขีด D (Parinaud's syndrome)",
   "wrong": {
-   "A": "Left homonymous hemianopia เกิดจากรอยโรค optic tract/ radiation/ occipital ด้านขวา · จะถูกถ้าก้อนอยู่ที่ right occipital lobe",
-   "B": "ชักเกิดจากก้อนที่ cortex · จะถูกถ้าก้อนอยู่ที่ temporal/ frontal cortex",
-   "C": "Ataxia เกิดจากก้อน cerebellum (อาจพบเมื่อ pineal ก้อนใหญ่กด) แต่ไม่ใช่กลุ่มอาการเด่น · จะถูกถ้าเด็กมีก้อน cerebellar vermis (medulloblastoma) เดินเซ",
-   "E": "Hemiparesis เกิดจากรอยโรค motor cortex/ internal capsule · จะถูกถ้าก้อนกด internal capsule/ motor strip"
+   "A": "Left homonymous hemianopia เกิดจากรอยโรคหลัง optic chiasm ด้านขวา (optic tract, optic radiation, occipital cortex ขวา) ไม่ใช่ pineal ที่อยู่แนวกลาง · จะถูกถ้าเป็นชาย 70 ปี AF ไม่ได้กินยาต้านเลือด เดินชนสิ่งของด้านซ้ายทันที ตรวจลานสายตาเสียครึ่งซ้ายของตาทั้งสองข้างแบบ macular sparing → right PCA infarct",
+   "B": "ชักเกิดจากรอยโรคที่ระคายเปลือกสมอง (cortex) เช่น low-grade glioma, meningioma ที่ convexity, metastasis, cavernoma ส่วน pineal อยู่ลึกใต้สมองจึงไม่ค่อยทำให้ชัก · จะถูกถ้าเป็นชาย 35 ปีชักครั้งแรก MRI พบก้อนที่ frontal lobe มีหินปูน ไม่ enhance มาก → oligodendroglioma",
+   "C": "เดินเซ (ataxia) เกิดจากรอยโรคของสมองน้อย เนื้องอก pineal ที่ใหญ่อาจกด superior vermis ได้บ้างแต่ไม่ใช่อาการเด่น · จะถูกถ้าเป็นเด็ก 6 ปีปวดศีรษะตอนเช้า อาเจียน เดินเซลำตัวโยก MRI พบก้อนแนวกลาง cerebellar vermis กด fourth ventricle → medulloblastoma",
+   "E": "อ่อนแรงครึ่งซีกเกิดจากรอยโรคที่ motor cortex, internal capsule หรือ cerebral peduncle ข้างตรงข้าม เนื้องอก pineal อยู่แนวกลางหลัง midbrain จึงไม่กด corticospinal tract เป็นอาการแรก · จะถูกถ้าเป็นหญิง 55 ปีอ่อนแรงแขนขาขวาค่อยเป็นค่อยไป MRI เห็นก้อนติดเยื่อดูราเหนือ motor strip ซ้าย มี dural tail → convexity meningioma"
   },
-  "trap": "เลือก ataxia เพราะ pineal อยู่ใกล้ posterior fossa — อาการเด่นคือตา (Parinaud) + hydrocephalus",
+  "trap": "ช้อยทุกข้อเป็นอาการของก้อนในสมองที่พบได้จริง จึงอาจเลือกอาการทั่วไปอย่างชักหรือเดินเซ · ให้คิดจากกายวิภาค: pineal อยู่บน dorsal midbrain และ aqueduct → มองขึ้นไม่ได้ + hydrocephalus = Parinaud ซึ่งเป็นคำตอบเฉพาะตำแหน่ง",
   "summary": [
-   "Pineal tumor → Parinaud: มองขึ้นไม่ได้ · light-near dissociation · convergence-retraction nystagmus",
-   "กด aqueduct → obstructive hydrocephalus",
-   "Germinoma: ชายวัยรุ่น · ไวต่อรังสี · β-hCG/ AFP ใน CSF/ เลือด",
-   "Teratoma/ yolk sac: AFP สูง",
-   "Hydrocephalus → ETV/ EVD + biopsy",
-   "Parinaud อื่น: hydrocephalus ในเด็ก (sunset eyes) · stroke ที่ midbrain"
+   "Parinaud (dorsal midbrain) syndrome: upward gaze palsy · light–near dissociation · convergence–retraction nystagmus · Collier sign (lid retraction) · มองลงค้าง (setting-sun sign ในเด็กที่ hydrocephalus)",
+   "สาเหตุ Parinaud: เนื้องอก pineal (เด็ก/ วัยรุ่น) · hydrocephalus (shunt ทำงานผิดปกติ) · stroke ที่ midbrain (ผู้สูงอายุ) · multiple sclerosis",
+   "Pineal region tumor: germ cell tumor (germinoma พบมากที่สุด เด็กชาย 10–20 ปี) · pineal parenchymal tumor (pineocytoma, pineoblastoma ร่วมกับ RB1 = trilateral retinoblastoma) · teratoma · glioma",
+   "ตรวจ: MRI ทั้งสมองและไขสันหลัง (หา CSF seeding) · AFP และ β-hCG ในเลือดและ CSF · markers สูงชัด → วินิจฉัย NGGCT ได้โดยไม่ต้องตัดชิ้นเนื้อ",
+   "Hydrocephalus จาก aqueduct ถูกกด → endoscopic third ventriculostomy (ETV) + biopsy ในคราวเดียว หรือ VP shunt",
+   "Germinoma: ไวต่อรังสีและเคมีบำบัดมาก (หายขาด &gt; 90%) · NGGCT: เคมีบำบัด + รังสี ± ผ่าตัดก้อนที่เหลือ · pineocytoma: ผ่าตัด",
+   "Germinoma ที่สร้าง β-hCG อาจทำให้เด็กชายเข้าวัยหนุ่มก่อนกำหนด · germinoma ที่ suprasellar ทำให้เบาจืด (diabetes insipidus) เป็นอาการนำ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
-  "mnemonic": "<b>'Pineal = Parinaud (P กับ P) → มองขึ้นไม่ได้'</b>",
-  "guide": "Greenberg Handbook of Neurosurgery 10th ed. (2023) — Pineal region tumors",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด D และ MCQ Key_1 ขีด D) · เนื้องอก pineal ทำให้ Parinaud syndrome และ hydrocephalus เป็นคู่อาการคลาสสิก ช้อยอื่นเป็นอาการของรอยโรคตำแหน่งอื่น",
+  "mnemonic": "<b>'Pineal = Parinaud (ตาไม่ขึ้น) + Plumbing block (hydrocephalus)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Pineal region tumors; Louis DN, et al. WHO Classification of Tumours of the CNS 5th ed. (Neuro-Oncology 2021)",
   "variants": [
-   "ชายวัยรุ่นมองขึ้นไม่ได้ ปวดหัวตอนเช้า → pineal germinoma + hydrocephalus",
-   "pineal tumor + β-hCG สูง → germ cell tumor (choriocarcinoma/ germinoma)",
-   "เด็กหัวโต ตาเหลือบลง (sunset) → hydrocephalus"
+   "เด็กชาย 13 ปีปวดศีรษะตอนเช้า อาเจียน มองขึ้นไม่ได้ รูม่านตาหดเมื่อมองใกล้แต่ไม่หดต่อแสง MRI ก้อน pineal + hydrocephalus → ส่ง AFP/ β-hCG และ ETV + biopsy",
+   "เด็กชาย 12 ปีก้อน pineal AFP ในเลือดสูงมาก → nonseminomatous germ cell tumor วินิจฉัยได้จาก marker → เคมีบำบัดร่วมรังสี",
+   "เด็กหญิง 10 ปีปัสสาวะมาก กระหายน้ำมาก MRI ก้อนที่ suprasellar และ pineal พร้อมกัน → bifocal germinoma",
+   "ทารก 8 เดือนศีรษะโตเร็ว ตามองลงค้าง (setting-sun sign) fontanelle โป่งตึง → hydrocephalus ที่กด dorsal midbrain"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 77 — หัวกระดาษ: AC Subspecialties Sx Rotate 3/2558 · หัวข้อ Neuro · ตัวพิมพ์: <b>1. Pineal tumor มักทำให้เกิด — A) Left homonemous hemianopia B) Seizure C) Ataxia D) Perinaud's syndrome E) Hemiparesis</b><br>ลายมือ: ขีด D<br>ไฮไลต์: \"Pineal tumor มักทำให้เกิด\" · D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 65: ขีด D (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 77",
@@ -102,30 +108,32 @@
   ]
  },
  "MDCU68|RoC|3": {
-  "interp": "ถามเนื้องอกที่ทำให้เกิด<b>ลักษณะ Cushing</b>",
-  "why": "<b>Cushing disease</b> = <b>pituitary adenoma ที่หลั่ง ACTH</b> (corticotroph adenoma มักเป็น microadenoma) → กระตุ้นต่อมหมวกไตสร้าง cortisol มาก → หน้ากลม (moon face) หนอกที่คอ (buffalo hump) อ้วนลงพุง ผิวบาง ลายแตกสีม่วง กล้ามเนื้อต้นแขนขาอ่อนแรง ความดันสูง เบาหวาน · ยืนยันด้วย ACTH สูง + high-dose dexamethasone suppress ได้/ IPSS · รักษา: <b>transsphenoidal surgery</b> · ไฟล์ขีด A",
+  "interp": "ถามว่าเนื้องอกชนิดใดทำให้เกิด<b>ลักษณะแบบ Cushing</b> (อ้วนลงพุง หน้ากลม ผิวบาง ลายแตกสีม่วง ความดันสูง น้ำตาลสูง) — ต้องรู้ฮอร์โมนที่เนื้องอกต่อมใต้สมองแต่ละชนิดสร้าง และกลุ่มอาการที่เกิดตามมา",
+  "why": "<b>Cushing disease</b> คือ Cushing syndrome ที่เกิดจาก<b>เนื้องอกต่อมใต้สมองชนิดสร้าง ACTH (corticotroph adenoma)</b> กระตุ้นต่อมหมวกไตสองข้างให้สร้าง cortisol เกิน เป็นสาเหตุของ Cushing syndrome จากในร่างกาย (endogenous) ที่พบบ่อยที่สุดราว 70% มักเป็น microadenoma ขนาด &lt; 10 mm ที่ MRI อาจมองไม่เห็น · ขั้นตอนวินิจฉัย: ยืนยันว่า cortisol เกินด้วยการตรวจอย่างน้อย 2 วิธี (<b>1-mg overnight dexamethasone suppression</b>, 24-hour urine free cortisol, late-night salivary cortisol) → วัด <b>ACTH</b>: ต่ำ = ต้นเหตุที่ต่อมหมวกไต · ปกติ/ สูง = ACTH-dependent → MRI ต่อมใต้สมอง ถ้าก้อน ≥ 10 mm สนับสนุนต่อมใต้สมอง ถ้าไม่ชัดทำ <b>inferior petrosal sinus sampling</b> แยกจาก ectopic ACTH (เช่น small cell lung cancer, carcinoid) · รักษา: <b>transsphenoidal surgery</b> หายราว 70–90% ใน microadenoma · ไม่หายใช้ยา (osilodrostat, ketoconazole, pasireotide) รังสี หรือตัดต่อมหมวกไตสองข้าง (เสี่ยง Nelson syndrome) · ไฟล์ขีด A (ACTH producing pituitary tumor)",
   "wrong": {
-   "B": "GH adenoma → acromegaly (มือเท้าโต ขากรรไกรยื่น) หรือ gigantism ในเด็ก · จะถูกถ้าผู้ป่วยใส่แหวน/ รองเท้าไม่ได้ ขากรรไกรยื่น IGF-1 สูง",
-   "C": "Pineal tumor ทำให้ Parinaud syndrome และ hydrocephalus · จะถูกถ้าชายวัยรุ่นมองขึ้นไม่ได้ ปวดหัว",
-   "D": "Null cell (nonfunctioning) adenoma ไม่หลั่งฮอร์โมน มาด้วยกดเส้นประสาทตา (bitemporal hemianopia) หรือ hypopituitarism · จะถูกถ้าก้อน pituitary ใหญ่ ลานสายตาข้างนอกหายทั้งสองข้าง ฮอร์โมนต่ำ",
-   "E": "Prolactinoma → ประจำเดือนขาด น้ำนมไหล (หญิง) · ความต้องการทางเพศลด (ชาย) · จะถูกถ้าหญิงประจำเดือนขาดและน้ำนมไหล"
+   "B": "เนื้องอกสร้าง growth hormone ทำให้ <b>acromegaly</b> (ผู้ใหญ่) หรือ gigantism (เด็กก่อนกระดูกปิด) — มือเท้าโต ขากรรไกรยื่น ฟันห่าง ลิ้นโต เหงื่อออก เบาหวาน ความดันสูง หัวใจโต แม้มีบางอาการซ้อนกับ Cushing แต่ไม่มีลายแตกสีม่วงหรือกล้ามเนื้อต้นแขนขาลีบ · จะถูกถ้าเป็นชาย 45 ปีใส่แหวนและรองเท้าไม่ได้ หน้าหยาบ คางยื่น IGF-1 สูงและ GH ไม่ถูกกดหลังกินกลูโคส",
+   "C": "เนื้องอก pineal กด dorsal midbrain และ aqueduct ทำให้ Parinaud syndrome กับ hydrocephalus ไม่สร้าง ACTH (germinoma บางชนิดสร้าง β-hCG ทำให้เด็กชายเข้าวัยหนุ่มก่อนกำหนด) · จะถูกถ้าเป็นเด็กชาย 12 ปีปวดศีรษะตอนเช้า มองขึ้นไม่ได้ และมีขนหัวหน่าวขึ้นก่อนวัย β-hCG ในน้ำไขสันหลังสูง",
+   "D": "Null cell (non-functioning) adenoma ไม่สร้างฮอร์โมนที่ทำให้เกิดอาการ จึงมักโตเป็น macroadenoma ก่อนตรวจพบ มาด้วยการกด: ลานสายตาแคบด้านข้างสองข้าง ปวดศีรษะ ต่อมใต้สมองทำงานบกพร่อง และ prolactin สูงเล็กน้อยจากก้านต่อมถูกกด (stalk effect) · จะถูกถ้าเป็นชาย 60 ปีมองชนข้างทั้งสองด้าน อ่อนเพลีย ความต้องการทางเพศลด testosterone และ cortisol ต่ำ MRI ก้อน 3 cm ที่ sella → transsphenoidal surgery",
+   "E": "Prolactinoma เป็นเนื้องอกต่อมใต้สมองที่สร้างฮอร์โมนพบบ่อยที่สุด ทำให้ประจำเดือนขาด น้ำนมไหล มีบุตรยาก ในชายความต้องการทางเพศลด หย่อนสมรรถภาพ ไม่ใช่ลักษณะ Cushing · รักษาด้วยยา cabergoline เป็นหลักแม้ก้อนใหญ่ · จะถูกถ้าเป็นหญิง 28 ปีประจำเดือนขาด 6 เดือน มีน้ำนมไหล ตรวจครรภ์ลบ prolactin 250 ng/mL MRI ก้อน 6 mm"
   },
-  "trap": "คิดว่าก้อน pituitary ทุกชนิดทำให้ Cushing — ต้องเป็นชนิดที่หลั่ง ACTH",
+  "trap": "Pineal tumor และเนื้องอกต่อมใต้สมองอื่นถูกใส่มาเป็นตัวลวงเพราะอยู่ในกะโหลกเหมือนกัน และ GH ก็ทำให้น้ำตาลและความดันสูงคล้าย Cushing · ให้จับคู่ฮอร์โมนกับกลุ่มอาการ: ACTH → cortisol เกิน → Cushing · คำว่า Cushing disease ใช้เฉพาะต้นเหตุที่ต่อมใต้สมอง",
   "summary": [
-   "Cushing disease: pituitary ACTH adenoma (~70% ของ endogenous Cushing)",
-   "Ectopic ACTH: small cell lung CA · carcinoid → ACTH สูงมาก suppress ไม่ได้",
-   "Adrenal adenoma: ACTH ต่ำ",
-   "คัดกรอง: 24-hr urine cortisol · late-night salivary cortisol · 1-mg DST",
-   "รักษา Cushing disease: transsphenoidal surgery",
-   "GH → acromegaly · PRL → galactorrhea · nonfunctioning → mass effect"
+   "Cushing syndrome = cortisol เกินจากทุกสาเหตุ (ยาสเตียรอยด์พบบ่อยที่สุด) · Cushing disease = ต่อมใต้สมองสร้าง ACTH (ราว 70% ของ endogenous)",
+   "ลักษณะที่จำเพาะกว่า: ลายแตกสีม่วงกว้าง &gt; 1 cm, ฟกช้ำง่าย, กล้ามเนื้อต้นแขนขาอ่อนแรง, หน้ากลมแดง · ร่วมกับอ้วนลงพุง buffalo hump ความดันสูง เบาหวาน กระดูกพรุน",
+   "Screening (2 วิธี): 1-mg overnight dexamethasone (cortisol เช้า &gt; 1.8 μg/dL = ไม่ถูกกด) · 24-h urine free cortisol · late-night salivary cortisol",
+   "แยกต้นเหตุ: ACTH ต่ำ → adrenal (adenoma, carcinoma) → CT ต่อมหมวกไต · ACTH ปกติ/ สูง → MRI ต่อมใต้สมอง ± IPSS (central:peripheral ACTH ≥ 2 ก่อน หรือ ≥ 3 หลังกระตุ้น = ต่อมใต้สมอง)",
+   "Ectopic ACTH (small cell lung cancer, bronchial carcinoid): ACTH สูงมาก hypokalemia รุนแรง ผิวคล้ำ อาการเร็ว ไม่ถูกกดด้วย high-dose dexamethasone",
+   "รักษา Cushing disease: transsphenoidal adenomectomy · หลังผ่าตัด cortisol ต่ำ = สัญญาณหาย ต้องให้ hydrocortisone ทดแทนชั่วคราว · ไม่หาย → ยา/ รังสี/ bilateral adrenalectomy",
+   "Nelson syndrome: หลังตัดต่อมหมวกไตสองข้าง เนื้องอกต่อมใต้สมองโตเร็ว ACTH สูงมาก ผิวคล้ำ → ติดตาม MRI และ ACTH"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
-  "mnemonic": "<b>'Cushing Disease = Pituitary ACTH (D = ต่อมใต้สมอง) · Syndrome = สาเหตุใดก็ได้'</b>",
-  "guide": "Endocrine Society Clinical Practice Guideline: Treatment of Cushing's Syndrome (J Clin Endocrinol Metab 2015;100:2807); Pituitary Society consensus on Cushing's disease (Lancet Diabetes Endocrinol 2021)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด A และ MCQ Key_1 ขีด A) · ต้นฉบับมี 4 ช้อย เว็บเติม prolactinoma เป็นช้อย E ซึ่งก็ไม่ทำให้เกิดลักษณะ Cushing",
+  "mnemonic": "<b>'ACTH → Adrenal → cortisol → Cushing (Disease = ต่อมใต้สมอง)'</b>",
+  "guide": "Nieman LK, et al. The Diagnosis of Cushing's Syndrome: Endocrine Society Clinical Practice Guideline (J Clin Endocrinol Metab 2008;93:1526–1540); Fleseriu M, et al. Consensus on diagnosis and management of Cushing's disease (Lancet Diabetes Endocrinol 2021;9:847–875)",
   "variants": [
-   "หญิงหน้ากลม ลายแตกม่วง ACTH สูง suppress ด้วย high-dose DST → Cushing disease → transsphenoidal surgery",
-   "ชายสูบบุหรี่ hypokalemia ACTH สูงมาก ไม่ suppress → ectopic ACTH (small cell lung CA)",
-   "Cushing + ACTH ต่ำ + ก้อนต่อมหมวกไต → adrenalectomy"
+   "หญิง 35 ปีหน้ากลม ลายแตกสีม่วงที่หน้าท้อง ความดันสูง cortisol ไม่ถูกกดด้วย 1-mg dexamethasone ACTH สูงปกติ MRI ก้อน 6 mm → Cushing disease → transsphenoidal surgery",
+   "หญิง 40 ปีลักษณะ Cushing ACTH ต่ำ CT พบก้อนต่อมหมวกไตซ้าย 3 cm → adrenal adenoma → laparoscopic adrenalectomy",
+   "ชาย 60 ปีสูบบุหรี่จัด อ่อนแรงเร็ว โพแทสเซียมต่ำมาก ผิวคล้ำ ACTH สูงมาก CT ปอดพบก้อน → ectopic ACTH จาก small cell lung cancer",
+   "ผู้ป่วยหลังผ่าตัด Cushing disease วันที่ 2 cortisol ต่ำมาก อ่อนเพลีย คลื่นไส้ → สัญญาณว่าตัดเนื้องอกหมด ให้ hydrocortisone ทดแทนจนแกนต่อมหมวกไตฟื้น"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 77 — ตัวพิมพ์: <b>3. ข้อใดให้อาการเหมือน cushing — A) ACTH producing pituitary tumor B) Growth hormoe producing pituitary tumor C) Pineal tomor D) Null cell pituitary tumor</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"อาการเหมือน cushing\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 65: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 77",
@@ -136,30 +144,32 @@
   ]
  },
  "MDCU68|RoC|4": {
-  "interp": "ถามว่า <b>glioblastoma multiforme</b> คือ astrocytoma เกรดใด",
-  "why": "GBM = <b>astrocytoma WHO grade 4</b> — เกรดสูงสุดของ WHO CNS grading (มีเพียง 1–4 <b>ไม่มีเกรด 5</b>) · พยาธิ: pseudopalisading necrosis + microvascular proliferation · WHO 2021: glioblastoma = IDH-wildtype · ส่วน astrocytoma IDH-mutant ที่มีลักษณะเกรดสูงเรียก astrocytoma, IDH-mutant, grade 4 · ไฟล์ขีด D ลายมือ E <b>\"ไม่มี\"</b>",
+  "interp": "ถามว่า <b>glioblastoma multiforme</b> ตรงกับ astrocytoma เกรดใด — ต้องรู้ว่าระบบ WHO แบ่งเนื้องอกระบบประสาทเป็น 4 เกรด และลักษณะทางพยาธิที่ใช้ยกระดับแต่ละเกรด",
+  "why": "ระบบ WHO CNS ใช้<b>เกรด 1–4 เท่านั้น ไม่มีเกรด 5</b> · การให้เกรด astrocytoma ดั้งเดิมไล่ตามลักษณะทางพยาธิที่สะสมขึ้น (St Anne–Mayo): <b>nuclear atypia</b> → เกรด 2 · เพิ่ม <b>mitotic activity</b> → เกรด 3 (anaplastic) · เพิ่ม <b>necrosis หรือ microvascular (endothelial) proliferation</b> → <b>เกรด 4 = glioblastoma</b> · WHO CNS5 (2021) ผสานข้อมูลโมเลกุล: astrocytoma ที่ <b>IDH-mutant</b> ให้เกรด 2, 3 หรือ 4 (เกรด 4 ถ้ามี necrosis/ microvascular proliferation หรือ <b>CDKN2A/B homozygous deletion</b>) ส่วนชื่อ glioblastoma สงวนไว้สำหรับ <b>IDH-wildtype</b> ในผู้ใหญ่ ซึ่งเป็นเกรด 4 เสมอ · เกรดสัมพันธ์กับพยากรณ์และการรักษาเสริม: เกรด 2 อยู่ได้หลายปี เกรด 4 median survival ราวปีกว่า ๆ · ไฟล์ขีด D และลายมือเขียนที่ช้อย E ว่า <b>\"ไม่มี\"</b>",
   "wrong": {
-   "A": "Grade 1 = pilocytic astrocytoma (เด็ก ขอบเขตชัด ผ่าตัดหายได้) · จะถูกถ้าคำถามถามก้อน cerebellum มีถุงน้ำ + mural nodule ในเด็ก",
-   "B": "Grade 2 = diffuse (low-grade) astrocytoma · จะถูกถ้าผู้ใหญ่อายุน้อยชัก MRI ก้อน T2 สูงไม่ enhance",
-   "C": "Grade 3 = anaplastic astrocytoma (มี mitosis ไม่มี necrosis) · จะถูกถ้าชิ้นเนื้อมี atypia + mitosis แต่ไม่มี necrosis/ microvascular proliferation",
-   "E": "ไม่มี WHO grade 5 (ลายมือ \"ไม่มี\") · จะถูกถ้าคำถามใช้ระบบอื่นที่มี 5 ระดับ (ไม่มีใน CNS tumor)"
+   "A": "Astrocytoma เกรด 1 คือ <b>pilocytic astrocytoma</b> (และ subependymal giant cell astrocytoma ใน tuberous sclerosis) พบในเด็ก ขอบชัด โตช้า ผ่าตัดออกหมดหายขาดได้ พยาธิมี Rosenthal fibers และ eosinophilic granular bodies ยีน BRAF fusion · จะถูกถ้าเป็นเด็ก 7 ปีเดินเซ ปวดศีรษะ MRI ก้อนถุงน้ำมี mural nodule enhance ใน cerebellum",
+   "B": "Astrocytoma เกรด 2 (diffuse astrocytoma, IDH-mutant) แทรกซึมเนื้อสมองแต่แบ่งตัวช้า พบในผู้ใหญ่ราว 30–40 ปี มักมาด้วยชัก MRI เป็นก้อนสัญญาณสูงใน T2/ FLAIR ไม่ enhance (T2–FLAIR mismatch sign) ค่อย ๆ กลายเป็นเกรดสูงในหลายปี · จะถูกถ้าเป็นชาย 32 ปีชักครั้งแรก MRI ก้อนที่ frontal lobe ไม่ enhance ผลพยาธิมีแค่ nuclear atypia",
+   "C": "Astrocytoma เกรด 3 (anaplastic) มี mitotic activity ชัดแต่ยังไม่มี necrosis หรือ microvascular proliferation ต้องได้รังสีร่วมกับ temozolomide หลังผ่าตัด พยากรณ์ดีกว่าเกรด 4 · จะถูกถ้าเป็นหญิง 40 ปีผลชิ้นเนื้อ astrocytoma IDH-mutant ที่ mitosis มาก ไม่มี necrosis และไม่มี CDKN2A/B deletion",
+   "E": "WHO CNS ไม่มีเกรด 5 (ลายมือเขียน ไม่มี) เลข 5 ใช้ในระบบให้คะแนนอื่นทางประสาทศัลยศาสตร์ · จะถูกถ้าเป็นผู้ป่วย aneurysmal subarachnoid hemorrhage ที่โคม่าลึก decerebrate rigidity ใกล้เสียชีวิต ซึ่งคือ Hunt and Hess grade 5 (หรือ WFNS grade 5 เมื่อ GCS 3–6)"
   },
-  "trap": "คิดว่ามีเกรด 5 — WHO CNS grade สูงสุดคือ 4",
+  "trap": "ระบบเกรดอื่นที่คุ้นมีถึง 5 ระดับ (Hunt and Hess, WFNS, Spetzler–Martin) ทำให้คิดว่า GBM ซึ่งร้ายที่สุดต้องเป็นเกรดสูงสุดคือ 5 · จำว่า WHO CNS มีแค่ 1–4 และเกรด 4 แยกจากเกรด 3 ด้วย necrosis หรือ microvascular proliferation",
   "summary": [
-   "WHO CNS grade 1–4 (ไม่มี 5)",
-   "Grade 1: pilocytic · Grade 2: diffuse · Grade 3: anaplastic · Grade 4: GBM",
-   "GBM: necrosis + microvascular proliferation",
-   "WHO 2021: GBM = IDH-wildtype",
-   "Stupp: ผ่าตัด + RT + temozolomide",
-   "MGMT methylation → ตอบสนอง temozolomide ดี"
+   "WHO CNS grade 1–4 (ไม่มี 5) · CNS5 (2021) ใช้เลขอารบิก และให้เกรดภายในชนิดเนื้องอก ไม่ใช่เทียบข้ามชนิด",
+   "St Anne–Mayo: atypia → 2 · + mitosis → 3 · + necrosis หรือ microvascular proliferation → 4",
+   "Pilocytic astrocytoma (เกรด 1): เด็ก cerebellum/ optic pathway (NF1) · cyst + mural nodule · Rosenthal fibers · BRAF fusion · ผ่าตัดหาย",
+   "Astrocytoma IDH-mutant เกรด 2–4: ผู้ใหญ่อายุน้อย · ATRX loss, TP53 mutation · เกรด 4 เมื่อ necrosis/ MVP หรือ CDKN2A/B homozygous deletion",
+   "Oligodendroglioma: IDH-mutant + 1p/19q codeletion · เกรด 2–3 · หินปูน เซลล์รูปไข่ดาว (fried egg) · ไวต่อเคมีบำบัด (PCV) พยากรณ์ดีที่สุดใน diffuse glioma",
+   "Glioblastoma IDH-wildtype (เกรด 4): ผู้ใหญ่อายุมาก · TERT promoter mutation, EGFR amplification, +7/−10 ก็จัดเป็น GBM ได้แม้ไม่มี necrosis",
+   "รักษาเสริมตามเกรด: เกรด 2 ความเสี่ยงสูง → RT + PCV/ temozolomide (หรือ vorasidenib ในกลุ่มที่เหมาะ) · เกรด 3 → RT + temozolomide · เกรด 4 → Stupp protocol"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
-  "mnemonic": "<b>'GBM = Grade 4 = เกรดสุดท้าย (ไม่มี 5)'</b>",
-  "guide": "WHO Classification of Tumours of the CNS 5th ed. (2021)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด D พร้อมลายมือว่าเกรด 5 ไม่มี และ MCQ Key_1 ขีด D) · เป็นข้อเดียวกับที่ถามนิยาม GBM ในชุดก่อน แต่ข้อนี้เน้นเกรด",
+  "mnemonic": "<b>'Atypia–Mitosis–Necrosis = 2–3–4 · WHO มีแค่ 4'</b>",
+  "guide": "Louis DN, et al. The 2021 WHO Classification of Tumors of the Central Nervous System: a summary (Neuro-Oncology 2021;23:1231–1251); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "เด็กก้อน cerebellum มีถุงน้ำ + mural nodule → pilocytic astrocytoma grade 1",
-   "ชิ้นเนื้อ astrocytoma มี mitosis ไม่มี necrosis → grade 3",
-   "ชิ้นเนื้อ pseudopalisading necrosis → GBM grade 4"
+   "ผลพยาธิ astrocytoma IDH-mutant มี mitosis มากแต่ไม่มี necrosis ไม่มี CDKN2A/B deletion → astrocytoma IDH-mutant เกรด 3",
+   "ผลพยาธิ astrocytoma IDH-mutant ไม่มี necrosis แต่พบ CDKN2A/B homozygous deletion → ยกเป็นเกรด 4",
+   "ชาย 38 ปีชัก MRI ก้อน frontal มีหินปูน ผลยีน IDH-mutant + 1p/19q codeletion → oligodendroglioma",
+   "เด็กมี neurofibromatosis type 1 ตามัวลง MRI เส้นประสาทตาหนาตัว → optic pathway glioma (pilocytic astrocytoma เกรด 1)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 77 — ตัวพิมพ์: <b>4. Glioblastoma multiforme คือข้อใด — A) Astrocytoma grade 1 B) Astrocytoma grade 2 C) Astrocytoma grade 3 D) Astrocytoma grade 4 E) Astrocytoma grade 5</b><br>ลายมือ: ขีด D · E \"ไม่มี\"<br>ไฮไลต์: \"Glioblastoma multiforme\" · D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 65: ขีด D (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 77",
@@ -170,30 +180,32 @@
   ]
  },
  "MDCU68|RoC|6": {
-  "interp": "ถามรอยโรคที่มี<b>โอกาสเลือดออกซ้ำสูงที่สุด</b>ตามธรรมชาติของโรค",
-  "why": "<b>Ruptured intracranial aneurysm</b> เสี่ยงแตกซ้ำสูงมาก — ~<b>4–13% ใน 24 ชม.แรก</b> และสะสม<b>~50% ใน 6 เดือนแรก</b>ถ้าไม่รักษา (อัตราตายจากการแตกซ้ำ ~50–70%) → ต้องปิด aneurysm (coiling/ clipping) โดยเร็วภายใน 24–72 ชม. · อันดับรองคือ ruptured AVM (~6–18% ในปีแรก) · ไฟล์ขีด B ลายมือ B <b>\"1st\"</b> E <b>\"2nd\"</b> และแปะภาพสไลด์ <b>Annual Risk of Recurrent Hemorrhage</b>: Hypertensive 2% · Cerebral Amyloid Angiopathy 10.5% · AVM 18% · <b>Intracranial Aneurysm 50% within first 6 months</b> · Cavernoma 4.5% · Venous Angioma 0.15%",
+  "interp": "ถามว่าตาม<b>ธรรมชาติของโรค (natural history)</b> รอยโรคใดมีโอกาส<b>เลือดออกซ้ำสูงที่สุด</b> — ต้องรู้อัตราเลือดออกซ้ำของหลอดเลือดผิดปกติในสมองและเลือดออกในสมองแต่ละชนิด ซึ่งกำหนดความเร่งด่วนในการรักษา",
+  "why": "<b>Aneurysm ที่แตกแล้วและยังไม่ได้ปิด</b>มีโอกาสแตกซ้ำสูงที่สุด — สูงสุดใน<b>24 ชั่วโมงแรก (ราว 4–14%)</b> และสะสมถึง<b>ราว 50% ภายใน 6 เดือนแรก</b>ตามสไลด์ในไฟล์ หลังจากนั้นราว 3% ต่อปี · การแตกซ้ำมีอัตราตายสูงมาก (ราวครึ่งหนึ่งขึ้นไป) จึงต้อง<b>ปิด aneurysm โดยเร็วภายใน 24–72 ชั่วโมง</b> ด้วย endovascular coiling (ISAT: ผลดีกว่าเมื่อทำได้) หรือ surgical clipping · ระหว่างรอ: คุมความดัน systolic &lt; 160 mmHg, แก้การแข็งตัวของเลือด, nimodipine 60 mg ทุก 4 ชั่วโมง 21 วันป้องกัน delayed cerebral ischemia (vasospasm วันที่ 3–14) · ตัวเลขอัตราเลือดออกซ้ำต่อปีจากสไลด์: aneurysm 50% ใน 6 เดือนแรก · <b>AVM 18%</b> (ปีแรกหลังแตก) · cerebral amyloid angiopathy 10.5% · cavernoma 4.5% · hypertensive 2% · venous angioma 0.15% · ไฟล์ขีด B ลายมือ <b>\"1st\"</b> และที่ AVM เขียน <b>\"2nd\"</b> พร้อมลายมือบนสไลด์ <b>\"ไม่ปิดเลยในเดือนแรก ถ้าไม่ secure\"</b>",
   "wrong": {
-   "A": "Venous angioma (developmental venous anomaly) เลือดออกน้อยมาก (~0.15%/ ปี) · จะถูกถ้าคำถามถามรอยโรคหลอดเลือดสมองที่ไม่ต้องรักษา (ห้ามตัด)",
-   "C": "Thalamic (hypertensive) hemorrhage เลือดออกซ้ำ ~2%/ ปี · จะถูกถ้าคำถามถามตำแหน่งเลือดออกจากความดันสูงที่พบบ่อย",
-   "D": "Ruptured cavernous malformation เลือดออกซ้ำ ~4.5%/ ปี (สูงขึ้นที่ก้านสมอง) · จะถูกถ้าคำถามถามรอยโรคที่ MRI เป็น popcorn + hemosiderin rim",
-   "E": "Ruptured AVM เลือดออกซ้ำ ~18% ในปีแรก (ลายมือ \"2nd\") · จะถูกถ้าคำถามถามรอยโรคที่เสี่ยงแตกซ้ำเป็นอันดับสอง"
+   "A": "Venous angioma (developmental venous anomaly) เป็นหลอดเลือดดำผิดรูปที่ระบายเนื้อสมองปกติ (ลักษณะ caput medusae) โอกาสเลือดออกต่ำที่สุดราว 0.15% ต่อปี และห้ามผ่าตัดออกเพราะจะเกิด venous infarct · จะถูกถ้าเป็นหญิง 30 ปีปวดศีรษะไมเกรน MRI พบหลอดเลือดดำรูปร่มโดยบังเอิญ ไม่มีเลือดออก → ไม่ต้องรักษา (ถ้ามีเลือดออกให้หา cavernoma ที่อยู่ข้างกัน)",
+   "C": "Thalamic hemorrhage เป็นเลือดออกจากความดันโลหิตสูง (deep ICH: basal ganglia, thalamus, pons, cerebellum) อัตราเลือดออกซ้ำราว 2% ต่อปี ต่ำกว่า aneurysm มากเมื่อคุมความดันดี · จะถูกถ้าเป็นชาย 65 ปีความดันสูงไม่กินยา อ่อนแรงและชาครึ่งซีกซ้ายทันที CT เห็นเลือดใน thalamus ขวา → ลดความดัน systolic เป้าราว 140 mmHg และคุมความดันระยะยาว",
+   "D": "Cavernous malformation ที่แตกแล้วมีโอกาสออกซ้ำราว 4.5% ต่อปี (สูงขึ้นในก้านสมองและช่วง 2 ปีแรกหลังออก) MRI เห็นรูป popcorn มีวง hemosiderin ดำ ไม่เห็นใน angiography · จะถูกถ้าเป็นหญิง 28 ปีชักซ้ำจาก cavernoma ที่ temporal lobe ซึ่งเข้าถึงได้ → ผ่าตัดเอาออกพร้อมวง hemosiderin รอบ ๆ",
+   "E": "AVM ที่แตกแล้วมีโอกาสออกซ้ำสูงเป็นอันดับสอง (ลายมือ 2nd) ราว 6–18% ในปีแรกแล้วลดลง ส่วน AVM ที่ยังไม่แตกราว 2–4% ต่อปี · จะถูกถ้าเป็นชาย 25 ปีชักและมีเลือดออกใน parietal lobe angiography พบ nidus 2.5 cm ไม่อยู่ใน eloquent area ระบายสู่หลอดเลือดดำผิวสมอง (Spetzler–Martin grade 1) → microsurgical resection"
   },
-  "trap": "เลือก AVM เพราะรู้ว่าเลือดออกซ้ำได้ — aneurysm ที่แตกแล้วแตกซ้ำเร็วและบ่อยกว่ามาก",
+  "trap": "AVM ถูกจดจำว่าเป็นหลอดเลือดผิดปกติที่อันตรายในคนหนุ่ม จึงเลือก E · แต่โจทย์ถามธรรมชาติของโรค<b>หลังแตก</b> ซึ่ง aneurysm ที่ยังไม่ได้ปิดแตกซ้ำเร็วและบ่อยกว่ามาก (ครึ่งหนึ่งใน 6 เดือน) — เหตุผลที่ต้องปิด aneurysm ภายใน 72 ชั่วโมง",
   "summary": [
-   "Ruptured aneurysm: แตกซ้ำ ~4–13% ใน 24 ชม. · ~50% ใน 6 เดือน",
-   "Ruptured AVM: ~18% ปีแรก",
-   "Cerebral amyloid angiopathy: ~10.5%/ ปี",
-   "Cavernoma: ~4.5% · hypertensive: ~2% · venous angioma: ~0.15%",
-   "SAH: ปิด aneurysm เร็ว (coil/ clip) · nimodipine ป้องกัน vasospasm",
-   "ควบคุม SBP &lt; 160 ก่อนปิด aneurysm"
+   "Aneurysmal SAH: แตกซ้ำสูงสุดใน 24 ชม.แรก (4–14%) · ~50% ใน 6 เดือนหากไม่ปิด · แตกซ้ำตายสูง → ปิดภายใน 24–72 ชม.",
+   "Coiling vs clipping: ISAT พบ coiling มีผลลัพธ์พึ่งพาตัวเองได้ดีกว่าที่ 1 ปีในรายที่ทำได้ทั้งสองแบบ · clipping เหมาะกับ MCA aneurysm คอกว้าง หรือมีก้อนเลือดใหญ่ที่ต้องเอาออก",
+   "ดูแลหลัง SAH: nimodipine 60 mg q4h 21 วัน · euvolemia · ระวัง vasospasm วันที่ 3–14 (TCD/ CTA) · hydrocephalus → EVD · hyponatremia (SIADH/ cerebral salt wasting)",
+   "AVM: Spetzler–Martin (ขนาด &lt; 3/ 3–6/ &gt; 6 cm = 1/2/3 · eloquent +1 · deep venous drainage +1) · เกรด 1–2 ผ่าตัด · ก้อนเล็กลึก → radiosurgery (ปิดภายใน 2–3 ปี) · ARUBA ไม่สนับสนุนรักษาก้อนที่ยังไม่แตกทุกราย",
+   "Cavernous malformation: angiographically occult · MRI SWI/ GRE เห็นวง hemosiderin · ชนิดครอบครัว (KRIT1/ CCM1–3) มีหลายก้อน · ผ่าตัดเมื่อชัก/ เลือดออกซ้ำและเข้าถึงได้",
+   "Cerebral amyloid angiopathy: lobar ICH ผู้สูงอายุ microbleeds ที่ผิวสมอง superficial siderosis · ออกซ้ำสูง (~10% ต่อปี) · ระวังยาต้านเกล็ดเลือด/ ยาต้านการแข็งตัว",
+   "Developmental venous anomaly: ระบายสมองปกติ ห้ามตัด · พบร่วมกับ cavernoma บ่อย ถ้ามีเลือดออกให้หา cavernoma"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ที่แปะ",
-  "mnemonic": "<b>'Aneurysm แตกแล้ว = ครึ่งหนึ่งแตกซ้ำใน 6 เดือน (50%)'</b>",
-  "guide": "AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด B พร้อมลายมือ 1st ที่ aneurysm และ 2nd ที่ AVM และสไลด์ annual risk of recurrent hemorrhage และ MCQ Key_1 ขีด B)",
+  "mnemonic": "<b>'ออกซ้ำ: Aneurysm 50% (6 เดือน) > AVM 18% > CAA 10% > Cavernoma 4.5% > HT 2% > DVA 0.15%'</b>",
+  "guide": "Hoh BL, et al. 2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314–e370); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "SAH จาก aneurysm → coil/ clip ภายใน 24–72 ชม. ป้องกันแตกซ้ำ",
-   "AVM แตกในเด็ก → ผ่าตัด/ radiosurgery/ embolization",
-   "MRI รอยโรค popcorn + hemosiderin rim → cavernoma"
+   "หญิง 50 ปีปวดศีรษะรุนแรงทันที CT เห็นเลือดใน basal cistern CTA พบ aneurysm ที่ anterior communicating artery → ปิดด้วย coiling ภายใน 24–72 ชม. + nimodipine",
+   "ผู้ป่วยหลัง SAH วันที่ 7 ซึมลงและแขนขวาอ่อนแรงใหม่ TCD ความเร็วเลือดสูง → delayed cerebral ischemia จาก vasospasm → induced hypertension/ angioplasty",
+   "ผู้สูงอายุ 78 ปีเลือดออกใน lobar ครั้งที่สอง MRI พบ microbleeds ที่ผิวสมองหลายจุด → cerebral amyloid angiopathy เลี่ยงยาต้านการแข็งตัว",
+   "ทำไมต้องปิด aneurysm ที่แตกโดยเร็ว → โอกาสแตกซ้ำสูงสุดในวันแรก ๆ และการแตกซ้ำมีอัตราตายสูงมาก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 77 — ตัวพิมพ์: <b>6. โดย natural history แล้ว ข้อใดมีโอกาสเกิด recurrent bleeding มากที่สุด — A) Venous angioma B) Ruptured aneurysm C) Thalamic hemorrhage D) Ruptured cavernous malformation E) Ruptured AV malformation</b><br>ลายมือ: ขีด B + \"1st\" · E \"2nd\"<br>ไฮไลต์: \"recurrent bleeding มากที่สุด\" · B (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Annual Risk of Recurrent Hemorrhage (Causes/ Risk) — Hypertensive 2% · Cerebral Amyloid Angiopathy 10.5% · AVM 18% · Intracranial Aneurysm 50% within first 6 months (ลายมือ \"SAH\" · \"ไม่ปิดเลยในเดือนแรก ถ้าไม่ secure\") · Cavernoma 4.5% · Venous Angioma 0.15%<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 65: ขีด B (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 77",
@@ -204,30 +216,32 @@
   ]
  },
  "MDCU68|RoC|19": {
-  "interp": "เด็กชาย 2 ปี ตรวจ U/S ก่อนคลอดพบ<b>ไตขวาบวมน้ำ</b> <b>VCUG ปกติ (ไม่มีกรดไหลย้อน)</b> → ถามการตรวจต่อไป",
-  "why": "ไตบวมน้ำที่ไม่มี VUR → ต้องประเมิน<b>การอุดตัน</b>และ<b>การทำงานแยกข้าง</b> (สาเหตุพบบ่อย: <b>UPJ obstruction</b>) → <b>diuretic renogram (MAG3 + furosemide)</b> บอกทั้ง split renal function และรูปแบบการขับ (obstructive curve, T½ &gt; 20 นาที) · ข้อบ่งชี้ <b>pyeloplasty</b>: split function &lt; 40%, function ลดลงเรื่อย ๆ, ไตบวมน้ำมากขึ้น, มีอาการ (ปวด UTI นิ่ว) · ไฟล์ขีด A ลายมือ <b>\"&lt; 40% → Sx: pyeloplasty\"</b> และแปะสไลด์ <b>Postnatal evaluation</b>",
+  "interp": "เด็กชาย 2 ปีมีประวัติ<b>ไตขวาบวมน้ำ (hydronephrosis) ตั้งแต่ ultrasound ระหว่างตั้งครรภ์</b> และ <b>VCUG ปกติ</b> (ไม่มีกรดไหลย้อน) — ถามการตรวจถัดไป ซึ่งต้องแยกการอุดกั้นจริงออกจากการขยายที่ไม่อุดกั้น และประเมินการทำงานของไต",
+  "why": "Antenatal hydronephrosis ส่วนใหญ่เป็น<b>ชั่วคราว/ ไม่อุดกั้น</b> แต่ต้องตรวจหาสาเหตุสำคัญ 2 กลุ่ม: <b>vesicoureteral reflux</b> (ตรวจด้วย VCUG) และ<b>การอุดกั้น</b> ซึ่งที่พบบ่อยที่สุดคือ <b>ureteropelvic junction (UPJ) obstruction</b> · เมื่อ VCUG ปกติจึงต้องทำ <b>diuretic renogram (MAG3 + furosemide)</b> ซึ่งให้ 2 ข้อมูลที่ใช้ตัดสินใจผ่าตัด: <b>split renal function</b> ของแต่ละข้าง และ <b>การระบาย</b> (T½ หลังให้ยาขับปัสสาวะ &gt; 20 นาทีเข้ากับการอุดกั้น) · ข้อบ่งชี้ทำ <b>pyeloplasty</b> (Anderson–Hynes dismembered): split function &lt; 40% หรือลดลง &gt; 10% ในการตรวจซ้ำ, การระบายแย่ลงหรือ APD เพิ่มขึ้น (SFU 3–4), มีอาการ (ปวดสีข้าง UTI นิ่ว) · ultrasound หลังคลอดควรทำหลังอายุ 48–72 ชั่วโมงเพราะทารกปัสสาวะน้อยช่วงแรกทำให้ประเมินต่ำไป (ยกเว้นสองข้าง ไตข้างเดียว หรือสงสัย posterior urethral valve ให้ทำเร็ว) · IVP เลิกใช้แล้ว · ไฟล์ขีด A ลายมือ <b>\"&lt; 40% → Sx: pyeloplasty\"</b> และสไลด์ postnatal evaluation เขียนว่า <b>\"diuretic renogram → ดู fn. &amp; obstruction\"</b>",
   "wrong": {
-   "B": "CT ให้รังสีสูงในเด็ก ไม่บอกการทำงานแยกข้าง/ การขับได้ดีเท่า renogram · จะถูกถ้าสงสัยนิ่ว/ บาดเจ็บไตในเด็กโต",
-   "C": "Plain KUB เห็นเฉพาะนิ่วทึบรังสี ไม่บอกการอุดตัน · จะถูกถ้าคำถามถามการตรวจหานิ่วทึบรังสีเบื้องต้น",
-   "D": "Retrograde pyelography เป็นหัตถการรุกล้ำ ใช้ระหว่างผ่าตัดเพื่อดูท่อไตส่วนปลาย · จะถูกถ้าคำถามถามการตรวจขณะดมยาก่อนทำ pyeloplasty",
-   "E": "VCUG ทำแล้วปกติ ทำซ้ำไม่ได้ข้อมูลเพิ่ม · จะถูกถ้าเด็กมี febrile UTI ซ้ำหลัง VCUG ครั้งแรกปกตินานแล้ว"
+   "B": "CT ช่องท้องให้ภาพกายวิภาคละเอียดแต่ได้รังสีมาก และไม่บอกการระบายหรือ split function ที่ใช้ตัดสินใจผ่าตัด ไม่ใช่การตรวจมาตรฐานของ hydronephrosis ในเด็ก · จะถูกถ้าเป็นเด็ก 8 ปีตกจักรยานกระแทกท้องข้างขวา ปัสสาวะเป็นเลือด สัญญาณชีพคงที่ → CT ฉีดสีหาการบาดเจ็บของไต (ไตที่มี UPJ obstruction เดิมบาดเจ็บง่ายกว่า)",
+   "C": "Plain KUB เห็นนิ่วทึบแสงและกระดูก แต่ไม่บอกการอุดกั้นหรือการทำงานของไต จึงไม่ช่วยใน hydronephrosis แต่กำเนิด · จะถูกถ้าเป็นเด็ก 10 ปีที่มี cystinuria หรือนิ่ว calcium เดิม ติดตามขนาดนิ่วในไตเป็นระยะ หรือเด็ก spina bifida ที่สงสัยนิ่วในกระเพาะปัสสาวะ",
+   "D": "Retrograde pyelography ต้องดมยาสลบส่องกล้องฉีดสีเข้าท่อไต ใช้ในห้องผ่าตัดเพื่อดูกายวิภาคท่อไตส่วนล่างเมื่อไม่ชัด ไม่ใช่การตรวจวินิจฉัยขั้นแรก · จะถูกถ้าเป็นเด็กที่ renogram ยืนยันการอุดกั้นและนัดทำ pyeloplasty แต่ ultrasound สงสัยท่อไตตีบอีกตำแหน่ง จึงฉีดสีย้อนในห้องผ่าตัดก่อนแก้ไข",
+   "E": "VCUG ซ้ำไม่มีประโยชน์เมื่อผลแรกปกติแล้ว และเพิ่มรังสีกับการใส่สายสวน · ใช้ติดตามกรดไหลย้อนที่ตรวจพบแล้ว · จะถูกถ้าเป็นเด็กหญิง 4 ปี VUR grade IV ได้ยาปฏิชีวนะป้องกันมา 18 เดือน หรือหลังฉีดสารที่รูท่อไต (endoscopic injection) แล้วต้องดูว่า reflux หายหรือไม่"
   },
-  "trap": "ส่ง CT/ KUB เพื่อดูโครงสร้าง — คำถามคือมีการอุดตันและไตเสียการทำงานหรือไม่ → diuretic renogram",
+  "trap": "ไม่ทราบว่าหลัง VCUG ปกติจะตรวจอะไรต่อจึงเลือก CT ที่ภาพชัดที่สุด · ให้จำคู่การตรวจ: <b>VCUG = reflux</b> · <b>diuretic renogram = obstruction + function</b> · การตัดสินใจผ่าตัด UPJ obstruction ขึ้นกับ split function และการระบาย ซึ่งได้จาก renogram เท่านั้น",
   "summary": [
-   "Antenatal hydronephrosis → postnatal US หลังวันที่ 3 (หลังพ้นช่วงปัสสาวะน้อย)",
-   "VCUG: หา VUR/ posterior urethral valve",
-   "Diuretic renogram (MAG3): split function + การขับ",
-   "UPJ obstruction: split function &lt; 40% / ลดลง / มีอาการ → pyeloplasty",
-   "ชายไตบวมน้ำสองข้าง + กระเพาะหนา → PUV → VCUG ด่วน",
-   "IVP ไม่ใช้แล้วในทารก"
+   "Antenatal hydronephrosis: APD ไตส่วนกลาง ≥ 4 mm ไตรมาสสอง หรือ ≥ 7 mm ไตรมาสสาม · ส่วนใหญ่ transient · สาเหตุสำคัญ: UPJ obstruction, VUR, megaureter, posterior urethral valve, duplex system",
+   "Ultrasound หลังคลอดที่อายุ &gt; 48–72 ชั่วโมงและซ้ำ 4–6 สัปดาห์ · ทำทันทีถ้าสองข้าง ไตข้างเดียว หรือเด็กชายกระเพาะปัสสาวะหนา/ สงสัย PUV",
+   "VCUG: หา VUR และ PUV · ทำเมื่อ hydronephrosis ปานกลาง–รุนแรง ท่อไตโต กระเพาะปัสสาวะผิดปกติ หรือมี UTI",
+   "Diuretic renogram (MAG3): split function + drainage curve · ทำหลังอายุ 4–6 สัปดาห์เมื่อไตเจริญพอ · DMSA ดูแผลเป็นและการทำงานของเนื้อไต",
+   "UPJ obstruction: สาเหตุที่พบบ่อยที่สุดของการอุดกั้นแต่กำเนิด (ท่อไตส่วนต้นผิดปกติ หรือหลอดเลือดขั้วล่างไขว้ในเด็กโต — Dietl crisis ปวดเมื่อดื่มน้ำมาก)",
+   "ข้อบ่งชี้ pyeloplasty: split function &lt; 40% หรือลดลง &gt; 10% · APD เพิ่มขึ้น · ปวด UTI นิ่ว · Anderson–Hynes (เปิด/ laparoscopic/ robotic) สำเร็จ &gt; 90%",
+   "ไม่อุดกั้น/ function ดี: เฝ้าติดตามด้วย ultrasound และ renogram ซ้ำ ส่วนใหญ่ดีขึ้นเอง · ยาปฏิชีวนะป้องกันพิจารณาในรายที่บวมมาก ท่อไตโต หรือมี VUR"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'ไตบวมน้ำ ไม่มี reflux = Renogram (ดูอุดตัน + ทำงาน)'</b>",
-  "guide": "EAU/ESPU Guidelines on Paediatric Urology 2024 — Prenatal hydronephrosis/ UPJ obstruction; SFU/ UTD classification (J Pediatr Urol 2014;10:982)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด A พร้อมลายมือ &lt; 40% → pyeloplasty และสไลด์ postnatal evaluation และ MCQ Key_1 ขีด A) · ต้นฉบับมี 3 ช้อย เว็บเติม retrograde pyelography และ VCUG ซ้ำ",
+  "mnemonic": "<b>'VCUG ดู Reflux · Renogram ดู Obstruction + Function (&lt; 40% = Pyeloplasty)'</b>",
+  "guide": "Nguyen HT, et al. Multidisciplinary consensus on the classification of prenatal and postnatal urinary tract dilation (UTD classification system) (J Pediatr Urol 2014;10:982–998); EAU/ESPU Guidelines on Paediatric Urology 2025; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
   "variants": [
-   "ทารกไตบวมน้ำขวา VCUG ปกติ renogram split 35% obstructive → pyeloplasty",
-   "ทารกชายไตบวมน้ำสองข้าง กระเพาะปัสสาวะหนา → posterior urethral valve → VCUG",
-   "เด็กไข้ UTI ซ้ำ VCUG VUR grade IV → antibiotic prophylaxis/ ผ่าตัด"
+   "ทารก 6 สัปดาห์ hydronephrosis ซ้าย APD 25 mm VCUG ปกติ MAG3 split function ซ้าย 32% T½ 45 นาที → pyeloplasty",
+   "ทารกชาย antenatal ultrasound ไตบวมสองข้าง กระเพาะปัสสาวะหนา keyhole sign → ultrasound ทันทีหลังคลอด + VCUG → posterior urethral valve → ใส่สายสวนแล้วตัด valve ทางกล้อง",
+   "เด็ก 10 ปีปวดสีข้างซ้ายเป็นพัก ๆ เมื่อดื่มน้ำมาก ultrasound ไตบวมน้ำ → UPJ obstruction จากหลอดเลือดขั้วล่างไขว้ → renogram แล้ว pyeloplasty",
+   "ทารก hydronephrosis เล็กน้อย APD 8 mm VCUG ปกติ renogram split 48% ระบายดี → เฝ้าติดตามด้วย ultrasound ซ้ำ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 77 — หัวข้อ Urology · ตัวพิมพ์: <b>19. ผู้ป่วยเด็กชายไทย 2 ปี มีประวัติ antenatal ทำ U/S ได้ Rt. hydronephrosis VCUG ปกติ ควรทำ investigate อะไรต่อ — A) Diuretic renogram B) CT C) Plain KUB</b><br>ลายมือ: ขีด A + \"&lt; 40% → Sx: pyeloplasty\"<br>ไฮไลต์: \"ชายไทย 2 ปี\" \"antenatal ทำ U/S\" \"Rt. hydronephrosis VCUG ปกติ\" \"investigate อะไรต่อ\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Postnatal evaluation — Ultrasonography: defer until day 3 of life → allow for improvement in the relative oliguria · VCUG: vesicoureteric reflux (ลายมือ \"→ ดูกรณี obstruction\") · IVP study: obstruction (ขีดฆ่า \"× ไม่ใช้แล้ว\") · Renal scan: function of kidney, obstruction (ลายมือเล็ก \"diuretic renogram → ดู fn. &amp; obstruction\")<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 65: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 77",
@@ -239,30 +253,32 @@
   ]
  },
  "MDCU68|RoC|21": {
-  "interp": "เด็กชาย <b>3 ขวบ</b> <b>คลำอัณฑะซ้ายไม่ได้ (non-palpable testis)</b> → ถามการจัดการ",
-  "why": "อัณฑะที่คลำไม่ได้ (ตรวจภายใต้ดมยาแล้วก็ยังคลำไม่ได้) → <b>diagnostic laparoscopy</b> เป็นมาตรฐานทอง ทั้ง<b>วินิจฉัยและรักษาในครั้งเดียว</b> — พบอัณฑะในช่องท้อง (→ orchiopexy/ Fowler-Stephens), เส้นเลือดและท่อนำอสุจิเข้าช่องขาหนีบ (สำรวจขาหนีบ), หรือ blind-ending vessels (vanishing testis → จบ) · <b>US/ CT/ MRI ไม่แนะนำ</b> เพราะความไวต่ำ ไม่เปลี่ยนการจัดการ · ควรผ่าตัดก่อน 18 เดือน (เด็ก 3 ขวบถือว่าช้า ต้องทำทันที) · ไฟล์ขีด C ลายมือ <b>\"intraabd.?\"</b> ลากลูกศรไป C",
+  "interp": "เด็กชาย 3 ขวบ<b>คลำอัณฑะข้างซ้ายไม่ได้ (non-palpable testis)</b> — ถามการจัดการ ต้องรู้ว่าภาพถ่ายทางรังสีไม่ช่วยหาอัณฑะที่คลำไม่ได้ และวิธีมาตรฐานที่ทั้งวินิจฉัยและรักษาได้ในคราวเดียว",
+  "why": "อัณฑะที่คลำไม่ได้ข้างเดียวอาจอยู่<b>ในช่องท้อง</b> ใน inguinal canal ที่คลำยาก หรือ<b>ไม่มีอยู่จริง (vanishing testis</b> จากบิดขาดเลือดในครรภ์) · Ultrasound, CT และ MRI มีความไวต่ำและผลลบไม่ช่วยตัดสินใจ แนวทาง AUA และ EAU จึง<b>ไม่แนะนำให้ทำภาพก่อน</b> · วิธีมาตรฐานคือ<b>ตรวจใต้ยาสลบแล้วทำ diagnostic laparoscopy</b> ซึ่งรักษาต่อได้ทันที: เห็นอัณฑะใน<b>ช่องท้อง</b> → laparoscopic orchiopexy (one-stage หรือ two-stage Fowler–Stephens ถ้าหลอดเลือดสั้น) · เห็น<b>หลอดเลือดและท่อนำอสุจิเข้า internal ring</b> → สำรวจขาหนีบ · เห็น<b>หลอดเลือดปลายตันเหนือ ring</b> → vanishing testis หยุดได้ · ควรผ่าตัดภายในอายุ 18 เดือน (EAU แนะนำ 6–12 เดือน) เพื่อรักษาการสร้างเชื้ออสุจิและให้ตรวจมะเร็งได้ เด็ก 3 ขวบจึงช้าแล้วต้องทำทันที · ไฟล์ขีด C ลายมือ <b>\"intraabd.?\"</b> ลากลูกศรไปที่ laparoscopy และคีย์สรุปว่าดีที่สุด",
   "wrong": {
-   "A": "CT ให้รังสี ความไวต่ำต่ออัณฑะในช่องท้อง ไม่แนะนำ · จะถูกถ้าคำถามถามการหาก้อนมะเร็งในอัณฑะค้างในผู้ใหญ่",
-   "B": "MRI ความไวไม่พอ ต้องดมยาในเด็ก ผลลบไม่ตัดออก · จะถูกถ้าคำถามถาม disorder of sex development ที่ต้องดูอวัยวะสืบพันธุ์ภายใน",
-   "D": "US ไม่แนะนำในอัณฑะคลำไม่ได้ (AUA) ไม่เปลี่ยนการรักษา · จะถูกถ้าคำถามถามอัณฑะคลำได้ที่ขาหนีบแต่ไม่แน่ใจว่าเป็นอัณฑะ",
-   "E": "ฮอร์โมน (hCG/ GnRH) อย่างเดียวได้ผลต่ำและไม่แนะนำ · จะถูกถ้าคำถามถามอัณฑะ retractile (ไม่ต้องรักษา) หรือบางแนวทางยุโรปใช้เสริม"
+   "A": "CT ได้รังสีมาก ความไวต่ำต่ออัณฑะในช่องท้องขนาดเล็กของเด็ก และผลลบก็ยังต้องผ่าตัดสำรวจอยู่ดี · จะถูกถ้าเป็นชาย 30 ปีที่เคยมีอัณฑะข้างซ้ายไม่ลงถุงไม่ได้รักษา มาด้วยก้อนในท้องน้อยและ β-hCG สูง → CT ท้องและทรวงอกเพื่อ staging เนื้องอก germ cell จากอัณฑะในช่องท้อง",
+   "B": "MRI ไม่ต้องใช้รังสีแต่ต้องดมยาในเด็กเล็กและยังพลาดอัณฑะในช่องท้องได้ จึงไม่แนะนำเป็นประจำ · จะถูกถ้าเป็นทารกที่อวัยวะเพศกำกวมและคลำอัณฑะไม่ได้ทั้งสองข้าง → ตรวจ karyotype, 17-OH progesterone (แยก CAH ในเด็กหญิง 46,XX) และภาพดูมดลูกกับ gonad ร่วมกับทีม DSD",
+   "D": "Ultrasound ติดตามไม่ช่วยหาอัณฑะที่คลำไม่ได้และทำให้การผ่าตัดล่าช้า อัณฑะที่ยังไม่ลงหลังอายุ 6 เดือนจะไม่ลงเอง · จะถูกถ้าเป็นเด็กชายที่ถุงอัณฑะบวมโตจาก hydrocele ขนาดใหญ่จนคลำอัณฑะไม่ได้ → ultrasound ยืนยันว่ามีอัณฑะปกติอยู่ในถุง",
+   "E": "ยาฮอร์โมน (hCG, GnRH) เพื่อให้อัณฑะเลื่อนลงได้ผลต่ำ โดยเฉพาะอัณฑะที่อยู่สูง และอาจทำอันตรายต่อเซลล์สืบพันธุ์ AUA จึงไม่แนะนำ · จะถูกถ้าเป็นเด็กชายวัยรุ่นที่มี hypogonadotropic hypogonadism (เช่น Kallmann syndrome ไม่ได้กลิ่น ไม่เข้าวัยหนุ่ม) ซึ่งต้องได้ฮอร์โมนทดแทนเพื่อให้เข้าวัย"
   },
-  "trap": "ส่ง US/ CT หาอัณฑะก่อน — ภาพถ่ายรังสีไม่เปลี่ยนการจัดการ laparoscopy ดีที่สุด",
+  "trap": "คิดว่าต้องหาตำแหน่งอัณฑะด้วยภาพก่อนผ่าตัดเหมือนการหาก้อนทั่วไป จึงเลือก CT/ MRI/ ultrasound · แต่ภาพมีความไวต่ำและผลไม่เปลี่ยนแผน — laparoscopy เป็นทั้งการวินิจฉัยและการรักษาในคราวเดียว (ภาพใช้เฉพาะกรณี DSD หรืออ้วนมาก)",
   "summary": [
-   "Undescended testis: ผ่าตัด orchiopexy ภายใน 18 เดือน",
-   "Palpable → inguinal orchiopexy",
-   "Non-palpable → ตรวจใต้ดมยา → diagnostic laparoscopy",
-   "Intra-abdominal → laparoscopic orchiopexy/ Fowler-Stephens",
-   "US/ CT/ MRI ไม่แนะนำ",
-   "สองข้างคลำไม่ได้ + hypospadias → ตรวจ DSD (karyotype)"
+   "Cryptorchidism: ทารกครบกำหนด ~3% ทารกก่อนกำหนด ~30% · ส่วนใหญ่ลงเองภายใน 6 เดือน · หลัง 6 เดือนไม่ลงเองแล้ว → ส่งศัลยแพทย์",
+   "Palpable undescended → inguinal (หรือ scrotal) orchiopexy · non-palpable → ตรวจใต้ยาสลบ + diagnostic laparoscopy",
+   "ผล laparoscopy: อัณฑะในช่องท้อง → laparoscopic orchiopexy/ Fowler–Stephens · หลอดเลือด/ vas เข้า ring → สำรวจขาหนีบ · หลอดเลือดปลายตัน → vanishing testis",
+   "เวลาผ่าตัด: 6–18 เดือน (AUA ภายใน 18 เดือน · EAU 6–12 เดือน) เพื่อการเจริญพันธุ์และลดความเสี่ยงมะเร็ง",
+   "ความเสี่ยงระยะยาว: มีบุตรยาก (โดยเฉพาะสองข้าง) · germ cell tumor สูงขึ้นหลายเท่า (orchiopexy ก่อนวัยรุ่นลดความเสี่ยงและทำให้คลำตรวจได้) · อัณฑะบิด · ไส้เลื่อน",
+   "Non-palpable ทั้งสองข้าง ร่วมกับ hypospadias หรืออวัยวะเพศกำกวม → ประเมิน DSD ก่อน (karyotype, CAH) · anorchia ยืนยันด้วย AMH/ inhibin B ต่ำและ hCG stimulation test",
+   "Retractile testis ดึงลงถุงได้และค้างอยู่ → ไม่ต้องผ่าตัดแต่ติดตามทุกปีเพราะอาจกลายเป็น ascending testis"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 3 ช้อย (B เขียน MRT) จึงเติม D, E",
-  "mnemonic": "<b>'คลำไม่เจอ = ส่องกล้องดู (Laparoscopy) ไม่ใช่ถ่ายภาพ'</b>",
-  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism (2014, reviewed 2018); EAU/ESPU Guidelines on Paediatric Urology 2024",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด C พร้อมลายมือ intraabd.? และ MCQ Key_1 ขีด C) · ต้นฉบับมี 3 ช้อย (CT, MRI, laparoscopy) เว็บเติม ultrasound และฮอร์โมน ซึ่งไม่แนะนำตาม AUA เช่นกัน",
+  "mnemonic": "<b>'คลำไม่เจอ = ไม่ต้องถ่ายภาพ → ส่องกล้องดูเลย (Look &amp; Fix)'</b>",
+  "guide": "Kolon TF, et al. Evaluation and Treatment of Cryptorchidism: AUA Guideline (J Urol 2014;192:337–345); EAU/ESPU Guidelines on Paediatric Urology 2025 — Management of undescended testes",
   "variants": [
-   "ทารก 6 เดือนคลำอัณฑะซ้ายได้ที่ขาหนีบ → inguinal orchiopexy ก่อน 18 เดือน",
-   "laparoscopy พบเส้นเลือดสิ้นสุดในช่องท้อง → vanishing testis → ยุติ",
-   "อัณฑะคลำไม่ได้สองข้าง + hypospadias → karyotype (DSD)"
+   "เด็กชาย 1 ปีคลำอัณฑะขวาได้ที่ขาหนีบ ดึงลงถุงไม่ได้ → inguinal orchiopexy",
+   "ระหว่าง laparoscopy เห็นหลอดเลือดอัณฑะและ vas ปลายตันเหนือ internal ring → vanishing testis หยุดผ่าตัด",
+   "ทารกแรกเกิดอวัยวะเพศกำกวม คลำอัณฑะไม่ได้ทั้งสองข้าง ซึมและโซเดียมต่ำ → สงสัย CAH ในเด็ก 46,XX ตรวจ 17-OH progesterone ด่วน",
+   "เด็ก 5 ขวบอัณฑะขึ้นไปที่ขาหนีบเวลาหนาวหรือตกใจ ดึงลงถุงได้และค้างอยู่ → retractile testis ติดตามปีละครั้ง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 77 — ตัวพิมพ์: <b>21. เด็ก \"3 ขวบ\" คลำ testes ซ้ายไม่เจอ ถาม Mx — A) CT B) MRT C) laparo</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"3 ขวบ\" · \"intraabd.?\" ลากลูกศรไป C · ขีด C<br>ไฮไลต์: \"3 ขวบ คลำ testes ซ้ายไม่เจอ\" \"Mx\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 65: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 77",
@@ -273,30 +289,32 @@
   ]
  },
  "MDCU68|RoC|22": {
-  "interp": "ชาย 65 ปี <b>ไม่มี LUTS</b> ต่อมลูกหมาก ~30 g มี<b>ก้อนแข็งเหมือนเนื้อไม้ที่กลีบขวา</b> PSA 6.5 → ถามขั้นต่อไป",
-  "why": "DRE พบ<b>ก้อนแข็ง</b> + <b>PSA สูง (&gt; 4)</b> = สงสัย<b>มะเร็งต่อมลูกหมาก</b> → ต้องได้ชิ้นเนื้อยืนยัน: <b>TRUS-guided biopsy</b> (ปัจจุบันนิยม mpMRI ก่อนเพื่อทำ targeted + systematic biopsy) · DRE ผิดปกติอย่างเดียวก็เป็นข้อบ่งชี้ biopsy แม้ PSA ปกติ · ไฟล์ขีด D ลายมือ <b>\"R/O CA\"</b> \"&gt;4\" ที่ PSA และดอกจันที่ \"ก้อนแข็ง\"",
+  "interp": "ชาย 65 ปี<b>ไม่มีอาการทางเดินปัสสาวะส่วนล่าง</b> ต่อมลูกหมากขนาดราว 30 g คลำได้<b>ก้อนแข็งเหมือนเนื้อไม้ที่กลีบขวา</b> และ PSA 6.5 ng/mL — ถามขั้นต่อไป ต้องรู้ว่า DRE ผิดปกติเป็นข้อบ่งชี้ให้เจาะชิ้นเนื้อไม่ว่า PSA เท่าใด",
+  "why": "มะเร็งต่อมลูกหมากเกิดใน <b>peripheral zone</b> (~70%) ซึ่งคลำได้ทางทวารหนัก ลักษณะ<b>ก้อนแข็ง ขรุขระ ไม่สมมาตร</b> ต่างจาก BPH ที่เกิดใน transition zone และคลำได้นุ่มยืดหยุ่นเรียบ · <b>DRE ผิดปกติเป็นข้อบ่งชี้เจาะชิ้นเนื้อด้วยตัวเอง</b> (ไม่ว่า PSA เท่าใด เพราะมะเร็งเกรดสูงบางชนิดสร้าง PSA น้อย) และในรายนี้ PSA ยังสูงกว่า 4 ด้วย · PSA density = 6.5/30 ≈ <b>0.22 ng/mL/cc</b> สูงกว่าเกณฑ์ 0.15 ยิ่งสนับสนุนมะเร็ง · ขั้นตอนปัจจุบัน: <b>mpMRI ก่อนเจาะ</b>เพื่อใช้นำเข็ม แล้ว <b>biopsy</b> แบบ systematic + targeted (transperineal นิยมกว่าเพราะติดเชื้อน้อย) · ผลชิ้นเนื้อให้ ISUP grade group ใช้ร่วมกับ PSA และ clinical T stage (ก้อนคลำได้กลีบเดียว ≤ ครึ่งกลีบ = cT2a) แบ่งกลุ่มเสี่ยงแล้วจึง staging เพิ่มตามความเสี่ยง · ไฟล์ขีด D ลายมือ <b>\"R/O CA\"</b> และ <b>\"&gt;4\"</b> เหนือ PSA พร้อมดอกจันที่ก้อนแข็ง",
   "wrong": {
-   "A": "Uroflowmetry ประเมินการไหลของปัสสาวะใน LUTS/ BPH ไม่ช่วยวินิจฉัยมะเร็ง · จะถูกถ้าผู้ป่วยมี LUTS ต้องประเมินการอุดตัน",
-   "B": "Cystourethroscopy ดูท่อปัสสาวะ/ กระเพาะปัสสาวะ ไม่ได้ชิ้นเนื้อต่อมลูกหมาก · จะถูกถ้าผู้ป่วยมีปัสสาวะเป็นเลือดต้องหามะเร็งกระเพาะปัสสาวะ",
-   "C": "Bone scan ทำหลังวินิจฉัยมะเร็งแล้วเพื่อ staging (PSA &gt; 20/ Gleason ≥ 8/ มีอาการปวดกระดูก) · จะถูกถ้าชิ้นเนื้อยืนยันมะเร็ง PSA 40 ปวดหลัง",
-   "E": "ห้ามเฝ้าดูเมื่อ DRE แข็ง + PSA สูง · จะถูกถ้า PSA ปกติ DRE ปกติ ไม่มีอาการ (คัดกรองซ้ำ)"
+   "A": "Uroflowmetry วัดอัตราการไหลของปัสสาวะ (Qmax &lt; 10 mL/s บ่งการอุดกั้นหรือกระเพาะปัสสาวะบีบตัวอ่อน) ใช้ประเมิน LUTS แต่ผู้ป่วยไม่มีอาการ และไม่ช่วยวินิจฉัยก้อนแข็งในต่อม · จะถูกถ้าเป็นชาย 62 ปีปัสสาวะไม่พุ่ง ต้องเบ่ง IPSS 16 DRE ต่อมโตเรียบ PSA 1.8 ng/mL → uroflowmetry + post-void residual ก่อนเลือกการรักษา",
+   "B": "Cystourethroscopy ดูท่อปัสสาวะและกระเพาะปัสสาวะ ใช้หาเนื้องอกกระเพาะปัสสาวะ ท่อปัสสาวะตีบ หรือประเมินก่อนผ่าตัด BPH ไม่ได้ให้ชิ้นเนื้อของ peripheral zone ที่มีก้อน · จะถูกถ้าเป็นชาย 70 ปีสูบบุหรี่ ปัสสาวะเป็นเลือดสดไม่เจ็บ → CT urography + cystoscopy หามะเร็งทางเดินปัสสาวะ",
+   "C": "Bone scan เป็น staging หลังวินิจฉัยมะเร็งแล้วและมีความเสี่ยงแพร่กระจาย (PSA &gt; 20, ISUP grade ≥ 4/ Gleason ≥ 8, cT3 ขึ้นไป หรือปวดกระดูก) ยังไม่มีผลชิ้นเนื้อจึงทำก่อนไม่ได้ · จะถูกถ้าเป็นชาย 72 ปีผลชิ้นเนื้อ Gleason 4+5 PSA 45 ng/mL ปวดหลัง → bone scan + CT (หรือ PSMA PET)",
+   "E": "นัดติดตามทุกปีเหมาะกับผู้ที่ประเมินแล้วไม่พบมะเร็งหรือมีความเสี่ยงต่ำ การรอทั้งที่คลำได้ก้อนแข็งทำให้มะเร็งลุกลามจนพ้นระยะหายขาด · จะถูกถ้าเป็นชาย 62 ปี PSA 4.6 คงที่ DRE ปกติ mpMRI PI-RADS 2 และ PSA density &lt; 0.15 → ติดตาม PSA และ DRE เป็นระยะ"
   },
-  "trap": "ไม่มีอาการปัสสาวะจึงคิดว่าไม่ต้องทำอะไร — มะเร็งต่อมลูกหมากระยะแรกมักไม่มีอาการ ก้อนแข็งต้อง biopsy",
+  "trap": "ผู้ป่วยไม่มีอาการและ PSA สูงไม่มาก (6.5) จึงอาจเลือกติดตามหรือตรวจการไหลของปัสสาวะ · ตัวสำคัญคือ<b>ก้อนแข็งเหมือนไม้ที่กลีบเดียว</b> ซึ่งเป็นลักษณะมะเร็งบน DRE และเป็นข้อบ่งชี้เจาะชิ้นเนื้อเองแม้ PSA ปกติ · ส่วน bone scan ทำหลังได้ผลชิ้นเนื้อเท่านั้น",
   "summary": [
-   "DRE แข็ง/ ก้อน → biopsy (แม้ PSA ปกติ)",
-   "PSA &gt; 4 → ตรวจซ้ำ ± mpMRI → biopsy",
-   "มะเร็งมักเกิดที่ peripheral zone (คลำได้ทาง DRE)",
-   "Staging: Gleason/ ISUP · PSA · MRI · bone scan/ PSMA PET ตามความเสี่ยง",
-   "BPH เกิดที่ transition zone → LUTS",
-   "Uroflow/ cystoscopy ไม่ใช่การวินิจฉัยมะเร็งต่อมลูกหมาก"
+   "Zone: peripheral zone ~70% ของมะเร็ง (คลำได้) · transition zone ต้นกำเนิด BPH · central zone มะเร็งน้อยแต่ดุ",
+   "DRE สงสัยมะเร็ง: แข็ง ขรุขระ ก้อนเดี่ยว ไม่สมมาตร ขอบไม่ชัด seminal vesicle แข็ง → biopsy ไม่ว่า PSA เท่าใด",
+   "PSA density = PSA ÷ ปริมาตรต่อม · &gt; 0.15 ng/mL/cc สนับสนุนมะเร็ง ช่วยตัดสินใจเจาะเมื่อ MRI ก้ำกึ่ง (PI-RADS 3)",
+   "Clinical T: T1c พบจาก PSA คลำไม่ได้ · T2a ≤ ครึ่งกลีบ · T2b &gt; ครึ่งกลีบ · T2c สองกลีบ · T3 ทะลุแคปซูล/ seminal vesicle · T4 ลุกอวัยวะข้างเคียง",
+   "ISUP grade group 1–5 จาก Gleason (3+3 = 1, 3+4 = 2, 4+3 = 3, 8 = 4, 9–10 = 5) · ร่วมกับ PSA และ T แบ่ง low/ intermediate/ high risk",
+   "Staging ตามความเสี่ยง: low risk ไม่ต้องตรวจเพิ่ม · unfavorable intermediate/ high risk → bone scan + CT หรือ PSMA PET-CT ซึ่งไวกว่า",
+   "รักษา localized: low risk → active surveillance · intermediate/ high → radical prostatectomy หรือ radiotherapy (+ ADT ใน high risk) · ผู้ที่คาดชีวิตสั้น → watchful waiting"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับช้อย A คือ MRI prostate ซึ่งปัจจุบันก็เหมาะเป็นขั้นแรกก่อน biopsy",
-  "mnemonic": "<b>'ต่อมลูกหมาก \"เหมือนไม้\" + PSA สูง = Biopsy'</b>",
-  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2024; NCCN Prostate Cancer Early Detection v.2025",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด D พร้อมลายมือ R/O CA และ MCQ Key_1 ขีด D) · หมายเหตุ: ต้นฉบับมีช้อย MRI prostate ซึ่งตามแนวทางปัจจุบันมักทำก่อนเจาะ เว็บเรียบเรียงช้อยใหม่โดยตัด MRI ออกและเติม bone scan ทำให้คำตอบ D ชัดเจนขึ้น",
+  "mnemonic": "<b>'ก้อนแข็งเหมือนไม้ที่ต่อม = Biopsy (PSA เท่าไหร่ก็เจาะ)'</b>",
+  "guide": "EAU–EANM–ESTRO–ESUR–ISUP–SIOG Guidelines on Prostate Cancer 2025; NCCN Clinical Practice Guidelines in Oncology: Prostate Cancer Early Detection (current version)",
   "variants": [
-   "ชาย 60 ปี PSA 3 DRE แข็งเป็นก้อน → biopsy",
-   "biopsy Gleason 4+4 PSA 30 → bone scan/ PSMA PET",
-   "ชาย 70 ปี LUTS PSA 2 ต่อมเรียบโต → BPH → alpha-blocker"
+   "ชาย 70 ปี PSA 2.5 ng/mL แต่ DRE คลำได้ก้อนแข็งที่กลีบซ้าย → mpMRI + biopsy (DRE ผิดปกติเป็นข้อบ่งชี้เอง)",
+   "ผลชิ้นเนื้อ Gleason 3+3 ใน 2 จาก 12 core PSA 5 cT1c ชาย 63 ปี → low risk → active surveillance",
+   "ชาย 66 ปี PSA 7 ต่อมขนาด 80 mL (PSA density ~0.09) mpMRI PI-RADS 2 → อาจชะลอการเจาะและติดตาม PSA",
+   "ผลชิ้นเนื้อ Gleason 4+4 PSA 25 ng/mL → high risk → PSMA PET-CT หรือ bone scan + CT ก่อนวางแผนรักษา"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 77 — ตัวพิมพ์: <b>22. ผู้ป่วยชายอายุ 65 ปี ไม่มีอาการ LUTS คลำต่อมลูกหมากได้ประมาณ 30 กรัมมีก้อนแข็งลักษณะเหมือนเนื้อไม้ที่ต่อมด้านขวา PSA 6.5 ควรทำอะไรต่อ — A) MRI prostate B) Uroflow C) Cystourethroscope D) TRUS-Bx E) Follow up ทุก 1 ปี</b><br>ลายมือ: ดอกจันที่ \"ก้อนแข็ง\" · \"!\" หลังด้านขวาและหลัง PSA · \"&gt;4\" เหนือ PSA · ขีด D + \"R/O CA\"<br>ไฮไลต์: \"ชายอายุ 65 ปี\" \"ไม่มีอาการ LUTS\" \"ต่อมลูกหมากได้ประมาณ 30 กรัมมีก้อนแข็งลักษณะเหมือนเนื้อไม้ที่ต่อมด้านขวา PSA 6.5\" \"ทำอะไรต่อ\" · D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 65: ขีด D (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย A–C เรียบเรียงใหม่",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 77",
@@ -307,30 +325,32 @@
   ]
  },
  "MDCU68|RoC|24": {
-  "interp": "ชาย 35 ปี ตรวจคัดกรองพบ<b>เลือดในปัสสาวะโดยไม่มีอาการ</b> ทำ USG, cystoscopy, IVP แล้วไม่พบความผิดปกติ → ถามขั้นต่อไป",
-  "why": "Hematuria ต้อง<b>ตัดมะเร็ง</b>ทั้งทางเดินปัสสาวะ<b>ส่วนบน</b> (ไต ท่อไต) และ<b>ส่วนล่าง</b> (กระเพาะปัสสาวะ) · ส่วนล่าง: <b>cystoscopy</b> (เห็น CIS, รอยโรคแบนเล็กที่ CT มองไม่เห็น) · ส่วนบน: <b>CT urography</b> (multiphase + delayed excretory phase เห็น collecting system) ไวกว่า IVP/ US มาก → เมื่อ IVP/ US ไม่พบ ควรทำ CTU · แพ้สารทึบรังสี → MR urography หรือ retrograde pyelography + US/ CT ไม่ฉีดสี · ไฟล์ขีด D ลายมือ <b>\"CTU\"</b> \"R/O CA\" \"lower tr.\" และหมายเหตุลายมือ <b>\"Mx: ต้อง R/O malignancy → upper tr.: CT urography: CTWA + delayed phase (เห็น collecting system) · ถ้าแพ้ contrast → MR urography (MRU) … ∴ retrograde pyelography (RP) ไม่เห็น parenchyma ∴ + USG or CT non-contrast · → lower tr.: cystoscopy ∵ CA in situ, small papillary lesion มองไม่เห็นใน CT\"</b>",
+  "interp": "ชาย 35 ปีตรวจคัดกรองพบ<b>ปัสสาวะมีเลือดโดยไม่มีอาการ</b> ได้ตรวจ ultrasound, cystoscopy และ IVP แล้วไม่พบความผิดปกติ — ถามขั้นต่อไป ต้องรู้ว่า IVP ไม่ใช่การตรวจ upper tract มาตรฐานอีกต่อไป และบทบาทของ CT urography",
+  "why": "การตรวจ hematuria ต้องดูทั้ง<b>ทางเดินปัสสาวะส่วนบน (ไต กรวยไต ท่อไต)</b> และ<b>ส่วนล่าง (กระเพาะปัสสาวะ ท่อปัสสาวะ)</b> · ส่วนล่างใช้ <b>cystoscopy</b> (เห็น CIS และก้อน papillary เล็กที่ภาพรังสีพลาด) ซึ่งผู้ป่วยทำแล้ว · ส่วนบนปัจจุบันมาตรฐานคือ <b>CT urography</b> (ภาพก่อนฉีด + nephrographic + excretory/ delayed phase ให้สีเข้าระบบรวบรวมปัสสาวะ) ซึ่ง<b>ไวกว่า IVP มาก</b>ทั้งในก้อนเนื้อไต (renal cell carcinoma ขนาดเล็ก) เนื้องอก urothelium ส่วนบน และนิ่ว — IVP กับ ultrasound อาจพลาดก้อนเล็ก จึงเลิกใช้ IVP แล้ว · แพ้สารทึบรังสีหรือไตเสื่อม → MR urography หรือ retrograde pyelography ร่วมกับ ultrasound/ CT ไม่ฉีดสี · หลังตรวจครบแล้วปกติ ให้ตรวจ UA ซ้ำและหาสาเหตุจากไต (เม็ดเลือดแดงรูปร่างผิดปกติ โปรตีนรั่ว Cr สูง → ส่งอายุรแพทย์โรคไต) · ไฟล์ขีด D ลายมือ <b>\"; CTU\"</b> และหมายเหตุ <b>\"Mx: ต้อง R/O malignancy → upper tr.: CT urography … lower tr.: cystoscopy\"</b>",
   "wrong": {
-   "A": "ทำ IVP + cystoscopy ซ้ำทุก 3 เดือนไม่ใช่แนวทาง เพิ่มการรุกล้ำโดยไม่เพิ่มความไวส่วนบน · จะถูกถ้าคำถามถามการติดตามหลังตัดมะเร็งกระเพาะปัสสาวะ (cystoscopy ทุก 3 เดือน)",
-   "B": "ติดตาม UA ทำหลังประเมินครบแล้วไม่พบสาเหตุ · จะถูกถ้าทำ CTU + cystoscopy ปกติแล้ว (ติดตาม UA ประจำปี)",
-   "C": "Retrograde pyelogram รุกล้ำ ใช้เมื่อทำ CTU/ MRU ไม่ได้ หรือมีรอยโรคที่ต้องดูเพิ่ม · จะถูกถ้าผู้ป่วยแพ้สารทึบรังสีและทำ MRU ไม่ได้",
-   "E": "ติดตามใกล้ชิดก่อนประเมินส่วนบนให้ครบไม่เหมาะ · จะถูกถ้าคำถามถามหลังประเมินด้วย CTU และ cystoscopy ครบแล้ว"
+   "A": "การส่องกล้องและทำ IVP ซ้ำทุก 3 เดือนเป็นการตรวจซ้ำด้วยวิธีเดิมที่ไวต่ำ เพิ่มรังสีและหัตถการรุกล้ำโดยไม่ได้ข้อมูลใหม่ การส่องกล้องทุก 3 เดือนใช้ติดตามมะเร็งกระเพาะปัสสาวะที่วินิจฉัยแล้ว · จะถูกถ้าเป็นชาย 68 ปีหลัง TURBT มะเร็งกระเพาะปัสสาวะ high grade T1 ได้ BCG แล้ว → cystoscopy ทุก 3 เดือนใน 2 ปีแรก (upper tract ใช้ CT urography ไม่ใช่ IVP)",
+   "B": "ตรวจ UA ซ้ำทุก 3–6 เดือนเป็นการติดตามหลังประเมินครบแล้วปกติหรือในกลุ่มความเสี่ยงต่ำ แต่ในข้อนี้ upper tract ยังตรวจด้วยวิธีที่ไวต่ำ (IVP) จึงยังไม่นับว่าครบ · จะถูกถ้าเป็นชาย 35 ปีไม่สูบบุหรี่ ตรวจพบ microscopic hematuria 4 RBC/HPF ครั้งเดียว (AUA low risk) → ตรวจ UA ซ้ำภายใน 6 เดือน",
+   "C": "Retrograde pyelography ต้องดมยาสลบส่องกล้องฉีดสีเข้าท่อไต เห็นเฉพาะผนังด้านในของระบบรวบรวมปัสสาวะ ไม่เห็นเนื้อไต ใช้เมื่อฉีดสีเข้าเส้นไม่ได้ · จะถูกถ้าเป็นผู้ป่วย hematuria ที่แพ้สารทึบรังสีรุนแรงและ MRI ทำไม่ได้ (เช่นใส่เครื่องกระตุ้นหัวใจรุ่นเก่า) → retrograde pyelography ร่วมกับ ultrasound หรือ CT ไม่ฉีดสี",
+   "E": "การติดตามใกล้ชิดโดยไม่ตรวจเพิ่มทำให้อาจพลาดก้อนในไตหรือเนื้องอกทางเดินปัสสาวะส่วนบนที่ IVP มองไม่เห็น · จะถูกถ้าเป็นผู้ป่วยที่ตรวจครบมาตรฐานแล้ว (CT urography + cystoscopy ปกติ) ไม่มีปัจจัยเสี่ยง ไม่มีโปรตีนรั่วและไตทำงานปกติ → ติดตามด้วย UA เป็นระยะ"
   },
-  "trap": "IVP/ US ปกติแล้วคิดว่าประเมินส่วนบนครบ — CTU ไวกว่าและเป็นมาตรฐาน",
+  "trap": "ดูเหมือนตรวจครบทั้งส่วนบนและล่างแล้วจึงเลือกติดตาม · แต่ upper tract ตรวจด้วย <b>IVP + ultrasound ซึ่งไวต่ำและเลิกใช้แล้ว</b> CT urography จึงเป็นขั้นที่ขาด · ระวังอย่าเลือก cystoscopy/ IVP ซ้ำ ซึ่งเป็นวิธีเดิม",
   "summary": [
-   "Hematuria: ประเมินส่วนบน (CTU) + ส่วนล่าง (cystoscopy)",
-   "CTU: excretory phase ไวที่สุดสำหรับ upper tract urothelial CA",
-   "แพ้สารทึบ → MRU หรือ RPG + US/ CT ไม่ฉีดสี",
-   "Cystoscopy: เห็น CIS/ รอยโรคแบนที่ CT ไม่เห็น",
-   "AUA 2020: microhematuria ความเสี่ยงต่ำ → US + cystoscopy ตามความเสี่ยง",
-   "ประเมินครบปกติ → ติดตาม UA"
+   "Hematuria workup = upper tract imaging (CT urography) + lower tract (cystoscopy) · ultrasound ใช้แทนได้ในกลุ่มความเสี่ยงต่ำ/ ปานกลางตาม AUA",
+   "CT urography: ภาพก่อนฉีด (นิ่ว) + nephrographic (ก้อนเนื้อไต) + excretory (เนื้องอก urothelium ส่วนบน) · แทน IVP ที่ไวต่ำ",
+   "แพ้สี/ eGFR ต่ำ → MR urography (ระวัง gadolinium ใน eGFR &lt; 30) หรือ retrograde pyelography + ultrasound/ CT ไม่ฉีดสี",
+   "AUA microhematuria (≥ 3 RBC/HPF): low risk (หญิง &lt; 50, ชาย &lt; 40, ไม่สูบ/ &lt; 10 pack-yr, 3–10 RBC/HPF) → UA ซ้ำหรือ cystoscopy + US · intermediate → cystoscopy + US · high (ชาย ≥ 60, &gt; 30 pack-yr, &gt; 25 RBC/HPF, gross hematuria) → cystoscopy + CT urography",
+   "ก่อนเริ่ม workup: ตัดสาเหตุชั่วคราว (UTI ประจำเดือน ออกกำลังหนัก การบาดเจ็บ) และตรวจ UA ยืนยันด้วยกล้องจุลทรรศน์ ไม่ใช้ dipstick อย่างเดียว",
+   "สาเหตุจากไต (glomerular): เม็ดเลือดแดงรูปร่างผิดปกติ red cell cast โปรตีนรั่ว Cr สูง ความดันสูง → ส่งอายุรแพทย์โรคไต (เช่น IgA nephropathy)",
+   "Workup ครบแล้วปกติ: ตรวจ UA ซ้ำภายใน 12 เดือน · ถ้ายังมีเลือดหรือมี gross hematuria/ อาการใหม่ → ประเมินซ้ำ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ CTU · ต้นฉบับมีช้อย D ซ้ำ 2 ข้อ (CT scan / Close F/U) เว็บจัดเป็น D, E",
-  "mnemonic": "<b>'Hematuria = CTU (บน) + Cysto (ล่าง)'</b>",
-  "guide": "AUA/SUFU Guideline: Microhematuria (2020); EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma 2024",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด D พร้อมลายมือ CTU และหมายเหตุแผน R/O malignancy และ MCQ Key_1 ขีด D) · เหตุผลคือ IVP ไวต่ำและถูกแทนด้วย CT urography · ข้อสังเกต: ชาย 35 ปีที่ microscopic hematuria เล็กน้อยไม่มีปัจจัยเสี่ยงจัดเป็น low risk ตาม AUA ซึ่งการติดตาม UA ก็ยอมรับได้ แต่โจทย์ไม่ระบุจำนวนเม็ดเลือด จึงยึดตามคีย์",
+  "mnemonic": "<b>'Hematuria = 2C (CT urography + Cystoscopy) · IVP = เลิกแล้ว'</b>",
+  "guide": "Barocas DA, et al. Microhematuria: AUA/SUFU Guideline (J Urol 2020;204:778–786); EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma 2025",
   "variants": [
-   "ชายสูบบุหรี่ gross hematuria → CTU + cystoscopy",
-   "แพ้สารทึบรังสี + hematuria → MRU หรือ RPG + US",
-   "CTU พบ filling defect ใน renal pelvis → ureteroscopy + biopsy"
+   "ชาย 62 ปีสูบบุหรี่ 40 pack-year UA 30 RBC/HPF → high risk → CT urography + cystoscopy",
+   "CT urography พบก้อนเติมเต็มไม่ได้ (filling defect) ในกรวยไตซ้าย cytology พบเซลล์ผิดปกติ → ureteroscopy + biopsy สงสัย upper tract urothelial carcinoma",
+   "หญิง 25 ปี hematuria หลังเป็นหวัด 2 วัน UA มีเม็ดเลือดแดงรูปร่างผิดปกติและโปรตีนรั่ว → IgA nephropathy ส่งอายุรแพทย์โรคไต",
+   "ชาย 30 ปีพบเลือดในปัสสาวะหลังวิ่งมาราธอน ตรวจซ้ำ 1 สัปดาห์ต่อมาปกติ → exercise-induced hematuria ไม่ต้องตรวจเพิ่ม"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 77 — ตัวพิมพ์: <b>24. Male 35 yr screening asymptomatic hematuria ทำ USG, Cystoscope, IVP What is next management? — A) Repeat IVP, Cystoscope q 3 months B) F/U UA q 3-6 months C) Retrogradepyelogram D) CT scan D) Close F/U</b><br>ลายมือ: \"R/O CA\" เหนือ hematuria · \"lower tr.\" ที่ Cystoscope · ขีด D + \"; CTU\" · หมายเหตุลายมือเล็ก \"Mx: ต้อง R/O malignancy → upper tr.: CT urography: CTWA + delayed phase (เห็น collecting system) · ถ้าแพ้ contrast → MR urography (MRU) แต่ถ้าไม่ได้เพราะเป็น systemic sclerosis ∴ ทำ retrograde pyelography (RP) ไม่เห็น parenchyma ∴ + USG or CT non-contrast · → lower tr.: cystoscopy ∵ CA in situ, small papillary lesion, lesion แบน มองไม่เห็นใน CT\"<br>ไฮไลต์: \"Male 35 yr\" \"screening asymptomatic hematuria\" \"ทำ USG, Cystoscope, IVP\" \"next management\" · D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 65: ขีด D (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 77",

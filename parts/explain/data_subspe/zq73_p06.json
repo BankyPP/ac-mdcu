@@ -1,229 +1,408 @@
 {
  "MDCU73|RoD|Plastic 5": {
-  "interp": "รูปเพดานปากเด็กมีลิ้นไก่แฉก (bifid uvula) ชวนสงสัย submucous cleft palate → ภาวะแทรกซ้อนที่จำเพาะที่สุด",
-  "why": "ไฟล์มีแค่รูปและคำว่า <b>ถามภาวะแทรกซ้อน</b> — โจทย์แต่งจากรูป<br><b>นอกสไลด์:</b> รูปเห็นลิ้นไก่แยกเป็นสองแฉกชัด · submucous cleft: เยื่อบุปิดอยู่แต่กล้ามเนื้อ levator veli palatini ไม่ได้ต่อกันกลางเพดาน จึงยกเพดานอ่อนปิดช่องจมูกตอนพูดไม่สนิท → velopharyngeal insufficiency (เสียงขึ้นจมูก ลมออกจมูก น้ำไหลออกจมูกตอนดื่ม)",
+  "interp": "รูปเพดานปากของเด็กที่มี <b>bifid uvula</b> (ลิ้นไก่แยกสองแฉก) ซึ่งชี้ไปทาง <b>submucous cleft palate</b> — ถามภาวะแทรกซ้อนที่เป็นลักษณะเฉพาะของโรค ต้องเข้าใจว่ากล้ามเนื้อเพดานอ่อนผิดปกติแม้เยื่อบุจะปิดสนิท",
+  "why": "Submucous cleft palate คือเพดานโหว่ที่<b>เยื่อบุปิดสนิทแต่กล้ามเนื้อและกระดูกข้างใต้ไม่เชื่อมกัน</b> · วินิจฉัยด้วย <b>Calnan triad</b>: ① bifid uvula ② zona pellucida (แนวกลางเพดานอ่อนบางใสสีฟ้า เพราะกล้ามเนื้อไม่มาประสานกัน) ③ รอยบากที่ขอบหลังของเพดานแข็ง (คลำได้) · กล้ามเนื้อ <b>levator veli palatini</b> ไม่ได้ประสานเป็นสลิงกลางเพดาน แต่ไปเกาะผิดที่ขอบหลังเพดานแข็ง เพดานอ่อนจึงยกขึ้นปิดช่อง nasopharynx ไม่ได้ เกิด <b>velopharyngeal insufficiency (VPI)</b>: เสียงขึ้นจมูก (hypernasality) ลมรั่วออกจมูกขณะพูด และอาหารเหลวย้อนออกจมูก · ภาวะอื่นที่พบร่วมคือ eustachian tube ทำงานผิดปกติ (tensor veli palatini) → middle ear effusion และ <b>conductive</b> hearing loss · คนที่มี bifid uvula ส่วนใหญ่ไม่มีอาการ รักษาเฉพาะเมื่อมี VPI ด้วย speech therapy ประเมินด้วย nasendoscopy แล้วผ่าตัด Furlow double-opposing Z-plasty หรือ pharyngeal flap · ไฟล์มีเพียงรูปช่องปากที่เปิดด้วย mouth gag และเขียนว่า <b>\"ถามภาวะแทรกซ้อน\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> การได้ยินลดในเพดานโหว่ส่วนใหญ่เป็นแบบ conductive · จะถูกถ้าเด็กเพดานโหว่ร่วมสายตาสั้นมากและข้อหลวม (Stickler syndrome) — มี sensorineural hearing loss ร่วม",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกตัวโต มีไส้เลื่อนสะดือหรือ omphalocele และน้ำตาลในเลือดต่ำ (Beckwith–Wiedemann)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเคยฉายรังสีบริเวณศีรษะลำคอจนกล้ามเนื้อเคี้ยวเป็นพังผืด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทอนซิลอักเสบซ้ำเป็นภาวะแทรกซ้อนของ submucous cleft เพราะความผิดปกติอยู่ที่กล้ามเนื้อเพดานอ่อน ไม่เกี่ยวกับต่อมทอนซิล"
+   "B": "ปัญหาการได้ยินในเพดานโหว่เป็นชนิด <b>conductive</b> จากหูชั้นกลางมีน้ำ (eustachian tube เปิดไม่ได้เพราะ tensor veli palatini ผิดปกติ) ไม่ใช่ sensorineural — จะถูกถ้าเป็น (sensorineural) ทารกที่แม่ติดเชื้อ CMV หรือหัดเยอรมันขณะตั้งครรภ์ แล้วตรวจคัดกรองการได้ยินแรกเกิด (OAE/ ABR) ไม่ผ่านทั้งสองข้าง",
+   "C": "Macroglossia (ลิ้นโต) ไม่ใช่ผลของเพดานโหว่ แต่พบใน Beckwith–Wiedemann syndrome, congenital hypothyroidism, Down syndrome (ลิ้นโตเมื่อเทียบกับช่องปาก) — จะถูกถ้าเป็นทารกแรกเกิดตัวโต ลิ้นโตยื่นออกนอกปาก มี omphalocele และน้ำตาลในเลือดต่ำ (Beckwith–Wiedemann) หรือทารกตัวเหลืองนาน ท้องผูก กระหม่อมหลังกว้าง",
+   "D": "Trismus (อ้าปากไม่ขึ้น) เกิดจากกล้ามเนื้อบดเคี้ยวหรือข้อต่อขากรรไกรผิดปกติ เช่น บาดทะยัก ฟันคุดอักเสบ ฝีรอบคอหอย ข้อต่อขากรรไกรยึด ไม่ใช่ภาวะของเพดานโหว่ — จะถูกถ้าเป็นชาย 25 ปีปวดบวมรอบฟันกรามล่างซี่สุดท้าย มีไข้ และอ้าปากได้ไม่ถึงหนึ่งนิ้วมือ (pericoronitis ของฟันคุด)",
+   "E": "ต่อมทอนซิลอักเสบซ้ำไม่สัมพันธ์กับ submucous cleft และที่สำคัญคือการตัด<b>ต่อมอะดีนอยด์</b>ในเด็กที่มี submucous cleft อาจทำให้ VPI แย่ลง — จะถูกถ้าเป็นเด็ก 8 ขวบเจ็บคอมีไข้ ทอนซิลมีหนองซ้ำ ๆ 7 ครั้งในปีที่ผ่านมา (เข้าเกณฑ์ Paradise พิจารณา tonsillectomy)"
   },
-  "trap": "หูชั้นกลางมีน้ำจาก eustachian tube ทำงานผิดพบบ่อยในเพดานโหว่ — แต่การได้ยินลดเป็น conductive ไม่ใช่ sensorineural",
+  "trap": "เพดานโหว่สัมพันธ์กับปัญหาการได้ยินจริงจึงเลือก hearing loss · แต่ชนิดที่พบคือ <b>conductive</b> (หูชั้นกลางมีน้ำ) ไม่ใช่ sensorineural · ภาวะที่<b>เป็นลักษณะเฉพาะ</b>ของ submucous cleft คือ VPI เพราะกล้ามเนื้อ levator ไม่ประสานกัน แม้มองเยื่อบุแล้วดูปิดดี",
   "summary": [
-   "<b>นอกสไลด์:</b> Triad ของ submucous cleft: ลิ้นไก่แฉก · แนวสีฟ้าใสกลางเพดานอ่อน (zona pellucida) · รอยบากที่ขอบหลังเพดานแข็ง · ส่วนใหญ่ไม่มีอาการ ผ่าตัดเมื่อเกิด VPI เท่านั้น"
+   "Calnan triad ของ submucous cleft: bifid uvula, zona pellucida (แนวกลางเพดานอ่อนบางใส), notch ขอบหลังเพดานแข็ง",
+   "Bifid uvula พบได้ราว 1–2% ของประชากร ส่วนใหญ่ไม่มีอาการ · รักษาเฉพาะรายที่มี VPI",
+   "VPI: เสียงขึ้นจมูก ลมรั่วออกจมูกขณะพูด อาหารเหลวย้อนออกจมูก · ประเมินด้วย perceptual speech, nasendoscopy, videofluoroscopy",
+   "รักษา VPI: speech therapy → ผ่าตัด Furlow double-opposing Z-plasty หรือ intravelar veloplasty (จัด levator ใหม่) · ไม่ได้ผล → pharyngeal flap/ sphincter pharyngoplasty",
+   "Cleft palate ทุกชนิด: eustachian tube ทำงานผิดปกติ → otitis media with effusion → conductive hearing loss · มักต้องใส่ท่อระบายหู (ventilation tube)",
+   "หลีกเลี่ยง adenoidectomy ใน submucous cleft เพราะอะดีนอยด์ช่วยอุดช่อง velopharynx ตัดแล้ว VPI แย่ลง",
+   "Cleft palate ทั่วไปซ่อมราว 9–18 เดือน (ก่อนเริ่มพูด) · cleft lip ราว 3 เดือน (rule of 10s ดั้งเดิม)"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ (มีแค่รูป) — ตอบ VPI ซึ่งเป็นภาวะที่จำเพาะที่สุด · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A (velopharyngeal insufficiency) ความมั่นใจปานกลางถึงสูง — เป็นภาวะแทรกซ้อนเด่นของ submucous cleft palate ตามตำรา · ไฟล์มีเพียงรูปและคำว่าถามภาวะแทรกซ้อน ไม่มีโจทย์และช้อยเดิม รูปไม่ชัดว่าก่อนหรือหลังผ่าตัด เว็บจึงตีความจาก bifid uvula ถ้ารูปเป็นเพดานหลังซ่อม คำตอบอาจเป็น oronasal fistula หรือ VPI หลังผ่าตัด",
+  "mnemonic": "<b>'ลิ้นไก่แฉก = เพดานใต้เยื่อโหว่ → เสียงขึ้นจมูก (VPI) · หูเป็นแบบ Conductive'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Cleft palate and velopharyngeal dysfunction; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กที่มีลิ้นไก่แฉกจะผ่าตัดต่อมอดีนอยด์ → ระวังเสียงขึ้นจมูกหลังผ่าตัด (อดีนอยด์ช่วยปิดช่องหลังจมูกอยู่)",
-   "<b>นอกสไลด์:</b> เด็กเพดานโหว่ซ่อมแล้ว พูดเสียงขึ้นจมูก น้ำไหลออกจมูกตอนดื่ม → VPI ประเมินด้วย nasendoscopy แล้วผ่าตัดแก้ (เช่น pharyngeal flap)"
-  ]
+   "เด็ก 4 ขวบพูดเสียงขึ้นจมูก ดื่มนมแล้วไหลออกจมูก ตรวจพบลิ้นไก่แฉกและคลำได้รอยบากที่ขอบหลังเพดานแข็ง → submucous cleft palate with VPI → speech therapy และ Furlow palatoplasty",
+   "เด็ก submucous cleft มีหูอื้อ tympanogram แบนสองข้าง → otitis media with effusion → ventilation tube",
+   "เด็กมีลิ้นไก่แฉก นอนกรนจากอะดีนอยด์โต แพทย์วางแผนตัดอะดีนอยด์ → ประเมิน VPI ก่อน และพิจารณาตัดบางส่วนเพราะอาจทำให้เสียงขึ้นจมูกมากขึ้น",
+   "ทารกเพดานโหว่ คางเล็ก ลิ้นตกไปด้านหลังอุดทางเดินหายใจ → Pierre Robin sequence → จัดท่านอนคว่ำ/ mandibular distraction"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 3 — ตัวพิมพ์: <b>(รูปช่องปาก เปิดด้วย mouth gag) ถามภาวะแทรกซ้อน</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์มีแค่รูปและเขียนว่า ถามภาวะแทรกซ้อน ไม่มีโจทย์/ช้อย → Claude แต่งทั้งข้อจากรูป · รูปไม่ชัดว่าเป็นก่อนหรือหลังผ่าตัด",
+  "src": "S73DQ · หน้า 3",
+  "kimg": []
  },
  "MDCU73|RoD|Uro 1": {
-  "interp": "หญิงสูงอายุเบาหวาน มี peripheral neuropathy ปัสสาวะบ่อยและหยด คลำกระเพาะปัสสาวะโป่งเหนือหัวหน่าว → ถามการวินิจฉัย",
-  "why": "ลายมือในคีย์วง A เขียน <b>neurogenic bladder</b> — เห็นด้วยว่าเป็น neurogenic bladder แต่ชนิดที่พบในเบาหวานคือกระเพาะบีบตัวอ่อน<br><b>นอกสไลด์:</b> Diabetic cystopathy: เส้นประสาทรับความรู้สึกเสีย ไม่รู้สึกปวดปัสสาวะ กระเพาะขยายและบีบตัวอ่อน ปัสสาวะค้างมาก จนล้นออกเป็นหยด (overflow) — ปัสสาวะบ่อยที่เห็นคือการล้นทีละน้อย ไม่ใช่กระเพาะไวเกิน",
+  "interp": "หญิงสูงอายุเป็น<b>เบาหวานร่วมกับ peripheral neuropathy</b> มาด้วยปัสสาวะบ่อยและหยด และ<b>คลำได้กระเพาะปัสสาวะโป่งเหนือหัวหน่าว</b> — ถามการวินิจฉัยชนิดของภาวะกลั้นปัสสาวะไม่อยู่ ซึ่งต้องใช้ข้อมูลกระเพาะโป่ง (ปัสสาวะค้าง) เป็นตัวแยก",
+  "why": "<b>Diabetic cystopathy</b> เป็น neurogenic bladder จาก autonomic และ sensory neuropathy ของเบาหวาน: เส้นประสาทรับความรู้สึกเสียก่อน ผู้ป่วย<b>ไม่รู้สึกปวดปัสสาวะ</b> กระเพาะจึงยืดจุมากขึ้นเรื่อย ๆ แล้ว detrusor บีบตัวอ่อน (<b>detrusor underactivity</b>) ปัสสาวะค้างมาก (PVR สูง) เมื่อแรงดันในกระเพาะเกินแรงต้านของหูรูดจะ<b>ล้นออกทีละน้อย</b> = <b>overflow incontinence</b> ที่ดูเหมือนปัสสาวะบ่อยและหยดตลอด · การคลำได้กระเพาะเหนือหัวหน่าว (ปกติต้องมีปัสสาวะราว 150–300 mL ขึ้นไปจึงคลำได้) คือหลักฐานปัสสาวะค้าง · ยืนยันด้วยวัด <b>PVR (bladder scan/ สวนปัสสาวะ)</b> และ urodynamics · ต้องตรวจ creatinine และ ultrasound ไต (hydronephrosis) · รักษาด้วย <b>clean intermittent catheterization (CIC)</b> ฝึกปัสสาวะตามเวลาและเบ่งช่วย (double voiding) หยุดยาที่ทำให้ปัสสาวะค้าง · ไฟล์วงช้อย A พร้อมลายมือ <b>\"neurogenic bladder\"</b> ซึ่งถูกว่าเป็น neurogenic แต่ชนิดในเบาหวานคือกระเพาะบีบตัวอ่อนแบบล้น",
   "wrong": {
-   "A": "ข้อที่คีย์เลือก · <b>นอกสไลด์:</b> จะถูกถ้าหญิงสูงอายุปวดปัสสาวะรีบจนกลั้นไม่ทัน ปัสสาวะเหลือค้างน้อย คลำกระเพาะไม่ได้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงคลอดบุตรหลายคนปัสสาวะเล็ดเวลาไอ จาม ยกของ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงหลังผ่าตัดมดลูกมีปัสสาวะไหลออกทางช่องคลอดตลอดเวลา",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงปวดท้องน้อยเวลากระเพาะเต็มและดีขึ้นหลังปัสสาวะ ปัสสาวะบ่อย เพาะเชื้อไม่ขึ้น"
+   "A": "Overactive bladder คือปวดปัสสาวะรีบ (urgency) ± กลั้นไม่ทัน ปัสสาวะบ่อย ตื่นมาปัสสาวะกลางคืน โดย<b>ปัสสาวะค้างน้อย คลำกระเพาะไม่ได้</b> · neurogenic detrusor overactivity พบในรอยโรคเหนือ sacral cord ไม่ใช่ neuropathy ส่วนปลายของเบาหวาน — จะถูกถ้าเป็นหญิง 65 ปีปวดปัสสาวะรีบจนเข้าห้องน้ำไม่ทัน วันละ 12 ครั้ง ตื่นกลางคืน 3 ครั้ง UA ปกติ PVR 30 mL",
+   "C": "Stress urinary incontinence คือปัสสาวะเล็ด<b>เมื่อความดันในช่องท้องเพิ่ม</b> (ไอ จาม หัวเราะ ยกของ) จากหูรูดหรือพื้นเชิงกรานหย่อน ไม่มีกระเพาะโป่ง — จะถูกถ้าเป็นหญิง 50 ปีคลอดบุตรทางช่องคลอด 4 คน ปัสสาวะเล็ดทุกครั้งที่ไอหรือยกของ ไม่มีปวดรีบ cough stress test เห็นปัสสาวะออกพร้อมการไอ",
+   "D": "Vesicovaginal fistula ทำให้ปัสสาวะไหลออกทางช่องคลอด<b>ตลอดเวลาทั้งกลางวันกลางคืน</b> โดยกระเพาะว่าง เพราะปัสสาวะไม่ได้เก็บในกระเพาะ — จะถูกถ้าเป็นหญิง 45 ปีที่ 2 สัปดาห์หลังผ่าตัดมดลูกทางหน้าท้อง มีน้ำปัสสาวะไหลซึมจากช่องคลอดตลอดเวลา ใส่ methylene blue ในกระเพาะแล้วผ้าก๊อซในช่องคลอดเปื้อนสีฟ้า",
+   "E": "Interstitial cystitis/ bladder pain syndrome คืออาการ<b>ปวดท้องน้อยเมื่อกระเพาะเต็มและดีขึ้นหลังปัสสาวะ</b> ร่วมกับปัสสาวะบ่อย โดยเพาะเชื้อไม่ขึ้น เป็นการวินิจฉัยโดยแยกโรคอื่นออก ไม่มีปัสสาวะค้าง — จะถูกถ้าเป็นหญิง 40 ปีปวดหน่วงท้องน้อยเรื้อรัง ปัสสาวะวันละ 15 ครั้ง ปวดมากขึ้นเมื่อกลั้น เพาะเชื้อไม่ขึ้นหลายครั้ง ส่องกล้องพบ Hunner lesion"
   },
-  "trap": "คีย์เดิมตอบ overactive bladder เพราะเห็นปัสสาวะบ่อย — แต่คลำกระเพาะได้ = ปัสสาวะค้าง",
+  "trap": "คีย์ในไฟล์เลือก overactive bladder เพราะเห็นคำว่าปัสสาวะบ่อย และลายมือเขียน neurogenic bladder ซึ่งชวนให้นึกถึงกระเพาะไวเกิน · แต่<b>คลำได้กระเพาะโป่ง = ปัสสาวะค้าง</b> ซึ่งตรงข้ามกับ OAB · neurogenic bladder มีทั้งชนิดไวเกิน (รอยโรคไขสันหลังเหนือ sacral) และชนิดบีบตัวอ่อน (sacral/ peripheral neuropathy เช่นเบาหวาน)",
   "summary": [
-   "<b>นอกสไลด์:</b> วินิจฉัยด้วยวัดปัสสาวะค้างหลังถ่าย (bladder scan/สวน) · รักษาด้วยสวนปัสสาวะเป็นระยะ (CIC) และฝึกถ่ายตามเวลา"
+   "ชนิด incontinence: stress (ไอ จาม) · urge/ OAB (ปวดรีบ) · mixed · overflow (ปัสสาวะค้าง ล้นหยด) · functional (เดินไปห้องน้ำไม่ทัน สมองเสื่อม) · continuous (fistula)",
+   "Diabetic cystopathy: ความรู้สึกปวดปัสสาวะลด → ความจุเพิ่ม → detrusor บีบอ่อน → PVR สูง → overflow, UTI ซ้ำ, ไตเสื่อมจากการอุดกั้น",
+   "Neurogenic bladder ตามตำแหน่ง: สมองเหนือ pons → detrusor overactivity แต่หูรูดประสานงานดี · ไขสันหลังระหว่าง pons กับ sacral → overactivity + detrusor–sphincter dyssynergia · sacral/ peripheral → detrusor underactivity",
+   "ประเมิน: วัด PVR (bladder scan) · UA/ เพาะเชื้อ · creatinine · ultrasound ไต · urodynamics เมื่อจะรักษาเจาะจง",
+   "รักษา overflow จาก detrusor อ่อน: clean intermittent catheterization วันละ 4–6 ครั้ง · double voiding/ timed voiding · หยุดยา anticholinergic, opioid · หญิงไม่ใช้ alpha-blocker เป็นหลัก",
+   "OAB first line: ปรับพฤติกรรม (bladder training, ลดคาเฟอีน จัดน้ำดื่ม) → antimuscarinic หรือ beta-3 agonist (mirabegron) · ต้องตรวจ PVR ก่อนให้ยา antimuscarinic",
+   "ชายสูงอายุ overflow มักมาจาก BPH อุดกั้น · ใส่สายสวนระบายและระวัง post-obstructive diuresis"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ A — กระเพาะโป่งในผู้ป่วยเบาหวานชี้ overflow จาก detrusor บีบตัวอ่อน · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ในเว็บ (overflow incontinence) ความมั่นใจสูง — ต่างจากคีย์ในไฟล์ที่วง A (overactive bladder) และเขียน neurogenic bladder · ลายมือถูกในแง่ว่าเป็น neurogenic bladder แต่ neuropathy ของเบาหวานทำให้ detrusor บีบอ่อน ร่วมกับกระเพาะโป่งที่คลำได้ จึงเป็นภาพของ overflow ไม่ใช่กระเพาะไวเกิน · ไฟล์มีเพียงช้อย A และ B เว็บเติม C–E",
+  "mnemonic": "<b>'เบาหวาน + คลำกระเพาะได้ = ล้น (Overflow) → สวนเป็นระยะ (CIC)'</b>",
+  "guide": "Campbell-Walsh-Wein Urology 12th ed. (2020) — Neuromuscular dysfunction of the lower urinary tract; AUA/SUFU Guideline on Overactive Bladder (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายสูงอายุ BPH ปัสสาวะหยดตลอด กระเพาะโป่ง creatinine สูง → chronic retention: ใส่สายสวนระบาย ระวังปัสสาวะออกมากหลังปลดการอุดกั้น",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุเริ่มยา anticholinergic แล้วปัสสาวะไม่ออก → ทบทวนและหยุดยา"
+   "ชายเบาหวาน 20 ปี UTI ซ้ำ 3 ครั้งในปีนี้ ไม่รู้สึกปวดปัสสาวะ PVR 600 mL ไตบวมน้ำสองข้าง → diabetic cystopathy → ใส่สายระบายแล้วฝึก clean intermittent catheterization",
+   "ผู้ป่วยบาดเจ็บไขสันหลังระดับอก 6 เดือน ปัสสาวะเล็ดฉับพลัน urodynamics มี detrusor บีบไม่ประสานกับหูรูด → detrusor–sphincter dyssynergia → CIC ร่วม antimuscarinic หรือ botulinum toxin ฉีดกระเพาะ",
+   "หญิงสูงอายุ OAB ได้ oxybutynin แล้วปัสสาวะไม่ออก ท้องน้อยโป่ง → urinary retention จาก anticholinergic → สวนปัสสาวะและหยุดยา (พิจารณา mirabegron)",
+   "ทำไมต้องวัด PVR ก่อนให้ยารักษา OAB → แยก overflow ที่อาการคล้ายกันออก เพราะยา antimuscarinic ทำให้ปัสสาวะค้างมากขึ้นจนคั่ง"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 4 — ตัวพิมพ์: <b>Female แก่ ๆ with DM with peripheral neuropathy presented with frequency urination. PE : คลำได้ที่ suprapubic area — A. overactive bladder B. overflow incontinence</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไม่ตรงกับคีย์ P'Ing (A overactive bladder, ลายมือ neurogenic bladder) · neurogenic bladder ใน DM มักเป็นชนิด underactive → overflow · ไฟล์มี 2 ช้อย → เติม C–E",
+  "src": "S73DQ · หน้า 4",
+  "kimg": [
+   "kp73d_uro1"
   ]
  },
  "MDCU73|RoD|Uro 2": {
-  "interp": "ข้อ LEAST: ภาวะใด <b>น่าจะเป็นสาเหตุน้อยที่สุด</b> ของปัสสาวะเป็นเลือดสดไม่เจ็บ",
-  "why": "ลายมือในคีย์: <b>B ✗ RCC</b> (มี ? หน้าข้อ) · <b>A ✓ TCC · C ✓ D ✓ E ✓</b> — เราไม่ใช้คีย์นี้ ·<br><b>นอกสไลด์:</b> มะเร็งต่อมลูกหมากระยะแรกเกิดที่ peripheral zone ห่างจากท่อปัสสาวะ จึงไม่มีอาการ — ปัสสาวะเป็นเลือดเกิดเมื่อโรคลุกลามเฉพาะที่แล้ว · RCC ทำให้เลือดออกได้เมื่อก้อนลุกเข้า collecting system",
+  "interp": "ถามภาวะที่<b>มีโอกาสน้อยที่สุด</b>ที่จะทำให้ <b>painless gross hematuria</b> — ช้อยทุกข้อเป็นโรคทางเดินปัสสาวะ จึงต้องรู้ตำแหน่งของโรคเทียบกับท่อปัสสาวะ/ collecting system และระยะที่เลือดออก",
+  "why": "เลือดออกในปัสสาวะต้องมีรอยโรคที่<b>สัมผัสเยื่อบุทางเดินปัสสาวะ</b> · <b>มะเร็งต่อมลูกหมากระยะแรก</b>ราว 70% เกิดใน <b>peripheral zone</b> ด้านหลังซึ่งห่างจาก urethra จึง<b>ไม่มีอาการ</b> พบจาก PSA หรือคลำทางทวารหนัก · จะมีเลือดออกเมื่อลุกลามถึง bladder neck หรือ urethra ซึ่งเป็นระยะท้าย · ตรงข้ามกับ: <b>มะเร็งกระเพาะปัสสาวะ</b>เป็นสาเหตุสำคัญที่สุดของ painless gross hematuria ในผู้สูงอายุสูบบุหรี่ · <b>RCC</b> มีเลือดออกเมื่อก้อนลุก collecting system (triad ปวดเอว ก้อน ปัสสาวะเลือด พบไม่ถึงราว 10% และปัจจุบันส่วนใหญ่พบโดยบังเอิญ) · <b>BPH</b> มีหลอดเลือดเปราะผิว prostatic urethra จึงเป็นสาเหตุเลือดออกที่พบบ่อยในชายสูงอายุ · urethral cancer พบน้อยแต่มาด้วยเลือดออกจากท่อได้ · ไฟล์วงช้อย <b>B (RCC)</b> มีเครื่องหมาย ✗ ที่ RCC และ ✓ ที่ข้ออื่นทุกข้อ พร้อม \"?\" หน้าข้อ แสดงว่าผู้จดไม่แน่ใจ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นสาเหตุน้อยกว่า early prostate cancer เพราะมะเร็งต่อมลูกหมากระยะแรกอยู่ peripheral zone แทบไม่ทำให้เลือดออกในผู้ป่วยทุกกลุ่ม — ส่วน bladder cancer เป็นสาเหตุอันดับหนึ่งในผู้ใหญ่",
-   "B": "ข้อที่คีย์เลือก · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นสาเหตุน้อยกว่า early prostate cancer เพราะมะเร็งต่อมลูกหมากระยะแรกอยู่ peripheral zone แทบไม่ทำให้เลือดออกในผู้ป่วยทุกกลุ่ม — ส่วน RCC เลือดออกเมื่อก้อนลุกเข้า collecting system",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นสาเหตุน้อยกว่า early prostate cancer เพราะมะเร็งต่อมลูกหมากระยะแรกอยู่ peripheral zone แทบไม่ทำให้เลือดออกในผู้ป่วยทุกกลุ่ม — ส่วนมะเร็งท่อปัสสาวะแม้พบน้อยแต่เลือดออกเป็นอาการเด่น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นสาเหตุน้อยกว่า early prostate cancer เพราะมะเร็งต่อมลูกหมากระยะแรกอยู่ peripheral zone แทบไม่ทำให้เลือดออกในผู้ป่วยทุกกลุ่ม — ส่วน BPH เลือดออกจากหลอดเลือดเปราะบนผิวต่อมที่โต"
+   "A": "มะเร็งกระเพาะปัสสาวะ (urothelial carcinoma) เป็นสาเหตุที่<b>พบบ่อยและสำคัญที่สุด</b>ของ painless gross hematuria ราว 80–90% ของผู้ป่วยมาด้วยอาการนี้ และเลือดมักออกเป็นพัก ๆ — จะถูกถ้าเป็นชาย 68 ปีสูบบุหรี่ 40 ปี ปัสสาวะเป็นเลือดสดตลอดสายไม่เจ็บ 3 ครั้งในเดือนนี้แล้วหายเอง ซึ่งต้องนึกถึงมะเร็งกระเพาะปัสสาวะเป็นอันดับแรก",
+   "B": "RCC ทำให้ gross hematuria ได้เมื่อก้อนลุกเข้าระบบ collecting system แม้ปัจจุบันส่วนใหญ่พบโดยบังเอิญจากภาพถ่ายช่องท้อง และ triad คลาสสิกพบไม่บ่อย จึงยังเป็นสาเหตุจริงของ painless hematuria — จะถูกถ้าเป็นชาย 60 ปีอ้วน สูบบุหรี่ ปัสสาวะเลือดไม่เจ็บ ร่วมปวดเอวด้านซ้ายและคลำได้ก้อนที่ท้องด้านซ้าย มี varicocele ซ้ายที่ไม่ยุบเมื่อนอน",
+   "D": "มะเร็งท่อปัสสาวะพบน้อย แต่อาการเด่นคือ<b>เลือดออกจากท่อปัสสาวะ</b> (ทั้งปัสสาวะเป็นเลือดและเลือดซึมนอกเวลาปัสสาวะ) ร่วมกับปัสสาวะลำบาก คลำได้ก้อนตามท่อ — จะถูกถ้าเป็นหญิง 65 ปีมีเลือดซึมจากรูเปิดท่อปัสสาวะ ปัสสาวะสะดุด คลำได้ก้อนแข็งที่ผนังหน้าช่องคลอดตามแนวท่อปัสสาวะ",
+   "E": "BPH ทำให้<b>หลอดเลือดผิว prostatic urethra</b> เพิ่มขึ้นและเปราะ จึงเป็นสาเหตุ gross hematuria ที่พบบ่อยในชายสูงอายุ (ต้องตัดมะเร็งออกก่อน) และ 5-alpha-reductase inhibitor ลดเลือดออกชนิดนี้ได้ — จะถูกถ้าเป็นชาย 72 ปีปัสสาวะไม่พุ่ง ต้องเบ่ง ต่อมลูกหมากโต 80 mL ปัสสาวะเป็นเลือดเป็นพัก ๆ CT urography และ cystoscopy ไม่พบมะเร็ง"
   },
-  "trap": "คีย์เดิมตอบ RCC — RCC ทำให้ปัสสาวะเป็นเลือดได้ (หนึ่งใน classic triad) · มะเร็งต่อมลูกหมากระยะแรกไม่มีอาการ",
+  "trap": "คีย์ในไฟล์เลือก RCC เพราะจำได้ว่า RCC ปัจจุบันมักพบโดยบังเอิญไม่มีอาการ · แต่ RCC ยังเป็นสาเหตุจริงของ painless hematuria ที่ต้องหาด้วย CT urography เสมอ ส่วน<b>มะเร็งต่อมลูกหมากระยะแรก</b>อยู่ peripheral zone ห่างท่อปัสสาวะ แทบไม่ทำให้เลือดออก — คำว่า \"early\" คือคำใบ้",
   "summary": [
-   "<b>นอกสไลด์:</b> สาเหตุปัสสาวะเป็นเลือดสด: urothelial cancer (กระเพาะปัสสาวะ ท่อไต) · RCC · BPH · นิ่ว · ติดเชื้อ — ปวดหรือไม่ปวดช่วยแยกนิ่วออก"
+   "Painless gross hematuria ในผู้ใหญ่ → มะเร็งทางเดินปัสสาวะจนกว่าจะพิสูจน์ได้ · ตรวจ CT urography (upper tract) + cystoscopy (lower tract)",
+   "สาเหตุสำคัญ: มะเร็งกระเพาะปัสสาวะ (พบบ่อยสุดในผู้สูงอายุสูบบุหรี่), upper tract urothelial carcinoma, RCC, BPH, นิ่ว, ติดเชื้อ, ยาต้านการแข็งตัวของเลือด (ไม่ใช่เหตุผลให้ไม่ตรวจหามะเร็ง)",
+   "Prostate cancer: ราว 70% อยู่ peripheral zone · ระยะแรกไม่มีอาการ → คัดกรองด้วย PSA + DRE · อาการปัสสาวะ/ เลือดออกบ่งว่าลุกลามแล้ว",
+   "BPH เกิดใน transition zone รอบ urethra → LUTS และเลือดออกจากหลอดเลือดผิว prostatic urethra",
+   "RCC: triad ปวดเอว ก้อน ปัสสาวะเลือดพบส่วนน้อย · paraneoplastic: polycythemia, hypercalcemia, hypertension, Stauffer syndrome · varicocele ซ้ายไม่ยุบเมื่อนอน (ก้อนลุก renal vein)",
+   "Urethral cancer: พบน้อย หญิงมากกว่า · เลือดออกจากท่อ ปัสสาวะลำบาก ก้อนตามท่อ",
+   "Hematuria + ปวดเอวร้าวลงขาหนีบ → นิ่ว (CT KUB non-contrast) · hematuria + dysuria + WBC → ติดเชื้อ รักษาแล้วตรวจ UA ซ้ำ"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ B · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ในเว็บ (early prostate cancer) ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ที่วง B (RCC) โดยผู้จดใส่ \"?\" ไว้ · ช้อยเดิมในไฟล์ทุกข้อทำให้ hematuria ได้ เว็บเติมคำว่า early ที่ช้อยมะเร็งต่อมลูกหมากเพื่อให้มีคำตอบเดียวที่ชัด เพราะมะเร็งต่อมลูกหมากระยะแรกอยู่ peripheral zone แทบไม่ทำให้เลือดออก ขณะที่ RCC ยังเป็นสาเหตุมาตรฐานที่ต้องตรวจหา",
+  "mnemonic": "<b>'Prostate CA ระยะแรก = เงียบ (Peripheral zone ไกลท่อ) · BPH = รอบท่อ เลือดออกได้'</b>",
+  "guide": "AUA/SUFU Guideline: Microhematuria (2025); Campbell-Walsh-Wein Urology 12th ed. (2020) — Evaluation of the urologic patient: hematuria",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงสูบบุหรี่ 60 ปี ปัสสาวะเป็นเลือดครั้งเดียวแล้วหาย → ยังต้อง cystoscopy + CT urography",
-   "<b>นอกสไลด์:</b> ชายกินยาต้านการแข็งตัวปัสสาวะเป็นเลือดสด → ยังต้องหาสาเหตุเหมือนคนทั่วไป ไม่โทษยาอย่างเดียว"
+   "ชาย 60 ปีไม่มีอาการ PSA 9 ng/mL คลำต่อมลูกหมากได้ก้อนแข็งด้านหลัง ปัสสาวะปกติ → MRI prostate แล้ว targeted biopsy สงสัยมะเร็งต่อมลูกหมากระยะแรก",
+   "ชาย 75 ปีมะเร็งต่อมลูกหมากระยะลุกลาม ปัสสาวะเป็นเลือดและไม่ออก ปวดหลัง → มะเร็งลุก bladder neck/ urethra และกระดูก → ระบายปัสสาวะ androgen deprivation",
+   "ชาย 70 ปี BPH ปัสสาวะเลือดเป็นพัก ๆ ตรวจ CT urography และ cystoscopy ไม่พบมะเร็ง → prostatic bleeding → finasteride",
+   "หญิง 55 ปีพบก้อนที่ไตขวา 4 cm โดยบังเอิญจาก ultrasound ตรวจสุขภาพ ไม่มีอาการ → renal mass protocol CT → partial nephrectomy"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 4 — ตัวพิมพ์: <b>Painless gross hematuria ไม่น่าใช่อะไร — A. Bladder CA B. RCC C. Prostate CA D. Urethral CA E. BPH</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไม่ตรงกับคีย์ P'Ing (B RCC — P'Ing มี ? ไม่แน่ใจ) · ช้อยในไฟล์ทุกข้อทำให้ hematuria ได้ → Claude เลือก prostate cancer (แทบไม่ทำให้ hematuria ระยะแรก) · stem ช้อย C เติม early",
+  "src": "S73DQ · หน้า 4",
+  "kimg": [
+   "kp73d_uro2"
   ]
  },
  "MDCU73|RoD|Uro 3": {
-  "interp": "5-alpha-reductase inhibitor ลดการสร้างฮอร์โมนใด (ข้อเดียวกับ RoB Uro 1 — ข้อนี้เน้นการใช้ใน BPH)",
-  "why": "ข้อสอบเดิมไฮไลต์ <b>B</b> · ลายมือ <b>BPH: testosterone → 5α reductase → DHT vs prostate cancer: testosterone</b><br><b>นอกสไลด์:</b> BPH ขึ้นกับ DHT ยา 5ARI จึงทำให้ต่อมเล็กลงช้า ๆ ใช้เวลาหลายเดือน ได้ผลในต่อมที่โต",
+  "interp": "ถามกลไกยา <b>5-alpha-reductase inhibitor</b> (finasteride, dutasteride) ว่าลดการสร้างฮอร์โมนใด — ต้องรู้เส้นทางการเปลี่ยน testosterone เป็นฮอร์โมนที่ออกฤทธิ์แรงในต่อมลูกหมาก ซึ่งเป็นพื้นฐานการรักษา BPH",
+  "why": "ในต่อมลูกหมาก testosterone ถูกเอนไซม์ <b>5-alpha-reductase</b> เปลี่ยนเป็น <b>dihydrotestosterone (DHT)</b> ซึ่งจับ androgen receptor แน่นกว่าและออกฤทธิ์แรงกว่า testosterone หลายเท่า · DHT เป็นตัวกระตุ้นหลักให้ต่อมลูกหมากโต (BPH) และศีรษะล้านแบบพันธุกรรม · เอนไซม์มี 2 ชนิด: <b>type 2</b> เด่นในต่อมลูกหมากและรูขุมขน (finasteride ยับยั้ง type 2) · type 1 อยู่ที่ผิวหนังและตับ (<b>dutasteride ยับยั้งทั้งสองชนิด</b>) · ผล: DHT ในเลือดลดลงมาก ต่อมลูกหมาก<b>เล็กลงราว 20–30% ใน 6–12 เดือน</b> ลดความเสี่ยง acute urinary retention และการผ่าตัด (MTOPS, PLESS) · ใช้ในต่อมที่โตชัด (ราว &gt; 30–40 mL) · <b>PSA ลดลงราวครึ่งหนึ่งหลัง 6 เดือน</b> ต้องคูณ 2 เวลาแปลผล · ผลข้างเคียง: libido ลด ED น้ำอสุจิน้อย gynecomastia · ไฟล์เป็นภาพข้อสอบเดิมที่ไฮไลต์ช้อย B และลายมือเขียน <b>\"BPH: testosterone → 5α reductase → DHT vs prostate cancer: testosterone\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อนี้ถูก เพราะเป็นชื่อหลอกจากชื่อเอนไซม์ ไม่มีฮอร์โมนนี้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อนี้ถูก เพราะเป็นชื่อหลอกที่ขึ้นต้น di- ให้คล้าย DHT ไม่มีฮอร์โมนนี้ในร่างกาย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อนี้ถูก เพราะไม่ใช่ฮอร์โมนในร่างกาย (สารกลุ่ม methyltestosterone เป็นยาสังเคราะห์)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 5ARI ลด estradiol เพราะ testosterone ที่ค้างอยู่ถูกเปลี่ยนเป็น estradiol ได้มากขึ้น"
+   "A": "\"5-alpha-reductasterone\" ไม่มีฮอร์โมนชื่อนี้ เป็นการเอาชื่อเอนไซม์ 5-alpha-reductase มาต่อท้ายให้ดูคล้ายฮอร์โมนเพื่อหลอก — เอนไซม์ไม่ใช่สารที่ถูกสร้างลดลง ยาไปยับยั้งตัวเอนไซม์จึงลด<b>ผลผลิต</b>ของมันคือ DHT · ไม่มีสถานการณ์ที่ช้อยนี้ถูก เพราะไม่ใช่สารที่มีอยู่จริงในร่างกาย",
+   "C": "\"Dicarboxytestosterone\" ไม่ใช่ฮอร์โมนในร่างกาย เป็นชื่อแต่งที่ขึ้นต้นด้วย Di- ให้คล้าย dihydrotestosterone · ฮอร์โมนในเส้นทางนี้จริง ๆ คือ testosterone → DHT (5-alpha-reductase) และ testosterone → estradiol (aromatase) · ไม่มีสถานการณ์ที่ช้อยนี้ถูก เพราะเป็นสารที่ไม่มีอยู่จริงทางสรีรวิทยา",
+   "D": "\"Dimethyltestosterone\" ไม่ใช่ผลผลิตของ 5-alpha-reductase · ที่มีจริงคือ <b>methyltestosterone</b> ซึ่งเป็น androgen สังเคราะห์ชนิดกิน (เติม methyl ที่ตำแหน่ง 17α) มีพิษต่อตับ (cholestasis, peliosis hepatis) ไม่ได้เกิดในร่างกาย · ไม่มีสถานการณ์ที่ช้อยนี้ถูก เพราะยา 5-ARI ไม่เกี่ยวกับการสร้างสาร methyl ของ testosterone",
+   "E": "Estradiol สร้างจาก testosterone ด้วย<b>เอนไซม์ aromatase</b> ไม่ใช่ 5-alpha-reductase · เมื่อยับยั้ง 5-ARI testosterone ส่วนเกินอาจถูกเปลี่ยนเป็น estradiol เพิ่มเล็กน้อย จึงเกิด gynecomastia ได้ · จะถูกถ้าเป็นหญิง 55 ปีมะเร็งเต้านม ER-positive หลังหมดประจำเดือนที่ได้ aromatase inhibitor (letrozole, anastrozole) แล้วระดับ estradiol ลดลง"
   },
-  "trap": "ตามลายมือ: BPH ขึ้นกับ DHT (ใช้ 5ARI) แต่มะเร็งต่อมลูกหมากขึ้นกับ testosterone (ใช้ ADT)",
+  "trap": "ช้อยตัวลวงใช้ชื่อคล้ายกันทั้งหมด (5-alpha-reductasterone, Di-) ทำให้ลังเล · จำเส้นทางเดียว: <b>testosterone —(5-alpha-reductase)→ DHT</b> และ <b>testosterone —(aromatase)→ estradiol</b> · ยาที่ยับยั้งเอนไซม์จะลด<b>ผลผลิต</b>ของเอนไซม์นั้น ไม่ใช่ลดตัวเอนไซม์หรือสารตั้งต้น",
   "summary": [
-   "<b>นอกสไลด์:</b> 5ARI: finasteride / dutasteride · ต่อมเล็กลงราวหนึ่งในสี่ใช้เวลาราว 6 เดือน · ลดความเสี่ยงปัสสาวะไม่ออกเฉียบพลันและการผ่าตัด · ผลข้างเคียงทางเพศ"
+   "Testosterone → DHT โดย 5-alpha-reductase · DHT จับ androgen receptor แน่นกว่า เป็นตัวขับ BPH, ศีรษะล้านแบบพันธุกรรม และการเจริญของอวัยวะเพศชายภายนอกในตัวอ่อน",
+   "Finasteride ยับยั้ง type 2 · dutasteride ยับยั้ง type 1 และ 2 · ต่อมลูกหมากเล็กลงราว 20–30% ต้องใช้ 6–12 เดือนจึงเห็นผล",
+   "5-ARI ลด acute urinary retention และการผ่าตัด BPH · เหมาะกับต่อมโตชัด · ใช้ร่วมกับ alpha-blocker ในต่อมโตที่มี LUTS ปานกลางถึงรุนแรง (MTOPS, CombAT)",
+   "PSA ลดราว 50% หลังกิน 6 เดือน → คูณ 2 เวลาแปลผล · PSA ที่ไม่ลดหรือขึ้นระหว่างกินยาต้องสงสัยมะเร็ง",
+   "ผลข้างเคียง 5-ARI: libido ลด, erectile dysfunction, น้ำอสุจิน้อย, gynecomastia · alpha-blocker: หน้ามืดท่าเปลี่ยน, retrograde ejaculation, floppy iris ระหว่างผ่าตัดต้อกระจก",
+   "5-alpha-reductase deficiency (46,XY): อวัยวะเพศภายนอกกำกวมตอนเกิด แต่เป็นชายชัดขึ้นเมื่อเข้าวัยรุ่นเพราะ testosterone สูงขึ้น",
+   "มะเร็งต่อมลูกหมากอาศัย androgen → รักษาระยะลุกลามด้วย androgen deprivation (GnRH agonist/ antagonist, orchiectomy) ± androgen receptor inhibitor"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B (dihydrotestosterone) ความมั่นใจสูง — เป็นกลไกพื้นฐานของยา 5-ARI ตรงกับภาพข้อสอบเดิมในไฟล์ที่ไฮไลต์ช้อย B และลายมือที่เขียนเส้นทาง testosterone → 5α reductase → DHT · ข้อสอบเดิมมี 4 ช้อย เว็บเติม E (estradiol) เพื่อทดสอบความต่างระหว่าง 5-alpha-reductase กับ aromatase",
+  "mnemonic": "<b>'5-ARI ปิดทาง T → DHT · Aromatase ปิดทาง T → E2'</b>",
+  "guide": "AUA Guideline: Management of Lower Urinary Tract Symptoms Attributed to BPH (2023 amendment); Campbell-Walsh-Wein Urology 12th ed. (2020) — Medical management of BPH",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายกิน finasteride มา 1 ปี PSA 3 ng/mL → แปลผลเป็นราว 6 (คูณ 2) ก่อนตัดสินว่าสูงหรือไม่",
-   "<b>นอกสไลด์:</b> BPH อาการมากแต่ต่อมเล็ก (ราว 25 mL) → α-blocker ไม่ใช่ 5ARI (ต่อมเล็กไม่ได้ประโยชน์)"
+   "ชาย 68 ปี LUTS ปานกลาง ต่อมลูกหมาก 60 mL PSA 2.5 → alpha-blocker ร่วมกับ 5-ARI (combination therapy)",
+   "ชายกิน finasteride มา 1 ปี PSA 2.0 ng/mL → แปลผลเทียบเท่าราว 4.0 ng/mL เมื่อประเมินความเสี่ยงมะเร็ง",
+   "ชายกิน finasteride แล้วเต้านมโตเจ็บ → gynecomastia จาก testosterone ที่เหลือถูก aromatase เปลี่ยนเป็น estradiol",
+   "ทารก 46,XY อวัยวะเพศกำกวม เข้าวัยรุ่นแล้วเสียงแตก องคชาตโตขึ้น → 5-alpha-reductase type 2 deficiency"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 4 — ตัวพิมพ์: <b>[uro] 5 alpha reductase inhibitor ทำให้สร้าง hormone อะไรน้อยลง — A. 5 alpha reductasterone B. Dihydrotestosterone C. Dicarboxytestosterone D. Dimethytestosterone (ข้อสอบเดิมแปะไว้ในไฟล์)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อนี้ในไฟล์เป็นภาพข้อสอบเดิม (ไม่ใช่การจด recall) แปะไว้ในหมวด Uro ของ 73D · ช้อยเดิม 4 ข้อ → เติม E · ข้อเดียวกับ 73B Uro 1 (คนละ rotation)",
+  "src": "S73DQ · หน้า 4",
+  "kimg": [
+   "kp73d_uro3"
   ]
  },
  "MDCU73|RoD|Neuro 1": {
-  "interp": "MRI ฉีดสารทึบพบก้อน enhance ที่ cerebellopontine angle ลามเข้า internal auditory canal (vestibular schwannoma) → อาการนำที่พบบ่อยที่สุด",
-  "why": "P'Ing ลายมือ <b>vestibular schwannoma · sensorineural hearing loss</b><br><b>นอกสไลด์:</b> ภาพเห็นก้อนเล็ก enhance อยู่ใน internal auditory canal ด้านขวา (ลูกศร) · ก้อนเกิดจาก Schwann cell ของ vestibular nerve แต่กดเส้นประสาท cochlear ที่อยู่ข้างกันก่อน → หูอื้อข้างเดียวค่อยเป็นค่อยไป + เสียงในหู",
+  "interp": "MRI ฉีดสีพบก้อน enhance ที่ <b>cerebellopontine (CP) angle ยื่นเข้า internal auditory canal (IAC)</b> = <b>vestibular schwannoma</b> (acoustic neuroma) — ถามอาการนำที่พบบ่อยที่สุด ซึ่งมาจากเส้นประสาทคู่ที่ 8 ที่ก้อนกำเนิดและกดอยู่ใน IAC",
+  "why": "Vestibular schwannoma เป็นเนื้องอกไม่ร้ายจาก <b>Schwann cell ของ vestibular nerve</b> (ไม่ใช่ cochlear nerve แม้ชื่อเดิมจะเรียก acoustic neuroma) เป็นก้อนที่ CP angle ที่พบบ่อยที่สุด (ราว 80% ของก้อนบริเวณนี้) · ก้อนเริ่มใน IAC ซึ่งแคบ จึงกด cochlear nerve และเลือดเลี้ยงหูชั้นใน → อาการนำที่พบบ่อยที่สุดคือ <b>unilateral progressive sensorineural hearing loss</b> (พบในผู้ป่วยส่วนใหญ่มาก) ร่วมกับ <b>tinnitus</b> ข้างเดียว และเสียการแยกคำพูด (speech discrimination) มากกว่าที่ระดับเสียงจะอธิบาย · เวียนศีรษะ/ เดินเซเกิดน้อยเพราะสมองชดเชยการเสีย vestibular ที่ค่อย ๆ เป็นได้ · <b>facial nerve</b> แม้วิ่งคู่ใน IAC แต่ทนการกดได้ดี จึงอ่อนแรงน้อยมากก่อนผ่าตัด · ก้อนใหญ่ (&gt; 2–3 cm) กด trigeminal (corneal reflex หาย หน้าชา) สมองน้อย และ hydrocephalus · ทุกรายที่มี asymmetric SNHL ต้องทำ <b>MRI with gadolinium</b> · ไฟล์ตอบ <b>A. SNSL</b> และลายมือเขียน <b>\"vestibular schwannoma · sensorineural hearing loss\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> CN VII ทนการกดช้า ๆ ได้ดี อ่อนแรงพบน้อย · จะถูกถ้าก้อนเป็น facial nerve schwannoma ที่ geniculate ganglion",
-   "C": "<b>นอกสไลด์:</b> ชาหน้าเกิดเมื่อก้อนโตกด CN V · จะถูกถ้าก้อนเป็น trigeminal schwannoma ใน Meckel cave",
-   "D": "<b>นอกสไลด์:</b> เดินเซเกิดเมื่อก้อนใหญ่กด cerebellum · จะถูกถ้าเด็กมี pilocytic astrocytoma ที่ cerebellum",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่หูอื้อข้างเดียวค่อยเป็นจาก otosclerosis (หูชั้นกลาง)"
+   "B": "Facial nerve อ่อนแรงพบน้อยมากก่อนผ่าตัด vestibular schwannoma เพราะ motor fiber ทนการกดยืดได้ดี แต่เป็นภาวะแทรกซ้อนสำคัญหลังผ่าตัด · ใบหน้าอ่อนแรงร่วมก้อนที่ CP angle ต้องคิดถึง facial nerve schwannoma หรือ meningioma — จะถูกถ้าเป็นหญิง 40 ปีหน้าเบี้ยวครึ่งซีกค่อย ๆ เป็นมากขึ้นใน 6 เดือน ไม่ดีขึ้นเหมือน Bell palsy และ MRI พบก้อนตามแนว facial nerve ถึง geniculate ganglion",
+   "C": "หน้าชาจากการกด trigeminal nerve เกิดเมื่อก้อน<b>ใหญ่เกินราว 2–3 cm</b> ยื่นขึ้นไปถึง Meckel's cave อาการแรกมักเป็น corneal reflex ลดลง จึงไม่ใช่อาการนำที่พบบ่อย — จะถูกถ้าเป็นชาย 50 ปีหน้าชาครึ่งซีกและเคี้ยวอ่อนแรง MRI พบก้อนรูปดัมเบลล์คร่อม middle และ posterior fossa ผ่าน Meckel's cave (trigeminal schwannoma)",
+   "D": "เดินเซและเสียการทรงตัวแบบ ataxia เกิดเมื่อก้อนใหญ่กด<b>สมองน้อยและก้านสมอง</b> หรือมี hydrocephalus ซึ่งเป็นระยะหลัง — จะถูกถ้าเป็นเด็ก 6 ขวบปวดศีรษะตอนเช้า อาเจียน เดินเซกว้าง MRI พบก้อนที่ vermis ของสมองน้อยอุด fourth ventricle (medulloblastoma) หรือผู้ป่วย vestibular schwannoma ขนาด 4 cm ที่ละเลยมานาน",
+   "E": "Conductive hearing loss มาจากหูชั้นนอกหรือหูชั้นกลาง (ขี้หู หูชั้นกลางมีน้ำ otosclerosis cholesteatoma) ไม่ใช่การกดเส้นประสาท · ตรวจ Weber ไปข้างที่ผิดปกติ และ Rinne เสียงผ่านกระดูกดีกว่าทางอากาศ — จะถูกถ้าเป็นหญิง 30 ปีหูอื้อสองข้างค่อย ๆ เป็นมากขึ้นหลังคลอดบุตร แก้วหูปกติ audiogram มี Carhart notch (otosclerosis)"
   },
-  "trap": "ชื่อ vestibular แต่ไม่ได้นำด้วยเวียนศีรษะ — อาการนำคือหูอื้อแบบประสาท",
+  "trap": "ก้อนอยู่ติด facial nerve และ trigeminal nerve จึงเลือก facial palsy หรือหน้าชา และชื่อ \"vestibular\" ชวนให้ตอบเดินเซ · แต่ก้อนเริ่มใน IAC กด cochlear nerve ก่อน — อาการนำคือ <b>หูข้างเดียวค่อย ๆ ได้ยินลดลงแบบ sensorineural ร่วม tinnitus</b> · ต้องแยก sensorineural (Weber ไปหูข้างดี) จาก conductive",
   "summary": [
-   "<b>นอกสไลด์:</b> ผู้ใหญ่หูอื้อแบบประสาทข้างเดียวหรือไม่เท่ากันสองข้าง → MRI ฉีด gadolinium · เป็นสองข้าง = NF2"
+   "Vestibular schwannoma: ก้อนที่ CP angle พบบ่อยที่สุด · เกิดจาก Schwann cell ของ vestibular nerve · โตช้า (ส่วนใหญ่ราว 1–2 mm ต่อปีหรือไม่โต)",
+   "อาการ: unilateral progressive SNHL + tinnitus (พบบ่อยที่สุด) → เสียการทรงตัว → ก้อนใหญ่กด CN V (corneal reflex หาย) → สมองน้อย ก้านสมอง hydrocephalus",
+   "Asymmetric SNHL หรือ tinnitus ข้างเดียว → MRI with gadolinium (gold standard) · audiogram เห็น SNHL และ speech discrimination ลดมาก",
+   "Bilateral vestibular schwannoma = NF2 (โครโมโซม 22, merlin) ร่วม meningioma, ependymoma, juvenile cataract",
+   "รักษา: ก้อนเล็กในผู้สูงอายุ → เฝ้าดูด้วย MRI ซ้ำ · ก้อน &lt; ราว 3 cm → stereotactic radiosurgery · ก้อนใหญ่กดก้านสมอง → microsurgery (retrosigmoid, translabyrinthine, middle fossa)",
+   "Meningioma ที่ CP angle (อันดับสอง): ฐานกว้างติด dura มี dural tail ไม่ค่อยยื่นเข้า IAC และอาจมี calcification",
+   "Weber/ Rinne: SNHL → Weber ไปหูข้างดี Rinne ปกติ (AC &gt; BC) · conductive → Weber ไปหูข้างเสีย Rinne ผิดปกติ (BC &gt; AC)"
   ],
-  "opinion": "เห็นด้วย — ไฟล์มีภาพและคำตอบ SNHL ช้อยแต่งขึ้น · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A (unilateral sensorineural hearing loss) ความมั่นใจสูง — เป็นอาการนำที่พบบ่อยที่สุดของ vestibular schwannoma ตามตำรา ตรงกับไฟล์ที่ตอบ A. SNSL พร้อมลายมือ vestibular schwannoma · ไฟล์มีเพียงภาพ MRI และคำตอบ เว็บจึงแต่งโจทย์และช้อยอื่นเป็นอาการของเส้นประสาทข้างเคียง",
+  "mnemonic": "<b>'CP angle + IAC = Schwannoma → \"หูข้างเดียวดับก่อน หน้าเบี้ยวทีหลัง\"'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Vestibular schwannoma; Congress of Neurological Surgeons Guidelines on Vestibular Schwannomas (Neurosurgery 2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ใหญ่หูดับข้างเดียวทันที (sudden SNHL) → นอกจากรักษาให้ทำ MRI หา vestibular schwannoma ด้วย",
-   "<b>นอกสไลด์:</b> Vestibular schwannoma ก้อนเล็กในผู้สูงอายุ อาการน้อย → MRI ติดตามการโต"
+   "ชาย 50 ปีหูขวาได้ยินลดลงช้า ๆ 1 ปี มีเสียงวิ้ง Weber ไปหูซ้าย → asymmetric SNHL → MRI with gadolinium หา vestibular schwannoma",
+   "วัยรุ่น 18 ปีมีก้อนที่ CP angle ทั้งสองข้าง ร่วมกับ meningioma และต้อกระจกตั้งแต่อายุน้อย → neurofibromatosis type 2",
+   "หญิง 75 ปี vestibular schwannoma 8 mm อยู่ใน IAC ได้ยินพอใช้ → observation ด้วย MRI ซ้ำทุก 6–12 เดือน",
+   "หลังผ่าตัดเอา vestibular schwannoma 3.5 cm ออก ใบหน้าข้างเดียวกันอ่อนแรงปิดตาไม่สนิท → facial nerve injury → ดูแลตาด้วยยาหยอดหล่อลื่นและปิดตา"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 5 — ตัวพิมพ์: <b>Neuro (ภาพ MRI ลูกศรชี้ CP angle) — A. SNSL</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีภาพ + คำตอบ A. SNSL เท่านั้น → Claude แต่งโจทย์และช้อย · ภาพโจทย์ตัดจากไฟล์ S73DQ หน้า 5",
+  "src": "S73DQ · หน้า 5",
+  "kimg": [
+   "kp73d_neuro1"
   ]
  },
  "MDCU73|RoD|Neuro 2": {
-  "interp": "ผู้ป่วยความดันสูง ปวดท้ายทอยทันที อาเจียน เดินเซ CT ไม่ฉีดสี → ถามการวินิจฉัย",
-  "why": "ไฟล์ไฮไลต์ <b>cerebellar hemorrhage</b><br><b>นอกสไลด์:</b> ภาพมีก้อนขาว (hyperdense) กลมใน cerebellum ซีกขวา ขอบมีวงความหนาแน่นต่ำ (บวมรอบ) ชิดตำแหน่ง ventricle ที่ 4 = เลือดออกใหม่ ร่วมกับความดันสูงและอาการเฉียบพลัน",
+  "interp": "ผู้ป่วย<b>ความดันโลหิตสูง</b> ปวดศีรษะท้ายทอยเฉียบพลัน อาเจียน และ<b>เดินเซ (ataxia)</b> พร้อมภาพ CT ไม่ฉีดสี — ถามการวินิจฉัย ต้องรวมอาการ posterior fossa เฉียบพลันกับภาพเลือดออก hyperdense ในสมองน้อย",
+  "why": "<b>Hypertensive intracerebral hemorrhage</b> เกิดจาก lipohyalinosis และ Charcot–Bouchard microaneurysm ของหลอดเลือดเล็กที่แตกแขนงลึก · ตำแหน่งพบบ่อยเรียงลำดับ: <b>putamen</b> (มากสุด) → thalamus → lobar → pons → <b>cerebellum</b> (ราว 5–10%) · เลือดออกในสมองน้อยจาก dentate nucleus ทำให้ <b>ปวดศีรษะท้ายทอยทันที อาเจียนมาก เวียน เดินหรือยืนไม่ได้</b> โดยมักไม่มีแขนขาอ่อนแรง · CT ไม่ฉีดสีเห็นก้อน <b>hyperdense</b> ในสมองน้อย · อันตรายคือ posterior fossa เล็ก ก้อนจึงกด<b>ก้านสมอง</b>และอุด fourth ventricle เกิด <b>obstructive hydrocephalus</b> แย่ลงเร็ว · AHA/ASA 2022: เลือดออกในสมองน้อยที่<b>อาการแย่ลง กดก้านสมอง หรือ hydrocephalus จากการอุด ventricle หรือปริมาตร ≥ 15 mL</b> → <b>ผ่าตัดเอาเลือดออกทันที (suboccipital craniectomy)</b> ± EVD (ใส่ EVD อย่างเดียวไม่แนะนำ) · ร่วมกับคุมความดันโดยลด SBP ราว 140 mmHg และแก้ภาวะเลือดแข็งตัวผิดปกติ · ไฟล์ไฮไลต์คำตอบ <b>A. Cerebellar hemorrhage</b> และเขียนว่า <b>\"คิดว่ารูปประมาณนี้\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้า CT หลังมีอาการหลายชั่วโมงเห็นบริเวณความหนาแน่นต่ำรูปลิ่มในเขตหลอดเลือด PICA",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก 6 ปีปวดศีรษะตอนเช้า อาเจียน เดินเซหลายสัปดาห์ มีก้อนที่ vermis",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่มีถุงน้ำใน cerebellum ที่มีปุ่มเนื้อ enhance ที่ผนัง เม็ดเลือดแดงสูง (VHL)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยความดันสูงโคม่าทันที CT เห็นเลือดกลาง pons"
+   "B": "Cerebellar infarction ก็มาด้วยเวียน อาเจียน เดินเซเฉียบพลันได้ แต่ CT ช่วงแรกมักปกติหรือเป็นบริเวณ<b>ดำ (hypodense)</b> ตามเขตหลอดเลือด PICA/ SCA ไม่ใช่ก้อนขาว และวินิจฉัยด้วย MRI DWI — จะถูกถ้าเป็นชาย 65 ปีมี AF เวียนอาเจียนเดินเซ CT ไม่พบเลือด MRI DWI สว่างที่สมองน้อยซีกซ้าย และวันที่ 3 สมองบวมกดก้านสมองต้องทำ suboccipital decompression",
+   "C": "Medulloblastoma เป็นเนื้องอกร้ายของสมองน้อยที่พบบ่อยใน<b>เด็ก</b> อยู่ที่ vermis อุด fourth ventricle อาการค่อย ๆ เป็นเป็นสัปดาห์ (ปวดศีรษะตอนเช้า อาเจียน เดินเซ) CT เป็นก้อน hyperdense ได้แต่ enhance และกระจายตาม CSF ได้ ไม่ใช่เฉียบพลันในผู้ใหญ่ความดันสูง — จะถูกถ้าเป็นเด็ก 7 ขวบปวดศีรษะตอนตื่นนอน อาเจียน เดินเซมา 1 เดือน MRI พบก้อนกลาง vermis",
+   "D": "Hemangioblastoma เป็นเนื้องอกหลอดเลือดของสมองน้อยใน<b>ผู้ใหญ่</b> ภาพคลาสสิกคือ<b>ถุงน้ำมี mural nodule ที่ enhance</b> สัมพันธ์กับ von Hippel–Lindau และอาจมี polycythemia จาก erythropoietin อาการค่อยเป็น — จะถูกถ้าเป็นชาย 30 ปีเดินเซมา 3 เดือน Hct สูง มี retinal angioma และ renal cell carcinoma ในครอบครัว MRI เป็นถุงน้ำในสมองน้อยมีปุ่มเนื้อ enhance",
+   "E": "Pontine hemorrhage เป็น hypertensive hemorrhage อีกตำแหน่งที่รุนแรงมาก: <b>โคม่าทันที รูม่านตาเล็กเท่าปลายเข็ม (pinpoint) แขนขาอ่อนแรงสี่ข้าง</b> หายใจผิดปกติ ไข้สูง มักไม่ผ่าตัด — จะถูกถ้าเป็นชาย 60 ปีความดันสูงไม่กินยา หมดสติทันที รูม่านตา 1 mm สองข้าง ไม่ขยับแขนขาทั้งสี่ และ CT เห็นเลือดกลาง pons"
   },
-  "trap": "อาการเดินเซอาเจียนไม่มีอ่อนแรงครึ่งซีก ทำให้มองข้ามว่าเป็น stroke — ต้องนึกถึง posterior fossa",
+  "trap": "เดินเซเฉียบพลันชวนนึกถึง infarction ของสมองน้อย หรือเห็นก้อนในสมองน้อยแล้วนึกถึงเนื้องอก · แยกด้วย<b>ความเร็วของอาการ + ภาพ CT</b>: เฉียบพลัน + ก้อนขาว (hyperdense) ไม่ฉีดสี + ความดันสูง = hemorrhage · infarct เป็นดำหรือปกติช่วงแรก · เนื้องอกอาการค่อยเป็นเป็นสัปดาห์",
   "summary": [
-   "<b>นอกสไลด์:</b> อาการ cerebellar hemorrhage: ปวดท้ายทอยทันที อาเจียน เวียน ยืนเดินไม่ได้ ตามองไปข้างหนึ่งไม่ได้ — มักไม่มีอ่อนแรงครึ่งซีกชัด"
+   "Hypertensive ICH ตำแหน่ง: putamen &gt; thalamus &gt; lobar &gt; pons &gt; cerebellum · เกิดจาก lipohyalinosis/ Charcot–Bouchard microaneurysm",
+   "Cerebellar hemorrhage: ปวดท้ายทอย อาเจียน เวียน เดินไม่ได้ ataxia ข้างเดียวกับรอยโรค · มักไม่มีแขนขาอ่อนแรง",
+   "อันตราย: กดก้านสมองและอุด fourth ventricle → hydrocephalus → ซึมลงเร็ว",
+   "AHA/ASA 2022: cerebellar ICH ที่อาการแย่ลง กดก้านสมอง hydrocephalus หรือ ≥ 15 mL → suboccipital craniectomy เอาเลือดออก ± EVD (ไม่ใช้ EVD อย่างเดียว)",
+   "Medical ICH: SBP เป้าราว 140 (เลี่ยงต่ำกว่า 130) · แก้ฤทธิ์ยาต้านการแข็งตัว (warfarin → 4F-PCC + vitamin K) · ยกหัวเตียง 30° · คุมน้ำตาล อุณหภูมิ",
+   "Supratentorial ICH ส่วนใหญ่ไม่ผ่าตัด · พิจารณาเมื่อ lobar ก้อนใหญ่ใกล้ผิวสมองที่แย่ลง หรือ minimally invasive evacuation ในรายเลือก",
+   "ICH ในคนอายุน้อยไม่มีความดันสูง หรือตำแหน่ง lobar → หา AVM, aneurysm, cavernoma, amyloid angiopathy (ผู้สูงอายุ), เนื้องอก, ยาเสพติด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · ภาพเลือดออกใน cerebellum ชัด · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A (cerebellar hemorrhage) ความมั่นใจสูง — ผู้ป่วยความดันสูงที่มีปวดท้ายทอย อาเจียน เดินเซเฉียบพลันร่วมกับ CT ไม่ฉีดสีเป็นภาพคลาสสิกของ hypertensive cerebellar hemorrhage ตรงกับไฟล์ที่ไฮไลต์ A · ภาพในไฟล์เป็นภาพที่ผู้จดหามาให้ใกล้เคียงข้อสอบเดิม เว็บจึงแต่งโจทย์และช้อยรอบภาพนั้น",
+  "mnemonic": "<b>'ความดันสูง + ท้ายทอย + อาเจียน + เซ = เลือดออกสมองน้อย → \"กดก้านสมอง = ผ่าเลย\"'</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> Cerebellar hemorrhage ในผู้ป่วยอายุน้อยไม่มีความดันสูง → CTA หรือ MRI หา AVM",
-   "<b>นอกสไลด์:</b> CT ซ้ำ 2 สัปดาห์ต่อมา ก้อนจางลงความหนาแน่นใกล้เนื้อสมอง → เลือดระยะ subacute ไม่ใช่ก้อนใหม่"
+   "ชาย 70 ปีความดันสูง เลือดออกสมองน้อย 3.5 cm ตอนแรกรู้ตัวดี 6 ชม.ต่อมาซึมลง CT มี hydrocephalus → suboccipital craniectomy เอาเลือดออกทันที ± EVD",
+   "หญิง 60 ปีกิน warfarin มีเลือดออกในสมอง INR 3.5 → หยุดยา ให้ 4-factor PCC ร่วม vitamin K ทางหลอดเลือด",
+   "ชาย 55 ปีความดันสูง แขนขาซีกขวาอ่อนแรงทันที CT พบก้อนเลือดที่ putamen ซ้าย 15 mL รู้ตัวดี → รักษาแบบประคับประคองและคุมความดัน",
+   "ผู้สูงอายุ 80 ปีความดันปกติ มีเลือดออก lobar ซ้ำหลายครั้ง MRI SWI พบจุดเลือดเก่าตามผิวสมอง → cerebral amyloid angiopathy"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 6 — ตัวพิมพ์: <b>16) [Neuro] คิดว่ารูปประมาณนี้ — A. Cerebellar hemorrhage</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ภาพในไฟล์เป็นภาพข้อสอบเดิม (เลข 16 ของข้อสอบเดิม) ที่ผู้จดบอกว่า คิดว่ารูปประมาณนี้ · ไฟล์มีแค่คำตอบ → Claude แต่งโจทย์และช้อย · ข้อคล้ายกับ 73B Neuro 6",
+  "src": "S73DQ · หน้า 6",
+  "kimg": [
+   "kp73d_neuro2"
   ]
  },
  "MDCU73|RoD|Neuro 3": {
-  "interp": "ผู้ป่วยเพิ่งเป็น frontal sinusitis มีไข้ ปวดศีรษะ ชัก MRI ฉีดสีเห็นของเหลวรูปจันทร์เสี้ยวขอบ enhance บนผิวสมอง → ถามการวินิจฉัย",
-  "why": "ไฟล์ไฮไลต์ <b>subdural empyema</b><br><b>นอกสไลด์:</b> ภาพ coronal เห็นแถบของเหลวบางรูปจันทร์เสี้ยวบนผิวสมองซีกขวา ขอบ enhance (ลูกศร) อยู่นอกเนื้อสมอง · เชื้อจาก frontal sinus ลามผ่านหลอดเลือดดำที่ไม่มีลิ้นเข้า subdural space ซึ่งไม่มีกั้น หนองจึงกระจายเร็ว ชักบ่อย",
+  "interp": "ผู้ป่วยเพิ่งเป็น<b>ไซนัสอักเสบที่ frontal sinus</b> แล้วมีไข้ ปวดศีรษะ และชัก MRI ฉีดสีเห็น<b>ของเหลวรูปจันทร์เสี้ยวที่ขอบ enhance</b> คลุมผิวสมอง — ถามการวินิจฉัย ต้องรวมแหล่งติดเชื้อ อาการ และรูปร่าง/ ตำแหน่งของรอยโรคบนภาพ",
+  "why": "<b>Subdural empyema</b> คือหนองในช่อง subdural ส่วนใหญ่เป็นภาวะแทรกซ้อนของ <b>frontal/ ethmoid sinusitis</b> (พบบ่อยในชายวัยรุ่นและผู้ใหญ่ตอนต้น) เชื้อลามผ่าน<b>หลอดเลือดดำ emissary/ diploic ที่ไม่มีลิ้น</b> หรือผ่านกระดูกที่อักเสบ · ช่อง subdural ไม่มีผนังกั้น หนองจึงกระจายคลุมผิวสมองเป็น<b>รูปจันทร์เสี้ยวข้ามรอยต่อกะโหลก</b> และตามแนว falx ได้ · ทำให้เกิด cortical vein thrombosis สมองบวม จึงมี<b>ไข้ ปวดศีรษะ ชัก แขนขาอ่อนแรง ซึมลงเร็ว</b> · MRI: ของเหลว rim enhance และ <b>DWI จำกัดการแพร่ (สว่าง)</b> แยกจาก effusion ธรรมดา · เป็น<b>ภาวะฉุกเฉินทางประสาทศัลยศาสตร์</b>: ผ่าตัดระบายหนอง (craniotomy ระบายได้ครบกว่า burr hole ในหนองข้นหลายช่อง) + ยาฆ่าเชื้อทางหลอดเลือดครอบคลุม streptococci (กลุ่ม anginosus) anaerobes และ staphylococci นานหลายสัปดาห์ + ระบายไซนัสที่เป็นต้นเหตุ · <b>ห้ามเจาะหลัง</b> (เสี่ยง herniation) · ไฟล์ไฮไลต์คำตอบ <b>A. Subdural empyema</b> และเขียนว่า <b>\"คิดว่ารูปประมาณนี้\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าหลังศีรษะกระแทกมี lucid interval CT เห็นเลือดรูปเลนส์ไม่ข้ามรอยต่อกะโหลก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุกินยาต้านการแข็งตัว ล้มเล็กน้อยหลายสัปดาห์ก่อน สับสนช้า ๆ CT เห็นจันทร์เสี้ยวความหนาแน่นต่ำ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงวัยกลางคนปวดศีรษะเรื้อรัง ก้อนเนื้อติด dura enhance สม่ำเสมอ มี dural tail ไม่มีไข้",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนกลมขอบ enhance อยู่ในเนื้อสมอง (intra-axial) DWI จำกัดการแพร่"
+   "B": "Acute epidural hematoma เป็นเลือดระหว่างกะโหลกกับ dura มักจาก<b>หลอดเลือด middle meningeal ฉีก</b>หลังกระดูกขมับร้าว เป็นรูป<b>เลนส์นูนสองด้าน (biconvex)</b> ไม่ข้ามรอยต่อกะโหลก และเป็นขาวบน CT ไม่มีไข้ — จะถูกถ้าเป็นชาย 22 ปีถูกตีที่ขมับ หมดสติชั่วครู่ ตื่นมาพูดได้ (lucid interval) แล้วซึมลงใน 2 ชม. รูม่านตาข้างเดียวกันขยาย",
+   "C": "Chronic subdural hematoma เป็นเลือดเก่ารูปจันทร์เสี้ยวเหมือนกันแต่เป็น<b>ดำหรือก้ำกึ่ง (hypodense/ isodense)</b> บน CT ไม่มีไข้หรือ rim enhance ชัด เกิดใน<b>ผู้สูงอายุ ดื่มสุรา กินยาต้านเลือด</b>หลังกระแทกเล็กน้อย — จะถูกถ้าเป็นชาย 78 ปีกิน aspirin ล้มหัวกระแทกเล็กน้อยเมื่อ 6 สัปดาห์ก่อน ตอนนี้สับสน เดินลำบาก แขนขาขวาอ่อนแรงลง ต้องเจาะ burr hole ระบาย",
+   "D": "Meningioma เป็นเนื้องอกไม่ร้ายที่<b>ฐานติด dura enhance สม่ำเสมอเข้ม มี dural tail</b> โตช้า พบในหญิงวัยกลางคน อาจชักได้แต่ไม่มีไข้หรือประวัติไซนัสอักเสบ — จะถูกถ้าเป็นหญิง 55 ปีชักครั้งแรก ไม่มีไข้ MRI พบก้อนกลมฐานกว้างติด dura ที่ convexity ข้างซ้าย enhance เข้มสม่ำเสมอ มี dural tail และกระดูกหนาตัวข้างบน",
+   "E": "Brain abscess เป็นหนองใน<b>เนื้อสมอง (intra-axial)</b> รูปกลมมีผนัง enhance บางเรียบเป็นวง (ring-enhancing) DWI สว่าง สมองบวมรอบ ก็เกิดจาก frontal sinusitis ได้ แต่อยู่ในเนื้อสมองไม่ใช่ชั้นคลุมผิวสมองรูปจันทร์เสี้ยว — จะถูกถ้าเป็นชาย 35 ปีหลังรักษาฟันผุ มีไข้ ปวดศีรษะ 2 สัปดาห์ MRI พบก้อนกลมในเนื้อสมองกลีบหน้าผนัง enhance บางเรียบ ตรงกลาง DWI สว่าง"
   },
-  "trap": "ทั้ง empyema และ abscess มีขอบ enhance — แยกที่ตำแหน่ง: ผิวสมองรูปจันทร์เสี้ยว (empyema) กับในเนื้อสมองรูปกลม (abscess)",
+  "trap": "ไซนัสอักเสบ + ไข้ + ชัก ชวนให้ตอบ brain abscess ซึ่งเป็นภาวะแทรกซ้อนจากไซนัสเหมือนกัน · แยกด้วย<b>ตำแหน่งและรูปร่าง</b>: ในเนื้อสมอง กลม ring-enhancing = abscess · ชั้นคลุมผิวสมอง <b>รูปจันทร์เสี้ยว rim enhance</b> = subdural empyema · และรูปจันทร์เสี้ยวที่ไม่มีไข้ในผู้สูงอายุ = chronic SDH",
   "summary": [
-   "<b>นอกสไลด์:</b> MRI DWI สว่างในหนอง ช่วยแยก empyema จาก subdural effusion ที่ไม่ติดเชื้อ"
+   "ภาวะแทรกซ้อนในกะโหลกของ frontal sinusitis: subdural empyema, epidural abscess, brain abscess, meningitis, cavernous/ superior sagittal sinus thrombosis, Pott's puffy tumor",
+   "Pott's puffy tumor: กระดูก frontal อักเสบ (osteomyelitis) ร่วมหนองใต้เยื่อหุ้มกระดูก → หน้าผากบวมนุ่ม มักมี intracranial complication ร่วม ต้องทำ MRI",
+   "Subdural empyema: ไข้ ปวดศีรษะ ชัก แขนขาอ่อนแรง ซึมลงเร็ว · MRI รูปจันทร์เสี้ยว rim enhance DWI สว่าง · กระจายข้ามรอยต่อกะโหลกและตาม falx",
+   "รักษา subdural empyema: ผ่าตัดระบายหนองด่วน (มักใช้ craniotomy) + IV antibiotics หลายสัปดาห์ + ระบายไซนัสต้นเหตุ + ยากันชัก · ห้ามเจาะหลัง",
+   "Epidural abscess ในกะโหลก: อาการช้ากว่าเพราะ dura กั้นไว้ รูปเลนส์ ไม่ข้ามรอยต่อกะโหลก",
+   "Brain abscess: ring-enhancing ผนังบางเรียบ DWI สว่างตรงกลาง (แยกจากเนื้องอกที่ตรงกลางมักไม่สว่าง) · ก้อน &gt; ราว 2.5 cm หรือกดเบียด → เจาะดูดหนองร่วมยาฆ่าเชื้อ",
+   "รูปเลือดบน CT: EDH เลนส์ไม่ข้ามรอยต่อ · SDH จันทร์เสี้ยวข้ามรอยต่อ · acute ขาว → subacute ก้ำกึ่ง → chronic ดำ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · ภาพและประวัติเข้ากัน · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A (subdural empyema) ความมั่นใจสูง — ไซนัสอักเสบที่หน้าผากตามด้วยไข้ ชัก และของเหลวรูปจันทร์เสี้ยว rim enhance คลุมผิวสมองเป็นภาพคลาสสิกของ subdural empyema ตรงกับไฟล์ที่ไฮไลต์ A · ภาพในไฟล์เป็นภาพที่ผู้จดหามาให้ใกล้เคียงข้อสอบเดิม เว็บจึงแต่งโจทย์ให้เข้ากับภาพ",
+  "mnemonic": "<b>'Sinusitis + ไข้ + ชัก + จันทร์เสี้ยว = Subdural Empyema → \"ผ่าระบายด่วน ห้ามเจาะหลัง\"'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Subdural empyema; Youmans and Winn Neurological Surgery 8th ed. (2022) — Cranial and intracranial bacterial infections",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยรายนี้ → ผ่าตัดเปิดกะโหลก (craniotomy) ระบายหนองให้หมด + ยาปฏิชีวนะทางหลอดเลือด + ระบาย sinus ต้นเหตุ — ภาวะฉุกเฉิน",
-   "<b>นอกสไลด์:</b> ทารกหลัง bacterial meningitis มีของเหลวใต้เยื่อหุ้มสมอง ไม่ enhance DWI ไม่สว่าง อาการดีขึ้น → subdural effusion มักหายเอง"
+   "ชาย 16 ปีหน้าผากบวมนุ่มหลังไซนัสอักเสบ มีไข้ ปวดศีรษะ → Pott's puffy tumor → MRI สมองหา intracranial complication ร่วม",
+   "วัยรุ่นไซนัสอักเสบ มีไข้ ปวดศีรษะ หนังตาบวมสองข้าง เส้นประสาทกลอกตาคู่ 3 4 6 อ่อนแรง → cavernous sinus thrombosis",
+   "หลังรักษาหูชั้นกลางอักเสบเรื้อรัง มีไข้ ปวดศีรษะ MRI พบก้อนกลม ring-enhancing ใน temporal lobe 3 cm → brain abscess → เจาะดูดหนองร่วม IV antibiotics",
+   "ทำไมห้ามเจาะหลังใน subdural empyema → มีก้อนกินที่และสมองบวม ความดันในกะโหลกสูง ลด CSF ด้านล่างเสี่ยง herniation และผลตรวจ CSF ไม่ช่วยการรักษา"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 7 — ตัวพิมพ์: <b>15) [Neuro] คิดว่ารูปประมาณนี้ — A. Subdural empyema</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ภาพในไฟล์เป็นภาพข้อสอบเดิม (เลข 15) · ไฟล์มีแค่คำตอบ → Claude แต่งโจทย์และช้อย",
+  "src": "S73DQ · หน้า 7",
+  "kimg": [
+   "kp73d_neuro3"
   ]
  },
  "MDCU73|RoD|Neuro 4": {
-  "interp": "ข้อ LEAST: MRI มีรอยโรคในเนื้อสมองกลีบ parietal → โรคใด <b>น่าจะเป็นน้อยที่สุด</b>",
-  "why": "ไฟล์ไฮไลต์ <b>D</b><br><b>นอกสไลด์:</b> ภาพ FLAIR และ T2 มีรอยโรคในเนื้อสมองหลายตำแหน่ง (thalamus, occipital, parietal) · vestibular schwannoma เป็นก้อนนอกเนื้อสมองที่เกิดจาก CN VIII ตรง cerebellopontine angle และ internal auditory canal เท่านั้น จึงไม่อยู่ใน parietal lobe",
+  "interp": "MRI สมองพบรอยโรคที่ <b>parietal lobe</b> ตามรูป — ถาม<b>โรคที่ไม่น่าจะเป็น ddx</b> ซึ่งต้องรู้ว่ารอยโรคในเนื้อสมองกลีบ parietal (intra-axial, มักเป็น ring-enhancing) มี ddx อะไรบ้าง และโรคใดเกิดได้เฉพาะตำแหน่งอื่น",
+  "why": "รอยโรคในเนื้อสมอง supratentorial ที่เป็นก้อน enhance เป็นวง มี ddx ตามคำช่วยจำ <b>\"MAGIC DR\"</b>: <b>M</b>etastasis, <b>A</b>bscess, <b>G</b>lioma (glioblastoma/ high-grade astrocytoma), <b>I</b>nfarct (ระยะกึ่งเฉียบพลัน), <b>C</b>ontusion, <b>D</b>emyelination (มักวงไม่ครบ open ring), <b>R</b>esolving hematoma/ radiation necrosis · แยกด้วย: metastasis มักหลายก้อนที่รอยต่อ gray–white matter บวมรอบมากเกินขนาดก้อน · glioblastoma ผนังหนาไม่เรียบ ตรงกลางเนื้อตาย ข้าม corpus callosum ได้ · abscess ผนังบางเรียบ <b>DWI ตรงกลางสว่าง</b> · เลือดที่กำลังสลาย (subacute) มี enhancing rim ได้ · <b>Vestibular schwannoma</b> เป็นก้อน <b>extra-axial ที่ cerebellopontine angle/ internal auditory canal</b> ใน posterior fossa เท่านั้น เกิดใน parietal lobe ไม่ได้ จึงไม่อยู่ใน ddx · ไฟล์ไฮไลต์คำตอบ <b>D. Vestibular schwannoma</b> และเขียนว่า <b>\"ไม่ ddx อะไร (รูปประมาณนี้)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ astrocytoma อยู่นอกโรคที่ต้องแยกของรอยโรคในเนื้อสมองกลีบ parietal เพราะเกิดจาก glial cell ในเนื้อสมองได้ทุกกลีบ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ฝีในสมองอยู่นอกโรคที่ต้องแยก เพราะเชื้อมาทางกระแสเลือดหรือลามจากใกล้เคียงไปได้ทุกกลีบ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เลือดออกอยู่นอกโรคที่ต้องแยก เพราะเลือดในเนื้อสมองเกิดได้ทุกกลีบและสัญญาณ MRI เปลี่ยนตามอายุของเลือด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ metastasis อยู่นอกโรคที่ต้องแยก เพราะมักอยู่ที่รอยต่อเนื้อเทา–เนื้อขาวของซีกสมองและเป็นหลายก้อน"
+   "A": "เป็น ddx ที่เป็นไปได้จริง: astrocytoma โดยเฉพาะ high-grade (glioblastoma) เป็นเนื้องอกปฐมภูมิในเนื้อสมองที่พบบ่อยที่สุดในผู้ใหญ่ เกิดใน cerebral hemisphere ได้ทุกกลีบ ผนัง enhance หนาไม่เรียบ — จะถูกถ้าต้องเลือก ddx ที่น่าจะเป็นที่สุดในชาย 60 ปีชักครั้งแรกและแขนซ้ายอ่อนแรงมา 1 เดือน MRI พบก้อนเดียวผนังหนาไม่เรียบใน parietal lobe ขวา ข้าม corpus callosum",
+   "B": "เป็น ddx ที่เป็นไปได้จริง: brain abscess เกิดได้ทุกกลีบจากเชื้อลามตรง (หู ไซนัส) หรือมาทางเลือด (หัวใจ ฟัน ปอด) ตำแหน่ง parietal พบในการแพร่ทางเลือด ผนัง enhance บางเรียบ ตรงกลาง DWI สว่าง — จะถูกถ้าต้องเลือก ddx ที่น่าจะเป็นที่สุดในเด็ก 8 ขวบ cyanotic heart disease (tetralogy of Fallot) มีไข้ ปวดศีรษะ ชัก MRI พบก้อนกลมผนังบางใน parietal lobe",
+   "C": "เป็น ddx ที่เป็นไปได้จริง: เลือดออกในเนื้อสมอง (lobar hemorrhage) เกิดใน parietal lobe ได้ และเลือดที่กำลังสลายในระยะกึ่งเฉียบพลันมีขอบ enhance คล้ายก้อน ต้องดู signal ของเลือดบน MRI (T1/ T2/ SWI) — จะถูกถ้าต้องเลือก ddx ที่น่าจะเป็นที่สุดในหญิง 78 ปีความจำเสื่อม มีเลือดออก lobar ใน parietal lobe และ SWI พบจุดเลือดเก่าตามผิวสมองหลายจุด (amyloid angiopathy)",
+   "E": "เป็น ddx ที่เป็นไปได้จริง: metastasis เป็นก้อนในสมองที่พบบ่อยที่สุดในผู้ใหญ่ มักหลายก้อนที่รอยต่อ gray–white matter บวมรอบมาก มาจากมะเร็งปอด เต้านม melanoma ไต ลำไส้ — จะถูกถ้าต้องเลือก ddx ที่น่าจะเป็นที่สุดในชาย 62 ปีสูบบุหรี่ น้ำหนักลด มีก้อนที่ปอด และ MRI พบก้อน enhance 3 ก้อนที่รอยต่อ gray–white matter รวมทั้ง parietal lobe"
   },
-  "trap": "ข้อนี้ไม่ต้องรู้ว่ารอยโรคคืออะไร — ใช้ตำแหน่งตัดช้อยที่เกิดนอกเนื้อสมองเฉพาะที่",
+  "trap": "ข้อแบบ \"least likely\" ทำให้รีบเลือกช้อยที่ดูไม่ใช่เนื้องอก (abscess หรือ hemorrhage) · แต่ทั้งสองเป็น ddx จริงของรอยโรคในเนื้อสมองที่ enhance เป็นวง · ต้องดู<b>ตำแหน่งกำเนิด</b>: vestibular schwannoma เกิดจาก Schwann cell ของเส้นประสาทคู่ที่ 8 จึงอยู่ได้เฉพาะ CP angle/ IAC ไม่มีทางอยู่ใน parietal lobe",
   "summary": [
-   "<b>นอกสไลด์:</b> ลักษณะก้อนนอกเนื้อสมอง (extra-axial): ฐานติด dura หรือกระดูก · มีน้ำ CSF คั่นระหว่างก้อนกับสมอง · ดันผิวสมองเข้า"
+   "Ring-enhancing lesion ddx \"MAGIC DR\": Metastasis, Abscess, Glioblastoma, Infarct (subacute), Contusion, Demyelination, Resolving hematoma/ Radiation necrosis",
+   "Metastasis: ก้อนในสมองที่พบบ่อยที่สุดในผู้ใหญ่ · หลายก้อนที่รอยต่อ gray–white matter · ต้นกำเนิดบ่อย: ปอด เต้านม melanoma ไต ลำไส้",
+   "Glioblastoma (IDH-wildtype, WHO grade 4): ก้อนเดียวผนังหนาไม่เรียบ เนื้อตายตรงกลาง ข้าม corpus callosum (butterfly) · รักษา maximal safe resection + RT + temozolomide (Stupp)",
+   "Abscess แยกจากเนื้องอก: DWI ตรงกลางสว่าง (ADC ต่ำ) ผนังบางเรียบ · MR spectroscopy พบ amino acids, acetate, succinate",
+   "Demyelination (tumefactive MS): open ring (วงไม่ครบด้านติด cortex) · ไม่ค่อยกดเบียดเท่าขนาด",
+   "Extra-axial tumor แยกตามตำแหน่ง: CP angle → vestibular schwannoma (มากสุด), meningioma, epidermoid · convexity/ parasagittal → meningioma",
+   "ทุกก้อนในสมองที่บวมรอบ: dexamethasone ลดบวม (เว้นสงสัย lymphoma ให้ biopsy ก่อนเพราะสเตียรอยด์ทำให้ก้อนยุบ) · ยากันชักเมื่อชัก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ D (vestibular schwannoma) ความมั่นใจสูง — เป็นก้อน extra-axial ที่เกิดได้เฉพาะ CP angle/ IAC จึงไม่เป็น ddx ของรอยโรคใน parietal lobe ส่วนช้อยอื่นเป็น ddx มาตรฐาน ตรงกับไฟล์ที่ไฮไลต์ D · ช้อย E ในไฟล์ว่าง เว็บเติม metastasis ซึ่งเป็น ddx ที่พบบ่อยที่สุดของก้อนในสมองผู้ใหญ่",
+  "mnemonic": "<b>'Ring-enhancing = \"MAGIC DR\" · Schwannoma อยู่แค่ CP angle'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Differential diagnosis of ring-enhancing lesions; WHO Classification of Tumours of the Central Nervous System 5th ed. (2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนที่ cerebellopontine angle ไม่เข้า internal auditory canal มี dural tail → meningioma",
-   "<b>นอกสไลด์:</b> รอยโรคหลายก้อนที่รอยต่อเนื้อเทา–ขาวในผู้สูบบุหรี่ → หามะเร็งปฐมภูมิ (CT ช่องอก)"
+   "ชาย 55 ปีมะเร็งปอด มีก้อนในสมองเดียว 2 cm ใน parietal lobe เข้าถึงง่าย โรคนอกสมองคุมได้ → ผ่าตัดเอาก้อนออกร่วม stereotactic radiosurgery ที่โพรงก้อน",
+   "ก้อนในสมองผนังบาง DWI ตรงกลางสว่างมาก ADC ต่ำ ในผู้ป่วยมีไข้ → brain abscess ไม่ใช่ glioblastoma",
+   "หญิง 30 ปีมีก้อนในเนื้อสมองขาวเป็นวงไม่ครบ (open ring) บวมรอบน้อย ประวัติเห็นภาพไม่ชัดตาเดียวเมื่อปีก่อน → tumefactive demyelination (MS)",
+   "ผู้ป่วย AIDS CD4 ต่ำมาก มีก้อน ring-enhancing หลายก้อนที่ basal ganglia → toxoplasmosis (รองคือ primary CNS lymphoma) → ให้ยารักษา toxoplasma แล้วดูการตอบสนอง"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 8 — ตัวพิมพ์: <b>18) [Neuro] ไม่ ddx อะไร (รูปประมาณนี้) — A. Astrocytoma B. Abscess C. Hemorrhage D. Vestibular schwannoma E.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ภาพในไฟล์เป็นภาพข้อสอบเดิม (เลข 18) · ช้อย E ว่าง → เติม metastasis",
+  "src": "S73DQ · หน้า 8",
+  "kimg": [
+   "kp73d_neuro4"
   ]
  },
  "MDCU73|RoD|CVT 1": {
-  "interp": "ชาย 72 ปี triple-vessel disease จะทำ CABG → graft ใดมีผลต่อการรอดชีวิตระยะยาวมากที่สุด",
-  "why": "P'Ing ไม่ได้วง (มี ?) แต่ตาราง conduit ในคีย์: <b>LIMA patency 10 ปี ราว 90% (ส่วนใหญ่ใช้ LIMA) · radial ราว 80% · saphenous ราว 60%</b><br><b>นอกสไลด์:</b> LAD เลี้ยงกล้ามเนื้อหัวใจมากที่สุด และ LIMA เป็น conduit ที่เปิดอยู่นานที่สุด · LIMA–LAD เป็น graft ที่เพิ่มการรอดชีวิตระยะยาว แนะนำในทุกรายที่ต้อง bypass LAD",
+  "interp": "ชาย 72 ปี angina 3 เดือน CAG พบ <b>triple-vessel disease ที่มี distal target ดี</b> วางแผนทำ CABG — ถามว่า graft ใด<b>มีผลต่อการรอดชีวิตระยะยาวมากที่สุด</b> ต้องรู้ทั้งความทนทานของ conduit แต่ละชนิดและความสำคัญของหลอดเลือดเป้าหมาย",
+  "why": "ผลต่อการรอดชีวิตระยะยาวของ CABG ขึ้นกับสองอย่าง: ① <b>conduit ที่เปิดอยู่นาน</b> — <b>internal mammary artery</b> ทนต่อ atherosclerosis เพราะ endothelium สร้าง nitric oxide และ prostacyclin ได้ดี เปิดอยู่ที่ 10 ปีราว <b>90%</b> ขณะที่ radial artery ราว 80% และ saphenous vein ราว 50–60% (vein เสื่อมจาก intimal hyperplasia และ atherosclerosis) ② <b>หลอดเลือดเป้าหมายที่เลี้ยงกล้ามเนื้อมากที่สุด</b> — LAD เลี้ยงผนังหน้า septum และ apex ซึ่งเป็นสัดส่วนใหญ่ของ left ventricle · การต่อ <b>LIMA เข้า LAD</b> จึงเป็นมาตรฐานทองที่แสดงว่าเพิ่มการรอดชีวิตระยะยาวชัดเจนเทียบกับ vein to LAD (Loop และคณะ NEJM 1986) และเป็นคำแนะนำ Class 1 ของ ACC/AHA/SCAI 2021 · graft ที่สองแนะนำ <b>radial artery</b> ต่อเข้าหลอดเลือดที่ตีบรุนแรง (ไม่ใช่ SVG) · ไฟล์ไม่ได้วงคำตอบ มีเครื่องหมาย \"?\" แต่มีลายมือ <b>\"ทำ CABG\"</b> และตาราง conduit <b>\"LIMA potency 10 ปี ~90% (ส่วนใหญ่ใช้ LIMA) · radial ~80% · saphenous ~60%\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยไม่มีรอยโรคที่ LAD ต้อง bypass เฉพาะ circumflex และ RCA — ใช้ LIMA กับแขนง circumflex ที่เลี้ยงกล้ามเนื้อมากที่สุด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า LIMA ใช้ไม่ได้ (subclavian artery ตีบ หรือเคยฉายรังสีที่อก) — ต่อ LAD ด้วย saphenous vein",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ saphenous ไป RCA สำคัญต่อการรอดชีวิตกว่า graft ที่ไป LAD เพราะ LAD เลี้ยงกล้ามเนื้อมากกว่า และ saphenous ตันเร็วกว่า",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ radial ไป RCA สำคัญต่อการรอดชีวิตกว่า graft ที่ไป LAD เพราะ LAD เลี้ยงกล้ามเนื้อหัวใจมากที่สุด"
+   "B": "LIMA ต่อเข้า circumflex ทำได้ (เช่นใน bilateral IMA หรือเมื่อ LAD ไม่ต้องต่อ) และได้ conduit ที่ทนเหมือนกัน แต่ circumflex เลี้ยงกล้ามเนื้อน้อยกว่า LAD และอยู่ไกล ประโยชน์ต่อการรอดชีวิตจึงไม่เท่า LIMA–LAD — จะถูกถ้าเป็นชาย 60 ปีที่เคยทำ CABG โดยใช้ LIMA ต่อ LAD แล้ว ตอนนี้ต้องทำซ้ำและใช้ RIMA ต่อเข้า obtuse marginal ที่ตีบรุนแรง",
+   "C": "Saphenous vein ต่อเข้า LAD ทำได้เมื่อไม่มี IMA ใช้ (เช่น IMA เสียหายหรือเลือดไหลไม่พอ) แต่ vein graft ตีบตันตามเวลา เปิดอยู่ที่ 10 ปีราวครึ่งหนึ่ง การรอดชีวิตระยะยาวจึงด้อยกว่า LIMA–LAD — จะถูกถ้าเป็นหญิง 70 ปีที่เคยฉายรังสีหน้าอกจากมะเร็งเต้านมซ้าย จน LIMA เสียหายใช้ไม่ได้ และต้องต่อ graft เข้า LAD ในการทำ CABG ฉุกเฉิน",
+   "D": "Saphenous vein ต่อเข้า right coronary artery เป็นการใช้ vein ที่พบบ่อยที่สุดในทางปฏิบัติสำหรับเป้าหมายที่ไม่ใช่ LAD เก็บได้ง่ายและยาว แต่ทั้ง conduit (vein) และเป้าหมาย (RCA) ไม่ใช่ปัจจัยหลักของการรอดชีวิตระยะยาว — จะถูกถ้าเป็นชาย 75 ปีที่ต่อ LIMA–LAD แล้ว ต้องต่อ graft เพิ่มเข้า posterior descending artery และ radial artery ใช้ไม่ได้เพราะ Allen test ผิดปกติ",
+   "E": "Radial artery เป็น arterial graft ที่ดีรองจาก IMA (เปิดที่ 10 ปีราว 80%) และแนะนำเป็น graft ที่สองแทน SVG แต่ต้องต่อเข้าหลอดเลือดที่<b>ตีบรุนแรง</b> เพราะถ้าตีบไม่มาก เลือดไหลแข่งกันทำให้ graft หดเกร็งและตัน — จะถูกถ้าเป็นชาย 58 ปี triple-vessel disease ที่ต่อ LIMA–LAD แล้ว และต้องเลือก graft ที่สองเข้า RCA ที่ตีบ 95% โดย Allen test ปกติ"
   },
-  "trap": "ทุก graft เพิ่มเลือดไปเลี้ยงหัวใจ — แต่ที่เพิ่มการรอดชีวิตชัดคือ LIMA ไป LAD",
+  "trap": "คีย์ในไฟล์ไม่ได้วงและมีเครื่องหมาย \"?\" และช้อย LIMA ไปสองที่ (LAD และ Cx) ทำให้ลังเล · ต้องคิดสองชั้น: conduit ที่ดีที่สุด (<b>IMA</b>) + เป้าหมายที่สำคัญที่สุด (<b>LAD</b>) = LIMA–LAD · และอย่าหลงเลือก radial เพราะเป็น arterial graft ที่ทนรองลงมา",
   "summary": [
-   "Patency 10 ปีตามตารางในคีย์: LIMA ราว 90% · radial ราว 80% · saphenous ราว 60%"
+   "ข้อบ่งชี้ CABG ที่เพิ่มการรอดชีวิต: left main ตีบ ≥ 50% · triple-vessel disease (โดยเฉพาะร่วม LV dysfunction หรือเบาหวาน) · multivessel ร่วม proximal LAD",
+   "เบาหวาน multivessel: CABG ดีกว่า PCI ในการรอดชีวิตและลด MI (FREEDOM) · SYNTAX score สูง → CABG",
+   "Patency 10 ปีโดยประมาณ: IMA ราว 90% · radial artery ราว 80% · saphenous vein ราว 50–60%",
+   "LIMA–LAD: มาตรฐานทอง Class 1 (ACC/AHA/SCAI 2021) เพิ่มการรอดชีวิตระยะยาว · ทำแทบทุกรายที่ต่อ LAD",
+   "Radial artery: graft ที่สองที่แนะนำเข้าหลอดเลือดตีบรุนแรง · ตรวจ Allen test ก่อนเก็บ · เสี่ยงหดเกร็ง (ให้ยาขยายหลอดเลือด)",
+   "Bilateral IMA: อาจได้ประโยชน์ระยะยาวในรายเลือก แต่เพิ่มแผลกระดูกอกติดเชื้อในอ้วนและเบาหวาน (ART trial ไม่ต่างชัดเมื่อวิเคราะห์ตามแผน)",
+   "SVG ล้มเหลว: ปีแรกจาก thrombosis/ เทคนิค · 1–5 ปีจาก intimal hyperplasia · หลัง 5 ปีจาก atherosclerosis · aspirin และ statin ขนาดสูงช่วยลด"
   ],
-  "opinion": "คีย์ไม่ได้วงคำตอบ — ตอบ A ตามตาราง conduit ในคีย์และ guideline · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ในเว็บ (LIMA to LAD) ความมั่นใจสูง — คีย์ในไฟล์ไม่ได้วงคำตอบและผู้จดใส่ \"?\" แต่ลายมือตาราง conduit ที่เขียนว่า LIMA เปิดอยู่ 10 ปีราว 90% และส่วนใหญ่ใช้ LIMA สนับสนุนคำตอบนี้ และเป็นคำแนะนำ Class 1 ของ guideline · ช้อย B ในไฟล์เขียน LIMA for Cx ซึ่งผู้จดเห็นว่าโจทย์อาจพิมพ์ผิด ส่วนช้อย C D ในไฟล์ไม่ครบ เว็บเติมเป้าหมายให้",
+  "mnemonic": "<b>'LIMA ❤ LAD = รอดยาว (\"Left ไป Left\")'</b>",
+  "guide": "2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization (Circulation 2022); Sabiston Textbook of Surgery 21st ed. (2022) — Acquired heart disease: coronary insufficiency",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยเบาหวานมีโรคหลอดเลือดหัวใจหลายเส้น → CABG ให้ผลระยะยาวดีกว่า PCI",
-   "<b>นอกสไลด์:</b> จะใช้ radial artery เป็น graft → ตรวจก่อนว่ามือได้เลือดจาก ulnar พอ (Allen test)"
+   "ชาย 65 ปีเบาหวาน triple-vessel disease SYNTAX score สูง LVEF 35% → CABG (ไม่ใช่ PCI) ใช้ LIMA–LAD + radial artery/ SVG ต่อหลอดเลือดอื่น",
+   "หลัง CABG 8 ปี angina กลับมา CAG พบ SVG ไป RCA ตัน LIMA–LAD ยังเปิดดี → vein graft disease จาก atherosclerosis → PCI ที่หลอดเลือดเดิมหรือ graft",
+   "ก่อนเก็บ radial artery มือซ้าย กดหลอดเลือด radial และ ulnar แล้วปล่อยเฉพาะ ulnar มือยังซีดเกิน 10 วินาที → ห้ามใช้ radial ข้างนั้น",
+   "ทำไม IMA ทนกว่า vein → endothelium ของ IMA สร้าง nitric oxide และ prostacyclin มาก มี internal elastic lamina สมบูรณ์ ต้าน intimal hyperplasia และ atherosclerosis"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 8 — ตัวพิมพ์: <b>72 ปี, angina 3 month, CAG: triple vss disease with good target (distal run off), best influence long term — A. LIMA for LAD B. LIMA for Cx (โจทย์น่าจะพิมพ์ผิด) C. saphenous for … D. saphenous for ….</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ P'Ing ไม่ได้วงคำตอบ (มี ?) แต่ตาราง conduit สนับสนุน LIMA · ไฟล์ช้อย C, D ไม่ครบ → Claude เติม",
+  "src": "S73DQ · หน้า 8",
+  "kimg": [
+   "kp73d_cvt1"
   ]
  },
  "MDCU73|RoD|CVT 2": {
-  "interp": "ผู้ใช้ยาเสพติดฉีด ไข้นาน และมี pansystolic murmur ใหม่ → ถามการวินิจฉัย",
-  "why": "ไฟล์จดหัวข้อ <b>ไข้, pansystolic murmur → IE</b> — โจทย์แต่งขึ้น<br><b>นอกสไลด์:</b> ไข้ร่วม murmur แบบลิ้นรั่วที่เกิดใหม่ = infective endocarditis จนกว่าจะพิสูจน์ว่าไม่ใช่ · ผู้ใช้ยาฉีดมักเป็นลิ้น tricuspid เชื้อ S. aureus — murmur ของ TR ดังขึ้นเวลาหายใจเข้า",
+  "interp": "ผู้ป่วย<b>ใช้ยาเสพติดชนิดฉีด (IVDU)</b> มี<b>ไข้นาน</b>และได้ยิน <b>pansystolic murmur ที่เพิ่งเกิดใหม่</b> — ถามการวินิจฉัย ต้องเชื่อมปัจจัยเสี่ยงที่ทำให้เชื้อเข้ากระแสเลือดซ้ำ ๆ กับลิ้นหัวใจรั่วใหม่",
+  "why": "<b>Infective endocarditis (IE)</b> คือการติดเชื้อของเยื่อบุหัวใจ/ ลิ้นหัวใจ เกิด vegetation ที่ทำลายลิ้นจนรั่ว · ผู้ใช้ยาฉีดมีเชื้อจากผิวหนังเข้ากระแสเลือดซ้ำ ๆ → มักเป็น <b>ลิ้น tricuspid</b> และเชื้อ <b>Staphylococcus aureus</b> · pansystolic murmur ที่เกิดใหม่คือ <b>tricuspid regurgitation</b> (ขอบซ้ายล่างกระดูกอก ดังขึ้นเมื่อหายใจเข้า) หรือ mitral regurgitation · IE ด้านขวามักมี <b>septic pulmonary emboli</b> (ก้อนหลายก้อนในปอดมีโพรง) · วินิจฉัยตาม <b>Duke criteria (ฉบับปรับปรุง 2023 Duke–ISCVID)</b>: major = blood culture ขึ้นเชื้อที่พบบ่อยของ IE ≥ 2 ชุด + หลักฐานภาพของลิ้น (echocardiography เห็น vegetation, ฝี, ลิ้นรั่วใหม่) · minor = ปัจจัยเสี่ยง ไข้ ≥ 38°C ปรากฏการณ์หลอดเลือด (emboli, Janeway lesion) ปรากฏการณ์ภูมิคุ้มกัน (Osler node, Roth spot, glomerulonephritis) · <b>เจาะ blood culture 3 ชุดจากคนละตำแหน่งก่อนให้ยา</b> แล้วทำ echocardiography (TTE → TEE) และให้ยาฆ่าเชื้อทางหลอดเลือดนานหลายสัปดาห์ · ไฟล์จดหัวข้อ <b>\"ไข้, pansystolic murmur → IE\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก 10 ปีมีไข้ ข้ออักเสบย้ายที่ และ murmur ใหม่ 2–3 สัปดาห์หลังเจ็บคอ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่หลังเป็นหวัดมีเหนื่อย หัวใจเต้นผิดจังหวะ troponin สูง ไม่มี murmur ใหม่",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเจ็บอกแหลมดีขึ้นเมื่อนั่งโน้มตัว ได้ยิน friction rub ECG ST ยกทั่วไป",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามีไข้ น้ำหนักลด หายใจลำบากตามท่า และได้ยินเสียง tumor plop ช่วง diastole"
+   "B": "Rheumatic fever เกิดหลังคออักเสบจาก group A Streptococcus 2–4 สัปดาห์ ในเด็ก 5–15 ปี มี carditis ทำให้ mitral regurgitation (pansystolic murmur) ได้จริง แต่วินิจฉัยด้วย Jones criteria ไม่เกี่ยวกับการใช้ยาฉีด — จะถูกถ้าเป็นเด็ก 10 ขวบเจ็บคอเมื่อ 3 สัปดาห์ก่อน ตอนนี้มีไข้ ปวดบวมข้อใหญ่ย้ายที่ ได้ยิน pansystolic murmur ที่ apex และ ASO สูง",
+   "C": "Viral myocarditis ตามหลังไข้หวัดหรือท้องเสียจากไวรัส มีเหนื่อย ใจสั่น เจ็บอก หัวใจล้มเหลว troponin สูง หัวใจห้องล่างบีบตัวลดทั่ว ๆ อาจมี murmur ของ MR จากหัวใจโต แต่ไม่ใช่ไข้นานในผู้ใช้ยาฉีด — จะถูกถ้าเป็นชาย 25 ปีหลังเป็นหวัด 1 สัปดาห์ เหนื่อยหอบ ใจสั่น troponin สูง echocardiography พบ LV บีบตัวลดทั่ว ๆ หลอดเลือดหัวใจปกติ และ cardiac MRI มี late gadolinium enhancement",
+   "D": "Acute pericarditis มี<b>เจ็บอกแหลมแบบ pleuritic ดีขึ้นเมื่อโน้มตัวไปข้างหน้า</b> ได้ยิน pericardial friction rub (ไม่ใช่ pansystolic murmur) ECG มี ST ยกทั่วไปและ PR กด — จะถูกถ้าเป็นชาย 30 ปีหลังเป็นหวัด เจ็บอกมากขึ้นเวลานอนราบและหายใจลึก ดีขึ้นเมื่อนั่งโน้มตัว ได้ยินเสียงเสียดสีสามส่วน และ ECG ST ยกทุก lead",
+   "E": "Atrial myxoma เป็นเนื้องอกหัวใจปฐมภูมิที่พบบ่อยที่สุดในผู้ใหญ่ มักอยู่ left atrium ติด fossa ovalis ทำให้ไข้ น้ำหนักลด emboli และเสียง <b>tumor plop</b> กับ murmur แบบ<b>ช่วง diastole</b> ที่เปลี่ยนตามท่า — จะถูกถ้าเป็นหญิง 45 ปีมีไข้ต่ำ ๆ น้ำหนักลด เป็นลมเวลาเปลี่ยนท่า ได้ยิน early diastolic plop และ echocardiography เห็นก้อนมีก้านใน left atrium"
   },
-  "trap": "ไข้ + murmur ใหม่ในผู้ใช้ยาฉีด ต้องเพาะเชื้อในเลือดก่อนให้ยาปฏิชีวนะ",
+  "trap": "Pansystolic murmur + ไข้ ชวนให้ตอบ rheumatic fever ซึ่งมี carditis และ MR ได้ · แยกด้วย<b>ประวัติฉีดยาเสพติด</b> (เชื้อเข้ากระแสเลือดซ้ำ) และ<b>ไข้นาน</b> ในผู้ใหญ่ = IE · rheumatic fever ต้องมีคออักเสบนำในเด็กและข้ออักเสบย้ายที่ · ไข้ + murmur ใหม่ในทุกคนต้องเจาะ blood culture ก่อนให้ยา",
   "summary": [
-   "<b>นอกสไลด์:</b> Modified Duke: hemoculture อย่างน้อย 3 ขวดก่อนให้ยา + echo (TTE แล้ว TEE ถ้าไม่ชัด)"
+   "ปัจจัยเสี่ยง IE: ใช้ยาฉีด, ลิ้นเทียม/ อุปกรณ์ในหัวใจ, เคยเป็น IE, rheumatic heart disease (สำคัญในไทย), congenital heart disease, ฟอกเลือด/ สายสวนหลอดเลือด",
+   "เชื้อ: S. aureus (พบบ่อยสุด, IVDU, อุปกรณ์), viridans streptococci (ฟัน ลิ้นเดิมผิดปกติ), enterococci (ทางเดินปัสสาวะ ผู้สูงอายุ), Streptococcus gallolyticus (bovis) → ส่องกล้องลำไส้หามะเร็ง",
+   "Duke–ISCVID 2023: definite = 2 major หรือ 1 major + 3 minor หรือ 5 minor · major: blood culture + imaging (echo, cardiac CT, PET/CT ในลิ้นเทียม)",
+   "IVDU: ลิ้น tricuspid · TR murmur ดังขึ้นเมื่อหายใจเข้า · septic pulmonary emboli หลายก้อนมีโพรง",
+   "ตรวจ: blood culture 3 ชุดก่อนให้ยา → TTE · ถ้า TTE ไม่ชัด ลิ้นเทียม หรือสงสัยฝี → TEE",
+   "รักษา: IV antibiotics ตามเชื้อ (ลิ้นเดิมส่วนใหญ่ 4–6 สัปดาห์) · ข้อบ่งชี้ผ่าตัด: หัวใจล้มเหลวจากลิ้นรั่ว, ติดเชื้อคุมไม่ได้ (ฝีรอบลิ้น เชื้อในเลือดไม่หาย เชื้อรา/ ดื้อยา), vegetation ใหญ่ร่วม embolism",
+   "ปรากฏการณ์: Janeway lesion (ฝ่ามือฝ่าเท้าไม่เจ็บ, emboli) · Osler node (ปลายนิ้วเจ็บ, ภูมิคุ้มกัน) · Roth spot · splinter hemorrhage"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ (มีแค่หัวข้อ IE) — ตอบ IE · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A (infective endocarditis) ความมั่นใจสูง — ไข้นานร่วม murmur ใหม่ในผู้ใช้ยาฉีดเป็นภาพคลาสสิกของ IE ตามตำรา ตรงกับที่ไฟล์จดหัวข้อว่า ไข้, pansystolic murmur → IE · ไฟล์ไม่มีโจทย์และช้อยเดิม เว็บจึงเติมประวัติยาฉีดและเลือกตัวลวงที่มีไข้หรือ murmur เหมือนกัน",
+  "mnemonic": "<b>'ไข้ + Murmur ใหม่ = IE จนกว่าพิสูจน์ได้ → Culture 3 ขวดก่อนยา'</b>",
+  "guide": "2023 ESC Guidelines for the Management of Endocarditis (Eur Heart J 2023); 2023 Duke–ISCVID Infective Endocarditis Criteria (Clin Infect Dis 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ใช้ยาฉีดเป็น IE ลิ้น tricuspid ไอ เจ็บอก CXR มีก้อนหลายก้อนมีโพรง → septic pulmonary emboli",
-   "<b>นอกสไลด์:</b> IE ลิ้น aortic เกิดหัวใจล้มเหลวเฉียบพลันจากลิ้นรั่วรุนแรง → ผ่าตัดเร่งด่วน"
+   "ชาย 28 ปีฉีดเฮโรอีน ไข้ ไอ CXR พบก้อนกลมหลายก้อนในปอดมีโพรง murmur ดังขึ้นเมื่อหายใจเข้า → tricuspid valve IE จาก S. aureus + septic pulmonary emboli",
+   "หญิงเคยเป็น rheumatic heart disease ถอนฟันแล้ว 3 สัปดาห์ต่อมามีไข้ต่ำ ๆ น้ำหนักลด blood culture ขึ้น viridans streptococci → subacute IE ลิ้น mitral",
+   "ผู้ป่วย IE ลิ้น aortic เกิดเหนื่อยหอบนอนราบไม่ได้ จาก aortic regurgitation รุนแรงเฉียบพลัน → ผ่าตัดเปลี่ยนลิ้นด่วน",
+   "ผู้สูงอายุ IE จาก Streptococcus gallolyticus (bovis) → ส่องกล้องลำไส้ใหญ่หามะเร็ง"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 9 — ตัวพิมพ์: <b>ไข้, pansystolic murmur → IE</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่หัวข้อ → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S73DQ · หน้า 9",
+  "kimg": [
+   "kp73d_cvt2"
   ]
  },
  "MDCU73|RoD|CVT 3": {
-  "interp": "ข้อ NOT: ข้อใด <b>ไม่ใช่</b> ข้อบ่งชี้การตัดปอดใน lung abscess",
-  "why": "P'Ing วง E แก้คำว่า <b>conservative เป็น ATB ✗</b> · สไลด์ Indication for Surgery: <b>&gt; 6 cm, persistent or enlarging abscess, CXR not better after 2 week ATB, massive hemoptysis, ruptured to pleural space, R/O CA</b><br><b>นอกสไลด์:</b> ช้อย E บอกแค่ว่าฝียังอยู่ที่ 14 วัน ซึ่งเป็นเรื่องปกติ (ฝีต้องใช้ยานานหลายสัปดาห์) — ข้อบ่งชี้คือ CXR ไม่ดีขึ้นหรือโตขึ้นหลังยา 2 สัปดาห์ ไม่ใช่แค่ยังเห็นฝี (P'Ing ตีความว่า conservative ≠ ATB)",
+  "interp": "ข้อแบบ<b>เลือกข้อที่ไม่ใช่</b>ข้อบ่งชี้ของการผ่าตัดตัดปอด (lung resection) ใน <b>lung abscess</b> — ต้องรู้ว่า lung abscess ส่วนใหญ่หายด้วยยาฆ่าเชื้อ และการผ่าตัดใช้เฉพาะรายที่ล้มเหลวหรือมีภาวะแทรกซ้อนจำเพาะ",
+  "why": "Lung abscess ส่วนใหญ่เกิดจาก<b>การสำลัก</b> (ดื่มสุรา ชัก หมดสติ ฟันผุ กลืนลำบาก) เชื้อ anaerobes ปนเชื้อในช่องปาก → ปอดอักเสบแล้วเนื้อตายเป็นโพรง มักอยู่ที่ posterior segment ของปอดบนขวาหรือ superior segment ของปอดล่าง · การรักษาหลักคือ<b>ยาฆ่าเชื้อนานหลายสัปดาห์</b> (เช่น ampicillin–sulbactam หรือ clindamycin) ร่วมการระบายเสมหะตามท่า ซึ่งได้ผลในผู้ป่วยส่วนใหญ่มาก · ข้อบ่งชี้ผ่าตัด (ตามสไลด์ในไฟล์): <b>ก้อน &gt; 6 cm</b> (ยามักไม่พอ), <b>โพรงไม่ยุบหรือโตขึ้นและ CXR ไม่ดีขึ้นหลังให้ยาฆ่าเชื้อที่เหมาะสม 2 สัปดาห์</b>, <b>ไอเป็นเลือดมาก</b>, <b>แตกเข้าช่องเยื่อหุ้มปอด</b> (pyopneumothorax), และ<b>ต้องการตัดมะเร็งที่ซ่อนอยู่</b> · ช้อย E บอกว่าโพรงยังอยู่หลัง 14 วันของ \"conservative care\" ซึ่งไม่ใช่การให้ยาฆ่าเชื้อที่เหมาะสม และโพรงที่ยังเห็นในภาพโดยผู้ป่วยดีขึ้นทางคลินิกเป็นเรื่องปกติเพราะยุบช้าหลายสัปดาห์ · ไฟล์วง <b>E</b> ลายมือแก้คำว่า <b>conservative เป็น ATB ✗</b> และ ✓ ที่ A–D",
   "wrong": {
-   "A": "สไลด์: &gt; 6 cm · <b>นอกสไลด์:</b> จะถูก (ไม่ต้องตัดปอด) ถ้าฝีใหญ่แต่ตอบสนองยาดี ไข้ลง ขนาดเล็กลงต่อเนื่อง",
-   "B": "สไลด์: ruptured to pleural space · <b>นอกสไลด์:</b> จะถูก (ไม่ต้องตัดปอด) ถ้าระบายหนองในเยื่อหุ้มปอดด้วยสายแล้วปอดขยายดีและฝีหาย",
-   "C": "สไลด์: massive hemoptysis · <b>นอกสไลด์:</b> จะถูก (ไม่ต้องตัดปอด) ถ้า bronchial artery embolization หยุดเลือดได้และไม่ไอเลือดซ้ำ",
-   "D": "สไลด์: R/O CA · <b>นอกสไลด์:</b> จะถูก (ไม่ต้องตัดปอด) ถ้าสงสัยมะเร็งแต่ยังไม่ได้ส่องกล้อง — ทำ bronchoscopy ตัดชิ้นเนื้อก่อน ตัดปอดเมื่อส่องแล้วยังแยกไม่ได้"
+   "A": "ข้อความถูก: abscess ขนาดใหญ่กว่าราว 6 cm มักไม่หายด้วยยาฆ่าเชื้ออย่างเดียว ต้องระบายหรือผ่าตัด — จะถูกถ้าต้องเลือกข้อที่เป็นข้อบ่งชี้ผ่าตัดจริง เช่นชาย 55 ปีดื่มสุรา มีโพรงหนองในปอดล่างขวาขนาด 8 cm มีระดับน้ำ–อากาศ ไข้ไม่ลงหลังยาฆ่าเชื้อทางหลอดเลือด และตัวโพรงไม่เล็กลง",
+   "B": "ข้อความถูก: abscess ที่แตกเข้าช่องเยื่อหุ้มปอดทำให้เกิด empyema/ pyopneumothorax และ bronchopleural fistula ต้องใส่สายระบายทรวงอกและมักต้องผ่าตัด — จะถูกถ้าต้องเลือกข้อที่เป็นข้อบ่งชี้ผ่าตัดจริง เช่นผู้ป่วย lung abscess ที่เจ็บอกทันที หอบมากขึ้น CXR มี hydropneumothorax และใส่สายระบายได้หนองพร้อมลมรั่วต่อเนื่อง",
+   "C": "ข้อความถูก: ไอเป็นเลือดปริมาณมาก (นิยามดั้งเดิมราว &gt; 600 mL ใน 24 ชม.) จากหลอดเลือดที่ผนังโพรงถูกกัดกร่อนอันตรายถึงชีวิตจากการสำลักเลือด ต้องคุมทางเดินหายใจ ทำ bronchial artery embolization แล้วผ่าตัด — จะถูกถ้าต้องเลือกข้อที่เป็นข้อบ่งชี้ผ่าตัดจริง เช่นผู้ป่วยไอเป็นเลือดสดหลายถ้วยจากโพรงหนองในปอดซ้าย",
+   "D": "ข้อความถูก: เนื้องอกที่อุดหลอดลมทำให้เกิดหนองหลังการอุด หรือมะเร็งที่เนื้อตายเป็นโพรง (cavitating SCC) ดูคล้าย abscess ต้องผ่าตัดเพื่อวินิจฉัยและรักษาเมื่อแยกไม่ได้ — จะถูกถ้าต้องเลือกข้อที่เป็นข้อบ่งชี้ผ่าตัดจริง เช่นชาย 65 ปีสูบบุหรี่ ไม่มีประวัติสำลัก โพรงผนังหนาไม่เรียบ และส่องกล้องหลอดลมพบก้อนอุดแต่ชิ้นเนื้อไม่สรุป"
   },
-  "trap": "ถ้อยคำ conservative care กับ 'หลังให้ยาปฏิชีวนะ 2 สัปดาห์' ต่างกัน — P'Ing ตีความว่า conservative ไม่ใช่ยาปฏิชีวนะ",
+  "trap": "สไลด์มีข้อบ่งชี้ว่า \"CXR ไม่ดีขึ้นหลัง ATB 2 สัปดาห์\" จึงเห็นช้อย E แล้วคิดว่าเป็นข้อบ่งชี้ด้วย · จุดต่างคือ<b>ชนิดการรักษา</b>: conservative care ที่ไม่ใช่ยาฆ่าเชื้อที่เหมาะสมยังไม่ถือว่าล้มเหลว และโพรงยุบช้าหลายสัปดาห์แม้ผู้ป่วยดีขึ้น ขั้นต่อไปคือให้ยาที่เหมาะสมต่อหรือระบายทางผิวหนัง ไม่ใช่ตัดปอด",
   "summary": [
-   "<b>นอกสไลด์:</b> ฝีในปอดส่วนใหญ่หายด้วยยาปฏิชีวนะนานราว 4–6 สัปดาห์ (หรือจน CXR ดีขึ้น) ร่วมกับระบายเสมหะตามท่า"
+   "Lung abscess: สำลัก (สุรา ชัก หมดสติ ฟันผุ กลืนลำบาก) → anaerobes + เชื้อในช่องปาก · ตำแหน่ง posterior segment RUL, superior segment RLL (ท่านอนหงาย)",
+   "ในไทยต้องนึกถึง melioidosis (Burkholderia pseudomallei) ในชาวนา เบาหวาน และ S. aureus/ Klebsiella จากเชื้อในเลือด",
+   "รักษา: ยาฆ่าเชื้อครอบคลุม anaerobes (ampicillin–sulbactam, clindamycin, amoxicillin–clavulanate) นานหลายสัปดาห์จนภาพดีขึ้นชัด + ระบายตามท่า",
+   "ข้อบ่งชี้ผ่าตัด: &gt; 6 cm · ไม่ดีขึ้น/ โตขึ้นหลังยาที่เหมาะสม 2 สัปดาห์ · ไอเป็นเลือดมาก · แตกเข้าช่องเยื่อหุ้มปอด · สงสัยมะเร็ง",
+   "ผู้ที่ยาไม่ได้ผลแต่ผ่าตัดไม่ไหว → ระบายทางผิวหนังด้วย CT-guided catheter (เลี่ยงผ่านเยื่อหุ้มปอดดี) หรือระบายผ่านกล้องหลอดลม",
+   "ผ่าตัดที่นิยม: lobectomy (ตัดทั้งกลีบ) · ระวังหนองไหลเข้าปอดอีกข้างระหว่างผ่าตัด → ใช้ double-lumen tube แยกปอด",
+   "Cavitating lesion ในผู้สูงอายุสูบบุหรี่ ผนังหนา &gt; 15 mm ไม่เรียบ ไม่มีประวัติสำลัก → คิดถึงมะเร็ง (SCC) ส่องกล้องหลอดลมหาก้อน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ตามลายมือ P'Ing · ถ้อยคำกำกวม · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง — A–D เป็นข้อบ่งชี้ผ่าตัดมาตรฐานตามสไลด์ในไฟล์ ส่วน E ใช้คำว่า conservative ซึ่งไม่ใช่การให้ยาฆ่าเชื้อที่เหมาะสม ตรงกับไฟล์ที่วง E และลายมือแก้ conservative เป็น ATB ✗ · ถ้อยคำช้อย E กำกวมเพราะสไลด์เองมีเกณฑ์ไม่ดีขึ้นหลังยา 2 สัปดาห์ ข้อนี้จึงแยกด้วยความหมายของคำว่า conservative",
+  "mnemonic": "<b>'ผ่าฝีปอดเมื่อ \"ใหญ่ ดื้อ ไอเลือด แตก มะเร็ง\" (6 cm · 2 wk ATB · Hemoptysis · Rupture · R/O CA)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung (infectious diseases: lung abscess); Shields' General Thoracic Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> CT แยกฝีในปอดกับ empyema: ฝีผนังหนา ทำมุมแหลมกับผนังอก · empyema เป็นรูปเลนส์แยกเยื่อหุ้มปอดสองชั้น (split pleura)"
+   "ชาย 50 ปีดื่มสุรา ไอเสมหะเหม็นมาก CXR โพรงมีระดับน้ำ–อากาศที่ superior segment ปอดล่างขวา 4 cm → ampicillin–sulbactam ทางหลอดเลือดแล้วเปลี่ยนเป็นยากินจนภาพดีขึ้นชัด",
+   "ผู้ป่วยติดเตียงสูงอายุ abscess 7 cm ไม่ดีขึ้นหลังยา 3 สัปดาห์ หัวใจและปอดไม่พร้อมผ่าตัด → CT-guided percutaneous drainage",
+   "ชาวนาเบาหวานจากภาคอีสาน ไข้สูง มีโพรงหนองหลายแห่งในปอดและม้าม → melioidosis → ceftazidime หรือ meropenem ทางหลอดเลือด",
+   "ทำไมต้องใช้ double-lumen tube ขณะผ่าตัด abscess → ป้องกันหนองและเลือดไหลข้ามไปปอดอีกข้างที่ดีขณะจับปอดที่เป็นโรค"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 9 — ตัวพิมพ์: <b>Which of the following conditions is not the indication of lung resection in lung abscess — A. Lung abscess size >6cm B. Ruptured lung abscess C. Massive hemoptysis D. To rule out malignancy E. Persistent abscess following 14 days of conservative tx</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ความหมายช้อย E กำกวม — P'Ing ตีความว่า conservative ≠ ATB · ข้อนี้ในไฟล์มี 2 เวอร์ชันถ้อยคำต่างกัน (ดู CVT 6)",
+  "src": "S73DQ · หน้า 9",
+  "kimg": [
+   "kp73d_cvt3"
   ]
  },
  "MDCU73|RoD|CVT 4": {
-  "interp": "ก้อนใน anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่",
-  "why": "P'Ing ตอบ <b>Thymoma</b><br><b>นอกสไลด์:</b> ก้อน anterior mediastinum ('4T'): thymoma (พบบ่อยที่สุดในผู้ใหญ่) · teratoma/germ cell tumor · thyroid (retrosternal goiter) · lymphoma",
+  "interp": "ถามก้อนใน<b>ช่องอกส่วนหน้า (anterior/ prevascular mediastinum)</b> ที่พบบ่อยที่สุดใน<b>ผู้ใหญ่</b> — ต้องรู้การแบ่งช่องอกและก้อนที่พบในแต่ละช่อง รวมถึงความต่างระหว่างผู้ใหญ่กับเด็ก",
+  "why": "การแบ่งช่องอกแบบ ITMIG ใช้ CT: <b>prevascular (anterior)</b>, visceral (middle), paravertebral (posterior) · ก้อนใน anterior mediastinum ใช้คำช่วยจำ <b>\"4T\"</b>: <b>Thymoma</b>, <b>Teratoma</b> (germ cell tumor), <b>Thyroid</b> (retrosternal goiter), <b>\"Terrible\" lymphoma</b> · ในผู้ใหญ่ก้อนที่พบบ่อยที่สุดคือ <b>thymoma</b> (มักอายุ 40–60 ปี) ในวัยหนุ่มสาวต้องคิดถึง lymphoma และ germ cell tumor (ตรวจ AFP, β-hCG) · thymoma สัมพันธ์กับ <b>myasthenia gravis</b> (ผู้ป่วย thymoma ราว 30–50% มี MG) และ paraneoplastic อื่นเช่น pure red cell aplasia, hypogammaglobulinemia (Good syndrome) · แบ่งระยะ Masaoka–Koga หรือ TNM · รักษาด้วย<b>ผ่าตัดเอาออกทั้งหมด (thymectomy ผ่าน median sternotomy หรือ VATS/ robotic)</b> ซึ่งเป็นปัจจัยพยากรณ์ที่สำคัญที่สุด · ก้อนลักษณะ thymoma ชัดที่ผ่าตัดได้มักไม่เจาะชิ้นเนื้อก่อน · ไฟล์จดคำตอบ <b>A. Thymoma</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ posterior mediastinum ข้างกระดูกสันหลัง (ก้อนที่พบบ่อยที่สุดของช่องนั้น)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นถุงน้ำใน middle mediastinum ใต้ carina",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นถุงน้ำผนังบางที่มุม cardiophrenic ขวาในผู้ใหญ่ไม่มีอาการ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กมีถุงน้ำติดผนังหลอดอาหารใน posterior mediastinum กลืนลำบาก"
+   "B": "Neurogenic tumor เป็นก้อนที่พบบ่อยที่สุดใน<b>ช่องอกส่วนหลัง (paravertebral)</b> และในเด็กเป็นก้อนในช่องอกที่พบบ่อยที่สุด ผู้ใหญ่มักเป็น schwannoma/ neurofibroma ส่วนเด็กเป็น neuroblastoma — จะถูกถ้าเป็นหญิง 35 ปีไม่มีอาการ CXR พบก้อนกลมขอบเรียบข้างกระดูกสันหลังอก และ MRI เห็นก้อนยื่นเข้ารู intervertebral foramen เป็นรูปดัมเบลล์",
+   "C": "Bronchogenic cyst เป็นถุงน้ำแต่กำเนิดที่พบบ่อยที่สุดในช่องอก อยู่ที่ <b>middle (visceral) mediastinum</b> มักใต้ carina ผนังมีเยื่อบุหลอดลมและกระดูกอ่อน อาจกดหลอดลมหรือติดเชื้อ — จะถูกถ้าเป็นชาย 25 ปีไอเรื้อรัง ปอดอักเสบซ้ำ CT พบถุงน้ำผนังบางค่าความหนาแน่นใกล้น้ำใต้ carina กดหลอดลมใหญ่",
+   "D": "Pericardial cyst เป็นถุงน้ำใสผนังบางติดเยื่อหุ้มหัวใจ มักอยู่ที่ <b>มุม cardiophrenic ด้านขวา</b> ไม่มีอาการ และไม่ใช่ก้อนที่พบบ่อยที่สุดของช่องอกด้านหน้า — จะถูกถ้าเป็นหญิง 50 ปีไม่มีอาการ CXR ตรวจสุขภาพพบเงากลมขอบเรียบที่มุมระหว่างหัวใจกับกะบังลมด้านขวา และ CT เป็นถุงน้ำใสค่าความหนาแน่นเท่าน้ำ",
+   "E": "Esophageal duplication cyst เป็นถุงน้ำแต่กำเนิดติดผนังหลอดอาหาร อยู่ middle–posterior mediastinum มักพบในเด็ก ทำให้กลืนลำบาก ไอ หรือหายใจลำบาก — จะถูกถ้าเป็นเด็ก 3 ขวบกลืนลำบากและอาเจียนบ่อย barium swallow เห็นรอยกดผนังหลอดอาหารจากภายนอก และ endoscopic ultrasound พบถุงน้ำติดผนังหลอดอาหารส่วนล่าง"
   },
-  "trap": "ในเด็ก ก้อนใน mediastinum ที่พบบ่อยคือ neurogenic tumor (posterior) และ lymphoma — คำถามนี้ระบุผู้ใหญ่และช่องหน้า",
+  "trap": "จำสลับระหว่าง \"ก้อนช่องอกที่พบบ่อยที่สุดในเด็ก\" (neurogenic tumor, posterior) กับ \"ก้อนช่องอกด้านหน้าในผู้ใหญ่\" (thymoma) หรือนึกถึงถุงน้ำที่พบบ่อยที่สุด (bronchogenic cyst) · ต้องจับคำสำคัญสองคำ: <b>anterior</b> + <b>adult</b> → thymoma · ถ้าเป็นวัยหนุ่มสาวและก้อนโตเร็ว คิดถึง lymphoma และ germ cell tumor",
   "summary": [
-   "<b>นอกสไลด์:</b> Thymoma สัมพันธ์ myasthenia gravis, pure red cell aplasia และ hypogammaglobulinemia"
+   "Anterior (prevascular) mediastinum \"4T\": Thymoma, Teratoma/ germ cell, Thyroid (retrosternal goiter), Terrible lymphoma",
+   "Middle (visceral): bronchogenic cyst, pericardial cyst, ต่อมน้ำเหลืองโต (lymphoma, TB, sarcoidosis, มะเร็งแพร่กระจาย), esophageal lesion, aortic aneurysm",
+   "Posterior (paravertebral): neurogenic tumor (schwannoma, neurofibroma ผู้ใหญ่ · neuroblastoma, ganglioneuroma เด็ก) พบบ่อยที่สุดในช่องนี้",
+   "Thymoma: ผู้ใหญ่ 40–60 ปี · MG ราว 30–50% ของผู้ป่วย thymoma · ผู้ป่วย MG ราว 10–15% มี thymoma · ทุก MG ทำ CT ช่องอก",
+   "Germ cell tumor: ชายหนุ่ม · seminoma มี β-hCG ปกติหรือสูงเล็กน้อย AFP ปกติ · non-seminoma AFP และ/ หรือ β-hCG สูงมาก · teratoma มีไขมัน หินปูน ฟัน",
+   "รักษา thymoma: complete resection (R0) เป็นปัจจัยพยากรณ์หลัก · ลุกลามหรือตัดไม่หมด → RT เสริม · ระยะลุกลามมาก → เคมีบำบัดก่อนผ่าตัด",
+   "ผู้ป่วยก้อน anterior mediastinum ใหญ่ ระวังทางเดินหายใจหรือหัวใจถูกกดจนทรุดขณะดมยาสลบ → ประเมิน CT, อาการเวลานอนราบ และเตรียมการก่อนให้ยาสลบ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A (thymoma) ความมั่นใจสูง — เป็นก้อนที่พบบ่อยที่สุดของ anterior mediastinum ในผู้ใหญ่ตามตำรามาตรฐาน ตรงกับไฟล์ที่จดคำตอบ Thymoma · ในไฟล์มีเพียงช้อยเดียว เว็บเติม B–E ด้วยก้อนจากช่องอกส่วนกลางและหลังที่มักใช้เป็นตัวลวง",
+  "mnemonic": "<b>'Anterior = \"4T\" · ผู้ใหญ่ = Thymoma (+ MG) · หลัง = Neurogenic'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Mediastinum; ITMIG Classification of Mediastinal Compartments (J Thorac Oncol 2014); NCCN Guidelines: Thymomas and Thymic Carcinomas (2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายหนุ่มมีก้อน anterior mediastinum AFP และ β-hCG สูงมาก → nonseminomatous germ cell tumor เริ่มเคมีบำบัดได้โดยไม่ต้องรอชิ้นเนื้อ",
-   "<b>นอกสไลด์:</b> ผู้ป่วย myasthenia gravis ที่เพิ่งวินิจฉัย → CT ช่องอกหา thymoma ทุกราย"
+   "หญิง 50 ปีหนังตาตก เห็นภาพซ้อนเวลาบ่าย กล้ามเนื้ออ่อนแรงเมื่อใช้งาน CT พบก้อนในช่องอกด้านหน้า → myasthenia gravis ร่วม thymoma → thymectomy หลังคุมอาการ MG",
+   "ชาย 22 ปีเจ็บหน้าอก ก้อนใหญ่ในช่องอกด้านหน้า AFP สูงมาก → nonseminomatous germ cell tumor → cisplatin-based chemotherapy แล้วผ่าตัดก้อนที่เหลือ",
+   "หญิง 25 ปีไข้ เหงื่อออกกลางคืน น้ำหนักลด ก้อนช่องอกด้านหน้าร่วมต่อมน้ำเหลืองคอโต → lymphoma (Hodgkin) → biopsy ต่อมน้ำเหลืองที่คอก่อน",
+   "หญิง 65 ปีคอโตมานาน กลืนลำบาก CT เห็นก้อนต่อมไทรอยด์ต่อลงไปหลังกระดูกอก → retrosternal goiter → thyroidectomy ส่วนใหญ่ทำผ่านคอได้"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 9 — ตัวพิมพ์: <b>Most common anterior mediastinal mass — A. Thymoma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์จดช้อยเดียว → Claude เติม B–E",
+  "src": "S73DQ · หน้า 9",
+  "kimg": [
+   "kp73d_cvt4"
   ]
  }
 }

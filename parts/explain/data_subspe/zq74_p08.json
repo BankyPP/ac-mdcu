@@ -1,230 +1,411 @@
 {
  "MDCU74|RoD|16": {
-  "interp": "เจ็บอกรุนแรงหลังอาเจียนแรง สงสัย Boerhaave → ถามการตรวจ <b>แรก</b> (ข้อนี้ถามการวินิจฉัย ต่างจาก 74C เลข 20 ที่ถามการรักษา)",
-  "why": "ลายมือ P'Ing: <b>A ✓ initial · B ✗ ถ้า CXR ไม่ชัด</b><br><b>นอกสไลด์:</b> CXR ทำได้เร็วข้างเตียง เห็นลมใน mediastinum ลมใต้ผิวหนัง น้ำ/ลมในช่องเยื่อหุ้มปอดซ้าย · ยืนยันรอยรั่วด้วย esophagogram ชนิดสารละลายน้ำ หรือ CT ทรวงอกที่ให้กินสารทึบรังสี",
+  "interp": "ชาย 50 ปี เจ็บหน้าอกรุนแรงหลังอาเจียนแรง ๆ สงสัย <b>Boerhaave syndrome</b> (หลอดอาหารแตกทะลุทุกชั้นจากความดันในหลอดอาหารสูงขึ้นทันที) — ถามการตรวจ<b>เบื้องต้น (initial)</b> ไม่ได้ถามการตรวจที่ยืนยันได้แม่นที่สุด จึงต้องเลือกสิ่งที่เร็ว หาได้ทุกที่ และให้เบาะแสได้มาก",
+  "why": "Boerhaave syndrome คือ <b>spontaneous full-thickness rupture</b> ของหลอดอาหาร มักแตกที่<b>ผนังด้านซ้ายหลังของ distal esophagus</b> ประมาณ 2–3 cm เหนือ GE junction ซึ่งเป็นจุดที่กล้ามเนื้ออ่อนแอและไม่มีอวัยวะรอบรับ · อาการคลาสสิกคือ <b>Mackler triad</b>: อาเจียน → เจ็บหน้าอกส่วนล่าง → subcutaneous emphysema (ครบ triad ไม่บ่อย) ร่วมกับไข้ หายใจเร็ว ช็อกจาก mediastinitis · การตรวจแรกคือ <b>CXR ท่ายืน (± lateral)</b> ผิดปกติราว 90% ของผู้ป่วย: pneumomediastinum, subcutaneous emphysema, <b>left pleural effusion หรือ hydropneumothorax</b>, mediastinal widening และ <b>Naclerio V sign</b> (ลมรูปตัว V ข้าง descending aorta และกะบังลมซ้าย) แต่อาจปกติในชั่วโมงแรก · ยืนยันตำแหน่งด้วย <b>water-soluble contrast esophagogram</b> (Gastrografin) ถ้าไม่เห็นรอยรั่วตามด้วย thin barium หรือ <b>CT chest with oral contrast</b> ซึ่งไวมากและเห็น extraluminal air/fluid collection · รักษา: NPO, broad-spectrum antibiotics + antifungal, PPI, drainage และผ่าตัด primary repair ± buttress ภายใน 24 ชม. ซึ่ง mortality ต่ำกว่าเมื่อทำช้ามาก · ไฟล์ลายมือ P'Ing ให้ A เป็น <b>\"✓ initial\"</b> และเขียนว่า CT (B) ใช้ <b>\"ถ้า CXR ไม่ชัด\"</b>",
   "wrong": {
-   "B": "ลายมือ P'Ing: ใช้เมื่อ CXR ไม่ชัด · <b>นอกสไลด์:</b> จะถูกถ้า CXR ปกติหรือไม่ชัดแต่ยังสงสัยมาก หรือผู้ป่วยกลืนสารทึบรังสีเพื่อทำ esophagogram ไม่ได้",
-   "C": "<b>นอกสไลด์:</b> การส่องกล้องเป่าลมอาจทำให้รอยรั่วขยาย · จะถูกถ้าผู้ป่วยอาเจียนเป็นเลือดหลังอาเจียนแรงโดยไม่มีลมรั่ว สงสัย Mallory-Weiss tear",
-   "D": "<b>นอกสไลด์:</b> Barium ที่รั่วเข้า mediastinum ทำให้อักเสบรุนแรง จึงใช้สารละลายน้ำก่อน · จะถูกถ้า esophagogram ด้วยสารละลายน้ำผลลบแต่ยังสงสัยรอยรั่วเล็ก (ใช้ barium เจือจางต่อ)",
-   "E": "<b>นอกสไลด์:</b> Echo หาสาเหตุจากหัวใจ · จะถูกถ้าเจ็บอกหลังบาดเจ็บหรือหลังผ่าตัดหัวใจร่วมกับความดันต่ำ หลอดเลือดดำคอโป่ง สงสัย tamponade"
+   "B": "CT chest (ควรให้ oral contrast) ไวกว่า CXR มาก เห็นลมและน้ำรอบหลอดอาหาร mediastinal abscess และช่วยวางแผน drainage แต่เป็นขั้นถัดไปไม่ใช่ initial (ไฟล์เขียนว่าใช้เมื่อ CXR ไม่ชัด) · จะถูกถ้าเป็นชาย 50 ปี เจ็บหน้าอกหลังอาเจียน CXR ปกติแต่ยังสงสัยมาก หรือ esophagogram ทำไม่ได้เพราะผู้ป่วยกลืนไม่ได้",
+   "C": "Upper endoscopy เห็นรอยฉีกขาดได้แต่การเป่าลมอาจขยายรอยแตกและดันลมเข้า mediastinum มากขึ้น จึงไม่ใช่การตรวจวินิจฉัยแรกของ Boerhaave (ใช้ในบางสถาบันเมื่อจะใส่ stent) · จะถูกถ้าเป็นชาย 40 ปี อาเจียนแรง ๆ หลังดื่มสุราแล้ว<b>อาเจียนเป็นเลือดสด</b> ไม่มีเจ็บหน้าอกหรือ subcutaneous emphysema (Mallory–Weiss tear ซึ่งฉีกแค่ mucosa)",
+   "D": "Barium ถ้ารั่วเข้า mediastinum หรือ pleura จะทำให้ mediastinitis แบบ granulomatous ที่ล้างออกไม่ได้ จึงต้องใช้ <b>water-soluble contrast ก่อน</b> แล้วใช้ barium เฉพาะเมื่อ Gastrografin ไม่เห็นรอยรั่ว (barium ไวกว่าต่อรอยรั่วเล็ก) · จะถูกถ้าเป็นหญิง 60 ปี กลืนลำบากต่อของแข็งมากขึ้นช้า ๆ หลายเดือน ไม่มีเจ็บหน้าอกเฉียบพลัน (หา stricture, achalasia, mass)",
+   "E": "Echocardiography ดู pericardial effusion/ tamponade, wall motion และ ascending aortic dissection ซึ่งเป็น differential ของเจ็บหน้าอกรุนแรง แต่ไม่ช่วยวินิจฉัยหลอดอาหารแตก · จะถูกถ้าเป็นชาย 55 ปี ถูกแทงที่หน้าอกบริเวณ cardiac box ความดันต่ำ หลอดเลือดดำที่คอโป่ง เสียงหัวใจเบา (FAST/ echo หา hemopericardium)"
   },
-  "trap": "ข้ามไปสั่งส่องกล้อง — กล้องเป่าลมทำรอยรั่วแย่ลง · และใช้ barium ก่อนสารละลายน้ำไม่ได้",
+  "trap": "คนเลือก CT หรือ endoscopy เพราะรู้ว่าแม่นกว่า — แต่คำถามใช้คำว่า <b>initial</b> ซึ่งในห้องฉุกเฉินคือ CXR ที่เร็ว ทำข้างเตียงได้และผิดปกติในผู้ป่วยส่วนใหญ่ · อีกกับดักคือ barium swallow ที่ฟังดูเป็นการตรวจหลอดอาหารโดยตรง แต่ต้องเริ่มด้วย water-soluble contrast ก่อนเสมอเพราะ barium ทำ mediastinitis",
   "summary": [
-   "<b>นอกสไลด์:</b> CXR ใน Boerhaave: pneumomediastinum · ลมใต้ผิวหนัง · น้ำ/ลมในเยื่อหุ้มปอดซ้าย · V sign of Naclerio"
+   "Boerhaave = spontaneous transmural rupture จากอาเจียนแรง (ความดันในหลอดอาหารเพิ่มทันทีขณะ cricopharyngeus ปิด) · ตำแหน่งบ่อยสุด left posterolateral distal esophagus 2–3 cm เหนือ GEJ",
+   "Mallory–Weiss tear ต่างกันที่ฉีกแค่ mucosa/ submucosa ที่ GEJ ด้าน lesser curve มาด้วยอาเจียนเป็นเลือดหลังอาเจียนแรง ส่วนใหญ่หยุดเอง รักษาด้วย endoscopic hemostasis ถ้ายังออก",
+   "สาเหตุหลอดอาหารทะลุที่พบบ่อยที่สุดโดยรวมคือ <b>iatrogenic</b> (endoscopy, dilatation) ราว 50–60% ส่วน Boerhaave ราว 15% · ทะลุส่วนคอเป็นที่พบบ่อยของ iatrogenic",
+   "CXR: pneumomediastinum, subcutaneous emphysema, left effusion/ hydropneumothorax, Naclerio V sign · ปกติได้ในระยะแรก จึงต้องตรวจต่อเมื่อยังสงสัย",
+   "ยืนยัน: water-soluble contrast esophagogram → ถ้าลบให้ thin barium (ไวกว่า) · หรือ CT chest with oral contrast · ระวัง Gastrografin สำลักทำ chemical pneumonitis",
+   "รักษา: NPO, IV fluid, broad-spectrum antibiotic + antifungal, PPI, nutrition (jejunostomy/ TPN) · ผ่าตัด primary repair 2 ชั้นหลังเปิด myotomy ให้เห็นรอยขาด mucosa ทั้งหมด + buttress (intercostal muscle, pleura, omentum) + drain",
+   "ผู้ป่วย contained leak อาการน้อยไม่มี sepsis → non-operative ได้ · esophageal stent + drainage เป็นทางเลือกในผู้ป่วยบางราย · มาช้า &gt; 24 ชม. mortality สูงขึ้นชัดเจน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ให้ A เป็น initial และ CT เมื่อ CXR ไม่ชัด · CXR เป็นการตรวจแรกตามตำราทุกเล่มเพราะเร็วและผิดปกติราว 90% ส่วนการยืนยันใช้ contrast esophagogram หรือ CT ช้อย C–E ไฟล์ไม่ได้จด (เติมภายหลัง) แต่ไม่มีข้อใดเป็นการตรวจแรกที่ดีกว่า",
+  "mnemonic": "<b>'Boerhaave: CXR ก่อน → Gastrografin → (Barium) · ห้าม Barium ก่อน'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Esophagus: Esophageal Perforation; Shackelford's Surgery of the Alimentary Tract 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลังอาเจียนแรง เจาะน้ำในเยื่อหุ้มปอดซ้ายได้น้ำขุ่นมีเศษอาหาร → หลอดอาหารทะลุ ส่ง CT ทรวงอกให้กินสารทึบรังสีและเตรียมผ่าตัด"
+   "ชาย 50 ปี เจ็บหน้าอกหลังอาเจียน CXR พบ left hydropneumothorax ใส่ ICD ได้น้ำสีน้ำตาลมีเศษอาหาร → esophageal perforation เข้าช่องอกซ้าย → ยืนยันด้วย contrast study แล้วผ่าตัด",
+   "Gastrografin swallow ไม่เห็นรอยรั่ว แต่อาการยังเข้าได้ → ทำ thin barium swallow หรือ CT with oral contrast เพราะ water-soluble ไวน้อยกว่าต่อรอยรั่วเล็ก",
+   "หลังทำ pneumatic dilatation รักษา achalasia 4 ชม. ผู้ป่วยเจ็บหน้าอก ไข้ คลำได้กรอบแกรบที่คอ → iatrogenic perforation (สาเหตุที่พบบ่อยที่สุดของหลอดอาหารทะลุ)",
+   "ทำไมผ่าตัด repair ต้องเปิดกล้ามเนื้อหลอดอาหารออกตามยาวก่อนเย็บ → รอยขาดของ mucosa มักยาวกว่ารอยขาดของกล้ามเนื้อ ถ้าไม่เห็นปลายทั้งสองข้างจะเย็บไม่หมดและรั่วซ้ำ"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>Diagnosis boerhavve ให้ clinical chest pain after vomit ส่ง investigation อะไร — A. plain chest radiograph (CXR) B. CT</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E · ข้อนี้ถาม investigation (ต่างจาก 74C เลข 20 ที่ถาม treatment)",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_16"
   ]
  },
  "MDCU74|RoD|17": {
-  "interp": "ผ่าตัด sigmoid ได้ pT3 ต่อมน้ำเหลืองบวก 3/18 ไม่มีการกระจาย → ถาม stage และการรักษา",
-  "why": "ไฟล์จดแค่ให้ท่อง <b>colon staging และการรักษา</b> — Claude แต่งโจทย์<br><b>นอกสไลด์:</b> AJCC 8: T3 (ผ่าน muscularis propria ถึงเนื้อรอบลำไส้) + N1b (2–3 ต่อม) + M0 = stage IIIB · มะเร็ง colon stage III → เคมีบำบัดเสริม (oxaliplatin + fluoropyrimidine) ไม่ใช้รังสี เพราะ colon เคลื่อนในช่องท้องและการกลับเป็นซ้ำเฉพาะที่ไม่ใช่ปัญหาหลัก",
+  "interp": "หญิง 65 ปี ผ่าตัด sigmoid colectomy พยาธิพบมะเร็งทะลุ muscularis propria ถึง pericolic tissue (<b>pT3</b>) ต่อมน้ำเหลืองบวก <b>3 จาก 18</b> (N1b) ไม่มีการแพร่กระจาย (M0) — ถามระยะตาม AJCC 8th และการรักษาเสริมหลังผ่าตัดของ<b>มะเร็งลำไส้ใหญ่ (colon)</b> ซึ่งต่างจาก rectum",
+  "why": "ระยะ TNM ของ colon cancer (AJCC 8th): <b>T1</b> submucosa · <b>T2</b> muscularis propria · <b>T3</b> ทะลุ muscularis propria ถึง pericolorectal tissue · <b>T4a</b> ทะลุ visceral peritoneum · <b>T4b</b> ลุกอวัยวะข้างเคียง · <b>N1a</b> 1 node · <b>N1b</b> 2–3 nodes · <b>N1c</b> tumor deposit โดยไม่มี node บวก · <b>N2a</b> 4–6 · <b>N2b</b> ≥ 7 · เมื่อ M0 และ node บวก = <b>stage III</b> แบ่งเป็น IIIA (T1–2 N1/N1c, T1 N2a), <b>IIIB (T3–T4a N1/N1c</b>, T2–T3 N2a, T1–T2 N2b), IIIC (T4a N2a, T3–T4a N2b, T4b N1–2) → pT3N1bM0 = <b>IIIB</b> · มะเร็ง colon stage III ทุกรายควรได้ <b>adjuvant chemotherapy</b> แบบ fluoropyrimidine + oxaliplatin (<b>CAPOX หรือ FOLFOX</b>) เริ่มภายใน 6–8 สัปดาห์หลังผ่าตัด ลดการกลับเป็นซ้ำและเพิ่ม overall survival · IDEA collaboration: กลุ่ม low-risk (T1–3 N1) ใช้ CAPOX 3 เดือนได้ผลไม่ด้อยกว่า 6 เดือนและ neuropathy น้อยกว่า ส่วน high-risk (T4 หรือ N2) ให้ 6 เดือน · ไม่ใช้ radiotherapy เป็นมาตรฐานใน colon · ไฟล์ไม่มีโจทย์จริง ลายมือ P'Ing เขียนเพียง <b>\"Colon staging tx (ไปท่องมาดี ๆ)\"</b> โจทย์นี้จึงแต่งขึ้นเพื่อทบทวน staging และการรักษา",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Stage I = T1–2 N0 · จะถูกถ้าพยาธิเป็น pT2 และต่อมน้ำเหลืองลบทั้งหมด",
-   "B": "<b>นอกสไลด์:</b> Stage IIA = T3N0 · ติดตามได้ถ้าไม่มีปัจจัยเสี่ยงสูง · จะถูกถ้าพยาธิเป็น pT3 ต่อมน้ำเหลืองทั้ง 18 ต่อมลบ และไม่มีปัจจัยเสี่ยงสูง",
-   "D": "<b>นอกสไลด์:</b> Stage ถูกแต่การรักษาเป็นแบบ rectum · จะถูกถ้าเป็นมะเร็ง rectum ส่วนกลาง/ล่าง stage III ที่ผ่าตัดไปก่อนโดยไม่ได้รักษาก่อนผ่าตัด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีการกระจายจึงไม่ใช่ stage IV · จะถูกถ้า CT พบก้อนในตับหลายก้อนที่ตัดไม่ได้"
+   "A": "Stage I คือ T1–T2 N0 M0 ซึ่งรักษาด้วยผ่าตัดอย่างเดียวและติดตามโดยไม่ต้องให้ยาเสริม (5-year survival &gt; 90%) แต่ T3 และมี node บวกไม่ใช่ stage I · จะถูกถ้าเป็นชาย 60 ปี ผ่าตัด right hemicolectomy พยาธิพบมะเร็งถึงแค่ muscularis propria (pT2) node ลบ 0/20",
+   "B": "Stage IIA คือ T3 N0 M0 ส่วนใหญ่ติดตามได้ แต่ถ้ามี high-risk features (T4, ตรวจ node &lt; 12, LVI/ PNI, poorly differentiated, obstruction/ perforation, margin ไม่พอ) ให้พิจารณา adjuvant chemotherapy · จะถูกถ้าเป็นหญิง 65 ปี pT3 N0 (0/18) ไม่มี high-risk features และเป็น MSI-high ซึ่งให้ 5-FU เดี่ยวแล้วไม่ได้ประโยชน์",
+   "D": "Chemoradiotherapy เป็นมาตรฐานของ <b>rectal cancer</b> (โดยให้ก่อนผ่าตัด: neoadjuvant หรือ total neoadjuvant therapy ใน T3–4 หรือ N+) ส่วน colon cancer ให้ยาเคมีอย่างเดียวเพราะไม่มีปัญหา local recurrence ในอุ้งเชิงกรานแบบ rectum · จะถูกถ้าเป็นชาย 60 ปี มะเร็ง rectum ห่าง anal verge 6 cm MRI พบ T3 N1 ยังไม่ผ่าตัด",
+   "E": "Stage IV ต้องมีการแพร่กระจายไกล (M1a อวัยวะเดียว, M1b หลายอวัยวะ, M1c peritoneum) ซึ่ง CT ไม่พบ · ถ้า metastasis ที่ตับหรือปอดตัดออกได้ยังผ่าตัดเพื่อหายขาดได้ ไม่ใช่ palliative เสมอ · จะถูกถ้าเป็นหญิง 65 ปี มะเร็ง sigmoid ที่ CT พบก้อนในตับกระจายทั้งสองกลีบหลายสิบก้อนร่วมกับ peritoneal carcinomatosis"
   },
-  "trap": "สับสนการรักษา colon (เคมีหลังผ่าตัด) กับ rectum (เคมีร่วมรังสี มักให้ก่อนผ่าตัด)",
+  "trap": "กับดักหลักคือเลือก chemoradiotherapy ตามความจำจาก rectal cancer — colon ใช้ยาเคมีอย่างเดียว · และสับสนเกณฑ์ N: 1–3 node = N1 (stage III) ส่วน ≥ 4 = N2 · คนที่จำว่า T3 = stage II จะลืมว่าเมื่อมี node บวกขึ้นเป็น stage III ทันทีไม่ว่า T เท่าไร",
   "summary": [
-   "<b>นอกสไลด์:</b> T: T1 submucosa · T2 muscularis propria · T3 ผ่านถึงเนื้อรอบลำไส้ · T4a ทะลุ visceral peritoneum · T4b ลุกอวัยวะข้างเคียง",
-   "<b>นอกสไลด์:</b> N: N1a 1 ต่อม · N1b 2–3 · N1c tumor deposit · N2a 4–6 · N2b ≥ 7",
-   "<b>นอกสไลด์:</b> เคมีเสริม: stage III ทุกราย · stage II ที่มีปัจจัยเสี่ยงสูง (T4, ต่อมที่ตรวจ &lt; 12, ลุกหลอดเลือด/เส้นประสาท, อุดตัน/ทะลุ) · T1–3 N1 ใช้ CAPOX 3 เดือนได้ · dMMR/MSI-H ใน stage II ไม่ได้ประโยชน์จาก fluorouracil เดี่ยว"
+   "AJCC 8th colon: stage I = T1–2 N0 · IIA T3N0 · IIB T4aN0 · IIC T4bN0 · III = N+ M0 ทุก T · IVA M1a (อวัยวะเดียว) · IVB M1b (≥ 2 อวัยวะ) · IVC M1c (peritoneum)",
+   "N: N1a 1 node · N1b 2–3 · N1c tumor deposit ใน subserosa/ mesentery โดยไม่มี node บวก · N2a 4–6 · N2b ≥ 7 · ต้องตรวจ node ≥ 12 ต่อมจึงถือว่า staging เพียงพอ",
+   "Stage III colon → adjuvant CAPOX (capecitabine + oxaliplatin) หรือ FOLFOX · IDEA: T1–3 N1 ใช้ CAPOX 3 เดือน · T4 หรือ N2 ให้ 6 เดือน · ผู้สูงอายุ/ ใช้ oxaliplatin ไม่ได้ → capecitabine หรือ 5-FU เดี่ยว",
+   "Stage II high-risk features: T4, &lt; 12 nodes, LVI, PNI, poorly differentiated (ที่ไม่ใช่ MSI-H), bowel obstruction/ perforation, margin บวกหรือใกล้ → พิจารณา adjuvant chemotherapy",
+   "dMMR/ MSI-H ~15% ของ stage II: พยากรณ์ดีและไม่ได้ประโยชน์จาก 5-FU เดี่ยว · ตรวจ MMR ในมะเร็งลำไส้ทุกราย (คัด Lynch syndrome ด้วย)",
+   "Rectal cancer ต่างจาก colon: MRI pelvis เพื่อ staging · T3–4 หรือ N+ → neoadjuvant chemoradiation หรือ total neoadjuvant therapy แล้ว TME · complete clinical response บางรายใช้ watch-and-wait",
+   "ผ่าตัด colon มาตรฐาน: en bloc resection พร้อม mesentery และ high ligation ของหลอดเลือดหลัก · margin ตามยาว ≥ 5 cm · ติดตาม CEA ทุก 3–6 เดือนและ CT ทุก 6–12 เดือนในช่วง 5 ปีแรก"
   ],
-  "opinion": "ไฟล์ไม่มีโจทย์และคีย์ — Claude แต่งโจทย์ให้ตอบ IIIB + เคมีเสริมตาม AJCC 8 · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ไม่มีคีย์และไม่มีโจทย์จริง (ลายมือ P'Ing บอกเพียงให้ไปท่อง colon staging และการรักษา) โจทย์จึงแต่งขึ้น · pT3N1bM0 = IIIB ตาม AJCC 8th และการรักษามาตรฐานคือ adjuvant oxaliplatin-based chemotherapy ส่วน chemoradiation ใช้กับ rectum",
+  "mnemonic": "<b>'Node บวก = Stage III = Chemo · RT ไว้ใช้กับ Rectum'</b>",
+  "guide": "AJCC Cancer Staging Manual 8th ed. (2017) — Colon and Rectum; NCCN Guidelines Colon Cancer v.2025; Grothey A et al. (IDEA) N Engl J Med 2018",
   "variants": [
-   "<b>นอกสไลด์:</b> CT ก่อนผ่าตัดพบ colon cancer ลุกอวัยวะข้างเคียง (cT4b) คาดว่าตัดไม่หมด → พิจารณาเคมีบำบัดก่อนผ่าตัด"
+   "มะเร็ง transverse colon pT4a ทะลุ visceral peritoneum node 5/16 บวก M0 → stage IIIC (T4a N2a) → adjuvant CAPOX หรือ FOLFOX 6 เดือน",
+   "มะเร็ง cecum pT3 N0 ตรวจ node ได้เพียง 8 ต่อม → stage IIA แต่มี high-risk feature (node &lt; 12) → พิจารณา adjuvant chemotherapy",
+   "มะเร็ง sigmoid pT3 N0 แต่พบ tumor deposit ใน mesentery 2 ก้อน → N1c = stage IIIB ต้องให้ adjuvant chemotherapy",
+   "มะเร็ง sigmoid ร่วมกับก้อนในตับกลีบขวา 2 ก้อนที่ตัดได้หมด → stage IVA แต่ยังมุ่งหายขาดด้วย systemic chemotherapy ร่วมกับ resection ของทั้ง primary และ liver metastasis"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>Colon staging tx (ไปท่องมาดี ๆ) — ผู้จดจำโจทย์ไม่ได้ บอกให้ไปท่อง staging และการรักษา</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่ \"Colon staging tx (ไปท่องมาดีๆ)\" ไม่มีโจทย์/ช้อย → Claude แต่งโจทย์ staging + การรักษา · มะเร็งลำไส้ใหญ่อยู่ในขอบเขต Gen Sx แต่ออกในข้อสอบ Subspe",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_17"
   ]
  },
  "MDCU74|RoD|18": {
-  "interp": "รถชนประสานงาความเร็วสูง รอดมาถึงโรงพยาบาล CTA พบ blunt aortic injury → ถามตำแหน่งที่พบบ่อยที่สุด",
-  "why": "P'Ing เขียน <b>isthmus</b><br><b>นอกสไลด์:</b> การหยุดกะทันหันทำให้เกิดแรงเฉือนตรงรอยต่อระหว่าง arch ที่ขยับได้กับ descending aorta ที่ยึดแน่น (ligamentum arteriosum ใต้ left subclavian) จึงฉีกที่ isthmus ในผู้ที่รอดมาถึงโรงพยาบาลเป็นส่วนใหญ่",
+  "interp": "คนขับรถอายุ 25 ปี รอดจากรถชนประสานงาความเร็วสูง (<b>rapid deceleration</b>) CTA พบ blunt traumatic aortic injury — ถามตำแหน่งที่พบ aortic rupture จากแรงกระแทกบ่อยที่สุด ซึ่งต้องอธิบายด้วยกลไกจุดยึดของ aorta",
+  "why": "Blunt thoracic aortic injury (BTAI) เกิดจาก <b>rapid deceleration</b> (รถชนประสานงา ตกจากที่สูง) ทำให้ส่วนที่เคลื่อนได้ (หัวใจ ascending aorta และ arch) เหวี่ยงไปข้างหน้า ขณะที่ descending aorta ถูกยึดกับกระดูกสันหลังด้วย intercostal arteries · แรงเฉือนจึงรวมที่รอยต่อคือ <b>aortic isthmus</b> ซึ่งอยู่ถัดจาก left subclavian artery ตรงที่ <b>ligamentum arteriosum</b> ยึดไว้ — เป็นตำแหน่งของผู้ป่วยที่มาถึงโรงพยาบาลราว <b>80–95%</b> ร่วมกับกลไก osseous pinch และ water-hammer · ผู้ป่วยส่วนใหญ่ (~80%) เสียชีวิตที่เกิดเหตุ ผู้ที่รอดมาได้มักมี contained rupture ที่ adventitia ยังกั้นไว้ · CXR ที่ชวนสงสัย: <b>widened mediastinum (&gt; 8 cm)</b>, aortic knob ไม่ชัด, หลอดลม/ NG tube เบนไปขวา, left main bronchus ถูกกดลง, left apical cap, left hemothorax, หัก rib ที่ 1–2 · วินิจฉัยด้วย <b>CTA chest</b> · รักษาด้วย <b>anti-impulse therapy</b> (β-blocker เช่น esmolol ให้ HR &lt; 80 และ SBP ประมาณ 100–120 mmHg) แล้วซ่อมด้วย <b>TEVAR</b> เป็นวิธีหลัก (ชะลอได้ถ้าคงที่และต้องจัดการบาดเจ็บอื่นก่อน) · ไฟล์ไม่มีช้อย ลายมือ P'Ing เขียนคำตอบว่า <b>\"isthmus\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Ascending aorta ฉีกมักเสียชีวิตทันที · ไม่มีสถานการณ์ใดที่เป็นตำแหน่งพบบ่อยที่สุดในผู้รอดมาถึงโรงพยาบาล เพราะเลือดออกเข้า pericardium/ช่องอกจนเสียชีวิตก่อนถึง",
-   "C": "<b>นอกสไลด์:</b> Arch ส่วนต้นเคลื่อนไปพร้อมหัวใจ แรงเฉือนน้อยกว่า · ไม่มีสถานการณ์ใดที่พบบ่อยกว่า isthmus เพราะไม่ใช่รอยต่อระหว่างส่วนขยับได้กับส่วนยึดแน่น",
-   "D": "<b>นอกสไลด์:</b> Aorta ช่องท้องบาดเจ็บน้อยมาก (มักร่วมกับรอยเข็มขัดนิรภัยและกระดูกสันหลังส่วนเอวหัก) · ไม่มีสถานการณ์ใดที่เป็นตำแหน่งพบบ่อยที่สุดของ blunt aortic injury เพราะ aorta ช่องท้องถูกป้องกันด้วยอวัยวะรอบข้างและไม่มีจุดยึดแบบ isthmus",
-   "E": "<b>นอกสไลด์:</b> Aortic root ฉีกทำให้ tamponade และเสียชีวิตเร็ว · ไม่มีสถานการณ์ใดที่พบบ่อยที่สุดในผู้รอด เพราะอยู่ในถุงหุ้มหัวใจ เลือดออกจะกดหัวใจทันที"
+   "B": "Ascending aorta บาดเจ็บจาก blunt trauma ได้น้อยมากในผู้ที่มาถึงโรงพยาบาล เพราะเมื่อแตกมักเลือดออกเข้า pericardium ทำ tamponade และเสียชีวิตที่เกิดเหตุ มักร่วมกับ cardiac injury · จะถูกถ้าเป็นชาย 60 ปี มี Stanford type A aortic dissection จาก HT เรื้อรัง เจ็บหน้าอกทะลุหลังและมี AR murmur ใหม่",
+   "C": "Proximal arch และจุดกำเนิดของแขนงใหญ่ (โดยเฉพาะ innominate artery) เป็นตำแหน่งที่สองรองจาก isthmus แต่พบน้อยกว่ามาก ราวไม่กี่เปอร์เซ็นต์ของ BTAI · จะถูกถ้าเป็นชาย 30 ปี รถชนแล้วชีพจรแขนขวาเบา CTA พบ pseudoaneurysm ที่ฐาน innominate artery",
+   "D": "Abdominal aorta บาดเจ็บจาก blunt trauma พบน้อย (ราว 5% ของ blunt aortic injury) มักเกิดจาก <b>seat belt</b> แบบคาดเอวกดที่ระดับ infrarenal ร่วมกับ Chance fracture และบาดเจ็บลำไส้ · จะถูกถ้าเป็นเด็ก 10 ปี คาดเข็มขัดนิรภัยแบบคาดเอว มีรอยช้ำเป็นแถบที่ท้อง ขาทั้งสองข้างชีพจรเบา",
+   "E": "Aortic root/ aortic valve annulus บาดเจ็บจากแรงกระแทกได้น้อย และถ้าเกิดมักทำ aortic regurgitation เฉียบพลัน หรือ hemopericardium ทำให้เสียชีวิตเร็ว · จะถูกถ้าเป็นชาย 70 ปี มี Marfan-like aortic root aneurysm 6 cm แล้วแตกเข้า pericardium จนเกิด tamponade"
   },
-  "trap": "จำว่า aorta ฉีกจากอุบัติเหตุเกิดใกล้หัวใจ — ในผู้รอดมาถึงโรงพยาบาลเกือบทั้งหมดอยู่ที่ isthmus",
+  "trap": "คนเลือก ascending aorta หรือ arch เพราะเป็นส่วนที่ใหญ่และใกล้หัวใจซึ่งรับแรงดันสูงสุด หรือสับสนกับ aortic dissection ที่พบ type A บ่อย · วิธีแยก: blunt trauma คิดถึงจุดที่ส่วนเคลื่อนได้มาต่อกับส่วนที่ยึดแน่น = isthmus ใต้ left subclavian ที่ ligamentum arteriosum ยึด ส่วน ascending ที่แตกมักตายก่อนถึงโรงพยาบาล",
   "summary": [
-   "<b>นอกสไลด์:</b> CXR ที่ชวนสงสัย: mediastinum กว้าง · ขอบ aortic knob ไม่ชัด · หลอดลมซ้ายถูกกดลง · NG tube เบนไปขวา · apical cap ซ้าย",
-   "<b>นอกสไลด์:</b> วินิจฉัยด้วย CTA ทรวงอก · รักษา: ควบคุมความดันและอัตราหัวใจ (anti-impulse) → TEVAR เป็นหลัก · รอยฉีกเล็กที่ intima อย่างเดียวติดตามด้วยยา"
+   "BTAI ~80% เสียชีวิตที่เกิดเหตุ · ผู้รอดมาถึงโรงพยาบาลมักเป็น contained injury ที่ isthmus (80–95%) และเสี่ยงแตกซ้ำในวันแรก ๆ ถ้าไม่ควบคุม",
+   "CXR clue: widened mediastinum &gt; 8 cm, aortic knob ไม่ชัด, trachea/ NG tube เบนขวา, left main bronchus ถูกกด, left apical cap, left hemothorax, AP window หาย, หัก rib 1–2/ scapula/ sternum",
+   "CTA chest เป็นการตรวจวินิจฉัยหลัก (ไวเกือบ 100%) · CXR ปกติไม่ตัด BTAI ในกลไกรุนแรง ATLS แนะนำ CT เมื่อกลไกเข้าได้",
+   "SVS grading: I intimal tear · II intramural hematoma · III pseudoaneurysm · IV rupture · grade I ส่วนใหญ่รักษาด้วยยาและติดตาม CT · grade II–IV ซ่อม",
+   "Anti-impulse therapy: esmolol ให้ HR &lt; 80/min และ SBP ประมาณ 100–120 mmHg (MAP 60–70) ระวังใน TBI ที่ต้องรักษา cerebral perfusion · ให้ยาแก้ปวดเพียงพอ",
+   "TEVAR เป็นวิธีซ่อมแรก (mortality และ paraplegia น้อยกว่า open repair) · อาจต้องคลุม left subclavian artery ซึ่งอาจต้องทำ revascularization · ผู้ป่วยคงที่ชะลอการซ่อมได้จนจัดการบาดเจ็บอื่นที่เร่งด่วนกว่า",
+   "ลำดับความเร่งด่วน: hemorrhage ในช่องท้อง/ เชิงกรานที่ไม่คงที่ต้องจัดการก่อน BTAI ที่ contained"
   ],
-  "opinion": "เห็นด้วยกับคีย์ isthmus — ตรงกับที่ P'Ing เขียน · ไฟล์ไม่มีช้อยจึงแต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่เขียน isthmus · ทั้ง ATLS และ Sabiston ระบุว่า aortic isthmus ใต้ left subclavian ที่ ligamentum arteriosum เป็นตำแหน่งที่พบมากที่สุดในผู้ที่รอดมาถึงโรงพยาบาล ช้อยในไฟล์ไม่ได้จด จึงเติมช้อยอื่นเป็นตำแหน่งที่พบน้อยกว่า",
+  "mnemonic": "<b>'Deceleration → ฉีกที่ Isthmus (ใต้ Left Subclavian ที่ Ligamentum arteriosum ยึด)'</b>",
+  "guide": "ATLS 10th ed. (2018) — Thoracic Trauma; Fox N et al. EAST Practice Management Guideline: Blunt Traumatic Aortic Injury, J Trauma Acute Care Surg 2015; Lee WA et al. SVS Clinical Practice Guidelines for TEVAR in BTAI, J Vasc Surg 2011",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมี blunt aortic injury ร่วมกับเลือดออกในช่องท้องจากม้ามแตก ความดันต่ำ → ห้ามเลือดในช่องท้องก่อน แล้วค่อยแก้ aorta (ระหว่างนั้นคุมความดันเท่าที่ทำได้)"
+   "ชาย 30 ปี รถชนความเร็วสูง ความดันคงที่ CXR mediastinum กว้าง NG tube เบนไปขวา → CTA chest ทันที",
+   "CTA พบ intimal tear &lt; 10 mm ไม่มี periaortic hematoma (SVS grade I) → รักษาด้วยยาควบคุมความดันและ CT ซ้ำ ไม่ต้องใส่ stent graft",
+   "CTA พบ pseudoaneurysm ที่ isthmus ร่วมกับ splenic laceration มีเลือดออกในท้องและความดันต่ำ → ผ่าตัดหยุดเลือดในท้องก่อน แล้วควบคุม impulse และ TEVAR ภายหลัง",
+   "ทำไมต้องให้ β-blocker ก่อน vasodilator ใน BTAI → ถ้าให้ vasodilator ก่อนจะเกิด reflex tachycardia เพิ่ม dP/dt และแรงเฉือนที่ผนังที่ฉีก"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>Most common location traumatic rupture aorta (ผู้จดไม่ได้จดช้อย)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์จดแค่หัวข้อ ไม่มีช้อย → แต่งช้อย · P'Ing เขียน isthmus",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_18"
   ]
  },
  "MDCU74|RoD|19": {
-  "interp": "นิ่วกระเพาะปัสสาวะในเด็กที่เคยชุกในชนบทไทย (endemic bladder stone) → ถามปัจจัยหลัก",
-  "why": "ผู้จดจำช้อยได้แค่ <b>\"lack of animal fat diet\"</b> (P'Ing ใส่ ?) — Claude ปรับเป็นโปรตีนและฟอสเฟตจากสัตว์ตามตำรา<br><b>นอกสไลด์:</b> เด็กที่กินข้าวเหนียวและผักที่มี oxalate สูง แต่ได้โปรตีนสัตว์และฟอสเฟตน้อย ปัสสาวะจะมี oxalate และกรดยูริกสูง ฟอสเฟตต่ำ เกิดผลึก ammonium acid urate และ calcium oxalate ในกระเพาะปัสสาวะ · เมื่อโภชนาการดีขึ้นโรคนี้ลดลงมาก",
+  "interp": "ถามปัจจัยหลักของ <b>endemic bladder stone ในเด็ก</b> ที่เคยพบมากในชนบทไทย (โดยเฉพาะภาคอีสาน) — เป็นนิ่วกระเพาะปัสสาวะชนิดปฐมภูมิที่ไม่มีการอุดกั้นหรือติดเชื้อนำ จึงต้องตอบด้วยปัจจัยด้านอาหารและโภชนาการ",
+  "why": "<b>Endemic (primary) bladder stone</b> พบในเด็กเล็กโดยเฉพาะ<b>เด็กชาย</b>ในประเทศกำลังพัฒนา ไทยภาคอีสานเคยเป็นพื้นที่ที่มีอุบัติการณ์สูงที่สุดแห่งหนึ่งของโลก · กลไกสัมพันธ์กับอาหารที่<b>ขาดโปรตีนและฟอสเฟตจากสัตว์</b> โดยทารกได้ข้าวเหนียวเคี้ยว (ป้อนข้าว) แทนนมตั้งแต่อายุน้อย ร่วมกับผักที่มี oxalate สูง และภาวะขาดน้ำในอากาศร้อน → ปัสสาวะมี <b>phosphate ต่ำ</b> ทำให้ ammonia และ uric acid สูงขึ้นจับเป็น <b>ammonium acid urate</b> ร่วมกับ <b>calcium oxalate crystalluria</b> สูง และ citrate ต่ำ · นิ่วจึงมักเป็น ammonium acid urate ± calcium oxalate ไม่ใช่ struvite · การศึกษาในไทยพบว่าเสริม <b>orthophosphate</b> หรือนม/ ไข่ ลด crystalluria ได้ และอุบัติการณ์ลดลงชัดเมื่อโภชนาการดีขึ้น · ประเทศที่พัฒนาแล้วนิ่วเปลี่ยนไปเป็น<b>นิ่วทางเดินปัสสาวะส่วนบน</b>ในผู้ใหญ่ (สัมพันธ์กับโปรตีนสัตว์สูง) · ไฟล์ไม่มีคำตอบและ P'Ing ใส่ <b>\"?\"</b> หน้าข้อ ผู้จดจำช้อยได้ข้อเดียวว่า <b>\"lack of animal fat diet\"</b> จึงปรับเป็น animal protein and phosphate ตามตำรา",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> เนื้อแดงมากเพิ่มกรดยูริกและแคลเซียมในปัสสาวะ แต่เป็นปัจจัยของนิ่วไตในผู้ใหญ่ · ไม่มีสถานการณ์ใดที่เป็นปัจจัยของ endemic bladder stone เพราะโรคนี้เกิดจากการขาดโปรตีนสัตว์ ตรงข้ามกัน",
-   "C": "<b>นอกสไลด์:</b> Proteus ทำให้นิ่ว struvite ในผู้ที่ติดเชื้อเรื้อรัง/ใส่สายสวน · ไม่มีสถานการณ์ใดที่เป็นสาเหตุหลักของนิ่ว endemic เพราะเด็กกลุ่มนี้ไม่ได้มีการติดเชื้อเรื้อรังเป็นพื้นฐาน",
-   "D": "<b>นอกสไลด์:</b> Neurogenic bladder เป็นสาเหตุนิ่วกระเพาะปัสสาวะในเด็กยุคปัจจุบัน (ปัสสาวะค้าง ติดเชื้อ) · ไม่มีสถานการณ์ใดที่เป็นปัจจัยของนิ่วแบบ endemic เพราะนิ่ว endemic เกิดในเด็กปกติจากอาหาร",
-   "E": "<b>นอกสไลด์:</b> Hyperparathyroidism ทำให้นิ่วแคลเซียมในไตผู้ใหญ่ · ไม่มีสถานการณ์ใดที่เป็นปัจจัยของนิ่ว endemic ในเด็ก เพราะเป็นโรคต่อมไร้ท่อเฉพาะบุคคล ไม่ได้ชุกเป็นพื้นที่"
+   "B": "อาหารโปรตีนสัตว์สูง (เนื้อแดง) เพิ่ม uric acid และ calcium ในปัสสาวะ ลด citrate และ pH ปัสสาวะ จึงเป็นปัจจัยของนิ่วไตและท่อไตในผู้ใหญ่ของประเทศที่พัฒนาแล้ว ตรงข้ามกับนิ่วกระเพาะปัสสาวะในเด็กที่ขาดสารอาหาร · จะถูกถ้าเป็นชาย 45 ปี อ้วน กินเนื้อแดงและเครื่องในทุกวัน มีนิ่ว uric acid ในไตที่ X-ray มองไม่เห็น",
+   "C": "Proteus ผลิต <b>urease</b> แยก urea เป็น ammonia ทำให้ปัสสาวะเป็นด่าง (pH &gt; 7.2) เกิด <b>struvite</b> (magnesium ammonium phosphate) ที่โตเร็วเป็น staghorn เป็นนิ่วติดเชื้อ (secondary) ไม่ใช่ endemic stone · จะถูกถ้าเป็นหญิง 55 ปี UTI ซ้ำหลายครั้ง ปัสสาวะ pH 8 เพาะเชื้อได้ Proteus mirabilis CT พบ staghorn calculus ที่ไตขวา",
+   "D": "Neurogenic bladder ทำให้ปัสสาวะค้าง ต้องสวนค้าง ติดเชื้อซ้ำ และนอนนานจน calcium หลุดจากกระดูก จึงเกิดนิ่วกระเพาะปัสสาวะแบบ <b>secondary</b> (จาก stasis/ infection/ foreign body) ไม่ใช่ endemic · จะถูกถ้าเป็นชาย 30 ปี อัมพาตท่อนล่างจาก spinal cord injury ใส่สายสวนค้าง 2 ปี มีนิ่วหลายก้อนในกระเพาะปัสสาวะ",
+   "E": "Primary hyperparathyroidism ทำ hypercalcemia และ hypercalciuria จึงเกิดนิ่ว calcium oxalate/ phosphate ที่<b>ไต</b>ซ้ำ ๆ ใน<b>ผู้ใหญ่</b> (หญิงวัยกลางคน) พบน้อยมากในเด็กและไม่ได้เป็นปัจจัยระดับชุมชน · จะถูกถ้าเป็นหญิง 50 ปี นิ่วไตซ้ำ 3 ครั้ง calcium 11.5 mg/dL PTH สูง มี osteoporosis"
   },
-  "trap": "ช้อยที่ผู้จดจำได้เขียนว่า animal fat — ตำราใช้โปรตีนและฟอสเฟตจากสัตว์",
+  "trap": "คนเลือก Proteus UTI หรือ neurogenic bladder เพราะเป็นสาเหตุนิ่วกระเพาะปัสสาวะที่คุ้นในผู้ใหญ่ — แต่โจทย์ใช้คำว่า <b>endemic</b> ในเด็ก ซึ่งหมายถึงนิ่วปฐมภูมิที่เกิดเป็นกลุ่มในชุมชนเดียวกันจากโภชนาการ ไม่มีการอุดกั้นหรือติดเชื้อนำ · อีกจุดคือผู้จดจำว่า animal \"fat\" แต่ตำราเน้นการขาด <b>animal protein/ phosphate</b>",
   "summary": [
-   "<b>นอกสไลด์:</b> Endemic bladder stone: เด็กชายเล็ก ชนบท อาหารข้าว/ผัก oxalate สูง ขาดโปรตีนสัตว์ · นิ่วเป็น ammonium acid urate ± calcium oxalate",
-   "<b>นอกสไลด์:</b> นิ่วกระเพาะปัสสาวะผู้ใหญ่: มักจาก bladder outlet obstruction (BPH) — ต้องแก้การอุดกั้นด้วย"
+   "นิ่วกระเพาะปัสสาวะแบ่งเป็น primary/ endemic (เด็ก ขาดสารอาหาร ไม่มีความผิดปกติทางเดินปัสสาวะ) · secondary (BOO เช่น BPH, urethral stricture, neurogenic bladder, ติดเชื้อ, สายสวน/ สิ่งแปลกปลอม) · migratory (หลุดมาจากไต)",
+   "Endemic bladder stone: เด็กชายมากกว่าหญิงชัดเจน อายุน้อยกว่า 10 ปี พบในไทยภาคอีสาน อินเดีย ปากีสถาน อิหร่าน อียิปต์ · ปัจจุบันลดลงมากตามโภชนาการ",
+   "ปัจจัยอาหาร: ทารกได้ข้าว (ข้าวเหนียว) แทนนมเร็ว โปรตีนสัตว์และ phosphate ต่ำ ผักที่มี oxalate สูง ขาดน้ำ → ปัสสาวะ phosphate ต่ำ ammonia สูง citrate ต่ำ oxalate สูง",
+   "องค์ประกอบนิ่ว endemic: ammonium acid urate ± calcium oxalate (มักเป็นก้อนเดียว) ต่างจากนิ่วติดเชื้อที่เป็น struvite และนิ่วจาก BOO ในผู้ชายสูงอายุที่มักเป็น uric acid",
+   "อาการเด็ก: ปัสสาวะสะดุด/ หยุดกลางคัน ร้องเจ็บและดึงอวัยวะเพศขณะปัสสาวะ ปัสสาวะเป็นเลือดปลายสาย ติดเชื้อซ้ำ · ตรวจด้วย US หรือ KUB (นิ่ว urate ผสม oxalate มักทึบรังสีพอเห็น)",
+   "รักษา: เอานิ่วออกด้วย cystolitholapaxy (ส่องกล้องบดนิ่ว) หรือ percutaneous cystolithotomy หรือ open cystolithotomy เมื่อก้อนใหญ่ · ESWL ใช้ได้ในเด็กบางราย · ป้องกันด้วยการปรับอาหาร นม ไข่ และ phosphate supplement",
+   "นิ่วกระเพาะปัสสาวะในผู้ใหญ่ชายต้องหาสาเหตุการอุดกั้น (BPH, stricture) และแก้ไปพร้อมกัน มิฉะนั้นจะเกิดซ้ำ"
   ],
-  "opinion": "คีย์ไม่มีคำตอบ (P'Ing มี ?) — Claude ตอบ A ตามตำราเรื่อง endemic bladder stone ในไทย · ความมั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีคีย์ (P'Ing ใส่ ?) และผู้จดจำช้อยได้เพียง \"lack of animal fat diet\" คำตอบเว็บจึงเป็นของ Claude ที่ปรับเป็นการขาด animal protein และ phosphate ตามงานวิจัยนิ่วเด็กภาคอีสานและตำรา urology ช้อยอื่นเป็นสาเหตุของนิ่ว secondary หรือนิ่วในผู้ใหญ่",
+  "mnemonic": "<b>'เด็กอีสานกินข้าวเหนียวไม่มีนม → Phosphate ต่ำ → นิ่ว Urate ในกระเพาะปัสสาวะ'</b>",
+  "guide": "Campbell-Walsh-Wein Urology 12th ed. (2020) — Lower Urinary Tract Calculi; Smith's and Tanagho's General Urology 19th ed. (2020) — Urinary Stone Disease",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กชายอายุ 4 ปีในชนบท ปัสสาวะสะดุด ต้องดึงอวัยวะเพศเวลาปัสสาวะ ปัสสาวะเป็นเลือดปลายสาย → นิ่วกระเพาะปัสสาวะ เอาออกด้วยการส่องกล้องหรือผ่าตัด"
+   "เด็กชาย 4 ปี จากชนบท ปัสสาวะสะดุดกลางคัน ร้องและดึงอวัยวะเพศขณะปัสสาวะ US พบนิ่วก้อนเดียวในกระเพาะปัสสาวะ ไม่มีความผิดปกติอื่น → endemic bladder stone → cystolitholapaxy และปรับอาหาร",
+   "ชาย 70 ปี ปัสสาวะไม่พุ่ง มีนิ่วหลายก้อนในกระเพาะปัสสาวะและ residual urine 250 mL → secondary bladder stone จาก BPH → เอานิ่วออกร่วมกับ TURP",
+   "หญิง 40 ปี มี staghorn stone ปัสสาวะ pH 8 เพาะเชื้อ Proteus → struvite → PCNL ให้นิ่วหมด + รักษาการติดเชื้อ",
+   "ทำไมการเสริม orthophosphate ลดนิ่ว endemic → เพิ่ม phosphate ในปัสสาวะ ลด ammonium urate และ calcium oxalate crystalluria"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>สมัยก่อนเกิด Bladder stone ใน children มากเพราะอะไร — A. lack of animal fat diet B.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ผู้จดจำช้อยได้แค่ \"lack of animal fat diet\" (P'Ing ใส่ ?) → ปรับเป็น animal protein and phosphate ตามตำรา และแต่งช้อยที่เหลือ",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_19"
   ]
  },
  "MDCU74|RoD|20": {
-  "interp": "ถามว่าการผ่าตัดปอดมีบทบาทในการรักษา bronchiectasis เมื่อใด",
-  "why": "ลายมือ P'Ing: <b>surgery to cut vicious cycle · D ✗ COPD</b> + แผนภาพ vicious cycle (P'Ing เขียน \"ไม่แน่นอน?\" ที่หัวข้อ)<br><b>นอกสไลด์:</b> Bronchiectasis เป็นวงจรติดเชื้อ–อักเสบ–หลอดลมเสียหาย · ถ้าโรคอยู่เฉพาะกลีบเดียว (เช่น หลังวัณโรค หลังสิ่งแปลกปลอม) และอาการไม่ดีขึ้นด้วยการรักษาเต็มที่ การตัดกลีบนั้นตัดแหล่งของวงจรได้ · โรคที่เป็นทั้งสองปอดไม่ได้ประโยชน์จากการตัด",
+  "interp": "ถามว่าในภาวะใดของ <b>bronchiectasis</b> การผ่าตัดตัดปอด (lung resection) มีบทบาท — ต้องรู้ว่าการผ่าตัดใช้กับโรคที่<b>อยู่เฉพาะที่ (localized)</b> เท่านั้น ส่วนโรคที่เกิดจากความผิดปกติทั่วร่างกาย (diffuse) ตัดออกไม่หมดและรักษาด้วยยา",
+  "why": "Bronchiectasis คือหลอดลมขยายตัวถาวรจาก <b>vicious cycle (Cole)</b>: ติดเชื้อ → อักเสบ (neutrophil elastase) → ผนังหลอดลมถูกทำลาย → mucociliary clearance เสีย → เสมหะค้าง → ติดเชื้อซ้ำ · การรักษาหลักเป็นยา: airway clearance/ physiotherapy, mucoactive agents (hypertonic saline), ยาฆ่าเชื้อตามเชื้อ, <b>long-term macrolide</b> ในผู้ที่กำเริบ ≥ 3 ครั้ง/ปี, inhaled antibiotics ถ้ามี Pseudomonas เรื้อรัง และรักษาสาเหตุ · <b>การผ่าตัด</b>มีที่ใช้เมื่อโรค<b>จำกัดอยู่ในกลีบเดียวหรือ segment</b> และ (1) อาการ/ ติดเชื้อซ้ำไม่ดีขึ้นด้วยยาที่เหมาะสม (2) hemoptysis ซ้ำหรือรุนแรงที่ embolization ไม่ได้ผล (3) ปอดส่วนนั้นถูกทำลาย (destroyed lobe) เป็นแหล่งเชื้อหรือมี abscess/ เชื้อดื้อยา เช่น NTM, aspergilloma · ผ่าตัด lobectomy/ segmentectomy (VATS) ต้องตัดส่วนที่เป็นโรคให้หมดและผู้ป่วยมี pulmonary reserve พอ · โรคกระจายทั้งสองข้าง (CF, PCD, immunodeficiency) ไม่ผ่าตัด ยกเว้น <b>lung transplantation</b> ในระยะสุดท้าย · ไฟล์วง B ลายมือ P'Ing เขียน <b>\"surgery to cut vicious cycle\"</b> พร้อมวาดแผนภาพ vicious cycle และกากบาท D ว่า <b>\"COPD\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> CF ทำให้หลอดลมพองทั้งสองปอด · ไม่มีสถานการณ์ใดที่ตัวโรค CF เองเป็นเหตุให้ตัดปอด เพราะเป็นทั้งสองข้าง — ที่ผ่าตัดได้เป็นเพราะมีรอยโรคเฉพาะที่ (เช่นไอเป็นเลือดซ้ำจากกลีบเดียว) ระยะท้ายใช้การปลูกถ่ายปอด",
-   "C": "<b>นอกสไลด์:</b> ภูมิคุ้มกันบกพร่องทำให้ติดเชื้อซ้ำทั่วปอด · ไม่มีสถานการณ์ใดที่ภาวะนี้เองเป็นเหตุให้ตัดปอด เพราะเป็นทั่วทั้งปอด ต้องรักษาการติดเชื้อและภาวะที่พบร่วม",
-   "D": "P'Ing: ✗ COPD · <b>นอกสไลด์:</b> Alpha-1 antitrypsin deficiency ทำให้ถุงลมโป่งพองทั่วปอด · ไม่มีสถานการณ์ใดที่เป็นเหตุให้ตัดปอดเพื่อรักษา bronchiectasis เพราะโรคกระจายทั่วทั้งปอด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ถูก เพราะการผ่าตัดมีบทบาทชัดในโรคเฉพาะที่ที่รักษาด้วยยาไม่ได้ผล ไอเป็นเลือดซ้ำ หรือมีฝีในปอด"
+   "A": "Cystic fibrosis (CFTR mutation) ทำ bronchiectasis <b>กระจายทั้งสองปอด</b>เด่นที่กลีบบน ตัดออกไม่หมด จึงรักษาด้วย airway clearance, dornase alfa, hypertonic saline, inhaled tobramycin, CFTR modulator และ lung transplant ในระยะสุดท้าย · จะถูกถ้าเป็นหญิง 22 ปี CF ที่ FEV1 เหลือ 25% ทั้งที่ใช้ยาเต็มที่ ต้องการออกซิเจน (ส่งประเมิน bilateral lung transplantation)",
+   "C": "Selective IgA deficiency พบบ่อยที่สุดของภูมิคุ้มกันบกพร่องปฐมภูมิ ส่วนใหญ่ไม่มีอาการ บางรายติดเชื้อทางเดินหายใจซ้ำจน bronchiectasis แบบกระจาย · ให้ IgA ทดแทนไม่ได้ (IVIG มี IgA น้อยและเสี่ยง anaphylaxis จาก anti-IgA) จึงใช้ยาฆ่าเชื้อป้องกันและฉีดวัคซีน · จะถูกถ้าเป็นชาย 30 ปี มีไซนัสอักเสบและปอดอักเสบซ้ำ IgA ในเลือดต่ำมากแต่ IgG/ IgM ปกติ",
+   "D": "Alpha-1 antitrypsin deficiency ทำ <b>panacinar emphysema</b> เด่นที่กลีบล่างในคนอายุน้อย (ลายมือในไฟล์จัดเป็นกลุ่ม COPD) และโรคตับ (PiZZ) โรคกระจายทั้งสองข้าง ใช้ augmentation therapy, เลิกบุหรี่ และ transplant ไม่ใช่ lobectomy · จะถูกถ้าเป็นชาย 38 ปี สูบบุหรี่ไม่มาก หอบเหนื่อยมากขึ้น CT พบ emphysema กลีบล่างทั้งสองข้าง ระดับ AAT ในเลือดต่ำ",
+   "E": "None of the above ผิดเพราะการผ่าตัดยังมีบทบาทชัดเจนใน localized bronchiectasis ซึ่งพบบ่อยหลังติดเชื้อ (TB, ปอดอักเสบรุนแรงในวัยเด็ก, สิ่งแปลกปลอมอุดหลอดลม) · จะถูกถ้าเป็นชาย 50 ปี bronchiectasis ทั้งสองปอดจาก PCD/ Kartagener syndrome อาการคุมได้ด้วยยา (ไม่มีข้อใดเหมาะกับการผ่าตัด)"
   },
-  "trap": "จำว่า bronchiectasis รักษาด้วยยาเสมอ — การผ่าตัดมีที่ใช้เมื่อโรคอยู่เฉพาะที่",
+  "trap": "คนเลือก E เพราะเข้าใจว่า bronchiectasis รักษาด้วยยาอย่างเดียว หรือเลือกโรคที่เป็นสาเหตุ (CF, AAT) เพราะเป็นภาวะที่รุนแรง · หลักแยกง่าย: สาเหตุทั่วร่างกาย (genetic/ immunologic) = โรคกระจาย = ไม่ตัดปอด · โรคจำกัดที่กลีบเดียวที่ยาคุมไม่ได้ = ตัดกลีบนั้นเพื่อ<b>ตัด vicious cycle</b>ตามลายมือในไฟล์",
   "summary": [
-   "<b>นอกสไลด์:</b> HRCT: หลอดลมใหญ่กว่าหลอดเลือดข้างเคียง (signet ring) · หลอดลมไม่เรียวลงที่ปลาย · tram track",
-   "<b>นอกสไลด์:</b> รักษาหลัก: ระบายเสมหะ · ยาปฏิชีวนะช่วงกำเริบ · macrolide ระยะยาวในรายกำเริบบ่อย · รักษาสาเหตุ",
-   "<b>นอกสไลด์:</b> ไอเป็นเลือดมาก → bronchial artery embolization ก่อน"
+   "Cole's vicious cycle: infection → inflammation → structural airway damage → impaired mucociliary clearance → infection · การรักษาทุกอย่างมุ่งตัดวงจรนี้ที่จุดใดจุดหนึ่ง",
+   "สาเหตุ: post-infectious (TB สำคัญในไทย, pertussis, measles), CF, PCD/ Kartagener, immunodeficiency (CVID), ABPA, AAT deficiency, aspiration/ สิ่งแปลกปลอมอุดหลอดลม, NTM · ราว 40% หาสาเหตุไม่ได้",
+   "วินิจฉัยด้วย HRCT: หลอดลมกว้างกว่าหลอดเลือดคู่กัน (signet ring sign, broncho-arterial ratio &gt; 1), หลอดลมไม่เรียวลงที่ส่วนปลาย, เห็นหลอดลมใน 1 cm จาก pleura",
+   "รักษาด้วยยา: airway clearance ทุกราย · hypertonic saline · long-term macrolide (azithromycin) เมื่อกำเริบ ≥ 3 ครั้ง/ปี · eradicate Pseudomonas ที่เพิ่งพบ · inhaled antibiotics ใน Pseudomonas เรื้อรัง · ABPA ให้ steroid + itraconazole",
+   "ข้อบ่งชี้ผ่าตัด: โรคเฉพาะที่ (กลีบ/ segment) + อาการไม่ดีขึ้นด้วยยา, hemoptysis ซ้ำ/ รุนแรงหลัง embolization, destroyed lobe, abscess, เชื้อดื้อยาเฉพาะที่ · ต้องตัดส่วนที่เป็นโรคให้หมด",
+   "Massive hemoptysis: นอนตะแคงเอาข้างที่เลือดออกลง, protect airway (single-lung intubation หรือ bronchial blocker), <b>bronchial artery embolization</b> เป็นขั้นแรก แล้วจึงผ่าตัดถ้าล้มเหลวและโรคจำกัดที่",
+   "โรคกระจายระยะสุดท้าย (CF, PCD, idiopathic) → bilateral lung transplantation"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B พร้อมเขียนว่าผ่าตัดเพื่อตัด vicious cycle (แม้หัวข้อมีคำว่า \"ไม่แน่นอน?\") · ทั้ง BTS และ ERS ระบุว่าการผ่าตัดเหมาะกับ localized disease ที่ยาคุมไม่ได้ ส่วน A, C, D เป็นสาเหตุที่ทำโรคกระจายซึ่งตัดไม่หมด",
+  "mnemonic": "<b>'Localized = Lobectomy · Diffuse = Drug (หรือ transplant)'</b>",
+  "guide": "Hill AT et al. British Thoracic Society Guideline for Bronchiectasis in Adults, Thorax 2019; Polverino E et al. ERS Guidelines for the Management of Adult Bronchiectasis, Eur Respir J 2017",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กกลืนเมล็ดถั่วไม่มีใครเห็น ปอดอักเสบซ้ำที่กลีบล่างขวาหลายเดือน → ส่องกล้องหลอดลมเอาสิ่งแปลกปลอมออกก่อน ก่อนหลอดลมเสียถาวร"
+   "หญิง 35 ปี เคยเป็นวัณโรคปอด มี bronchiectasis เฉพาะกลีบล่างซ้าย ติดเชื้อซ้ำ 5 ครั้ง/ปี แม้ใช้ยาเต็มที่ → left lower lobectomy (VATS)",
+   "ชาย 45 ปี ไอเป็นเลือด 400 mL ใน 24 ชม. จาก bronchiectasis กลีบบนขวา → protect airway + bronchial artery embolization ก่อนพิจารณาผ่าตัด",
+   "เด็ก 8 ปี ไอเรื้อรัง ไซนัสอักเสบ หูน้ำหนวก และ situs inversus → primary ciliary dyskinesia (Kartagener) → bronchiectasis กระจาย ใช้ airway clearance ไม่ผ่าตัด",
+   "ทำไมต้องตัดส่วนที่เป็นโรคให้หมดเมื่อผ่าตัด bronchiectasis → ส่วนที่เหลือจะเป็นแหล่งเชื้อทำให้ vicious cycle ดำเนินต่อและอาการไม่ดีขึ้น"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>Bronchiectasis ในข้อใดมี role ในการ lung resection — A. cystic fibrosis B. involve only 1 lobe C. secretory IgA deficiency D. antitrypsin deficiency E. none of above</b><br>ลายมือ/ ไฮไลต์ในไฟล์: โจทย์ท้ายหน้า 83 ช้อยหน้า 84 → ครอป 2 ส่วน · P'Ing เขียน \"ไม่แน่นอน?\" ที่หัวข้อ",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_20a",
+   "kp74d_20b"
   ]
  },
  "MDCU74|RoD|21": {
-  "interp": "หญิงอายุ 40 พบก้อนข้างกระดูกสันหลังใน posterior mediastinum โดยบังเอิญ → ถามเนื้องอกที่พบบ่อยที่สุดตำแหน่งนี้ในผู้ใหญ่",
-  "why": "P'Ing เขียน <b>Neurilemmoma</b><br><b>นอกสไลด์:</b> Posterior mediastinum (paravertebral) มีเส้นประสาทและ sympathetic chain ก้อนส่วนใหญ่จึงเป็น neurogenic tumor · ผู้ใหญ่ส่วนใหญ่เป็น nerve sheath tumor ไม่ร้าย โดย schwannoma (neurilemmoma) พบบ่อยที่สุด · ต้องทำ MRI ดูว่าก้อนลามเข้าช่องกระดูกสันหลังแบบ dumbbell หรือไม่",
+  "interp": "หญิง 40 ปี พบก้อน <b>paravertebral</b> ใน posterior mediastinum โดยบังเอิญ — ถามเนื้องอกที่พบบ่อยที่สุดในตำแหน่งนี้ใน<b>ผู้ใหญ่</b> ซึ่งต้องรู้ว่าแต่ละช่องของ mediastinum มีเนื้องอกประจำต่างกัน และในผู้ใหญ่กับเด็กก็ต่างกัน",
+  "why": "Mediastinum แบ่งเป็น anterior (prevascular), middle (visceral) และ posterior (<b>paravertebral</b>) ตามระบบ ITMIG · ก้อนใน posterior mediastinum ส่วนใหญ่ (~60–75%) เป็น<b>เนื้องอกของเส้นประสาท (neurogenic tumor)</b> ที่เกิดจาก intercostal nerve หรือ sympathetic chain · ใน<b>ผู้ใหญ่</b>ส่วนใหญ่เป็น <b>nerve sheath tumor</b> ซึ่งพบมากที่สุดคือ <b>schwannoma (neurilemmoma)</b> รองลงมาคือ neurofibroma (สัมพันธ์กับ NF1) และส่วนใหญ่ไม่ร้าย · ใน<b>เด็ก</b>เป็น autonomic ganglion tumor: neuroblastoma, ganglioneuroblastoma, ganglioneuroma · schwannoma โตช้า มักไม่มีอาการ พยาธิมี Antoni A (มี Verocay bodies) และ Antoni B ย้อม S-100 บวก · ราว 10% เป็น <b>dumbbell tumor</b> ลอดผ่าน neural foramen เข้า spinal canal จึงต้องทำ <b>MRI</b> ก่อนผ่าตัดทุกครั้งที่ก้อนอยู่ชิด foramen · รักษาด้วยการตัดออก (VATS หรือ open) ถ้ามี intraspinal component ต้องผ่าตัดร่วมกับศัลยแพทย์ระบบประสาท · ไฟล์ไม่มีช้อย ลายมือ P'Ing เขียนคำตอบว่า <b>\"Neurilemmoma\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Thymoma อยู่ anterior mediastinum · ไม่มีสถานการณ์ใดที่เป็นก้อนพบบ่อยที่สุดใน posterior mediastinum เพราะต่อมไทมัสอยู่หลังกระดูกอก",
-   "C": "<b>นอกสไลด์:</b> Teratoma เป็น germ cell tumor ที่ anterior mediastinum · ไม่มีสถานการณ์ใดที่พบบ่อยที่สุดใน posterior เพราะเซลล์ต้นกำเนิดค้างอยู่แนวกลางด้านหน้า",
-   "D": "<b>นอกสไลด์:</b> Lymphoma มักอยู่ anterior/middle mediastinum ตามกลุ่มต่อมน้ำเหลือง · ไม่มีสถานการณ์ใดที่เป็นก้อนพบบ่อยที่สุดข้างกระดูกสันหลัง เพราะก้อนในร่องข้างกระดูกสันหลังส่วนใหญ่มาจากเส้นประสาท",
-   "E": "<b>นอกสไลด์:</b> Bronchogenic cyst มักอยู่ middle mediastinum ใต้ carina · ไม่มีสถานการณ์ใดที่เป็นก้อนพบบ่อยที่สุดใน posterior เพราะเกิดจากการแตกหน่อของหลอดลมซึ่งอยู่แนวกลาง"
+   "B": "Thymoma เป็นเนื้องอกที่พบบ่อยที่สุดของ <b>anterior</b> mediastinum ในผู้ใหญ่และเป็นก้อนใน mediastinum ที่พบบ่อยที่สุดโดยรวม แต่ไม่อยู่ใน paravertebral area · จะถูกถ้าเป็นหญิง 45 ปี หนังตาตกและเหนื่อยง่ายตอนเย็น CT พบก้อนขอบเรียบหน้าหลอดเลือดใหญ่ใน anterior mediastinum",
+   "C": "Teratoma/ germ cell tumor อยู่ใน anterior mediastinum พบในคนอายุน้อย CT เห็นไขมัน แคลเซียม ฟัน หรือของเหลวในก้อนเดียวกัน ส่วน malignant nonseminomatous germ cell tumor มี AFP/ β-hCG สูงในชายหนุ่ม · จะถูกถ้าเป็นหญิง 22 ปี CT พบก้อน anterior mediastinum ที่มีทั้งไขมันและแคลเซียม",
+   "D": "Lymphoma (Hodgkin ชนิด nodular sclerosis และ primary mediastinal large B-cell) อยู่ใน anterior และ middle mediastinum มักมีต่อมน้ำเหลืองโตหลายที่ ไข้ เหงื่อออกกลางคืน น้ำหนักลด LDH สูง · จะถูกถ้าเป็นหญิง 25 ปี มีก้อน anterior mediastinum ร่วมกับต่อมน้ำเหลืองที่คอโต คันทั่วตัว และ B symptoms",
+   "E": "Bronchogenic cyst เป็นถุงน้ำที่พบมากที่สุดของ mediastinum มักอยู่ใน <b>middle</b> mediastinum ใกล้ carina CT เป็นก้อนน้ำขอบเรียบไม่ enhance อาจติดเชื้อหรือกดหลอดลมได้ · จะถูกถ้าเป็นชาย 30 ปี CT พบถุงน้ำ subcarinal ขอบเรียบ ค่า density เท่าน้ำ ไม่ enhance"
   },
-  "trap": "จำตำแหน่ง: anterior = thymoma, teratoma, thyroid, lymphoma · middle = cyst, ต่อมน้ำเหลือง · posterior = neurogenic",
+  "trap": "คนเลือก thymoma เพราะจำได้ว่าเป็นเนื้องอก mediastinum ที่พบบ่อยที่สุดโดยรวม หรือ lymphoma ที่เกิดได้ทุกช่อง · ต้องอ่านตำแหน่งให้ดี: <b>posterior/ paravertebral = neurogenic</b> · และดูอายุ: ผู้ใหญ่ = schwannoma (neurilemmoma) ส่วนเด็ก = neuroblastoma กลุ่ม ganglion cell",
   "summary": [
-   "<b>นอกสไลด์:</b> Dumbbell tumor ลามเข้าช่องกระดูกสันหลัง → MRI และผ่าตัดร่วมกับศัลยแพทย์ระบบประสาท"
+   "Anterior (prevascular): 4T — Thymoma, Teratoma/ germ cell, Thyroid (substernal goiter), \"Terrible\" lymphoma · thymoma พบบ่อยสุดในผู้ใหญ่",
+   "Middle (visceral): bronchogenic cyst, pericardial cyst (มุม cardiophrenic ขวา), lymphadenopathy (lymphoma, sarcoidosis, TB, metastasis), esophageal lesion, aortic aneurysm",
+   "Posterior (paravertebral): neurogenic tumor ~60–75% · ผู้ใหญ่ = nerve sheath (schwannoma &gt; neurofibroma, ส่วนใหญ่ benign) · เด็ก = neuroblastoma, ganglioneuroblastoma, ganglioneuroma",
+   "เด็กเล็ก neurogenic tumor มีโอกาสร้ายสูงกว่าผู้ใหญ่ชัดเจน · neuroblastoma ตรวจ urine VMA/ HVA และ MIBG scan",
+   "Dumbbell tumor ~10% ลอด neural foramen เข้า spinal canal → MRI ก่อนผ่าตัดเสมอ · ผ่าตัด one-stage ร่วมศัลยกรรมประสาท เพื่อไม่ให้ดึงก้อนแล้วเลือดออกใน spinal canal จนอัมพาต",
+   "Schwannoma พยาธิ: Antoni A (เซลล์แน่น Verocay bodies) + Antoni B (หลวม) · S-100 บวก · malignant peripheral nerve sheath tumor พบน้อย สัมพันธ์กับ NF1",
+   "ก้อนที่มีลักษณะชัดเจนและตัดได้ใน posterior mediastinum มักตัดออกด้วย VATS โดยไม่ต้อง biopsy ก่อน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ neurilemmoma — ตรงกับที่ P'Ing เขียน · ไฟล์ไม่มีช้อยจึงแต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่เขียน Neurilemmoma · ตำราศัลยกรรมทรวงอกระบุว่า neurogenic tumor เป็นก้อนที่พบบ่อยที่สุดใน posterior mediastinum และในผู้ใหญ่ชนิดที่พบมากที่สุดคือ schwannoma (neurilemmoma) ช้อยในไฟล์ไม่ได้จด จึงเติมช้อยจากช่องอื่นของ mediastinum",
+  "mnemonic": "<b>'Posterior = Paravertebral = Peripheral nerve (ผู้ใหญ่ Schwannoma · เด็ก Neuroblastoma)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — The Mediastinum; Carter BW et al. ITMIG Classification of Mediastinal Compartments, J Thorac Oncol 2014",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กอายุ 2 ปีมีก้อน posterior mediastinum มีหินปูน ปัสสาวะ VMA/HVA สูง → neuroblastoma"
+   "เด็กชาย 2 ปี ก้อน paravertebral ใน posterior mediastinum มีแคลเซียมในก้อน urine VMA สูง → neuroblastoma",
+   "ชาย 45 ปี ก้อน posterior mediastinum ชิด neural foramen T6 → MRI ก่อนผ่าตัดเพื่อหา dumbbell extension เข้า spinal canal",
+   "หญิง 30 ปี มี café-au-lait spots หลายจุดและก้อนใต้ผิวหนังหลายก้อน พบก้อน posterior mediastinum → neurofibroma ใน NF1 (เฝ้าระวัง MPNST ถ้าก้อนโตเร็วหรือปวด)",
+   "ชาย 25 ปี ก้อน anterior mediastinum AFP และ β-hCG สูง → nonseminomatous germ cell tumor → cisplatin-based chemotherapy ก่อนผ่าตัดก้อนที่เหลือ"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>What is the most common tumor located at posterior mediastinum? (ผู้จดไม่ได้จดช้อย)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์จดแค่โจทย์ ไม่มีช้อย → แต่งช้อย · P'Ing เขียน Neurilemmoma",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_21"
   ]
  },
  "MDCU74|RoD|22": {
-  "interp": "หนังตาตกและเห็นภาพซ้อนเป็น ๆ หาย ๆ (myasthenia gravis) + ก้อน anterior mediastinum ขอบชัดที่ตัดได้ = thymoma → ถามการจัดการ",
-  "why": "ลายมือ P'Ing: <b>= thymoma</b><br><b>นอกสไลด์:</b> ก้อนที่ลักษณะเข้ากับ thymoma และดูตัดได้ ผ่าตัด total thymectomy เลยโดยไม่ต้องเจาะชิ้นเนื้อก่อน (เสี่ยงทำให้เปลือกก้อนแตกและเซลล์กระจาย) แล้วดูพยาธิและ stage เพื่อตัดสินการรักษาเสริม · ก่อนผ่าตัดต้องคุมอาการ MG ให้ดี",
+  "interp": "หญิง 45 ปี หนังตาตกและเห็นภาพซ้อนที่เป็น ๆ หาย ๆ (<b>ocular myasthenia gravis</b>) ร่วมกับก้อน anterior mediastinum ขอบชัดที่ตัดออกได้ — เข้าได้กับ <b>thymoma</b> ถามการจัดการที่เหมาะสมที่สุด ซึ่งต้องรู้ว่า thymoma ที่ตัดได้ไม่ต้อง biopsy ก่อน และการรักษาเสริมขึ้นกับผลพยาธิ",
+  "why": "Thymoma เป็นเนื้องอกของ anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ (อายุ 40–60 ปี) ราว <b>30–50%</b> มี myasthenia gravis และ MG ราว 10–15% มี thymoma · เมื่อภาพ CT เป็นก้อนขอบเรียบใน prevascular space ร่วมกับ MG และ<b>ตัดได้</b> มาตรฐานคือ<b>ผ่าตัดเลยโดยไม่ต้อง biopsy ก่อน</b> เพราะการเจาะผ่าน capsule เสี่ยงทำให้เนื้องอกกระจายในเยื่อหุ้มปอด และชิ้นเนื้อเล็กแยกชนิดได้ไม่ดี · ผ่าตัด <b>complete (total) thymectomy</b> เอาก้อนพร้อม thymus และไขมันรอบ ๆ แบบ en bloc ผ่าน median sternotomy หรือ VATS/ robotic ในก้อนเล็ก · ต้องเตรียม MG ให้คงที่ก่อนผ่าตัด (pyridostigmine, ± IVIG หรือ plasmapheresis) เพื่อลด myasthenic crisis หลังผ่าตัด · หลังผ่าตัดใช้ผลพยาธิ (<b>WHO type</b> A, AB, B1–B3, thymic carcinoma) ระยะ <b>Masaoka–Koga</b>/ TNM และความครบของการตัด (R0/ R1) เพื่อตัดสินใจ <b>postoperative radiotherapy</b>: stage I R0 ไม่ต้อง · stage III–IV หรือ margin บวก ให้ PORT · ไฟล์วง A ลายมือ P'Ing เขียนว่า <b>\"= thymoma\"</b> (ช้อย A ในไฟล์: \"ตัดออกและส่ง patho เพื่อพิจารณาการรักษาต่อ\")",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ให้ chemoradiation หลังผ่าตัดทุกราย (routine) เพราะการรักษาเสริมเลือกตาม stage ขอบผ่าตัด และชนิดพยาธิ — รังสีเมื่อขอบบวก chemoradiation ใน thymic carcinoma ที่ตัดไม่หมด",
-   "C": "<b>นอกสไลด์:</b> เจาะชิ้นเนื้อก่อนจำเป็นเมื่อไม่แน่ใจชนิดก้อนหรือตัดไม่ได้ · จะถูกถ้าก้อน anterior mediastinum มาพร้อมต่อมน้ำเหลืองโตหลายที่หรือ LDH สูง (สงสัย lymphoma) — ต้องได้ชิ้นเนื้อก่อน (นิยม core needle)",
-   "D": "<b>นอกสไลด์:</b> รังสีอย่างเดียวไม่ใช่การรักษาหลักของ thymoma ที่ตัดได้ · จะถูกถ้าผู้ป่วยโรคร่วมมากผ่าตัดไม่ได้ หรือได้เคมีนำแล้วก้อนยังตัดไม่ได้ → definitive RT",
-   "E": "<b>นอกสไลด์:</b> ยาช่วยอาการ MG แต่ไม่ได้รักษาก้อน · จะถูกถ้าผู้ป่วยมี MG เฉพาะที่ตาโดยไม่มีก้อนในช่องอก"
+   "B": "Chemoradiation หลังผ่าตัดทุกรายเกินความจำเป็น เพราะ thymoma ส่วนใหญ่เป็น stage I–II ที่ตัดหมดแล้วมีพยากรณ์ดีมาก การให้ RT เพิ่มผลเสียต่อหัวใจ ปอด โดยไม่เพิ่ม survival · จะถูกถ้าเป็นชาย 55 ปี หลังตัด thymic carcinoma ที่ลุกเข้า pericardium และ margin บวก (R1) ซึ่งต้องได้ postoperative chemoradiation",
+   "C": "FNA ได้เซลล์น้อย แยก thymoma กับ lymphoma หรือ thymic carcinoma ได้ยาก และการเจาะผ่าน capsule เสี่ยงต่อ seeding · biopsy (core หรือ surgical) ใช้เมื่อก้อน<b>ตัดไม่ได้</b>หรือสงสัยโรคที่ไม่รักษาด้วยการผ่าตัด · จะถูกถ้าเป็นชาย 25 ปี ก้อน anterior mediastinum ขนาดใหญ่ร่วมกับต่อมน้ำเหลืองคอโต B symptoms และ LDH สูง (สงสัย lymphoma ทำ core biopsy)",
+   "D": "Radiotherapy อย่างเดียวใช้เมื่อผ่าตัดไม่ได้ (โรคลุกลามมากที่ไม่ตอบสนองต่อยา หรือผู้ป่วยมีโรคร่วมจนผ่าตัดไม่ได้) ไม่ใช่การรักษาแรกของ thymoma ที่ตัดได้ ซึ่งผ่าตัดให้โอกาสหายขาดดีที่สุด · จะถูกถ้าเป็นชาย 80 ปี thymoma ที่ลุก great vessels ตัดไม่ได้ และหัวใจล้มเหลวรุนแรงจนดมยาสลบไม่ได้",
+   "E": "Pyridostigmine รักษาอาการ MG ได้ และต้องให้ควบคุมอาการก่อนผ่าตัด แต่ไม่รักษา thymoma ซึ่งเป็นเนื้องอกที่ลุกลามได้ จึงต้องตัดออกทุกรายที่ทำได้ · จะถูกถ้าเป็นหญิง 70 ปี มี ocular MG อย่างเดียว anti-AChR บวก CT ไม่พบก้อนใน mediastinum (ส่วน generalized MG อายุ 18–65 ปีพิจารณา thymectomy ตาม MGTX)"
   },
-  "trap": "คิดว่าต้องมีชิ้นเนื้อก่อนผ่าตัดเสมอ — thymoma ที่ตัดได้ให้ผ่าตัดเลย",
+  "trap": "คนเลือก FNA เพราะคิดว่าต้องมีพยาธิยืนยันก่อนผ่าตัดเหมือนเนื้องอกอื่น · แต่ thymoma ที่ภาพชัดและตัดได้ <b>ผ่าตัดเป็นทั้งการวินิจฉัยและการรักษา</b> ส่วน biopsy สงวนไว้เมื่อก้อนตัดไม่ได้หรือสงสัย lymphoma/ germ cell · อีกกับดักคือ B ที่ให้ chemoradiation ทุกราย ทั้งที่การรักษาเสริมขึ้นกับระยะและ margin",
   "summary": [
-   "<b>นอกสไลด์:</b> Thymoma: anterior mediastinum ผู้ใหญ่ราว 40–60 ปี · สัมพันธ์ MG (ราว 30–50%) · pure red cell aplasia · hypogammaglobulinemia",
-   "<b>นอกสไลด์:</b> Stage (Masaoka-Koga) และชนิดพยาธิ (WHO) ใช้ตัดสินรังสีเสริม · ก้อนที่ตัดไม่ได้ → ตัดชิ้นเนื้อด้วยเข็ม (core) → เคมีบำบัดนำก่อนแล้วประเมินผ่าตัด"
+   "Thymoma: เนื้องอก anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ อายุ 40–60 ปี · paraneoplastic: MG (30–50%), pure red cell aplasia, hypogammaglobulinemia (Good syndrome)",
+   "ก้อน anterior mediastinum ตรวจเพิ่ม: CT chest with contrast, anti-AChR antibody (แม้ไม่มีอาการ), AFP/ β-hCG ในชายอายุน้อย, LDH · ถ้าภาพ thymoma ชัดและตัดได้ → ผ่าตัดเลย",
+   "ผ่าตัด: total thymectomy + en bloc resection ของก้อน · ห้ามทำลาย capsule · ระวังเส้นประสาท phrenic · ถ้าลุก pericardium, ปอด หรือ innominate vein ให้ตัดร่วมเพื่อ R0",
+   "WHO type: A, AB (พยากรณ์ดี) · B1, B2, B3 (ร้ายมากขึ้น) · thymic carcinoma (type C) รุนแรงและไม่ค่อยสัมพันธ์กับ MG",
+   "Masaoka–Koga: I ใน capsule · IIa ลุก capsule ระดับจุลทรรศน์ · IIb ลุกไขมันรอบ · III ลุกอวัยวะข้างเคียง · IVa pleural/ pericardial dissemination · IVb lymphatic/ hematogenous metastasis",
+   "Adjuvant: stage I R0 ไม่ต้อง · stage II พิจารณา PORT เมื่อ type B หรือ margin ใกล้ · stage III หรือ R1 → PORT · ก้อนลุกลามตัดไม่ได้ → induction cisplatin-based chemotherapy (เช่น CAP) แล้วประเมินผ่าตัด",
+   "MG ก่อนผ่าตัด: ให้อาการคงที่ พิจารณา IVIG/ plasmapheresis ในรายมีอาการ bulbar หรือหายใจ · หลีกเลี่ยงยาที่ทำให้ MG แย่ (aminoglycoside, fluoroquinolone, magnesium, NMB ชนิด nondepolarizing ต้องลดขนาด)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ช้อยเขียนเป็นอังกฤษและเติม D, E · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียนว่าเป็น thymoma · NCCN และตำราศัลยกรรมทรวงอกให้ผ่าตัดก้อนที่ตัดได้โดยไม่ต้อง biopsy ก่อน แล้วใช้ผลพยาธิกำหนดการรักษาเสริม ช้อย D และ E เติมขึ้นภายหลังเพราะไฟล์มีเพียง 3 ช้อย",
+  "mnemonic": "<b>'Thymoma ตัดได้ → ตัดเลย ไม่เจาะก่อน · พยาธิบอกว่าต้องฉายแสงไหม'</b>",
+  "guide": "NCCN Guidelines Thymomas and Thymic Carcinomas v.2025; Sabiston Textbook of Surgery 21st ed. (2022) — The Mediastinum; Wolfe GI et al. (MGTX) N Engl J Med 2016",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงอายุ 30 MG ทั้งตัว anti-AChR บวก CT ไม่พบก้อน → thymectomy ยังช่วยลดอาการและยา (non-thymomatous MG)"
+   "ก้อน anterior mediastinum ลุก SVC และ pericardium ตัดได้ไม่หมด → core needle biopsy ยืนยัน แล้ว induction chemotherapy ก่อนประเมินผ่าตัด",
+   "หลังตัด thymoma พยาธิพบ type B2 ลุกเข้าเนื้อปอดที่ติดกัน (Masaoka–Koga III) ตัดหมด R0 → postoperative radiotherapy",
+   "หญิง 30 ปี generalized MG anti-AChR บวก ไม่มี thymoma → พิจารณา thymectomy เพื่อลดอาการและขนาดยา steroid (MGTX trial)",
+   "ทำไมต้องคุม MG ก่อนผ่าตัดตัด thymoma → ลดความเสี่ยง myasthenic crisis และการใช้เครื่องช่วยหายใจนานหลังผ่าตัด"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>หนังตาตก+มองภาพซ้อน+anterior mediastinal mass ทำอะไรดี — A. ตัดออกและส่ง patho เพื่อพิจารณาการรักษาต่อ B. ตัดออกแล้ว chemo+RT เลย C. FNA</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อยภาษาไทย → เขียนเป็นอังกฤษ + เติม D, E · เติมคำว่า resectable",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_22"
   ]
  },
  "MDCU74|RoD|23": {
-  "interp": "ข้อ NOT: ผลน้ำในเยื่อหุ้มปอดข้อใด <b>ไม่ใช่</b> เกณฑ์วินิจฉัย empyema ตามที่สอน",
-  "why": "ลายมือ P'Ing: <b>A ✗ (> 15,000)</b> · B–E ✓ + สไลด์ Diagnosis: <b>Gram stain, culture, WBC > 15,000, protein > 3, pH &lt; 7, glucose &lt; 40, LDH > 1,000</b><br><b>นอกสไลด์:</b> ช้อย A ใช้ตัวเลข WBC ต่ำกว่าเกณฑ์ในสไลด์ จึงไม่ใช่เกณฑ์ · ในทางปฏิบัติ WBC ในน้ำเยื่อหุ้มปอดไม่ใช้ตัดสินหลัก ใช้หนองที่เห็น การย้อม/เพาะเชื้อ และ pH/glucose",
+  "interp": "ข้อแบบ <b>NOT</b>: ให้เลือกค่าน้ำในช่องเยื่อหุ้มปอดที่<b>ไม่ใช่</b>เกณฑ์วินิจฉัย empyema thoracis — ต้องจำเกณฑ์ที่ใช้ในสไลด์อาจารย์ (gram stain, culture, WBC &gt; 15,000, protein &gt; 3, pH &lt; 7, glucose &lt; 40, LDH &gt; 1000) และสังเกตตัวเลขที่ถูกเปลี่ยน",
+  "why": "Parapneumonic effusion ดำเนินโรค 3 ระยะ (Light/ ATS): <b>exudative</b> (1–2 วันแรก น้ำใส pH และ glucose ปกติ) → <b>fibrinopurulent</b> (3–10 วัน มี fibrin กั้นเป็น loculation pH และ glucose ต่ำลง LDH สูงขึ้น) → <b>organizing</b> (&gt; 2–3 สัปดาห์ มี peel หนารัดปอด trapped lung) · <b>Empyema</b> โดยนิยามคือมี<b>หนองในช่องเยื่อหุ้มปอด</b> หรือ gram stain/ culture บวก ส่วนค่าชีวเคมีที่บ่งว่าเป็น complicated effusion/ empyema ที่ต้องระบายคือ <b>pH &lt; 7.2</b> (เกณฑ์เดิมที่เข้มกว่า pH &lt; 7.0), <b>glucose &lt; 60</b> (เกณฑ์เดิม &lt; 40 mg/dL), <b>LDH &gt; 1000 IU/L</b> · สไลด์อาจารย์ใช้ชุดเกณฑ์เดิมคือ gram stain, culture, <b>WBC &gt; 15,000/µL</b>, protein &gt; 3 g/dL, pH &lt; 7, glucose &lt; 40, LDH &gt; 1000 · ช้อย A ใช้ตัวเลข WBC &gt; 10,000 ซึ่งต่ำกว่าเกณฑ์ (และนับเม็ดเลือดขาวสูงระดับนั้นพบได้ใน parapneumonic effusion ธรรมดา) จึงไม่ใช่เกณฑ์ · รักษา: ยาฆ่าเชื้อ + <b>chest tube drainage</b> · มี loculation ใช้ intrapleural <b>tPA + DNase</b> (MIST-2) · ระยะ organizing ทำ <b>VATS/ open decortication</b> · ไฟล์วง A ลายมือ P'Ing เขียน <b>\"✗ &gt;15,000\"</b> และติ๊ก B–E ว่าเป็นเกณฑ์",
   "wrong": {
-   "B": "เกณฑ์ในสไลด์ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ protein สูงขัดกับ empyema เพราะหนองเป็น exudate โปรตีนสูงจากหลอดเลือดที่อักเสบรั่ว",
-   "C": "เกณฑ์ในสไลด์ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pH ต่ำขัดกับ empyema เพราะแบคทีเรียและเม็ดเลือดขาวสร้างกรดแลกติกและ CO2 สะสม",
-   "D": "เกณฑ์ในสไลด์ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ glucose ต่ำขัดกับ empyema เพราะเชื้อและเม็ดเลือดขาวใช้กลูโคสในช่องเยื่อหุ้มปอด",
-   "E": "เกณฑ์ในสไลด์ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เพาะเชื้อขึ้นขัดกับ empyema เพราะการพบเชื้อในช่องเยื่อหุ้มปอดคือนิยามของการติดเชื้อในช่องนั้น"
+   "B": "ข้อความถูก: protein &gt; 3 g/dL อยู่ในเกณฑ์ของสไลด์และบ่งว่าเป็น exudate (Light criteria ใช้อัตราส่วน pleural/ serum protein &gt; 0.5 ร่วมด้วย) แม้ไม่จำเพาะต่อการติดเชื้อ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับค่าน้ำเยื่อหุ้มปอดของหญิง 60 ปี ไข้ ไอมีเสมหะ เจาะน้ำขุ่นที่ protein 4.5 g/dL",
+   "C": "ข้อความถูก: pH &lt; 7.0 เป็นเกณฑ์เดิมของ empyema (ปัจจุบันใช้ &lt; 7.2 เป็นจุดตัดให้ใส่ chest tube) เกิดจากเชื้อและเม็ดเลือดขาวผลิตกรดและ CO2 · ต้องวัดด้วยเครื่องวัด blood gas ไม่ใช้กระดาษ pH · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 55 ปี ปอดอักเสบ 7 วัน น้ำเยื่อหุ้มปอด pH 6.9 ที่ต้องใส่ ICD",
+   "D": "ข้อความถูก: glucose &lt; 40 mg/dL เป็นเกณฑ์เดิมของ empyema (ATS/ ACCP ปัจจุบันใช้ &lt; 60) จากเชื้อและเม็ดเลือดขาวใช้ glucose · glucose ต่ำมากยังพบใน rheumatoid effusion และ TB · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับหญิง 50 ปี ไข้หลังปอดอักเสบ เจาะได้น้ำขุ่นที่ glucose 25 mg/dL และ LDH 2,000 IU/L",
+   "E": "ข้อความถูก: culture หรือ gram stain บวกนับเป็น empyema/ complicated effusion ทันทีแม้ค่าชีวเคมียังไม่ถึงเกณฑ์ และต้องระบายออก · เชื้อบ่อยในชุมชนคือ Streptococcus milleri group, anaerobe, S. pneumoniae · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 65 ปี aspiration pneumonia น้ำเยื่อหุ้มปอดเพาะเชื้อได้ anaerobe"
   },
-  "trap": "ข้อ NOT ที่หลอกด้วยตัวเลข — เกณฑ์ WBC ในสไลด์คือ > 15,000 ไม่ใช่ 10,000 · ข้อสอบอิงสไลด์อาจารย์",
+  "trap": "ช้อยเหมือนเกณฑ์ทั้งหมดเพราะเป็นค่าที่เกี่ยวกับน้ำเยื่อหุ้มปอดทั้งนั้น — จุดหลอกอยู่ที่<b>ตัวเลข</b>: WBC ในสไลด์คือ &gt; 15,000 ไม่ใช่ 10,000 · บางคนเลือก protein &gt; 3 เพราะรู้ว่าเป็นแค่เกณฑ์ exudate ไม่จำเพาะการติดเชื้อ แต่ในสไลด์อาจารย์รวม protein ไว้เป็นเกณฑ์ ข้อนี้จึงต้องตอบตามสไลด์",
   "summary": [
-   "สไลด์ในคีย์: empyema = Gram stain/culture บวก · WBC > 15,000 · protein > 3 g/dL · pH &lt; 7 · glucose &lt; 40 mg/dL · LDH > 1,000",
-   "<b>นอกสไลด์:</b> BTS 2023 (parapneumonic): หนองหรือย้อม/เพาะเชื้อบวก → ระบาย · pH ≤ 7.2 → ระบาย · pH 7.21–7.39 → ดู LDH ≥ 900 ร่วมกับปัจจัยเสริม · ไม่มีค่า pH ใช้ glucose &lt; 60 mg/dL",
-   "<b>นอกสไลด์:</b> Light's criteria แยก exudate กับ transudate: protein ratio > 0.5 · LDH ratio > 0.6 · LDH > 2/3 ค่าปกติสูงสุดในเลือด"
+   "Light criteria (exudate ถ้าข้อใดข้อหนึ่ง): protein pleural/ serum &gt; 0.5 · LDH pleural/ serum &gt; 0.6 · pleural LDH &gt; 2/3 ของค่าปกติสูงสุดใน serum",
+   "3 ระยะ: exudative (1–2 วัน) → fibrinopurulent (3–10 วัน, loculation) → organizing (&gt; 2–3 สัปดาห์, peel, trapped lung)",
+   "ต้องระบาย (complicated/ empyema): หนอง, gram stain/ culture บวก, pH &lt; 7.2, glucose &lt; 60 mg/dL, LDH &gt; 1000, loculation, น้ำมากกว่าครึ่ง hemithorax",
+   "Chest tube + ยาฆ่าเชื้อครอบคลุม anaerobe นาน 2–6 สัปดาห์ · loculation ระบายไม่หมด → intrapleural tPA 10 mg + DNase 5 mg วันละ 2 ครั้ง 3 วัน (MIST-2 ลดการผ่าตัด)",
+   "ระยะ organizing หรือ tPA/DNase ล้มเหลว → VATS decortication (ทำได้ดีภายใน 2–3 สัปดาห์) หรือ open thoracotomy decortication · ผู้ป่วยอ่อนแอ → open window thoracostomy (Eloesser flap)",
+   "สไลด์อาจารย์: gram stain, culture, WBC &gt; 15,000, protein &gt; 3, pH &lt; 7, glucose &lt; 40, LDH &gt; 1000 · ตำราสากลปัจจุบันไม่ใช้ WBC เป็นเกณฑ์หลัก",
+   "pH ต่ำที่ไม่ใช่ empyema: esophageal rupture, rheumatoid, TB, malignancy, lupus · glucose ต่ำมาก (&lt; 30) นึกถึง rheumatoid และ empyema"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับสไลด์อาจารย์ที่ P'Ing แปะ (ตำราอื่นไม่ได้ใช้ WBC เป็นเกณฑ์หลัก) · ความมั่นใจสูงตามสไลด์",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียนเกณฑ์ที่ถูกเป็น WBC &gt; 15,000 ตามสไลด์อาจารย์ · ข้อควรระวังคือ protein &gt; 3 เป็นเพียงเกณฑ์ exudate ในตำราสากล แต่ข้อสอบนี้อิงสไลด์ซึ่งนับรวม protein จึงเหลือ A เป็นคำตอบเดียว",
+  "mnemonic": "<b>'Empyema สไลด์: Pus/Gram/Culture + WBC &gt; 15k · pH &lt; 7 · Glu &lt; 40 · LDH &gt; 1000 · Protein &gt; 3'</b>",
+  "guide": "Roberts ME et al. British Thoracic Society Guideline for Pleural Disease, Thorax 2023; Shen KR et al. AATS Expert Consensus Guidelines for the Management of Empyema, J Thorac Cardiovasc Surg 2017; Rahman NM et al. (MIST-2) N Engl J Med 2011",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย empyema หลายสัปดาห์ CT เห็นเยื่อหุ้มปอดหนารัดปอดไม่ขยายแม้ระบายแล้ว → decortication"
+   "ชาย 60 ปี ปอดอักเสบ 5 วัน น้ำเยื่อหุ้มปอดใส pH 7.35 glucose 90 culture ลบ → uncomplicated parapneumonic effusion → ยาฆ่าเชื้ออย่างเดียว",
+   "ใส่ ICD แล้ว 3 วัน ยังไข้ CT พบ loculation หลายช่อง → intrapleural tPA + DNase หรือ VATS debridement",
+   "หลังเป็น empyema 6 สัปดาห์ CT พบ pleural peel หนา ปอดไม่ขยาย → decortication",
+   "ทำไม pH น้ำเยื่อหุ้มปอดต้องวัดด้วยเครื่อง blood gas → กระดาษ pH และการปนอากาศ/ lidocaine ทำให้ค่าคลาดได้จนตัดสินใจใส่ ICD ผิด"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>ถามข้อไหนไม่ใช่ criteria diagnosis เจาะน้ำหุ้มปอดของ empyema thoracis — A. wbc > 10,000 B. protein > 3 C. pH &lt; 7 D. Glu &lt; 40 E. culture positive</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อคล้ายกับ 75D CVT 1 (คนละปี) · ตัวเลขในข้อสอบอิงสไลด์อาจารย์ (WBC &gt;15,000) — ตำราอื่นไม่ได้ใช้ WBC เป็นเกณฑ์หลัก",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_23"
   ]
  },
  "MDCU74|RoD|24": {
-  "interp": "Marfan syndrome → ถามความผิดปกติของลิ้นหัวใจที่เกิดจาก aortic root ขยาย",
-  "why": "P'Ing วง <b>A</b><br><b>นอกสไลด์:</b> Fibrillin-1 ผิดปกติทำให้ผนัง aorta อ่อนแอ รากขยาย วงลิ้นถูกดึงจนลิ้นปิดไม่สนิท → aortic regurgitation และเสี่ยง type A dissection · MVP/MR พบบ่อยใน Marfan เช่นกัน แต่เป็นปัญหาของลิ้น mitral เอง ไม่ได้มาจากรากเอออร์ตา",
+  "interp": "ชายสูง 25 ปี มี arachnodactyly และ ectopia lentis วินิจฉัย <b>Marfan syndrome</b> — ถามความผิดปกติของลิ้นหัวใจที่สัมพันธ์กับ <b>aortic root dilatation</b> มากที่สุด จึงต้องคิดว่า root ที่ขยายดึงวงลิ้นอย่างไร",
+  "why": "Marfan syndrome เป็นโรค <b>autosomal dominant</b> จาก mutation ของ <b>FBN1</b> (fibrillin-1, chromosome 15) ทำให้ elastic fiber ในผนัง aorta อ่อนแอ (cystic medial degeneration) และ TGF-β signaling เพิ่ม · ความผิดปกติหลักของหัวใจ: <b>aortic root dilatation</b> เริ่มที่ <b>sinuses of Valsalva</b> → annulus ขยาย (annuloaortic ectasia) ลิ้นปิดไม่สนิท → <b>aortic regurgitation</b> และเสี่ยง <b>type A dissection</b> หรือแตกซึ่งเป็นสาเหตุตายหลัก · ลิ้นที่ผิดปกติบ่อยอีกตัวคือ <b>mitral valve prolapse</b> ± MR (พบบ่อยด้วย แต่เป็นจาก myxomatous leaflet ไม่ใช่ผลจาก root) · วินิจฉัยตาม <b>revised Ghent nosology (2010)</b>: aortic root Z-score ≥ 2 ร่วมกับ ectopia lentis วินิจฉัยได้ทันที · ติดตามด้วย echo/ MRI · ให้ <b>β-blocker หรือ ARB (losartan)</b> ลดอัตราขยาย · ผ่าตัด prophylactic root replacement เมื่อ root ≥ <b>5.0 cm</b> หรือ ≥ 4.5 cm ถ้ามีปัจจัยเสี่ยง (ประวัติครอบครัว dissection, โตเร็ว ≥ 0.3 cm/ปี, AR รุนแรง, วางแผนตั้งครรภ์) ด้วย valve-sparing root replacement (David) หรือ Bentall · ไฟล์วง A (<b>AR</b>) ตามคีย์ลายมือ P'Ing",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> AS ไม่ได้เกิดจากรากเอออร์ตาขยาย · ไม่มีสถานการณ์ใดที่เป็นผลของ aortic root dilatation ใน Marfan เพราะรากขยายทำให้ลิ้นปิดไม่สนิท ไม่ใช่เปิดแคบ",
-   "C": "<b>นอกสไลด์:</b> MS เป็นผลของไข้รูมาติก · ไม่มีสถานการณ์ใดที่เกิดจากรากเอออร์ตาขยาย เพราะเป็นโรคของลิ้น mitral ที่ไม่เกี่ยวกับ aorta",
-   "D": "<b>นอกสไลด์:</b> MR จาก MVP พบบ่อยใน Marfan แต่เกิดจากลิ้น mitral ยืดหย่อนเอง · ไม่มีสถานการณ์ใดที่เกิดจาก aortic root dilatation เพราะรากเอออร์ตาไม่ได้ยึดลิ้น mitral",
-   "E": "<b>นอกสไลด์:</b> TR ไม่สัมพันธ์กับรากเอออร์ตา · ไม่มีสถานการณ์ใดที่เป็นผลของ aortic root dilatation เพราะอยู่ฝั่งขวาของหัวใจ"
+   "B": "Aortic stenosis ในคนอายุน้อยมักเกิดจาก <b>bicuspid aortic valve</b> หรือ rheumatic ส่วนผู้สูงอายุเกิดจาก calcific degeneration ไม่ได้เป็นผลจาก root ขยายใน Marfan ซึ่งทำให้ลิ้นรั่วไม่ใช่ตีบ · จะถูกถ้าเป็นชาย 35 ปี มี systolic ejection murmur ร้าวไปคอ echo พบ bicuspid aortic valve หนาแข็ง พร้อม ascending aorta โตเล็กน้อย",
+   "C": "Mitral stenosis เกือบทั้งหมดเกิดจาก <b>rheumatic heart disease</b> (ยังพบมากในประเทศกำลังพัฒนา) ทำ LA โต AF และ pulmonary hypertension ไม่สัมพันธ์กับ Marfan · จะถูกถ้าเป็นหญิง 30 ปี เคยเป็นไข้รูมาติกตอนเด็ก หอบเหนื่อยขณะตั้งครรภ์ ฟังได้ opening snap และ mid-diastolic rumble ที่ apex",
+   "D": "MVP กับ MR พบบ่อยจริงใน Marfan (บางชุดพบ MVP มากกว่า AR) แต่เป็นจาก myxomatous degeneration ของลิ้นเอง ไม่ได้เกิดจาก aortic root ที่ขยาย ซึ่งคือสิ่งที่คำถามเจาะจง · จะถูกถ้าเป็นเด็กหญิง 12 ปี Marfan ที่ aortic root ยังปกติ ฟังได้ mid-systolic click และ late systolic murmur ที่ apex",
+   "E": "Tricuspid regurgitation ส่วนใหญ่เป็น functional จาก RV ขยายใน pulmonary hypertension หรือจาก endocarditis ในผู้ฉีดยาเสพติด/ สาย pacemaker ไม่ใช่ลักษณะเด่นของ Marfan · จะถูกถ้าเป็นชาย 28 ปี ฉีดยาเสพติดเข้าเส้น ไข้สูง ปอดมี septic emboli หลายจุด echo พบ vegetation ที่ลิ้น tricuspid"
   },
-  "trap": "MVP เป็นความผิดปกติของลิ้นที่พบบ่อยใน Marfan โดยรวม — แต่โจทย์ถามที่เกิดจากรากเอออร์ตาขยาย → AR",
+  "trap": "คนเลือก MR/ MVP เพราะจำได้ว่าเป็นลิ้นที่ผิดปกติบ่อยใน Marfan — ซึ่งถูกถ้าถามเฉย ๆ แต่โจทย์ผูกกับ <b>aortic root dilatation</b> ชัดเจน ลิ้นที่เป็นผลโดยตรงจาก root ขยายคือ aortic valve ที่<b>รั่ว</b> (annulus ขยาย leaflet ปิดไม่ชน) ไม่ใช่ตีบ",
   "summary": [
-   "<b>นอกสไลด์:</b> Marfan: FBN1 autosomal dominant · ตัวสูง นิ้วยาว อกบุ๋ม/นูน กระดูกสันหลังคด · เลนส์เคลื่อน (มักขึ้นบน)",
-   "<b>นอกสไลด์:</b> ยา: β-blocker หรือ ARB ชะลอการขยาย · ผ่าตัดเปลี่ยนรากเอออร์ตาเมื่อราว ≥ 5 cm (เร็วกว่านั้นถ้าขยายเร็วหรือมีประวัติครอบครัว dissection)"
+   "Marfan: autosomal dominant · FBN1 บน chromosome 15 · ~25% เป็น de novo mutation · กระทบ 3 ระบบหลัก: cardiovascular, ocular, skeletal",
+   "Revised Ghent 2010: ไม่มีประวัติครอบครัว → aortic root Z ≥ 2 + ectopia lentis หรือ + FBN1 mutation หรือ + systemic score ≥ 7 · ectopia lentis เลื่อนขึ้นบน (superotemporal) ต่างจาก homocystinuria ที่เลื่อนลง",
+   "หัวใจ: aortic root dilatation ที่ sinuses of Valsalva → AR, type A dissection · MVP ± MR พบบ่อยและเป็นสาเหตุหัวใจที่สำคัญในเด็ก",
+   "Skeletal: arachnodactyly (wrist sign, thumb sign), arm span/ height &gt; 1.05, pectus excavatum/ carinatum, scoliosis, joint hypermobility, high-arched palate",
+   "ยา: β-blocker หรือ ARB (losartan) ลดอัตราขยายของ root · หลีกเลี่ยงกีฬาที่มีการปะทะและ isometric · fluoroquinolone ควรหลีกเลี่ยง",
+   "ผ่าตัด aortic root ≥ 5.0 cm (≥ 4.5 cm ถ้ามีประวัติครอบครัว dissection, โตเร็ว ≥ 0.3 cm/ปี, AR รุนแรง หรือหญิงที่วางแผนตั้งครรภ์) · valve-sparing (David) ถ้าลิ้นดี หรือ Bentall (composite valve graft)",
+   "Differential: Loeys–Dietz (TGFBR, arterial tortuosity, bifid uvula, dissection ที่ขนาดเล็กกว่า) · vascular Ehlers–Danlos (COL3A1, หลอดเลือด/ ลำไส้แตก) · homocystinuria (ปัญญาอ่อน ลิ่มเลือด)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · stem เติมลักษณะ Marfan และระบุ aortic root dilatation ให้เหลือคำตอบเดียว · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A (AR) · โจทย์ในไฟล์ถามเพียงว่า Marfan เจออะไรซึ่ง MVP/MR ก็พบบ่อยเช่นกัน จึงเติม aortic root dilatation ลงในโจทย์ให้เหลือคำตอบเดียวคือ AR ที่เป็นผลโดยตรงจาก annuloaortic ectasia",
+  "mnemonic": "<b>'Marfan Root โต → Regurgitation (AR) · ลิ้นเองเป็น myxomatous → MVP'</b>",
+  "guide": "Isselbacher EM et al. 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease, Circulation 2022; Loeys BL et al. The revised Ghent nosology for the Marfan syndrome, J Med Genet 2010",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง Marfan ที่ตั้งครรภ์ เจ็บอกร้าวไปหลังทันที → type A aortic dissection (ความเสี่ยงสูงขึ้นช่วงตั้งครรภ์)"
+   "ชาย 30 ปี Marfan aortic root 5.2 cm ลิ้น aortic ยังดี → prophylactic valve-sparing aortic root replacement (David procedure)",
+   "หญิง 26 ปี Marfan root 4.6 cm วางแผนตั้งครรภ์ → ผ่าตัด root replacement ก่อนตั้งครรภ์",
+   "ชาย 35 ปี Marfan เจ็บหน้าอกทะลุหลังทันที ความดันแขนสองข้างต่างกัน มี diastolic murmur ใหม่ → type A aortic dissection → ผ่าตัดด่วน",
+   "เด็กชาย 10 ปี ตัวสูง เลนส์ตาเคลื่อนลงล่าง ปัญญาอ่อน มีลิ่มเลือดหลอดเลือดดำ → homocystinuria ไม่ใช่ Marfan"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>Marfan syndrome เจออะไร — A. AR B. AS C. MS D. MR E. TR</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ไม่มีรายละเอียดโจทย์ → เติมลักษณะ Marfan + ระบุ aortic root dilatation ให้เหลือคำตอบเดียว (MVP/MR ก็พบใน Marfan)",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_24"
   ]
  },
  "MDCU74|RoD|25": {
-  "interp": "คนเลี้ยงหมูชัก CT มีถุงน้ำหลายถุงแต่ละถุงมีจุดทึบเยื้องขอบ ร่วมกับหินปูนเล็กกระจาย → ถามการวินิจฉัย",
-  "why": "ผู้จดเขียนว่ารูปคือ <b>cysticercosis</b> — Claude บรรยายภาพใน stem<br><b>นอกสไลด์:</b> ภาพมีรอยโรคหลายระยะพร้อมกัน: ถุงน้ำมี scolex (ระยะมีชีวิต) และหินปูน (ระยะตายแล้ว) เป็นลักษณะของ neurocysticercosis · ระยะของรอยโรคใช้ตัดสินการรักษา",
+  "interp": "ชาย 32 ปี เลี้ยงหมู มาด้วยชัก CT สมองพบ<b>ถุงน้ำหลายถุงที่มีจุดทึบอยู่ชิดขอบ</b> (scolex) ร่วมกับหินปูนเล็ก ๆ กระจาย — ถามการวินิจฉัย ซึ่งต้องจำภาพ \"cyst with dot\" ที่เป็นลักษณะจำเพาะ (pathognomonic)",
+  "why": "<b>Neurocysticercosis</b> เกิดจากตัวอ่อน (cysticercus) ของพยาธิตืดหมู <b>Taenia solium</b> · คนติดโดย<b>กินไข่พยาธิ</b>ที่ปนเปื้อนจากอุจจาระของคนที่มีพยาธิตืดในลำไส้ (fecal–oral รวมทั้ง autoinfection) ไม่ใช่จากการกินหมูดิบ ซึ่งทำให้เกิดพยาธิตืดในลำไส้ (taeniasis) · เป็นสาเหตุ <b>acquired epilepsy</b> ที่พบบ่อยที่สุดในประเทศกำลังพัฒนา · ภาพตามระยะ: <b>vesicular</b> ถุงน้ำใสมี scolex เป็นจุดทึบชิดขอบ (<b>\"hole-with-dot\"</b> pathognomonic) ไม่มี edema → <b>colloidal</b> ผนังหนาขึ้น ring enhancement มี edema (ตัวอ่อนตาย อักเสบ ชักมาก) → <b>granular nodular</b> → <b>calcified</b> จุดหินปูนเล็ก · รักษา: antiepileptic ทุกรายที่ชัก · ถุงที่ยังมีชีวิต ให้ <b>albendazole</b> 15 mg/kg/วัน 10–14 วัน (เพิ่ม praziquantel ถ้า &gt; 2 ถุง) ร่วมกับ <b>corticosteroid</b> เพื่อลดอักเสบเมื่อพยาธิตาย · ตรวจตาหา cyst ใน retina ก่อนให้ยา · ไม่ให้ยาฆ่าพยาธิใน calcified lesion อย่างเดียวหรือภาวะ cysticercal encephalitis · intraventricular cyst/ hydrocephalus → neuroendoscopic removal หรือ shunt · ไฟล์ไม่มีรูปและไม่มีช้อย ลายมือ P'Ing เขียนว่ารูปคือ <b>\"cysticercosis\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ฝีจากแบคทีเรียผนังเรียบหนา ตรงกลาง restricted diffusion ไม่มี scolex มักมีแหล่งติดเชื้อ · จะถูกถ้าผู้ป่วยไซนัสอักเสบหรือฟันผุมีไข้ ปวดศีรษะ ภาพเป็นก้อน ring-enhancing ก้อนเดียว",
-   "C": "<b>นอกสไลด์:</b> Tuberculoma เป็นก้อนเนื้อตัน enhance ไม่มีถุงน้ำมี scolex · จะถูกถ้าผู้ป่วยไข้เรื้อรัง น้ำหนักลด CXR มีวัณโรค",
-   "D": "<b>นอกสไลด์:</b> Toxoplasmosis พบในภูมิคุ้มกันต่ำมาก ก้อนที่ basal ganglia · จะถูกถ้าผู้ป่วย HIV ที่ไม่ได้รับยาต้านไวรัส ไข้ สับสน อ่อนแรงครึ่งซีก",
-   "E": "<b>นอกสไลด์:</b> มะเร็งกระจายมาสมองเป็นก้อน enhance มี edema รอบมาก ไม่มี scolex · จะถูกถ้าผู้สูงอายุสูบบุหรี่ มีก้อนในปอดและก้อนในสมองหลายก้อนที่รอยต่อเนื้อเทา–ขาว"
+   "B": "Pyogenic brain abscess มี ring enhancement ผนังบางเรียบ (ด้าน ventricle บางกว่า) ตรงกลางมี <b>restricted diffusion บน DWI</b> ไม่มี scolex มักมีไข้ ปวดศีรษะ มีแหล่งติดเชื้อ (หูชั้นกลาง ไซนัส ฟัน cyanotic heart disease) · จะถูกถ้าเป็นชาย 30 ปี หูน้ำหนวกเรื้อรัง ปวดศีรษะ ไข้ แขนขาอ่อนแรงซีกเดียว MRI พบก้อน ring-enhancing ที่ temporal lobe ซึ่ง DWI สว่าง",
+   "C": "Tuberculoma เป็นก้อน ring-enhancing ผนังหนาไม่เรียบ อาจมี target sign (จุดหินปูนกลางก้อน) พบร่วมกับ TB meningitis หรือ TB ปอด และผู้ติดเชื้อ HIV · ไม่มีถุงน้ำที่มี scolex · จะถูกถ้าเป็นชาย 35 ปี ติดเชื้อ HIV ไอเรื้อรัง น้ำหนักลด CXR มี cavity MRI พบก้อน ring-enhancing หลายก้อนที่ basal meninges enhance",
+   "D": "Toxoplasmosis สมองพบใน<b>ภูมิคุ้มกันบกพร่อง</b> (HIV CD4 &lt; 100) ก้อน ring-enhancing หลายก้อนที่ basal ganglia และ corticomedullary junction มี eccentric target sign · ในทารกแต่กำเนิดมีหินปูนกระจายและ hydrocephalus · จะถูกถ้าเป็นชาย 38 ปี HIV CD4 40 ไม่ได้กินยา ชักและแขนอ่อนแรง MRI พบก้อนหลายก้อนที่ basal ganglia",
+   "E": "Brain metastasis พบในผู้สูงอายุ มักอยู่ที่ gray–white junction ก้อน solid หรือ ring-enhancing พร้อม vasogenic edema มากเกินขนาดก้อน มีมะเร็งต้นทาง (ปอด เต้านม melanoma ไต) · ไม่มีถุงน้ำที่มีจุด scolex · จะถูกถ้าเป็นชาย 65 ปี สูบบุหรี่ น้ำหนักลด ชัก CT พบก้อนหลายก้อนที่ gray–white junction และก้อนในปอด"
   },
-  "trap": "ภาพหลายระยะพร้อมกัน (ถุงมีจุด + หินปูน) ชี้ neurocysticercosis ไม่ใช่ฝีหรือมะเร็ง",
+  "trap": "คนเลือก brain abscess หรือ tuberculoma เพราะเห็นคำว่า cystic lesion หลายก้อนกับชัก — จุดแยกคือ<b>จุดทึบชิดขอบในถุง (scolex)</b> ซึ่งเป็นภาพจำเพาะของ cysticercosis และหินปูนเล็กกระจายที่เป็นระยะท้าย · ส่วนอาชีพเลี้ยงหมูเป็นเบาะแสเสริม (ติดจากไข่ที่ปนเปื้อน ไม่ใช่จากหมูโดยตรง)",
   "summary": [
-   "<b>นอกสไลด์:</b> ระยะ: vesicular (ถุงใส มี scolex) → colloidal (ขุ่น ring-enhancing + edema) → granular nodular → calcified",
-   "<b>นอกสไลด์:</b> ถุงที่ยังมีชีวิต: albendazole ± praziquantel + steroid (ลดการอักเสบเมื่อพยาธิตาย) + ยากันชัก · ระยะหินปูน: ยากันชักอย่างเดียว",
-   "<b>นอกสไลด์:</b> ก่อนให้ยาฆ่าพยาธิ: ตรวจตาหาตัวอ่อนในตา และดูว่ามี hydrocephalus หรือไม่"
+   "Taenia solium: คนเป็น definitive host (กินหมูดิบที่มี cysticerci → พยาธิตืดในลำไส้) · คนเป็น intermediate host โดยบังเอิญเมื่อกินไข่ → cysticercosis ในสมอง กล้ามเนื้อ ตา ใต้ผิวหนัง",
+   "ภาพ 4 ระยะ: vesicular (cyst + scolex, ไม่มี edema) → colloidal (ring enhancement + edema) → granular nodular (nodular enhancement) → calcified (จุดหินปูน, อาจชักต่อเนื่อง)",
+   "MRI ไวกว่า CT ในการเห็น scolex และถุงใน ventricle/ subarachnoid space · CT ดีกว่าในการเห็นหินปูน · serology (EITB) ช่วยยืนยัน",
+   "Parenchymal viable cyst 1–2 ถุง → albendazole 10–14 วัน + corticosteroid · &gt; 2 ถุง → albendazole + praziquantel · ให้ antiepileptic ร่วม",
+   "ห้ามให้ antiparasitic เมื่อ: calcified อย่างเดียว · cysticercal encephalitis (ถุงจำนวนมาก สมองบวม) · ยังมี hydrocephalus ที่ไม่ได้แก้ (ต้องแก้ก่อน) · ตรวจตาก่อนเสมอ",
+   "Intraventricular cyst (บ่อยที่ ventricle ที่ 4) → อุดตันเกิด obstructive hydrocephalus → neuroendoscopic removal · subarachnoid/ racemose → ยาขนาดสูงนานและ shunt",
+   "ป้องกัน: ล้างมือ ปรุงหมูให้สุก รักษา taeniasis ในคนในบ้าน (praziquantel หรือ niclosamide) ซึ่งเป็นแหล่งไข่"
   ],
-  "opinion": "คีย์ไม่มีช้อย (ผู้จดเขียนว่าเป็น cysticercosis) — Claude บรรยายภาพและแต่งช้อย · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่เขียนว่ารูปคือ cysticercosis · ไฟล์ไม่มีรูปและช้อย จึงบรรยายภาพ cyst with eccentric dot และหินปูนกระจายลงในโจทย์ ซึ่งเป็นลักษณะจำเพาะของ neurocysticercosis ทำให้ช้อยอื่นที่เป็น ring-enhancing lesion ตัดออกได้",
+  "mnemonic": "<b>'Cyst + Dot (Scolex) = Cysticercosis · กินไข่ ไม่ใช่กินหมู'</b>",
+  "guide": "White AC Jr et al. IDSA/ASTMH Clinical Practice Guidelines for Neurocysticercosis, Clin Infect Dis 2018; Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Parasitic Infections",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย neurocysticercosis มีถุงน้ำในโพรงสมองที่สี่ ซึมลง ปวดศีรษะ อาเจียน → hydrocephalus เอาถุงออกด้วยกล้องส่องในโพรงสมอง"
+   "หญิง 28 ปี ชักครั้งแรก CT พบจุดหินปูนเล็ก 2 จุดในสมอง ไม่มีถุงหรือ enhancement → calcified neurocysticercosis → antiepileptic อย่างเดียว ไม่ให้ albendazole",
+   "ชาย 40 ปี ปวดศีรษะ อาเจียน ตามัว MRI พบถุงใน ventricle ที่ 4 พร้อม hydrocephalus → neuroendoscopic cyst removal",
+   "เด็กหญิง 12 ปี ชักและสับสน CT พบถุงจำนวนมากทั่วสมองพร้อมสมองบวม → cysticercal encephalitis → corticosteroid และ osmotic therapy ห้ามให้ยาฆ่าพยาธิ",
+   "ทำไมต้องให้ corticosteroid ร่วมกับ albendazole → ตัวอ่อนที่ตายปล่อย antigen กระตุ้นการอักเสบและสมองบวม ทำให้ชักมากขึ้นได้"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>[Neuro] -ให้รูป cysticercosis ถาม dx (ไม่มีรูป ไม่มีช้อยในไฟล์)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์บอกว่าให้รูป cysticercosis แต่ไม่มีรูปและไม่มีช้อย → บรรยายภาพใน stem + แต่งช้อย · ข้อคล้ายกับ 75D Neuro 1, 74C เลข 13",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_25"
   ]
  },
  "MDCU74|RoD|26": {
-  "interp": "หญิงหูตึงแบบ sensorineural ข้างเดียวค่อย ๆ เป็นมากขึ้น + เสียงในหู · MRI ก้อน enhance จากช่องหูยื่นเข้า CP angle รูปไอศกรีมโคน → ถามการวินิจฉัย",
-  "why": "ไฟล์จดแค่ <b>\"Vestibular schwannoma\"</b> — Claude แต่งโจทย์<br><b>นอกสไลด์:</b> เกิดจาก Schwann cell ของ vestibular nerve ภายในช่องหู จึงงอกจากในช่องหู (ส่วนกรวย) ออกมาที่ CP angle (ส่วนลูกไอศกรีม) · การรักษาขึ้นกับขนาด การโต การได้ยิน และอายุ",
+  "interp": "หญิง 50 ปี มี<b>ประสาทหูเสื่อมข้างเดียวช้า ๆ</b> และ tinnitus MRI พบก้อน enhance ยื่นจาก internal auditory canal (IAC) เข้า cerebellopontine angle (CPA) รูป <b>\"ice-cream cone\"</b> — ถามการวินิจฉัย ต้องรู้จัก differential ของก้อนที่ CPA",
+  "why": "<b>Vestibular schwannoma</b> (acoustic neuroma) เกิดจาก Schwann cell ของ<b>เส้นประสาท vestibular</b> ของ CN VIII (ส่วนใหญ่จาก inferior vestibular nerve) เริ่มใน IAC แล้วโตออกสู่ CPA เป็นก้อนที่พบบ่อยที่สุดของ CPA (~80%; meningioma ~10%, epidermoid ~5%) · อาการเด่น: <b>unilateral SNHL</b> ค่อยเป็นค่อยไป (~95%) ความเข้าใจคำพูดแย่กว่าระดับการได้ยิน, tinnitus ข้างเดียว, เสียการทรงตัว · ก้อนโตกด CN V (ชาหน้า, corneal reflex หาย ซึ่งเป็น sign ระยะแรกของก้อนใหญ่), CN VII อ่อนแรงพบน้อยมากก่อนผ่าตัด, กด brainstem/ cerebellum และ hydrocephalus · MRI with gadolinium: ก้อน enhance ใน IAC ที่ขยาย ยื่นเข้า CPA รูป <b>ice-cream cone</b> (ส่วน IAC = โคน, ส่วน CPA = ไอศกรีม) ทำมุมแหลมกับ petrous bone · ข้างเดียวส่วนใหญ่ sporadic · <b>สองข้าง = NF2</b> (NF2-related schwannomatosis, chromosome 22, merlin) · รักษาตามขนาด อาการ อายุ และการได้ยิน: <b>wait-and-scan</b> (ก้อนเล็ก/ ผู้สูงอายุ), <b>stereotactic radiosurgery</b> (≲ 3 cm), <b>microsurgery</b> (retrosigmoid, translabyrinthine, middle fossa) สำหรับก้อนใหญ่หรือกด brainstem · ไฟล์ไม่มีโจทย์และช้อย ผู้จดเขียนเพียงหัวข้อ <b>\"Vestibular schwannoma\"</b> โจทย์นี้จึงแต่งขึ้นจากหัวข้อดังกล่าว",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Meningioma ไม่ได้เกิดในช่องหู ภาพเป็นฐานกว้างติด dura มี dural tail · จะถูกถ้า MRI เป็นก้อนเกาะ dura ที่ CP angle มี dural tail ไม่เข้าช่องหู (74C เลข 16)",
-   "C": "<b>นอกสไลด์:</b> Epidermoid ไม่ enhance และสว่างใน DWI · จะถูกถ้า MRI เห็นก้อนไม่ enhance แทรกตามช่องรอบ brainstem และสว่างใน DWI",
-   "D": "<b>นอกสไลด์:</b> Glomus jugulare อยู่ที่ jugular foramen · จะถูกถ้าผู้ป่วยได้ยินเสียงตุบในหูตามชีพจร และเห็นก้อนแดงหลังแก้วหู",
-   "E": "<b>นอกสไลด์:</b> Trigeminal schwannoma เริ่มด้วยชาหน้า · จะถูกถ้าผู้ป่วยชาหรือปวดใบหน้าข้างเดียว กล้ามเนื้อเคี้ยวอ่อนแรง โดยการได้ยินปกติ"
+   "B": "Meningioma เป็นก้อนที่พบบ่อยอันดับสองของ CPA ติดเยื่อหุ้มสมองฐานกว้าง มี <b>dural tail</b> ทำมุมป้านกับ petrous bone อาจมีหินปูนและ hyperostosis มักไม่ยื่นเข้า IAC และหูเสื่อมน้อยกว่าขนาดก้อน · จะถูกถ้าเป็นหญิง 55 ปี MRI พบก้อน enhance สม่ำเสมอฐานกว้างติด petrous ridge มี dural tail และ IAC ไม่ขยาย",
+   "C": "Epidermoid cyst เป็นก้อนที่พบบ่อยอันดับสามของ CPA (ถุงที่มี keratin) <b>ไม่ enhance</b> แทรกตามช่องรอบหลอดเลือดและเส้นประสาท สัญญาณคล้ายน้ำบน T1/T2 แต่ <b>DWI สว่าง (restricted)</b> · จะถูกถ้าเป็นชาย 40 ปี ปวดใบหน้าแบบ trigeminal neuralgia MRI พบก้อนที่ CPA ไม่ enhance แต่ DWI สว่าง",
+   "D": "Glomus jugulare (paraganglioma) เกิดที่ <b>jugular foramen</b> มาด้วย <b>pulsatile tinnitus</b> conductive hearing loss เห็นก้อนสีแดงหลังเยื่อแก้วหู และอาจมี CN IX–XI palsy · MRI ลักษณะ salt-and-pepper · จะถูกถ้าเป็นหญิง 50 ปี ได้ยินเสียงตุบ ๆ ตามชีพจรในหูซ้าย ส่องหูเห็นก้อนสีแดงหลังเยื่อแก้วหู CT พบ jugular foramen ถูกกัดกร่อน",
+   "E": "Trigeminal schwannoma เกิดที่ Meckel's cave มาด้วย<b>ชาหน้า/ ปวดใบหน้า</b> กล้ามเคี้ยวอ่อนแรง อาจเป็น dumbbell คร่อม middle และ posterior fossa ไม่ได้เริ่มใน IAC · จะถูกถ้าเป็นชาย 45 ปี ชาใบหน้าซีกขวา กล้ามเนื้อ masseter ลีบ MRI พบก้อนจาก Meckel's cave ยื่นลง posterior fossa"
   },
-  "trap": "ภาพรูปไอศกรีมโคน (ก้อนต่อจากในช่องหู) คือ vestibular schwannoma — meningioma ไม่เข้าช่องหูและมี dural tail",
+  "trap": "ก้อนที่ CPA ทุกชนิดทำหูเสื่อมได้ คนจึงสับสนกับ meningioma · วิธีแยกคือ<b>ก้อนเริ่มจาก IAC และ IAC ขยาย</b> (ice-cream cone) = vestibular schwannoma ส่วน meningioma มี dural tail ฐานกว้างและ IAC ไม่ขยาย · epidermoid ไม่ enhance แต่ DWI สว่าง · หูเสื่อมข้างเดียวไม่สมมาตรในผู้ใหญ่ต้องทำ MRI เสมอ",
   "summary": [
-   "<b>นอกสไลด์:</b> รักษา: ก้อนเล็กไม่โต → ติดตาม MRI · ก้อนขนาดเล็ก–กลาง (ราว &lt; 3 cm) → stereotactic radiosurgery · ก้อนใหญ่กด brainstem → ผ่าตัด"
+   "CPA tumors: vestibular schwannoma ~80% · meningioma ~10% · epidermoid ~5% · อื่น ๆ (facial schwannoma, arachnoid cyst, metastasis)",
+   "อาการ: unilateral progressive SNHL (speech discrimination แย่กว่า pure tone), tinnitus, imbalance · ก้อนใหญ่: CN V (corneal reflex หายก่อน), hydrocephalus, ataxia · CN VII อ่อนแรงพบน้อยแม้ก้อนใหญ่",
+   "Asymmetric SNHL หรือ unilateral tinnitus ที่อธิบายไม่ได้ → audiogram → MRI with gadolinium (gold standard) · ABR ใช้คัดกรองเมื่อทำ MRI ไม่ได้",
+   "Bilateral vestibular schwannoma = NF2-related schwannomatosis (autosomal dominant, chromosome 22q, merlin) ร่วมกับ meningioma, ependymoma, juvenile cataract",
+   "Wait-and-scan: ก้อนเล็ก ไม่มีอาการมาก หรือผู้สูงอายุ (MRI ทุก 6–12 เดือน) · ~ครึ่งหนึ่งไม่โตต่อ",
+   "Stereotactic radiosurgery: ก้อน ≲ 3 cm ควบคุมการโตได้ &gt; 90% · microsurgery: ก้อนใหญ่กด brainstem, hydrocephalus หรือผู้ป่วยอายุน้อยที่ต้องการเอาก้อนออก",
+   "Approach: retrosigmoid (เก็บการได้ยินได้) · translabyrinthine (ได้ยินเสียไปแล้ว เห็น CN VII ดี) · middle fossa (ก้อนเล็กใน IAC เก็บการได้ยิน) · ภาวะแทรกซ้อนสำคัญ: facial palsy, CSF leak, หูหนวก"
   ],
-  "opinion": "ไฟล์ไม่มีโจทย์และคีย์ช้อย — Claude แต่งโจทย์ให้ตอบ vestibular schwannoma · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีโจทย์จริงและไม่มีคีย์ (ผู้จดเขียนเพียงหัวข้อ Vestibular schwannoma) โจทย์จึงแต่งขึ้นให้มีลักษณะคลาสสิก คือหูเสื่อมข้างเดียวกับก้อนจาก IAC รูป ice-cream cone ซึ่งตอบได้ข้อเดียวตามตำรา Greenberg และแนวทาง CNS",
+  "mnemonic": "<b>'หูดับข้างเดียว + ก้อน IAC รูปไอติมโคน = Vestibular Schwannoma · สองข้าง = NF2'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Vestibular Schwannoma; Congress of Neurological Surgeons Systematic Review and Evidence-Based Guidelines on Vestibular Schwannomas, Neurosurgery 2018",
   "variants": [
-   "<b>นอกสไลด์:</b> วัยรุ่นหูตึงสองข้าง มีต้อกระจกตั้งแต่อายุน้อย และ meningioma หลายก้อน → NF2 ตรวจ MRI ทั้งสมองและไขสันหลัง ตรวจพันธุกรรมในครอบครัว"
+   "ชาย 70 ปี หูซ้ายเสื่อมเล็กน้อย MRI พบ vestibular schwannoma ขนาด 8 mm ใน IAC → wait-and-scan ด้วย MRI ซ้ำ",
+   "หญิง 45 ปี vestibular schwannoma 4 cm กด brainstem มี hydrocephalus เดินเซ → microsurgical resection",
+   "ชาย 20 ปี หูเสื่อมทั้งสองข้าง MRI พบ vestibular schwannoma ทั้งสองข้างและ meningioma → NF2-related schwannomatosis",
+   "ทำไม corneal reflex หายเป็น sign สำคัญของก้อน CPA ขนาดใหญ่ → ก้อนโตขึ้นด้านบนกด CN V ซึ่งเป็น afferent ของ reflex นี้"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>-Vestibular schwannoma (ผู้จดจดแค่หัวข้อ)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่ \"Vestibular schwannoma\" → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_26"
   ]
  },
  "MDCU74|RoD|27": {
-  "interp": "ชายตามัวมากขึ้นใน 3 เดือน ลานสายตาเป็น bitemporal hemianopia MRI มีก้อนที่ sella ยื่นขึ้น suprasellar → ถามการวินิจฉัย",
-  "why": "คีย์ไม่มีคำตอบ (P'Ing มี ?) — <b>Claude เติมลานสายตาและ MRI ใน stem และตอบ D</b><br><b>นอกสไลด์:</b> ก้อนที่ sella โตขึ้นด้านบนกด optic chiasm ตรงกลาง ซึ่งเป็นใยประสาทที่มาจากจอตาครึ่งด้านจมูกของทั้งสองตา (รับภาพด้านขมับ) → ลานสายตาด้านขมับหายสองข้าง · ในผู้ใหญ่ก้อนที่ sella พบบ่อยที่สุดคือ pituitary adenoma",
+  "interp": "ชาย 48 ปี ตามัวลงช้า ๆ 3 เดือน ลานสายตาเป็น <b>bitemporal hemianopia</b> และ MRI พบก้อนใน sella ยื่นขึ้นเข้า suprasellar cistern — ถามการวินิจฉัยที่น่าจะเป็นที่สุด โดยใช้ตำแหน่งรอยโรคตามแนว visual pathway",
+  "why": "Bitemporal hemianopia เกิดจากการกด <b>optic chiasm</b> ตรงกลาง ซึ่งเป็นที่ไขว้ของใยประสาทจาก nasal retina (รับภาพลานสายตาด้าน temporal) · ก้อนที่โตจาก sella ขึ้นมากดใต้ chiasm ทำให้เสีย <b>superior temporal quadrant ก่อน</b> (ใยจาก inferonasal retina อยู่ด้านล่างของ chiasm) ต่างจาก craniopharyngioma ที่กดจากด้านบนเสีย inferior quadrant ก่อน · ในผู้ใหญ่ก้อน sella/ suprasellar ที่พบบ่อยที่สุดคือ <b>pituitary macroadenoma</b> (≥ 10 mm) ส่วนใหญ่เป็น <b>nonfunctioning adenoma</b> มาด้วยตามัว ปวดศีรษะ และ hypopituitarism (GH และ gonadotropin ลดก่อน) · ตรวจ: formal visual field, MRI pituitary with gadolinium, ตรวจฮอร์โมนทุกแกน (<b>prolactin</b> — ระวัง hook effect ในก้อนใหญ่ ต้องเจือจาง, IGF-1, 8 AM cortisol, TSH/ FT4, LH/ FSH/ testosterone) · รักษา: <b>prolactinoma</b> ให้ cabergoline แม้มี visual loss · nonfunctioning ที่กด chiasm → <b>endoscopic transsphenoidal surgery</b> · ปวดศีรษะทันทีตามัวมาก = <b>pituitary apoplexy</b> · ไฟล์ไม่มีคำตอบ P'Ing ใส่ <b>\"?\"</b> หน้าข้อ และไม่บอกลักษณะลานสายตาหรือภาพ MRI จึงเติมรายละเอียดให้เหลือคำตอบเดียว",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Optic canal meningioma กดเส้นประสาทตาข้างเดียว · จะถูกถ้าผู้ป่วยตามัวข้างเดียวช้า ๆ มีขั้วประสาทตาฝ่อ MRI เห็นแถบ enhance ขนานเส้นประสาทตา (tram-track)",
-   "B": "<b>นอกสไลด์:</b> Aneurysm ใน cavernous sinus กดเส้นประสาทกลอกตา · จะถูกถ้าผู้ป่วยหนังตาตกและกลอกตาไม่ได้หลายทิศร่วมกับชาหน้าผากข้างเดียว",
-   "C": "<b>นอกสไลด์:</b> Optic tract อยู่หลัง chiasm ให้ homonymous hemianopia · จะถูกถ้าลานสายตาหายด้านเดียวกันของสองตา (เช่น ด้านขวาทั้งคู่) จากก้อนที่ tract ซ้าย",
-   "E": "<b>นอกสไลด์:</b> Optic neuritis เป็นเฉียบพลันข้างเดียว · จะถูกถ้าหญิงสาวตามัวข้างเดียวเฉียบพลัน ปวดเมื่อกลอกตา มี RAPD"
+   "A": "Optic canal/ optic nerve sheath meningioma กดเส้นประสาทตา<b>ข้างเดียว</b> ทำให้ตามัวช้า ๆ ข้างเดียว มี RAPD, optic atrophy หรือ optociliary shunt vessels ไม่ทำ bitemporal hemianopia และไม่ใช่ก้อนใน sella · จะถูกถ้าเป็นหญิง 45 ปี ตาขวามัวลงช้า ๆ 1 ปี RAPD ขวา จอประสาทตาเห็นขั้วประสาทตาซีด MRI พบ tram-track enhancement รอบ optic nerve ขวา",
+   "B": "Cavernous ICA aneurysm อยู่ใน cavernous sinus ข้าง sella ทำ <b>CN III, IV, VI, V1–V2 palsy</b> (ตาเหล่ เห็นภาพซ้อน ปวดหน้าผาก) มากกว่ากด chiasm และไม่ยื่นจาก sella เข้า suprasellar cistern แบบนี้ (ถ้าแตกทำ carotid-cavernous fistula) · จะถูกถ้าเป็นหญิง 65 ปี HT เห็นภาพซ้อน หนังตาซ้ายตก ตาเหล่ออกนอก CTA พบ aneurysm ใน cavernous segment ของ ICA ซ้าย",
+   "C": "Optic tract อยู่หลัง chiasm รอยโรคทำ <b>contralateral homonymous hemianopia</b> แบบ incongruous ร่วมกับ RAPD ข้างตรงข้าม ไม่ใช่ bitemporal · optic pathway glioma พบมากในเด็กโดยเฉพาะ NF1 · จะถูกถ้าเป็นเด็กหญิง 7 ปี มี NF1 ลานสายตาซีกขวาหายทั้งสองตา MRI พบก้อนที่ optic tract ซ้าย",
+   "E": "Optic neuritis พบในหญิงอายุน้อย ตามัว<b>เฉียบพลัน</b>ในไม่กี่วัน ข้างเดียว ปวดเมื่อกลอกตา central scotoma, color desaturation, RAPD และมักดีขึ้นเองใน 2–3 สัปดาห์ สัมพันธ์กับ MS/ NMOSD · จะถูกถ้าเป็นหญิง 28 ปี ตาซ้ายมัวลงใน 3 วัน ปวดเมื่อกลอกตา เห็นสีแดงจางลง MRI พบ optic nerve enhance และรอยโรค white matter"
   },
-  "trap": "ไฟล์ไม่บอกลานสายตาและภาพ จึงเติมให้ชัด · ตำแหน่งรอยโรคบอกรูปแบบลานสายตา",
+  "trap": "ช้อยในไฟล์ล้วนเป็นรอยโรคใกล้ visual pathway และไฟล์ไม่บอกลานสายตา จึงชวนเดาเช่น meningioma หรือ aneurysm · วิธีแยกคือ<b>ใช้ลานสายตาบอกตำแหน่ง</b>: ข้างเดียว = optic nerve · bitemporal = chiasm · homonymous = หลัง chiasm แล้วใช้ตำแหน่ง sella → suprasellar บอกว่าเป็น pituitary macroadenoma",
   "summary": [
-   "<b>นอกสไลด์:</b> ลานสายตา: เส้นประสาทตา → ตาข้างเดียว · chiasm → bitemporal · tract/radiation/cortex → homonymous"
+   "Visual field localization: optic nerve → ตาบอดข้างเดียว/ central scotoma · chiasm → bitemporal hemianopia · optic tract → incongruous homonymous hemianopia · Meyer's loop (temporal) → \"pie in the sky\" · parietal → \"pie on the floor\" · occipital → congruous homonymous + macular sparing",
+   "Pituitary adenoma: micro &lt; 10 mm · macro ≥ 10 mm · giant ≥ 4 cm · nonfunctioning เป็น macroadenoma ที่พบบ่อยที่สุดในผู้ใหญ่ · prolactinoma เป็น functioning adenoma ที่พบบ่อยที่สุด",
+   "ก้อนจาก sella กดใต้ chiasm → superior bitemporal ก่อน · craniopharyngioma กดจากบน → inferior bitemporal ก่อน (เด็ก, cystic + calcified, DI)",
+   "ตรวจฮอร์โมนทุกแกนก่อนผ่าตัด: prolactin (เจือจางเพื่อตัด hook effect), IGF-1, 8 AM cortisol, TSH/ FT4, LH/ FSH และ testosterone/ estradiol · ให้ hydrocortisone ก่อนถ้า cortisol ต่ำ",
+   "Prolactinoma → cabergoline เป็นการรักษาแรกแม้กด chiasm · nonfunctioning, GH, ACTH adenoma → transsphenoidal surgery · stalk effect ทำ prolactin สูงเล็กน้อย (มัก &lt; 100–150 ng/mL) ไม่ใช่ prolactinoma",
+   "Pituitary apoplexy: ปวดศีรษะรุนแรงทันที ตามัว ophthalmoplegia hypotension จาก adrenal insufficiency → hydrocortisone ทันที ± ผ่าตัด decompression",
+   "หลัง transsphenoidal surgery เฝ้าระวัง DI, SIADH (วันที่ 5–10), CSF leak และ hypopituitarism"
   ],
-  "opinion": "คีย์ไม่มีคำตอบ — Claude เติมข้อมูลใน stem ให้ตอบ pituitary macroadenoma · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ไฟล์ไม่มีคีย์ (P'Ing ใส่ ? หน้าข้อ) คำตอบเว็บจึงเป็นของ Claude ที่เติม bitemporal hemianopia และ sellar–suprasellar mass ลงในโจทย์ · ตามโจทย์เดิมในไฟล์ (ตามัวช้า ๆ 3 เดือน) pituitary macroadenoma ก็ยังเป็นสาเหตุที่พบบ่อยที่สุดของการกด visual pathway แบบค่อยเป็นค่อยไปในผู้ใหญ่",
+  "mnemonic": "<b>'Bitemporal = Chiasm = Pituitary (กดจากล่าง เสีย Superior ก่อน)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Pituitary Adenomas; Petersenn S et al. Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement, Nat Rev Endocrinol 2023",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กอายุ 8 ปีตัวเตี้ย ปวดศีรษะ ลานสายตาด้านขมับแคบ CT มีก้อนเหนือ sella มีหินปูนและถุงน้ำ → craniopharyngioma"
+   "ชาย 40 ปี bitemporal hemianopia MRI พบ macroadenoma 3 cm prolactin 2,500 ng/mL → cabergoline เป็นการรักษาแรก",
+   "หญิง 50 ปี macroadenoma 2.5 cm กด chiasm prolactin 60 ng/mL ฮอร์โมนอื่นต่ำ → nonfunctioning adenoma + stalk effect → endoscopic transsphenoidal surgery",
+   "ชาย 55 ปี ที่มี macroadenoma ปวดศีรษะรุนแรงทันที ตามัวมาก ตาเหล่ ความดันต่ำ → pituitary apoplexy → hydrocortisone ทันที แล้วพิจารณาผ่าตัด",
+   "เด็ก 9 ปี ตัวเตี้ย ปัสสาวะมาก ลานสายตาเสีย inferior bitemporal ก่อน CT พบก้อน suprasellar มีหินปูน → craniopharyngioma"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>- progressive loss of vision 3 month dx? — A. Optic canal meningioma B. Cavernous ICA aneurysm C. Optic tract astrocytoma D. Pituitary macroadenoma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์ไม่มีคำตอบ และไม่บอกลักษณะ visual field/MRI → Claude เติม bitemporal hemianopia + sellar mass ให้เหลือคำตอบเดียว · เติมช้อย E",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_27"
   ]
  }
 }

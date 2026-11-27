@@ -1,264 +1,420 @@
 {
  "MDCU75|RoC|16": {
-  "interp": "Sigmoid diverticulitis ที่มีฝี 4 cm ลามจาก paracolic gutter ลงไปใน pelvis · ผู้ป่วย stable ไม่มี generalized peritonitis ได้ยาปฏิชีวนะแล้ว → เลือกระหว่างยาอย่างเดียว ระบายหนองผ่านผิวหนัง หรือผ่าตัดฉุกเฉิน",
-  "why": "Screenshot ที่แปะในคีย์: <b>pelvic abscess → percutaneous drainage แล้วตามด้วย interval colectomy</b> และลายมือแขนง pelvic abscess = NPO + ATB + PCD → observe → interval sigmoidectomy<br><b>นอกสไลด์:</b> ฝีที่อยู่ใน pelvis = Hinchey II · ฝีขนาดใหญ่ยาเข้าโพรงหนองได้ไม่ดี การใส่สายระบายใต้ CT ร่วมกับยาจึงล้มเหลวน้อยกว่า และช่วยเปลี่ยนการผ่าตัดฉุกเฉิน (มักต้องทำ stoma) เป็นการผ่าตัดตามนัดแบบต่อลำไส้ได้ในครั้งเดียว",
+  "interp": "ผู้ป่วยไข้ ปวดและกดเจ็บ LLQ 1 สัปดาห์ CT พบ sigmoid หนาตัว มี diverticula, pericolic fat stranding และ<b>ฝี 4 cm ลามจาก paracolic gutter ลงไปในอุ้งเชิงกราน</b> = complicated sigmoid diverticulitis ระดับ <b>Hinchey II</b> (pelvic abscess) ความดันคงที่ ไม่มี generalized peritonitis ได้ยาปฏิชีวนะแล้ว — ถามว่าควรใช้ยาอย่างเดียว ระบายหนองผ่านผิวหนัง หรือผ่าตัดฉุกเฉิน",
+  "why": "Diverticulitis แบ่งเป็น uncomplicated และ complicated (ฝี ทะลุ fistula ตีบ อุดตัน) · <b>modified Hinchey</b>: Ia phlegmon/ pericolic inflammation · Ib pericolic/ mesocolic abscess · <b>II pelvic, distant หรือ retroperitoneal abscess</b> · III generalized purulent peritonitis · IV fecal peritonitis · ฝีที่มีผนังหุ้มขนาดใหญ่ ยาปฏิชีวนะซึมเข้าโพรงหนองได้น้อย จึงต้อง <b>source control</b> — ASCRS 2020: ผู้ป่วยคงที่ที่มีฝีขนาดราว <b>≥ 3 cm</b> ให้ยา IV ร่วมกับ <b>CT-guided percutaneous drainage</b> ส่วนฝีเล็กกว่านั้นยาอย่างเดียวมักพอ · การระบายทำให้ผู้ป่วยส่วนใหญ่ผ่านช่วงเฉียบพลันได้โดยไม่ต้องผ่าตัดฉุกเฉิน (ซึ่งมักจบที่ Hartmann's และ stoma) แล้วไปทำ <b>interval sigmoidectomy</b> ตามนัดหลังการอักเสบยุบ (ราว 6 สัปดาห์ขึ้นไป) ต่อลำไส้ได้ในครั้งเดียว · ฝีใน pelvis กลับเป็นซ้ำบ่อยจึงมักแนะนำผ่าตัดตามนัด · ผ่าตัดฉุกเฉินเก็บไว้สำหรับ peritonitis ทั่วท้อง sepsis ที่ไม่ดีขึ้น หรือระบายแล้วไม่ดีขึ้น · ไฟล์เฉลยกากบาท D ลายมือ \"↳ NPO+ATB+observe\" แต่ลายมือแขนงเดียวกันเขียน <b>\"pelvic abscess = NPO + ATB + PCD → observe → interval sigmoidectomy\"</b> และ screenshot ที่แปะเขียน <b>\"Pelvic abscesses should be managed with percutaneous drainage followed by routine interval colectomy\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Colectomy ตัด colon กว้างเกินรอยโรคที่อยู่แค่ sigmoid และผู้ป่วยยังไม่มีข้อบ่งชี้ผ่าตัดฉุกเฉิน · จะถูกถ้าเป็น fulminant colitis (เช่น C. difficile) ที่ไม่ตอบสนองยา ลำไส้ใหญ่โป่งทั้งเส้น ผู้ป่วยยังคงที่ — ต้องตัด colon เกือบทั้งหมด (subtotal colectomy + end ileostomy)",
-   "B": "<b>นอกสไลด์:</b> ตัดตำแหน่งถูก แต่ยังไม่ถึงข้อบ่งชี้ผ่าตัดฉุกเฉิน การผ่าตัดในภาวะอักเสบมีโอกาสต้องทำ Hartmann's สูง · จะถูกถ้า diverticulitis ทะลุจนมี generalized peritonitis (Hinchey III–IV) ท้องแข็งทั่วท้อง แต่ hemodynamics คงที่พอผ่าตัดส่องกล้องได้",
-   "D": "เป็นคำตอบในคีย์ (ต้นฉบับช้อยนี้จดไม่ครบ ผู้เฉลยเติม NPO + ATB + observe) · ยาอย่างเดียวพอเฉพาะฝีเล็กข้างลำไส้ ไม่ใช่ฝีที่ลงไปใน pelvis · จะถูกถ้าฝีเป็น pericolic/mesocolic ขนาดเล็กกว่า 3 cm ไม่ลงไปใน pelvis",
-   "E": "<b>นอกสไลด์:</b> ส่องกล้องช่วงอักเสบเฉียบพลันเสี่ยงทะลุและไม่ได้แก้ฝี · จะถูกถ้าเป็นเลือดออกทางเดินอาหารส่วนล่างที่ hemodynamics คงที่ (เช่น diverticular bleeding) — ส่องกล้องระหว่างนอนโรงพยาบาลหลังเตรียมลำไส้ (ACG 2023)"
+   "A": "Emergency colectomy ตัด colon กว้างเกินส่วนที่เป็นโรค (โรคอยู่แค่ sigmoid) และผู้ป่วยคงที่ ไม่มี peritonitis ทั่วท้อง จึงยังไม่มีข้อบ่งชี้ผ่าตัดฉุกเฉินเลย — จะถูกถ้าเป็นชาย 75 ปีหลังได้ยาปฏิชีวนะ มี fulminant <i>C. difficile</i> colitis ลำไส้ใหญ่โป่งทั้งเส้น (toxic megacolon) lactate สูง ไม่ตอบสนองยา vancomycin/ fidaxomicin → subtotal colectomy + end ileostomy",
+   "B": "ตัด sigmoid ตรงตำแหน่งโรค แต่ผ่าตัดช่วงอักเสบเฉียบพลันที่มีฝีทำให้ต่อลำไส้ได้ยาก มักต้องทำ Hartmann's และมีภาวะแทรกซ้อนมากกว่าระบายก่อนแล้วผ่าตามนัด — จะถูกถ้าเป็นผู้ป่วย diverticulitis ที่ท้องแข็งทั่วท้อง CT เห็นลมอิสระและน้ำหนองทั่วช่องท้อง (Hinchey III) หรือใส่สายระบายฝีแล้ว 3 วันยังไข้สูง ปวดมากขึ้น เม็ดเลือดขาวสูงขึ้น",
+   "D": "เป็นคำตอบที่ไฟล์กากบาท (ต้นฉบับจดช้อยนี้ไม่ครบ ผู้เฉลยเติม NPO + ATB + observe) · ยาอย่างเดียวได้ผลกับ phlegmon หรือฝีเล็ก แต่ฝี 4 cm ที่ลงอุ้งเชิงกรานยาเข้าไม่ถึงพอ ล้มเหลวและกลับเป็นซ้ำมากกว่า — จะถูกถ้าเป็นหญิง 55 ปี CT พบ sigmoid diverticulitis มีฝี pericolic ขนาด 2 cm ชิดผนังลำไส้ ไม่ลงอุ้งเชิงกราน vital signs คงที่",
+   "E": "Colonoscopy ช่วงอักเสบเฉียบพลันเสี่ยงทำให้ทะลุ (ลมดันผนังที่อักเสบ) และไม่ได้รักษาฝี — การส่องกล้องหลัง diverticulitis ทำหลังหายราว 6–8 สัปดาห์เพื่อแยกมะเร็ง · จะถูกถ้าเป็นชาย 70 ปีถ่ายเป็นเลือดแดงคล้ำปริมาณมากไม่ปวดท้อง (diverticular bleeding) resuscitate แล้ว hemodynamics คงที่ → colonoscopy หลังเตรียมลำไส้ระหว่างนอนโรงพยาบาล"
   },
-  "trap": "ฝี 4 cm ยังไม่ถึง 5 cm ตามเกณฑ์ mesocolic ใน screenshot จึงตอบยาอย่างเดียว (คีย์ D) — ต้องดูตำแหน่งด้วย ฝีที่ลงไปใน pelvis ระบายผ่านผิวหนัง · เราตอบ C ต่างจากคีย์ D",
+  "trap": "ลายมือแขนงแรกในไฟล์ใช้เกณฑ์ <b>5 cm ของ mesocolic abscess</b> → เห็นฝี 4 cm จึงตอบยาอย่างเดียว (คีย์ D) · แต่ต้องดูทั้ง<b>ขนาดและตำแหน่ง</b>: ฝีที่ลงไปในอุ้งเชิงกราน (Hinchey II) หรือขนาด ≥ 3 cm ให้ระบายผ่านผิวหนัง · อีกกับดักคือเห็นคำว่าฝีแล้วเลือกผ่าตัดฉุกเฉิน — ผ่าตัดเมื่อมี peritonitis ทั่วท้อง sepsis ไม่ดีขึ้น หรือระบายไม่ได้ผลเท่านั้น",
   "summary": [
-   "Hinchey: I ฝีข้างลำไส้ (pericolic/mesocolic) · II ฝีใน pelvis/ไกลออกไป · III purulent peritonitis · IV fecal peritonitis",
-   "Screenshot ในคีย์: mesocolic abscess > 5 cm → percutaneous drainage, ขนาดเล็กกว่าลองยาอย่างเดียว · pelvic abscess → percutaneous drainage + interval colectomy",
-   "<b>นอกสไลด์:</b> ASCRS 2020: ฝี ≥ 3 cm ในผู้ป่วย stable → ยา + percutaneous drainage · ฝีเล็กกว่านั้นยาอย่างเดียว",
-   "<b>นอกสไลด์:</b> Hinchey III–IV หรือไม่ดีขึ้นหลังระบาย → ผ่าตัด sigmoidectomy (Hartmann's หรือต่อลำไส้ ± diverting ileostomy ในรายที่ stable)",
-   "<b>นอกสไลด์:</b> หลังหาย: colonoscopy ราว 6–8 สัปดาห์เพื่อแยกมะเร็ง (ถ้ายังไม่เคยส่องเร็ว ๆ นี้) · หลัง pelvic abscess มักแนะนำ elective sigmoidectomy"
+   "Modified Hinchey (Wasvary): 0 อาการน้อย · Ia phlegmon/ pericolic inflammation · Ib pericolic/ mesocolic abscess · II pelvic, distant หรือ retroperitoneal abscess · III generalized purulent peritonitis · IV fecal peritonitis",
+   "CT ช่องท้องฉีดสีเป็นการตรวจหลักของ diverticulitis (ไวและจำเพาะสูง) บอกขนาดและตำแหน่งฝี ลมอิสระ fistula แยกโรคอื่น และใช้นำทางใส่สายระบาย",
+   "Uncomplicated ในผู้ภูมิคุ้มกันปกติ: รักษาแบบผู้ป่วยนอกได้ และ ASCRS 2020/ AGA 2021 ให้ใช้ยาปฏิชีวนะแบบเลือกราย ไม่จำเป็นทุกราย · ต้องนอนโรงพยาบาลถ้ากินไม่ได้ ปวดมาก โรคร่วมมาก หรือภูมิคุ้มกันต่ำ",
+   "ฝี &lt; 3 cm → ยา IV อย่างเดียวมักพอ · ≥ 3 cm หรือใน pelvis → ยา + percutaneous drainage ใต้ CT · ไม่มีช่องเจาะหรือไม่ดีขึ้นใน 48–72 ชม. → ผ่าตัด",
+   "Hinchey III–IV/ sepsis: resuscitation + ยา + ผ่าตัดฉุกเฉิน — Hartmann's procedure หรือ sigmoidectomy ต่อลำไส้ ± diverting loop ileostomy ในรายที่คงที่ · laparoscopic lavage ใช้เฉพาะ purulent peritonitis ที่เลือกราย",
+   "หลังหาย: colonoscopy ราว 6–8 สัปดาห์ถ้ายังไม่เคยส่องคุณภาพดีเร็ว ๆ นี้ (โดยเฉพาะ complicated) เพื่อแยกมะเร็ง · elective sigmoidectomy ตัดสินรายบุคคล ไม่ใช้จำนวนครั้งที่เป็นซ้ำเป็นเกณฑ์เดี่ยว",
+   "Elective resection พิจารณาเมื่อเคยมีฝี (โดยเฉพาะ pelvic abscess ที่ระบาย), fistula, ตีบ, อาการเรื้อรัง หรือภูมิคุ้มกันต่ำ (ปลูกถ่ายอวัยวะ ยากดภูมิ) ซึ่งถ้ากลับเป็นซ้ำมักรุนแรง"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ D (NPO + ATB + observe) — ตอบ C เพราะฝีลงไปใน pelvis และ screenshot กับลายมือแขนง pelvic abscess ของผู้เฉลยเองก็ให้ PCD · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — คีย์ในไฟล์ Key 75C&D กากบาท D (NPO + ATB + observe) แต่ลายมือแขนง pelvic abscess และ screenshot ที่ผู้เฉลยแปะเองต่างให้ percutaneous drainage สำหรับฝีในอุ้งเชิงกราน เว็บจึงตอบ C ตาม ASCRS 2020 ที่ให้ระบายฝี ≥ 3 cm ในผู้ป่วยคงที่ · ช้อย D เหมาะกับฝีเล็กข้างลำไส้เท่านั้น",
+  "mnemonic": "<b>'เล็กให้ยา ใหญ่หรือลงเชิงกรานให้เจาะ ท้องแข็งทั้งท้องให้ผ่า'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-sided Colonic Diverticulitis (Dis Colon Rectum 2020); WSES Guidelines for the management of acute left sided colonic diverticulitis (World J Emerg Surg 2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง diverticulitis 2 เดือน ปัสสาวะมีลมและเศษอุจจาระ CT เห็นลมในกระเพาะปัสสาวะติดกับ sigmoid → colovesical fistula ผ่าตัด sigmoidectomy ตามนัดร่วมกับซ่อมกระเพาะปัสสาวะ",
-   "<b>นอกสไลด์:</b> Diverticulitis ไม่มีภาวะแทรกซ้อน ไม่มีโรคร่วม ภูมิคุ้มกันปกติ กินได้ → รักษาแบบผู้ป่วยนอก ยาปฏิชีวนะอาจไม่จำเป็น"
+   "หลัง diverticulitis 2 เดือน ปัสสาวะมีลม (pneumaturia) และมีเศษอุจจาระ CT เห็นลมในกระเพาะปัสสาวะซึ่งติดกับ sigmoid → colovesical fistula → elective sigmoidectomy ร่วมกับซ่อมผนังกระเพาะปัสสาวะ",
+   "ใส่สายระบายฝีใน pelvis แล้ว 3 วัน ยังไข้สูง ปวดมากขึ้น ท้องเริ่มแข็ง → ระบายล้มเหลว ต้องผ่าตัด sigmoidectomy",
+   "ไข้สูง ความดันต่ำ ท้องแข็งทั่วท้อง CT เห็นลมอิสระและอุจจาระในช่องท้อง (Hinchey IV) → resuscitation + ยา + Hartmann's procedure ฉุกเฉิน",
+   "ทำไมฝีใหญ่ต้องเจาะระบาย → โพรงหนองมีผนังหุ้ม เลือดไปเลี้ยงน้อย ยาปฏิชีวนะเข้าได้ไม่พอ ต้องเอาหนองออก (source control) อาการจึงดีขึ้น"
+  ],
+  "notes": "ไฟล์ 75CQ หน้า 2 — ตัวพิมพ์: <b>Fever with LLQ pain and tenderness 1 week. CT abdomen reveals thickened sigmoid with diverticulim and percicolonic fat stranding, and 4cm abscess extended from paracolic gutter to pelvic cavity. U/D HT well controlled. Broad spectrum antibiotics started. Most appropriate management? — A. Emergency lap colonec + drain B. Emergency lap sigmoidec + drain C. NPO + percutaneous drain D. NPO + อะไรไม่รู้</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ในไฟล์เฉลย: วงกลม <b>“จำ”</b> + <b>“ยาก”</b> ข้างเลขข้อ<br>ขีดเส้นใต้ <b>“LLQ pain and tenderness 1 week”</b> และ <b>“thickened sigmoid with diverticulim and percicolonic fat stranding”</b><br>ลายมือท้ายโจทย์ <b>“→ Dx: diverticular abscess”</b> แตกลูกศรเป็น 3 แขนง:<br>• <b>“mesocolic abscess (&lt;5 cm) = NPO + ATB → observe → interval sigmoidectomy”</b><br>• <b>“pelvic abscess = NPO + ATB + PCD → observe → interval sigmoidectomy”</b><br>• <b>“mesocolic abscess (&gt;5 cm) = NPO + ATB → emergency open sigmoidectomy”</b><br><b>กากบาท (X) ที่ D</b> + ลายมือใต้ช้อย D <b>“↳ NPO+ATB+observe”</b><br>แปะ screenshot NCBI (Indian J Surg) หัวข้อ <b>Conclusions</b>: “Acute diverticulitis is a common condition, although most patients have uncomplicated disease which is managed successfully with conservative measures. The management of diverticular abscesses depends on their location; <b>mesocolic abscesses greater than 5 cm should be treated by percutaneous drainage</b>, with a trial of antibiotics alone for smaller abscesses, and interval colectomy only for those who remain symptomatic. <b>Pelvic abscesses should be managed with percutaneous drainage followed by routine interval colectomy.</b> In patients with perforated diverticulitis and diffuse peritonitis, a largely conservative approach should be adopted wherever possible in order to avoid subjecting patients unnecessarily to emergency surgery. When emergency surgery is required, the Hartmann's procedure is still the most frequently performed operation. In recent years, alternative approaches have been advocated, including resection with primary anastomosis and laparoscopic peritoneal lavage. It is difficult to make recommendations on the role of resection with primary anastomosis because of a lack of high-quality evidence, but it appears to be a safe procedure in carefully selected patients. Further research into the exact selection criteria is required. At present, there is insufficient evidence on the role of laparoscopic lavage for it to be a recommended approach for perforated diverticulitis; however, the existing studies are promising and future trials may change this. Decisions regarding elective prophylactic resection should be tailored to the individual patient, and resection may be appropriate for those with ongoing symptoms, pelvic abscesses or associated complications.”<br>(สังเกต: ลายมือแขนง mesocolic &gt;5 cm เขียน emergency open sigmoidectomy ขัดกับ screenshot ที่บอกให้ทำ percutaneous drainage; และแขนง pelvic abscess = PCD ซึ่งตรงกับคำตอบ C ของเรา)<br>ช้อย D ต้นฉบับ “NPO + อะไรไม่รู้” (ผู้จดจำไม่ได้) → ใช้ข้อความที่ผู้เฉลยเติม NPO, antibiotics and observation; ช้อย E แต่งเพิ่ม; ต้นฉบับสะกด “diverticulim”, “percicolonic”; ATB = antibiotic, PCD = percutaneous drainage<br><b>เติม stem</b>: “He is hemodynamically stable without generalized peritonitis” (ต้นฉบับไม่บอก)",
+  "src": "75CQ · หน้า 2",
+  "kimg": [
+   "k75c_16"
   ]
  },
  "MDCU75|RoD|33": {
-  "interp": "ชาย 39 ปี ท้องเสียไม่มีเลือด น้ำหนักลด ไข้ 6 เดือน แล้วมาด้วย small bowel obstruction · ผ่าตัดเห็นลำไส้เล็กอักเสบ 3 ช่วงไม่ต่อกัน (skip) ทั้ง jejunum และ ileum มี fat wrapping → ถามการวินิจฉัย",
-  "why": "สไลด์ First Aid ที่แปะในคีย์: Crohn เกิดได้ทุกส่วนของทางเดินอาหาร มี <b>skip lesions</b>, transmural inflammation, <b>creeping fat</b>, stricture ทำให้อุดตัน และท้องเสียที่อาจไม่มีเลือด<br>ข้อนี้ครบทั้งสามอย่าง: ลำไส้อักเสบหลายช่วงไม่ต่อกัน + fat wrapping (ไขมัน mesentery ห่อรอบลำไส้ ลักษณะจำเพาะที่เห็นตอนผ่าตัด) + อุดตันจาก stricture ในคนที่มีอาการเรื้อรัง",
+  "interp": "ชาย 39 ปี ท้องเสียเรื้อรัง<b>ไม่มีเลือด</b> น้ำหนักลด 5 kg และไข้ 6 เดือน แล้วมาด้วย small bowel obstruction · ผ่าตัดพบลำไส้เล็กอักเสบ <b>3 ช่วงไม่ต่อกัน (skip lesions)</b> ทั้ง jejunum และ ileum ร่วมกับ <b>fat wrapping (creeping fat)</b> — ถามการวินิจฉัย ต้องใช้ลักษณะทางคลินิกร่วมกับสิ่งที่เห็นขณะผ่าตัดแยก Crohn จากวัณโรคลำไส้และสาเหตุลำไส้อุดตันอื่น",
+  "why": "<b>Crohn disease</b> เป็นการอักเสบแบบ <b>transmural</b> และ granulomatous เกิดได้ตั้งแต่ปากถึงทวาร พบบ่อยที่ terminal ileum ร่วม colon และเป็นแบบ <b>skip lesions</b> (ส่วนที่อักเสบสลับกับส่วนปกติ) · การอักเสบทะลุทุกชั้นถึง serosa ทำให้ไขมัน mesentery คลืบขึ้นมาห่อรอบผนังลำไส้ (<b>creeping fat/ fat wrapping</b>) ซึ่งเป็นลักษณะที่เห็นขณะผ่าตัดและจำเพาะกับ Crohn มาก · การอักเสบเรื้อรังทำให้เกิด fibrosis → <b>stricture</b> → small bowel obstruction หรือเกิด fistula และฝี · อาการทั่วไปคือท้องเสีย (มักไม่มีเลือดเมื่อโรคอยู่ลำไส้เล็ก) ปวดท้อง น้ำหนักลด ไข้ต่ำ ๆ · Montreal: อายุ A2 (17–40 ปี) ตำแหน่ง L4 upper GI (jejunum) ร่วม L1 ileal พฤติกรรม B2 stricturing · หลักผ่าตัดคือ<b>ประหยัดลำไส้</b>: ตัดเฉพาะส่วนที่ตีบให้ขอบดูปกติด้วยตา (ไม่ต้องให้ขอบปลอดโรคทางจุลพยาธิ) หรือทำ strictureplasty เมื่อมีหลายจุด เพื่อป้องกัน short bowel · ไฟล์ขีด B Crohn's disease และแปะ First Aid ที่ไฮไลต์ <b>\"Skip lesions, rectal sparing\"</b>, <b>\"Transmural inflammation → fistulas\"</b>, creeping fat และ <b>\"strictures (causing obstruction)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Intestinal TB ชอบ ileocecal region แผลตามขวาง มี caseating granuloma น้ำในท้อง ต่อมน้ำเหลืองมีหินปูน และมักมีวัณโรคปอดร่วม — แยกจาก Crohn ยากในไทย · จะถูกถ้าผู้ป่วยมี ileocecal stricture สั้นร่วมกับฝ้าในปอด biopsy พบ caseating granuloma",
-   "C": "Adhesive band เป็นสาเหตุ SBO ที่พบบ่อยที่สุดในคนที่เคยผ่าตัดช่องท้อง แต่ไม่อธิบายไข้ น้ำหนักลด ท้องเสียเรื้อรัง และลำไส้อักเสบหลายช่วง · จะถูกถ้าเคยผ่าตัดช่องท้อง มาด้วยอุดตันเฉียบพลัน ผ่าพบพังผืดเส้นเดียวรัดลำไส้ที่ไม่อักเสบ",
-   "D": "<b>นอกสไลด์:</b> SBP เป็นการติดเชื้อในน้ำท้องของผู้ป่วยตับแข็งโดยไม่มีแหล่งติดเชื้อในช่องท้อง ไม่ทำให้ลำไส้อักเสบเป็นช่วงหรืออุดตัน · จะถูกถ้าผู้ป่วยตับแข็งมีท้องมาน ไข้ ปวดท้อง เจาะน้ำท้องได้ PMN ≥ 250/mm³",
-   "E": "<b>นอกสไลด์:</b> NEC เป็นโรคของทารกคลอดก่อนกำหนด ไม่ใช่ผู้ใหญ่ · จะถูกถ้าทารกคลอดก่อนกำหนดที่เริ่มกินนม ท้องอืด ถ่ายเป็นเลือด ภาพรังสีเห็น pneumatosis intestinalis"
+   "A": "Intestinal TB พบบ่อยในไทยและให้ไข้ น้ำหนักลด ท้องเสีย ลำไส้ตีบได้เหมือนกัน แต่ชอบ <b>ileocecal region</b> (valve เปิดอ้า cecum หดสั้น) แผลตามขวาง caseating granuloma ต่อมน้ำเหลืองมี caseation และ ascites ไม่ใช่หลายช่วงข้ามไปถึง jejunum ร่วม creeping fat — จะถูกถ้าเป็นชาย 40 ปีไข้ต่ำ ๆ เหงื่อออกกลางคืน CXR มีโพรงที่ upper lobe ส่องกล้องพบแผลตามขวางที่ ileocecal valve ซึ่งเปิดอ้า ชิ้นเนื้อพบ caseating granuloma และ AFB บวก",
+   "C": "พังผืด (adhesion) เป็นสาเหตุ SBO อันดับหนึ่งในผู้ใหญ่ที่เคยผ่าตัดช่องท้อง แต่ไม่อธิบายไข้ ท้องเสีย น้ำหนักลดเรื้อรัง 6 เดือน และลำไส้ที่ผ่าเห็นจะปกติยกเว้นจุดที่ถูกรัด — จะถูกถ้าเป็นหญิง 50 ปีเคยผ่าตัดมดลูก มาด้วยปวดบิด อาเจียน ท้องอืด ไม่ผายลมเฉียบพลัน ผ่าตัดพบพังผืดเส้นเดียวรัด ileum ที่ไม่มีการอักเสบ",
+   "D": "SBP คือการติดเชื้อน้ำในช่องท้องโดยไม่มีแหล่งติดเชื้อในช่องท้อง เกิดในตับแข็งที่มี ascites วินิจฉัยด้วย PMN ในน้ำท้อง ≥ 250 cells/mm³ รักษาด้วยยา (cefotaxime) + albumin ไม่ผ่าตัด และไม่ทำให้ลำไส้อักเสบเป็นช่วงหรืออุดตัน — จะถูกถ้าเป็นชาย 55 ปีตับแข็งจากแอลกอฮอล์ ท้องมาน ไข้ ปวดท้องทั่ว ๆ ซึมลง เจาะน้ำท้องได้ PMN 500/mm³ เพาะเชื้อขึ้น <i>E. coli</i> ชนิดเดียว",
+   "E": "NEC เป็นโรคของทารกคลอดก่อนกำหนด (ยิ่งน้ำหนักน้อยยิ่งเสี่ยง) หลังเริ่มกินนม ลำไส้ขาดเลือดร่วมกับแบคทีเรีย ภาพรังสีเห็น pneumatosis intestinalis หรือ portal venous gas ไม่เกิดในผู้ใหญ่ 39 ปี — จะถูกถ้าเป็นทารกคลอด 29 สัปดาห์ น้ำหนัก 1,100 g เริ่มกินนมได้ 10 วัน แล้วท้องอืด ถ่ายเป็นเลือด ภาพรังสีเห็นฟองลมในผนังลำไส้"
   },
-  "trap": "ในบริบทไทยมักนึกถึงวัณโรคลำไส้ก่อน — แต่ skip lesions หลายช่วงทั้ง jejunum และ ileum ร่วมกับ creeping fat เป็นภาพของ Crohn · ในเวชปฏิบัติยังต้องแยกวัณโรคด้วยชิ้นเนื้อก่อนให้ยากดภูมิ",
+  "trap": "ในไทยวัณโรคลำไส้พบบ่อยและอาการ (ไข้ น้ำหนักลด ท้องเสีย ลำไส้ตีบ) ซ้อนกับ Crohn มาก หลายคนจึงเลือก A · วิธีแยก: Crohn = <b>หลายช่วงไม่ต่อกันกระจายถึง jejunum, creeping fat, แผลตามยาว/ cobblestone, fistula, perianal disease</b> · TB = ileocecal เป็นหลัก แผลตามขวาง valve อ้า ascites ต่อมน้ำเหลือง caseation มีวัณโรคปอด · ในเวชปฏิบัติต้องยืนยันด้วยชิ้นเนื้อก่อนให้ยากดภูมิ",
   "summary": [
-   "Crohn (สไลด์ในคีย์): ทุกตำแหน่ง บ่อยสุด terminal ileum + colon · skip lesions, rectal sparing · transmural → fistula, stricture · cobblestone, creeping fat, string sign · noncaseating granuloma",
-   "UC (สไลด์ในคีย์): เฉพาะ colon ต่อเนื่องจาก rectum เสมอ · mucosa/submucosa · ถ่ายเป็นเลือด · toxic megacolon",
-   "<b>นอกสไลด์:</b> ก่อนให้ steroid หรือ anti-TNF ในไทยต้องแยกวัณโรคลำไส้ (ชิ้นเนื้อ AFB, TB-PCR, เพาะเชื้อ, CXR) และคัดกรองวัณโรคแฝง",
-   "<b>นอกสไลด์:</b> ผ่าตัด Crohn เฉพาะเมื่อมีภาวะแทรกซ้อน (stricture อุดตัน, fistula, ฝี, ทะลุ, ไม่ตอบสนองยา) แบบประหยัดลำไส้: strictureplasty หรือตัดเฉพาะส่วนที่ตีบ เพราะโรคกลับเป็นซ้ำได้"
+   "Crohn vs UC: Crohn ทุกส่วนของทางเดินอาหาร skip lesions, rectal sparing, transmural, noncaseating granuloma, fistula/ stricture · UC เฉพาะ colon ต่อเนื่องจาก rectum เสมอ ชั้น mucosa/submucosa ถ่ายเป็นเลือด เสี่ยง toxic megacolon",
+   "Montreal classification ของ Crohn: อายุ A1 ≤ 16 · A2 17–40 · A3 &gt; 40 ปี · ตำแหน่ง L1 ileal · L2 colonic · L3 ileocolonic · L4 upper GI · พฤติกรรม B1 ไม่ตีบไม่ทะลุ · B2 stricturing · B3 penetrating · p = perianal disease",
+   "ตรวจ: ileocolonoscopy + biopsy หลายจุด · CT/ MR enterography เห็นผนังหนา mural hyperenhancement, comb sign (vasa recta คั่ง), fibrofatty proliferation และ stricture ที่มีลำไส้โป่งเหนือรอยตีบ",
+   "ข้อบ่งชี้ผ่าตัด Crohn: stricture อุดตันจาก fibrosis, fistula/ ฝีที่ยาไม่หาย, ทะลุ, เลือดออกมาก, ดื้อยา, dysplasia/ มะเร็ง และเด็กโตช้า · ผู้ป่วยจำนวนมาก (ราวหนึ่งในสามถึงครึ่ง) ต้องผ่าตัดลำไส้ภายใน 10 ปีหลังวินิจฉัย",
+   "Strictureplasty: Heineke–Mikulicz สำหรับตีบสั้น &lt; 10 cm · Finney 10–20 cm · side-to-side isoperistaltic (Michelassi) สำหรับยาวกว่านั้น · ตีบสั้นเดี่ยว &lt; 5 cm ที่ส่องถึงอาจใช้ endoscopic balloon dilatation",
+   "Stricture จากการอักเสบตอบสนองต่อ steroid/ biologic ส่วน stricture จาก fibrosis ไม่ตอบสนองต้องขยายหรือผ่าตัด · ฝีในช่องท้องให้ระบายผ่านผิวหนังและยาก่อน แล้วผ่าตามนัดถ้ามีรอยตีบหรือ fistula",
+   "หลังผ่าตัดโรคกลับเป็นซ้ำที่รอยต่อบ่อย → colonoscopy ราว 6–12 เดือนหลัง ileocolic resection (Rutgeerts score) · การเลิกบุหรี่เป็นปัจจัยที่แก้ได้ซึ่งลดการกลับเป็นซ้ำมากที่สุด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 75C&D) — skip lesions + creeping fat จำเพาะกับ Crohn · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ลำไส้เล็กอักเสบหลายช่วงไม่ต่อกันทั้ง jejunum และ ileum ร่วมกับ fat wrapping และอาการเรื้อรังท้องเสียไม่มีเลือด น้ำหนักลด ไข้ ตรงกับ Crohn ที่ทำให้ stricture และอุดตัน · ตรงกับคีย์ในไฟล์ Key 75C&D ที่ขีด B · ในเวชปฏิบัติไทยต้องตัดวัณโรคลำไส้ด้วยชิ้นเนื้อเสมอ",
+  "mnemonic": "<b>'Crohn = Skip + Creep + Transmural (ข้าม คลืบ ทะลุ)'</b>",
+  "guide": "ACG Clinical Guideline: Management of Crohn's Disease in Adults (Am J Gastroenterol 2018); ECCO Guidelines on Therapeutics in Crohn's Disease: Surgical Treatment (J Crohns Colitis 2024); Sabiston Textbook of Surgery 21st ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผ่าตัดไส้ติ่งพบ terminal ileum อักเสบมี creeping fat แต่ไส้ติ่งและฐานปกติ → ตัดไส้ติ่งได้ ไม่ตัด ileum สงสัย Crohn ส่งตรวจต่อ",
-   "<b>นอกสไลด์:</b> ผู้ป่วย Crohn ปัสสาวะมีลมและติดเชื้อทางเดินปัสสาวะซ้ำ → enterovesical fistula"
+   "ผ่าตัดไส้ติ่งพบ terminal ileum อักเสบหนามี creeping fat แต่ไส้ติ่งและฐานไส้ติ่งปกติ → ตัดไส้ติ่งได้ ไม่ตัด ileum แล้วส่งตรวจหา Crohn ต่อ",
+   "ผู้ป่วย Crohn ปัสสาวะมีลมและติดเชื้อทางเดินปัสสาวะซ้ำ → enterovesical fistula → ผ่าตัดตัดลำไส้ส่วนที่เป็นโรคและซ่อมกระเพาะปัสสาวะ",
+   "ผู้ป่วย Crohn มี stricture สั้นหลายจุดตลอด jejunum ทำให้อุดตันซ้ำ → strictureplasty หลายจุดแทนการตัดลำไส้ยาว เพื่อเลี่ยง short bowel",
+   "ผู้ป่วยไทยสงสัย Crohn ก่อนเริ่ม anti-TNF → ตรวจชิ้นเนื้อหา AFB/ TB-PCR, CXR และคัดกรองวัณโรคแฝง (IGRA หรือ tuberculin test)"
+  ],
+  "notes": "ไฟล์ 75DQ หน้า 5 — ตัวพิมพ์: <b>39-year-old man with 6-month history of non-bloody diarrhea, 5 kg weight loss and fever. Today he presents with small bowel obstruction. มี small bowel inflammation 3 segments with fat-wrapping at jejunum and ileum. ทั้ง 3 segments ไม่ติดกัน (มี skip lesion) Most likely diagnosis? — A. Enteric TB B. Crohn's disease C. Adhesion band D. Spontaneous Bacterial Peritonitis E. NEC</b><br>ลายมือ/ ไฮไลต์ในไฟล์: เฉลยในไฟล์: <b>ป้าย \"ซ้ำ\" (วงกลม) หน้าข้อ</b>; ขีดเส้นใต้ <b>\"small bowel inflammation 3 segments with fat-wrapping at jejunum and ileum\"</b> และ <b>\"ทั้ง 3 segments ไม่ติดกัน (มี skip lesion)\"</b> + <b>♥</b> ท้ายวงเล็บ; <b>X ที่ B</b> Crohn's disease + แปะ screenshot <b>USMLE First Aid 2021 \"Inflammatory bowel diseases ♥\"</b> (ไฮไลต์ Crohn สีน้ำเงิน, UC สีเหลือง, extraintestinal สีชมพู):<br>• <b>Location</b> — Crohn: Any portion of the GI tract, usually the terminal ileum and colon. <b>Skip lesions, rectal sparing</b>. / UC: Colitis = colon inflammation. <b>Continuous colonic lesions, always with rectal involvement</b>.<br>• <b>Gross morphology</b> — Crohn: <b>Transmural inflammation → fistulas. Cobblestone mucosa</b>, creeping fat, bowel wall thickening (\"string sign\" on small bowel follow-through), linear ulcers, fissures. + ลายมือเล็ก \"*cobblestone appearance = polygonal cells bulge out from mucosal surface to a varying degree\" / UC: Mucosal and submucosal inflammation only. Friable mucosa with superficial and/or deep ulcerations. <b>Loss of haustra → \"lead pipe\"</b> appearance on imaging (<b>!</b> สีแดง)<br>• <b>Microscopic morphology</b> — Crohn: Noncaseating granulomas and lymphoid aggregates. <b>Th1</b> mediated (<b>!</b>) / UC: Crypt abscesses and ulcers, bleeding, no granulomas. <b>Th2</b> mediated (<b>!</b>)<br>• <b>Complications</b> — Malabsorption/malnutrition, colorectal cancer (↑ risk with pancolitis). Crohn: <b>Fistulas</b> (eg, enterovesical fistulae, which can cause recurrent UTI and pneumaturia), phlegmon/abscess, <b>strictures (causing obstruction)</b>, perianal disease. / UC: <b>Fulminant colitis, toxic megacolon</b>, perforation.<br>• <b>Intestinal manifestation</b> — Crohn: <b>Diarrhea</b> that may or may not be bloody. / UC: <b>Bloody diarrhea</b> (<b>*</b> สีแดง)<br>• <b>Extraintestinal manifestations</b> — <b>Rash</b> (pyoderma gangrenosum, erythema nodosum), <b>eye inflammation</b> (episcleritis, uveitis), oral ulcerations (<b>aphthous stomatitis</b>), <b>arthritis</b> (peripheral, spondylitis). Crohn: <b>Kidney stones</b> (usually calcium oxalate), <b>gallstones</b>. May be ⊕ for anti-Saccharomyces cerevisiae antibodies (ASCA). / UC: <b>1° sclerosing cholangitis</b>. Associated with MPO-ANCA/p-ANCA.<br>• <b>Treatment</b> — Crohn: Corticosteroids, azathioprine, antibiotics (eg, ciprofloxacin, metronidazole), biologics (eg, infliximab, adalimumab). / UC: 5-aminosalicylic acid preparations (eg, mesalamine), 6-mercaptopurine, infliximab, colectomy.<br>stem ของเรา<b>ไม่เขียนคำว่า skip lesion</b> (ต้นฉบับผู้จดเขียน \"(มี skip lesion)\" ในวงเล็บ — เป็นการตีความของผู้จด) แต่คงข้อมูล \"3 segments ไม่ติดกัน\" เป็น \"non-contiguous\"; ช้อยแปลจากต้นฉบับ (Enteric TB → Intestinal tuberculosis, Adhesion band → Adhesive band, NEC → Necrotizing enterocolitis)",
+  "src": "75DQ · หน้า 5",
+  "kimg": [
+   "k75d_33"
   ]
  },
  "MDCU75|RoC|Uro 1": {
-  "interp": "ถามชนิดนิ่วทางเดินปัสสาวะที่พบบ่อยที่สุดในภาพรวม",
-  "why": "สไลด์ Urinary tract calculi ในคีย์ (COOK/GUN) เรียงชนิดนิ่ว calcium oxalate, uric acid, cystine, struvite, calcium phosphate · ลายมือ P'Ing: Calcium oxalate ✓90%<br><b>นอกสไลด์:</b> นิ่วที่มีแคลเซียมเป็นส่วนใหญ่ของนิ่วทั้งหมด และในกลุ่มนี้ calcium oxalate (มักปนกับ calcium phosphate) พบมากที่สุด · ปัจจัยหลักคือ hypercalciuria, hyperoxaluria, hypocitraturia และดื่มน้ำน้อย",
+  "interp": "ถามชนิดนิ่วทางเดินปัสสาวะที่<b>พบบ่อยที่สุด</b>ในภาพรวม — ต้องรู้สัดส่วนนิ่วแต่ละชนิด และแยกคำถาม \"พบบ่อยที่สุด\" ออกจาก \"เกิด staghorn บ่อยที่สุด\" หรือ \"โปร่งรังสี\" (ช้อย D ในเว็บเปลี่ยนเป็น Cystine เพราะไฟล์มี Struvite ซ้ำกับ Magnesium ammonium phosphate)",
+  "why": "นิ่วที่มีแคลเซียมเป็นส่วนประกอบพบราว <b>70–80%</b> ของนิ่วทางเดินปัสสาวะทั้งหมด และส่วนใหญ่เป็น <b>calcium oxalate</b> (monohydrate หรือ dihydrate) ทั้งแบบเดี่ยวและปนกับ calcium phosphate · กลไก: ปัสสาวะ<b>อิ่มตัวยิ่งยวด (supersaturation)</b> → เกิดผลึก (nucleation) → ผลึกโตและเกาะกลุ่ม มักเริ่มบน <b>Randall's plaque</b> (calcium phosphate ใต้เยื่อบุ renal papilla) · ปัจจัยเสี่ยง: ดื่มน้ำน้อย, <b>hypercalciuria</b> (ความผิดปกติทาง metabolic ที่พบบ่อยที่สุด), hyperoxaluria (เช่น enteric hyperoxaluria หลังตัดลำไส้เล็กหรือ bariatric surgery), hypocitraturia, hyperuricosuria, กินเกลือและโปรตีนสัตว์มาก · ทึบรังสีชัดใน KUB · ป้องกัน: ดื่มน้ำให้ปัสสาวะ ≥ 2–2.5 L/วัน ลดเกลือ ลดโปรตีนสัตว์ <b>กินแคลเซียมปกติ</b> (การงดแคลเซียมทำให้ oxalate ในลำไส้ถูกดูดซึมมากขึ้น) · thiazide ลด hypercalciuria, potassium citrate แก้ hypocitraturia · ไฟล์คีย์ชุดแรกวง B แปะสไลด์ Urinary tract calculi และไฟล์คีย์ชุดที่สองเขียน <b>\"Calcium oxalate ✓90%\"</b> กับ <b>\"Uric acid ✗10%\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Calcium phosphate มักผสมอยู่ในนิ่ว calcium oxalate และเกิดในปัสสาวะด่าง · จะถูกถ้าผู้ป่วยเป็น distal (type 1) renal tubular acidosis ที่ปัสสาวะด่างตลอด มีนิ่วซ้ำและ nephrocalcinosis",
-   "C": "<b>นอกสไลด์:</b> Uric acid เกิดในปัสสาวะเป็นกรด · จะถูกถ้าผู้ป่วย gout หรือ metabolic syndrome ปัสสาวะ pH ต่ำตลอด นิ่วไม่เห็นใน KUB แต่เห็นใน CT",
-   "D": "<b>นอกสไลด์:</b> Cystine พบน้อยจาก cystinuria (autosomal recessive) · จะถูกถ้าเด็กหรือวัยรุ่นเป็นนิ่วซ้ำหลายครั้ง มีพี่น้องเป็นเหมือนกัน ปัสสาวะพบผลึกหกเหลี่ยม",
-   "E": "<b>นอกสไลด์:</b> Struvite (magnesium ammonium phosphate) คือ infection stone จากเชื้อที่สร้าง urease · จะถูกถ้าหญิงติดเชื้อทางเดินปัสสาวะซ้ำจาก Proteus ปัสสาวะด่าง มีนิ่ว staghorn"
+   "A": "Calcium phosphate (apatite, brushite) มักพบปนในนิ่ว calcium oxalate มากกว่าเป็นนิ่วเดี่ยว เกิดในปัสสาวะด่าง พบมากขึ้นใน distal RTA, primary hyperparathyroidism และยา carbonic anhydrase inhibitor — จะถูกถ้าเป็นหญิง 30 ปีกินยา topiramate ป้องกันไมเกรนนาน ปัสสาวะ pH &gt; 6.5 ตลอด มีนิ่วซ้ำและ nephrocalcinosis",
+   "C": "Uric acid พบราว 5–10% (ในบางพื้นที่ของไทยสูงกว่านี้) เกิดเมื่อปัสสาวะเป็นกรดจัด (pH &lt; 5.5) ตลอด <b>โปร่งรังสีใน KUB</b> แต่เห็นใน CT และละลายได้ด้วยการทำให้ปัสสาวะด่าง — จะถูกถ้าเป็นชาย 55 ปีเป็น gout และเบาหวาน มีปวดบั้นเอว KUB ไม่เห็นนิ่วแต่ CT เห็นนิ่ว ~400 HU ปัสสาวะ pH 5.0",
+   "D": "Cystine พบเพียงราว 1–2% จาก cystinuria (autosomal recessive บกพร่องการดูดกลับ cystine, ornithine, lysine, arginine ที่ proximal tubule) ผลึกรูปหกเหลี่ยม ทึบรังสีจาง — จะถูกถ้าเป็นวัยรุ่น 15 ปีเป็นนิ่วซ้ำหลายครั้งตั้งแต่เด็ก มีพี่น้องเป็นนิ่วเหมือนกัน ปัสสาวะพบผลึกหกเหลี่ยม sodium nitroprusside test บวก",
+   "E": "Magnesium ammonium phosphate (struvite) คือ <b>infection stone</b> จากเชื้อที่สร้าง urease (<i>Proteus</i>, <i>Klebsiella</i>) ทำให้ปัสสาวะด่าง (pH &gt; 7) โตเร็วเป็น staghorn ผลึกรูปฝาโลง (coffin-lid) — จะถูกถ้าเป็นหญิง 60 ปีติดเชื้อทางเดินปัสสาวะซ้ำจาก <i>Proteus</i> หรือผู้ป่วยอัมพาตคาสายสวน ปัสสาวะด่าง KUB เห็นนิ่ว staghorn เต็มไต"
   },
-  "trap": "ไฟล์โจทย์เดิมมีทั้ง Struvite และ Magnesium ammonium phosphate ซึ่งเป็นตัวเดียวกัน (เปลี่ยนช้อย D เป็น Cystine แล้ว) · อย่าสับสน 'พบบ่อยที่สุด' กับ 'โตเป็น staghorn บ่อยที่สุด' (struvite)",
+  "trap": "คนสับสนระหว่าง \"พบบ่อยที่สุด\" กับ \"เกิด staghorn บ่อยที่สุด\" (struvite) หรือคิดว่าในไทยนิ่ว uric acid พบมากที่สุด · ในภาพรวมนิ่วกลุ่มแคลเซียมนำห่าง และ calcium oxalate คือชนิดหลักในกลุ่มนี้ · ต้นฉบับมีช้อย Struvite ซ้ำกับ Magnesium ammonium phosphate ซึ่งเป็นสารเดียวกัน",
   "summary": [
-   "<b>นอกสไลด์:</b> ความถี่โดยประมาณ: calcium oxalate (± phosphate) ราว 70–80% > uric acid ราว 5–10% ≈ struvite ราว 5–10% > cystine 1–2%",
-   "<b>นอกสไลด์:</b> ภาพรังสี KUB: calcium ทึบชัด · struvite ทึบปานกลาง · cystine ทึบจาง · uric acid โปร่งรังสี (เห็นใน CT) · ยา indinavir โปร่งแม้ใน CT",
-   "<b>นอกสไลด์:</b> pH ปัสสาวะ: กรด → uric acid, cystine · ด่าง → calcium phosphate, struvite",
-   "<b>นอกสไลด์:</b> ผลึก: oxalate รูปซองจดหมาย/dumbbell · struvite รูปฝาโลง (coffin-lid) · cystine หกเหลี่ยม",
-   "<b>นอกสไลด์:</b> Non-contrast CT KUB เป็นการตรวจที่ไวที่สุดสำหรับนิ่ว"
+   "ความถี่โดยประมาณ: calcium oxalate (± phosphate) ราว 70–80% · uric acid ราว 5–10% · struvite ราว 5–10% · cystine 1–2% · นิ่วจากยา (indinavir, atazanavir, triamterene) พบน้อย",
+   "ความทึบรังสีใน KUB: calcium oxalate/ phosphate ทึบมาก · struvite ทึบปานกลาง · cystine ทึบจาง (ground glass) · uric acid, xanthine โปร่งรังสี (เห็นใน CT) · indinavir โปร่งแม้ใน CT",
+   "pH ปัสสาวะ: กรด → uric acid, cystine (ป้องกันด้วยทำปัสสาวะด่าง) · ด่าง → calcium phosphate, struvite · calcium oxalate ไม่ขึ้นกับ pH มาก",
+   "ผลึก: calcium oxalate dihydrate รูปซองจดหมาย, monohydrate รูป dumbbell · struvite รูปฝาโลง (coffin-lid) · cystine หกเหลี่ยม · uric acid รูปเพชร/ rhomboid",
+   "Non-contrast CT KUB เป็นการตรวจที่ไวและจำเพาะสูงที่สุดสำหรับนิ่ว (low-dose ในผู้ใหญ่ตัวไม่ใหญ่) · ultrasound เป็นทางเลือกแรกในหญิงตั้งครรภ์และเด็ก",
+   "Metabolic workup (24-hour urine ปริมาตร, Ca, oxalate, citrate, uric acid, Na) ทำในผู้ที่เป็นนิ่วซ้ำ เด็ก นิ่วหลายก้อน/ สองข้าง ไตข้างเดียว หรือนิ่วชนิดพิเศษ และควรส่งวิเคราะห์องค์ประกอบนิ่วทุกครั้ง",
+   "Enteric hyperoxaluria: ลำไส้ดูดซึมไขมันไม่ดี (Crohn, ตัด ileum, gastric bypass) → กรดไขมันจับแคลเซียม → oxalate อิสระถูกดูดซึมที่ colon มากขึ้น → นิ่ว calcium oxalate"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ทั้ง 2 ไฟล์ (COOK/GUN, P'Ing) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — นิ่วกลุ่มแคลเซียมพบราว 70–80% และ calcium oxalate เป็นองค์ประกอบหลักตาม EAU และตำรามาตรฐาน · ตรงกับคีย์ทั้งสองไฟล์ (ไฟล์ชุดแรกวง B แปะสไลด์ Urinary tract calculi ไฟล์ชุดที่สองเขียน ✓90%) · เว็บเปลี่ยนช้อย D เป็น Cystine เพราะต้นฉบับมีช้อยซ้ำ ไม่กระทบคำตอบ",
+  "mnemonic": "<b>'นิ่วส่วนใหญ่ \"Ca-Ox\" — Calcium OXalate ครองแชมป์'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2025; AUA Medical Management of Kidney Stones Guideline (2014, amended 2019); Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยตัด ileum ไปยาว (เช่นจาก Crohn) แล้วเป็นนิ่วซ้ำ → calcium oxalate จาก enteric hyperoxaluria",
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่ว uric acid ก้อนเล็ก ไม่อุดกั้น → ให้ potassium citrate ทำให้ปัสสาวะด่างเพื่อละลายนิ่ว"
+   "ผู้ป่วย Crohn ที่ตัด terminal ileum ไปยาวแล้วเป็นนิ่วซ้ำ → calcium oxalate จาก enteric hyperoxaluria → ลดไขมัน กินแคลเซียมพร้อมมื้ออาหารเพื่อจับ oxalate",
+   "ผู้ป่วยนิ่ว uric acid ก้อนเล็กในไต ไม่อุดกั้น ไม่ติดเชื้อ → oral chemolysis ด้วย potassium citrate ทำให้ปัสสาวะด่างเพื่อละลายนิ่ว",
+   "ผู้ป่วยนิ่ว calcium ซ้ำ 24-hour urine พบ hypercalciuria โดยแคลเซียมในเลือดปกติ → thiazide ร่วมกับลดเกลือ ไม่ต้องงดแคลเซียมในอาหาร",
+   "ทำไมไม่ควรให้ผู้ป่วยนิ่ว calcium oxalate งดนมและแคลเซียม → แคลเซียมในลำไส้น้อยลง oxalate อิสระถูกดูดซึมมากขึ้น เพิ่ม oxalate ในปัสสาวะและนิ่วกลับมากขึ้น"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>[URO] นิ่วอะไรเจอบ่อยสุด — A. Calcium phosphate B. Calcium oxalate C. Uric acid D. Struvite E. Magnesium ammonium phosphate</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์โจทย์มีช้อย D. Struvite และ E. Magnesium ammonium phosphate ซ้ำกัน → เปลี่ยนช้อย D เป็น Cystine · COOK/GUN แปะสไลด์ Urinary tract calculi (Calcium oxalate, Uric acid, Cystine, Struvite, Calcium phosphate) · P'Ing เขียน Calcium oxalate ✓90% และ Uric acid ✗10%",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_uro1",
+   "kp75c_uro1"
   ]
  },
  "MDCU75|RoC|Uro 2": {
-  "interp": "หญิงเบาหวานสงสัย emphysematous cystitis · ถามลักษณะที่จำเพาะเมื่อดูด้วย cross-sectional imaging (CT)",
-  "why": "สไลด์ complicated cystitis ในคีย์ (COOK/GUN): emphysematous cystitis เห็นใน CT · ลายมือ P'Ing: ช้อย A 'wall ✓CT', ช้อย B '✗ plain film'<br><b>นอกสไลด์:</b> โรคนี้คือการติดเชื้อที่เชื้อหมักกลูโคสในเนื้อเยื่อจนเกิดก๊าซ <b>ในผนัง</b>กระเพาะปัสสาวะ · CT เห็นลมในผนังโดยตรง (± ลมในโพรง) ไวและจำเพาะที่สุด และช่วยดูว่าลามขึ้นไตหรือไม่",
+  "interp": "หญิงเบาหวานสงสัย <b>emphysematous cystitis</b> (การติดเชื้อที่สร้างแก๊สในผนังและโพรงกระเพาะปัสสาวะ) — ถามภาพที่เป็นลักษณะเฉพาะบน <b>cross-sectional imaging</b> (CT) ซึ่งต้องแยกจากภาพ plain film และจากลักษณะรังสีของโรคกระเพาะปัสสาวะอื่น",
+  "why": "Emphysematous cystitis เป็น complicated UTI ที่เชื้อ (<i>E. coli</i> พบบ่อยสุด รองลงมา <i>Klebsiella</i>) <b>หมักน้ำตาลกลูโคสในเนื้อเยื่อ</b>ได้แก๊ส CO₂ และ H₂ สะสมในผนังกระเพาะปัสสาวะ · ปัจจัยเสี่ยงหลักคือ <b>เบาหวานที่คุมไม่ดี</b> (ราวสองในสามของผู้ป่วย) หญิงสูงอายุ bladder outlet obstruction neurogenic bladder คาสายสวน และภูมิคุ้มกันต่ำ · อาการตั้งแต่ไม่มีอาการถึงปวดท้องน้อย ปัสสาวะเป็นเลือด sepsis · <b>pneumaturia</b> จำเพาะแต่พบไม่บ่อย · <b>CT เป็นการตรวจที่ไวและจำเพาะที่สุด</b>: เห็น<b>แก๊สในผนังกระเพาะปัสสาวะ (intramural gas)</b> เป็นแนวโค้งรอบผนัง ± แก๊สในโพรง แยกจากแก๊สในโพรงอย่างเดียวที่เกิดจากการใส่สายสวนหรือ fistula และประเมินการลามไปไตส่วนบน (emphysematous pyelonephritis) ได้ · รักษา: ยาปฏิชีวนะ IV ระบายปัสสาวะด้วยสายสวน และคุมน้ำตาล ส่วนใหญ่ไม่ต้องผ่าตัด (ผ่าเมื่อผนังตายหรือไม่ตอบสนอง) · ไฟล์คีย์ชุดแรกวง A แปะสไลด์ complicated cystitis เขียนว่าเห็นใน CT และไฟล์คีย์ชุดที่สองเขียน <b>\"wall ✓CT\"</b> ที่ A และ <b>\"✗ plain film\"</b> ที่ B",
   "wrong": {
-   "B": "Beaded necklace/cobblestone คือแนวลมเป็นเม็ด ๆ รอบขอบกระเพาะปัสสาวะที่เห็นบนภาพรังสีธรรมดา (P'Ing: ✗ plain film) ไม่ใช่ภาพ CT · จะถูกถ้าผู้ป่วยรายเดียวกันได้ถ่ายแค่ KUB แล้วต้องบอกลักษณะที่เห็น",
-   "C": "<b>นอกสไลด์:</b> ผนังหนาร่วมกับของเหลวตกตะกอนเป็นชั้นไม่จำเพาะ · จะถูกถ้าผู้ป่วยได้ cyclophosphamide แล้วปัสสาวะเป็นเลือดมาก (hemorrhagic cystitis) เลือดและลิ่มเลือดตกตะกอนในกระเพาะปัสสาวะ",
-   "D": "<b>นอกสไลด์:</b> ผนังกระเพาะปัสสาวะมีหินปูนเป็นภาพเรื้อรัง ไม่ใช่การติดเชื้อเฉียบพลัน · จะถูกถ้าผู้ป่วยจากแอฟริกาหรือตะวันออกกลางปัสสาวะเป็นเลือดเรื้อรังจาก Schistosoma haematobium",
-   "E": "<b>นอกสไลด์:</b> Filling defect ที่มีก้านคือก้อน papillary ในโพรง · จะถูกถ้าผู้สูงอายุสูบบุหรี่มาด้วยปัสสาวะเป็นเลือดไม่เจ็บ แล้ว CT urography เห็นก้อนยื่นเข้าโพรงกระเพาะปัสสาวะ"
+   "B": "Beaded necklace คือภาพ<b>บน plain radiograph</b> ของ emphysematous cystitis เอง — ฟองแก๊สในผนังเรียงเป็นเม็ดโปร่งรังสีรอบขอบกระเพาะปัสสาวะ (หรือเป็น cobblestone) จึงเกี่ยวกับโรคนี้แต่ไม่ใช่ภาพ cross-sectional ที่ถาม — จะถูกถ้าเป็นหญิงเบาหวาน 70 ปีมีไข้ ปัสสาวะขุ่น ถ่ายภาพ KUB ธรรมดาแล้วเห็นแนวฟองลมเป็นเม็ด ๆ เรียงล้อมเงากระเพาะปัสสาวะ",
+   "C": "ผนังหนาร่วมกับ fluid-fluid level บ่งว่ามีหนองหรือตะกอนแยกชั้นในกระเพาะปัสสาวะ เข้ากับ <b>pyocystis</b> (หนองขังในกระเพาะปัสสาวะที่ไม่มีปัสสาวะไหลผ่าน) ไม่ใช่แก๊ส — จะถูกถ้าเป็นชาย 60 ปีไตวายฟอกเลือดที่ไม่มีปัสสาวะแล้ว (anuric) มีไข้ ปวดท้องน้อย CT เห็นผนังหนาและตะกอนหนองชั้นล่าง สวนได้หนองข้น",
+   "D": "ผนังกระเพาะปัสสาวะมีหินปูนเป็นเส้นบาง ๆ รอบวงพบใน <b>schistosomiasis</b> (<i>S. haematobium</i>) เป็นหลัก รองลงมาคือวัณโรค radiation cystitis และ encrusted cystitis — จะถูกถ้าเป็นชายชาวอียิปต์ 40 ปีเคยลงแหล่งน้ำจืดบ่อย มีปัสสาวะเป็นเลือดตอนท้ายสาย KUB เห็นหินปูนเป็นวงรอบกระเพาะปัสสาวะ (เสี่ยง squamous cell carcinoma)",
+   "E": "Filling defect ที่มีก้านคือก้อนที่ยึดผนัง เช่น <b>papillary urothelial carcinoma</b> หรือ polyp ต่างจากนิ่วหรือลิ่มเลือดที่เคลื่อนที่ได้ ไม่มีแก๊ส — จะถูกถ้าเป็นชาย 68 ปีสูบบุหรี่ ปัสสาวะเป็นเลือดไม่เจ็บ CT urography เห็นก้อนยื่นเข้าโพรงกระเพาะปัสสาวะมีก้านเกาะผนัง → cystoscopy และ TURBT"
   },
-  "trap": "Beaded necklace ก็เป็นลักษณะของโรคนี้จริง แต่เป็นภาพรังสีธรรมดา — โจทย์ถาม cross-sectional imaging",
+  "trap": "ช้อย B (beaded necklace) เป็นภาพของ emphysematous cystitis จริง จึงทำให้ลังเล แต่เป็นภาพบน <b>plain film</b> (ที่ไฟล์เขียน \"✗ plain film\") ส่วนโจทย์ถามภาพบน <b>cross-sectional imaging</b> ซึ่งคือแก๊สในผนังกระเพาะปัสสาวะบน CT · และต้องแยกแก๊สในผนัง (โรคนี้) จากแก๊สในโพรงอย่างเดียว (หลังใส่สายสวน หรือ colovesical fistula)",
   "summary": [
-   "<b>นอกสไลด์:</b> กลุ่มเสี่ยง: เบาหวาน (ส่วนใหญ่), หญิงสูงอายุ, neurogenic bladder, ปัสสาวะคั่ง, ภูมิคุ้มกันต่ำ · เชื้อ E. coli, Klebsiella",
-   "<b>นอกสไลด์:</b> อาการเหมือน cystitis ทั่วไปได้ บางรายมี pneumaturia"
+   "Emphysematous UTI ทั้ง cystitis และ pyelonephritis สัมพันธ์กับเบาหวานคุมไม่ดีมาก เชื้อหลัก <i>E. coli</i> และ <i>Klebsiella</i> หมักกลูโคสในเนื้อเยื่อได้แก๊ส",
+   "Emphysematous cystitis: CT เห็นแก๊สในผนัง ± ในโพรง · plain film เห็นแนวโปร่งรังสีโค้งรอบขอบกระเพาะปัสสาวะ (beaded necklace/ cobblestone) · ultrasound เห็นผนังหนาสะท้อนเสียงสูงมีเงา (dirty shadowing)",
+   "รักษา emphysematous cystitis: ยาปฏิชีวนะ IV + สายสวนระบายปัสสาวะ + คุมน้ำตาล ส่วนใหญ่หายได้โดยไม่ผ่าตัด · ผ่าตัด (debridement/ cystectomy) เมื่อผนังตายหรือไม่ตอบสนอง",
+   "Emphysematous pyelonephritis (Huang &amp; Tseng): class 1 แก๊สใน collecting system · 2 แก๊สในเนื้อไต · 3A ลามรอบไต · 3B ลามเลย Gerota fascia · 4 สองข้างหรือไตข้างเดียว → class 1–2 ยา + ระบาย (PCD/ stent) · class 3–4 ที่แย่ลงพิจารณา nephrectomy",
+   "แก๊สในโพรงกระเพาะปัสสาวะโดยไม่มีในผนัง: หลังใส่สายสวนหรือส่องกล้อง หรือ colovesical fistula (diverticulitis, มะเร็ง colon, Crohn) — ต่างจาก emphysematous cystitis ที่แก๊สอยู่ในผนัง",
+   "Pneumaturia ร่วมเศษอุจจาระในปัสสาวะชี้ fistula ระหว่างลำไส้กับกระเพาะปัสสาวะ · CT เป็นการตรวจที่ดีที่สุดหา fistula (แก๊สในกระเพาะปัสสาวะ ผนังหนาติดลำไส้)",
+   "ผนังกระเพาะปัสสาวะมีหินปูน: schistosomiasis (พบบ่อยที่สุดทั่วโลก), วัณโรค, radiation, encrusted cystitis (<i>Corynebacterium urealyticum</i>) และ cyclophosphamide cystitis เรื้อรัง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ทั้ง 2 ไฟล์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — แก๊สในผนังกระเพาะปัสสาวะบน CT เป็นลักษณะวินิจฉัยของ emphysematous cystitis และ CT เป็นการตรวจที่ไวที่สุด · ตรงกับคีย์ทั้งสองไฟล์ (ชุดแรกวง A แปะสไลด์ complicated cystitis ชุดที่สองเขียน \"wall ✓CT\") · ไฟล์ต้นฉบับมีแค่ 2 ช้อย เว็บเติม C–E โดยไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Emphysematous = แก๊สใน \"ผนัง\" — CT เห็นผนัง, plain film เห็นสร้อยลูกปัด'</b>",
+  "guide": "Campbell-Walsh-Wein Urology 12th ed. (2020) — Infections of the urinary tract; EAU Guidelines on Urological Infections 2025",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังส่องกล้องกระเพาะปัสสาวะ CT เห็นลมในโพรงอย่างเดียว ผนังปกติ ไม่มีไข้ → ลมจากการส่องกล้อง ไม่ใช่ emphysematous cystitis",
-   "<b>นอกสไลด์:</b> ผู้ป่วยเบาหวานไข้สูง ปวดสีข้าง CT เห็นลมในเนื้อไต → emphysematous pyelonephritis"
+   "หญิงเบาหวาน 65 ปี ไข้สูง ปวดบั้นเอวขวา CT เห็นแก๊สในเนื้อไตลามรอบไต แต่ยังอยู่ใน Gerota fascia (class 3A) ความดันคงที่ → ยา IV + percutaneous drainage พิจารณา nephrectomy ถ้าไม่ดีขึ้น",
+   "ชาย 60 ปีหลัง diverticulitis มีปัสสาวะเป็นลมและเศษอาหาร CT เห็นแก๊สในโพรงกระเพาะปัสสาวะติดกับ sigmoid ผนังกระเพาะไม่มีแก๊ส → colovesical fistula",
+   "ผู้ป่วยหลังส่องกล้อง cystoscopy 1 วัน CT บังเอิญพบแก๊สเล็กน้อยในโพรงกระเพาะปัสสาวะ ไม่มีไข้ ผนังปกติ → แก๊สจากหัตถการ ไม่ต้องรักษา",
+   "ทำไม emphysematous UTI พบในเบาหวาน → กลูโคสในเนื้อเยื่อสูงเป็นอาหารให้เชื้อหมักเป็นแก๊ส ร่วมกับเลือดไปเลี้ยงเนื้อเยื่อไม่ดีและภูมิคุ้มกันบกพร่อง แก๊สจึงสะสมได้"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>Emphysematous cystitis เห็นใน cross-sectional imaging ยังไง — A. Air in bladder B. Beaded necklace appearance</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์โจทย์มีแค่ 2 ช้อย → เติมช้อย C–E · COOK/GUN แปะสไลด์ complicated cystitis — Emphysematous cystitis เห็นใน CT · P'Ing เขียน \"wall ✓CT\" ที่ A และ \"✗ plain film\" ที่ B",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_uro2",
+   "kp75c_uro2"
   ]
  },
  "MDCU75|RoC|Uro 3": {
-  "interp": "หญิงไข้ ปวดสีข้าง CT พบฝีในไต 4 cm · stable → ถามการรักษาเริ่มต้น",
-  "why": "สไลด์ Renal abscess ในคีย์ (COOK/GUN): ฝี > 5 cm → PCD/open drainage · ลายมือ P'Ing เขียน '> 5 cm' กำกับช้อย C–E<br>ฝีขนาดนี้ในผู้ป่วย stable จึงเริ่มด้วยยาปฏิชีวนะทางหลอดเลือดก่อน · <b>นอกสไลด์:</b> ยาเข้าฝีขนาดกลางได้พอและส่วนใหญ่หายโดยไม่ต้องเจาะ ถ้าไม่ดีขึ้นใน 48–72 ชม. หรือภูมิคุ้มกันต่ำ ค่อยถ่ายภาพซ้ำและระบาย",
+  "interp": "หญิง 45 ปีมีไข้ ปวดบั้นเอว CT พบ <b>renal abscess ขนาด 4 cm</b> และ hemodynamics คงที่ — ถามการรักษาเริ่มต้น ต้องใช้เกณฑ์ขนาดฝีในไต (&lt; 3 / 3–5 / &gt; 5 cm) ร่วมกับสภาพผู้ป่วยตัดสินว่ายาอย่างเดียวพอหรือต้องระบาย",
+  "why": "Renal abscess เกิดได้สองทาง: <b>hematogenous</b> (มักเป็น <i>S. aureus</i> จากผิวหนัง ผู้ใช้ยาเสพติดทางหลอดเลือด ทำให้ cortical abscess/ renal carbuncle) และ <b>ascending</b> (gram-negative เช่น <i>E. coli</i> ร่วมกับการอุดกั้นหรือ reflux ซึ่งพบบ่อยกว่าในปัจจุบัน) · วินิจฉัยด้วย CT ฉีดสี: บริเวณความหนาแน่นต่ำไม่ enhance มีขอบ enhance (rim) · การรักษาตามขนาด: <b>&lt; 3 cm → ยาปฏิชีวนะ IV อย่างเดียว</b> · <b>3–5 cm → ยา IV ก่อน</b> พิจารณาเจาะระบายถ้าภูมิคุ้มกันต่ำหรือไม่ดีขึ้นใน 48–72 ชม. · <b>&gt; 5 cm → percutaneous drainage ร่วมกับยา</b> · ล้มเหลวจึงผ่าตัดระบายหรือตัดไต · ต้องตรวจหาและแก้<b>การอุดกั้น</b>ทางเดินปัสสาวะด้วยเสมอ (ไตอุดกั้นที่ติดเชื้อต้องใส่ stent หรือ nephrostomy ด่วน) · ให้ยา IV จนไข้ลงแล้วต่อยากินรวมหลายสัปดาห์ ติดตาม CT หรือ ultrasound จนฝียุบ · ฝี 4 cm ในผู้ป่วยคงที่จึงเริ่มด้วยยา IV · ไฟล์คีย์ชุดแรกวง B แปะสไลด์ Renal abscess ที่ใช้เกณฑ์ 5 cm สำหรับ PCD/ open drain และไฟล์คีย์ชุดที่สองกากบาท A ติ๊ก B และเขียน <b>\"&gt;5cm\"</b> คร่อมช้อย C–E",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ยากินไม่พอสำหรับฝีที่มีไข้ในช่วงแรก · จะถูกถ้าเป็น acute pyelonephritis ไม่มีฝี อาการไม่รุนแรง กินได้ไม่อาเจียน ไม่ตั้งครรภ์ — รักษาแบบผู้ป่วยนอกด้วยยากิน",
-   "C": "PCD ใช้กับฝีใหญ่ตามเกณฑ์ในสไลด์ · จะถูกถ้าฝีในไตขนาด 7 cm หรือฝีรอบไต (perinephric) ที่เป็นโพรงหนองชัด",
-   "D": "<b>นอกสไลด์:</b> ตัดไตเมื่อไตเสียหน้าที่หรือคุมการติดเชื้อไม่ได้ด้วยวิธีอื่น · จะถูกถ้าเป็น emphysematous pyelonephritis ที่ลมทำลายเนื้อไตทั้งข้าง ช็อกไม่ดีขึ้นหลังใส่สายระบาย หรือ xanthogranulomatous pyelonephritis ที่ไตไม่ทำงาน",
-   "E": "<b>นอกสไลด์:</b> Open drainage เป็นทางเลือกเมื่อเจาะผ่านผิวหนังไม่ได้ผล · จะถูกถ้าฝีรอบไตมีหลายช่อง หนองข้น ใส่สายระบายแล้วยังไม่ยุบและไข้ไม่ลง"
+   "A": "ยากินอย่างเดียวไม่พอสำหรับฝีในไตที่มีไข้ ซึ่งเป็น complicated UTI ต้องเริ่มยา IV ให้ระดับยาในเลือดสูงก่อน แล้วจึงเปลี่ยนเป็นยากินเมื่อไข้ลงและกินได้ — จะถูกถ้าเป็นหญิง 28 ปีไม่ตั้งครรภ์ เป็น acute pyelonephritis ไม่ซับซ้อน กินได้ ไม่อาเจียน ไม่มีโรคร่วม ultrasound ไม่พบฝีหรือการอุดกั้น → ยากินแบบผู้ป่วยนอก",
+   "C": "Percutaneous drainage ใต้ CT/ ultrasound เป็นมาตรฐานของฝีในไต <b>&gt; 5 cm</b> หรือฝีที่ให้ยาแล้วไม่ดีขึ้น และช่วยได้ในผู้ป่วยภูมิคุ้มกันต่ำ แต่ไม่จำเป็นตั้งแต่แรกสำหรับฝี 4 cm ที่ผู้ป่วยคงที่ — จะถูกถ้าเป็นชายเบาหวาน 60 ปี ฝีในไตขนาด 7 cm หรือให้ยา IV มา 72 ชม. แล้วยังไข้สูงและฝีไม่เล็กลง",
+   "D": "Nephrectomy ใช้เมื่อไตถูกทำลายจนไม่ทำงานหรือเป็นแหล่งติดเชื้อที่ควบคุมไม่ได้ เช่น xanthogranulomatous pyelonephritis หรือ emphysematous pyelonephritis ที่แย่ลงแม้ระบายแล้ว ไม่ใช่ฝีก้อนเดียว 4 cm — จะถูกถ้าเป็นหญิงเบาหวาน 55 ปีมีนิ่ว staghorn ไตข้างซ้ายไม่ทำงาน CT เห็นไตโตมีหลายโพรงรอบนิ่ว (bear paw sign) ติดเชื้อเรื้อรัง",
+   "E": "ผ่าตัดเปิดระบายใช้เมื่อเจาะผ่านผิวหนังไม่ได้หรือล้มเหลว เช่น ฝีหลายช่อง หนองข้นมาก หรือฝีรอบไตลามกว้างจนสายระบายไม่พอ — จะถูกถ้าเป็นผู้ป่วยฝีรอบไตหลายช่องขนาดใหญ่ที่ใส่สายระบายแล้ว 1 สัปดาห์หนองยังไม่ยุบ ไข้ไม่ลง CT เห็นช่องหนองแยกหลายช่องที่สายไปไม่ถึง"
   },
-  "trap": "เห็นคำว่า abscess แล้วตอบระบายทันที — ฝีในไตใช้ขนาดตัดสิน และขนาดกลางในผู้ป่วย stable เริ่มด้วยยาก่อน",
+  "trap": "เห็นคำว่า \"abscess\" แล้วนึกว่าต้องเจาะระบายทุกราย (หลัก source control ของฝีทั่วไป) จึงเลือก C · แต่ฝีในไตมีเลือดเลี้ยงดี ฝีขนาด<b>เล็กกว่า 5 cm</b> (โดยเฉพาะ &lt; 3 cm) ส่วนใหญ่หายด้วยยา IV อย่างเดียว · ใช้ <b>ขนาด + ภูมิคุ้มกัน + การตอบสนอง 48–72 ชม.</b> เป็นตัวตัดสิน และต้องดูว่ามีการอุดกั้นที่ต้องระบายด่วนหรือไม่",
   "summary": [
-   "สไลด์ในคีย์: renal abscess > 5 cm → PCD หรือ open drainage",
-   "<b>นอกสไลด์:</b> เชื้อส่วนใหญ่ gram-negative จาก UTI/นิ่ว/การอุดกั้น",
-   "<b>นอกสไลด์:</b> CT with contrast เป็นการตรวจหลัก · urine culture อาจลบในเชื้อที่มาทางเลือด ต้องเพาะเชื้อจากเลือดด้วย",
-   "<b>นอกสไลด์:</b> ฝีรอบไต (perinephric) ส่วนใหญ่ต้องระบาย และหาสาเหตุอุดกั้นเสมอ"
+   "Renal abscess ตามขนาด: &lt; 3 cm → ยา IV · 3–5 cm → ยา IV ± เจาะระบายถ้าภูมิคุ้มกันต่ำหรือไม่ตอบสนอง · &gt; 5 cm → percutaneous drainage + ยา · ล้มเหลว → ผ่าตัดระบาย/ nephrectomy",
+   "เชื้อ: hematogenous (<i>S. aureus</i>, ผู้ใช้ยาเสพติดทางหลอดเลือด ฝีผิวหนัง) → cortical abscess · ascending (<i>E. coli</i>, <i>Klebsiella</i>, <i>Proteus</i>) จากนิ่วหรือการอุดกั้น → corticomedullary abscess",
+   "CT ฉีดสีเป็นการตรวจที่ดีที่สุด: เห็นก้อนความหนาแน่นต่ำมี rim enhancement, perinephric stranding และ Gerota fascia หนา · ultrasound เป็นทางเลือกในหญิงตั้งครรภ์และใช้ติดตาม",
+   "เพาะเชื้อปัสสาวะอาจไม่ขึ้นในฝีที่มาทางกระแสเลือด → ต้องเพาะเชื้อจากเลือดและหนองที่เจาะได้ เพื่อเลือกยาให้ตรงเชื้อ",
+   "Perinephric abscess (ฝีอยู่นอกเนื้อไตใน Gerota fascia) มักเกิดจากฝีในไตแตกหรือการอุดกั้นจากนิ่ว ส่วนใหญ่ยาอย่างเดียวไม่พอ ต้องเจาะระบาย",
+   "ไตอุดกั้นร่วมติดเชื้อ (obstructive pyelonephritis/ pyonephrosis) เป็นภาวะฉุกเฉิน ต้องระบายด้วย ureteric stent หรือ percutaneous nephrostomy ร่วมกับยา และเลื่อนการเอานิ่วออกจนติดเชื้อหาย",
+   "Xanthogranulomatous pyelonephritis: หญิงวัยกลางคน นิ่ว staghorn เรื้อรัง <i>Proteus</i>/ <i>E. coli</i> ไตไม่ทำงาน CT bear paw sign → nephrectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ทั้ง 2 ไฟล์ ตามเกณฑ์ขนาดในสไลด์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ฝีในไต 4 cm ในหญิงที่คงที่ ไม่มีข้อมูลภูมิคุ้มกันต่ำ เริ่มด้วยยาปฏิชีวนะ IV แล้วประเมินการตอบสนอง ตรงกับคีย์ทั้งสองไฟล์ (ชุดแรกวง B ตามสไลด์เกณฑ์ 5 cm ชุดที่สองเขียน \"&gt;5cm\" ที่ C–E) · บางตำรา (Campbell) ให้พิจารณาเจาะระบายในฝี 3–5 cm ถ้าภูมิคุ้มกันต่ำหรือไม่ดีขึ้น",
+  "mnemonic": "<b>'ฝีไต: ต่ำกว่า 3 ยา, 3–5 ดูคน, เกิน 5 เจาะ'</b>",
+  "guide": "Campbell-Walsh-Wein Urology 12th ed. (2020) — Infections of the urinary tract (renal and perirenal abscess); EAU Guidelines on Urological Infections 2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ฝีในไต 4 cm ให้ยาทางหลอดเลือด 72 ชม. ไข้ไม่ลง CT ฝีไม่เล็กลง → percutaneous drainage",
-   "<b>นอกสไลด์:</b> ผู้ใช้ยาเสพติดชนิดฉีดมีฝีในเนื้อไต urine culture ลบ → นึกถึง S. aureus จากกระแสเลือด เพาะเชื้อจากเลือดและให้ยาครอบคลุม"
+   "ชายเบาหวานคุมไม่ดี ฝีในไต 4 cm ให้ยา IV 3 วันยังไข้สูง ฝีไม่เล็กลง → percutaneous drainage ร่วมกับยา",
+   "หญิงไข้สูง ปวดบั้นเอว CT เห็นนิ่วอุดท่อไตและไตบวมน้ำ ความดันเริ่มต่ำ → ระบายด่วนด้วย percutaneous nephrostomy หรือ ureteric stent + ยา IV",
+   "ผู้ใช้ยาเสพติดทางหลอดเลือดมีไข้ ปวดบั้นเอว ปัสสาวะปกติ เพาะเชื้อในเลือดขึ้น <i>S. aureus</i> CT เห็นฝีที่เปลือกไต 2 cm → renal carbuncle จากกระแสเลือด → anti-staphylococcal IV",
+   "ทำไมฝีในไตขนาดเล็กหายได้ด้วยยาโดยไม่ต้องเจาะ → เนื้อไตมีเลือดเลี้ยงมาก ยาเข้าถึงฝีได้ดี และหนองในฝีเล็กดูดซึมกลับได้ ต่างจากฝีขนาดใหญ่ที่หนองมากเกินกว่ายาจะจัดการได้"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>Renal abcess 4cm management? — A. oral antibiotic B. IV antibiotic C. PCD D. nephrectomy E. open drain</b><br>ลายมือ/ ไฮไลต์ในไฟล์: COOK/GUN แปะสไลด์ Renal abscess (UTI &amp; STD AJ.Manint) · P'Ing: A ✗ B ✓ วงเล็บ C–E เขียน \">5cm\" · บางตำรา (Campbell) ให้ 3–5 cm พิจารณา drainage ในผู้ป่วยภูมิคุ้มกันต่ำหรือไม่ตอบสนอง",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_uro3",
+   "kp75c_uro3"
   ]
  },
  "MDCU75|RoC|Uro 4": {
-  "interp": "ชายหนุ่มผื่น maculopapular ทั่วตัวรวมฝ่ามือฝ่าเท้า + treponemal และ nontreponemal บวก → ถามระยะของซิฟิลิส",
-  "why": "รูป The Stages of Syphilis ในคีย์ (COOK/GUN) · ลายมือ P'Ing: MP rash = bacteremia ✓, chancre = primary, late manifestation = tertiary, latent = ไม่มีอาการ<br><b>นอกสไลด์:</b> ระยะที่สองเกิดหลังแผล chancre ไม่กี่สัปดาห์เมื่อเชื้อกระจายทางเลือด → ผื่นทั่วตัวรวมฝ่ามือฝ่าเท้า, condyloma lata, mucous patch, ต่อมน้ำเหลืองโตทั่วไป · serology ทั้งสองแบบบวกเกือบทุกราย",
+  "interp": "ชาย 25 ปีมี <b>ผื่น maculopapular ทั่วตัวรวมถึงฝ่ามือฝ่าเท้า</b> และผลเลือดทั้ง treponemal และ nontreponemal บวก — ถามระยะของซิฟิลิส ต้องจับคู่อาการทางคลินิกกับระยะโรค (primary/ secondary/ latent/ tertiary) โดยใช้ผลเลือดยืนยันว่าเป็นซิฟิลิส",
+  "why": "ซิฟิลิสเกิดจาก <i>Treponema pallidum</i> · <b>Primary</b>: แผล chancre ไม่เจ็บ ขอบแข็ง ที่ตำแหน่งที่รับเชื้อ ราว 3 สัปดาห์ (10–90 วัน) หลังสัมผัส หายเองใน 3–6 สัปดาห์ · <b>Secondary</b>: ราว 4–10 สัปดาห์หลังเกิด chancre เชื้อ<b>กระจายทางกระแสเลือด</b> → ผื่น maculopapular ทั่วตัวไม่คัน <b>รวมฝ่ามือฝ่าเท้า</b>, condyloma lata, mucous patches, ต่อมน้ำเหลืองโตทั่วตัว, ผมร่วงหย่อม ๆ ไข้ บางรายมีตับอักเสบ ไตอักเสบ หรือเยื่อหุ้มสมองอักเสบ · ระยะนี้เชื้อมากที่สุด <b>nontreponemal titer สูงสุด</b> serology บวกเกือบทุกราย (ระวัง prozone ที่ titer สูงมากจนผลลบปลอม) · <b>Latent</b> = serology บวกโดยไม่มีอาการ: early &lt; 1 ปี, late ≥ 1 ปีหรือไม่ทราบ · <b>Tertiary</b> หลายปีต่อมา: gumma, aortitis · รักษา early syphilis (primary, secondary, early latent) ด้วย <b>benzathine penicillin G 2.4 ล้านยูนิต IM ครั้งเดียว</b> ระวัง Jarisch–Herxheimer reaction · ตรวจ HIV ทุกราย · ไฟล์คีย์ชุดแรกวง B แปะรูป The Stages of Syphilis และไฟล์คีย์ชุดที่สองเขียน <b>\"✓ MP rash\"</b> ที่ B พร้อม \"Bacteremia\" เหนือคำว่า MP rash",
   "wrong": {
-   "A": "Primary = แผล chancre ไม่เจ็บ ขอบแข็ง + ต่อมน้ำเหลืองขาหนีบโต ไม่มีผื่นทั่วตัว · <b>นอกสไลด์:</b> nontreponemal อาจยังลบช่วงแรก · จะถูกถ้าชายหนุ่มมีแผลไม่เจ็บที่องคชาต 1 ก้อน ฐานแข็ง ต่อมน้ำเหลืองขาหนีบโตไม่เจ็บ",
-   "C": "<b>นอกสไลด์:</b> Tertiary เกิดหลังติดเชื้อหลายปี: gumma, aortitis (aortic aneurysm/AR), neurosyphilis · จะถูกถ้าผู้สูงอายุมีก้อน gumma ที่ผิวหนังหรือกระดูก หรือ ascending aortic aneurysm ที่มีหินปูนแบบ tree-bark",
-   "D": "<b>นอกสไลด์:</b> Early latent = serology บวกแต่ไม่มีอาการ และติดเชื้อภายใน 1 ปี · จะถูกถ้าชายที่ไม่มีอาการตรวจคัดกรองพบ serology บวก ทั้งที่ผลตรวจเมื่อ 6 เดือนก่อนลบ",
-   "E": "<b>นอกสไลด์:</b> Late latent = serology บวก ไม่มีอาการ ติดเชื้อเกิน 1 ปีหรือไม่ทราบระยะเวลา · จะถูกถ้าหญิงตรวจสุขภาพก่อนแต่งงานพบ serology บวก ไม่มีอาการ ไม่เคยตรวจมาก่อน"
+   "A": "Primary syphilis มีแผล chancre ไม่เจ็บ ขอบแข็ง ก้นแผลสะอาด ที่อวัยวะเพศ ทวาร หรือปาก ร่วมกับต่อมน้ำเหลืองขาหนีบโตไม่เจ็บ ไม่มีผื่นทั่วตัว และ serology อาจยังลบในช่วงแรก — จะถูกถ้าเป็นชาย 22 ปีมีแผลเดี่ยวไม่เจ็บที่ปลายองคชาต 3 สัปดาห์หลังมีเพศสัมพันธ์ไม่ป้องกัน ขอบแผลแข็ง ต่อมน้ำเหลืองขาหนีบโตไม่เจ็บ dark-field เห็นเชื้อเกลียว",
+   "C": "Tertiary syphilis เกิดหลายปีถึงหลายสิบปีหลังติดเชื้อที่ไม่ได้รักษา มี gumma (ก้อนเนื้อตายในผิว กระดูก ตับ) หรือ cardiovascular syphilis (aortitis, aortic regurgitation, aneurysm ของ ascending aorta) ไม่ใช่ผื่น maculopapular — จะถูกถ้าเป็นชาย 60 ปีไม่เคยรักษาซิฟิลิส มีเสียง diastolic murmur ของ aortic regurgitation CXR เห็น ascending aorta โป่งมีหินปูนแนวเปลือกไข่ serology บวก",
+   "D": "Early latent syphilis คือ serology บวกแต่<b>ไม่มีอาการหรืออาการแสดงใด ๆ</b> และติดเชื้อภายใน 1 ปี (เช่นมีผลเลือดลบภายในปีที่ผ่านมา) — จะถูกถ้าเป็นชาย 30 ปีตรวจเลือดก่อนบวช RPR 1:16 TPHA บวก ไม่มีผื่นหรือแผล และผลตรวจเลือดเมื่อ 8 เดือนก่อนเป็นลบ → benzathine penicillin G 2.4 ล้านยูนิตครั้งเดียว",
+   "E": "Late latent syphilis คือ serology บวกไม่มีอาการ และติดเชื้อนานกว่า 1 ปีหรือไม่ทราบระยะเวลา ซึ่งต้องฉีด benzathine penicillin G 2.4 ล้านยูนิตสัปดาห์ละครั้ง 3 ครั้ง — จะถูกถ้าเป็นหญิงตั้งครรภ์ 35 ปีฝากครรภ์ครั้งแรกตรวจพบ RPR 1:4 และ TPHA บวก ไม่มีอาการ ไม่เคยตรวจเลือดมาก่อน"
   },
-  "trap": "เห็น serology บวกทั้งสองแบบแล้วตอบ latent — latent ต้องไม่มีอาการ ผื่นที่ฝ่ามือฝ่าเท้าคือระยะที่สอง",
+  "trap": "ผลเลือดบวกทั้งสองแบบทำให้บางคนคิดถึง latent syphilis เพราะ \"ตรวจเลือดเจอ\" · แต่ latent ต้อง<b>ไม่มีอาการ</b> — ผื่นทั่วตัวที่ลามถึง<b>ฝ่ามือฝ่าเท้า</b>คือ secondary · ผื่นที่ฝ่ามือฝ่าเท้ามีโรคที่ต้องนึกถึงไม่มาก (secondary syphilis, Rocky Mountain spotted fever, hand-foot-mouth disease, erythema multiforme, Kawasaki) ในผู้ใหญ่ที่มีความเสี่ยงทางเพศต้องนึกถึงซิฟิลิสก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> ลำดับ: primary (chancre) → secondary (ผื่น, condyloma lata) → latent (ไม่มีอาการ; early ≤ 1 ปี, late > 1 ปี/ไม่ทราบ) → tertiary · neurosyphilis เกิดได้ทุกระยะ",
-   "<b>นอกสไลด์:</b> Serology: nontreponemal (VDRL/RPR) ใช้ติดตามการรักษา titer ลดลงหลังรักษา · treponemal (TPHA/FTA-ABS) มักบวกตลอดชีวิต",
-   "<b>นอกสไลด์:</b> รักษา primary, secondary, early latent: benzathine penicillin G 2.4 ล้านยูนิต IM ครั้งเดียว · late latent: ฉีดสัปดาห์ละครั้ง 3 ครั้ง · neurosyphilis: aqueous penicillin G ทางหลอดเลือด · แพ้ penicillin (ไม่ตั้งครรภ์): doxycycline 14 วัน",
-   "<b>นอกสไลด์:</b> ตรวจ HIV และ STI อื่นทุกราย · ติดตามคู่นอน"
+   "ระยะเวลา: primary chancre ราว 3 สัปดาห์หลังสัมผัส (10–90 วัน) · secondary ราว 4–10 สัปดาห์หลัง chancre · latent ไม่มีอาการ (early &lt; 1 ปี/ late ≥ 1 ปี) · tertiary หลายปีถึงหลายสิบปี",
+   "Nontreponemal test (VDRL, RPR) ใช้คัดกรองและติดตามการรักษาด้วย titer · treponemal test (TPHA, TPPA, FTA-ABS, EIA/CIA) ใช้ยืนยันและมักบวกตลอดชีวิตแม้รักษาแล้ว · reverse sequence algorithm เริ่มด้วย treponemal EIA แล้วตามด้วย RPR",
+   "รักษา (CDC 2021): primary, secondary, early latent → benzathine penicillin G 2.4 ล้านยูนิต IM ครั้งเดียว · late latent/ ไม่ทราบระยะ → 2.4 ล้านยูนิตสัปดาห์ละครั้ง × 3 · แพ้ penicillin (ไม่ตั้งครรภ์) → doxycycline 100 mg วันละ 2 ครั้ง 14 วัน (late latent 28 วัน)",
+   "Neurosyphilis, ocular และ otic syphilis เกิดได้ทุกระยะ → aqueous crystalline penicillin G IV 18–24 ล้านยูนิต/วัน นาน 10–14 วัน · หญิงตั้งครรภ์แพ้ penicillin ต้อง desensitization แล้วให้ penicillin",
+   "Jarisch–Herxheimer reaction: ไข้ หนาวสั่น ปวดเมื่อยภายใน 24 ชม. หลังเริ่มยา จากเชื้อตายปล่อยสาร พบบ่อยใน secondary syphilis รักษาตามอาการ ไม่ใช่การแพ้ยา",
+   "ติดตาม: nontreponemal titer ลดลง ≥ 4 เท่า (2 dilutions) ภายใน 6–12 เดือนถือว่าตอบสนอง · titer เพิ่ม ≥ 4 เท่าคงอยู่ = ล้มเหลวหรือติดซ้ำ · ตรวจ HIV และ STI อื่นทุกราย และติดตามคู่เพศสัมพันธ์",
+   "Condyloma lata (secondary syphilis) ต่างจาก condyloma acuminata (HPV): lata แบนชื้น ผิวเรียบ เต็มไปด้วยเชื้อ ติดต่อง่าย · acuminata เป็นติ่งหงอนไก่ผิวขรุขระ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ทั้ง 2 ไฟล์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ผื่น maculopapular ทั่วตัวรวมฝ่ามือฝ่าเท้าร่วมกับ serology บวกทั้งสองชนิดคือ secondary syphilis ตามนิยาม CDC · ตรงกับคีย์ทั้งสองไฟล์ (ชุดแรกวง B แปะรูป The Stages of Syphilis ชุดที่สองเขียน \"✓ MP rash\" และ \"Bacteremia\")",
+  "mnemonic": "<b>'Secondary = Systemic Skin (ฝ่ามือฝ่าเท้า) จากเชื้อในกระแสเลือด'</b>",
+  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines 2021 (MMWR Recomm Rep 2021;70(4)) — Syphilis",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังฉีด benzathine penicillin 6 ชม. ไข้ หนาวสั่น ปวดเมื่อย ผื่นชัดขึ้น → Jarisch-Herxheimer reaction ให้ยาลดไข้ ไม่ต้องหยุดการรักษา",
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์เป็นซิฟิลิสระยะที่สองและแพ้ penicillin → desensitization แล้วให้ penicillin"
+   "ชาย 30 ปีไม่มีอาการ RPR 1:16 TPHA บวก ผลเลือด 6 เดือนก่อนเป็นลบ → early latent syphilis → benzathine penicillin G 2.4 ล้านยูนิต IM ครั้งเดียว",
+   "ผู้ป่วยซิฟิลิสระยะที่สองฉีด benzathine penicillin แล้ว 6 ชม. มีไข้ หนาวสั่น ปวดเมื่อย ผื่นชัดขึ้น → Jarisch–Herxheimer reaction ให้ยาลดไข้ ไม่ต้องหยุดหรือเปลี่ยนยา",
+   "ผู้ป่วยซิฟิลิสมีตามัว ม่านตาอักเสบ (uveitis) → ocular syphilis → aqueous penicillin G IV 10–14 วัน และเจาะน้ำไขสันหลังประเมิน neurosyphilis",
+   "หญิงตั้งครรภ์ RPR บวก TPHA บวก แพ้ penicillin แบบผื่นลมพิษ → ทำ penicillin desensitization แล้วให้ penicillin เพราะเป็นยาเดียวที่ป้องกัน congenital syphilis ได้แน่นอน"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>MP rash Treponemal test+ Nontreponemal test + — A. primary syphilis B. secondary syphilis C. tertiary syphilis D. early latent syphilis E. late latent syphilis</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing เขียน Bacteremia เหนือ MP rash · COOK/GUN แปะรูป The Stages of Syphilis (UTI &amp; STD AJ.Manint)",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_uro4",
+   "kp75c_uro4"
   ]
  },
  "MDCU75|RoC|Uro 5": {
-  "interp": "มะเร็ง germ cell ของอัณฑะข้างขวา · ถามต่อมน้ำเหลืองกลุ่มแรกที่มะเร็งกระจายไป",
-  "why": "สไลด์ในคีย์ (COOK/GUN, Genitourinary tumor): <b>Right testis → interaortocaval LN · Left testis → para-aortic LN · Scrotum → inguinal LN</b><br><b>นอกสไลด์:</b> อัณฑะเกิดในช่องท้องระดับไตแล้วเคลื่อนลงมา ท่อน้ำเหลืองจึงวิ่งตามหลอดเลือด gonadal ไปที่ retroperitoneum ระดับ renal hilum — ข้างขวาลงใกล้ IVC จึงไป interaortocaval ข้างซ้ายตาม left gonadal vein ไป left renal vein จึงไป para-aortic · มะเร็งกระจายแบบเป็นขั้น",
+  "interp": "ชาย 28 ปีมี germ cell tumor ของ<b>อัณฑะข้างขวา</b> — ถามต่อมน้ำเหลืองกลุ่มแรก (primary landing zone) ที่มะเร็งลามไป ซึ่งต้องใช้ embryology ของอัณฑะและทางเดินของหลอดเลือด gonadal ข้างขวาเทียบกับข้างซ้าย",
+  "why": "อัณฑะเจริญในช่องท้องหลังเยื่อบุช่องท้องระดับใกล้ไต (ราว L1–L2) แล้วเคลื่อนลงถุงอัณฑะ โดยลากหลอดเลือดและท่อน้ำเหลืองตามมาใน spermatic cord ท่อน้ำเหลืองจึงไหลกลับขึ้นไปที่<b>ต่อมน้ำเหลือง retroperitoneum</b> ไม่ใช่ขาหนีบ · <b>ข้างขวา</b>: testicular vein เข้า IVC โดยตรง → landing zone แรกคือ <b>interaortocaval nodes</b> ใต้ระดับ renal hilum (ตามด้วย precaval และ paracaval) และ<b>ข้ามไปฝั่งซ้ายได้บ่อย</b> · <b>ข้างซ้าย</b>: testicular vein เข้า left renal vein → landing zone แรกคือ <b>left para-aortic</b> (และ preaortic) nodes ใต้ left renal vein ข้ามไปขวาได้น้อย · ผิวหนังถุงอัณฑะไหลไป <b>superficial inguinal nodes</b> จึงต้องทำ <b>radical inguinal orchiectomy</b> (ผูก spermatic cord สูงที่ internal ring) ห้ามผ่าหรือเจาะผ่านถุงอัณฑะเพราะเปิดทางน้ำเหลืองใหม่ไปขาหนีบ · ใช้หลักนี้วาง template ของ RPLND และอ่าน staging CT · ไฟล์คีย์ชุดแรกวง A แปะสไลด์ <b>\"Primary lymphatic drainage — Left: para-aortic LN, Right: interaortocaval LN, Scrotum: inguinal LN\"</b> และไฟล์คีย์ชุดที่สองเขียน B ✗ (left) C ✗ (scrotum)",
   "wrong": {
-   "B": "Left para-aortic เป็นสถานีแรกของอัณฑะข้างซ้าย · จะถูกถ้าเป็น germ cell tumor ของอัณฑะซ้าย",
-   "C": "Inguinal LN รับน้ำเหลืองจากผิวหนังถุงอัณฑะ ไม่ใช่ตัวอัณฑะ · <b>นอกสไลด์:</b> จะถูกถ้ามะเร็งอัณฑะลุกถึงผิวหนังถุงอัณฑะ หรือเคยถูกเจาะ/ผ่าผ่านถุงอัณฑะ (scrotal violation)",
-   "D": "<b>นอกสไลด์:</b> External iliac ไม่ใช่ทางระบายหลักของอัณฑะ · จะถูกถ้าเป็นมะเร็งกระเพาะปัสสาวะที่ลุกกล้ามเนื้อ — สถานีแรกคือ perivesical, obturator และ external iliac",
-   "E": "<b>นอกสไลด์:</b> Internal iliac รับน้ำเหลืองจากอวัยวะใน pelvis · จะถูกถ้าเป็นมะเร็ง rectum ส่วนล่างใต้ peritoneal reflection ที่กระจายไป lateral pelvic node"
+   "B": "Left para-aortic nodes ใต้ left renal vein เป็น landing zone แรกของ<b>อัณฑะข้างซ้าย</b> เพราะ left testicular vein เทเข้า left renal vein · ข้างขวาข้ามมาฝั่งซ้ายได้ แต่ไม่ใช่กลุ่มแรก — จะถูกถ้าเป็นชาย 30 ปีมี nonseminoma ที่อัณฑะซ้าย หลัง radical inguinal orchiectomy CT พบต่อมน้ำเหลือง 2 cm ข้าง aorta ซ้ายใต้ระดับ left renal vein",
+   "C": "Inguinal nodes รับน้ำเหลืองจาก<b>ผิวหนังถุงอัณฑะ</b> องคชาต และทวารหนักส่วนล่าง ไม่ใช่จากตัวอัณฑะ — จะถูกถ้าเป็นชาย 35 ปีเคยถูกผ่าตัดหรือเจาะชิ้นเนื้อผ่านถุงอัณฑะ (trans-scrotal) ทำให้มะเร็งอัณฑะลามเข้าผิวถุงอัณฑะ แล้วคลำได้ต่อมน้ำเหลืองขาหนีบโต หรือเป็นผู้ป่วยมะเร็งผิวหนังของถุงอัณฑะ",
+   "D": "External iliac nodes ไม่ใช่ทางระบายปกติของอัณฑะ จะเกี่ยวข้องเมื่อทางน้ำเหลืองเปลี่ยน เช่น เคยผ่าตัดขาหนีบ/ ถุงอัณฑะ หรือมีก้อนใหญ่ใน retroperitoneum อุดทางทำให้ไหลย้อน — จะถูกถ้าเป็นชาย 32 ปีเคยผ่าตัด orchiopexy ข้างขวาตอนเด็ก แล้วเป็นมะเร็งอัณฑะข้างนั้น CT พบต่อมน้ำเหลือง external iliac โตเพราะทางน้ำเหลืองถูกเปลี่ยนจากการผ่าตัดเดิม",
+   "E": "Internal iliac nodes รับน้ำเหลืองจากอวัยวะในอุ้งเชิงกราน เช่น prostate, กระเพาะปัสสาวะ, rectum, ปากมดลูก ไม่ใช่อัณฑะซึ่งระบายขึ้น retroperitoneum — จะถูกถ้าเป็นชาย 68 ปีมะเร็งต่อมลูกหมาก Gleason 4+4 PSA 30 ng/mL ที่ MRI/ PSMA PET พบต่อมน้ำเหลือง internal iliac (obturator) โต"
   },
-  "trap": "สับสนทางระบายของผิวหนังถุงอัณฑะ (inguinal) กับตัวอัณฑะ (retroperitoneum) — และต้องจำข้าง: ขวา interaortocaval ซ้าย para-aortic",
+  "trap": "คิดว่าอวัยวะในถุงอัณฑะต้องระบายไปขาหนีบเหมือนผิวถุงอัณฑะ (เลือก C) หรือจำข้างสลับ (เลือก left para-aortic) · จำด้วยทางหลอดเลือดดำ: <b>ขวาเข้า IVC → ระหว่าง aorta กับ IVC</b> · <b>ซ้ายเข้า left renal vein → ข้าง aorta ซ้าย</b> · ผิวถุงอัณฑะเท่านั้นที่ไปขาหนีบ",
   "summary": [
-   "สไลด์ในคีย์: right → interaortocaval · left → para-aortic · scrotum → inguinal",
-   "<b>นอกสไลด์:</b> กระจายทางน้ำเหลืองเป็นขั้น ยกเว้น choriocarcinoma ที่ไปทางเลือดแต่แรก (ปอด สมอง)",
-   "<b>นอกสไลด์:</b> ห้าม biopsy หรือผ่าผ่านถุงอัณฑะ → radical inguinal orchiectomy (ผูก spermatic cord สูงที่ internal ring)",
-   "<b>นอกสไลด์:</b> Landing zone ใช้กำหนดขอบเขต retroperitoneal lymph node dissection"
+   "Testicular germ cell tumor: มะเร็งก้อนแข็งที่พบบ่อยที่สุดในชายอายุ 15–35 ปี · ก้อนแข็งไม่เจ็บที่อัณฑะ → scrotal ultrasound ทันที · ปัจจัยเสี่ยงหลักคืออัณฑะไม่ลงถุง (cryptorchidism) และประวัติมะเร็งอัณฑะอีกข้าง",
+   "Tumor markers ก่อนและหลังผ่าตัด: AFP (สูงใน yolk sac/ nonseminoma; seminoma แท้ไม่สร้าง AFP), β-hCG (choriocarcinoma, บางส่วนใน seminoma), LDH (ปริมาณก้อน) · ใช้ทั้ง staging (S stage) และติดตาม",
+   "Radical inguinal orchiectomy ผูก spermatic cord สูงที่ internal inguinal ring เป็นทั้งการวินิจฉัยและรักษา · ห้าม trans-scrotal biopsy/ orchiectomy เพราะเปลี่ยนทางน้ำเหลืองไปขาหนีบและเพิ่ม local recurrence",
+   "Staging: CT ช่องท้องและอุ้งเชิงกรานฉีดสี + CT/ CXR ทรวงอก · ทางกระจายหลักคือน้ำเหลืองไป retroperitoneum ยกเว้น choriocarcinoma ที่ไปทางกระแสเลือด (ปอด สมอง) เร็ว",
+   "Seminoma ไวต่อรังสีและเคมีบำบัดมาก · stage I หลังผ่าตัดเลือก surveillance (ทางเลือกหลัก) หรือ carboplatin 1 รอบ · nonseminoma stage I: surveillance, BEP 1 รอบ หรือ nerve-sparing RPLND",
+   "Nerve-sparing RPLND ตาม template รักษา sympathetic fibers (L1–L3/ hypogastric plexus) เพื่อคงการหลั่งน้ำอสุจิ (antegrade ejaculation) · ผ่าตัดเลาะก้อนหลังเคมีบำบัดเมื่อเหลือก้อน &gt; 1 cm ใน nonseminoma",
+   "ควรเสนอเก็บอสุจิ (sperm banking) ก่อนผ่าตัดหรือเคมีบำบัด · ผู้ป่วยมะเร็งอัณฑะมีความเสี่ยงเป็นมะเร็งที่อัณฑะอีกข้างราว 2–5% ตลอดชีวิต"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ทั้ง 2 ไฟล์ ตรงกับสไลด์ในคีย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ข้างขวาระบายตาม right gonadal vessels ไปที่ interaortocaval nodes เป็นกลุ่มแรก ตามตำรามาตรฐานและ EAU · ตรงกับคีย์ทั้งสองไฟล์ (ชุดแรกวง A แปะสไลด์ primary lymphatic drainage ชุดที่สองกากบาท B left และ C scrotum) · เว็บปรับช้อย B จาก Paraaortic เป็น Left para-aortic ให้ชัด ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'ขวาเข้า IVC = นอนกลางระหว่างสองท่อ (interaortocaval) · ซ้ายเข้าไตซ้าย = ข้าง aorta ซ้าย'</b>",
+  "guide": "EAU Guidelines on Testicular Cancer 2025; NCCN Clinical Practice Guidelines in Oncology: Testicular Cancer 2025; Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็งอัณฑะขวา CT พบต่อมน้ำเหลือง para-aortic ซ้ายโตร่วมกับ interaortocaval → การข้ามจากขวาไปซ้ายพบได้ (ซ้ายข้ามมาขวาน้อย)",
-   "<b>นอกสไลด์:</b> หลังตัดอัณฑะ AFP และ β-hCG ไม่ลดลงตาม half-life → ยังมีโรคเหลืออยู่ (แพร่กระจาย)"
+   "ชาย 25 ปีมะเร็งอัณฑะซ้าย CT พบต่อมน้ำเหลืองโตที่ left para-aortic ใต้ left renal vein ขนาด 3 cm → stage IIB → เคมีบำบัด BEP (หรือรังสีสำหรับ seminoma)",
+   "ชาย 20 ปีคลำได้ก้อนแข็งไม่เจ็บที่อัณฑะ ultrasound เห็นก้อน hypoechoic ในเนื้ออัณฑะ → ตรวจ AFP, β-hCG, LDH แล้ว radical inguinal orchiectomy ไม่ใช่ biopsy ผ่านถุงอัณฑะ",
+   "ชาย 30 ปีมะเร็งอัณฑะ ไอเป็นเลือด β-hCG สูงมาก CT พบก้อนในปอดหลายก้อน → choriocarcinoma กระจายทางกระแสเลือด",
+   "ทำไมมะเร็งอัณฑะไม่ไปต่อมน้ำเหลืองขาหนีบทั้งที่อยู่ในถุงอัณฑะ → อัณฑะกำเนิดใน retroperitoneum แล้วเคลื่อนลง ท่อน้ำเหลืองวิ่งตาม testicular vessels ใน spermatic cord กลับขึ้นไปที่ระดับไต"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>Right testicular cancer invades to which LN? — A. Interaortocaval B. Paraaortic C. Inguinal D. External iliac E. Internal iliac</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ใช้ช้อย B Paraaortic → ปรับเป็น Left para-aortic ให้ชัด · COOK/GUN แปะสไลด์ Primary lymphatic drainage Left: para-aortic LN, Right: interaortocaval LN, Scrotum: inguinal LN",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_uro5",
+   "kp75c_uro5"
   ]
  },
  "MDCU75|RoC|Colo 1": {
-  "interp": "หญิงที่มีเพศสัมพันธ์ทางทวาร มีหูดหงอนไก่รอบทวาร รักษาด้วย TCA ได้ผล · ถามการจัดการเพิ่มเติม (หารอยโรคที่อื่นและโรคร่วม)",
-  "why": "ลายมือแดง COOK/GUN: หูดอาจ<b>เป็นร่วมที่อื่น</b> ควร proctoscope, ตรวจ HIV และตรวจภายใน (PV)<br><b>นอกสไลด์:</b> HPV ติดทางเพศสัมพันธ์และมักเป็นหลายตำแหน่ง · ในหญิงต้องตรวจภายในหาหูดที่ช่องคลอด/ปากมดลูก (คัดกรองมะเร็งปากมดลูกตามรอบปกติ หูดไม่ใช่เหตุให้ตรวจถี่ขึ้น) · คนที่มีเพศสัมพันธ์ทางทวารต้องส่อง anoscopy หาหูดใน anal canal · ตรวจ HIV, syphilis และ STI อื่น (CDC 2021) — ในช้อยที่มี การตรวจภายในตรงที่สุด",
+  "interp": "หญิง 30 ปีมีเพศสัมพันธ์ทางทวาร (receptive anal intercourse) เป็น<b>หูดหงอนไก่รอบทวาร (perianal condylomata acuminata)</b> รักษาด้วย TCA ได้ผลดี — ถามการจัดการ<b>เพิ่มเติม</b> ซึ่งคือการหารอยโรค HPV ตำแหน่งอื่นและโรคติดต่อทางเพศสัมพันธ์ร่วม ไม่ใช่เปลี่ยนวิธีรักษาหูด",
+  "why": "หูดหงอนไก่เกิดจาก <b>HPV ชนิดความเสี่ยงต่ำ 6 และ 11</b> (ราว 90%) ติดทางเพศสัมพันธ์และมัก<b>เป็นหลายตำแหน่งพร้อมกัน</b> (multifocal) เพราะเชื้อติดทั่วบริเวณ anogenital · ในหญิงต้อง<b>ตรวจภายใน (speculum/ pelvic examination)</b> หาหูดที่ปากช่องคลอด ช่องคลอด ปากมดลูก และตรวจ STI ร่วม ส่วนคัดกรองมะเร็งปากมดลูกทำตามรอบปกติ (หูดไม่ใช่เหตุให้ตรวจถี่ขึ้น) · ผู้ที่มีเพศสัมพันธ์ทางทวารและมีหูดรอบทวารควรตรวจ <b>digital anal exam และ anoscopy</b> หาหูดใน anal canal · เสนอตรวจ <b>HIV, syphilis</b> และ STI อื่น (CDC 2021) · HPV ชนิดความเสี่ยงสูง (16, 18) ติดร่วมได้และสัมพันธ์กับ anal/ cervical intraepithelial neoplasia · การรักษาหูดภายนอก: แพทย์ทำ (cryotherapy, TCA/ BCA 80–90%, ตัด/ จี้) หรือผู้ป่วยทาเอง (imiquimod, podofilox, sinecatechins) · ในช้อยที่มี การตรวจภายในตรงกับหลักการหารอยโรคร่วมที่สุด · ไฟล์คีย์ชุดแรกวง A ลายมือแดง <b>\"may be co-exist, ควร proctoscope, HIV test, PV\"</b> ส่วนไฟล์คีย์ชุดที่สองวง D (imiquimod)",
   "wrong": {
-   "B": "ตรวจอุจจาระไม่ช่วยหารอยโรค HPV หรือ STI ร่วม (COOK/GUN: ควรตรวจ HIV แทน) · <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยหูดรอบทวารรายนี้มีถ่ายเหลวมีมูกเลือดร่วมด้วย สงสัยบิดอะมีบาหรือ shigella ที่ติดทางเพศสัมพันธ์",
-   "C": "ส่องกล้องทั้ง colon ไม่จำเป็น หูดอยู่บริเวณ anal canal ใช้ anoscopy/proctoscopy พอ (COOK/GUN: should be proctoscope) · <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยอายุ ≥ 45 ปีมีเลือดปนอุจจาระหรือนิสัยการขับถ่ายเปลี่ยน",
-   "D": "Imiquimod เป็นยาทาเองอีกทางเลือก แพงกว่า กลับเป็นซ้ำน้อยกว่า แต่ระคายผิว (COOK/GUN) — ไม่ใช่การจัดการเพิ่มเติมเมื่อ TCA ได้ผลแล้ว · คีย์ P'Ing เลือกข้อนี้ · <b>นอกสไลด์:</b> จะถูกถ้าหูดภายนอกกระจายกว้าง กลับเป็นซ้ำ ผู้ป่วยไม่ตั้งครรภ์และอยากรักษาเองที่บ้าน",
-   "E": "ไม่มียาต้านไวรัสที่รักษาหูด HPV ได้ (COOK/GUN: no effective Rx) · <b>นอกสไลด์:</b> จะถูกถ้าแผลที่อวัยวะเพศเป็นตุ่มน้ำกลุ่มเจ็บแตกเป็นแผลตื้น (genital herpes) → acyclovir/valacyclovir"
+   "B": "ตรวจอุจจาระไม่ช่วยหารอยโรค HPV หรือ STI ร่วม (ไฟล์คีย์ชุดแรกเขียนว่าควรตรวจ HIV แทน) — จะถูกถ้าเป็นชาย 28 ปีมีเพศสัมพันธ์ทางทวาร มาด้วยถ่ายเหลวปนมูกเลือด ปวดเบ่ง ไข้ (proctocolitis) ต้องตรวจอุจจาระหา <i>Shigella</i>, <i>Entamoeba</i>, <i>Campylobacter</i> ร่วมกับ NAAT หา gonorrhea/ chlamydia จากทวาร",
+   "C": "Colonoscopy ไม่จำเป็นเพราะหูดจาก HPV อยู่ที่ผิวรอบทวารและ anal canal ซึ่งดูได้ด้วย anoscopy/ proctoscopy (ไฟล์คีย์ชุดแรกเขียน \"should be proctoscope\") — จะถูกถ้าเป็นหญิง 50 ปีมีเลือดปนอุจจาระ ซีดจากขาดธาตุเหล็ก และนิสัยการขับถ่ายเปลี่ยน หรือเป็นผู้มีความเสี่ยงปกติอายุ 45 ปีขึ้นไปที่ต้องคัดกรองมะเร็งลำไส้ใหญ่",
+   "D": "Imiquimod (TLR7 agonist) เป็นยาที่ผู้ป่วยทาเองสำหรับหูดภายนอก กลับเป็นซ้ำน้อยกว่า แต่แพงกว่าและระคายผิวมาก (ไฟล์คีย์ชุดแรกเขียน more expensive, less recurrence, skin burn) — เป็นทางเลือกการรักษา ไม่ใช่การจัดการเพิ่มเติมเมื่อ TCA ได้ผลแล้ว · จะถูกถ้าเป็นหญิง 25 ปีไม่ตั้งครรภ์ มีหูดภายนอกหลายตุ่มที่ปากช่องคลอด ไม่มีหูดใน anal canal และต้องการทายาเองที่บ้าน",
+   "E": "ไม่มียาต้านไวรัสที่กำจัด HPV ได้ หูดหายด้วยการทำลายรอยโรคหรือภูมิคุ้มกันของร่างกาย (ไฟล์คีย์ชุดแรกเขียน no effective Rx) — จะถูกถ้าเป็นหญิง 22 ปีมีตุ่มน้ำเป็นกลุ่มเจ็บมากแตกเป็นแผลตื้นที่ปากช่องคลอด ต่อมน้ำเหลืองขาหนีบโตเจ็บ ไข้ (genital herpes ครั้งแรก) → acyclovir หรือ valacyclovir 7–10 วัน"
   },
-  "trap": "P'Ing ตอบ D imiquimod (คีย์ 2 ไฟล์ไม่ตรงกัน) — imiquimod เป็นการรักษาซ้ำซ้อน คำถามคือหารอยโรคที่อื่นและ STI ร่วม",
+  "trap": "ไฟล์คีย์ชุดที่สองเลือก imiquimod (D) เพราะเห็นคำว่าหูดแล้วคิดถึงยารักษาหูด · แต่โจทย์บอกแล้วว่า TCA ได้ผลดี คำถามคือ<b>สิ่งที่ต้องทำเพิ่ม</b> → หลักคือ HPV เป็นหลายตำแหน่งและมักมี STI ร่วม ต้อง<b>หารอยโรคที่อื่น</b> (ตรวจภายใน anoscopy) และตรวจ HIV/ syphilis · ช้อยที่ดีที่สุดจริงคือ anoscopy ซึ่งไม่มีในตัวเลือก",
   "summary": [
-   "<b>นอกสไลด์:</b> หูดหงอนไก่เกิดจาก HPV 6, 11 (ความเสี่ยงต่ำ) · AIN และมะเร็งทวารหนักสัมพันธ์กับ HPV 16, 18",
-   "<b>นอกสไลด์:</b> ประเมินร่วม: anoscopy (หูดใน anal canal), ตรวจภายใน (คัดกรองมะเร็งปากมดลูกตามรอบปกติ), ตรวจ HIV/syphilis/STI อื่น",
-   "<b>นอกสไลด์:</b> รักษา: แพทย์ทำ (TCA, cryotherapy, จี้/ตัด) หรือผู้ป่วยทาเอง (imiquimod, podophyllotoxin, sinecatechins) · หูดใน anal canal ใช้ TCA, cryotherapy หรือผ่าตัด",
-   "<b>นอกสไลด์:</b> ป้องกัน: HPV vaccine · ถุงยางลดแต่ไม่ป้องกันทั้งหมด"
+   "HPV 6, 11 (ความเสี่ยงต่ำ) → หูดหงอนไก่ราว 90% · HPV 16, 18 (ความเสี่ยงสูง) → CIN, AIN และมะเร็งปากมดลูก ทวารหนัก องคชาต oropharynx · ติดร่วมกันได้หลายชนิด",
+   "ประเมินผู้ป่วยหูดรอบทวาร: ตรวจภายในในหญิง · digital anal exam + anoscopy ในผู้มีเพศสัมพันธ์ทางทวารหรือมีหูดใกล้ anal verge · ตรวจ HIV, syphilis, gonorrhea/ chlamydia",
+   "รักษาหูดภายนอก (CDC 2021): แพทย์ทำ — cryotherapy, ผ่าตัดตัด/ จี้, TCA หรือ BCA 80–90% · ผู้ป่วยทาเอง — imiquimod 3.75% หรือ 5%, podofilox 0.5%, sinecatechins 15% · ไม่มีวิธีใดเหนือกว่าชัดเจน เลือกตามขนาด จำนวน ตำแหน่ง และความสะดวก",
+   "หูดใน anal canal: cryotherapy, TCA/ BCA หรือผ่าตัด (ร่วมกับผู้เชี่ยวชาญ) · ห้ามใช้ยาทาเองในทวาร · หูดในหญิงตั้งครรภ์: TCA, cryotherapy, ผ่าตัด เลี่ยง podofilox/ podophyllin",
+   "หูดที่ไม่ตอบสนอง แข็ง ยึดติด มีแผล เลือดออก หรือเป็นผู้มีภูมิคุ้มกันต่ำ → biopsy แยก squamous cell carcinoma และ Buschke–Löwenstein tumor (giant condyloma ที่ลุกลามเฉพาะที่)",
+   "HPV vaccine (9-valent) ป้องกันหูดและมะเร็งจาก HPV · แนะนำอายุ 11–12 ปี (เริ่มได้ 9 ปี) และฉีดตามหลังได้ถึง 26 ปี · อายุ 27–45 ปีตัดสินร่วมกัน",
+   "คัดกรองมะเร็งทวารหนัก (anal cytology/ high-resolution anoscopy) แนะนำในกลุ่มเสี่ยงสูง เช่น ผู้ติดเชื้อ HIV โดยเฉพาะชายที่มีเพศสัมพันธ์กับชาย และผู้ปลูกถ่ายอวัยวะ"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ P'Ing (D) · เห็นด้วยกับ COOK/GUN (A) ตาม CDC 2021 ที่ให้หารอยโรคที่อื่นและ STI ร่วม · ความมั่นใจปานกลาง (คำตอบที่ดีที่สุดจริงคือ anoscopy ซึ่งไม่มีในช้อย)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — คีย์สองไฟล์ไม่ตรงกัน: ไฟล์คีย์ชุดแรกตอบ A (หารอยโรคร่วม ควร proctoscope, HIV test, PV) ไฟล์คีย์ชุดที่สองตอบ D (imiquimod) · เว็บเลือก A ตาม CDC 2021 ที่ให้ประเมินรอยโรค HPV ตำแหน่งอื่นและ STI ร่วม ส่วน imiquimod เป็นแค่ทางเลือกการรักษาซ้ำซ้อนเมื่อ TCA ได้ผลแล้ว · คำตอบที่ดีที่สุดจริงคือ anoscopy ซึ่งไม่อยู่ในช้อย",
+  "mnemonic": "<b>'เจอหูดที่หนึ่ง หาที่สอง (ตรวจภายใน ส่องทวาร) และหาเพื่อนของมัน (HIV, ซิฟิลิส)'</b>",
+  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines 2021 (MMWR Recomm Rep 2021;70(4)) — Anogenital warts; ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์มีหูดหงอนไก่ที่ปากช่องคลอด → TCA หรือ cryotherapy (เลี่ยง imiquimod/podophyllotoxin)",
-   "<b>นอกสไลด์:</b> ชาย HIV บวกมีหูดรอบทวารร่วมกับแผลแข็งเลือดออกใน anal canal → biopsy แยก anal SCC"
+   "ชาย HIV บวกมีเพศสัมพันธ์กับชาย มีหูดรอบทวารร่วมกับก้อนแข็งมีแผลเลือดออกใน anal canal → biopsy แยก anal squamous cell carcinoma",
+   "หญิงตั้งครรภ์ 28 สัปดาห์มีหูดหงอนไก่ที่ปากช่องคลอด → TCA หรือ cryotherapy เลี่ยง podofilox และ imiquimod (ข้อมูลความปลอดภัยไม่พอ) ไม่ต้องผ่าคลอดเพราะหูดอย่างเดียว",
+   "ชาย 40 ปีมีก้อนหูดรอบทวารขนาดใหญ่มาก ลุกลามเข้าเนื้อเยื่อลึกแต่ชิ้นเนื้อไม่พบการแพร่กระจาย → Buschke–Löwenstein tumor → ผ่าตัดตัดออกกว้าง",
+   "หญิงหูดรอบทวาร ตรวจภายในพบหูดที่ปากมดลูกด้วย → ส่งตรวจคัดกรองมะเร็งปากมดลูกตามรอบปกติ และส่ง colposcopy ถ้าผลคัดกรองผิดปกติ"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>[COLO] Adult woman anal intercourse perianal condyloma esily treat by 3chrolicacetic acid additional Mx คือ — A. PV exam B. Stool exam C. Colonscope D. Imiquimod cream E. Antiviral</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ คีย์ 2 ไฟล์ไม่ตรงกัน: COOK/GUN = A (PV exam; ลายมือแดงบอก may co-exist ควรทำ proctoscope, HIV test, PV) · P'Ing = D (Imiquimod) · ตัดสินตาม CDC 2021 → A",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_colo1",
+   "kp75c_colo1"
   ]
  },
  "MDCU75|RoC|Colo 2": {
-  "interp": "มะเร็ง cecum ผ่าตัด right hemicolectomy แล้ว ผลชิ้นเนื้อ pT3N1M0 = colon cancer stage III → ถามการรักษาเสริมหลังผ่าตัด",
-  "why": "ลายมือ COOK/GUN: A no role · B small bowel injury · D = neoadjuvant ของ CA rectum · P'Ing: right hemicolectomy → post-op adjuvant chemo<br><b>นอกสไลด์:</b> Colon cancer ที่ต่อมน้ำเหลืองบวก (stage III) มีโอกาสกลับเป็นซ้ำจากเชื้อมะเร็งที่หลุดไปแล้ว ต้องให้ยาเคมีทั้งระบบ (oxaliplatin + fluoropyrimidine เช่น FOLFOX/CAPOX) · ไม่ใช้รังสีกับ colon เพราะ colon และลำไส้เล็กเคลื่อนไปมา ฉายรังสีเฉพาะจุดไม่ได้และเสี่ยงลำไส้เล็กบาดเจ็บ",
+  "interp": "ชาย 62 ปีผ่าตัด right hemicolectomy จากมะเร็ง cecum ผลพยาธิ <b>pT3N1M0 = stage IIIB</b> — ถามการรักษาเสริม (adjuvant) หลังผ่าตัดมะเร็ง<b>ลำไส้ใหญ่</b> ซึ่งต่างจากมะเร็ง<b>ทวารหนัก</b>ที่ใช้รังสีร่วมด้วย",
+  "why": "มะเร็งลำไส้ใหญ่ที่มีต่อมน้ำเหลืองบวก (<b>stage III</b>) มีโอกาสกลับเป็นซ้ำจาก micrometastasis สูง → <b>adjuvant systemic chemotherapy</b> ลดการกลับเป็นซ้ำและเพิ่มอัตรารอดชีวิต ควรเริ่มภายในราว 6–8 สัปดาห์หลังผ่าตัด · สูตรมาตรฐานคือ oxaliplatin ร่วม fluoropyrimidine (<b>FOLFOX หรือ CAPOX</b>) ซึ่งดีกว่า 5-FU อย่างเดียว (MOSAIC) · ระยะเวลาตาม IDEA: <b>low-risk stage III (T1–3 N1)</b> → CAPOX 3 เดือน (ไม่ด้อยกว่า 6 เดือนและ neuropathy น้อยกว่ามาก) หรือ FOLFOX 6 เดือน · <b>high-risk (T4 หรือ N2)</b> → CAPOX 3–6 เดือน หรือ FOLFOX 6 เดือน · ผู้สูงอายุ &gt; 70 ปีได้ประโยชน์จาก oxaliplatin น้อยลง อาจใช้ capecitabine/ 5-FU เดี่ยว · <b>รังสีรักษาไม่มีบทบาทประจำใน colon</b> เพราะลำไส้ใหญ่เคลื่อนที่ได้ ลำไส้เล็กรอบ ๆ ทนรังสีต่ำ ต่างจาก rectum ที่อยู่กับที่ในอุ้งเชิงกราน · ไฟล์คีย์ชุดแรกวง C ลายมือ <b>\"A no role, B small bowel injury, D neoadjuvant of CA rectum\"</b> พร้อมตารางการรักษาตาม stage และไฟล์คีย์ชุดที่สองเขียน <b>\"Rt hemicolectomy post op adj CMT\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Immunotherapy ไม่ใช่การรักษาเสริมมาตรฐานของ stage III · จะถูกถ้าเป็นมะเร็งลำไส้ใหญ่ระยะแพร่กระจายที่ตรวจพบ dMMR/MSI-H → pembrolizumab เป็นยาแรก",
-   "B": "รังสีไม่ใช้กับ colon (COOK/GUN: small bowel injury) · <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยมะเร็งลำไส้ใหญ่มีกระดูกสันหลังแพร่กระจายปวดมาก → ฉายรังสีบรรเทาปวด",
-   "D": "CCRT เป็น neoadjuvant ของ rectal cancer (COOK/GUN) · จะถูกถ้าเป็นมะเร็ง rectum ส่วนกลาง/ล่างที่ MRI เป็น T3 หรือต่อมน้ำเหลืองบวก ก่อนทำ TME",
-   "E": "<b>นอกสไลด์:</b> Stage III ทิ้งไว้มีโอกาสกลับเป็นซ้ำสูง · จะถูกถ้าผลชิ้นเนื้อเป็น pT2N0M0 (stage I) หรือ stage II ที่ไม่มีลักษณะเสี่ยงสูง"
+   "A": "Immunotherapy (checkpoint inhibitor เช่น pembrolizumab) เป็นมาตรฐานใน<b>มะเร็งลำไส้ใหญ่ระยะแพร่กระจายที่เป็น dMMR/ MSI-H</b> ไม่ใช่ adjuvant เดี่ยวของ stage III ทั่วไป (ข้อมูลใหม่ใช้ร่วมกับ FOLFOX ในกลุ่ม dMMR stage III แต่ไม่ใช่การรักษาเดี่ยว) — จะถูกถ้าเป็นชาย 55 ปีมะเร็ง colon แพร่กระจายไปตับและปอดหลายก้อน ผ่าตัดไม่ได้ ผลชิ้นเนื้อเป็น MSI-H → pembrolizumab เป็นการรักษาแรก",
+   "B": "รังสีรักษาหลังผ่าตัด colon ไม่ลดการกลับเป็นซ้ำอย่างมีนัยและทำให้ลำไส้เล็กบาดเจ็บ (radiation enteritis) เพราะ colon เคลื่อนที่ได้และอยู่ใกล้ลำไส้เล็ก — จะถูกถ้าเป็นหญิง 70 ปีมะเร็ง colon ที่ลามทะลุติดผนังหน้าท้องเฉพาะที่ ผ่าตัดแล้วขอบยังมีมะเร็ง (R1) ที่ทำเครื่องหมายด้วย clip ไว้ → อาจพิจารณารังสีเฉพาะจุดเป็นรายไป หรือผู้ป่วยมะเร็งกระจายไปกระดูกที่ปวดมาก → palliative radiotherapy",
+   "D": "Concurrent chemoradiotherapy เป็นการรักษา<b>ก่อนผ่าตัด (neoadjuvant)</b> ของมะเร็ง<b>ทวารหนัก</b>ส่วนกลางและล่างระยะ T3–4 หรือ N+ เพื่อลด local recurrence — จะถูกถ้าเป็นชาย 60 ปีมะเร็งทวารหนักห่าง anal verge 6 cm MRI เป็น T3N1 ไม่มีการแพร่กระจาย → neoadjuvant chemoradiotherapy หรือ total neoadjuvant therapy แล้วผ่าตัด TME",
+   "E": "Observation อย่างเดียวเหมาะกับ stage I (T1–2 N0) และ stage II ความเสี่ยงต่ำ ซึ่งเคมีบำบัดได้ประโยชน์น้อย ไม่ใช่ stage III ที่ต่อมน้ำเหลืองบวก — จะถูกถ้าเป็นชาย 62 ปีมะเร็ง cecum ผลพยาธิ pT2N0M0 ตรวจต่อมน้ำเหลืองได้ 18 ต่อม ไม่มี lymphovascular invasion → ติดตามด้วย CEA, CT และ colonoscopy"
   },
-  "trap": "สับสนการรักษาเสริมของ colon (ยาเคมีอย่างเดียว) กับ rectum (CCRT ก่อนผ่าตัด)",
+  "trap": "จำสลับระหว่าง colon กับ rectum — <b>rectum ใช้ chemoradiation ก่อนผ่าตัด</b> แต่ <b>colon ใช้ chemotherapy หลังผ่าตัด</b> ไม่ใช้รังสี (ช้อย B, D) · อีกกับดักคือเลือก immunotherapy เพราะเป็นยาใหม่ ซึ่งมีบทบาทหลักใน dMMR/ MSI-H ระยะแพร่กระจาย · stage III (N+) ทุกรายที่ร่างกายรับได้ควรได้ adjuvant chemotherapy",
   "summary": [
-   "<b>นอกสไลด์:</b> Colon: stage I → ผ่าตัดอย่างเดียว · stage II → ดูความเสี่ยง · stage III → adjuvant chemo (FOLFOX/CAPOX ราว 3–6 เดือนตามความเสี่ยง)",
-   "<b>นอกสไลด์:</b> Stage II เสี่ยงสูง (พิจารณาให้ยา): T4, ต่อมน้ำเหลืองที่ได้ &lt; 12, อุดตัน/ทะลุ, LVI/PNI, poorly differentiated, ขอบชิ้นเนื้อบวก",
-   "<b>นอกสไลด์:</b> Right hemicolectomy ผูก ileocolic, right colic และแขนงขวาของ middle colic · ต้องได้ต่อมน้ำเหลือง ≥ 12 ต่อมเพื่อ staging ที่เชื่อถือได้"
+   "TNM ย่อ: T1 submucosa · T2 muscularis propria · T3 ผ่าน muscularis propria ถึง pericolorectal tissue · T4a ทะลุ visceral peritoneum · T4b ลุกอวัยวะข้างเคียง · N1 1–3 ต่อม · N2 ≥ 4 ต่อม · stage III = N+ ใด ๆ ที่ M0",
+   "Stage IIIA = T1–2 N1 (หรือ T1 N2a) · IIIB = T3–4a N1 และ T2–3 N2a, T1–2 N2b · IIIC = T4a N2a, T3–4a N2b, T4b N1–2 · ควรตรวจต่อมน้ำเหลืองได้ ≥ 12 ต่อมเพื่อ staging ที่เชื่อถือได้",
+   "Adjuvant stage III: FOLFOX หรือ CAPOX · IDEA: T1–3 N1 → CAPOX 3 เดือน · T4 หรือ N2 → CAPOX 3–6 เดือน/ FOLFOX 6 เดือน · ผลข้างเคียงสำคัญของ oxaliplatin คือ peripheral neuropathy สะสม",
+   "Stage II: ส่วนใหญ่ติดตามได้ · พิจารณาเคมีบำบัดถ้ามี high-risk features: T4, ตรวจต่อมน้ำเหลือง &lt; 12, lymphovascular/ perineural invasion, ลำไส้อุดตันหรือทะลุ, poorly differentiated, ขอบผ่าตัดใกล้/ บวก · stage II ที่เป็น dMMR/ MSI-H ไม่ควรให้ fluoropyrimidine เดี่ยว",
+   "ตรวจ MMR/ MSI ในมะเร็งลำไส้ใหญ่ทุกราย: คัดกรอง Lynch syndrome, บอกพยากรณ์ (stage II dMMR ดี) และเลือก immunotherapy ในระยะแพร่กระจาย",
+   "Rectal cancer ส่วนกลาง/ ล่าง T3–4 หรือ N+: neoadjuvant chemoradiotherapy หรือ total neoadjuvant therapy → TME · บางรายที่ตอบสนองสมบูรณ์ทางคลินิกเลือก watch-and-wait ได้",
+   "ติดตามหลังรักษา stage II–III: CEA ทุก 3–6 เดือน 2 ปีแรก แล้วทุก 6 เดือนจนครบ 5 ปี · CT ทรวงอก/ ช่องท้อง/ อุ้งเชิงกรานทุก 6–12 เดือนราว 5 ปี · colonoscopy ที่ 1 ปีหลังผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ทั้ง 2 ไฟล์ (เติม stage ใน stem เพื่อให้เหลือคำตอบเดียว) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — stage III (pT3N1M0) ของมะเร็ง cecum ต้องได้ adjuvant oxaliplatin-based chemotherapy ตาม NCCN/ ESMO · ตรงกับคีย์ทั้งสองไฟล์ (ชุดแรกวง C ชุดที่สองเขียน post op adj CMT) · ต้นฉบับไม่บอก stage และมี 4 ช้อย เว็บเติม pT3N1M0 และช้อย E เพื่อให้เหลือคำตอบเดียว",
+  "mnemonic": "<b>'Colon = Chemo หลังผ่า · Rectum = Radiation (+chemo) ก่อนผ่า'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer 2025; ESMO Clinical Practice Guideline: Localised colon cancer (Ann Oncol 2020); IDEA collaboration (N Engl J Med 2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็ง colon stage III ในผู้ป่วยที่มีปลายประสาทอักเสบรุนแรงอยู่เดิม → ให้ fluoropyrimidine เดี่ยว เลี่ยง oxaliplatin",
-   "<b>นอกสไลด์:</b> มะเร็ง colon pT3N0M0 ได้ต่อมน้ำเหลือง 20 ต่อม ไม่มีลักษณะเสี่ยงสูง ตรวจพบ MSI-H → ติดตามอย่างเดียว"
+   "มะเร็ง sigmoid ผลพยาธิ pT4aN2bM0 ในชาย 50 ปีแข็งแรง → high-risk stage III → FOLFOX 6 เดือน หรือ CAPOX 3–6 เดือน",
+   "หญิง 80 ปีมะเร็ง colon stage III มีโรคร่วมหลายโรค กังวลเรื่อง neuropathy → capecitabine เดี่ยวเป็นทางเลือก เพราะประโยชน์ของ oxaliplatin ในผู้สูงอายุน้อยลง",
+   "มะเร็ง cecum pT3N0M0 ตรวจต่อมน้ำเหลืองได้เพียง 8 ต่อม มี lymphovascular invasion → high-risk stage II → พิจารณา adjuvant chemotherapy",
+   "ทำไมมะเร็ง colon ไม่ใช้รังสีแต่ rectum ใช้ → rectum อยู่นิ่งในอุ้งเชิงกราน ไม่มี serosa ด้านล่าง เสี่ยง local recurrence สูง และเล็งรังสีได้แม่น ส่วน colon เคลื่อนที่ได้และอยู่ติดลำไส้เล็กที่ทนรังสีต่ำ"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>After right hemicholectomy, which adjuvant therapy should be performed — A. Immunotherapy B. Radiotherapy C. Chemotherapy D. Concurrent chemoradiotherapy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ มะเร็งลำไส้ใหญ่ (colorectal cancer) อยู่ในขอบเขต Gen Sx ตามกติกาวอร์ด แต่ข้อนี้ออกในข้อสอบ Subspe จึงใส่ตามไฟล์ · ไฟล์มี 4 ช้อย → เติม E Observation · โจทย์ต้นฉบับไม่บอก stage → เติม pT3N1M0 ให้เหลือคำตอบเดียว",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_colo2",
+   "kp75c_colo2"
   ]
  },
  "MDCU75|RoC|Colo 3": {
-  "interp": "เด็ก 3 ปีท้องผูกเรื้อรังตั้งแต่เกิด ถ่ายขี้เทาช้า · contrast enema เห็น sigmoid โป่ง rectum แคบ (transition zone) → สงสัย Hirschsprung · ถามขั้นต่อไปเพื่อวินิจฉัยยืนยัน",
-  "why": "ลายมือ COOK/GUN: Dx Hirschsprung's disease · barium enema เห็น transition zone · <b>rectal biopsy = diagnostic investigation</b> · P'Ing: → definitive dx<br><b>นอกสไลด์:</b> ส่วนที่ไม่มีปมประสาท (aganglionic) บีบตัวไม่คลาย จึงแคบ ลำไส้เหนือขึ้นไปโป่ง · contrast enema แค่ชี้นำ ต้องยืนยันด้วยชิ้นเนื้อที่ไม่พบ ganglion cells ใน submucosa ก่อนผ่าตัด",
+  "interp": "เด็กชาย 3 ปีท้องผูกเรื้อรังตั้งแต่ทารก มีประวัติ<b>ถ่ายขี้เทาช้า</b> contrast enema เห็น sigmoid โป่งกับ rectum แคบ (<b>transition zone</b>) = สงสัย <b>Hirschsprung disease</b> — ถามขั้นตอนถัดไป ซึ่งคือการตรวจที่<b>ยืนยันการวินิจฉัย</b> (ทางพยาธิ) ก่อนวางแผนผ่าตัด",
+  "why": "Hirschsprung disease เกิดจาก neural crest cells <b>เคลื่อนจากบนลงล่างไม่ครบ</b> (ช่วงสัปดาห์ที่ 5–12 ของครรภ์) → ลำไส้ส่วนปลาย<b>ไม่มี ganglion cells</b> ทั้ง submucosal (Meissner) และ myenteric (Auerbach) plexus เริ่มจาก internal anal sphincter ต่อเนื่องขึ้นไปเสมอ · ส่วนที่ไม่มี ganglion หดเกร็งตลอดไม่คลาย → การอุดตันเชิงหน้าที่ ลำไส้ส่วนบนโป่ง · ราว 75–80% เป็นแค่ rectosigmoid · ทารกปกติถ่ายขี้เทาภายใน 24–48 ชม. ผู้ป่วยส่วนใหญ่ถ่ายช้ากว่านั้น · contrast enema ช่วยบอกตำแหน่ง transition zone (rectosigmoid index &lt; 1) แต่ไวไม่พอและลบได้ในทารกแรกเกิด · <b>การวินิจฉัยยืนยันคือชิ้นเนื้อทวารหนัก</b>: rectal suction biopsy เหนือ dentate line ราว 1–2 cm ขึ้นไป (เลี่ยงบริเวณ hypoganglionic ปกติ) พบ<b>ไม่มี ganglion cells</b> + <b>เส้นประสาทหนาตัว (hypertrophic nerve trunks)</b> + acetylcholinesterase เพิ่ม/ calretinin หาย · ในเด็กโตที่ submucosa หนา suction biopsy อาจได้ชิ้นไม่พอ ต้องทำ full-thickness biopsy · ยืนยันแล้วจึงผ่าตัด pull-through · ไฟล์คีย์ชุดแรกวง A ลายมือ <b>\"Dx: Hirschsprung's disease · rectal biopsy = diagnostic investigation · barium enema = transition zone\"</b> และไฟล์คีย์ชุดที่สองเขียน <b>\"→ definitive dx; transitional zone = hirschsprung's\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> อัลตราซาวนด์ท้องไม่เห็น ganglion cells · จะถูกถ้าทารก 1 เดือนอาเจียนพุ่งไม่มีน้ำดี คลำได้ก้อนเหนือสะดือ สงสัย hypertrophic pyloric stenosis",
-   "C": "<b>นอกสไลด์:</b> MRI กระดูกสันหลังใช้หาสาเหตุทางระบบประสาท · จะถูกถ้าเด็กท้องผูกร่วมกับปัสสาวะผิดปกติ ขาอ่อนแรง หรือมีรอยบุ๋ม/ขนกระจุกที่หลังส่วนล่าง สงสัย tethered cord",
-   "D": "<b>นอกสไลด์:</b> Manometry ใช้คัดกรองได้แต่ไม่ใช่การวินิจฉัยยืนยัน · จะถูกถ้าเด็กโตท้องผูกเรื้อรังที่น่าจะเป็น functional constipation — ถ้าพบ rectoanal inhibitory reflex ปกติก็ตัด Hirschsprung ได้โดยไม่ต้อง biopsy",
-   "E": "<b>นอกสไลด์:</b> Colonoscopy ไม่มีบทบาทในการวินิจฉัย Hirschsprung · จะถูกถ้าเด็กถ่ายเป็นเลือดสดไม่เจ็บ สงสัย juvenile polyp"
+   "B": "Ultrasound ทางหน้าท้องไม่บอกการมี/ ไม่มี ganglion cells และบอกได้แค่ลำไส้โป่งหรืออุจจาระคั่ง — จะถูกถ้าเป็นเด็กชาย 1 ปีร้องกวนเป็นพัก ๆ ขาขึ้นท้อง ถ่ายมูกปนเลือด คลำได้ก้อนใต้ชายโครงขวา (สงสัย intussusception) → ultrasound เห็น target sign",
+   "C": "Spinal MRI ใช้หาความผิดปกติของไขสันหลัง (tethered cord, spinal dysraphism) ที่ทำให้ท้องผูกจากระบบประสาท ซึ่งมักมีปัสสาวะผิดปกติหรือขาอ่อนแรงร่วม — จะถูกถ้าเป็นเด็ก 5 ปีท้องผูกร่วมกับปัสสาวะราด เดินเขย่ง ขาอ่อนแรง และมีกระจุกขนหรือรอยบุ๋มที่ก้นกบ หรือทารกที่มี anorectal malformation (ตรวจกลุ่ม VACTERL)",
+   "D": "Anorectal manometry ดู <b>rectoanal inhibitory reflex (RAIR)</b> ซึ่งหายไปใน Hirschsprung ใช้คัดกรองในเด็กโตได้ แต่ทำยากในทารกและไม่ยืนยันทางพยาธิ การใช้อย่างเดียวจึงไม่พอ — จะถูกถ้าเป็นเด็ก 6 ปีท้องผูกเรื้อรัง contrast enema ไม่เห็น transition zone และ rectal biopsy มี ganglion cells สงสัย ultrashort-segment Hirschsprung หรือ internal anal sphincter achalasia → manometry เห็น RAIR หาย",
+   "E": "Colonoscopy ไม่ช่วยวินิจฉัย เพราะเยื่อบุใน Hirschsprung ดูปกติและ biopsy จากกล้องตื้นเกินไม่ถึง submucosa ระดับที่ต้องการ — จะถูกถ้าเป็นเด็ก 4 ปีถ่ายเป็นเลือดสดไม่เจ็บเป็นพัก ๆ ร่างกายแข็งแรง (สงสัย juvenile polyp) → colonoscopy และตัด polyp"
   },
-  "trap": "หยุดที่ contrast enema แล้วไปผ่าตัดเลย — transition zone อาจไม่ชัดหรือไม่ตรงตำแหน่งจริง ต้องยืนยันด้วยชิ้นเนื้อก่อน",
+  "trap": "Contrast enema เห็น transition zone ชัดแล้วหลายคนคิดว่าวินิจฉัยได้เลยหรือเลือก manometry เพราะเป็นการตรวจหน้าที่ · แต่ <b>Hirschsprung ยืนยันด้วยพยาธิเท่านั้น</b> (ไม่มี ganglion cells) ต้องได้ rectal biopsy ก่อนผ่าตัด และใช้ biopsy ระหว่างผ่าตัดยืนยันระดับที่มี ganglion cells ปกติ",
   "summary": [
-   "<b>นอกสไลด์:</b> Hirschsprung: neural crest เคลื่อนลงไม่ครบ ไม่มี ganglion cells เริ่มจาก internal sphincter ไล่ขึ้นไปต่อเนื่อง ส่วนใหญ่ rectosigmoid · สัมพันธ์ Down syndrome",
-   "<b>นอกสไลด์:</b> อาการ: ถ่ายขี้เทาหลัง 48 ชม., ท้องอืด, อาเจียนน้ำดี, ล้วงทวารแล้วอุจจาระพุ่ง · เด็กโต: ท้องผูกเรื้อรังตั้งแต่เกิด ตัวเล็ก",
-   "<b>นอกสไลด์:</b> ชิ้นเนื้อ: suction biopsy เหนือ dentate line พอให้พ้นโซนปกติ (ราว 1–2 cm ขึ้นไป) · พบ ganglion cells ไม่มี, เส้นประสาทหนา, acetylcholinesterase เพิ่ม, calretinin ลบ",
-   "<b>นอกสไลด์:</b> รักษา: pull-through (Swenson, Duhamel, Soave/transanal)"
+   "Hirschsprung: ชาย:หญิง ราว 4:1 (short segment) · สัมพันธ์ Down syndrome ราว 10% และยีน <i>RET</i> · rectosigmoid ราว 75–80% · total colonic aganglionosis ราว 5–10%",
+   "อาการ: ทารกถ่ายขี้เทาช้ากว่า 48 ชม. ท้องอืด อาเจียนน้ำดี · เด็กโตท้องผูกเรื้อรังรุนแรง ท้องโต โตช้า · ตรวจทวาร rectum ว่าง ดึงนิ้วออกมีอุจจาระ/ ลมพุ่ง (blast sign)",
+   "Contrast enema (ใช้สารละลายน้ำ ไม่เตรียมลำไส้): transition zone, rectosigmoid index &lt; 1, สารทึบรังสีค้างใน 24 ชม. · ใช้บอกตำแหน่งวางแผนผ่าตัด ไม่ใช่การยืนยัน",
+   "Rectal suction biopsy เหนือ dentate line ≥ 1–2 cm: ไม่มี ganglion cells, nerve trunks หนา &gt; 40 µm, acetylcholinesterase เพิ่ม, calretinin หาย · เด็กโต/ ชิ้นเนื้อไม่พอ → full-thickness biopsy",
+   "รักษา: ระบายลำไส้ด้วย rectal irrigation ก่อน แล้วผ่าตัด pull-through (Swenson, Duhamel, Soave/ transanal endorectal pull-through) ตัดส่วนที่ไม่มี ganglion ต่อลำไส้ปกติลงมาที่ทวาร · ทารกที่ป่วยหนักหรือ enterocolitis รุนแรงอาจทำ leveling colostomy ก่อน",
+   "Hirschsprung-associated enterocolitis (HAEC): ไข้ ท้องอืด ถ่ายเหลวพุ่งกลิ่นเหม็น เกิดได้ทั้งก่อนและหลังผ่าตัด เป็นสาเหตุตายหลัก → NPO, IV fluid, ยาปฏิชีวนะ (metronidazole), rectal washout",
+   "แยกจาก functional constipation: functional เริ่มหลังวัยทารก (เช่นช่วงหัดใช้ส้วม) ถ่ายขี้เทาปกติ มีอุจจาระก้อนใหญ่ค้างใน rectum กลั้นอุจจาระ และมี soiling ส่วน Hirschsprung มีอาการตั้งแต่แรกเกิด rectum ว่าง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ทั้ง 2 ไฟล์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ประวัติถ่ายขี้เทาช้า ท้องผูกตั้งแต่ทารก และ transition zone บน enema เข้ากับ Hirschsprung ซึ่งยืนยันด้วยชิ้นเนื้อทวารหนัก · ตรงกับคีย์ทั้งสองไฟล์ (ชุดแรกวง A เขียน rectal biopsy = diagnostic ชุดที่สองเขียน definitive dx) · เด็ก 3 ปี submucosa หนาขึ้น ถ้า suction biopsy ได้ชิ้นไม่พออาจต้อง full-thickness biopsy",
+  "mnemonic": "<b>'Enema บอกที่ (where) · Biopsy บอกว่าใช่ (what)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Hirschsprung disease; Gosain A, et al. Guidelines for the diagnosis and management of Hirschsprung-associated enterocolitis (Pediatr Surg Int 2017)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก Hirschsprung รอผ่าตัด มีไข้ ท้องอืดมาก ถ่ายเหลวเหม็นพุ่ง → HAEC: งดน้ำงดอาหาร ให้สารน้ำ ยาปฏิชีวนะ สวนล้าง rectum",
-   "<b>นอกสไลด์:</b> ทารก 3 วันยังไม่ถ่ายขี้เทา ท้องอืด ภาพรังสีลำไส้โป่งหลายห่วง ล้วงทวารแล้วอุจจาระพุ่ง → สงสัย Hirschsprung ทำ suction rectal biopsy"
+   "ทารกแรกเกิด 3 วันไม่ถ่ายขี้เทา ท้องอืด อาเจียนเขียว ตรวจทวารแล้วมีอุจจาระและลมพุ่งออกมา → สงสัย Hirschsprung → contrast enema และ rectal suction biopsy",
+   "เด็ก 2 ปีหลังผ่าตัด pull-through มีไข้ ท้องอืด ถ่ายเหลวพุ่งกลิ่นเหม็นมาก → Hirschsprung-associated enterocolitis → NPO, IV fluid, metronidazole และ rectal washout",
+   "เด็ก 4 ปีท้องผูกเริ่มช่วงหัดใช้ส้วม ถ่ายขี้เทาปกติแรกเกิด ตรวจทวารพบอุจจาระก้อนใหญ่ค้าง มีอุจจาระเล็ดเปื้อนกางเกง → functional constipation → disimpaction + PEG และฝึกขับถ่าย",
+   "ทำไม biopsy ต้องเหนือ dentate line อย่างน้อย 1–2 cm → บริเวณเหนือ dentate line ปกติมี ganglion cells น้อย (physiologic hypoganglionosis) ถ้าตัดต่ำเกินจะวินิจฉัย Hirschsprung ผิด"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>โจทย์เกริ่นยาวๆ เด็ก dilated sigmoid colon แต่ rectum ตีบแคบ ควรทำอะไรต่อไป — A. rectal biopsy B. transabdominal ultrasound C. spinal MRI</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เติม D, E · โจทย์ต้นฉบับ \"เกริ่นยาว\" แต่จดมาแค่ภาพ dilated sigmoid + rectum ตีบ → เติมประวัติให้ครบ · COOK/GUN แปะสไลด์ + ภาพ barium enema transition zone",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_colo3",
+   "kp75c_colo3"
   ]
  },
  "MDCU75|RoC|Colo 4": {
-  "interp": "หญิงวัยกลางคนมี early sigmoid adenocarcinoma ร่วมกับก้อนตับ 4 cm ที่ตัดได้ (synchronous colorectal liver metastasis) → ถามแนวทางที่หวังหายขาด",
-  "why": "ลายมือ COOK/GUN: Dx colorectal cancer with liver metastasis · <b>Aim: curative</b> · A, C = palliative · D = 2 major operations · P'Ing: E ✓ ต่อด้วย adjuvant chemo<br><b>นอกสไลด์:</b> ตับแพร่กระจายที่ตัดได้หมด (R0) และเหลือตับพอ ยังหวังหายขาดได้ ต้องเอาออกทั้งก้อนตับและก้อนต้นตอ ร่วมกับยาเคมี · เมื่อก้อนต้นตอไม่มีอาการ (ระยะต้น ไม่อุดตัน ไม่เลือดออก) การตัดตับก่อน (liver-first) จัดการตัวกำหนดพยากรณ์โรคก่อนที่ก้อนตับจะโตจนตัดไม่ได้",
+  "interp": "หญิงวัยกลางคนพบมะเร็ง sigmoid ระยะต้น (well-differentiated adenocarcinoma) ร่วมกับ<b>ก้อนในตับ 4 cm ที่ผ่าตัดได้</b> = <b>synchronous colorectal liver metastasis</b> ที่ยังรักษาหายขาดได้ — ถามลำดับการรักษา (classical, simultaneous หรือ liver-first) ร่วมกับเคมีบำบัด ไม่ใช่การรักษาแบบประคับประคอง",
+  "why": "มะเร็งลำไส้ใหญ่ที่กระจายไปตับยัง<b>รักษาหายขาดได้</b>ถ้าตัดออกได้หมด (R0) — อัตรารอดชีวิต 5 ปีหลังตัดตับราว 40–50% เทียบกับต่ำมากถ้าให้เคมีบำบัดอย่างเดียว · เกณฑ์ผ่าตัดได้: ตัดก้อนออกหมดโดยเหลือตับ (future liver remnant) พอ — ราว ≥ 20–25% ในตับปกติ ≥ 30% หลังเคมีบำบัดมาก ≥ 40% ในตับแข็ง — และเหลือ 2 segments ติดกันที่มี inflow, outflow และท่อน้ำดี · ลำดับการผ่าตัดมี 3 แบบ: <b>classical</b> (ตัด primary ก่อน) · <b>simultaneous</b> (ผ่าพร้อมกัน เหมาะเมื่อตัดตับเล็กน้อยและผู้ป่วยแข็งแรง) · <b>liver-first (reverse)</b> เหมาะเมื่อ primary ไม่มีอาการ (ไม่อุดตัน ไม่เลือดออก) เพราะ<b>พยากรณ์โรคขึ้นกับตับ</b> ตัดตับก่อนป้องกันก้อนในตับโตจนผ่าไม่ได้ระหว่างพักฟื้นจากการผ่าลำไส้ แล้วจึงตัด primary · ทั้งหมดร่วมกับ <b>systemic chemotherapy</b> (perioperative FOLFOX/ CAPOX) เพื่อกำจัด micrometastasis · ไฟล์คีย์ชุดแรกวง E ลายมือ <b>\"Dx colorectal cancer with liver metastasis, Aim: curative\"</b> กากบาท A, C (palliative) และ D (\"2 major operations\") และไฟล์คีย์ชุดที่สองเขียน <b>\"✓ ต่อ adj CMT\"</b>",
   "wrong": {
-   "A": "Palliative chemo ใช้เมื่อหวังหายขาดไม่ได้ (COOK/GUN: palliative ✗) · <b>นอกสไลด์:</b> จะถูกถ้าก้อนตับหลายก้อนทั้งสองกลีบจนเหลือตับไม่พอ หรือมีแพร่กระจายนอกตับที่ตัดไม่ได้",
-   "B": "<b>นอกสไลด์:</b> ตัด sigmoid อย่างเดียวทิ้งก้อนตับไว้ จึงไม่หายขาด · จะถูกถ้าเป็นมะเร็ง sigmoid ที่ไม่มีการแพร่กระจาย (stage I–III)",
-   "C": "Colostomy + chemo เป็นแนว palliative (COOK/GUN) · <b>นอกสไลด์:</b> จะถูกถ้ามะเร็ง rectum อุดตันลำไส้ ตัดก้อนไม่ได้ และตับแพร่กระจายหลายก้อนที่ตัดไม่ได้",
-   "D": "ผ่าตัดใหญ่ 2 อย่างพร้อมกันเสี่ยงภาวะแทรกซ้อนมากกว่า (COOK/GUN: 2 major operations) จึงไม่ใช่คำตอบตามคีย์ · <b>นอกสไลด์:</b> จะถูกถ้าก้อนตับเล็กอยู่ขอบตับ ตัดแบบ wedge ได้ง่าย และผู้ป่วยแข็งแรง"
+   "A": "Palliative chemotherapy เป็นการรักษาหลักเมื่อก้อนในตับ<b>ผ่าตัดไม่ได้</b> หรือกระจายหลายอวัยวะ ซึ่งทิ้งโอกาสหายขาดในรายที่ผ่าได้ (ไฟล์คีย์ชุดที่สองเขียน \"liver metas ผ่าได้\") — จะถูกถ้าเป็นหญิง 60 ปีมะเร็ง sigmoid ที่มีก้อนในตับหลายสิบก้อนทั้งสองกลีบร่วมกับก้อนในปอดหลายก้อน ECOG 1 → เคมีบำบัด ± ยามุ่งเป้าตาม RAS/ BRAF/ MSI",
+   "B": "ตัด sigmoid อย่างเดียวรักษาเฉพาะ primary แต่ทิ้งก้อนในตับซึ่งเป็นตัวกำหนดพยากรณ์โรค จึงไม่ใช่การรักษาหายขาด — จะถูกถ้าเป็นหญิง 55 ปีมะเร็ง sigmoid ที่ CT ทรวงอก ช่องท้อง และอุ้งเชิงกรานไม่พบการกระจาย (stage I–III) → sigmoidectomy ร่วมเลาะต่อมน้ำเหลือง แล้วให้เคมีบำบัดตามผลพยาธิ",
+   "C": "Colostomy ร่วมเคมีบำบัดเป็นการรักษาแบบประคับประคองสำหรับ primary ที่อุดตันในผู้ป่วยที่รักษาหายขาดไม่ได้ — จะถูกถ้าเป็นชาย 75 ปีมะเร็ง sigmoid อุดตันลำไส้ใหญ่ทั้งหมดร่วมกับก้อนในตับกระจายทั่วที่ผ่าไม่ได้ สภาพร่างกายไม่ดี → diverting colostomy (หรือใส่ stent) แล้ว palliative chemotherapy",
+   "D": "ผ่าพร้อมกันครั้งเดียวทำได้จริงในผู้ป่วยคัดเลือก แต่การรวม colectomy กับการตัดตับใหญ่ (major hepatectomy) เพิ่มภาวะแทรกซ้อนและอัตราตาย (ไฟล์คีย์ชุดแรกเขียน \"2 major operations\") — จะถูกถ้าเป็นชาย 50 ปีแข็งแรง มะเร็ง sigmoid ร่วมกับก้อนในตับก้อนเดียว 2 cm ที่ขอบ segment 3 ซึ่งตัดแบบ wedge resection ได้ง่ายผ่านแผลเดียวกัน"
   },
-  "trap": "เห็นตับแพร่กระจาย = stage IV แล้วตอบ palliative — ตับแพร่กระจายจากมะเร็งลำไส้ใหญ่ที่ตัดได้ยังหวังหายขาด",
+  "trap": "เห็นมะเร็งกระจายไปตับ (stage IV) แล้วตอบ palliative chemotherapy ทันที — แต่ <b>CRC liver metastasis ที่ผ่าได้รักษาหายขาดได้</b> · ระหว่าง D กับ E ทั้งคู่เป็น curative: ข้อนี้ primary ระยะต้นไม่มีอาการและคีย์มองว่าผ่าพร้อมกันคือสองการผ่าตัดใหญ่ จึงเลือก liver-first · ถ้า primary อุดตันหรือเลือดออก ต้องจัดการ primary ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> Resectable = ตัดได้หมด (R0) เหลือตับพอ และคงเลือดเข้า-ออกและท่อน้ำดีได้ · future liver remnant: ตับปกติ ≥ 20–25%, ได้เคมีมาก ≥ 30%, ตับแข็ง ≥ 40%",
-   "<b>นอกสไลด์:</b> Synchronous: classic (ตัดต้นตอก่อน — เมื่อต้นตอมีอาการ), liver-first (ต้นตอไม่มีอาการ ก้อนตับเป็นตัวกำหนด), simultaneous (ตัดตับไม่มาก ผู้ป่วยแข็งแรง)",
-   "<b>นอกสไลด์:</b> ให้ยาเคมีรอบการผ่าตัด (FOLFOX) ช่วยลดการกลับเป็นซ้ำ",
-   "<b>นอกสไลด์:</b> ตัดไม่ได้ → conversion chemotherapy ± ยามุ่งเป้า (ตาม RAS/BRAF และข้างของก้อน) แล้วประเมินใหม่"
+   "ราว 15–25% ของมะเร็งลำไส้ใหญ่มี liver metastasis ตั้งแต่วินิจฉัย (synchronous) และราวครึ่งหนึ่งจะมีในตับระหว่างการดำเนินโรค · ตับเป็นตำแหน่งกระจายที่พบบ่อยที่สุดเพราะเลือดดำลำไส้ไหลผ่าน portal vein",
+   "Resectability: ตัดหมด R0 + future liver remnant ≥ 20–25% (ตับปกติ), ≥ 30% (หลังเคมีบำบัดมาก), ≥ 40% (ตับแข็ง) + เหลือ 2 segments ติดกันที่มี inflow, outflow, biliary drainage · FLR ไม่พอ → portal vein embolization หรือ two-stage hepatectomy",
+   "ลำดับผ่าตัด synchronous: classical (primary ก่อน — เมื่อ primary มีอาการ) · simultaneous (ตัดตับเล็กน้อย ผู้ป่วยแข็งแรง) · liver-first (primary ไม่มีอาการ ตับมีก้อนมาก/ ใหญ่) · ผลระยะยาวใกล้เคียงกันเมื่อเลือกผู้ป่วยเหมาะสม",
+   "Perioperative chemotherapy (FOLFOX/ CAPOX) ร่วมกับการตัดตับเพิ่ม progression-free survival (EORTC 40983) · ก้อนผ่าไม่ได้ตอนแรก → conversion chemotherapy ± biologic (anti-EGFR ถ้า RAS wild-type ด้านซ้าย, bevacizumab) แล้วประเมินผ่าตัดซ้ำ",
+   "Work-up: CT ทรวงอก/ ช่องท้อง/ อุ้งเชิงกราน + MRI ตับ (ไวที่สุดสำหรับก้อนเล็ก) · PET-CT ในรายที่สงสัยกระจายนอกตับ · CEA · ตรวจ RAS/ BRAF/ MMR ของเนื้องอก",
+   "ก้อนที่ตอบสนองดีจนหายจากภาพ (disappearing metastasis) ยังมีเซลล์มะเร็งเหลือได้บ่อย จึงควรวางแผนผ่าตัดก่อนก้อนหายหมด และทำเครื่องหมายตำแหน่งไว้",
+   "ทางเลือกเฉพาะที่นอกจากผ่าตัด: thermal ablation (radiofrequency/ microwave) สำหรับก้อนเล็ก &lt; 3 cm ที่ตัดยาก หรือร่วมกับการตัด · SBRT · hepatic arterial infusion ในบางสถาบัน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ทั้ง 2 ไฟล์ · ความมั่นใจปานกลาง — simultaneous (D) ก็ทำได้จริงในรายที่เลือก โจทย์ไม่ได้บอกตำแหน่งก้อนตับ",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง — เป้าหมายคือรักษาหายขาด (ตัดทั้งตับและ primary ร่วมเคมีบำบัด) ตรงกับคีย์ทั้งสองไฟล์ที่วง E · liver-first เหมาะเมื่อ primary ไม่มีอาการ แต่ในเวชปฏิบัติปัจจุบัน (NCCN/ ESMO) การผ่าพร้อมกัน (D) ก็เป็นทางเลือกที่ยอมรับในผู้ป่วยแข็งแรงที่ตัดตับไม่มาก และหลายสถาบันให้เคมีบำบัดก่อนผ่าตัด · ในตัวเลือกที่มี E สอดคล้องกับคีย์ที่สุด",
+  "mnemonic": "<b>'ตับกำหนดชีวิต → ผ่าได้ต้องผ่า (curative) · primary เงียบ ตับก่อน'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer 2025; ESMO Clinical Practice Guideline for metastatic colorectal cancer (Ann Oncol 2023); Sabiston Textbook of Surgery 21st ed. (2022) — Liver",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนตับหลายก้อนที่ตัดได้แต่ตับที่เหลือคาดว่าไม่พอ → portal vein embolization ข้างที่จะตัดให้ตับอีกข้างโตก่อน",
-   "<b>นอกสไลด์:</b> ก้อนตับเดี่ยวขนาด 2 cm ลึกในเนื้อตับ ผู้ป่วยโรคร่วมมาก ผ่าตัดตับเสี่ยงสูง → thermal ablation เป็นทางเลือก"
+   "มะเร็ง sigmoid อุดตันลำไส้ใหญ่ร่วมกับก้อนในตับ 3 ก้อนที่ผ่าได้ → แก้การอุดตันก่อน (resection หรือ stent/ stoma) แล้วเคมีบำบัดและตัดตับภายหลัง (classical)",
+   "ก้อนในตับหลายก้อนทั้งสองกลีบ คำนวณ future liver remnant ได้ 15% ในตับปกติ → portal vein embolization ข้างที่จะตัดเพื่อให้ตับอีกข้างโต หรือ two-stage hepatectomy",
+   "ก้อนในตับผ่าไม่ได้ตอนแรก มะเร็ง colon ด้านซ้าย RAS/ BRAF wild-type → conversion chemotherapy ร่วม anti-EGFR แล้วประเมินการผ่าตัดซ้ำทุก 2 เดือน",
+   "ทำไมเลือก liver-first เมื่อ primary ไม่มีอาการ → ก้อนในตับเป็นตัวกำหนดการรอดชีวิต ถ้าผ่าลำไส้ก่อนแล้วมีภาวะแทรกซ้อน ก้อนในตับอาจโตจนผ่าไม่ได้ ส่วน primary ที่ไม่มีอาการแทบไม่ก่อปัญหาระหว่างรอ"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 1 — ตัวพิมพ์: <b>ผู้หญิง middle age รู้สึก abdominal discomfort เจอ hypodensity mass 4 cm ที่ตับ และเจอ synchronous early adenocarcinoma ทำ biopsy เป็น well differentiated adenocarcinoma ควรทำอะไร — A. Palliative chemotherapy B. Sigmoidectomy only C. Sigmoid colostomy and chemotherapy D. Simultaneous removal of liver mass and adenocarcinoma E. Liver mass resection then adenocarcinoma resection then chemotherapy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ มะเร็งลำไส้ใหญ่อยู่ในขอบเขต Gen Sx แต่ข้อนี้ออกในข้อสอบ Subspe · โจทย์ต้นฉบับไม่บอกตำแหน่ง primary ชัด ช้อยพูดถึง sigmoid → ใช้ sigmoid · เติม \"liver lesion is resectable\" ให้เหลือคำตอบเดียว · COOK/GUN เขียน Dx colorectal cancer with liver metastasis, Aim: curative",
+  "src": "S75CQ · หน้า 1",
+  "kimg": [
+   "ks75c_colo4",
+   "kp75c_colo4"
   ]
  },
  "MDCU75|RoC|Colo 5": {
-  "interp": "หญิงกลั้นอุจจาระไม่อยู่หลังคลอดทางช่องคลอดที่ตัดฝีเย็บ → สงสัยหูรูดฉีกขาด · ถามการตรวจที่ดูกายวิภาคของหูรูดได้ดีที่สุด",
-  "why": "ลายมือ COOK/GUN: B, D = ดู function · C ความคมชัดต่ำ ถ้าจะใช้ภาพตัดขวางควรเป็น MRI<br><b>นอกสไลด์:</b> Endoanal ultrasound เห็น internal และ external sphincter ทั้งวง บอกตำแหน่งและขนาดของรอยฉีก (มักอยู่ด้านหน้าหลังคลอด) จึงเป็นการตรวจหลักก่อนวางแผนซ่อมหูรูด · MRI เป็นทางเลือก",
+  "interp": "หญิง 32 ปีกลั้นอุจจาระไม่ได้หลังคลอดทางช่องคลอดที่ตัด episiotomy — สงสัย<b>หูรูดทวารขาดจากการคลอด (obstetric anal sphincter injury)</b> ถามการตรวจที่ดูกายวิภาค (anatomy) ของหูรูดได้ดีที่สุด ซึ่งต้องแยกการตรวจที่ดูโครงสร้างจากการตรวจที่ดูหน้าที่ (function)",
+  "why": "การคลอดทางช่องคลอดเป็นสาเหตุหลักของหูรูดทวารขาดในหญิง · ปัจจัยเสี่ยง: ครรภ์แรก ใช้คีม (forceps) ทารกน้ำหนัก &gt; 4 kg ท่า occiput posterior ระยะที่สองยาว และ <b>midline episiotomy</b> · การฉีกขาดระดับ 3 (หูรูดขาด: 3a EAS &lt; 50%, 3b EAS ≥ 50%, 3c ถึง IAS) และระดับ 4 (ถึงเยื่อบุทวาร) · การขาดของหูรูดที่ตรวจด้วยตาไม่เห็น (occult defect) พบได้ราวหนึ่งในสามของครรภ์แรกเมื่อตรวจด้วย endoanal ultrasound · <b>Endoanal ultrasound</b> (โดยเฉพาะ 3D) เป็น<b>มาตรฐานดูกายวิภาคหูรูด</b>: internal sphincter เป็นวงดำ (hypoechoic) external sphincter เป็นวงสีเทาเข้ม-ขาว บอกตำแหน่ง ความยาว และองศาของรอยขาดได้ ราคาไม่แพง ทำได้ข้างเตียง · MRI ทวารเป็นทางเลือกที่ดีในการดู external sphincter atrophy · การตรวจหน้าที่ (manometry, PNTML, defecography) บอกแรงบีบและการทำงาน ไม่บอกรอยขาด · ไฟล์คีย์ชุดแรกวง A ลายมือ <b>\"B function · C low imaging quality should be MRI · D function\"</b> ส่วนไฟล์คีย์ชุดที่สองติ๊ก C เขียน <b>\"✓anatomy\"</b> และเขียน \"→ fistula\" ที่ A",
   "wrong": {
-   "B": "Defecography ดูการขับถ่าย (function) ไม่ใช่รอยฉีกของหูรูด · <b>นอกสไลด์:</b> จะถูกถ้าหญิงเบ่งถ่ายลำบาก ถ่ายไม่สุด ต้องใช้นิ้วดันผนังช่องคลอดช่วย สงสัย rectocele หรือ intussusception",
-   "C": "CT เห็นหูรูดไม่ชัด (COOK/GUN) · <b>นอกสไลด์:</b> จะถูกถ้าหญิงหลังคลอดมีไข้สูงปวดอุ้งเชิงกราน สงสัยฝีในอุ้งเชิงกราน",
-   "D": "Manometry วัดแรงดันขณะพักและขณะขมิบ = function · <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยกลั้นอุจจาระไม่อยู่แต่ endoanal ultrasound ไม่พบรอยฉีก และต้องการวัดแรงบีบ/ความรู้สึกของ rectum ก่อนทำ biofeedback",
-   "E": "<b>นอกสไลด์:</b> PNTML ดูการทำงานของเส้นประสาท pudendal ไม่ใช่กายวิภาค และปัจจุบันบทบาทลดลง · จะถูกถ้าคลอดยากระยะเบ่งนาน กลั้นไม่อยู่โดยไม่มีรอยฉีกของหูรูด สงสัย pudendal neuropathy"
+   "B": "Defecography ถ่ายภาพขณะเบ่งถ่ายเพื่อดู<b>การทำงานของการขับถ่าย</b> เช่น rectocele, rectal intussusception, enterocele และ dyssynergia ไม่เห็นรอยขาดของหูรูด — จะถูกถ้าเป็นหญิง 55 ปีคลอดหลายครั้ง เบ่งถ่ายลำบาก รู้สึกถ่ายไม่สุด ต้องใช้นิ้วกดผนังช่องคลอดด้านหลังช่วยถ่าย (splinting) สงสัย rectocele",
+   "C": "CT อุ้งเชิงกรานแยกชั้นของหูรูดภายในและภายนอกได้ไม่ดี (ความละเอียดเนื้อเยื่ออ่อนต่ำ — ไฟล์คีย์ชุดแรกเขียนว่าควรใช้ MRI) และมีรังสี — จะถูกถ้าเป็นหญิง 40 ปีไข้สูง ปวดก้นมาก บวมแดงลึก ตรวจไม่พบตำแหน่งหนองชัด สงสัยฝี ischiorectal หรือ supralevator ที่ลามกว้าง → CT ฉีดสีดูขอบเขตฝีก่อนระบาย",
+   "D": "Anorectal manometry วัด<b>หน้าที่</b>: resting pressure (สะท้อน internal sphincter ราว 70–85%) squeeze pressure (external sphincter) ความรู้สึกและ compliance ของ rectum และ RAIR แต่ไม่บอกตำแหน่งรอยขาด — จะถูกถ้าเป็นหญิงอุจจาระเล็ดที่ endoanal ultrasound พบหูรูดครบดี และต้องประเมินแรงบีบ/ ความรู้สึกเพื่อวางแผน biofeedback",
+   "E": "PNTML วัดเวลานำกระแสประสาท pudendal เพื่อหา <b>pudendal neuropathy</b> (เช่นจากการคลอดยากหรือเบ่งเรื้อรังจน perineum หย่อน) บอกการทำงานของเส้นประสาท ไม่ใช่กายวิภาคหูรูด และปัจจุบันใช้น้อยลง — จะถูกถ้าเป็นหญิง 65 ปีคลอดยากหลายครั้ง เบ่งถ่ายเรื้อรัง perineum หย่อนลงมาก อุจจาระเล็ด แต่ endoanal ultrasound พบหูรูดไม่ขาด"
   },
-  "trap": "P'Ing ตอบ C CT pelvis เพราะคิดว่าเป็นการดูกายวิภาค (คีย์ 2 ไฟล์ไม่ตรงกัน) — CT ไม่เหมาะกับหูรูด ใช้ endoanal ultrasound หรือ MRI",
+  "trap": "ไฟล์คีย์ชุดที่สองเลือก CT เพราะ \"ดู anatomy ต้องใช้ภาพ cross-section\" และเข้าใจว่า endoanal ultrasound ใช้หา fistula เท่านั้น · จริงคือ endoanal US ใช้ได้ทั้ง fistula และหูรูด และเป็นมาตรฐานดูรอยขาดของหูรูด ส่วน CT แยกชั้นหูรูดไม่ได้ · จำแยก: <b>anatomy = endoanal US (หรือ MRI)</b> · <b>function = manometry, PNTML, defecography</b>",
   "summary": [
-   "<b>นอกสไลด์:</b> Obstetric anal sphincter injury: เสี่ยงในการคลอดครั้งแรก ใช้คีม/เครื่องดูด เด็กตัวใหญ่ ตัดฝีเย็บแนวกลาง · รอยฉีกมักอยู่ด้านหน้า",
-   "<b>นอกสไลด์:</b> ดูกายวิภาค: endoanal ultrasound (หลัก), MRI · ดูหน้าที่: manometry, defecography, PNTML/EMG",
-   "<b>นอกสไลด์:</b> รักษา: ปรับอาหาร ยาลดการถ่าย (loperamide), biofeedback ก่อน · ซ่อมหูรูดเมื่อมีรอยฉีกชัดและไม่ดีขึ้น · sacral nerve stimulation เมื่อวิธีอื่นไม่ได้ผล"
+   "Obstetric anal sphincter injury (RCOG): 3a external sphincter ขาด &lt; 50% · 3b ≥ 50% · 3c ขาดถึง internal sphincter · 4 ถึงเยื่อบุ anal canal · ซ่อมทันทีในห้องผ่าตัด (EAS ใช้ overlap หรือ end-to-end, IAS ซ่อมแยก)",
+   "ปัจจัยเสี่ยง OASIS: ครรภ์แรก, forceps/ vacuum, ทารก &gt; 4 kg, occiput posterior, ระยะที่สองยาว, midline episiotomy · mediolateral episiotomy มุมราว 60° ลดความเสี่ยงเมื่อใช้เครื่องมือช่วยคลอด",
+   "Endoanal ultrasound: internal sphincter = วง hypoechoic ด้านใน · external sphincter = วง mixed/ hyperechoic ด้านนอก · บอกรอยขาดเป็นองศาของวงรอบ ทำได้รวดเร็วไม่เจ็บ",
+   "Anorectal manometry: resting pressure ส่วนใหญ่มาจาก internal sphincter · squeeze pressure มาจาก external sphincter · รวมถึงการวัดความรู้สึกของ rectum และ RAIR · ใช้ประเมินหน้าที่ก่อนและหลังรักษา",
+   "Fecal incontinence วัดความรุนแรงด้วย Wexner (Cleveland Clinic) score 0–20 · รักษาขั้นแรก: ปรับอาหารเพิ่มใย loperamide ฝึกกล้ามเนื้ออุ้งเชิงกราน/ biofeedback",
+   "ไม่ดีขึ้นด้วยการรักษาขั้นแรก: หูรูดขาดชัด → overlapping sphincteroplasty (ผลดีช่วงแรกแต่ลดลงตามเวลา) · sacral nerve stimulation ใช้ได้ทั้งมีและไม่มีรอยขาด · ทางเลือกสุดท้ายคือ stoma",
+   "หญิงที่เคยมี OASIS: ตั้งครรภ์ถัดไปควรประเมินอาการและ endoanal ultrasound/ manometry · ถ้ามีอาการหรือรอยขาดชัด พิจารณาผ่าคลอด"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ P'Ing (C) · เห็นด้วยกับ COOK/GUN (A) ตาม ASCRS ที่ใช้ endoanal ultrasound ดูรอยฉีกของหูรูด · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — endoanal ultrasound เป็นมาตรฐานดูกายวิภาคหูรูดทวารตาม ASCRS · คีย์สองไฟล์ไม่ตรงกัน: ไฟล์คีย์ชุดแรกตอบ A (B, D เป็น function, CT ภาพไม่ละเอียดควรใช้ MRI) ไฟล์คีย์ชุดที่สองตอบ C (CT เพราะดู anatomy) · เว็บเลือก A เพราะ CT แยกชั้นหูรูดไม่ได้ และ endoanal US ไม่ได้ใช้เฉพาะ fistula · เว็บเติมช้อย E",
+  "mnemonic": "<b>'Sphincter \"ขาดไหม\" → Endoanal US · \"แรงไหม\" → Manometry'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Treatment of Fecal Incontinence (Dis Colon Rectum 2023); RCOG Green-top Guideline No. 29: Third- and Fourth-degree Perineal Tears (2015)",
   "variants": [
-   "<b>นอกสไลด์:</b> Endoanal ultrasound พบรอยฉีกด้านหน้าของ external sphincter ฝึก biofeedback แล้วยังกลั้นไม่อยู่ → overlapping sphincteroplasty",
-   "<b>นอกสไลด์:</b> คลอดแล้วพบฝีเย็บฉีกถึงหูรูดทวารหนัก (third-degree tear) → เย็บซ่อมหูรูดทันทีโดยผู้มีประสบการณ์"
+   "หญิงหลังคลอดด้วย forceps พบฉีกขาดถึงหูรูดภายนอกเกินครึ่งแต่ internal sphincter ปกติ → grade 3b → ซ่อมทันทีในห้องผ่าตัด ให้ยาปฏิชีวนะและยาระบาย",
+   "หญิงอุจจาระเล็ด 2 ปีหลังคลอด endoanal US พบ external sphincter ขาด 120° ด้านหน้า ฝึก biofeedback แล้วไม่ดีขึ้น → overlapping sphincteroplasty หรือ sacral nerve stimulation",
+   "หญิงหลังคลอดที่มีฝีและรูเปิดข้างทวารเรื้อรัง ต้องการดูทางของ fistula ร่วมกับหูรูด → endoanal ultrasound (± hydrogen peroxide) หรือ pelvic MRI",
+   "ทำไม CT ไม่เหมาะดูหูรูด → internal และ external sphincter มีความหนาแน่นใกล้กันบน CT แยกชั้นและรอยขาดไม่ได้ ต่างจาก ultrasound และ MRI ที่แยกเนื้อเยื่ออ่อนได้ชัด"
+  ],
+  "notes": "ไฟล์ S75CQ หน้า 2 — ตัวพิมพ์: <b>คนท้องคลอดแล้วมาหาหมอเพราะ incontinence กลั้นอุจจาระไม่ได้ ตรวจร่างกายพบแผล episiotomy ถามว่าถ้าอยากตรวจ sphincter anatomy ต้องใช้อะไร — A. endoanal ultrasound B. Defecography C. CT pelvic D. Anal manometry</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ คีย์ 2 ไฟล์ไม่ตรงกัน: COOK/GUN = A · P'Ing = C (เขียน ✓anatomy ที่ C และ → fistula ที่ A) · ตัดสินตาม ASCRS → A · เติมช้อย E",
+  "src": "S75CQ · หน้า 2",
+  "kimg": [
+   "ks75c_colo5",
+   "kp75c_colo5"
   ]
  }
 }

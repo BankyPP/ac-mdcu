@@ -1,29 +1,31 @@
 {
  "MDCU69|RoC|R20": {
-  "interp": "ถามเครื่องมือ<b>หยุดเลือดในการผ่าตัดสมอง</b>",
-  "why": "<b>Bipolar cautery</b> ให้กระแสไฟผ่านเฉพาะเนื้อเยื่อที่อยู่ระหว่างปลายคีมสองขา → ความร้อนจำกัดเฉพาะจุด ไม่แพร่ไปทำลายเนื้อสมอง/ เส้นประสาทข้างเคียง จึงเป็น<b>เครื่องมือหยุดเลือดหลักในศัลยกรรมประสาท</b> (ใช้ร่วมกับ hemostatic agents เช่น Gelfoam, Surgicel, bone wax ที่กระดูก) · ไฟล์ขีด 4",
+  "interp": "ถามเครื่องมือที่ใช้<b>หยุดเลือดระหว่างผ่าตัดสมอง</b> — หลักคือเนื้อสมอง เส้นประสาทสมอง และหลอดเลือดเล็กบอบบาง ต้องเลือกวิธีที่จี้เฉพาะจุด กระแสไฟฟ้าและความร้อนไม่กระจายไปยังเนื้อเยื่อประสาทรอบ ๆ",
+  "why": "<b>Bipolar cautery</b> คือคีมจี้ที่ปลายทั้งสองข้างเป็นขั้วไฟฟ้าเอง กระแสวิ่งเฉพาะ<b>ระหว่างปลายคีมผ่านเนื้อเยื่อที่คีบไว้</b> ไม่ไหลผ่านตัวผู้ป่วยไปแผ่น grounding pad · จึงจี้ได้แม่นยำ ความร้อนกระจายน้อย ใช้กับหลอดเลือดผิวสมอง (cortical vessels) หลอดเลือดที่เลี้ยงก้อนเนื้องอก และใกล้ cranial nerve หรือ brainstem ได้อย่างปลอดภัย · เทคนิค: ใช้กำลังต่ำเท่าที่พอ หยดน้ำเกลือ (irrigation) ระหว่างจี้เพื่อลดความร้อนและไม่ให้ปลายคีมติดเนื้อเยื่อหรือเกิด charring แล้วค่อย ๆ แยกปลายคีมออก · เครื่องมือหยุดเลือดอื่นในห้องผ่าตัดสมอง: <b>bone wax</b> อุดเลือดจากขอบกระดูกกะโหลก, <b>Raney clips</b> หนีบขอบแผลหนังศีรษะ, สารห้ามเลือดเฉพาะที่ (oxidized cellulose เช่น Surgicel, gelatin sponge เช่น Gelfoam) ร่วมกับ cottonoid patty กดเบา ๆ, และการยกศีรษะสูงร่วมกับกดหรือเย็บซ่อมเมื่อเลือดออกจาก dural venous sinus · monopolar ใช้ได้เฉพาะตอนเลาะหนังศีรษะและกล้ามเนื้อ ไม่ใช้กับเนื้อสมอง · ไฟล์ MCQ Key 2 ขีด 4 (bipolar cautery) และไฮไลต์ <b>\"หยุดเลือดในการผ่าตัดสมอง\"</b> ส่วนไฟล์ Key_1 ไม่มีขีด",
   "wrong": {
-   "A": "การผูกใช้กับหลอดเลือดขนาดใหญ่ ทำได้ยากในเนื้อสมองที่บอบบาง · จะถูกถ้าคำถามถามการหยุดเลือดจากหลอดเลือดใหญ่ในช่องท้อง",
-   "B": "การเย็บใช้ได้จำกัด (เช่น dura, ซ่อม venous sinus) ไม่ใช่การหยุดเลือดหลักในเนื้อสมอง · จะถูกถ้าคำถามถามการซ่อมรอยฉีกของ dural venous sinus",
-   "C": "Monopolar กระแสไหลผ่านตัวผู้ป่วย ความร้อนแพร่กว้าง ทำลายเนื้อสมอง/ เส้นประสาทได้ · จะถูกถ้าคำถามถามการหยุดเลือดที่หนังศีรษะ/ กล้ามเนื้อ ก่อนเปิดกะโหลก",
-   "E": "Metallic clip (เช่น aneurysm clip) ใช้ปิดคอ aneurysm ไม่ใช่การหยุดเลือดทั่วไป · จะถูกถ้าคำถามถามการรักษา cerebral aneurysm แบบผ่าตัด"
+   "A": "Ligation คือการผูกหลอดเลือดด้วยไหม ต้องมีหลอดเลือดขนาดพอที่จะเลาะและคล้องเชือกได้ หลอดเลือดผิวสมองเล็กและเปราะเกินกว่าจะผูก การดึงยังทำให้เนื้อสมองช้ำ — จะถูกถ้าเป็นหญิง 45 ปี ผ่าตัด total thyroidectomy ที่ต้องผูก superior thyroid pedicle ชิดต่อม (เลี่ยง external branch of superior laryngeal nerve)",
+   "B": "Suturing ใช้ปิดแผลหรือซ่อมผนังหลอดเลือดขนาดใหญ่ ไม่ใช่วิธีหยุดเลือดจากหลอดเลือดเล็กในเนื้อสมอง และการเย็บผ่านเนื้อสมองทำให้บาดเจ็บเพิ่ม — จะถูกถ้าเป็นชาย 30 ปี อุบัติเหตุจักรยานยนต์ มีแผลฉีกขาดที่หนังศีรษะยาว 8 cm เลือดออกมาก ต้องเย็บปิดให้รวมชั้น galea ด้วยจึงหยุดเลือดได้",
+   "C": "Monopolar cautery กระแสไหลจากปลายจี้ผ่านร่างกายไปแผ่น grounding pad ความร้อนและกระแสกระจายกว้าง ถ้าใช้บนเนื้อสมองหรือใกล้ cranial nerve จะทำลายเนื้อเยื่อประสาทรอบ ๆ — จะถูกถ้าเป็นขั้นตอนเปิด craniotomy ในชายอายุ 50 ปี ขณะเลาะกล้ามเนื้อ temporalis และ pericranium ออกจากกะโหลก ซึ่งยังไม่ถึงเนื้อสมอง",
+   "E": "\"Metallic strip\" ไม่ใช่เครื่องมือหยุดเลือดมาตรฐาน · โลหะที่ใช้ในงานประสาทศัลยกรรมคือ clip เช่น Raney clip สำหรับขอบหนังศีรษะ หรือ aneurysm clip (titanium) ซึ่งไม่ใช่เครื่องมือหยุดเลือดทั่วไปในเนื้อสมอง — ถ้าตีความเป็น clip จะถูกถ้าเป็นหญิง 55 ปี subarachnoid hemorrhage จาก aneurysm ที่ anterior communicating artery แล้วผ่าตัด clipping ที่คอ aneurysm"
   },
-  "trap": "เลือก monopolar เพราะใช้บ่อยในห้องผ่าตัดทั่วไป — ในสมองต้องจำกัดความร้อน = bipolar",
+  "trap": "Monopolar เป็นเครื่องจี้ที่คุ้นที่สุดในห้องผ่าตัดทั่วไปจึงชวนเลือก · จุดแยกคือ<b>เส้นทางของกระแส</b>: monopolar ผ่านร่างกายผู้ป่วยไปแผ่น pad จึงกระจาย ส่วน bipolar อยู่เฉพาะระหว่างปลายคีม — งานที่อยู่ใกล้เนื้อเยื่อประสาท (สมอง ไขสันหลัง เส้นประสาท) หรือในที่แคบลึกต้องใช้ bipolar",
   "summary": [
-   "Bipolar: กระแสระหว่างปลายคีม · ความร้อนจำกัด → สมอง ไขสันหลัง มือ",
-   "Monopolar: กระแสผ่านตัวผู้ป่วย → แผ่นสายดิน · ห้ามใช้ใกล้โครงสร้างบอบบาง",
-   "Bone wax: หยุดเลือดจากกระดูก",
-   "Gelfoam/ Surgicel: หยุดเลือดซึมจากผิวสมอง",
-   "Aneurysm clip: ปิดคอ aneurysm",
-   "Pacemaker → เลือก bipolar ลดการรบกวน"
+   "Monopolar: กระแสจาก active electrode ผ่านตัวผู้ป่วยไป dispersive (grounding) pad · cut mode = กระแสต่อเนื่องแรงดันต่ำ · coag mode = กระแสเป็นช่วงแรงดันสูง ความร้อนกระจายกว้างกว่า",
+   "Bipolar: กระแสวิ่งระหว่างปลายคีมสองข้างเท่านั้น ไม่ต้องใช้ grounding pad ความร้อนกระจายน้อย จึงเหมาะกับสมอง ไขสันหลัง จุลศัลยกรรม และงานใกล้เส้นประสาท",
+   "ผู้ที่ใส่ pacemaker/ ICD: เลือก bipolar ก่อน ถ้าต้องใช้ monopolar ให้วาง pad ให้เส้นทางกระแสห่างจากเครื่อง จี้เป็นช่วงสั้น และปรับโหมดเครื่องตามคำแนะนำ",
+   "แผล burn จาก monopolar มักเกิดที่จุดวาง pad ไม่แนบ หรือร่างกายแตะโลหะของเตียง (alternate site burn) — pad ควรติดบนกล้ามเนื้อใหญ่ใกล้แผลผ่าตัด",
+   "ห้ามเลือดจากกะโหลก: bone wax · ขอบหนังศีรษะ: Raney clips · ผิวสมองซึม: oxidized cellulose/ gelatin sponge + cottonoid กดเบา ๆ",
+   "เลือดออกจาก dural venous sinus: ยกศีรษะสูง กดด้วย Gelfoam/ ชิ้นกล้ามเนื้อ เย็บซ่อมหรือปะ · ระวัง air embolism เมื่อศีรษะสูงกว่าหัวใจ",
+   "ก่อนผ่าตัดสมองต้องหยุดหรือแก้ยาต้านเกล็ดเลือด/ ยาต้านการแข็งตัวของเลือดตามข้อบ่งชี้ เพราะเลือดออกในโพรงกะโหลกเพียงเล็กน้อยก็กดสมองได้"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด)",
-  "mnemonic": "<b>'สมอง = Bi (สองขา) — ไฟอยู่แค่ระหว่างคีม'</b>",
-  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Surgical hemostasis and electrosurgery",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — bipolar เป็นมาตรฐานการหยุดเลือดบนเนื้อสมองเพราะจี้เฉพาะเนื้อเยื่อที่คีบ ตรงกับไฟล์ MCQ Key 2 ที่ขีด 4 ส่วนไฟล์ Key_1 ไม่ได้ขีดจึงไม่มีคีย์ขัดแย้ง",
+  "mnemonic": "<b>'Bipolar = Brain (กระแสอยู่แค่ระหว่างปลายคีม)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Operative techniques; Schwartz's Principles of Surgery 11th ed. (2019) — Energy devices in surgery",
   "variants": [
-   "ผ่าตัดเนื้องอกไขสันหลัง → bipolar",
-   "เลือดออกจากขอบกะโหลก → bone wax",
-   "ผู้ป่วยใส่ pacemaker ผ่าตัดช่องท้อง → ใช้ bipolar/ ระวัง monopolar"
+   "ผ่าตัด microvascular decompression มีหลอดเลือดดำเล็กเลือดซึมข้าง trigeminal nerve → bipolar กำลังต่ำร่วมกับหยดน้ำเกลือ",
+   "เปิดกะโหลกแล้วมีเลือดซึมจากรูในกระดูก (diploic veins) ตามขอบ bone flap → bone wax อุด",
+   "ทำไมต้องหยดน้ำเกลือขณะใช้ bipolar → ลดความร้อนสะสม ไม่ให้เนื้อเยื่อไหม้ติดปลายคีมแล้วฉีกหลอดเลือดเมื่อแยกคีม",
+   "ระหว่างตัดก้อน parasagittal meningioma เลือดดำออกมากจาก superior sagittal sinus → กดด้วย cottonoid/ Gelfoam ยกศีรษะ แล้วเย็บซ่อมหรือปะ sinus"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 62–63 — ตัวพิมพ์: <b>20. เครื่องมืออะไรใช้หยุดเลือดในการผ่าตัดสมอง — 1.ligating 2.suturing 3.monopolar cautery 4.bipolar cautery 5.metallic strip</b><br>ลายมือ: ขีด 4<br>ไฮไลต์: \"หยุดเลือดในการผ่าตัดสมอง\" · 4 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 53: ไม่มีขีด",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 62",
@@ -35,30 +37,32 @@
   ]
  },
  "MDCU69|RoC|R23": {
-  "interp": "ก้อนที่ <b>right frontal lobe</b> → ถามอาการที่เป็นไปได้",
-  "why": "Frontal lobe ควบคุมบุคลิกภาพ การตัดสินใจ พฤติกรรม (prefrontal) → ก้อนที่ frontal lobe โดยเฉพาะด้าน<b>ขวา (non-dominant)</b> ซึ่งเป็น \"silent area\" มักมาด้วย<b>บุคลิกภาพเปลี่ยน</b> (disinhibition, apathy) ชัก หรือ ICP สูงเมื่อโตมาก · ไม่ทำให้ aphasia (dominant ซ้าย) หรือ ataxia (cerebellum) · ไฟล์ขีด 3 · ต้นฉบับมีช้อย seizure และ increase ICP ซึ่งเป็นอาการของ frontal mass ได้เช่นกัน เว็บจึงเรียบเรียงช้อยใหม่ให้มีคำตอบเดียว",
+  "interp": "ผู้ป่วยมีก้อนที่ <b>right frontal lobe</b> ถามอาการที่เกิดจากก้อนนี้ได้ — ต้องรู้หน้าที่ของ frontal lobe และว่า right (มักเป็น non-dominant) ไม่ใช่ที่อยู่ของศูนย์ภาษา จึงเลือกอาการที่สอดคล้องกับตำแหน่ง",
+  "why": "Frontal lobe แบ่งหน้าที่: <b>prefrontal cortex</b> คุม executive function การตัดสินใจ สมาธิ บุคลิกภาพ และการยับยั้งพฤติกรรม (orbitofrontal เสีย → disinhibition ก้าวร้าว พูดไม่เหมาะสม · dorsolateral/ medial เสีย → apathy, abulia เฉยเมย) · <b>primary motor cortex</b> (precentral gyrus) → อ่อนแรงซีกตรงข้าม · <b>frontal eye field</b> → ตาเหลือบไปทางรอยโรค · medial frontal → กลั้นปัสสาวะไม่ได้ · <b>Broca's area</b> อยู่ inferior frontal gyrus ของซีก dominant (ซ้ายในคนถนัดขวาเกือบทั้งหมด) · ก้อนที่ right frontal มักเงียบนานจนก้อนใหญ่ แล้วมาด้วย<b>บุคลิกภาพ/ พฤติกรรมเปลี่ยน</b> ชัก หรืออาการความดันในกะโหลกสูง (ปวดศีรษะ อาเจียน papilledema) · ตรวจ MRI with gadolinium · ก้อนที่พบบ่อยคือ glioma, meningioma, metastasis · olfactory groove meningioma อาจมี Foster Kennedy syndrome (anosmia + optic atrophy ข้างเดียวกัน + papilledema ข้างตรงข้าม) · ไฟล์ MCQ Key 2 ขีด 3 <b>\"personality change\"</b> ใส่เครื่องหมายคำพูดรอบ \"frontal lobe\" และไฟล์ Key_1 ขีด C ตรงกัน",
   "wrong": {
-   "A": "Contralateral homonymous hemianopia เกิดจากรอยโรค optic radiation/ occipital lobe · จะถูกถ้าก้อนอยู่ที่ occipital lobe หรือ temporal/ parietal ลึก",
-   "B": "Receptive (Wernicke) aphasia เกิดจาก superior temporal gyrus ซีก dominant (ซ้าย) · จะถูกถ้าก้อนอยู่ที่ left posterior temporal lobe",
-   "D": "Cerebellar ataxia เกิดจากรอยโรค cerebellum · จะถูกถ้าก้อนอยู่ที่ posterior fossa/ cerebellar hemisphere",
-   "E": "Hearing loss เกิดจากรอยโรคเส้นประสาท VIII/ cerebellopontine angle · จะถูกถ้าก้อนเป็น vestibular schwannoma"
+   "A": "Contralateral homonymous hemianopia เกิดจากรอยโรคหลัง optic chiasm คือ optic tract, LGN, optic radiation (temporal → superior quadrantanopia, parietal → inferior quadrantanopia) หรือ occipital cortex ไม่ใช่ frontal lobe — จะถูกถ้าเป็นชาย 68 ปี มี AF มองไม่เห็นลานสายตาซีกซ้ายของตาทั้งสองข้างทันที โดยการมองตรงกลางยังดี (macular sparing) MRI พบ right occipital infarction จาก PCA",
+   "B": "Receptive (Wernicke) aphasia เกิดจาก posterior superior temporal gyrus ของซีก dominant (ซ้าย) พูดคล่องแต่ไม่มีความหมาย ฟังไม่เข้าใจ ไม่ใช่ frontal ขวา (frontal ซ้ายให้ expressive/ Broca aphasia) — จะถูกถ้าเป็นหญิงถนัดขวาอายุ 60 ปี พูดเร็วคล่องแต่เป็นคำสลับไร้ความหมาย ทำตามคำสั่งไม่ได้ ไม่รู้ตัวว่าพูดผิด MRI พบก้อนที่ left temporal lobe",
+   "D": "Cerebellar ataxia เกิดจากรอยโรคใน cerebellum (hemisphere → เดินเซ dysmetria intention tremor ข้างเดียวกัน · vermis → truncal ataxia) ก้อน frontal อาจทำให้เดินลำบากแบบ gait apraxia ได้แต่ไม่ใช่ cerebellar sign — จะถูกถ้าเป็นเด็ก 6 ขวบ เดินเซ นั่งตัวโยก อาเจียนตอนเช้า MRI พบก้อนที่ vermis ใน posterior fossa ร่วมกับ hydrocephalus (medulloblastoma)",
+   "E": "การได้ยินผ่านเส้นทางที่ไขว้ทั้งสองข้าง รอยโรคที่ cortex ข้างเดียวแทบไม่ทำให้หูหนวก การสูญเสียการได้ยินข้างเดียวชนิด sensorineural ชี้ไปที่ cochlea หรือ CN VIII — จะถูกถ้าเป็นหญิง 50 ปี หูซ้ายค่อย ๆ ได้ยินลดลง มีเสียงในหูและเดินเซ MRI พบก้อน enhancing ที่ cerebellopontine angle ยื่นเข้า internal auditory canal (vestibular schwannoma)"
   },
-  "trap": "ลืมว่า right frontal เป็น silent area — อาการแรกมักเป็นบุคลิกภาพเปลี่ยน/ ชัก/ ICP สูง ไม่ใช่ focal deficit ชัด",
+  "trap": "ชวนเลือก aphasia เพราะจำว่า frontal lobe มี Broca's area — แต่ Broca อยู่ซีก dominant (ซ้าย) และเป็น expressive ส่วนช้อยเป็น receptive ซึ่งอยู่ temporal · อีกกับดักคือช้อยลานสายตาและ ataxia ที่เป็นอาการสมองจริงแต่ผิดตำแหน่ง ให้ไล่ map หน้าที่ของแต่ละ lobe ก่อนเลือก",
   "summary": [
-   "Frontal: บุคลิกภาพ · motor (precentral) · Broca (ซ้าย)",
-   "Temporal: Wernicke (ซ้าย) · ความจำ · upper quadrantanopia",
-   "Parietal: sensory · neglect (ขวา) · Gerstmann (ซ้าย)",
-   "Occipital: homonymous hemianopia",
-   "Cerebellum: ataxia · posterior fossa → hydrocephalus",
-   "Silent area (right frontal) → อาการ ICP สูง/ ชัก/ บุคลิกภาพ"
+   "Frontal: บุคลิกภาพ/ พฤติกรรม/ executive function · motor cortex (อ่อนแรงซีกตรงข้าม) · frontal eye field · Broca (ซีก dominant) · กลั้นปัสสาวะ (medial) · primitive reflex เช่น grasp reflex กลับมา",
+   "Parietal: sensory cortex · ซีก dominant → Gerstmann syndrome (agraphia, acalculia, finger agnosia, left-right confusion) · ซีก non-dominant → hemineglect, anosognosia, dressing apraxia",
+   "Temporal: Wernicke (ซีก dominant) · ความจำ (hippocampus) · Meyer loop → contralateral superior quadrantanopia · focal impaired awareness seizure (déjà vu, กลิ่นแปลก, lip smacking)",
+   "Occipital: contralateral homonymous hemianopia มักมี macular sparing (เลือดเลี้ยงขั้วท้ายสองทาง) · cerebellum: ataxia ข้างเดียวกับรอยโรค",
+   "Language dominant hemisphere: ซ้ายในคนถนัดขวาราว 95% และในคนถนัดซ้ายส่วนใหญ่ จึงพบ aphasia จากก้อนขวาได้น้อย",
+   "ก้อนในสมองมาได้ 3 แบบ: focal deficit ตามตำแหน่ง · ชัก (พบบ่อยใน low-grade glioma และก้อนที่ cortex) · ความดันในกะโหลกสูง (ปวดศีรษะตอนเช้า อาเจียน papilledema, Cushing triad ในระยะท้าย)",
+   "Foster Kennedy syndrome (olfactory groove/ sphenoid wing meningioma): anosmia + optic atrophy ข้างเดียวกับก้อน + papilledema ข้างตรงข้าม"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
-  "mnemonic": "<b>'Frontal = Front (หน้าตา/ บุคลิก) เปลี่ยน'</b>",
-  "guide": "Greenberg Handbook of Neurosurgery 10th ed. (2023) — Localization of intracranial lesions",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับไฟล์ MCQ Key 2 (ขีด 3) และ Key_1 (ขีด C) · ต้นฉบับมีช้อยเพียง seizure, increase ICP, personality change ซึ่งเกิดได้ทั้งหมด เว็บจึงเขียนช้อยอื่นใหม่เป็นอาการที่ผิดตำแหน่งให้เหลือคำตอบเดียว",
+  "mnemonic": "<b>'Frontal = Feeling/ Personality · Temporal = Talk-understanding + hearing · Occipital = Optic'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Neuroanatomy and localization; Adams and Victor's Principles of Neurology 12th ed. (2023)",
   "variants": [
-   "ชายบุคลิกเปลี่ยน ไม่สนใจสิ่งรอบตัว ปวดหัวตอนเช้า → frontal meningioma",
-   "พูดคล่องแต่ไม่เข้าใจคำพูด → left temporal lesion",
-   "เดินเซ ตากระตุก → cerebellar lesion"
+   "ชาย 55 ปี ภรรยาบอกว่า 6 เดือนมานี้เฉยเมย ไม่สนใจงาน ปัสสาวะราด MRI พบก้อน butterfly ข้าม corpus callosum ที่ frontal ทั้งสองข้าง → glioblastoma",
+   "หญิงถนัดขวา พูดได้น้อย ตะกุกตะกัก ฟังเข้าใจดี รู้ตัวว่าพูดไม่ออก แขนขาขวาอ่อนแรง → left frontal (Broca area)",
+   "ชาย 60 ปี ไม่สนใจร่างกายซีกซ้าย แต่งตัวเฉพาะซีกขวา ไม่ยอมรับว่ามีปัญหา → right parietal lesion",
+   "ก้อน temporal lobe ซ้ายกด Meyer loop → ลานสายตาบนขวาของตาทั้งสองข้างหาย (pie in the sky)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 63 — ตัวพิมพ์: <b>23. Rt \"frontal lobe\" mass, which symptom can be presentation of disease — 1. seizure 2. increase ICP 3. personality change</b><br>ลายมือ: ขีด 3 · เครื่องหมายคำพูดรอบ \"frontal lobe\"<br>ไฮไลต์: \"Rt frontal lobe mass\" \"presentation\" · 3 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 54: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย (seizure, increase ICP, personality change) → เว็บเขียน A, B, D, E ใหม่ให้เหลือคำตอบเดียว",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 63",
@@ -69,30 +73,32 @@
   ]
  },
  "MDCU69|RoC|R48": {
-  "interp": "หญิงสูงอายุมี <b>stridor</b> พบ <b>ก้อนใน anterior mediastinum 5 cm กดหลอดลม</b> และ <b>I-131 scan จับก้อนในอก</b> → <b>intrathoracic (substernal) goiter</b> → ถามการรักษา",
-  "why": "ก้อนในช่องอกที่จับ radioiodine = <b>เนื้อเยื่อไทรอยด์ (retrosternal/ intrathoracic goiter)</b> · เมื่อ<b>กดหลอดลมจนมีอาการ (stridor)</b> รักษาด้วย<b>การผ่าตัด thyroidectomy</b> — ส่วนใหญ่ (&gt; 90%) ผ่าตัดผ่านทางคอได้ บางรายต้อง sternotomy/ thoracotomy (ก้อนลงลึก posterior mediastinum, ไม่มีส่วนต่อกับคอ = primary/ ectopic intrathoracic thyroid) · RAI/ ยาไม่ได้ผลเร็วและ RAI อาจทำให้บวมกดหลอดลมมากขึ้น · ไฟล์ขีด 5 ลายมือ <b>\"intrathoracic thyroid\"</b> ลากลูกศรไปที่ 5 และเขียน <b>\"ก้อนใน chest → Sx ทาง intrathoracic\"</b>",
+  "interp": "หญิงสูงอายุมี <b>stridor</b> จาก<b>ก้อนใน anterior mediastinum 5 cm กดหลอดลม</b> และ I-131 scan จับสารที่ก้อน (เว็บ: ต่อเนื่องกับคอ) = เนื้อเยื่อไทรอยด์ในทรวงอก (substernal/ intrathoracic goiter) ที่มีอาการกดเบียด — ถามการรักษา",
+  "why": "ก้อนใน anterior mediastinum นึกถึง \"4 T\": thymoma, teratoma/ germ cell tumor, \"terrible\" lymphoma และ <b>thyroid</b> · การที่ <b>radioiodine จับที่ก้อน</b>ยืนยันว่าเป็นเนื้อเยื่อไทรอยด์ · substernal goiter ส่วนใหญ่ (secondary) เป็นคอพอกที่คอโตลงไปหลังกระดูกอก เลือดเลี้ยงจาก inferior thyroid artery ที่คอ ส่วนน้อยมากเป็น <b>primary (ectopic) mediastinal thyroid</b> ที่ไม่ต่อกับคอและเลือดเลี้ยงจากหลอดเลือดในอก · เมื่อมี<b>อาการกดเบียด</b> (stridor, dyspnea, dysphagia, SVC syndrome) การรักษาคือ <b>thyroidectomy</b> เพราะยาและ radioactive iodine ลดขนาดได้น้อย RAI อาจทำให้ต่อมบวมชั่วคราวจนทางเดินหายใจแย่ลง และยังตัดมะเร็งไม่ได้ · CT คอและทรวงอกช่วยวางแผนว่าก้อนลงลึกแค่ไหน · <b>ผ่าตัดทางคอ (cervical collar incision) ได้มากกว่า 90%</b> เพราะดึงก้อนขึ้นจาก thoracic inlet ได้ ต้อง <b>sternotomy</b> หรือ thoracotomy เมื่อก้อนลงถึง posterior mediastinum/ ใต้ aortic arch ใหญ่กว่า thoracic inlet สงสัยมะเร็งลุกลาม หรือเป็น ectopic ที่เลือดเลี้ยงจากในอก · ระวัง tracheomalacia และ recurrent laryngeal nerve injury · ไฟล์ MCQ Key 2 ขีด 5 ลายมือ <b>\"intrathoracic thyroid\"</b> ลากลูกศรไปช้อย 5 และ <b>\"ก้อนใน chest · Sx ทาง intrathoracic\"</b>",
   "wrong": {
-   "A": "การเฝ้าดูไม่เหมาะเมื่อมี stridor (ทางเดินหายใจอุดตัน) · จะถูกถ้าก้อนไทรอยด์ในอกเล็ก ไม่มีอาการ ไม่กดหลอดลม",
-   "B": "Radiotherapy ใช้กับ lymphoma/ thymoma บางชนิด ไม่ใช่ goiter · จะถูกถ้าก้อน anterior mediastinum เป็น lymphoma/ seminoma ที่ไวต่อรังสี",
-   "C": "Chemoradiation ใช้กับมะเร็ง (เช่น lymphoma, germ cell tumor, anaplastic thyroid) ไม่ใช่ goiter ที่จับ I-131 (คีย์ไฟล์ Key 1 ขีดข้อนี้) · จะถูกถ้าก้อน anterior mediastinum ไม่จับ I-131 ชิ้นเนื้อเป็น lymphoma",
-   "D": "Hormonal (levothyroxine suppression) ได้ผลน้อยกับ multinodular goiter และไม่แก้การกดหลอดลมทันที · จะถูกถ้าคำถามถามการรักษาหลังผ่าตัด thyroidectomy (ทดแทนฮอร์โมน)"
+   "A": "การเฝ้าดูใช้กับคอพอกที่ไม่มีอาการและไม่มีลักษณะมะเร็ง แต่ก้อนนี้ทำให้ stridor แล้ว ซึ่งเสี่ยงทางเดินหายใจอุดกั้นเฉียบพลัน (เช่นเลือดออกในก้อน) — จะถูกถ้าเป็นหญิง 45 ปี คลำได้ multinodular goiter เล็กที่คอ ไม่มีอาการกดเบียด TSH ปกติ ultrasound ไม่มีลักษณะน่าสงสัย นัดติดตามด้วย ultrasound",
+   "B": "External beam radiotherapy ไม่ใช่การรักษาคอพอกที่ไม่ร้าย ใช้กับก้อนใน mediastinum ชนิดอื่น เช่น thymoma ที่ตัดไม่หมด หรือ seminoma — จะถูกถ้าเป็นชาย 58 ปี myasthenia gravis ผ่าตัด thymectomy พบ thymoma ลุกเข้าเยื่อหุ้มหัวใจ (Masaoka stage III) และขอบตัดมีเนื้องอก จึงให้ adjuvant radiotherapy",
+   "C": "Chemoradiation เป็นการรักษาก้อน mediastinum ที่เป็น lymphoma หรือมะเร็งที่ผ่าตัดไม่ได้ ไม่ใช่เนื้อเยื่อไทรอยด์ที่จับ I-131 (ไฟล์ Key_1 ขีดช้อยนี้) — จะถูกถ้าเป็นชาย 24 ปี ไข้ เหงื่อออกกลางคืน น้ำหนักลด มีต่อมน้ำเหลืองที่คอ CT พบก้อน anterior mediastinum ใหญ่ biopsy เป็น Hodgkin lymphoma ชนิด nodular sclerosis → chemotherapy ร่วมกับ involved-site radiotherapy",
+   "D": "Hormonal therapy (levothyroxine เพื่อกด TSH) ไม่แนะนำสำหรับคอพอกหรือก้อนที่ไม่ร้ายแล้ว เพราะลดขนาดได้น้อยและเสี่ยง AF กับกระดูกพรุนในผู้สูงอายุ — จะถูกถ้าเป็นหญิง 32 ปี ต่อมไทรอยด์โตทั่ว ๆ เหนื่อยง่าย ขี้หนาว TSH สูง anti-TPO บวก (Hashimoto thyroiditis มี hypothyroidism) จึงให้ levothyroxine ทดแทน"
   },
-  "trap": "เห็น anterior mediastinal mass แล้วคิดถึง 4T (thymoma, teratoma, terrible lymphoma) → RT/ chemo — I-131 จับ = ไทรอยด์ → ผ่าตัด · คีย์ไฟล์ Key 1 ขีด C",
+  "trap": "ก้อนใน mediastinum ทำให้นึกถึงมะเร็งแล้วเลือกรังสีหรือ chemoradiation (ไฟล์ Key_1 ก็ขีด C) · คำสำคัญคือ <b>I-131 จับก้อน</b> = เนื้อไทรอยด์ ซึ่งรักษาด้วยการผ่าตัด และ stridor เป็นข้อบ่งชี้ผ่าตัดชัดเจน · อีกจุดคือคิดว่าต้องผ่าเปิดอกทุกราย จริง ๆ ส่วนใหญ่ผ่าทางคอได้",
   "summary": [
-   "Anterior mediastinal mass: 4T — thymoma · teratoma/ germ cell · thyroid · terrible lymphoma",
-   "I-131 จับ → intrathoracic goiter",
-   "มีอาการกด (stridor, dysphagia, SVC) → thyroidectomy",
-   "ส่วนใหญ่ผ่าทางคอได้ · บางรายต้อง sternotomy",
-   "Primary intrathoracic thyroid (ไม่ต่อกับคอ) → sternotomy/ thoracotomy",
-   "CT ก่อนผ่าตัดประเมินความลึกและหลอดลม"
+   "Anterior mediastinal mass \"4 T\": Thymoma (พบบ่อยในผู้ใหญ่ สัมพันธ์ myasthenia gravis), Teratoma/ germ cell (ชายหนุ่ม ตรวจ AFP, β-hCG), Terrible lymphoma, Thyroid",
+   "Substernal goiter: คอพอกที่ส่วนหนึ่ง (นิยามบ่อยคือ &gt; 50%) อยู่ใต้ thoracic inlet · ส่วนใหญ่เป็น secondary ต่อจากคอ เลือดเลี้ยงจากคอ · primary mediastinal goiter พบน้อยมาก",
+   "อาการ: หายใจลำบาก/ stridor ท่านอน, dysphagia, เสียงแหบ (กด RLN), SVC syndrome · Pemberton sign: ยกแขนสองข้างเหนือศีรษะแล้วหน้าแดงคล้ำ หลอดเลือดดำคอโป่ง",
+   "ตรวจ: TSH · CT คอ-ทรวงอกดูขอบเขตและการกดหลอดลม · radioiodine scan ยืนยันเนื้อไทรอยด์ใน mediastinum · ถ้าจะให้ RAI ควรเลี่ยง iodinated contrast ก่อนหน้าเพราะลดการจับ",
+   "ข้อบ่งชี้ผ่าตัด: มีอาการกดเบียด สงสัยมะเร็ง hyperthyroidism ร่วม หรือก้อนโตต่อเนื่อง · หลายสถาบันแนะนำผ่าตัดแม้ไม่มีอาการในผู้ที่ผ่าตัดได้ เพราะก้อนโตลงอกต่อไปและผ่ายากขึ้น",
+   "Cervical approach ได้ &gt; 90% · sternotomy เมื่อลงถึง posterior mediastinum, ใต้ aortic arch, ก้อนกว้างกว่า thoracic inlet, ectopic, มะเร็งลุกลาม หรือผ่าซ้ำ",
+   "ภาวะแทรกซ้อนหลังผ่าตัด: hypocalcemia จาก hypoparathyroidism, RLN injury, เลือดออกกดทางเดินหายใจ (ต้องเปิดแผลด่วน), tracheomalacia ที่ต้องคาท่อช่วยหายใจ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ขีด 5) และลายมือ intrathoracic thyroid · คีย์ไฟล์ Key 1 ขีด C (RT + CMT) ซึ่งเป็นการรักษามะเร็ง ไม่เข้ากับก้อนที่จับ I-131 · ต้นฉบับระบุ \"ไม่มี uptake ที่คอ\" (primary intrathoracic thyroid → ผ่าทางทรวงอก) เว็บเขียนช้อยเป็น surgical thyroidectomy",
-  "mnemonic": "<b>'ก้อนในอก + I-131 จับ = ไทรอยด์ = ผ่า (ไม่ฉายแสง)'</b>",
-  "guide": "ATA Guidelines / AAES Guidelines for the Definitive Surgical Management of Thyroid Disease in Adults (Ann Surg 2020;271:e21) — substernal goiter",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ MCQ Key 2 (ขีด 5 + ลายมือ intrathoracic thyroid) ส่วนคีย์ไฟล์ Key_1 ขีด C (chemoradiation) ซึ่งเป็นการรักษา lymphoma ไม่ใช่เนื้อไทรอยด์ที่จับ I-131 · ต้นฉบับเขียนว่า \"ไม่มี uptake ที่คอ\" (ชี้ ectopic mediastinal thyroid ที่มักต้องผ่าทางอก) และช้อย 5 คือ Sx thoracotomy เว็บปรับโจทย์เป็น uptake ต่อเนื่องกับคอและช้อยเป็น surgical thyroidectomy คำตอบยังเป็นการผ่าตัดเหมือนเดิม",
+  "mnemonic": "<b>'I-131 จับก้อนในอก = Thyroid → ตัด (ส่วนใหญ่ผ่านคอ)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Thyroid: Substernal goiter; ATA Guidelines for Adult Thyroid Nodules and Differentiated Thyroid Cancer 2015 (Thyroid 2016)",
   "variants": [
-   "ก้อนที่คอลงไปหลังกระดูกอก หายใจลำบากท่ายกแขน (Pemberton sign บวก) → substernal goiter → thyroidectomy",
-   "ชายหนุ่มก้อน anterior mediastinum AFP/ β-hCG สูง → germ cell tumor → chemo",
-   "ก้อน anterior mediastinum + myasthenia gravis → thymoma → thymectomy"
+   "หญิง 70 ปี หายใจลำบากเมื่อนอนราบ ยกแขนสองข้างแล้วหน้าแดงคล้ำ CT พบคอพอกลงหลังกระดูกอกถึงระดับ aortic arch → total thyroidectomy ทางคอ (เตรียม sternotomy ไว้)",
+   "ชาย 25 ปี ก้อน anterior mediastinum β-hCG และ AFP สูงมาก → nonseminomatous germ cell tumor → cisplatin-based chemotherapy ก่อน แล้วผ่าตัดก้อนที่เหลือ",
+   "ทำไมไม่ให้ radioactive iodine ในคอพอกที่กดหลอดลม → ลดขนาดช้าและอาจทำให้ต่อมบวมอักเสบช่วงแรกจนทางเดินหายใจแย่ลง",
+   "หลังผ่าตัดคอพอกใหญ่ 6 ชั่วโมง คอบวมตึงเร็ว หายใจลำบาก → เปิดแผลข้างเตียงระบาย hematoma ทันทีแล้วกลับห้องผ่าตัด"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 63 — ตัวพิมพ์: <b>48 หญิง แก่ มี stridor แล้ว work up เจอ anterior mediastinal mass ขนาด 5 cm กดหลอดลม ทำ I131 scan ได้ uptake จากก้อนในอก แล้วไม่มี uptake ที่คอ รักษาอย่างไร — 1. Observe 2. RT 3. RT + CMT 4. Hormonal therapy 5. Sx thoracotomy</b><br>ลายมือ: \"intrathoracic thyroid\" ลากลูกศรไปที่ 5 + \"ก้อนใน chest · Sx ทาง intrathoracic\" · ขีด 5<br>ไฮไลต์: \"หญิง แก่\" \"stridor แล้ว work up เจอ anterior mediastinal mass ขนาด 5 cm กดหลอดลม\" \"ทำ I131 scan\" \"uptake จากก้อนในอก\" \"ไม่มี uptake ที่คอ\" \"รักษา\" · 5 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 54: ขีด C (⚠ ต่างจากคีย์ MCQ Key 2)<br>ที่ปรับในเว็บ: ช้อย 5 เขียนเป็น surgical thyroidectomy",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 63",
@@ -103,30 +109,32 @@
   ]
  },
  "MDCU69|RoC|R62": {
-  "interp": "ถามข้อที่<b>ไม่ใช่</b>สาเหตุเลือดออกทางเดินอาหารใน<b>ทารกแรกเกิด</b>",
-  "why": "สาเหตุที่พบบ่อยใน<b>ทารกแรกเกิด</b>: anal fissure, <b>NEC</b>, <b>กลืนเลือดแม่ระหว่างคลอด/ จากหัวนมแตก</b> (แยกด้วย Apt test), <b>midgut volvulus</b>, milk protein allergy · <b>Rectal (juvenile) polyp</b> พบในเด็ก<b>อายุ 2–8 ปี</b> ไม่ใช่ทารกแรกเกิด · ไฟล์ขีด 4 ลายมือ <b>\"@ 2–8 yo\"</b> ติ๊ก ✓ ที่ 1, 2, 3, 5 และแปะรายการสาเหตุตามช่วงอายุ",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>สาเหตุของเลือดออกในทางเดินอาหารของ<b>ทารกแรกเกิด (neonate ≤ 28 วัน)</b> — หลักคือสาเหตุเลือดออกทางเดินอาหารในเด็กแบ่งตามช่วงอายุ ต้องจับช้อยที่เป็นสาเหตุของเด็กวัยอื่น",
+  "why": "การประเมินเลือดออกทางเดินอาหารในเด็กเริ่มจาก<b>อายุ</b>และสภาพทั่วไป · <b>ทารกแรกเกิด</b>: สาเหตุหลักคือ <b>กลืนเลือดแม่</b> (ระหว่างคลอดหรือจากหัวนมแตก — แยกด้วย <b>Apt–Downey test</b>: fetal Hb ทนด่างจึงยังเป็นสีชมพู adult Hb กลายเป็นสีเหลืองน้ำตาล), <b>anal fissure</b> (เลือดสดติดผิวอุจจาระในทารกที่ดูดี), <b>NEC</b> (ทารกคลอดก่อนกำหนดหลังเริ่มนม ท้องอืด pneumatosis intestinalis), <b>midgut volvulus</b> (ถ่ายเป็นเลือดเป็นสัญญาณลำไส้ขาดเลือดแล้ว), vitamin K deficiency bleeding ในทารกที่ไม่ได้รับ vitamin K แรกเกิด และ cow's milk protein allergy (allergic proctocolitis มักเริ่ม 2–8 สัปดาห์) · <b>1 เดือน–2 ปี</b>: intussusception, Meckel's diverticulum, anal fissure · <b>2–8 ปี</b>: <b>juvenile (rectal) polyp</b> เป็นสาเหตุที่พบบ่อยที่สุดของเลือดสดไม่เจ็บในวัยนี้ (hamartoma เดี่ยวใน rectosigmoid) · เด็กโต: IBD, polyp, hemorrhoid · rectal polyp จึง<b>ไม่ใช่</b>สาเหตุในทารกแรกเกิด · ไฟล์ MCQ Key 2 ติ๊ก ✓ ช้อย 1, 2, 3, 5 และขีด 4 ลายมือ <b>\"@ 2-8 yo\"</b> พร้อมแปะตารางสาเหตุตามช่วงอายุ ไฟล์ Key_1 ขีด D ตรงกัน",
   "wrong": {
-   "A": "เป็นสาเหตุ — NEC ในทารกเกิดก่อนกำหนด: ท้องอืด ถ่ายเป็นเลือด pneumatosis (ลายมือ ✓) · จะถูกถ้าคำถามถามสาเหตุในเด็กอายุ 2–8 ปี",
-   "B": "เป็นสาเหตุ — anal fissure พบบ่อยที่สุดในทารก (ลายมือ ✓) · จะถูกถ้าคำถามถามสาเหตุเลือดออกปริมาณมากที่ต้องผ่าตัด",
-   "C": "เป็นสาเหตุ — midgut volvulus ลำไส้ขาดเลือด ถ่ายเป็นเลือดเป็นสัญญาณอันตราย (ลายมือ ✓) · จะถูกถ้าคำถามถามสาเหตุในเด็กโตวัยเรียน",
-   "E": "เป็นสาเหตุ — กลืนเลือดแม่ แยกด้วย Apt-Downey test (ลายมือ ✓) · จะถูกถ้าคำถามถามสาเหตุที่มีเลือดจากทารกเองจริง"
+   "A": "ข้อความถูก: NEC เป็นสาเหตุสำคัญของถ่ายเป็นเลือดในทารกแรกเกิด โดยเฉพาะคลอดก่อนกำหนด น้ำหนักน้อย หลังเริ่มให้นม — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารกคลอด 29 สัปดาห์ อายุ 10 วัน เริ่มนมได้ไม่กี่วันแล้วท้องอืด นมค้างในกระเพาะ ถ่ายมีเลือด AXR เห็น pneumatosis intestinalis และ portal venous gas",
+   "B": "ข้อความถูก: anal fissure เป็นสาเหตุที่พบบ่อยของเลือดสดติดผิวอุจจาระในทารกที่ดูแข็งแรง มักเกิดจากอุจจาระแข็ง ตรวจพบรอยแยกที่ขอบทวาร — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารกอายุ 3 สัปดาห์ ดูดนมดี น้ำหนักขึ้นดี มีเลือดสดเป็นเส้นติดอุจจาระ กางก้นดูพบแผลแยกที่ขอบทวารด้านหลัง",
+   "C": "ข้อความถูก: midgut volvulus ทำให้ลำไส้ขาดเลือดและถ่ายเป็นเลือดในทารกแรกเกิดได้ เป็นสัญญาณที่ช้าและอันตราย — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารกอายุ 5 วัน อาเจียนเขียว ต่อมาท้องอืด ถ่ายเป็นเลือดคล้ำ ซึมลงและความดันต่ำ ต้องผ่าตัดฉุกเฉิน",
+   "E": "ข้อความถูก: ทารกกลืนเลือดแม่ระหว่างคลอดหรือขณะดูดนมจากหัวนมที่แตก แล้วอาเจียนหรือถ่ายเป็นเลือด ทั้งที่ทารกไม่มีเลือดออกจริง — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารกอายุ 2 วัน ดูดีทุกอย่าง อาเจียนมีเลือดคล้ำ แม่มีหัวนมแตก ตรวจ Apt test พบเป็น adult hemoglobin"
   },
-  "trap": "รวม polyp เข้ากับเลือดออกทุกวัย — juvenile polyp พบ 2–8 ปี",
+  "trap": "ช้อยทุกข้อเป็นสาเหตุเลือดออกทางเดินอาหารในเด็กจริง จึงต้องผูกกับ<b>ช่วงอายุ</b> · rectal (juvenile) polyp เป็นสาเหตุเด่นของเด็ก 2–8 ปี (ตามลายมือ \"@ 2-8 yo\") ไม่ใช่ทารกแรกเกิด · คำว่า NOT ในโจทย์ทำให้หลายคนเผลอเลือกข้อที่จำได้ว่าเป็นสาเหตุ",
   "summary": [
-   "ทารกแรกเกิด: anal fissure · NEC · กลืนเลือดแม่ · midgut volvulus · milk allergy",
-   "1 เดือน–2 ปี: intussusception · Meckel · anal fissure",
-   "2–8 ปี: juvenile polyp · Meckel · intussusception",
-   "วัยรุ่น: IBD · polyp · ริดสีดวง",
-   "Apt test: แยกเลือดแม่ (HbA) กับเลือดทารก (HbF)",
-   "Meckel: เลือดแดงคล้ำปริมาณมากไม่เจ็บ → Meckel scan"
+   "ขั้นแรกของทารกที่มีเลือดออกทางเดินอาหาร: ดูสัญญาณชีพ ดูว่าดูป่วยหรือดูดี และแยกเลือดแม่ด้วย Apt–Downey test ก่อนทำการตรวจรุกล้ำ",
+   "Vitamin K deficiency bleeding: early (0–24 ชม. แม่ใช้ยากันชัก/ warfarin) · classic (2–7 วัน) · late (2–12 สัปดาห์ ทารกกินนมแม่ล้วนที่ไม่ได้ vitamin K) — ป้องกันด้วย vitamin K1 1 mg IM แรกเกิด",
+   "Allergic proctocolitis (cow's milk protein): ทารกดูดี มีมูกเลือดในอุจจาระ อายุราว 2–8 สัปดาห์ · แม่งดนมวัวหรือเปลี่ยนเป็น extensively hydrolyzed formula แล้วเลือดหายในไม่กี่วัน",
+   "Juvenile polyp: hamartoma เดี่ยวใน rectosigmoid · เลือดสดไม่เจ็บ บางครั้งหลุดออกมาเอง (autoamputation) · รักษาด้วย colonoscopic polypectomy · ≥ 5 ก้อน หรือมีทั่วทางเดินอาหาร → juvenile polyposis syndrome (SMAD4/ BMPR1A)",
+   "Meckel's diverticulum: เลือดออกมากไม่เจ็บ สีแดงคล้ำในเด็ก &lt; 2 ปี จาก ectopic gastric mucosa · ตรวจ Tc-99m pertechnetate scan",
+   "NEC Bell staging: I สงสัย (อาการไม่จำเพาะ) · II ยืนยัน (pneumatosis/ portal venous gas) · III รุนแรง (ช็อก หรือ pneumoperitoneum = ข้อบ่งชี้ผ่าตัด)",
+   "เด็กโตเลือดออกทางทวาร: anal fissure, IBD (มีท้องเสียเรื้อรัง น้ำหนักลด), juvenile polyp, hemorrhoid พบน้อยในเด็ก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
-  "mnemonic": "<b>'Polyp = เด็กวัยอนุบาล–ประถม (2–8 ปี) ไม่ใช่ทารก'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — GI bleeding in children; NASPGHAN clinical report on lower GI bleeding",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — rectal polyp เป็นสาเหตุในเด็ก 2–8 ปี ไม่ใช่ทารกแรกเกิด ตรงกับไฟล์ MCQ Key 2 (ขีด 4 + ลายมือ \"@ 2-8 yo\" และตารางสาเหตุตามอายุที่แปะไว้) และ Key_1 ขีด D ตรงกัน",
+  "mnemonic": "<b>'Polyp = Preschool–Primary (2–8 ปี) ไม่ใช่ทารก'</b>",
+  "guide": "Nelson Textbook of Pediatrics 21st ed. (2020) — Gastrointestinal bleeding; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Polypoid diseases of the GI tract, Necrotizing enterocolitis",
   "variants": [
-   "ทารกคลอดก่อนกำหนดท้องอืด ถ่ายเป็นเลือด ฟิล์ม pneumatosis → NEC",
-   "เด็ก 4 ขวบถ่ายเลือดสดไม่เจ็บ คลำได้ก้อนใน rectum → juvenile polyp → polypectomy",
-   "ทารกแรกเกิดอาเจียนเป็นเลือด Apt test เป็นเลือดแม่ → สังเกตอาการ"
+   "เด็กชาย 4 ขวบ แข็งแรงดี มีเลือดสดติดอุจจาระไม่เจ็บเป็นครั้งคราวมา 2 เดือน → juvenile polyp → colonoscopic polypectomy",
+   "เด็ก 18 เดือน ถ่ายเลือดแดงคล้ำปริมาณมาก ไม่ปวดท้อง ซีด → Meckel's diverticulum → Tc-99m pertechnetate scan",
+   "ทารก 6 สัปดาห์ กินนมผสม ดูดี น้ำหนักขึ้นดี มีมูกปนเลือดในอุจจาระ → allergic proctocolitis → extensively hydrolyzed formula",
+   "ทารกคลอดที่บ้านไม่ได้ vitamin K อายุ 5 สัปดาห์ กินนมแม่ล้วน มีเลือดออกทางเดินอาหารและซึม → late VKDB ต้องคิดถึงเลือดออกในสมอง → vitamin K ทางหลอดเลือด + FFP"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 63 — ตัวพิมพ์: <b>62. Which of the following is not the cause of neonatal gastrointestinal hemorrhage? — 1. NEC 2. Anal fissure 3. Midgut volvulus 4. Rectal polyp 5. Swallowing maternal blood</b><br>ลายมือ: ✓ ที่ 1, 2, 3, 5 · ขีด 4 + \"@ 2-8 yo\"<br>ไฮไลต์: \"not\" \"cause of neonatal gastrointestinal hemorrhage\" · 4 (เหลือง) · 1, 2, 3, 5 (ส้ม)<br>รูปที่แปะ: ข้อความภาษาไทย — สาเหตุที่พบบ่อยในกลุ่มทารกแรกคลอดได้แก่ Anal fissure หรือแผลฉีกขาดปากทวารหนัก · ลำไส้อักเสบเน่าตาย (necrotizing enterocolitis) · เด็กกลืนเลือดแม่ระหว่างการคลอด · Midgut volvulus / สาเหตุในกลุ่มทารก 1 เดือนถึง 2 ปี ได้แก่ ลำไส้กลืนกัน (intussusception) · เลือดออกจาก Meckel's diverticulum · แผลฉีกขาดปากทวารหนัก / สาเหตุในเด็กอายุ 2 ถึง 8 ปี ได้แก่ เนื้องอก rectal polyp · segmental enteritis · ลำไส้ขาดเลือด / สาเหตุในเด็กอายุ 9–14 ปี ได้แก่ anal fissure · segmental enteritis · ลำไส้ขาดเลือด<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 54: ขีด D (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 63",
@@ -137,30 +145,32 @@
   ]
  },
  "MDCU69|RoC|R65": {
-  "interp": "ทารกอายุ <b>3 สัปดาห์</b> <b>อาเจียนเป็นน้ำดี (สีเขียว) ทันทีทันใด</b> → ถามการวินิจฉัย",
-  "why": "อาเจียนสีเขียวในทารก = <b>malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> — เป็นภาวะฉุกเฉินทางศัลยกรรม (ลำไส้ขาดเลือดทั้งเส้น) · พบบ่อยในเดือนแรกของชีวิต · ต้องทำ <b>upper GI study ด่วน</b> (DJ flexure อยู่ขวาของกระดูกสันหลัง/ corkscrew) → <b>Ladd procedure</b> · ไฟล์ขีด 4 ลายมือ: Pyloric stenosis <b>\"peak 3–5 wk · non-bilious\"</b> · Intussusception <b>\"peak 3–8 mo\"</b> · Malrotation <b>\"peak @ 1 mo\"</b> และใส่เครื่องหมายคำพูดรอบ \"sudden\"",
+  "interp": "ทารกอายุ <b>3 สัปดาห์</b> มี<b>อาเจียนเป็นน้ำดีทันที</b> — ถามการวินิจฉัย โดยใช้สองหลักคือสีของสิ่งที่อาเจียน (บอกระดับการอุด) และอายุที่มีอาการ (บอกโรคที่พบในช่วงนั้น)",
+  "why": "ระหว่างตั้งครรภ์สัปดาห์ที่ 4–12 midgut เคลื่อนออกนอกช่องท้องแล้วกลับเข้า พร้อม<b>หมุนทวนเข็มนาฬิกา 270° รอบแกน superior mesenteric artery</b> จน DJ flexure อยู่ซ้ายของกระดูกสันหลังและ cecum อยู่ RLQ ทำให้ mesentery มีฐานกว้างจาก LUQ ถึง RLQ · ถ้าหมุนไม่ครบ (malrotation) ฐาน mesentery แคบ ลำไส้จึงบิดตามเข็มนาฬิการอบ SMA ได้ง่าย (<b>midgut volvulus</b>) และมี Ladd band จาก cecum พาดผ่าน duodenum · ตามลายมือ volvulus <b>peak ราว 1 เดือน</b> ตรงกับทารก 3 สัปดาห์ · อาเจียนน้ำดีทันทีในทารกที่เคยดีคือ volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ตรวจ: AXR อาจปกติหรือมีลมน้อยในลำไส้ส่วนปลาย · <b>UGI contrast study</b> เป็นมาตรฐาน (DJ flexure อยู่ขวาของ left pedicle และต่ำกว่า pylorus, duodenum บิดเป็น corkscrew) · ultrasound อาจเห็น <b>whirlpool sign</b> หรือ SMV อยู่ซ้ายของ SMA · รักษา: NG decompression สารน้ำ ยาปฏิชีวนะ แล้ว <b>Ladd procedure</b> ด่วน คลายเกลียวทวนเข็มนาฬิกา ถ้าลำไส้ก้ำกึ่งทำ second-look 24–48 ชม. · ไฟล์ MCQ Key 2 ขีด 4 ลายมือ <b>\"peak @ 1 mo\"</b> ที่ช้อย volvulus, pyloric \"peak 3-5 wk\" \"non-bilious\" และ intussusception \"peak 3-8 mo\" · Key_1 ขีด D ตรงกัน",
   "wrong": {
-   "A": "Pyloric stenosis อายุตรงกัน (3–5 สัปดาห์) แต่อาเจียน<b>ไม่มีน้ำดี</b>พุ่ง (ลายมือ non-bilious) · จะถูกถ้าทารกอาเจียนพุ่งไม่มีน้ำดี คลำได้ olive mass hypochloremic metabolic alkalosis",
-   "B": "Duodenal atresia อาเจียนน้ำดีตั้งแต่<b>วันแรกหลังเกิด</b> (double bubble) ไม่ใช่เกิดทันทีที่อายุ 3 สัปดาห์ · จะถูกถ้าทารกแรกเกิด Down syndrome อาเจียนสีเขียววันแรก",
-   "C": "Intussusception พบอายุ 3–8 เดือน (ลายมือ) ปวดเป็นพัก ถ่ายมูกเลือด · จะถูกถ้าเด็ก 8 เดือนร้องเป็นพัก ขาคู้ ถ่าย currant jelly",
-   "E": "Hirschsprung มาด้วยขี้เทาออกช้า &gt; 48 ชม. ท้องอืด ท้องผูก · จะถูกถ้าทารกไม่ถ่ายขี้เทาใน 48 ชม. ท้องอืด PR แล้วอุจจาระพุ่ง (blast sign)"
+   "A": "Hypertrophic pyloric stenosis อายุตรงช่วง (ลายมือ peak 3–5 สัปดาห์) แต่ก้อนกล้ามเนื้อ pylorus อุดเหนือ ampulla อาเจียนจึง<b>ไม่มีน้ำดี</b> (ลายมือ non-bilious) และค่อย ๆ เป็นมากขึ้นไม่ใช่ทันที — จะถูกถ้าเป็นทารกชายลูกคนแรก อายุ 5 สัปดาห์ อาเจียนพุ่งเป็นนมทุกมื้อแล้วหิวอยากดูดต่อ มี hypochloremic hypokalemic metabolic alkalosis ultrasound pylorus หนา ≥ 3–4 mm",
+   "B": "Duodenal atresia อุดใต้ ampulla จึงอาเจียนเขียวได้ แต่เป็นตั้งแต่<b>วันแรกหลังคลอด</b> ไม่ปล่อยให้ทารกกินได้ปกติถึง 3 สัปดาห์ — จะถูกถ้าเป็นทารก Down syndrome ที่ฝากครรภ์พบ polyhydramnios อาเจียนเขียวหลังกินนมมื้อแรก ท้องส่วนบนป่อง AXR เป็น double bubble ไม่มีลมด้านปลาย",
+   "C": "Intussusception พบหลังอายุ 3 เดือน (ลายมือ peak 3–8 เดือน) อาการเด่นคือปวดท้องเป็นพัก ๆ ร้องกวนแล้วซึม ถ่ายมูกเลือด อาเจียนน้ำดีมาทีหลัง และพบน้อยมากในทารก 3 สัปดาห์ — จะถูกถ้าเป็นเด็ก 7 เดือน หลังเป็นหวัด ร้องดิ้นเป็นพัก ๆ ทุก 15–20 นาที ถ่ายมูกปนเลือดคล้ายแยม ultrasound เห็น target sign ที่ RUQ",
+   "E": "Hirschsprung disease อาเจียนน้ำดีได้ แต่เป็นภาพลำไส้อุดตันส่วนปลาย: ไม่ถ่ายขี้เทาใน 48 ชม.แรก ท้องอืดตึงค่อย ๆ มากขึ้น ไม่ได้เริ่มทันทีในทารกที่เคยถ่ายปกติ — จะถูกถ้าเป็นทารกครบกำหนด ถ่ายขี้เทาครั้งแรกเมื่ออายุ 3 วัน ท้องอืดมาก ใช้นิ้วตรวจทวารแล้วมีอุจจาระและลมพุ่ง (explosive) contrast enema เห็น transition zone ที่ rectosigmoid ยืนยันด้วย rectal suction biopsy ไม่พบ ganglion cell"
   },
-  "trap": "เห็นอายุ 3 สัปดาห์แล้วตอบ pyloric stenosis — ต้องดูว่าอาเจียนมีน้ำดีหรือไม่",
+  "trap": "อายุ 3 สัปดาห์ตรงกับช่วงพีคของ pyloric stenosis จนเผลอเลือก A — ต้องดู<b>สีอาเจียนก่อนอายุ</b>: น้ำดี = อุดใต้ ampulla ตัด pyloric stenosis ออกทันที · คำว่า \"sudden\" ในทารกที่เคยดีชี้ภาวะเฉียบพลันอย่าง volvulus ต่างจาก atresia (ตั้งแต่เกิด) และ Hirschsprung (ไม่ถ่ายขี้เทา)",
   "summary": [
-   "อาเจียนสีเขียวในทารก = malrotation volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
-   "Upper GI study: DJ flexure ขวา · corkscrew/ bird's beak",
-   "Ladd procedure: คลาย volvulus · ตัด Ladd bands · ขยาย mesentery · ตัดไส้ติ่ง",
-   "Pyloric stenosis: 3–5 สัปดาห์ · ไม่มีน้ำดี · metabolic alkalosis",
-   "Intussusception: 3 เดือน–3 ปี (peak 3–9 เดือน)",
-   "Duodenal atresia: วันแรก · double bubble"
+   "Normal rotation: midgut หมุนทวนเข็มนาฬิกา 270° รอบ SMA ช่วงสัปดาห์ที่ 4–12 · ปกติ DJ flexure อยู่ซ้ายของกระดูกสันหลังที่ระดับ pylorus และ cecum อยู่ RLQ",
+   "Malrotation ส่วนใหญ่แสดงอาการในเดือนแรก แต่ผู้ใหญ่ที่ไม่มีอาการก็พบได้จากการตรวจภาพโดยบังเอิญ · สัมพันธ์กับ CDH, gastroschisis, omphalocele และ heterotaxy",
+   "UGI study: ไวที่สุดสำหรับ malrotation · ultrasound: SMV อยู่ซ้ายหรือหน้าต่อ SMA, whirlpool sign ของ volvulus · AXR ปกติไม่ได้ตัดโรค",
+   "ทารกอาเจียนเขียวที่ท้องอืดตึง ถ่ายเป็นเลือด หรือช็อก → ไปห้องผ่าตัดเลยโดยไม่รอ UGI",
+   "Ladd procedure 4 ขั้น: detorsion ทวนเข็มนาฬิกา · ตัด Ladd bands · ขยายฐาน mesentery · วาง small bowel ขวา colon ซ้าย + appendectomy",
+   "ลำไส้ตายจาก volvulus → ตัดลำไส้น้อยที่สุด เก็บส่วนก้ำกึ่งไว้ดูซ้ำใน second-look · ตัดยาวเกิน → short bowel syndrome ต้องพึ่ง parenteral nutrition",
+   "ภาวะอาเจียนในทารกตามอายุ: atresia (วันแรก) · Hirschsprung (ขี้เทาช้า &gt; 48 ชม.) · volvulus (ทุกวัย พีคเดือนแรก) · pyloric stenosis (3–6 สัปดาห์ ไม่มีน้ำดี) · intussusception (3 เดือน–3 ปี)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 4 ช้อย จึงเติม E",
-  "mnemonic": "<b>'Bilious = Bad = volvulus (ฉุกเฉิน) · Non-bilious = Pyloric'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Malrotation and midgut volvulus; ACR Appropriateness Criteria: Vomiting in Infants (2019)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ทารก 3 สัปดาห์อาเจียนน้ำดีทันทีเป็นภาพคลาสสิกของ malrotation with midgut volvulus ตรงกับไฟล์ MCQ Key 2 (ขีด 4 + ลายมือแยกช่วงอายุแต่ละโรค) และ Key_1 ขีด D ตรงกัน · ช้อย E (Hirschsprung) เว็บเติมเองเพราะต้นฉบับมี 4 ช้อย",
+  "mnemonic": "<b>'Green vomit + Good baby before = Get UGI/ Go OR (volvulus)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Malrotation; Hirschsprung disease; Pyloric stenosis",
   "variants": [
-   "ทารก 5 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี คลำ olive → pyloric stenosis → แก้เกลือแร่ก่อน → pyloromyotomy",
-   "ทารกอาเจียนเขียว ถ่ายเป็นเลือด ท้องตึง → volvulus กับลำไส้ขาดเลือด → ผ่าตัดทันที",
-   "ทารกแรกเกิด Down syndrome อาเจียนเขียววันแรก double bubble → duodenal atresia"
+   "ทารก 10 วัน อาเจียนเขียว UGI พบ DJ flexure อยู่ขวาของกระดูกสันหลัง duodenum บิดเป็นเกลียว → Ladd procedure ด่วน",
+   "ทำไมต้องคลายเกลียวทวนเข็มนาฬิกา → volvulus ในภาวะ malrotation บิดตามเข็มนาฬิกา (มองจากด้านหน้า) รอบแกน SMA",
+   "ทารก 4 สัปดาห์ อาเจียนพุ่งไม่มีน้ำดี K 2.9 Cl 88 HCO3 34 → pyloric stenosis → แก้สารน้ำเกลือแร่ก่อน แล้ว pyloromyotomy",
+   "ทารกถ่ายขี้เทาช้าเมื่ออายุ 72 ชม. ต่อมามีไข้ ท้องอืด ถ่ายเหลวกลิ่นเหม็นมาก → Hirschsprung-associated enterocolitis → NPO, rectal irrigation, ยาปฏิชีวนะ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 63 — ตัวพิมพ์: <b>65. 3wk old infant \"sudden\" bilious vomiting dx? — 1. Pyloric stenosis 2. Duodenal atresia 3. Intussusception 4. Malrotation with midgut volvulus</b><br>ลายมือ: 1 \"peak 3-5 wk\" \"non-bilious\" · 3 \"peak 3-8 mo\" · 4 \"peak @ 1 mo\" · ขีด 4<br>ไฮไลต์: \"3wk old infant sudden bilious vomiting dx\" · 4 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 54: ขีด D (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 63",
@@ -171,30 +181,32 @@
   ]
  },
  "MDCU69|RoC|R69": {
-  "interp": "ทารกแรกเกิดไม่กี่ชั่วโมง <b>เขียว หอบ เสียงหายใจซ้ายลดลง เสียงหัวใจย้ายไปขวา ท้องแฟบ (scaphoid abdomen)</b> → <b>congenital diaphragmatic hernia (CDH)</b> → ถามข้อที่ถูก",
-  "why": "Scaphoid abdomen + เสียงหายใจซ้ายลด + หัวใจถูกดันไปขวา = <b>left Bochdalek CDH</b> (ซ้าย ~85%) · <b>วินิจฉัยได้ตั้งแต่ fetal ultrasound</b> (ไตรมาสสอง: กระเพาะ/ ลำไส้อยู่ในทรวงอก, วัด lung-to-head ratio ประเมินพยากรณ์) → วางแผนคลอดในศูนย์ที่พร้อม · ปัญหาหลักคือ <b>pulmonary hypoplasia + pulmonary hypertension</b> · การดูแลฉุกเฉิน: <b>ใส่ท่อช่วยหายใจทันที (ห้าม bag-mask)</b>, <b>OG/ NG suction</b> ลดลมในลำไส้, gentle ventilation ± ECMO · <b>ผ่าตัดเมื่อภาวะคงที่</b> (ไม่ใช่ฉุกเฉิน) · ไฟล์ขีด 3 ลายมือ <b>\"Congenital diaphragmatic hernia (CDH)\"</b> และ <b>\"correct E'lyte · NG decompress · ventilator } ให้ stable ก่อน\"</b>",
+  "interp": "ทารกแรกเกิดไม่กี่ชั่วโมงเขียว หายใจลำบาก เสียงหายใจซ้ายลดลง เสียงหัวใจย้ายไปขวา และ<b>ท้องแฟบ (scaphoid abdomen)</b> = <b>left congenital diaphragmatic hernia (CDH)</b> — ถามข้อความที่ถูกเกี่ยวกับการวินิจฉัยและการดูแลเบื้องต้น",
+  "why": "CDH ส่วนใหญ่เป็น <b>Bochdalek hernia</b> ที่ posterolateral ข้าง<b>ซ้ายราว 85%</b> (ลายมือสไลด์ Lt 85% Rt 15%) อวัยวะในท้องขึ้นไปในทรวงอก ท้องจึงแฟบ หัวใจถูกดันไปขวา · อันตรายจริงไม่ใช่ลำไส้ในอก แต่คือ <b>pulmonary hypoplasia + pulmonary hypertension</b> · <b>วินิจฉัยก่อนคลอดได้ด้วย ultrasound</b> (มักจาก anomaly scan ราวอายุครรภ์ 20 สัปดาห์) เห็นกระเพาะหรือลำไส้ในอกและ mediastinal shift แล้วประเมินความรุนแรงด้วย observed/expected lung-to-head ratio และการที่ตับขึ้นไปในอก (liver up) · ทารกรุนแรงบางรายทำ <b>FETO</b> (fetoscopic endoluminal tracheal occlusion) ซึ่ง TOTAL trial ในกลุ่ม severe left CDH เพิ่มอัตรารอดเป็น 40% เทียบ 15% · หลังคลอด: <b>ใส่ท่อช่วยหายใจทันที ห้าม bag-mask</b> (ลมเข้ากระเพาะ ลำไส้ในอกพองกดปอด) ใส่ <b>OG/NG tube ดูดต่อเนื่อง</b> ใช้ gentle ventilation (permissive hypercapnia, เป้า preductal SpO2 ราว 80–95%) ใช้ iNO/ ECMO เมื่อ pulmonary hypertension รุนแรง แล้ว<b>ผ่าตัดซ่อมเมื่อทารกคงที่</b> ไม่ใช่ผ่าทันที · ไฟล์ MCQ Key 2 ขีด 3 ลายมือ <b>\"CDH\"</b> และที่ช้อย 5 <b>\"correct E'lyte · NG decompress · ventilator ให้ stable ก่อน\"</b> (Key_1 ไม่มีขีด)",
   "wrong": {
-   "A": "Hiatal hernia ไม่ทำให้อาการรุนแรงในทารกแรกเกิดแบบนี้ (ลายมือขีดฆ่าแก้เป็น CDH) · จะถูกถ้าคำถามถามสาเหตุ GERD/ อาเจียนเรื้อรังในเด็กโต",
-   "B": "Chest tube ห้ามเพราะจะเจาะโดนลำไส้ในทรวงอก การดูแลคือใส่ท่อช่วยหายใจ + OG suction (ลายมือ \"ventilator?\") · จะถูกถ้าทารกมี tension pneumothorax จากการช่วยหายใจ",
-   "D": "CXR เห็นลำไส้/ ปลาย NG tube ในทรวงอกก็วินิจฉัยได้ ไม่ต้อง upper GI study (ลายมือ ✗) · จะถูกถ้าคำถามถามการวินิจฉัย malrotation ในทารกอาเจียนสีเขียว",
-   "E": "CDH ไม่ใช่การผ่าตัดฉุกเฉิน ต้องทำให้ภาวะคงที่ก่อน (ลายมือขีดฆ่า \"intervention surgery\") · จะถูกถ้าคำถามถามการรักษา malrotation with midgut volvulus"
+   "A": "Hiatal hernia คือกระเพาะเลื่อนผ่าน esophageal hiatus พบในผู้ใหญ่ มาด้วยแสบร้อนกลางอกหรืออาการกลืนติด ไม่ใช่ทารกแรกเกิดหายใจล้มเหลว (ลายมือขีดฆ่าเขียน Congenital diaphragmatic hernia) — จะถูกถ้าเป็นหญิง 68 ปี อ้วน แน่นหน้าอกหลังกินและอาเจียน CXR เห็น air-fluid level หลังหัวใจ CT พบกระเพาะเกือบทั้งหมดอยู่ในทรวงอก (paraesophageal hernia)",
+   "B": "ใส่ chest tube ใน CDH จะแทงโดนกระเพาะหรือลำไส้ที่อยู่ในทรวงอก และอาการหายใจลำบากมาจากปอดเจริญไม่เต็มที่ ไม่ใช่ลมหรือเลือดในช่องปอด (ลายมือเขียน ventilator?) — จะถูกถ้าเป็นทารกคลอดก่อนกำหนดใส่เครื่องช่วยหายใจแล้วออกซิเจนตกฉับพลัน ส่องไฟผ่านทรวงอก (transillumination) สว่างข้างหนึ่ง CXR เห็นปอดแฟบจาก tension pneumothorax ไม่มีลำไส้ในอก",
+   "D": "Upper GI study ไม่จำเป็นสำหรับวินิจฉัย CDH เพราะ CXR หลังใส่ OG tube เห็นปลายสายขดอยู่ในทรวงอกและเงาลำไส้มีลมในอกซ้ายก็พอ การตรวจทึบรังสียังเสี่ยงสำลัก (ลายมือ ✗) — จะถูกถ้าเป็นทารก 2 เดือนอาการคงที่ CXR เห็นเงาถุงลมในอกขวาล่างแยกไม่ได้ระหว่าง congenital pulmonary airway malformation กับ hernia จึงกลืนแป้งดูว่าลำไส้อยู่ในอกหรือไม่",
+   "E": "CDH เป็น physiologic emergency ไม่ใช่ surgical emergency การผ่าตัดทันทีขณะ pulmonary hypertension ยังไม่คงที่ไม่ทำให้รอดมากขึ้น ต้องประคับประคองให้คงที่ก่อน (ลายมือ correct E'lyte, NG decompress, ventilator) — จะถูกถ้าเป็นทารกแรกเกิด gastroschisis ที่ลำไส้นอกท้องเริ่มม่วงคล้ำเพราะรูที่ผนังหน้าท้องแคบรัด ต้องขยายรูและลดลำไส้ด่วน"
   },
-  "trap": "คิดว่าไส้เลื่อนในอกต้องผ่าตัดฉุกเฉินหรือใส่ chest tube — CDH ต้อง stabilize ก่อน ปัญหาคือปอดไม่เจริญ",
+  "trap": "เห็นอวัยวะในท้องขึ้นไปอยู่ในอกแล้วคิดว่าต้อง<b>ผ่าตัดด่วน</b>หรือ<b>ระบายทรวงอกด่วน</b> ซึ่งเป็นสองช้อยที่ล่อมากที่สุด · CDH ตายจาก pulmonary hypoplasia/ hypertension จึงต้อง intubate + OG decompress + gentle ventilation ให้คงที่ก่อนผ่า · ข้อที่ถูกจริงคือวินิจฉัยได้ตั้งแต่ fetal ultrasound",
   "summary": [
-   "CDH: Bochdalek (posterolateral) ซ้าย ~85%",
-   "Scaphoid abdomen · เสียงหายใจลด · หัวใจถูกดัน · เขียว",
-   "Fetal US วินิจฉัยได้ก่อนคลอด · LHR พยากรณ์",
-   "ห้าม bag-mask → intubate ทันที + OG suction",
-   "Gentle ventilation · ECMO ถ้าจำเป็น · ผ่าตัดเมื่อคงที่",
-   "พยากรณ์ขึ้นกับ pulmonary hypoplasia/ pulmonary HT"
+   "Bochdalek (posterolateral) ซ้ายราว 85% พบบ่อยในทารก · Morgagni (anterior retrosternal) มักข้างขวา พบน้อย อาการน้อยหรือพบโดยบังเอิญในเด็กโต/ ผู้ใหญ่",
+   "Prenatal: ultrasound เห็นกระเพาะ/ ลำไส้ในอก, mediastinal shift, polyhydramnios · ความรุนแรงประเมินด้วย o/e LHR, liver herniation, fetal MRI lung volume · ควรส่งคลอดในศูนย์ที่มี NICU, iNO และ ECMO",
+   "Delivery room: intubate ทันที ห้าม bag-mask · OG/NG ดูดต่อเนื่อง · หลีกเลี่ยง peak pressure สูง (ราว ≤ 25 cmH2O) ป้องกัน barotrauma และ pneumothorax ข้างตรงข้าม",
+   "Gentle ventilation: ยอม PaCO2 สูงได้ (permissive hypercapnia) · ดู preductal SpO2 (แขนขวา) · iNO ใช้รักษา pulmonary hypertension · ECMO สำหรับรายที่ล้มเหลวต่อการรักษา",
+   "ผ่าตัดซ่อมหลังทารกคงที่: ทาง subcostal laparotomy (หรือ thoracoscopy ในรายที่เหมาะ) ดึงอวัยวะกลับ ซ่อมกะบังลมด้วยการเย็บตรง หรือใช้ patch เมื่อรูกว้าง",
+   "สาเหตุการเสียชีวิตหลักคือ pulmonary hypoplasia + pulmonary hypertension · ความผิดปกติร่วม เช่น หัวใจ โครโมโซม และ malrotation",
+   "ระยะยาว: GERD, ปอดเรื้อรัง, พัฒนาการช้า, chest wall deformity และ hernia กลับเป็นซ้ำ (โดยเฉพาะที่ใช้ patch) ต้องติดตามหลายสาขา"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ขีด 3) และลายมือ (ไฟล์ Key 1 ไม่ได้ขีด)",
-  "mnemonic": "<b>'CDH: ท้องแฟบ อกเต็มลำไส้ → Tube (ET + OG) ไม่ใช่ chest tube → Stable แล้วค่อยผ่า'</b>",
-  "guide": "CDH EURO Consortium Consensus — 2015 update (Neonatology 2016;110:66); Coran's Pediatric Surgery 8th ed. (2019) — Congenital diaphragmatic hernia",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — CDH วินิจฉัยก่อนคลอดด้วย ultrasound ได้จริง ส่วนช้อยอื่นผิดชัด ตรงกับไฟล์ MCQ Key 2 ที่ขีด 3 พร้อมลายมือว่าต้องทำให้คงที่ก่อนผ่าตัด (Key_1 ไม่มีขีด) · ต้นฉบับเขียน heart sound shift left ลายมือแก้เป็น Rt. และเว็บใช้ shifted to the right ซึ่งถูกตาม left CDH",
+  "mnemonic": "<b>'CDH: Can Detect prenatally · ท้องแฟบ + เสียงหายใจซ้ายหาย → Tube (ET + OG) ไม่ใช่ chest tube'</b>",
+  "guide": "Snoek KG et al. CDH EURO Consortium Consensus — 2015 Update (Neonatology 2016); Deprest JA et al. TOTAL trial, N Engl J Med 2021; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Congenital diaphragmatic hernia",
   "variants": [
-   "fetal US เห็นกระเพาะในทรวงอกซ้าย → CDH → วางแผนคลอดศูนย์ที่มี ECMO",
-   "ทารก CDH เขียวมากหลังใส่ท่อ → pulmonary HT → iNO/ ECMO",
-   "CXR ทารกเห็นลำไส้ในอกซ้าย ปลาย OG อยู่ในอก → CDH"
+   "ultrasound อายุครรภ์ 22 สัปดาห์พบกระเพาะอยู่ในอกซ้าย ตับขึ้นไปในอก o/e LHR ต่ำมาก → severe CDH ส่งศูนย์ fetal therapy พิจารณา FETO และวางแผนคลอดในศูนย์ที่มี ECMO",
+   "ทารกแรกเกิดท้องแฟบหายใจลำบาก ผู้ช่วยกำลังจะช่วยหายใจด้วย bag-mask → หยุด ใส่ endotracheal tube และ OG tube ดูดต่อเนื่องแทน",
+   "ทารก CDH ใส่เครื่องช่วยหายใจแล้ว preductal SpO2 92% แต่ postductal 70% → right-to-left shunt ผ่าน ductus จาก pulmonary hypertension → ให้ iNO/ ปรับการช่วยหายใจ",
+   "เด็ก 8 ขวบ ไอเรื้อรัง CXR เห็นเงาลำไส้หลังกระดูกอกขวาด้านหน้า → Morgagni hernia → ผ่าตัดซ่อมแบบไม่ฉุกเฉิน (มักทาง laparoscopy)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 63 — ตัวพิมพ์: <b>69 เด็กแรกเกิดไม่กี่ชม เขียว dyspnea ฟังlung decrease breath sound ซ้าย heart sound shift left laterally, scaphoid abdomen ข้อใดถูก — 1. diagnosis น่าจะเปนhiatal hernia 2. emergency management คือchest tube 3. สามารถdiagได้ตั้งแต่fetal ultrasound 4. ควรทำupper gi studyเพื่อวินิจฉัย 5. emergency treatment คือ emergency intervention surgery</b><br>ลายมือ: ขีดฆ่า \"ซ้าย\" เขียน \"Lt.\" · ขีดฆ่า \"left\" เขียน \"Rt.\" · \"CDH\" · 1 ขีดฆ่า \"hiatal hernia\" + \"Congenital diaphragmatic hernia (CDH)\" · 2 \"ventilator?\" · ขีด 3 · 4 ✗ · 5 ขีดฆ่า \"intervention surgery\" + \"correct E'lyte · NG decompress · ventilator } ให้ stable ก่อน\"<br>ไฮไลต์: \"เด็กแรกเกิดไม่กี่ชม เขียว dyspnea ฟังlung decrease breath sound\" \"heart sound shift laterally\" \"scaphoid abdomen\" · 3 (เหลือง)<br>ตัวพิมพ์เพิ่ม: \"Treatment : OG with suction to decompress bowel, ventilator ให้ stable then surgical repair ทาง subcostal incision + abdominal content removal + complete closure\"<br>รูปที่แปะ: สไลด์ Case 12 — 1.Diagnosis? Lt. CDH (Lt 85%, Rt 15%) · 2.Treatment? (ลายมือเล็ก: repair diaphragm, ventilator for newborn) · ภาพทารกท้องแฟบ (วงรอบท้อง) และ CXR (RIGHT) เห็นลำไส้ในทรวงอกซ้าย<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 54: ไม่มีขีด",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 63",
@@ -205,30 +217,32 @@
   ]
  },
  "MDCU69|RoC|R77": {
-  "interp": "<b>ผู้ป่วยเบาหวาน</b> ปวดก้นขวา มี<b>cellulitis และไข้</b> → <b>perianal/ ischioanal abscess</b> → ถามการรักษา",
-  "why": "ฝีรอบทวารรักษาหลักด้วย<b>การระบาย (I&amp;D)</b> และให้<b>ยาปฏิชีวนะเสริม</b>เมื่อมีข้อบ่งชี้: <b>ไข้/ อาการทั้งระบบ, cellulitis, เบาหวาน/ ภูมิคุ้มกันต่ำ</b> — โจทย์มีครบทั้งสามข้อ → I&amp;D + antibiotics · ระวัง necrotizing soft tissue infection (Fournier) ในผู้ป่วยเบาหวาน · ไฟล์ขีด 2 ลายมือ <b>\"perianal abscess\"</b>",
+  "interp": "ผู้ป่วย<b>เบาหวาน</b>ปวดก้นขวา มี<b>cellulitis รอบ ๆ และมีไข้</b> = anorectal (perianal/ ischiorectal) abscess ที่มีการติดเชื้อลามและอาการทั้งร่างกาย ในผู้ที่ภูมิคุ้มกันต่ำ — ถามการรักษาที่ครบ",
+  "why": "Anorectal abscess ราว 90% มาจาก<b>ต่อม anal gland ที่ dentate line อุดตันและติดเชื้อ (cryptoglandular)</b> หนองลามไปตามช่อง: <b>perianal</b> (พบบ่อยสุด ก้อนแดงเจ็บที่ขอบทวาร) · <b>ischiorectal/ ischioanal</b> (ก้นบวมแดงกว้าง กดเจ็บ ไข้) · intersphincteric (ปวดในทวาร ตรวจภายนอกไม่ค่อยเห็น) · supralevator · และ horseshoe ผ่าน deep postanal space · หลักคือ<b>ผ่าระบายหนอง (I&amp;D) ทันทีเมื่อวินิจฉัย</b> ไม่ต้องรอให้นิ่ม (fluctuant) เพราะไขมันรอบทวารกั้นหนองไม่ให้ชี้ออกผิวได้ช้า · กรีดใกล้ขอบทวารเพื่อให้ถ้าเกิด fistula ทางเดินสั้น · <b>ให้ยาปฏิชีวนะร่วม</b>เมื่อมี cellulitis รอบแผล อาการ systemic/ sepsis ภูมิคุ้มกันต่ำ (เบาหวาน HIV ได้ยากดภูมิ) ลิ้นหัวใจเทียมหรือการระบายไม่ครบ (ASCRS 2022) · ผู้ป่วยเบาหวานต้องระวัง <b>necrotizing soft tissue infection (Fournier gangrene)</b>: ปวดมากเกินสิ่งที่เห็น crepitus ผิวคล้ำ → ผ่าตัด debridement กว้างด่วน · หลังระบายเกิด fistula-in-ano ราว 1 ใน 3 · ไฟล์ MCQ Key 2 ขีด 2 ลายมือเหนือโจทย์ <b>\"perianal abscess\"</b> และไฮไลต์ \"cellulitis ที่ก้น มีไข้\" \"เบาหวาน\" ไฟล์ Key_1 ขีด B ตรงกัน",
   "wrong": {
-   "A": "I&amp;D อย่างเดียวพอสำหรับฝีเล็กในคนแข็งแรงไม่มี cellulitis/ ไข้ · จะถูกถ้าชายแข็งแรงมีฝีรอบทวารเล็ก ไม่มีไข้ ไม่มี cellulitis",
-   "C": "ยาปฏิชีวนะอย่างเดียวไม่พอเมื่อมีหนองสะสม (ยาเข้าไม่ถึง) · จะถูกถ้ามีเพียง cellulitis ยังไม่เกิดฝี",
-   "D": "Sitz bath เป็นการดูแลเสริมหลังระบาย/ ริดสีดวง/ fissure · จะถูกถ้าคำถามถามการดูแลแผลหลังผ่าตัด",
-   "E": "Fistulotomy ทำเมื่อเป็น fistula-in-ano แล้ว ไม่ทำในช่วงฝีอักเสบเฉียบพลันถ้าไม่เห็นรูชัด · จะถูกถ้าผู้ป่วยมีรูหนองไหลเรื้อรังข้างทวารหลังฝีแตก"
+   "A": "I&amp;D อย่างเดียวพอสำหรับฝีรอบทวารที่ไม่ซับซ้อนในคนแข็งแรง แต่ข้อนี้มี cellulitis ลาม ไข้ และเบาหวาน ซึ่งเป็นข้อบ่งชี้ให้ยาปฏิชีวนะร่วม — จะถูกถ้าเป็นชาย 28 ปี แข็งแรง ปวดก้อนแดงขนาด 2 cm ข้างขอบทวาร 2 วัน ไม่มีไข้ ผิวรอบ ๆ ไม่แดงลาม ผ่าระบายใต้ยาชาเฉพาะที่แล้วกลับบ้านได้",
+   "C": "ยาปฏิชีวนะซึมเข้าโพรงหนองได้น้อย การให้ยาอย่างเดียวโดยไม่ระบายทำให้หนองลามลึก เสี่ยง sepsis และเนื้อตายโดยเฉพาะในเบาหวาน — จะถูกถ้าเป็นหญิง 55 ปี ขาซ้ายบวมแดงร้อนเป็นปื้นขอบไม่ชัด มีไข้ต่ำ ๆ ultrasound ไม่พบโพรงหนอง (cellulitis ล้วน) จึงให้ยาปฏิชีวนะครอบคลุม streptococcus",
+   "D": "Sitz bath (แช่ก้นน้ำอุ่น) ช่วยลดการเกร็งของหูรูดและบรรเทาปวด ใช้เป็นการรักษาเสริมหลังผ่าตัดหรือในโรคทวารที่ไม่ติดเชื้อ ไม่ระบายหนอง — จะถูกถ้าเป็นหญิง 30 ปี ท้องผูก ปวดแสบมากขณะถ่ายและหลังถ่าย มีเลือดสดติดกระดาษ ตรวจพบแผลแยกที่ posterior midline ของ anal canal (acute anal fissure) ร่วมกับใยอาหารและยาทาคลายหูรูด",
+   "E": "Fistulotomy คือการเปิดทางเดินของ fistula-in-ano ที่เกิดเรื้อรังแล้ว ไม่ใช่การรักษาฝีเฉียบพลันที่ยังอักเสบ บวม และมี cellulitis ซึ่งทำให้ประเมินหูรูดผิดและเสี่ยงกลั้นอุจจาระไม่ได้ — จะถูกถ้าเป็นชาย 40 ปี เคยผ่าระบายฝีเมื่อ 4 เดือนก่อน มีรูข้างทวารห่างขอบ 2 cm มีหนองซึมเรื้อรัง ตรวจพบทางเดินแบบ low intersphincteric ผ่านหูรูดส่วนน้อย"
   },
-  "trap": "ตอบ I&amp;D อย่างเดียวตามหลักฝีทั่วไป — มีไข้ + cellulitis + เบาหวาน ต้องเพิ่มยาปฏิชีวนะ",
+  "trap": "ทั้ง A และ B มี I&amp;D เหมือนกัน จึงต้องดูว่ามี<b>ข้อบ่งชี้ให้ยาปฏิชีวนะ</b>หรือไม่: cellulitis ลาม ไข้ (systemic) และเบาหวาน (ภูมิคุ้มกันต่ำ) ครบทั้งสามข้อ · อีกกับดักคือคิดว่ายาปฏิชีวนะอย่างเดียวพอ — หนองต้องระบายเสมอ",
   "summary": [
-   "ฝีรอบทวาร: I&amp;D เป็นหลัก",
-   "ATB เสริม: ไข้ · cellulitis · เบาหวาน/ ภูมิต่ำ · ลิ้นเทียม",
-   "Ischioanal/ supralevator → ระบายในห้องผ่าตัด",
-   "ผิวม่วงคล้ำ crepitus ในเบาหวาน → Fournier → debride ด่วน",
-   "~30–50% เกิด fistula ตามมา",
-   "Sitz bath หลังระบาย"
+   "Cryptoglandular theory: anal gland ที่ dentate line อุดตัน → intersphincteric abscess → ลามลง (perianal) ข้าง (ischiorectal) ขึ้น (supralevator) หรืออ้อมหลัง (horseshoe)",
+   "Perianal abscess ราว 60% พบบ่อยสุด · ischiorectal ราว 20–30% · intersphincteric และ supralevator พบน้อย ต้องตรวจทางทวารหรือ CT/ MRI ช่วย",
+   "รักษา: I&amp;D ทันทีที่วินิจฉัยไม่ต้องรอ fluctuation · ไม่ต้องอัด packing ทุกราย · supralevator ระบายตามแหล่งที่มา (จาก intersphincteric ระบายเข้า rectum · จาก ischiorectal ระบายทางผิวหนัง) เพื่อไม่สร้าง extrasphincteric fistula",
+   "ยาปฏิชีวนะร่วมเมื่อ: cellulitis รอบแผล, sepsis/ systemic signs, ภูมิคุ้มกันต่ำ (เบาหวาน HIV เคมีบำบัด), prosthetic valve หรือ indwelling device, ระบายไม่ครบ",
+   "Fournier gangrene: necrotizing fasciitis ของฝีเย็บ อวัยวะเพศ ปัจจัยเสี่ยงเบาหวาน แอลกอฮอล์ · ปวดเกินสัดส่วน crepitus ผิวดำ → resuscitation + broad-spectrum antibiotics + radical debridement ซ้ำได้หลายครั้ง",
+   "หลังระบายฝีเกิด fistula-in-ano ราว 30–50% · Goodsall rule: รูภายนอกด้านหลังเส้นขวางทางเดินโค้งมาที่ posterior midline · ด้านหน้าตรงเข้าหารูที่ใกล้ที่สุด",
+   "Fistula: simple low (ผ่านหูรูดส่วนน้อย) → fistulotomy · complex (ผ่านหูรูดมาก, anterior ในหญิง, Crohn's, เคยฉายรังสี) → seton, LIFT, advancement flap เพื่อรักษาหูรูด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 2 ช้อย จึงเติม C–E",
-  "mnemonic": "<b>'ฝีก้น + เบาหวาน + ไข้ + cellulitis = ระบาย + ยา'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ฝีรอบทวารที่มี cellulitis ไข้ และเบาหวาน ต้องผ่าระบายร่วมกับยาปฏิชีวนะ ตรงกับไฟล์ MCQ Key 2 (ขีด 2 + ลายมือ perianal abscess) และ Key_1 ขีด B ตรงกัน · ต้นฉบับมีเพียง 2 ช้อย เว็บเติม C–E",
+  "mnemonic": "<b>'Pus → Drain เสมอ · + Cellulitis/ Fever/ DM (CFD) → เติมยา'</b>",
+  "guide": "Gaertner WB et al. The ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula. Dis Colon Rectum 2022; The ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022)",
   "variants": [
-   "คนแข็งแรงฝีรอบทวารเล็ก ไม่มีไข้ → I&amp;D อย่างเดียว",
-   "เบาหวาน ฝีก้น ผิวม่วงคล้ำ กดกรอบแกรบ → Fournier gangrene → debride ด่วน + broad-spectrum ATB",
-   "หลังฝีแตกมีหนองไหลซ้ำจากรูข้างทวาร → fistula-in-ano → fistulotomy/ seton"
+   "ชาย 50 ปี เบาหวานคุมไม่ดี ปวดฝีเย็บมาก ผิวถุงอัณฑะคล้ำดำ คลำได้ crepitus มีไข้ความดันต่ำ → Fournier gangrene → resuscitation + ยาปฏิชีวนะครอบคลุมกว้าง + radical debridement ด่วน",
+   "ชาย 35 ปี ปวดลึกในทวาร มีไข้ ตรวจภายนอกไม่เห็นก้อน ตรวจทางทวารกดเจ็บมากที่ผนังด้านหลัง → intersphincteric abscess → ระบายเข้าทาง anal canal",
+   "ทำไมควรกรีดระบายฝีให้ใกล้ขอบทวาร → ถ้าเกิด fistula ทางเดินจะสั้น ผ่าตัดแก้ภายหลังง่ายขึ้น",
+   "หญิง 40 ปี ผ่าระบายฝีก้นซ้ำหลายครั้ง มีหลายรู ท้องเสียเรื้อรังน้ำหนักลด → นึกถึง Crohn's disease ส่องกล้องลำไส้ใหญ่ ใส่ seton ระบายแทน fistulotomy"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 64 — ตัวพิมพ์: <b>77. เจ็บก้นขวา มี cellulitis ที่ก้น มีไข้ เป็นผู้ป่วยเบาหวาน ต้องทำอะไร — 1. I&amp; D 2. I&amp; D + Antibiotics</b><br>ลายมือ: \"perianal abscess\" เหนือโจทย์ · ขีด 2<br>ไฮไลต์: \"เจ็บก้นขวา\" \"cellulitis ที่ก้น มีไข้\" \"เบาหวาน\" · 2 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 55: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C–E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 64",
@@ -239,30 +253,32 @@
   ]
  },
  "MDCU69|RoC|R90": {
-  "interp": "ถามข้อบ่งชี้ของ <b>preoperative (neoadjuvant) chemoradiation</b> ในมะเร็งไส้ตรง",
-  "why": "Neoadjuvant chemoradiation (หรือ total neoadjuvant therapy) ให้ในมะเร็งไส้ตรงระยะ <b>locally advanced: T3–T4 และ/หรือ node positive (stage II–III)</b> เพื่อลดขนาด ลดการกลับเป็นซ้ำเฉพาะที่ และเพิ่มโอกาสเก็บหูรูด · ใช้เฉพาะ <b>rectal cancer</b> เพราะอยู่ใน pelvis (colon ไม่ฉายแสงเพราะติดลำไส้เล็ก) · เพศชาย/ ตำแหน่ง mid/ low อย่างเดียวไม่ใช่ข้อบ่งชี้ · ไฟล์ขีด 4 ลายมือ <b>\"indication · rectal CA\"</b> ลากเส้นไปที่สรุปในภาพแปะ <b>\"RT &amp; ChemoRT (local Tx) → T3↑ or Node pos\"</b>",
+  "interp": "ถามว่าลักษณะใดของ <b>rectal cancer</b> เป็นข้อบ่งชี้ต้องได้ <b>preoperative (neoadjuvant) chemoradiation</b> — ต้องรู้ว่าข้อบ่งชี้มาจากระยะของโรคที่ประเมินด้วย MRI (T และ N) ไม่ใช่จากเพศหรือตำแหน่งของก้อนอย่างเดียว",
+  "why": "Rectal cancer อยู่ใน pelvis แคบ ขอบตัดด้านข้าง (circumferential resection margin, CRM) ชิด จึงกลับเป็นซ้ำเฉพาะที่ได้มากกว่ามะเร็ง colon · การฉายรังสีทำได้เพราะ rectum ยึดอยู่กับที่ในอุ้งเชิงกราน (ลายมือในไฟล์: \"RT – for rectal CA only ∵ อยู่ใน pelvis\") · staging ด้วย <b>MRI pelvis</b> (T, N, CRM, EMVI) + CT chest/abdomen + CEA · ข้อบ่งชี้ neoadjuvant therapy คือ <b>locally advanced = cT3–T4 และ/หรือ node positive (stage II–III)</b> ของ rectum ส่วนกลางและล่าง รวมถึง CRM ถูกคุกคาม (≤ 1 mm) หรือมี EMVI · ทางเลือก: long-course chemoradiation (ราว 50.4 Gy ใน 28 ครั้ง ร่วม capecitabine หรือ 5-FU) หรือ short-course RT 25 Gy ใน 5 ครั้ง และปัจจุบันนิยม <b>total neoadjuvant therapy (TNT)</b> ให้เคมีบำบัดครบก่อนผ่าตัด (RAPIDO, PRODIGE 23) แล้วตามด้วย <b>total mesorectal excision (TME)</b> · German Rectal Cancer Study (NEJM 2004) พบ preop chemoRT ลด local recurrence จาก 13% เหลือ 6% และพิษน้อยกว่าให้หลังผ่าตัด · ผู้ที่ตอบสนองสมบูรณ์ทางคลินิกอาจเลือก watch-and-wait (OPRA) · T1–T2 N0 ผ่าตัดได้เลย · ไฟล์ MCQ Key 2 ขีด 4 ลากลูกศร <b>\"indication\"</b> พร้อมลายมือ <b>\"ChemoRT (local Tx) → T3↑ or Node pos\"</b> ไฟล์ Key_1 ขีด D ตรงกัน",
   "wrong": {
-   "A": "เพศชาย (pelvis แคบ) ทำให้ผ่าตัดยาก แต่ไม่ใช่ข้อบ่งชี้ chemoRT · จะถูกถ้าคำถามถามปัจจัยที่ทำให้ TME ทำยาก",
-   "B": "ตำแหน่ง mid rectum อย่างเดียวไม่ใช่ข้อบ่งชี้ ขึ้นกับ T/ N stage · จะถูกถ้าก้อน mid rectum เป็น T3 หรือ N+",
-   "C": "ตำแหน่ง low rectum อย่างเดียวไม่ใช่ข้อบ่งชี้ (T1–2 N0 ผ่าตัดได้เลย) · จะถูกถ้าก้อน low rectum T3 ต้องการลดขนาดเพื่อเก็บหูรูด",
-   "E": "ไม่ใช่ทุกข้อ — เฉพาะ T3 และ/หรือ N+ · จะถูกถ้าทุกช้อยเป็นข้อบ่งชี้ระยะ (T3, T4, N+, CRM threatened)"
+   "A": "เพศชายทำให้ผ่าตัดยากขึ้นเพราะเชิงกรานแคบ เสี่ยงขอบตัดไม่ปลอดภัย แต่ไม่ใช่ข้อบ่งชี้ให้ chemoRT ชาย T2N0 ยังผ่าตัดได้เลย — เพศชายจะถูกถ้าเป็นการเลือกวิธีผ่าตัดในชาย 62 ปี BMI 32 เชิงกรานแคบ มี low rectal cancer cT2N0 ศัลยแพทย์จึงเลือก robotic หรือ transanal TME เพื่อให้ได้ mesorectum ครบ ซึ่งเป็นเรื่องเทคนิคผ่าตัด ไม่ใช่ข้อบ่งชี้ฉายรังสี",
+   "B": "ตำแหน่ง mid rectum (ราว 5–10 cm จาก anal verge) อย่างเดียวไม่ใช่ข้อบ่งชี้ ก้อน cT1–T2 N0 ที่ mid rectum ทำ low anterior resection + TME ได้เลย — จะถูกถ้าเป็นหญิง 58 ปี mid rectal adenocarcinoma ที่ 7 cm จาก anal verge MRI พบก้อนทะลุ muscularis propria เข้า mesorectal fat (cT3) และต่อมน้ำเหลืองโต 2 ต่อม ซึ่งระยะทำให้ต้องให้ neoadjuvant therapy",
+   "C": "Low rectum (ต่ำกว่าราว 5 cm) ผ่าตัดยากและอาจต้องเสียหูรูด แต่ถ้าเป็น cT1–T2 N0 ยังผ่าตัดได้เลย (หรือ local excision ใน T1 ที่เหมาะ) ตำแหน่งต่ำอย่างเดียวจึงไม่ใช่ข้อบ่งชี้ — จะถูกถ้าเป็นชาย 65 ปี ก้อนอยู่ 3 cm จาก anal verge MRI พบ cT3 N1 ขอบก้อนห่าง mesorectal fascia 1 mm ซึ่งต้องให้ TNT ก่อน และหวังผลเก็บหูรูดหรือ watch-and-wait",
+   "E": "All of the above ผิดเพราะเพศและตำแหน่งอย่างเดียวไม่ใช่ข้อบ่งชี้ มีแต่ระยะ T3/ N+ (และ CRM ถูกคุกคาม) เท่านั้น — ไม่มีสถานการณ์ที่ช้อยนี้ถูก แม้ผู้ป่วยจะเป็นชาย low rectal cancer cT3 N1 ซึ่งมีครบทุกลักษณะในช้อย เหตุผลที่ได้ chemoRT ก็คือ cT3 N1 ไม่ใช่เพศหรือตำแหน่ง"
   },
-  "trap": "คิดว่า low rectal cancer ต้องให้ chemoRT ทุกราย — ข้อบ่งชี้คือระยะ (T3+/ N+) ไม่ใช่ตำแหน่ง",
+  "trap": "ช้อย mid/ low rectal ดูน่าเลือกเพราะ chemoRT ใช้กับมะเร็งไส้ตรงส่วนกลางและล่างจริง (upper rectum มักรักษาแบบ colon) แต่ตำแหน่งเป็นเพียงเงื่อนไขประกอบ ข้อบ่งชี้คือ<b>ระยะ T3–T4 หรือ N+</b> · \"All of the above\" จึงผิดเพราะเพศไม่เกี่ยวเลย",
   "summary": [
-   "Neoadjuvant CRT/ TNT: rectal cancer T3–4 และ/หรือ N+ (stage II–III)",
-   "MRI pelvis ประเมิน T, N, CRM, EMVI",
-   "Long-course CRT (50.4 Gy + 5-FU/ capecitabine) หรือ short-course RT 5×5 Gy",
-   "ผ่าตัด TME 6–12 สัปดาห์หลัง CRT",
-   "Colon cancer: adjuvant chemo stage III (ไม่ฉายแสง)",
-   "T1–2 N0 rectal: TME ได้เลย"
+   "TNM ลำไส้ใหญ่: Tis mucosa · T1 submucosa · T2 muscularis propria · T3 ทะลุ muscularis propria ถึง pericolorectal tissue · T4a ทะลุ visceral peritoneum · T4b ลุกอวัยวะข้างเคียง · N1 1–3 ต่อม · N2 ≥ 4 ต่อม",
+   "Stage: I = T1–T2 N0 · II = T3–T4 N0 · III = N+ · IV = M1 — rectal stage II–III (locally advanced) คือกลุ่มที่ได้ neoadjuvant therapy",
+   "MRI pelvis ใช้วาง T stage, N, ระยะห่างจาก mesorectal fascia (CRM ≤ 1 mm = threatened), EMVI และความสูงจาก anal verge · ERUS ใช้แยก T1/T2 ในก้อนเล็ก",
+   "Long-course chemoRT 45–50.4 Gy + capecitabine/ 5-FU (เว้น 8–12 สัปดาห์ก่อนผ่า) · short-course 5 × 5 Gy · TNT = chemoRT หรือ short-course ร่วมกับ FOLFOX/ CAPOX ก่อนผ่าตัด",
+   "TME: ตัด rectum พร้อม mesorectum ตามระนาบ (holy plane) · LAR เมื่อเก็บหูรูดได้ · APR เมื่อก้อนลุกหูรูดหรือเก็บขอบล่างไม่ได้",
+   "Clinical complete response หลัง neoadjuvant → watch-and-wait ด้วย MRI, ส่องกล้อง และ CEA ถี่ ๆ ในศูนย์ที่พร้อม (OPRA trial) · ถ้าก้อนกลับมาค่อยผ่าตัด",
+   "PROSPECT trial (2023): rectal cancer ระยะ T2N1/ T3N0–1 ที่เหมาะสม ใช้ FOLFOX ก่อนผ่าตัดแล้วฉายรังสีเฉพาะรายที่ตอบสนองไม่ดีได้ผลไม่ด้อยกว่า chemoRT"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
-  "mnemonic": "<b>'ChemoRT ก่อนผ่าไส้ตรง = T3 ขึ้นไป หรือ Node บวก'</b>",
-  "guide": "NCCN Clinical Practice Guidelines: Rectal Cancer v.3.2025; ESMO Rectal Cancer Clinical Practice Guidelines (Ann Oncol 2017;28 suppl 4:iv22)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ข้อบ่งชี้ neoadjuvant chemoRT ของ rectal cancer คือ T3 ขึ้นไปและ/หรือต่อมน้ำเหลืองบวก ตรงกับไฟล์ MCQ Key 2 (ขีด 4 + ลายมือ \"ChemoRT → T3↑ or Node pos\") และ Key_1 ขีด D ตรงกัน",
+  "mnemonic": "<b>'Rectal chemoRT ก่อนผ่า = \"3 or N\" (T3↑ หรือ Node+)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Rectal Cancer (2025); Langenfeld SJ et al. ASCRS Clinical Practice Guidelines for the Management of Rectal Cancer. Dis Colon Rectum 2023; Sauer R et al. N Engl J Med 2004",
   "variants": [
-   "MRI: rectal CA T3N1 → neoadjuvant CRT/ TNT → TME",
-   "rectal CA T2N0 → TME (LAR/ APR) ได้เลย",
-   "colon CA stage III หลังผ่าตัด → adjuvant FOLFOX/ CAPOX"
+   "หญิง 60 ปี rectal cancer 6 cm จาก anal verge MRI cT2N0 CT ไม่มีการแพร่กระจาย → low anterior resection + TME ได้เลย",
+   "ชาย 55 ปี low rectal cancer cT3N1 หลังได้ TNT ส่องกล้องไม่เห็นก้อน MRI ไม่มีเนื้องอกเหลือ → พิจารณา watch-and-wait ติดตามใกล้ชิด",
+   "ทำไม colon cancer ไม่ใช้ radiotherapy เป็นมาตรฐาน → colon เคลื่อนที่ได้และอยู่ใกล้ลำไส้เล็ก ฉายรังสีแล้วลำไส้เล็กบาดเจ็บ และ local recurrence ต่ำอยู่แล้ว",
+   "ผ่าตัด rectal cancer โดยไม่ได้ neoadjuvant แล้วพยาธิพบ pT3N1 → ให้ adjuvant chemotherapy และพิจารณา chemoRT หลังผ่าตัด"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 64 — ตัวพิมพ์: <b>90. ข้อใดจำเป็นต้องได้รับpreop chemoRT — 1.male 2.mid rectal 3.low rectal 4. T3 and/or LN positive 5. All of above</b><br>ลายมือ: ลูกศร \"indication\" จากคำถามไป 4 + \"rectal CA\" · ขีด 4<br>ไฮไลต์: \"รับpreop chemoRT\" · 4 (เหลือง)<br>รูปที่แปะ: ตาราง Staging : AJCC/ TNM (ลายมือ) — T: Tis อยู่ใน mucosa ไม่เกิน muscularis mucosa = CA insitu, intramucosa CA · T1 ทะลุ musc. muco. มาอยู่ใน submu · T2 ทะลุ submu มาอยู่ใน muscularis propria · T3 ทะลุ m.propria มาอยู่ใน subserosa · T4 ทะลุ colon wall invade tiss. ข้างเคียง · N0 · N1 1–3 pericolic LN · N2 ≥ 4 pericolic LN · M0 no metas · M1 distance metas · ตาราง stage 0–4 / \"Adjuvant ther.: <b>RT – for rectal CA only ∵ อยู่ใน pelvis ไม่ค่อยมีอวัยวะอื่น</b> (ถ้า colon อาจ for palliative ∵ ติด SB.) · <b>&amp; ChemoRT (local Tx) → T3↑ or Node pos</b> · CMT (sys. Tx) for ≥ stage 3 นิยมใช้เป็น 5FU-based, อื่นๆ = oxaliplatin, irinotecan · Targeted ther. bevacizumab – จับที่ VEGF ทำให้ feeder vss. แฟบ → tumor ตาย · cetuximab – ทำให้ MC. มาทำลาย tumor ดีขึ้น · immunother.\"<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 55: ขีด D (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 64",
@@ -273,30 +289,32 @@
   ]
  },
  "MDCU69|RoC|X1": {
-  "interp": "เด็กมี<b>ปวดท้องบิดเป็นพัก ๆ ร่วมกับขาคู้/ ชักขาหนี</b> 12 ชม. และ<b>อุจจาระ guaiac (occult blood) บวก</b> → ถามการวินิจฉัย",
-  "why": "ปวดท้องบิดเป็นพัก (ร้อง ขาคู้ขึ้นมาที่ท้อง) + เลือดในอุจจาระ = <b>intussusception</b> (ลำไส้กลืนกัน ส่วนใหญ่ ileocolic) · triad: ปวดเป็นพัก + คลำก้อน sausage-shaped + ถ่าย currant jelly (พบครบ &lt; 50%) · occult blood บวกพบได้เร็วกว่าเห็นเลือดชัด · US: target/ doughnut sign → <b>air/ hydrostatic enema reduction</b> ถ้าไม่มี peritonitis · ไฟล์ขีด 1 ลายมือ <b>\"occult blood test +ve\"</b> และ \"pain?\" เหนือ leg withdrawal",
+  "interp": "เด็กมี<b>ปวดท้องแบบบีบเป็นพัก ๆ (crampy) ร่วมกับชักขาขึ้นงอ</b> มา 12 ชั่วโมง และตรวจอุจจาระพบ <b>guaiac (occult blood) บวก</b> — ถามการวินิจฉัย ซึ่งต้องเชื่อมรูปแบบอาการปวดกับเลือดในอุจจาระของเด็กเล็ก",
+  "why": "<b>Intussusception</b> คือลำไส้ส่วนต้นมุดเข้าไปในส่วนปลาย พบบ่อยสุดที่ <b>ileocolic</b> · ในเด็ก 3 เดือน–3 ปี ส่วนใหญ่ไม่มี lead point ชัด (idiopathic) เชื่อว่ามาจาก Peyer's patch โตหลังติดเชื้อไวรัส ส่วนเด็กที่อายุนอกช่วงนี้ต้องหา <b>pathologic lead point</b> (Meckel's diverticulum, polyp, lymphoma, HSP) · กลไก: mesentery ถูกดึงเข้าไปด้วย → หลอดเลือดดำถูกบีบ → ผนังบวม เยื่อบุขาดเลือดหลั่งมูกปนเลือด (currant jelly ระยะหลัง แต่ระยะแรกพบเพียง <b>occult blood บวก</b>) → ถ้าทิ้งไว้ลำไส้ตายและทะลุ · อาการ: <b>ปวดบีบเป็นพัก ๆ ร้องกวน ชักขาขึ้นงอ</b> ทุก 15–20 นาที ช่วงพักดูซึม อาเจียน คลำได้ก้อนรูปไส้กรอกด้านขวาบน (Dance sign = RLQ ว่าง) · triad คลาสสิก (ปวด ก้อน ถ่ายมูกเลือด) พบครบไม่ถึงครึ่ง · วินิจฉัยด้วย <b>ultrasound: target/ doughnut sign</b> (ความไวและความจำเพาะสูงมาก) · รักษา: สารน้ำ NG แล้ว <b>air หรือ hydrostatic enema reduction</b> ภายใต้ fluoroscopy/ ultrasound (ห้ามทำเมื่อมี peritonitis, ทะลุ หรือช็อก) · ไฟล์ MCQ Key 2 ขีด 1 ลายมือ <b>\"∴ occult blood test +ve\"</b> เหนือ guaiac และ \"pain?\" เหนือ leg withdrawal ไฟล์ Key_1 ขีด A ตรงกัน",
   "wrong": {
-   "B": "Meckel diverticulum เลือดออกปริมาณมากไม่เจ็บ (painless) · จะถูกถ้าเด็ก 2 ขวบถ่ายเลือดแดงคล้ำปริมาณมาก ไม่ปวดท้อง",
-   "C": "Midgut volvulus มักมาด้วยอาเจียนสีเขียวในทารก · จะถูกถ้าทารกอาเจียนสีเขียวทันทีทันใด ท้องอืด",
-   "D": "ไส้ติ่งอักเสบปวดต่อเนื่องย้ายมาท้องขวาล่าง ไม่ใช่ปวดเป็นพัก ไม่มีเลือดในอุจจาระ · จะถูกถ้าเด็กโตปวดรอบสะดือย้ายมาขวาล่าง ไข้ กดเจ็บ McBurney",
-   "E": "Gastroenteritis ถ่ายเหลวบ่อย อาเจียน ไม่ปวดเป็นพักแบบลำไส้กลืน · จะถูกถ้าเด็กถ่ายเหลวเป็นน้ำหลายครั้ง ไข้ อาเจียน หลายคนในบ้านเป็นพร้อมกัน"
+   "B": "Meckel's diverticulum (เศษ vitelline duct ที่ ileum ด้าน antimesenteric) มักเลือดออก<b>มากและไม่เจ็บ</b>จาก ectopic gastric mucosa ทำให้เกิดแผลใน ileum ข้างเคียง ไม่ใช่ปวดบีบพร้อม occult blood — จะถูกถ้าเป็นเด็กชาย 2 ขวบ ถ่ายเป็นเลือดแดงคล้ำจำนวนมาก ไม่ปวดท้อง ซีดจน Hb ลดลง Tc-99m pertechnetate scan พบจุดจับสารที่ท้องน้อยขวา (Meckel ยังเป็น lead point ของ intussusception ได้)",
+   "C": "Midgut volvulus เด่นที่<b>อาเจียนน้ำดี</b>ในทารก ส่วนใหญ่ในเดือนแรก ถ่ายเลือดเป็นสัญญาณลำไส้ตายแล้วและท้องอืดตึง ไม่ใช่ปวดบีบเป็นพักในเด็กที่ไม่ได้อาเจียนเขียว — จะถูกถ้าเป็นทารก 3 สัปดาห์ อาเจียนเขียวทันทีหลังกินนม ต่อมาท้องอืด ถ่ายมีเลือด UGI พบ DJ flexure อยู่ขวาของกระดูกสันหลังและ duodenum บิดเป็นเกลียว",
+   "D": "Acute appendicitis ปวดต่อเนื่อง ย้ายจากรอบสะดือไป RLQ มีไข้ กดเจ็บและ peritonism คงที่ ไม่ใช่ปวดเป็นพักแล้วหายสลับ และไม่ทำให้อุจจาระมีเลือด พบบ่อยในเด็กวัยเรียนมากกว่าเด็กเล็ก — จะถูกถ้าเป็นเด็กชาย 10 ขวบ ปวดรอบสะดือแล้วย้ายไปท้องน้อยขวา เบื่ออาหาร ไข้ 38.2 °C กระโดดแล้วเจ็บ กดเจ็บที่ McBurney point WBC สูง",
+   "E": "Gastroenteritis มักเริ่มด้วยอาเจียนหรือท้องเสียและไข้ ปวดท้องทั่ว ๆ ไม่มีช่วงปลอดอาการที่เด็กดูปกติสลับกับร้องกรีด แม้ติดเชื้อแบคทีเรียบางชนิดถ่ายมีเลือดได้ (ซึ่งยังเป็นปัจจัยกระตุ้น intussusception ด้วย) — จะถูกถ้าเป็นเด็ก 2 ขวบ ไปเนิร์สเซอรีที่มีเด็กป่วยหลายคน อาเจียนแล้วถ่ายเหลวเป็นน้ำ 8 ครั้งต่อวัน มีไข้ ท้องนุ่ม ไม่มีก้อน (rotavirus)"
   },
-  "trap": "ไม่ได้ใส่ใจ \"ขาคู้\" + occult blood — เป็นลักษณะปวดเป็นพักของ intussusception",
+  "trap": "Occult blood ชวนให้นึกถึง Meckel เพราะเป็นโรคเลือดออกทางเดินอาหารที่จำได้ในเด็ก — แยกด้วย<b>ลักษณะปวด</b>: intussusception ปวดบีบเป็นพักชักขาขึ้น (ลายมือ \"pain?\" ที่ leg withdrawal) ส่วน Meckel เลือดออกมากแต่<b>ไม่ปวด</b> · ไม่ต้องรอถ่ายแบบ currant jelly ซึ่งเป็นอาการระยะท้าย",
   "summary": [
-   "Intussusception: 3 เดือน–3 ปี · ileocolic",
-   "ปวดเป็นพัก ขาคู้ · ก้อน sausage · currant jelly",
-   "US: target/ doughnut sign",
-   "Air/ hydrostatic enema reduction (สำเร็จ ~80–90%)",
-   "Peritonitis/ ทะลุ/ ช็อก → ผ่าตัด",
-   "เด็กโต/ ผู้ใหญ่ → หา lead point (Meckel, polyp, lymphoma)"
+   "Intussusception อายุ 3 เดือน–3 ปี (พีค 6–18 เดือน) ชาย &gt; หญิง · ileocolic พบบ่อยสุด · ส่วนใหญ่ idiopathic (lymphoid hyperplasia หลังติดเชื้อ adenovirus/ rotavirus)",
+   "Pathologic lead point (ราว 5–10% สูงขึ้นตามอายุ): Meckel's diverticulum, polyp, duplication cyst, lymphoma, HSP (มัก ileo-ileal) · เด็ก &gt; 3–5 ปีหรือกลับเป็นซ้ำหลายครั้งต้องหาสาเหตุ",
+   "อาการ: ปวดบีบเป็นพัก ชักขาขึ้น ช่วงพักซึม (lethargy อาจเด่นจนคล้ายโรคระบบประสาท) อาเจียน · ถ่าย currant jelly เป็นอาการระยะท้าย · triad ครบไม่ถึงครึ่ง",
+   "Ultrasound: target sign (ภาพตัดขวาง) และ pseudokidney sign (ภาพตามยาว) ความไวราว 98–100% · AXR อาจเห็น soft tissue mass, ลมน้อยใน RLQ หรือ crescent sign",
+   "Enema reduction (air หรือ hydrostatic) สำเร็จราว 80–90% · ความเสี่ยงทะลุราว 1% · ข้อห้าม: peritonitis, free air, ช็อกไม่ตอบสนองต่อสารน้ำ",
+   "หลังลดได้ กลับเป็นซ้ำราว 10% ส่วนใหญ่ใน 24–72 ชม. ทำ enema ซ้ำได้ · ล้มเหลวหรือมีข้อห้าม → ผ่าตัด manual reduction (บีบดันจากปลายไม่ดึง) ถ้าลำไส้ตายหรือมี lead point → resection",
+   "Rotavirus vaccine สัมพันธ์กับความเสี่ยง intussusception ที่เพิ่มเล็กน้อยในสัปดาห์แรกหลังรับวัคซีนเข็มแรก จึงกำหนดอายุสูงสุดของการให้เข็มแรก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'ร้องเป็นพัก ขาคู้ + เลือดในอึ = ลำไส้กลืน'</b>",
-  "guide": "ACR Appropriateness Criteria: Intussusception (2019); Coran's Pediatric Surgery 8th ed. (2019) — Intussusception",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ปวดบีบเป็นพักร่วมกับชักขาขึ้นและ occult blood บวกในเด็กเป็นภาพของ intussusception ตรงกับไฟล์ MCQ Key 2 (ขีด 1 + ลายมือ occult blood +ve) และ Key_1 ขีด A ตรงกัน · ต้นฉบับเขียน \"left leg withdrawal\" ข้างของขาไม่มีนัยสำคัญต่อการวินิจฉัย",
+  "mnemonic": "<b>'ร้องกรีด-ขางอ-พักซึม + เลือดแฝง = Intussusception → U/S target → Air enema'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception; Meckel diverticulum; Appendicitis",
   "variants": [
-   "เด็ก 9 เดือนร้องเป็นพัก ถ่าย currant jelly US target sign → air enema",
-   "intussusception + peritonitis → ผ่าตัด",
-   "เด็ก 6 ขวบ intussusception ซ้ำ → หา lead point (Meckel/ lymphoma)"
+   "เด็ก 9 เดือน ปวดบีบเป็นพัก US target sign ไม่มีไข้หรือ peritonitis → air enema reduction ภายใต้ fluoroscopy",
+   "เด็ก 1 ปี intussusception มา 3 วัน ท้องตึงกดเจ็บทั่ว AXR มี free air → ไม่ทำ enema resuscitation แล้วผ่าตัด",
+   "เด็ก 7 ขวบ intussusception ครั้งที่ 3 → ต้องหา pathologic lead point (Meckel, polyp, lymphoma) ด้วยการตรวจภาพหรือผ่าตัด",
+   "เด็ก 5 ขวบ มีผื่นจ้ำเลือดนูนที่ขาและก้น ปวดข้อ ปวดท้องบีบ ถ่ายมีเลือด → Henoch-Schönlein purpura ซึ่งเกิด ileo-ileal intussusception ได้ → US ตรวจหา"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 64 — ตัวพิมพ์: <b>XX. Patient เด็ก มาด้วย crampy abdominal pain and left leg withdrawal something 12 hr stool exam show guaiac positive! — 1. intussusception 2. meckel diverticulum 3. volvulus</b><br>ลายมือ: \"pain?\" เหนือ \"leg withdrawal\" · \"∴ occult blood test +ve\" เหนือ guaiac · ขีด 1<br>ไฮไลต์: \"Patient เด็ก\" \"crampy abdominal pain\" \"left leg withdrawal\" \"12 hr\" \"guaiac positive!\" · 1 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 55: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 64",
@@ -307,30 +325,32 @@
   ]
  },
  "MDCU69|RoC|X2": {
-  "interp": "ทารกแรกเกิด<b>ลำไส้ทะลักออกมาที่ผนังท้องข้างสะดือ ไม่มีถุงหุ้ม</b> มีแต่ลำไส้ (เล็ก/ ใหญ่) ลำไส้ยังดี → ถามการวินิจฉัย",
-  "why": "<b>Gastroschisis</b>: ผนังหน้าท้องเป็นรู (มัก<b>ด้านขวาของสะดือ</b>, สายสะดือปกติ) ลำไส้โผล่ออกมา<b>ไม่มีถุงหุ้ม</b> ลำไส้สัมผัสน้ำคร่ำจึงบวมหนา (peel) · ไม่ค่อยมีความผิดปกติอื่นร่วม (ยกเว้น intestinal atresia ~10%) · แม่อายุน้อย · ต่างจาก <b>omphalocele</b> ที่<b>มีถุงหุ้ม (amnion + peritoneum)</b> ออกที่ตำแหน่งสะดือ มีตับได้ และ<b>มีความผิดปกติร่วมบ่อย</b> (หัวใจ โครโมโซม Beckwith-Wiedemann) · ไฟล์ขีด 2",
+  "interp": "ทารกแรกเกิดมี<b>ลำไส้เล็กและลำไส้ใหญ่ทะลักออกทางรูผนังหน้าท้องข้างสะดือ</b> <b>ไม่มีถุงหุ้ม</b> และลำไส้ยังดี — ถามการวินิจฉัย ซึ่งต้องแยกโรคผนังหน้าท้องแต่กำเนิดด้วยตำแหน่งรู การมีถุงหุ้ม และสิ่งที่ออกมา",
+  "why": "<b>Gastroschisis</b> คือรูเต็มชั้นของผนังหน้าท้อง มัก<b>อยู่ทางขวาของสายสะดือ</b> ที่สายสะดือเกาะปกติ ลำไส้ออกมาโดย<b>ไม่มีถุงหุ้ม</b> ส่วนใหญ่มีเฉพาะลำไส้เล็กและลำไส้ใหญ่ (บางครั้งกระเพาะ แต่ตับแทบไม่ออก) · ลำไส้แช่น้ำคร่ำนานจึงบวมหนา มีแผ่นไฟบรินคลุม (peel) · พบมากในแม่อายุน้อย (&lt; 20 ปี) สูบบุหรี่ หรือใช้สารเสพติด · <b>ความผิดปกติร่วมน้อย</b> (ราว 10–15% ส่วนใหญ่เป็น intestinal atresia) ต่างจาก omphalocele · วินิจฉัยก่อนคลอดด้วย ultrasound และ maternal serum AFP สูง · หลังคลอด: <b>คลุมลำไส้ด้วยถุงพลาสติกใสหรือ bowel bag</b> วางทารกตะแคงขวาเพื่อไม่ให้ mesentery บิด ใส่ OG tube ให้สารน้ำมาก (สูญเสียน้ำและความร้อนจากผิวลำไส้) ยาปฏิชีวนะ · ปิดผนังหน้าท้อง primary closure ถ้าทำได้ หรือใส่ <b>preformed silo</b> แล้วค่อย ๆ ดันลำไส้กลับ ปิดภายหลัง · การอยู่รอดมากกว่า 90% ปัญหาหลักคือ<b>ลำไส้ทำงานช้า</b> (ต้องให้อาหารทางหลอดเลือดนาน) · complex gastroschisis (atresia, ทะลุ, ลำไส้ตาย) พยากรณ์แย่กว่า · ไฟล์ MCQ Key 2 ขีด 2 และไฮไลต์ <b>\"มีแต่ไส้\"</b> \"intestine is viable\" ไฟล์ Key_1 ขีด B ตรงกัน",
   "wrong": {
-   "A": "Omphalocele มีถุงหุ้ม ออกที่สะดือ มักมีตับ และมีความผิดปกติร่วมบ่อย · จะถูกถ้าทารกมีก้อนลำไส้และตับในถุงใสที่สะดือ ร่วม macroglossia",
-   "C": "Ruptured omphalocele ถุงแตกแต่ยังเห็นเศษถุง ออกที่สะดือ มักมีตับ · จะถูกถ้าเห็นเศษเยื่อถุงติดขอบ ตับโผล่ สายสะดือออกจากยอดก้อน",
-   "D": "Umbilical hernia มีผิวหนังคลุม ยุบได้ ไม่อันตรายส่วนใหญ่ปิดเองก่อน 4–5 ปี · จะถูกถ้าทารกมีก้อนนุ่มที่สะดือมีผิวหนังคลุม โป่งเวลาร้อง",
-   "E": "Patent omphalomesenteric duct มีอุจจาระ/ เมือกไหลออกจากสะดือ · จะถูกถ้าทารกมีน้ำย่อย/ อุจจาระซึมออกจากสะดือหลังสายสะดือหลุด"
+   "A": "Omphalocele รูอยู่<b>ตรงกลางที่ฐานสายสะดือ</b> อวัยวะมี<b>ถุงหุ้ม</b> (amnion + peritoneum มี Wharton jelly คั่น) สายสะดือเกาะที่ถุง มักมีตับอยู่ในถุง และมีความผิดปกติร่วมสูง (โครโมโซม trisomy 13/18/21, หัวใจ, Beckwith-Wiedemann) — จะถูกถ้าเป็นทารกแรกเกิดตัวโต ลิ้นโต น้ำตาลในเลือดต่ำ มีก้อนกลางสะดือขนาด 6 cm หุ้มด้วยเยื่อใสบาง ๆ เห็นตับและลำไส้อยู่ภายใน สายสะดือเกาะที่ยอดถุง",
+   "C": "Ruptured omphalocele ถุงแตกทำให้อวัยวะโผล่โดยไม่มีถุงคล้าย gastroschisis แต่รูยังอยู่ตรงกลางที่ฐานสายสะดือ เห็นเศษเยื่อถุงที่ขอบ สายสะดือเกาะที่เศษถุง และมักมีตับออกมาด้วย — จะถูกถ้าเป็นทารกคลอดทางช่องคลอดที่ ultrasound ก่อนคลอดเห็นถุงหุ้มตับและลำไส้กลางสะดือ หลังคลอดพบถุงฉีกขาด มีเยื่อเหลือรอบขอบรูและตับโผล่",
+   "D": "Umbilical hernia คือรูที่ umbilical ring ปิดไม่สนิท มี<b>ผิวหนังคลุม</b>เป็นก้อนนุ่มที่สะดือ ดันกลับได้ ไม่ใช่ลำไส้โผล่เปลือยตั้งแต่เกิด ส่วนใหญ่ปิดเองภายใน 4–5 ปี — จะถูกถ้าเป็นเด็กหญิงอายุ 8 เดือน มีก้อนนุ่มที่สะดือโป่งขึ้นเวลาร้อง กดกลับได้ รูขนาด 1 cm ผิวหนังปกติ จึงนัดติดตามเพราะส่วนใหญ่ปิดเอง",
+   "E": "Patent omphalomesenteric (vitelline) duct คือท่อที่ต่อจาก ileum มาที่สะดือยังเปิดอยู่ มีอุจจาระหรือน้ำลำไส้ไหลออกทางสะดือ ไม่ใช่ลำไส้ทะลักออกทางรู — จะถูกถ้าเป็นทารกอายุ 2 สัปดาห์ หลังสายสะดือหลุดมีน้ำสีเขียวปนอุจจาระซึมออกจากสะดือตลอด ฉีดสารทึบรังสีผ่านรู (fistulogram) เห็นต่อกับ ileum"
   },
-  "trap": "สับสน gastroschisis กับ omphalocele — ไม่มีถุง ข้างสะดือ = gastroschisis",
+  "trap": "Omphalocele กับ gastroschisis สับสนกันบ่อย ยิ่งเมื่อต้นฉบับเขียนว่าลำไส้ออก \"at central abdomen\" · ตัวแยกคือ<b>ถุงหุ้ม</b> (omphalocele มี gastroschisis ไม่มี) และ<b>สิ่งที่ออกมา</b> (มีแต่ลำไส้ ไม่มีตับ = gastroschisis) · ruptured omphalocele ยังมีเศษถุงและสายสะดือเกาะที่รู",
   "summary": [
-   "Gastroschisis: ไม่มีถุง · ขวาของสะดือ · ไม่มีตับ · ความผิดปกติร่วมน้อย (atresia)",
-   "Omphalocele: มีถุง · ที่สะดือ · มีตับได้ · ผิดปกติร่วมบ่อย (หัวใจ trisomy BWS)",
-   "Gastroschisis: คลุมลำไส้ด้วยถุงพลาสติกใส · ป้องกันสูญเสียน้ำ/ ความร้อน",
-   "Silo + ค่อย ๆ ใส่กลับ หรือ primary closure",
-   "Omphalocele ใหญ่: paint and wait (silver sulfadiazine)",
-   "ตรวจหาความผิดปกติร่วมใน omphalocele เสมอ"
+   "Gastroschisis: รูข้างขวาของสายสะดือ ไม่มีถุง สายสะดือเกาะปกติ ลำไส้บวมมี peel · ความผิดปกติร่วมน้อย (ส่วนใหญ่ intestinal atresia) · แม่อายุน้อย",
+   "Omphalocele: รูกลางที่ฐานสายสะดือ มีถุงหุ้ม มักมีตับ · ความผิดปกติร่วมราวครึ่งหนึ่งขึ้นไป (หัวใจ โครโมโซม BWS, pentalogy of Cantrell) ต้องตรวจ echocardiogram และ karyotype",
+   "Beckwith-Wiedemann: omphalocele + macroglossia + gigantism + hypoglycemia ช่วงแรกเกิด · ความเสี่ยง Wilms tumor และ hepatoblastoma ต้อง ultrasound ท้องและ AFP เป็นระยะ",
+   "ดูแลแรกเกิด gastroschisis: bowel bag/ พลาสติกใส ตะแคงขวา OG tube สารน้ำเพิ่มเพราะสูญเสียน้ำผ่านลำไส้ ควบคุมอุณหภูมิ ยาปฏิชีวนะ ระวังลำไส้บิดหรือขาดเลือดที่ขอบรู",
+   "ปิดรู: primary closure ถ้าความดันในช่องท้องไม่สูงเกิน · ไม่เช่นนั้นใส่ silo ดันลำไส้กลับทีละน้อยแล้วปิดใน 1–2 สัปดาห์ · ระวัง abdominal compartment syndrome",
+   "Omphalocele ถุงใหญ่ (giant) ที่ปิดไม่ได้ → paint and wait ทาสารฆ่าเชื้อให้ถุงตกสะเก็ดแล้วผิวงอกคลุม ค่อยซ่อมไส้เลื่อนภายหลัง",
+   "ทั้งสองภาวะสัมพันธ์กับ malrotation (non-rotation) และ maternal serum AFP สูง · gastroschisis มักคลอดก่อนกำหนดและตัวเล็ก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'Gastroschisis = Gut out ไม่มีถุง (Gut alone) · Omphalocele = มี Organ + ถุง + ผิดปกติอื่น'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Abdominal wall defects; APSA Evidence-based review of gastroschisis",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ลำไส้ออกมาโดยไม่มีถุงและมีเฉพาะลำไส้ เป็นลักษณะของ gastroschisis ตรงกับไฟล์ MCQ Key 2 (ขีด 2) และ Key_1 ขีด B ตรงกัน · ต้นฉบับเขียน \"at central abdomen\" เว็บปรับเป็น periumbilical defect ซึ่งตรงกับตำแหน่งจริงของ gastroschisis (ข้างขวาสะดือ)",
+  "mnemonic": "<b>'Gastroschisis = Gut only, Gone sac, riGht of cord · Omphalocele = Organs (liver) in a sac, On the cord'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Congenital abdominal wall defects",
   "variants": [
-   "ทารกถุงใสที่สะดือมีตับ ลิ้นโต น้ำตาลต่ำ → omphalocele + Beckwith-Wiedemann",
-   "ทารก gastroschisis ลำไส้บวมมาก → silo + staged reduction",
-   "ทารกก้อนนุ่มที่สะดือมีผิวหนังคลุม → umbilical hernia → สังเกตอาการ"
+   "ultrasound อายุครรภ์ 20 สัปดาห์พบลำไส้ลอยในน้ำคร่ำ ข้างขวาสายสะดือ ไม่มีถุง แม่อายุ 18 ปี → gastroschisis → วางแผนคลอดในศูนย์ที่มีศัลยแพทย์เด็ก",
+   "ทารก gastroschisis ใส่ silo แล้ว 2 วัน ลำไส้ที่อยู่ใน silo เริ่มคล้ำ → ตรวจว่าขอบรูรัดหรือ silo บิด ปรับ/ ขยายรูทันที",
+   "ทารก omphalocele 4 cm ต้องตรวจอะไรก่อนผ่าตัด → echocardiogram, karyotype, ตรวจน้ำตาลในเลือด (BWS)",
+   "ทำไม gastroschisis ต้องได้ parenteral nutrition นาน → ลำไส้แช่น้ำคร่ำจนบวมและเคลื่อนไหวช้า ใช้เวลาหลายสัปดาห์กว่าจะกินนมได้เต็มที่"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 64 — ตัวพิมพ์: <b>XX. Patient เด็ก ใสๆ พึ่งเกิดเลย ไส้ทะลักออกมา at central abdomen บอกว่าใหญ่ด้วย มีแต่ไส้ด้วย small intestine แต่ว่า intestine is viable เป็นอะไรดี — 1. omphalocele 2. gastroschisis 3. omphalocele something (meckel)</b><br>ลายมือ: ขีด 2<br>ไฮไลต์: \"เด็ก ใสๆ พึ่งเกิด\" \"ไส้ทะลักออกมา at central abdomen\" \"มีแต่ไส้\" \"intestine is viable\" · 2 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 55: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 64",

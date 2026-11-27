@@ -1,228 +1,412 @@
 {
  "MDCU73|RoB|CVT 2": {
-  "interp": "ข้อ LEAST: สงสัย aortic dissection BP 200/120 ชีพจร 120 → ข้อใด <b>ไม่เหมาะ</b> เป็นการจัดการขั้นแรก",
-  "why": "P'Ing วง <b>A ✗ ห้ามให้เดี่ยว ๆ ก่อน</b> · <b>B ✓ BP control · C ✓ dx aortic dissection · D ✓ pain control · E ✓</b><br><b>นอกสไลด์:</b> Vasodilator อย่างเดียวทำให้ reflex tachycardia หัวใจบีบแรงและเร็วขึ้น แรงเฉือนผนัง aorta (dP/dt) เพิ่ม dissection ลามได้ · หลัก anti-impulse: ให้ IV β-blocker คุมชีพจรก่อน แล้วค่อยเพิ่ม vasodilator ถ้าความดันยังสูง",
+  "interp": "ชายไทยปวดหน้าอกแบบ<b>ฉีกขาด (tearing)</b> BP 200/120 ชีพจร 120 สงสัย <b>acute aortic dissection</b> — ถามสิ่งที่<b>เหมาะสมน้อยที่สุด</b>ในการจัดการแรก ต้องรู้ลำดับการลดแรงเฉือนต่อผนังหลอดเลือด: คุมชีพจรก่อน แล้วจึงลดความดัน",
+  "why": "เป้าหมายแรกของ aortic dissection คือลด <b>aortic wall stress (dP/dt)</b> เพื่อหยุดการลามของ intimal flap · ต้อง<b>คุมชีพจรด้วย IV beta-blocker ก่อน</b> (esmolol หรือ labetalol; แพ้ beta-blocker ใช้ diltiazem/ verapamil) ให้ HR ราว 60 ครั้ง/นาที แล้ว<b>จึงลด SBP</b> ให้ต่ำกว่า 120 mmHg ภายใน 20–30 นาทีแรก ถ้ายังสูงจึงเพิ่ม vasodilator เช่น nitroprusside หรือ nicardipine · การให้ <b>nitroprusside เดี่ยว ๆ เป็นตัวแรก</b> ทำให้หลอดเลือดขยาย ความดันตก → <b>reflex tachycardia</b> และหัวใจบีบตัวแรงขึ้น → dP/dt เพิ่ม dissection ลามมากขึ้น · ร่วมกับให้ <b>morphine/opioid</b> ระงับปวดซึ่งลด sympathetic drive และส่ง <b>CTA ทั้ง aorta</b> (วินิจฉัยและแยก Stanford A/B) หรือ echocardiography ข้างเตียง (TTE ดู AR, pericardial effusion, flap ที่ ascending; TEE ในผู้ที่ไม่คงที่) · ไฟล์คีย์ลายมือ P'Ing วง A <b>\"✗ ห้ามให้เดี่ยว ๆ ก่อน\"</b> และ ✓ ที่ B, C, D, E",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> β-blocker คือยาแรกที่ถูก · จะถูก (เป็นข้อไม่เหมาะ) ถ้าผู้ป่วยมีหอบหืดกำเริบหรือหัวใจเต้นช้า — เปลี่ยนเป็น non-dihydropyridine CCB (diltiazem, verapamil)",
-   "C": "<b>นอกสไลด์:</b> CTA ทั้งเส้นคือการวินิจฉัยหลัก · จะถูกถ้าผู้ป่วยช็อกไม่คงที่สงสัย type A — ไม่เคลื่อนย้ายไป CT ใช้ TEE ในห้องผ่าตัดแทน",
-   "D": "<b>นอกสไลด์:</b> แก้ปวดช่วยลด sympathetic drive · จะถูกถ้าผู้ป่วยซึม หายใจช้า ถูกกดการหายใจอยู่แล้ว",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ TTE ข้างเตียงไม่เหมาะ เพราะทำได้ทันทีโดยไม่เคลื่อนย้าย และบอก AR, pericardial effusion และ flap ใน ascending aorta ได้"
+   "B": "ข้อความถูก: IV beta-blocker (esmolol/ labetalol) เป็นยาตัวแรกที่ต้องให้ เพื่อลดชีพจรและแรงบีบตัวของหัวใจ ลด dP/dt (ลายมือในไฟล์ ✓ BP control) — จะถูกถ้าต้องเลือกยาที่เหมาะสมตัวแรกในชาย 55 ปีปวดหน้าอกร้าวทะลุหลัง BP 190/110 HR 110 ที่ CTA ยืนยัน type B dissection",
+   "C": "ข้อความถูก: CTA ทั้ง aorta (อกถึงเชิงกราน) เป็นการตรวจหลักที่ไวและจำเพาะสูง บอกจุดเริ่ม ขอบเขต แขนงหลอดเลือดที่ถูกกระทบ และแยก Stanford A/B (ลายมือในไฟล์ ✓ dx aortic dissection) — จะถูกถ้าต้องเลือกการตรวจยืนยันในหญิง 60 ปีปวดหลังทันทีแบบฉีก ความดันแขนสองข้างต่างกัน 30 mmHg และ hemodynamic คงที่",
+   "D": "ข้อความถูก: morphine ระงับปวดได้ดีและลด catecholamine ที่ทำให้ชีพจรและความดันสูง จึงเป็นส่วนหนึ่งของ anti-impulse therapy (ลายมือในไฟล์ ✓ pain control) — จะถูกถ้าต้องเลือกการรักษาเสริมที่เหมาะสมในชายที่ได้ esmolol แล้วยังปวดหลังรุนแรงจนกระสับกระส่าย ความดันขึ้นตามความปวด",
+   "E": "ข้อความถูก: echocardiography ข้างเตียงตรวจได้เร็ว เห็น flap ที่ aortic root, aortic regurgitation และ pericardial effusion/ tamponade ซึ่งบ่งว่าเป็น type A ต้องผ่าตัดด่วน · TEE แม่นกว่า TTE ในผู้ที่ไม่คงที่ — จะถูกถ้าต้องเลือกการตรวจที่เหมาะสมในชายปวดอกแบบฉีก ความดันตก JVP สูง ซึ่งยังเคลื่อนย้ายไปทำ CT ไม่ได้"
   },
-  "trap": "เห็นความดัน 200/120 แล้วรีบให้ยาขยายหลอดเลือดก่อน — ต้องคุมชีพจรก่อนเสมอ",
+  "trap": "ความดัน 200/120 ชวนให้คิดว่าต้องลดความดันเร็วที่สุดด้วย nitroprusside ที่ออกฤทธิ์ไวสุด · วิธีแยก: ใน dissection เป้าหมายคือลด <b>แรงเฉือน</b> ไม่ใช่แค่ตัวเลขความดัน — <b>\"Rate before Pressure\"</b> ต้องให้ beta-blocker ก่อน vasodilator เสมอ เพื่อกัน reflex tachycardia",
   "summary": [
-   "<b>นอกสไลด์:</b> เป้า anti-impulse: HR &lt; 60/min และ SBP ราว 100–120 mmHg · ยา: esmolol/labetalol → เพิ่ม nitroprusside หรือ nicardipine"
+   "Aortic dissection: ปวดอก/หลังทันทีแบบฉีก ร้าวไปหลัง · ความดันแขนสองข้างต่าง &gt; 20 mmHg · ชีพจรขาดหาย · AR murmur · CXR mediastinum กว้าง",
+   "Anti-impulse therapy: IV beta-blocker ก่อน (esmolol, labetalol) เป้า HR ราว 60 และ SBP &lt; 120 mmHg · ยังสูงจึงเพิ่ม nitroprusside/ nicardipine",
+   "ข้อห้ามใช้ beta-blocker (asthma, heart block) → non-dihydropyridine CCB (diltiazem/ verapamil) · aortic regurgitation รุนแรงต้องระวังการลดชีพจรมากเกิน",
+   "CTA ทั้ง aorta เป็นการตรวจหลัก · TEE ในผู้ไม่คงที่หรือห้องผ่าตัด · MRA ในผู้ป่วยติดตามระยะยาว · D-dimer &lt; 500 ng/mL ช่วยตัดออกในความเสี่ยงต่ำ",
+   "Stanford A (ลุก ascending) → ผ่าตัดด่วน (อัตราตายเพิ่มราว 1–2% ต่อชั่วโมงในวันแรกถ้าไม่ผ่าตัด) · Stanford B ไม่มีภาวะแทรกซ้อน → ยา",
+   "Complicated type B (malperfusion, rupture, ปวด/ความดันดื้อยา, ขยายเร็ว) → TEVAR",
+   "ปัจจัยเสี่ยง: ความดันสูง (บ่อยสุด), Marfan/ Ehlers-Danlos/ Loeys-Dietz, bicuspid aortic valve, cocaine, ตั้งครรภ์, หลังผ่าตัดหรือสวนหัวใจ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A ว่าห้ามให้ nitroprusside เดี่ยว ๆ ก่อน และติ๊กว่าช้อยอื่นเหมาะสม · ต้นฉบับช้อย A เขียนเพียง \"IV sodium nitroprusside\" เว็บเติมว่า \"as the first agent\" ให้ชัดว่าผิดเพราะลำดับการให้ ไม่ใช่เพราะห้ามใช้ยานี้ใน dissection",
+  "mnemonic": "<b>'Dissection: 'Rate before Pressure' — β-blocker ก่อน แล้วค่อย Nitroprusside'</b>",
+  "guide": "2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease (Isselbacher et al., Circulation 2022); 2024 ESC Guidelines for the Management of Peripheral Arterial and Aortic Diseases (Eur Heart J 2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ได้ esmolol จน HR 55 แล้วแต่ SBP ยัง 160 → เพิ่ม nitroprusside หรือ nicardipine ได้",
-   "<b>นอกสไลด์:</b> Aortic dissection ร่วม BP 80/50 เส้นเลือดคอโป่ง เสียงหัวใจเบา → tamponade จาก type A → ผ่าตัดฉุกเฉิน"
+   "ปวดอกฉีกร้าวไปหลัง CTA พบ flap ที่ ascending aorta ร่วม AR → Stanford A ส่งผ่าตัดเปลี่ยน ascending aorta ด่วน",
+   "Type B dissection ได้ esmolol แล้ว HR 60 แต่ SBP ยัง 160 → เพิ่ม IV nicardipine หรือ nitroprusside",
+   "Type B dissection มีปวดท้องรุนแรง lactate สูง CTA พบ SMA ถูก false lumen กด → complicated type B ทำ TEVAR",
+   "ผู้ป่วย asthma รุนแรงที่เป็น aortic dissection → ใช้ diltiazem คุมชีพจรแทน beta-blocker"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[cvt] Thai male come with tearing pain, BP 200/120, PR 120. What is the least appropriate management — A. IV sodium nitroprusside B. IV beta blocker C. CTA whole aorta D. Morphine E. Echocardiogram</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing เขียน aortic dissection เหนือ tearing pain · ปรับช้อย A ให้ชัดว่าให้ nitroprusside เดี่ยว ๆ เป็นตัวแรก",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_cvt2"
   ]
  },
  "MDCU73|RoB|CVT 3": {
-  "interp": "ชายสูบบุหรี่หนัก 65 ปี CXR พบก้อน <b>spiculated 2 ซม.</b> = สงสัยมะเร็งปอด → ถามการจัดการต่อไป",
-  "why": "P'Ing วง <b>B ✓ staging</b> · <b>A ✗ screening</b> · ลายมือ <b>ส่ง ca → cancer</b><br><b>นอกสไลด์:</b> ก้อนนี้เสี่ยงมะเร็งสูง ขั้นต่อไปคือ contrast CT ช่องอกรวมช่องท้องส่วนบน เพื่อดูลักษณะก้อน ต่อมน้ำเหลือง และการแพร่ไปตับและต่อมหมวกไต แล้วจึงวางแผน PET-CT และการตัดชิ้นเนื้อ",
+  "interp": "ชาย 65 ปีสูบบุหรี่จัด CXR ตรวจสุขภาพพบ<b>ก้อน 2 cm ขอบ spiculated</b> = ลักษณะสงสัยมะเร็งปอดสูง — ถามขั้นต่อไป ต้องรู้ว่าเมื่อสงสัยมะเร็งแล้วไม่ใช่การคัดกรองอีก แต่ต้อง<b>ประเมินลักษณะก้อนและ staging</b> ก่อนหาชิ้นเนื้อ",
+  "why": "ก้อนในปอดที่มีขอบ <b>spiculated</b> ในผู้สูงอายุที่สูบบุหรี่จัดมีโอกาสเป็นมะเร็งสูงมาก (ปัจจัยในโมเดล Brock/ Mayo: อายุ บุหรี่ ขนาด ขอบ spiculated ตำแหน่ง upper lobe) · ขั้นต่อไปคือ <b>contrast-enhanced CT chest ที่คลุมถึง upper abdomen</b> (ตับและ adrenal ซึ่งเป็นตำแหน่งแพร่กระจายบ่อย) เพื่อดูลักษณะก้อน ขนาดจริง การลุกลามผนังอก/ mediastinum ต่อมน้ำเหลือง hilar/ mediastinal และวางแผนตำแหน่งตัดชิ้นเนื้อ · ต่อด้วย <b>PET-CT</b> สำหรับ staging (ถ้าคาดว่ารักษาหายขาดได้) และ MRI สมองในระยะที่สูงขึ้น · การได้ชิ้นเนื้อเลือกทางที่ได้ทั้งวินิจฉัยและ staging สูงสุดในครั้งเดียว: ต่อมน้ำเหลืองโต → EBUS-TBNA · ก้อนรอบนอก → CT-guided biopsy · ก้อนที่สงสัยมากและผ่าตัดได้อาจทำ VATS resection เพื่อวินิจฉัยและรักษาพร้อมกัน · ไฟล์คีย์ลายมือ P'Ing วง B <b>\"✓ staging\"</b> ช้อย A <b>\"✗ screening\"</b> และเขียนว่า <b>\"ส่ง ca → cancer\"</b>",
   "wrong": {
-   "A": "P'Ing ✗ screening · จะถูกถ้าผู้สูบบุหรี่หนักอายุ 65 ปีไม่มีอาการและยังไม่พบก้อน — คัดกรองด้วย low-dose CT ประจำปี",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า CT/PET พบต่อมน้ำเหลือง mediastinum โต แต่ EBUS ได้ผลลบหรือทำไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า staging เสร็จแล้ว ก้อนอยู่ริมปอด ไม่มีต่อมโต — VATS wedge resection ส่งตรวจด่วนแล้ว lobectomy ต่อในครั้งเดียว",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเทียบกับ CXR เก่าเมื่อ 3 ปีก่อนพบก้อน solid ขนาดเท่าเดิม (คงที่เกิน 2 ปี = ไม่ร้าย)"
+   "A": "Low-dose CT ใช้<b>คัดกรอง</b>มะเร็งปอดในผู้ไม่มีอาการและยังไม่พบรอยโรค (USPSTF 2021: อายุ 50–80 ปี สูบ ≥ 20 pack-years ยังสูบหรือเลิกไม่เกิน 15 ปี) ไม่ใช่การประเมินก้อนที่พบแล้วเพราะไม่มี contrast และเห็น mediastinum ไม่ดี — จะถูกถ้าเป็นชาย 60 ปีสูบบุหรี่ 30 pack-years ยังสูบอยู่ ไม่มีอาการ CXR ปกติ ต้องการตรวจคัดกรองประจำปี",
+   "C": "Mediastinoscopy เป็น invasive mediastinal staging ทำหลัง CT/PET เมื่อต่อม mediastinum โตหรือ PET บวก ก้อนอยู่ตรงกลางหรือใหญ่ &gt; 3 cm และปัจจุบันมักใช้ EBUS-TBNA ก่อน — จะถูกถ้าเป็นชาย 65 ปีมะเร็งปอด adenocarcinoma ที่ PET-CT พบต่อม subcarinal และ paratracheal จับสาร แต่ EBUS-TBNA ไม่พบเซลล์มะเร็ง",
+   "D": "Thoracoscopy (VATS) ใช้ตัดชิ้นเนื้อ/ wedge resection หรือทำ lobectomy หลัง staging แล้วว่าผ่าตัดได้ ไม่ใช่ขั้นแรกก่อนทำ CT — จะถูกถ้าเป็นหญิง 60 ปีก้อน 1.8 cm รอบนอกปอดสงสัยมะเร็ง PET-CT ไม่พบต่อมหรือการแพร่กระจาย สมรรถภาพปอดดี วางแผนผ่าตัดวินิจฉัยและรักษาในคราวเดียว",
+   "E": "เฝ้าดูด้วย CXR ซ้ำไม่เหมาะกับก้อนขนาด 2 cm ขอบ spiculated ในผู้ความเสี่ยงสูงซึ่งโอกาสเป็นมะเร็งสูงมาก การรอทำให้โรคลุกลาม — จะถูกถ้าเป็นหญิง 35 ปีไม่สูบบุหรี่ CT เดิมเมื่อ 3 ปีก่อนพบ nodule หินปูนแบบ popcorn ขนาดเท่าเดิม (hamartoma) ซึ่งไม่ต้องติดตามเพิ่ม"
   },
-  "trap": "ต้นฉบับช้อย E เป็น PET ซึ่งก็ทำต่อจาก CT — จึงเปลี่ยนเป็น observation ให้เหลือคำตอบเดียว · LDCT ใช้คัดกรองคนไม่มีก้อน ไม่ใช่ประเมินก้อนที่เจอแล้ว",
+  "trap": "คำว่า check-up และ heavy smoker ชวนให้นึกถึง low-dose CT screening · วิธีแยก: <b>screening ใช้เมื่อยังไม่พบอะไร</b> เมื่อเห็นก้อน spiculated แล้วต้องประเมินแบบสงสัยมะเร็ง (contrast CT ถึงตับ/ adrenal → PET-CT → ชิ้นเนื้อ) ไม่ย้อนกลับไปคัดกรอง",
   "summary": [
-   "<b>นอกสไลด์:</b> ลักษณะก้อนที่สงสัยมะเร็ง: spiculated · ขนาด &gt; 8 mm · กลีบบน · สูบบุหรี่ · โตขึ้น · ลำดับ: CT chest + upper abdomen → PET-CT → ชิ้นเนื้อและ staging mediastinum (EBUS)"
+   "ลักษณะก้อนสงสัยมะเร็ง: ขนาดใหญ่ ขอบ spiculated/ lobulated ตำแหน่ง upper lobe โตขึ้น ผนัง cavity หนา &gt; 15 mm · ลักษณะไม่ร้าย: หินปูนแบบ popcorn/ laminated/ central/ diffuse ขนาดคงที่ ≥ 2 ปี (solid)",
+   "Staging NSCLC: contrast CT chest + upper abdomen → PET-CT → MRI brain (stage II ขึ้นไปหรือมีอาการ) → ประเมินต่อม mediastinum",
+   "Invasive mediastinal staging: EBUS-TBNA เป็นทางแรก · mediastinoscopy เมื่อ EBUS ลบแต่ยังสงสัย · ข้อบ่งชี้: ต่อมโต/ PET บวก ก้อนกลาง หรือ &gt; 3 cm",
+   "การได้ชิ้นเนื้อ: ก้อนรอบนอก → CT-guided transthoracic biopsy (pneumothorax ~15–25%) · ก้อนกลาง → bronchoscopy/ EBUS",
+   "Fleischner 2017 (nodule บังเอิญ ไม่ใช่ผู้ป่วยมะเร็ง): solid &gt; 8 mm → CT ที่ 3 เดือน, PET-CT หรือชิ้นเนื้อ",
+   "USPSTF 2021: LDCT ปีละครั้ง อายุ 50–80 ปี ≥ 20 pack-years ยังสูบหรือเลิกไม่เกิน 15 ปี · NLST ลดการตายจากมะเร็งปอดราว 20%",
+   "Early-stage NSCLC ผ่าตัดได้ → lobectomy + mediastinal lymph node dissection · ก้อนรอบนอก ≤ 2 cm อาจทำ segmentectomy ได้ (JCOG0802, CALGB 140503)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B ว่าเป็น staging และกากบาท low-dose CT ว่าเป็น screening · ต้นฉบับช้อย E คือ PET ซึ่งก็เป็นขั้นตอนถัดมาที่สมเหตุสมผล เว็บจึงเปลี่ยน E เป็น observation ให้เหลือคำตอบเดียว · ในทางปฏิบัติ contrast CT มาก่อน PET-CT เพราะต้องเห็นกายวิภาคและต่อมน้ำเหลืองก่อน",
+  "mnemonic": "<b>''เจอก้อนแล้วเลิก Screen' — Spiculated = CT ฉีดสีถึงตับ/ adrenal → PET → ชิ้นเนื้อ'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer (2025); ACCP Diagnosis and Management of Lung Cancer 3rd ed. (Chest 2013); USPSTF Lung Cancer Screening Recommendation (JAMA 2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> CT พบก้อนต่อมหมวกไตข้างเดียวในผู้ป่วยนี้ → ยืนยันด้วย PET หรือชิ้นเนื้อก่อนนับเป็น M1 (adrenal adenoma พบบ่อย)",
-   "<b>นอกสไลด์:</b> CT พบ ground-glass nodule 1 ซม. ยังอยู่หลังติดตาม 3 เดือน → ติดตาม CT ระยะยาว (adenocarcinoma ระยะแรกโตช้า)"
+   "ก้อน 3 cm ขอบ spiculated CT พบต่อม subcarinal 1.5 cm → EBUS-TBNA ได้ทั้งวินิจฉัยและ staging ในครั้งเดียว",
+   "CT พบก้อนปอด 2.5 cm และก้อนที่ adrenal ซ้าย → ตัดชิ้นเนื้อที่ adrenal เพราะถ้าเป็นมะเร็งจะได้ทั้งวินิจฉัยและ stage IV",
+   "หญิง 55 ปีไม่สูบบุหรี่ CT บังเอิญพบ solid nodule 5 mm → ความเสี่ยงต่ำ ไม่ต้องติดตามตามเกณฑ์ Fleischner",
+   "ชาย 70 ปี adenocarcinoma 1.8 cm รอบนอก PET ไม่พบต่อม → VATS lobectomy หรือ segmentectomy + lymph node dissection"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[cvt] Men 65 year old heavy smoking. Check up CXR 2 cm spiculated mass. Next management — A. low dose CT B. CT including abdomen C. mediastinoscope D. Thoracoscope E. PET</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ช้อย E = PET → เปลี่ยนเป็น observation เพื่อให้เหลือคำตอบเดียว (PET ก็เป็นขั้นตอนถัดมาที่สมเหตุสมผล)",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_cvt3"
   ]
  },
  "MDCU73|RoB|CVT 4": {
-  "interp": "2 สัปดาห์หลังซ่อมลิ้นหัวใจ: ความดันต่ำ เส้นเลือดคอโป่ง เสียงหัวใจเบา (Beck triad) → cardiac tamponade · ถามข้อความที่ถูก",
-  "why": "P'Ing วง <b>C ✓ drainage</b> · ลายมือ <b>Beck's triad → cardiac tamponade</b> · แปะข้อสอบเดิม <b>cardiac effusion needed drainage</b><br><b>นอกสไลด์:</b> Tamponade หลังผ่าตัดหัวใจเกิดช้าเป็นวันถึงสัปดาห์ได้ (มักร่วมยาต้านการแข็งตัวหรือ post-pericardiotomy syndrome) · รักษาด้วยการระบาย: เจาะผ่านผิวหนังหรือผ่าตัดระบาย (subxiphoid/เปิดอกซ้ำ)",
+  "interp": "ผู้ป่วยหลังผ่าตัดซ่อมลิ้นหัวใจ 2 สัปดาห์ มี<b>ความดันต่ำ หลอดเลือดดำคอโป่ง เสียงหัวใจเบา</b> = <b>Beck's triad</b> → <b>delayed cardiac tamponade</b> หลังผ่าตัดหัวใจ — ถามข้อความที่ถูก ต้องรู้นิยาม pulsus paradoxus และการรักษาคือระบายน้ำออกจากถุงหุ้มหัวใจ",
+  "why": "หลังผ่าตัดหัวใจ เลือดหรือน้ำในถุงหุ้มหัวใจสะสมได้ทั้งช่วงแรก (เลือดออกใน 24–48 ชม.) และ<b>ช่วงหลัง (delayed tamponade)</b> ราว 1–3 สัปดาห์ สัมพันธ์กับ<b>ยาต้านการแข็งตัวของเลือด</b> (warfarin หลังผ่าตัดลิ้น) และ postpericardiotomy syndrome · น้ำที่ดันถุงหุ้มหัวใจทำให้หัวใจห้องขวาขยายช่วง diastole ไม่ได้ → เลือดไหลกลับลด cardiac output ตก → <b>Beck's triad</b>: hypotension, JVD, muffled heart sounds · <b>pulsus paradoxus</b> คือ SBP <b>ช่วงหายใจเข้าลดลง</b> &gt; 10 mmHg จากช่วงหายใจออก (ช่วงหายใจเข้าเลือดเข้า RV มากขึ้น septum ดันไปทาง LV) · echo พบ RA systolic collapse, RV diastolic collapse และ IVC โป่งไม่ยุบ · การรักษาคือ<b>ระบายน้ำ (pericardial drainage)</b>: echo-guided pericardiocentesis หรือผ่าตัด subxiphoid window/ re-sternotomy โดยเฉพาะเมื่อเป็นลิ่มเลือดหรือ loculated · ไฟล์คีย์ลายมือ P'Ing วง C <b>\"✓ drainage\"</b> เขียน <b>\"Beck's triad → cardiac tamponade\"</b> และแปะข้อสอบเดิมว่า <b>\"cardiac effusion needed drainage\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ปกติ SBP ช่วงหายใจเข้าต่ำกว่าช่วงหายใจออก · pulsus paradoxus คือลดลง &gt; 10 mmHg ขณะหายใจเข้า · จะถูกถ้าผู้ป่วยขาดน้ำที่ใช้เครื่องช่วยหายใจแรงดันบวก — ความดันขึ้นช่วงหายใจเข้า (reversed pulsus paradoxus)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้า echo พบลิ้นที่ซ่อมรั่วรุนแรงจนน้ำท่วมปอด",
-   "D": "<b>นอกสไลด์:</b> เลือดในเยื่อหุ้มหัวใจจะออกมากขึ้น · จะถูกถ้าผู้ป่วยหลังผ่าตัดมีขาบวมข้างเดียว US พบ DVT และไม่มีเลือดออก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยหลังผ่าตัดหอบเฉียบพลัน ออกซิเจนต่ำ ปอดใส echo เห็น RV โต และ CTPA พบลิ่มเลือด"
+   "A": "ข้อความกลับด้าน — pulsus paradoxus คือ SBP ช่วง<b>หายใจเข้าต่ำกว่า</b>ช่วงหายใจออก &gt; 10 mmHg ไม่ใช่สูงกว่า · ความดันขณะหายใจเข้าสูงกว่าเรียก reversed pulsus paradoxus พบในผู้ใช้เครื่องช่วยหายใจแรงดันบวกหรือ HOCM — จะถูกถ้าเป็นผู้ป่วยใส่เครื่องช่วยหายใจแรงดันบวกที่ภาวะ hypovolemia ทำให้ SBP ขึ้นลงตามรอบการหายใจของเครื่อง",
+   "B": "การซ่อมลิ้นซ้ำใช้เมื่อลิ้นทำงานผิดปกติ เช่น repair ล้มเหลวมี MR รุนแรงใหม่ (murmur ใหม่ ปอดบวมน้ำ) ไม่ใช่ภาวะที่มี JVD + เสียงหัวใจเบา ซึ่งบ่งว่ามีน้ำกดหัวใจ — จะถูกถ้าเป็นผู้ป่วยหลัง mitral valve repair 2 สัปดาห์ที่เหนื่อยหอบนอนราบไม่ได้ ได้ยิน pansystolic murmur ใหม่ที่ apex และ echo พบ MR รุนแรงจาก leaflet แยก",
+   "D": "Heparin ทำให้เลือดออกในถุงหุ้มหัวใจมากขึ้นและ tamponade แย่ลง ต้องหยุดหรือ reverse ยาต้านการแข็งตัวในภาวะนี้ — จะถูกถ้าเป็นผู้ป่วยลิ้นหัวใจเทียมชนิดกลไกที่ INR ต่ำกว่าเป้าหมายและต้องได้ heparin bridging ระหว่างรอ warfarin ออกฤทธิ์ โดยไม่มีเลือดออกหรือน้ำในถุงหุ้มหัวใจ",
+   "E": "Pulmonary embolism ก็ทำให้ความดันต่ำและ JVD ได้ แต่มักหายใจหอบเฉียบพลัน SpO₂ ต่ำ เสียงหัวใจไม่เบา echo เห็น RV โต ไม่ใช่น้ำรอบหัวใจ — จะถูกถ้าเป็นผู้ป่วยหลังผ่าตัดใหญ่ 10 วันที่นอนนาน มีขาบวมข้างเดียว หอบเหนื่อยทันที SpO₂ 85% และ CTPA พบลิ่มเลือดใน pulmonary artery"
   },
-  "trap": "ช้อย A เขียนคล้าย pulsus paradoxus แต่กลับทิศ",
+  "trap": "ช้อย A ใช้ตัวเลขและคำศัพท์ของ pulsus paradoxus ทำให้ดูถูก แต่สลับทิศ (ต้องเป็นหายใจเข้า<b>ต่ำกว่า</b>) · และ 2 สัปดาห์หลังผ่าตัดทำให้คิดว่าพ้นช่วงเลือดออกแล้ว · วิธีแยก: Beck's triad ในผู้ป่วยหลังผ่าตัดหัวใจ = tamponade จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ → echo แล้ว<b>ระบาย</b>",
   "summary": [
-   "<b>นอกสไลด์:</b> Tamponade หลังผ่าตัดหัวใจอาจเป็นก้อนเลือดกดเฉพาะที่ อาการไม่ครบและ TTE อาจไม่ชัด — ใช้ TEE เมื่อสงสัย"
+   "Beck's triad: hypotension + JVD + muffled heart sounds · ร่วม pulsus paradoxus (SBP หายใจเข้าลด &gt; 10 mmHg) และ Kussmaul sign",
+   "Echo ใน tamponade: RA collapse ช่วง systole, RV collapse ช่วง diastole, IVC โป่ง &gt; 2.1 cm ไม่ยุบตามหายใจ, mitral inflow แปรผันตามหายใจ &gt; 25%",
+   "ECG: low voltage และ electrical alternans · CXR: หัวใจโตรูป water bottle เมื่อน้ำมากและสะสมช้า",
+   "Delayed tamponade หลังผ่าตัดหัวใจ: ~1–3 สัปดาห์ สัมพันธ์กับ warfarin/ heparin และ postpericardiotomy syndrome · มักเป็น loculated ทำให้ Beck's triad ไม่ครบ",
+   "รักษา: echo-guided pericardiocentesis (subxiphoid/ apical) หรือผ่าตัด subxiphoid window/ re-exploration · ให้สารน้ำประคองชั่วคราว หลีกเลี่ยงยาขยายหลอดเลือดและ positive pressure ventilation",
+   "Postpericardiotomy syndrome: ไข้ เจ็บอกแบบ pleuritic friction rub ราว 1–6 สัปดาห์หลังผ่าตัด → NSAIDs/ colchicine",
+   "ภาวะเลือดออกหลังผ่าตัดหัวใจช่วงแรก: chest tube &gt; 400 mL/ชม. ในชั่วโมงแรก หรือ &gt; 200 mL/ชม. ต่อเนื่อง 2–4 ชม. → re-exploration"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง C ว่าต้อง drainage พร้อมอ้าง Beck's triad และข้อสอบเดิมที่ให้คำตอบเดียวกัน · ต้นฉบับมีช้อยเพียง 3 ข้อ เว็บเติม D (heparin) และ E (pulmonary embolism) ตามข้อสอบเดิมที่แปะไว้ ช้อย A ในต้นฉบับผิดอยู่แล้วเพราะสลับทิศของ pulsus paradoxus",
+  "mnemonic": "<b>'Beck's triad '3D': Distant heart sounds, Distended neck veins, Decreased BP → Drain'</b>",
+  "guide": "2015 ESC Guidelines for the Diagnosis and Management of Pericardial Diseases (Eur Heart J 2015); Kirklin/Barratt-Boyes Cardiac Surgery 4th ed. (2013) — Postoperative Care",
   "variants": [
-   "<b>นอกสไลด์:</b> 3 สัปดาห์หลังผ่าตัดหัวใจ มีไข้ เจ็บอกมากขึ้นเวลานอนราบ ได้ยิน pericardial rub ความดันปกติ → post-pericardiotomy syndrome: NSAID + colchicine",
-   "<b>นอกสไลด์:</b> ผู้ป่วย tamponade ความดันต่ำระหว่างรอระบาย → ให้สารน้ำเพิ่ม preload เลี่ยงยาที่ลด preload"
+   "หลัง CABG 6 ชม. chest tube เคยออกมากแล้วหยุดทันที ความดันตก CVP สูง → สงสัยลิ่มเลือดอุดท่อ + tamponade → re-sternotomy",
+   "หลังผ่าตัดลิ้นหัวใจ 3 สัปดาห์ ไข้ต่ำ เจ็บอกเวลาหายใจลึก ได้ยิน friction rub น้ำในถุงหุ้มหัวใจเล็กน้อย ความดันปกติ → postpericardiotomy syndrome ให้ NSAIDs + colchicine",
+   "แทงถูกหัวใจด้านหน้าอก ความดันต่ำ JVD FAST พบน้ำรอบหัวใจ → resuscitative thoracotomy/ sternotomy ซ่อมแผล (pericardiocentesis เป็นเพียงชั่วคราว)",
+   "ทำไมเสียงหัวใจเบาใน tamponade → น้ำในถุงหุ้มหัวใจกั้นการส่งผ่านเสียงจากหัวใจถึงผนังอก"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[cvt] After heart valve repair 2 weeks ago, the patient had hypotension, engorged neck vein, distant heart sound. Which one is correct? — A. systolic pressure during inspiration is greater than systolic pressure during expiration more than 12 mmHg B. Repair heart valve C. need to do pericardiocentesis D. E.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เติม D, E ตามข้อสอบเดิมที่ P'Ing แปะ (heparin, pulmonary embolism)",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_cvt4"
   ]
  },
  "MDCU73|RoB|CVT 5": {
-  "interp": "วันที่ 3 หลัง MI เกิดหัวใจล้มเหลวเฉียบพลัน + pansystolic murmur ใหม่ที่ <b>apex</b> → ถามสาเหตุ",
-  "why": "P'Ing วง <b>B → MR</b> · <b>A ✗ cardiac tamponade</b> · แปะข้อสอบเดิม: <b>post MI papillary muscle rupture causing mitral regurgitation</b><br><b>นอกสไลด์:</b> Mechanical complication ช่วงวันที่ 2–7 หลัง MI: กล้ามเนื้อ papillary ขาดเลือดแล้วขาด → ลิ้น mitral รั่วเฉียบพลัน LA รับเลือดย้อนทันที เกิดน้ำท่วมปอดและช็อก",
+  "interp": "วันที่ 3 หลัง acute MI ผู้ป่วยมี <b>acute decompensated heart failure</b> ร่วม <b>pansystolic murmur ใหม่ที่ apex</b> — ถามสาเหตุ ซึ่งเป็น <b>mechanical complication</b> ของ MI ที่ทำให้เกิด acute mitral regurgitation",
+  "why": "Mechanical complication หลัง MI เกิดบ่อยในช่วง <b>2–7 วัน</b> ซึ่งกล้ามเนื้อที่ตายนิ่มลงที่สุด (macrophage กำจัดเนื้อตายก่อนมี collagen มาแทน) · <b>papillary muscle rupture</b> ส่วนใหญ่เป็น <b>posteromedial papillary muscle</b> เพราะได้เลือดจากหลอดเลือดเดียว (posterior descending artery จาก RCA หรือ LCx) จึงพบหลัง inferior/ posterior MI ขณะที่ anterolateral ได้เลือดสองทาง (LAD + LCx) · ทำให้เกิด <b>acute severe MR</b> → LA ที่ไม่เคยขยายรับปริมาตรไม่ไหว → ปอดบวมน้ำเฉียบพลันและ cardiogenic shock · เสียงเป็น pansystolic ที่ apex ร้าวไปรักแร้ (อาจเบาหรือสั้นเพราะความดัน LA สูงเร็ว) · วินิจฉัยด้วย echocardiography · รักษาด้วยลด afterload (nitroprusside), IABP/ mechanical circulatory support แล้ว<b>ผ่าตัดด่วน</b> (มักเปลี่ยนลิ้น) · ไฟล์คีย์ลายมือ P'Ing วง B เขียน <b>\"→ MR\"</b> ช้อย A <b>\"✗ cardiac tamponade\"</b> และแปะข้อสอบเดิม <b>\"post MI papillary muscle rupture causing mitral regurgitation\"</b>",
   "wrong": {
-   "A": "P'Ing: ทำ tamponade · จะถูกถ้าวันที่ 3–5 หลัง MI ผู้ป่วยทรุดฉับพลันเป็น PEA เส้นเลือดคอโป่ง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าหลายสัปดาห์หลัง anterior MI มีหัวใจล้มเหลว ST ยกค้าง และพบลิ่มเลือดในห้องหัวใจ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า 2–10 สัปดาห์หลัง MI มีไข้ เจ็บอกตามท่า และ pericardial rub",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้า inferior MI แล้วความดันต่ำ เส้นเลือดคอโป่ง ปอดใส (ห้ามให้ nitrate ให้สารน้ำ)"
+   "A": "Ventricular free wall rupture เกิดช่วง 1–14 วัน (มากสุด 3–5 วัน) เลือดเข้าถุงหุ้มหัวใจทันทีเกิด <b>tamponade</b> และ PEA ไม่มี murmur ใหม่ (ลายมือในไฟล์ ✗ cardiac tamponade) — จะถูกถ้าเป็นหญิงสูงอายุ 75 ปี first anterior MI วันที่ 4 ความดันตกทันที JVD สูง เสียงหัวใจเบา และ monitor เป็น electrical activity แต่คลำชีพจรไม่ได้",
+   "C": "Ventricular aneurysm เกิดเป็น<b>สัปดาห์ถึงเดือน</b>หลัง transmural anterior MI มี ST elevation ค้าง หัวใจล้มเหลวเรื้อรัง ventricular arrhythmia และลิ่มเลือดใน LV ไม่ใช่ murmur MR ใหม่วันที่ 3 — จะถูกถ้าเป็นชาย 60 ปีหลัง anterior MI 2 เดือน ECG ยังมี ST elevation ที่ V1–V4 และ echo พบผนัง apex โป่งเคลื่อนไหวสวนทาง (dyskinesia)",
+   "D": "Dressler syndrome เป็น pericarditis จากภูมิคุ้มกันเกิด<b>หลายสัปดาห์</b>หลัง MI มีไข้ เจ็บอกแบบ pleuritic friction rub ไม่ทำให้เกิด pansystolic murmur และหัวใจล้มเหลวเฉียบพลัน — จะถูกถ้าเป็นชาย 55 ปีหลัง MI 4 สัปดาห์มีไข้ เจ็บอกมากขึ้นเวลานอนราบ ดีขึ้นเมื่อโน้มตัวไปข้างหน้า และได้ยิน friction rub",
+   "E": "RV infarction พบร่วม inferior MI (RCA ส่วนต้น) ทำให้ความดันต่ำ JVD สูงแต่<b>ปอดใส</b> (ไม่ใช่ปอดบวมน้ำ) ST elevation ที่ V4R ต้องให้สารน้ำและเลี่ยง nitrate — จะถูกถ้าเป็นชาย 65 ปี inferior STEMI ความดันตกหลังได้ nitroglycerin ใต้ลิ้น JVP สูง ปอดไม่มี crepitation และ V4R มี ST elevation"
   },
-  "trap": "Murmur ใหม่หลัง MI มีสองโรค: ที่ apex + น้ำท่วมปอด = papillary rupture · ที่ LLSB + thrill = VSD",
+  "trap": "ทั้ง papillary muscle rupture และ ventricular septal rupture เกิดวันที่ 2–7 และให้ holosystolic murmur ใหม่ จึงสับสนง่าย ส่วน free wall rupture เกิดช่วงเดียวกัน · วิธีแยก: <b>MR = murmur ที่ apex + ปอดบวมน้ำ</b> · <b>VSR = murmur ดังที่ LLSB มี thrill + step-up O₂ ใน RV</b> · <b>free wall = tamponade/ PEA ไม่มี murmur</b>",
   "summary": [
-   "<b>นอกสไลด์:</b> Papillary rupture พบบ่อยที่ posteromedial (เลือดจาก PDA เส้นเดียว) → สัมพันธ์ inferior MI · รักษา: ลด afterload (nitroprusside) + IABP แล้วผ่าตัดฉุกเฉิน"
+   "Mechanical complications หลัง MI (ยุค primary PCI &lt; 1%): papillary muscle rupture, ventricular septal rupture, free wall rupture — ส่วนใหญ่ช่วง 2–7 วัน",
+   "Papillary muscle rupture: posteromedial บ่อยกว่า anterolateral ราว 6–12 เท่า (เลือดเลี้ยงจาก PDA เส้นเดียว) · พบหลัง inferior MI · acute MR → ปอดบวมน้ำ ช็อก",
+   "Ventricular septal rupture: harsh holosystolic murmur ที่ LLSB มี thrill · step-up O₂ saturation จาก RA สู่ RV · ทั้ง anterior และ inferior MI",
+   "Free wall rupture: tamponade และ PEA ทันที · ปัจจัยเสี่ยง: หญิง สูงอายุ first MI, ได้ thrombolysis ช้า · รักษาด้วยผ่าตัดซ่อมด่วน",
+   "การจัดการ mechanical complication: echo ด่วน → ลด afterload (nitroprusside) + IABP/ Impella/ ECMO → ผ่าตัด",
+   "LV aneurysm: สัปดาห์ถึงเดือน · ST elevation ค้าง · ลิ่มเลือดใน LV → anticoagulation · arrhythmia",
+   "Early pericarditis (1–3 วัน) จาก transmural MI vs Dressler syndrome (สัปดาห์) — ทั้งคู่ให้ aspirin/ colchicine (หลีกเลี่ยง NSAIDs อื่นและ steroid ช่วงแรก)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B ว่าทำให้เกิด MR และข้อสอบเดิมที่แปะไว้ · ต้นฉบับมีช้อยเพียง 2 ข้อและเขียน \"pan systolic ejection murmur\" เว็บเติม C–E และระบุตำแหน่งเสียงที่ apex ให้ชัด ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Post-MI วัน 3–5 'Rupture ทั้งสาม': Apex murmur = Papillary · LLSB + thrill = Septum · ไม่มีเสียง + tamponade = Free wall'</b>",
+  "guide": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes (Circulation 2025); Braunwald's Heart Disease 12th ed. (2022) — Mechanical Complications of MI",
   "variants": [
-   "<b>นอกสไลด์:</b> วันที่ 5 หลัง anterior MI มี murmur ใหม่ที่ LLSB มี thrill ออกซิเจนในเลือดเพิ่มขึ้นจาก RA ไป RV → post-infarction VSD",
-   "<b>นอกสไลด์:</b> หลัง MI ผู้ป่วยน้ำท่วมปอดเฉียบพลันและช็อก แต่ไม่ได้ยิน murmur → ยังต้องทำ echo หา acute MR (murmur อาจเบาเพราะความดัน LA สูงเร็ว)"
+   "Inferior MI วันที่ 4 ปอดบวมน้ำทันที echo พบ flail posterior mitral leaflet → posteromedial papillary muscle rupture ผ่าตัดเปลี่ยนลิ้นด่วน",
+   "Anterior MI วันที่ 5 มี harsh holosystolic murmur ที่ LLSB คลำได้ thrill O₂ saturation RV สูงกว่า RA → ventricular septal rupture",
+   "หลัง MI 2 วันมีเจ็บอกเปลี่ยนตามท่าและ friction rub → early post-MI pericarditis ให้ aspirin",
+   "ทำไม acute MR ทำให้ปอดบวมน้ำรุนแรงกว่า chronic MR → LA ไม่มีเวลาขยาย ความดัน LA และ pulmonary vein จึงสูงทันที"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[cvt] post MI day 3, acute decompensated heart failure with pan systolic ejection murmur. What is the cause? — A. ventricular free wall rupture B. papillary muscle rupture C. D. E.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_cvt5"
   ]
  },
  "MDCU73|RoB|CVT 6": {
-  "interp": "ข้อ INCORRECT: ข้อความเกี่ยวกับโรคลิ้นหัวใจข้อใด <b>ผิด</b>",
-  "why": "P'Ing วง D: <b>เป็น secondary sequelae จากโรคอื่น = back pressure จาก LV</b> · <b>A ✓ senile = calc</b> · <b>C ✓</b><br><b>นอกสไลด์:</b> Tricuspid regurgitation ส่วนใหญ่เป็น functional — โรคหัวใจซีกซ้ายทำให้ความดันปอดสูง RV และวงลิ้นขยาย ลิ้นปิดไม่สนิททั้งที่ตัวลิ้นปกติ",
+  "interp": "ถามข้อความเกี่ยวกับ<b>โรคลิ้นหัวใจ</b>ที่<b>ไม่ถูกต้อง</b> (ข้อแบบ incorrect) — ต้องรู้สาเหตุหลักของโรคลิ้นแต่ละลิ้น โดยเฉพาะว่า tricuspid regurgitation ส่วนใหญ่เป็นแบบ secondary (functional) จากโรคที่อื่น ไม่ใช่จากตัวลิ้นเอง",
+  "why": "โรคของ<b>ลิ้น tricuspid</b> ส่วนใหญ่ (ราว 80–90%) เป็น <b>secondary (functional) TR</b>: ตัวลิ้นปกติ แต่ <b>RV และ tricuspid annulus ขยาย</b> จาก pulmonary hypertension ซึ่งมักเกิดจากโรคหัวใจซีกซ้าย (mitral valve disease, LV dysfunction) หรือโรคปอด รวมถึง atrial fibrillation ที่ทำให้ annulus ขยาย → ใบลิ้นปิดไม่สนิท · primary TR (โรคที่ตัวลิ้น) พบน้อยกว่า: infective endocarditis ในผู้ใช้ยาเสพติดทางหลอดเลือด, carcinoid heart disease, Ebstein anomaly, rheumatic, สาย pacemaker/ ICD และอุบัติเหตุ · ข้อความอื่นถูก: AS ในผู้สูงอายุส่วนใหญ่เป็น <b>degenerative calcific</b> · rheumatic heart disease กระทบ <b>mitral</b> บ่อยที่สุด · Marfan ทำให้ <b>aortic root ขยาย → AR</b> · MVP เป็นสาเหตุที่พบบ่อยของ primary MR · ไฟล์คีย์ลายมือ P'Ing วง D เขียน <b>\"เป็น secondary sequelae จากโรคอื่น = back pressure จาก LV\"</b> และ ✓ ที่ A <b>\"senile = calc\"</b> กับ C",
   "wrong": {
-   "A": "P'Ing ✓ senile = calcification · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ AS ในภาพรวมส่วนใหญ่เกิดจากหินปูนเสื่อมตามอายุ (อายุน้อยกว่ามักเป็น bicuspid)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ rheumatic heart disease เกิดที่ mitral มากที่สุด รองลงมา aortic",
-   "C": "P'Ing ✓ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ fibrillin ผิดปกติทำให้ aortic root ขยาย ลิ้น aortic ปิดไม่สนิท",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ MVP จากลิ้นเสื่อมแบบ myxomatous เป็นสาเหตุสำคัญของ primary MR"
+   "A": "ข้อความถูก: AS ที่พบบ่อยที่สุดคือ degenerative calcific ในผู้สูงอายุ (กลไกคล้าย atherosclerosis) ส่วนอายุน้อยกว่า 70 ปีมักเป็น bicuspid aortic valve และในประเทศกำลังพัฒนายังพบ rheumatic — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับสาเหตุของ AS ในชาย 80 ปีที่มี angina, syncope เวลาออกแรง และ crescendo-decrescendo murmur ที่ RUSB",
+   "B": "ข้อความถูก: rheumatic heart disease กระทบ mitral บ่อยที่สุด (MS เป็นลักษณะเด่น) รองลงมาคือ aortic และมักเป็นหลายลิ้นร่วมกัน ส่วน tricuspid พบน้อยและมักร่วมกับลิ้นอื่น — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลิ้นที่เสียในหญิงไทย 35 ปีที่มีประวัติไข้รูมาติกตอนเด็ก มี AF และ mid-diastolic rumble ที่ apex",
+   "C": "ข้อความถูก: Marfan syndrome (FBN1 ผิดปกติ) ทำให้ cystic medial degeneration ของ aortic root → root ขยาย → AR และเสี่ยง aortic dissection · ร่วม MVP ได้ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับภาวะลิ้นหัวใจในชายตัวสูง แขนยาว เลนส์ตาเคลื่อน ที่ได้ยิน early diastolic murmur ที่ขอบอกซ้าย",
+   "E": "ข้อความถูก: MVP (myxomatous degeneration) ทำให้ใบลิ้นยื่นเข้า LA ขณะ systole เกิด mid-systolic click ตามด้วย late systolic murmur และเป็นสาเหตุที่พบบ่อยของ primary MR ที่ต้องผ่าตัดซ่อม — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับหญิง 30 ปีที่ได้ยิน mid-systolic click และ late systolic murmur ที่ apex"
   },
-  "trap": "ลิ้น tricuspid ไม่ค่อยเป็นโรคเอง — คิดถึงหัวใจซีกซ้ายก่อน",
+  "trap": "คนคิดว่าโรคลิ้นใดก็ต้องเกิดจากตัวลิ้นเอง ข้อ D จึงฟังดูถูก · วิธีแยก: จำว่า<b>ลิ้นซีกขวามักเป็นเหยื่อ</b>ของความดันที่ย้อนมาจากซีกซ้ายหรือปอด (functional TR) ส่วนลิ้นซีกซ้ายมักเป็นโรคที่ตัวลิ้นเอง (degenerative, rheumatic, myxomatous)",
   "summary": [
-   "<b>นอกสไลด์:</b> TR แบบ primary (ตัวลิ้นผิดปกติ) พบน้อย: endocarditis ในผู้ใช้ยาฉีด · carcinoid · Ebstein · สายเครื่องกระตุ้นหัวใจ · rheumatic"
+   "TR: secondary/ functional ~80–90% (RV/annulus ขยายจาก left heart disease, pulmonary hypertension, AF) · primary: IE ใน IVDU, carcinoid, Ebstein, rheumatic, สาย pacemaker",
+   "TR อาการ: holosystolic murmur ที่ LLSB ดังขึ้นตอนหายใจเข้า (Carvallo sign), JVP มี large v wave, ตับเต้น บวม ท้องมาน",
+   "ผ่าตัด mitral/ aortic อยู่แล้ว + TR รุนแรง หรือ annulus ≥ 40 mm (≥ 21 mm/m²) → ซ่อม tricuspid ร่วม (annuloplasty)",
+   "AS: degenerative calcific ในผู้สูงอายุ · bicuspid ในอายุน้อยกว่า · rheumatic มักร่วมโรค mitral · อาการ angina, syncope, heart failure → AVR/ TAVI",
+   "Rheumatic heart disease: mitral &gt; aortic &gt; tricuspid · MS เป็นลักษณะเด่น · ยังพบบ่อยในประเทศไทยและประเทศกำลังพัฒนา",
+   "Marfan: aortic root ขยาย → AR และ dissection · ผ่าตัดเปลี่ยน root เมื่อ ≥ 50 mm (หรือ ≥ 45 mm ถ้ามีปัจจัยเสี่ยง)",
+   "MVP: mid-systolic click + late systolic murmur · ยืน/ Valsalva ทำให้ click มาเร็วและ murmur ยาวขึ้น · MR รุนแรงจาก flail leaflet → mitral valve repair"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง D ว่าโรค tricuspid มักเป็น secondary sequelae จากโรคอื่น · ต้นฉบับช้อย B ว่างและ E คือ \"All are correct\" เว็บจึงเติม B และเปลี่ยน E เป็นข้อความถูกเรื่อง MVP เพื่อเลี่ยงช้อย all/ none ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>''ลิ้นซ้ายป่วยเอง ลิ้นขวาป่วยตาม' — TR ส่วนใหญ่ functional'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Otto et al., Circulation 2021); 2021 ESC/EACTS Guidelines for the Management of Valvular Heart Disease (Eur Heart J 2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย carcinoid ที่แพร่ไปตับ หน้าแดง ท้องเสีย พบ TR และ pulmonic stenosis → carcinoid heart disease (ลิ้นซีกขวาผิดปกติเอง)",
-   "<b>นอกสไลด์:</b> ผ่าตัด mitral valve ในผู้ป่วยที่มี TR ปานกลางและวงลิ้น tricuspid ขยาย → ซ่อม tricuspid ไปพร้อมกัน"
+   "ผู้ป่วย severe MS จาก rheumatic มีบวม ตับโต holosystolic murmur ที่ LLSB ดังขึ้นตอนหายใจเข้า → functional TR จาก pulmonary hypertension ซ่อม tricuspid ร่วมขณะผ่าตัด mitral",
+   "ชายฉีดยาเสพติดเข้าเส้น ไข้ ไอเป็นเลือด CXR มีก้อนในปอดหลายก้อน → tricuspid valve endocarditis (S. aureus) พร้อม septic pulmonary emboli",
+   "ผู้ป่วย carcinoid tumor ที่แพร่ไปตับ มี flushing ท้องเสีย และ TR → carcinoid heart disease กระทบลิ้นซีกขวา",
+   "ทำไม Marfan ทำให้ AR → aortic root ขยายดึงใบลิ้น aortic ให้ปิดไม่สนิทแม้ตัวใบลิ้นปกติ"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[cvt] What is incorrect? — A. AS usually caused by degenerative process B. C. Marfan syndrome causes AR D. Diseases of tricuspid valve are usually caused by pathology of the valve, itself E. All are correct</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ช้อย B ว่าง และ E \"All are correct\" → เติม B และเปลี่ยน E เป็นข้อความถูก (เพื่อเลี่ยงช้อย all/none)",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_cvt6"
   ]
  },
  "MDCU73|RoB|CVT 7": {
-  "interp": "ค่า FEV1 ก่อนผ่าตัดที่ทำ <b>lobectomy</b> ได้อย่างปลอดภัยโดยไม่ต้องทดสอบเพิ่ม (ค่าเกณฑ์)",
-  "why": "P'Ing วง <b>C ✓ lobectomy 1 lobe ได้</b> · <b>A ✗ &gt; 0.6 wedge resection ได้</b> · <b>D ✗ pneumonectomy ได้</b><br><b>นอกสไลด์:</b> เกณฑ์คลาสสิก (BTS): FEV1 &gt; 1.5 L ทำ lobectomy ได้โดยไม่ต้องทดสอบเพิ่ม · ต่ำกว่านี้ต้องคำนวณค่าหลังผ่าตัดที่คาด (ppoFEV1, ppoDLCO) ต่อ",
+  "interp": "ถามค่า PFT ก่อนผ่าตัดที่บอกว่าผู้ป่วยทำ <b>right lung lobectomy</b> ได้อย่างปลอดภัย<b>โดยไม่ต้องตรวจเพิ่ม</b> — ต้องจำเกณฑ์ FEV1 แบบดั้งเดิมของการตัดปอดแต่ละขนาด (wedge, lobectomy, pneumonectomy) และขั้นตอนประเมินเมื่อไม่ผ่านเกณฑ์",
+  "why": "เกณฑ์ดั้งเดิม (BTS 2001 และตำราศัลยกรรม): preoperative <b>FEV1 &gt; 1.5 L</b> ทำ <b>lobectomy</b> ได้โดยไม่ต้องตรวจเพิ่ม · <b>FEV1 &gt; 2 L</b> (หรือ &gt; 80% predicted) ทำ <b>pneumonectomy</b> ได้ · wedge/ segmentectomy ใช้ค่าต่ำกว่า (ราว 0.6 L) · ถ้าไม่ผ่านเกณฑ์ต้องประเมินต่อด้วย <b>predicted postoperative (ppo)</b> FEV1 และ DLCO: ppoFEV1 = FEV1 ก่อนผ่าตัด × (1 − จำนวน segment ที่ตัด/ 19) [ปอดขวา 10 segment: upper 3, middle 2, lower 5 · ปอดซ้าย 9 segment] · ACCP 2013: ppoFEV1 และ ppoDLCO &gt; 60% = ความเสี่ยงต่ำ · 30–60% → stair climbing/ shuttle walk test · &lt; 30% หรือทดสอบเดินไม่ผ่าน → CPET: VO₂max &gt; 20 mL/kg/min ความเสี่ยงต่ำ, &lt; 10 mL/kg/min ความเสี่ยงสูง (พิจารณาการรักษาที่ไม่ผ่าตัด เช่น SBRT) · ไฟล์คีย์ลายมือ P'Ing วง C <b>\"✓ lobectomy 1 lobe ได้\"</b> A <b>\"✗ &gt;0.6 wedge resection ได้\"</b> D <b>\"✗ pneumonectomy ได้\"</b>",
   "wrong": {
-   "A": "P'Ing: ราว 0.6 L พอสำหรับ wedge เท่านั้น · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 0.5 L เป็นเกณฑ์ lobectomy โดยไม่ทดสอบเพิ่ม เพราะค่าที่ต่ำกว่า 1.5 L ต้องประเมิน ppoFEV1/DLCO ต่อเสมอ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 1 L เป็นเกณฑ์ lobectomy โดยไม่ทดสอบเพิ่ม เพราะต่ำกว่า 1.5 L ต้องประเมินต่อ",
-   "D": "P'Ing: เกณฑ์ pneumonectomy · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 2 L เป็นจุดตัดของ lobectomy เพราะเป็นเกณฑ์ของ pneumonectomy — ทำ lobectomy ได้แต่สูงเกินจุดตัด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 2.5 L เป็นค่าเกณฑ์ เพราะเกณฑ์สูงสุดคือ pneumonectomy ที่ 2 L — ค่านี้ผ่าตัดได้แต่ไม่ใช่จุดตัด"
+   "A": "FEV1 &gt; 0.5 L ต่ำเกินไปสำหรับ lobectomy · เกณฑ์ราว 0.6 L เป็นค่าต่ำสุดสำหรับ wedge resection (ลายมือในไฟล์) ผู้ป่วยที่ FEV1 ต่ำขนาดนี้หลังตัดทั้ง lobe เสี่ยงต้องใช้เครื่องช่วยหายใจถาวร — จะถูกถ้าเป็นชาย 70 ปี COPD รุนแรง FEV1 0.7 L มีก้อนเล็ก 1.5 cm รอบนอกปอด ที่จะทำเพียง wedge resection",
+   "B": "FEV1 &gt; 1 L ยังไม่ผ่านเกณฑ์ปลอดภัยของ lobectomy โดยไม่ตรวจเพิ่ม ต้องคำนวณ ppoFEV1/ ppoDLCO และทดสอบการออกกำลังกายต่อ — จะถูกถ้าเป็นชาย 68 ปี COPD FEV1 1.1 L ที่วางแผน segmentectomy ก้อนเล็กรอบนอกปอดและผล ppoFEV1 กับ ppoDLCO ได้มากกว่า 40%",
+   "D": "FEV1 &gt; 2 L เป็นเกณฑ์ของ <b>pneumonectomy</b> (ลายมือในไฟล์) ผู้ที่ผ่านเกณฑ์นี้ทำ lobectomy ได้แน่นอน แต่ไม่ใช่ค่าตัดสินขั้นต่ำของ lobectomy — จะถูกถ้าเป็นชาย 60 ปีมะเร็งปอดก้อนกลางลุก main bronchus ข้างขวาที่ต้องทำ right pneumonectomy",
+   "E": "FEV1 &gt; 2.5 L ไม่ใช่เกณฑ์มาตรฐานใด สูงกว่าค่าที่ต้องการสำหรับทั้ง lobectomy และ pneumonectomy การตั้งเกณฑ์สูงเกินทำให้ผู้ป่วยจำนวนมากที่ผ่าตัดได้เสียโอกาส — จะถูกถ้าเป็นชายสุขภาพดีอายุ 45 ปี FEV1 3 L ซึ่งผ่านทุกเกณฑ์และผ่าตัดปอดขนาดใดก็ได้โดยไม่ต้องตรวจเพิ่ม"
   },
-  "trap": "โจทย์ถามจุดตัด — 2 และ 2.5 L ก็ผ่าตัดได้ แต่เป็นค่าที่สูงเกินเกณฑ์ · อย่าสลับเกณฑ์ lobectomy (1.5) กับ pneumonectomy (2)",
+  "trap": "ช้อยเป็นตัวเลขเรียงกัน คนจึงสับสนระหว่าง 1.5 (lobectomy) กับ 2 (pneumonectomy) หรือเลือกค่าสูงสุดเพราะคิดว่า \"ยิ่งมากยิ่งปลอดภัย\" · วิธีแยก: จำคู่ <b>\"lobe 1.5 · lung 2\"</b> และถามว่าค่า<b>ต่ำสุด</b>ที่ไม่ต้องตรวจเพิ่มคือเท่าใด",
   "summary": [
-   "เกณฑ์ FEV1: wedge &gt; 0.6 L · lobectomy &gt; 1.5 L · pneumonectomy &gt; 2 L (ลายมือ P'Ing; pneumonectomy ใช้ &gt; 80% predicted ได้ด้วย)"
+   "FEV1 ก่อนผ่าตัด: &gt; 2 L (หรือ &gt; 80% predicted) → pneumonectomy · &gt; 1.5 L → lobectomy · ราว 0.6 L → wedge/ segmentectomy",
+   "ppoFEV1 = FEV1 × (1 − segment ที่ตัด/ 19) · ปอดขวา 10 segment (upper 3, middle 2, lower 5) · ปอดซ้าย 9 segment (upper 3 + lingula 2, lower 4)",
+   "ACCP 2013: ppoFEV1 และ ppoDLCO &gt; 60% → ความเสี่ยงต่ำ ผ่าตัดได้ · 30–60% → stair climbing/ shuttle walk · &lt; 30% → CPET",
+   "Stair climbing &gt; 22 m หรือ shuttle walk &gt; 400 m → ความเสี่ยงต่ำ · ไม่ผ่าน → CPET",
+   "CPET VO₂max &gt; 20 mL/kg/min (&gt; 75% predicted) ความเสี่ยงต่ำ · &lt; 10 mL/kg/min (&lt; 35%) ความเสี่ยงสูง → พิจารณา sublobar resection หรือ SBRT",
+   "ประเมินหัวใจก่อนผ่าตัดปอดด้วย ThRCRI · DLCO ต้องวัดทุกรายแม้ FEV1 ปกติ เพราะทำนายภาวะแทรกซ้อนทางปอดได้แยกจาก FEV1",
+   "Lung volume reduction effect: ผู้ป่วย emphysema ที่ก้อนอยู่ในส่วนปอดที่ถูกทำลาย อาจเสียสมรรถภาพหลังผ่าตัดน้อยกว่าที่คำนวณ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง C และเขียนเกณฑ์ wedge/ lobectomy/ pneumonectomy ไว้ครบ · เว็บเติมคำว่า \"without further testing\" ให้ตรงกับความหมายของเกณฑ์ดั้งเดิม เพราะแนวทางปัจจุบันใช้ ppoFEV1/ ppoDLCO และการทดสอบออกกำลังกายเมื่อไม่ผ่านเกณฑ์นี้",
+  "mnemonic": "<b>''Lobe 1.5 · Lung 2' (FEV1 lobectomy &gt; 1.5 L · pneumonectomy &gt; 2 L)'</b>",
+  "guide": "Brunelli A et al. Physiologic Evaluation of the Patient With Lung Cancer Being Considered for Resectional Surgery, ACCP Guidelines 3rd ed. (Chest 2013); BTS Guidelines on the Selection of Patients With Lung Cancer for Surgery (Thorax 2001)",
   "variants": [
-   "<b>นอกสไลด์:</b> FEV1 1.8 L แต่หอบเวลาออกแรงและ CT มีพังผืดในปอด → ตรวจ DLCO ด้วย (FEV1 อย่างเดียวไม่พอเมื่อสงสัยโรคเนื้อปอด)"
+   "FEV1 ก่อนผ่าตัด 2 L จะตัด right lower lobe (5 segment) → ppoFEV1 ≈ 2 × (1 − 5/19) ≈ 1.47 L",
+   "ppoFEV1 45% และ ppoDLCO 50% → ทำ stair climbing ถ้าขึ้นได้ &gt; 22 m ผ่าตัดได้",
+   "CPET ได้ VO₂max 9 mL/kg/min ในผู้ป่วยมะเร็งปอดระยะแรก → ความเสี่ยงผ่าตัดสูง ให้ SBRT แทน",
+   "ทำไมต้องวัด DLCO แม้ FEV1 ปกติ → DLCO ต่ำทำนายภาวะแทรกซ้อนทางปอดและอัตราตายหลังผ่าตัดได้เป็นอิสระจาก FEV1"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[cvt] Which of the following should be the result of the pulmonary function test of the patient that can undergo right lung lobectomy? — A. FEV1 > 0.5 B. FEV1 > 1 C. FEV1 > 1.5 D. FEV1 > 2 E. FEV1 > 2.5</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing ลายมืออธิบายเกณฑ์ wedge/lobectomy/pneumonectomy",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_cvt7"
   ]
  },
  "MDCU73|RoB|CVT 8": {
-  "interp": "ผู้ป่วยลิ้นเทียมกิน warfarin (INR เป้า 3) อุบัติเหตุเลือดออกมาก BP 90/60 → ถามการจัดการ",
-  "why": "ลายมือในคีย์วง A พร้อมตาราง INR: <b>severe bleeding → admit, stop drug, FFP</b> (เห็นด้วยว่าต้องหยุดยาและให้ FFP แต่ต้องให้ทันทีที่ ER)<br><b>นอกสไลด์:</b> ผู้ป่วยช็อกจากเลือดออก → resuscitate ด้วยเลือดที่ ER ทันที และแก้ฤทธิ์ warfarin พร้อมกัน: IV vitamin K (ออกฤทธิ์ช้าแต่ยั่งยืน) + 4F-PCC (เร็วที่สุด) หรือ FFP ถ้าไม่มี PCC · ลิ้นเทียมไม่ใช่ข้อห้ามในการแก้ฤทธิ์เมื่อเลือดออกถึงชีวิต",
+  "interp": "ผู้ป่วยลิ้นหัวใจเทียมชนิดกลไก กิน warfarin INR เป้า 3 ประสบอุบัติเหตุ<b>เลือดออกมาก ความดัน 90/60</b> — เป็น <b>life-threatening bleeding ในผู้ใช้ warfarin</b> ถามการจัดการที่เหมาะที่สุด ต้อง resuscitate และ<b>แก้ฤทธิ์ warfarin ทันที</b> แม้มีลิ้นเทียม",
+  "why": "เลือดออกรุนแรงจนช็อกในผู้ใช้ warfarin ต้องทำพร้อมกัน: ① <b>resuscitate</b> ตาม ATLS ด้วยเลือด (PRC, ใช้ massive transfusion protocol อัตราส่วน plasma: platelet: RBC ใกล้ 1:1:1) และหยุดเลือดที่ต้นเหตุ ② <b>หยุด warfarin และ reverse ทันทีที่ ER</b>: <b>IV vitamin K 5–10 mg</b> ช้า ๆ (ออกฤทธิ์ใน 6–24 ชม. ทำให้การแก้คงอยู่) ร่วมกับแหล่ง coagulation factor ที่ออกฤทธิ์ทันที — <b>4-factor PCC</b> (25–50 IU/kg ตาม INR) เป็นตัวเลือกแรกเพราะเร็วและปริมาตรน้อย ถ้าไม่มีใช้ <b>FFP</b> ราว 10–15 mL/kg · ความเสี่ยงลิ่มเลือดที่ลิ้นเทียมในช่วงสั้น ๆ ต่ำกว่าอันตรายจากเลือดออกที่ทำให้เสียชีวิต จึงไม่ใช่เหตุผลที่จะชะลอ · เมื่อหยุดเลือดได้แล้วจึงเริ่ม heparin แล้วกลับไปใช้ warfarin ตามความเสี่ยงเลือดออกซ้ำ · ไฟล์คีย์ลายมือ P'Ing วง A <b>\"✓ massive bleeding\"</b> พร้อมตาราง INR/ bleeding: <b>\"severe bleeding → admit, stop drug, FFP\"</b>",
   "wrong": {
-   "A": "ข้อที่คีย์เลือก · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ให้ FFP เฉพาะในห้องผ่าตัดเหมาะ เพราะ FFP ต้องละลายและให้ปริมาณมาก การแก้ฤทธิ์ warfarin ต้องเริ่มทันทีที่ตัดสินใจ ไม่ใช่รอถึงห้องผ่าตัด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดกำเดาเล็กน้อยหยุดเองหรือจ้ำเลือด โดย INR อยู่ในช่วงเป้า",
-   "D": "<b>นอกสไลด์:</b> วิตามิน K ทางปากออกฤทธิ์ช้าเป็นวัน · จะถูกถ้า INR &gt; 10 ไม่มีเลือดออก — หยุดยาและให้ vitamin K กินขนาดต่ำ",
-   "E": "<b>นอกสไลด์:</b> เกล็ดเลือดไม่แก้ฤทธิ์ warfarin (ลด factor II, VII, IX, X) · จะถูกถ้าผู้ป่วยเกล็ดเลือดต่ำมากจากเคมีบำบัดมีเลือดออกในปากเล็กน้อย"
+   "A": "FFP เฉพาะในห้องผ่าตัดทำให้การแก้ฤทธิ์ warfarin ล่าช้าทั้งที่ผู้ป่วยกำลังช็อก เลือดยังออกต่อตลอดช่วงรอ และ FFP อย่างเดียวไม่มี vitamin K ทำให้ INR กลับสูงได้ — จะถูกถ้าเป็นผู้ป่วยลิ้นเทียม INR 2.8 ไม่มีเลือดออก ต้องผ่าตัดไส้ติ่งอักเสบด่วนภายในไม่กี่ชั่วโมง ซึ่งให้ vitamin K และ FFP/ PCC ก่อนและระหว่างผ่าตัด",
+   "C": "ให้ warfarin ต่อในผู้ป่วยที่เลือดออกมากจนช็อกทำให้เลือดไม่หยุดและเสียชีวิตได้ ลิ้นเทียมไม่ใช่ข้อห้ามของการ reverse ในภาวะคุกคามชีวิต — จะถูกถ้าเป็นผู้ป่วยลิ้นเทียมชนิดกลไก INR 3.0 อยู่ในเป้า มีเพียงจ้ำเลือดเล็กที่แขนหรือเลือดออกตามไรฟันเล็กน้อย สัญญาณชีพปกติ",
+   "D": "Vitamin K ชนิดรับประทานออกฤทธิ์ช้า (24 ชม. ขึ้นไป) และไม่ให้ coagulation factor ทันที จึงไม่เหมาะกับเลือดออกรุนแรง — จะถูกถ้าเป็นผู้ป่วยกิน warfarin ที่ INR 11 ไม่มีเลือดออก สัญญาณชีพปกติ ซึ่งหยุดยาและให้ oral vitamin K 2.5 mg แล้วตรวจ INR ซ้ำ",
+   "E": "Warfarin ไม่ได้ทำให้เกล็ดเลือดต่ำหรือทำงานผิดปกติ การให้เกล็ดเลือดจึงไม่แก้ปัญหาหลักคือ coagulation factor II, VII, IX, X ต่ำ — จะถูกถ้าเป็นผู้ป่วยเลือดออกมากที่ได้ PRC ไปแล้ว 10 ยูนิต เกล็ดเลือดลดเหลือ 40,000/µL จาก dilutional coagulopathy ระหว่าง massive transfusion"
   },
-  "trap": "คีย์เดิมตอบ A (FFP ระหว่างผ่าตัด) — ผู้ป่วยช็อกอยู่ที่ ER ต้องให้เลือดและแก้ฤทธิ์ยาทันที ไม่รอผ่าตัด",
+  "trap": "คีย์ในไฟล์เลือก FFP perioperative ตามตารางที่เขียนว่า severe bleeding → FFP โดยไม่คำนึงเรื่องเวลา และคนมักกลัวลิ่มเลือดที่ลิ้นเทียมจึงลังเลจะ reverse · วิธีแยก: <b>ช็อกจากเลือดออก = แก้ทันทีที่ ER</b> (เลือด + PCC/ FFP + IV vitamin K) ความเสี่ยงลิ้นเทียมอุดตันในไม่กี่วันต่ำกว่าความเสี่ยงตายจากเลือดออกมาก",
   "summary": [
-   "<b>นอกสไลด์:</b> Warfarin + เลือดออกรุนแรง: หยุดยา · IV vitamin K 5–10 mg · 4F-PCC (หรือ FFP ราว 15 mL/kg ถ้าไม่มี) · ให้เลือดตามความรุนแรง"
+   "Warfarin ยับยั้ง vitamin K epoxide reductase → factor II, VII, IX, X, protein C และ S ลดลง · INR สะท้อนฤทธิ์",
+   "Life-threatening bleeding: หยุด warfarin + IV vitamin K 5–10 mg + 4-factor PCC (เลือกก่อน) หรือ FFP 10–15 mL/kg ถ้าไม่มี PCC",
+   "4F-PCC แก้ INR ในไม่กี่นาที ปริมาตรน้อย เหมาะกับผู้ป่วยหัวใจ · FFP ต้องใช้ปริมาตรมาก ละลายนาน เสี่ยง TACO",
+   "INR สูงไม่มีเลือดออก (ACCP): INR 4.5–10 → หยุดยาชั่วคราวไม่ต้องให้ vitamin K เป็นประจำ · INR &gt; 10 → oral vitamin K 2.5–5 mg",
+   "เป้า INR ลิ้นกลไก (ACC/AHA 2020): aortic bileaflet ไม่มีปัจจัยเสี่ยง 2.5 · mitral หรือ aortic ที่มีปัจจัยเสี่ยง (AF, LV ทำงานต่ำ, เคยมีลิ่มเลือด) 3.0",
+   "Massive transfusion: อัตราส่วน plasma: platelet: RBC ใกล้ 1:1:1 · tranexamic acid ภายใน 3 ชม. หลังบาดเจ็บ (CRASH-2)",
+   "หลังหยุดเลือดได้ เริ่ม heparin (ปรับขนาดได้ง่าย) ก่อนกลับไปใช้ warfarin ในผู้ป่วยลิ้นกลไก"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ A — ต้องให้เลือดและแก้ฤทธิ์ warfarin ที่ ER ทันที · ช้อยในไฟล์จดไม่ครบ (B เติม IV vitamin K) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ลายมือ P'Ing ที่วง A (FFP perioperative) · เว็บตอบต่างเพราะผู้ป่วยช็อกจากเลือดออกซึ่งต้อง resuscitate และ reverse warfarin ทันทีที่ ER ไม่ใช่รอถึงห้องผ่าตัด และต้องให้ IV vitamin K ร่วม · ต้นฉบับจดช้อยไม่ครบ (A FFP perioperative, B PRC 4 + FFP 4 @ER) เว็บจึงเติม vitamin K ในช้อย B และแต่ง C–E · ถ้ามี 4F-PCC ควรใช้แทน FFP",
+  "mnemonic": "<b>'Warfarin เลือดออกหนัก 'K + PCC (หรือ FFP) ที่ ER — ไม่รอห้องผ่าตัด''</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021); 2020 ACC Expert Consensus Decision Pathway on Management of Bleeding in Patients on Oral Anticoagulants (J Am Coll Cardiol 2020); ATLS 10th ed. (2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยกิน dabigatran มีเลือดออกในสมอง → idarucizumab",
-   "<b>นอกสไลด์:</b> ผู้ป่วยลิ้นเทียมโลหะหยุดเลือดได้แน่นอนแล้ว → เริ่ม heparin (ปรับขนาดได้) ก่อนแล้วต่อ warfarin — ไม่หยุดยาต้านการแข็งตัวยาวเกินจำเป็น"
+   "ผู้ป่วย AF กิน warfarin INR 4 มี intracranial hemorrhage → IV vitamin K + 4F-PCC ทันที เป้า INR &lt; 1.4",
+   "ผู้ป่วยลิ้นกลไก INR 6 ไม่มีเลือดออก → งด warfarin 1–2 มื้อ ตรวจ INR ซ้ำ ไม่ให้ vitamin K ขนาดสูง",
+   "ผู้ป่วยกิน dabigatran เลือดออกในช่องท้องจากอุบัติเหตุ → idarucizumab ร่วมการ resuscitate",
+   "ทำไมต้องให้ vitamin K ร่วมกับ PCC/ FFP → factor ที่ให้มีครึ่งชีวิตสั้น (factor VII ราว 6 ชม.) ถ้าไม่มี vitamin K ตับยังสร้างเองไม่ได้ INR จะกลับขึ้น"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[cvt] ผู้ป่วยผ่าตัดลิ้นหัวใจมาได้ 10 ปี keep inr=3 ประสบอุบัติเหตุ massive bleeding BP 90/60 ถามว่า manage ไง — A. ให้ FFP perioperative B. RPC 4 unit + FFP 4 unit @ER … C. D.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไม่ตรงกับคีย์ P'Ing (A) · ช้อยในไฟล์จดไม่ครบ (A ให้ FFP perioperative, B PRC 4 + FFP 4 @ER) → Claude เลือก B เพราะผู้ป่วยช็อก ต้อง resuscitate + reverse ที่ ER · เติมช้อย C–E · ช้อย B เติม warfarin reversal",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_cvt8a",
+   "kp73b_cvt8b"
   ]
  },
  "MDCU73|RoB|CVT 9": {
-  "interp": "Dissection จำกัดอยู่ที่ <b>ascending aorta อย่างเดียว</b> → ถามชนิดตาม Stanford และ DeBakey",
-  "why": "P'Ing วง A: <b>ascending = Stanford A · IIIa, IIIb = Stanford B</b><br><b>นอกสไลด์:</b> Stanford ดูแค่ว่ามี ascending หรือไม่ (มี = A) · DeBakey ดูทั้งจุดเริ่มและขอบเขต: I = ascending ลามถึง descending · II = ascending อย่างเดียว · IIIa = descending เหนือกะบังลม · IIIb = descending ลามใต้กะบังลม",
+  "interp": "Aortic dissection ที่<b>จำกัดอยู่เฉพาะ ascending aorta</b> — ถามการจัดชนิดตามทั้ง <b>Stanford</b> และ <b>DeBakey</b> ต้องรู้ว่า Stanford แบ่งตามว่ามี ascending หรือไม่ ส่วน DeBakey แบ่งตามจุดเริ่มต้นและขอบเขตการลาม",
+  "why": "<b>Stanford</b> ใช้ตัดสินการรักษา: <b>type A</b> = ลุก <b>ascending aorta</b> ไม่ว่าจุดเริ่มอยู่ที่ใด → <b>ผ่าตัดด่วน</b> (เสี่ยง rupture เข้า pericardium, AR เฉียบพลัน, coronary occlusion) · <b>type B</b> = ไม่ลุก ascending (มักเริ่มหลัง left subclavian artery) → รักษาด้วยยาถ้าไม่มีภาวะแทรกซ้อน · <b>DeBakey</b>: <b>I</b> = เริ่มที่ ascending ลามถึง arch และมักต่อไปถึง descending/ abdominal · <b>II</b> = <b>จำกัดเฉพาะ ascending</b> · <b>IIIa</b> = descending thoracic เหนือ diaphragm · <b>IIIb</b> = ลามต่ำกว่า diaphragm · DeBakey I และ II = Stanford A, DeBakey III = Stanford B · dissection เฉพาะ ascending จึงเป็น <b>Stanford A, DeBakey II</b> · ไฟล์คีย์ลายมือ P'Ing วง A เขียน <b>\"ascending = Stanford A · IIIa, IIIb = Stanford B\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่คู่นี้ถูก เพราะ DeBakey IIIa จำกัดใน descending ส่วนอก ไม่มี ascending จึงเป็น Stanford B",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่คู่นี้ถูก เพราะ DeBakey I มี ascending เสมอ จึงเป็น Stanford A",
-   "D": "<b>นอกสไลด์:</b> คู่นี้จับถูก · จะถูกถ้า dissection เริ่มหลัง left subclavian artery แล้วลามลงใต้กะบังลม",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่คู่นี้ถูก เพราะ DeBakey II คือ ascending อย่างเดียว ซึ่งเป็น Stanford A"
+   "B": "DeBakey IIIa คือ dissection ที่ descending thoracic aorta เหนือ diaphragm ซึ่งเป็น Stanford B ไม่ใช่ A จึงขัดกันเองและไม่ใช่ ascending — ชนิด Stanford B, DeBakey IIIa จะถูกถ้าเป็นชาย 60 ปีความดันสูง ปวดหลังระหว่างสะบัก CTA พบ flap เริ่มหลัง left subclavian สิ้นสุดเหนือ diaphragm",
+   "C": "DeBakey I เริ่มที่ ascending ลามถึง arch และส่วนปลาย จัดเป็น Stanford A ไม่ใช่ B คู่นี้จึงขัดกันเอง — ชนิด Stanford A, DeBakey I จะถูกถ้าเป็นชาย 50 ปี Marfan ปวดอกแบบฉีก CTA พบ flap ตั้งแต่ aortic root ลามตลอดจนถึง iliac artery",
+   "D": "Stanford B, DeBakey IIIb คือ dissection เริ่มที่ descending thoracic และลามต่ำกว่า diaphragm ไม่ลุก ascending — จะถูกถ้าเป็นชาย 65 ปีความดันสูงปวดหลังร้าวลงท้อง CTA พบ flap จากหลัง left subclavian ลามถึง infrarenal aorta",
+   "E": "DeBakey II จำกัดที่ ascending จึงต้องเป็น Stanford A เสมอ การจับคู่กับ Stanford B ผิดตามนิยาม — ชนิด Stanford B จะถูกถ้าเป็นชาย 55 ปีที่ CTA พบ dissection เฉพาะ descending thoracic aorta โดย ascending และ arch ปกติ (ซึ่งเป็น DeBakey IIIa)"
   },
-  "trap": "ต้นฉบับเขียน involve ascending ซึ่ง DeBakey I ก็เข้าข่าย จึงแก้ stem เป็น confined to ascending",
+  "trap": "ทั้ง DeBakey I และ II ลุก ascending ทำให้สับสน · วิธีแยก: DeBakey <b>II = \"เฉพาะ\" ascending</b> · <b>I = ascending ลามไกล</b> · และจำว่า Stanford มีแค่คำถามเดียว \"ลุก ascending ไหม\" ถ้าใช่ = A ต้องผ่าตัด",
   "summary": [
-   "<b>นอกสไลด์:</b> Stanford A → ผ่าตัดฉุกเฉิน · Stanford B ที่ไม่มีภาวะแทรกซ้อน → คุมด้วยยา"
+   "Stanford A (~60–70%): ลุก ascending → ผ่าตัดด่วน (เปลี่ยน ascending ± arch/ root) · ไม่ผ่าตัดอัตราตายสูงขึ้นราว 1–2% ต่อชั่วโมงในวันแรก",
+   "Stanford B: ไม่ลุก ascending · uncomplicated → anti-impulse therapy (HR ราว 60, SBP &lt; 120) · complicated → TEVAR",
+   "DeBakey I = ascending + arch + ส่วนปลาย · II = ascending เท่านั้น · IIIa = descending เหนือ diaphragm · IIIb = ลามใต้ diaphragm",
+   "Complicated type B: rupture, malperfusion (ไต ลำไส้ ขา ไขสันหลัง), ปวด/ ความดันดื้อยา, ขยายเร็ว, false lumen &gt; 22 mm ในระยะแรก",
+   "การจำแนกเพิ่มเติม: TEM (Type, Entry, Malperfusion) 2020 และ \"non-A non-B\" สำหรับ dissection ที่ลุก arch แต่ไม่ลุก ascending",
+   "Acute aortic syndrome อื่น: intramural hematoma และ penetrating atherosclerotic ulcer — ใช้หลัก Stanford แบ่งการรักษาเช่นเดียวกัน",
+   "ติดตามหลังรักษา: CT/ MRI ที่ 1, 6, 12 เดือน แล้วทุกปี เพราะ false lumen อาจขยายเป็น aneurysm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A · ต้นฉบับเขียนว่า \"involve ascending\" ซึ่ง DeBakey I ก็ลุก ascending เช่นกัน เว็บจึงระบุว่า confined to the ascending aorta ให้เหลือคำตอบเดียว และเปลี่ยนช้อย E จาก \"ไม่มีข้อไหนถูก\" เป็น Stanford B, DeBakey II",
+  "mnemonic": "<b>'Stanford 'A = Ascending (ผ่าตัด) · B = Beyond subclavian (ยา)' · DeBakey 'I ไปทั้งตัว, II แค่ขึ้น, III แค่ลง''</b>",
+  "guide": "2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease (Circulation 2022); Sabiston Textbook of Surgery 21st ed. (2022) — Aorta",
   "variants": [
-   "<b>นอกสไลด์:</b> Dissection เริ่มที่ ascending ลามถึง abdominal aorta → Stanford A, DeBakey I",
-   "<b>นอกสไลด์:</b> Stanford B ที่ขาซ้ายเย็นชีพจรหาย (malperfusion) → TEVAR"
+   "CTA พบ dissection จาก aortic root ลามถึง iliac → Stanford A, DeBakey I → ผ่าตัดด่วน",
+   "Dissection เริ่มหลัง left subclavian ลามถึง renal artery ไตซ้ายไม่ได้เลือด → Stanford B, DeBakey IIIb ที่มี malperfusion → TEVAR",
+   "Type B dissection ไม่มีภาวะแทรกซ้อน ปวดหายหลังได้ esmolol → รักษาด้วยยาและติดตาม CT",
+   "ทำไม type A ต้องผ่าตัดทันที → เสี่ยง rupture เข้าถุงหุ้มหัวใจ (tamponade), AR เฉียบพลัน และ coronary artery ถูกปิด"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[cvt] Aortic dissection ถามว่าที่ involve ascending คือ type ไหน — A. Standford typeA Debakey type2 B. Standford type A Debakey type IIIa C. Standford type B Debakey type I D. Standford type B Debakey type IIIb E. ไม่มีข้อไหนถูก</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ช้อย E \"ไม่มีข้อไหนถูก\" → เปลี่ยนเป็น Stanford B DeBakey II · ไฟล์เขียน \"involve ascending\" → stem ระบุ confined to ascending ให้เหลือคำตอบเดียว (DeBakey I ก็ involve ascending)",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_cvt9"
   ]
  },
  "MDCU73|RoB|Neuro 1": {
-  "interp": "CSF: WBC 800 neutrophil เด่น glucose 10 protein 400 = bacterial meningitis → ถามยาที่ <b>ใช้ไม่ได้</b>",
-  "why": "P'Ing จด <b>E. Gentamicin can't be use</b><br><b>นอกสไลด์:</b> Aminoglycoside เป็นโมเลกุลมีขั้ว ผ่านเข้า CSF ได้น้อยแม้เยื่อหุ้มสมองอักเสบ ให้ทางหลอดเลือดอย่างเดียวรักษา meningitis ไม่ได้ · ยาที่ใช้ได้ต้องผ่านเข้า CSF ได้ดีเมื่อมีการอักเสบ: ceftriaxone, cefotaxime, penicillin G, ampicillin, vancomycin",
+  "interp": "ผู้ป่วยไข้และซึม CSF: WBC 800 นิวโทรฟิล 90% <b>glucose 10 mg/dL</b> protein 400 mg/dL = <b>acute bacterial meningitis</b> — ถามยาปฏิชีวนะที่<b>ใช้ไม่ได้</b> ต้องรู้ empirical regimen และคุณสมบัติการผ่าน blood–brain barrier ของยาแต่ละกลุ่ม",
+  "why": "CSF ของ <b>bacterial meningitis</b>: เซลล์สูง (มักหลักพันถึงหมื่น) เด่น<b>นิวโทรฟิล</b> น้ำตาลต่ำ (&lt; 40 mg/dL หรือ CSF:serum &lt; 0.4) โปรตีนสูง &gt; 100–500 mg/dL · เป็นภาวะฉุกเฉินต้องให้ยาภายใน 1 ชม. (ถ้าต้อง CT ก่อน LP ให้เจาะเลือดเพาะเชื้อแล้วให้ยาก่อน) · empirical ในผู้ใหญ่: <b>ceftriaxone หรือ cefotaxime + vancomycin</b> (ครอบคลุม pneumococcus ดื้อ penicillin) ± <b>ampicillin</b> ในอายุ &gt; 50 ปี ตั้งครรภ์ หรือภูมิคุ้มกันต่ำ (Listeria) ร่วม <b>dexamethasone</b> 0.15 mg/kg ทุก 6 ชม. 4 วัน เริ่มก่อนหรือพร้อมยาตัวแรก · <b>gentamicin</b> (aminoglycoside) เป็นโมเลกุลมีขั้ว<b>ผ่าน BBB ได้น้อย</b>แม้เยื่อหุ้มสมองอักเสบ และทำงานไม่ดีในสภาวะกรด/ หนอง จึง<b>ไม่ใช้รักษา meningitis ในผู้ใหญ่</b> (ใช้เพียงเป็นยาเสริมแบบ synergy กับ ampicillin ใน Listeria หรือ GBS ในทารกแรกเกิด) · ไฟล์จด <b>\"E. Gentamicin can't be use\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Ceftriaxone เป็นยาหลัก · จะถูก (ใช้ไม่ได้) ถ้าเป็นทารกแรกเกิดตัวเหลืองหรือต้องได้สารน้ำที่มีแคลเซียม — ใช้ cefotaxime แทน",
-   "B": "<b>นอกสไลด์:</b> Penicillin G ใช้ได้เมื่อเชื้อไว · จะถูกถ้า pneumococcus ดื้อ penicillin (MIC สูง)",
-   "C": "<b>นอกสไลด์:</b> Cefotaxime ผ่าน CSF ดี · จะถูกถ้าเชื้อเป็น Listeria — cephalosporin (cefotaxime/ceftriaxone) ไม่ครอบคลุม ต้องใช้ ampicillin",
-   "D": "<b>นอกสไลด์:</b> Vancomycin ใช้ร่วมเพื่อครอบคลุม pneumococcus ดื้อยา · จะถูกถ้าเชื้อเป็น gram-negative (เช่น N. meningitidis, H. influenzae) — vancomycin ไม่มีฤทธิ์"
+   "A": "ข้อความถูก: ceftriaxone เป็น 3rd-generation cephalosporin ที่ผ่าน BBB ได้ดีเมื่อเยื่อหุ้มสมองอักเสบ เป็นแกนของ empirical regimen ครอบคลุม pneumococcus, meningococcus และ H. influenzae — จะถูกถ้าต้องเลือกยาที่ใช้ได้ในชาย 30 ปีไข้ ปวดหัว คอแข็ง ผื่น petechiae และ CSF เป็นแบบแบคทีเรีย",
+   "B": "ข้อความถูก: penicillin G ใช้ได้ดีเมื่อเพาะเชื้อพบ meningococcus หรือ pneumococcus ที่ไวต่อ penicillin (MIC ≤ 0.06) เป็น definitive therapy ไม่ใช่ empirical เพราะเชื้อดื้อพบบ่อย — จะถูกถ้าต้องเลือกยาที่ใช้ได้ในวัยรุ่น 18 ปีที่ CSF เพาะเชื้อพบ N. meningitidis ไวต่อ penicillin",
+   "C": "ข้อความถูก: cefotaxime เป็น 3rd-generation cephalosporin ผ่าน BBB ดี ใช้แทน ceftriaxone ได้ และเป็นตัวเลือกในทารกแรกเกิด (ceftriaxone แทนที่ bilirubin จาก albumin และตกตะกอนกับแคลเซียม) — จะถูกถ้าต้องเลือกยาที่ใช้ได้ในทารก 10 วันที่มีไข้ ซึม และ CSF เป็นแบบแบคทีเรีย",
+   "D": "ข้อความถูก: vancomycin ให้ร่วมกับ 3rd-generation cephalosporin ใน empirical regimen เพื่อครอบคลุม pneumococcus ดื้อ cephalosporin และเป็นยาหลักของ shunt infection จาก Staphylococcus — จะถูกถ้าต้องเลือกยาที่ใช้ได้ในผู้ป่วยหลังผ่าตัดใส่ VP shunt ที่มีไข้และ CSF เพาะเชื้อพบ MRSE"
   },
-  "trap": "ในทารกแรกเกิด gentamicin ใช้เสริมร่วม ampicillin ได้ แต่ใช้เป็นยาหลักรักษา meningitis เดี่ยว ๆ ไม่ได้",
+  "trap": "Gentamicin เป็นยาฆ่าเชื้อแกรมลบแรงและอยู่ใน regimen ของทารกแรกเกิด จึงคิดว่าใช้ได้ · วิธีแยก: ยาสำหรับ meningitis ต้อง<b>ผ่าน BBB ได้ดี</b> (3rd-gen cephalosporin, penicillin, ampicillin, vancomycin ขนาดสูง, meropenem) · aminoglycoside ผ่านได้น้อย ใช้เป็นเพียงยาเสริมเท่านั้น",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาเริ่มต้นตามอายุ: &lt; 1 เดือน ampicillin + cefotaxime · 1 เดือน–50 ปี ceftriaxone + vancomycin · &gt; 50 ปีหรือภูมิคุ้มกันต่ำ เพิ่ม ampicillin (Listeria) · dexamethasone ก่อนหรือพร้อมยาปฏิชีวนะเข็มแรก"
+   "CSF แบคทีเรีย: WBC สูง เด่นนิวโทรฟิล · glucose &lt; 40 mg/dL (CSF:serum &lt; 0.4) · protein สูง · opening pressure สูง · Gram stain/ culture/ PCR",
+   "CSF ไวรัส: WBC น้อยกว่า เด่น lymphocyte glucose ปกติ protein สูงเล็กน้อย · TB/ fungus: lymphocyte glucose ต่ำ protein สูงมาก",
+   "Empirical อายุ 2–50 ปี: ceftriaxone/ cefotaxime + vancomycin · &gt; 50 ปีหรือภูมิคุ้มกันต่ำ: เพิ่ม ampicillin (Listeria) · หลังผ่าตัดสมอง/ shunt: vancomycin + cefepime/ ceftazidime/ meropenem",
+   "ทารกแรกเกิด &lt; 1 เดือน: ampicillin + cefotaxime (หรือ ampicillin + gentamicin) ครอบคลุม GBS, E. coli, Listeria",
+   "Dexamethasone 0.15 mg/kg ทุก 6 ชม. 2–4 วัน เริ่มก่อนหรือพร้อมยาตัวแรก ลดการตายและหูหนวกใน pneumococcal meningitis",
+   "CT ก่อน LP เมื่อ: ภูมิคุ้มกันต่ำ, โรคสมองเดิม, ชักใหม่, papilledema, ระดับความรู้สึกตัวลดลง, neurological deficit — ให้ยาก่อนไม่รอ CT",
+   "Meningococcal meningitis: ให้ยาป้องกันผู้สัมผัสใกล้ชิด (rifampicin, ciprofloxacin หรือ ceftriaxone เข็มเดียว)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E — ตรงกับที่ P'Ing จด · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่จด \"Gentamicin can't be use\" · ข้อควรรู้: gentamicin ยังใช้ร่วมกับ ampicillin ในทารกแรกเกิดหรือ Listeria แบบ synergy แต่ไม่ใช่ยาหลักของ bacterial meningitis เพราะผ่าน BBB ได้น้อย ในบริบทผู้ใหญ่ของคำถามนี้จึงเป็นยาที่ไม่ใช้",
+  "mnemonic": "<b>'Meningitis: 'Ceph-3 + Vanco (± Amp ถ้าแก่/ อ่อนแอ) + Dexa' · Aminoglycoside 'ข้าม BBB ไม่ได้''</b>",
+  "guide": "IDSA Practice Guidelines for the Management of Bacterial Meningitis (Tunkel et al., Clin Infect Dis 2004); ESCMID Guideline: Diagnosis and Treatment of Acute Bacterial Meningitis (Clin Microbiol Infect 2016)",
   "variants": [
-   "<b>นอกสไลด์:</b> Meningitis หลังผ่าตัดสมองหรือใส่ shunt → vancomycin + cefepime หรือ meropenem (ครอบคลุม Pseudomonas และ Staphylococcus)"
+   "ชาย 65 ปี ไข้ คอแข็ง ซึม CSF แบบแบคทีเรีย → ceftriaxone + vancomycin + ampicillin + dexamethasone",
+   "ผู้ป่วยสงสัย meningitis มี papilledema และอ่อนแรงครึ่งซีก → เจาะ hemoculture ให้ยาและ dexamethasone ก่อน แล้วทำ CT ก่อน LP",
+   "CSF WBC 150 เด่น lymphocyte glucose ปกติ protein 70 ในวัยรุ่น → viral meningitis รักษาประคับประคอง",
+   "ทำไม dexamethasone ต้องให้ก่อนยาปฏิชีวนะ → ลดการอักเสบจากการแตกของผนังเชื้อเมื่อยาเริ่มฆ่าเชื้อ ซึ่งเป็นสาเหตุของสมองบวมและหูหนวก"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[neuro] fever and drowsiness, csf profile : wbc 800 N90%, glucose 10, protein 400, Which ATB cannot be used? — A. ceftriaxone B. penicillin C. cefotaxime D. vancomycin E. gentamicin (ไฟล์ S73BQ/P'Ing: CSF profile → bacterial meningitis ข้อใดผิด — E. Gentamicin can't be use)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 10 มีโจทย์และช้อยครบกว่า → ใช้ตามไฟล์นั้น · ไฟล์ S73BQ/P'Ing จดแค่ช้อย E",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_neuro1"
   ]
  },
  "MDCU73|RoB|Neuro 2": {
-  "interp": "2 สัปดาห์หลังบาดเจ็บศีรษะ มีกลอกตาไม่ได้ + เสียง bruit ที่ตา = direct carotid-cavernous fistula → ถามหลอดเลือดที่เป็นต้นเหตุ",
-  "why": "P'Ing ตอบ <b>ICA</b><br><b>นอกสไลด์:</b> ICA ส่วน cavernous ฉีกเข้า cavernous sinus → เลือดแดงความดันสูงไหลย้อนเข้า superior ophthalmic vein → ตาโปนเต้นตามชีพจร เยื่อบุตาบวมแดง ได้ยิน bruit · CN III, IV, VI ที่วิ่งในโพรงถูกกด (CN VI พบบ่อยสุด)",
+  "interp": "2 สัปดาห์หลังบาดเจ็บศีรษะ ผู้ป่วยมี <b>ophthalmoplegia และ ocular bruit</b> = <b>traumatic carotid-cavernous fistula (CCF)</b> — ถามหลอดเลือดที่เป็นต้นเหตุทางกายวิภาค ต้องรู้ว่าหลอดเลือดใดวิ่งผ่าน cavernous sinus",
+  "why": "<b>Internal carotid artery ส่วน cavernous</b> วิ่งผ่านใน cavernous sinus ร่วมกับ CN VI (อยู่ในโพรงชิด ICA) ส่วน CN III, IV, V1, V2 อยู่ในผนังด้านข้าง · การบาดเจ็บศีรษะ (มักร่วมกระดูกฐานกะโหลกหัก) ทำให้ ICA ฉีกขาดเปิดเข้าสู่ cavernous sinus โดยตรง = <b>direct CCF (Barrow type A)</b> ชนิด high flow · เลือดแดงความดันสูงไหลย้อนเข้า superior/ inferior ophthalmic vein → ตาโปนแบบเต้นตามชีพจร (pulsatile proptosis), เยื่อบุตาบวมแดง (chemosis, arterialized conjunctival vessels), <b>ได้ยินเสียง bruit ที่ตา</b>, ความดันลูกตาสูง และ<b>กล้ามเนื้อตาอ่อนแรง</b> (CN VI บ่อยสุด) อาจสูญเสียการมองเห็นจากเลือดไปเลี้ยงจอตาลด · มักเกิดหลังบาดเจ็บไม่กี่วันถึงสัปดาห์ · วินิจฉัย CTA/ MRA (superior ophthalmic vein โป่ง cavernous sinus ขยาย) ยืนยันด้วย <b>DSA</b> · รักษาด้วย<b>หัตถการทางหลอดเลือด</b> (coil/ detachable balloon ผ่านทางหลอดเลือดแดงหรือดำ หรือ covered stent) · ไฟล์จดคำตอบ <b>\"Carotid cavernous fistula → ICA\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงสูงอายุตาแดงบวมค่อยเป็นค่อยไปโดยไม่มีบาดเจ็บ — indirect (dural) CCF ที่เลี้ยงด้วยแขนงของ ECA",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าศีรษะด้านขมับกระแทก มี lucid interval แล้วซึมลง CT เป็นเลือดรูปเลนส์ (epidural hematoma)",
-   "D": "<b>นอกสไลด์:</b> Ophthalmic artery แยกจาก ICA หลังผ่าน cavernous sinus · จะถูกถ้าผู้ป่วยตาข้างหนึ่งมืดชั่วคราวเหมือนม่านดึงลงจากลิ่มเลือดจาก carotid (amaurosis fugax)",
-   "E": "<b>นอกสไลด์:</b> Vertebral artery ไม่ผ่าน cavernous sinus · จะถูกถ้าหลังบาดเจ็บคอ มีเวียนศีรษะ เดินเซ กลืนลำบาก (vertebral dissection)"
+   "B": "ECA ไม่ได้ผ่าน cavernous sinus แต่แขนง meningeal ของ ECA เป็นต้นเลือดของ <b>indirect (dural) CCF</b> ชนิด low flow ซึ่งมักเกิดเองในหญิงสูงอายุ อาการค่อยเป็นค่อยไป — จะถูกถ้าเป็นหญิง 65 ปีความดันสูง ตาแดงเรื้อรังข้างเดียวหลายเดือน ไม่มีประวัติอุบัติเหตุ DSA พบ dural fistula ที่ได้เลือดจากแขนงของ ECA (Barrow type C)",
+   "C": "Middle meningeal artery แตกจากกระดูก temporal หักทำให้เกิด <b>epidural hematoma</b> มี lucid interval แล้วซึมลง ไม่เกี่ยวกับ cavernous sinus — จะถูกถ้าเป็นชาย 25 ปีถูกตีศีรษะด้านขมับ หมดสติสั้น ๆ ตื่นมาพูดคุยได้ แล้วซึมลงใน 3 ชม. CT พบเลือดรูปเลนส์นูนสองด้าน",
+   "D": "Ophthalmic artery แตกจาก ICA <b>หลัง</b>ออกจาก cavernous sinus ไปเลี้ยงลูกตาและจอตา การอุดตันของแขนงทำให้ตามัวข้างเดียวทันที ไม่ทำให้เกิด bruit และอัมพาตกล้ามเนื้อตา — จะถูกถ้าเป็นชาย 70 ปีตามัวข้างเดียวทันทีไม่เจ็บ fundus เห็น cherry-red spot จาก central retinal artery occlusion",
+   "E": "Vertebral artery เลี้ยง posterior circulation (ก้านสมอง สมองน้อย) ไม่ผ่าน cavernous sinus · บาดเจ็บที่คอทำให้ vertebral artery dissection และ posterior circulation stroke — จะถูกถ้าเป็นหญิง 40 ปีหลังนวดดัดคอแรง ๆ มีปวดคอท้ายทอย เวียนศีรษะ เดินเซ และกลืนลำบาก (lateral medullary syndrome)"
   },
-  "trap": "Bruit + ตาโปนหลังบาดเจ็บ = direct CCF จาก ICA · indirect CCF ไม่มีประวัติบาดเจ็บ อาการค่อยเป็น",
+  "trap": "Ophthalmic artery ชื่อเกี่ยวกับตาจึงดูถูก และ ECA เป็นต้นเหตุของ dural CCF · วิธีแยก: <b>หลังอุบัติเหตุ + bruit + ตาโปน + กล้ามเนื้อตาอ่อนแรง</b> = direct high-flow CCF ซึ่งเกิดจาก ICA ส่วนที่อยู่<b>ใน</b> cavernous sinus เท่านั้น",
   "summary": [
-   "<b>นอกสไลด์:</b> Direct CCF: หลังบาดเจ็บ flow สูง อาการเร็ว · Indirect: เกิดเอง (หญิงสูงอายุ) flow ต่ำ จากแขนง dural · ยืนยันด้วย DSA · รักษาด้วย endovascular"
+   "Cavernous sinus: ภายในมี ICA + CN VI · ผนังด้านข้างมี CN III, IV, V1, V2 (บนลงล่าง) · CN VI จึงเสียก่อนและบ่อยที่สุด",
+   "Barrow classification: A = direct ICA → cavernous sinus (high flow, หลังอุบัติเหตุ) · B = dural branches ของ ICA · C = dural branches ของ ECA · D = ทั้ง ICA และ ECA",
+   "Direct CCF: pulsatile exophthalmos + chemosis + orbital bruit (triad) · ophthalmoplegia · ความดันลูกตาสูง · ตามัว",
+   "Indirect CCF: เกิดเอง หญิงสูงอายุ ความดันสูง low flow อาการช้า บางรายหายเอง",
+   "วินิจฉัย: CTA/ MRA เห็น superior ophthalmic vein โป่งและ cavernous sinus ขยาย · DSA เป็น gold standard และใช้วางแผนรักษา",
+   "รักษา direct CCF: endovascular (transarterial coil/ balloon, covered stent, transvenous coil ผ่าน inferior petrosal sinus) · ด่วนถ้าตามัวลง ความดันลูกตาสูงมาก หรือระบายเลือดเข้า cortical vein",
+   "แยกจาก cavernous sinus thrombosis: ไข้ ติดเชื้อที่หน้า/ ไซนัส ตาโปนสองข้าง ไม่มี bruit"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับที่ P'Ing จด · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่เขียน carotid cavernous fistula → ICA · ต้นฉบับมีช้อย A–C (ICA, ECA, ophthalmic) เว็บเติม D (middle meningeal) และ E (vertebral) ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'CCF triad 'ตาโปนเต้น ตาแดงบวม ได้ยินหึ่ง' = ICA รั่วเข้า Cavernous'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Carotid-Cavernous Fistula; Barrow DL et al., J Neurosurg 1985",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย CCF ตามัวลงและความดันในลูกตาสูง → รักษาด่วน (ปิด fistula ทางหลอดเลือด) ก่อนตาบอด",
-   "<b>นอกสไลด์:</b> CT หลังบาดเจ็บศีรษะพบ superior ophthalmic vein โป่ง ตาโปนข้างเดียว → สงสัย CCF ส่ง DSA"
+   "ชายหลังอุบัติเหตุรถจักรยานยนต์ 3 สัปดาห์ ตาซ้ายโปนเต้น เยื่อบุตาบวมแดง ได้ยินเสียงหึ่ง เห็นภาพซ้อนมองข้าง → direct CCF ทำ DSA และ endovascular coiling",
+   "CCF ที่ตามัวลงเร็วและความดันลูกตา 45 mmHg → ปิด fistula ด่วนทางหลอดเลือด",
+   "หญิงสูงอายุตาแดงเรื้อรังข้างเดียวไม่มี bruit ชัด DSA พบ dural fistula ขนาดเล็ก → indirect CCF ติดตามหรือกดหลอดเลือดที่คอเป็นระยะ",
+   "ทำไม CN VI เสียบ่อยที่สุดใน CCF → CN VI วิ่งอยู่ภายในโพรง cavernous sinus ชิด ICA ส่วนเส้นอื่นอยู่ในผนัง"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[neuro] patient trauma 2 week PTA presenting with ophthalmoplegia and ocular bruits. What is the vessels that are responsible for this by anatomy — A. internal carotid a B. External carotid a C. Opthalmic a. D. E. (ไฟล์ S73BQ/P'Ing: Carotid cavernous fistula → ICA)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 10 มีโจทย์และช้อย A–C → ใช้ตามไฟล์นั้น เติม D, E · ไฟล์ S73BQ/P'Ing จดแค่โจทย์+คำตอบ ICA",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_neuro2"
   ]
  },
  "MDCU73|RoB|Neuro 3": {
-  "interp": "ฝีในสมอง <b>temporal lobe</b> ไม่มีแขนขาอ่อนแรง → ถามการตรวจที่ให้ข้อมูลมากที่สุด (หาแหล่งติดเชื้อ)",
-  "why": "P'Ing ตอบ Otoscope: <b>temporal lobe abscess มาจาก otitis media/mastoiditis</b><br><b>นอกสไลด์:</b> ฝีที่ลามจากที่ใกล้เคียงบอกแหล่งได้จากตำแหน่ง: temporal lobe และ cerebellum ← หูชั้นกลางและ mastoid · frontal ← sinus และฟัน · หลายก้อน ← กระแสเลือด · การหาแหล่งต้นเหตุสำคัญเพราะต้องรักษาแหล่งนั้นด้วย",
+  "interp": "ผู้ป่วยถูกส่งตัวมาด้วย <b>temporal lobe brain abscess</b> ไม่มีอ่อนแรง — ถามการตรวจถัดไปที่ให้ข้อมูลมากที่สุด ซึ่งก็คือการหา<b>แหล่งต้นกำเนิดของการติดเชื้อ</b> ตามตำแหน่งฝีในสมอง",
+  "why": "ตำแหน่งของ brain abscess บอกเส้นทางการติดเชื้อ: ① <b>ลามต่อเนื่อง (contiguous)</b> — <b>otitis media/ mastoiditis → temporal lobe หรือ cerebellum</b> · paranasal sinusitis (frontal/ ethmoid) หรือฟัน → <b>frontal lobe</b> ② <b>ทางกระแสเลือด</b> → มักหลายก้อนที่ gray–white junction ในเขต MCA จาก endocarditis, lung abscess/ bronchiectasis, cyanotic congenital heart disease (R→L shunt) ③ หลังบาดเจ็บหรือผ่าตัดสมอง · ฝีที่ temporal lobe จึงต้อง<b>ตรวจหูด้วย otoscope</b> หา chronic suppurative otitis media/ cholesteatoma และ CT temporal bone เพราะถ้าไม่กำจัดต้นเหตุ (mastoidectomy) ฝีจะกลับเป็นซ้ำ · เชื้อจากหูมัก Streptococcus, anaerobe, Proteus/ Pseudomonas → empirical <b>3rd-gen cephalosporin + metronidazole</b> · ฝี &gt; 2.5 cm หรือกดเบียดต้องเจาะดูด/ ผ่าตัด · ให้ยาราว 6–8 สัปดาห์ · ไฟล์คีย์ลายมือ P'Ing เขียน <b>\"temporal lobe abscess มาจาก otitis media/ mastoiditis\"</b> และตอบ <b>\"Otoscope\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Caloric test ประเมิน vestibulo-ocular reflex ไม่บอกแหล่งติดเชื้อ · จะถูกถ้าประเมินผู้ป่วยโคม่าว่าก้านสมองยังทำงานหรือไม่ (เช่นทดสอบภาวะสมองตาย)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นฝีที่ frontal lobe หลังถอนฟันกรามบนหรือฟันผุลุกลาม",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าฝีหลายก้อนตามรอยต่อเนื้อเทาและเนื้อขาว ในผู้ป่วยไข้นานและมี murmur ใหม่ (สงสัย endocarditis)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าฝีหลายก้อนในผู้ป่วยไอเสมหะเหม็นเรื้อรังจาก bronchiectasis หรือ lung abscess"
+   "A": "Caloric test ทดสอบ vestibulo-ocular reflex ใช้ประเมิน vestibular function และ brainstem reflex ใน brain death ไม่ได้บอกแหล่งติดเชื้อ — จะถูกถ้าเป็นผู้ป่วยบาดเจ็บสมองรุนแรง GCS 3 ไม่มี brainstem reflex อื่น ที่ต้องทดสอบขั้นตอนวินิจฉัยสมองตาย (ไม่มีการกลอกตาเมื่อฉีดน้ำเย็นเข้าหู)",
+   "C": "ตรวจฟันเหมาะกับฝีที่ <b>frontal lobe</b> ซึ่งลามจากฟันกรามบนหรือ sinusitis ไม่ใช่ temporal lobe ที่สัมพันธ์กับหู — จะถูกถ้าเป็นชาย 40 ปีที่ถอนฟันกรามบนไป 3 สัปดาห์ มีปวดศีรษะด้านหน้าและบุคลิกเปลี่ยน CT พบฝีที่ frontal lobe",
+   "D": "Echocardiography ใช้หา infective endocarditis หรือ cyanotic heart disease ซึ่งให้ฝีหลายก้อนทางกระแสเลือดที่ gray–white junction — จะถูกถ้าเป็นเด็ก 8 ปีที่เป็น tetralogy of Fallot ไม่ได้ผ่าตัด ตัวเขียวนิ้วปุ้ม มีไข้ปวดศีรษะ CT พบฝีหลายก้อนในสมอง",
+   "E": "CXR ใช้หา lung abscess, bronchiectasis, empyema หรือ pulmonary AVM (HHT) ที่ส่งเชื้อทางกระแสเลือด มักให้ฝีหลายก้อน — จะถูกถ้าเป็นชาย 50 ปีติดสุรา ไอมีเสมหะเหม็นมา 1 เดือน แล้วมีชักและอ่อนแรงครึ่งซีก CT พบฝีหลายก้อนในสมอง"
   },
-  "trap": "ไม่มีแขนขาอ่อนแรงเป็นข้อมูลประกอบ — คำถามจริงคือแหล่งติดเชื้อ ซึ่งบอกได้จากตำแหน่งฝี",
+  "trap": "คนมักคิดหาต้นเหตุทางกระแสเลือดก่อน (echo, CXR) หรือเลือกการตรวจที่ฟังดูเกี่ยวกับหู (caloric test) · วิธีแยก: ฝี<b>ก้อนเดียวที่ temporal lobe/ cerebellum = หู</b> ต้องส่อง otoscope · <b>frontal = ไซนัส/ ฟัน</b> · <b>หลายก้อน = กระแสเลือด</b> → echo/ CXR",
   "summary": [
-   "<b>นอกสไลด์:</b> ฝีจากหู: เชื้อผสม (streptococci, anaerobes, gram-negative เช่น Proteus, Pseudomonas) จึงให้ยาครอบคลุมทั้งสามกลุ่ม"
+   "แหล่งของ brain abscess: contiguous (หู, ไซนัส, ฟัน) ~40–50% · hematogenous ~25–35% · หลังบาดเจ็บ/ ผ่าตัด · ไม่ทราบสาเหตุ ~15–30%",
+   "Otogenic → temporal lobe/ cerebellum · Sinus/ dental → frontal lobe · Hematogenous → หลายก้อน gray–white junction เขต MCA",
+   "อาการ: ปวดศีรษะ (บ่อยสุด) ไข้ (เพียงราวครึ่งหนึ่ง) อาการทางระบบประสาทเฉพาะที่ ชัก · triad ครบพบน้อย",
+   "MRI: ring-enhancing lesion ที่ diffusion restriction ตรงกลาง (แยกจากเนื้องอกที่ตรงกลางเน่าซึ่งไม่ restrict) · ไม่ทำ LP เพราะเสี่ยง herniation",
+   "Empirical: ceftriaxone/ cefotaxime + metronidazole · หลังผ่าตัด/ บาดเจ็บเพิ่ม vancomycin · ภูมิคุ้มกันต่ำคิดถึง Toxoplasma, Nocardia, เชื้อรา",
+   "Aspiration/ excision เมื่อ &gt; 2.5 cm, กดเบียด, ใกล้ ventricle (เสี่ยงแตกเข้า ventricle อัตราตายสูง) หรือไม่ดีขึ้นด้วยยา · ยารวม 6–8 สัปดาห์",
+   "ต้องกำจัดต้นเหตุร่วม: mastoidectomy ใน chronic otitis media/ cholesteatoma, ผ่าตัดไซนัส, ถอนฟัน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ otoscope พร้อมเหตุผลว่า temporal lobe abscess มาจาก otitis media/ mastoiditis · ต้นฉบับมีช้อยเพียง A, B เว็บเติม C–E เป็นการตรวจหาแหล่งอื่น (ฟัน หัวใจ ปอด) ให้เห็นการจับคู่ตำแหน่งกับต้นเหตุ ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Brain abscess 'หู → ขมับ/ สมองน้อย · จมูก/ ฟัน → หน้าผาก · เลือด → หลายก้อน''</b>",
+  "guide": "Brouwer MC et al. Brain Abscess (N Engl J Med 2014); ESCMID Guideline on Diagnosis and Treatment of Brain Abscess (Bodilsen et al., Clin Microbiol Infect 2024); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> Cerebellar abscess ร่วมหูน้ำหนวกเรื้อรัง → ระบายฝีร่วมกับผ่าตัด mastoid รักษาแหล่ง",
-   "<b>นอกสไลด์:</b> เด็กอายุ 4 ปีเป็น cyanotic heart disease (TOF) ปวดศีรษะ มีไข้ ชัก → brain abscess (เลือดไม่ผ่านปอดกรองเชื้อ)"
+   "เด็ก 12 ปีมีหูน้ำหนวกเรื้อรังกลิ่นเหม็น ปวดศีรษะ อาเจียน เดินเซ CT พบฝีที่ cerebellum → ระบายฝีร่วมกับ mastoidectomy",
+   "ชายมีไซนัสอักเสบ frontal เรื้อรัง ไข้ บวมนุ่มที่หน้าผาก → Pott's puffy tumor ร่วม frontal epidural/ brain abscess",
+   "MRI พบ ring-enhancing lesion 4 cm ใน temporal lobe กดเบียด midline → stereotactic aspiration + ยาปฏิชีวนะ 6–8 สัปดาห์",
+   "ทำไมห้ามเจาะหลังในผู้ป่วย brain abscess → ก้อนกดเบียดทำให้ความดันในกะโหลกสูง การเจาะ CSF เสี่ยงสมองเคลื่อน (herniation) และได้เชื้อน้อย"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[neuro] Patient referred to you with temporal lobe brain abcess. No weakness. What next step can give you the best information? — A. Caloric test B. Otoscopic exam (ไฟล์ S73BQ/P'Ing: temporal lobe abscess ควรตรวจอะไรเพิ่ม — B. Otoscope)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 10 มีโจทย์และช้อย A, B → เติม C–E · ไฟล์ S73BQ/P'Ing จดแค่ช้อย B · ข้อคล้ายกับ 74A x1 และ 74D เลข 29 (brain abscess)",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_neuro3a",
+   "kp73b_neuro3b"
   ]
  },
  "MDCU73|RoB|Neuro 4": {
-  "interp": "ผู้สูงอายุปวดศีรษะทันที แขนขา<b>ซ้าย</b>อ่อนแรง รูม่านตา<b>ขวา</b>โตไม่ตอบสนองแสง <b>ไม่มีคอแข็ง</b> → ถามการวินิจฉัย",
-  "why": "ลายมือในคีย์: <b>AComm aneurysm rupture</b> — เราไม่ใช้<br><b>นอกสไลด์:</b> เลือดออกในเนื้อสมองซีกขวา (putamen/basal ganglia — ตำแหน่งที่พบบ่อยที่สุดของ hypertensive ICH) กดเส้นทาง corticospinal → อ่อนแรงซีกซ้าย · ก้อนเลือดใหญ่ดัน uncus กด CN III ข้างเดียวกัน → รูม่านตาขวาโต (uncal herniation) · ไม่มีคอแข็งไม่เข้ากับ SAH",
+  "interp": "ผู้สูงอายุปวดศีรษะทันที <b>แขนขาซ้ายอ่อนแรง</b> และ<b>รูม่านตาขวาขยายไม่ตอบสนองต่อแสง</b> ไม่มีคอแข็ง — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องแปลว่ารอยโรคอยู่<b>ซีกขวา</b> และรูม่านตาขยายบ่ง <b>uncal herniation</b> จากก้อนเลือดในเนื้อสมอง",
+  "why": "อ่อนแรงซีกซ้ายบ่งรอยโรคที่<b>สมองซีกขวา</b> (corticospinal tract ข้ามที่ medulla) · <b>รูม่านตาขวาขยายไม่ตอบสนอง</b>ในผู้ที่มีก้อนในซีกขวา คือ CN III ถูกกดจาก <b>uncal (transtentorial) herniation</b> — uncus ของ temporal lobe เลื่อนผ่านขอบ tentorium กด parasympathetic fiber ที่อยู่ผิวนอกของ CN III ข้างเดียวกัน · ในผู้สูงอายุที่มีปวดศีรษะทันทีร่วมอาการเฉพาะที่ สาเหตุที่เหมาะที่สุดคือ <b>hypertensive intracerebral hemorrhage ที่ basal ganglia (putamen)</b> ซึ่งเป็นตำแหน่งที่พบบ่อยที่สุดของ ICH จากความดันสูง (lenticulostriate arteries แตก) ก้อนใหญ่ทำให้ midline shift และ herniation · <b>ไม่มีคอแข็ง</b>สนับสนุน ICH มากกว่า SAH · AComm aneurysm แตกทำให้ SAH และไม่กด CN III (aneurysm ที่กด CN III คือ <b>PComm</b>) · ไฟล์คีย์ลายมือ P'Ing เขียน <b>\"CN III palsy + contralateral weakness — Acomm aneurysm rupture\"</b>",
   "wrong": {
-   "A": "ข้อที่คีย์เลือก · <b>นอกสไลด์:</b> จะถูกถ้าปวดศีรษะรุนแรงที่สุดในชีวิตทันที คอแข็ง ไม่มีอ่อนแรงครึ่งซีก CT เห็นเลือดใน interhemispheric fissure",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยโคม่าทันที รูม่านตาเล็กเท่าเข็มสองข้าง แขนขาอ่อนแรงทั้งสี่",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแขนขาซีกหนึ่งอ่อนแรงล้วน ไม่ปวดศีรษะ ไม่มีความผิดปกติของรูม่านตา",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเวียนศีรษะ อาเจียน เดินเซ ไม่มีอ่อนแรงครึ่งซีก"
+   "A": "AComm aneurysm แตกทำให้ <b>SAH</b>: thunderclap headache คอแข็ง ซึม อาจขาอ่อนแรงสองข้างหรือ abulia จากเขต ACA · ตัว aneurysm ที่อยู่ด้านหน้าไม่ได้กด CN III (ที่กดคือ PComm) และไม่ทำให้อ่อนแรงครึ่งซีกเป็นลักษณะเด่น — จะถูกถ้าเป็นหญิง 50 ปีปวดศีรษะรุนแรงที่สุดในชีวิตทันที คอแข็ง ซึมลง CT พบเลือดใน interhemispheric fissure",
+   "C": "Pontine hemorrhage ทำให้<b>โคม่าเร็ว</b> รูม่านตาเล็กมากเท่าปลายเข็ม (pinpoint) ทั้งสองข้าง อ่อนแรงทั้งตัว ไข้สูง หายใจผิดปกติ ไม่ใช่รูม่านตาขยายข้างเดียว — จะถูกถ้าเป็นชาย 60 ปีความดันสูงไม่ได้รักษา หมดสติทันที รูม่านตาสองข้างเล็กเท่าปลายเข็มแต่ยังตอบสนองต่อแสง และแขนขาอ่อนแรงทั้งสี่",
+   "D": "Lacunar infarction ที่ internal capsule ทำให้ <b>pure motor hemiparesis</b> โดยไม่ปวดศีรษะ ไม่ซึม ไม่มีความผิดปกติของรูม่านตา เพราะรอยโรคเล็กไม่กดเบียด — จะถูกถ้าเป็นชาย 70 ปีเบาหวานความดันสูง ตื่นมาพบแขนขาซ้ายอ่อนแรงเท่ากัน ไม่ปวดหัว ไม่มีชาหรือพูดผิดปกติ รู้ตัวดี",
+   "E": "Cerebellar hemorrhage ทำให้ปวดท้ายทอย อาเจียนมาก เวียนศีรษะ <b>เดินไม่ได้/ เซ</b> และ gaze palsy ไม่ใช่อ่อนแรงครึ่งซีก · ต้องผ่าตัดเอาก้อนออกถ้า &gt; 3 cm หรือกดก้านสมอง/ hydrocephalus — จะถูกถ้าเป็นชาย 68 ปีความดันสูง เวียนหัวทันที อาเจียน ยืนเดินไม่ได้ แต่กำลังแขนขาปกติ"
   },
-  "trap": "คีย์เดิมตอบ AComm aneurysm — aneurysm ที่กด CN III คือ PComm และ SAH มีคอแข็ง · ตาโตข้างเดียวกับรอยโรค + อ่อนแรงฝั่งตรงข้าม = uncal herniation",
+  "trap": "คีย์ในไฟล์จำว่า \"CN III palsy = aneurysm\" จึงเลือก AComm · แต่ aneurysm ที่กด CN III คือ <b>PComm</b> และมักไม่มีอ่อนแรงครึ่งซีก · วิธีแยก: <b>รูม่านตาขยายข้างหนึ่ง + อ่อนแรงซีกตรงข้าม + ไม่มีคอแข็ง</b> = ก้อนเลือดในสมองซีกเดียวกับตาที่ขยายจนเกิด uncal herniation ซึ่งสาเหตุที่พบบ่อยสุดในผู้สูงอายุคือ putaminal hemorrhage",
   "summary": [
-   "<b>นอกสไลด์:</b> Hypertensive ICH: putamen &gt; thalamus &gt; pons, cerebellum · รูม่านตาโตข้างเดียวในผู้ป่วย ICH = herniation ต้องจัดการด่วน"
+   "Hypertensive ICH ตำแหน่ง: putamen/ basal ganglia (บ่อยสุด) &gt; thalamus &gt; lobar &gt; cerebellum &gt; pons · จาก lipohyalinosis ของ perforating arteries",
+   "Uncal herniation: CN III ข้างเดียวกัน (รูม่านตาขยายก่อนเพราะ parasympathetic อยู่ผิวนอก) + อ่อนแรงซีกตรงข้าม · Kernohan notch phenomenon ให้อ่อนแรงข้างเดียวกันได้ (false localizing)",
+   "PComm aneurysm กด CN III: ptosis ตามองลงออก รูม่านตาขยาย (pupil-involving) · ต่างจาก diabetic CN III palsy ที่รูม่านตามักปกติ",
+   "ICH การจัดการ (AHA 2022): ลด SBP เป้าราว 140 mmHg (หลีกเลี่ยง &lt; 130) · reverse anticoagulant · ICH score บอกพยากรณ์",
+   "ICH score: GCS, ปริมาตร ≥ 30 mL, intraventricular hemorrhage, infratentorial, อายุ ≥ 80 · ปริมาตร = ABC/2",
+   "Cerebellar hemorrhage &gt; 3 cm หรือกดก้านสมอง/ hydrocephalus → suboccipital craniectomy เอาก้อนออก · supratentorial ICH ผ่าตัดในรายเลือกเฉพาะ (ENRICH 2024 สนับสนุน minimally invasive ใน lobar)",
+   "SAH: thunderclap headache, คอแข็ง (อาจขึ้นหลังหลายชั่วโมง) · CT ภายใน 6 ชม. ไวเกือบ 100% · CT ลบแต่สงสัย → LP หา xanthochromia"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ A — ไม่มีคอแข็งและมีอ่อนแรงครึ่งซีก ชี้ ICH ซีกขวาร่วม uncal herniation · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ในเว็บ ความมั่นใจปานกลาง — ต่างจากคีย์ลายมือ P'Ing ที่ตอบ AComm aneurysm rupture · เว็บตอบต่างเพราะ CN III palsy ที่มาจาก aneurysm เป็นของ PComm ไม่ใช่ AComm และอาการรูม่านตาขวาขยาย + อ่อนแรงซีกซ้าย + ไม่มีคอแข็งในผู้สูงอายุเข้ากับ ICH ซีกขวาที่ทำให้ uncal herniation มากกว่า SAH · ไฟล์อีกชุด (S73BMO) จดโจทย์ละเอียดกว่าและเว็บยึดตามนั้น",
+  "mnemonic": "<b>''ตาขยายข้างไหน ก้อนอยู่ข้างนั้น อ่อนแรงข้างตรงข้าม' · CN III + aneurysm = 'P'Comm ไม่ใช่ 'A'Comm'</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Greenberg et al., Stroke 2022); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ความดันสูง แขนขาขวาชาและอ่อนแรง ตามองลงต่ำ รูม่านตาเล็ก → thalamic hemorrhage ซ้าย",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุไม่มีความดันสูง เลือดออกในสมองกลีบ (lobar) ซ้ำหลายครั้ง → cerebral amyloid angiopathy"
+   "หญิง 55 ปีปวดศีรษะ หนังตาซ้ายตก รูม่านตาซ้ายขยาย ตามองลงออก ไม่อ่อนแรง → PComm aneurysm กด CN III ทำ CTA ด่วน",
+   "ชาย 65 ปีความดันสูง ปวดศีรษะ ซึมลง อ่อนแรงซีกขวา CT พบเลือด 40 mL ที่ left putamen → ICH คุมความดันเป้า SBP ราว 140 และประเมินการผ่าตัด",
+   "ผู้ป่วย ICH GCS ลดลงจาก 13 เป็น 8 รูม่านตาข้างเดียวกับก้อนขยาย → uncal herniation ให้ hyperosmolar therapy และพิจารณาผ่าตัดลดความดัน",
+   "ทำไมรูม่านตาขยายก่อนกล้ามเนื้อตาอ่อนแรงใน uncal herniation → parasympathetic fiber อยู่ผิวนอกของ CN III จึงถูกกดก่อน"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 2 — ตัวพิมพ์: <b>[neuro] แก่, acute sudden headache, Weak Lt limb, mydriasis Rt eye not react to light. Stiff neck -ve. Diag? — A. Acom aneurism rupture B. Basal ganglion hemorrhage C. Pontine hemorrhage D. E. (ไฟล์ S73BQ/P'Ing: CN III palsy + contralateral weakness — A. Acomm aneurysm rupture)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไม่ตรงกับคีย์ P'Ing (A AComm) · ไฟล์ S73BMO หน้า 11 มีโจทย์และช้อย A–C ครบกว่า (Rt mydriasis, Lt weakness, stiff neck −) → Claude ตอบ basal ganglion hemorrhage · เติมช้อย D, E",
+  "src": "S73BQ · หน้า 2",
+  "kimg": [
+   "kp73b_neuro4"
   ]
  }
 }

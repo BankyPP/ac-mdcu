@@ -1,238 +1,412 @@
 {
  "MDCU74|RoA|90": {
-  "interp": "ภาพทารกปากแหว่ง · ถามในบทบาท <b>แพทย์ทั่วไป</b> ว่าควรทำอะไรเมื่อทารกมาที่คลินิก",
-  "why": "ลายมือ P'Ing: <b>C ✓ GP ส่งต่อได้ดี</b><br><b>นอกสไลด์:</b> ปากแหว่ง/เพดานโหว่ต้องดูแลต่อเนื่องหลายปีโดยทีมสหสาขา (ศัลยแพทย์ตกแต่ง ทันตแพทย์จัดฟัน นักแก้ไขการพูด แพทย์หู คอ จมูก กุมารแพทย์ พันธุกรรม) · สิ่งที่แพทย์ทั่วไปทำได้ทันทีคือส่งต่อตั้งแต่แรกเกิดและช่วยเรื่องการกินนม (ขวด/จุกพิเศษ ป้อนท่าตั้งตรง ติดตามน้ำหนัก)",
+  "interp": "ภาพทารกที่มี<b>ปากแหว่งสองข้างแบบสมบูรณ์ (bilateral complete cleft lip)</b> มี prolabium/ premaxilla ยื่นอยู่ตรงกลาง — ถามว่าในฐานะ<b>แพทย์ทั่วไป</b>ควรทำอะไร ต้องรู้ว่าการดูแลปากแหว่งเพดานโหว่เป็นงานของ<b>ทีมสหวิชาชีพ</b>ตั้งแต่แรกเกิดจนโต และบทบาทหลักของ GP คือส่งต่อเร็วพร้อมดูแลการกินนม",
+  "why": "<b>Cleft lip ± palate</b> พบราว 1 ใน 700 ทารก (ในคนเอเชียพบบ่อยกว่า) เกิดจากการเชื่อมกันไม่สมบูรณ์ของ medial nasal process กับ maxillary process (ปาก) และ palatal shelves (เพดาน) · การดูแลต้องเป็น <b>cleft team</b>: ศัลยแพทย์ตกแต่ง/ ศัลยแพทย์เด็ก, ทันตแพทย์จัดฟัน (presurgical orthopedics เช่น <b>nasoalveolar molding</b>, lip taping), แพทย์หูคอจมูก (OME/ hearing), นักแก้ไขการพูด, พันธุศาสตร์, นักโภชนาการ/ พยาบาล, จิตแพทย์/ นักสังคมสงเคราะห์ · ลำดับเวลาโดยประมาณ: NAM/ taping ช่วงไม่กี่สัปดาห์แรก → <b>cheiloplasty ~3 เดือน</b> ('rule of 10s': อายุ ~10 สัปดาห์ น้ำหนัก 10 lb, Hb ≥ 10 g/dL) → <b>palatoplasty 9–18 เดือน</b> (ก่อนเริ่มพูด) → alveolar bone graft 7–11 ปี (ก่อนเขี้ยวแท้ขึ้น) → orthognathic/ rhinoplasty วัยรุ่น · GP ทำได้ทันที: สอนให้นมท่าตั้งตรง ใช้ขวดหรือจุกพิเศษสำหรับเด็กปากแหว่ง ตรวจหา anomaly อื่น/ syndrome และ<b>ส่งต่อทีมโดยเร็ว</b> · ไฟล์ P'Ing วง C และเขียน <b>\"✓ GP ส่งต่อได้ดี\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Nasoalveolar molding คือเครื่องมือจัดรูปเหงือกและจมูกก่อนผ่าตัด ต้องปรับทุกสัปดาห์โดยทันตแพทย์จัดฟันของทีม · ไม่มีสถานการณ์ใดที่แพทย์ทั่วไปเริ่มเองแทนการส่งต่อ เพราะเป็นส่วนหนึ่งของแผนการรักษาของทีม cleft",
-   "B": "<b>นอกสไลด์:</b> การติดเทปดึงริมฝีปากเป็นการจัดรูปก่อนผ่าตัดที่ทีมเลือกใช้ (สอนผู้ปกครองทำ) · ไม่มีสถานการณ์ใดที่แพทย์ทั่วไปใช้แทนการส่งต่อ เพราะทีมเป็นผู้ตัดสินว่าจะใช้วิธีใดก่อนผ่าตัด",
-   "D": "<b>นอกสไลด์:</b> การเย็บริมฝีปากทำโดยทีมเมื่ออายุราว 3 เดือน · ไม่มีสถานการณ์ใดที่ซ่อมทันทีที่คลินิกแพทย์ทั่วไป เพราะต้องรอให้ทารกโตพอดมยาสลบปลอดภัยและเนื้อเยื่อพอสำหรับการจัดกล้ามเนื้อ",
-   "E": "<b>นอกสไลด์:</b> รอถึง 1 ขวบทำให้พลาดช่วงซ่อมริมฝีปากและปัญหาการกินในช่วงแรก · ไม่มีสถานการณ์ใดที่ควรนัด 1 ปีโดยไม่ส่งต่อ เพราะปัญหาการกินและการวางแผนผ่าตัดเริ่มตั้งแต่แรกเกิด"
+   "A": "Nasoalveolar molding เป็น presurgical orthopedics ใช้เพลทในปากและแท่งดัดจมูกค่อย ๆ ดึง premaxilla และขอบ alveolar เข้าหากันก่อนผ่าตัด ต้องทำโดยทันตแพทย์จัดฟันของ cleft team และปรับทุก 1–2 สัปดาห์ GP ไม่ควรทำเอง — จะถูกถ้าเป็นทารก 2 สัปดาห์ที่ส่งถึงทีมปากแหว่งแล้ว มี bilateral complete cleft lip premaxilla ยื่นมาก ขอบห่างกว้าง ทีมวางแผนลดช่องก่อนผ่าตัดปาก",
+   "B": "Lip taping ด้วยเทปไม่แพ้ผิวช่วยดึงขอบปากเข้าหากันและลดแรงตึงก่อนผ่าตัด เป็นเทคนิคเสริมที่ทีมสอนพ่อแม่ ไม่ใช่สิ่งที่ GP ทำแทนการส่งต่อ — จะถูกถ้าเป็นทารก 3 สัปดาห์ที่ทีมปากแหว่งวินิจฉัยแล้วว่าเป็น wide unilateral cleft lip และไม่มี NAM ให้ใช้ ทีมสอนพ่อแม่แปะเทปทุกวันรอผ่าตัดตอน 3 เดือน",
+   "D": "ผ่าตัดซ่อมปากทันทีหลังเกิดไม่ใช่มาตรฐาน — ทารกต้องโตพอให้ดมยาปลอดภัยและเนื้อเยื่อพอทำงาน มักผ่าตัดที่ราว 3 เดือน (rule of 10s) และต้องทำโดยศัลยแพทย์ในทีม — จะถูกถ้าเป็นทารก 11 สัปดาห์ น้ำหนัก 5 kg Hb 11 g/dL ได้ NAM ครบแล้ว ทีมนัดทำ cheiloplasty",
+   "E": "การนัดดูที่ 1 ปีทำให้พลาดช่วงผ่าตัดปาก (~3 เดือน), การดูแลการกินนมและน้ำหนัก, การตรวจการได้ยิน และการผ่าตัดเพดานก่อนพูด — จะถูกถ้าเป็นทารกที่มีเพียง microform cleft (รอยบุ๋มเล็กที่ริมฝีปาก ไม่มีปัญหาการกิน) ซึ่งทีมประเมินแล้วว่าไม่ต้องผ่าตัดเร่งด่วน (แต่ก็ควรอยู่ในการติดตามของทีม)"
   },
-  "trap": "เลือก NAM หรือ taping เพราะรู้ว่าเป็นขั้นแรกของการรักษา — แต่โจทย์ถามบทบาทแพทย์ทั่วไป ซึ่งคือส่งต่อทีม",
+  "trap": "ช้อย A และ B เป็นการดูแลที่ถูกต้องจริงในการรักษาปากแหว่ง ทำให้คนเลือกเพราะคุ้นชื่อ · คำสำคัญคือ '<b>As a general practitioner</b>' — สิ่งที่ GP ควรทำคือส่งต่อ cleft team เร็ว (และช่วยเรื่องการกินนม) ส่วน NAM, taping, ผ่าตัด เป็นงานของทีม",
   "summary": [
-   "ลายมือในคีย์: แพทย์ทั่วไป → ส่งต่อทีม cleft",
-   "<b>นอกสไลด์:</b> ทีมดูแลต่อเนื่องหลายปี: เย็บริมฝีปาก → ซ่อมเพดาน → ประเมินการพูดและหู → ปลูกกระดูกเหงือก → จัดฟัน"
+   "Cleft lip ± palate ~1:700 · cleft lip ± palate พบในชายมากกว่า · isolated cleft palate พบในหญิงมากกว่าและสัมพันธ์กับ syndrome มากกว่า",
+   "Syndromes: Van der Woude (lip pits, IRF6), Pierre Robin sequence (micrognathia → glossoptosis → U-shaped cleft palate + airway obstruction), 22q11.2 deletion, Stickler",
+   "ปัญหาหลัก: การกินนม (ดูดไม่ได้แรงพอในเพดานโหว่) → ขวด/ จุกพิเศษ ท่าตั้งตรง · OME จาก Eustachian tube dysfunction → ตรวจหู ± ท่อระบายหู · การพูด (velopharyngeal insufficiency)",
+   "ลำดับผ่าตัด: NAM/ taping → cheiloplasty ~3 เดือน (rule of 10s) → palatoplasty 9–18 เดือน → speech surgery ถ้า VPI → alveolar bone graft 7–11 ปี → orthognathic/ rhinoplasty หลังโตเต็มที่",
+   "เทคนิคผ่าตัดปาก: Millard rotation-advancement, Fisher anatomical subunit (unilateral) · bilateral ใช้ prolabium สร้าง philtrum และซ่อม orbicularis oris ให้ต่อเนื่อง",
+   "ผ่าตัดเพดาน: ซ่อม levator veli palatini (intravelar veloplasty) · Furlow double-opposing Z-plasty · ภาวะแทรกซ้อน oronasal fistula, VPI",
+   "Pierre Robin: จัดท่านอนคว่ำ → nasopharyngeal airway → mandibular distraction osteogenesis หรือ tracheostomy เมื่อทางเดินหายใจอุดรุนแรง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ตรงกับลายมือ P'Ing · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง C และเขียน \"GP ส่งต่อได้ดี\" · ภาพเป็น bilateral complete cleft lip ที่ต้องดูแลโดยทีมสหวิชาชีพตั้งแต่แรกเกิด ต้นฉบับมี 3 ช้อย เว็บเติม D (ผ่าตัดทันที) และ E (นัด 1 ปี) ซึ่งผิดลำดับเวลา ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Rule of 10s (ซ่อมปาก): 10 สัปดาห์ · 10 ปอนด์ · Hb 10 — GP: 'ส่งทีม + สอนป้อนนม''</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) Cleft Lip and Palate; American Cleft Palate-Craniofacial Association. Parameters for Evaluation and Treatment of Patients With Cleft Lip/Palate or Other Craniofacial Differences, revised 2018",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกเพดานโหว่อย่างเดียวไม่ได้สังเกตตอนเกิด มาด้วยนมไหลออกจมูกและสำลัก → ต้องตรวจในปากทารกแรกเกิดทุกราย แล้วส่งทีม cleft"
+   "ทารกแรกเกิด micrognathia ลิ้นตกไปด้านหลัง หายใจครืดคราด มี U-shaped cleft palate → Pierre Robin sequence → จัดท่านอนคว่ำ ประเมินทางเดินหายใจ",
+   "เด็ก 4 ปี หลังผ่าตัดเพดาน พูดเสียงขึ้นจมูก ลมออกจมูกเวลาออกเสียง → velopharyngeal insufficiency → speech therapy ± pharyngeal flap/ sphincter pharyngoplasty",
+   "ทารกที่มีปากแหว่งมีรอยบุ๋มที่ริมฝีปากล่างทั้งสองข้าง พ่อมีรอยเหมือนกัน → Van der Woude syndrome (autosomal dominant, IRF6)",
+   "ทำไมต้องผ่าตัดเพดานก่อนอายุราว 18 เดือน → ให้กล้ามเนื้อ velopharynx ทำงานได้ก่อนช่วงพัฒนาการพูด ลดการพูดผิดแบบ compensatory"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 3 — ตัวพิมพ์: <b>90. As a general practitioner, what should you do when a baby in this image presents at your office? (รูป cleft lip) — A. Nasoalveolar molding B. Cleft taping with hypoallergenic tape C. Refer to a specialist</b><br>ลายมือ/ ไฮไลต์ในไฟล์: รูป cleft lip ในโจทย์ = qs74a_90 (ไฟล์โจทย์หน้า 3) · ไฟล์มี 3 ช้อย → เติม D, E · ช้อยรูปและช้อยอยู่คอลัมน์ขวา → ครอปคีย์ 2 ส่วน",
+  "src": "S74AQ · หน้า 3",
+  "kimg": [
+   "kp74a_90a",
+   "kp74a_90b"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 1@p3#2": {
-  "interp": "ข้อ INCORRECT: ข้อความใดเกี่ยวกับ brain abscess ที่ <b>ผิด</b> · ประเด็นคืออาการและปัจจัยเสี่ยง",
-  "why": "ลายมือ P'Ing: <b>A ✗ fever ~50%</b> · <b>B ✓ เลือดไม่ผ่านปอดที่ช่วยกรองเชื้อ</b> · <b>C, D ✓ direct spreading</b> + สไลด์ CNS infection<br><b>นอกสไลด์:</b> ฝีในสมองเป็นการติดเชื้อที่มีผนังหุ้ม อาการเด่นเป็นก้อนกดเบียด (ปวดศีรษะ อาการเฉพาะที่ ชัก) มากกว่าอาการติดเชื้อทั่วร่าง จึงมีไข้เพียงราวครึ่งหนึ่ง · ไม่มีไข้จึงตัดฝีในสมองไม่ได้",
+  "interp": "ถามข้อความที่<b>ไม่ถูกต้อง</b>เกี่ยวกับ <b>brain abscess</b> (ข้อแบบ incorrect) — ต้องรู้อาการที่พบจริง (ไข้ไม่ได้พบในทุกราย, ปวดศีรษะพบบ่อยที่สุด) และทางที่เชื้อเข้าสู่สมอง (ลามจากที่ข้างเคียง vs ทางกระแสเลือด รวมถึง right-to-left shunt)",
+  "why": "Brain abscess เกิดจาก ① <b>ลามจากที่ข้างเคียง (contiguous)</b> ~ครึ่งหนึ่ง: <b>chronic otitis media/ mastoiditis</b> → temporal lobe, cerebellum · <b>sinusitis</b> (frontal/ ethmoid) → frontal lobe · ฟันติดเชื้อ ② <b>ทางกระแสเลือด</b>: endocarditis, lung abscess/ bronchiectasis, และ <b>right-to-left shunt</b> (cyanotic congenital heart disease เช่น TOF, pulmonary AVM ใน HHT) ที่เลือดดำ<b>ไม่ผ่านปอดซึ่งช่วยกรองเชื้อและลิ่มเลือดเล็ก</b> — มักหลายก้อนที่ gray-white junction เขตเลี้ยงของ MCA ③ บาดเจ็บทะลุ/ หลังผ่าตัดสมอง · อาการ: <b>ปวดศีรษะพบบ่อยที่สุด (~70%)</b> ส่วน<b>ไข้พบเพียงราวครึ่งหนึ่ง</b> และ triad ไข้-ปวดศีรษะ-focal deficit ครบพบเพียงราว 20% → ไม่มีไข้จึงตัด abscess ไม่ได้ · ภาพ: ring-enhancing lesion ผนังเรียบบาง และ <b>DWI restricted diffusion</b> แยกจากเนื้องอกตายตรงกลางได้ · ห้ามเจาะหลัง (เสี่ยง herniation, ผลเพาะเชื้อไม่ค่อยขึ้น) · รักษา: stereotactic aspiration/ excision (โดยเฉพาะ &gt; 2.5 cm) + ยา empirical (เช่น ceftriaxone + metronidazole ± vancomycin) นาน 6–8 สัปดาห์ · ไฟล์ P'Ing วง A เขียน <b>\"✗ fever ~50%\"</b> ที่ B เขียน \"✓ ไม่ผ่าน lung ที่ช่วยกรองเชื้อ\" และ C, D \"✓ direct spreading\"",
   "wrong": {
-   "B": "ข้อความนี้ถูก (ลายมือ P'Ing) · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ right-to-left shunt (cyanotic heart disease) ทำให้เลือดดำที่มีเชื้อข้ามไปฝั่งซ้ายโดยไม่ผ่านปอดที่กรองเชื้อ และเลือดข้นจาก polycythemia ทำให้เนื้อสมองขาดเลือดเป็นจุดเหมาะให้เชื้อฝังตัว",
-   "C": "ข้อความนี้ถูก (ลายมือ P'Ing: direct spreading) · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะการติดเชื้อหูชั้นกลาง/mastoid ลามตรงผ่านกระดูกไปที่ temporal lobe และ cerebellum",
-   "D": "ข้อความนี้ถูก (ลายมือ P'Ing: direct spreading) · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะไซนัส frontal/ethmoid อยู่ติด frontal lobe เชื้อลามผ่านกระดูกและหลอดเลือดดำได้",
-   "E": "<b>นอกสไลด์:</b> ข้อความนี้ถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะฝีเป็นก้อนกินที่ทำให้ความดันในกะโหลกสูง ปวดศีรษะจึงเป็นอาการที่พบบ่อยที่สุด"
+   "B": "ข้อความถูก: right-to-left shunt (cyanotic CHD เช่น TOF, pulmonary AVM) ทำให้เลือดดำที่มีเชื้อข้ามไปฝั่งซ้ายโดยไม่ผ่านปอดที่ทำหน้าที่กรอง และ polycythemia/ hypoxia ทำให้เกิด microinfarct เป็นที่ตั้งของเชื้อ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับปัจจัยเสี่ยงของเด็ก 6 ปีที่เป็น TOF ยังไม่ได้ผ่าตัด แล้วมีปวดศีรษะ ชัก แขนขาอ่อนแรงซีกหนึ่ง",
+   "C": "ข้อความถูก: chronic otitis media/ mastoiditis ลามผ่านกระดูกหรือ emissary vein เข้าสู่ temporal lobe หรือ cerebellum เป็นต้นเหตุคลาสสิก — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับต้นเหตุในชาย 30 ปี หูน้ำหนวกข้างซ้ายเรื้อรังหลายปี มีปวดศีรษะ อาเจียน เดินเซ CT พบ ring-enhancing lesion ที่ cerebellum ซ้าย",
+   "D": "ข้อความถูก: frontal/ ethmoid sinusitis ลามสู่ frontal lobe ได้ทั้งทางตรงและผ่าน valveless diploic vein (และอาจเกิด Pott's puffy tumor ร่วม) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับต้นเหตุในวัยรุ่นชาย 15 ปี ไซนัสอักเสบ 2 สัปดาห์ หน้าผากบวม พฤติกรรมเปลี่ยน CT พบฝีใน frontal lobe",
+   "E": "ข้อความถูก: ปวดศีรษะเป็นอาการที่พบบ่อยที่สุดของ brain abscess (~70%) จาก mass effect และ edema ตามด้วยไข้ (~50%), focal deficit, ชัก, ซึม — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับอาการนำของชาย 40 ปีที่มีฟันผุติดเชื้อ 1 เดือนก่อน ตอนนี้ปวดศีรษะมากขึ้นเรื่อย ๆ โดยไม่มีไข้"
   },
-  "trap": "ข้อนี้ถามข้อความที่ผิด · อย่าใช้ \"ไม่มีไข้\" ตัดฝีในสมอง — triad ไข้ + ปวดศีรษะ + อาการเฉพาะที่ พบครบในผู้ป่วยไม่ถึงครึ่ง",
+  "trap": "คำว่า 'abscess' ทำให้คิดว่าต้องมีไข้เสมอ คนจึงมองว่าข้อ A ถูกแล้วไปหาข้อผิดในปัจจัยเสี่ยง · ความจริงฝีในสมองอยู่ในช่องปิด ระบบภูมิคุ้มกันแสดงออกน้อย <b>ไข้พบแค่ราวครึ่งหนึ่ง</b> อาการเด่นคือปวดศีรษะ · ส่วน right-to-left shunt อาจดูไม่เกี่ยว แต่เป็นปัจจัยเสี่ยงสำคัญในเด็กเขียว",
   "summary": [
-   "ลายมือในคีย์: ไข้ราว 50% · R→L shunt เพิ่มความเสี่ยง (ไม่ผ่านปอดกรอง) · หูและไซนัสลามตรง",
-   "<b>นอกสไลด์:</b> อาการ: ปวดศีรษะ (พบบ่อยสุด) · ไข้ราวครึ่ง · อาการเฉพาะที่ · ชัก · ซึม"
+   "ทางเข้าของเชื้อ: contiguous (หู/ mastoid → temporal, cerebellum · sinus → frontal · ฟัน → frontal) · hematogenous (endocarditis, lung abscess, R→L shunt — หลายก้อน) · trauma/ neurosurgery · cryptogenic ราว 15–30%",
+   "เชื้อ: มักหลายชนิด — Streptococcus (viridans/ S. anginosus group), anaerobes (Bacteroides), Enterobacterales · S. aureus หลังบาดเจ็บ/ ผ่าตัด · ภูมิคุ้มกันต่ำ: Toxoplasma, Nocardia, fungi",
+   "อาการ: ปวดศีรษะ ~70% · ไข้ ~50% · focal deficit ~50% · ชัก ~25% · triad ครบ ~20%",
+   "ภาพ: CT/ MRI ring-enhancing lesion ผนังเรียบ edema รอบ · DWI สว่าง (restricted) + ADC ต่ำ ต่างจากเนื้องอกตายตรงกลาง",
+   "ระยะ: early cerebritis → late cerebritis → early capsule → late capsule (~2 สัปดาห์ขึ้นไป)",
+   "รักษา: aspiration/ excision เมื่อ &gt; 2.5 cm, mass effect, ใกล้ ventricle, ไม่ทราบเชื้อ · ยา IV 6–8 สัปดาห์ (ceftriaxone + metronidazole; เพิ่ม vancomycin เมื่อสงสัย S. aureus) · รักษาต้นเหตุ (หู/ ไซนัส/ ฟัน)",
+   "ภาวะแทรกซ้อน: rupture เข้า ventricle (ventriculitis ตายสูง), herniation, epilepsy ระยะยาว · ห้าม lumbar puncture"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ไข้พบราวครึ่งเดียว ตรงกับลายมือ P'Ing · ช้อย E แต่งเพิ่มเป็นข้อความที่ถูก · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียน \"✗ fever ~50%\" พร้อมอธิบายว่า B, C, D ถูก · ต้นฉบับมี 4 ช้อย เว็บเติม E (headache พบบ่อยที่สุด) ซึ่งเป็นข้อความถูก จึงยังเหลือ A เป็นข้อผิดข้อเดียว",
+  "mnemonic": "<b>'Brain abscess: 'ปวดหัวเกือบทุกคน ไข้แค่ครึ่ง' · หู → temporal/ cerebellum · ไซนัส → frontal · หัวใจเขียว → หลายก้อน'</b>",
+  "guide": "Brouwer MC et al. Brain abscess, N Engl J Med 2014; Bodilsen J et al. ESCMID guidelines on diagnosis and treatment of brain abscess in children and adults, Clin Microbiol Infect 2024; Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย hereditary hemorrhagic telangiectasia มี pulmonary AVM เกิดฝีในสมองโดยไม่มีไข้ → เชื้อผ่าน shunt ในปอดไม่ถูกกรอง"
+   "หญิง 35 ปี HHT เลือดกำเดาไหลบ่อย มี telangiectasia ที่ริมฝีปาก ตอนนี้ปวดศีรษะ แขนอ่อนแรง MRI พบ ring-enhancing lesion → brain abscess จาก pulmonary AVM → aspiration + ยา และ embolize AVM",
+   "ชาย 60 ปี CT พบ ring-enhancing lesion ไม่มีไข้ ต้องแยกจาก glioblastoma → MRI DWI: restricted diffusion ตรงกลาง → abscess",
+   "ผู้ป่วย HIV CD4 50 มีก้อน ring-enhancing หลายก้อนที่ basal ganglia → toxoplasmosis → pyrimethamine + sulfadiazine แล้วประเมินภาพซ้ำ 2 สัปดาห์",
+   "ทำไมห้ามเจาะหลังในผู้ป่วย brain abscess → ก้อนมี mass effect การลดความดันใน CSF ด้านล่างทำให้ herniation และผลเพาะเชื้อจาก CSF แทบไม่ขึ้น"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 3 — ตัวพิมพ์: <b>Which message regarding brain abscess is incorrect? — A. Most are febrile B. Right to left shunt increases risk C. Chronic otitis media increases risk D. Sinusitis increases risk</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อไม่มีเลขในไฟล์ (ต่อจากข้อเลข 90) · ไฟล์มี 4 ช้อย → เติม E (ข้อความที่ถูก)",
+  "src": "S74AQ · หน้า 3",
+  "kimg": [
+   "kp74a_x1"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 2": {
-  "interp": "ภาพใบหน้าของกลุ่มอาการที่ P'Ing ระบุว่าเป็น Treacher Collins (ตามที่บันทึกไว้) → ถามการตรวจหาปัญหาที่ซ่อนอยู่",
-  "why": "ลายมือ P'Ing: <b>Treacher Collins · หูผิดรูป ~ middle ear malformation → A ✓</b> + สไลด์ Treacher Collins Syndrome<br><b>นอกสไลด์:</b> ความผิดปกติของ first/second branchial arch ทำให้ใบหูเล็ก/ผิดรูปและกระดูกหูชั้นกลางผิดรูป → conductive hearing loss ในผู้ป่วยจำนวนมาก ซึ่งมองไม่เห็นจากภายนอก ถ้าไม่ตรวจจะพัฒนาการด้านภาษาช้า · สติปัญญามักปกติ จึงยิ่งต้องแก้การได้ยินให้เร็ว",
+  "interp": "ภาพเด็กที่มี<b>หางตาตก (downslanting palpebral fissures)</b> โหนกแก้มแบน (malar hypoplasia) คางเล็ก (micrognathia) และใบหูผิดรูป = <b>Treacher Collins syndrome</b> — ถามว่าต้องประเมินอะไรเพื่อหา<b>ปัญหาที่ซ่อนอยู่</b> ซึ่งคือปัญหาที่มองไม่เห็นจากใบหน้าแต่พบบ่อยและกระทบพัฒนาการ",
+  "why": "<b>Treacher Collins syndrome (mandibulofacial dysostosis)</b> ถ่ายทอดแบบ autosomal dominant ส่วนใหญ่จาก <b>TCOF1</b> (บางรายเป็น POLR1C/ POLR1D) — ความผิดปกติของ neural crest ใน 1st และ 2nd pharyngeal arch · ลักษณะสมมาตรสองข้าง: <b>downslanting palpebral fissures</b>, coloboma ของเปลือกตาล่าง ขนตาล่างด้านในหาย, <b>zygoma/ malar hypoplasia</b>, <b>mandibular hypoplasia</b>, <b>microtia/ ใบหูผิดรูป</b> ± cleft palate · ปัญหาซ่อนที่สำคัญที่สุด: <b>conductive hearing loss ราว 50% หรือมากกว่า</b> จาก external auditory canal ตีบ/ ตัน และ <b>ossicles ผิดรูป</b> (หูชั้นกลางเจริญจาก arch เดียวกัน) → ต้องตรวจการได้ยินแต่เนิ่น ๆ (ABR ในทารก) และใส่ <b>bone-conduction hearing aid</b> เพื่อพัฒนาการพูด · <b>สติปัญญาปกติ</b> — ถ้าไม่ตรวจหูจะเข้าใจผิดว่าพูดช้าเพราะสติปัญญา · ปัญหาอื่น: ทางเดินหายใจอุดกั้น/ OSA จากคางเล็ก (อาจต้อง mandibular distraction หรือ tracheostomy), การกิน · ไฟล์ P'Ing วง A เขียน <b>\"✓ หูรูปผิดรูป ~ middle ear malformation\"</b> ลายมือ Treacher Collins และแปะสไลด์ Treacher Collins Syndrome",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Treacher Collins มี coloboma ของหนังตาล่างซึ่งเห็นได้ ไม่ใช่ปัญหาซ่อน และการมองเห็นมักปกติ · จะถูกถ้าภาพเป็น Goldenhar syndrome (หน้าเบี้ยวข้างเดียว มี epibulbar dermoid ที่ตา) ซึ่งต้องตรวจตา",
-   "C": "<b>นอกสไลด์:</b> การกลืน/หายใจลำบากจากคางเล็กมักแสดงอาการชัดตั้งแต่แรก · จะถูกถ้าภาพเป็นทารก Pierre Robin sequence (คางเล็ก ลิ้นตก เพดานโหว่รูปตัว U) ที่ต้องประเมินการดูดกลืนและทางเดินหายใจ",
-   "D": "<b>นอกสไลด์:</b> สติปัญญาใน Treacher Collins มักปกติ · จะถูกถ้าภาพเป็นใบหน้าของ fetal alcohol syndrome (ร่องเหนือริมฝีปากเรียบ ริมฝีปากบนบาง ตาเล็ก) ซึ่งต้องประเมินพัฒนาการและสติปัญญา",
-   "E": "<b>นอกสไลด์:</b> Treacher Collins ไม่สัมพันธ์กับโรคหัวใจ · จะถูกถ้าภาพเป็นเด็ก CHARGE syndrome (coloboma, choanal atresia, หูผิดรูป) ซึ่งมีโรคหัวใจแต่กำเนิดบ่อย"
+   "B": "การมองเห็นมักปกติ — coloboma ใน Treacher Collins อยู่ที่<b>เปลือกตาล่าง</b> ไม่ใช่ลูกตา อาจมี exposure keratopathy ถ้าเปลือกตาปิดไม่สนิทแต่ไม่ใช่ปัญหาซ่อนหลัก — จะถูกถ้าเป็นเด็กที่มี coloboma ของ<b>ม่านตา/ จอตา</b> ร่วมหัวใจพิการ choanal atresia เลี้ยงไม่โต และหูผิดรูป (CHARGE syndrome) ต้องตรวจตาอย่างละเอียด",
+   "C": "การกลืน/ การกินเป็นปัญหาได้ในทารกที่คางเล็กหรือมีเพดานโหว่ แต่เป็นปัญหาที่เห็นชัดตั้งแต่แรกเกิด (ดูดนมสำลัก น้ำหนักไม่ขึ้น) ไม่ใช่ปัญหาซ่อน — จะถูกถ้าเป็นทารก Pierre Robin sequence ที่ดูดนมแล้วเขียว สำลักบ่อย น้ำหนักไม่ขึ้น ต้องประเมินการกลืนด้วย videofluoroscopic swallow study",
+   "D": "สติปัญญาของ Treacher Collins ปกติเกือบทุกราย — การประเมินสติปัญญาไม่ใช่สิ่งที่ต้องหา และการพูดช้ามักมาจากหูไม่ได้ยิน — จะถูกถ้าเป็นเด็กที่มีใบหน้าแบน ตาเฉียงขึ้น epicanthal fold ลายมือตัดขวาง กล้ามเนื้ออ่อนปวกเปียก (Down syndrome) ต้องประเมินพัฒนาการและสติปัญญา",
+   "E": "Treacher Collins ไม่สัมพันธ์กับหัวใจพิการแต่กำเนิดอย่างมีนัยสำคัญ — จะถูกถ้าเป็นเด็กที่มีเพดานโหว่ หน้าตาเฉพาะ hypocalcemia และติดเชื้อบ่อย (22q11.2 deletion/ DiGeorge) หรือ CHARGE ซึ่งต้องทำ echocardiography หา conotruncal anomaly"
   },
-  "trap": "เห็นความผิดปกติที่ตาแล้วเลือกตรวจตา — ปัญหาที่ \"ซ่อน\" และพบบ่อยของ Treacher Collins คือหูชั้นกลางผิดรูปทำให้ไม่ได้ยิน",
+  "trap": "ภาพเด่นที่ตาและขากรรไกรทำให้คนเลือกตรวจตา (vision) หรือการกลืน · แต่คำว่า '<b>hidden problems</b>' หมายถึงสิ่งที่มองไม่เห็น — หูชั้นกลางและ ossicles ผิดรูปจาก arch เดียวกับขากรรไกร ทำให้ <b>conductive hearing loss</b> ที่ถ้าพลาดจะกระทบการพูดและการเรียน ทั้งที่สติปัญญาปกติ",
   "summary": [
-   "ลายมือในคีย์: หูผิดรูป → กระดูกหูชั้นกลางผิดรูป → ตรวจการได้ยิน",
-   "<b>นอกสไลด์:</b> Treacher Collins (mandibulofacial dysostosis): autosomal dominant (TCOF1) · ตาเฉียงลง coloboma หนังตาล่าง โหนกแก้ม/ขากรรไกรล่างเล็ก ใบหูเล็ก"
+   "Treacher Collins: autosomal dominant (TCOF1 ส่วนใหญ่, ~60% เป็น de novo) · ความรุนแรงต่างกันมากแม้ในครอบครัวเดียว · 1st/ 2nd pharyngeal arch",
+   "ใบหน้า: downslanting palpebral fissures, lower eyelid coloboma, ขนตาล่างด้านในหาย, zygoma hypoplasia, micrognathia/ retrognathia, microtia, ears ผิดรูป ± cleft palate",
+   "Conductive hearing loss ~50%+ (EAC atresia, ossicular malformation) → ABR ในทารก → bone-conduction/ bone-anchored hearing aid · สติปัญญาปกติ",
+   "ทางเดินหายใจ: micrognathia + choanal stenosis → OSA, ใส่ท่อช่วยหายใจยาก · รักษาด้วยจัดท่า, mandibular distraction osteogenesis หรือ tracheostomy",
+   "ผ่าตัดตามวัย: แก้ coloboma เปลือกตา, zygoma/ orbit reconstruction (bone graft) ~5–7 ปี, ear reconstruction ~6–10 ปี, orthognathic หลังโตเต็มที่",
+   "Hemifacial microsomia (oculo-auriculo-vertebral spectrum) ต่างจาก Treacher Collins ตรงที่มัก<b>ข้างเดียว/ ไม่สมมาตร</b> มี preauricular tag และ epibulbar dermoid (Goldenhar)",
+   "กลุ่มโรคใบหน้าที่ต้องตรวจหูเสมอ: Treacher Collins, hemifacial microsomia, cleft palate (OME), Crouzon/ Apert (craniosynostosis), CHARGE"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือและสไลด์ของ P'Ing · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียน \"หูรูปผิดรูป ~ middle ear malformation\" พร้อมระบุ Treacher Collins · ต้นฉบับมี 3 ช้อย เว็บเติม D (สติปัญญา) และ E (หัวใจ) ซึ่งไม่ใช่ปัญหาของ Treacher Collins จึงไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Treacher Collins: 'ตาตก แก้มแบน คางเล็ก หูเพี้ยน → ตรวจ Hearing (ฉลาดปกติ)''</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) Craniofacial Syndromes; Katsanis SH, Jabs EW. Treacher Collins Syndrome, GeneReviews (updated 2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก Treacher Collins ตรวจพบ conductive hearing loss สองข้างจากช่องหูตีบและกระดูกหูผิดรูป → เครื่องช่วยฟังแบบ bone conduction"
+   "ทารก Treacher Collins หายใจครืดคราดขณะหลับ SpO2 ตกเวลาหลับ → sleep study + ประเมินทางเดินหายใจ → mandibular distraction หรือ tracheostomy",
+   "เด็กมีใบหูข้างขวาเล็ก มี preauricular skin tag ขากรรไกรขวาเล็ก ใบหน้าไม่สมมาตร มีก้อนขาวที่ตาขาว → Goldenhar syndrome (hemifacial microsomia) → ตรวจการได้ยินและกระดูกสันหลัง",
+   "ทำไม Treacher Collins มีหูชั้นกลางผิดรูป → malleus และ incus เจริญจาก 1st arch ส่วน stapes จาก 2nd arch ซึ่งเป็น arch เดียวกับที่สร้างขากรรไกรและใบหน้า",
+   "เด็ก 3 ขวบ Treacher Collins พูดได้ไม่กี่คำ → ตรวจการได้ยินก่อนสรุปว่าพัฒนาการช้า แล้วใส่เครื่องช่วยฟังแบบ bone conduction"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 3 — ตัวพิมพ์: <b>From this image, what should be investigated to detect hidden problems? (รูปใบหน้าเด็ก) — A. Hearing B. Vision C. Swallowing</b><br>ลายมือ/ ไฮไลต์ในไฟล์: รูปใบหน้าในโจทย์ = qs74a_x2 (ไฟล์โจทย์หน้า 3) · ไฟล์มี 3 ช้อย → เติม D, E · ข้อไม่มีเลข",
+  "src": "S74AQ · หน้า 3",
+  "kimg": [
+   "kp74a_x2"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 3": {
-  "interp": "ทารกอวัยวะเพศกำกวม (labia เชื่อมกัน clitoris โต) คลำ gonad ไม่ได้ = 46,XX ที่ถูก virilize → นึกถึง CAH → ถามแล็บที่ต้องส่งด่วน",
-  "why": "ลายมือ P'Ing: <b>congenital adrenal hyperplasia: ACTH↑ cortisol↓ mineralocorticoid↓ androgen↑</b> + แผนภาพ steroidogenesis<br><b>นอกสไลด์:</b> 21-hydroxylase deficiency ขาดทั้ง cortisol และ aldosterone · ชนิด salt-wasting จะเกิด Na ต่ำ K สูง น้ำตาลต่ำ ช็อก ในราวสัปดาห์ที่ 1–3 จึงต้องติดตาม electrolyte ด่วน ร่วมกับส่ง 17-OHP",
+  "interp": "ทารกแรกเกิดมี<b>แคมเชื่อมติดกันและ clitoris โต</b> (ambiguous genitalia/ virilization) และ<b>คลำ gonad ไม่ได้</b> → ต้องคิดถึง <b>46,XX congenital adrenal hyperplasia (CAH)</b> ก่อน — ถามการตรวจที่ต้องส่ง<b>ด่วน</b> ซึ่งคือการตรวจที่จับภาวะคุกคามชีวิต (salt-wasting crisis) ไม่ใช่การตรวจยืนยันเพศ",
+  "why": "Ambiguous genitalia ที่<b>คลำ gonad ไม่ได้</b>สองข้าง = <b>46,XX CAH จนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> (สาเหตุที่พบบ่อยที่สุดของ ambiguous genitalia ในทารกแรกเกิด) · ราว 90–95% เป็น <b>21-hydroxylase deficiency</b> (CYP21A2) → สร้าง cortisol และ aldosterone ไม่ได้ → ACTH สูงกระตุ้นต่อมหมวกไตจน precursor (17-OHP) คั่งและเบนไปสร้าง <b>androgen</b> → ทารกหญิงมี virilization ตั้งแต่ในครรภ์ (มดลูกและรังไข่ปกติ) · ราว 2 ใน 3 เป็นชนิด <b>salt-wasting</b> ขาด aldosterone → <b>hyponatremia, hyperkalemia, metabolic acidosis</b>, ร่วมกับ hypoglycemia จากขาด cortisol → ขาดน้ำ ช็อก มักเกิดช่วง<b>สัปดาห์ที่ 1–3 หลังเกิด</b> ตายได้ถ้าไม่รักษา · จึงต้องส่ง <b>serum electrolytes (Na, K)</b> และ glucose ด่วนและติดตามซ้ำทุกวัน · ตรวจร่วม: <b>17-OHP</b> (สูงมาก แต่หลัง 24–48 ชม.จะแปลผลได้ดีกว่า), karyotype/ SRY, pelvic ultrasound (มีมดลูก), plasma renin · รักษา: <b>hydrocortisone</b> + <b>fludrocortisone</b> + เกลือ NaCl · ห้ามกำหนดเพศก่อนทีมประเมิน · ไฟล์ P'Ing วง A และเขียนลายมือ <b>\"dx = congenital adrenal hyperplasia: ACTH↑, cortisol↓, mineralocorticoid↓, androgen↑\"</b> พร้อมแผนภาพ steroidogenesis",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Vitamin K deficiency วินิจฉัยด้วย PT ยาวที่แก้ได้ด้วยการให้ vitamin K · ไม่มีสถานการณ์ใดที่ส่งระดับ vitamin K เป็นการตรวจด่วน เพราะระดับวิตามินไม่ได้ใช้ตัดสินการรักษาฉุกเฉิน",
-   "C": "<b>นอกสไลด์:</b> Albumin ไม่เกี่ยวกับ CAH · จะถูกถ้าทารกบวมทั้งตัว ปัสสาวะเป็นฟองตั้งแต่ช่วงแรกเกิด สงสัย congenital nephrotic syndrome",
-   "D": "<b>นอกสไลด์:</b> CAH ไม่ทำให้ calcium ผิดปกติ · จะถูกถ้าทารกที่มีโรคหัวใจ conotruncal และใบหน้าผิดลักษณะ (22q11 deletion) มีอาการกระตุก/ชัก",
-   "E": "<b>นอกสไลด์:</b> LFT ไม่ช่วยวินิจฉัย CAH · จะถูกถ้าทารกตัวเหลืองนานเกิน 2 สัปดาห์ อุจจาระสีซีด สงสัยภาวะท่อน้ำดีอุดตัน"
+   "B": "ระดับวิตามินเคไม่ใช้วินิจฉัยหรือมีผลต่อการดูแลเฉียบพลัน — ทารกทุกรายได้วิตามินเค 1 mg IM แรกเกิดเพื่อป้องกัน vitamin K deficiency bleeding และถ้าสงสัยให้ตรวจ PT/ INR ไม่ใช่ระดับวิตามินเค — จะถูกถ้าเป็นทารกที่ต้องตรวจการแข็งตัวของเลือด เช่นทารกอายุ 5 สัปดาห์กินนมแม่ล้วน ไม่ได้วิตามินเคแรกเกิด มีเลือดออกในสมอง PT ยาวมาก",
+   "C": "Albumin ใช้ประเมินภาวะโภชนาการ โรคตับ หรือ nephrotic syndrome ไม่เกี่ยวกับ ambiguous genitalia หรือ adrenal crisis — จะถูกถ้าเป็นทารก 2 เดือนบวมทั้งตัว ปัสสาวะเป็นฟอง ปัสสาวะมีโปรตีน 4+ สงสัย congenital nephrotic syndrome (Finnish type)",
+   "D": "แคลเซียมต่ำในทารกพบใน DiGeorge (22q11.2), ทารกมารดาเบาหวาน, คลอดก่อนกำหนด, hypoparathyroidism ไม่ใช่ปัญหาของ CAH — จะถูกถ้าเป็นทารก 5 วันที่มีเพดานโหว่ ใบหน้าเฉพาะ หัวใจพิการ (truncus arteriosus) และชักเกร็งกระตุก",
+   "E": "LFT ใช้ประเมินทารกที่ตัวเหลืองนาน อุจจาระซีด ปัสสาวะเข้ม (neonatal cholestasis เช่น biliary atresia) ไม่ช่วยใน CAH — จะถูกถ้าเป็นทารก 6 สัปดาห์ตัวเหลืองต่อเนื่อง อุจจาระสีซีดขาว ตับโต direct bilirubin สูง"
   },
-  "trap": "คิดว่าเป็นทารกเพศชายที่อัณฑะไม่ลง — คลำ gonad ไม่ได้ทั้งสองข้าง + อวัยวะเพศกำกวม ต้องคิดถึง 46,XX CAH ก่อนเพราะถึงชีวิต",
+  "trap": "คนรู้ว่าคือ CAH แต่ตอบการตรวจยืนยัน (17-OHP/ karyotype ซึ่งไม่อยู่ในช้อย) หรือคิดว่าไม่มีช้อยที่ตรง · คำสำคัญคือ '<b>urgently</b>' — สิ่งที่ฆ่าทารกได้คือ salt-wasting crisis (Na ต่ำ K สูง) จึงต้องส่ง electrolytes ก่อน · คลำ gonad ไม่ได้ = ไม่น่ามีอัณฑะ = 46,XX ที่ถูก virilize",
   "summary": [
-   "ลายมือในคีย์: CAH → ACTH สูง cortisol ต่ำ mineralocorticoid ต่ำ androgen สูง",
-   "<b>นอกสไลด์:</b> 21-hydroxylase deficiency เป็นสาเหตุที่พบบ่อยที่สุดของ 46,XX DSD · ตรวจ 17-OHP · karyotype · US อุ้งเชิงกราน (มีมดลูก)",
-   "<b>นอกสไลด์:</b> รักษา: hydrocortisone (ช่วงวิกฤตขนาดสูงร่วมกับสารน้ำ) + fludrocortisone + เกลือ",
-   "<b>นอกสไลด์:</b> ทารกอวัยวะเพศกำกวม: อย่าเพิ่งกำหนดเพศจนกว่าทีมประเมินครบ"
+   "Ambiguous genitalia = medical/ social emergency · ห้ามกำหนดเพศก่อนประเมินครบ · ทีม: กุมารต่อมไร้ท่อ, ศัลยแพทย์เด็ก/ urology, พันธุศาสตร์, จิตแพทย์",
+   "คลำ gonad ไม่ได้สองข้าง → 46,XX CAH มากที่สุด · คลำได้ → น่าจะมีอัณฑะ (46,XY DSD หรือ mixed gonadal dysgenesis)",
+   "21-OH deficiency: 17-OHP สูง · salt-wasting (Na ต่ำ, K สูง, acidosis, renin สูง) เกิดราวสัปดาห์ที่ 1–3 · simple virilizing ไม่เสียเกลือ · non-classic อาการตอนโต",
+   "11β-hydroxylase deficiency: virilization + <b>ความดันสูง</b> และ K ต่ำ (11-deoxycorticosterone คั่ง) · 17α-hydroxylase: ความดันสูง ไม่มี virilization",
+   "รักษา: hydrocortisone 10–15 mg/m²/วัน + fludrocortisone 0.05–0.2 mg/วัน + NaCl ในทารก · ป่วย/ ผ่าตัด → stress dose · adrenal crisis → hydrocortisone IV + NSS + แก้ glucose",
+   "Investigation: electrolytes + glucose ด่วน, 17-OHP, karyotype/ SRY FISH, pelvic US (มดลูก/ gonad), ACTH stimulation, plasma renin",
+   "การผ่าตัด feminizing genitoplasty: ปัจจุบันเน้นตัดสินใจร่วมกับครอบครัว เลื่อนได้ และยังมีข้อถกเถียงเรื่องเวลา"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียนว่าเป็น congenital adrenal hyperplasia (mineralocorticoid↓) · เว็บเติม 'No gonads are palpable' และเปลี่ยนเป็น 'newborn' ไม่ระบุเพศ ทำให้ข้อชี้ไป 46,XX CAH ชัดขึ้น ส่วนช้อย D E ที่เติมไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Ambiguous + ไม่มีไข่ = CAH → เช็ก 'เกลือ' (Na↓ K↑) ก่อนเพศ'</b>",
+  "guide": "Speiser PW et al. Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency: An Endocrine Society Clinical Practice Guideline, J Clin Endocrinol Metab 2018; Lee PA et al. Global Disorders of Sex Development Update since 2006, Horm Res Paediatr 2016",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกชายอวัยวะเพศปกติ อายุ 2 สัปดาห์ อาเจียน ซึม Na 125 K 7.0 mmol/L → salt-wasting CAH (ชายไม่มีอวัยวะเพศกำกวมจึงมาช้า)"
+   "ทารกชายอายุ 2 สัปดาห์ อวัยวะเพศปกติ อาเจียน น้ำหนักลด ซึม Na 122 K 7.8 → salt-wasting CAH (เด็กชายไม่มี ambiguous genitalia จึงมาช้า) → hydrocortisone IV + NSS",
+   "ทารกหญิง virilization และความดันสูง K ต่ำ → 11β-hydroxylase deficiency",
+   "ทารก ambiguous genitalia คลำได้ gonad ในถุงข้างเดียว อีกข้างไม่มี karyotype 45,X/46,XY → mixed gonadal dysgenesis → เสี่ยง gonadoblastoma",
+   "ทำไมเด็กหญิง CAH มีมดลูกและรังไข่ปกติ → ไม่มีอัณฑะสร้าง anti-Müllerian hormone ท่อ Müllerian จึงเจริญตามปกติ ปัญหาอยู่ที่อวัยวะเพศภายนอกถูก androgen"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 3 — ตัวพิมพ์: <b>A newborn female presents with fused labia and enlarged clitoris. Which laboratory testing should be sent? — A. Serum electrolytes B. Serum vitamin K level C. Serum albumin</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อไม่มีเลข · โจทย์ต่อจากหน้า 74 ไปหน้า 75 → ครอปคีย์ 2 ส่วน · เติม \"No gonads are palpable\" และเปลี่ยน \"newborn female\" เป็น newborn ตามหลักไม่กำหนดเพศ · ไฟล์มี 3 ช้อย → เติม D, E",
+  "src": "S74AQ · หน้า 3",
+  "kimg": [
+   "kp74a_x3a",
+   "kp74a_x3b"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 4": {
-  "interp": "ถามการรักษาหลักของแผลกดทับ stage 2 (partial-thickness skin loss — แผลตื้นสีชมพูหรือตุ่มน้ำ)",
-  "why": "ลายมือ P'Ing: <b>partial thickness skin loss → C ✓ · A, B = stage 3/4</b><br><b>นอกสไลด์:</b> Stage 2 ยังมี dermis และรากขนเหลือ แผลจะปิดเองจากเซลล์ผิวที่งอกจากขอบและรากขน ต้องการแค่ความชื้นที่เหมาะ (hydrocolloid, foam, film) และลดแรงกด · การรักษาที่ทุก stage ต้องมีคือ off-loading พลิกตัว ดูแลโภชนาการ และความชื้นของผิว",
+  "interp": "ถามการรักษาที่เป็น treatment of choice ของ <b>pressure ulcer stage 2</b> ซึ่งเป็น<b>การสูญเสียผิวหนังบางส่วนความหนา (partial-thickness)</b> เห็นชั้น dermis — ต้องรู้การจัด stage ตาม NPIAP และว่าแผลระดับนี้หายได้เองด้วย epithelialization จากขอบแผลและ adnexa ที่เหลือ",
+  "why": "<b>Pressure injury</b> เกิดจากแรงกดเหนือปุ่มกระดูก (sacrum, ischium, trochanter, ส้นเท้า) ร่วมกับ shear, ความชื้น และภาวะโภชนาการไม่ดี — แรงกดเกิน capillary pressure (~32 mmHg) นานทำให้เนื้อเยื่อขาดเลือด กล้ามเนื้อตายก่อนผิวหนัง · <b>NPIAP staging</b>: stage 1 ผิวแดงกดไม่ซีด ผิวยังไม่แตก · <b>stage 2 partial-thickness skin loss เห็น dermis</b> แผลตื้นชมพูชื้น หรือตุ่มน้ำ ไม่มี slough · stage 3 full-thickness skin loss เห็นไขมัน · stage 4 ลึกถึง fascia กล้ามเนื้อ เอ็น กระดูก · unstageable (มี slough/ eschar ปิด) · deep tissue pressure injury · stage 2 ยังมี dermis และ adnexa จึง<b>หายเองด้วย epithelialization</b> ภายในราว 1–3 สัปดาห์ หลักคือ ① <b>offloading</b> (พลิกตัวทุก 2 ชม., ที่นอนกระจายแรงกด, ยกส้นเท้า) ② <b>moist wound healing</b> ด้วย <b>hydrocolloid</b> (คงความชื้น กันน้ำ/ สิ่งปนเปื้อนจากอุจจาระปัสสาวะ เปลี่ยนทุก 3–7 วัน) หรือ foam/ film ③ จัดการความชื้น/ incontinence ④ โภชนาการ (โปรตีน 1.25–1.5 g/kg/วัน) · ไม่ต้อง debride หรือผ่าตัด · ไฟล์ P'Ing วง C และเขียนลายมือ <b>\"partial thickness skin loss\"</b> กับ \"A, B = stage 3/4\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Full-thickness graft ใช้กับแผลเล็กที่ต้องการความสวยงาม เช่น ใบหน้า · ไม่มีสถานการณ์ใดที่ FTSG เป็นการรักษาหลักของแผลกดทับ เพราะแผลกดทับ stage 2 หายเอง ส่วน stage 3–4 อยู่บนจุดรับน้ำหนักที่ต้องปิดด้วยเนื้อเยื่อหนาทนแรงกด",
-   "B": "ลายมือ P'Ing: ใช้กับ stage 3/4 · ไม่มีสถานการณ์ใดที่ stage 2 ต้อง graft เพราะ dermis ยังเหลือและแผลหายเองโดย epithelialization",
-   "D": "<b>นอกสไลด์:</b> Myocutaneous flap ใช้ปิดแผลกดทับ stage 4 ที่เห็นกระดูก · ไม่มีสถานการณ์ใดที่ stage 2 ต้องใช้ flap เพราะแผลไม่ลึกถึงชั้นใต้ผิวหนัง",
-   "E": "<b>นอกสไลด์:</b> Debridement ใช้เอาเนื้อตาย/slough ออก · ไม่มีสถานการณ์ใดที่ stage 2 ต้องตัดเนื้อตาย เพราะตามนิยาม stage 2 ไม่มี slough หรือ eschar (ถ้ามีคือ stage 3 ขึ้นไปหรือ unstageable)"
+   "A": "FTSG ใช้ปิดแผลเล็กที่ต้องการสีและเนื้อผิวดีบนฐานที่เลือดเลี้ยงดี (เช่นใบหน้า) — ไม่ใช้กับ pressure ulcer stage 2 ที่หายเองได้ และ graft บนปุ่มกระดูกที่โดนกดซ้ำทนแรงได้ไม่ดี (P'Ing เขียน A, B = stage 3/4) — จะถูกถ้าเป็นชาย 70 ปีหลังตัด basal cell carcinoma ที่ปลายจมูก แผล 1.5 cm ฐานเป็นเนื้อดี",
+   "B": "STSG ปิดแผลกว้างที่ฐานเป็น granulation tissue ได้ แต่บน pressure ulcer ที่ปุ่มกระดูกทนแรงกด/ shear ไม่ดี จึงใช้น้อย และ stage 2 ไม่ต้องใช้เลย — จะถูกถ้าเป็นหญิง 50 ปี แผล stage 3 ตื้นกว้างที่หลังส่วนบน (ไม่ใช่จุดรับน้ำหนัก) หลัง debride และ NPWT แล้วฐานเป็น granulation tissue แดงดี",
+   "D": "Myocutaneous/ fasciocutaneous flap ใช้ปิด stage 3–4 ที่ลึกถึงกระดูก/ มี osteomyelitis หลังตัดเนื้อตาย เพื่อนำเนื้อเยื่อหนามีเลือดเลี้ยงมาคลุมปุ่มกระดูก — จะถูกถ้าเป็นชาย 30 ปี อัมพาตท่อนล่าง มีแผล stage 4 ที่ sacrum เห็นกระดูก หลัง debride, คุมการติดเชื้อและโภชนาการแล้ว (gluteus maximus rotation/ V-Y advancement flap)",
+   "E": "Surgical debridement ใช้เอาเนื้อตาย (slough, eschar) ออกจาก stage 3–4/ unstageable หรือเมื่อมีการติดเชื้อ (ถ้ามี sepsis/ ฝีต้องทำด่วน) — stage 2 ไม่มีเนื้อตายให้ตัด — จะถูกถ้าเป็นหญิง 80 ปีนอนติดเตียง แผลที่ sacrum ปกคลุมด้วย eschar ดำ ขอบแดงร้อน มีไข้ และมีหนองไหลใต้ eschar"
   },
-  "trap": "ต้นฉบับจด \"damage to superficial veins\" ซึ่งน่าจะจดผิด · P'Ing เขียนเป็น partial-thickness skin loss · อย่าเลือก graft เพราะคิดว่าแผลเปิดต้องปิดด้วยผิวหนัง",
+  "trap": "ช้อยเป็นวิธีปิดแผลแบบขั้นบันได (reconstructive ladder) ทำให้คนเลือก graft เพราะคิดว่า 'แผลต้องปิด' · ต้องจำ staging: stage 2 = <b>partial thickness</b> ยังมี dermis และ adnexa → หายเองด้วย dressing ชุ่มชื้น + offloading · graft/ flap/ debridement เป็นของ stage 3–4 · ต้นฉบับจดว่า 'damage to superficial veins' (น่าจะจดผิด) เว็บใช้ partial-thickness ตามลายมือ",
   "summary": [
-   "ลายมือในคีย์: stage 2 = partial thickness → dressing · graft/flap ใช้กับ stage 3/4",
-   "<b>นอกสไลด์:</b> แนวรักษาตาม stage: 1–2 ลดแรงกด + dressing ชุ่มชื้น · 3–4 ตัดเนื้อตาย ควบคุมการติดเชื้อ แล้วปิดด้วย flap เมื่อพร้อม",
-   "<b>นอกสไลด์:</b> Flap ใช้ได้ผลเมื่อแก้ปัจจัยเสี่ยงได้ (แรงกด โภชนาการ กลั้นอุจจาระ/ปัสสาวะ กล้ามเนื้อเกร็ง)"
+   "NPIAP 2016: stage 1 (non-blanchable erythema) · 2 (partial-thickness, exposed dermis) · 3 (full-thickness, เห็นไขมัน) · 4 (fascia/ muscle/ tendon/ bone) · unstageable · deep tissue pressure injury (สีม่วงคล้ำ ผิวไม่แตก)",
+   "ป้องกัน: Braden scale (≤ 18 เสี่ยง) · พลิกตัวทุก 2 ชม. · ที่นอนลม/ โฟม · ยกหัวเตียง ≤ 30° ลด shear · ดูแลความชื้นและ incontinence · โภชนาการ",
+   "Dressing ตามแผล: แห้ง/ ตื้น → hydrocolloid, film · มี exudate → foam, alginate · เนื้อตายแห้ง → hydrogel (autolytic debridement) · ติดเชื้อ → silver/ iodine",
+   "Stage 3–4: debridement (sharp, autolytic, enzymatic) + NPWT + รักษา osteomyelitis (biopsy กระดูกเพาะเชื้อ) แล้วพิจารณา flap",
+   "Flap ตามตำแหน่ง: sacrum → gluteus maximus rotation/ V-Y advancement · ischium → posterior thigh/ hamstring V-Y, gracilis · trochanter → tensor fascia lata flap",
+   "ก่อน flap ต้องพร้อม: คุมการติดเชื้อ, albumin/ โภชนาการดี, คุม spasticity, จัดการอุจจาระ (± diverting colostomy), ผู้ป่วยร่วมมือ offloading — ไม่งั้นกลับเป็นซ้ำสูง",
+   "แผลเรื้อรังนานหลายปีที่เปลี่ยนลักษณะ → biopsy หา Marjolin's ulcer (SCC)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ตรงกับลายมือ P'Ing · stem ปรับตามที่ P'Ing เขียน และช้อย D, E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง C และเขียน partial thickness skin loss พร้อมระบุว่า graft เป็นของ stage 3/4 · ต้นฉบับเขียน 'damage to superficial veins' ซึ่งน่าจะจดผิด เว็บใช้คำนิยาม stage 2 ที่ถูก และเติม D, E (flap, debridement) ที่เป็นของแผลลึก จึงไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Stage 2 = 'ผิวถลอก' → พลิกตัว + Hydrocolloid · Stage 3–4 = 'ลึก' → Debride → Flap'</b>",
+  "guide": "National Pressure Injury Advisory Panel (NPIAP)/ EPUAP/ PPPIA. Prevention and Treatment of Pressure Ulcers/Injuries: Clinical Practice Guideline, 3rd ed. 2019; Grabb and Smith's Plastic Surgery 8th ed. (2020) Pressure Sores",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยขาขาดเลือดมี eschar แห้งแข็งที่ส้นเท้า ไม่บวมแดง ไม่มีหนอง → เก็บ eschar ไว้ ไม่ต้องตัด (stable heel eschar)"
+   "ผู้ป่วยติดเตียงมีผิวแดงที่ sacrum กดแล้วไม่ซีด ผิวไม่แตก → stage 1 → offloading พลิกตัว ป้องกันด้วย foam dressing",
+   "แผลที่ส้นเท้าเป็นสีม่วงคล้ำ ผิวยังไม่แตก หลังผ่าตัดนาน → deep tissue pressure injury → ยกส้นเท้าลอย ติดตามใกล้ชิด",
+   "แผล sacrum ปกคลุมด้วย slough สีเหลืองทั้งหมดมองไม่เห็นฐาน → unstageable → debride ก่อนจึง stage ได้",
+   "ทำไมกล้ามเนื้อตายก่อนผิวหนังใน pressure injury → กล้ามเนื้อต้องการออกซิเจนสูงและทนขาดเลือดได้น้อยกว่า แผลที่เห็นบนผิวจึงเป็นแค่ยอดภูเขาน้ำแข็ง"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 4 — ตัวพิมพ์: <b>What is the treatment of choice for stage 2 pressure ulcer with damage to superficial veins? — A. FTSG B. STSG C. Hydrocolloid dressing</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อไม่มีเลข · ไฟล์เขียน \"damage to superficial veins\" (น่าจะจดผิด) → stem ใช้ partial-thickness skin loss ตามลายมือ P'Ing · ไฟล์มี 3 ช้อย → เติม D, E",
+  "src": "S74AQ · หน้า 4",
+  "kimg": [
+   "kp74a_x4"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 5": {
-  "interp": "ข้อ EXCEPT: คำแนะนำทั่วไปสำหรับผู้ป่วยนิ่ว ข้อใด <b>ไม่ควร</b> แนะนำ",
-  "why": "P'Ing ติ๊ก ✓ ที่ A, D, E และแปะ General Recommendations: <b>avoid extra calcium supplements · get a moderate amount of protein</b><br><b>นอกสไลด์:</b> แคลเซียมในอาหารจับ oxalate ในลำไส้ไว้ไม่ให้ดูดซึม · ถ้าจำกัดแคลเซียม oxalate ถูกดูดซึมมากขึ้น oxalate ในปัสสาวะสูงขึ้น นิ่ว calcium oxalate เพิ่ม · จึงแนะนำแคลเซียมจากอาหารปกติ แต่เลี่ยงแคลเซียมเสริมเกินจำเป็น",
+  "interp": "ถามคำแนะนำทั่วไปสำหรับผู้ป่วยนิ่วทางเดินปัสสาวะ ข้อใด<b>ไม่ใช่</b> (EXCEPT) — ต้องรู้ว่าคำแนะนำมาตรฐานคือดื่มน้ำมาก จำกัดเกลือ โปรตีนจากสัตว์ และอาหาร oxalate สูง แต่<b>ไม่ให้จำกัดแคลเซียม</b>ในอาหาร เพราะทำให้นิ่ว calcium oxalate เกิดมากขึ้น",
+  "why": "นิ่วที่พบบ่อยที่สุดคือ <b>calcium oxalate</b> · ในลำไส้ แคลเซียมจับ oxalate เป็นเกลือที่ไม่ดูดซึม ถ้า<b>จำกัดแคลเซียมในอาหาร</b> oxalate อิสระจะถูกดูดซึมมากขึ้น → <b>hyperoxaluria</b> → นิ่วมากขึ้น และยังเสี่ยงกระดูกบาง · จึงแนะนำ<b>แคลเซียมจากอาหารปกติ 1,000–1,200 mg/วัน</b> (กินพร้อมมื้ออาหาร) แต่<b>เลี่ยงแคลเซียมเสริมเกินขนาด</b>โดยเฉพาะที่กินนอกมื้อ · คำแนะนำทั่วไป (AUA/ EAU): ① <b>ดื่มน้ำให้ปัสสาวะ ≥ 2–2.5 ลิตร/วัน</b> (สำคัญที่สุด) ② <b>จำกัดโซเดียม</b> &lt; 2,300 mg/วัน (โซเดียมเพิ่มแคลเซียมในปัสสาวะ) ③ <b>จำกัดโปรตีนจากสัตว์ปานกลาง</b> (ลด uric acid, calcium ในปัสสาวะ และ citrate ต่ำ) ④ <b>จำกัดอาหาร oxalate สูง</b> (ผักโขม ถั่ว ช็อกโกแลต ชา) เมื่อมี hyperoxaluria ⑤ เพิ่มผักผลไม้ (citrate) · ผู้ที่นิ่วซ้ำ/ เสี่ยงสูงตรวจ 24-hour urine (volume, Ca, oxalate, citrate, uric acid, Na) และ stone analysis · ไฟล์ P'Ing ติ๊ก <b>✓ ที่ A, D, E</b> ใส่วงเล็บที่ B–C พร้อม \"?\" และแปะ General Recommendations ที่ระบุ <b>\"avoid extra calcium supplements, get a moderate amount of protein\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> คำแนะนำที่ถูก · ไม่มีสถานการณ์ใดที่การจำกัดเกลือเป็นคำแนะนำที่ผิด เพราะโซเดียมเพิ่มการขับแคลเซียมทางปัสสาวะ",
-   "B": "คำแนะนำที่ถูก (สไลด์: moderate protein) · ไม่มีสถานการณ์ใดที่การจำกัดโปรตีนสัตว์เป็นคำแนะนำที่ผิด เพราะโปรตีนสัตว์เพิ่มกรดยูริกและแคลเซียมในปัสสาวะ และลด citrate",
-   "D": "คำแนะนำที่ถูก (P'Ing ✓) · ไม่มีสถานการณ์ใดที่การดื่มน้ำพอเป็นคำแนะนำที่ผิด เพราะการเจือจางปัสสาวะลดการตกผลึกของนิ่วทุกชนิด",
-   "E": "คำแนะนำที่ถูก (P'Ing ✓) · ไม่มีสถานการณ์ใดที่การลดอาหาร oxalate สูงเป็นคำแนะนำที่ผิด เพราะ calcium oxalate เป็นนิ่วที่พบบ่อยที่สุด และการลด oxalate ไม่เป็นผลเสียต่อนิ่วชนิดอื่น"
+   "A": "ข้อความถูก: จำกัดโซเดียมเพราะโซเดียมในท่อไตลดการดูดกลับแคลเซียม ทำให้ hypercalciuria (P'Ing ✓) แนะนำ &lt; 2,300 mg/วัน — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับคำแนะนำของชาย 45 ปี นิ่ว calcium oxalate ซ้ำ ชอบกินอาหารรสเค็มและอาหารแปรรูป 24-hour urine พบ calcium และ sodium สูง",
+   "B": "ข้อความถูก: จำกัดโปรตีนจากสัตว์ให้ปานกลาง (~0.8–1 g/kg/วัน) เพราะเพิ่ม uric acid, calcium ในปัสสาวะ และลด citrate/ pH ปัสสาวะ (สไลด์ที่แปะเขียน \"moderate amount of protein\") — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับคำแนะนำของชาย 50 ปี เป็นนิ่ว uric acid กินเนื้อแดงและเครื่องในทุกวัน ปัสสาวะ pH 5.0",
+   "D": "ข้อความถูก: ดื่มน้ำให้ปัสสาวะ ≥ 2–2.5 ลิตร/วัน เป็นมาตรการที่ได้ผลที่สุดสำหรับนิ่วทุกชนิด (P'Ing ✓) ลดความอิ่มตัวของสารในปัสสาวะ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับคำแนะนำของชาวนาไทยอีสาน 40 ปีทำงานกลางแดด ดื่มน้ำน้อย ปัสสาวะเข้ม เพิ่งขับนิ่วออก",
+   "E": "ข้อความถูก: จำกัดอาหาร oxalate สูง (ผักโขม ใบชะพลู หน่อไม้ ถั่ว ช็อกโกแลต ชาเข้ม) โดยเฉพาะผู้ที่มี hyperoxaluria (P'Ing ✓) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับคำแนะนำของหญิง 40 ปีหลังผ่าตัด bariatric (enteric hyperoxaluria) เป็นนิ่ว calcium oxalate ซ้ำ ชอบกินผักโขมและดื่มชาเย็นทุกวัน"
   },
-  "trap": "คิดว่านิ่วแคลเซียมต้องจำกัดแคลเซียม — กลับทำให้ oxalate ในปัสสาวะสูงขึ้น",
+  "trap": "คนคิดว่านิ่ว 'แคลเซียม' ต้องลดแคลเซียม จึงมองว่าข้อ C ถูกแล้วไปเลือก B (เพราะโปรตีนเป็นสารอาหารจำเป็น) · ความจริงการจำกัดแคลเซียมในอาหารทำให้ oxalate ถูกดูดซึมเพิ่ม → นิ่วมากขึ้น · สิ่งที่ควรเลี่ยงคือ<b>แคลเซียมเสริมเกินขนาด</b> ไม่ใช่แคลเซียมในอาหาร ส่วนโปรตีนจำกัด 'ปานกลาง'",
   "summary": [
-   "สไลด์ในคีย์: เลี่ยงแคลเซียมเสริมเกิน · โปรตีนพอประมาณ",
-   "<b>นอกสไลด์:</b> ดื่มน้ำให้ปัสสาวะ > 2–2.5 L/วัน · แคลเซียมจากอาหารราว 1,000–1,200 mg/วัน · จำกัดโซเดียม · ลดโปรตีนสัตว์ · ลด oxalate · เลี่ยง vitamin C ขนาดสูง"
+   "ชนิดนิ่ว: calcium oxalate (~70–80%) · calcium phosphate · uric acid (~10%, โปร่งรังสี, pH ปัสสาวะต่ำ) · struvite (Proteus/ urease, staghorn) · cystine (hexagonal crystal, autosomal recessive)",
+   "น้ำ: ปัสสาวะ ≥ 2–2.5 L/วัน (ดื่ม ~2.5–3 L) — ลดการกลับเป็นซ้ำราวครึ่งหนึ่ง",
+   "แคลเซียมในอาหาร 1,000–1,200 mg/วัน ไม่จำกัด · เลี่ยงแคลเซียมเสริมเกินขนาด · จำกัดโซเดียม &lt; 2,300 mg/วัน · โปรตีนสัตว์ปานกลาง",
+   "ยาตามความผิดปกติ: hypercalciuria → thiazide · hypocitraturia → potassium citrate · hyperuricosuria/ uric acid stone → alkalinize ปัสสาวะ (pH 6–6.5) ± allopurinol · cystine → alkalinize + tiopronin",
+   "ตรวจ metabolic evaluation (24-hour urine ×1–2 ครั้ง + stone analysis + Ca, uric acid, PTH ในเลือด) ในผู้ที่เป็นซ้ำ เด็ก ไตข้างเดียว หรือเสี่ยงสูง",
+   "ไทย: hypocitraturia และ hypokalemia พบบ่อยในผู้ป่วยนิ่วภาคอีสาน (อากาศร้อน เหงื่อออก อาหารโปแตสเซียมต่ำ) → potassium citrate ช่วยได้",
+   "Primary hyperparathyroidism: นิ่ว calcium ซ้ำ + Ca ในเลือดสูง + PTH สูง → parathyroidectomy"
   ],
-  "opinion": "คีย์ P'Ing ไม่ได้วงคำตอบชัด (ติ๊ก A, D, E และมี ? ที่ B–C) — Claude ตอบ C เพราะการจำกัดแคลเซียมเพิ่มนิ่ว oxalate ตามคำแนะนำมาตรฐาน · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ในไฟล์ไม่มีคีย์ชัดเจน P'Ing ติ๊ก ✓ ที่ A, D, E และใส่ ? ที่ B–C แต่สไลด์ที่แปะเขียนให้เลี่ยงเฉพาะแคลเซียมเสริมและกินโปรตีนปริมาณปานกลาง ซึ่งแปลว่า 'limit animal protein' เป็นคำแนะนำจริง ส่วน 'limit calcium intake' ขัดกับ AUA/ EAU ที่ให้กินแคลเซียมจากอาหารปกติ",
+  "mnemonic": "<b>'นิ่ว: 'น้ำมาก เค็มน้อย เนื้อพอดี oxalate น้อย — แคลเซียมปกติ''</b>",
+  "guide": "Pearle MS et al. AUA Guideline: Medical Management of Kidney Stones 2014 (amended 2019); EAU Guidelines on Urolithiasis 2025 (Metabolic evaluation and recurrence prevention)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่ว calcium ซ้ำหลายครั้ง ตรวจปัสสาวะ 24 ชม. พบ hypercalciuria → thiazide"
+   "หญิง 55 ปีเป็นนิ่ว calcium oxalate กินแคลเซียมเม็ดเสริม 1,500 mg ก่อนนอนทุกวัน → ลดแคลเซียมเสริม ให้กินแคลเซียมจากอาหารพร้อมมื้อ",
+   "ชาย 40 ปีนิ่วซ้ำ 3 ครั้ง 24-hour urine พบ calcium สูง citrate ปกติ → thiazide + จำกัดโซเดียม",
+   "ชาย 60 ปีเป็นเกาต์ นิ่วโปร่งรังสีบน KUB แต่เห็นบน CT pH ปัสสาวะ 5.0 → uric acid stone → potassium citrate ให้ปัสสาวะ pH 6–6.5 (สลายนิ่วได้)",
+   "ทำไม enteric hyperoxaluria (หลัง bariatric/ ลำไส้สั้น) ทำให้นิ่ว → ไขมันที่ดูดซึมไม่ได้จับแคลเซียมในลำไส้ oxalate อิสระจึงถูกดูดซึมที่ลำไส้ใหญ่มากขึ้น"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 4 — ตัวพิมพ์: <b>General recommendations for patients with urinary stones include all of the following except? — A. Limit sodium intake B. Limit animal protein C. Limit calcium intake D. Adequate hydration E. Limit oxalate-rich foods</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อไม่มีเลข · P'Ing ไม่ได้วงคำตอบชัดเจน (ติ๊ก ✓ A, D, E และ ? ที่ B–C) → Claude ตอบ C",
+  "src": "S74AQ · หน้า 4",
+  "kimg": [
+   "kp74a_x5"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 6": {
-  "interp": "ถามความต่างตามนิยามระหว่าง infected hydronephrosis กับ pyonephrosis",
-  "why": "สไลด์ในคีย์: <b>Infected hydronephrosis vs pyonephrosis · management: IV antibiotics + urinary diversion</b><br><b>นอกสไลด์:</b> Infected hydronephrosis = ไตที่บวมน้ำจากการอุดตันแล้วติดเชื้อ เนื้อไตยังดี · pyonephrosis = มีหนองในระบบรวบรวมปัสสาวะร่วมกับเนื้อไตถูกทำลาย สูญเสียการทำงาน (บางส่วนหรือทั้งหมด) · ทั้งคู่เป็นไตอุดตันติดเชื้อ ต้องระบาย (nephrostomy หรือ DJ stent) ร่วมกับยา",
+  "interp": "ถามความแตกต่างระหว่าง <b>infected hydronephrosis</b> กับ <b>pyonephrosis</b> — ทั้งสองคือไตที่อุดตันร่วมติดเชื้อ (obstructed infected kidney) แต่ต่างกันที่<b>ความรุนแรงของการทำลายเนื้อไต</b>และการเสียหน้าที่ไต ซึ่งมีผลต่อพยากรณ์และโอกาสต้องตัดไต",
+  "why": "ไตที่อุดตัน (นิ่ว, UPJO, เนื้องอก, ตั้งครรภ์) มีปัสสาวะค้างเป็นแหล่งเพาะเชื้อ ส่วนใหญ่เชื้อขึ้นมาจากกระเพาะปัสสาวะ (ascending) · <b>Infected hydronephrosis</b> = ติดเชื้อแบคทีเรียในไตที่ขยายจากการอุดตัน เนื้อไตยังไม่ถูกทำลาย → <b>หน้าที่ไตยังกลับคืนได้</b>หลังระบาย · <b>Pyonephrosis</b> = ระยะที่รุนแรงกว่า มี <b>suppurative destruction ของเนื้อไต</b> และหนองเต็ม collecting system → <b>สูญเสียหน้าที่ไตบางส่วนหรือเกือบทั้งหมด</b> · อาการ: ไข้หนาวสั่น ปวดบั้นเอว อาจ septic shock (pyonephrosis บางรายอาการน้อยถ้ามีภูมิคุ้มกันต่ำ) · US: hydronephrosis + echogenic debris/ fluid-debris level · การรักษาของทั้งสองภาวะคือ <b>urologic emergency</b>: <b>IV antibiotics + ระบายด่วน (urinary diversion)</b> ด้วย percutaneous nephrostomy หรือ retrograde DJ stent (ประสิทธิภาพใกล้เคียงกัน) · ห้ามรักษานิ่วขั้นเด็ดขาดขณะติดเชื้อ (รอหายแล้วค่อยทำ) · ไตที่ไม่ทำงานแล้วหลังระบาย (เช่น DRF &lt; 10–15%) → nephrectomy ภายหลัง · ไฟล์ P'Ing วง B ✓ และแปะสไลด์ <b>\"Infected hydronephrosis vs Pyonephrosis: management IV antibiotics + urinary diversion\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ทั้งสองต่างกันที่ความเสียหายของเนื้อไต ไม่ใช่ทางเข้าของเชื้อ · ไม่มีสถานการณ์ใดที่ใช้ทางเข้าของเชื้อแยกสองภาวะนี้ เพราะทั้งคู่ส่วนใหญ่เป็นเชื้อที่ขึ้นมาจากกระเพาะปัสสาวะสู่ไตที่อุดตัน",
-   "C": "<b>นอกสไลด์:</b> สลับและผิดทั้งคู่ · ไม่มีสถานการณ์ใดที่ไตอุดตันติดเชื้อหายด้วยยาอย่างเดียว เพราะยาเข้าไม่ถึงหนองที่ขังอยู่ ต้องระบายเสมอ — ตัดไตทำภายหลังเฉพาะไตที่ไม่ทำงานถาวร",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่สองภาวะนี้แยกตามอายุ เพราะเกิดได้ทุกวัยตามสาเหตุอุดตัน (เด็กมัก UPJO ผู้ใหญ่มักนิ่ว)",
-   "E": "<b>นอกสไลด์:</b> สลับนิยาม · ไม่มีสถานการณ์ใดที่ข้อความนี้ถูก เพราะหนองในระบบรวบรวมปัสสาวะเป็นลักษณะของ pyonephrosis"
+   "A": "ทั้งสองภาวะส่วนใหญ่เกิดจากเชื้อขึ้นจากกระเพาะปัสสาวะ (ascending) ทางกระแสเลือดพบน้อย การแยกจึงไม่ได้อยู่ที่ทางเข้าของเชื้อ — จะถูกถ้าเป็นภาวะ renal cortical abscess (renal carbuncle) ที่เกิดทางกระแสเลือดจาก S. aureus เช่นชาย 30 ปีฉีดยาเสพติดมีฝีที่ผิวหนัง แล้วไข้ ปวดบั้นเอว UA ปกติ CT พบฝีในเปลือกไต",
+   "C": "ข้อความกลับหัวและผิดทั้งสองส่วน — ทั้งสองภาวะต้องได้ยาฆ่าเชื้อ<b>และ</b>ระบาย ยาอย่างเดียวไม่พอเพราะเชื้ออยู่ในระบบปิด ส่วน nephrectomy ใช้เมื่อไตไม่ทำงานแล้ว (มักเป็น pyonephrosis ไม่ใช่ infected hydronephrosis) — จะถูกถ้าเป็นหญิง 55 ปีที่หลังระบาย pyonephrosis จาก staghorn stone ไตซ้าย DRF เหลือ 5% ติดเชื้อซ้ำ (delayed nephrectomy)",
+   "D": "ทั้งสองภาวะเกิดได้ทุกวัยตามสาเหตุของการอุดตัน (เด็ก — UPJO, megaureter · ผู้ใหญ่ — นิ่ว, เนื้องอก, ตั้งครรภ์) ไม่ได้แยกตามอายุ — จะถูกถ้าเป็นทารก 2 เดือนที่มี UPJO แล้วมีไข้สูง US พบ hydronephrosis มีตะกอน (เกิดในเด็กได้) ต้องระบายด้วย PCN",
+   "E": "ข้อความกลับกัน — หนองใน collecting system เป็นลักษณะของ <b>pyonephrosis</b> ส่วน infected hydronephrosis ปัสสาวะติดเชื้อแต่ยังไม่เป็นหนองข้นและเนื้อไตยังดี — จะถูกถ้าเป็นชาย 60 ปีนิ่วอุดท่อไตไข้สูง เจาะ PCN ได้หนองข้นสีเหลืองและ CT พบเนื้อไตบางลงมาก (pyonephrosis)"
   },
-  "trap": "ทั้งสองภาวะเป็น urologic emergency — ยาอย่างเดียวไม่พอ ต้องระบายทันที และห้ามรักษานิ่วแบบ definitive ขณะติดเชื้อ",
+  "trap": "ช้อย E เกือบถูกแต่สลับข้าง (หนองเป็นของ pyonephrosis) และช้อย C ฟังดูมีเหตุผลเพราะพูดถึงการรักษา · จำว่า<b>แกนของความต่างคือเนื้อไตถูกทำลาย/ เสียหน้าที่หรือไม่</b> ส่วนการรักษาเบื้องต้น<b>เหมือนกัน</b>: ยา IV + ระบายด่วน",
   "summary": [
-   "สไลด์ในคีย์: รักษาทั้งสองด้วย IV antibiotics + urinary diversion",
-   "<b>นอกสไลด์:</b> Pyonephrosis: ไข้สูง ปวดสีข้าง sepsis · US เห็น debris/ระดับน้ำ-หนองในระบบรวบรวม"
+   "Obstructed infected kidney = urologic emergency · ไข้ + ปวดบั้นเอว + hydronephrosis → ระบายด่วนร่วมยาปฏิชีวนะ",
+   "Infected hydronephrosis: ไตขยายติดเชื้อ เนื้อไตยังดี ฟื้นได้ · Pyonephrosis: หนองใน collecting system + เนื้อไตถูกทำลาย เสียหน้าที่",
+   "US: pyonephrosis เห็น echogenic debris, fluid-debris level, อาจมีแก๊ส · CT ช่วยหาสาเหตุและภาวะแทรกซ้อน (perinephric abscess)",
+   "ระบาย: PCN (ได้หนองเพาะเชื้อ ใช้ได้เมื่อ coagulopathy คุมได้ ระบายได้ดีกับหนองข้น) หรือ retrograde DJ stent (เลี่ยงเจาะ เหมาะกับคนที่มี coagulopathy) — ประสิทธิภาพใกล้เคียงกัน",
+   "รักษานิ่วขั้นเด็ดขาด (URS/ PCNL) หลังติดเชื้อหายแล้ว · ไตที่ไม่ฟื้น → nephrectomy",
+   "ภาวะใกล้เคียง: emphysematous pyelonephritis (เบาหวาน, แก๊สในเนื้อไต → ระบาย ± nephrectomy) · xanthogranulomatous pyelonephritis (staghorn + Proteus, ไตไม่ทำงาน → nephrectomy) · perinephric abscess (เจาะระบาย)",
+   "Sepsis จากทางเดินปัสสาวะ: เพาะเชื้อก่อนให้ยา, ยา empirical ครอบคลุม gram-negative, resuscitation, source control ภายในไม่กี่ชั่วโมง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับสไลด์ที่ P'Ing แปะ · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B และสไลด์ที่แปะแยกไว้ว่า infected hydronephrosis ไม่เสียหน้าที่ ส่วน pyonephrosis มีการทำลายเนื้อไตและเสียหน้าที่ · ต้นฉบับมี 2 ช้อยแบบย่อ เว็บเขียนเป็นประโยคเต็มและเติม C–E ที่ผิดชัดเจน จึงไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Infected hydro = 'ไตติดเชื้อแต่ยังดี' · Pyo = 'ไตเป็นหนองและพัง' — ทั้งคู่: ยา + ระบาย'</b>",
+  "guide": "EAU Guidelines on Urological Infections 2025; EAU Guidelines on Urolithiasis 2025 (Decompression of obstructed infected kidney); Campbell-Walsh-Wein Urology 12th ed. (2020) Infections of the Urinary Tract",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังหาย pyonephrosis renal scan ไตข้างนั้นแทบไม่ทำงานและติดเชื้อซ้ำ → nephrectomy"
+   "ชาย 50 ปี นิ่วท่อไตขวา 9 mm ไข้ 39.5 °C ความดันตก lactate 4 → resuscitation + IV antibiotics + ระบายด่วนด้วย PCN หรือ DJ stent → รักษานิ่วหลังติดเชื้อหาย",
+   "หญิงเบาหวาน 60 ปี ไข้ ปวดบั้นเอว CT พบแก๊สในเนื้อไต → emphysematous pyelonephritis → IV antibiotics + ระบาย ± nephrectomy ถ้าไม่ดีขึ้น",
+   "ทำไมห้ามทำ ureteroscopy สลายนิ่วตอนไตติดเชื้ออุดตัน → ความดันน้ำล้างดันเชื้อและ endotoxin เข้ากระแสเลือด เกิด urosepsis รุนแรง",
+   "หญิง 45 ปี staghorn stone ไตซ้ายติดเชื้อ Proteus ซ้ำ ๆ CT พบ bear-paw sign ไตไม่ทำงาน → xanthogranulomatous pyelonephritis → nephrectomy"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 4 — ตัวพิมพ์: <b>What is the difference between infected hydronephrosis and pyonephrosis? — A. Retrograde/hematogenous B. No function loss/Parenchymal and function loss</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อไม่มีเลข · ไฟล์มี 2 ช้อยแบบย่อ → เขียนให้ครบประโยค + เติม C–E",
+  "src": "S74AQ · หน้า 4",
+  "kimg": [
+   "kp74a_x6"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 7": {
-  "interp": "ทารกชาย 5 สัปดาห์สงสัย infantile hypertrophic pyloric stenosis (IHPS) → ถามการตรวจที่ดีที่สุดเพื่อวินิจฉัย",
-  "why": "ลายมือ P'Ing: <b>imaging of choice · non-invasive + sensitive</b> + สรุป IHPS<br><b>นอกสไลด์:</b> US เห็นกล้ามเนื้อ pylorus หนาและช่องยาวโดยตรง ไม่มีรังสี ทำซ้ำได้ ไวและจำเพาะสูง",
+  "interp": "เด็กชาย 5 สัปดาห์ สงสัย <b>infantile hypertrophic pyloric stenosis (IHPS)</b> — ถามการตรวจที่ดีที่สุดเพื่อวินิจฉัย ต้องรู้เกณฑ์ ultrasound ของ pylorus และว่าการตรวจด้วย contrast เป็นทางเลือกรอง",
+  "why": "<b>IHPS</b> คือกล้ามเนื้อวงของ pylorus หนาตัวจนอุดทางออกของกระเพาะ · พบอายุ <b>2–8 สัปดาห์</b> (peak 3–6) ชาย:หญิง ~4:1 ลูกคนแรกบ่อย ยา erythromycin ในช่วง 2 สัปดาห์แรกเพิ่มความเสี่ยง · อาการ: <b>อาเจียนพุ่ง ไม่มีน้ำดี</b> หลังกินนม ยังหิวอยากกินต่อ เห็น gastric peristalsis คลำได้ก้อน '<b>olive</b>' ใต้ชายโครงขวา · เสียกรด HCl → <b>hypochloremic hypokalemic metabolic alkalosis</b> และระยะหลังมี paradoxical aciduria · การตรวจที่ดีที่สุดคือ <b>ultrasound</b>: ไม่ใช้รังสี ไม่ invasive ไว/ จำเพาะเกือบ 100% เกณฑ์ <b>pyloric muscle thickness ≥ 3 mm</b> และ <b>pyloric channel length ≥ 15 mm</b> (เกณฑ์ใกล้เคียงกันในแต่ละตำรา) เห็น target/ doughnut sign และ pylorus ไม่เปิดระหว่างดู · UGI study ใช้เมื่อ US ไม่ชัดหรือไม่มี (string sign, shoulder sign, double track) · รักษา: ไม่ใช่ surgical emergency → <b>แก้น้ำและ electrolyte ก่อน</b> (Cl ≥ 100, HCO3 &lt; 30 mEq/L, K ปกติ) แล้วทำ <b>Ramstedt pyloromyotomy</b> (open หรือ laparoscopic) · ไฟล์ P'Ing วง A เขียน <b>\"✓ imaging of choice, non-invasive\"</b> และแปะสรุป IHPS",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> CT ให้รังสีสูงในทารกและไม่ได้ข้อมูลมากกว่า US · ไม่มีสถานการณ์ใดที่ CT เป็นการตรวจที่ดีที่สุดสำหรับ IHPS เพราะ US วัดกล้ามเนื้อ pylorus ได้ตรงกว่าโดยไม่มีรังสี",
-   "C": "<b>นอกสไลด์:</b> Barium enema ดูลำไส้ใหญ่ ไม่เห็น pylorus · ไม่มีสถานการณ์ใดที่ใช้วินิจฉัย IHPS เพราะสารทึบรังสีไม่ผ่านไปถึงกระเพาะ",
-   "D": "<b>นอกสไลด์:</b> UGI ด้วย barium เห็น string sign, shoulder sign แต่มีรังสีและอาจสำลัก · จะถูกถ้าไม่มีผู้ทำ US ที่ชำนาญหรือผล US ก้ำกึ่ง",
-   "E": "<b>นอกสไลด์:</b> สารทึบรังสีชนิดละลายน้ำใช้เมื่อกลัวรั่วออกนอกทางเดินอาหาร ซึ่งไม่ใช่ข้อกังวลใน IHPS · ไม่มีสถานการณ์ใดที่เป็นการตรวจที่ดีที่สุดของ IHPS เพราะเห็นรายละเอียดช่อง pylorus ด้อยกว่า barium และด้อยกว่า US"
+   "B": "CT ช่องท้องให้รังสีสูงในทารก ต้องให้ยานอนหลับ และไม่จำเป็นเพราะ US ให้คำตอบได้ — ใช้เมื่อสงสัยก้อนหรือการบาดเจ็บในช่องท้องที่ซับซ้อน — จะถูกถ้าเป็นเด็ก 3 ปี คลำได้ก้อนใหญ่ในท้องข้ามแนวกลาง ความดันสูง สงสัย neuroblastoma/ Wilms tumor (หลัง US) เพื่อ staging",
+   "C": "Barium enema ดูลำไส้ใหญ่ ใช้ในการอุดตันส่วนปลาย (Hirschsprung, meconium plug, microcolon) ไม่เห็น pylorus — จะถูกถ้าเป็นทารกแรกเกิด 3 วันไม่ถ่าย meconium ใน 48 ชม. ท้องอืดอาเจียนเขียว สงสัย Hirschsprung disease (ใช้ water-soluble contrast enema ดู transition zone)",
+   "D": "UGI study ด้วย barium เห็น string sign/ shoulder sign ของ IHPS ได้ แต่ใช้รังสี เสี่ยงสำลัก barium ในทารกที่อาเจียน จึงเป็นทางเลือกรองเมื่อ US ไม่ชัด — จะถูกถ้าเป็นทารก 6 สัปดาห์อาเจียนไม่มีน้ำดี US สองครั้งได้ผลก้ำกึ่ง (กล้ามเนื้อหนา 2.5 mm) และต้องแยก pylorospasm/ GERD/ malrotation",
+   "E": "UGI study ด้วย water-soluble contrast ใช้เมื่อสงสัยลำไส้ทะลุหรือดู anastomotic leak และใช้ดู malrotation ในทารกอาเจียนเขียว ไม่ใช่การตรวจแรกของ IHPS — จะถูกถ้าเป็นทารก 3 สัปดาห์ที่เคยปกติ อาเจียน<b>สีเขียว</b>ทันที ต้องหา malrotation with midgut volvulus ด่วน"
   },
-  "trap": "ทารกอาเจียนพุ่งไม่มีน้ำดี อย่าเลือก UGI study ที่คุ้นกับการหา malrotation — malrotation อาเจียนมีน้ำดี",
+  "trap": "คนเห็นคำว่า 'UGI study' แล้วนึกถึงภาพ string sign ในตำรา จึงเลือก D หรือ E · ปัจจุบัน <b>US เป็น imaging of choice</b> เพราะไม่ใช้รังสี ไวสูง และวัดค่าได้ · ถ้าอาเจียน<b>มีน้ำดี</b>ไม่ใช่ IHPS แต่ต้องคิดถึง malrotation (UGI ด่วน)",
   "summary": [
-   "<b>นอกสไลด์:</b> เกณฑ์ US: กล้ามเนื้อ pylorus หนา ≥ 3–4 mm · ช่องยาว ≥ 15–17 mm",
-   "<b>นอกสไลด์:</b> IHPS: ชาย บุตรคนแรก อายุราว 2–8 สัปดาห์ อาเจียนพุ่งไม่มีน้ำดีหลังกินนม หิวตลอด คลำได้ก้อนรูปมะกอก"
+   "IHPS: 2–8 สัปดาห์, ชาย &gt; หญิง ~4:1, ลูกคนแรก, ประวัติครอบครัว, erythromycin ช่วงแรกเกิด · อาเจียนพุ่งไม่มีน้ำดี ยังหิว",
+   "ตรวจร่างกาย: olive-shaped mass ใต้ตับ (คลำง่ายหลังอาเจียน ท้องว่าง) · visible peristalsis ซ้ายไปขวา · ขาดน้ำ",
+   "Electrolyte: hypochloremic hypokalemic metabolic alkalosis · paradoxical aciduria (ไตเก็บ Na แลก H⁺ เมื่อ K หมด)",
+   "US: muscle thickness ≥ 3 mm, channel length ≥ 15 mm, target sign, ไม่มีอาหารผ่าน · UGI: string sign, shoulder sign, double-track sign",
+   "Resuscitation ก่อนผ่าตัด: NSS bolus แล้ว D5½NSS + KCl เมื่อปัสสาวะออก · เป้า Cl ≥ 100, HCO3 &lt; 30 (บางตำรา &lt; 28) — alkalosis ทำให้หยุดหายใจหลังดมยา",
+   "Ramstedt pyloromyotomy: ผ่ากล้ามเนื้อตามยาวจนเห็น mucosa โป่ง (ไม่เปิด mucosa) · ภาวะแทรกซ้อน mucosal perforation (มักทางด้าน duodenum), incomplete myotomy · กินนมได้ภายในไม่กี่ชั่วโมง",
+   "อาเจียนในทารกแยกตามน้ำดี: ไม่มีน้ำดี → IHPS, GERD, overfeeding · มีน้ำดี → malrotation/ volvulus, duodenal atresia (ใต้ ampulla), jejunal atresia, Hirschsprung"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียน \"imaging of choice, non-invasive\" · US ไวและจำเพาะเกือบ 100% ไม่ใช้รังสี และวัดความหนา/ ความยาวกล้ามเนื้อได้ เว็บเติมอายุ 5 สัปดาห์ให้เป็นเคส ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Pyloric stenosis: 'ชายคนแรก 3–6 สัปดาห์ พุ่งไม่เขียว olive' → US '3 กับ 15' (mm)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Hypertrophic Pyloric Stenosis; Sabiston Textbook of Surgery 21st ed. (2022) Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกอายุ 3 สัปดาห์อาเจียนเป็นน้ำดีเฉียบพลัน → UGI study ด่วนหา malrotation with midgut volvulus"
+   "ทารก 4 สัปดาห์ IHPS Cl 85 HCO3 38 K 2.9 → แก้น้ำและ electrolyte ก่อน (NSS แล้ว D5½NSS + KCl) เลื่อนผ่าตัดจนค่าเข้าเกณฑ์",
+   "ระหว่าง pyloromyotomy เห็นฟองอากาศและน้ำดีที่ด้าน duodenum → mucosal perforation → เย็บซ่อม (หรือเย็บปิดแล้วทำ myotomy ใหม่ตำแหน่งอื่น) และงดนมระยะสั้น",
+   "ทำไมต้องแก้ metabolic alkalosis ก่อนดมยา → alkalosis ทำให้ CSF ด่าง กดการหายใจ เกิด postoperative apnea",
+   "ทารกคลอดก่อนกำหนดได้ erythromycin ในสัปดาห์แรก แล้วอาเจียนพุ่งตอน 3 สัปดาห์ → สงสัย IHPS → US"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 4 — ตัวพิมพ์: <b>A child with suspected infantile hypertrophic pyloric stenosis. What is the best investigation for diagnosis? — A. Ultrasonography B. CT whole abdomen C. Barium enema D. Upper GI study with barium E. Upper GI study with water-soluble contrast</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อไม่มีเลข · เติมอายุ 5 สัปดาห์ · P'Ing แปะสรุป IHPS",
+  "src": "S74AQ · หน้า 4",
+  "kimg": [
+   "kp74a_x7"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 8": {
-  "interp": "เปรียบเทียบ omphalocele กับ gastroschisis → ข้อความใดถูกสำหรับ omphalocele",
-  "why": "<b>คีย์ P'Ing วง C</b> แต่ตาราง omphalocele vs gastroschisis ที่ P'Ing แปะเองแยกว่า omphalocele มีถุงหุ้ม<br><b>นอกสไลด์:</b> Omphalocele = ผนังหน้าท้องที่สะดือปิดไม่สมบูรณ์ อวัยวะ (ลำไส้ ± ตับ) อยู่ในถุงที่มีสายสะดือออกจากถุง · สัมพันธ์กับมารดาอายุมาก โครโมโซมผิดปกติ (trisomy 13, 18) และโรคหัวใจ",
+  "interp": "ถามข้อความที่ถูกเกี่ยวกับ <b>omphalocele เทียบกับ gastroschisis</b> — ต้องรู้ความต่างเรื่องตำแหน่งรูรั่ว ถุงหุ้ม สิ่งที่ออกมา ความผิดปกติร่วม อายุมารดา ความเร่งด่วน และพยากรณ์โรค",
+  "why": "<b>Omphalocele</b> = รูรั่วที่ <b>umbilical ring ตรงกลาง</b> มี<b>ถุงหุ้ม</b> (amnion + Wharton's jelly + peritoneum) สายสะดือเกาะบนถุง สิ่งที่ออกมาอาจเป็นลำไส้ ± <b>ตับ</b> (giant omphalocele) เกิดจากลำไส้ไม่หมุนกลับเข้าช่องท้องหลัง physiologic herniation (สัปดาห์ที่ 6–10) · สัมพันธ์กับ<b>ความผิดปกติร่วม 50–70%</b>: หัวใจ, <b>chromosomal (trisomy 13, 18, 21)</b>, Beckwith-Wiedemann (macroglossia, hypoglycemia, organomegaly), pentalogy of Cantrell, OEIS และ<b>สัมพันธ์กับมารดาอายุมาก</b> (เช่นเดียวกับ aneuploidy) · พยากรณ์ขึ้นกับความผิดปกติร่วม โดยรวม<b>แย่กว่า</b> gastroschisis · ถุงที่ยังไม่แตกปกป้องลำไส้ จึง<b>ไม่ต้องผ่าตัดด่วน</b> ตรวจหา anomaly ก่อน (echo, karyotype, glucose) แล้วปิดแบบ primary/ staged หรือ 'paint and wait' ในรายใหญ่ · <b>Gastroschisis</b> = รูเล็กที่<b>ขวาของสายสะดือ</b> ไม่มีถุง ลำไส้ลอยออกมา (eviscerated) บวมหนาจากสัมผัสน้ำคร่ำ สัมพันธ์กับ<b>มารดาอายุน้อย (&lt; 20 ปี)</b> สูบบุหรี่ ใช้ยา ความผิดปกติร่วมน้อย (intestinal atresia ~10%) ต้อง<b>คลุมลำไส้ด่วน</b> (silo/ primary closure) และรอดสูงกว่า 90% · ไฟล์ P'Ing วง <b>C</b> เขียน \"✓ bowel ± liver, spleen\" ขีด A ✗, B ✗ \"associated anomalies\", D ✗ \"non-urgent\" พร้อมตาราง omphalocele vs gastroschisis",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> โดยรวม omphalocele พยากรณ์แย่กว่าเพราะความผิดปกติร่วม · จะถูกถ้าเทียบ omphalocele ขนาดเล็กที่ไม่มีความผิดปกติร่วม กับ gastroschisis ที่มี atresia หรือลำไส้ตายจนเหลือลำไส้สั้น",
-   "C": "คีย์ P'Ing เลือกช้อยนี้ (ต้นฉบับเขียน eviscerated) · <b>นอกสไลด์:</b> ลำไส้ลอยไม่มีถุงเป็นลักษณะของ gastroschisis · ไม่มีสถานการณ์ใดที่ข้อความนี้ถูกกับ omphalocele เพราะตามนิยาม omphalocele มีถุง (ถ้าถุงแตกเรียก ruptured omphalocele ซึ่งยังเห็นเศษถุงและตำแหน่งที่สะดือ)",
-   "D": "<b>นอกสไลด์:</b> ถุงหุ้มปกป้องลำไส้ omphalocele ที่ถุงไม่แตกจึงไม่เร่งด่วน · จะถูกถ้าถุง omphalocele แตกระหว่างคลอด ลำไส้ออกมาสัมผัสอากาศ ต้องปิดคลุมและผ่าตัดเร็ว",
-   "E": "<b>นอกสไลด์:</b> Defect ด้านขวาของสายสะดือเป็นลักษณะ gastroschisis · ไม่มีสถานการณ์ใดที่ข้อความนี้ถูกกับ omphalocele เพราะ omphalocele อยู่ที่สะดือตรงกลาง สายสะดือออกจากถุง"
+   "B": "Omphalocele มีพยากรณ์โรคโดยรวม<b>แย่กว่า</b>เพราะพบความผิดปกติร่วมของหัวใจและโครโมโซมบ่อย (P'Ing เองขีด B ✗ associated anomalies) gastroschisis ที่ไม่มีภาวะแทรกซ้อนรอดมากกว่า 90% — จะถูกถ้าเป็นการเปรียบเทียบที่ข้อความนี้ใช้กับ gastroschisis เช่นทารกของมารดาอายุ 18 ปีที่มีลำไส้ออกจากรูขวาสายสะดือ ไม่มีความผิดปกติอื่น ปิดหน้าท้องได้ใน 1 สัปดาห์",
+   "C": "ลำไส้ลอยอิสระไม่มีถุงหุ้มเป็นลักษณะของ <b>gastroschisis</b> — omphalocele มีถุงหุ้มเสมอ (ยกเว้นถุงแตก) และอาจมีตับอยู่ในถุง — จะถูกถ้าเป็นทารกแรกเกิดที่มีลำไส้บวมแดงจับกันเป็นก้อนออกจากรูเล็กข้างขวาของสายสะดือที่เกาะปกติ ไม่มีถุงหุ้ม (gastroschisis)",
+   "D": "Omphalocele ที่ถุงยังไม่แตกไม่ต้องผ่าตัดด่วน — คลุมถุงให้ชุ่ม ตรวจหา anomaly ก่อน (P'Ing ✗ non-urgent) ส่วน gastroschisis ที่ลำไส้โผล่ต้องคลุมและปิดด่วน — จะถูกถ้าเป็นทารก gastroschisis แรกเกิดที่ลำไส้โผล่ไม่มีถุงหุ้ม เสียน้ำและความร้อนเร็ว ต้องห่อลำไส้ด้วยถุงพลาสติก ใส่ OG tube และใส่ silo ทันที",
+   "E": "รูรั่วด้านขวาของสายสะดือเป็นลักษณะของ <b>gastroschisis</b> ส่วน omphalocele อยู่ตรงกลางที่ umbilical ring และสายสะดือเกาะบนถุง — จะถูกถ้าเป็นทารกที่มีรูหน้าท้อง 3 cm ข้างขวาของสายสะดือ ผิวหนังระหว่างรูกับสายสะดือปกติ ลำไส้ออกมาโดยไม่มีถุง"
   },
-  "trap": "<b>เราตอบ A ต่างจากคีย์ P'Ing (C)</b> — ช้อย C ต้นฉบับใช้คำ eviscerated ซึ่งเป็นลักษณะของ gastroschisis จึงแก้คำช้อยให้ชัดเพื่อเหลือคำตอบเดียว",
+  "trap": "ต้นฉบับช้อย C เขียนว่า 'bowel and spleen as eviscerated contents' ซึ่ง P'Ing เลือกเพราะ omphalocele มีอวัยวะตันออกมาได้ แต่คำว่า <b>eviscerated</b> เป็นลักษณะของ gastroschisis (ไม่มีถุง) · จุดที่ถูกแน่นอนคือ omphalocele สัมพันธ์กับ<b>มารดาอายุมาก</b> (เพราะเกี่ยวกับ aneuploidy) ส่วน gastroschisis สัมพันธ์กับมารดาอายุน้อย",
   "summary": [
-   "ตาราง omphalocele vs gastroschisis ในคีย์: omphalocele มีถุง อวัยวะลำไส้ ± ตับ ม้าม · ความผิดปกติร่วมมาก · ไม่เร่งด่วน",
-   "<b>นอกสไลด์:</b> Omphalocele: กลางสะดือ · มารดาอายุมาก · ความผิดปกติร่วมราวครึ่งหรือมากกว่า → ตรวจหัวใจและโครโมโซม",
-   "<b>นอกสไลด์:</b> Giant omphalocele ปิดไม่ได้ → \"paint and wait\" ทาสารฆ่าเชื้อให้ถุงกลายเป็นผิว แล้วซ่อมไส้เลื่อนภายหลัง"
+   "Omphalocele: กลางสะดือ มีถุง สายสะดือเกาะบนถุง ± ตับ · anomaly ร่วม 50–70% (หัวใจ, trisomy 13/18/21, Beckwith-Wiedemann) · มารดาอายุมาก",
+   "Gastroschisis: ขวาสายสะดือ ไม่มีถุง ลำไส้อย่างเดียว บวมหนา matted · anomaly น้อย (intestinal atresia ~10%) · มารดาอายุน้อย &lt; 20 ปี, บุหรี่, ยา vasoactive",
+   "แรกเกิด gastroschisis: ห่อลำไส้ด้วยถุงพลาสติก/ bowel bag ให้ไม่บิด, นอนตะแคงขวา, OG tube, IV fluid มากเพราะเสียน้ำ, ยาปฏิชีวนะ → primary closure หรือ silo แล้วค่อยปิด",
+   "Omphalocele: คลุมถุงชุ่ม ตรวจ echo, karyotype, glucose (BWS) · เล็ก → primary closure · ใหญ่/ giant (&gt; 5 cm หรือมีตับ) → staged หรือ 'paint and wait' (ทายาฆ่าเชื้อให้ epithelialize แล้วซ่อม ventral hernia ทีหลัง)",
+   "Beckwith-Wiedemann: omphalocele, macroglossia, hemihypertrophy, neonatal hypoglycemia, organomegaly · เสี่ยง Wilms tumor/ hepatoblastoma → US ท้องทุก 3 เดือนถึง ~7–8 ปี",
+   "Pentalogy of Cantrell: omphalocele ส่วนบน + sternal cleft + anterior diaphragmatic defect + pericardial defect + หัวใจพิการ (ectopia cordis)",
+   "Gastroschisis ระยะยาว: ลำไส้ทำงานช้า ต้อง TPN นานหลายสัปดาห์ · complex gastroschisis (atresia, ทะลุ, necrosis) เสี่ยง short bowel"
   ],
-  "opinion": "ไม่ตรงกับคีย์ P'Ing (C) — ตอบ A ตามตำรา (omphalocele สัมพันธ์มารดาอายุมาก) และช้อย C ต้นฉบับเป็นลักษณะ gastroschisis · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — ต่างจากคีย์ลายมือ P'Ing ที่วง C · ตำรา (Holcomb and Ashcraft, Sabiston) ระบุว่า omphalocele สัมพันธ์กับมารดาอายุมากจริง จึงไม่ควรขีด A ✗ ส่วนช้อย C ในต้นฉบับใช้คำ eviscerated ซึ่งเป็นลักษณะของ gastroschisis เว็บจึงเขียน C ให้เป็นลักษณะ gastroschisis ชัด ๆ เพื่อเหลือคำตอบเดียว",
+  "mnemonic": "<b>'Omphalocele = 'O' กลม มีถุง แม่แก่ โครโมโซมผิด · Gastroschisis = 'G' โป๊ (ไม่มีถุง) ขวา แม่สาว ปิดด่วน'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Abdominal Wall Defects; Sabiston Textbook of Surgery 21st ed. (2022) Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก omphalocele มีลิ้นโต ตัวโต น้ำตาลในเลือดต่ำ → Beckwith-Wiedemann syndrome (ติดตามเนื้องอก Wilms และ hepatoblastoma)"
+   "ทารกแรกเกิดมี omphalocele 3 cm ลิ้นโต น้ำตาลในเลือด 30 mg/dL → Beckwith-Wiedemann syndrome → แก้ hypoglycemia และ US ท้องเฝ้าระวัง Wilms tumor",
+   "ทารก giant omphalocele มีตับทั้งหมดในถุง ปอดเล็ก → 'paint and wait' แล้วซ่อม ventral hernia เมื่อโต",
+   "ทารก gastroschisis ใส่ silo แล้ว 5 วันลำไส้ลงหมด → ปิดหน้าท้อง → ให้ TPN จนลำไส้ทำงาน",
+   "ทำไม gastroschisis ลำไส้บวมหนาเป็นก้อน → สัมผัสน้ำคร่ำและถูกรัดที่รูเล็กนานในครรภ์ ทำให้ serositis และ peel หนา"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 4 — ตัวพิมพ์: <b>What is true about omphalocele comparing with gastroschisis? — A. Advanced maternal age B. Better prognosis C. Bowel and spleen as eviscerated contents D. Urgent intervention is required</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไม่ตรงกับคีย์ P'Ing (C) · ตำรา (Holcomb &amp; Ashcraft, Sabiston) ระบุ omphalocele สัมพันธ์มารดาอายุมาก → ช้อย A ถูก ส่วนช้อย C เดิมใช้คำ eviscerated ที่เป็นลักษณะ gastroschisis → แก้คำช้อย C ให้เป็นลักษณะ gastroschisis ชัด ๆ (free-floating bowel ไม่มีถุง) เพื่อเหลือคำตอบเดียว · เติมช้อย E",
+  "src": "S74AQ · หน้า 4",
+  "kimg": [
+   "kp74a_x8"
   ]
  },
  "MDCU74|RoC|1": {
-  "interp": "ชายอายุ 30 คลำได้ก้อนที่อัณฑะไม่เจ็บ → ถามชนิดพยาธิของมะเร็งอัณฑะที่พบบ่อยที่สุด",
-  "why": "P'Ing ไฮไลต์และแปะ Classification: <b>seminoma most common</b><br><b>นอกสไลด์:</b> มะเร็งอัณฑะราว 95% เป็น germ cell tumor · seminoma เป็นชนิดเดี่ยว (pure) ที่พบบ่อยที่สุด อายุราว 30–40 ปี · กลุ่ม nonseminoma พบในอายุน้อยกว่าเล็กน้อย",
+  "interp": "ชาย 30 ปี มี<b>ก้อนที่อัณฑะไม่เจ็บ</b> (testicular cancer จนกว่าจะพิสูจน์ได้ว่าไม่ใช่) — ถามชนิดพยาธิวิทยาของมะเร็งอัณฑะที่<b>พบบ่อยที่สุด</b> ต้องรู้การแบ่ง germ cell tumor เป็น seminoma กับ non-seminoma และลักษณะเด่นของแต่ละชนิด",
+  "why": "มะเร็งอัณฑะ ~95% เป็น <b>germ cell tumor (GCT)</b> เกิดจาก germ cell neoplasia in situ (GCNIS) แบ่งเป็น ① <b>seminoma</b> — ชนิดเดี่ยวที่<b>พบบ่อยที่สุด (~50% ของ GCT)</b> อายุ peak 30–40 ปี โตช้า กระจายทางน้ำเหลืองไป retroperitoneal nodes ตามลำดับ ไวต่อรังสีและเคมีบำบัดมาก <b>AFP ปกติเสมอ</b> (ถ้า AFP สูง = มี non-seminoma) hCG สูงเล็กน้อยได้ราว 15–20% จาก syncytiotrophoblast ② <b>non-seminomatous GCT</b> — embryonal carcinoma, yolk sac tumor, choriocarcinoma, teratoma และ mixed GCT อายุน้อยกว่า (15–30 ปี) ③ sex cord-stromal (Leydig, Sertoli) ~5% · ปัจจัยเสี่ยง: <b>cryptorchidism</b>, ประวัติมะเร็งอัณฑะอีกข้าง, ประวัติครอบครัว, Klinefelter, infertility · ตรวจ: <b>scrotal ultrasound</b> (ก้อน hypoechoic ในอัณฑะ) + tumor markers (AFP, β-hCG, LDH) ก่อนและหลังผ่าตัด → <b>radical inguinal orchiectomy</b> ผูก cord ที่ internal ring ห้ามผ่าหรือเจาะผ่านถุงอัณฑะ → CT chest/ abdomen/ pelvis staging · seminoma stage I ส่วนใหญ่เลือก surveillance (หรือ carboplatin ครั้งเดียว) · ไฟล์ผู้จดใส่ <b>\":)\"</b> ที่ seminoma และ P'Ing ไฮไลต์พร้อมแปะ Classification ที่ระบุ <b>\"seminoma most common\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Embryonal carcinoma มักเป็นส่วนประกอบของ mixed GCT ชนิดเดี่ยวพบน้อย · ไม่มีสถานการณ์ใดที่เป็นชนิดที่พบบ่อยที่สุดของมะเร็งอัณฑะ เพราะความถี่ของ pure embryonal ต่ำกว่า seminoma และ mixed GCT ในทุกกลุ่มอายุ",
-   "C": "<b>นอกสไลด์:</b> Yolk sac tumor แบบเดี่ยวพบน้อยในผู้ใหญ่ · จะถูกถ้าเป็นเด็กเล็ก (ต่ำกว่าราว 3 ปี) มีก้อนอัณฑะ AFP สูง",
-   "D": "<b>นอกสไลด์:</b> Mixed GCT เป็น nonseminoma ที่พบบ่อยที่สุด · จะถูกถ้าเป็นชายวัยรุ่น–ผู้ใหญ่ตอนต้น (ราว 15–25 ปี) ซึ่งกลุ่ม nonseminoma พบมากกว่า seminoma",
-   "E": "<b>นอกสไลด์:</b> Leydig cell tumor เป็น sex cord-stromal tumor พบเพียงไม่กี่ % · ไม่มีสถานการณ์ใดที่เป็นชนิดที่พบบ่อยที่สุดของมะเร็งอัณฑะ เพราะเนื้องอกกลุ่ม sex cord-stromal ทั้งกลุ่มพบน้อยกว่า germ cell tumor มาก"
+   "B": "Embryonal carcinoma เป็น non-seminoma ที่ดุ พบเป็นส่วนประกอบบ่อยที่สุดของ mixed GCT แต่เป็นชนิดเดี่ยว (pure) ไม่บ่อย อายุ 20–30 ปี กระจายเร็ว อาจเจ็บก้อนจากเลือดออก/ เนื้อตาย — จะถูกถ้าเป็นชาย 24 ปี ก้อนอัณฑะโตเร็ว มี retroperitoneal lymph node 6 cm AFP และ hCG สูงปานกลาง พยาธิเป็น sheet ของเซลล์ไม่จำเพาะมี necrosis CD30 บวก",
+   "C": "Yolk sac tumor เป็นมะเร็งอัณฑะที่พบบ่อยที่สุดใน<b>ทารกและเด็กเล็ก (&lt; 3 ปี)</b> AFP สูงมาก พยาธิมี Schiller-Duval bodies ในผู้ใหญ่มักเป็นส่วนหนึ่งของ mixed GCT — จะถูกถ้าเป็นเด็กชาย 18 เดือนพ่อแม่คลำได้ก้อนแข็งไม่เจ็บที่อัณฑะขวา AFP 5,000 ng/mL",
+   "D": "Mixed GCT (มีหลายชนิดรวมกัน เช่น embryonal + teratoma + yolk sac) เป็นกลุ่ม non-seminoma ที่พบบ่อยที่สุด แต่เมื่อนับชนิดพยาธิเดี่ยว seminoma พบบ่อยที่สุดตามคีย์ — จะถูกถ้าเป็นชาย 26 ปี ก้อนอัณฑะ AFP 1,200 ng/mL และ hCG 8,000 mIU/mL (AFP สูง = มีองค์ประกอบ non-seminoma) พยาธิพบหลายชนิดผสม",
+   "E": "Leydig cell tumor เป็น sex cord-stromal tumor (~1–3%) สร้างฮอร์โมน — เด็กมี precocious puberty ผู้ใหญ่มี gynecomastia/ libido ลด มี Reinke crystals ส่วนใหญ่ไม่ร้าย — จะถูกถ้าเป็นเด็กชาย 6 ปีมีขนหัวหน่าว เสียงแตก โตเร็ว คลำได้ก้อนเล็กในอัณฑะ testosterone สูง LH ต่ำ"
   },
-  "trap": "บางตำรารวม mixed GCT เป็นกลุ่มใหญ่ แต่ถ้าถามชนิดพยาธิที่พบบ่อยที่สุด ตอบ seminoma",
+  "trap": "ช้อย D 'mixed germ cell tumor' ทำให้ลังเลเพราะบางตำราเขียนว่า mixed GCT พบบ่อยที่สุดในกลุ่ม non-seminoma และ embryonal carcinoma พบเป็นส่วนประกอบบ่อย · คำถามถาม<b>ชนิดพยาธิ</b>ที่พบบ่อยที่สุด = seminoma (~ครึ่งหนึ่ง) · และอย่าสับสนกับเด็กเล็กที่ yolk sac tumor พบบ่อยสุด",
   "summary": [
-   "Classification ในคีย์: seminoma พบบ่อยที่สุด",
-   "<b>นอกสไลด์:</b> Tumor markers: seminoma β-hCG สูงได้เล็กน้อย AFP ปกติเสมอ (AFP สูง = มีส่วน nonseminoma) · yolk sac → AFP · choriocarcinoma → β-hCG สูงมาก · LDH บอกปริมาณก้อน",
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง: อัณฑะไม่ลงถุง · เคยเป็นมะเร็งอัณฑะอีกข้าง · ประวัติครอบครัว",
-   "<b>นอกสไลด์:</b> ก้อนอัณฑะสงสัยมะเร็ง → US + markers → radical inguinal orchiectomy (ห้ามผ่าทางถุงอัณฑะ)"
+   "Testicular GCT: มะเร็งที่พบบ่อยที่สุดในชาย 15–35 ปี · รักษาหายสูงมาก (รวมทุกระยะ &gt; 95%)",
+   "Seminoma: ~50% · 30–40 ปี · AFP ปกติเสมอ · hCG สูงได้เล็กน้อย · ไวต่อรังสี/ cisplatin · stage I → surveillance หรือ carboplatin 1 cycle (RT ใช้น้อยลง)",
+   "Non-seminoma: embryonal, yolk sac (AFP), choriocarcinoma (hCG สูงมาก แพร่ทางเลือดไปปอด/ สมอง), teratoma (ดื้อเคมี ต้องผ่าตัด RPLND), mixed",
+   "Tumor markers: AFP (half-life 5–7 วัน), β-hCG (24–36 ชม.), LDH — ใช้วินิจฉัย staging (S stage) จัด risk (IGCCCG) และติดตาม",
+   "Radical inguinal orchiectomy: เข้าทางขาหนีบ clamp cord ก่อนจับอัณฑะ ผูกสูงที่ internal ring · ห้าม scrotal approach/ biopsy ผ่านถุง (เปลี่ยนทางน้ำเหลืองไป inguinal)",
+   "น้ำเหลืองอัณฑะไป retroperitoneal (ขวา → interaortocaval, ซ้าย → para-aortic) ไม่ใช่ inguinal (ยกเว้นถุงอัณฑะถูกรบกวน)",
+   "แนะนำ sperm banking ก่อนรักษา · ติดตามอัณฑะอีกข้าง (เสี่ยงมะเร็งข้างตรงข้ามราว 2–5%)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ seminoma — ตรงกับ classification ที่ P'Ing แปะ · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ผู้จดใส่ :) ที่ seminoma และ P'Ing ไฮไลต์ Classification ว่า seminoma most common · ไฟล์ 74C จดเป็นหัวข้อสั้น เว็บแต่งเคสชาย 30 ปีมีก้อนอัณฑะไม่เจ็บ และเติม Leydig cell tumor เป็นช้อย E ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Seminoma = 'Simple & Sensitive' — พบบ่อยสุด, AFP ไม่ขึ้น, ไวรังสี/ เคมี'</b>",
+  "guide": "EAU Guidelines on Testicular Cancer 2025; NCCN Guidelines Testicular Cancer 2025; Campbell-Walsh-Wein Urology 12th ed. (2020) Neoplasms of the Testis",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย seminoma stage I หลัง radical orchiectomy markers กลับปกติ → เฝ้าติดตาม (surveillance) เป็นทางเลือกหลัก"
+   "ชาย 32 ปี ก้อนอัณฑะ biopsy หลัง orchiectomy เป็น pure seminoma แต่ AFP 300 ng/mL → ต้องรักษาเป็น non-seminoma (AFP สูง = มีองค์ประกอบ non-seminoma ที่ไม่เห็นในชิ้นเนื้อ)",
+   "ชาย 28 ปี ไอเป็นเลือด β-hCG 200,000 มีก้อนในปอดหลายก้อน → choriocarcinoma → BEP chemotherapy",
+   "ชาย 25 ปี มีก้อนอัณฑะแข็งไม่เจ็บ → scrotal US + AFP/ hCG/ LDH → radical inguinal orchiectomy",
+   "ทำไมห้ามตัดชิ้นเนื้อมะเร็งอัณฑะผ่านถุงอัณฑะ → ผิวหนังถุงอัณฑะระบายน้ำเหลืองไป inguinal nodes ทำให้มะเร็งแพร่ผิดทางและต้องรักษากว้างขึ้น"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>most common histologic type of testicular CA — seminoma :) · embryonic ca · yolk sac · mixed type</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ 74C จดเป็นหัวข้อ (ไม่มีโจทย์/เลขข้อ) — เลขข้อตามลำดับในไฟล์ · แต่งโจทย์ case-based ตามหัวข้อ · ผู้จดใส่ :) = คำตอบ",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_1"
   ]
  },
  "MDCU74|RoC|2": {
-  "interp": "SCC ส่วนปลายของแท่งองคชาต ผ่าตัด partial penectomy → ถามระยะขอบตัดตามคำสอนคลาสสิกที่ข้อสอบใช้",
-  "why": "ไฟล์จดคำตอบ <b>2 cm</b> · P'Ing ไฮไลต์และแปะตาราง Penile cancer<br><b>นอกสไลด์:</b> ตำราคลาสสิกใช้ขอบ 2 cm เพื่อให้ขอบเป็นลบ · แนวทางปัจจุบัน (EAU-ASCO 2023) เน้นว่าขอบเป็นลบสำคัญกว่าระยะ และยอมรับขอบเพียงไม่กี่มิลลิเมตรในการผ่าตัดแบบเก็บองคชาตเพื่อรักษาความยาว",
+  "interp": "ชาย 65 ปี เป็น <b>squamous cell carcinoma ของ penile shaft ส่วนปลาย</b> และทำ <b>partial penectomy</b> — ถามขอบตัด (gross margin) ที่แนะนำตาม<b>คำสอนดั้งเดิม</b>ที่ข้อสอบนี้ใช้ ต้องรู้ทั้งตัวเลขดั้งเดิมและแนวทางปัจจุบันที่ยอมรับขอบแคบลง",
+  "why": "<b>Penile cancer</b> ~95% เป็น <b>SCC</b> ปัจจัยเสี่ยง: <b>phimosis</b> (สำคัญที่สุด) สุขอนามัยไม่ดี smegma, <b>HPV 16/18</b> (~ราวครึ่งหนึ่งของผู้ป่วย), สูบบุหรี่, lichen sclerosus, PUVA · การขลิบตั้งแต่แรกเกิดลดความเสี่ยง · อาการ: ก้อน/ แผลไม่หายที่ glans หรือ prepuce ซ่อนใต้หนังหุ้ม · การผ่าตัดก้อนปฐมภูมิ: <b>คำสอนดั้งเดิม</b>ให้ <b>gross margin 2 cm</b> เหนือขอบก้อนสำหรับ partial penectomy เพื่อกัน local recurrence · <b>แนวทางปัจจุบัน (EAU-ASCO 2023)</b> พบว่าขอบที่ปลอดเนื้องอก<b>เพียงไม่กี่มิลลิเมตร</b>ก็พอเมื่อยืนยันด้วย <b>frozen section</b> จึงเน้น <b>organ-sparing</b> (glans resurfacing, glansectomy, wide local excision, laser, Mohs) เพื่อรักษาความยาวและหน้าที่ · ก้อนส่วนต้น/ ลุก corpora มาก → total penectomy + perineal urethrostomy · ต่อมน้ำเหลืองขาหนีบสำคัญที่สุดต่อพยากรณ์: cN0 ที่ความเสี่ยงปานกลาง-สูง (≥ pT1b, G3, LVI) → <b>dynamic sentinel node biopsy</b> หรือ modified inguinal lymphadenectomy · คลำได้ต่อม → FNA → radical inguinal lymphadenectomy · ไฟล์ผู้จดเขียนในหัวข้อ <b>\"2 cm\"</b> และ P'Ing ไฮไลต์พร้อมแปะตาราง Penile cancer",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> สั้นกว่าคำสอนคลาสสิก · จะถูกถ้าใช้แนวทางปัจจุบันในการผ่าตัดแบบเก็บองคชาต (เช่น glansectomy ในก้อนที่ glans) ซึ่งยอมรับขอบลบเพียงไม่กี่มิลลิเมตร",
-   "B": "<b>นอกสไลด์:</b> สั้นกว่าคำสอนคลาสสิก · จะถูกถ้าเป็นเนื้องอก grade 1–2 ตามข้อเสนอของบางการศึกษาที่ใช้ขอบราว 1 cm สำหรับ grade ต่ำ",
-   "D": "<b>นอกสไลด์:</b> ยาวเกินจำเป็น ทำให้ตอที่เหลือสั้นจนยืนปัสสาวะไม่ได้ · ไม่มีสถานการณ์ใดที่แนวทางกำหนด 3 cm เพราะขอบเกิน 2 cm ไม่ได้เพิ่มการควบคุมโรคเฉพาะที่",
-   "E": "<b>นอกสไลด์:</b> 5 cm เป็นระยะแบบ soft tissue sarcoma · ไม่มีสถานการณ์ใดที่ใช้กับ penile SCC เพราะมะเร็งนี้ลามเฉพาะที่ไม่ไกลจากขอบที่เห็น และตอที่เหลือจะไม่พอใช้งาน"
+   "A": "ขอบ 0.5 cm เป็นแนวคิดของ organ-sparing surgery ยุคใหม่ที่ยอมรับขอบไม่กี่มิลลิเมตรเมื่อ frozen section ลบ ไม่ใช่ตัวเลขดั้งเดิมของ partial penectomy ที่ข้อสอบนี้ถาม — จะถูกถ้าเป็นชาย 55 ปี ก้อน SCC เกรดต่ำขนาด 1 cm ที่ glans ไม่ลุก corpora ทำ wide local excision/ glansectomy และ frozen section ขอบลบที่ 5 mm",
+   "B": "ขอบ 1 cm เป็นตัวเลขที่ใช้ใน wide excision ของ melanoma บาง (Breslow ≤ 1–2 mm) และ BCC/ SCC ผิวหนังบางชนิด ไม่ใช่ขอบดั้งเดิมของ partial penectomy — จะถูกถ้าเป็นหญิง 45 ปี biopsy ไฝที่แขนพบ melanoma หนา 0.8 mm ไม่มีแผล ต้องทำ wide local excision",
+   "D": "ขอบ 3 cm มากเกินความจำเป็นสำหรับ penile SCC ทำให้เหลือความยาวไม่พอยืนปัสสาวะ — ตัวเลข 3 cm ใช้เป็นขอบส่วนต้นของ gastrectomy ใน gastric cancer ที่ลุก ≥ T2 ชนิด expansive (แนวทางญี่ปุ่น) — จะถูกถ้าเป็นชาย 60 ปี gastric adenocarcinoma ชนิดก้อนขอบชัด (Borrmann 1–2) ลุกถึงชั้นกล้ามเนื้อ วางแผน distal gastrectomy",
+   "E": "ขอบ 5 cm ใช้ในมะเร็งที่ลามใต้เยื่อบุได้ไกล เช่น gastric cancer ชนิด infiltrative (Borrmann 3–4) หรือขอบลำไส้ใน colectomy มะเร็งลำไส้ใหญ่ ไม่ใช่ penile SCC — จะถูกถ้าเป็นชาย 55 ปี gastric adenocarcinoma ชนิดแทรกซึม (diffuse/ Borrmann 3) ที่ antrum ต้องเว้นขอบส่วนต้นกว้าง"
   },
-  "trap": "แนวทางใหม่ไม่ยึดระยะ 2 cm แล้ว แต่ข้อสอบนี้ถามตามคำสอนคลาสสิก",
+  "trap": "คนที่อ่านแนวทางใหม่จะรู้ว่าขอบแคบระดับมิลลิเมตรยอมรับได้แล้ว จึงลังเลระหว่าง 0.5 กับ 2 cm · โจทย์ระบุว่าถาม '<b>classic surgical teaching</b>' ซึ่งคือ <b>2 cm</b> ตามไฟล์ · ในทางปฏิบัติปัจจุบันให้ยึดขอบปลอดเนื้องอกด้วย frozen section และเก็บอวัยวะไว้ให้มากที่สุด",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง penile SCC: phimosis · ไม่ได้ขลิบ · HPV 16/18 · สูบบุหรี่",
-   "<b>นอกสไลด์:</b> ต่อมน้ำเหลือง: ระบายไปขาหนีบก่อน → อุ้งเชิงกราน · คลำได้ → ตัดชิ้นเนื้อ/เลาะต่อม · คลำไม่ได้แต่ก้อนเสี่ยงปานกลาง–สูง → dynamic sentinel node biopsy หรือเลาะต่อม",
-   "<b>นอกสไลด์:</b> ตอที่เหลือสั้นเกิน → total penectomy + perineal urethrostomy"
+   "Penile SCC: phimosis, HPV 16/18, บุหรี่, lichen sclerosus, PUVA · การขลิบแรกเกิดลดความเสี่ยง · พบบ่อยในชายสูงอายุและประเทศรายได้ต่ำ-ปานกลาง",
+   "Precancerous/ in situ: penile intraepithelial neoplasia (Bowen disease ที่ shaft, erythroplasia of Queyrat ที่ glans) → topical 5-FU/ imiquimod, laser, glans resurfacing",
+   "ก้อนปฐมภูมิ: organ-sparing เมื่อทำได้ · partial penectomy (ขอบดั้งเดิม 2 cm; ปัจจุบันขอบลบเพียงไม่กี่ mm ด้วย frozen section) · total penectomy + perineal urethrostomy เมื่อก้อนอยู่ส่วนต้น",
+   "ต่อมน้ำเหลือง: inguinal → pelvic · ต่อมโตตอนแรกครึ่งหนึ่งเป็นการอักเสบ แต่ปัจจุบันไม่แนะนำให้กินยาปฏิชีวนะรอก่อน → FNA/ biopsy เลย",
+   "cN0 + pT1b ขึ้นไป หรือ G3/ LVI → DSNB หรือ modified inguinal lymphadenectomy · cN1–2 → radical inguinal lymphadenectomy · pN2–3 → pelvic lymphadenectomy ± chemotherapy",
+   "Bulky/ fixed inguinal nodes (cN3) → neoadjuvant TIP chemotherapy แล้วผ่าตัด",
+   "พยากรณ์ขึ้นกับการมีต่อมน้ำเหลืองแพร่กระจายมากที่สุด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ 2 cm ตามคำสอนที่ข้อสอบใช้ · แนวทางปัจจุบันยอมรับขอบที่แคบกว่าถ้าเป็นลบ · หัวข้อในไฟล์สั้นจึงแต่งโจทย์ · ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ที่ผู้จดเขียน 2 cm และ P'Ing ไฮไลต์ตาราง Penile cancer · แต่ต้องรู้ว่า EAU-ASCO 2023 ยอมรับขอบที่ปลอดเนื้องอกเพียงไม่กี่มิลลิเมตรเมื่อยืนยันด้วย frozen section ข้อนี้จึงยึดตามคำสอนดั้งเดิมในไฟล์ ซึ่งเว็บระบุใน stem ว่า 'classic surgical teaching'",
+  "mnemonic": "<b>'Penile SCC: 'ตำราเก่า 2 cm — ตำราใหม่ ขอบลบพอ (frozen section) เก็บอวัยวะไว้''</b>",
+  "guide": "Brouwer OR et al. EAU-ASCO Collaborative Guidelines on Penile Cancer 2023, Eur Urol 2023; Campbell-Walsh-Wein Urology 12th ed. (2020) Tumors of the Penis",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายสูงอายุมีผื่นแดงผิวกำมะหยี่ที่ glans นานไม่หาย ชิ้นเนื้อเป็น carcinoma in situ (erythroplasia of Queyrat) → ยาทา 5-FU/imiquimod หรือเลเซอร์"
+   "ชาย 70 ปี phimosis นาน มีแผลเรื้อรังใต้หนังหุ้ม biopsy เป็น SCC ที่ glans 2 cm ลุก corpus spongiosum → glansectomy หรือ partial penectomy + frozen section ขอบ",
+   "ชาย 60 ปี penile SCC pT2 G3 คลำต่อมน้ำเหลืองขาหนีบไม่ได้ → dynamic sentinel node biopsy สองข้าง (หรือ modified inguinal lymphadenectomy)",
+   "ชาย 55 ปีมีปื้นแดงกำมะหยี่ที่ glans นาน biopsy เป็น carcinoma in situ (erythroplasia of Queyrat) → topical 5-FU/ imiquimod หรือ laser",
+   "ทำไมการขลิบตั้งแต่เด็กลด penile cancer → ป้องกัน phimosis, smegma และการอักเสบเรื้อรังใต้หนังหุ้ม ซึ่งเป็นปัจจัยเสี่ยงหลัก"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>penile CA เอา margin กี่ซม — 2 cm</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ หัวข้อสั้นมาก → แต่งโจทย์ · EAU-ASCO Penile Cancer Guidelines 2023 ยอมรับ negative margin เล็กกว่า 2 cm — ข้อนี้ยึดตามคำตอบในไฟล์",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_2"
   ]
  },
  "MDCU74|RoC|3": {
-  "interp": "หญิงแข็งแรงผ่าตัด elective ใต้การดมยาสลบ → ถามมาตรการสำคัญที่สุดในการป้องกันการสำลักเข้าปอด",
-  "why": "ไฟล์จดหัวข้อ <b>\"Prevent aspiration\"</b> กับช้อย NPO และ Trendelenburg ไม่ระบุคำตอบ — <b>Claude ตอบ NPO</b><br><b>นอกสไลด์:</b> การงดน้ำงดอาหารก่อนผ่าตัดทำให้กระเพาะว่าง ลดปริมาณและความเป็นกรดของสิ่งที่จะสำลัก เป็นมาตรการหลักในผู้ป่วยทั่วไป · ผู้ป่วยกระเพาะไม่ว่าง (ฉุกเฉิน ลำไส้อุดตัน ตั้งครรภ์) ใช้ rapid sequence induction แทน",
+  "interp": "หญิงสุขภาพดี 30 ปี (ASA I) จะผ่าตัด elective ภายใต้ <b>general anesthesia</b> — ถามมาตรการที่<b>สำคัญที่สุด</b>ในการป้องกัน <b>pulmonary aspiration</b> ต้องรู้ว่าในผู้ป่วยความเสี่ยงต่ำ หลักคือทำให้กระเพาะว่างด้วยการงดน้ำงดอาหารตามเวลามาตรฐาน ไม่ใช่การให้ยา/ ใส่สายเป็นประจำ",
+  "why": "ขณะดมยา reflex ป้องกันทางเดินหายใจ (ไอ กลืน) และแรงตึงของ lower esophageal sphincter ลดลง เนื้อหาในกระเพาะที่ขย้อนขึ้นมาจึงสำลักเข้าปอดได้ → <b>aspiration pneumonitis (Mendelson syndrome)</b> รุนแรงเมื่อปริมาณมากและเป็นกรด · มาตรการที่ได้ผลและสำคัญที่สุดในผู้ป่วย elective คือ<b>การงดน้ำงดอาหารก่อนผ่าตัด (preoperative fasting/ NPO)</b> ตาม ASA: <b>clear liquids 2 ชม.</b> · นมแม่ 4 ชม. · นมผสม/ นมวัว/ อาหารเบา 6 ชม. · อาหารทอด/ ไขมัน/ เนื้อสัตว์ 8 ชม. ขึ้นไป — ไม่ควรอดนานเกินจำเป็น (ERAS ให้ carbohydrate drink ได้ถึง 2 ชม.ก่อน) · ASA <b>ไม่แนะนำ</b>ให้ยาลดกรด, H2 blocker, PPI, prokinetic หรือใส่ NG tube <b>เป็นประจำ</b>ในผู้ป่วยที่ไม่มีความเสี่ยง · ผู้ป่วยเสี่ยงสูง (full stomach, ลำไส้อุดตัน, ตั้งครรภ์ไตรมาสหลัง, gastroparesis, ได้ GLP-1 RA) → <b>rapid sequence induction</b> ± cricoid pressure, จัดท่าหัวสูง, ดูด NG ก่อน induction · ไฟล์ผู้จดเขียนเพียงหัวข้อ <b>\"Prevent aspiration\"</b> และจดช้อย <b>\"NPO\"</b> กับ \"Trendelenberg position\" โดยไม่ระบุคำตอบ เว็บเฉลย NPO",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ท่าศีรษะต่ำใช้เมื่อเกิดการอาเจียนแล้ว ไม่ใช่การป้องกันก่อน · จะถูกถ้าผู้ป่วยอาเจียนระหว่างนำสลบ — จัดศีรษะต่ำ ตะแคง ดูดออก เพื่อไม่ให้ไหลลงหลอดลม",
-   "C": "<b>นอกสไลด์:</b> ใส่ NG ทุกรายไม่จำเป็นในผู้ป่วยที่งดอาหาร · จะถูกถ้าผู้ป่วยลำไส้อุดตันต้องผ่าตัดฉุกเฉิน — ดูดของเหลวในกระเพาะออกก่อนนำสลบ",
-   "D": "<b>นอกสไลด์:</b> ยากระตุ้นการบีบตัวไม่ใช่ยาประจำในคนแข็งแรง · จะถูกถ้าหญิงตั้งครรภ์ต้องผ่าคลอดภายใต้การดมยาสลบ — ให้ยาลดกรดร่วมกับ metoclopramide ก่อนนำสลบ",
-   "E": "<b>นอกสไลด์:</b> ยิ่งหลับลึกยิ่งกดรีเฟล็กซ์ป้องกันทางเดินหายใจ · ไม่มีสถานการณ์ใดที่การให้ยาให้หลับลึกก่อนนำสลบช่วยป้องกันการสำลัก เพราะทำให้เสียรีเฟล็กซ์ไอและกลืนก่อนทางเดินหายใจได้รับการป้องกันด้วยท่อ"
+   "B": "ท่าศีรษะต่ำ (Trendelenburg) ทำให้เนื้อหาในกระเพาะไหลย้อนขึ้นหลอดอาหารได้ง่ายขึ้น จึง<b>เพิ่ม</b>ความเสี่ยงสำลัก การ induction ในคนเสี่ยงสูงใช้ท่าหัวสูง (reverse Trendelenburg) — จะถูกถ้าเป็นการใส่ central venous catheter ทาง internal jugular vein ในชาย 50 ปี ที่จัดท่าศีรษะต่ำเพื่อให้หลอดเลือดโป่งและป้องกัน air embolism",
+   "C": "การใส่ NG tube ประจำในผู้ป่วย elective ไม่ช่วยและทำให้ระคายเคือง ยังขัดขวาง LES ด้วย ใช้เมื่อกระเพาะมีของเหลวมาก — จะถูกถ้าเป็นชาย 70 ปี small bowel obstruction อาเจียนมาก ท้องอืด ต้องผ่าตัดฉุกเฉิน (ใส่ NG ดูดกระเพาะก่อน แล้วทำ rapid sequence induction)",
+   "D": "ASA ไม่แนะนำให้ prokinetic (metoclopramide) หรือยาลดกรดเป็นประจำในผู้ป่วยที่ไม่มีความเสี่ยง — ใช้เป็นรายบุคคลในกลุ่มเสี่ยง — จะถูกถ้าเป็นหญิงตั้งครรภ์ครบกำหนดที่ต้องผ่าตัดคลอดฉุกเฉินภายใต้ GA (ให้ antacid ชนิด non-particulate เช่น sodium citrate + H2 blocker ± metoclopramide)",
+   "E": "Deep sedation ก่อน induction ทำให้ airway reflex หายไปขณะทางเดินหายใจยังไม่ถูกป้องกันด้วยท่อ จึง<b>เพิ่ม</b>ความเสี่ยงสำลัก — จะถูกถ้าเป็นการทำ colonoscopy ในชาย 55 ปีที่งดน้ำงดอาหารครบแล้ว โดยวิสัญญีแพทย์ให้ propofol เป็น deep sedation และเฝ้าทางเดินหายใจตลอด (ไม่ใช่เพื่อป้องกันสำลัก)"
   },
-  "trap": "Trendelenburg อยู่ในช้อยต้นฉบับ แต่เป็นการจัดการเมื่ออาเจียนแล้ว ไม่ใช่การป้องกัน",
+  "trap": "ไฟล์จดไว้แค่สองช้อย ไม่มีคำตอบ และ Trendelenburg ฟังดูเป็นท่าที่ 'ช่วย' ในบางสถานการณ์ (เช่น hypotension, ใส่ CVC) · แต่ท่าศีรษะต่ำทำให้น้ำย่อยไหลย้อน · มาตรการที่เป็นหลักฐานชัดและสำคัญที่สุดในผู้ป่วยความเสี่ยงต่ำคือ <b>fasting ตามเวลา</b> ส่วนยา/ NG tube ใช้เฉพาะกลุ่มเสี่ยง",
   "summary": [
-   "<b>นอกสไลด์:</b> ASA fasting: clear fluid 2 ชม. · นมแม่ 4 ชม. · นมผสม/อาหารเบา 6 ชม. · อาหารหนัก/ไขมันสูง 8 ชม.",
-   "<b>นอกสไลด์:</b> กลุ่มเสี่ยงสำลัก: ผ่าตัดฉุกเฉิน · ตั้งครรภ์ · อ้วน · GERD · ลำไส้อุดตัน · เบาหวานที่กระเพาะบีบตัวช้า → rapid sequence induction",
-   "<b>นอกสไลด์:</b> Mendelson syndrome = ปอดอักเสบจากกรดในกระเพาะหลังสำลัก"
+   "ASA fasting: clear liquids 2 ชม. · breast milk 4 ชม. · infant formula/ non-human milk/ light meal 6 ชม. · fried/ fatty food/ meat ≥ 8 ชม.",
+   "Clear liquids: น้ำเปล่า น้ำผลไม้ไม่มีกาก น้ำอัดลม ชา/ กาแฟดำ carbohydrate drink — ไม่รวมนมและแอลกอฮอล์ · ERAS ให้ carbohydrate loading ได้ถึง 2 ชม.ก่อน",
+   "ปัจจัยเสี่ยงสำลัก: full stomach/ ผ่าตัดฉุกเฉิน, bowel obstruction, ตั้งครรภ์ (&gt; 18–20 สัปดาห์), GERD/ hiatal hernia, gastroparesis (เบาหวาน), อ้วนมาก, ซึม, GLP-1 receptor agonist",
+   "กลุ่มเสี่ยงสูง: rapid sequence induction (preoxygenation, ยานำสลบ + succinylcholine/ rocuronium ขนาดสูง ไม่ bag ventilate) ± cricoid pressure · ใส่ NG ดูดก่อน · ท่าหัวสูง",
+   "ยาในกลุ่มเสี่ยง: non-particulate antacid (sodium citrate), H2 blocker/ PPI, metoclopramide — ไม่ให้ประจำในผู้ป่วยความเสี่ยงต่ำ (ASA)",
+   "ผู้ป่วยได้ GLP-1 RA: ประเมินอาการทางเดินอาหาร พิจารณา liquid diet 24 ชม.ก่อน หรือ gastric ultrasound/ RSI ตามแนวทางสหสมาคม 2024",
+   "สำลักแล้ว: ดูดทางเดินหายใจ, ใส่ท่อ, ให้ออกซิเจน/ PEEP · aspiration pneumonitis ไม่ต้องให้ยาปฏิชีวนะทันทีหรือ steroid ประจำ · ให้ยาเมื่อสงสัย aspiration pneumonia/ ลำไส้อุดตัน"
   ],
-  "opinion": "คีย์ในไฟล์ไม่ระบุคำตอบ — Claude ตอบ A (NPO) ตามแนวทาง ASA · โจทย์แต่งจากหัวข้อและช้อย C–E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ในไฟล์ไม่มีคีย์ ผู้จดจดเพียงหัวข้อ Prevent aspiration กับสองช้อย NPO และ Trendelenberg position และ P'Ing ไม่ได้ทำเครื่องหมาย เว็บแต่งโจทย์ผู้ป่วย elective และตอบ NPO ซึ่งตรงกับ ASA guideline ส่วน Trendelenburg กลับเพิ่มความเสี่ยงสำลัก",
+  "mnemonic": "<b>'ASA fasting '2-4-6-8': น้ำใส 2 · นมแม่ 4 · นมผสม/ อาหารเบา 6 · อาหารมัน 8'</b>",
+  "guide": "Joshi GP et al. 2023 ASA Practice Guidelines for Preoperative Fasting: Carbohydrate-containing Clear Liquids with or without Protein, Chewing Gum, and Pediatric Fasting Duration, Anesthesiology 2023; ASA Practice Guidelines for Preoperative Fasting and Pharmacologic Agents to Reduce the Risk of Pulmonary Aspiration, Anesthesiology 2017",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยฉีดยากลุ่ม GLP-1 agonist รายสัปดาห์จะผ่าตัด elective → กระเพาะบีบตัวช้า เสี่ยงสำลักแม้งดอาหารตามเวลา พิจารณาหยุดยาก่อนหรือจัดการแบบกระเพาะไม่ว่าง"
+   "ชาย 40 ปี กินข้าวมันไก่ 1 ชม.ก่อนเกิดอุบัติเหตุ ต้องผ่าตัด laparotomy ด่วน → ถือว่า full stomach → rapid sequence induction",
+   "ทารก 6 เดือนกินนมแม่ 3 ชม.ก่อน นัดผ่าตัด hernia → ยังไม่ครบ 4 ชม. เลื่อนเวลาให้ครบ (ให้ clear liquid ได้ถึง 1–2 ชม.ก่อน)",
+   "ผู้ป่วยเบาหวานได้ semaglutide รายสัปดาห์ จะผ่าตัด elective มีคลื่นไส้ท้องอืด → เลื่อนผ่าตัดหรือทำ gastric ultrasound/ RSI",
+   "ทำไม clear liquid 2 ชม.ก่อนผ่าตัดไม่เพิ่มความเสี่ยง → ของเหลวใสออกจากกระเพาะเร็ว และช่วยลดความกระหาย ความวิตกกังวล และ insulin resistance"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>Prevent aspiration — NPO · Trendelenberg position</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ หัวข้อจดแค่ \"Prevent aspiration\" + 2 ช้อย ไม่บอกบริบทหรือคำตอบ → Claude แต่งโจทย์ preoperative และตอบ NPO",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_3"
   ]
  }
 }

@@ -1,161 +1,274 @@
 {
  "MDCU66|RoD|35": {
-  "interp": "ถามปริมาณ CSF ที่ร่างกายสร้างต่อวัน (โจทย์เดียวกับ RoD 12) — ไม่ใช่ปริมาตรที่มีอยู่ในระบบ",
-  "why": "<b>คีย์: ขีด E</b><br><b>นอกสไลด์:</b> choroid plexus สร้าง CSF ต่อเนื่องในอัตราค่อนข้างคงที่ รวมทั้งวันได้ราวครึ่งลิตร → ช้อยที่ใกล้ที่สุดคือ 450 mL",
+  "interp": "ถาม<b>ปริมาณน้ำไขสันหลัง (CSF) ที่ร่างกายสร้างต่อวัน</b> ในผู้ใหญ่ — ต้องแยกให้ออกระหว่าง<b>อัตราการสร้างต่อวัน</b> กับ<b>ปริมาตรรวมที่มีอยู่ในระบบ</b> ณ เวลาหนึ่ง ซึ่งเป็นตัวเลขที่สับสนกันบ่อย",
+  "why": "CSF สร้างส่วนใหญ่ (~70–80%) จาก <b>choroid plexus</b> ใน lateral, third และ fourth ventricle ด้วยการหลั่งแบบ active (Na⁺/K⁺-ATPase, carbonic anhydrase) ส่วนที่เหลือมาจาก ependyma และ interstitial fluid · อัตราการสร้างราว <b>0.3–0.35 mL/นาที ≈ 20 mL/ชม. ≈ 450–500 mL/วัน</b> ค่อนข้างคงที่และไม่ลดลงแม้ ICP สูง · แต่<b>ปริมาตรรวมในผู้ใหญ่มีเพียง ~150 mL</b> (ใน ventricle ราว 25 mL ที่เหลืออยู่ใน subarachnoid space) จึงหมุนเวียนแทนที่ใหม่ 3–4 รอบต่อวัน · ไหลจาก lateral ventricle → foramen of Monro → third ventricle → aqueduct of Sylvius → fourth ventricle → foramina of Luschka/Magendie → subarachnoid space แล้วดูดซึมผ่าน <b>arachnoid granulations</b> เข้า dural venous sinus · เพราะสร้างต่อเนื่องแบบนี้ การอุดตันทางไหลจึงทำให้เกิด hydrocephalus ได้ภายในชั่วโมง และ EVD ที่เปิดไว้จะระบายได้หลายร้อย mL/วัน · ไฟล์ขีด E <b>450 cc</b> (ไม่มีลายมือเพิ่ม)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นปริมาตร CSF ทั้งหมดในร่างกายของทารกแรกเกิด",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นปริมาตร CSF ที่มีอยู่ในระบบของผู้ใหญ่ ณ เวลาใดเวลาหนึ่ง (ไม่ใช่ที่สร้างต่อวัน)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้สูงอายุมากที่อัตราสร้าง CSF ลดลงตามอายุจนเหลือราวครึ่งหนึ่ง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยกิน acetazolamide (เช่นรักษา idiopathic intracranial hypertension) ซึ่งลดการสร้าง CSF ลงบางส่วน"
+   "A": "50 mL ต่ำเกินไปมากสำหรับการสร้างต่อวันของผู้ใหญ่ (สร้างได้เท่านี้ในราว 2–3 ชม.) แต่ใกล้เคียง<b>ปริมาตร CSF รวมของทารกแรกเกิด</b> · จะถูกถ้าเป็นการประมาณปริมาตร CSF ทั้งระบบของทารกครบกำหนดอายุ 1 สัปดาห์ที่ต้องเจาะหลังตรวจหา meningitis",
+   "B": "150 mL คือ<b>ปริมาตร CSF รวมในผู้ใหญ่</b> ณ เวลาหนึ่ง ไม่ใช่ปริมาณที่สร้างต่อวัน — ช้อยที่สับสนบ่อยที่สุด · จะถูกถ้าเป็นการประมาณปริมาณ CSF ทั้งหมดที่อยู่ใน ventricle และ subarachnoid space ของชาย 30 ปีที่สุขภาพปกติ",
+   "C": "250 mL เท่ากับราวครึ่งวันของการสร้าง จึงต่ำกว่าความจริง · ตัวเลขใกล้เคียงนี้เห็นได้จากการระบายทาง <b>lumbar drain</b> ที่ตั้งไว้ราว 10 mL/ชม. · จะถูกถ้าเป็นผู้ป่วย CSF rhinorrhea หลังผ่าตัด transsphenoidal ที่ใส่ lumbar drain ระบาย 10 mL/ชม. ตลอด 24 ชม.",
+   "D": "350 mL ต่ำกว่าอัตราการสร้างจริงเล็กน้อย (≈ 15 mL/ชม.) · ตัวเลขนี้เห็นได้จากปริมาณที่ <b>EVD</b> ระบายออกจริงในหนึ่งวันซึ่งน้อยกว่าที่สร้างเพราะยังดูดซึมบางส่วน · จะถูกถ้าเป็นผู้ป่วย obstructive hydrocephalus จาก IVH ที่ EVD ตั้งที่ 15 cmH₂O และบันทึกได้ราว 15 mL/ชม. ทั้งวัน"
   },
-  "trap": "ปริมาณที่ EVD ระบายออกต่อวันมักใกล้กับอัตราสร้าง — ระบายได้มากกว่าที่ควรคือระบายเกิน (ระดับ drip chamber ต่ำไป) ไม่ใช่ร่างกายสร้างมากขึ้น",
+  "trap": "150 mL เป็นตัวเลขที่จำได้แม่นที่สุดของ CSF จึงถูกเลือกผิดบ่อย · ต้องอ่านคำว่า <b>\"สร้างต่อวัน\"</b> = อัตรา (~20 mL/ชม. × 24 ≈ 450–500 mL) ไม่ใช่ปริมาตรคงที่ (~150 mL) · จำว่าเปลี่ยนใหม่ 3–4 รอบต่อวัน",
   "summary": [
-   "<b>นอกสไลด์:</b> EVD: ตั้ง drip chamber ราว 10–20 cmH₂O เหนือ tragus (ระดับ foramen of Monro) · ระบายได้ราว 10–20 mL/ชม. ใกล้อัตราสร้าง (ราว 20 mL/ชม.) · ระบายเกิน → subdural hematoma หรือ upward herniation · ภาวะแทรกซ้อนสำคัญคือ ventriculitis"
+   "อัตราการสร้าง CSF ~0.35 mL/นาที ≈ 20 mL/ชม. ≈ 450–500 mL/วัน · ปริมาตรรวมผู้ใหญ่ ~150 mL · turnover 3–4 ครั้ง/วัน",
+   "แหล่งสร้าง: choroid plexus ~70–80% (lateral ventricle มากที่สุด) · ที่เหลือจาก ependyma/interstitial fluid · acetazolamide และ furosemide ลดการสร้างได้บางส่วน",
+   "ทางไหล: lateral → Monro → third → aqueduct of Sylvius → fourth → Luschka (ข้าง) + Magendie (กลาง) → subarachnoid space → arachnoid granulations → superior sagittal sinus",
+   "Opening pressure จาก LP (นอนตะแคง) ผู้ใหญ่ปกติ ~10–20 cmH₂O · &gt; 25 cmH₂O ถือว่าสูง",
+   "Obstructive (non-communicating) hydrocephalus: อุดภายใน ventricle (aqueductal stenosis, ก้อน, ลิ่มเลือด) → ห้ามเจาะหลัง ใช้ EVD/VP shunt/ETV",
+   "Communicating hydrocephalus: ดูดซึมผิดปกติที่ arachnoid granulations (หลัง SAH, meningitis) หรือ NPH (เดินลำบาก สมองเสื่อม กลั้นปัสสาวะไม่อยู่)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด E 450 cc และตรงกับตัวเลขมาตรฐานใน Greenberg (~450–500 mL/วัน) · ช้อยอื่นเป็นตัวเลขที่ใกล้ปริมาตรรวมหรือปริมาณที่ระบายได้ ไม่ใช่อัตราการสร้าง",
+  "mnemonic": "<b>'CSF \"150 อยู่ – 500 สร้าง\" (20 mL/ชม. เปลี่ยนใหม่วันละ 3–4 รอบ)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Cerebrospinal fluid; Hydrocephalus",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยใส่ EVD หลัง SAH ระบายได้ 50 mL/ชม. ติดกันหลายชั่วโมง ปวดศีรษะมากขึ้นเวลาลุกนั่ง → ระบายเกิน: ยก drip chamber ขึ้นและปิดสายทุกครั้งที่เปลี่ยนท่า",
-   "<b>นอกสไลด์:</b> ใส่ EVD 3 วัน ระบายได้น้อยมากทั้งที่ตั้งระดับเดิม ผู้ป่วยซึมลง → สายอุดตันหรือเลื่อน: ตรวจ waveform และ CT สมองด่วน"
+   "ผู้ป่วยใส่ EVD แล้วบันทึกว่าไม่มี CSF ไหลเลย 3 ชม. ซึมลง → สงสัยสายอุดตัน ตรวจระดับ/flush โดยประสาทศัลยแพทย์และทำ CT",
+   "ผู้ป่วย IVH มี hydrocephalus ซึมลง → ใส่ EVD (ห้าม lumbar puncture เพราะเป็น obstructive)",
+   "ทำไม CSF ที่ระบายออกจาก EVD ไม่ทำให้ CSF หมด → choroid plexus สร้างใหม่ต่อเนื่องราว 20 mL/ชม.",
+   "ผู้สูงอายุเดินลำบาก ความจำแย่ลง ปัสสาวะราด CT ventricle โต → normal pressure hydrocephalus ทดสอบ tap test ระบาย 30–50 mL"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>35. ปริมาณ CSF ที่สร้างต่อวัน — A. 50 cc B. 150 cc C. 250 cc D. 350 cc E. 450 cc</b><br>ลายมือ: ขีด E (ไม่มีข้อความลายมืออื่น)<br>ไฮไลต์: \"CSF ที่สร้างต่อวัน\" · \"450 cc\" (เหลือง)<br>ที่ปรับในเว็บ: แปลโจทย์เป็นอังกฤษ · cc → mL (ข้อนี้ซ้ำกับอีกข้อในชุดเดียวกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_35"
   ]
  },
  "MDCU66|RoD|36": {
-  "interp": "lymphoma มีก้อนใหญ่ใน anterior mediastinum + ต่อมน้ำเหลืองเหนือไหปลาร้าขวา (ทั้งคู่อยู่เหนือกระบังลม) + B symptoms · ถาม stage",
-  "why": "<b>คีย์: ขีด B</b><br><b>นอกสไลด์:</b> ต่อมน้ำเหลืองตั้งแต่ 2 กลุ่มที่อยู่ด้านเดียวของกระบังลม = stage II · มี B symptoms = B → IIB",
+  "interp": "Lymphoma ที่มี<b>ก้อนใหญ่ขอบเขตไม่ชัดใน anterior mediastinum</b> ร่วมกับ<b>ต่อมน้ำเหลือง supraclavicular ขวาแข็งเป็นกลุ่ม</b> และมี <b>B symptoms</b> — ถาม stage ต้องนับจำนวนกลุ่มต่อมน้ำเหลือง ดูว่าอยู่ด้านเดียวกันของกะบังลมหรือไม่ แล้วเติม A/B",
+  "why": "ระบบ <b>Ann Arbor/Lugano</b>: <b>I</b> = ต่อมน้ำเหลือง 1 กลุ่ม (หรือ extranodal เดี่ยว IE) · <b>II</b> = ≥ 2 กลุ่ม<b>ด้านเดียวกันของกะบังลม</b> · <b>III</b> = ต่อมน้ำเหลืองทั้งเหนือและใต้กะบังลม (หรือเหนือกะบังลม + ม้าม) · <b>IV</b> = ลามเข้าอวัยวะนอกระบบน้ำเหลืองแบบกระจาย (ตับ ไขกระดูก ปอดแบบไม่ต่อเนื่อง) · <b>B symptoms</b> = ไข้ &gt; 38 °C ไม่ทราบสาเหตุ เหงื่อออกท่วมตอนกลางคืน น้ำหนักลด &gt; 10% ใน 6 เดือน (ใน Lugano ใช้ A/B กับ Hodgkin lymphoma) · ผู้ป่วยมี mediastinum + supraclavicular = <b>2 กลุ่ม เหนือกะบังลมทั้งคู่</b> → stage II + B symptoms = <b>IIB</b> และก้อน mediastinum ใหญ่น่าจะเป็น <b>bulky</b> (≥ 1/3 ของความกว้างทรวงอก หรือ ≥ 10 cm) ซึ่งเปลี่ยนการรักษาเป็นกลุ่มเสี่ยงสูงขึ้น · ไฟล์ขีด B (IIb) ลายมือ <b>\"ฝั่งเดียว\"</b> เหนือ Rt supraclavicular และแปะสไลด์ staging \"II Two or more groups of LN but in the same side of diaphragm\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าไม่มี B symptoms (ไม่มีไข้ เหงื่อออกกลางคืน หรือน้ำหนักลด)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ามีต่อมน้ำเหลืองใต้กระบังลมร่วมด้วย (เช่น para-aortic หรือขาหนีบ) โดยไม่มี B symptoms",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามีต่อมน้ำเหลืองทั้งเหนือและใต้กระบังลม ร่วมกับ B symptoms",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามีรอยโรคนอกระบบน้ำเหลืองแบบกระจาย เช่น ตับ ไขกระดูก หรือปอดหลายตำแหน่ง"
+   "A": "IIA ถูกเรื่องจำนวนกลุ่มและด้านของกะบังลม แต่ <b>A = ไม่มี B symptoms</b> ซึ่งขัดกับโจทย์ · จะถูกถ้าเป็นหญิง 22 ปี คลำต่อมน้ำเหลืองคอข้างซ้ายและ CT พบก้อน mediastinum ไม่มีไข้ ไม่มีเหงื่อออกกลางคืน น้ำหนักคงที่ biopsy เป็น nodular sclerosis Hodgkin",
+   "C": "IIIA ต้องมีต่อมน้ำเหลือง<b>ทั้งเหนือและใต้กะบังลม</b> และไม่มี B symptoms — ผู้ป่วยมีแต่ต่อมเหนือกะบังลม · จะถูกถ้าเป็นชาย 40 ปี มีต่อมน้ำเหลืองคอและขาหนีบโต PET-CT พบ para-aortic node ไม่มีอาการทั่วไป ไขกระดูกปกติ",
+   "D": "IIIB คือต่อมทั้งสองฝั่งของกะบังลมร่วมกับ B symptoms — ถูกเรื่อง B แต่ผิดเรื่องด้านของกะบังลม · จะถูกถ้าเป็นผู้ป่วย Hodgkin ที่มีไข้ เหงื่อออกกลางคืน น้ำหนักลด 12% PET-CT พบต่อม supraclavicular, mediastinum และ celiac/para-aortic โดยไม่มีรอยโรคในอวัยวะอื่น",
+   "E": "Stage IV ต้องมีการลามเข้าอวัยวะนอกระบบน้ำเหลืองแบบกระจาย เช่นตับ ไขกระดูก หรือปอดหลายก้อน ซึ่งโจทย์ไม่มี (ก้อน mediastinum ที่ลามเข้าปอดติดกันโดยตรงจัดเป็น E ไม่ใช่ IV) · จะถูกถ้าเป็นผู้ป่วย lymphoma มีต่อมน้ำเหลืองคอโต ตับโต PET-CT พบรอยโรคหลายจุดในตับและไขกระดูก biopsy ไขกระดูกพบเซลล์ lymphoma"
   },
-  "trap": "ต่อมเหนือไหปลาร้าดูไกลจาก mediastinum แต่ยังอยู่เหนือกระบังลม — stage III ต้องข้ามกระบังลมเท่านั้น",
+  "trap": "ก้อนใหญ่ใน mediastinum ทำให้รู้สึกว่าโรคลุกลามจึงเลือก stage สูง หรือคิดว่า supraclavicular กับ mediastinum เป็นคนละ \"ฝั่ง\" · ต้องนับเฉพาะ<b>กลุ่มต่อมและด้านของกะบังลม</b>: ทั้งคู่อยู่เหนือกะบังลม = II · ขนาดก้อน (bulky) ไม่เปลี่ยน stage แต่เปลี่ยนการรักษา · แล้วเติม B เมื่อมีอาการ",
   "summary": [
-   "<b>นอกสไลด์:</b> Lugano (ดัดแปลงจาก Ann Arbor): I กลุ่มต่อมเดียว · II ตั้งแต่ 2 กลุ่มด้านเดียวของกระบังลม · III สองด้านของกระบังลม (หรือเหนือกระบังลม + ม้าม) · IV รอยโรคนอกระบบน้ำเหลืองแบบไม่ต่อเนื่อง · ลามต่อเนื่องจากต่อมไปอวัยวะข้างเคียง = E",
-   "<b>นอกสไลด์:</b> B symptoms: ไข้มากกว่า 38 °C ไม่ทราบสาเหตุ · เหงื่อออกชุ่มกลางคืน · น้ำหนักลดมากกว่า 10% ใน 6 เดือน (อาการคันไม่นับ)"
+   "Lugano/Ann Arbor: I = 1 กลุ่ม · II = ≥ 2 กลุ่มด้านเดียวกันของกะบังลม · III = ทั้งสองด้าน (หรือเหนือกะบังลม + ม้าม) · IV = อวัยวะนอกระบบน้ำเหลืองแบบไม่ต่อเนื่อง",
+   "Extranodal ที่ต่อเนื่องจากต่อมโดยตรงใช้ตัว E (เช่น IIE) ไม่ขึ้นเป็น IV · ม้ามนับเป็นเนื้อเยื่อน้ำเหลือง",
+   "B symptoms: ไข้ &gt; 38 °C, drenching night sweats, น้ำหนักลด &gt; 10% ใน 6 เดือน · ใน Lugano ใช้เฉพาะ Hodgkin lymphoma",
+   "Bulky: HL ก้อน mediastinum &gt; 1/3 ของความกว้างทรวงอก (หรือ &gt; 10 cm) · stage II bulky ถือเป็นกลุ่ม limited ที่ไม่ดี/advanced ขึ้นกับชนิด",
+   "Staging ใช้ <b>PET-CT</b> (FDG-avid lymphoma) · ไม่ต้องเจาะไขกระดูกใน HL และ DLBCL ถ้า PET ทำได้",
+   "ก้อน anterior mediastinum ในวัยรุ่น/หนุ่มสาว + B symptoms → nodular sclerosis HL หรือ primary mediastinal large B-cell lymphoma · ระวัง SVC syndrome และทางเดินหายใจถูกกดขณะดมยาสลบ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด IIb พร้อมลายมือ \"ฝั่งเดียว\" และสไลด์ staging ในไฟล์ · ช้อยในไฟล์เป็น II/IIb/III/IIIb/IV เว็บปรับเป็น IIA/IIB/IIIA/IIIB/IV ให้สอดคล้องระบบ A/B โดยไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'นับกลุ่ม → ดูกะบังลม (ฝั่งเดียว = II, สองฝั่ง = III, อวัยวะ = IV) → มีไข้/เหงื่อ/ผอม = B'</b>",
+  "guide": "Cheson BD, et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification. J Clin Oncol 2014;32:3059; NCCN Guidelines: Hodgkin Lymphoma (current version)",
   "variants": [
-   "<b>นอกสไลด์:</b> Hodgkin ต่อมที่คอ ร่วมก้อน mediastinum ที่ลามติดต่อเข้าเนื้อปอดข้างเคียง → IIE (ไม่ใช่ IV)",
-   "<b>นอกสไลด์:</b> lymphoma ก้อน mediastinum ใหญ่ ผู้ป่วยนอนราบไม่ได้ หน้าบวม → เสี่ยงทางหายใจยุบระหว่างดมยา: ตัดชิ้นเนื้อจากต่อมที่คอใต้ยาชาเฉพาะที่ก่อน"
+   "หญิง 25 ปี ต่อมน้ำเหลืองคอซ้ายโตกลุ่มเดียว ไม่มีอาการ PET-CT ไม่พบที่อื่น → stage IA",
+   "ชาย 30 ปี ต่อมคอ + ม้ามโต PET-CT จับม้าม มีไข้และน้ำหนักลด 15% → stage IIIB (เหนือกะบังลม + ม้าม)",
+   "ก้อน mediastinum กว้าง 12 cm ลามเข้าเนื้อปอดที่อยู่ติดกันโดยตรง ไม่มีที่อื่น → stage IIE bulky",
+   "ผู้ป่วยก้อน anterior mediastinum ใหญ่ นอนราบแล้วหายใจไม่ออก ต้องทำ biopsy → เลือกดมยาเฉพาะที่ (เช่น core biopsy จากต่อม supraclavicular) เลี่ยงการดมยาสลบทั้งตัว"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>36. staging Lymphoma (โจทย์บอกลักษณะก้อนใหญ่ๆขอบเขตไม่ชัดใน anterior mediastinum + B symptoms + กลุ่มก้อนขรุขระ แข็ง คลำได้ที่ Rt supraclavicular) — A. II B. IIb C. III D. IIIb E. IV</b><br>ลายมือ: ขีด B · ขีดเส้นใต้แดง \"B symptoms\" สองเส้น · เขียน \"ฝั่งเดียว\" เหนือ Rt supraclavicular · ขีดเส้นใต้ตัว b ของ IIb<br>ไฮไลต์: \"staging Lymphoma\" · \"ก้อนใหญ่ๆ ขอบเขตไม่ชัดใน anterior mediastinum\" · \"B symptoms\" · \"กลุ่มก้อนขรุขระ แข็ง คลำได้ที่ Rt supraclavicular\" · \"IIb\" (เหลือง)<br>รูปที่แปะ: สไลด์ <b>\"Lymphoma — Staging: I One group of LN · II Two or more groups of LN but in the same side of diaphragm · III Any LN on both sides of diaphragm · IV Organs involvement (liver, bone, lungs,...)\"</b> ลายมือ \"ดูว่า involve LN กี่ grp.\" · \"ข้ามฝั่ง\" (ข้าง III) · \"± มี B-symptom? → IB, IIB ...\" · \"fever, night sweat, wt. loss\" · \"ถ้ามี B symptoms ก็เติมตัว 'B' เข้าไปหลัง staging\"<br>ที่ปรับในเว็บ: ช้อยในไฟล์ II/IIb/III/IIIb/IV → เว็บใช้ IIA/IIB/IIIA/IIIB/IV · แปลโจทย์เป็นอังกฤษ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_36"
   ]
  },
  "MDCU66|RoD|37": {
-  "interp": "ชายอายุ 18 ปี แผลในปาก 1 × 1.5 cm เจ็บมาก เป็นมา 7 วัน → aphthous ulcer (ชนิดใหญ่) · ถามการจัดการ (โจทย์เดียวกับ RoC 5)",
-  "why": "<b>ลายมือ: aphthous · หายเอง 2–3 wk</b><br><b>นอกสไลด์:</b> แผลเจ็บมากในคนอายุน้อยที่เพิ่งเป็นไม่ถึงสัปดาห์ เข้ากับ aphthous ulcer ซึ่งหายเองได้ → รักษาตามอาการแล้วนัดติดตาม ตัดชิ้นเนื้อเมื่อไม่หายตามเวลา",
+  "interp": "ชาย 18 ปี มี<b>แผลในปาก 1 × 1.5 cm เจ็บมาก เป็นมา 7 วัน</b> — ถามว่าต้องทำอะไร ต้องแยกแผลอักเสบที่หายเองได้ (aphthous ulcer) จากแผลที่ต้องสงสัยมะเร็ง โดยใช้อายุ อาการเจ็บ ระยะเวลา และเกณฑ์ว่าแผลที่ไม่หายภายในกี่สัปดาห์จึงต้อง biopsy",
+  "why": "แผลที่<b>เจ็บมาก</b> ในคน<b>อายุน้อย</b> ไม่มีปัจจัยเสี่ยง และเป็นมาเพียง <b>1 สัปดาห์</b> เข้าได้กับ <b>recurrent aphthous stomatitis</b> — แผลกลมหรือรีขอบแดงพื้นเหลืองเทา บนเยื่อบุที่ไม่ยึดกระดูก (แก้ม ริมฝีปากด้านใน ใต้ลิ้น) · minor aphthae &lt; 1 cm หายใน 7–14 วัน · <b>major aphthae (Sutton) ≥ 1 cm</b> ลึกกว่า หายใน 2–6 สัปดาห์และอาจเป็นแผลเป็น · การรักษาคือ<b>ติดตาม</b>ร่วมกับยาบรรเทา (topical corticosteroid เช่น triamcinolone in orabase, น้ำยาบ้วนปากชา/chlorhexidine) และหาสาเหตุร่วม (ขาดธาตุเหล็ก B12 folate, celiac, IBD, Behçet, HIV) · เกณฑ์สำคัญ: <b>แผลในช่องปากที่ไม่หายภายใน 2–3 สัปดาห์</b> หลังกำจัดสิ่งระคายเคืองต้อง biopsy เพื่อแยก squamous cell carcinoma ซึ่งมักพบในผู้สูงอายุ สูบบุหรี่ ดื่มสุรา เคี้ยวหมาก แผลแข็ง (induration) ขอบนูนม้วน และเจ็บน้อยในระยะแรก · ไฟล์ขีด A ลายมือ <b>\"สงสัย CA ↓\"</b> และ <b>\"ควรหายใน 2–3 wk\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลเรื้อรังขอบไม่เรียบในผู้ป่วย HIV ที่สงสัยวัณโรคหรือเชื้อราชนิดลึก → ตัดชิ้นเนื้อส่งพยาธิและเพาะเชื้อ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนนุ่มสีฟ้าใสเล็ก ๆ ที่ริมฝีปากล่าง (mucocele) → ตัดออกทั้งก้อนพร้อมต่อมน้ำลายเล็กที่เป็นต้นเหตุ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การวางขอบผ่าตัด 0.5 cm เป็นมาตรฐานของมะเร็งช่องปาก เพราะระยะ 5 mm คือขอบใสที่ต้องการบนชิ้นเนื้อหลังหดตัว ขอบที่วางตอนผ่าตัดจึงต้องกว้างกว่านั้น",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นชายสูงอายุที่ผลชิ้นเนื้อจากแผลขอบลิ้นเป็น squamous cell carcinoma ระยะต้น"
+   "B": "Incisional biopsy ใช้กับรอยโรคใหญ่ที่<b>สงสัยมะเร็ง</b>เพื่อยืนยันชนิดก่อนวางแผนผ่าตัด ไม่ใช่ขั้นแรกของแผลเจ็บที่เพิ่งเป็น 1 สัปดาห์ในคนอายุน้อย · จะถูกถ้าเป็นชาย 62 ปี สูบบุหรี่และเคี้ยวหมาก มีแผลขอบนูนแข็งขนาด 3 cm ที่ขอบข้างลิ้น เป็นมา 6 สัปดาห์ไม่หาย",
+   "C": "Excisional biopsy เหมาะกับรอยโรคเล็ก (&lt; 1 cm) ที่ตัดออกทั้งก้อนได้พร้อมวินิจฉัย ไม่จำเป็นกับแผลอักเสบที่หายเอง · จะถูกถ้าเป็นหญิง 40 ปี มีก้อนนูนแข็งเรียบขนาด 0.6 cm ที่เยื่อบุแก้มตรงแนวกัดฟัน เป็นมา 6 เดือน (traumatic fibroma)",
+   "D": "Wide excision margin 0.5 cm เป็นการรักษาเนื้องอกที่<b>ยืนยันชนิดแล้ว</b>ที่ต้องการขอบไม่กว้าง ไม่ใช่การจัดการแผลที่ยังไม่รู้ชนิด · จะถูกถ้าเป็นผู้ป่วยที่ biopsy ผิวหนังใบหน้าพบ melanoma in situ ซึ่งแนวทางแนะนำขอบ 0.5–1 cm",
+   "E": "Wide excision margin 1 cm เป็นการผ่าตัดมะเร็งช่องปาก (SCC) ที่ยืนยันแล้ว เพื่อให้ขอบทางพยาธิ ≥ 5 mm ร่วมกับประเมินต่อมน้ำเหลืองที่คอ · จะถูกถ้าเป็นชาย 60 ปีที่ incisional biopsy แผลขอบลิ้นพบ squamous cell carcinoma ความลึก 5 mm ไม่มีต่อมน้ำเหลืองโต (ทำ wide excision + elective neck dissection)"
   },
-  "trap": "ขนาดเกิน 1 cm ไม่ได้แปลว่าเป็นมะเร็ง — major aphthous ใหญ่และเจ็บมากในคนอายุน้อยแต่หายเองได้ ตัดสินจากระยะเวลาที่ไม่หาย ไม่ใช่ขนาด",
+  "trap": "ขนาด &gt; 1 cm และคำว่า \"เจ็บมาก\" ทำให้กลัวมะเร็งจนเลือก biopsy · แต่ลักษณะบ่งว่าอักเสบ: <b>อายุน้อย เจ็บมาก เพิ่งเป็น 7 วัน</b> · มะเร็งมักเจ็บน้อย แข็ง ในผู้สูงอายุที่มีปัจจัยเสี่ยง · ใช้กฎ <b>2–3 สัปดาห์</b>: ไม่หาย → biopsy",
   "summary": [
-   "<b>นอกสไลด์:</b> aphthous ulcer: minor (เล็กกว่า 1 cm หายใน 1–2 สัปดาห์ ไม่มีแผลเป็น) · major (ใหญ่กว่า 1 cm ลึก หายใน 2–6 สัปดาห์ อาจเป็นแผลเป็น) · herpetiform (แผลเล็กจำนวนมาก) — เกิดบนเยื่อบุที่ไม่ติดกระดูก",
-   "<b>นอกสไลด์:</b> รักษาตามอาการ: steroid ทาเฉพาะที่ · น้ำยาบ้วนปากลดปวด/ฆ่าเชื้อ · เลี่ยงอาหารเผ็ดหรือแข็ง"
+   "Recurrent aphthous stomatitis: minor (&lt; 1 cm, หาย 7–14 วัน ไม่เป็นแผลเป็น) · major/Sutton (≥ 1 cm, หาย 2–6 สัปดาห์ เป็นแผลเป็นได้) · herpetiform (แผลเล็กจำนวนมาก)",
+   "รักษา: topical corticosteroid, น้ำยาบ้วนปาก chlorhexidine/ยาชา หลีกเลี่ยงอาหารเผ็ดกรอบ · รายรุนแรง/บ่อย: หาธาตุเหล็ก B12 folate, celiac, IBD, HIV, Behçet",
+   "Behçet: แผลในปากซ้ำ ≥ 3 ครั้ง/ปี + แผลอวัยวะเพศ, uveitis, รอยโรคผิวหนัง, pathergy test บวก",
+   "แผลในปากที่ไม่หายใน 2–3 สัปดาห์ (หลังกำจัดสิ่งระคายเคือง เช่นฟันคม ฟันปลอม) → biopsy แยกมะเร็ง",
+   "Oral SCC: ผู้สูงอายุ บุหรี่ สุรา หมาก HPV (oropharynx) · แผลแข็ง ขอบนูน ตำแหน่งบ่อย: ขอบข้างลิ้น พื้นปาก · leukoplakia/erythroplakia เป็น premalignant (erythroplakia เสี่ยงสูงกว่า)",
+   "ผ่าตัด oral SCC: ขอบทางคลินิก ~1 cm ให้ได้ขอบทางพยาธิ ≥ 5 mm · depth of invasion &gt; 3–4 mm → elective neck dissection"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด A พร้อมลายมือ \"สงสัย CA ↓\" และ \"ควรหายใน 2–3 wk\" · แผลเจ็บมากในชายอายุ 18 ปีที่เพิ่งเป็น 1 สัปดาห์ควรติดตามและรักษาตามอาการก่อน ถ้าไม่หายใน 2–3 สัปดาห์จึง biopsy",
+  "mnemonic": "<b>'แผลปาก \"เจ็บ-เด็ก-ใหม่\" = Aphthous ติดตาม · \"ไม่เจ็บ-แก่-แข็ง-เกิน 3 wk\" = Biopsy'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers (current version) — Cancer of the oral cavity; Cummings Otolaryngology–Head and Neck Surgery 7th ed. (2021) — Oral mucosal lesions",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลในปากเป็นซ้ำหลายครั้งต่อปี ร่วมแผลที่อวัยวะเพศ และตาอักเสบ → Behçet disease: ส่งจักษุแพทย์และพิจารณา colchicine",
-   "<b>นอกสไลด์:</b> aphthous เป็นซ้ำบ่อย ร่วมท้องเสียเรื้อรังและน้ำหนักลด → หา celiac disease หรือ Crohn และตรวจธาตุเหล็ก B12 folate"
+   "หญิง 20 ปี แผลในปากเล็ก ๆ 2–3 แผล เจ็บ เป็นซ้ำทุกช่วงสอบ หายเองใน 10 วัน → minor aphthous ulcer ใช้ steroid ทาและติดตาม",
+   "ชาย 25 ปี แผลในปากซ้ำ ๆ ร่วมกับแผลที่ถุงอัณฑะและตาแดงมัว → Behçet disease ส่งต่ออายุรแพทย์โรคข้อและจักษุแพทย์",
+   "ชาย 55 ปี ฟันปลอมหลวมเสียดสี มีแผลที่เหงือก → ปรับฟันปลอมแล้วนัดดู 2 สัปดาห์ ถ้ายังไม่หาย biopsy",
+   "หญิง 60 ปี มีปื้นแดงกำมะหยี่ที่พื้นปากขนาด 1.5 cm → erythroplakia เสี่ยงมะเร็งสูง ทำ biopsy เลย"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>37. ชายสิบแปดปี มีแผลในปาก 1*1.5 cm เจ็บมาก มา 7 วัน ต้องทำอะไร. — A. ติดตามต่อ B. Incision C. Excision D. Wide excision 0.5 cm E. Wide excision 1cm</b> (ช้อย E อยู่คอลัมน์ขวาบนของหน้า)<br>ลายมือ: ขีด A · ใส่เครื่องหมายคำพูดรอบ \"เจ็บมาก\" · เขียน \"สงสัย CA ↓\" เหนือ และ \"ควรหายใน 2–3 wk\" ใต้คำว่าเจ็บมาก<br>ไฮไลต์: \"ชายสิบแปดปี\" · \"แผลในปาก 1*1.5 cm\" · \"เจ็บมาก มา 7 วัน\" · \"ติดตามต่อ\" (เหลือง)<br>ที่ปรับในเว็บ: ช้อยภาษาไทยแปลเป็นอังกฤษ (B incisional biopsy, C excisional biopsy)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_37"
   ]
  },
  "MDCU66|RoD|38": {
-  "interp": "ถามเนื้องอกที่พบบ่อยที่สุดใน anterior mediastinum (ไม่ระบุอายุ → ตอบตามผู้ใหญ่)",
-  "why": "<b>สไลด์: thymoma</b><br><b>นอกสไลด์:</b> ในผู้ใหญ่ thymoma เป็นก้อน anterior mediastinum ที่พบบ่อยที่สุด (กลุ่ม 4T: thymoma, teratoma/germ cell, \"terrible\" lymphoma, thyroid)",
+  "interp": "ถามเนื้องอกที่<b>พบบ่อยที่สุดใน anterior mediastinum</b> — ต้องรู้การแบ่งช่อง mediastinum และรายการก้อนประจำแต่ละช่อง (anterior = \"4T\") แล้วเลือกตัวที่พบบ่อยที่สุดในผู้ใหญ่ พร้อมแยกจากก้อนประจำช่องอื่น",
+  "why": "ก้อนใน anterior (prevascular) mediastinum จำด้วย <b>\"4T\"</b>: <b>Thymoma</b>, Teratoma/germ cell tumor, Thyroid (retrosternal goiter) และ \"Terrible\" lymphoma · ในผู้ใหญ่ <b>thymoma เป็น primary neoplasm ที่พบบ่อยที่สุดของ anterior mediastinum</b> (ราวครึ่งหนึ่งของก้อนช่องนี้ และราว 20% ของก้อน mediastinum ทั้งหมด) พบมากช่วงอายุ 40–60 ปี ชายหญิงพอกัน · มาด้วยไม่มีอาการ (พบจาก CXR) อาการกดเบียด (ไอ เจ็บอก SVC syndrome) หรือ <b>paraneoplastic</b>: <b>myasthenia gravis</b> (ผู้ป่วย thymoma ~30–50% มี MG และผู้ป่วย MG ~10–15% มี thymoma), pure red cell aplasia, hypogammaglobulinemia (Good syndrome) · staging ด้วย Masaoka–Koga ตามการลุกลามผ่าน capsule · รักษาหลักคือ<b>ผ่าตัดเอาออกทั้งหมด</b> (thymectomy ผ่าน median sternotomy หรือ minimally invasive) ± ฉายรังสีเมื่อลุกลาม · ในเด็กก้อน anterior ที่พบบ่อยคือ lymphoma ส่วน neurogenic tumor อยู่ posterior · ไฟล์ขีด A และแปะสไลด์ <b>\"THYMOMA — Most common neoplasm of anterior mediastinum and second most common of mediastinal mass\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ teratoma เป็นเนื้องอก anterior mediastinum ที่พบบ่อยที่สุด เพราะ germ cell tumor ทั้งกลุ่มเป็นส่วนน้อยของก้อนในช่องนี้ และ teratoma เป็นเพียงชนิดหนึ่งในกลุ่มนั้น",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไทรอยด์เป็นเนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum ที่พบบ่อยที่สุด เพราะก้อนไทรอยด์ในช่องอกส่วนใหญ่คือต่อมที่คอโตลงมาหลังกระดูกอก (retrosternal goiter) ไม่ได้เกิดใน mediastinum เอง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเป็นเด็กหรือวัยรุ่น — ก้อน anterior mediastinum ที่พบบ่อยที่สุดในกลุ่มนี้คือ lymphoma",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ neurogenic tumor เป็นเนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum เพราะเกิดจากเส้นประสาทข้างกระดูกสันหลัง ซึ่งอยู่ใน posterior (paravertebral) compartment"
+   "B": "Teratoma (mature cystic) เป็น germ cell tumor ที่พบบ่อยที่สุดของ mediastinum อยู่ใน anterior เช่นกัน CT เห็น<b>ไขมัน น้ำ หินปูน หรือฟัน</b>ในก้อนเดียว แต่พบน้อยกว่า thymoma · จะถูกถ้าเป็นชาย 22 ปี ไอมีเส้นผมปนออกมา (trichoptysis) CT พบก้อน anterior mediastinum มี fat-fluid level และ calcification AFP/beta-hCG ปกติ",
+   "C": "Retrosternal goiter เป็นต่อมไทรอยด์ที่โตลงไปหลังกระดูกอก อยู่ anterior/superior mediastinum ต่อเนื่องกับคอ แต่ไม่ใช่เนื้องอกปฐมภูมิของช่องนี้ · จะถูกถ้าเป็นหญิง 65 ปี คอโตหลายปี หายใจเสียงดังเวลานอนราบ CT เห็นก้อนไทรอยด์ต่อเนื่องจากคอลงหลัง sternum ดันหลอดลมไปขวา (ผ่าตัดทางคอได้เกือบทุกราย)",
+   "D": "Lymphoma (nodular sclerosis Hodgkin, primary mediastinal B-cell, lymphoblastic) เป็นก้อน anterior ที่พบบ่อยใน<b>เด็กและวัยรุ่น</b> และมักมีต่อมน้ำเหลืองที่อื่นร่วม แต่ในผู้ใหญ่ทั่วไป thymoma พบบ่อยกว่าในฐานะเนื้องอกปฐมภูมิ · จะถูกถ้าเป็นเด็กชาย 12 ปี หน้าบวม หลอดเลือดดำที่คอโป่ง นอนราบไม่ได้ CT ก้อน anterior mediastinum ใหญ่ LDH สูง (T-lymphoblastic lymphoma)",
+   "E": "Neurogenic tumor (schwannoma, neurofibroma ในผู้ใหญ่; neuroblastoma, ganglioneuroma ในเด็ก) เป็นก้อนที่พบบ่อยที่สุดของ <b>posterior (paravertebral) mediastinum</b> และพบบ่อยที่สุดของ mediastinum ในเด็ก ไม่อยู่ anterior · จะถูกถ้าเป็นหญิง 35 ปี ไม่มีอาการ CXR พบก้อนกลมขอบเรียบที่ costovertebral sulcus MRI เห็นก้อนต่อเนื่องเข้า neural foramen (dumbbell)"
   },
-  "trap": "คำตอบเปลี่ยนตามอายุ: ผู้ใหญ่ = thymoma · เด็ก = lymphoma",
+  "trap": "Lymphoma เป็นก้อน anterior mediastinum ที่ถูกพูดถึงบ่อย (และพบมากในเด็ก) จึงชวนเลือก · คำถามถาม <b>most common anterior mediastinal tumor</b> ซึ่งตำราศัลยศาสตร์ตอบ thymoma (ผู้ใหญ่) · ส่วน neurogenic tumor พบบ่อยที่สุดใน mediastinum ของเด็กแต่เป็นช่อง posterior",
   "summary": [
-   "<b>นอกสไลด์:</b> ก้อนใน mediastinum ตามช่อง: anterior → 4T · middle → ถุงน้ำ (bronchogenic, pericardial) และต่อมน้ำเหลือง · posterior → neurogenic tumor",
-   "<b>นอกสไลด์:</b> ผู้ป่วย thymoma มี myasthenia gravis ราว 30–50% · ต้องตรวจหา MG ก่อนผ่าตัด"
+   "Anterior (prevascular): 4T — Thymoma, Teratoma/germ cell, Thyroid, \"Terrible\" lymphoma · middle (visceral): cyst (bronchogenic, pericardial), lymphadenopathy · posterior (paravertebral): neurogenic tumor",
+   "Thymoma: อายุ 40–60 ปี · ไม่มีอาการ ~1/3 · อาการกดเบียด ~1/3 · paraneoplastic: MG, pure red cell aplasia, Good syndrome",
+   "MG: ~10–15% มี thymoma · ผู้ป่วย MG ทุกรายควรทำ CT ทรวงอก · thymectomy ช่วย MG ชนิด AChR antibody บวกแม้ไม่มี thymoma (MGTX trial)",
+   "Thymoma staging Masaoka–Koga: I ไม่ทะลุ capsule · II ทะลุ capsule/เข้าไขมัน · III ลุกลามอวัยวะข้างเคียง · IV pleural/pericardial dissemination หรือแพร่กระจาย",
+   "Germ cell tumor ชายหนุ่ม: seminoma (beta-hCG ปกติหรือสูงเล็กน้อย, AFP ปกติ) · non-seminoma (AFP และ/หรือ beta-hCG สูง) · ตรวจ marker ก่อน biopsy",
+   "ก้อน anterior mediastinum ใหญ่ + ต้องดมยาสลบ: เสี่ยงทางเดินหายใจและหัวใจถูกกดตอนหมดแรงต้าน (anesthetic collapse) → biopsy ภายใต้ยาชาเฉพาะที่ถ้าทำได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด A และสไลด์ที่แปะระบุ thymoma เป็น most common neoplasm of anterior mediastinum · ถ้าคำถามเจาะจงในเด็ก คำตอบจะเปลี่ยนเป็น lymphoma",
+  "mnemonic": "<b>'Anterior = 4T (Thymoma นำ) · Posterior = Neurogenic · Middle = Cyst'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Mediastinum; Shields' General Thoracic Surgery 8th ed. (2019) — Thymic tumors",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายหนุ่มมีก้อน anterior mediastinum ร่วม AFP และ β-hCG สูงมาก → nonseminomatous germ cell tumor: เริ่มเคมีบำบัดได้โดยไม่ต้องรอชิ้นเนื้อ",
-   "<b>นอกสไลด์:</b> ก้อน anterior mediastinum ในผู้ใหญ่ ขอบเรียบ อยู่ในขอบเขต ไม่มีต่อมน้ำเหลืองโต marker ปกติ → สงสัย thymoma ระยะต้น: ผ่าตัดเอาออก (thymectomy) โดยไม่ต้องเจาะชิ้นเนื้อก่อน"
+   "หญิง 50 ปี หนังตาตกและเหนื่อยล้าตอนเย็น anti-AChR บวก CT พบก้อน anterior mediastinum 4 cm → thymoma ทำ thymectomy (median sternotomy)",
+   "ชาย 25 ปี ก้อน anterior mediastinum AFP 2,000 ng/mL → non-seminomatous germ cell tumor ให้ cisplatin-based chemotherapy ก่อน แล้วผ่าตัดเอาก้อนที่เหลือ",
+   "เด็ก 4 ปี ก้อน posterior mediastinum มีหินปูน urine VMA สูง → neuroblastoma",
+   "ผู้ป่วย thymoma ซีดมาก reticulocyte ต่ำ เม็ดเลือดขาวและเกล็ดเลือดปกติ → pure red cell aplasia (paraneoplastic)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>38. ข้อใดเป็น most common anterior mediastinal tumor? — A. thymoma B. teratoma C. thyroid D. lymphoma E. neurogenic tumor</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"most common anterior mediastinal tumor\" · \"thymoma\" (เหลือง)<br>รูปที่แปะ: สไลด์ <b>\"Anterior Mediastinal Tumors — ① THYMOMA · Most common neoplasm of anterior mediastinum and second most common of mediastinal mass · Peak incidence 30–50 years of age · Male = Female · MG is the most common associated (50–80%)\"</b> (ไฮไลต์และขีดเส้นใต้หลายคำ ดอกจันที่ MG) ลายมือตัวเล็ก \"thymoma อาจ ... พวก autoimmune อื่นๆ ได้ด้วย\" · \"สร้าง Ab แปลกๆ จาก thymoma ออกมา\"<br>ที่ปรับในเว็บ: แปลโจทย์เป็นอังกฤษ ช้อยตามไฟล์",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_38"
   ]
  },
  "MDCU66|RoD|39": {
-  "interp": "ภาพผิวหนังมีตุ่มหนองเล็กจำนวนมาก (ตามที่บันทึกไว้) · ถามการวินิจฉัย — แยกการติดเชื้อผิวหนังตามความลึก",
-  "why": "<b>ตาราง infection of skin</b><br><b>นอกสไลด์:</b> ตุ่มหนองเล็กหลายตุ่มที่รูขุมขน ชั้นตื้น = folliculitis (ส่วนใหญ่ S. aureus)",
+  "interp": "ภาพ<b>หนองจุดเล็ก ๆ จำนวนมากบนผิวหนัง</b> — ถามว่าเป็นการติดเชื้อผิวหนังชนิดใด ต้องแยกการติดเชื้อตามความลึกและโครงสร้างที่ติดเชื้อ: รูขุมขนระดับตื้น (folliculitis) → ฝีรอบรูขน (furuncle) → หลายรูขนรวมกัน (carbuncle) เทียบกับ impetigo และ erysipelas",
+  "why": "<b>Folliculitis</b> คือการอักเสบติดเชื้อของ<b>รูขุมขนส่วนตื้น</b> เห็นเป็น<b>ตุ่มหนองเล็ก (1–5 mm) จำนวนมาก แต่ละตุ่มมีเส้นขนอยู่ตรงกลาง</b> บนฐานแดง พบบ่อยที่ต้นขา ก้น หนวดเครา รักแร้ หลังโกนหรือเสียดสี · เชื้อหลัก <b>S. aureus</b> · ชนิดพิเศษ: hot tub folliculitis จาก Pseudomonas, Malassezia folliculitis (คันที่หน้าอกหลัง), pseudofolliculitis barbae · รักษา: น้อย ๆ หายเองหรือใช้ยาทา (mupirocin) ร่วมกับทำความสะอาด หลีกเลี่ยงการโกน · มากหรือเป็นซ้ำใช้ยากินครอบคลุม S. aureus (dicloxacillin/cloxacillin, cephalexin) · ถ้าลึกขึ้นเป็นฝีรอบรูขน = furuncle (I&amp;D) · หลายรูขนรวมกันมีหลายหัว = carbuncle (debridement + ยา) · ไฟล์ขีด C และแปะตารางลายมือ <b>\"Infect of the skin — Folliculitis: น้อยๆ → หายเองได้ · มาก → ATB oral (cloxacillin)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนแดงเจ็บก้อนเดียวลึกรอบรูขุมขนเดียว ตรงกลางมีหัวหนอง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนอักเสบใหญ่ที่ต้นคอด้านหลัง มีหลายรูหนองเชื่อมกัน ในผู้ป่วยเบาหวานที่มีไข้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กที่มีผื่นรอบจมูกและปากเป็นสะเก็ดสีน้ำผึ้ง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผื่นแดงนูนขอบชัดเจนแสบร้อนที่หน้าหรือขา ร่วมไข้"
+   "A": "Furuncle (ฝี/หัวฝี) คือฝีที่ลามลึกจากรูขุมขนเดียวลงชั้น dermis เป็น<b>ตุ่มแดงแข็งกดเจ็บก้อนเดียว</b> ขนาดใหญ่กว่าตุ่มหนองของ folliculitis และมีหัวหนองตรงกลาง รักษาด้วย incision and drainage · จะถูกถ้าเป็นชาย 25 ปี มีก้อนแดงร้อนกดเจ็บ 1.5 cm ที่ต้นคอ มีจุดหนองตรงกลาง 1 จุด",
+   "B": "Carbuncle คือ furuncle หลายอันเชื่อมกันใต้ผิว เป็นก้อนแดงใหญ่แข็ง<b>มีหลายรูเปิด</b> พบที่ต้นคอ หลัง ต้นขา ในผู้ป่วยเบาหวานหรือภูมิคุ้มกันต่ำ มักมีไข้ · จะถูกถ้าเป็นชาย 60 ปี เบาหวานคุมไม่ดี มีก้อนแดงขนาด 5 cm ที่ท้ายทอย มีหนองไหลจากหลายรู ไข้ 38.5 °C (debridement + ยาปฏิชีวนะ)",
+   "D": "Impetigo เป็นการติดเชื้อ<b>ชั้น epidermis</b> (S. aureus, GAS) พบในเด็ก ตุ่มน้ำหรือตุ่มหนองแตกง่ายแล้วเป็น<b>สะเก็ดสีน้ำผึ้ง (honey-colored crust)</b> รอบจมูกปาก ไม่ได้อยู่ที่รูขุมขน · จะถูกถ้าเป็นเด็ก 5 ปี มีรอยแดงมีสะเก็ดสีเหลืองทองรอบจมูกและปาก ลามไปแขนหลังเกา (mupirocin ทา หรือ cephalexin ถ้าหลายจุด)",
+   "E": "Erysipelas เป็นการติดเชื้อ<b>ชั้น dermis ส่วนบนและท่อน้ำเหลือง</b> จาก Streptococcus group A เห็นผื่นแดงนูนสด<b>ขอบชัดยกนูน</b> ร้อน กดเจ็บ มีไข้ ไม่ใช่ตุ่มหนองจุดเล็ก · จะถูกถ้าเป็นหญิง 55 ปี บวมแดงสดขอบนูนชัดที่หน้าแข้งหลังมีแผลเท้าเปื่อย ไข้หนาวสั่น (penicillin)"
   },
-  "trap": "ตุ่มหนองหลายตุ่มอาจชวนคิดถึง impetigo — impetigo เป็นที่หนังกำพร้าไม่ขึ้นกับรูขุมขน และมักแตกเป็นสะเก็ดสีน้ำผึ้ง",
+  "trap": "ตุ่มหนองแปลว่ามีหนอง จึงชวนเลือก furuncle หรือ carbuncle ที่เป็น \"ฝี\" · ตัวแยกคือ<b>ขนาดและจำนวน</b>: ตุ่มหนองเล็กจำนวนมากรอบรูขน = folliculitis · ก้อนเดียวลึก = furuncle · ก้อนใหญ่หลายรูเปิด = carbuncle · สะเก็ดสีน้ำผึ้ง = impetigo",
   "summary": [
-   "<b>นอกสไลด์:</b> การติดเชื้อผิวหนังตามความลึก: impetigo (หนังกำพร้า) · folliculitis (รูขุมขนตื้น) → furuncle (รูขุมขนเดียวลึก) → carbuncle (หลายรูขุมขนเชื่อมกัน) · erysipelas (หนังแท้ส่วนบน ขอบชัด) · cellulitis (หนังแท้ลึกถึงไขมัน ขอบไม่ชัด)",
-   "<b>นอกสไลด์:</b> รักษา: folliculitis → ทำความสะอาด ± ยาทา (mupirocin) · furuncle เล็ก → ประคบอุ่น ใหญ่ → ผ่าระบาย · carbuncle → ผ่าระบาย + ยาปฏิชีวนะ"
+   "ระดับความลึก: impetigo (epidermis) → folliculitis (รูขนตื้น) → furuncle (ฝีรอบรูขน) → carbuncle (หลายรูขนเชื่อมกัน) → erysipelas (dermis บน + lymphatic) → cellulitis (dermis ลึก + ไขมัน) → necrotizing fasciitis (fascia)",
+   "Folliculitis: ตุ่มหนองเล็กมีขนตรงกลาง · S. aureus · Pseudomonas จากอ่างน้ำร้อน/สระ · รักษาด้วยยาทาหรือยากินเมื่อเป็นมาก",
+   "Furuncle/carbuncle/abscess: I&amp;D เป็นหลัก · ให้ยาครอบคลุม MRSA เมื่อมีไข้ SIRS ก้อนใหญ่ ภูมิคุ้มกันต่ำ หรือตำแหน่งระบายยาก",
+   "Cellulitis ไม่มีหนอง (non-purulent) มักเป็น Streptococcus → cephalexin/penicillin · มีหนอง (purulent) มักเป็น S. aureus",
+   "Necrotizing fasciitis: ปวดมากเกินกว่าที่เห็น บวมแข็งเลยขอบแดง ตุ่มน้ำเลือด ก๊าซใต้ผิว ช็อก → ผ่าตัด debridement ด่วน + ยาครอบคลุมกว้าง (ส่วนใหญ่เชื้อผสม)",
+   "Furuncle เป็นซ้ำบ่อย: หา S. aureus carriage ที่จมูก (decolonization ด้วย mupirocin + chlorhexidine) และคัดกรองเบาหวาน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด C และตารางลายมือ Infect of the skin ในไฟล์ · ภาพหนองจุดเล็กจำนวนมากเป็นลักษณะของ folliculitis ช้อย E ในไฟล์ผู้จดจำไม่ได้ เว็บเติม erysipelas",
+  "mnemonic": "<b>'จุดเล็กเยอะ = Folliculitis · ก้อนเดียว = Furuncle · ก้อนใหญ่หลายรู = Carbuncle · สะเก็ดน้ำผึ้ง = Impetigo'</b>",
+  "guide": "Stevens DL, et al. Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the IDSA. Clin Infect Dis 2014;59:e10; Schwartz's Principles of Surgery 11th ed. (2019) — Skin and subcutaneous tissue",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังแช่อ่างน้ำร้อน (hot tub) 2 วัน มีตุ่มหนองคันทั่วลำตัว → Pseudomonas folliculitis: หายเองได้",
-   "<b>นอกสไลด์:</b> ตุ่มคันที่หน้าอกและหลังตามรูขุมขน ไม่ดีขึ้นด้วยยาปฏิชีวนะ ในผู้ที่ได้ steroid → Malassezia folliculitis: ยาต้านเชื้อรา"
+   "ชาย 30 ปี หลังแช่อ่างน้ำร้อนในรีสอร์ต 2 วัน มีตุ่มหนองแดงคันที่ลำตัวใต้ชุดว่ายน้ำ → Pseudomonas (hot tub) folliculitis หายเองได้",
+   "ฝีที่ก้นขนาด 3 cm นุ่มมี fluctuation ไม่มีไข้ → incision and drainage ไม่จำเป็นต้องให้ยาปฏิชีวนะ",
+   "ผู้ป่วยเบาหวาน ขาบวมแดง ปวดมากเกินสัดส่วน ผิวมีตุ่มน้ำเลือด คลำได้กรอบแกรบ → necrotizing fasciitis ผ่าตัด debridement ด่วน",
+   "ผู้ป่วยเป็นฝีซ้ำทุก 1–2 เดือน → ตรวจน้ำตาล swab จมูกหา S. aureus แล้วทำ decolonization"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>39. (รูปหนองจุดเล็กๆ) ถามว่าเป็นความผิดปกติของskin lesionแบบใด — A.furancle B.Carbuncle C.folliculitis D.impetigo E.จำไม่ได้</b><br>ลายมือ: ขีด C<br>ไฮไลต์: \"หนองจุดเล็กๆ\" · \"ความผิดปกติของskin lesionแบบใด\" · \"folliculitis\" (เหลือง)<br>รูปที่แปะ: ตารางลายมือบนกระดาษตาราง <b>\"Infect of the skin\"</b> — Folliculitis: น้อยๆ → หายเองได้ · มาก → ATB oral (cloxacillin) · (เป็นหนองขึ้นมา ↓) Furuncle: I&amp;D + ATB · (มีหลายรูเปิด ↓) Carbuncle (หลายหัว): Debridgement เอา skin ที่ cover ออกให้หมด + ATB · NF: Necrotizing fasciitis: mixed org. · infect ถึงชั้น fascia → ลามเร็ว · Debridge + vacuum dressing + ATB (mixed org.) · ลายมือน้ำเงิน \"fascia ตาย → vss. ตาย → สีผิวคล้ำ...\" พร้อมรูปผิวหนัง 3 รูป (folliculitis, furuncle, carbuncle)<br>ที่ปรับในเว็บ: ไฟล์ช้อย E \"จำไม่ได้\" → เติม erysipelas · แก้สะกด furancle → furuncle",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_39"
   ]
  },
  "MDCU66|RoD|40": {
-  "interp": "หญิงอายุ 20 ปี ไข้สูงหนาวสั่น กดเจ็บ CVA ยาแก้ปวดไม่ช่วย → acute pyelonephritis ที่ควรรับไว้รักษา · ถามการดูแล",
-  "why": "<b>ลายมือ: acute pyelonephritis · b *</b><br><b>นอกสไลด์:</b> ยาปฏิชีวนะทางหลอดเลือดเป็นการรักษาหลัก (ดอกจันที่ b) ร่วมกับการดูแลประคับประคอง — สารน้ำแก้ภาวะขาดน้ำจากไข้และกินไม่ได้ ยาลดไข้ และพัก",
+  "interp": "หญิง 20 ปี <b>ไข้สูง หนาวสั่น CVA tenderness</b> กินยาแก้ปวดแล้วไม่ดีขึ้น = <b>acute pyelonephritis</b> ที่อาการรุนแรงพอจะต้องรับไว้รักษา — ถามการจัดการ ต้องรู้องค์ประกอบการรักษาผู้ป่วยในของ pyelonephritis ทั้งยาฆ่าเชื้อ สารน้ำ และการรักษาตามอาการ",
+  "why": "ไข้หนาวสั่นร่วมกับเคาะเจ็บมุม costovertebral ในหญิงวัยเจริญพันธุ์ = <b>acute pyelonephritis</b> ส่วนใหญ่จาก <b>E. coli</b> ขึ้นจากกระเพาะปัสสาวะ · ข้อบ่งชี้รับไว้ในโรงพยาบาล: ป่วยรุนแรง/sepsis, อาเจียนกินยาไม่ได้, ขาดน้ำ, ตั้งครรภ์, สงสัย obstruction หรือรักษาแบบผู้ป่วยนอกไม่ได้ผล · การรักษาครบชุด: ส่ง <b>urine culture ก่อนให้ยา</b> → <b>IV antibiotic</b> (เช่น ceftriaxone 1–2 g/วัน หรือ aminoglycoside; fluoroquinolone ถ้าเชื้อดื้อในพื้นที่ &lt; 10%) เป็นหัวใจหลัก · <b>IV fluid</b> แก้ภาวะขาดน้ำจากไข้และอาเจียน · <b>antipyretic/analgesic</b> · <b>พักผ่อน</b> · เมื่อดีขึ้นเปลี่ยนเป็นยากินตามผลเพาะเชื้อ รวม 7 วัน (fluoroquinolone) ถึง 10–14 วัน (beta-lactam) · ถ้าไม่ดีขึ้นใน 48–72 ชม. ทำ US/CT หา obstruction หรือ abscess (obstruction + infection ต้องระบายด่วนด้วย stent/nephrostomy) · ไฟล์ขีด e ลายมือ <b>\"acute pyelonephritis\"</b> และดอกจัน <b>\"*\"</b> ที่ IV antibiotics",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การนอนพักอย่างเดียวรักษา pyelonephritis ได้ เพราะการติดเชื้อที่ไตต้องได้ยาฆ่าเชื้อ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยาฆ่าเชื้อเป็นสิ่งเดียวที่ต้องให้ในผู้ป่วยไข้สูงหนาวสั่นที่ต้องนอนโรงพยาบาล เพราะการดูแลประคับประคองต้องทำควบคู่เสมอ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยาลดไข้อย่างเดียวพอ เพราะไม่ได้กำจัดเชื้อ ไข้จะกลับมาจนกว่าจะได้ยาฆ่าเชื้อ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่สารน้ำอย่างเดียวรักษาการติดเชื้อที่ไต เพราะแก้แค่ภาวะขาดน้ำจากไข้และอาเจียน ไม่ได้กำจัดเชื้อ"
+   "A": "Bed rest เป็นส่วนหนึ่งของการดูแล แต่ทำอย่างเดียวไม่รักษาการติดเชื้อที่ไต · จะถูกถ้าเป็นหญิง 20 ปี ปวดหลังส่วนล่างหลังยกของหนัก ไม่มีไข้ ไม่มีอาการปัสสาวะ UA ปกติ (mechanical low back pain ที่พักและให้ยาแก้ปวด)",
+   "B": "IV antibiotics เป็น<b>องค์ประกอบสำคัญที่สุด</b> (ไฟล์ใส่ดอกจัน) แต่ผู้ป่วยไข้สูงที่ต้องนอนโรงพยาบาลควรได้การรักษาร่วมทั้งสารน้ำ ยาลดไข้และพัก จึงไม่ครบเท่า all of the above · จะถูกถ้าเป็นหญิงตั้งครรภ์ 20 สัปดาห์ที่เป็น pyelonephritis ดื่มน้ำได้ดี ไม่ขาดน้ำ ไข้ลดลงแล้ว และสิ่งที่ยังขาดคือ IV ceftriaxone",
+   "C": "ยาลดไข้ช่วยให้สบายตัวแต่ไม่รักษาสาเหตุ และอาจบดบังไข้ที่ใช้ติดตามผลการรักษา · จะถูกถ้าเป็นหญิง 20 ปี ไข้ ปวดเมื่อยตัว ไอ เจ็บคอจากไข้หวัดใหญ่ ไม่มี CVA tenderness UA ปกติ (paracetamol + พักผ่อน)",
+   "D": "IV fluid แก้ภาวะขาดน้ำได้แต่ไม่รักษาการติดเชื้อ · จะถูกถ้าเป็นหญิง 20 ปี อาเจียนถ่ายเหลวเป็นน้ำ 10 ครั้งจาก acute gastroenteritis ปากแห้ง ชีพจรเร็ว ไม่มีไข้สูงหรือ CVA tenderness"
   },
-  "trap": "ไข้สูง หนาวสั่น กดเจ็บ CVA = pyelonephritis ไม่ใช่ cystitis — ยาที่ใช้กับ cystitis ระยะสั้น (fosfomycin, nitrofurantoin) ไม่ถึงเนื้อไต ห้ามใช้",
+  "trap": "ช้อย IV antibiotics ถูกที่สุดในเชิงหลักการ (ลายมือในไฟล์ก็ใส่ดอกจัน) จึงชวนตอบ B · แต่เมื่อมี <b>all of the above</b> และทุกข้อเป็นสิ่งที่ทำจริงกับผู้ป่วยในที่ไข้สูงหนาวสั่น ต้องเลือกข้อที่ครบที่สุด · อย่าลืมส่ง urine culture ก่อนให้ยา",
   "summary": [
-   "<b>นอกสไลด์:</b> acute pyelonephritis หญิงไม่ตั้งครรภ์: กินได้ ไม่มี sepsis → ยากินแบบผู้ป่วยนอก · รับไว้เมื่อกินไม่ได้/อาเจียน, sepsis, ตั้งครรภ์, สงสัยทางเดินปัสสาวะอุดกั้น หรือไม่ดีขึ้น → ยาฉีด (เช่น ceftriaxone) · ส่งเพาะเชื้อปัสสาวะก่อนให้ยาทุกราย",
-   "<b>นอกสไลด์:</b> ไม่ดีขึ้นใน 48–72 ชม. → US หรือ CT หาการอุดกั้นหรือฝี"
+   "Acute pyelonephritis: ไข้ หนาวสั่น ปวดเอว CVA tenderness ± อาการกระเพาะปัสสาวะ คลื่นไส้อาเจียน · เชื้อหลัก E. coli",
+   "ทุกรายส่ง urine culture + sensitivity ก่อนให้ยา · blood culture เมื่อป่วยรุนแรง",
+   "ผู้ป่วยนอก: ciprofloxacin 7 วัน หรือ levofloxacin 5–7 วัน (ถ้าเชื้อดื้อในพื้นที่ &lt; 10%) หรือให้ ceftriaxone เข็มแรกแล้วกินยาต่อ",
+   "ผู้ป่วยใน: IV ceftriaxone/aminoglycoside/carbapenem (ถ้าเสี่ยง ESBL) + IV fluid + ยาลดไข้ → เปลี่ยนยากินเมื่อไข้ลง 24–48 ชม.",
+   "ไม่ดีขึ้นใน 48–72 ชม. → US/CT หา obstruction, renal/perinephric abscess, emphysematous pyelonephritis (เบาหวาน)",
+   "Obstructed infected kidney (นิ่วอุด + ติดเชื้อ) = urologic emergency → ระบายด้วย ureteral stent หรือ percutaneous nephrostomy ก่อน แล้วค่อยรักษานิ่ว"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด e พร้อมลายมือ \"acute pyelonephritis\" · ลายมือดอกจันที่ b บ่งว่า IV antibiotics คือหัวใจ แต่ผู้ป่วยไข้สูงหนาวสั่นต้องได้การดูแลร่วมทุกข้อ",
+  "mnemonic": "<b>'Pyelo นอน รพ. = Culture ก่อน → \"ยา-น้ำ-ลดไข้-พัก\" (ไม่ดีขึ้น 72 ชม. → Imaging)'</b>",
+  "guide": "EAU Guidelines on Urological Infections (2024); Gupta K, et al. International Clinical Practice Guidelines for the Treatment of Acute Uncomplicated Cystitis and Pyelonephritis in Women: 2010 Update by IDSA/ESCMID. Clin Infect Dis 2011;52:e103",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ 28 สัปดาห์เป็น pyelonephritis → รับไว้ให้ยาฉีด (เลี่ยง fluoroquinolone) หลังหายพิจารณายาป้องกันต่อจนคลอด",
-   "<b>นอกสไลด์:</b> ผู้ป่วยเบาหวานเป็น pyelonephritis ไม่ดีขึ้น CT เห็นลมในเนื้อไต → emphysematous pyelonephritis: ระบายผ่านผิวหนังหรือผ่าตัดไต"
+   "หญิง 25 ปี ไข้ ปวดเอวขวา กินน้ำและยาได้ ไม่อาเจียน → ผู้ป่วยนอก ciprofloxacin 7 วัน หลังส่ง urine culture",
+   "หญิงตั้งครรภ์ 28 สัปดาห์ ไข้ CVA tenderness → รับไว้ IV ceftriaxone (หลีกเลี่ยง fluoroquinolone)",
+   "ผู้ป่วยเบาหวาน pyelonephritis ให้ยา 3 วันไข้ไม่ลง CT พบก๊าซในเนื้อไต → emphysematous pyelonephritis (ระบาย ± nephrectomy)",
+   "ไข้หนาวสั่นร่วมกับนิ่วอุดท่อไตและ hydronephrosis → ใส่ ureteral stent หรือ nephrostomy ด่วนร่วมกับยาปฏิชีวนะ"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>40. หญิง 20 ปี มีอาการไข้สูงหนาวสั่น CVA tenderness กินยาแก้ปวดแล้วไม่ดีขึ้น จะmanage อย่างไร — a. bed rest b.iv antibiotics c.anti pyrytics d.iv fluid e.all of above</b><br>ลายมือ: ขีด e · เขียน \"acute pyelonephritis\" เหนือโจทย์ · ดอกจันแดง \"*\" ท้าย iv antibiotics<br>ไฮไลต์: \"หญิง 20 ปี\" · \"ไข้สูงหนาวสั่น CVA tenderness\" · \"ยาแก้ปวดแล้วไม่ดีขึ้น\" · \"manage\" · ทุกช้อย a–d (เหลือง)<br>ที่ปรับในเว็บ: แปลโจทย์เป็นอังกฤษ · แก้สะกด anti pyrytics → antipyretics",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_40"
   ]
  },
  "MDCU66|RoD|41": {
-  "interp": "ถามการตรวจที่ \"ยืนยัน\" การวินิจฉัย UTI — แยกจากการตรวจคัดกรองทางอ้อม",
-  "why": "<b>คีย์: ขีด C</b><br><b>นอกสไลด์:</b> การเพาะเชื้อปัสสาวะบอกทั้งชนิดเชื้อ ปริมาณ และความไวต่อยา · เกณฑ์ดั้งเดิมคือ midstream ขึ้นเชื้อชนิดเดียวตั้งแต่ 10⁵ CFU/mL",
+  "interp": "ถามสิ่งที่เป็น <b>definitive diagnosis ของ UTI</b> — ต้องแยกการตรวจคัดกรอง/สนับสนุน (pyuria, nitrite, leukocyte esterase, ลักษณะปัสสาวะ) ออกจากการตรวจที่ยืนยันว่ามีเชื้อแบคทีเรียในทางเดินปัสสาวะจริงและบอกชนิดเชื้อได้",
+  "why": "การวินิจฉัย UTI อาศัย<b>อาการ + หลักฐานว่ามีเชื้อ</b> · การตรวจที่ยืนยันได้คือ <b>urine culture</b> จากปัสสาวะเก็บถูกวิธี (clean-catch midstream) ที่พบเชื้อ <b>≥ 10⁵ CFU/mL</b> ของเชื้อชนิดเดียว — เกณฑ์ดั้งเดิมของ Kass ซึ่งแยกการติดเชื้อจริงจากการปนเปื้อน · ในหญิงที่มีอาการ cystitis เกณฑ์ ≥ 10³ CFU/mL ก็มีความหมาย · ปัสสาวะจากสายสวน ≥ 10³ · จาก suprapubic aspiration พบเชื้อเท่าใดก็มีความหมาย · culture ยังให้ <b>ชนิดเชื้อและความไวต่อยา</b> ซึ่งจำเป็นใน complicated UTI, pyelonephritis, ผู้ชาย, ตั้งครรภ์ และ UTI ซ้ำ · ส่วน pyuria, nitrite และ leukocyte esterase เป็นการตรวจคัดกรองที่รวดเร็วแต่ให้ผลบวกลวง/ลบลวงได้ · ไฟล์ขีด C <b>culture &gt; 100000</b> (ไม่มีลายมือเพิ่ม)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เม็ดเลือดขาวในปัสสาวะยืนยัน UTI เพราะพบได้โดยไม่มีเชื้อแบคทีเรียทั่วไป (นิ่ว วัณโรคทางเดินปัสสาวะ chlamydia)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ nitrite บวกเป็นการยืนยัน เพราะบอกได้แค่ว่ามีเชื้อที่เปลี่ยน nitrate เป็น nitrite ไม่บอกชนิดเชื้อหรือความไวต่อยา",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ leukocyte esterase บวกเป็นการยืนยัน เพราะวัดเอนไซม์จากเม็ดเลือดขาวซึ่งบวกลวงได้จากตกขาวปน และไม่บอกเชื้อ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ปัสสาวะขุ่นยืนยัน UTI เพราะขุ่นได้จากผลึกฟอสเฟตหรือยูเรต และเซลล์ โดยไม่มีเชื้อ"
+   "A": "Pyuria (WBC &gt; 10/HPF หรือ ≥ 10/µL) บ่งว่ามีการอักเสบในทางเดินปัสสาวะ ไวสูงแต่ไม่จำเพาะ — พบได้ใน sterile pyuria (TB ทางเดินปัสสาวะ, นิ่ว, chlamydia, interstitial nephritis) · จะถูกถ้าเป็นผู้ป่วยที่มี WBC ในปัสสาวะสูงต่อเนื่องแต่เพาะเชื้อธรรมดาไม่ขึ้นหลายครั้ง (sterile pyuria) และต้องส่ง urine AFB culture หา genitourinary TB",
+   "B": "Nitrite บวกเมื่อเชื้อกลุ่ม Enterobacterales เปลี่ยน nitrate เป็น nitrite จึง<b>จำเพาะสูงแต่ไวต่ำ</b> (เชื้อ Enterococcus, Staphylococcus saprophyticus ไม่สร้าง และต้องค้างในกระเพาะ ≥ 4 ชม.) · จะถูกถ้าเป็นหญิง 25 ปี ปัสสาวะแสบขัดบ่อย ตรวจ dipstick ปัสสาวะแรกตอนเช้าพบ nitrite บวก (สนับสนุน cystitis จาก E. coli ให้ยาได้เลยไม่ต้องรอเพาะเชื้อ)",
+   "D": "Leukocyte esterase เป็นเอนไซม์จากเม็ดเลือดขาวบน dipstick ใช้แทนการนับ pyuria ไวราว 75–95% แต่บอกเพียงว่ามีเม็ดเลือดขาว ไม่ยืนยันเชื้อ · จะถูกถ้าเป็นหญิงที่มีอาการ cystitis ชัดและต้องการตรวจข้างเตียงอย่างเร็ว โดยผล LE บวกร่วมกับอาการเพียงพอให้เริ่มยาโดยไม่ต้องรอ culture",
+   "E": "ปัสสาวะขุ่นเกิดได้จาก crystal (phosphate) อาหาร หรือเมือก ไม่จำเพาะต่อการติดเชื้อ และปัสสาวะใสก็ไม่ตัด UTI · ไม่ควรใช้วินิจฉัยหรือส่งตรวจในผู้สูงอายุที่ไม่มีอาการ · จะถูกถ้าเป็นผู้ป่วยที่ขาดน้ำ ปัสสาวะขุ่นขาวหลังมื้ออาหาร ตรวจพบ amorphous phosphate ซึ่งหายเมื่อเติมกรด (ไม่ใช่การติดเชื้อ)"
   },
-  "trap": "เก็บปัสสาวะไม่ถูกวิธี (ไม่ใช่ midstream หรือทิ้งไว้นาน) ทำให้เชื้อขึ้นปนเปื้อน — ขึ้นหลายชนิดหรือพบเซลล์ squamous มาก = ปนเปื้อน ไม่ใช่ UTI",
+  "trap": "Dipstick (nitrite, LE) และ pyuria ใช้บ่อยในห้องฉุกเฉินจึงรู้สึกว่าพอวินิจฉัย · แต่คำว่า <b>definitive</b> หมายถึงการพิสูจน์ว่ามีเชื้อจำนวนมีนัยสำคัญ = <b>culture</b> · ระวังเรื่องเกณฑ์: 10⁵ เป็นเกณฑ์คลาสสิก แต่หญิงมีอาการ ≥ 10³ ก็มีความหมาย",
   "summary": [
-   "<b>นอกสไลด์:</b> จำนวนเชื้อที่มีความหมายขึ้นกับวิธีเก็บและอาการ: midstream ไม่มีอาการ ≥ 10⁵ · หญิงมีอาการ cystitis ราว ≥ 10³ ก็มีความหมาย · จากสายสวนที่มีอาการ ≥ 10³ · เจาะผ่านหน้าท้อง (suprapubic) ขึ้นเชื้อเท่าใดก็ถือว่าติด",
-   "<b>นอกสไลด์:</b> nitrite ลบลวงได้ในเชื้อที่ไม่เปลี่ยน nitrate (Enterococcus) หรือปัสสาวะค้างในกระเพาะไม่นานพอ"
+   "UTI = อาการ + bacteriuria มีนัยสำคัญ · culture ≥ 10⁵ CFU/mL (clean-catch) · หญิงมีอาการ cystitis ≥ 10³ · catheter ≥ 10³ · suprapubic aspiration พบเชื้อใดก็ตาม",
+   "Asymptomatic bacteriuria: culture ≥ 10⁵ สองครั้งในหญิงโดยไม่มีอาการ · รักษาเฉพาะหญิงตั้งครรภ์และก่อนหัตถการทางเดินปัสสาวะที่ทำให้เลือดออก",
+   "Dipstick: nitrite จำเพาะสูง ไวต่ำ · LE ไวกว่า · ทั้งคู่ลบในผู้มีอาการชัดยังไม่ตัด UTI",
+   "Uncomplicated cystitis ในหญิง: วินิจฉัยจากอาการได้ ไม่จำเป็นต้อง culture · ยา: nitrofurantoin 5 วัน, fosfomycin ครั้งเดียว, TMP-SMX 3 วัน (ถ้าเชื้อดื้อ &lt; 20%)",
+   "ต้อง culture: pyelonephritis, ผู้ชาย, ตั้งครรภ์, complicated UTI, UTI ซ้ำ, ไม่ตอบสนองต่อยา",
+   "Sterile pyuria: TB, นิ่ว, chlamydia/gonorrhea, interstitial nephritis, ได้ยาปฏิชีวนะมาก่อนเก็บปัสสาวะ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด C (culture &gt; 100000) · ช้อยอื่นเป็นการตรวจคัดกรอง/สนับสนุน ไฟล์มีช้อย 3 ข้อ เว็บเติม leukocyte esterase และ cloudy urine ซึ่งก็ไม่ใช่การยืนยันเช่นกัน",
+  "mnemonic": "<b>'Dipstick = คัดกรอง · Culture ≥ 10⁵ = ยืนยัน (Definitive = Dish)'</b>",
+  "guide": "EAU Guidelines on Urological Infections (2024); Nicolle LE, et al. Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by IDSA. Clin Infect Dis 2019;68:e83",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ไม่มีอาการ เพาะเชื้อปัสสาวะ ≥ 10⁵ CFU/mL → asymptomatic bacteriuria: รักษาเพราะเสี่ยง pyelonephritis",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุในบ้านพักคนชรา ไม่มีไข้ ไม่มีอาการทางปัสสาวะ ปัสสาวะขุ่นมีกลิ่น เพาะเชื้อขึ้น → ไม่รักษา"
+   "หญิง 30 ปี ปัสสาวะแสบขัดบ่อย 2 วัน ไม่มีไข้ ไม่ตั้งครรภ์ → วินิจฉัยจากอาการ ให้ nitrofurantoin 5 วัน ไม่ต้อง culture",
+   "หญิงตั้งครรภ์ 12 สัปดาห์ ไม่มีอาการ urine culture ขึ้น E. coli 10⁵ CFU/mL → asymptomatic bacteriuria ต้องรักษา",
+   "ชาย 75 ปี ใส่สายสวนคา ปัสสาวะขุ่น ไม่มีไข้หรืออาการใด → ไม่ต้องส่ง culture หรือให้ยา (catheter-associated asymptomatic bacteriuria)",
+   "ผู้ป่วย pyuria ต่อเนื่อง culture ไม่ขึ้น 3 ครั้ง มีไข้ต่ำ ๆ น้ำหนักลด → urine AFB culture หา genitourinary TB"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>41. ข้อใดเป็นdefinitive diagnosis of UTI — A. WBC&gt;10/HPF B.nitirte positive C.culture&gt;100000</b><br>ลายมือ: ขีด C (ไม่มีข้อความลายมืออื่น)<br>ไฮไลต์: \"definitive diagnosis of UTI\" · \"culture&gt;100000\" (เหลือง)<br>ที่ปรับในเว็บ: ไฟล์มีช้อย 3 ข้อ → เติม D (positive leukocyte esterase), E (cloudy urine) · แก้สะกด nitirte → nitrite · ระบุหน่วย CFU/mL",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_41"
   ]
  },
  "MDCU66|RoD|42": {
-  "interp": "ถามผู้ป่วยแผลไหม้ที่ต้องรับไว้ใน burn unit",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> แผลไหม้ระดับสาม (full thickness) เข้าเกณฑ์ส่งต่อด่วนทุกขนาด และอยู่ที่ใบหน้าและคอซึ่งเป็นตำแหน่งพิเศษ (หน้าที่ ความสวยงาม ทางหายใจ) — ABA 2022",
+  "interp": "ถามผู้ป่วยแผลไหม้รายใดที่<b>ต้องส่งเข้า burn unit</b> — ต้องรู้เกณฑ์ส่งต่อศูนย์แผลไหม้ (ความลึก ขนาด TBSA และ<b>ตำแหน่งพิเศษ</b>) และรู้ว่า first-degree/superficial burn ไม่นับใน TBSA",
+  "why": "เกณฑ์ส่งต่อ burn center ของ <b>American Burn Association</b> (ใช้ใน ATLS) ได้แก่: partial-thickness burn <b>&gt; 10% TBSA</b> · <b>full-thickness (third-degree) burn ทุกขนาดทุกอายุ</b> · แผลไหม้ที่<b>ใบหน้า มือ เท้า อวัยวะเพศ ฝีเย็บ หรือข้อใหญ่</b> · electrical burn (รวมฟ้าผ่า) · chemical burn · inhalation injury · ผู้มีโรคประจำตัวที่ทำให้การรักษายากหรือเสี่ยงตายสูง · บาดเจ็บร่วมที่แผลไหม้เป็นความเสี่ยงหลัก · เด็กในโรงพยาบาลที่ไม่มีบุคลากร/อุปกรณ์ · ผู้ต้องการการดูแลด้านสังคม จิตใจ หรือฟื้นฟูระยะยาว · ผู้ป่วยช้อย A ครบสองเกณฑ์: <b>third-degree</b> และอยู่ที่<b>ใบหน้าและคอ</b> ซึ่งต้องผ่าตัดตัดเนื้อตายและปลูกผิวหนังโดยทีมเฉพาะ เสี่ยงทางเดินหายใจบวม แผลหดรั้ง (ectropion, microstomia, คอติด) และปัญหาความสวยงาม · หมายเหตุ: first-degree (superficial) burn ไม่นับใน TBSA และไม่ต้องให้สารน้ำตาม Parkland · ไฟล์ขีด A <b>\"Third degree burn 5% บริเวณหน้า\"</b> (ไฟล์มีช้อยเดียว)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่แผลไหม้ระดับหนึ่งต้องส่ง burn unit เพราะเป็นแผลชั้นหนังกำพร้าที่ไม่นับใน %TBSA และหายเองไม่เป็นแผลเป็น",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าแผลที่แขนเกิดจากไฟฟ้าแรงสูง (≥ 1,000 V) — แผลภายนอกเล็กแต่กล้ามเนื้อภายในเสียหายมาก",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ sunburn บริเวณไหล่ต้องรับไว้ใน burn unit เพราะเป็นแผลตื้นพื้นที่จำกัด รักษาแบบผู้ป่วยนอกด้วยยาแก้ปวดและครีมให้ความชุ่มชื้น",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าแผลที่ต้นขาเกิดจากสารเคมี (กรดหรือด่าง) ซึ่งเข้าเกณฑ์ส่งต่อทุกขนาด เพราะทำลายเนื้อเยื่อต่อเนื่องจนลึกกว่าที่เห็น"
+   "B": "First-degree burn เป็นชั้น epidermis เท่านั้น ผิวแดงเจ็บไม่มีตุ่มน้ำ หายใน 3–7 วันโดยไม่มีแผลเป็น และ<b>ไม่นับรวมใน TBSA</b> แม้กว้าง 10% · จะถูกถ้าเป็นชาย 30 ปี หลังทำงานกลางแจ้งทั้งวัน แผ่นหลังแดงแสบ ไม่มีตุ่มน้ำ ดูแลแบบผู้ป่วยนอกด้วยยาแก้ปวดและ moisturizer",
+   "C": "Second-degree (partial-thickness) 2% ที่แขนท่อนล่าง ขนาดเล็กและไม่อยู่ตำแหน่งพิเศษ รักษาแบบผู้ป่วยนอกได้ด้วยการล้างแผลและ dressing · จะถูกถ้าเป็นหญิง 35 ปี น้ำร้อนลวกแขนท่อนล่างมีตุ่มน้ำขนาดราวฝ่ามือเศษ ๆ ไม่มีบาดเจ็บอื่น (ทำแผล silver dressing นัดติดตาม)",
+   "D": "Sunburn เป็น first-degree burn จากรังสี UV ผิวแดงแสบ ไม่ต้องรับไว้ ยกเว้นมีตุ่มน้ำกว้างหรือขาดน้ำรุนแรง · จะถูกถ้าเป็นวัยรุ่นหลังเที่ยวทะเลทั้งวัน ไหล่แดงแสบ ไม่มีไข้หรือตุ่มน้ำ (ประคบเย็น NSAID ทาว่านหางจระเข้/moisturizer)",
+   "E": "Superficial burn 3% ที่ต้นขาไม่นับใน TBSA และหายเองได้ ไม่ใช่ตำแหน่งพิเศษ · จะถูกถ้าเป็นเด็กโต 10 ปี ถูกไอน้ำร้อนพ่นที่ต้นขา ผิวแดงเจ็บไม่มีตุ่มน้ำ capillary refill ดี (ดูแลที่บ้าน)"
   },
-  "trap": "ใบหน้าและคอมี %TBSA น้อย แต่ความลึกและตำแหน่งทำให้ต้องส่งต่อ — ตัดสินจากความลึก ตำแหน่ง และกลไกร่วมกัน",
+  "trap": "ช้อยที่ % มากกว่า (10%) ชวนเลือกเพราะดูใหญ่ · แต่ first-degree ไม่นับ TBSA เลย · เกณฑ์ส่งต่อให้น้ำหนักกับ<b>ความลึก (full-thickness ทุกขนาด)</b> และ<b>ตำแหน่งพิเศษ</b> (หน้า มือ เท้า อวัยวะเพศ ฝีเย็บ ข้อใหญ่) มากกว่าตัวเลข % อย่างเดียว",
   "summary": [
-   "<b>นอกสไลด์:</b> ABA 2022 ส่งต่อด่วน: full thickness ทุกขนาด · partial thickness ≥ 10% TBSA · deep partial/full thickness ที่หน้า มือ เท้า อวัยวะเพศ perineum ข้อใหญ่ (superficial partial ที่ตำแหน่งเหล่านี้ไม่นับ) · ไฟฟ้า ≥ 1,000 V หรือฟ้าผ่า · สารเคมี · สูดควัน",
-   "<b>นอกสไลด์:</b> ABA 2022 ควรปรึกษา: partial thickness &lt; 10% · แผลที่อาจลึก · ไฟฟ้า &lt; 1,000 V · เด็ก ≤ 14 ปีหรือ &lt; 30 kg อาจได้ประโยชน์จากการส่งต่อ"
+   "ความลึก: superficial/1st (epidermis แดงเจ็บ) · superficial partial/2nd (ตุ่มน้ำ ชุ่ม เจ็บมาก) · deep partial (ซีด เจ็บน้อยลง) · full-thickness/3rd (แข็งคล้ายหนัง ขาว/น้ำตาล ไม่เจ็บ)",
+   "TBSA: Rule of 9 (ผู้ใหญ่: ศีรษะ-คอ 9, แขนข้างละ 9, ขาข้างละ 18, ลำตัวหน้า 18, หลัง 18, ฝีเย็บ 1) · ฝ่ามือรวมนิ้วผู้ป่วย ≈ 1% · เด็กใช้ Lund–Browder",
+   "ABA referral: partial-thickness &gt; 10% · full-thickness ทุกขนาด · หน้า มือ เท้า อวัยวะเพศ ฝีเย็บ ข้อใหญ่ · electrical · chemical · inhalation · โรคประจำตัว/บาดเจ็บร่วม · เด็ก · ต้องการฟื้นฟู",
+   "Parkland: 4 mL × kg × %TBSA (partial + full เท่านั้น) ใน 24 ชม. แรก · ครึ่งหนึ่งใน 8 ชม. แรกนับจากเวลาไหม้ · ATLS 10th เริ่ม 2 mL/kg/%TBSA ในผู้ใหญ่ แล้วปรับตาม urine output 0.5 mL/kg/ชม. (เด็ก 1 mL/kg/ชม.)",
+   "Inhalation injury: ไหม้ในที่ปิด ขนจมูกไหม้ เขม่าในปาก เสียงแหบ stridor → ใส่ท่อช่วยหายใจแต่เนิ่น · ตรวจ carboxyhemoglobin",
+   "Circumferential full-thickness burn ที่แขนขา/ทรวงอก → escharotomy เมื่อเลือดไปเลี้ยงปลายลดหรือหายใจไม่พอ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง — ไฟล์ต้นฉบับมีช้อยเดียว Claude เติม B–E และแก้ช้อย A จาก \"5% of face\" เป็น \"face and neck\" เพราะใบหน้าอย่างเดียวราว 3–4% TBSA",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด A (ไฟล์มีช้อยเดียว) · third-degree ที่ใบหน้าเข้าเกณฑ์ส่งต่อทั้งด้านความลึกและตำแหน่ง · เว็บแก้ \"5% of face\" เป็น face and neck เพราะใบหน้าอย่างเดียวราว 3–4% TBSA",
+  "mnemonic": "<b>'ส่ง Burn unit: \"ลึก 3 ทุกขนาด · Partial > 10 · หน้า-มือ-เท้า-เพศ-ข้อ · ไฟฟ้า-เคมี-สูดควัน\"'</b>",
+  "guide": "American Burn Association. Guidelines for Burn Patient Referral (2022); ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลไหม้ระดับสองตื้น 6% ที่ลำตัว ร่วมกระดูกเชิงกรานหักเลือดออก → รักษาที่ trauma center ให้คงที่ก่อน (บาดเจ็บร่วมเสี่ยงชีวิตกว่า) แล้วจึงส่ง burn center",
-   "<b>นอกสไลด์:</b> เด็ก 3 ปี แผลน้ำร้อนลวกที่ก้นและเท้าสองข้างเป็นรูปถุงเท้า ขอบเรียบคม → สงสัยถูกจุ่มน้ำร้อน (ถูกทำร้าย): รับไว้และแจ้งทีมคุ้มครองเด็ก"
+   "ชาย 40 ปี ไหม้ partial-thickness ที่ลำตัวด้านหน้าและแขนซ้ายรวม 20% → ส่ง burn center และให้สารน้ำตามสูตร",
+   "ช่างไฟถูกไฟฟ้าแรงสูง แผลเข้าที่มือแผลออกที่เท้า ผิวไหม้เพียงเล็กน้อย → ส่ง burn center ตรวจ ECG และ CK หา rhabdomyolysis",
+   "หญิงถูกน้ำร้อนลวกฝ่ามือขวาเป็น partial-thickness 1% → ส่งต่อ burn unit เพราะเป็นมือ (เสี่ยงข้อติด)",
+   "ผู้ป่วยไฟไหม้บ้านติดอยู่ในห้อง เสียงแหบ มีเขม่าในเสมหะ → ใส่ท่อช่วยหายใจแต่เนิ่นและส่ง burn center (inhalation injury)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>42. ข้อใดต้องส่งเข้าburn unit — A. Third degree burn 5% บริเวณหน้า</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"ส่งเข้าburn unit\" · \"Third degree burn\" · \"หน้า\" (เหลือง)<br>ที่ปรับในเว็บ: ไฟล์มีช้อยเดียว → เติม B–E (first-degree 10% back, second-degree 2% forearm, sunburn, superficial 3% thigh) · แก้ช้อย A 25 พ.ย. 2026 (ผู้ใช้สั่ง): ต้นฉบับ \"5% บริเวณหน้า\" — ใบหน้าอย่างเดียวราว 3–4% TBSA (ศีรษะและคอทั้งหมดราว 9%) จึงแก้เป็น face and neck",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_42"
   ]
  }
 }

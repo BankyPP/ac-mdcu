@@ -1,29 +1,31 @@
 {
  "MDCU68|RoB|42": {
-  "interp": "ชาย 20 ปี <b>ปัสสาวะเป็นเลือด ปวดสีข้างร้าวลงขาหนีบซ้าย</b> เคยเป็นนิ่ว ฟิล์มไม่เห็นนิ่วทึบรังสี และ<b>แพ้สารทึบรังสี (IVP)</b> → ถามการตรวจ",
-  "why": "สงสัยนิ่วในท่อไต → <b>non-contrast (spiral/ helical) CT KUB</b> เป็น <b>gold standard</b> — ไวและจำเพาะ &gt; 95% เห็นนิ่วได้แทบทุกชนิดรวมถึงนิ่ว<b>ที่ฟิล์มไม่เห็น (radiolucent เช่น uric acid)</b> บอกขนาด ตำแหน่ง ภาวะไตบวมน้ำ และ<b>ไม่ต้องฉีดสาร</b> จึงทำได้ในผู้แพ้สารทึบรังสี · ไฟล์ขีด 4 ลายมือ <b>\"= gold std.\"</b>",
+  "interp": "ชาย 20 ปี เคยเป็นนิ่ว มี<b>ปวดบั้นเอวร้าวลงขาหนีบซ้าย</b>ร่วมกับปัสสาวะเป็นเลือด แต่ฟิล์ม KUB ไม่เห็นนิ่วทึบแสง และ<b>แพ้สารทึบรังสีของ IVP</b> — ถามการตรวจที่เหมาะที่สุดเพื่อยืนยันนิ่วในท่อไต",
+  "why": "<b>Non-contrast CT (NCCT) KUB</b> เป็น<b>มาตรฐานในการวินิจฉัย renal colic</b> ในผู้ใหญ่ (ไวและจำเพาะราว 95–98%) — <b>ไม่ต้องฉีดสี</b>จึงทำได้ในผู้แพ้ contrast · เห็น<b>นิ่วแทบทุกชนิดรวมทั้งนิ่วที่ไม่ทึบแสงบนฟิล์ม</b> (uric acid, xanthine ซึ่ง KUB มองไม่เห็น) ยกเว้นนิ่วจากยา indinavir · บอกขนาด ตำแหน่ง ความหนาแน่น (Hounsfield unit ช่วยเดาชนิดนิ่ว เช่น uric acid มักต่ำกว่า 500 HU) ระยะผิวถึงนิ่ว และเห็น hydronephrosis, perinephric stranding รวมทั้งโรคอื่นที่ปวดคล้ายกัน (ไส้ติ่ง, AAA) · ใช้ low-dose protocol ในคนผอม (BMI ≤ 30) เพื่อลดรังสี · KUB ไม่เห็นนิ่วในโจทย์จึงชี้ไปทาง radiolucent stone เช่น uric acid ซึ่งละลายได้ด้วยการทำปัสสาวะให้เป็นด่าง · ไฟล์ขีด 4 (spiral CT) ลายมือ <b>\"= gold std.\"</b>",
   "wrong": {
-   "A": "Ultrasound เห็นไตบวมน้ำและนิ่วในไต แต่เห็นนิ่วในท่อไตช่วงกลางได้ไม่ดี · จะถูกถ้าผู้ป่วยตั้งครรภ์หรือเด็ก (เลี่ยงรังสี)",
-   "B": "MRI เห็นนิ่วได้ไม่ดี ราคาแพง · จะถูกถ้าหญิงตั้งครรภ์ US ไม่ชัด ต้องการแยกไตบวมน้ำจากการตั้งครรภ์กับนิ่ว",
-   "C": "Retrograde pyelography เป็นหัตถการรุกล้ำ ใช้ระหว่างใส่ stent/ ส่องกล้อง ไม่ใช่การตรวจแรก · จะถูกถ้าคำถามถามการตรวจระหว่างผ่าตัดเพื่อดูท่อไตก่อนใส่ DJ stent",
-   "E": "Renal scan (DTPA/ MAG3) ประเมินการทำงานและการอุดตันของไต ไม่ได้หานิ่ว · จะถูกถ้าคำถามถามการประเมินการทำงานแยกข้างก่อนตัดไตที่เสื่อม"
+   "A": "Ultrasound ไม่มีรังสี เห็น hydronephrosis และนิ่วในไตได้ดี แต่ไวต่อนิ่วในท่อไตเพียงราวครึ่งหนึ่ง โดยเฉพาะท่อไตส่วนกลาง จึงไม่ใช่การตรวจที่ดีที่สุดในผู้ใหญ่ไม่ตั้งครรภ์ · จะถูกถ้าเป็นหญิงตั้งครรภ์ 24 สัปดาห์ปวดบั้นเอวร้าวลงขาหนีบ (ultrasound เป็นการตรวจแรก) หรือเด็กที่สงสัยนิ่ว",
+   "B": "MRI (MR urography ไม่ฉีด gadolinium) เห็นการอุดกั้นได้แต่เห็นตัวนิ่วไม่ชัด ราคาแพง ใช้เวลานาน เป็นทางเลือกที่สองในหญิงตั้งครรภ์ · จะถูกถ้าเป็นหญิงตั้งครรภ์ไตรมาสที่สองที่ ultrasound ไม่สามารถสรุปได้และยังปวดไม่หาย โดยต้องการเลี่ยงรังสี",
+   "C": "Retrograde pyelography ต้องส่องกล้องฉีดสีเข้าท่อไตในห้องผ่าตัด เป็นการตรวจรุกล้ำ ใช้เมื่อจะใส่ double-J stent หรือรักษานิ่วพร้อมกัน ไม่ใช่การวินิจฉัยขั้นแรก · จะถูกถ้าเป็นผู้ป่วยไตอุดกั้นจากนิ่วร่วมกับติดเชื้อ ไข้สูง ความดันต่ำ ที่ต้องเข้าห้องผ่าตัดใส่ stent ระบายด่วน หรือผู้ที่ไตเสื่อมและต้องดูท่อไตหาก้อนเนื้องอก",
+   "E": "Renal scan (MAG3 diuretic renography/ DMSA) บอกการทำงานของไตแต่ละข้างและการอุดกั้นเชิงหน้าที่ ไม่เห็นตัวนิ่ว · จะถูกถ้าเป็นผู้ป่วยนิ่ว staghorn ที่ไตข้างนั้นฝ่อบาง ต้องรู้ว่าไตยังทำงานกี่เปอร์เซ็นต์ก่อนตัดสินใจ nephrectomy หรือเด็กที่สงสัย ureteropelvic junction obstruction"
   },
-  "trap": "คิดว่าแพ้สารทึบรังสีแล้วทำ CT ไม่ได้ — CT KUB ไม่ฉีดสาร",
+  "trap": "เห็นคำว่าแพ้สีแล้วเลือก ultrasound เพราะคิดว่าปลอดภัยที่สุด หรือเลือก retrograde เพราะคิดว่าแทน IVP ได้ · NCCT ไม่ใช้สารทึบรังสีอยู่แล้ว และเห็นนิ่วที่ KUB มองไม่เห็นด้วย จึงตอบโจทย์ทั้งสองข้อ (แพ้สี + นิ่วไม่ทึบแสง)",
   "summary": [
-   "สงสัยนิ่วท่อไต: non-contrast CT KUB = gold standard",
-   "เห็นนิ่ว uric acid ที่ฟิล์มไม่เห็น",
-   "ตั้งครรภ์/ เด็ก: US ก่อน",
-   "นิ่ว &lt; 5–10 mm ท่อไตส่วนปลาย → medical expulsive therapy (tamsulosin)",
-   "นิ่วอุดตัน + ไข้ → ระบายด่วน (DJ stent/ PCN)",
-   "Uric acid stone: ปัสสาวะเป็นกรด → potassium citrate"
+   "Renal colic ในผู้ใหญ่: NCCT KUB (low-dose) เป็นมาตรฐาน · หญิงตั้งครรภ์/ เด็ก: ultrasound ก่อน → MR urography (ตั้งครรภ์) ถ้ายังไม่ชัด",
+   "นิ่วไม่ทึบแสงบน KUB: uric acid, xanthine, 2,8-dihydroxyadenine · cystine ทึบแสงน้อย · ทุกชนิดเห็นบน CT ยกเว้น indinavir",
+   "Uric acid stone: ปัสสาวะเป็นกรด (pH &lt; 5.5) gout, metabolic syndrome, เคมีบำบัด · รักษาด้วย potassium citrate ให้ urine pH 6.5–7.0 + น้ำ ≥ 2.5 L/วัน ± allopurinol ละลายนิ่วได้",
+   "โอกาสหลุดเอง: นิ่ว &lt; 5 mm ราว 2 ใน 3 · 5–10 mm ราวครึ่งหนึ่ง · medical expulsive therapy ด้วย alpha-blocker สำหรับนิ่วท่อไตส่วนปลาย &gt; 5 mm",
+   "ระบายด่วน (double-J stent หรือ percutaneous nephrostomy) เมื่อไตอุดกั้นร่วมกับติดเชื้อ/ sepsis, ไตข้างเดียว, ไตวายเฉียบพลัน หรือปวดคุมไม่ได้ — ห้ามเอานิ่วออกขณะติดเชื้อ",
+   "ยาแก้ปวด renal colic: NSAID (เช่น diclofenac) เป็นทางเลือกแรก ดีกว่า opioid ระวังในไตเสื่อม",
+   "รักษานิ่ว: ESWL (นิ่วไต/ ท่อไตส่วนบน &lt; 2 cm, HU &lt; 1000) · ureteroscopy (ท่อไตทุกส่วน) · PCNL (นิ่วไต &gt; 2 cm, staghorn)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ gold std.",
-  "mnemonic": "<b>'นิ่ว = CT ไม่ฉีดสี (Stone protocol)'</b>",
-  "guide": "AUA/Endourological Society Guideline: Surgical Management of Stones (2016); EAU Guidelines on Urolithiasis 2024; ACR Appropriateness Criteria: Acute Onset Flank Pain (2015)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด 4 พร้อมลายมือ = gold std. และ MCQ Key_1 ขีด D) · ต้นฉบับเขียน CXR ซึ่งน่าจะหมายถึงฟิล์ม KUB และเขียน spiral CT ที่เว็บระบุชัดว่าเป็น non-contrast",
+  "mnemonic": "<b>'นิ่ว = NCCT (No Contrast, Catch Them all)'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2025; Assimos D, et al. AUA/Endourological Society Guideline: Surgical Management of Stones (J Urol 2016;196:1153–1160)",
   "variants": [
-   "หญิงตั้งครรภ์ปวดสีข้าง → US ก่อน",
-   "นิ่วท่อไต 4 mm ปวดควบคุมได้ → tamsulosin + ยาแก้ปวด",
-   "นิ่วอุดตัน + ไข้ → DJ stent/ PCN ด่วน"
+   "ชาย 45 ปี gout ปวดบั้นเอว KUB ไม่เห็นนิ่ว CT พบนิ่ว 8 mm ในไต 350 HU → uric acid stone → potassium citrate ละลายนิ่ว",
+   "หญิงปวดบั้นเอวขวา ไข้ 39°C หนาวสั่น ความดัน 85/50 CT พบนิ่วท่อไตอุดกั้น → ยาปฏิชีวนะ + ใส่ double-J stent/ nephrostomy ด่วน",
+   "ชาย 30 ปี นิ่วท่อไตส่วนปลาย 6 mm ปวดคุมได้ ไม่มีไข้ ไตทำงานปกติ → tamsulosin + ยาแก้ปวด นัดติดตาม",
+   "หญิงตั้งครรภ์ 28 สัปดาห์ปวดบั้นเอวซ้าย ultrasound เห็นไตบวมน้ำ → แยก physiologic hydronephrosis ของการตั้งครรภ์ (ข้างขวาบ่อยกว่า) ก่อนสรุปว่าเป็นนิ่ว"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 70 — ตัวพิมพ์: <b>42) 20 yo male gross hematuria frank pain radiate to left groin hx of stone CXR not found oplaque แพ้ IVP — 1) US 2) MRI 3) retrograde 4) spiral CT 5) renal scan</b><br>ลายมือ: ขีด 4 + \"= gold std.\"<br>ไฮไลต์: \"20 yo male\" \"gross hematuria\" \"frank pain radiate to left groin\" \"hx of stone\" \"CXR not found oplaque\" \"แพ้ IVP\" · 4 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 61: ขีด D (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย D เขียนเป็น non-contrast spiral CT",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 70",
@@ -34,30 +36,32 @@
   ]
  },
  "MDCU68|RoB|46": {
-  "interp": "ทารก 3 เดือน มี<b>ก้อนแข็งไม่เจ็บใต้หางคิ้วด้านนอก (lateral eyebrow)</b> ติดกับเนื้อเยื่อชั้นลึก → ถามชนิดก้อน",
-  "why": "ก้อนที่<b>หางคิ้วด้านนอกตั้งแต่เกิด/ ทารก</b> = <b>dermoid cyst (external angular dermoid)</b> — เกิดจากผิวหนังถูกกักไว้ตามแนวเชื่อมของตัวอ่อน (frontozygomatic suture) มักติดกับเยื่อหุ้มกระดูก (fixed to deep tissue) ภายในมี keratin ขน ต่อมไขมัน · รักษาด้วย<b>ผ่าตัดเอาออกทั้งถุง</b> (ก่อนแตก/ อักเสบ) · ก้อนแนวกลาง (จมูก) ต้อง CT/ MRI ก่อนเพื่อตรวจการต่อเข้ากะโหลก · ไฟล์ขีด C ลายมือ lipoma <b>\"mobile\"</b> · \"epidermoid/ sebaceous cyst → fixed @ ผิว\" และแปะสไลด์ <b>\"Dermoid cysts — Primarily along lines of embryonic fusion · Located eyebrow, forehead, scalp, midline lower neck and sternal notch · Painless mass … fixed to deep tissue\"</b>",
+  "interp": "ทารก 3 เดือนมี<b>ก้อนแข็งไม่เจ็บใต้หางคิ้วด้านนอก</b>ข้างซ้าย และ<b>ยึดติดกับโครงสร้างลึก</b> — ถามชนิดของก้อน ต้องรู้ตำแหน่งตามแนวเชื่อมของตัวอ่อนและลักษณะการยึดติดที่แยกก้อนในเด็กแต่ละชนิด",
+  "why": "<b>Dermoid cyst</b> เกิดจาก ectoderm ติดค้างใต้ผิวตาม<b>แนวเชื่อมต่อของตัวอ่อน (lines of embryonic fusion)</b> — ตำแหน่งที่พบบ่อยที่สุดคือ<b>หางคิ้วด้านนอก (external angular dermoid)</b> ตรง frontozygomatic suture รองลงมาคือแนวกลางจมูก หนังศีรษะ ใต้คาง และ sternal notch · มักเห็นตั้งแต่แรกเกิดหรือขวบปีแรก เป็นก้อนกลม 1–2 cm ไม่เจ็บ ผิวด้านบนขยับได้แต่<b>ก้อนยึดติดกับ periosteum ข้างใต้ (fixed to deep tissue)</b> บางครั้งทำให้กระดูกเป็นแอ่ง · ผนังเป็น keratinizing squamous epithelium ที่มี<b>ส่วนประกอบของผิวหนัง</b> (ขน ต่อมไขมัน ต่อมเหงื่อ) ภายในเป็น keratin · รักษาด้วย<b>ผ่าตัดเอาออกทั้งถุง</b>ก่อนก้อนโต แตก อักเสบ หรือกัดกระดูกมากขึ้น · ก้อนที่แนวกลาง (nasal dermoid มีรูเปิดที่สันจมูกหรือมีขนโผล่) อาจมีทางเชื่อมเข้าในกะโหลก ต้องทำ MRI ก่อนผ่าตัด ส่วนก้อนหางคิ้วด้านนอกไม่ค่อยเชื่อมเข้ากะโหลก · ไฟล์ขีด C ลายมือ <b>\"epidermoid/ sebaceous cyst → fixed @ ผิว\"</b> เทียบกับ dermoid ที่ fix ลึก และสไลด์ที่แปะเขียน <b>\"fixed to deep tissue\"</b>",
   "wrong": {
-   "A": "Lipoma นุ่ม เคลื่อนได้ (ลายมือ \"mobile\") พบน้อยในทารก · จะถูกถ้าผู้ใหญ่มีก้อนนุ่มเคลื่อนได้ใต้ผิวที่หลัง",
-   "B": "Osteoma เป็นก้อนกระดูกแข็งมาก ติดกระดูก พบในผู้ใหญ่ (Gardner syndrome) · จะถูกถ้าผู้ใหญ่มีก้อนแข็งเหมือนกระดูกที่หน้าผากร่วมกับ polyp ลำไส้หลายร้อยตัว",
-   "D": "Pilomatrixoma (calcified epithelioma of Malherbe) ก้อนแข็งมีหินปูน ติดผิวหนัง (ไม่ติดชั้นลึก) ผิวเหนืออาจออกฟ้า · จะถูกถ้าเด็กโตมีก้อนแข็งเป็นเหลี่ยมที่ผิวหนังใบหน้า/ คอ ยกผิวแล้วเห็น tent sign",
-   "E": "Hemangioma นุ่ม สีแดง/ ฟ้า โตเร็วในขวบปีแรกแล้วยุบ ไม่ติดชั้นลึก · จะถูกถ้าทารกมีปื้นแดงนูนที่โตเร็วในช่วงเดือนแรก"
+   "A": "Lipoma เป็นก้อนไขมันนุ่ม ขอบไม่ชัด เคลื่อนได้ดี (ลายมือ mobile) ไม่ยึดติดโครงสร้างลึก พบในผู้ใหญ่มากกว่าทารก · จะถูกถ้าเป็นชาย 45 ปีมีก้อนนุ่มเคลื่อนได้ขนาด 4 cm ที่หลัง โตช้ามาหลายปี ไม่เจ็บ กดแล้วเลื่อนลอดนิ้ว (slip sign)",
+   "B": "Osteoma เป็นเนื้องอกกระดูกชนิดไม่ร้าย แข็งเท่ากระดูก ไม่ขยับเลย มักพบในผู้ใหญ่ที่หน้าผากหรือ paranasal sinus ไม่ใช่ทารก 3 เดือน · จะถูกถ้าเป็นชาย 35 ปีที่มีหลายก้อนแข็งเป็นกระดูกที่ขากรรไกรและหน้าผาก ร่วมกับ polyp ในลำไส้ใหญ่จำนวนมาก (Gardner syndrome)",
+   "D": "Pilomatrixoma (calcifying epithelioma of Malherbe) พบในเด็กที่ใบหน้าและคอ เป็นก้อนแข็งเป็นหินมีหลายเหลี่ยม สีออกน้ำเงิน แต่<b>ติดกับผิวหนังด้านบน</b>และเคลื่อนได้บนชั้นลึก (ดึงผิวแล้วเห็นเหลี่ยมก้อน = tent sign) · จะถูกถ้าเป็นเด็ก 7 ปีมีก้อนแข็งเหมือนหิน 1 cm ที่แก้ม ผิวด้านบนสีอมฟ้า ขยับได้กับผิว",
+   "E": "Infantile hemangioma ไม่ค่อยเห็นตอนแรกเกิด แล้วโตเร็วช่วง 1–5 เดือนแรก สีแดงสดหรืออมฟ้า นุ่มกดยุบ ค่อย ๆ ยุบเองหลัง 1 ปี (GLUT-1 บวก) ไม่ใช่ก้อนแข็งติดกระดูก · จะถูกถ้าเป็นทารก 2 เดือนมีปื้นแดงนูนสีสตรอว์เบอร์รีที่หนังตาบนโตเร็วจนบังตา → propranolol เร่งด่วนเพื่อกัน amblyopia"
   },
-  "trap": "ตอบ lipoma เพราะเป็นก้อนใต้ผิวที่พบบ่อย — ตำแหน่งหางคิ้วในทารก + ติดชั้นลึก = dermoid",
+  "trap": "ก้อนในเด็กที่ใบหน้าที่ขึ้นชื่อมีหลายชนิด จึงอาจเลือก pilomatrixoma (แข็งเหมือนกัน) หรือ hemangioma (พบบ่อยในทารก) · ตัวแยกคือ <b>ตำแหน่งหางคิ้วด้านนอก + ยึดติดลึก</b> = dermoid · pilomatrixoma ติดผิวด้านบน, epidermoid/ sebaceous cyst ติดผิวมีรูเปิด, lipoma เคลื่อนได้",
   "summary": [
-   "Dermoid: แนวเชื่อมตัวอ่อน · หางคิ้ว (external angular) · แนวกลาง",
-   "ติดชั้นลึก (periosteum) · มี keratin ขน ต่อม",
-   "ก้อนแนวกลาง (จมูก/ หนังศีรษะ) → CT/ MRI ก่อนผ่าตัด (intracranial extension)",
-   "รักษา: ผ่าตัดเอาออกทั้งถุง",
-   "Epidermoid/ sebaceous cyst: ติดผิวหนัง มี punctum",
-   "Pilomatrixoma: แข็ง มีหินปูน ติดผิว"
+   "Dermoid cyst: ectoderm ติดค้างตามแนวเชื่อมตัวอ่อน · พบบ่อยสุดที่หางคิ้วด้านนอก (frontozygomatic suture) · ไม่เจ็บ แข็งยืดหยุ่น ยึดติด periosteum",
+   "Midline (nasal) dermoid: มีรูเปิดที่สันจมูก ขนโผล่ หรือก้อนแนวกลาง → MRI ก่อนผ่าตัด หาทางเชื่อมผ่าน foramen cecum เข้ากะโหลก (เสี่ยง meningitis/ abscess)",
+   "รักษา dermoid: ผ่าตัดเอาออกทั้งถุงไม่ให้แตก (แตกแล้ว keratin กระตุ้นการอักเสบ/ กลับเป็นซ้ำ) มักทำก่อนวัยเรียน",
+   "Epidermoid (sebaceous) cyst: ติดผิว มี punctum เคลื่อนบนชั้นลึก · lipoma: นุ่ม เคลื่อนได้ ผู้ใหญ่ · pilomatrixoma: แข็งเหมือนหิน ติดผิว tent sign เด็กที่หน้า/ คอ (CTNNB1)",
+   "Infantile hemangioma: proliferative phase 0–5 เดือน involution หลังขวบปี · GLUT-1 บวก · propranolol เมื่ออยู่ในตำแหน่งอันตราย (ตา ทางเดินหายใจ) แผล หรือทำให้เสียโฉม",
+   "Midline neck mass ในเด็กที่ขยับขึ้นเมื่อแลบลิ้น = thyroglossal duct cyst (Sistrunk) · ก้อนกลางคอที่ไม่ขยับตามลิ้นและอยู่ผิว = dermoid",
+   "ก้อนที่ไม่ควรตัดชิ้นเนื้อแบบสุ่มในเด็ก: ก้อนแนวกลางจมูก/ ศีรษะ (อาจเป็น encephalocele ที่เชื่อมกะโหลก) → ภาพถ่ายก่อนเสมอ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
-  "mnemonic": "<b>'หางคิ้วทารก = Dermoid (ติดลึก) · Epidermoid = ติดผิว'</b>",
-  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Pediatric benign soft tissue lesions; Coran's Pediatric Surgery 8th ed. (2019)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด C พร้อมสไลด์ dermoid cyst ที่ระบุ eyebrow และ fixed to deep tissue และ MCQ Key_1 ขีด C) · ต้นฉบับช้อย D เป็น calcified epithelioma ซึ่งก็คือ pilomatrixoma เว็บเติมช้อย E hemangioma",
+  "mnemonic": "<b>'หางคิ้วด้านนอก + ติดลึก = Dermoid (external angular)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Lesions of the skin and subcutaneous tissue; Grabb and Smith's Plastic Surgery 8th ed. (2020)",
   "variants": [
-   "เด็กมีก้อนแนวกลางสันจมูกมีรูขนออก → nasal dermoid → MRI ก่อนผ่าตัด",
-   "ผู้ใหญ่ก้อนใต้ผิวมีรูตรงกลาง กลิ่นเหม็นเมื่อบีบ → epidermoid cyst",
-   "เด็กก้อนแข็งเป็นเหลี่ยมที่แก้ม → pilomatrixoma"
+   "เด็ก 2 ปีมีรูเล็กที่สันจมูกมีขนโผล่ เคยอักเสบเป็นหนอง → nasal dermoid sinus → MRI หาทางเชื่อมเข้ากะโหลกก่อนผ่าตัด",
+   "ผู้ใหญ่มีก้อนกลมติดผิวที่หลัง มีจุดดำตรงกลาง บีบมีสารสีขาวกลิ่นเหม็น → epidermoid cyst",
+   "ทารก 6 สัปดาห์มีก้อนแดงนูนที่หนังตาบนโตเร็วจนปิดตา → infantile hemangioma → propranolol กัน amblyopia",
+   "ทำไม dermoid หางคิ้วจึงยึดติดลึก → เกิดจาก ectoderm ติดค้างที่รอยต่อกระดูก frontozygomatic ถุงจึงเกาะ periosteum ตรงนั้น"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 70–71 — หัวข้อ Pediatric · ตัวพิมพ์: <b>46 3-month-old infant present at your office.He have a lump beneath lateral aspect of left eyebrow. Firm not tender. Ihe lump seem to fix with deep structure.the lesion is? — A.lipoma B.Osteoma C.dermoid D.calcified epithelioma</b><br>ลายมือ: ดอกจันหลัง \"fix with deep\" · A \"mobile, fixed (ขีดฆ่า)\" · เครื่องหมายคำพูดรอบ dermoid · \"epidermoid/ sebaceous cyst → fixed @ ผิว\" · ขีด C<br>ไฮไลต์: \"3-month-old infant\" \"lump beneath lateral aspect of left eyebrow\" \"Firm not tender\" \"fix with deep structure\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Dermoid cysts — Primarily along lines of embryonic fusion · Located eyebrow, forehead, scalp, midline lower neck and sternal notch · Painless mass 1–2 cm or larger, round, soft, and <b>fixed to deep tissue</b> · Contain keratin hair, bone, tooth, or nerve tissue · Definitive treatment is <b>surgical excision</b> · พร้อมภาพก้อนที่คอและภาพพยาธิ (Dermoid cysts are lined by keratinizing squamous … pilosebaceous structures)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 62: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย D เขียนเป็น pilomatrixoma · เติม E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 70",
@@ -69,30 +73,32 @@
   ]
  },
  "MDCU68|RoB|47": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>second branchial cleft cyst</b>",
-  "why": "ตามสไลด์ในไฟล์ (2nd branchial anomalies — Epidemiology): เป็น branchial anomaly ที่พบบ่อยที่สุด (90–95%) · <b>M = F</b> · อายุเฉลี่ยที่วินิจฉัย 40 ปี (15% &lt; 10 ปี) · <b>Left predominance</b> · <b>2% bilateral</b> familial clustering · <b>Cysts &gt; sinuses/ fistula</b> → ข้อ A (ซ้าย &gt; ขวา) ถูก · ลักษณะทางคลินิก: ก้อนนุ่มด้านข้างคอ<b>หน้าต่อขอบหน้าของ sternocleidomastoid</b> ส่วนบน มักโตขึ้นหลังติดเชื้อทางเดินหายใจ · รักษาด้วยผ่าตัดเอาออกทั้งถุงและทางเดิน (ผ่านระหว่าง internal–external carotid ไปเปิดที่ tonsillar fossa) · ไฟล์ขีด A แก้ลายมือ B 2.5:1 → <b>\"1:1\"</b> · C 10% → <b>\"2%\"</b>",
+  "interp": "ถามข้อความที่ถูกเกี่ยวกับ <b>second branchial cleft cyst</b> ตามคีย์ — ช้อยเป็นข้อมูลระบาดวิทยา (ข้าง เพศ สองข้าง) ลักษณะทางคลินิกตามวัย และความเสี่ยงมะเร็ง ซึ่งต้องจำตัวเลขจากสไลด์ที่ไฟล์แปะไว้",
+  "why": "ความผิดปกติของ branchial apparatus ชนิด<b>ที่ 2 พบบ่อยที่สุด (ราว 90–95%)</b> เกิดจาก cervical sinus of His ปิดไม่สมบูรณ์ · เป็นก้อนนุ่มแบบถุงน้ำที่<b>ขอบหน้าของกล้ามเนื้อ sternocleidomastoid</b> ช่วงรอยต่อส่วนบนและกลาง มักโตขึ้นหรืออักเสบหลังติดเชื้อทางเดินหายใจส่วนบน · ระบาดวิทยาตามสไลด์ที่แปะในไฟล์: <b>M = F</b> · อายุเฉลี่ยที่วินิจฉัยราว 40 ปี (15% &lt; 10 ปี) · <b>left predominance</b> (ข้างซ้ายพบมากกว่าเล็กน้อย) · <b>สองข้างเพียง ~2%</b> มักเป็นในครอบครัว (เช่น branchio-oto-renal syndrome) · <b>cyst พบมากกว่า sinus/ fistula</b> · ทางของ fistula ชนิดที่ 2 ลอด<b>ระหว่าง internal และ external carotid artery</b> เหนือ hypoglossal และ glossopharyngeal nerve ไปเปิดที่ tonsillar fossa · รักษาด้วยการผ่าตัดเอาออกทั้งถุงและทางเชื่อมหลังการอักเสบสงบ · ไฟล์ขีด A ลายมือแก้ B เป็น <b>\"1:1\"</b> และแก้ C เป็น <b>\"2%\"</b>",
   "wrong": {
-   "B": "ผิด — สัดส่วนชาย:หญิงเท่ากัน (ลายมือแก้เป็น 1:1) · จะถูกถ้าช้อยบอกว่าพบในชายและหญิงเท่ากัน",
-   "C": "ผิด — พบสองข้างเพียง ~2% (ลายมือแก้เป็น 2%) · จะถูกถ้าช้อยบอกว่าสองข้างพบน้อย (~2%) มักมีประวัติครอบครัว",
-   "D": "ผิด — ในเด็กมักเป็น sinus/ fistula (เปิดที่ผิวตั้งแต่เกิด) ส่วนผู้ใหญ่มักเป็น cyst ข้อความในช้อยกลับกัน · จะถูกถ้าช้อยบอกว่าเด็กเป็น sinus ผู้ใหญ่เป็น cyst",
-   "E": "ผิด — กลายเป็นมะเร็งน้อยมาก ก้อนซีสต์ที่คอในผู้ใหญ่ต้องแยก cystic metastasis จาก SCC ต่อม tonsil/ HPV · จะถูกถ้าช้อยบอกว่าซีสต์ที่คอผู้ใหญ่ต้องแยกมะเร็งกระจายเสมอ"
+   "B": "ชาย:หญิง 2.5:1 ผิด เพราะ second branchial anomaly พบเท่ากันทั้งสองเพศ (ลายมือแก้เป็น 1:1) · ก้อนคอที่ผู้ชายพบมากกว่าชัดเจนคือ metastatic SCC จาก oropharynx · จะถูกถ้าเป็นชาย 50 ปีไม่สูบบุหรี่มีก้อนถุงน้ำที่คอด้านข้าง ซึ่งต้องคิดถึง HPV-associated oropharyngeal cancer ก่อน (โรคนี้พบในชายมากกว่าหญิงหลายเท่า)",
+   "C": "สองข้าง 10% สูงเกินจริง ความผิดปกติที่เป็นสองข้างพบเพียงราว 2% (ลายมือแก้) และมักเป็นในครอบครัว · จะถูกถ้าเป็นเด็กที่มีรูเปิดที่คอด้านหน้าทั้งสองข้าง ร่วมกับหูพิการ มีรูหน้าหู (preauricular pit) สูญเสียการได้ยิน และไตผิดปกติ — branchio-oto-renal syndrome (EYA1) ซึ่งต้องตรวจไตและการได้ยิน",
+   "D": "กลับด้านกับความจริง — sinus/ fistula มีรูเปิดที่ผิวตั้งแต่เกิดจึงพบในเด็ก ส่วน cyst ไม่มีรูเปิด มักโตให้เห็นเมื่อติดเชื้อในวัยหนุ่มสาว/ ผู้ใหญ่ · จะถูกถ้าเป็นทารกที่มีรูเล็กที่ขอบหน้าของ sternocleidomastoid ส่วนล่าง มีน้ำเมือกซึมออก (second branchial sinus) และผู้ใหญ่อายุ 25 ปีที่ก้อนถุงน้ำใต้มุมขากรรไกรโตหลังเป็นหวัด",
+   "E": "Branchial cyst ไม่กลายเป็นมะเร็ง (branchiogenic carcinoma แทบไม่มีจริง) เหตุผลที่ต้องผ่าตัดคืออักเสบเป็นหนองซ้ำ · แต่ก้อนถุงน้ำที่คอด้านข้างในผู้ใหญ่ &gt; 40 ปีต้องแยก cystic metastasis ก่อน · จะถูกถ้าเป็นชาย 55 ปีมีก้อนถุงน้ำที่คอที่ผลชิ้นเนื้อเป็น SCC p16 บวก จากต่อมทอนซิลซึ่งเป็นมะเร็งปฐมภูมิ"
   },
-  "trap": "จำตัวเลขผิด (ชายมากกว่า/ สองข้าง 10%) — ข้อนี้อิงสไลด์: M = F, ซ้ายเด่น, bilateral 2%",
+  "trap": "คิดว่าข้อมูลระบาดวิทยาตามตำราทั่วไปที่จำไม่ชัด (สองข้าง ข้างไหนมากกว่า) จะต่างกันน้อยจนเดาสุ่ม · คำถามระบุชัดว่าตามคีย์ ซึ่งยึดสไลด์ที่แปะ: M = F, left predominance, bilateral 2%, cyst &gt; sinus · และระวังช้อย D ที่สลับเด็กกับผู้ใหญ่",
   "summary": [
-   "2nd branchial: พบบ่อยที่สุด (90–95%)",
-   "ตำแหน่ง: ขอบหน้า SCM ส่วนบน",
-   "ทางเดิน: ระหว่าง ICA–ECA เหนือ CN XII → tonsillar fossa",
-   "เด็ก: sinus/ fistula · ผู้ใหญ่: cyst",
-   "ผู้ใหญ่ซีสต์ที่คอ → แยก cystic SCC metastasis (HPV oropharynx)",
-   "รักษา: ผ่าตัดเอาออกทั้งหมดหลังหายอักเสบ"
+   "Branchial anomaly ชนิดที่ 2 พบบ่อยสุด 90–95% · ก้อนที่ขอบหน้า SCM ส่วนบน–กลาง · มักโตหรืออักเสบหลังติดเชื้อทางเดินหายใจส่วนบน",
+   "ทางเดิน fistula ชนิดที่ 2: รูนอกที่ขอบหน้า SCM ส่วนล่าง → ลอดระหว่าง ICA กับ ECA → เหนือ CN XII, IX → เปิดที่ tonsillar fossa",
+   "ชนิดที่ 1: ใกล้หู/ มุมขากรรไกร สัมพันธ์กับ facial nerve และช่องหู · ชนิดที่ 3–4: คอส่วนล่างซ้าย เปิดที่ pyriform sinus มาด้วย thyroiditis ข้างซ้ายเป็นซ้ำ",
+   "การตรวจ: ultrasound หรือ CT with contrast เห็นถุงน้ำผนังบาง · FNA ในผู้ใหญ่เพื่อแยก cystic metastasis (HPV-positive oropharyngeal SCC, papillary thyroid carcinoma)",
+   "รักษา: ช่วงอักเสบให้ยาปฏิชีวนะ (เลี่ยงผ่าระบายถ้าทำได้ เพราะแผลเป็นทำให้ผ่าตัดยาก) → ผ่าตัดเอาถุงและทางเชื่อมออกทั้งหมดเมื่อสงบ (stepladder incision ถ้าทางยาว)",
+   "ก้อนคอด้านข้างในผู้ใหญ่ &gt; 40 ปีถือว่าเป็นมะเร็งจนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ห้ามตัดเอาออกก่อนหามะเร็งปฐมภูมิ (ตรวจ ENT + ส่องกล้อง + FNA + ภาพ)",
+   "สองข้าง/ มีประวัติครอบครัว → นึกถึง branchio-oto-renal syndrome: ตรวจการได้ยินและ ultrasound ไต"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ตรงกับคีย์ไฟล์ MCQ Key 2 และสไลด์ในไฟล์ (ไฟล์ Key 1 ไม่ได้ขีด) · ข้อมูลระบาดวิทยาบางแหล่งระบุซ้าย–ขวาใกล้เคียงกัน",
-  "mnemonic": "<b>'2nd branchial: Left · M = F · 2% bilateral · หน้า SCM'</b>",
-  "guide": "Cummings Otolaryngology 7th ed. (2021) — Congenital neck masses; Coran's Pediatric Surgery 8th ed. (2019) — Branchial anomalies",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ตรงกับคีย์ MCQ Key 2 ที่ขีด A และสไลด์ที่แปะระบุ left predominance (MCQ Key_1 ไม่ได้ขีด) · ตำราบางเล่มบอกว่าข้างขวาพบมากกว่าเล็กน้อยหรือไม่ต่างกัน ข้อนี้จึงเป็นข้อจำตามสไลด์ แต่ช้อยอื่นผิดชัดเจนทุกข้อ",
+  "mnemonic": "<b>'2nd branchial: ชาย = หญิง · ซ้ายนิด · สองข้าง 2% · Cyst ผู้ใหญ่ Sinus เด็ก · ไม่เป็นมะเร็ง'</b>",
+  "guide": "Cummings Otolaryngology–Head and Neck Surgery 7th ed. (2021) — Congenital neck masses; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Lesions of the neck",
   "variants": [
-   "วัยรุ่นก้อนนุ่มหน้าต่อ SCM บวมขึ้นหลังเป็นหวัด → 2nd branchial cleft cyst → ผ่าตัด",
-   "เด็กมีรูเล็กที่ขอบหน้า SCM ส่วนล่างมีน้ำซึม → 2nd branchial sinus",
-   "ชาย 50 ปีก้อนซีสต์ที่คอ → FNA หา SCC (HPV)"
+   "หญิง 25 ปีก้อนถุงน้ำนุ่มใต้มุมขากรรไกรขวาที่ขอบหน้า SCM โตหลังเป็นหวัด → second branchial cleft cyst → ยาปฏิชีวนะแล้วผ่าตัดเมื่อสงบ",
+   "เด็ก 8 ปีเป็นต่อมไทรอยด์ซ้ายอักเสบเป็นหนองซ้ำ 3 ครั้ง → สงสัย pyriform sinus fistula (branchial ชนิดที่ 3–4) → barium swallow/ ส่องกล้อง",
+   "ชาย 52 ปีก้อนถุงน้ำที่คอซ้าย FNA พบ SCC p16 บวก → หามะเร็งปฐมภูมิที่ต่อมทอนซิล/ โคนลิ้น ไม่ใช่ branchial cyst",
+   "ทารกมีรูเปิดเล็กหน้าใบหูและที่มุมขากรรไกรมีหนองซึม สัมพันธ์กับช่องหู → first branchial anomaly ต้องระวัง facial nerve ขณะผ่าตัด"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 71 — ตัวพิมพ์: <b>47. 2nd branchial cleft cyst — A. ซ้าย&gt;ขวา B. ช:ญ 2.5:1 C. 2 ข้าง 10% D. เด็ก sinus cyst ผู้ใหญ่สลับกัน E. ถ้าไม่รักษาจะเป็นมะเร็ง</b><br>ลายมือ: ขีด A · B ขีดฆ่า \"2.5:1\" + \"1:1\" · C ขีดฆ่า \"10%\" + \"2%\" · D เครื่องหมายแทรกระหว่าง sinus/ cyst<br>ไฮไลต์: \"2nd branchial cleft cyst\" · A (เหลือง)<br>รูปที่แปะ (ลายมือ \"internet\"): สไลด์ 2nd branchial anomalies — Epidemiology: Most common of all branchial anomalies · Represent 90–95% of branchial anomalies · M = F · Mean age of diagnosis 40 y.o · 15% &lt; 10 y.o · <b>Left predominance</b> · 2% bilateral familial clustering · Cysts &gt; sinuses/fistula<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 62: ไม่มีขีด",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 71",
@@ -103,30 +109,32 @@
   ]
  },
  "MDCU68|RoB|61": {
-  "interp": "ถามข้อที่<b>ไม่ใช่</b>ลักษณะทางกายวิภาคของ <b>colon</b>",
-  "why": "<b>Valves of Houston</b> (transverse rectal folds) เป็นรอยพับของ<b>ไส้ตรง (rectum)</b> ไม่ใช่ colon · ลักษณะของ colon: <b>taenia coli</b> (กล้ามเนื้อตามยาว 3 แถบ), haustra, <b>appendices epiploicae</b>, เลือดเลี้ยงจาก <b>SMA และ IMA</b>, เป็นทั้ง<b>intraperitoneal</b> (cecum, transverse, sigmoid) และ <b>retroperitoneal</b> (ascending, descending) · ไฟล์ขีด E ลายมือ <b>\"@ rectum\"</b> ติ๊ก ✓ ที่ A–D และแปะสไลด์ colon + Arterial supply",
+  "interp": "คำถามแบบ <b>NOT</b> ถามลักษณะที่<b>ไม่ใช่</b>กายวิภาคของลำไส้ใหญ่ (colon) — ต้องแยกโครงสร้างเฉพาะของ colon (taenia, appendices epiploicae) ออกจากโครงสร้างของ rectum และรู้เส้นเลือดกับความสัมพันธ์ต่อเยื่อบุช่องท้อง",
+  "why": "<b>Valves of Houston</b> คือ<b>รอยพับขวางของ rectum (transverse rectal folds)</b> มักมี 3 รอย (บนและล่างอยู่ซ้าย กลางอยู่ขวาซึ่งตรงกับระดับ peritoneal reflection ด้านหน้า) ไม่ใช่โครงสร้างของ colon — เป็นจุดสังเกตเวลาส่องกล้องและเป็นตำแหน่งที่ตัดชิ้นเนื้อ rectum ได้ปลอดภัย · ส่วนลักษณะเฉพาะของ colon คือ <b>taenia coli</b> (กล้ามเนื้อตามยาว 3 แถบที่มาบรรจบที่โคนไส้ติ่งและแผ่เป็นชั้นรอบวงที่ rectosigmoid junction) <b>haustra</b> และ <b>appendices epiploicae</b> · เลือดเลี้ยงจาก <b>SMA</b> (ileocolic, right colic, middle colic) ถึงราว 2/3 ของ transverse colon และ <b>IMA</b> (left colic, sigmoid, superior rectal) ต่อจากนั้น เชื่อมกันด้วย marginal artery of Drummond · จุดรอยต่อที่ splenic flexure (Griffiths' point) เลือดน้อยจึงขาดเลือดง่าย · ascending และ descending colon เป็น <b>retroperitoneal</b> ส่วน transverse และ sigmoid colon เป็น <b>intraperitoneal</b> มี mesentery · ไฟล์ติ๊ก ✓ ที่ A–D และขีด E ลายมือ <b>\"@ rectum\"</b>",
   "wrong": {
-   "A": "เป็นลักษณะ — taenia coli 3 แถบ (ลายมือ ✓) ซึ่งรวมกันที่ไส้ติ่งและหายไปที่ rectum · จะถูกถ้าคำถามถามลักษณะที่ไม่มีใน rectum",
-   "B": "เป็นลักษณะ — ถุงไขมันห้อยที่ผิว colon (ลายมือ ✓) · จะถูกถ้าคำถามถามลักษณะที่ไม่มีในลำไส้เล็ก/ rectum",
-   "C": "เป็นลักษณะ — SMA เลี้ยงถึง 2/3 ต้นของ transverse IMA เลี้ยงส่วนที่เหลือ (ลายมือ ✓) · จะถูกถ้าคำถามถามเลือดเลี้ยง rectum ส่วนล่าง (middle/ inferior rectal a.)",
-   "D": "เป็นลักษณะ — ascending/ descending เป็น retroperitoneal ส่วน transverse/ sigmoid เป็น intraperitoneal (ลายมือ ✓) · จะถูกถ้าคำถามถามส่วนของ colon ที่มี mesentery"
+   "A": "ข้อความถูก: taenia coli เป็นแถบกล้ามเนื้อตามยาว 3 แถบ (taenia libera, mesocolica, omentalis) ทำให้เกิด haustra และใช้หาโคนไส้ติ่งระหว่างผ่าตัดเพราะทั้ง 3 แถบมาบรรจบกันที่นั่น · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลำไส้ใหญ่ เช่น ศัลยแพทย์ที่ผ่าตัดไส้ติ่งแล้วหาไส้ติ่งไม่เจอ ให้ไล่ taenia ของ cecum ลงไปที่จุดบรรจบ",
+   "B": "ข้อความถูก: appendices epiploicae เป็นติ่งไขมันเล็ก ๆ ที่ห้อยจากผิว colon (ไม่มีใน rectum และลำไส้เล็ก) อาจบิดหรือขาดเลือดเกิด epiploic appendagitis · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับ colon เช่น หญิง 35 ปีปวดท้องน้อยซ้ายเฉพาะที่ ไม่มีไข้ CT เห็นก้อนไขมันรูปไข่มีขอบวงแหวนติด sigmoid → รักษาด้วยยาแก้ปวด",
+   "C": "ข้อความถูก: colon ได้เลือดจาก SMA (midgut: cecum ถึง 2/3 ของ transverse) และ IMA (hindgut: 1/3 ปลาย transverse ถึง rectum ส่วนบน) มี watershed ที่ splenic flexure (ลายมือในไฟล์: ไวต่อการขาดเลือดของ SMA, IMA) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับ colon เช่น ผู้ป่วยหลังผ่าตัด aortic aneurysm ที่ผูก IMA แล้วถ่ายเป็นเลือดปวดท้องซ้าย → ischemic colitis",
+   "D": "ข้อความถูก: ascending/ descending colon และ hepatic/ splenic flexure เป็น retroperitoneal (ลายมือ retroperitoneal ✓) ส่วน transverse และ sigmoid colon เป็น intraperitoneal มี mesentery จึงบิดได้ (sigmoid volvulus) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับ colon เช่น ผู้สูงอายุติดเตียงท้องอืดมาก ฟิล์มเห็น coffee bean sign → sigmoid volvulus เพราะ sigmoid มี mesentery ยาว"
   },
-  "trap": "ลืมว่า valves of Houston อยู่ที่ rectum — rectum ไม่มี taenia/ haustra/ appendices epiploicae",
+  "trap": "Valves of Houston อยู่ใกล้ sigmoid และเห็นได้ในการส่องกล้องลำไส้ใหญ่ จึงเข้าใจผิดว่าเป็นของ colon · และช้อย D อาจถูกมองว่าผิดเพราะคิดว่า colon ต้องเป็นอย่างใดอย่างหนึ่ง · ให้จำว่า rectum <b>ไม่มี</b> taenia, haustra, appendices epiploicae แต่<b>มี</b> valves of Houston",
   "summary": [
-   "Colon: taenia coli · haustra · appendices epiploicae",
-   "Rectum: ไม่มี taenia (กล้ามเนื้อตามยาวรอบวง) · valves of Houston 3 อัน",
-   "Intraperitoneal: cecum · transverse · sigmoid",
-   "Retroperitoneal: ascending · descending",
-   "SMA: ถึง 2/3 ต้น transverse · IMA: ที่เหลือ",
-   "Watershed: splenic flexure (Griffiths) · rectosigmoid (Sudeck)"
+   "Colon: taenia coli 3 แถบ · haustra · appendices epiploicae · ทั้งสามไม่มีใน rectum (taenia แผ่เป็นชั้นรอบวงที่ rectosigmoid junction)",
+   "Rectum: ยาว ~12–15 cm · valves of Houston 3 รอย · 1/3 บนมี peritoneum ด้านหน้าและข้าง · 1/3 กลางเฉพาะด้านหน้า · 1/3 ล่าง extraperitoneal",
+   "SMA: ileocolic, right colic (ไม่คงที่), middle colic · IMA: left colic, sigmoid arteries, superior rectal · marginal artery of Drummond เชื่อมสองระบบ",
+   "Watershed: Griffiths' point (splenic flexure) และ Sudeck's point (rectosigmoid) → ischemic colitis พบมากตรงนี้",
+   "Intraperitoneal: cecum (ส่วนใหญ่), transverse, sigmoid · Retroperitoneal: ascending, descending, flexures · ต้องตัด white line of Toldt เพื่อยก colon ระหว่างผ่าตัด",
+   "Hepatic flexure อยู่ระดับ ~T9–T10 ด้านขวา · splenic flexure สูงกว่า ยึดด้วย phrenicocolic ligament · ดึงแรงระหว่างผ่าตัดทำให้ม้ามฉีกได้",
+   "การระบายน้ำเหลืองตามหลอดเลือดแดง → การผ่าตัดมะเร็ง colon ต้องตัด mesentery ตามหลอดเลือดหลักให้ได้ต่อมน้ำเหลือง ≥ 12 ต่อม"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
-  "mnemonic": "<b>'Houston อยู่ใน Rectum (ไม่ใช่ colon)'</b>",
-  "guide": "Gray's Anatomy 42nd ed. (2020) — Large intestine; Sabiston Textbook of Surgery 21st ed. (2022) — Colon and rectum anatomy",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ติ๊ก ✓ ที่ A–D และขีด E พร้อมลายมือ @ rectum และ MCQ Key_1 ขีด E) · ช้อย D ในต้นฉบับเขียนว่าเป็นทั้ง intraperitoneal และ retroperitoneal organ ซึ่งถูกเมื่อมองทั้ง colon",
+  "mnemonic": "<b>'Houston อยู่ใน Rectum · Colon มี T-H-A (Taenia, Haustra, Appendices)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Colon and Rectum; The ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022) — Anatomy",
   "variants": [
-   "ลักษณะที่ใช้แยก colon กับลำไส้เล็กระหว่างผ่าตัด → taenia coli + appendices epiploicae",
-   "ไส้ติ่งหาตำแหน่งโดยตาม taenia coli ไปรวมกันที่ฐาน",
-   "ส่วนของ colon ที่ retroperitoneal → ascending/ descending"
+   "ผู้ป่วยหลังผ่าตัดซ่อม abdominal aortic aneurysm ถ่ายเป็นเลือดวันที่ 2 → ischemic colitis ที่ sigmoid/ splenic flexure → ส่องกล้อง sigmoidoscopy",
+   "ศัลยแพทย์หาโคนไส้ติ่งไม่เจอระหว่างผ่าตัด → ไล่ตาม taenia coli ของ cecum ไปจุดที่สามแถบบรรจบกัน",
+   "ส่องกล้องตัดชิ้นเนื้อ rectum ที่ระดับใต้รอยพับกลาง → อยู่ใต้ peritoneal reflection ด้านหน้า เสี่ยงทะลุเข้าช่องท้องน้อยกว่า",
+   "หญิงปวดท้องน้อยซ้ายเฉพาะที่ ไม่มีไข้ WBC ปกติ CT เห็นก้อนไขมันมีขอบวงแหวน (hyperattenuating ring) ติด sigmoid → epiploic appendagitis → ยาแก้ปวด NSAID"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 71 — หัวข้อ colo · ตัวพิมพ์: <b>61. ข้อใดไม่ใช่ anatomy ของ colon — A. Taenia coli B. Appendices epiploicae C. Supply by SMA and IMA D. Intraperitoneal and retroperitoneal organ E. Valve of Houston</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ✓ ที่ A–D · ขีด E + \"@ rectum\"<br>ไฮไลต์: \"ไม่ใช่ anatomy ของ colon\" · E (เหลือง)<br>รูปที่แปะ: สไลด์ colon (ภาพ colon พร้อมลายมือ — taenia coli, omental appendices · Hepatic (right colic) flexures T9–T10 · Splenic (left colic) flexures — Phrenicocolic ligament · Paracolic gutters — Peritoneal fold along and lateral to ascending and descending colon → \"retroperitoneal ✓\") · สไลด์ Arterial supply — 2 systems: SMA and IMA (midgut/ hindgut) · Transitional zone at splenic flexure (\"blood น้อย (watershed) ∴ ไวต่อ SMA, IMA ขาด\")<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 62: ขีด E (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 71",
@@ -137,30 +145,32 @@
   ]
  },
  "MDCU68|RoB|64": {
-  "interp": "<b>มะเร็งไส้ตรงลุกลามไปกระเพาะปัสสาวะ</b> → ถามการจัดการ",
-  "why": "มะเร็งไส้ตรงที่ลุกลามอวัยวะข้างเคียง (T4b) ใน pelvis เช่นกระเพาะปัสสาวะ ไม่มีการกระจายไกล → ต้องผ่าตัดเอาออก<b>ทั้งก้อนพร้อมอวัยวะที่ติด (en bloc)</b> ให้ได้ขอบปลอดภัย (R0) = <b>pelvic exenteration</b> (anterior/ total) โดยปัจจุบันให้ <b>neoadjuvant chemoradiation/ TNT ก่อน</b>เพื่อลดขนาด · ไฟล์ขีด C ลายมือ <b>\"= pelvic exenteration; Sx เอา pelvic organ ออก\"</b>",
+  "interp": "มะเร็งไส้ตรง<b>ลุกลามเข้ากระเพาะปัสสาวะ</b> (T4b) — ถามการรักษา ต้องรู้ว่ามะเร็งที่ลุกอวัยวะข้างเคียงแต่ยังไม่แพร่กระจายไกล ต้องผ่าตัดเอาออกพร้อมอวัยวะนั้นเป็นก้อนเดียว (en bloc) ให้ขอบปลอดมะเร็ง",
+  "why": "มะเร็งไส้ตรงที่ลุกถึงอวัยวะข้างเคียง (<b>cT4b</b>) ยังหายขาดได้ถ้าตัดออกหมดโดย<b>ขอบไม่มีมะเร็ง (R0)</b> ซึ่งเป็นปัจจัยพยากรณ์ที่สำคัญที่สุด — ต้อง<b>ตัดออกพร้อมอวัยวะที่ถูกลุกลามเป็นก้อนเดียว (en bloc multivisceral resection)</b> ห้ามแยกส่วนที่ติดกันเพราะส่วนที่ติดมีมะเร็งจริงราวครึ่งหนึ่งและทำให้มะเร็งกระจายในเชิงกราน · เมื่อลุก<b>กระเพาะปัสสาวะ</b>ในเชิงกรานต้องทำ <b>pelvic exenteration</b> — total pelvic exenteration (ไส้ตรง + กระเพาะปัสสาวะ + ต่อมลูกหมาก/ มดลูกและช่องคลอด) พร้อมสร้างทางปัสสาวะใหม่ (ileal conduit) และ colostomy · ก่อนผ่าตัดต้อง MRI เชิงกราน + CT ทรวงอก/ ท้อง ตัดการแพร่กระจาย และให้ <b>neoadjuvant therapy</b> (long-course chemoradiation หรือ total neoadjuvant therapy) เพื่อลดขนาดก้อนให้ได้ R0 · ทำในศูนย์เฉพาะ อัตรา 5-year survival หลัง R0 ราวครึ่งหนึ่ง · ไฟล์ขีด C ลายมือ <b>\"= pelvic exenteration ; Sx เอา pelvic organ ออก\"</b>",
   "wrong": {
-   "A": "LAR + coloanal anastomosis ไม่ได้เอากระเพาะปัสสาวะที่ถูกลุกลามออก → ขอบไม่ปลอดภัย · จะถูกถ้ามะเร็งไส้ตรงส่วนล่าง T2–3 ไม่ลุกลามอวัยวะอื่น ห่างหูรูดพอ",
-   "B": "APR ตัดไส้ตรงและหูรูด แต่ไม่ได้เอากระเพาะปัสสาวะออก · จะถูกถ้ามะเร็งไส้ตรงต่ำลุกลามหูรูด ไม่ติดอวัยวะอื่น",
-   "D": "เคมีบำบัดอย่างเดียวไม่ใช่การรักษาหายขาดเมื่อยังผ่าตัดได้ · จะถูกถ้ามะเร็งกระจายไกลหลายตำแหน่งผ่าตัดไม่ได้",
-   "E": "Local excision ใช้กับ T1 ขนาดเล็กลักษณะเสี่ยงต่ำเท่านั้น · จะถูกถ้ามะเร็งไส้ตรง T1 &lt; 3 cm well differentiated ไม่มี LVI"
+   "A": "Low anterior resection with coloanal anastomosis เก็บหูรูดไว้ ใช้กับมะเร็งไส้ตรงส่วนกลาง–ล่างที่ยังไม่ลุกอวัยวะข้างเคียงและมีขอบล่างพอ (≥ 1 cm หลัง neoadjuvant) แต่ไม่เอากระเพาะปัสสาวะออก ขอบจึงมีมะเร็งค้าง · จะถูกถ้าเป็นชาย 55 ปีมะเร็งไส้ตรงห่างขอบทวาร 5 cm cT3N1 หูรูดปกติ หลัง chemoradiation ก้อนยุบดี",
+   "B": "Abdominoperineal resection ตัดไส้ตรงพร้อมหูรูดและทำ colostomy ถาวร ใช้เมื่อมะเร็งลุกหูรูดหรือ levator ani หรือขอบล่างไม่พอ แต่ไม่เอากระเพาะปัสสาวะออก · จะถูกถ้าเป็นหญิง 65 ปีมะเร็งไส้ตรงห่างขอบทวาร 2 cm ลุกเข้า external sphincter โดยไม่ลุกอวัยวะด้านหน้า",
+   "D": "เคมีบำบัดอย่างเดียวใช้เมื่อโรคแพร่กระจายไกลที่ผ่าตัดไม่ได้หรือผู้ป่วยผ่าตัดไม่ไหว ในโรคเฉพาะที่ที่ตัดออกได้จะเสียโอกาสหายขาด แม้เคมีบำบัดเป็นส่วนหนึ่งของ neoadjuvant ก่อนผ่าตัด · จะถูกถ้าเป็นผู้ป่วยมะเร็งไส้ตรงที่แพร่กระจายไปตับและปอดหลายก้อนผ่าตัดไม่ได้ (FOLFOX/ FOLFIRI + ยามุ่งเป้าตาม RAS/ BRAF/ MSI)",
+   "E": "Local excision (TAMIS/ transanal endoscopic microsurgery) ตัดเฉพาะก้อนผ่านทวารหนัก ไม่ได้ต่อมน้ำเหลือง ใช้กับมะเร็งระยะแรกมากเท่านั้น · จะถูกถ้าเป็นชาย 70 ปีมะเร็งไส้ตรง T1 ขนาด 2 cm กินพื้นที่ &lt; 30% ของรอบวง well-differentiated ไม่มี lymphovascular invasion และไม่มีต่อมน้ำเหลืองโต"
   },
-  "trap": "เลือก APR เพราะเป็นการผ่าตัดใหญ่ของไส้ตรง — ลุกลามกระเพาะปัสสาวะต้องเอาอวัยวะที่ติดออกด้วย (exenteration)",
+  "trap": "เลือก APR เพราะคุ้นว่าเป็นการผ่าตัดใหญ่ที่สุดของมะเร็งไส้ตรง หรือเลือกเคมีบำบัดเพราะคิดว่าลุกอวัยวะอื่นแล้วเป็นระยะลุกลามผ่าตัดไม่ได้ · T4b ยังไม่ใช่ stage IV ถ้าไม่มี distant metastasis — ต้องตัด en bloc ให้ R0 ซึ่งเมื่อลุกกระเพาะปัสสาวะคือ pelvic exenteration (หลัง neoadjuvant)",
   "summary": [
-   "Rectal CA T4b ลุกลามอวัยวะใน pelvis → neoadjuvant CRT/ TNT → pelvic exenteration",
-   "Anterior exenteration: กระเพาะปัสสาวะ + ไส้ตรง (± มดลูก)",
-   "Total exenteration: + ต่อมลูกหมาก · ต้องทำ urinary diversion (ileal conduit) + colostomy",
-   "เป้าหมาย: R0 resection",
-   "Colon CA ติด dome กระเพาะปัสสาวะ → en bloc partial cystectomy",
-   "กระจายไกลผ่าตัดไม่ได้ → systemic therapy"
+   "T staging ไส้ตรง: T1 submucosa · T2 muscularis propria · T3 perirectal fat · T4a ทะลุ visceral peritoneum · T4b ลุกอวัยวะ/ โครงสร้างข้างเคียง (กระเพาะปัสสาวะ ต่อมลูกหมาก ช่องคลอด sacrum)",
+   "Staging: MRI เชิงกราน (T, N, circumferential resection margin, EMVI) + CT ทรวงอก/ ท้อง + CEA · ทวารหนักส่วนต่ำใช้ MRI ดูหูรูด",
+   "Locally advanced (T3–T4 หรือ N+): neoadjuvant — long-course chemoradiation หรือ total neoadjuvant therapy (CRT/ short-course RT + เคมีบำบัด) ก่อน TME",
+   "Total mesorectal excision (TME) คือมาตรฐาน: ตัดตามระนาบ mesorectal fascia ลด local recurrence · LAR เมื่อเก็บหูรูดได้ · APR เมื่อลุกหูรูด/ levator",
+   "T4b: en bloc multivisceral resection ให้ R0 · ลุกกระเพาะปัสสาวะ/ ต่อมลูกหมาก → total pelvic exenteration + ileal conduit + colostomy · ลุกมดลูก/ ช่องคลอดหลังอย่างเดียว → posterior exenteration",
+   "Local excision (TAMIS/ TEM) เฉพาะ T1N0 ความเสี่ยงต่ำ: &lt; 3 cm, &lt; 30% รอบวง, well/ moderately differentiated, ไม่มี LVI, ลุก submucosa ตื้น",
+   "Complete clinical response หลัง TNT: บางรายเลือก watch-and-wait (ส่องกล้อง + MRI ติดตามใกล้ชิด) โดยเฉพาะ dMMR/ MSI-H ตอบสนองต่อ immunotherapy ดีมาก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ปัจจุบันให้ neoadjuvant CRT ก่อนผ่าตัด · ต้นฉบับช้อย E ว่าง จึงเติม",
-  "mnemonic": "<b>'ไส้ตรงลุกลามกระเพาะปัสสาวะ = เอาออกหมดทั้งอุ้งเชิงกราน (Exenteration)'</b>",
-  "guide": "NCCN Clinical Practice Guidelines: Rectal Cancer v.3.2025; PelvEx Collaborative consensus (Br J Surg 2019;106:1069)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด C พร้อมลายมือ pelvic exenteration และ MCQ Key_1 ขีด C) · ในทางปฏิบัติปัจจุบันจะให้ neoadjuvant chemoradiation/ TNT ก่อนแล้วจึงทำ pelvic exenteration แต่ในช้อยที่มี การผ่าตัดเอาอวัยวะเชิงกรานออกเป็นก้อนเดียวคือคำตอบ",
+  "mnemonic": "<b>'ลุกอวัยวะข้างเคียง = เอาออกยกก้อน (en bloc) · ลุกกระเพาะปัสสาวะ = Exenteration'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Rectal Cancer (current version); PelvEx Collaborative. Surgical and survival outcomes following pelvic exenteration for locally advanced primary rectal cancer (Ann Surg 2019;269:315–321)",
   "variants": [
-   "rectal CA T4b ติดต่อมลูกหมาก + กระเพาะปัสสาวะ → TNT → total pelvic exenteration",
-   "rectal CA ต่ำ ลุกลามหูรูด ไม่ติดอวัยวะอื่น → APR",
-   "rectal CA กลาง T3N1 → neoadjuvant CRT → LAR + TME"
+   "หญิง 60 ปีมะเร็งไส้ตรงลุกผนังหลังของช่องคลอดและมดลูก ไม่ลุกกระเพาะปัสสาวะ ไม่มีแพร่กระจาย → neoadjuvant แล้ว posterior pelvic exenteration",
+   "ระหว่างผ่าตัด LAR พบก้อนติดแน่นกับ dome ของกระเพาะปัสสาวะ → ตัดกระเพาะปัสสาวะบางส่วนออกพร้อมก้อนเป็นชิ้นเดียว ไม่แยกส่วนที่ติด",
+   "ชาย 58 ปีมะเร็งไส้ตรง cT3N2 MRI พบ circumferential resection margin เสี่ยง (≤ 1 mm) → total neoadjuvant therapy ก่อน TME",
+   "ทำไมห้ามแยกส่วนที่มะเร็งติดอวัยวะข้างเคียงออกจากกัน → ราวครึ่งหนึ่งของส่วนที่ติดมีมะเร็งลุกจริง การแยกทำให้ขอบมีมะเร็งและกลับเป็นซ้ำเฉพาะที่สูง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 71 — ตัวพิมพ์: <b>64. CA rectum extend to bladder. Management? — A. LAR with coloanal anastomosis B. APR C. PE D. Chemo E</b><br>ลายมือ: ขีด C + \"= pelvic exenteration ; Sx เอา pelvic organ ออก\"<br>ไฮไลต์: \"CA rectum extend to bladder\" \"Management\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 62: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย E ว่าง → เติม",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 71",
@@ -171,30 +181,32 @@
   ]
  },
  "MDCU68|RoB|ไม่มีเลข 1": {
-  "interp": "ผู้ป่วย <b>perianal abscess</b> มี<b>ไข้และ cellulitis</b> → ถามการรักษา",
-  "why": "ฝีรอบทวารรักษาหลักด้วย<b>การระบาย (I&amp;D)</b> — ยาปฏิชีวนะอย่างเดียวไม่พอเพราะยาเข้าไม่ถึงหนอง · ให้<b>ยาปฏิชีวนะเสริม</b>เมื่อมี <b>ไข้/ อาการทั้งระบบ, cellulitis</b>, ฝีลึก, ภูมิคุ้มกันต่ำ/ เบาหวาน, ลิ้นหัวใจเทียม → <b>I&amp;D + antibiotics</b> · ไฟล์ขีด C และแปะสไลด์ <b>Treatment</b> (ลายมือ \"drainage\" เป็นหลัก ± ATB เมื่อ low immune, systemic reaction, cellulitis, deep infection)",
+  "interp": "ผู้ป่วย<b>ฝีรอบทวารหนัก (perianal abscess)</b> ที่มี<b>ไข้และ cellulitis</b> ร่วมด้วย — ถามการรักษา ต้องรู้ว่าหลักคือการระบายหนอง และข้อบ่งชี้ที่ต้องให้ยาปฏิชีวนะเสริม",
+  "why": "หลักการรักษาฝีรอบทวารหนักทุกชนิดคือ<b>ผ่าระบายหนอง (incision and drainage) โดยเร็ว</b> — ยาปฏิชีวนะอย่างเดียวเข้าไม่ถึงโพรงหนองและไม่ทำให้หาย การรอให้ฝีนุ่มก่อนผ่าทำให้หนองเซาะลึกและเสี่ยง necrotizing infection · <b>ยาปฏิชีวนะใช้เสริมเฉพาะบางกลุ่ม</b> (ASCRS 2022): มี <b>cellulitis รอบ ๆ หรือ systemic sign</b> (ไข้ WBC สูง sepsis), ภูมิคุ้มกันต่ำ (เบาหวาน เคมีบำบัด HIV), มีลิ้นหัวใจเทียม/ โรคลิ้นหัวใจ, หรือฝีลึกซับซ้อน — ผู้ป่วยมีทั้งไข้และ cellulitis จึงต้อง <b>I&amp;D + ยาปฏิชีวนะครอบคลุมเชื้อลำไส้ (gram-negative + anaerobe)</b> · ฝีตื้น (perianal, intersphincteric บางราย) ระบายเฉพาะที่ได้ ฝีลึก (ischioanal, horseshoe, supralevator) ต้องระบายในห้องผ่าตัดภายใต้ยาสลบ · หลังระบาย ราว 1/3 ถึงครึ่งหนึ่งเกิด fistula-in-ano · ไฟล์ขีด C และภาพสไลด์ที่แปะมีลายมือ <b>\"± ATB ดูเป็นๆ ex. low immune · มี systemic reaction · cellulitis · deep infection abscess\"</b>",
   "wrong": {
-   "A": "ยาปฏิชีวนะอย่างเดียวไม่พอเมื่อมีหนองสะสม · จะถูกถ้ามีเพียง cellulitis รอบทวารยังไม่เกิดฝี",
-   "B": "I&amp;D อย่างเดียวพอสำหรับฝีเล็กไม่มีไข้/ cellulitis ในคนแข็งแรง · จะถูกถ้าชายแข็งแรงฝีรอบทวารเล็ก ไม่มีไข้",
-   "D": "ห้ามเฝ้าดู ฝีลามได้และเสี่ยง necrotizing infection · จะถูกถ้าคำถามถามการดูแลหลังระบายแล้วแผลดี",
-   "E": "Sitz bath เป็นการดูแลเสริมหลังระบาย · จะถูกถ้าคำถามถามการดูแลแผลหลังผ่าตัด"
+   "A": "ยาปฏิชีวนะอย่างเดียวไม่พอสำหรับฝีที่เป็นโพรงหนองแล้ว เพราะยาซึมเข้าโพรงไม่ได้ การรักษาช้าทำให้ฝีลามลึกและเกิด necrotizing soft tissue infection · จะถูกถ้าเป็นชาย 40 ปีผิวรอบทวารบวมแดงร้อนเจ็บ ไม่มีจุดนุ่มคลำได้ และ ultrasound/ MRI ไม่พบโพรงหนอง (cellulitis ยังไม่เป็นฝี) — ให้ยาแล้วนัดตรวจซ้ำใน 24–48 ชั่วโมง",
+   "B": "I&amp;D อย่างเดียวพอสำหรับฝีตื้นที่ไม่มีภาวะแทรกซ้อน แต่ผู้ป่วยมีไข้และ cellulitis ซึ่งเป็นข้อบ่งชี้ให้ยาปฏิชีวนะเสริม (ลายมือในไฟล์ ± ATB เมื่อมี systemic reaction หรือ cellulitis) · จะถูกถ้าเป็นชายสุขภาพดี 30 ปีมีฝีตื้นนุ่มขนาด 2 cm ข้างทวาร ไม่มีไข้ ผิวรอบไม่แดงลาม ไม่เป็นเบาหวาน",
+   "D": "การเฝ้าดูไม่เหมาะกับฝีหนองที่มีไข้ เพราะไม่มีทางหายเองได้อย่างปลอดภัย อาจลามเป็น Fournier gangrene · จะถูกถ้าเป็นหญิง 35 ปีมีก้อนม่วงเจ็บที่ขอบทวารเกิดหลังเบ่งถ่าย (thrombosed external hemorrhoid) ที่เป็นมาแล้ว &gt; 72 ชั่วโมงและปวดลดลง — ให้รักษาประคับประคองไม่ต้องผ่า",
+   "E": "Sitz bath ช่วยลดปวดและคลายกล้ามเนื้อหูรูด ใช้ดูแลหลังระบายฝีหรือโรคทวารหนักไม่ติดเชื้อ แต่ไม่ใช่การรักษาฝี · จะถูกถ้าเป็นหญิง 28 ปีปวดแสบทวารหนักขณะถ่ายและมีเลือดสดติดกระดาษ ตรวจพบแผลฉีกที่ขอบทวารด้านหลัง (acute anal fissure) — sitz bath + อาหารกากใย + ยาทาคลายหูรูด"
   },
-  "trap": "ให้ยาปฏิชีวนะแล้วรอ — มีหนองต้องระบายเสมอ",
+  "trap": "รู้ว่าฝีต้องผ่าระบายจึงเลือก I&amp;D อย่างเดียว และมองข้ามคำว่า <b>ไข้และ cellulitis</b> ในโจทย์ ซึ่งเป็นตัวบอกว่าต้องเสริมยาปฏิชีวนะ · ในทางกลับกันอย่าเลือกยาอย่างเดียว เพราะโพรงหนองต้องระบายเสมอ",
   "summary": [
-   "Perianal/ intersphincteric = simple · ischioanal/ supralevator = deep/ complex",
-   "หลัก: drainage",
-   "ATB เสริม: ไข้/ sepsis · cellulitis · ภูมิต่ำ · ฝีลึก · ลิ้นเทียม",
-   "Perianal: ระบายเฉพาะที่ได้ · ischioanal/ supralevator → ห้องผ่าตัด",
-   "~30–50% เกิด fistula",
-   "Fournier: ผิวม่วงคล้ำ crepitus → debride ด่วน"
+   "ชนิดฝีรอบทวารตามตำแหน่ง: perianal (พบบ่อยสุด) · ischioanal · intersphincteric · supralevator · horseshoe (ผ่าน deep postanal space ไปสองข้าง)",
+   "ต้นเหตุส่วนใหญ่: ต่อม anal gland ที่ dentate line อุดตันติดเชื้อ (cryptoglandular theory) · นึกถึง Crohn's disease, TB, HIV, มะเร็ง ถ้าเป็นซ้ำ/ ซับซ้อน",
+   "รักษา: I&amp;D เร็ว แผลใกล้ขอบทวารที่สุดเพื่อให้ fistula ที่อาจเกิดสั้น · ฝีลึก/ horseshoe/ supralevator → ระบายในห้องผ่าตัด (ภาพ CT/ MRI ช่วยวางแผน)",
+   "ยาปฏิชีวนะเสริม (ASCRS 2022): cellulitis รอบ ๆ, systemic sign/ sepsis, ภูมิคุ้มกันต่ำ, เบาหวาน, ลิ้นหัวใจเทียม/ โรคลิ้นหัวใจ, ฝีซับซ้อน",
+   "หลังระบาย fistula-in-ano เกิดราว 1/3 ถึงครึ่งหนึ่ง (ลายมือในไฟล์: ฝีตื้นหายขาด ~40% ฝีลึกเกิด complex fistula ~80%) → นัดตรวจหลังแผลหาย",
+   "Necrotizing perineal infection (Fournier): ปวดเกินสัดส่วน ผิวดำ crepitus sepsis → ยาปฏิชีวนะกว้าง + debridement ด่วนในห้องผ่าตัด",
+   "ผู้ป่วย neutropenia อาจไม่มีหนองให้เห็น มีแค่ปวดและแดง → ให้ยาปฏิชีวนะก่อน และระบายเมื่อมีโพรงชัดเจน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'ฝีก้น + ไข้ + cellulitis = ระบาย + ยา'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด C พร้อมสไลด์ treatment และลายมือ ± ATB เมื่อมี systemic reaction/ cellulitis และ MCQ Key_1 ขีด C) · ต้นฉบับมีเพียง 3 ช้อย เว็บเติม D, E",
+  "mnemonic": "<b>'ฝี = ระบาย (Drainage first) · ไข้/ Cellulitis/ ภูมิต่ำ = + ATB'</b>",
+  "guide": "Gaertner WB, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964–985)",
   "variants": [
-   "ฝีรอบทวารเล็ก ไม่มีไข้ คนแข็งแรง → I&amp;D อย่างเดียว",
-   "ฝี ischioanal เป็นรูปเกือกม้า → ระบายในห้องผ่าตัด (Hanley)",
-   "เบาหวาน ฝีก้น ผิวม่วงคล้ำ → Fournier → debride ด่วน"
+   "ชายเบาหวานคุมไม่ดี ฝีรอบทวารขนาด 4 cm ผิวแดงลามไปก้น ไข้ 38.8°C → I&amp;D + ยาปฏิชีวนะครอบคลุม gram-negative/ anaerobe",
+   "ผู้ป่วยปวดลึกในทวารหนักมาก มีไข้ แต่มองภายนอกไม่เห็นก้อน คลำทางทวารพบจุดนุ่มกดเจ็บเหนือ dentate line → intersphincteric/ supralevator abscess → MRI และระบายในห้องผ่าตัด",
+   "ผู้ป่วยหลังระบายฝีได้ 3 เดือน มีหนองซึมจากรูเล็กข้างทวารเป็นพัก ๆ → fistula-in-ano → ตรวจหา internal opening (Goodsall's rule) ก่อนผ่าตัด",
+   "ชายสูงอายุปวดฝีเย็บมาก ผิวอัณฑะดำ กดมีเสียงกรอบแกรบ ความดันต่ำ → Fournier gangrene → resuscitation + ยาปฏิชีวนะกว้าง + debridement ด่วน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 71 — ตัวพิมพ์: <b>ผู้ป่วย perianal abscess มี fever and cellulitis ควรทำอย่างไร — A. ATB B. I&amp;D C. I&amp;D + ATB D. E..</b><br>ลายมือ: \"ซ้ำ\" ที่ต้นข้อ · ขีด C<br>ไฮไลต์: \"perianal abscess\" \"fever and cellulitis\" · C (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Treatment พร้อมลายมือ — Sup./ Simple: Perianal abscess, Intersphincteric abscess → \"local I&amp;D\" (\"หายขาด ~40% · 60% → fistula in ano\") · Deep/ complex: Ischioanal abscess (horseshoes), Supralevator abscess → \"I&amp;D + ATB · ใน OR + anesthesia\" (\"หายขาด 20% · 80% complex fistula · ต้องระบายหนองให้เพียงพอ!\") · <b>\"* drainage *\"</b> · \"± ATB ดูเป็นๆ ex. low immune · มี systemic reaction (ไข้, WBC ↑, มี metabolic response to sepsis) · cellulitis · deep infection abscess\"<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 62: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 71",
@@ -205,30 +217,32 @@
   ]
  },
  "MDCU68|RoB|75": {
-  "interp": "ชาย 40 ปี <b>เหงื่อออกกลางคืน น้ำหนักลด (B symptoms)</b> ต่อมน้ำเหลืองที่คอโต และ CXR พบ<b>ก้อนที่ anterior mediastinum</b> ผล biopsy เป็น lymphoma <b>อยู่ด้านเดียวของกะบังลม</b> → ถามระยะ",
-  "why": "Ann Arbor/ Lugano staging: ต่อมน้ำเหลือง ≥ 2 กลุ่ม (คอ + mediastinum) <b>ด้านเดียวกันของกะบังลม = stage II</b> · มี <b>B symptoms</b> (ไข้ &gt; 38 °C, เหงื่อออกกลางคืนจนเปียก, น้ำหนักลด &gt; 10% ใน 6 เดือน) → ต่อท้าย <b>B</b> → <b>stage IIB</b> · ไฟล์ขีด 2 ลายมือ <b>\"B-symptom\"</b> \"side?\" และแปะสไลด์ <b>Lymphoma Staging</b>",
+  "interp": "ชาย 40 ปีมี<b>เหงื่อออกกลางคืนและน้ำหนักลด</b> ต่อมน้ำเหลืองที่คอโต และ<b>ก้อนที่ anterior mediastinum</b> ชิ้นเนื้อเป็น lymphoma ที่<b>อยู่ฝั่งเดียวของกระบังลม</b> — ถาม stage ซึ่งต้องนับกลุ่มต่อมน้ำเหลืองตามระบบ Ann Arbor/ Lugano และใส่ตัว B สำหรับอาการทั่วร่างกาย",
+  "why": "Staging ของ lymphoma (Ann Arbor ปรับเป็น <b>Lugano 2014</b>) นับ<b>จำนวนกลุ่มต่อมน้ำเหลืองเทียบกับกระบังลม</b>: <b>I</b> = กลุ่มเดียว · <b>II</b> = ≥ 2 กลุ่มบน<b>ฝั่งเดียวกันของกระบังลม</b> · <b>III</b> = ทั้งสองฝั่งของกระบังลม (หรือเหนือกระบังลมร่วมกับม้าม) · <b>IV</b> = อวัยวะนอกต่อมน้ำเหลืองแบบกระจาย (ตับ ไขกระดูก ปอดหลายก้อน) · ผู้ป่วยมีต่อมที่คอ + mediastinum = 2 กลุ่มเหนือกระบังลม = <b>stage II</b> · <b>B symptoms</b> คือไข้ &gt; 38°C ที่ไม่มีสาเหตุ, <b>เหงื่อออกกลางคืนจนเปียก</b>, <b>น้ำหนักลด &gt; 10% ใน 6 เดือน</b> — มีอย่างใดอย่างหนึ่งเติม B → <b>IIB</b> (Lugano ใช้ A/B เฉพาะ Hodgkin lymphoma) · ชายวัยนี้ที่มีก้อนกลางทรวงอกด้านหน้าและต่อมคอ นึกถึง Hodgkin lymphoma ชนิด nodular sclerosis หรือ primary mediastinal B-cell lymphoma · ไฟล์ขีด 2 ลายมือ <b>\"B-symptom\"</b> และสไลด์ที่แปะเขียน <b>\"II Two or more groups of LN but in the same side of diaphragm · ± มี B-symptom → IB, IIB\"</b>",
   "wrong": {
-   "A": "IIA ระยะถูกแต่ไม่มี B symptoms · จะถูกถ้าผู้ป่วยไม่มีไข้ เหงื่อออกกลางคืน หรือน้ำหนักลด",
-   "C": "IIIA = ต่อมน้ำเหลืองทั้งสองด้านของกะบังลม ไม่มี B symptoms · จะถูกถ้ามีต่อมน้ำเหลืองที่คอและขาหนีบ ไม่มี B symptoms",
-   "D": "IIIB = ทั้งสองด้านของกะบังลม + B symptoms · จะถูกถ้ามีต่อมน้ำเหลืองที่ mediastinum และ para-aortic ร่วมกับน้ำหนักลด",
-   "E": "IV = ลุกลามอวัยวะนอกต่อมน้ำเหลืองแบบกระจาย (ตับ ไขกระดูก ปอด) (คีย์ไฟล์ Key 1 ขีดข้อนี้) · จะถูกถ้าพบรอยโรคในตับ/ ไขกระดูก"
+   "A": "IIA ถูกในส่วนจำนวนกลุ่มต่อม แต่ A หมายถึงไม่มี B symptom ขณะที่ผู้ป่วยมีเหงื่อออกกลางคืนและน้ำหนักลด · จะถูกถ้าเป็นหญิง 25 ปีที่ต่อมน้ำเหลืองคอโตและก้อน mediastinum โดยไม่มีไข้ เหงื่อออกกลางคืน หรือน้ำหนักลด",
+   "C": "IIIA ต้องมีต่อมน้ำเหลืองทั้งเหนือและใต้กระบังลม และไม่มี B symptom ซึ่งผิดทั้งสองส่วน · จะถูกถ้าเป็นชาย 50 ปีต่อมคอโตร่วมกับต่อม para-aortic โต ไม่มีไข้ เหงื่อออก หรือน้ำหนักลด",
+   "D": "IIIB ต้องมีต่อมน้ำเหลืองทั้งสองฝั่งของกระบังลมร่วมกับ B symptom แต่ผู้ป่วยมีรอยโรคเฉพาะเหนือกระบังลม · จะถูกถ้าเป็นชาย 40 ปีมีเหงื่อออกกลางคืน น้ำหนักลด ต่อมคอและ mediastinum โต ร่วมกับต่อมขาหนีบและม้ามโต",
+   "E": "Stage IV ต้องมีการลุกอวัยวะนอกต่อมน้ำเหลืองแบบกระจาย (ตับ ไขกระดูก ปอดหลายตำแหน่ง) การที่ก้อนติดแน่นหรือลามต่อเนื่องไปเนื้อเยื่อข้างเคียงเป็นเพียงตัว E (เช่น IIE) ไม่ใช่ IV · จะถูกถ้าเป็นชาย 40 ปีที่ PET-CT พบรอยโรคกระจายในตับหลายก้อนหรือตัดไขกระดูกพบ lymphoma"
   },
-  "trap": "ลืมต่อท้าย B เมื่อมีเหงื่อออกกลางคืน/ น้ำหนักลด หรือนับ mediastinum เป็นอีกด้านของกะบังลม · คีย์ไฟล์ Key 1 ขีด E",
+  "trap": "ก้อนที่ anterior mediastinum ดูใหญ่และน่ากลัวจึงคิดว่าระยะลุกลาม (ไฟล์อีกชุดขีด IV) · แต่ mediastinum เป็นกลุ่มต่อมน้ำเหลือง ไม่ใช่อวัยวะนอกต่อม · นับกลุ่มและฝั่งกระบังลมก่อน แล้วค่อยเติม A/B ตามอาการ — ไม่ใช่ตามขนาดก้อน (ก้อนใหญ่ใช้คำว่า bulky)",
   "summary": [
-   "I: ต่อมน้ำเหลืองกลุ่มเดียว",
-   "II: ≥ 2 กลุ่ม ด้านเดียวของกะบังลม",
-   "III: ทั้งสองด้านของกะบังลม",
-   "IV: ลุกลามอวัยวะนอกต่อมน้ำเหลืองแบบกระจาย (ตับ ไขกระดูก ปอด)",
-   "B symptoms: ไข้ &gt; 38 °C · เหงื่อออกกลางคืน · น้ำหนักลด &gt; 10% ใน 6 เดือน",
-   "Bulky mediastinal mass → ระวังการดมยา (กดหลอดลม)"
+   "Lugano/ Ann Arbor: I หนึ่งกลุ่ม · II ≥ 2 กลุ่มฝั่งเดียวของกระบังลม · III สองฝั่ง (หรือเหนือกระบังลม + ม้าม) · IV ลุกอวัยวะนอกต่อมแบบไม่ต่อเนื่อง/ กระจาย",
+   "B symptoms: ไข้ &gt; 38°C ไม่มีสาเหตุ · เหงื่อออกกลางคืนจนเปียก · น้ำหนักลด &gt; 10% ใน 6 เดือน · คันตัวและปวดเมื่อดื่มสุราไม่นับเป็น B",
+   "E (extranodal contiguous extension) เช่น IE, IIE = ลามต่อเนื่องจากต่อมไปอวัยวะข้างเคียง ไม่นับเป็น IV",
+   "Bulky disease: ก้อน mediastinum &gt; 1/3 ของความกว้างทรวงอก หรือก้อน ≥ 10 cm (Hodgkin) · ส่งผลต่อการรักษา (เพิ่มรอบยา/ ฉายแสง)",
+   "Staging ด้วย PET-CT สำหรับ lymphoma ที่จับ FDG · PET ใช้ประเมินไขกระดูกใน Hodgkin ได้โดยไม่ต้องเจาะ (Lugano) · ประเมินผลด้วย Deauville score",
+   "ก้อน anterior mediastinum (4T): Thymoma, Teratoma/ germ cell, Thyroid (retrosternal), Terrible lymphoma · ชายหนุ่ม + AFP/ β-hCG สูง → nonseminomatous germ cell tumor",
+   "ระวังดมยาสลบในก้อน anterior mediastinum ขนาดใหญ่ (กดหลอดลม/ SVC) → ตัดชิ้นเนื้อจากต่อมคอหรือใช้ยาชาเฉพาะที่ก่อน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ขีด 2) และสไลด์ staging · คีย์ไฟล์ Key 1 ขีด E (stage IV) ซึ่งไม่เข้ากับโรคที่อยู่ด้านเดียวของกะบังลม",
-  "mnemonic": "<b>'Lymphoma: นับกลุ่ม (I) → ด้านเดียว (II) → สองด้าน (III) → อวัยวะ (IV) + B ถ้ามีไข้/ เหงื่อ/ ผอม'</b>",
-  "guide": "Lugano Classification for Hodgkin and Non-Hodgkin Lymphoma (J Clin Oncol 2014;32:3059); NCCN Hodgkin Lymphoma v.2025",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ MCQ Key 2 ที่ขีด 2 พร้อมลายมือ B-symptom และสไลด์ staging · แต่<b>ไม่ตรงกับคีย์ MCQ Key_1 ที่ขีด E (IV)</b> ซึ่งน่าจะตีความว่าก้อนติดแน่น (ข้อความต้นฉบับ ไม่สามารถเคลื่อนได้) หรือก้อนใหญ่ใน mediastinum เป็นการลุกลามอวัยวะ · ตามนิยาม mediastinum เป็นกลุ่มต่อมน้ำเหลือง และโจทย์ระบุว่าอยู่ฝั่งเดียวของกระบังลม จึงเป็น IIB",
+  "mnemonic": "<b>'นับกลุ่ม + ฝั่งกระบังลม → เลข · ไข้/ เหงื่อ/ น้ำหนักลด → B'</b>",
+  "guide": "Cheson BD, et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification (J Clin Oncol 2014;32:3059–3068); NCCN Guidelines: Hodgkin Lymphoma (current version)",
   "variants": [
-   "ต่อมน้ำเหลืองคอซ้ายกลุ่มเดียว ไม่มีอาการ → IA",
-   "ต่อมน้ำเหลืองคอ + ขาหนีบ + น้ำหนักลด → IIIB",
-   "lymphoma + ไขกระดูกมีรอยโรค → IV"
+   "หญิง 22 ปีคันตัว ต่อมคอซ้ายโตอย่างเดียว ไม่มีไข้ น้ำหนักคงที่ → Hodgkin stage IA",
+   "ชาย 55 ปีต่อมคอ รักแร้ และ para-aortic โต มีไข้ 38.5°C ไม่ทราบสาเหตุ → stage IIIB",
+   "ผู้ป่วย Hodgkin ที่ก้อน mediastinum ลามต่อเนื่องเข้าเนื้อปอดข้างเคียงส่วนเดียว → stage IIE ไม่ใช่ IV",
+   "ทำไมไม่ควรดมยาสลบผู้ป่วยก้อน anterior mediastinum ใหญ่เพื่อตัดชิ้นเนื้อ → ยาสลบและการนอนหงายทำให้ก้อนกดหลอดลมและหัวใจจนทางเดินหายใจปิดหรือหัวใจหยุดเต้น"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 71–72 — หัวข้อ CVT · ตัวพิมพ์: <b>75.ผช 40yrs เหงื่อ… ไม่สามารถเคลื่อนได้ chest Xray พบก้อนที่ant. Med… stageอะไร — 1.IIa 2.IIb 3.IIIa 4.IIIb 5.IV</b> (ข้อความกลางโจทย์ถูกภาพที่แปะบัง)<br>ลายมือ: \"B-symptom\" · \"side?\" · 4 \"?\" · ขีด 2<br>ไฮไลต์: \"ผช 40yrs เหงื่อ\" \"ไม่สามารถเคลื่อนได้\" \"พบก้อนที่ant. Med\" \"stageอะไร\" · 2 (เหลือง)<br>รูปที่แปะ: สไลด์ Lymphoma — Staging (\"ดูว่า involve LN กี่ grp\"): I One group of LN · II Two or more groups of LN but in the same side of diaphragm · III Any LN on both sides of diaphragm (\"ข้ามฝั่ง\") · IV Organs involvement (liver, bone, lungs…) · \"± มี B-symptom? → IB, IIB … (fever, night sweat, wt loss)\"<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 63: ขีด E (⚠ ต่างจากคีย์ MCQ Key 2)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 71",
@@ -240,30 +254,32 @@
   ]
  },
  "MDCU68|RoB|78": {
-  "interp": "ถามการรักษา<b>เนื้อเยื่อไทรอยด์ใน mediastinum</b> (substernal/ intrathoracic goiter)",
-  "why": "Intrathoracic/ substernal goiter มักโตขึ้นเรื่อย ๆ และ<b>กดหลอดลม หลอดอาหาร หลอดเลือด</b> (tracheomalacia, SVC syndrome) ยาและ I-131 ได้ผลน้อยและ I-131 อาจทำให้บวมกดมากขึ้น → การรักษาหลักคือ<b>ผ่าตัด (thyroidectomy)</b> — ส่วนใหญ่ผ่าทางคอได้ บางรายต้อง sternotomy · ข้อยกเว้น (ตามสไลด์ในไฟล์): ถ้า<b>ไม่มีอาการและเป็นเนื้อเยื่อไทรอยด์ที่ทำงานเพียงแห่งเดียว</b> ไม่ควรผ่าตัด · ไฟล์ขีด C (I-131) ลายมือ <b>\"DDx substernal extension, intrathoracic goiter\"</b> และแปะสไลด์ <b>\"Should be removed because tend to enlarge and compress adjacent organs\"</b>",
+  "interp": "ถามการรักษา<b>เนื้อเยื่อต่อมไทรอยด์ใน mediastinum</b> (substernal/ intrathoracic goiter) — ต้องรู้ว่าก้อนไทรอยด์ที่ลงไปในทรวงอกมักกดหลอดลมและหลอดอาหาร ยาและไอโอดีนรังสีย่อก้อนได้น้อย และข้อยกเว้นเมื่อเป็นเนื้อไทรอยด์ชิ้นเดียวที่ทำงาน",
+  "why": "<b>Substernal goiter</b> (ก้อนไทรอยด์ลงใต้ thoracic inlet) พบมากกว่า<b>ก้อนไทรอยด์ในทรวงอกล้วน (primary intrathoracic/ ectopic)</b> มาก ส่วนใหญ่มาจาก multinodular goiter ที่โตลงไปตามแรงโน้มถ่วงและแรงดันลบในทรวงอก พบมากในหญิงอายุ 60–70 ปี · วินิจฉัยด้วย CT คอ–ทรวงอก (และ I-131/ Tc-99m scan ยืนยันว่าเป็นเนื้อไทรอยด์) · <b>การรักษาหลักคือผ่าตัด (thyroidectomy)</b> เพราะก้อน<b>โตต่อเนื่องและกดอวัยวะข้างเคียง</b> (หลอดลมตีบ/ tracheomalacia, กลืนลำบาก, SVC syndrome) ยากดฮอร์โมนไม่ช่วยย่อ ไอโอดีนรังสีย่อก้อนได้น้อยและอาจทำให้บวมเฉียบพลันจนอุดทางเดินหายใจ ตัดชิ้นเนื้อเข้าถึงยาก และมีโอกาสเป็นมะเร็ง · ส่วนใหญ่<b>ผ่าทางคอได้</b> ต้องผ่ากระดูกอกน้อยกว่า 5–10% (ก้อนลงถึง aortic arch/ carina, ectopic ที่ได้เลือดจากหลอดเลือดในทรวงอก, สงสัยมะเร็งลุกลาม) · ข้อยกเว้น: ถ้า<b>ไม่มีอาการและเป็นเนื้อไทรอยด์ชิ้นเดียวที่ทำงาน</b> ไม่ควรผ่าตัด · ไฟล์ MCQ Key 2 ขีด C ลายมือ <b>\"DDx substernal extension, intrathoracic goiter\"</b> แต่สไลด์ที่แปะเขียน <b>\"Should be removed because tend to enlarge and compress adjacent organs\"</b> พร้อมลายมือ <b>\"Sx เพื่อ… airway · trachea, esophagus · tracheomalacia\"</b> และ MCQ Key_1 ขีด E",
   "wrong": {
-   "A": "เฝ้าดูใช้เฉพาะเมื่อไม่มีอาการและเป็นเนื้อเยื่อไทรอยด์ที่ทำงานแห่งเดียว · จะถูกถ้า I-131 scan พบไทรอยด์ใน mediastinum เป็นแห่งเดียว (ไม่มีไทรอยด์ที่คอ) ไม่มีอาการกด",
-   "B": "I-131 ก่อนผ่าตัดไม่ใช่มาตรฐาน · จะถูกถ้าคำถามถามการรักษามะเร็งไทรอยด์ชนิด differentiated หลังผ่าตัด (RAI ablation)",
-   "C": "I-131 ใช้ในผู้ที่ผ่าตัดไม่ได้ (เสี่ยงสูง) ได้ผลลดขนาดเพียง ~30–40% และอาจบวมกดเพิ่ม (คีย์ไฟล์ MCQ Key 2 ขีดข้อนี้) · จะถูกถ้าผู้สูงอายุโรคร่วมมากผ่าตัดไม่ได้ มี toxic multinodular goiter ในอก",
-   "D": "ฮอร์โมน (levothyroxine suppression) ไม่ได้ผลในการลดขนาด goiter ในอก · จะถูกถ้าคำถามถามการให้ฮอร์โมนทดแทนหลังผ่าตัด"
+   "A": "การเฝ้าดูไม่เหมาะกับ substernal goiter ส่วนใหญ่ เพราะก้อนโตช้า ๆ ต่อเนื่องและกดหลอดลมได้แม้ไม่มีอาการ และยิ่งรอยิ่งผ่าตัดยากขึ้น · จะถูกถ้าเป็นหญิง 85 ปีโรคหัวใจรุนแรงเสี่ยงผ่าตัดสูงมาก ก้อนลงใต้ sternum เล็กน้อย ไม่มีอาการกด CT หลอดลมไม่ตีบ ฟังก์ชันไทรอยด์ปกติ",
+   "B": "ให้ I-131 ก่อนแล้วผ่าตัดไม่มีเหตุผล เพราะไอโอดีนรังสีย่อก้อนได้น้อยในก้อนที่ไม่เป็นพิษ ทำให้ต่อมบวมระยะแรก และไม่ทำให้ผ่าตัดง่ายขึ้น · ลำดับ I-131 หลังผ่าตัดใช้ในมะเร็งไทรอยด์ · จะถูกถ้าเป็นผู้ป่วย papillary thyroid carcinoma หลัง total thyroidectomy ที่มีความเสี่ยงกลับเป็นซ้ำสูงหรือแพร่ไปปอด → radioactive iodine ablation",
+   "C": "I-131 ใช้เป็นหลักในการวินิจฉัย (scan เห็นการจับไอโอดีนในคอต่อลงไปใน anterior mediastinum ตามลายมือในไฟล์) ส่วนการรักษาด้วย I-131 ย่อก้อนได้จำกัดและเสี่ยงบวมกดทางเดินหายใจ · จะถูกถ้าเป็นหญิง 80 ปีที่มี toxic multinodular goiter ลงใต้ sternum เล็กน้อย ไม่มีอาการกดหลอดลม และเสี่ยงผ่าตัดสูงมาก (ให้ antithyroid drug ก่อนแล้ว I-131)",
+   "D": "ยาไทรอยด์ฮอร์โมน (levothyroxine) เพื่อกด TSH ไม่ได้ผลย่อก้อน multinodular goiter ที่เป็นมานานและทำให้เกิด hyperthyroidism/ AF/ กระดูกบาง จึงไม่แนะนำ · จะถูกถ้าเป็นผู้ป่วยหลัง total thyroidectomy สำหรับ substernal goiter ที่ต้องได้ levothyroxine ทดแทนตลอดชีวิต"
   },
-  "trap": "คิดว่าเนื้อเยื่อไทรอยด์รักษาด้วย I-131 ได้เสมอ — goiter ในอกโตและกด ต้องผ่าตัด · คีย์ไฟล์ MCQ Key 2 ขีด C ส่วนไฟล์ Key 1 ขีด E",
+  "trap": "เห็นคำว่าเนื้อไทรอยด์ใน mediastinum แล้วนึกถึง I-131 scan ที่ใช้วินิจฉัย จึงเลือก I-131 เป็นการรักษา (ตามคีย์ MCQ Key 2) · ต้องแยกบทบาท: I-131 scan = วินิจฉัย · การรักษาก้อนที่กด/ โตต่อเนื่อง = ผ่าตัด · ยกเว้นเนื้อไทรอยด์ชิ้นเดียวที่ทำงานและไม่มีอาการ",
   "summary": [
-   "Substernal extension พบบ่อยกว่า totally intrathoracic goiter",
-   "มักเป็น nontoxic multinodular goiter · มะเร็งพบน้อย",
-   "อายุ 60–70 ปี · หญิง &gt; ชาย · วินิจฉัยด้วย I-131 scan/ CT",
-   "รักษา: thyroidectomy (ทางคอส่วนใหญ่ · บางราย sternotomy)",
-   "ไม่มีอาการ + ไทรอยด์ที่ทำงานแห่งเดียว → ไม่ผ่าตัด",
-   "ผ่าตัดไม่ได้ → I-131 (ลดขนาดได้บางส่วน)"
+   "Substernal goiter: ก้อนไทรอยด์ &gt; 50% อยู่ใต้ thoracic inlet (หรือลงใต้ sternal notch ขณะคอเหยียด) · มักมาจาก multinodular goiter · หญิง &gt; ชาย อายุ 60–70 ปี",
+   "อาการกด: หายใจลำบาก/ stridor (มากขึ้นเมื่อนอนหงายหรือยกแขน), กลืนลำบาก, เสียงแหบ (recurrent laryngeal nerve), SVC syndrome — Pemberton sign: ยกแขนสองข้างแล้วหน้าแดงคั่ง",
+   "ตรวจ: CT คอ–ทรวงอก (ขอบเขตก้อน หลอดลมตีบ) · TSH · scan ไทรอยด์ยืนยันเนื้อไทรอยด์ · ประเมินสายเสียงก่อนผ่าตัด",
+   "รักษา: total/ near-total thyroidectomy เป็นหลัก · ผ่าทางคอได้ &gt; 90% · sternotomy เมื่อก้อนลงลึกถึง carina/ aortic arch, ectopic ที่ได้เลือดจากทรวงอก, สงสัยมะเร็งลุกลาม",
+   "Primary (ectopic) intrathoracic thyroid: ไม่มีส่วนต่อกับต่อมในคอ ได้เลือดจากหลอดเลือดในทรวงอก · ถ้าเป็นเนื้อไทรอยด์ชิ้นเดียวที่ทำงานและไม่มีอาการ → ไม่ผ่าตัด",
+   "I-131 สำหรับ substernal goiter ใช้เฉพาะผู้ที่เสี่ยงผ่าตัดสูง ย่อก้อนได้ราว 30–40% ใน 1–2 ปี และเสี่ยงบวมเฉียบพลันระยะแรก · levothyroxine suppression ไม่แนะนำ",
+   "ภาวะแทรกซ้อนหลังผ่าตัด: hypocalcemia (hypoparathyroidism), recurrent laryngeal nerve injury, เลือดออกกดทางเดินหายใจ (เปิดแผลทันทีข้างเตียง), tracheomalacia"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ของเว็บ ความมั่นใจสูง — ตรงกับคีย์ไฟล์ Key 1 และสไลด์ในไฟล์เองที่ระบุว่าควรผ่าตัดเอาออก · คีย์ไฟล์ MCQ Key 2 ขีด C (I-131) ซึ่งใช้เฉพาะผู้ที่ผ่าตัดไม่ได้",
-  "mnemonic": "<b>'ไทรอยด์ในอก = โต + กด → ผ่า (ยกเว้นไม่มีอาการและเป็นไทรอยด์ชิ้นเดียว)'</b>",
-  "guide": "AAES Guidelines for the Definitive Surgical Management of Thyroid Disease in Adults (Ann Surg 2020;271:e21) — substernal goiter",
+  "opinion": "เห็นด้วยกับคำตอบ E ในเว็บ ความมั่นใจปานกลาง — <b>ไม่ตรงกับคีย์ MCQ Key 2 ที่ขีด C (I-131)</b> แต่ตรงกับคีย์ MCQ Key_1 ที่ขีด E · สไลด์ที่แปะในไฟล์ Key 2 เองเขียนว่าควรเอาออกเพราะโตและกดอวัยวะข้างเคียง (ลายมือ Sx เพื่อ airway) เว็บจึงเลือกผ่าตัดตามหลักการรักษาปัจจุบัน · I-131 เหมาะกับการวินิจฉัย หรือการรักษาเฉพาะผู้ที่เสี่ยงผ่าตัดสูง",
+  "mnemonic": "<b>'ไทรอยด์ลงอก = ผ่าออก (โต + กด) · I-131 แค่ Scan · ชิ้นเดียวที่ทำงาน + ไม่มีอาการ = ปล่อย'</b>",
+  "guide": "Haugen BR, et al. 2015 ATA Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer (Thyroid 2016;26:1–133); Sabiston Textbook of Surgery 21st ed. (2022) — Thyroid; Schwartz's Principles of Surgery 11th ed. (2019) — Mediastinum",
   "variants": [
-   "หญิง 65 ปี goiter ลงหลังกระดูกอก หายใจลำบาก → thyroidectomy ทางคอ",
-   "goiter ลงลึกถึง carina ใน posterior mediastinum → sternotomy",
-   "ผู้สูงอายุผ่าตัดไม่ได้ goiter ในอก → I-131"
+   "หญิง 68 ปีก้อนคอโตหลายปี หายใจเสียงดังเมื่อนอนหงาย ยกแขนแล้วหน้าแดงคั่ง CT ก้อนลงถึงระดับ aortic arch กดหลอดลม → total thyroidectomy (ส่วนใหญ่ผ่าทางคอได้)",
+   "ผู้ป่วยหลังผ่าตัดไทรอยด์ 6 ชั่วโมง คอบวมตึงเร็ว หายใจลำบาก → เปิดแผลข้างเตียงระบายก้อนเลือดทันทีก่อนกลับห้องผ่าตัด",
+   "ชายไม่มีอาการ CT พบก้อนใน mediastinum ไม่ต่อกับต่อมไทรอยด์ scan พบเป็นเนื้อไทรอยด์ชิ้นเดียวที่จับรังสี ไม่มีต่อมในคอ → ไม่ผ่าตัด เฝ้าติดตาม",
+   "หลัง total thyroidectomy วันที่ 1 ชาปลายนิ้วรอบปาก Chvostek sign บวก → hypocalcemia จาก hypoparathyroidism → ให้ calcium"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 72 — ตัวพิมพ์: <b>78 Thyroid ใน mediastinum — A conservative B I131 + Sx C I131 D Hormones E Sx</b><br>ลายมือ: ขีด C + \"DDx substernal extension, intrathoracic goiter\"<br>ไฮไลต์: \"Thyroid ใน mediastinum\" · C (เหลือง)<br>รูปที่แปะ: ① สไลด์ Thyroid — Substernal extension more common than totally intrathoracic goiter · Usually from nontoxic multinodular goiter or adenoma (malignant change is rare) · Peak incidence 60–70 yrs · Female &gt; Male · Diagnosed by I131 scan (ลายมือ \"→ uptake ใน คอ, ant. medias\") ② สไลด์ Endocrine Tumor — Thyroid Tx: <b>If asymptomatic and it is only functioning thyroid tissue, surgery is not indicated</b> · <b>Should be removed because tend to enlarge and compress adjacent organs</b> (ลายมือ \"Sx เพื่อ…\" · \"airway · ex Trachea, esophagus · tracheomalacia\")<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 63: ขีด E (⚠ ต่างจากคีย์ MCQ Key 2)<br>ที่ปรับในเว็บ: คำตอบเว็บ E (Surgery)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 72",
@@ -274,30 +290,32 @@
   ]
  },
  "MDCU68|RoB|79": {
-  "interp": "ถามข้อที่<b>ไม่น่าเป็น</b>ภาวะแทรกซ้อนระยะยาวของ <b>left-to-right shunt</b> (ASD, VSD, PDA)",
-  "why": "Left-to-right shunt ทำให้<b>เลือดไหลเข้าปอดมากเกิน</b> → หลอดเลือดแดงปอด<b>โตและหนาตัว (hypertrophy/ hyperplasia)</b> ไม่ใช่เล็กลง · ภาวะแทรกซ้อน: <b>หัวใจล้มเหลว</b> (volume overload), <b>pulmonary hypertension</b>, <b>infective endocarditis</b> (VSD, PDA), และระยะท้าย <b>Eisenmenger syndrome</b> (ความดันปอดสูงจน shunt กลับเป็นขวาไปซ้าย → <b>เขียว</b>) · <b>Pulmonary artery hypoplasia</b> เป็นลักษณะของโรคที่เลือดไปปอดน้อย (เช่น tetralogy of Fallot, pulmonary atresia) · ไฟล์ขีด 3 ติ๊ก ✓ ที่ 1, 4, 5 ลายมือ 5 <b>\"นานๆ → Rt. to Lt. shunt\"</b> และแก้คำ hyp<b>o</b>plasia เป็น hyp<b>er</b>plasia",
+  "interp": "คำถามแบบ <b>NOT</b> ถามภาวะแทรกซ้อนระยะยาวที่<b>ไม่น่าเกิด</b>จาก <b>left-to-right shunt</b> (ASD, VSD, PDA) — ต้องรู้ผลของเลือดที่ไหลเข้าปอดมากเกินเป็นเวลานาน ตั้งแต่หัวใจล้มเหลวจนถึง Eisenmenger syndrome",
+  "why": "Left-to-right shunt ทำให้<b>เลือดไหลเข้าปอดมากเกิน (pulmonary overcirculation)</b> และหัวใจรับปริมาตรเกิน → ระยะยาวเกิด <b>หัวใจล้มเหลว</b> (VSD/ PDA ขนาดใหญ่มีอาการตั้งแต่ทารก) · หลอดเลือดปอดได้รับแรงดันและปริมาณเลือดสูงนาน → ผนังหนาตัว → <b>pulmonary hypertension</b> → เมื่อความต้านทานในปอดสูงกว่าระบบทั่วร่างกาย shunt จะกลับทิศเป็นขวาไปซ้าย = <b>Eisenmenger syndrome</b> → <b>เขียว</b> นิ้วปุ้ม เลือดข้น (ผ่าตัดปิดรูไม่ได้แล้ว) · กระแสเลือดพุ่งผ่านรูเล็กทำลายเยื่อบุ → <b>infective endocarditis</b> (VSD, PDA) · ASD นานเกิด AF/ atrial flutter และ paradoxical embolism · ส่วน<b>หลอดเลือดแดงปอดเล็ก (hypoplasia)</b> เกิดในโรคที่<b>เลือดไปปอดน้อย</b> เช่น tetralogy of Fallot, pulmonary atresia — กลับด้านกับ L→R shunt ที่ทำให้หลอดเลือดแดงปอด<b>โตขยาย</b> · ไฟล์ขีด 3 ลายมือแก้ <b>\"hypo\" เป็น \"hyper\"</b> และเขียนที่ cyanosis ว่า <b>\"นานๆ → Rt. to Lt. shunt\"</b>",
   "wrong": {
-   "A": "เกิดได้ — หัวใจล้มเหลวจาก volume overload (ลายมือ ✓) · จะถูกถ้าคำถามถามภาวะที่ไม่เกิดใน ASD เล็ก",
-   "B": "เกิดได้ — pulmonary hypertension จากเลือดไปปอดมากเรื้อรัง · จะถูกถ้าคำถามถามภาวะที่เกิดในโรคที่เลือดไปปอดน้อย",
-   "D": "เกิดได้ — infective endocarditis โดยเฉพาะ VSD/ PDA (ลายมือ ✓) · จะถูกถ้าคำถามถาม ASD secundum ที่เสี่ยง endocarditis ต่ำมาก",
-   "E": "เกิดได้ — Eisenmenger: shunt กลับเป็นขวาไปซ้าย → เขียว (ลายมือ ✓ \"นานๆ → Rt. to Lt. shunt\") · จะถูกถ้าคำถามถามอาการที่เกิดตั้งแต่แรกเกิดของ left-to-right shunt (ไม่เขียว)"
+   "A": "ข้อความถูก: shunt ขนาดใหญ่ทำให้หัวใจรับปริมาตรเกิน เกิด congestive heart failure (หอบ เหนื่อยขณะดูดนม เหงื่อออก น้ำหนักไม่ขึ้น ตับโต) ลายมือติ๊ก ✓ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับภาวะแทรกซ้อนของ L→R shunt เช่น ทารก 2 เดือน VSD ขนาดใหญ่ หายใจเร็ว เหงื่อออกขณะดูดนม น้ำหนักไม่ขึ้น → ให้ยาขับปัสสาวะและนัดปิดรู",
+   "B": "ข้อความถูก: เลือดไปปอดมากนานทำให้หลอดเลือดปอดหนาตัวเกิด pulmonary arterial hypertension ซึ่งเป็นเหตุผลที่ต้องปิด VSD/ PDA ขนาดใหญ่ก่อนอายุราว 1–2 ปี · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับภาวะแทรกซ้อนของ L→R shunt เช่น หญิง 35 ปี secundum ASD ที่ไม่เคยรักษา เหนื่อยง่ายขึ้น echo พบ RV โตและความดันปอดสูง",
+   "D": "ข้อความถูก: กระแสเลือดความเร็วสูงผ่านรูเล็กทำลายเยื่อบุหัวใจ เสี่ยง infective endocarditis/ endarteritis (VSD เล็ก, PDA) ลายมือติ๊ก ✓ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับภาวะแทรกซ้อนของ L→R shunt เช่น เด็ก 10 ปี VSD เล็กที่ไม่ได้ปิด มีไข้นาน 2 สัปดาห์หลังทำฟัน เสียงฟู่เปลี่ยน hemoculture พบ viridans streptococci",
+   "E": "ข้อความถูก: เมื่อความต้านทานหลอดเลือดปอดสูงจน shunt กลับทิศเป็นขวาไปซ้าย (Eisenmenger) จะเขียว นิ้วปุ้ม เลือดข้น ลายมือเขียน นานๆ → Rt. to Lt. shunt · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับภาวะแทรกซ้อนของ L→R shunt เช่น ชาย 25 ปีมี VSD ใหญ่ไม่เคยรักษา ปัจจุบันเขียว นิ้วปุ้ม เสียงฟู่หายไป P2 ดังมาก"
   },
-  "trap": "คิดว่า left-to-right shunt ไม่ทำให้เขียว — ระยะท้ายเกิด Eisenmenger เขียวได้ · ส่วน PA hypoplasia เป็นของโรคเลือดไปปอดน้อย",
+  "trap": "คำว่า cyanosis ดูขัดกับ L→R shunt (ซึ่งเป็น acyanotic heart disease) จึงเลือก E · แต่โจทย์ถามภาวะ<b>ระยะยาว</b> ซึ่งรวมถึง Eisenmenger ที่ทำให้เขียว · ตัวที่ผิดจริงคือ pulmonary artery hypoplasia ซึ่งเกิดในโรคที่เลือดไปปอดน้อย ไม่ใช่มาก",
   "summary": [
-   "L→R shunt: ASD · VSD · PDA · AVSD",
-   "เลือดไปปอดมาก → HF · pulmonary HT · ปอดติดเชื้อบ่อย",
-   "Eisenmenger: shunt กลับ R→L → เขียว (ห้ามปิดรูแล้ว)",
-   "IE: VSD/ PDA เสี่ยง · ASD secundum เสี่ยงต่ำ",
-   "เลือดไปปอดน้อย (TOF, PA): PA hypoplasia · เขียวแต่แรก",
-   "ปิดรูก่อนเกิด irreversible pulmonary vascular disease"
+   "L→R shunt (acyanotic): ASD, VSD (พบบ่อยที่สุดในเด็ก), PDA, AVSD → เลือดไปปอดมาก หลอดเลือดแดงปอดโต ฟิล์มทรวงอกเห็น pulmonary vascular marking เพิ่ม",
+   "VSD/ PDA ใหญ่: หัวใจล้มเหลวช่วง 1–3 เดือนเมื่อความต้านทานปอดลดลงหลังคลอด · ASD มักไม่มีอาการจนวัยผู้ใหญ่ (RV โต, fixed split S2, AF)",
+   "Eisenmenger: PVR สูงจน shunt กลับทิศ → เขียว นิ้วปุ้ม polycythemia, hemoptysis · การปิดรูเป็นข้อห้าม · หญิงไม่ควรตั้งครรภ์ (อัตราตายสูง)",
+   "Infective endocarditis: VSD เล็กและ PDA เสี่ยง (jet ความเร็วสูง) · ASD secundum เสี่ยงต่ำมาก · ยาป้องกันก่อนทำฟันให้เฉพาะกลุ่มเสี่ยงสูงตาม AHA (เช่น เขียวที่ยังไม่แก้ไข, ภายใน 6 เดือนหลังปิดด้วยวัสดุเทียม)",
+   "Pulmonary artery hypoplasia: พบใน tetralogy of Fallot, pulmonary atresia (เลือดไปปอดน้อย ฟิล์มเห็นปอดดำ oligemic) — ต้องทำ BT shunt เพิ่มเลือดไปปอด",
+   "PDA ในทารกเกิดก่อนกำหนด: ปิดด้วย indomethacin/ ibuprofen/ paracetamol · ผู้ใหญ่/ เด็กโต → ปิดผ่านสายสวน (device) หรือผ่าตัดผูก",
+   "ASD secundum: ปิดด้วย device ผ่านสายสวนเมื่อ RV โต/ shunt มีนัยสำคัญ · primum/ sinus venosus ต้องผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และเครื่องหมาย ✓ · ต้นฉบับช้อย 2 ว่าง จึงเติม B (pulmonary hypertension)",
-  "mnemonic": "<b>'L→R = ปอดได้เลือดมาก → PA ใหญ่ ไม่ใช่เล็ก'</b>",
-  "guide": "AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease (Circulation 2019;139:e698)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด 3 พร้อมลายมือแก้ hypo เป็น hyper และ MCQ Key_1 ขีด C) · ต้นฉบับช้อย 2 ว่าง เว็บเติม pulmonary hypertension ซึ่งเป็นภาวะแทรกซ้อนจริง",
+  "mnemonic": "<b>'L→R: ปอดได้เลือดมาก → Hyper (ไม่ใช่ Hypo) → นาน ๆ Eisenmenger เขียว'</b>",
+  "guide": "Stout KK, et al. 2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease (Circulation 2019;139:e698–e800); Sabiston Textbook of Surgery 21st ed. (2022) — Congenital Heart Disease",
   "variants": [
-   "VSD ใหญ่ในทารก หอบ น้ำหนักไม่ขึ้น → HF → ผ่าตัดปิด",
-   "ผู้ใหญ่ ASD ไม่ได้รักษา เริ่มเขียว นิ้วปุ้ม → Eisenmenger",
-   "ทารกเขียว CXR หัวใจรูปรองเท้าบูท เลือดไปปอดน้อย → TOF"
+   "ทารก 6 สัปดาห์มีเสียงฟู่ pansystolic ที่ขอบซ้ายกระดูกอกส่วนล่าง หอบเหงื่อออกขณะดูดนม น้ำหนักไม่ขึ้น → VSD ขนาดใหญ่ → ยาขับปัสสาวะแล้วผ่าตัดปิด",
+   "ทารกเขียวตั้งแต่เกิด ฟิล์มทรวงอกเห็นปอดดำ หัวใจรูปรองเท้าบูท → tetralogy of Fallot (หลอดเลือดแดงปอดเล็ก)",
+   "หญิง 30 ปี ASD ไม่ได้รักษา ใจสั่น EKG เป็น atrial flutter echo พบ RV โต → ปิด ASD + รักษาจังหวะหัวใจ",
+   "ทำไมผู้ป่วย Eisenmenger ปิดรู VSD ไม่ได้ → รูกลายเป็นทางระบายแรงดันของหัวใจห้องขวา ถ้าปิดจะเกิดหัวใจห้องขวาล้มเหลวเฉียบพลัน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 72 — ตัวพิมพ์: <b>79.What is not likely the long term complication of left to right shunt? — 1.heart failure 2. 3.hypoplasia of pulmonary artery 4.infective endocarditis 5.cyanosis</b><br>ลายมือ: 1 ✓ · ขีด 3 + แก้ \"hypo\" เป็น \"hyper\" · 4 ✓ · 5 ✓ + \"นานๆ → Rt. to Lt. shunt\"<br>ไฮไลต์: \"not likely\" \"long term complication of left to right shunt\" · 3 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 63: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย 2 ว่าง → เติม pulmonary hypertension",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 72",
@@ -308,30 +326,32 @@
   ]
  },
  "MDCU68|RoB|81": {
-  "interp": "หญิง 44 ปี <b>หอบ (NYHA FC II)</b> ตรวจพบ <b>severe MR จาก flail posterior leaflet</b> → ถามการรักษา",
-  "why": "Severe primary (degenerative) MR ที่<b>มีอาการ</b> → ข้อบ่งชี้ผ่าตัด · <b>Mitral valve repair ดีกว่า replacement</b> (อัตราตายต่ำกว่า รักษาการทำงานหัวใจห้องล่างซ้าย ไม่ต้องกินยาต้านการแข็งตัวตลอดชีวิต) โดยเฉพาะ<b>posterior leaflet prolapse/ flail</b> ซ่อมสำเร็จได้ &gt; 95% ในศูนย์ที่ชำนาญ · Replacement ใช้เมื่อซ่อมไม่ได้ · ไฟล์ขีด 3 ลายมือ 3 <b>\"→ fn 2\"</b> · 4 <b>\"→ fn 3↑, acute MR\"</b> และแปะตำราไทยข้อบ่งชี้ผ่าตัด <b>\"Chronic MR — ผู้ป่วยที่มีอาการ F.C. II ขึ้นไปในกรณีที่คาดว่าสามารถผ่าตัดซ่อมลิ้นหัวใจ (mitral valve repair) ได้ และ F.C. III ขึ้นไปในกรณีที่การผ่าตัดต้องทำ valve replacement (MVR)\"</b>",
+  "interp": "หญิง 44 ปีเหนื่อย <b>NYHA functional class II</b> ตรวจพบ <b>severe mitral regurgitation จาก flail posterior leaflet</b> (primary/ degenerative MR) — ถามการรักษา ต้องรู้ข้อบ่งชี้ผ่าตัด MR และว่า repair ดีกว่า replacement เมื่อซ่อมได้",
+  "why": "MR จาก<b>ลิ้นเสียเอง (primary/ degenerative)</b> เช่น mitral valve prolapse ที่ chordae ขาดจน leaflet พลิก (flail) เป็นปัญหาทางกล ยารักษาให้หายไม่ได้ · ข้อบ่งชี้ผ่าตัดตาม ACC/AHA 2020: <b>severe primary MR ที่มีอาการ (NYHA ≥ II)</b> → ผ่าตัดลิ้น (Class 1) ไม่ว่า LV function เป็นอย่างไร · ไม่มีอาการแต่ <b>LVEF ≤ 60% หรือ LVESD ≥ 40 mm</b> → ผ่าตัด · ไม่มีอาการและ LV ปกติแต่เกิด AF ใหม่ หรือ pulmonary artery systolic pressure &gt; 50 mmHg → พิจารณาผ่าตัด · <b>Mitral valve repair ดีกว่า replacement</b> ถ้าซ่อมได้ทนทาน — เก็บ subvalvular apparatus ไว้ช่วยรักษารูปร่างและการบีบตัวของ LV อัตราตายต่ำกว่า ไม่ต้องกิน warfarin ตลอดชีวิต · <b>posterior leaflet prolapse/ flail ซ่อมสำเร็จได้มากกว่า 95%</b> ในศูนย์ที่ชำนาญ (ตัด segment ที่พลิก หรือใส่ artificial chordae + annuloplasty ring) · ไฟล์ขีด 3 ลายมือ <b>\"→ fn 2\"</b> ที่ repair และ <b>\"→ fn 3↑, acute MR\"</b> ที่ replace พร้อมตำราไทยที่แปะเขียนว่า chronic MR ผ่าตัดเมื่อ F.C. II ขึ้นไปถ้าคาดว่า repair ได้ และ F.C. III ขึ้นไปถ้าต้อง replacement",
   "wrong": {
-   "A": "ยาไม่ช่วยในการดำเนินโรคของ primary MR รุนแรงที่มีอาการ · จะถูกถ้าผู้ป่วยไม่มีอาการ LV ปกติ (LVEF &gt; 60%, LVESD &lt; 40 mm) ซ่อมไม่ได้ผลดี",
-   "B": "PBMV ใช้กับ mitral stenosis (rheumatic) ลิ้นไม่หนา/ ไม่มีหินปูน ไม่ใช่ MR · จะถูกถ้าหญิงมี severe MS ลิ้นยืดหยุ่นดี ไม่มี MR ร่วม",
-   "D": "Replacement ใช้เมื่อซ่อมไม่ได้ (ลิ้นเสียหายมาก rheumatic หินปูน) หรือ FC III ขึ้นไป/ acute MR (ลายมือ) · จะถูกถ้าลิ้นหนามีหินปูนมาก rheumatic ซ่อมไม่ได้",
-   "E": "Ross operation ใช้แทนลิ้น aortic ด้วยลิ้น pulmonary ของตัวเอง · จะถูกถ้าเด็ก/ ผู้ใหญ่ตอนต้นมีโรคลิ้น aortic ต้องการเลี่ยงยาต้านการแข็งตัว"
+   "A": "ยา (ยาขับปัสสาวะ vasodilator) ช่วยบรรเทาอาการแต่ไม่แก้ลิ้นที่พลิก severe primary MR ที่มีอาการจึงต้องผ่าตัด ยาเป็นหลักใน secondary (functional) MR จาก LV โต · จะถูกถ้าเป็นชาย 65 ปี ischemic cardiomyopathy LVEF 30% มี MR จาก LV โต (ลิ้นปกติ) → guideline-directed medical therapy + CRT ก่อน แล้วพิจารณา transcatheter edge-to-edge repair ถ้ายังมีอาการ",
+   "B": "PBMV (percutaneous balloon mitral valvotomy) ใช้ขยาย<b>ลิ้นไมตรัลตีบ</b>จาก rheumatic ที่ลิ้นยังยืดหยุ่น (Wilkins score ≤ 8) ไม่มีลิ่มเลือดใน LA และ MR ไม่เกินเล็กน้อย — MR รุนแรงเป็นข้อห้าม · จะถูกถ้าเป็นหญิง 30 ปี rheumatic mitral stenosis MVA 1.2 cm² เหนื่อยเมื่อออกแรง ลิ้นยังเคลื่อนไหวดี ไม่มีหินปูน TEE ไม่พบลิ่มเลือด",
+   "D": "Mitral valve replacement ใช้เมื่อซ่อมไม่ได้หรือซ่อมแล้วไม่ทน (ลิ้น rheumatic หดรั้งมีหินปูนมาก, ลิ้นถูกทำลายจาก endocarditis, โรคซับซ้อนของ anterior leaflet) ต้องกินยาต้านการแข็งตัวถ้าใช้ลิ้นโลหะ ตำราในไฟล์ให้ทำเมื่อ F.C. III ขึ้นไปหรือ acute MR · จะถูกถ้าเป็นหญิง 50 ปี rheumatic MR + MS ลิ้นหนาแข็งหินปูนทั่ว chordae หดสั้น ซ่อมไม่ได้ อาการ NYHA III",
+   "E": "Ross operation คือเปลี่ยน<b>ลิ้น aortic</b> ด้วยลิ้น pulmonary ของผู้ป่วยเอง (autograft) แล้วใส่ homograft ที่ตำแหน่ง pulmonary เหมาะกับเด็กและผู้ใหญ่อายุน้อยที่ต้องการเลี่ยงยาต้านการแข็งตัว ไม่เกี่ยวกับลิ้นไมตรัล · จะถูกถ้าเป็นชาย 25 ปี bicuspid aortic valve ตีบรุนแรงมีอาการ ต้องการมีบุตรและเล่นกีฬา ไม่อยากกิน warfarin"
   },
-  "trap": "คิดว่า FC II ยังรักษาด้วยยาได้ — severe MR ที่มีอาการและซ่อมได้ ควรซ่อมเร็ว",
+  "trap": "เห็น NYHA II แล้วคิดว่าอาการน้อยยังให้ยาได้ หรือเลือก replacement เพราะคิดว่า MR รุนแรงต้องเปลี่ยนลิ้น · Severe primary MR ที่<b>มีอาการแม้น้อย</b>เป็นข้อบ่งชี้ผ่าตัด และ <b>flail posterior leaflet ซ่อมได้เกือบทุกราย</b> repair จึงเป็นทางเลือกแรก (ลายมือในไฟล์: repair → fn 2)",
   "summary": [
-   "Severe primary MR + อาการ → ผ่าตัด",
-   "ไม่มีอาการ: LVEF ≤ 60% หรือ LVESD ≥ 40 mm → ผ่าตัด",
-   "Repair &gt; replacement (posterior leaflet ซ่อมง่ายที่สุด)",
-   "Acute MR (papillary rupture) → ผ่าตัดด่วน",
-   "AF ใหม่ / pulmonary HT &gt; 50 mmHg → พิจารณาผ่าตัด",
-   "Secondary (functional) MR → GDMT ก่อน ± TEER"
+   "Primary MR (ลิ้นเสีย: degenerative/ prolapse/ flail, rheumatic, endocarditis) ≠ secondary MR (LV/ LA โต ลิ้นปกติ) — ข้อบ่งชี้และการรักษาต่างกัน",
+   "Severe MR (echo): EROA ≥ 0.4 cm², regurgitant volume ≥ 60 mL, regurgitant fraction ≥ 50%, vena contracta ≥ 0.7 cm, flail leaflet",
+   "ผ่าตัด severe primary MR (ACC/AHA 2020): มีอาการ → ผ่าตัด · ไม่มีอาการ + LVEF ≤ 60% หรือ LVESD ≥ 40 mm → ผ่าตัด · AF ใหม่หรือ PASP &gt; 50 mmHg → พิจารณา",
+   "Repair &gt; replacement: เก็บ subvalvular apparatus รักษา LV function อัตราตายต่ำกว่า ไม่ต้องกิน warfarin · posterior leaflet ซ่อมสำเร็จ &gt; 95% · anterior/ bileaflet ยากกว่า",
+   "Acute severe MR (chordae/ papillary muscle ขาดหลัง MI, endocarditis): ปอดบวมน้ำเฉียบพลัน ช็อก → ยาลด afterload/ IABP แล้วผ่าตัดด่วน",
+   "TEER (transcatheter edge-to-edge repair, MitraClip) สำหรับ primary MR ที่มีอาการแต่เสี่ยงผ่าตัดสูงมาก และ secondary MR ที่ยังมีอาการแม้ได้ยาเต็มที่",
+   "ตำราไทยในไฟล์: chronic MR ผ่าตัดเมื่อ F.C. II ขึ้นไปถ้า repair ได้ · F.C. III ขึ้นไปถ้าต้อง MVR · ไม่มีอาการแต่ LV เริ่มเสีย, AF, หรือความดันปอดสูง ก็ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และตำราที่แปะ",
-  "mnemonic": "<b>'MR ซ่อมได้ = Repair ตั้งแต่ FC II · ต้อง Replace = รอ FC III'</b>",
-  "guide": "ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72); ESC/EACTS Guidelines for Valvular Heart Disease 2025",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้ง 2 ไฟล์ (MCQ Key 2 ขีด 3 พร้อมลายมือ → fn 2 และตำราไทยที่แปะ และ MCQ Key_1 ขีด C) · ตัวเลข LV ในตำราที่แปะ (LVESD &gt; 50–55 mm) เป็นเกณฑ์เดิม ปัจจุบัน ACC/AHA 2020 ใช้ LVESD ≥ 40 mm และ LVEF ≤ 60%",
+  "mnemonic": "<b>'Primary MR มีอาการ = ผ่า · Posterior flail = Repair (ซ่อมก่อนเปลี่ยน)'</b>",
+  "guide": "Otto CM, et al. 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72–e227); ESC/EACTS Guidelines for the management of valvular heart disease 2025",
   "variants": [
-   "severe MR flail posterior leaflet ไม่มีอาการ LVESD 42 mm → mitral repair",
-   "หลัง MI 5 วัน หอบเฉียบพลัน เสียง murmur ใหม่ → papillary muscle rupture → ผ่าตัดด่วน",
-   "rheumatic MS ลิ้นยืดหยุ่น ไม่มี MR → PBMV"
+   "ชาย 55 ปีไม่มีอาการ severe MR จาก posterior leaflet prolapse LVEF 58% LVESD 42 mm → mitral valve repair",
+   "ชาย 60 ปีหลัง inferior MI 3 วัน หอบเฉียบพลัน ช็อก มีเสียงฟู่ใหม่ echo พบ papillary muscle ขาด → IABP + ผ่าตัดด่วน",
+   "หญิง 82 ปี severe primary MR NYHA III โรคปอดรุนแรง STS score สูงมาก → transcatheter edge-to-edge repair",
+   "ทำไม repair ดีกว่า replacement ในลิ้นที่ซ่อมได้ → เก็บ chordae และ papillary muscle ไว้ช่วยการบีบตัวของ LV และไม่ต้องใช้ยาต้านการแข็งตัวตลอดชีวิต"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 72 — ตัวพิมพ์: <b>81 หญิง44ปีมาด้วย dyspnea \"fnclass 2\" carefully exam+investigation แล้วเจอเป็น severe MR flail of posterior leaflet — 1 medication 2 PBMV 3 mv repair 4 mv replace 5 Ross operation</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"fnclass 2\" · ขีด 3 + \"→ fn 2\" · 4 \"→ fn 3↑, acute MR\"<br>ไฮไลต์: \"dyspnea fnclass 2\" \"severe MR flail of posterior leaflet\" · 3 (เหลือง) · 4 (ส้ม)<br>รูปที่แปะ: ตำราไทย ① ข้อบ่งชี้ในการผ่าตัดผู้ป่วยลิ้นหัวใจไมตรัลตีบ (OMC/ MVR) ② ข้อบ่งชี้ในการทำผ่าตัด — 1. Acute MR มักจำเป็นต้องได้รับการผ่าตัดทุกราย 2. Chronic MR — <b>ผู้ป่วยที่มีอาการ F.C. II ขึ้นไปในกรณีที่คาดว่าสามารถผ่าตัดซ่อมลิ้นหัวใจ (mitral valve repair) ได้ และ F.C. III ขึ้นไปในกรณีที่การผ่าตัดต้องทำ valve replacement (MVR)</b> · ผู้ป่วยที่ไม่มีอาการแต่พบว่า 1. เริ่มมี LV dysfunction โดยพิจารณาจาก LVEF &lt; 60% และขนาดของ LV ขณะบีบตัว (LVESD) &gt; 50–55 mm 2. เกิด atrial fibrillation (ลายมือ \"3. มี Pulm. HTN โดยมี Mean pulm. a. pressure &gt; 50 mmHg\")<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 63: ขีด C (ตรงกัน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 72",

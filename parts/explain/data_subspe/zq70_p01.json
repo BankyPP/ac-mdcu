@@ -1,29 +1,31 @@
 {
  "MDCU70|RoA|7": {
-  "interp": "ถามว่าข้อใดเป็น<b>ลำไส้อุดตันแบบ functional</b> (ไม่มีสิ่งกีดขวางจริง) ต่างจาก mechanical obstruction",
-  "why": "<b>Functional obstruction</b> = ลำไส้ไม่บีบตัวไล่ (motility ผิดปกติ) โดย<b>ไม่มีสิ่งอุดกั้นจริง</b> · ตัวอย่าง: paralytic ileus และ <b>Ogilvie syndrome (acute colonic pseudo-obstruction)</b> = ลำไส้ใหญ่โป่งมาก (โดยเฉพาะ cecum และลำไส้ใหญ่ขวา) ในผู้ป่วยหนัก หลังผ่าตัด (กระดูก/ หัวใจ/ ผ่าคลอด) ติดเตียง ได้ยา opioid/ anticholinergic เกลือแร่ผิดปกติ — เชื่อว่าเกิดจาก autonomic imbalance (parasympathetic ลด) · ต้องแยก mechanical obstruction ด้วย CT หรือ contrast enema ก่อน · รักษา: แก้สาเหตุ (หยุดยา แก้ K, Mg) NPO NG rectal tube → ถ้า cecum > 10–12 cm หรือไม่ดีขึ้น 24–48 ชม. ให้ <b>neostigmine IV</b> (เฝ้า bradycardia มี atropine พร้อม) → colonoscopic decompression → ผ่าตัด (cecostomy/ resection) ถ้าขาดเลือดหรือทะลุ · ไฟล์ GS Supplementary คีย์ <b>\"B Oglivie syndrome\"</b> และลายมือ <b>\"= Colonic pseudo-obstruction\"</b> ตรงกับคำตอบ",
+  "interp": "ถามว่าช้อยใดเป็น <b>functional intestinal obstruction</b> คือลำไส้ขยายและไม่เคลื่อนผ่านโดยไม่มีสิ่งอุดกั้นจริง (ไม่มี transition point ทางกายวิภาค) — ต้องแยกจาก <b>mechanical obstruction</b> ที่มีก้อน การบิด การกด หรือการมุดของลำไส้ ซึ่งช้อยที่เหลือเป็นทั้งหมด",
+  "why": "<b>Ogilvie syndrome (acute colonic pseudo-obstruction, ACPO)</b> คือลำไส้ใหญ่ขยายมาก (มักเด่นที่ cecum และ right colon) โดย<b>ไม่มีสิ่งอุดกั้นทางกล</b> กลไกเชื่อว่าเกิดจากความไม่สมดุลของ autonomic — parasympathetic (โดยเฉพาะ sacral outflow) ลดลง ขณะที่ sympathetic เด่น ทำให้ colon ส่วนปลายไม่บีบตัว · พบในผู้ป่วยนอนโรงพยาบาลสูงอายุที่มีโรคร่วม หลังผ่าตัด (ออร์โธปิดิกส์ ผ่าคลอด) sepsis ใช้ <b>opioid</b>/ anticholinergic และ electrolyte ผิดปกติ (K, Mg, Ca) · ความเสี่ยงสำคัญคือ cecum แตก: ตามกฎ Laplace cecum มีเส้นผ่านศูนย์กลางใหญ่สุดจึงตึงสุด เสี่ยงสูงเมื่อ <b>&gt; 12 cm</b> และนานเกิน 6 วัน · การดูแล: ต้อง<b>แยก mechanical obstruction ก่อน</b> (CT หรือ water-soluble contrast enema) แล้ว conservative — NPO, NG tube, rectal tube, แก้ electrolyte, หยุดยา opioid/ anticholinergic, ให้ลุกเดิน/ เปลี่ยนท่า · ไม่ดีขึ้นใน 24–48 ชม. หรือ cecum ใหญ่มาก → <b>neostigmine 2 mg IV</b> ช้า ๆ ภายใต้ ECG monitoring เตรียม atropine (ระวังหัวใจเต้นช้า) ได้ผลราว 80–90% · ไม่ได้ผล → colonoscopic decompression · มี ischemia/ perforation → ผ่าตัด · ไฟล์วง B ลายมือฟ้า <b>\"= Colonic pseudo-obstruction\"</b> และคร่อมช้อย A, C, D, E ว่า <b>\"Mechanical obstruction\"</b>",
   "wrong": {
-   "A": "Gallstone ileus คือนิ่วถุงน้ำดีก้อนใหญ่ทะลุผ่าน cholecystoenteric fistula ไปอุดที่ terminal ileum เป็น mechanical obstruction · จะถูกถ้าหญิงสูงอายุลำไส้อุดตัน ฟิล์มเห็นลมในท่อน้ำดี (Rigler triad)",
-   "C": "Volvulus คือลำไส้บิดรอบแกน mesentery อุดตันจริงและเสี่ยงขาดเลือด เป็น mechanical (closed-loop) · จะถูกถ้าผู้สูงอายุติดเตียงท้องอืดมาก ฟิล์มเห็น coffee bean sign",
-   "D": "Intussusception คือลำไส้ส่วนต้นมุดเข้าส่วนปลาย อุดตันจริง เป็น mechanical · จะถูกถ้าทารก 9 เดือนปวดเป็นพัก ถ่ายมูกเลือด US เห็น target sign",
-   "E": "SMA syndrome คือ duodenum ส่วนที่ 3 ถูกบีบระหว่าง SMA กับ aorta (มุมแคบหลังน้ำหนักลดมาก) เป็น mechanical extrinsic compression · จะถูกถ้าวัยรุ่นน้ำหนักลดมากหลังใส่เฝือกตัว อาเจียนหลังกิน CT มุม aortomesenteric &lt; 25°"
+   "A": "Gallstone ileus เป็น <b>mechanical SBO</b>: นิ่วใหญ่ (มัก &gt; 2–2.5 cm) ผ่าน cholecystoduodenal fistula ลงไปติดที่ terminal ileum ซึ่งแคบที่สุด · X-ray/ CT เห็น <b>Rigler's triad</b> (pneumobilia, SBO, นิ่ว ectopic) รักษาด้วย enterolithotomy — จะถูกถ้าเป็นหญิง 80 ปีมีประวัตินิ่วถุงน้ำดี ปวดท้องเป็นพัก ๆ อาเจียน ท้องอืด CT เห็นลมในท่อน้ำดีและนิ่วอุดใน ileum (ต้องบอกสาเหตุ SBO ชนิดมีสิ่งอุด)",
+   "C": "Volvulus คือลำไส้บิดรอบ mesentery เกิด <b>closed-loop mechanical obstruction</b> และเสี่ยงขาดเลือด · sigmoid volvulus พบในผู้สูงอายุท้องผูกเรื้อรัง/ ติดเตียง X-ray เห็น coffee-bean sign รักษาด้วย endoscopic detorsion แล้วผ่าตัด sigmoidectomy แบบนัด · cecal volvulus พบในคนอายุน้อยกว่า ต้องผ่าตัด right hemicolectomy — จะถูกถ้าเป็นชาย 75 ปีติดเตียง ท้องผูกเรื้อรัง ท้องอืดมากทันที X-ray เห็นลำไส้รูปเมล็ดกาแฟชี้ไปที่ RUQ",
+   "D": "Intussusception คือลำไส้ส่วนต้นมุดเข้าส่วนปลาย เป็น mechanical obstruction · ในเด็กส่วนใหญ่ idiopathic (Peyer's patch โต) ส่วนในผู้ใหญ่ราว 90% มี <b>lead point</b> (ใน colon มักเป็นมะเร็ง) จึงต้องผ่าตัดตัดลำไส้ส่วนนั้นโดยไม่พยายามดันกลับก่อน — จะถูกถ้าเป็นชาย 60 ปีปวดท้องเป็นพัก ๆ ถ่ายมูกเลือด CT เห็น target sign ที่ลำไส้ใหญ่และมีก้อนเป็นหัวนำ",
+   "E": "SMA syndrome เป็น<b>การกดจากภายนอก</b>ที่ duodenum ส่วนที่สาม ถูกบีบระหว่าง aorta กับ superior mesenteric artery เมื่อไขมันรอบ SMA หายไปจนมุม aortomesenteric แคบลง (&lt; ~25°) · พบหลังน้ำหนักลดเร็ว ไฟไหม้ ผ่าตัดกระดูกสันหลัง/ ใส่เฝือกตัว · รักษาด้วยโภชนาการ (NJ feeding) ก่อน ไม่ได้ผลจึงทำ duodenojejunostomy — จะถูกถ้าเป็นหญิง 19 ปีหลังผ่าตัดแก้ scoliosis น้ำหนักลดมาก อาเจียนน้ำดีหลังกิน อาการดีขึ้นเมื่อนอนคว่ำ CT เห็น duodenum ขยายและถูกกดที่ส่วนที่สาม"
   },
-  "trap": "คิดว่าลำไส้โป่งมาก = ต้องมีสิ่งอุดตัน — Ogilvie โป่งมากได้โดยไม่มีการอุดตันจริง",
+  "trap": "คำว่า \"pseudo\" ทำให้บางคนคิดว่าเป็นโรคไม่รุนแรง หรือนึกว่า SMA syndrome เป็น functional เพราะไม่มีก้อนในลำไส้ — หลักแยกคือ mechanical = มี<b>สิ่งกดหรืออุดทางกายภาพ</b> (ก้อน นิ่ว การบิด การมุด หรือหลอดเลือดกดจากภายนอก) ส่วน functional = ลำไส้ไม่บีบตัวทั้งที่ทางเปิดโล่ง (Ogilvie, paralytic ileus) · และ Ogilvie ไม่ใช่โรคเล็ก cecum แตกมีอัตราตายสูง",
   "summary": [
-   "Mechanical: adhesion · hernia · tumor · volvulus · intussusception · gallstone ileus · SMA syndrome",
-   "Functional: paralytic ileus · Ogilvie (colonic pseudo-obstruction)",
-   "Ogilvie: ผู้ป่วยหนัก หลังผ่าตัด ติดเตียง opioid · cecum โป่งมาก",
-   "แยก mechanical ด้วย CT/ water-soluble contrast enema ก่อน",
-   "รักษา: แก้สาเหตุ → neostigmine (cecum > 10–12 cm) → colonoscopic decompression → ผ่าตัด",
-   "Cecum > 12 cm เสี่ยงทะลุ"
+   "Functional obstruction มีสองแบบหลัก: <b>paralytic ileus</b> (ทั้ง small และ large bowel หลังผ่าตัด peritonitis electrolyte ผิดปกติ) และ <b>Ogilvie syndrome</b> (เด่นที่ colon โดยเฉพาะ cecum ถึง splenic flexure)",
+   "ปัจจัยเสี่ยง Ogilvie: ผู้สูงอายุนอนโรงพยาบาล หลังผ่าตัดกระดูก/ ผ่าคลอด sepsis หัวใจล้มเหลว opioid anticholinergic และ hypokalemia/ hypomagnesemia/ hypocalcemia",
+   "ภาพรังสี Ogilvie: colon ขยายต่อเนื่องถึงทวารหนักโดยไม่มี transition point · ต้องยืนยันว่าไม่มีสิ่งอุดด้วย CT หรือ water-soluble contrast enema ก่อนให้ neostigmine",
+   "เส้นผ่านศูนย์กลาง cecum &gt; 12 cm และขยายนานหลายวันเพิ่มความเสี่ยง ischemia และแตก (กฎ Laplace: ผนังตึงแปรตามรัศมี) — ทะลุแล้วอัตราตายสูงมาก",
+   "Neostigmine 2 mg IV ช้า ๆ (acetylcholinesterase inhibitor) ได้ผลราว 80–90% · ข้อห้าม: mechanical obstruction, หัวใจเต้นช้า, หลอดลมหดเกร็ง/ หอบหืดรุนแรง, ไตวาย · ต้อง monitor ECG และเตรียม atropine",
+   "ล้มเหลวจากยา → colonoscopic decompression (ใส่ decompression tube) · ทะลุหรือขาดเลือด → ผ่าตัด (right hemicolectomy หรือ subtotal colectomy) · ไม่ทะลุแต่ทนผ่าตัดใหญ่ไม่ได้ → cecostomy",
+   "Mechanical obstruction ที่พบบ่อย: small bowel — adhesion, hernia, มะเร็ง · large bowel — มะเร็ง, volvulus, diverticular stricture · ภาวะพิเศษ: gallstone ileus, intussusception, SMA syndrome"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ GS Supplementary และลายมือ \"= Colonic pseudo-obstruction\"",
-  "mnemonic": "<b>'Ogilvie = Obstruction ปลอม (pseudo) ไม่มีอะไรอุดจริง'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2021;64:1046)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — Ogilvie syndrome คือ acute colonic pseudo-obstruction ซึ่งเป็น functional obstruction ตามนิยาม ส่วนช้อยอื่นทั้งหมดมีสิ่งอุดกั้นจริง (นิ่ว การบิด การมุด และหลอดเลือดกดจากภายนอก) ตรงกับคีย์ในไฟล์ GS Supplementary ที่วง B และเขียน \"Mechanical obstruction\" คร่อมช้อยที่เหลือ",
+  "mnemonic": "<b>'Ogilvie = Open tube, Off motility'</b> — ท่อโล่งแต่ไม่บีบ",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2021); Sabiston Textbook of Surgery 21st ed. (2022) — Colon and Rectum",
   "variants": [
-   "ผู้ป่วยหลังผ่าตัดสะโพก colon โป่งทั้งเส้น cecum 11 cm CT ไม่มีจุดอุด → Ogilvie ให้ neostigmine",
-   "หญิงสูงอายุลำไส้อุดตัน ลมในท่อน้ำดี นิ่วที่ RLQ → gallstone ileus",
-   "วัยรุ่นน้ำหนักลดมาก อาเจียนหลังกิน duodenum โป่ง → SMA syndrome"
+   "หญิง 82 ปีหลังผ่าตัดเปลี่ยนข้อสะโพก 3 วัน ได้ morphine ท้องอืดมาก colon ขยายถึง rectum cecum 10 cm ไม่มีกดเจ็บ → หยุด opioid แก้ K/ Mg NPO NG tube rectal tube เฝ้าดู 24–48 ชม.",
+   "ผู้ป่วย Ogilvie ที่ cecum 13 cm ไม่ดีขึ้นหลังรักษาแบบ conservative 48 ชม. ชีพจร 80 ไม่มีหอบหืด → neostigmine 2 mg IV ช้า ๆ ภายใต้ ECG monitoring",
+   "ผู้ป่วยหลังให้ neostigmine เกิดหัวใจเต้นช้า 38 ครั้ง/ นาที ความดันตก → atropine IV",
+   "ผู้ป่วย Ogilvie มีไข้ กดเจ็บและกล้ามเนื้อเกร็งที่ RLQ CT เห็นลมนอกลำไส้ → ผ่าตัดด่วน ตัดลำไส้ส่วนที่ขาดเลือด/ ทะลุ"
   ],
   "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 42 — ตัวพิมพ์: <b>7. ข้อใดเป็นfunctional intestinal obstruction — A. Gallstone ileus B. Oglivie syndrome C. Volvulus D. Intussusception E. SMA syndrome</b><br>ลายมือ/ ไฮไลต์ในไฟล์: stem ต้นฉบับ “ข้อใดเป็นfunctional intestinal obstruction” แปลเป็นอังกฤษ; ต้นฉบับสะกด <b>“Oglivie”</b> (แก้เป็น Ogilvie ในช้อย) และ “SMA syndrome” เขียนเต็มเป็น Superior mesenteric artery syndrome. เครื่องหมายในไฟล์: <b>ไฮไลต์ฟ้า “ข้อใดเป็นfunctional intestinal obstruction”</b> และ <b>เส้นคู่ใต้ “functional”</b>; <b>วงเล็บปีกกาเชื่อมช้อย A, C, D, E</b> → text box ฟ้า <b>“Mechanical obstruction”</b>; <b>วง B</b> + ฟ้า <b>“= Colonic pseudo-obstruction”</b> และตัวหนังสือฟ้าขนาดเล็ก: “Def. = massive dilation of colon in absence of mechanical obstruction / Causes - use of narcotics - bed rest - comorbid disease / Management - R/O mechanical obstruction - cessation of narcotics and strict bed rest - medication -&gt; neostigmine IV”. ข้อเดียวกับข้อสอบชุด 77A (ช้อยชุดเดียวกัน) และสอดคล้องกับข้อสอบชุด 78C (Ogilvie)",
   "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 42",
@@ -32,30 +34,32 @@
   ]
  },
  "MDCU70|RoA|31": {
-  "interp": "ชาย 49 ปีตรวจสุขภาพประจำปี <b>FOBT บวก</b> ซักประวัติ ตรวจร่างกายและเลือดปกติ ไม่มีประวัติครอบครัว → ถามคำแนะนำ",
-  "why": "<b>FOBT/ FIT บวก = ต้องส่อง colonoscopy เสมอ</b> ไม่ว่าอายุ อาการ หรือผลเลือดอื่นจะปกติ เพราะเป็นการคัดกรองที่บอกว่ามีเลือดซึมในลำไส้ ซึ่งอาจเกิดจาก adenoma หรือมะเร็ง (ค่า PPV ของ advanced neoplasia ~20–30%) · การไม่ส่องกล้องหลังผลบวกเพิ่มความเสี่ยงตายจากมะเร็ง · ปัจจุบันแนวทางสหรัฐฯ เริ่มคัดกรองที่อายุ <b>45 ปี</b> (ไทยเริ่ม 50 ปี) แต่เมื่อทำแล้วผลบวกต้องส่องกล้องต่อทุกกรณี · CEA ปกติไม่ตัดมะเร็ง · ไฟล์ GS Supplementary คีย์ <b>\"B advise increase fiber and fluid intake\"</b> และลายมือ <b>\"&lt; 50 YO : ยังไม่ถึงวัย screen CRC\"</b> ซึ่ง<b>ไม่ตรงกับคำตอบ</b> — ช้อย Colonoscopy ไม่มีในต้นฉบับ (แต่งเพิ่ม)",
+  "interp": "ชาย 49 ปี สุขภาพดี ไม่มีประวัติครอบครัว ตรวจสุขภาพประจำปีแล้วพบ <b>fecal occult blood test (FOBT) ผลบวก</b> โดย CEA, CBC, LFT ปกติ — ถามว่าควรแนะนำอะไรต่อ ประเด็นจริงคือ <b>stool test ที่ผลบวกต้องตามด้วยอะไร</b> และอายุยังน้อยกว่าเกณฑ์คัดกรองเดิมเปลี่ยนการจัดการหรือไม่",
+  "why": "FOBT/ FIT เป็นการ<b>คัดกรอง</b>ที่บอกได้แค่ว่ามีเลือดปนในอุจจาระ — เมื่อผลบวก ขั้นต่อไปตามทุกแนวทางคือ <b>diagnostic colonoscopy</b> เสมอ เพื่อหา colorectal cancer และ advanced adenoma (ซึ่งเป็นที่มาของเลือดออกที่พบบ่อย) และตัด polyp ได้ในครั้งเดียว · <b>เมื่อผลบวกแล้ว อายุไม่เกี่ยวว่า \"ถึงวัยคัดกรองหรือยัง\"</b> เพราะผู้ป่วยเปลี่ยนจากกลุ่มคัดกรองเป็นผู้ที่มีผลตรวจผิดปกติที่ต้องหาสาเหตุ · ปัจจุบันแนวทางสหรัฐ (USPSTF 2021, ACS 2018) ให้เริ่มคัดกรองที่ <b>อายุ 45 ปี</b> แล้ว ชาย 49 ปีจึงอยู่ในวัยคัดกรองด้วยซ้ำ (โครงการคัดกรองของไทยใช้ FIT ในอายุ 50–70 ปี) · CEA และ CBC ปกติ<b>ไม่ได้ตัดมะเร็ง</b> เพราะ CEA ไม่ใช่ test คัดกรอง และไม่สูงในมะเร็งระยะต้นส่วนใหญ่ · ห้ามตรวจ FOBT ซ้ำเพื่อ \"ยืนยัน\" เพราะผลลบครั้งหลังไม่ลบล้างผลบวกเดิม และ colonoscopy ควรทำโดยไม่ช้า (รอนานเกิน ~9–10 เดือนสัมพันธ์กับระยะโรคที่สูงขึ้น) · ไฟล์วง B พร้อมกล่องลายมือ <b>\"&lt; 50 YO : ยังไม่ถึงวัย screen CRC\"</b> (ต้นฉบับมีช้อยแค่ A–D ช้อย E Colonoscopy เพิ่มในเว็บ)",
   "wrong": {
-   "A": "FOBT บวกบอกว่ามีเลือดซึมในทางเดินอาหาร ไม่ใช่ \"แข็งแรง\" ต้องหาสาเหตุ · จะถูกถ้า FIT ผลลบในการคัดกรองตามรอบ",
-   "B": "ใยอาหารและน้ำไม่ช่วยหาสาเหตุของเลือดในอุจจาระ การปล่อยผ่านเสี่ยงพลาดมะเร็ง (คีย์ในไฟล์ตอบข้อนี้ เพราะมองว่าอายุ &lt; 50 ยังไม่ถึงวัยคัดกรอง) · จะถูกถ้าชายท้องผูกเรื้อรัง ไม่มีเลือด ไม่มีอาการเตือน FIT ลบ",
-   "C": "ส่องกระเพาะใช้เมื่อมีอาการทางเดินอาหารส่วนบนหรือซีดจากขาดธาตุเหล็กที่ colonoscopy ปกติ ไม่ใช่ขั้นแรกของ FOBT บวกที่ไม่มีอาการ · จะถูกถ้ามีปวดท้องบน ถ่ายดำ หรือ colonoscopy ปกติแต่ยังซีดขาดเหล็ก",
-   "D": "CT ช่องท้องไม่ไวต่อ polyp/ มะเร็งระยะต้น และไม่ได้ชิ้นเนื้อ · จะถูกถ้าผู้ป่วยส่องกล้องไม่ได้ (ใช้ CT colonography แทน) หรือใช้ staging หลังวินิจฉัยมะเร็งแล้ว"
+   "A": "การบอกว่าแข็งแรงดีเพราะซักประวัติตรวจร่างกายและเลือดปกติ คือการละเลยผลบวกของ FOBT — มะเร็งลำไส้ใหญ่ระยะต้นส่วนใหญ่ไม่มีอาการ และ CEA/ CBC ปกติไม่ได้ตัดโรค · จะถูกถ้าเป็นชาย 49 ปีที่ FIT ผลลบ ไม่มีอาการ ไม่มีประวัติครอบครัว (นัดคัดกรองซ้ำตามรอบ FIT ทุก 1 ปี)",
+   "B": "ใยอาหารและน้ำช่วยเรื่องท้องผูกและ hemorrhoid แต่ไม่ได้หาสาเหตุของเลือดในอุจจาระ — การคิดว่า \"&lt; 50 ปียังไม่ถึงวัย screen\" ใช้ได้กับการ<b>เลือกว่าจะเริ่มคัดกรองหรือไม่</b> ไม่ใช่กับผลที่บวกแล้ว · จะถูกถ้าเป็นหญิง 30 ปีถ่ายเป็นเลือดสดหยดหลังถ่ายแข็ง ตรวจพบ internal hemorrhoid grade 1 ไม่มีอาการเตือน (ปรับอาหารเพิ่มใยและน้ำ)",
+   "C": "Upper GI endoscopy หาเลือดออกจากทางเดินอาหารส่วนบน แต่ FOBT/ FIT ผลบวกโดยไม่มีอาการทาง upper GI ให้ส่อง colon ก่อน (FIT แทบไม่ตรวจเจอเลือดจาก upper GI เพราะ globin ถูกย่อย) · จะถูกถ้าเป็นชาย 55 ปีมีภาวะโลหิตจางจากขาดเหล็ก ร่วมกับจุกแน่นลิ้นปี่ ถ่ายดำ หรือ colonoscopy ปกติแล้วยังหาสาเหตุไม่เจอ",
+   "D": "CT whole abdomen ใช้ <b>staging</b> หลังมีผลชิ้นเนื้อเป็นมะเร็งแล้ว ไม่ใช่เครื่องมือหา polyp/ มะเร็งเล็ก และตัดชิ้นเนื้อไม่ได้ · จะถูกถ้าเป็นชาย 49 ปีที่ colonoscopy พบก้อนที่ sigmoid ผลชิ้นเนื้อเป็น adenocarcinoma ต้องการประเมินการกระจายไปตับและต่อมน้ำเหลือง (CT chest/ abdomen/ pelvis)"
   },
-  "trap": "คิดว่าอายุยังไม่ถึงวัยคัดกรองจึงไม่ต้องส่องกล้อง — เมื่อผล FOBT บวกแล้ว ต้อง colonoscopy เสมอ · คีย์ในไฟล์ตอบ B",
+  "trap": "จุดหลอกคืออายุ 49 ปี + \"healthy\" + เลือดปกติ ชวนให้คิดว่ายังไม่ถึงวัยคัดกรองจึงปลอบใจหรือแนะนำอาหาร (ตามที่ไฟล์วง B) — แต่เกณฑ์อายุใช้ตัดสินว่า<b>จะเริ่มคัดกรองไหม</b> เมื่อผลบวกแล้วต้อง colonoscopy ทุกราย และเกณฑ์ปัจจุบันก็เริ่มที่ 45 ปีแล้ว · CEA ไม่ใช้คัดกรองหรือตัดโรค",
   "summary": [
-   "FOBT/ FIT บวก → colonoscopy เสมอ (ภายใน ~3–6 เดือน)",
-   "คัดกรองเริ่ม: สหรัฐฯ 45 ปี · ไทย 50 ปี (FIT ทุก 1–2 ปี)",
-   "ญาติสายตรงเป็นมะเร็ง → colonoscopy ที่ 40 ปี หรือ 10 ปีก่อนอายุที่ญาติเป็น",
-   "CEA ไม่ใช้คัดกรอง",
-   "อาการเตือน (เลือดออก ซีด น้ำหนักลด อุจจาระเปลี่ยน) → ส่องกล้องทุกอายุ",
-   "Colonoscopy ปกติ (คนเสี่ยงปกติ) → ซ้ำทุก 10 ปี"
+   "FIT/ FOBT ผลบวก → <b>colonoscopy</b> ทุกราย ไม่ตรวจอุจจาระซ้ำ ไม่ใช้ CT แทน · ควรทำภายในไม่กี่เดือนเพราะการรอนานสัมพันธ์กับระยะมะเร็งที่สูงขึ้น",
+   "อายุเริ่มคัดกรอง average risk: <b>45 ปี</b> (USPSTF 2021, ACS 2018) ถึง 75 ปี · 76–85 ปีพิจารณารายบุคคล · ไทย: โครงการคัดกรองด้วย FIT อายุ 50–70 ปี",
+   "ทางเลือกคัดกรอง: FIT ทุก 1 ปี · gFOBT high-sensitivity ทุก 1 ปี · multitarget stool DNA ทุก 1–3 ปี · CT colonography ทุก 5 ปี · flexible sigmoidoscopy ทุก 5 ปี · colonoscopy ทุก 10 ปี",
+   "กลุ่มเสี่ยงสูง: ญาติสายตรงเป็นมะเร็งลำไส้ใหญ่ก่อน 60 ปี → colonoscopy เริ่มที่อายุ 40 หรือ 10 ปีก่อนอายุที่ญาติเป็น (แล้วแต่ว่าอันไหนมาก่อน) ทุก 5 ปี · Lynch, FAP, IBD มีตารางเฉพาะ",
+   "gFOBT (guaiac) ตรวจ peroxidase ของ heme — ผลบวกลวงจากเนื้อแดง ผักบางชนิด NSAID/ aspirin และเลือดจาก upper GI · ผลลบลวงจาก vitamin C · FIT จับ human globin จึงจำเพาะต่อเลือดจาก colon มากกว่าและไม่ต้องงดอาหาร",
+   "CEA ไม่ใช้คัดกรองหรือวินิจฉัย (ไวต่ำในระยะต้น สูงได้ในคนสูบบุหรี่ ตับอักเสบ) ใช้เป็น baseline ก่อนผ่าตัดและติดตามการกลับเป็นซ้ำ",
+   "Iron deficiency anemia ในชายหรือหญิงวัยหมดประจำเดือน → bidirectional endoscopy (EGD + colonoscopy) ไม่ใช่ colonoscopy อย่างเดียว"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (B) — คีย์ตอบให้กินใยอาหารเพราะอายุ &lt; 50 ปี แต่ตาม USPSTF 2021 และ ACG/ USMSTF การคัดกรองที่ผลบวกต้องตามด้วย colonoscopy เสมอ · ตอบ E ความมั่นใจสูง (ช้อย E แต่งเพิ่มเพราะต้นฉบับจดไม่ครบ)",
-  "mnemonic": "<b>'FIT บวก = ส่องกล้อง ไม่ต้องคิดเรื่องอายุ'</b>",
-  "guide": "USPSTF Recommendation: Screening for Colorectal Cancer (JAMA 2021;325:1965); US Multi-Society Task Force: Follow-up of abnormal FIT (Gastroenterology 2022)",
+  "opinion": "เห็นด้วยกับคำตอบ E (colonoscopy) ในเว็บ ความมั่นใจสูง และ<b>ไม่เห็นด้วยกับคีย์ในไฟล์</b> GS Supplementary ที่วง B พร้อมเหตุผล \"&lt; 50 ปียังไม่ถึงวัย screen\" — เกณฑ์อายุใช้กับการเริ่มคัดกรองเท่านั้น เมื่อผลบวกแล้วต้องส่อง colon ทุกราย · เว็บตอบต่างจากคีย์เพราะต้นฉบับมีช้อยแค่ A–D (ไม่มีคำตอบที่ถูกตามมาตรฐาน) จึงเพิ่ม E colonoscopy เป็นคำตอบ",
+  "mnemonic": "<b>'Positive stool → Scope the colon (อายุไม่เกี่ยว)'</b>",
+  "guide": "USPSTF Colorectal Cancer Screening Recommendation (JAMA 2021); ACS Guideline for Colorectal Cancer Screening (CA Cancer J Clin 2018); US Multi-Society Task Force on Colorectal Cancer — Follow-up of abnormal non-invasive screening (2017–2020)",
   "variants": [
-   "ชาย 55 ปี FIT บวก ไม่มีอาการ → colonoscopy",
-   "ชาย 40 ปี พ่อเป็นมะเร็งลำไส้ตอนอายุ 48 → colonoscopy ตอนนี้ (10 ปีก่อนอายุที่พ่อเป็น)",
-   "หญิง 60 ปีซีดขาดเหล็ก colonoscopy ปกติ → EGD"
+   "หญิง 46 ปี average risk ต้องการคัดกรองมะเร็งลำไส้ใหญ่ ไม่อยากส่องกล้อง → FIT ปีละครั้ง (ผลบวกเมื่อใดส่อง colonoscopy)",
+   "ชาย 52 ปี FIT บวก colonoscopy พบ adenoma 12 mm ตัดออกหมด ผลเป็น tubular adenoma → colonoscopy ซ้ำใน 3 ปี (advanced adenoma)",
+   "ชาย 42 ปี พ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 48 ปี → เริ่ม colonoscopy ที่ 38 ปี (10 ปีก่อนอายุที่พ่อเป็น) และทำทุก 5 ปี",
+   "ทำไมไม่ตรวจ FOBT ซ้ำเมื่อผลบวก → มะเร็งและ polyp เลือดออกเป็นพัก ๆ ผลลบครั้งหลังจึงไม่ได้ตัดโรค"
   ],
   "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 45 — ตัวพิมพ์: <b>31) 49 year old man had an occult fecal blood test during an annual check up program. The result was positive. From history taking and PE he was healthy ,normoactive bowel sound , no family history of cancer. Lab test CEA CBC LFT within normal limit, what would you suggest? — A. assure that he is healthy B. advise increase fiber and fluid intake C. advise upper GI endoscopy D. advise for ct whole abdomen (E. ไม่มีในตำแหน่งนี้)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: text box ฟ้า <b>“&lt; 50 YO : ยังไม่ถึงวัย screen CRC”</b> ชี้ที่ “49 year old man”; ขีดเส้นใต้ <b>“occult fecal blood test”</b>, <b>“positive”</b>, <b>“no family history of cancer”</b>; ไฮไลต์ฟ้า <b>“what would you suggest?”</b>; <b>วง B</b> (advise increase fiber and fluid intake); ช้อย D อยู่ต้นคอลัมน์ขวา. <b>ต้นฉบับไม่มีช้อย E ในตำแหน่งของข้อนี้</b> — ช้อย E “Colonoscopy” แต่งเพิ่มโดยเรา (recall ไม่ครบ). ข้อสังเกต: ช้อย <b>“E. advise for repeat fecal occult blood test”</b> ที่พิมพ์อยู่ท้ายเลขต้นฉบับ 34 (ข้อที่ 34 ของ Gen Sx MDCU70 RoA) ใช้สำนวน “advise for” แบบเดียวกับข้อนี้ อาจเป็นช้อย E ของข้อนี้ที่ recall วางผิดที่ — ในชุดนี้ใช้ตามตำแหน่งในไฟล์ (คงไว้ที่ข้อที่ 34 ของ Gen Sx MDCU70 RoA). stem ตามต้นฉบับ แก้ไวยากรณ์ (“occult fecal blood test” → “fecal occult blood test”); ช้อย A “assure that he is healthy” เขียนเป็น “Reassure him that he is healthy”, C/D ตัดคำว่า “advise”",
   "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 45",
@@ -64,30 +68,32 @@
   ]
  },
  "MDCU70|RoA|80@p50": {
-  "interp": "ชาย 60 ปีปวดตื้อ RUQ 3 เดือน เคยผ่าตัด right hemicolectomy + เคมีบำบัดมะเร็งลำไส้ 3 ปีก่อน ส่องกล้องปีที่แล้วปกติ เลือดและตับปกติ ภาพเห็นก้อนเดี่ยวในตับ → ถามวินิจฉัย",
-  "why": "ก้อนในตับที่ตรวจพบ<b>หลังรักษามะเร็งลำไส้ไปแล้ว 3 ปี</b> = <b>metachronous colorectal liver metastasis</b> (metachronous = เกิดภายหลังมะเร็งต้นกำเนิด โดยมักใช้เกณฑ์ > 6 เดือน) · ตับเป็นตำแหน่งกระจายที่พบบ่อยที่สุดของมะเร็งลำไส้ (ผ่าน portal vein) · ไม่มีตับแข็ง/ ไวรัสตับอักเสบ จึงไม่ชวนคิด HCC · ขั้นต่อไป: CEA, CT ทรวงอก/ ท้อง/ เชิงกราน ± MRI ตับ/ PET เพื่อดูว่าตัดได้หรือไม่ → hepatectomy ให้โอกาสหายขาด · ไฟล์ GS Supplementary คีย์ <b>\"D Metachronous colorectal liver metastasis\"</b> และลายมือที่ D <b>\"เกิดหลัง primary cancer มากกว่า 6 เดือน\"</b>",
+  "interp": "ชาย 60 ปีเคยผ่าตัด right hemicolectomy + chemotherapy จากมะเร็งลำไส้ใหญ่เมื่อ <b>3 ปีก่อน</b> colonoscopy ปีที่แล้วปกติ ตอนนี้ปวดตื้อ RUQ 3 เดือน พบ<b>ก้อนเดี่ยวในตับ</b> เลือดและ LFT ปกติ ไม่มีปัจจัยเสี่ยงโรคตับ — ถามการวินิจฉัย ต้องตัดสินสองเรื่อง: ก้อนชนิดใด และ synchronous หรือ metachronous",
+  "why": "<b>ตับเป็นตำแหน่งแพร่กระจายที่พบบ่อยที่สุดของมะเร็งลำไส้ใหญ่</b> เพราะเลือดดำจากลำไส้ไหลผ่าน portal vein เข้าตับก่อน — ผู้ป่วย CRC ราวครึ่งหนึ่งมี liver metastasis ในช่วงชีวิต และ metastasis พบบ่อยกว่ามะเร็งตับปฐมภูมิมากในผู้ที่ไม่มีโรคตับเรื้อรัง · <b>Synchronous</b> = พบพร้อมหรือใกล้เวลาวินิจฉัย primary (นิยามที่ใช้บ่อยคือภายใน 3–6 เดือน) ส่วน <b>metachronous</b> = พบหลังจากนั้น — รายนี้ 3 ปีหลังผ่าตัดจึงเป็น metachronous · ไม่มี HBV/ HCV/ cirrhosis จึงไม่เข้ากับ HCC และไม่มีปัจจัยเสี่ยง cholangiocarcinoma · ลักษณะภาพ: CRLM มักเป็น hypoechoic หรือ hyperechoic/ target บน US และบน CT portal venous phase มักเป็น<b>ก้อนความทึบต่ำ ขอบ enhance เป็นวง (rim enhancement)</b> · การดูแล: CT chest/ abdomen/ pelvis และ MRI ตับ (ไวที่สุดสำหรับก้อนเล็ก) ตรวจ CEA แล้วประชุม MDT — ถ้าตัดได้หมด (R0) และเหลือ future liver remnant พอ ให้ <b>hepatectomy ± perioperative chemotherapy</b> ซึ่งอัตรารอด 5 ปีราว 40–50% · ไฟล์วง D และกล่องลายมือ <b>\"เกิดหลัง primary cancer มากกว่า 6 เดือน\"</b> ส่วนช้อย E เขียน \"เกิดภายใน 6 เดือนหลัง primary cancer\"",
   "wrong": {
-   "A": "Synchronous หมายถึงพบพร้อมกัน แต่ก้อนนี้พบหลัง 3 ปี และ HCC มักเกิดในตับแข็ง/ HBV · จะถูกถ้าผู้ป่วยตับแข็ง HBV ตรวจพบก้อนในตับพร้อมกับวินิจฉัยมะเร็งอื่น",
-   "B": "Cholangiocarcinoma เป็นมะเร็งท่อน้ำดี มักมาด้วยตัวเหลือง (perihilar) หรือก้อนในตับที่ CA 19-9 สูง ไม่ใช่ระยะ \"synchronous\" ในบริบทนี้ · จะถูกถ้าผู้ป่วยเคยติดพยาธิใบไม้ตับ ตัวเหลือง ท่อน้ำดีในตับขยาย CA 19-9 สูง",
-   "C": "Metachronous HCC คือ HCC ใหม่ภายหลัง แต่ไม่มีปัจจัยเสี่ยงตับ และมะเร็งลำไส้กระจายไปตับพบบ่อยกว่ามาก · จะถูกถ้าผู้ป่วย HBV ตับแข็งที่เคยตัด HCC แล้วพบก้อนใหม่ arterial enhancement + washout",
-   "E": "Synchronous metastasis ต้องพบพร้อม/ ใกล้เวลาวินิจฉัยมะเร็งต้นกำเนิด (≤ 6 เดือน) ไม่ใช่ 3 ปีต่อมา · จะถูกถ้า CT staging ตอนวินิจฉัยมะเร็งลำไส้พบก้อนในตับพร้อมกัน"
+   "A": "Synchronous HCC ผิดสองชั้น — ไม่ synchronous เพราะเกิดหลังผ่าตัด 3 ปี และ HCC มักเกิดบนตับแข็ง/ HBV/ HCV/ NASH มี AFP สูงและ CT arterial hyperenhancement with washout (LI-RADS 5) · จะถูกถ้าเป็นชาย 58 ปีพาหะ HBV ที่ CT staging ตอนวินิจฉัยมะเร็งลำไส้ใหญ่พบก้อนตับ arterial enhance แล้ว washout และ AFP สูง",
+   "B": "Intrahepatic cholangiocarcinoma สัมพันธ์กับพยาธิใบไม้ตับ <i>Opisthorchis viverrini</i> (ภาคอีสาน) PSC และนิ่วในตับ ภาพเป็นก้อนขอบไม่เรียบ enhance ช้าใน delayed phase มี capsular retraction และ CA19-9 สูง — และเวลาก็ไม่ synchronous · จะถูกถ้าเป็นชาย 55 ปีจากอีสานกินปลาดิบ ขณะวินิจฉัยมะเร็งลำไส้ใหญ่พบก้อนตับ delayed enhancement ท่อน้ำดีส่วนปลายขยาย",
+   "C": "ช่วงเวลา metachronous ถูก แต่ชนิดก้อนไม่เข้า — ไม่มีโรคตับเรื้อรัง AFP/ LFT ปกติ ขณะที่มีประวัติ CRC ซึ่งแพร่ไปตับบ่อยมาก จึงต้องคิด metastasis ก่อน · จะถูกถ้าเป็นชาย 65 ปีตับแข็งจาก HCV ผ่าตัด CRC ไป 3 ปี ตรวจ surveillance พบก้อนใหม่ arterial hyperenhancement + washout และ AFP 800 ng/mL",
+   "E": "ชนิดก้อนถูก (CRLM) แต่เวลาไม่ใช่ — synchronous คือพบพร้อมหรือภายในราว 6 เดือนหลังวินิจฉัย primary ตามที่ไฟล์เขียน · จะถูกถ้าเป็นหญิง 62 ปีที่เพิ่งวินิจฉัยมะเร็ง sigmoid แล้ว CT staging ก่อนผ่าตัดพบก้อนตับ 2 ก้อน rim enhancement (ต้องวางแผน staged หรือ simultaneous resection)"
   },
-  "trap": "สับสน synchronous กับ metachronous — ดูระยะเวลาจากการวินิจฉัยมะเร็งต้นกำเนิด",
+  "trap": "คนลังเลเพราะโจทย์บอก hyperechoic บน US และ hyperdense บน CT ซึ่งไม่ใช่ภาพคลาสสิกของ CRLM (CT มักทึบต่ำ ขอบ enhance) ตามที่ไฟล์เขียนว่า \"CT น่าจะเห็นเป็น hypodensity\" — แต่โจทย์ให้บริบทชัดคือมีประวัติ CRC และไม่มีโรคตับ จึงตอบ metastasis แล้วแยกเวลาด้วยเกณฑ์ ~6 เดือน · อีกกับดักคือสับสน synchronous/ metachronous ซึ่งตัดสินที่เวลา ไม่ใช่ที่ชนิดก้อน",
   "summary": [
-   "Synchronous: พบพร้อม/ ภายใน ~6 เดือน · Metachronous: พบภายหลัง > 6 เดือน",
-   "มะเร็งลำไส้กระจายไปตับบ่อยที่สุด (portal vein)",
-   "ติดตามหลังผ่าตัด: CEA + CT ตามรอบ 5 ปี",
-   "CRLM ตัดได้ → hepatectomy (รอด 5 ปี ~40–50%)",
-   "HCC: ตับแข็ง/ HBV/ HCV · arterial enhancement + washout",
-   "ภาพ CRLM: hypodense บน CT portal phase · target sign บน US"
+   "CRC แพร่กระจายผ่าน portal vein → ตับบ่อยที่สุด ตามด้วยปอด (rectum ส่วนล่างระบายผ่าน IVC จึงไปปอดได้โดยตรง) · ราว 15–25% มี liver metastasis ตั้งแต่ตอนวินิจฉัย (synchronous)",
+   "Synchronous = พบพร้อม/ ภายในราว 3–6 เดือนหลังวินิจฉัย primary · metachronous = พบหลังจากนั้น (มักในช่วง 2–3 ปีแรกหลังผ่าตัด)",
+   "ติดตามหลังผ่าตัด CRC stage II–III: ซักประวัติ/ CEA ทุก 3–6 เดือนใน 2 ปีแรก แล้วทุก 6 เดือนจนครบ 5 ปี · CT chest/ abdomen/ pelvis ทุก 6–12 เดือน · colonoscopy ที่ 1 ปีหลังผ่าตัด",
+   "เกณฑ์ resectability ของ CRLM ปัจจุบันขึ้นกับ<b>สิ่งที่เหลือ</b>: ตัดได้ R0 และ future liver remnant พอ (≥ 20–25% ในตับปกติ, ≥ 30% หลังได้เคมีบำบัดมาก, ≥ 40% ในตับแข็ง) โดยมี inflow/ outflow/ biliary drainage ครบ — จำนวนและขนาดก้อนไม่ใช่ข้อห้ามโดยตรง",
+   "FLR ไม่พอ → portal vein embolization หรือ ALPPS · ก้อนตัดไม่ได้ → conversion chemotherapy (FOLFOX/ FOLFIRI ± anti-EGFR ถ้า RAS wild-type และ primary ด้านซ้าย หรือ bevacizumab) แล้วประเมินใหม่",
+   "Ablation (RFA/ microwave) ใช้กับก้อนเล็ก (&lt; 3 cm) ที่ตัดยากหรือร่วมกับการผ่าตัด · ผ่าตัด CRLM ได้หมดอัตรารอด 5 ปีราว 40–50%",
+   "ก้อน hyperechoic เดี่ยวในตับปกติที่พบบ่อยที่สุดคือ hemangioma (CT/ MRI เห็น peripheral nodular enhancement แล้วเติมเข้าตรงกลาง) — ในผู้ที่มีประวัติมะเร็งต้องพิสูจน์ด้วย MRI ก่อนสรุปว่าเป็นก้อนธรรมดา"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์และลายมือในไฟล์ · ลายมือสงสัยว่าบน CT น่าจะเป็น hypodense มากกว่า hyperdense ซึ่งถูกต้องตามลักษณะทั่วไปของ CRLM แต่ไม่เปลี่ยนคำตอบ",
-  "mnemonic": "<b>'Meta = มาทีหลัง (> 6 เดือน) · Syn = มาพร้อมกัน'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025 — Surveillance and metastatic disease",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ GS Supplementary ที่วง D และนิยามเวลาในลายมือ (&gt; 6 เดือน = metachronous) · มีประวัติ CRC ไม่มีโรคตับ และพบก้อนตับหลัง 3 ปี metastasis จึงน่าจะเป็นที่สุด แม้คำบรรยายภาพ (hyperdense บน CT) ไม่ตรงลักษณะคลาสสิก ซึ่งในชีวิตจริงต้องยืนยันด้วย MRI/ ชิ้นเนื้อ",
+  "mnemonic": "<b>'Meta-CHRONOUS = Chronos มาทีหลัง (&gt; 6 เดือน) · SYN = พร้อมกัน'</b>",
+  "guide": "NCCN Guidelines Colon Cancer (2025); ESMO Clinical Practice Guideline for Metastatic Colorectal Cancer (Ann Oncol 2023); Blumgart's Surgery of the Liver, Biliary Tract and Pancreas 7th ed. (2023)",
   "variants": [
-   "CT staging ตอนวินิจฉัยมะเร็ง sigmoid พบก้อนในตับ 2 ก้อน → synchronous metastasis",
-   "หลังผ่าตัดมะเร็งลำไส้ 2 ปี CEA สูงขึ้น CT พบก้อนในตับเดี่ยว → metachronous CRLM ประเมินการตัด",
-   "ผู้ป่วย HBV ตับแข็ง ก้อนในตับ arterial enhancement + washout → HCC"
+   "ผู้ป่วยหลังผ่าตัด CRC 18 เดือน CEA ขึ้นจาก 2 เป็น 15 ng/mL ไม่มีอาการ → CT chest/ abdomen/ pelvis (± PET-CT ถ้า CT ไม่พบ) หาตำแหน่งกลับเป็นซ้ำ",
+   "CRLM 3 ก้อนในตับข้างขวา คำนวณ FLR (ตับข้างซ้าย) ได้ 18% ในตับปกติ → portal vein embolization ข้างขวาก่อน แล้วจึงทำ right hepatectomy",
+   "มะเร็ง sigmoid ไม่มีอาการอุดตัน พร้อมก้อนตับ 2 ก้อนที่ตัดได้ → เคมีบำบัดก่อน แล้วผ่าตัด primary และตับ (simultaneous หรือ staged/ liver-first) ตามการประชุม MDT",
+   "ทำไมมะเร็ง rectum ส่วนล่างไปปอดได้โดยไม่ผ่านตับ → middle/ inferior rectal vein ระบายเข้า internal iliac vein → IVC (systemic circulation)"
   ],
   "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 50 — ตัวพิมพ์: <b>80. A 60-year-old male presents with dull-aching pain at RUQ for 3 months. He has no u/d except history pf colorectal cancer 3 years ago treated with Rt.hemicolectomy &amp; chemotheraphy. Colonoscope last year appeared normal. Blood test &amp; LFT are normal Abdominal ultrasound shows a single hyperechoic mass. CT shows A hyperdensity mass. What is the most likely? — A. Synchronous HCC B. Synchronous cholangiocarcinoma C. Metachronous HCC D. Metachronous colorectal liver metastasis E. Synchronous colorectal liver metastasis</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ในไฟล์ขีดเส้นใต้สีน้ำเงิน <b>“dull-aching pain at RUQ for 3 months”</b>, <b>“colorectal cancer 3 years ago treated with Rt.hemicolectomy &amp; chemotheraphy”</b>, <b>“Abdominal ultrasound”</b>, <b>“hyperechoic mass”</b>, <b>“CT”</b>, <b>“A hyperdensity mass”</b>; <b>กรอบสี่เหลี่ยมรอบคำ “single”</b> + text box สีฟ้า <b>“?”</b> เหนือคำ; ไฮไลต์ฟ้า <b>“What is the most likely?”</b>; ช้อย A/B/C ขีดเส้นใต้ <b>“HCC”</b>, <b>“cholangiocarcinoma”</b>, <b>“HCC”</b> มีเส้นเชื่อมสามช้อยไปที่ text box สีฟ้า <b>“CT น่าจะเห็นเป็น hypodensity lesion”</b>; <b>วงกลมรอบ D</b> + text box สีฟ้า <b>“เกิดหลัง primary cancer มากกว่า 6 เดือน”</b>; ที่ช้อย E มี text box สีฟ้า <b>“เกิดภายใน 6 เดือนหลัง primary cancer”</b>. stem แปลตามต้นฉบับ แก้ไวยากรณ์ (pf → of, chemotheraphy → chemotherapy, Colonoscope → Colonoscopy) คง “single hyperechoic mass” และ “hyperdense mass” ตามต้นฉบับ; ช้อย HCC เขียนเต็มเป็น hepatocellular carcinoma. เลขต้นฉบับ 80 มีสองข้อในหน้านี้ ข้อนี้เป็นตัวแรก (orig “80”). สอดคล้องกับข้อสอบชุด 73C (metachronous liver metastases) และ 79D (synchronous = พบพร้อม primary)",
   "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 50",
@@ -96,30 +102,32 @@
   ]
  },
  "MDCU70|RoB|73": {
-  "interp": "ชายเคยผ่าตัดส่องกล้องตัดลำไส้ใหญ่จากมะเร็ง มาด้วยก้อนที่แผลเจาะ (port site) แข็ง ไม่เจ็บ ขยับได้ → ถามสาเหตุที่น่าจะเป็นที่สุด",
-  "why": "ก้อน<b>แข็ง ไม่เจ็บ</b> ที่<b>แผล port</b> ของผู้ป่วยที่ผ่าตัดมะเร็ง = <b>port-site metastasis</b> · กลไก: เซลล์มะเร็งติดเครื่องมือ/ ชิ้นเนื้อที่ดึงผ่านแผลโดยไม่ใส่ถุง, การฟุ้งของเซลล์จาก pneumoperitoneum (aerosolization/ chimney effect) · ในยุคแรกของการผ่าตัดส่องกล้องรายงานบ่อย แต่ปัจจุบันอุบัติการณ์ (&lt; 1%) ไม่ต่างจากแผลผ่าตัดเปิด เมื่อใช้เทคนิคที่ดี (ใส่ถุงนำชิ้นเนื้อออก ปล่อยก๊าซผ่าน port ไม่ผ่านแผล ไม่จับก้อน) · แยกจาก incisional hernia ซึ่งนุ่ม ยุบได้ มี cough impulse · ไฟล์ GS Supplementary คีย์ <b>\"A Metastasis at port area\"</b> ตรงกับคำตอบ",
+  "interp": "ชายเคยผ่าตัด <b>laparoscopic colectomy จากมะเร็งลำไส้ใหญ่</b> มาด้วยก้อนที่<b>แผล port</b> ตรวจพบก้อนแข็ง ไม่เจ็บ เคลื่อนได้ — ถามสาเหตุที่น่าจะเป็นที่สุด ต้องนึกถึงภาวะเฉพาะของการผ่าตัดมะเร็งผ่านกล้องคือการฝังตัวของเซลล์มะเร็งที่แผลผ่าตัด",
+  "why": "<b>Port-site metastasis</b> คือมะเร็งกลับเป็นซ้ำที่ผนังหน้าท้องตรงแผล trocar หรือแผลนำชิ้นเนื้อออก ช่วงแรกที่เริ่มผ่าตัดมะเร็งผ่านกล้องมีรายงานสูงจนน่ากังวล แต่ข้อมูลต่อมาจาก RCT ใหญ่ (เช่น COST, COLOR, CLASICC) พบว่า<b>อุบัติการณ์ราว &lt; 1% ใกล้เคียงกับ wound recurrence ของการผ่าตัดเปิด</b> ตามที่ตำราไทยในไฟล์เขียน · กลไกที่เสนอ: เซลล์ติดเครื่องมือหรือชิ้นเนื้อแล้วฝังตัวขณะดึงออก, aerosolization ของเซลล์ใน pneumoperitoneum, <b>chimney effect</b> คือก๊าซรั่วออกตาม port พาเซลล์มาด้วย และการจับก้อนแรง ๆ · การป้องกัน: ใช้ <b>wound protector/ specimen bag</b> ตอนเอาชิ้นเนื้อออก ยึด trocar ไม่ให้เลื่อน ปล่อยก๊าซออกก่อนถอด trocar หลีกเลี่ยงการจับก้อนโดยตรง (no-touch) · ก้อนแข็งไม่เจ็บที่แผลในผู้ป่วยมะเร็ง → ตัดชิ้นเนื้อ (core/ excision) + CT chest/ abdomen/ pelvis + CEA เพื่อดูว่ามีการแพร่กระจายที่อื่นร่วม (มักบ่งถึงโรคในช่องท้อง) แล้วพิจารณาตัดผนังหน้าท้องเฉพาะที่ร่วมเคมีบำบัด · ไฟล์วง A และแปะหน้าตำราภาษาไทยเรื่อง <b>port site metastasis</b>",
   "wrong": {
-   "B": "Lymphosarcoma (lymphoma) เกิดในต่อมน้ำเหลือง ไม่จำเพาะต่อแผล port และไม่สัมพันธ์กับการผ่าตัดมะเร็งลำไส้ · จะถูกถ้าผู้ป่วยมีต่อมน้ำเหลืองโตหลายตำแหน่ง ไข้ เหงื่อกลางคืน",
-   "C": "ต่อมน้ำเหลืองที่กระจายมาจะอยู่ตามแนวต่อมน้ำเหลือง (mesentery, retroperitoneum, ขาหนีบ) ไม่ใช่ที่แผล port ผนังหน้าท้อง · จะถูกถ้าคลำได้ต่อมน้ำเหลืองที่ขาหนีบในมะเร็งทวารหนักส่วนล่าง",
-   "D": "ไส้เลื่อนที่แผล port นุ่ม ดันยุบได้ โตเวลาไอ/ เบ่ง (cough impulse) ไม่แข็ง · จะถูกถ้าก้อนนุ่มที่แผล port สะดือโตเวลาไอและดันกลับได้",
-   "E": "Lipoma นุ่มเหมือนแป้ง ขอบชัด โตช้ามาก ไม่สัมพันธ์กับแผลผ่าตัด · จะถูกถ้าก้อนนุ่มขยับได้ที่หลังมาหลายปี ไม่มีประวัติผ่าตัดตรงนั้น"
+   "B": "Lymphosarcoma เป็นชื่อเก่าของ non-Hodgkin lymphoma — มาด้วยต่อมน้ำเหลืองโตหลายตำแหน่ง นุ่มแบบยาง ไม่เจ็บ อาจมี B symptoms ไม่สัมพันธ์กับแผล port หรือประวัติมะเร็งลำไส้ · จะถูกถ้าเป็นชาย 55 ปีมีต่อมน้ำเหลืองคอและรักแร้โตหลายก้อนแบบยาง ไข้ เหงื่อออกกลางคืน น้ำหนักลด &gt; 10% ใน 6 เดือน",
+   "C": "ผนังหน้าท้องตรงแผล port ไม่มีต่อมน้ำเหลือง — มะเร็งลำไส้ใหญ่กระจายไปต่อมน้ำเหลืองตาม mesentery (pericolic → intermediate → central) ซึ่งคลำจากภายนอกไม่ได้ · จะถูกถ้าเป็นผู้ป่วย squamous cell carcinoma ของทวารหนักใต้ dentate line ที่คลำได้ต่อมน้ำเหลืองขาหนีบแข็ง ไม่เจ็บ (inguinal node metastasis)",
+   "D": "Port-site hernia เป็นก้อน<b>นุ่ม ยุบได้ มี cough impulse</b> อาจเจ็บถ้า incarcerate มักเกิดที่ port ≥ 10 mm โดยเฉพาะสะดือที่ไม่ได้เย็บ fascia ปิด — ไม่ใช่ก้อนแข็ง · จะถูกถ้าเป็นหญิงอ้วน 60 ปีหลัง laparoscopic cholecystectomy 1 ปี มีก้อนนุ่มที่สะดือโตขึ้นเวลาไอ ดันกลับได้",
+   "E": "Lipoma เป็นก้อนไขมันใต้ผิวหนัง นุ่ม เป็น lobule ขอบชัด เคลื่อนได้ใต้ผิว (slip sign) โตช้าเป็นปี ไม่สัมพันธ์กับแผลผ่าตัดหรือมะเร็ง · จะถูกถ้าเป็นหญิง 40 ปีมีก้อนนุ่มที่หลังโตช้า ๆ มา 5 ปี ไม่เจ็บ US เห็นก้อนไขมันขอบชัด"
   },
-  "trap": "คิดว่าเป็นไส้เลื่อนเพราะอยู่ที่แผล — ก้อนแข็งไม่ยุบในผู้ป่วยมะเร็ง = port-site metastasis",
+  "trap": "ช้อย \"lymph node metastasis\" ฟังคล้ายถูกเพราะเป็นมะเร็งกระจายเหมือนกัน และ \"incisional hernia\" เกิดที่ port ได้จริง — วิธีแยกคือ<b>ตำแหน่งและลักษณะก้อน</b>: แผล port ไม่มีต่อมน้ำเหลือง ส่วน hernia นุ่ม ยุบได้ มี cough impulse · ก้อนแข็งไม่เจ็บตรงแผลผ่าตัดมะเร็ง = มะเร็งฝังตัวจนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
   "summary": [
-   "Port-site metastasis: ก้อนแข็งที่แผล port หลังผ่าตัดมะเร็ง",
-   "ป้องกัน: ใส่ถุงนำชิ้นเนื้อออก · ไม่จับก้อน · ปล่อยก๊าซผ่าน trocar · ล้างแผล",
-   "อุบัติการณ์ปัจจุบัน &lt; 1% ใกล้เคียงแผลเปิด",
-   "Port-site hernia: นุ่ม cough impulse · พบที่ port ≥ 10 mm และสะดือ",
-   "ก้อนใหม่ในผู้ป่วยมะเร็ง → ชิ้นเนื้อ + staging (CT, CEA)",
-   "Laparoscopic colectomy ได้ผลมะเร็งเท่าผ่าตัดเปิด (COLOR, CLASICC)"
+   "Port-site metastasis: อุบัติการณ์ปัจจุบันราว &lt; 1% เทียบเท่า wound recurrence ของการผ่าตัดเปิด — RCT (COST, COLOR, CLASICC) ยืนยันว่า laparoscopic colectomy ปลอดภัยทางมะเร็งวิทยาเท่าการผ่าตัดเปิด",
+   "กลไก: direct implantation จากเครื่องมือ/ ชิ้นเนื้อ, aerosolization ใน pneumoperitoneum, chimney effect (ก๊าซรั่วตาม port), การบาดเจ็บของเยื่อบุช่องท้องที่ทำให้เซลล์เกาะง่าย",
+   "ป้องกัน: wound protector หรือ specimen bag ทุกครั้งที่เอาก้อนออก · ยึด trocar ไม่ให้หลุดเลื่อน · ปล่อยก๊าซออกผ่าน trocar ก่อนถอด · no-touch technique · บางสถาบันล้างแผล port ด้วย povidone-iodine/ น้ำเกลือ",
+   "ก้อนที่แผลผ่าตัดหลังผ่าตัดมะเร็ง: ตัดชิ้นเนื้อยืนยัน + CT chest/ abdomen/ pelvis + CEA เพราะมักเป็นส่วนหนึ่งของ peritoneal metastasis",
+   "Isolated abdominal wall recurrence ตัดได้ด้วย full-thickness excision ± mesh reconstruction ร่วมเคมีบำบัด · ถ้ามี peritoneal carcinomatosis ร่วม พิจารณา systemic chemotherapy ± CRS/ HIPEC ในศูนย์เฉพาะ",
+   "Port-site hernia: ส่วนใหญ่ที่ port ≥ 10 mm โดยเฉพาะสะดือ · ป้องกันโดยเย็บปิด fascia ของ port ≥ 10 mm (ในผู้ใหญ่) · อาจเกิด Richter hernia ที่ port 5 mm ในเด็กหรือคนผอม",
+   "Sister Mary Joseph nodule = ก้อนแข็งที่สะดือจากมะเร็งในช่องท้อง/ อุ้งเชิงกรานกระจายมา (กระเพาะ ลำไส้ใหญ่ รังไข่ ตับอ่อน) บ่งโรคระยะลุกลาม"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ GS Supplementary และหน้าตำราที่แปะเรื่อง port site metastasis",
-  "mnemonic": "<b>'ก้อนแข็งที่รูกล้อง หลังผ่ามะเร็ง = มะเร็งตามมาฝังที่ port'</b>",
-  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Minimally invasive surgery; COLOR/ CLASICC trials (Lancet Oncol 2009;10:44; Br J Surg 2010;97:1638)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ก้อนแข็งไม่เจ็บตรงแผล port หลังผ่าตัดมะเร็งลำไส้ใหญ่ผ่านกล้องคือ port-site metastasis ตรงกับคีย์ในไฟล์ GS Supplementary ที่วง A และหน้าตำราที่แปะ · ช้อย D, E เพิ่มในเว็บเพราะต้นฉบับมีแค่ A–C แต่ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Hard lump at the Port = cancer Planted at the Port'</b>",
+  "guide": "ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022) — Laparoscopic colectomy; Clinical Outcomes of Surgical Therapy (COST) Study Group, N Engl J Med 2004",
   "variants": [
-   "ก้อนนุ่มที่แผล port สะดือ โตเวลาไอ → port-site hernia",
-   "หลังผ่าตัดถุงน้ำดีพบมะเร็งโดยบังเอิญ แล้วมีก้อนที่แผล → port-site metastasis ของมะเร็งถุงน้ำดี",
-   "ผู้ป่วยหลังผ่าตัดมะเร็งลำไส้ก้อนที่แผล CEA สูง → biopsy + CT staging"
+   "หญิง 58 ปีหลัง laparoscopic colectomy 1 ปี ก้อนแข็งที่แผลนำชิ้นเนื้อออก CEA สูง CT ไม่พบที่อื่น → ตัดชิ้นเนื้อยืนยันแล้วทำ full-thickness excision ผนังหน้าท้อง + เคมีบำบัด",
+   "ระหว่าง laparoscopic right hemicolectomy จะนำชิ้นเนื้อมะเร็งออกทางแผลเล็ก → ใช้ wound protector/ specimen bag เพื่อป้องกันการฝังตัวของเซลล์",
+   "ชาย 70 ปีมีก้อนแข็งที่สะดือ ผอมลง ปวดท้อง → Sister Mary Joseph nodule หา primary ในช่องท้อง (CT, endoscopy)",
+   "ทำไมต้องปล่อยก๊าซออกก่อนถอด trocar → ลด chimney effect ที่ก๊าซพาเซลล์มะเร็งออกมาฝังที่แผล port"
   ],
   "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 58 — ตัวพิมพ์: <b>73. .A Male patient (Hx of lapatoscopic coloectomy because of colon cancer) cc: palpable lump mass at port area PE: hard ,not tender ,moveable lump mass What is the most possible cause? — A. Metastasis at port area B. Lymphosarcoma C. Lymphnode metastasis (D, E ไม่มี)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ขีดเส้นใต้ <b>“Hx of lapatoscopic coloectomy because of colon cancer”</b>, <b>“palpable lump mass at port area”</b>; ไฮไลต์ฟ้า <b>“What is the most possible cause?”</b>; <b>วง A</b>. <b>หน้าตำราภาษาไทยที่แปะ</b>: “ในช่วงแรกของการนำวิธีผ่าตัดด้วยกล้องมาใช้ มีรายงานมากมายที่กล่าวถึงการกระจายของมะเร็งไปยังแผลผ่าตัดด้วยกล้อง (port site metastasis) ในผู้ป่วยมะเร็งที่ได้รับการผ่าตัดด้วยกล้อง แต่ปัจจุบันเมื่อรวบรวมข้อมูลผู้ป่วยมะเร็งที่ได้รับการผ่าตัดด้วยกล้องเปรียบเทียบกับการผ่าตัดแบบเปิดอย่างเพียงพอ พบว่ามีแนวโน้มว่าไม่มีความแตกต่างกันในอุบัติการณ์การกระจายของเซลล์มะเร็งไปยังแผลผ่าตัดทั้ง 2 ชนิด³ อย่างไรก็ตามปัจจัยต่างๆ ที่อาจมีผลต่อการกระจายของมะเร็งดังกล่าว เช่น การฟุ้งกระจายของเซลล์ (aerosolization) ในระหว่างการผ่าตัดด้วยกล้อง”. ต้นฉบับมีช้อยแค่ A–C → D “Port-site incisional hernia” และ E “Subcutaneous lipoma” แต่งเพิ่ม; A “Metastasis at port area” เขียนเป็น “Port-site metastasis”; C “Lymphnode metastasis” เป็น “Lymph node metastasis”",
   "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 58",
@@ -128,30 +136,32 @@
   ]
  },
  "MDCU70|RoB|96": {
-  "interp": "ชาย 38 ปีปวดก้นและไข้ 3 วัน ตรวจพบก้อนกดเจ็บนูน อุ่น <b>fluctuate</b> ข้างทวารซ้าย ไม่มีโรคประจำตัว → ถามการจัดการ",
-  "why": "ก้อนกดเจ็บ อุ่น <b>fluctuant</b> ข้างทวาร + ไข้ = <b>perianal abscess</b> · การรักษาหลักคือ <b>incision and drainage (I&amp;D)</b> ทันทีที่วินิจฉัย — ฝีจะไม่หายด้วยยาเพราะยาเข้าไม่ถึงหนอง · ผ่าใกล้ขอบทวารที่สุดเท่าที่ทำได้ (ถ้ากลายเป็น fistula ทางจะสั้น) · ยาปฏิชีวนะเสริมเฉพาะผู้มี cellulitis กว้าง ภูมิคุ้มกันต่ำ เบาหวาน ลิ้นหัวใจเทียม หรือ sepsis · ผู้ป่วยในโจทย์ไม่มีโรคประจำตัว ระบายอย่างเดียวพอ · ~30–50% เกิด fistula ภายหลัง · ไฟล์ GS Supplementary คีย์ <b>\"C Incision and drainage\"</b> และลายมือ <b>\"Dx: anal abscess\"</b> ตรงกับคำตอบ",
+  "interp": "ชาย 38 ปีไม่มีโรคประจำตัว ปวดทวารและมีไข้ 3 วัน ตรวจพบ<b>ก้อนนูน กดเจ็บ ร้อน และ fluctuant</b> ข้างทวารซ้าย = <b>perianal abscess</b> ที่มีหนองแล้ว — ถามการจัดการที่เหมาะสมที่สุด หลักคือฝีที่มีหนองต้องระบายหนอง",
+  "why": "Anorectal abscess ส่วนใหญ่เป็น <b>cryptoglandular</b> — anal gland ที่เปิดที่ dentate line อุดตันและติดเชื้อ แล้วหนองลามไปตามช่องต่าง ๆ: <b>perianal</b> (พบบ่อยที่สุด ราวครึ่งหนึ่งขึ้นไป) → ischioanal/ ischiorectal → intersphincteric → supralevator (พบน้อย) · หลักการรักษาคือ <b>incision and drainage โดยเร็ว</b> ไม่ว่าก้อนจะ fluctuant หรือไม่ เพราะยาฆ่าเชื้ออย่างเดียวเข้าโพรงหนองไม่ได้ และการรอทำให้หนองลามลึกหรือเกิด necrotizing infection · perianal abscess ตื้น ๆ ระบายใต้ยาชาเฉพาะที่ได้ โดย<b>กรีดใกล้ขอบทวารที่สุด</b> (เพื่อให้ fistula ที่อาจเกิดสั้น) ตัดผิวเป็นรูปวงรี/ กากบาทให้ไม่ปิดเร็ว · หลัง I&amp;D ไม่จำเป็นต้องให้ antibiotic ทุกราย — ASCRS แนะนำเฉพาะเมื่อมี cellulitis กว้าง อาการ systemic/ sepsis ภูมิคุ้มกันต่ำ เบาหวาน หรือมีลิ้นหัวใจเทียม · ราว 1 ใน 3 จะเกิด <b>fistula-in-ano</b> ตามมา · ไฟล์วง C พร้อมกรอบลายมือ <b>\"Dx: anal abscess\"</b>",
   "wrong": {
-   "A": "ยากินอย่างเดียวไม่ทำให้ฝีหาย และนัด 1 สัปดาห์ทำให้ฝีลามลึก · จะถูกถ้าเป็น cellulitis รอบทวารที่ยังไม่มีหนองเป็นก้อน",
-   "B": "Admit ให้ยาฉีดโดยไม่ระบาย ฝียังอยู่ ไม่หาย · จะถูกถ้าผู้ป่วยเบาหวานมี sepsis ร่วม (ต้องระบาย + ยาฉีดร่วมกัน)",
-   "D": "Debridement ใช้กับเนื้อตาย (เช่น Fournier gangrene) ไม่ใช่ฝีธรรมดา · จะถูกถ้าผิวรอบฝีกลายเป็นสีม่วงดำ มีลมใต้ผิวหนัง ลามเร็ว",
-   "E": "แช่ก้นเป็นการดูแลหลังระบาย ไม่ใช่การรักษาฝี · จะถูกถ้าเป็น thrombosed external hemorrhoid ที่เกิน 72 ชม. ปวดเริ่มลด"
+   "A": "ยารับประทานแล้วนัด 1 สัปดาห์ทำให้หนองที่มีอยู่แล้วลามลึก และเสี่ยง Fournier's gangrene — antibiotic ไม่ทดแทนการระบายหนอง · จะถูกถ้าเป็นชาย 30 ปีหลัง I&amp;D perianal abscess แล้วยังมี cellulitis แดงรอบแผลกว้าง (ให้ยารับประทานเสริมและนัดดูแผล)",
+   "B": "Admit และ IV antibiotic โดยไม่ระบายหนองไม่พอ — แต่เป็นการรักษาที่เหมาะในกลุ่มที่ไม่มีโพรงหนองให้ระบาย · จะถูกถ้าเป็นผู้ป่วยมะเร็งเม็ดเลือดได้เคมีบำบัด ANC &lt; 500 มีไข้ ปวดและกดเจ็บรอบทวารแต่ไม่มีก้อน fluctuant (เม็ดเลือดขาวต่ำจนไม่เกิดหนอง)",
+   "D": "Debridement คือตัดเนื้อตายออกกว้าง ใช้กับ <b>necrotizing soft tissue infection</b> ไม่ใช่ฝีธรรมดา · จะถูกถ้าเป็นชายเบาหวาน 55 ปี ปวดฝีเย็บมากเกินสิ่งที่ตรวจเห็น ผิวคล้ำดำ มี crepitus และ septic shock (Fournier's gangrene → ผ่าตัด radical debridement ด่วน + broad-spectrum antibiotic)",
+   "E": "Sitz bath ช่วยลดปวดและ spasm ของ sphincter ใช้เป็นการดูแลหลัง I&amp;D หรือในริดสีดวง/ fissure ไม่ได้ระบายหนอง · จะถูกถ้าเป็นหญิง 28 ปีเจ็บแสบเวลาถ่ายและมีเลือดสดติดกระดาษ ตรวจพบแผลฉีกที่ posterior midline (acute anal fissure — ร่วมกับใยอาหารและยาทาคลาย sphincter)"
   },
-  "trap": "ให้ยาปฏิชีวนะก่อนแล้วรอ — ฝีรอบทวารต้องระบายทันที",
+  "trap": "มีไข้ทำให้คิดว่าต้อง admit ให้ยาทางหลอดเลือด หรือคิดว่าเป็นการติดเชื้อธรรมดาจึงให้ยาแล้วนัด — แต่ก้อน <b>fluctuant</b> = มีหนองสะสมแล้ว \"ubi pus, ibi evacua\" ต้องระบาย · ไข้จากฝีขนาดนี้ในคนแข็งแรงจะหายหลังระบาย ส่วน debridement สงวนไว้สำหรับ necrotizing infection",
   "summary": [
-   "Perianal abscess: ปวด บวม แดง fluctuant ± ไข้",
-   "รักษา: I&D ทันที ใกล้ขอบทวาร",
-   "ATB เสริม: cellulitis กว้าง · ภูมิต่ำ · เบาหวาน · ลิ้นเทียม · sepsis",
-   "~30–50% เกิด fistula-in-ano",
-   "ปวดลึกไม่มีก้อนจากภายนอก → intersphincteric/ supralevator → CT/ MRI",
-   "ลามเป็นเนื้อตาย → Fournier gangrene → debride ด่วน"
+   "Anorectal abscess มาจาก cryptoglandular infection ที่ dentate line (Parks) · ชนิดตามตำแหน่ง: perianal (บ่อยสุด) &gt; ischioanal &gt; intersphincteric &gt; supralevator",
+   "Perianal abscess: ก้อนแดงร้อนกดเจ็บข้างทวาร → I&amp;D ใต้ยาชาเฉพาะที่ได้ · ischioanal ใหญ่/ horseshoe, intersphincteric, supralevator → ระบายในห้องผ่าตัดใต้ยาระงับความรู้สึก",
+   "Intersphincteric abscess: ปวดทวารมากแต่ภายนอกเห็นไม่ชัด คลำได้ก้อนกดเจ็บทาง PR → ระบายเข้าทางลำไส้ (internal sphincterotomy บริเวณนั้น) · ไม่แน่ใจ → CT/ MRI หรือตรวจใต้ยาสลบ",
+   "Supralevator abscess ต้องหาต้นเหตุก่อนระบาย: มาจาก intersphincteric → ระบายเข้าทาง rectum · มาจาก ischioanal → ระบายทางผิวหนัง · มาจากโรคในช่องท้อง (diverticulitis, Crohn) → ระบายผ่านหน้าท้อง/ percutaneous",
+   "Antibiotic หลัง I&amp;D (ASCRS 2022): ให้เมื่อมี cellulitis กว้าง sepsis ภูมิคุ้มกันต่ำ เบาหวาน ลิ้นหัวใจเทียม/ เสี่ยง endocarditis · การ pack โพรงแผลไม่ลดการเกิด fistula และเพิ่มความปวด",
+   "หลังฝีราว 30–50% เกิด fistula-in-ano · Goodsall's rule: รูเปิดด้านหลังเส้นขวางทวารมักวิ่งโค้งไปเปิดที่ posterior midline · รูเปิดด้านหน้ามักวิ่งตรงเป็นรัศมี (ยกเว้นรูเปิดที่อยู่ไกลกว่า 3 cm)",
+   "Fournier's gangrene: necrotizing fasciitis ของฝีเย็บ/ อวัยวะเพศ ปัจจัยเสี่ยงเบาหวาน แอลกอฮอล์ ภูมิคุ้มกันต่ำ · ปวดเกินสิ่งที่เห็น crepitus ผิวคล้ำ → radical debridement ด่วน + broad-spectrum antibiotic ± diverting colostomy"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์และลายมือในไฟล์ GS Supplementary และ ASCRS Guideline 2022",
-  "mnemonic": "<b>'ฝีที่ก้น fluctuate = ผ่า ไม่ต้องรอยา'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ก้อน fluctuant ร้อนกดเจ็บข้างทวารคือ perianal abscess ที่ต้องระบายหนอง ตรงกับคีย์ในไฟล์ GS Supplementary ที่วง C และกรอบลายมือ \"Dx: anal abscess\" · ผู้ป่วยไม่มีโรคประจำตัวจึงไม่จำเป็นต้อง admit หรือให้ IV antibiotic เป็นหลัก",
+  "mnemonic": "<b>'Pus? → Cut, not drugs' (ubi pus, ibi evacua)</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022); ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022)",
   "variants": [
-   "ผู้ป่วยเบาหวาน ฝีรอบทวาร ไข้สูง ความดันต่ำ → I&D + IV ATB",
-   "หลังระบายฝี 2 เดือนยังมีหนองซึมจากรูข้างทวาร → fistula-in-ano",
-   "ฝีรอบทวาร ผิวเป็นสีม่วงดำ มีลมใต้ผิว → Fournier gangrene"
+   "ชาย 45 ปีปวดทวารลึก ๆ มาก ไข้ ภายนอกปกติ PR คลำได้ก้อนกดเจ็บผนังด้านหลัง → intersphincteric abscess → EUA และระบายเข้าทางลำไส้",
+   "หลัง I&amp;D perianal abscess 3 เดือน ยังมีหนองซึมจากรูเดิมเป็นพัก ๆ → fistula-in-ano → ตรวจ/ MRI pelvis ดูแนว tract ก่อนวางแผนผ่าตัด (fistulotomy ถ้าเป็น low fistula)",
+   "ฝีรอบทวารที่กลับเป็นซ้ำหลายตำแหน่ง ร่วมกับท้องเสียเรื้อรังและน้ำหนักลด → คิดถึง Crohn's disease (ส่องกล้อง + MRI pelvis; ใช้ seton ระบาย)",
+   "ชาย 50 ปีมีฝีทวารทั้งสองข้างเชื่อมกันด้านหลัง → horseshoe abscess ผ่าน deep postanal space → ระบายที่ deep postanal space ในห้องผ่าตัด + counter incision"
   ],
   "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 59 — ตัวพิมพ์: <b>96. A 38-year-old man presented with anal pain and fever for 3 days. Physical examination showed a tender bulging nodule at left perianal area. It is warm and fluctuated. He has no underlying disease and no current medication. What is the most appropriate management? — A. Oral antibiotics and follow up in 1 week B. Admit and IV antibiotic C. Incision and drainage D. Debridement E. Warm sitz bath</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ขีดเส้นใต้ <b>“anal pain”</b>, <b>“and fever for 3 days”</b>, <b>“a tender bulging nodule at left perianal area”</b>, <b>“warm and fluctuated”</b>; ไฮไลต์ฟ้า <b>“What is the most appropriate management?”</b>; <b>กรอบลายมือ “Dx: anal abscess”</b>; <b>วงกลมที่ C</b>. เลขต้นฉบับ 96. stem ตามต้นฉบับ (แก้ไวยากรณ์ “fluctuated” → fluctuant), ช้อยแปลเกลาจากต้นฉบับ",
   "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 59",
@@ -160,30 +170,32 @@
   ]
  },
  "MDCU70|RoA|1": {
-  "interp": "เด็กชาย 14 ปี ปวดอัณฑะซ้ายรุนแรงทันที 3 ชม. + อาเจียน อัณฑะอยู่สูง วางแนวขวาง cremasteric reflex หาย → ถามการจัดการ",
-  "why": "อาการเฉียบพลัน + อาเจียน + <b>high-riding, horizontal lie</b> + <b>cremasteric reflex หาย</b> = <b>testicular torsion</b> ทางคลินิกชัด (TWIST score สูง) → <b>ผ่าตัดสำรวจถุงอัณฑะทันที</b> คลายการบิด ถ้าอัณฑะยังมีชีวิตให้ตรึง (orchidopexy) และ<b>ตรึงข้างตรงข้ามด้วยเสมอ</b> (bell-clapper deformity มักเป็นสองข้าง) ถ้าตายแล้วให้ตัดออก · เวลาเป็นตัวตัดสิน: คลายภายใน 6 ชม. รอดเกือบ 90–100% · เกิน 12–24 ชม. รอดต่ำมาก · ถ้าคลินิกชัด<b>ไม่ต้องรอ Doppler</b> · ลองหมุนคลายด้วยมือ (open-book) ได้ระหว่างรอห้องผ่าตัด แต่ยังต้องผ่าตัด · ไฟล์จดไว้เพียง <b>\"1. ให้ clinical Torsion testis มา (จำไม่ทัน)\"</b> โจทย์และช้อยทั้งข้อจึงแต่งเพิ่มตามหัวข้อนี้",
+  "interp": "เด็กชาย 14 ปีปวดอัณฑะซ้าย<b>รุนแรงทันที</b> 3 ชม. ร่วมอาเจียน อัณฑะอยู่สูง วางแนวขวาง (<b>high-riding, horizontal lie</b>) และ <b>cremasteric reflex หาย</b> = clinical testicular torsion ชัดเจน — ถามการจัดการที่เหมาะสม ซึ่งเป็นเรื่องเวลา: ต้องคลายบิดก่อนอัณฑะตาย",
+  "why": "Testicular torsion พบมากสองช่วงคือ<b>ทารกแรกเกิด (extravaginal)</b> และ<b>วัยรุ่น (intravaginal)</b> — ในวัยรุ่นสัมพันธ์กับ <b>bell-clapper deformity</b> ที่ tunica vaginalis หุ้มสูงจนอัณฑะลอยหมุนได้ มักเป็นทั้งสองข้าง · spermatic cord บิดอุดหลอดเลือดดำก่อนแล้วตามด้วยแดง โอกาสเก็บอัณฑะได้ขึ้นกับเวลา: <b>ภายใน 6 ชม. ราว 90–100%</b> ลดเหลือราวครึ่งหนึ่งที่ 12 ชม. และต่ำมากเมื่อเกิน 24 ชม. · อาการคลาสสิก: ปวดทันทีรุนแรง คลื่นไส้อาเจียน อัณฑะสูง แนวขวาง cremasteric reflex หาย Prehn sign ไม่ช่วยลดปวด · เมื่อ clinical ชัด (เช่น <b>TWIST score สูง</b>) ให้ <b>emergency scrotal exploration ทันทีโดยไม่ต้องรอ Doppler</b> — คลายบิด ประเมินว่ามีชีวิต (สี การเลือดออกเมื่อกรีด tunica albuginea) ถ้ารอดทำ <b>bilateral orchidopexy</b> (อีกข้างด้วยเพราะความผิดปกติมักเป็นสองข้าง) ถ้าตายทำ orchidectomy + fix ข้างตรงข้าม · Doppler ใช้เมื่อ clinical ไม่ชัดเท่านั้น · manual detorsion (หมุนออกด้านนอก \"open book\") ทำระหว่างรอห้องผ่าตัดได้แต่ไม่แทนการผ่าตัด · ไฟล์จดแค่ว่า <b>\"ให้ clinical Torsion testis มา (จำไม่ทัน)\"</b> เว็บจึงแต่งโจทย์และช้อยตามหัวข้อนี้",
   "wrong": {
-   "B": "รอ Doppler พรุ่งนี้เช้าทำให้อัณฑะขาดเลือดเกินเวลาทอง · จะถูกถ้าอาการกำกวม (ปวดค่อยเป็น ตำแหน่งปกติ reflex ยังอยู่) ให้ทำ Doppler ทันทีไม่ใช่รอ",
-   "C": "ยาปฏิชีวนะ + ประคองถุงอัณฑะเป็นการรักษา epididymitis · จะถูกถ้าวัยรุ่นปวดค่อยเป็นหลายวัน ไข้ ปัสสาวะแสบ Prehn sign บวก reflex ยังอยู่ Doppler เลือดเพิ่ม",
-   "D": "สังเกตอาการ 24 ชม. = เสียอัณฑะแน่นอน · จะถูกถ้าเป็น torsion of appendix testis (blue dot sign ปวดเฉพาะขั้วบน reflex ยังอยู่)",
-   "E": "ตัดอัณฑะแบบนัดผ่าตัดทีหลังใช้กับมะเร็งอัณฑะ (radical inguinal orchiectomy) ไม่ใช่ภาวะฉุกเฉิน · จะถูกถ้าชายหนุ่มคลำก้อนแข็งไม่เจ็บที่อัณฑะ AFP/ β-hCG สูง"
+   "B": "Doppler US ช่วยเมื่อ clinical ไม่ชัด (เห็น flow ลดหรือหาย และ whirlpool sign ที่ cord) แต่การรอถึงเช้าในเคสชัดเจนเสียเวลาทองหลายชั่วโมง — จะถูกถ้าเป็นเด็กชาย 15 ปีถุงอัณฑะโตไม่เจ็บค่อย ๆ โตหลายเดือน ส่องไฟผ่านได้ (hydrocele — นัด US แบบไม่ด่วนเพื่อดูว่ามีก้อนในอัณฑะซ่อนอยู่หรือไม่)",
+   "C": "Antibiotic + scrotal support เป็นการรักษา epididymo-orchitis ซึ่งปวด<b>ค่อยเป็นค่อยไป</b> มีไข้ ปัสสาวะแสบ cremasteric reflex ยังอยู่ Prehn sign บวก · จะถูกถ้าเป็นชาย 65 ปีต่อมลูกหมากโต มีไข้ ปวดอัณฑะขวาค่อย ๆ มากขึ้น 2 วัน UA มี pyuria Doppler เห็นเลือดไปเลี้ยงมากขึ้น (เชื้อ enteric → fluoroquinolone รับประทาน)",
+   "D": "ระงับปวดแล้วเฝ้าดูใช้กับ <b>torsion of appendix testis</b> — ปวดเฉพาะที่ขั้วบน อาจเห็น blue dot sign cremasteric reflex ยังอยู่ และ Doppler เลือดไปเลี้ยงอัณฑะปกติ · จะถูกถ้าเป็นเด็กชาย 9 ปีปวดอัณฑะซ้ายมากขึ้นใน 1 วัน กดเจ็บเฉพาะจุดที่ขั้วบน เห็นจุดสีน้ำเงินใต้ผิว Doppler ปกติ",
+   "E": "Radical <b>inguinal</b> orchidectomy ใช้กับมะเร็งอัณฑะ (ผ่าทางขาหนีบเพื่อไม่ให้ทางเดินน้ำเหลืองของถุงอัณฑะปนเปื้อน) ไม่ใช่การรักษา torsion ที่ต้องรีบเก็บอัณฑะ · จะถูกถ้าเป็นชาย 28 ปีคลำได้ก้อนแข็งไม่เจ็บในอัณฑะ US พบ hypoechoic intratesticular mass และ AFP/ β-hCG/ LDH สูง (นัดผ่าตัดแบบไม่ฉุกเฉินแต่ไม่ช้า)"
   },
-  "trap": "ส่ง Doppler ก่อนผ่าตัดทั้งที่คลินิกชัด — เสียเวลาทองของอัณฑะ",
+  "trap": "หลายคนคิดว่าต้องยืนยันด้วย Doppler ก่อนผ่าตัดเสมอ หรือสับสนกับ epididymitis — วิธีแยก: torsion ปวด<b>ทันที</b> อาเจียน cremasteric reflex หาย อัณฑะสูงแนวขวาง ส่วน epididymitis ค่อยเป็นค่อยไป มีไข้/ อาการปัสสาวะ reflex ยังอยู่ · clinical ชัด = ผ่าตัดเลย เพราะทุกชั่วโมงที่รอลดโอกาสเก็บอัณฑะ",
   "summary": [
-   "Torsion: ปวดทันที อาเจียน high-riding horizontal lie cremasteric reflex หาย",
-   "คลินิกชัด → ผ่าตัดทันที ไม่ต้องรอภาพ",
-   "ผ่าตัด: detorsion + orchidopexy ทั้งสองข้าง (bell-clapper)",
-   "อัณฑะตาย → orchiectomy + ตรึงข้างตรงข้าม",
-   "&lt; 6 ชม. รอด ~90–100% · > 24 ชม. รอดต่ำมาก",
-   "อายุพบบ่อย: วัยรุ่น (12–18 ปี) และทารกแรกเกิด"
+   "Testicular torsion: bimodal — ทารกแรกเกิด (extravaginal บิดทั้ง cord รวม tunica) และวัยรุ่น 12–18 ปี (intravaginal จาก bell-clapper deformity ซึ่งมักเป็นสองข้าง)",
+   "Salvage rate ตามเวลา: &lt; 6 ชม. ราว 90–100% · ~12 ชม. ราว 50% · &gt; 24 ชม. ต่ำมาก — จึงเป็น surgical emergency",
+   "TWIST score: อัณฑะบวม 2, อัณฑะแข็ง 2, cremasteric reflex หาย 1, คลื่นไส้/ อาเจียน 1, อัณฑะลอยสูง 1 · คะแนนสูง (≥ 5) → ผ่าตัดเลยไม่ต้อง US · คะแนนต่ำ (0–2) โอกาสต่ำ · กลาง → Doppler US",
+   "Doppler US: flow ในอัณฑะลดหรือหาย เทียบกับข้างปกติ · <b>whirlpool sign</b> ของ cord เป็นลักษณะจำเพาะ · flow ปกติไม่ตัด intermittent/ partial torsion",
+   "ผ่าตัด: scrotal incision → detorsion → ห่อน้ำเกลืออุ่นประเมิน viability → orchidopexy ทั้งสองข้าง (3-point fixation หรือ dartos pouch) · อัณฑะตาย → orchidectomy + fix ข้างตรงข้าม",
+   "Manual detorsion: หมุนออกด้านนอกแบบ \"open book\" (อัณฑะซ้ายหมุนตามเข็มนาฬิกาเมื่อมองจากปลายเท้า) ปวดลดทันที = สำเร็จบางส่วน แต่ยังต้องผ่าตัด fix เพราะอาจคลายไม่หมด",
+   "Intermittent torsion: ปวดอัณฑะรุนแรงเป็นพัก ๆ หายเองเร็ว อัณฑะวางแนวขวาง → พิจารณา elective bilateral orchidopexy ก่อนบิดถาวร"
   ],
-  "opinion": "ตอบ A ความมั่นใจสูง — ไฟล์จดเพียงหัวข้อ \"clinical Torsion testis\" ไม่มีช้อยและคีย์ โจทย์ทั้งข้อแต่งเพิ่มตามหลัก EAU",
-  "mnemonic": "<b>'บิด = ผ่า ภายใน 6 ชม. · ตรึงทั้งสองข้าง'</b>",
-  "guide": "EAU Guidelines on Paediatric Urology 2024 — Acute scrotum/ testicular torsion; Campbell-Walsh-Wein Urology 12th ed. (2020)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — อาการและอาการแสดงครบภาพ clinical torsion (ปวดทันที 3 ชม. อาเจียน high-riding horizontal lie cremasteric reflex หาย) จึงต้อง emergency scrotal exploration + orchidopexy ภายในช่วงเวลาทอง · ไฟล์ (คีย์ลายมือ P'Ing) จดแค่ว่าเป็น clinical torsion testis ไม่มีช้อยหรือคีย์ เว็บจึงแต่งทั้งข้อตามมาตรฐาน AUA/ EAU",
+  "mnemonic": "<b>'Time is testis' — ปวดทันที + reflex หาย = ผ่าตัด ไม่ต้องรอ US</b>",
+  "guide": "EAU Guidelines on Paediatric Urology 2025 — Acute scrotum; Campbell-Walsh-Wein Urology 12th ed. (2020) — Disorders of the scrotum in children",
   "variants": [
-   "เด็กชายปวดอัณฑะ คลำจุดดำสีฟ้าที่ขั้วบน reflex ปกติ → torsion of appendix testis รักษาประคับประคอง",
-   "วัยรุ่นปวดอัณฑะ 2 วัน ไข้ ปัสสาวะแสบ Doppler เลือดเพิ่ม → epididymitis ให้ยาปฏิชีวนะ",
-   "ทารกแรกเกิดถุงอัณฑะบวมแข็งสีคล้ำตั้งแต่เกิด → extravaginal (neonatal) torsion"
+   "ทารกแรกเกิดถุงอัณฑะขวาบวมแข็ง สีคล้ำ ไม่เจ็บตั้งแต่คลอด → extravaginal (perinatal) torsion → ส่วนใหญ่อัณฑะตายแล้ว ผ่าตัดสำรวจและ fix ข้างตรงข้าม",
+   "เด็กชาย 13 ปีปวดอัณฑะ 2 ชม. TWIST score 3 (กลาง) → Doppler US ด่วน ถ้า flow หายหรือมี whirlpool → ผ่าตัด",
+   "ผ่าตัดพบอัณฑะดำหลังคลายบิดและห่อน้ำเกลืออุ่น 10 นาที กรีด tunica albuginea ไม่มีเลือดออก → orchidectomy + orchidopexy ข้างตรงข้าม",
+   "ทำไมต้อง fix อัณฑะอีกข้างด้วย → bell-clapper deformity มักเป็นสองข้าง จึงเสี่ยงบิดข้างที่เหลือ"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 3 — ตัวพิมพ์: <b>1. ให้ clinical Torsion testis มา (จำไม่ทัน)</b><br>ลายมือ: ไม่มี<br>ไฮไลต์: ไม่มี<br>ที่ปรับในเว็บ: ไฟล์จดแค่หัวข้อ จึงแต่งโจทย์ ช้อย และเฉลยทั้งข้อ",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 3",
@@ -193,30 +205,32 @@
   ]
  },
  "MDCU70|RoA|2": {
-  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>hepatoblastoma</b>",
-  "why": "<b>Hepatoblastoma</b> เป็นมะเร็งตับปฐมภูมิที่พบบ่อยที่สุดในเด็ก มักพบในเด็กเล็ก <b>&lt; 3 ปี</b> (เฉลี่ย ~2 ขวบ ผู้ชายมากกว่า) <b>ไม่สัมพันธ์กับตับแข็ง</b> · ปัจจัยเสี่ยง: คลอดก่อนกำหนด/ น้ำหนักแรกเกิดน้อยมาก, Beckwith–Wiedemann, FAP · มาด้วยก้อนในท้องโต ตับทำงานมักปกติ <b>AFP สูง ~90%</b> · ตอบสนองดีต่อ <b>cisplatin</b> → neoadjuvant chemotherapy ทำให้ตัดได้มากขึ้น · หายขาดต้อง complete resection หรือ liver transplant · รอด 5 ปีถ้าตัดได้ 60–90% · ดังนั้น \"พบในวัยรุ่นที่มีตับแข็ง\" ผิด (นั่นคือ HCC ในเด็กโต) · ไฟล์ลายมือ P'Ing ติ๊ก ✓ ทุกช้อยที่จดไว้ และสไลด์ที่แปะระบุ <b>\"ไม่มีความสัมพันธ์กับ cirrhosis\"</b>",
+  "interp": "ถามข้อความที่<b>ผิด</b>เกี่ยวกับ <b>hepatoblastoma</b> — ต้องรู้ระบาดวิทยา (อายุ เพศ โรคที่สัมพันธ์) tumor marker การตอบสนองต่อเคมีบำบัด และการรักษาให้หายขาด แล้วหาข้อที่นำลักษณะของ HCC ในวัยรุ่น/ ผู้ใหญ่มาปนแทน",
+  "why": "<b>Hepatoblastoma</b> เป็นมะเร็งตับปฐมภูมิที่พบบ่อยที่สุดในเด็ก เกิดจากเซลล์ตับตัวอ่อน (embryonal/ fetal hepatocyte) พบ<b>ในเด็กเล็กอายุน้อยกว่า 3 ปี</b> (ส่วนใหญ่ราว 6 เดือน–3 ปี) เพศชายมากกว่า · สัมพันธ์กับ<b>การคลอดก่อนกำหนด/ น้ำหนักแรกคลอดต่ำมาก</b>, Beckwith-Wiedemann syndrome, FAP (APC mutation) และ trisomy 18 — <b>ไม่สัมพันธ์กับ cirrhosis</b> ตามสไลด์ในไฟล์ · มาด้วยก้อนท้องโตไม่มีอาการ LFT มักปกติ แต่ <b>AFP สูงราว 90%</b> (AFP ต่ำ &lt; 100 ng/mL บ่งพยากรณ์แย่ เช่น small cell undifferentiated) · ใช้ PRETEXT จัดระยะตามจำนวน liver section ที่ก้อนกิน · ตอบสนองดีต่อ <b>cisplatin-based neoadjuvant chemotherapy</b> ซึ่งทำให้ก้อนเล็กลงจนตัดได้ (ป้องกันพิษต่อหูด้วย sodium thiosulfate) · การหายขาดต้อง <b>complete resection</b> หรือ <b>liver transplantation</b> ถ้าตัดไม่ได้ (PRETEXT IV/ ก้อนกินหลอดเลือดหลัก) · ข้อความ \"มักเกิดในวัยรุ่นที่มีตับแข็ง\" เป็นลักษณะของ HCC จึงผิด · ไฟล์ติ๊ก ✓ ช้อย A (\"in peds\"), B, C และแปะสไลด์ว่า \"<b>ไม่มีความสัมพันธ์กับ cirrhosis</b>\" (ต้นฉบับจำช้อยผิดไม่ได้ เว็บจึงแต่ง D, E)",
   "wrong": {
-   "A": "ถูก — hepatoblastoma เป็น primary liver malignancy ที่พบบ่อยที่สุดในเด็ก (ลายมือ ✓ in peds) · จะถูกถ้าคำถามถามว่ามะเร็งตับปฐมภูมิที่พบบ่อยในผู้ใหญ่ (นั่นคือ HCC) แล้วช้อยบอกว่าเป็น hepatoblastoma",
-   "B": "ถูก — AFP สูงในราว 90% ใช้วินิจฉัยและติดตามผล · จะถูกถ้าช้อยบอกว่า AFP ปกติเสมอ หรือเป็นชนิด small cell undifferentiated ที่ AFP ต่ำ",
-   "C": "ถูก — ไวต่อ cisplatin มาก ใช้ neoadjuvant เพื่อยุบก้อน · จะถูกถ้าช้อยบอกว่าไม่ตอบสนองต่อยาเคมีบำบัดเลย",
-   "E": "ถูก — หายขาดต้องตัดก้อนออกหมดหรือปลูกถ่ายตับ · จะถูกถ้าช้อยบอกว่ารักษาด้วยเคมีบำบัดอย่างเดียวหายขาดได้"
+   "A": "ข้อความถูก: hepatoblastoma เป็น primary liver malignancy ที่พบบ่อยที่สุดในเด็ก (ไฟล์เขียน \"✓ in peds\") ส่วนในผู้ใหญ่คือ HCC — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็กชาย 18 เดือนคลอดก่อนกำหนด มีก้อนตับเดี่ยวใหญ่ขอบชัด AFP สูงมาก (ระบาดวิทยาของ hepatoblastoma)",
+   "B": "ข้อความถูก: AFP สูงในราว 90% ใช้ทั้งวินิจฉัยและติดตามการตอบสนอง/ การกลับเป็นซ้ำ แต่ต้องแปลผลกับค่าปกติตามอายุเพราะทารกมี AFP สูงตามธรรมชาติ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็ก 2 ปีหลังผ่าตัด hepatoblastoma ที่ใช้ AFP ทุกเดือนเฝ้าระวังการกลับเป็นซ้ำ",
+   "C": "ข้อความถูก: ตอบสนองต่อ cisplatin ดี (SIOPEL ใช้ cisplatin เดี่ยวใน standard risk และ PLADO หรือสูตรเข้มขึ้นใน high risk) จึงให้ neoadjuvant ก่อนผ่าตัดเพิ่ม resectability — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็ก 2 ปี PRETEXT III ที่ได้ cisplatin 4 รอบแล้วก้อนเล็กลงจนตัดได้",
+   "E": "ข้อความถูก: การหายขาดต้องตัดก้อนออกหมดหรือเปลี่ยนตับ เคมีบำบัดอย่างเดียวไม่หาย อัตรารอดหลังตัดได้หมดสูง (สไลด์ในไฟล์ 60–90%) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็ก 3 ปี PRETEXT IV ก้อนกิน hepatic vein ทั้งสามหลังเคมีบำบัด (ส่งทำ liver transplantation)"
   },
-  "trap": "สับสน hepatoblastoma (เด็กเล็ก ตับปกติ) กับ HCC (เด็กโต/ ผู้ใหญ่ ตับแข็ง HBV)",
+  "trap": "คนสับสน hepatoblastoma กับ HCC เพราะเป็นมะเร็งตับที่ AFP สูงทั้งคู่ — แยกด้วย<b>อายุและพื้นตับ</b>: hepatoblastoma = เด็ก &lt; 3 ปี ตับปกติ ตอบสนองเคมีบำบัดดี · HCC ในเด็กโต/ วัยรุ่น = มักมีโรคตับเรื้อรัง (HBV, tyrosinemia, biliary atresia) ตอบสนองเคมีบำบัดไม่ดี · fibrolamellar HCC พบในวัยรุ่นตับปกติและ AFP ปกติ",
   "summary": [
-   "Hepatoblastoma: มะเร็งตับปฐมภูมิที่พบบ่อยที่สุดในเด็ก อายุ &lt; 3 ปี",
-   "ไม่สัมพันธ์กับตับแข็ง · AFP สูง ~90%",
-   "ปัจจัยเสี่ยง: คลอดก่อนกำหนด · Beckwith–Wiedemann · FAP",
-   "ระยะโรคใช้ PRETEXT",
-   "รักษา: cisplatin neoadjuvant → resection หรือ transplant",
-   "HCC ในเด็กโต: HBV ตับแข็ง · fibrolamellar ในวัยรุ่น ตับปกติ AFP ปกติ"
+   "Hepatoblastoma: มะเร็งตับปฐมภูมิที่พบบ่อยที่สุดในเด็ก อายุ &lt; 3 ปี ชาย &gt; หญิง · มาด้วยก้อนท้องโตไม่มีอาการ อาจมี anemia, thrombocytosis",
+   "ปัจจัยเสี่ยง: คลอดก่อนกำหนด/ น้ำหนักแรกคลอด &lt; 1,500 g, Beckwith-Wiedemann syndrome, FAP, trisomy 18 · กลุ่ม BWS และ FAP ต้องคัดกรองด้วย AFP และ US ท้องเป็นระยะในวัยเด็ก",
+   "AFP สูงราว 90% (ใช้ติดตามโรค) · AFP &lt; 100 ng/mL ตอนวินิจฉัย และ small cell undifferentiated histology = พยากรณ์โรคแย่",
+   "PRETEXT I–IV ตามจำนวน liver section ที่ปลอดก้อน (4 section) ร่วมกับ annotation factor V (hepatic vein), P (portal vein), E (extrahepatic), M (metastasis ปอดบ่อยสุด) · POST-TEXT = ประเมินซ้ำหลังเคมีบำบัด",
+   "รักษา: cisplatin-based neoadjuvant → resection · ตัดไม่ได้ (POST-TEXT IV, กินหลอดเลือดหลัก) → liver transplantation · sodium thiosulfate ลดพิษต่อหูจาก cisplatin (SIOPEL 6)",
+   "อัตรารอดรวมราว 80% · ดีที่สุดใน PRETEXT I–II ที่ตัดได้หมด · แพร่ไปปอดยังรักษาหายได้บางส่วนด้วยเคมีบำบัดและผ่าตัดเอาก้อนปอดออก",
+   "มะเร็งตับเด็กอื่น: HCC (เด็กโต มีโรคตับเรื้อรัง), fibrolamellar HCC (วัยรุ่น ตับปกติ AFP ปกติ) · ก้อนไม่ร้าย: infantile hemangioma ของตับ (ทารก &lt; 6 เดือน, GLUT-1 บวก), mesenchymal hamartoma"
   ],
-  "opinion": "ตอบ D ความมั่นใจสูง — ไฟล์จดช้อยได้เพียง A–C ซึ่ง P'Ing ติ๊กถูกทั้งหมด ช้อยที่ผิดในข้อสอบจริงจำไม่ได้ จึงแต่ง D, E เพิ่มตามสไลด์ที่แปะในไฟล์",
-  "mnemonic": "<b>'Hepato<b>blast</b>oma = baby (&lt; 3 ปี) · ตับดี AFP สูง cisplatin ได้ผล'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Liver tumors; Meyers RL et al. Risk-stratified staging in paediatric hepatoblastoma (CHIC-HS), Lancet Oncol 2017;18:122",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — hepatoblastoma เกิดในเด็กเล็กและไม่สัมพันธ์กับตับแข็ง ตรงกับสไลด์ที่แปะในไฟล์ (คีย์ลายมือ P'Ing) ซึ่งติ๊กถูกช้อย A, B, C ทั้งหมด · ช้อย D, E แต่งเพิ่มในเว็บเพราะต้นฉบับจำช้อยผิดไม่ได้ จึงเลือกข้อความผิดที่ตรงกับประเด็นในสไลด์",
+  "mnemonic": "<b>'Hepato-BLASTOMA = Baby &lt; 3 ปี, ตับไม่แข็ง, AFP สูง, Cisplatin ได้ผล'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Liver tumors; Children's Hepatic tumors International Collaboration (CHIC) risk stratification (Meyers RL et al., Lancet Oncol 2017)",
   "variants": [
-   "เด็ก 18 เดือนท้องโต AFP สูงมาก CT ก้อนเดี่ยวใหญ่ในตับ → hepatoblastoma",
-   "วัยรุ่น 16 ปีก้อนในตับ central scar AFP ปกติ ไม่มีตับแข็ง → fibrolamellar HCC",
-   "เด็ก 4 เดือนตับโตหลายก้อน หัวใจวาย ผิวมี hemangioma → infantile hepatic hemangioma"
+   "เด็กชาย 18 เดือนท้องโตไม่มีอาการ CT ก้อนเดี่ยวใหญ่ในตับขวา AFP 150,000 ng/mL ไม่มีโรคตับ → hepatoblastoma → biopsy + PRETEXT staging + CT ปอด",
+   "เด็กที่มี Beckwith-Wiedemann syndrome อายุ 1 ปี ไม่มีอาการ → คัดกรอง AFP และ US ท้องเป็นระยะ (hepatoblastoma และ Wilms tumor)",
+   "วัยรุ่น 15 ปีมีก้อนตับเดี่ยว ตับปกติ AFP ปกติ CT มี central scar และหินปูน → fibrolamellar HCC (รักษาด้วยการผ่าตัด)",
+   "ทารก 2 เดือนมีก้อนในตับหลายก้อน หัวใจล้มเหลวจาก shunt และ hypothyroidism → infantile hepatic hemangioma (ยา propranolol)"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 3 — ตัวพิมพ์: <b>2.ข้อใดผิดเกี่ยวกับ hepatoblastoma — A. most common CA in liver B. AFP positive C. ตอบสนองต่อchemotherapy ไม่แน่ใจอ่ะ TT</b><br>ลายมือ: A ✓ in peds · B ✓ · C ✓<br>ไฮไลต์: \"ข้อใดผิด\" (ชมพู) · \"hepatoblastoma\"<br>รูปที่แปะ: สไลด์ Hepatoblastoma — มักพบในเด็กผู้ชาย อายุประมาณ 2 ขวบ เป็น most common 1° liver tumor ในเด็ก · ไม่มีความสัมพันธ์กับ cirrhosis · เจอก้อนเดี่ยว ใหญ่ๆ แต่มักจะมีขอบเขตชัดเจน AFP สูง 90% แต่ LFT มักปกติ · Diagnosis โดย CT และ MRI · เพราะก้อนใหญ่ จึงควรให้ Neoadjuvant chemotherapy เพื่อช่วยเพิ่ม resectability rate ถ้า resect ได้ จะมี 5 year survival 60-90% (พร้อมภาพชิ้นเนื้อและ CT)<br>ที่ปรับในเว็บ: ช้อยที่ผิดจำไม่ได้ → แต่ง D, E เพิ่ม",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 3",
@@ -226,30 +240,32 @@
   ]
  },
  "MDCU70|RoA|4": {
-  "interp": "ถามสาเหตุการเสียชีวิตจากอุบัติเหตุในเด็ก 3 อันดับที่พบบ่อยที่สุด",
-  "why": "ตาม ATLS บทเด็ก สาเหตุตายที่พบบ่อยในเด็กบาดเจ็บคือ <b>airway obstruction (ทางเดินหายใจอุดกั้น/ ขาดออกซิเจน), blood loss (เสียเลือด) และ CNS injury (บาดเจ็บสมอง)</b> — สอดคล้องกับลำดับ ABC ของ primary survey · เด็กลิ้นใหญ่ ท้ายทอยใหญ่ ทางเดินหายใจเล็ก จึงอุดกั้นง่าย การไม่เปิดทางเดินหายใจให้ได้คือสาเหตุ hypoxia ที่พบบ่อย · เด็กชดเชยการเสียเลือดได้ดี (ความดันยังปกติจนเสีย ~30% ของปริมาณเลือด) แล้วทรุดเร็ว · บาดเจ็บสมองเป็นสาเหตุตายเดี่ยวที่พบบ่อยที่สุดในเด็กบาดเจ็บ · ไฟล์ P'Ing แปะสไลด์ <b>\"The three most common causes of death are • Airway obstruction • Blood loss • CNS injury\"</b>",
+  "interp": "ถามสาเหตุการตาย<b>จากการบาดเจ็บ (trauma)</b> ในเด็ก 3 อันดับที่พบบ่อยที่สุด — ต้องนึกถึงหลักการกู้ชีพเด็กตาม ATLS ว่าเด็กตายจากการบาดเจ็บเพราะอะไร และเชื่อมกับลำดับ ABCDE (airway, circulation, disability)",
+  "why": "ในเด็ก กลไกการตายหลังบาดเจ็บสอดคล้องกับลำดับ ABC: <b>airway obstruction/ hypoxia</b> เพราะเด็กมีทางเดินหายใจเล็ก ลิ้นใหญ่เมื่อเทียบช่องปาก ท้ายทอยโตทำให้คอพับงอเมื่อนอนราบ ใช้ออกซิเจนสูงและ FRC น้อยจึงขาดออกซิเจนเร็ว — ภาวะหัวใจหยุดเต้นในเด็กส่วนใหญ่มาจาก hypoxia มากกว่าจากหัวใจเอง · <b>blood loss</b> ที่ถูกประเมินต่ำเพราะเด็กชดเชยด้วยหัวใจเต้นเร็วและหลอดเลือดหดตัวได้ดี ความดันจะลด<b>หลังเสียเลือดราว 30% (หรือมากกว่า)</b> ซึ่งเมื่อความดันตกแล้วมักทรุดเร็ว · <b>CNS injury</b> (traumatic brain injury) เป็นสาเหตุการตายจากการบาดเจ็บที่พบบ่อยที่สุดในเด็ก เพราะศีรษะใหญ่เมื่อเทียบลำตัว กะโหลกบาง และเด็กเล็กเสี่ยง abusive head trauma · ดังนั้นการกู้ชีพจึงเน้นเปิดทางเดินหายใจ (ใส่ผ้ารองใต้ไหล่ให้คออยู่แนวกลาง) ให้ออกซิเจน หยุดเลือด/ ให้ crystalloid 20 mL/kg แล้วเลือด 10–20 mL/kg และป้องกัน secondary brain injury (หลีกเลี่ยง hypoxia และ hypotension) · ไฟล์แปะสไลด์ <b>\"The three most common causes of death are • Airway obstruction • Blood loss • CNS injury\"</b> (ต้นฉบับไม่มีช้อย เว็บแต่ง A–E)",
   "wrong": {
-   "B": "ไฟไหม้ จมน้ำ สารพิษ เป็นสาเหตุการบาดเจ็บ (mechanism) ในเด็ก ไม่ใช่กลไกทางสรีรวิทยาที่ทำให้ตายหลังบาดเจ็บ · จะถูกถ้าคำถามถามสาเหตุการตายจากอุบัติเหตุนอกเหนือจราจรในเด็กเล็กตามสถิติ (จมน้ำพบบ่อยในไทย)",
-   "C": "บาดเจ็บไขสันหลังในเด็กพบน้อย (กระดูกสันหลังยืดหยุ่น) กระดูกเชิงกรานหักและไฟไหม้ไม่ใช่สามอันดับแรก · จะถูกถ้าถามการบาดเจ็บที่พบในผู้ใหญ่จากอุบัติเหตุรถจักรยานยนต์ความเร็วสูง",
-   "D": "Tension pneumothorax เป็นภาวะคุกคามชีวิตที่แก้ได้แต่ไม่ใช่สาเหตุหลัก และ sepsis เป็นสาเหตุตายระยะหลัง · จะถูกถ้าถามสาเหตุตายระยะหลัง (late death) ในหอผู้ป่วยหนัก (sepsis, multiorgan failure)",
-   "E": "กระดูกยาวหักไม่ค่อยทำให้ตาย (ยกเว้นเสียเลือดมากจาก femur) · จะถูกถ้าถามการบาดเจ็บที่พบบ่อยที่สุดในเด็ก (กระดูกแขนขาหัก) ไม่ใช่สาเหตุตาย"
+   "B": "ไฟไหม้ จมน้ำ และสารพิษเป็นสาเหตุการบาดเจ็บ/ เสียชีวิตแบบไม่ตั้งใจในเด็ก โดยเฉพาะ<b>จมน้ำเป็นสาเหตุการตายอันดับต้นของเด็กไทย</b> แต่ไม่ใช่กลไกการตายจากบาดเจ็บทางกายภาพตาม ATLS · จะถูกถ้าเป็นการวางแผนป้องกันการเสียชีวิตของเด็กเล็กในชุมชนชนบทไทยที่มีแหล่งน้ำรอบบ้าน (สอนว่ายน้ำ ล้อมรั้วบ่อ)",
+   "C": "Spinal injury และ pelvic fracture <b>พบน้อยในเด็ก</b> เพราะกระดูกยืดหยุ่น แต่เมื่อพบบ่งว่าแรงกระแทกสูงและมักมีการบาดเจ็บอวัยวะอื่นร่วม · burns ไม่ใช่การบาดเจ็บแบบ blunt/ penetrating · จะถูกถ้าเป็นวัยรุ่น 16 ปีขับมอเตอร์ไซค์ชนรถบรรทุก มี pelvic fracture ร่วม shock (ต้อง pelvic binder และหาจุดเลือดออก)",
+   "D": "Tension pneumothorax เป็นภาวะที่ป้องกันการตายได้และต้องรีบ decompress แต่พบน้อยกว่าสามสาเหตุหลัก · sepsis เป็นสาเหตุการตายช่วงหลัง (late death หลายวันถึงหลายสัปดาห์) ไม่ใช่ช่วงแรก · จะถูกถ้าเป็นเด็ก 10 ปีหลังรถชนที่ใส่ท่อช่วยหายใจแล้วอยู่ ICU 2 สัปดาห์ เกิด ventilator-associated pneumonia และ multiple organ failure (late death)",
+   "E": "กระดูกยาวหักในเด็กพบบ่อยแต่แทบไม่ทำให้เสียชีวิต (ยกเว้น femur ที่เสียเลือดได้มากหรือ fat embolism ซึ่งพบน้อยในเด็ก) · burns และ drowning เป็นกลไกที่ต่างจาก trauma ทางกายภาพ · จะถูกถ้าเป็นเด็ก 8 ปีตกต้นไม้ femur หักปิดอย่างเดียว สัญญาณชีพปกติ (ใส่ splint ระงับปวด แล้วผ่าตัดยึดกระดูกตามอายุ)"
   },
-  "trap": "ตอบเป็นกลไกการบาดเจ็บ (จมน้ำ ไฟไหม้) แทนสาเหตุทางสรีรวิทยาที่ทำให้ตาย",
+  "trap": "ช้อย B (burns, drowning, poisoning) ดึงดูดเพราะเป็นสาเหตุการเสียชีวิตของเด็กที่พบบ่อยจริงในสถิติสาธารณสุข — แต่คำถามถาม<b>สาเหตุการตายจาก trauma</b> ซึ่ง ATLS สรุปเป็นกลไกทางสรีรวิทยา: ขาดอากาศ (A) เสียเลือด (C) และบาดเจ็บสมอง (D) ตรงกับลำดับ primary survey",
   "summary": [
-   "สาเหตุตายในเด็กบาดเจ็บ: airway obstruction · blood loss · CNS injury",
-   "บาดเจ็บสมอง = สาเหตุตายเดี่ยวที่พบบ่อยที่สุด",
-   "เด็กชดเชยเลือดได้ดี ความดันตกเมื่อเสีย ~30% → ดูชีพจรเร็ว CRT",
-   "ทางเดินหายใจเด็ก: ลิ้นใหญ่ ท้ายทอยใหญ่ → รองไหล่ jaw thrust",
-   "IV ไม่ได้ → intraosseous ที่ proximal tibia",
-   "ให้ crystalloid 20 mL/kg แล้วพิจารณาเลือด 10 mL/kg"
+   "ATLS: สาเหตุการตายจากบาดเจ็บในเด็กที่พบบ่อย = airway obstruction/ hypoxia, blood loss, CNS injury · TBI เป็นสาเหตุอันดับหนึ่ง · การไม่เปิดทางเดินหายใจให้ได้เป็นสาเหตุการตายที่ป้องกันได้บ่อยที่สุด",
+   "ทางเดินหายใจเด็ก: ท้ายทอยใหญ่ทำให้คองอ (รองผ้าใต้ไหล่) ลิ้นใหญ่ larynx สูงและอยู่ด้านหน้า trachea สั้น (ท่อเลื่อนลง bronchus ขวาง่าย) · ขนาดท่อ uncuffed ≈ (อายุ/4) + 4 · ทารกและเด็กเล็กใช้ needle cricothyroidotomy ไม่ทำ surgical cricothyroidotomy",
+   "Circulation เด็ก: ชดเชยดีจนความดันตกช้า — สัญญาณเริ่มต้นคือหัวใจเต้นเร็ว capillary refill ช้า ซึม · SBP ปกติ ≈ 90 + 2×อายุ(ปี) · ต่ำกว่า 70 + 2×อายุ = hypotension",
+   "Fluid resuscitation เด็ก (ATLS 10th): crystalloid อุ่น bolus 20 mL/kg ประเมินซ้ำ ถ้ายังไม่ตอบสนองให้ pRBC 10–20 mL/kg ± plasma/ platelet (massive transfusion protocol) · เข้าเส้นไม่ได้ → intraosseous ที่ proximal tibia",
+   "ปัสสาวะเป้าหมาย: ทารก 2 mL/kg/ชม. · เด็กเล็ก 1.5 mL/kg/ชม. · เด็กโต 1 mL/kg/ชม. · วัยรุ่น 0.5 mL/kg/ชม.",
+   "Trimodal death: ทันที (สมอง/ ไขสันหลังสูง หัวใจ หลอดเลือดใหญ่ฉีก) → ช่วงชั่วโมงแรก (เลือดออก epidural/ subdural hematoma, hemopneumothorax — เป้าของ ATLS golden hour) → หลายวันถึงสัปดาห์ (sepsis, multiple organ failure)",
+   "เด็กกระดูกยืดหยุ่น: lung contusion โดยไม่มีซี่โครงหักพบบ่อย · SCIWORA (บาดเจ็บไขสันหลังโดย X-ray ปกติ) · ซี่โครงหักในเด็กบ่งแรงกระแทกสูงหรือการถูกทำร้าย"
   ],
-  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับสไลด์ที่ P'Ing แปะในไฟล์ · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
-  "mnemonic": "<b>'ตายในเด็กบาดเจ็บ = A-B-C: Airway · Blood · CNS'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (ACS 2018) — Chapter 10 Pediatric Trauma",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับสไลด์ที่แปะในไฟล์ (คีย์ลายมือ P'Ing) ว่าสามสาเหตุหลักคือ airway obstruction, blood loss และ CNS injury ซึ่งเป็นหลักของ ATLS บทเด็ก · ต้นฉบับไม่มีช้อย ช้อยหลอกที่แต่งในเว็บเป็นกลไกการบาดเจ็บหรือสาเหตุการตายช่วงหลัง จึงไม่กระทบคำตอบ",
+  "mnemonic": "<b>'A-B-C ของการตายเด็ก: Airway, Blood, CNS'</b>",
+  "guide": "ATLS Advanced Trauma Life Support Student Course Manual 10th ed. (2018) — Chapter 10 Pediatric Trauma; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Pediatric trauma",
   "variants": [
-   "เด็ก 4 ปีรถชน ชีพจร 160 CRT 4 วินาที ความดันปกติ → shock ชดเชย ให้ crystalloid 20 mL/kg",
-   "เด็กบาดเจ็บ เปิดเส้นเลือดไม่ได้ 2 ครั้ง → intraosseous ที่ proximal tibia",
-   "เด็กบาดเจ็บศีรษะ GCS 7 → intubation ป้องกัน hypoxia"
+   "เด็ก 4 ปีรถชน ซึม หายใจเสียงกรน นอนหงายคองอ → จัดท่าโดยรองผ้าใต้ไหล่ jaw thrust พร้อม inline stabilization ให้ออกซิเจน",
+   "เด็ก 6 ปี (20 kg) ล้มจากจักรยานกระแทกท้อง ชีพจร 150 CRT 4 วินาที ความดันปกติ → shock ระยะชดเชย → crystalloid อุ่น 20 mL/kg แล้วประเมินซ้ำ เตรียมเลือด 10–20 mL/kg",
+   "เด็ก 2 ปีเปิดเส้นเลือดไม่ได้ 2 ครั้งใน shock → intraosseous ที่ proximal tibia ใต้ tibial tuberosity",
+   "ทารก 5 เดือนซึม ชัก CT มี subdural hematoma หลายช่วงอายุ ร่วม retinal hemorrhage ไม่มีประวัติอุบัติเหตุชัด → abusive head trauma (skeletal survey + แจ้งทีมคุ้มครองเด็ก)"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 3 — ตัวพิมพ์: <b>4. What are 3 most common trauma causes of death in children?</b> (ไม่มีช้อย)<br>ลายมือ: ไม่มี<br>ไฮไลต์: \"3 most common trauma causes\" · \"death in children\"<br>รูปที่แปะ: สไลด์ \"The three most common causes of death are • Airway obstruction • Blood loss • CNS injury\"<br>ที่ปรับในเว็บ: ไฟล์ไม่มีช้อย → แต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 3",
@@ -259,30 +275,32 @@
   ]
  },
  "MDCU70|RoA|11": {
-  "interp": "เด็ก 2 ปีหลังผ่าตัด <b>Kasai</b> (biliary atresia) ถามภาวะแทรกซ้อน<b>ระยะยาว</b>",
-  "why": "หลัง Kasai portoenterostomy แม้ตัวเหลืองหายแล้ว (jaundice-free) ตับยังเกิด <b>fibrosis ดำเนินต่อ → ตับแข็งและ portal hypertension</b> ได้ในผู้ป่วยส่วนใหญ่ (portal HT 34–76%) จึงเป็นภาวะแทรกซ้อนระยะยาวที่สำคัญที่สุด ทำให้เกิด varices ม้ามโต และสุดท้าย ~50% ต้องปลูกถ่ายตับก่อนเป็นผู้ใหญ่ · <b>ascending cholangitis</b> พบบ่อยที่สุด (30–60%) แต่ส่วนใหญ่เกิดใน 2 ปีแรก · intrahepatic biliary cyst/ lakes พบได้แต่น้อยกว่า · ผลผ่าตัดดีที่สุดเมื่อทำก่อนอายุ 60 วัน · ไฟล์ P'Ing แปะสไลด์ <b>\"Complications • Ascending cholangitis (30-60%) • Portal hypertension (34-76%) • Hepato-pulmonary syndrome • Intrahepatic biliary cysts\"</b> และวง E ไว้คู่กับวง A",
+  "interp": "เด็ก 2 ปีหลังผ่าตัด <b>Kasai (hepatoportoenterostomy)</b> จาก biliary atresia — ถามภาวะแทรกซ้อน<b>ระยะยาว</b> ต้องรู้ว่าแม้ Kasai สำเร็จจนหายเหลือง ตับยังเกิด fibrosis ต่อเนื่อง และต้องแยกภาวะแทรกซ้อนช่วงแรกกับช่วงยาว",
+  "why": "<b>Biliary atresia</b> คือท่อน้ำดีนอกตับอุดตันและอักเสบเป็นพังผืดแบบลุกลามในทารก มาด้วยตัวเหลืองเกิน 2 สัปดาห์ อุจจาระซีด ปัสสาวะเข้ม direct bilirubin สูง · <b>Kasai</b> ตัดท่อน้ำดีนอกตับที่ตีบออกทั้งหมดแล้วต่อ Roux-en-Y jejunum เข้ากับ porta hepatis ผลดีที่สุดเมื่อทำ<b>ก่อนอายุราว 60 วัน</b> (ลายมือในไฟล์ \"golden period = 60 days\") · ภาวะแทรกซ้อน: <b>ascending cholangitis</b> (30–60%) พบบ่อยที่สุดแต่ส่วนใหญ่ในช่วง 1–2 ปีแรก · <b>portal hypertension</b> (34–76%) เป็นปัญหาระยะยาวที่พบมากที่สุด เกิดได้<b>แม้ผู้ป่วยหายเหลืองแล้ว</b> เพราะพังผืดในตับยังดำเนินต่อจนเป็น cirrhosis → varices เลือดออก ม้ามโต hypersplenism · อื่น ๆ: hepatopulmonary syndrome, portopulmonary hypertension, intrahepatic biliary cysts (มักตามหลัง cholangitis ซ้ำ) · ผู้ป่วยส่วนใหญ่ต้องเปลี่ยนตับในที่สุด — biliary atresia เป็นข้อบ่งชี้เปลี่ยนตับที่พบบ่อยที่สุดในเด็ก · ไฟล์วง A ไว้ เขียน C \"x M/C complication\" วง E พร้อมลายมือ <b>\"P'don't\"</b> และแปะสไลด์ Complications ที่ให้ portal hypertension 34–76%",
   "wrong": {
-   "A": "Intrahepatic biliary cyst เกิดได้หลัง Kasai (ในสไลด์ที่แปะ) แต่พบน้อยกว่า และไม่ใช่ภาวะหลักที่กำหนดพยากรณ์ระยะยาว (คีย์ในไฟล์วงข้อนี้) · จะถูกถ้าเด็กหลัง Kasai มีไข้ cholangitis ซ้ำ ๆ แล้ว US พบโพรงน้ำดีในตับ",
-   "B": "นิ่วในท่อน้ำดีร่วมไม่ใช่ภาวะแทรกซ้อนของ Kasai เพราะ extrahepatic duct ถูกตัดออกและต่อลำไส้กับ porta hepatis · จะถูกถ้าเด็กมี choledochal cyst ที่ยังไม่ผ่าตัดแล้วปวดท้อง ตัวเหลือง",
-   "C": "Ascending cholangitis พบบ่อยที่สุด (ลายมือ \"x M/C complication\") แต่ส่วนใหญ่เกิดช่วงแรกภายใน 1–2 ปีหลังผ่าตัด · จะถูกถ้าทารกหลัง Kasai 3 เดือนมีไข้ ตัวเหลืองกลับมา อุจจาระซีด",
-   "D": "เลือดออกจาก varices เป็นผลที่ตามมาจาก portal hypertension ซึ่งตัวต้นเหตุคือตับแข็ง ช้อย E ครอบคลุมกว่า · จะถูกถ้าเด็กหลัง Kasai อายุ 5 ปีมาด้วยอาเจียนเป็นเลือด ม้ามโต"
+   "A": "Intrahepatic biliary cyst (bile lake) เป็นภาวะแทรกซ้อนระยะยาวที่เกิดได้จริง (อยู่ในสไลด์ของไฟล์) แต่พบน้อยกว่าและมักตามหลัง cholangitis ซ้ำ ไม่ใช่ปัญหาหลักของผู้ป่วยส่วนใหญ่ · จะถูกถ้าเป็นเด็ก 5 ปีหลัง Kasai ที่ cholangitis กลับเป็นซ้ำหลายครั้ง US พบถุงน้ำดีในตับหลายถุงที่ติดเชื้อ (อาจต้องระบายหรือพิจารณาเปลี่ยนตับ)",
+   "B": "หลัง Kasai <b>ไม่มี common bile duct เหลือ</b> เพราะท่อน้ำดีนอกตับที่ตีบถูกตัดออกทั้งหมดแล้วต่อลำไส้เข้ากับ porta hepatis จึงเกิดนิ่วใน CBD ไม่ได้ · จะถูกถ้าเป็นหญิง 45 ปีเคยผ่าตัด choledochal cyst ตอนเด็กแบบ cystoenterostomy (ระบายถุงโดยไม่ตัดออก) แล้วมีนิ่วในท่อน้ำดีและ cholangitis ซ้ำ",
+   "C": "Ascending cholangitis พบบ่อยที่สุด (30–60%) แต่ส่วนใหญ่เกิดใน 1–2 ปีแรกหลังผ่าตัด จึงเป็นภาวะแทรกซ้อน<b>ช่วงแรก</b> (ไฟล์เขียน \"x M/C complication\") · จะถูกถ้าเป็นทารก 4 เดือนหลัง Kasai 6 สัปดาห์ มีไข้ ตัวเหลืองกลับมา อุจจาระซีดลง (ให้ IV antibiotic ครอบคลุม gram-negative ทันที)",
+   "D": "เลือดออกจาก esophageal varices เป็น<b>ผลตามมา</b>ของ portal hypertension ไม่ใช่ตัวภาวะแทรกซ้อนหลัก และเกิดในผู้ป่วยส่วนหนึ่งเท่านั้น ช้อย E ครอบคลุมกว่า · จะถูกถ้าเป็นเด็ก 6 ปีหลัง Kasai ไม่เหลือง ม้ามโต อาเจียนเป็นเลือดสด เกล็ดเลือดต่ำ (ให้ octreotide + antibiotic แล้วส่อง endoscopic variceal ligation/ sclerotherapy)"
   },
-  "trap": "ตอบ cholangitis เพราะพบบ่อยที่สุด — แต่คำถามถามระยะยาวในเด็ก 2 ปีที่ตัวไม่เหลือง · คีย์ลายมือ P'Ing วง A แต่มีวง E ร่วมด้วย",
+  "trap": "หลายคนเลือก cholangitis เพราะพบบ่อยที่สุด หรือเลือก intrahepatic biliary cyst ตามที่ไฟล์วง — กุญแจคือคำว่า <b>long-term</b> และ <b>despite no jaundice</b>: Kasai ระบายน้ำดีได้แต่ไม่หยุดพังผืดในตับ ผู้ป่วยที่หายเหลืองแล้วจึงยังเกิด cirrhosis และ portal hypertension ได้ ซึ่งเป็นภาวะแทรกซ้อนระยะยาวที่พบมากที่สุด (คีย์ในไฟล์ต่างจากเว็บ)",
   "summary": [
-   "Biliary atresia: ตัวเหลือง > 2 สัปดาห์ อุจจาระซีด direct bilirubin สูง",
-   "Kasai ดีที่สุดก่อนอายุ 60 วัน",
-   "Cholangitis: พบบ่อยที่สุด (30–60%) ส่วนใหญ่ใน 2 ปีแรก",
-   "ระยะยาว: fibrosis → ตับแข็ง portal HT (34–76%) แม้ไม่เหลือง",
-   "อื่น ๆ: hepatopulmonary syndrome · intrahepatic biliary cysts",
-   "~50% ต้องปลูกถ่ายตับภายในวัยเด็ก"
+   "Biliary atresia: ตัวเหลือง &gt; 2 สัปดาห์ + อุจจาระซีด + direct bilirubin สูง · US: triangular cord sign ถุงน้ำดีเล็ก/ ไม่บีบตัว · ยืนยันด้วย intraoperative cholangiogram",
+   "Kasai ได้ผลดีที่สุดเมื่อทำก่อนอายุ ~60 วัน · สำเร็จเมื่อ bilirubin ลดสู่ปกติ (&lt; 2 mg/dL หรือ &lt; 20 µmol/L) ภายใน 3 เดือน",
+   "หลังผ่าตัด: ursodeoxycholic acid, antibiotic ป้องกัน cholangitis (เช่น TMP-SMX), วิตามิน A, D, E, K และ MCT formula · steroid ไม่เพิ่มอัตราการหายเหลือง (START trial)",
+   "Cholangitis 30–60% ส่วนใหญ่ใน 2 ปีแรก: ไข้ เหลืองกลับ อุจจาระซีด → IV antibiotic ทันที · cholangitis ซ้ำเร่งให้ตับเสียเร็วขึ้น",
+   "Portal hypertension 34–76% แม้หายเหลือง: ม้ามโต เกล็ดเลือดต่ำ varices เลือดออก · ร่วม hepatopulmonary syndrome (hypoxemia, orthodeoxia) และ portopulmonary hypertension",
+   "Native liver survival ระยะยาวราวหนึ่งในสามถึงครึ่งหนึ่ง (ลดลงเรื่อย ๆ ตามอายุ) · Kasai ล้มเหลว (ยังเหลือง) → เปลี่ยนตับเร็ว · biliary atresia เป็นข้อบ่งชี้เปลี่ยนตับที่พบบ่อยที่สุดในเด็ก",
+   "คัดกรองในไทย/ เอเชีย: stool color card ให้แม่เทียบสีอุจจาระทารก ช่วยให้ส่งต่อทำ Kasai ได้ทันก่อน 60 วัน"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ลายมือในไฟล์ (วง A) — ตอบ E ความมั่นใจปานกลาง-สูง เพราะช้อย E เขียนชัดว่า \"แม้ไม่มีตัวเหลือง\" ซึ่งเป็นจุดเน้นของภาวะแทรกซ้อนระยะยาวตาม Coran และในไฟล์เองก็มีวง E พร้อมลายมือ \"P'don't\" ไว้",
-  "mnemonic": "<b>'Kasai: เหลืองหาย ≠ ตับหาย → ตับแข็ง portal HT ยังมา'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Biliary atresia; Hartley JL, Davenport M, Kelly DA. Biliary atresia. Lancet 2009;374:1704",
+  "opinion": "เห็นด้วยกับคำตอบ E ในเว็บ ความมั่นใจปานกลาง — <b>คีย์</b>ในไฟล์ (คีย์ลายมือ P'Ing) วง A (intrahepatic biliary cyst) และมีเครื่องหมาย ? หน้าข้อ แต่ก็วง E พร้อมเขียน \"P'don't\" · intrahepatic cyst เป็นภาวะแทรกซ้อนจริงแต่พบน้อย ส่วน cirrhosis/ portal hypertension แม้หายเหลืองคือภาวะแทรกซ้อนระยะยาวที่พบบ่อยที่สุดตามสไลด์เดียวกันในไฟล์ (34–76%) เว็บจึงตอบต่างจากคีย์",
+  "mnemonic": "<b>'Kasai ระบายน้ำดีได้ แต่หยุดพังผืดไม่ได้' — early = Cholangitis, late = Portal HT</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary atresia; Bezerra JA et al. Biliary atresia: clinical and research challenges for the 21st century, Hepatology 2018",
   "variants": [
-   "ทารก 6 สัปดาห์ตัวเหลือง อุจจาระซีด direct bilirubin สูง → biliary atresia → Kasai",
-   "ทารกหลัง Kasai 2 เดือน ไข้ ตัวเหลืองกลับมา → ascending cholangitis ให้ IV ATB",
-   "เด็กหลัง Kasai 7 ปี หายใจเหนื่อย ออกซิเจนต่ำเวลานั่ง → hepatopulmonary syndrome"
+   "ทารก 6 สัปดาห์ตัวเหลือง อุจจาระสีซีดเหมือนดินเหนียว direct bilirubin 6 mg/dL US เห็น triangular cord sign → intraoperative cholangiogram แล้วทำ Kasai โดยเร็ว",
+   "ทารกหลัง Kasai 3 เดือน bilirubin ยังสูง 8 mg/dL ตับแข็งขึ้น ไม่โต → Kasai ล้มเหลว → ส่งประเมินเปลี่ยนตับ",
+   "เด็ก 8 ปีหลัง Kasai ไม่เหลือง แต่หอบเหนื่อย ปากเขียว SpO₂ ลดลงเมื่อลุกนั่ง → hepatopulmonary syndrome → ข้อบ่งชี้เปลี่ยนตับ",
+   "ทำไมเกิดนิ่วใน CBD หลัง Kasai ไม่ได้ → ท่อน้ำดีนอกตับถูกตัดออกหมดและน้ำดีไหลจาก porta hepatis เข้า Roux limb โดยตรง"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 3 — ตัวพิมพ์: <b>11. What is long-term complication in 2 years old patient who underwent kasai operation — A.intrahepatic biliary cyst B.common bile duct stone C.asccending cholangitis D.upper gi bleed from esophageal varices E.cirrhosis and portal hypertension although patient is jaundice free</b><br>ลายมือ: \"?\" หน้าข้อ · \"golden period = 60 days\" เหนือ \"2 years old\" · C \"x M/C complication\" (แดง) · วง E พร้อมเขียน \"P'don't\"<br>ไฮไลต์: วง A (คำตอบในคีย์) · \"long-term complication\" (เหลือง) · \"2 years old\" · \"kasai operation\"<br>รูปที่แปะ: สไลด์ Complications — Ascending cholangitis (30-60%) · Portal hypertension (34-76%) · Hepato-pulmonary syndrome · Intrahepatic biliary cysts<br>ที่ปรับในเว็บ: เว็บตอบ E ต่างจากคีย์ (A)",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 3",
@@ -292,30 +310,32 @@
   ]
  },
  "MDCU70|RoA|28": {
-  "interp": "MRI เห็นก้อน enhance ที่ <b>cerebellopontine angle ขวา ยื่นเข้า internal auditory canal</b> → ถามอาการที่น่าพบที่สุด",
-  "why": "ก้อนที่ CPA ลามเข้า IAC (ภาพ \"ice cream cone\") = <b>vestibular schwannoma (acoustic neuroma)</b> เกิดจาก Schwann cell ของเส้นประสาท vestibular (CN VIII) · อาการเด่นที่พบบ่อยที่สุดคือ <b>สูญเสียการได้ยินชนิด sensorineural ข้างเดียวค่อยเป็นค่อยไป (~95%)</b> ร่วมกับ <b>tinnitus</b> และเสียการทรงตัว · ก้อนใหญ่กด CN V (ชาหน้า, corneal reflex หาย) → CN VII → สมองน้อย → hydrocephalus ภายหลัง · การตรวจคัดกรอง: audiogram + MRI with gadolinium · สองข้าง = NF2 · ไฟล์ลายมือ P'Ing <b>\"vestibular schwannoma = hearing disturbance / hearing loss tinnitus\"</b> และวง E ✓",
+  "interp": "MRI พบก้อน enhance ที่ <b>cerebellopontine angle (CPA) ขวา ยื่นเข้า internal auditory canal (IAC)</b> = ภาพของ <b>vestibular schwannoma (acoustic neuroma)</b> — ถามอาการที่น่าจะพบมากที่สุด ต้องรู้ว่าก้อนเกิดจากเส้นประสาทใด และอาการเรียงตามขนาดก้อนอย่างไร",
+  "why": "<b>Vestibular schwannoma</b> เกิดจาก Schwann cell ของ <b>vestibular nerve (ส่วนของ CN VIII)</b> ภายใน IAC เป็นก้อนที่ CPA ที่พบบ่อยที่สุด (ราว 80%) ภาพ MRI คลาสสิกคือ <b>\"ice cream cone\"</b> — ส่วนกรวยในรู IAC และก้อนกลมใน CPA enhance ชัดหลังฉีด gadolinium · แม้เกิดจาก vestibular nerve แต่อาการแรกและพบบ่อยที่สุดคือ <b>unilateral sensorineural hearing loss (~90%)</b> ร่วม <b>tinnitus</b> ข้างเดียว เพราะก้อนกดและรบกวนเลือดเลี้ยง cochlear nerve ใน IAC · เวียนศีรษะแบบหมุนพบน้อยเพราะสมองชดเชยการเสียข้างเดียวที่ค่อยเป็นค่อยไปได้ จึงเป็นการทรงตัวไม่มั่นคงแทน · ก้อนโตขึ้นกด <b>CN V</b> (ชาหน้า corneal reflex หาย — เป็นอาการแรก ๆ ของการกด CN V) ส่วน CN VII ทนการกดได้ดี หน้าเบี้ยวจึงพบช้า · ก้อนใหญ่มากกด cerebellum/ brainstem → ataxia และ hydrocephalus (papilledema) · ตรวจ audiogram เห็น asymmetric SNHL และ speech discrimination แย่กว่าระดับการได้ยิน · ก้อนสองข้าง = <b>NF2</b> · ไฟล์วง E ✓ ลายมือ <b>\"vestibular schwannoma = hearing disturbance / hearing loss tinnitus\"</b> และแปะ MRI ก้อน CPA ขวา",
   "wrong": {
-   "A": "Finger-to-nose ผิดปกติเป็นอาการสมองน้อย พบเมื่อก้อนใหญ่กดสมองน้อยแล้ว ไม่ใช่อาการแรก/ พบบ่อยที่สุด · จะถูกถ้าเด็กมีก้อนที่ cerebellar hemisphere เดินเซ หรือ schwannoma ขนาดใหญ่มากกดสมองน้อย",
-   "B": "Papilledema สองข้างเกิดจากความดันในกะโหลกสูง (เช่น hydrocephalus จากก้อนใหญ่) ซึ่งเป็นระยะท้าย · จะถูกถ้าผู้ป่วยมีก้อนใน posterior fossa ขนาดใหญ่อุด fourth ventricle ปวดหัวตอนเช้าอาเจียน",
-   "C": "Bitemporal hemianopia เกิดจากก้อนกด optic chiasm เช่น pituitary macroadenoma, craniopharyngioma · จะถูกถ้า MRI เห็นก้อนใน sella ยื่นขึ้นเหนือ sella",
-   "D": "Hemiparesis เกิดจากรอยโรคที่ corticospinal tract เหนือ CPA เช่นก้อนในสมองใหญ่ ก้อนที่ CPA ไม่ค่อยทำให้อ่อนแรงครึ่งซีก · จะถูกถ้า MRI เห็น meningioma ใหญ่ที่ convexity กดสมองส่วน motor"
+   "A": "Finger-to-nose ผิดปกติ (dysmetria) เกิดจาก cerebellar hemisphere ข้างเดียวกัน — ใน vestibular schwannoma พบเฉพาะเมื่อก้อน<b>ใหญ่มาก</b>กด middle cerebellar peduncle จึงไม่ใช่อาการที่พบบ่อยที่สุด · จะถูกถ้าเป็นชาย 40 ปีที่ MRI พบก้อน cyst มี mural nodule ใน cerebellar hemisphere ขวา (hemangioblastoma) มีเดินเซและ finger-to-nose ขวาผิดปกติ",
+   "B": "Papilledema สองข้างบ่ง <b>ความดันในกะโหลกสูง</b> — ใน CPA tumor เกิดได้เมื่อก้อนใหญ่จนกด 4th ventricle เกิด obstructive hydrocephalus ซึ่งเป็นระยะท้าย · จะถูกถ้าเป็นเด็ก 6 ปีปวดศีรษะตอนเช้า อาเจียน เดินเซ MRI พบก้อนกลาง cerebellar vermis อุด 4th ventricle (medulloblastoma) ร่วม hydrocephalus",
+   "C": "Bitemporal hemianopia เกิดจากการกด <b>optic chiasm</b> ตรงกลาง (เส้นใยไขว้จาก nasal retina) โดยก้อนบริเวณ sellar/ suprasellar ไม่ใช่ CPA · จะถูกถ้าเป็นชาย 50 ปีมองด้านข้างไม่เห็นทั้งสองข้าง ปวดศีรษะ ไม่มีความต้องการทางเพศ MRI พบ pituitary macroadenoma ยื่นขึ้นกด chiasm",
+   "D": "Hemiparesis เกิดจากรอยโรคของ <b>corticospinal tract</b> (motor cortex, internal capsule, brainstem) — ก้อน CPA ใหญ่มากอาจกด brainstem ได้แต่พบน้อยและช้า · จะถูกถ้าเป็นหญิง 55 ปีแขนขาขวาอ่อนแรงค่อยเป็นค่อยไป 3 เดือน MRI พบ meningioma ที่ parasagittal/ convexity ซ้ายบริเวณ motor cortex"
   },
-  "trap": "เห็นก้อนใน posterior fossa แล้วตอบอาการสมองน้อย — ก้อนที่ CPA/ IAC อาการแรกคือหูไม่ได้ยินข้างเดียว",
+  "trap": "ก้อนเกิดจาก<b>vestibular</b> nerve ทำให้คิดว่าอาการหลักต้องเป็นเวียนศีรษะ/ เสียการทรงตัว หรือเห็นก้อนอยู่ใกล้ cerebellum เลยเลือก finger-to-nose — แต่ก้อนเติบโตใน IAC ที่ cochlear nerve อยู่ด้วย อาการแรกและพบบ่อยที่สุดจึงเป็น<b>การได้ยินลดลงข้างเดียว + tinnitus</b> · อาการ cerebellum, hydrocephalus และ brainstem เป็นของก้อนใหญ่ระยะท้าย",
   "summary": [
-   "Vestibular schwannoma: CPA + ยื่นเข้า IAC (ice cream cone)",
-   "อาการ: SNHL ข้างเดียว (~95%) · tinnitus · เสียการทรงตัว",
-   "ก้อนใหญ่: CN V (corneal reflex หาย) → CN VII → สมองน้อย → hydrocephalus",
-   "Asymmetric SNHL → MRI with gadolinium",
-   "สองข้าง = NF2",
-   "รักษา: เฝ้าดู (ก้อนเล็ก) · stereotactic radiosurgery · ผ่าตัด"
+   "CPA tumor ที่พบบ่อย: vestibular schwannoma (~80%) &gt; meningioma (~10%) &gt; epidermoid · schwannoma ยื่นเข้า IAC (ice cream cone) ส่วน meningioma มีฐานกว้างติด dura และ dural tail",
+   "อาการตามขนาด: ใน IAC → SNHL ข้างเดียว tinnitus ทรงตัวไม่ดี · ออกมาใน CPA → CN V (ชาหน้า corneal reflex ลด) · ใหญ่มาก → ataxia, hydrocephalus, brainstem compression · CN VII อ่อนแรงพบช้าแม้ถูกยืดมาก",
+   "การได้ยินลดข้างเดียว/ ไม่สมมาตร หรือ tinnitus ข้างเดียวในผู้ใหญ่ → audiogram และ <b>MRI with gadolinium</b> (มาตรฐาน) ไม่ใช่ CT",
+   "Bilateral vestibular schwannoma = <b>NF2-related schwannomatosis</b> (ยีน NF2 บนโครโมโซม 22 สร้าง merlin) ร่วม meningioma, ependymoma, juvenile cataract",
+   "การรักษาตามขนาด/ อาการ/ อายุ: ก้อนเล็ก → wait-and-scan ด้วย MRI (ส่วนใหญ่โตช้า) · ก้อนเล็ก–กลาง (&lt; ~3 cm) → stereotactic radiosurgery · ก้อนใหญ่กด brainstem → microsurgery",
+   "แนวผ่าตัด: translabyrinthine (เสียการได้ยินข้างนั้นแน่นอน ใช้เมื่อไม่มีการได้ยินที่ใช้งานได้) · retrosigmoid และ middle fossa (พยายามเก็บการได้ยิน) · ภาวะแทรกซ้อนสำคัญคือ facial nerve palsy, CSF leak",
+   "แผนที่ CPA: CN V อยู่บน · CN VII/ VIII อยู่กลาง · CN IX, X, XI อยู่ล่าง — ก้อนโตลงล่างทำให้กลืนลำบาก เสียงแหบ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับวง E ✓ และลายมือในไฟล์ · ไฟล์ไม่มีภาพข้อสอบจริง (ผู้จดแปะ MRI ตัวอย่าง) จึงบรรยายภาพไว้ในโจทย์",
-  "mnemonic": "<b>'CPA ก้อน = หู (CN VIII) ก่อน → หน้า (V, VII) → เซ (สมองน้อย)'</b>",
-  "guide": "Congress of Neurological Surgeons Systematic Review and Evidence-Based Guidelines on Vestibular Schwannomas (Neurosurgery 2018;82:E32–E34); Youmans and Winn Neurological Surgery 8th ed. (2022)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ภาพก้อน CPA ที่ยื่นเข้า IAC คือ vestibular schwannoma ซึ่งอาการที่พบบ่อยที่สุดคือ unilateral SNHL ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง E และเขียน \"hearing loss, tinnitus\" · ต้นฉบับไม่มีภาพจริงในเว็บ จึงบรรยายภาพ MRI ไว้ในโจทย์แทน",
+  "mnemonic": "<b>'Acoustic neuroma ได้ยินก่อน — Hear, then Face (V), then Feet (ataxia)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Vestibular schwannoma; Congress of Neurological Surgeons Guidelines on the Management of Vestibular Schwannomas (Neurosurgery 2018)",
   "variants": [
-   "หญิง 45 ปีหูซ้ายได้ยินลดลงค่อยเป็น มีเสียงในหู audiogram SNHL ข้างเดียว → MRI gadolinium",
-   "ชายหนุ่ม schwannoma สองข้าง → NF2",
-   "ผู้ป่วย CPA tumor ใหญ่ ชาหน้าซีกเดียว corneal reflex หาย → ก้อนกด CN V"
+   "หญิง 45 ปีหูซ้ายได้ยินลดลงค่อย ๆ 1 ปี มีเสียงวิ้ง audiogram พบ asymmetric SNHL → MRI brain with gadolinium (IAC protocol)",
+   "ชาย 70 ปี vestibular schwannoma 8 mm ใน IAC ได้ยินพอใช้ ไม่มีอาการอื่น → wait-and-scan ทำ MRI ซ้ำใน 6–12 เดือน",
+   "ก้อน vestibular schwannoma 4 cm กด brainstem มี hydrocephalus และเดินเซ → microsurgical resection (± จัดการ hydrocephalus)",
+   "วัยรุ่น 18 ปี MRI พบ vestibular schwannoma ทั้งสองข้าง ร่วม meningioma → NF2-related schwannomatosis → ตรวจทางพันธุกรรมและคัดกรองครอบครัว"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 3 — ตัวพิมพ์: <b>28. จาก Imaging จะเจออาการอะไร — A. Impaired finger to nose B. Papilledema both eyes C. Bitemporal hemianopia D. Hemiparesis E. Sensory neural hearing loss · รูปประมาณนี้มั้ง ถ้าตอบช้อยส์ E. นะ</b><br>ลายมือ: \"vestibular schwannoma = hearing disturbance / hearing loss tinnitus\" · E ✓<br>ไฮไลต์: วง E · \"เจออาการอะไร\"<br>รูปที่แปะ: MRI axial T2 วงก้อนที่ CPA ขวา เขียนลายมือ \"vestibular schwannoma\"<br>ที่ปรับในเว็บ: ไม่มีภาพจริง → บรรยายภาพในโจทย์",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 3",
@@ -326,30 +346,32 @@
   ]
  },
  "MDCU70|RoA|30": {
-  "interp": "ถามเนื้องอกสมองชนิดใดรักษาด้วย<b>ยา</b>ได้โดยไม่ต้องผ่าตัด",
-  "why": "<b>Prolactinoma</b> รักษาหลักด้วย<b>ยา dopamine agonist</b> (ตัวเลือกแรก <b>cabergoline</b> ทนยาดีกว่าและได้ผลดีกว่า bromocriptine) แม้เป็น macroadenoma ที่กด optic chiasm แล้ว · ยาลด prolactin ได้ ~80–90% และทำให้ก้อนยุบ (การมองเห็นดีขึ้นได้โดยไม่ต้องผ่าตัด) · ผ่าตัด transsphenoidal เมื่อดื้อยา/ ทนยาไม่ได้ เลือดออกในก้อน (apoplexy) ที่การมองเห็นแย่ลงเร็ว หรือ CSF รั่ว · ไฟล์ P'Ing วง B ✓ และลายมือ <b>\"tx = dopamine agonist (bromocriptine)\"</b>",
+  "interp": "ถามว่า brain tumor ชนิดใด<b>รักษาด้วยยาเป็นหลักได้โดยไม่ต้องผ่าตัด</b> — ต้องรู้ว่ามีเนื้องอกในกะโหลกชนิดใดที่มียาที่ทำให้ฮอร์โมนกลับปกติและก้อนยุบได้ ซึ่งคือ prolactinoma กับ dopamine agonist",
+  "why": "<b>Prolactinoma</b> เป็น functioning pituitary adenoma ที่พบบ่อยที่สุด · lactotroph ถูก<b>ยับยั้งโดย dopamine</b> จาก hypothalamus (ผ่าน D2 receptor) ยา <b>dopamine agonist</b> จึงลดทั้งการหลั่ง prolactin และขนาดก้อน — <b>cabergoline เป็นยาตัวแรก</b> (ได้ผลดีกว่าและผลข้างเคียงน้อยกว่า bromocriptine ทำให้ prolactin ปกติในผู้ป่วยส่วนใหญ่ และก้อนยุบชัด) · ใช้เป็นการรักษาแรก<b>แม้เป็น macroprolactinoma ที่กด optic chiasm</b> เพราะลานสายตามักดีขึ้นภายในวันถึงสัปดาห์ · ผ่าตัด (transsphenoidal) สงวนไว้สำหรับดื้อยา/ ทนยาไม่ได้, pituitary apoplexy ที่สายตาแย่ลงเร็ว, CSF leak หรือผู้ป่วยเลือกผ่าตัด · วินิจฉัย: prolactin สูงมาก (macroadenoma มักเกิน 250 ng/mL) ระวัง <b>hook effect</b> ในก้อนใหญ่ที่ค่าออกมาต่ำผิดจริง (ต้องเจือจางตัวอย่าง) และแยก stalk effect ที่ prolactin สูงไม่มาก · ไฟล์วง B ✓ ลายมือ <b>\"tx = dopamine agonist (bromocriptine)\"</b>",
   "wrong": {
-   "A": "Acoustic neuroma รักษาด้วยการเฝ้าดู ฉายรังสี stereotactic หรือผ่าตัด ไม่มียาที่รักษาได้ · จะถูกถ้าคำถามถามเนื้องอกที่ก้อนเล็กเฝ้าดูได้ด้วย MRI ซ้ำโดยไม่ผ่าตัด",
-   "C": "Meningioma ที่มีอาการรักษาด้วยผ่าตัด ± ฉายรังสี ไม่ตอบสนองต่อยา · จะถูกถ้าคำถามถามเนื้องอกที่พบโดยบังเอิญ ไม่มีอาการ ที่เฝ้าดูได้",
-   "D": "Glioblastoma ต้องผ่าตัดเอาออกมากที่สุด + ฉายรังสีร่วมกับ temozolomide (Stupp protocol) ยาอย่างเดียวไม่พอ · จะถูกถ้าคำถามถามยาเคมีบำบัดที่ใช้ร่วมกับรังสีหลังผ่าตัด GBM",
-   "E": "Nonfunctioning pituitary adenoma ไม่มีฮอร์โมนให้ยากด ถ้ามีอาการกดเส้นประสาทตาต้องผ่าตัด transsphenoidal · จะถูกถ้าคำถามถามก้อนต่อมใต้สมองที่ต้องผ่าตัดเมื่อการมองเห็นผิดปกติ"
+   "A": "Acoustic neuroma (vestibular schwannoma) รักษาด้วย observation, stereotactic radiosurgery หรือ microsurgery ไม่มียาที่เป็นมาตรฐานในผู้ป่วยทั่วไป · จะถูกถ้าเป็นผู้ป่วยวัยรุ่นที่มี NF2 และ vestibular schwannoma สองข้างโตเร็วจนการได้ยินแย่ลง (bevacizumab ใช้ชะลอการโตและช่วยการได้ยินในบางราย)",
+   "C": "Meningioma รักษาด้วยผ่าตัด radiosurgery/ radiotherapy หรือเฝ้าดูถ้าเล็กไม่มีอาการ ยังไม่มียาที่ได้ผลจริง (hormone therapy ล้มเหลวในการศึกษา) · จะถูกถ้าเป็นหญิง 72 ปีที่พบ meningioma 1.5 cm มีหินปูนโดยบังเอิญ ไม่มีอาการ (รักษาโดยไม่ผ่าตัดด้วยการติดตาม MRI — ไม่ใช่ยา)",
+   "D": "Glioblastoma (WHO grade 4) รักษามาตรฐานด้วย maximal safe resection แล้ว radiotherapy + temozolomide (Stupp protocol) ยาเป็นส่วนเสริม ไม่แทนการผ่าตัด · จะถูกถ้าเป็นผู้สูงอายุ 78 ปี performance status ไม่ดี ผล biopsy เป็น GBM ที่ MGMT promoter methylated (temozolomide เดี่ยวเป็นทางเลือกแทนการผ่าตัดใหญ่)",
+   "E": "Nonfunctioning pituitary adenoma ไม่มียาที่ทำให้ก้อนยุบได้จริง ถ้ามี mass effect ต้อง <b>transsphenoidal surgery</b> — prolactin อาจสูงเล็กน้อยจาก stalk effect ทำให้สับสนกับ prolactinoma · จะถูกถ้าเป็นชาย 55 ปีที่ macroadenoma 3 cm ไม่หลั่งฮอร์โมน ลานสายตาปกติ (รักษาโดยไม่ผ่าตัดได้ด้วยการติดตาม MRI และลานสายตา)"
   },
-  "trap": "คิดว่า pituitary adenoma ที่กด chiasm ต้องผ่าตัดเสมอ — ถ้าเป็น prolactinoma ให้ยาก่อนแม้เป็น macroadenoma",
+  "trap": "บางคนเลือก nonfunctioning adenoma เพราะเป็นก้อนต่อมใต้สมองเหมือนกัน หรือเลือก GBM เพราะมียา temozolomide — แต่ยาจะ<b>แทนการผ่าตัดได้</b>ต่อเมื่อก้อนมีกลไกถูกยาควบคุมโดยตรง ซึ่งคือ lactotroph ที่ตอบสนองต่อ dopamine · ต้องแยกก้อนใหญ่ prolactin สูงเล็กน้อย (stalk effect → ผ่าตัด) จาก macroprolactinoma (prolactin สูงมาก → ยา)",
   "summary": [
-   "Prolactinoma: ยา dopamine agonist เป็นการรักษาแรก แม้ macroadenoma",
-   "Cabergoline > bromocriptine (ได้ผลดีกว่า ผลข้างเคียงน้อย)",
-   "ผ่าตัด: ดื้อยา/ ทนยาไม่ได้ · apoplexy · CSF รั่ว",
-   "Acromegaly: ผ่าตัดก่อน (ยา somatostatin analog เป็นรอง)",
-   "Cushing disease: ผ่าตัด transsphenoidal",
-   "Nonfunctioning adenoma กด chiasm → ผ่าตัด"
+   "Prolactinoma: microadenoma (&lt; 10 mm) พบในหญิงมากกว่า (ประจำเดือนขาด น้ำนมไหล มีบุตรยาก) · macroadenoma (≥ 10 mm) พบในชายบ่อยกว่า (ความต้องการทางเพศลด เสื่อมสมรรถภาพ ปวดศีรษะ ลานสายตาผิด)",
+   "Prolactin: ค่าสูงมาก (มักเกิน 250 ng/mL) เข้ากับ macroprolactinoma · ก้อนใหญ่แต่ค่าสูงไม่มากต้องแยก hook effect (เจือจางตัวอย่าง) กับ stalk effect (nonfunctioning adenoma กดก้าน)",
+   "สาเหตุ hyperprolactinemia อื่นที่ต้องตัดก่อน: ตั้งครรภ์, ยา (antipsychotic, metoclopramide, domperidone), primary hypothyroidism (TRH สูง), ไตวายเรื้อรัง, macroprolactinemia",
+   "Cabergoline สัปดาห์ละ 1–2 ครั้ง เป็นยาตัวแรก · bromocriptine วันละหลายครั้ง คลื่นไส้/ ความดันตกมากกว่า · ใช้ยาขนาดสูงมาก (แบบในพาร์กินสัน) เสี่ยง cardiac valvulopathy",
+   "ผลข้างเคียงทางจิต (impulse control disorder) ต้องเตือนผู้ป่วย · ก้อนใหญ่ที่ยุบเร็วอาจเกิด CSF rhinorrhea",
+   "ผ่าตัด transsphenoidal เมื่อดื้อยา/ ทนยาไม่ได้ pituitary apoplexy ที่สายตาแย่ CSF leak หรือผู้ป่วยต้องการ · microadenoma ผ่าตัดโดยผู้เชี่ยวชาญหายได้สูง",
+   "ตั้งครรภ์: microprolactinoma หยุดยาเมื่อรู้ว่าตั้งครรภ์ได้ (ก้อนโตจนมีอาการพบน้อย) · macroadenoma เสี่ยงโตมากกว่า ต้องตรวจลานสายตาเป็นระยะ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง B ✓ และลายมือในไฟล์ · ปัจจุบันแนวทางแนะนำ cabergoline เป็นตัวแรกมากกว่า bromocriptine ที่เขียนในไฟล์",
-  "mnemonic": "<b>'Prolactinoma = Pill (ยา dopamine agonist) ไม่ต้อง Pa (ผ่า)'</b>",
-  "guide": "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Hyperprolactinemia (J Clin Endocrinol Metab 2011;96:273); Pituitary Society consensus on prolactinomas (Nat Rev Endocrinol 2023;19:722)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — prolactinoma เป็นเนื้องอกในกะโหลกชนิดเดียวในช้อยที่ยา (dopamine agonist) เป็นการรักษาหลักแทนการผ่าตัด ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง B · ลายมือเขียน bromocriptine แต่ปัจจุบันแนวทางให้ cabergoline เป็นยาตัวแรก",
+  "mnemonic": "<b>'Prolactinoma = Pill (cabergoline) ก่อน มีด'</b>",
+  "guide": "Petersenn S et al. Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement (Nat Rev Endocrinol 2023); Endocrine Society Clinical Practice Guideline on Hyperprolactinemia (J Clin Endocrinol Metab 2011)",
   "variants": [
-   "หญิง 28 ปีประจำเดือนขาด น้ำนมไหล prolactin 250 ng/mL ก้อน 15 mm กด chiasm → cabergoline",
-   "ชายมือเท้าโต IGF-1 สูง → transsphenoidal surgery",
-   "ผู้ป่วย macroadenoma ปวดหัวทันที ตามัว ตาเหล่ → pituitary apoplexy ให้ steroid ± ผ่าตัดด่วน"
+   "ชาย 40 ปีปวดศีรษะ bitemporal hemianopia MRI ก้อน 3 cm prolactin 3,000 ng/mL → cabergoline เป็นการรักษาแรก ติดตามลานสายตาและ MRI",
+   "ก้อนต่อมใต้สมอง 3.5 cm prolactin 60 ng/mL → เจือจางตัวอย่างตรวจ hook effect ถ้ายังต่ำ = stalk effect จาก nonfunctioning adenoma → transsphenoidal surgery",
+   "หญิง 25 ปีน้ำนมไหล ประจำเดือนขาด prolactin 80 ng/mL กินยา risperidone → hyperprolactinemia จากยา (ปรึกษาจิตแพทย์ปรับยา)",
+   "ผู้ป่วย macroprolactinoma ได้ cabergoline แล้วปวดศีรษะทันที สายตาแย่ลงเร็ว MRI มีเลือดออกในก้อน → pituitary apoplexy → steroid ขนาดสูง ± transsphenoidal decompression ด่วน"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 3 — ตัวพิมพ์: <b>30. brain tumor ในข้อใดสามารถรักษาได้ด้วยการให้ยาโดยไม่ต้องผ่าตัด — A. Acoustic neuroma B. Prolactinoma C. Meningioma D. GBM E. Non hormone producing pituitary adenoma</b><br>ลายมือ: B \"✓ tx = dopamine agonist (bromocriptine)\"<br>ไฮไลต์: วง B · \"brain tumor\" · \"รักษาได้ด้วยการให้ยา\"",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 3",
@@ -359,30 +381,32 @@
   ]
  },
  "MDCU70|RoA|33": {
-  "interp": "ชาย 60 ปี เบาหวาน ปวดสีข้างขวา + ปัสสาวะเป็นเลือด นิ่วท่อไตส่วนปลายขวา hydronephrosis เล็กน้อย <b>แพ้ NSAIDs รุนแรง</b> → ถามยาบรรเทาปวด",
-  "why": "ยาแก้ปวด renal colic อันดับแรกคือ <b>NSAIDs</b> (ลดการบีบตัวท่อไตและความดันในไต) แต่ผู้ป่วย<b>แพ้ NSAIDs รุนแรง</b> → ใช้ <b>opioid</b> (เช่น <b>morphine</b>) เป็นทางเลือกถัดไป · ระวังคลื่นไส้และกดการหายใจ · นิ่วท่อไตส่วนปลาย ≤ 10 mm ร่วมกับ hydronephrosis เล็กน้อยไม่มีไข้ → medical expulsive therapy (tamsulosin) ได้ร่วมกับยาแก้ปวด · ถ้ามีไข้/ ติดเชื้อ ไตข้างเดียว ไตวาย ปวดคุมไม่ได้ → ระบายด่วน (DJ stent/ PCN) · ไฟล์ P'Ing วง B ✓ เขียน A \"x NSAIDs\" C \"x NSAIDs\" และ <b>\"ให้ NSAIDs or opioids\"</b>",
+  "interp": "ชาย 60 ปีเบาหวาน มี <b>renal colic</b> จากนิ่วท่อไตส่วนปลายขวา + hydronephrosis เล็กน้อย และ<b>แพ้ NSAIDs รุนแรง</b> — ถามยาที่ใช้บรรเทาปวดสีข้าง ต้องรู้ลำดับยาแก้ปวดใน renal colic และตัดยากลุ่มที่แพ้ทั้งหมด",
+  "why": "ปวดใน renal colic เกิดจากท่อไตอุดตัน ความดันใน collecting system สูงขึ้น และ <b>prostaglandin</b> ทำให้หลอดเลือดไตขยาย ปัสสาวะออกมากขึ้นและท่อไตบีบเกร็ง · <b>NSAIDs เป็นยาตัวแรก</b> (diclofenac, ketorolac, ibuprofen, indomethacin) เพราะลดการสร้าง <b>prostaglandin</b> โดยตรง ทำให้ GFR และความดันใน pelvis ลดลง ได้ผลดีกว่าและต้องการยาเสริมน้อยกว่า opioid · ข้อห้ามของ NSAIDs: แพ้ยา, ไตเสื่อม (eGFR ต่ำ), แผลกระเพาะ/ เลือดออก, ตั้งครรภ์ไตรมาสสาม และควรระวังในผู้สูงอายุ/ เบาหวานที่ไตอาจเสื่อม · เมื่อใช้ NSAIDs ไม่ได้ ให้ <b>opioid</b> (morphine, hydromorphone, fentanyl) หรือ paracetamol IV — หลีกเลี่ยง pethidine เพราะอาเจียนมากกว่าและ metabolite สะสม · ketorolac และ diclofenac เป็น NSAIDs จึงห้ามทั้งคู่ · เมื่อคุมปวดได้ นิ่วท่อไตส่วนปลาย &gt; 5 mm พิจารณา <b>α-blocker (tamsulosin)</b> ช่วยขับนิ่ว · ต้องระบายด่วนด้วย DJ stent/ PCN ถ้ามีไข้ร่วม hydronephrosis (obstructed infected kidney), ไตข้างเดียว, AKI หรือปวดที่คุมไม่ได้ · ไฟล์วง B ✓ ขีด A และ C แดง <b>\"x NSAIDs\"</b> และเขียน <b>\"ให้ NSAIDs or opioids\"</b>",
   "wrong": {
-   "A": "Ketorolac เป็น NSAID ห้ามใช้ในผู้แพ้ NSAIDs รุนแรง (ลายมือ \"x NSAIDs\") · จะถูกถ้าผู้ป่วย renal colic ไม่มีประวัติแพ้ ไม่มีไตวาย เป็นยาฉีดตัวแรกที่เหมาะ",
-   "C": "Diclofenac เป็น NSAID ห้ามใช้เช่นเดียวกัน (ลายมือ \"x NSAIDs\") · จะถูกถ้าผู้ป่วย renal colic ทั่วไป ไม่แพ้ยา eGFR ปกติ (ยาแนะนำอันดับแรกของ EAU)",
-   "D": "การให้สารน้ำปริมาณมากไม่ช่วยลดปวดหรือเร่งให้นิ่วหลุด และอาจทำให้ปวดมากขึ้น · จะถูกถ้าผู้ป่วยขาดน้ำจากอาเจียนมาก หรือมีภาวะ sepsis จากนิ่วอุดตัน",
-   "E": "Tamsulosin ช่วยให้นิ่วท่อไตส่วนปลายหลุดง่ายขึ้น แต่ไม่ใช่ยาแก้ปวดเฉียบพลัน ใช้อย่างเดียวไม่พอ · จะถูกถ้าคำถามถามยาเพื่อช่วยให้นิ่วท่อไตส่วนปลาย 5–10 mm หลุดเอง (MET)"
+   "A": "Ketorolac เป็น NSAID ฉีด (ไฟล์เขียน \"x NSAIDs\") ได้ผลดีมากใน renal colic แต่<b>ห้ามในผู้แพ้ NSAIDs</b> และระวังในไตเสื่อม · จะถูกถ้าเป็นชาย 35 ปีไม่มีโรคประจำตัว ไม่แพ้ยา creatinine ปกติ ปวดบั้นเอวร้าวลงขาหนีบจากนิ่วท่อไต 5 mm (ketorolac IV/ IM)",
+   "C": "Diclofenac เป็น NSAID ที่แนวทาง EAU แนะนำเป็นตัวเลือกแรก (ฉีดหรือเหน็บ) แต่ห้ามในผู้แพ้ NSAIDs และควรระวังในโรคหัวใจหลอดเลือด · จะถูกถ้าเป็นหญิง 40 ปีปวด renal colic จากนิ่ว 4 mm ไตปกติ ไม่มีแผลกระเพาะ ไม่ตั้งครรภ์ (diclofenac 75 mg IM หรือ 100 mg เหน็บทวาร)",
+   "D": "สารน้ำปริมาณมาก (forced hydration) <b>ไม่ลดปวดและไม่ช่วยขับนิ่ว</b> อาจเพิ่มความดันใน collecting system — ให้เท่าที่จำเป็นเพื่อแก้ภาวะขาดน้ำ · จะถูกถ้าเป็นชาย 50 ปีนิ่วท่อไตอาเจียนมากจนกินไม่ได้ ปากแห้ง ปัสสาวะน้อย BUN/Cr สูงแบบ prerenal (ให้ IV fluid แก้ขาดน้ำร่วมกับยาแก้ปวด)",
+   "E": "Tamsulosin เป็น α1-blocker ที่ทำให้กล้ามเนื้อท่อไตส่วนปลายคลายตัว ช่วยให้นิ่ว 5–10 mm หลุดได้มากขึ้น แต่<b>ไม่ใช่ยาแก้ปวดเฉียบพลัน</b> · จะถูกถ้าเป็นชาย 45 ปีนิ่วท่อไตส่วนปลาย 6 mm ที่ปวดควบคุมได้แล้ว ไม่มีไข้ ไตทำงานปกติ (medical expulsive therapy นานไม่เกินราว 4–6 สัปดาห์)"
   },
-  "trap": "เลือก ketorolac เพราะเป็นยาฉีดแก้ปวดนิ่วตัวแรก — ลืมว่าผู้ป่วยแพ้ NSAIDs",
+  "trap": "Ketorolac และ diclofenac เป็นยาแก้ปวด renal colic ที่ดีที่สุดจริง จึงชวนเลือกโดยลืมว่า<b>ทั้งคู่เป็น NSAIDs</b> (ไฟล์ขีดทั้งสองว่า x NSAIDs) · tamsulosin ช่วยขับนิ่วแต่ไม่ระงับปวดทันที · ใน renal colic ที่แพ้ NSAIDs ยาที่เหลือคือ opioid (หรือ paracetamol IV)",
   "summary": [
-   "Renal colic: NSAIDs ตัวแรก (diclofenac, ketorolac, ibuprofen)",
-   "แพ้/ ห้าม NSAIDs (ไตเสื่อม แผลกระเพาะ) → opioid หรือ paracetamol IV",
-   "MET (tamsulosin): นิ่วท่อไตส่วนปลาย 5–10 mm",
-   "นิ่วอุดตัน + ไข้/ ติดเชื้อ → ระบายด่วน (DJ stent/ PCN) + ATB",
-   "นิ่ว ≤ 5 mm หลุดเองได้ส่วนใหญ่",
-   "ภาพ: NCCT (low-dose) เป็นมาตรฐาน"
+   "Renal colic: ปวดบิดเป็นพักจากบั้นเอวร้าวลงขาหนีบ/ อวัยวะเพศ กระสับกระส่ายหาท่าสบายไม่ได้ ± คลื่นไส้อาเจียน microscopic hematuria · ตำแหน่งนิ่วติดบ่อย: UPJ, จุดข้าม iliac vessels, UVJ (แคบที่สุด)",
+   "ภาพ: <b>non-contrast CT KUB</b> เป็นมาตรฐาน (ไวและจำเพาะสูงสุด) · ตั้งครรภ์/ เด็ก → US ก่อน",
+   "ยาแก้ปวด (EAU): NSAIDs ตัวแรก (รวม metamizole/ paracetamol ตามบริบท) → opioid เป็นตัวสำรอง · หลีกเลี่ยง pethidine",
+   "โอกาสหลุดเอง: นิ่ว ≤ 5 mm ส่วนใหญ่หลุดเองได้ · 5–10 mm โอกาสลดลงชัด → MET ด้วย α-blocker ช่วยในนิ่วท่อไตส่วนปลาย &gt; 5 mm · นิ่ว &gt; 10 mm หรือไม่หลุดใน 4–6 สัปดาห์ → URS หรือ SWL",
+   "ระบายด่วน (DJ stent หรือ PCN) เมื่อ: มีไข้/ sepsis ร่วมการอุดตัน, ไตข้างเดียว/ อุดตันสองข้าง, AKI, ปวดหรืออาเจียนที่คุมไม่ได้ · infected obstructed kidney ห้ามทำ definitive stone removal ก่อนหายติดเชื้อ",
+   "เบาหวาน: เสี่ยง emphysematous pyelonephritis และ papillary necrosis · metformin ต้องพิจารณาหยุดเมื่อไตเสื่อมเฉียบพลันหรือฉีด contrast",
+   "ป้องกันนิ่วกลับเป็นซ้ำ: ดื่มน้ำให้ปัสสาวะ &gt; 2–2.5 L/วัน ลดเกลือและโปรตีนจากสัตว์ แคลเซียมในอาหารปกติ (ไม่งด) · กลุ่มเสี่ยงสูงตรวจ 24-hr urine"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง B ✓ และลายมือในไฟล์ · ช้อย E ในไฟล์จำไม่ได้ จึงเติม tamsulosin",
-  "mnemonic": "<b>'นิ่วปวด: N (NSAIDs) ก่อน · แพ้ N → O (Opioid)'</b>",
-  "guide": "EAU Guidelines on Urolithiasis 2024 — Pain relief and MET; AUA/ Endourological Society Guideline on Surgical Management of Stones 2016 (amended 2026)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — renal colic ที่แพ้ NSAIDs รุนแรงต้องใช้ opioid เช่น morphine ส่วน ketorolac และ diclofenac เป็น NSAIDs ทั้งคู่ ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง B และขีด A, C ว่า \"x NSAIDs\" · ช้อย E ต้นฉบับจำไม่ได้ เว็บเติม tamsulosin ซึ่งไม่ใช่ยาแก้ปวดเฉียบพลัน",
+  "mnemonic": "<b>'Colic: NSAID first — แพ้ NSAID → Opioid'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2025; AUA/Endourological Society Guideline on Surgical Management of Stones (2016, amended 2021)",
   "variants": [
-   "ชาย 35 ปีปวดสีข้าง ไม่แพ้ยา eGFR ปกติ → diclofenac/ ketorolac",
-   "นิ่วท่อไตส่วนปลาย 6 mm ปวดคุมได้ ไม่มีไข้ → tamsulosin + ยาแก้ปวด นัดติดตาม",
-   "นิ่วท่อไต + hydronephrosis ไข้ 39 °C ความดันต่ำ → ระบายด่วน DJ stent/ PCN + IV ATB"
+   "ชาย 40 ปี renal colic ไม่แพ้ยา eGFR ปกติ → diclofenac หรือ ketorolac ฉีด (NSAIDs เป็นตัวแรก)",
+   "หญิง 35 ปีนิ่วท่อไตส่วนปลาย 4 mm มีไข้ 39°C หนาวสั่น hydronephrosis WBC สูง → ระบายด่วนด้วย DJ stent หรือ PCN + IV antibiotic (เลื่อนการเอานิ่วออก)",
+   "ชาย 50 ปีนิ่วท่อไตส่วนปลาย 7 mm ปวดคุมได้ ไม่มีไข้ → tamsulosin นัดดู 2–4 สัปดาห์ ถ้าไม่หลุด → ureteroscopy",
+   "หญิงตั้งครรภ์ 28 สัปดาห์ปวด renal colic → US ไม่ใช่ CT · ยาแก้ปวด paracetamol/ opioid ระยะสั้น หลีกเลี่ยง NSAIDs ไตรมาสสาม"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 3 — ตัวพิมพ์: <b>33. ชาย 60 ปี เป็น DM มาด้วย right flank pain and hematuria ตรวจพบ stone in right distal ureter and mild hydronephrosis คนไข้แพ้ NSAIDs อย่างรุนแรง ควรให้อะไรเพื่อบรรเทาอาการ flank pain — A. Ketolac? B. Morphine C. Diclofenac D. IV fluid E. จำไม่ได้ง่า</b><br>ลายมือ: ขีดฆ่า \"Ketolac?\" แก้เป็น \"Ketorolac\" · A \"x NSAIDs\" (แดง) · B ✓ · C \"x NSAIDs\" (แดง) · \"ให้ NSAIDs or opioids\"<br>ไฮไลต์: วง B · \"60 ปี\" \"DM\" \"right flank pain\" \"hematuria\" \"stone in right distal ureter and mild hydronephrosis\" \"แพ้ NSAIDs\" \"บรรเทาอาการ flank pain\"<br>ที่ปรับในเว็บ: ช้อย E จำไม่ได้ → เติม tamsulosin",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 3",

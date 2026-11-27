@@ -1,29 +1,31 @@
 {
  "MDCU70|RoA|89": {
-  "interp": "ทารกคลอดก่อนกำหนด 800 g ใส่ท่อช่วยหายใจจาก respiratory distress + ปอดอักเสบ + ติดเชื้อในกระแสเลือด ฟังได้ <b>continuous murmur</b> ที่ขอบอกซ้ายบน → ถามข้อ<b>ผิด</b>",
-  "why": "Continuous (machinery) murmur ที่ขอบอกซ้ายบนในทารกคลอดก่อนกำหนด = <b>PDA</b> · ในทารกเกิดก่อนกำหนดที่ PDA มีผลต่อการไหลเวียน การรักษาลำดับแรกคือ<b>ปิดด้วยยา</b> (<b>indomethacin, ibuprofen</b> หรือ paracetamol) ร่วมกับจำกัดน้ำและรักษาโรคร่วม (ปอดอักเสบ ติดเชื้อ) · <b>ผ่าตัดผูก/ ปิดด้วยสายสวนเมื่อยาไม่ได้ผลหรือมีข้อห้ามใช้ยา</b> (เลือดออก NEC ไตวาย เกล็ดเลือดต่ำ) · ดังนั้น \"ต้องผ่าตัดแก้เป็นอันดับแรก\" ผิด · ในเด็กโต/ ครบกำหนด PDA ไม่ตอบสนองต่อยา ต้องปิดด้วยสายสวน/ ผ่าตัด · ไฟล์ P'Ing วง B และลายมือ <b>\"✗ premature baby : NSAIDs ปิด PDA (indomethacin / ibuprofen)\"</b>",
+  "interp": "ทารกคลอดก่อนกำหนด <b>800 g</b> ใช้เครื่องช่วยหายใจจาก respiratory distress ร่วม pneumonia และ sepsis ฟังได้ <b>continuous murmur ที่ขอบซ้ายบนของ sternum</b> = <b>patent ductus arteriosus (PDA)</b> ในทารกเกิดก่อนกำหนด — ถามข้อความที่<b>ผิด</b> ต้องรู้ลำดับการปิด PDA ในทารกก่อนกำหนด (ยาก่อน ผ่าตัด/ หัตถการเมื่อยาล้มเหลว)",
+  "why": "Ductus arteriosus ปกติปิดตามหน้าที่ภายใน 24–72 ชม. หลังคลอดจากออกซิเจนที่สูงขึ้นและ <b>prostaglandin E2 ที่ลดลง</b> · ทารกก่อนกำหนดมากโดยเฉพาะ &lt; 1,000 g ตอบสนองต่อออกซิเจนน้อยและ PGE2 ยังสูง จึงเปิดค้างบ่อย และ RDS/ sepsis ยิ่งทำให้เปิด · PDA ที่มีนัยสำคัญ (shunt ซ้ายไปขวามาก) ทำให้ <b>pulmonary overcirculation</b> ถอดเครื่องช่วยหายใจยาก และ<b>เลือดไปเลี้ยงอวัยวะล่างลด (ductal steal)</b> เสี่ยง NEC, ไตวาย, IVH และ BPD · อาการ: bounding pulse, wide pulse pressure, hyperactive precordium, murmur (ในทารกก่อนกำหนดมักเป็น systolic ก่อนเป็น continuous) · ยืนยันด้วย <b>echocardiography</b> (ขนาด duct, LA:Ao ratio, ตัด ductal-dependent lesion) · ปิดด้วย<b>ยาก่อน</b>: <b>COX inhibitor (indomethacin, ibuprofen)</b> ลดการสร้าง prostaglandin หรือ paracetamol เมื่อ NSAIDs ห้ามใช้ · ข้อห้าม NSAIDs: เลือดออกอยู่ (IVH รุนแรง) เกล็ดเลือดต่ำมาก NEC ไตวาย · <b>ผ่าตัดผูก (ligation) หรือ transcatheter closure</b> เมื่อยาล้มเหลวหรือใช้ยาไม่ได้ และยังมีอาการ · ระหว่างนั้นรักษา pneumonia/ sepsis จำกัดสารน้ำ ปรับเครื่องช่วยหายใจ · ข้อความว่าต้องผ่าตัดก่อนจึงผิด · ไฟล์ขีด B แดง <b>\"✗ premature baby : NSAIDs ปิด PDA\" \"indomethacin / ibuprofen\"</b> และติ๊ก ✓ A, C, D",
   "wrong": {
-   "A": "ถูก — continuous murmur ที่ขอบอกซ้ายบนในทารกคลอดก่อนกำหนดเข้าได้กับ PDA (ลายมือ \"Dx PDA ✓\") · จะถูกถ้าเสียงฟู่เป็น holosystolic ที่ขอบอกซ้ายล่าง (VSD) แล้วช้อยบอกว่าเป็น PDA",
-   "C": "ถูก — ต้องรักษาปอดอักเสบและติดเชื้อควบคู่ (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าไม่ต้องรักษาโรคร่วม ให้รักษาเฉพาะ PDA",
-   "D": "ถูก — ผ่าตัด/ ปิดด้วยสายสวนเมื่อยาไม่ได้ผล (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าห้ามผ่าตัด PDA ในทารกคลอดก่อนกำหนดทุกกรณี",
-   "E": "ถูก — NSAIDs ยับยั้ง prostaglandin ทำให้ท่อปิดในทารกคลอดก่อนกำหนด · จะถูกถ้าทารกมี NEC เลือดออกในสมอง หรือไตวาย (ห้ามใช้ NSAIDs) หรือเป็นเด็กครบกำหนด/ เด็กโต (ยาไม่ได้ผล)"
+   "A": "ข้อความถูก: continuous (machinery) murmur ที่ขอบซ้ายบน/ ใต้กระดูกไหปลาร้าซ้ายในทารกก่อนกำหนดที่ถอดเครื่องช่วยหายใจยาก คือ PDA (ไฟล์ติ๊ก ✓) ยืนยันด้วย echo — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 28 สัปดาห์วันที่ 5 ที่ชีพจรแรงเด้ง pulse pressure กว้าง และต้องเพิ่มการช่วยหายใจ",
+   "C": "ข้อความถูก: pneumonia และ sepsis ต้องรักษาควบคู่เพราะทั้งคู่ทำให้ duct เปิดค้างและทำให้อาการแย่ลง (ไฟล์ติ๊ก ✓) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 900 g ที่มี PDA ร่วม blood culture ขึ้นเชื้อ (ให้ยาปฏิชีวนะตามเชื้อ จำกัดสารน้ำ แล้วประเมิน duct ซ้ำ)",
+   "D": "ข้อความถูก: ผ่าตัด ligation หรือ transcatheter closure ใช้เมื่อยาปิดไม่สำเร็จ (มักหลัง 1–2 รอบ) หรือมีข้อห้ามใช้ยา และยังมีผลต่อการหายใจ/ ไหลเวียน (ไฟล์ติ๊ก ✓) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 26 สัปดาห์ได้ ibuprofen 2 รอบแล้ว duct ยังใหญ่ ถอดเครื่องช่วยหายใจไม่ได้",
+   "E": "ข้อความถูก: indomethacin หรือ ibuprofen (COX inhibitor) ลด prostaglandin ทำให้ duct หดตัวปิด ได้ผลดีที่สุดในสัปดาห์แรก ibuprofen มีผลต่อไตน้อยกว่า — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 27 สัปดาห์ที่ echo พบ hemodynamically significant PDA ไตและเกล็ดเลือดปกติ ไม่มี NEC"
   },
-  "trap": "คิดว่าทารกป่วยหนักต้องผ่าตัดปิดเลย — ทารกคลอดก่อนกำหนดให้ยาปิดก่อน",
+  "trap": "คำว่า \"ใช้เครื่องช่วยหายใจ + sepsis\" ทำให้รู้สึกว่าอาการหนักจึงต้องผ่าตัดเลย หรือสับสนว่าโรคติดเชื้อเป็นข้อห้ามของยา — หลักคือ PDA ในทารกก่อนกำหนด<b>ปิดด้วยยาก่อน</b> (ทารกครบกำหนด/ เด็กโตไม่ตอบสนองต่อยา จึงต้องหัตถการ) และผ่าตัดเป็นทางเลือกเมื่อยาล้มเหลวหรือมีข้อห้ามจริง (IVH เลือดออก NEC ไตวาย เกล็ดเลือดต่ำ)",
   "summary": [
-   "PDA: continuous machinery murmur ที่ขอบอกซ้ายบน · ชีพจรแรง pulse pressure กว้าง",
-   "ทารกคลอดก่อนกำหนด: indomethacin/ ibuprofen/ paracetamol",
-   "ข้อห้าม NSAIDs: NEC · เลือดออก · ไตวาย · เกล็ดเลือดต่ำ",
-   "ยาไม่ได้ผล/ มีข้อห้าม → ผูก (ligation) หรือปิดด้วยสายสวน",
-   "เด็กครบกำหนด/ เด็กโต: ยาไม่ได้ผล → ปิดด้วยสายสวน/ ผ่าตัด",
-   "Duct-dependent lesion → ให้ PGE1 เปิดท่อไว้"
+   "PDA พบบ่อยตามความไม่ครบกำหนด: ราวครึ่งหนึ่งหรือมากกว่าของทารก &lt; 1,000 g · ปิดเองได้มากในทารกก่อนกำหนดที่อาการไม่หนัก — แนวโน้มปัจจุบันจึงเฝ้าดูมากขึ้นในรายไม่มีอาการ",
+   "อาการ hsPDA: bounding pulse, wide pulse pressure (diastolic ต่ำ), hyperactive precordium, continuous machinery murmur ที่ใต้กระดูกไหปลาร้าซ้าย/ LUSB, ถอดเครื่องช่วยหายใจยาก, หัวใจล้มเหลว",
+   "Echo: ขนาด duct (&gt; 1.5 mm มีนัยสำคัญ), LA:Ao &gt; 1.5, diastolic flow reversal ใน descending aorta — และตัด ductal-dependent lesion ก่อนปิดทุกครั้ง",
+   "ยา: indomethacin, ibuprofen (ผลต่อไตน้อยกว่า) หรือ paracetamol · ข้อห้าม: IVH ที่ยังเลือดออก, เกล็ดเลือดต่ำมาก/ เลือดออกง่าย, NEC/ ลำไส้ทะลุ, ไตวาย (ปัสสาวะน้อย Cr สูง)",
+   "ผลข้างเคียง indomethacin: ปัสสาวะน้อย/ ไตวายชั่วคราว, ลำไส้ทะลุเฉพาะที่ (โดยเฉพาะใช้ร่วม steroid), เกล็ดเลือดทำงานลด",
+   "หัตถการ: surgical ligation (left thoracotomy — ระวัง recurrent laryngeal nerve บาดเจ็บ) หรือ transcatheter closure ซึ่งทำได้แม้ในทารกน้ำหนักน้อย · ทารกครบกำหนด/ เด็กโตที่ PDA ยังเปิด → ปิดด้วย device เพื่อป้องกัน endarteritis และ pulmonary hypertension",
+   "ตรงข้าม: ทารกที่มี ductal-dependent lesion (pulmonary atresia, critical CoA, HLHS) ต้องให้ prostaglandin E1 เปิด duct ไว้ (ผลข้างเคียง apnea)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง B และลายมือในไฟล์ · ช้อยต้นฉบับจำได้ 4 ข้อ จึงเติม E เรื่อง indomethacin/ ibuprofen ตามลายมือ",
-  "mnemonic": "<b>'PDA ทารกเกิดก่อน: ปิดด้วย Pill (NSAIDs) ก่อน ผ่าทีหลัง'</b>",
-  "guide": "AAP Clinical Report: Patent Ductus Arteriosus in Preterm Infants (Pediatrics 2016;137:e20153730); Coran's Pediatric Surgery 8th ed. (2019)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — PDA ในทารกก่อนกำหนดปิดด้วย COX inhibitor ก่อน ผ่าตัดเมื่อยาล้มเหลวหรือใช้ไม่ได้ ข้อความว่าต้องผ่าตัดก่อนจึงผิด ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่ขีด B และสไลด์ Treatment ที่แปะ · ต้นฉบับลืมช้อยหนึ่ง เว็บเติม E เป็นข้อความถูกเรื่อง NSAIDs",
+  "mnemonic": "<b>'Preterm PDA: Pills (NSAID) first, Plumber (ligation/ device) later · Ductal-dependent: Prostaglandin keeps it open'</b>",
+  "guide": "Benitz WE; AAP Committee on Fetus and Newborn. Patent Ductus Arteriosus in Preterm Infants (Pediatrics 2016); Hundscheid T et al. Expectant Management or Early Ibuprofen for PDA (BeNeDuctus, N Engl J Med 2023)",
   "variants": [
-   "ทารกคลอดก่อนกำหนด PDA มี NEC → ห้าม NSAIDs → ผูก PDA",
-   "เด็ก 3 ปี continuous murmur ไม่มีอาการ → ปิดด้วยสายสวน (ป้องกัน endocarditis)",
-   "ทารกเขียวจาก pulmonary atresia → PGE1 เปิด PDA ไว้"
+   "ทารกครบกำหนด 2 วันเขียว ฟัง murmur ไม่ชัด echo พบ pulmonary atresia ที่ต้องอาศัย duct → prostaglandin E1 infusion (เตรียมรับมือ apnea)",
+   "ทารก 25 สัปดาห์ hsPDA แต่มี IVH grade III ที่ยังเลือดออกและเกล็ดเลือด 30,000 → ไม่ให้ NSAIDs พิจารณา paracetamol หรือ ligation/ transcatheter closure",
+   "เด็ก 3 ปีสุขภาพดี ฟังได้ continuous murmur ใต้กระดูกไหปลาร้าซ้าย echo PDA ขนาดเล็กมีเสียงฟู่ → transcatheter device closure",
+   "ทำไม indomethacin ไม่ได้ผลในทารกครบกำหนด/ เด็กโต → duct ที่โตเต็มที่ปิดด้วยพังผืดแล้วไม่ขึ้นกับ prostaglandin"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 5 — ตัวพิมพ์: <b>89. เด็ก preterm 800 g on intubation and mechanical support cause of ARSD with pneumonia and sepsis. Continuous murmur at left parasternal border, which is incorrect? — A. Dx PDA B. Correct by Sx is needed C. Med for pneumo and sepsis D.med for treat condition(murmur) Sx is needed when med fail ลืมช้อยนึงอ่ะ</b><br>ลายมือ: \"PDA\" เหนือ continuous murmur · A ✓ · B \"✗ premature baby : NSAIDs ปิด PDA\" + \"indomethacin / ibuprofen\" (แดง) · C ✓ · D ✓<br>ไฮไลต์: \"preterm 800 g\" \"ARSD with pneumonia and sepsis\" · \"Continuous murmur at left parasternal border\" (เหลือง) · \"incorrect?\" (ชมพู)<br>รูปที่แปะ: สไลด์ Physical Examination — Bounding peripheral pulses · Wide pulse pressure · Hyperactive precordium · continuous murmur (SEM in newborn) · Systolic thrill LUSB · Apical diastolic rumbling murmur: relative MS (พร้อมลายมือเล็ก) · สไลด์ Treatment — Indication closure: PDA in premature baby → CHF not response with medical closure: Indomethacin or Ibuprofen (NSAIDs) · PDA in term baby/children → clinical heart failure · *Recommend PDA closure to prevent infective endocarditis · Closure: Intervention / Surgical · Symptomatic patient · Asymptomatic (elective)<br>ที่ปรับในเว็บ: ลืมช้อยหนึ่ง → เติม E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 5",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU70|RoA|90": {
-  "interp": "เด็กหอบเหนื่อย ฟังได้ <b>wide split S2</b> + <b>systolic ejection murmur</b> ที่ขอบอกซ้ายบน EKG <b>incomplete RBBB</b> → ถามสาเหตุ",
-  "why": "<b>ASD</b> (มักเป็น secundum): เลือดไหลจาก LA → RA (L→R shunt) → <b>RV รับปริมาตรเกิน</b> → เลือดผ่านลิ้น pulmonic มาก → <b>SEM ที่ขอบอกซ้ายบน</b> (relative PS ไม่ใช่เสียงจากรูรั่วเอง) · ลิ้น pulmonic ปิดช้าตลอดทั้งหายใจเข้าออก → <b>wide fixed split S2</b> · EKG: <b>incomplete RBBB</b> + right axis deviation (RV โต) · ปริมาณมากอาจได้ยิน diastolic rumble ที่ LLSB (relative TS) · ปิดรูด้วยสายสวน (device) หรือผ่าตัดเมื่อ Qp/Qs > 1.5 หรือ RV โต · ไฟล์ P'Ing วง A และลายมือ <b>\"ASD → Lt. to Rt. shunt → RV overload → flow ผ่าน PV ↑ → Relative PS → SEM @ Lt. UPSB\"</b> \"EKG : incomplete RBBB\"",
+  "interp": "เด็กเหนื่อยง่าย มี <b>S2 แยกกว้าง (wide split)</b>, <b>systolic ejection murmur ที่ขอบซ้ายบนของ sternum</b> และ EKG <b>incomplete RBBB</b> — ถามสาเหตุ ต้องรู้ว่าแต่ละ congenital heart disease ให้เสียงหัวใจและ EKG แบบใด",
+  "why": "<b>Atrial septal defect (ASD)</b> ชนิดพบบ่อยที่สุดคือ <b>secundum</b> · เลือดไหลซ้ายไปขวาที่ระดับ atrium เพราะ RV ยืดหยุ่นกว่า LV → <b>RV volume overload</b> · เลือดไหลผ่านลิ้น pulmonary มากขึ้นเกิด <b>relative pulmonary stenosis</b> = systolic ejection murmur ที่ LUSB (ไม่ใช่เสียงเลือดผ่านรูรั่วเอง เพราะความดันสอง atrium ต่างกันน้อย) · RV บีบเลือดปริมาตรมากนานขึ้น ลิ้น pulmonary จึงปิดช้า → <b>S2 แยกกว้าง</b> และเพราะ shunt ปรับให้ปริมาตร RV ใกล้เคียงกันทั้งหายใจเข้าออก จึงเป็น <b>wide and fixed splitting</b> (ลักษณะเฉพาะของ ASD) · shunt ใหญ่ (Qp:Qs ≥ 2) เกิด mid-diastolic rumble ที่ LLSB จาก relative tricuspid stenosis · EKG: <b>incomplete RBBB (rsR′ ใน V1) + right axis deviation</b> ใน secundum ส่วน primum มี <b>left axis deviation</b> · CXR: RA/ RV โต เส้นเลือดปอดมาก · เด็กส่วนใหญ่ไม่มีอาการหรือเหนื่อยง่ายเล็กน้อย ปัญหาในผู้ใหญ่คือ AF, หัวใจห้องขวาล้มเหลว, paradoxical embolism และ pulmonary hypertension · ไฟล์วง A ลายมือ <b>\"ASD → Lt. to Rt. shunt → RV overload → flow ผ่าน PV ↑ → Relative PS\"</b> \"fixed (wide) splitting\" และ <b>\"EKG : incomplete RBBB\"</b>",
   "wrong": {
-   "B": "VSD ให้ holosystolic murmur ที่ขอบอกซ้ายล่าง S2 ไม่ fixed split · จะถูกถ้าทารก 2 เดือนเหนื่อยเวลาดูดนม เหงื่อออก ฟังได้ pansystolic murmur ที่ LLSB",
-   "C": "PDA ให้ continuous machinery murmur ใต้ไหปลาร้าซ้าย ชีพจรแรง pulse pressure กว้าง · จะถูกถ้าทารกคลอดก่อนกำหนดมี continuous murmur ชีพจรเต้นแรง",
-   "D": "Coarctation ทำให้ความดันแขนสูงกว่าขา ชีพจรขาเบาและช้ากว่าแขน (radiofemoral delay) · จะถูกถ้าเด็กความดันแขนสูง ชีพจรที่ขาหนีบเบา CXR เห็น rib notching",
-   "E": "TOF เด็กเขียว มี tet spells CXR boot-shaped heart เสียงฟู่จาก RVOT obstruction S2 เดี่ยว · จะถูกถ้าเด็ก 1 ปีเขียวเวลาร้อง นั่งยองเวลาเหนื่อย"
+   "B": "VSD ให้ <b>holosystolic murmur ที่ขอบซ้ายล่าง (LLSB)</b> ดัง หยาบ มักมี thrill S2 ปกติหรือ P2 ดังเมื่อ pulmonary pressure สูง และ EKG LVH/ biventricular hypertrophy เพราะ volume overload ไปที่ LA/ LV · จะถูกถ้าเป็นทารก 3 เดือนดูดนมแล้วเหนื่อย เหงื่อออก น้ำหนักไม่ขึ้น ฟังได้ holosystolic murmur หยาบที่ LLSB",
+   "C": "PDA ให้ <b>continuous machinery murmur</b> ใต้กระดูกไหปลาร้าซ้าย bounding pulse และ wide pulse pressure — volume overload ไปที่ LA/ LV ไม่ใช่ RV · จะถูกถ้าเป็นเด็ก 2 ปีมารดาติดหัดเยอรมันขณะตั้งครรภ์ ฟังได้เสียงฟู่ต่อเนื่องตลอดทั้ง systole และ diastole ใต้กระดูกไหปลาร้าซ้าย ชีพจรแรงเด้ง",
+   "D": "Coarctation of the aorta ให้<b>ความดันแขนสูงกว่าขา ชีพจรที่ขาหนีบเบาและมาช้า (radio-femoral delay)</b> systolic murmur ที่หลังระหว่างสะบัก เด็กโต CXR เห็น rib notching มักมี bicuspid aortic valve ร่วม · จะถูกถ้าเป็นเด็กหญิง 12 ปีรูปร่างเตี้ย คอเป็นพังผืด (Turner) ความดันแขน 160/90 แต่คลำชีพจรที่เท้าไม่ได้",
+   "E": "Tetralogy of Fallot มี<b>ตัวเขียว</b> tet spell (นั่งยอง ๆ แล้วดีขึ้น) systolic ejection murmur จาก RVOT obstruction ที่ LUSB แต่ <b>S2 เดี่ยว</b> (P2 เบามาก) EKG RVH/ right axis deviation CXR boot-shaped heart · จะถูกถ้าเป็นเด็ก 2 ปีตัวเขียวขึ้นเวลาร้องไห้ ชอบนั่งยองหลังวิ่งเล่น ฟังได้ ejection murmur ที่ LUSB และ S2 เดี่ยว"
   },
-  "trap": "คิดว่า SEM มาจากรูรั่ว — เสียงฟู่ใน ASD เกิดจากเลือดผ่านลิ้น pulmonic มาก (relative PS) และจุดเด่นคือ fixed split S2",
+  "trap": "Systolic ejection murmur ที่ LUSB พบได้ทั้ง ASD, pulmonary stenosis และ TOF ทำให้สับสน — ตัวแยกคือ <b>S2 แยกกว้างและคงที่</b> (ASD) เทียบกับ S2 เดี่ยว (TOF) และการไม่มีตัวเขียว · และอย่าคิดว่า murmur เกิดจากเลือดผ่านรูรั่ว atrium เพราะความดันต่างน้อย เสียงที่ได้ยินมาจาก<b>เลือดไหลผ่านลิ้น pulmonary มากขึ้น</b>",
   "summary": [
-   "ASD: wide fixed split S2 · SEM ที่ LUSB (relative PS)",
-   "EKG: incomplete RBBB + RAD (secundum) · LAD = primum",
-   "ASD ขนาดใหญ่: diastolic rumble ที่ LLSB (relative TS)",
-   "ปิด: Qp/Qs > 1.5 หรือ RV โต → device (secundum) / ผ่าตัด (primum, sinus venosus)",
-   "Eisenmenger → ห้ามปิด",
-   "Primum ASD สัมพันธ์กับ Down syndrome"
+   "ชนิด ASD: secundum (~70–75%, fossa ovalis) · primum (ส่วนหนึ่งของ AV canal defect มักมี cleft mitral, พบบ่อยใน Down syndrome) · sinus venosus (มักร่วม partial anomalous pulmonary venous return) · coronary sinus (unroofed)",
+   "การตรวจร่างกาย: RV heave, wide fixed split S2, SEM ที่ LUSB (relative PS), mid-diastolic rumble ที่ LLSB เมื่อ shunt ใหญ่ (relative TS)",
+   "EKG: secundum → incomplete RBBB + right axis deviation · primum → incomplete RBBB + left axis deviation (superior axis) ± first-degree AV block",
+   "Echo ยืนยัน (TTE ในเด็ก, TEE ในผู้ใหญ่) · ขนาดรูและ rim สำคัญต่อการเลือกวิธีปิด",
+   "ข้อบ่งชี้ปิด: RV volume overload/ Qp:Qs ≥ 1.5 ไม่มี pulmonary hypertension รุนแรงที่ไม่ย้อนกลับ · secundum ที่มี rim พอ → transcatheter device closure · primum, sinus venosus, coronary sinus, รูใหญ่มาก → ผ่าตัด · เด็กมักปิดแบบนัดช่วงก่อนวัยเรียน",
+   "ASD เล็กมักปิดเองได้ในช่วงขวบปีแรก ๆ ส่วนรูใหญ่ (&gt; ~8–10 mm) แทบไม่ปิดเอง",
+   "ไม่รักษาจนโต: AF/ atrial flutter, RV failure, paradoxical embolism (stroke), Eisenmenger syndrome (พบน้อยใน ASD และเกิดช้า) — เมื่อเกิด Eisenmenger แล้วห้ามปิดรู"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง A และลายมือในไฟล์ · ต้นฉบับเขียน \"incomplete rt. Ventricular nerve block\" หมายถึง incomplete RBBB",
-  "mnemonic": "<b>'ASD = S2 แยกตลอด (Fixed) · RBBB · เสียงฟู่บน (ผ่านลิ้น pulmonic)'</b>",
-  "guide": "2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease (Circulation 2019;139:e698); Moss and Adams' Heart Disease in Infants, Children, and Adolescents 10th ed. (2021)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — wide (fixed) split S2 + SEM ที่ LUSB + incomplete RBBB เป็นภาพคลาสสิกของ ASD secundum ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง A พร้อมอธิบายกลไก RV overload → relative PS · ต้นฉบับเขียน \"incomplete rt. ventricular nerve block\" ซึ่งเว็บแก้เป็น incomplete right bundle branch block",
+  "mnemonic": "<b>'ASD = Always Split Duo (wide &amp; fixed) + rSR′'</b>",
+  "guide": "2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease (Circulation 2019); Moss and Adams' Heart Disease in Infants, Children, and Adolescents 10th ed. (2021)",
   "variants": [
-   "เด็ก Down syndrome EKG left axis deviation → primum ASD/ AVSD",
-   "ทารกเหนื่อยเวลาดูดนม holosystolic murmur ที่ LLSB → VSD",
-   "เด็กความดันแขนสูง ชีพจรขาเบา → coarctation of aorta"
+   "เด็กหญิง 5 ปีไม่มีอาการ ฟังได้ wide fixed split S2 echo ASD secundum 14 mm rim พอ RV โต → transcatheter device closure",
+   "เด็ก Down syndrome มี wide split S2 EKG incomplete RBBB ร่วม left axis deviation และ first-degree AV block → ostium primum ASD (partial AV canal) → ผ่าตัดปิดรูและซ่อม cleft mitral",
+   "หญิง 40 ปีใจสั่นเป็น AF เพิ่งตรวจพบ ASD secundum ใหญ่ RV โต ไม่มี pulmonary hypertension รุนแรง → ปิด ASD ได้แม้เป็นผู้ใหญ่",
+   "ทำไม split S2 ใน ASD ไม่เปลี่ยนตามการหายใจ → หายใจเข้าเลือดดำกลับ RA มากขึ้นแต่ shunt ซ้ายไปขวาลดลงชดเชย ปริมาตร RV จึงสูงคงที่"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 6 — ตัวพิมพ์: <b>90. เด็กมี wide split S2 dyspnea systolic ejection murmur เจอincomplete rt. Ventricular nerve block สาเหตุ?? — A.asd B.vsd C.pda D.coarction of aorta E.tof</b><br>ลายมือ: \"@ LUSB\" เหนือ systolic ejection · \"ASD → Lt. to Rt. shunt → RV overload → flow ผ่าน PV ↑ → Relative PS → SEM @ Lt. UPSB\" · \"→ PV ปิดช้ามาก (wide) จนผลของการหายใจเข้าแทบไม่มีผล (fixed) → fixed (wide) spliting\" · \"EKG : incomplete RBBB\"<br>ไฮไลต์: วง A · \"wide split S2 dyspnea systolic ejection\" \"incomplete rt. Ventricular nerve block\"<br>รูปที่แปะ: สไลด์ Physical Examination — Increase RV impulse · Wide and fixed split S2 · In ASD, volume load to RV from Lt to Rt shunt across ASD results in delayed closure of pulmonic valve, both during inspiration and expiration → wide and fixed split of S2 (พร้อมภาพหัวใจและลายมือเล็ก)<br>ที่ปรับในเว็บ: \"incomplete rt. Ventricular nerve block\" เขียนเป็น incomplete right bundle branch block",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 6",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU70|RoA|xx": {
-  "interp": "เด็กหญิงแผลไฟไหม้ 4 × 7 cm ที่หลังขาขวา <b>แผลสีขาว เห็นหลอดเลือดดำใต้ผิวหนังอุดตัน</b> → ถามการรักษา",
-  "why": "แผลไฟไหม้<b>สีขาว/ เหมือนหนัง ไม่เจ็บ</b> และ<b>เห็นหลอดเลือดใต้ผิวหนังอุดตัน (thrombosed subdermal veins)</b> = <b>full-thickness (3rd degree) burn</b> · ผิวหนังทุกชั้นรวมรูขุมขนและต่อมเหงื่อถูกทำลาย แผลหายเองไม่ได้ (นอกจากหดจากขอบ เกิดแผลเป็นหดรั้ง) → <b>ตัดเนื้อตายออกแต่เนิ่น (early excision) แล้วปลูกผิวหนัง split-thickness</b> · ลดการติดเชื้อ ลดแผลเป็นหดรั้ง และย่นเวลานอนโรงพยาบาล · ไฟล์ P'Ing วง B ✓ และลายมือ <b>\"subdermal vein thrombosis = 3rd degree burn\"</b> \"ตัดเนื้อตายทิ้ง + skin graft = debridement → ↓deformity ↓infection\"",
+  "interp": "เด็กหญิงไฟไหม้ขนาด <b>4 × 7 cm</b> ที่หลังขาขวา แผล<b>สีขาว</b> และเห็น<b>หลอดเลือดดำใต้ผิวหนังอุดตัน (thrombosed subdermal veins)</b> = <b>full-thickness (third-degree) burn</b> — ถามการจัดการ หลักคือแผลไหม้เต็มความหนาไม่มีเซลล์ผิวเหลือให้งอกใหม่ ต้องตัดเนื้อตายแล้วปลูกผิว",
+  "why": "ประเมินความลึกของแผลไฟไหม้: <b>superficial (1st)</b> แดง เจ็บ ไม่มีตุ่มน้ำ หายใน 3–7 วัน · <b>superficial partial thickness</b> ตุ่มน้ำ ชื้น ชมพู กดจาง เจ็บมาก หายเองใน 2–3 สัปดาห์ · <b>deep partial thickness</b> ขาวปนแดง กดจางช้า ความรู้สึกลด หายช้าเกิน 3 สัปดาห์และเป็นแผลเป็นนูน/ หดรั้ง · <b>full thickness</b> ขาวซีดแข็งเหมือนหนังหรือไหม้ดำ <b>ไม่เจ็บ</b> (ปลายประสาทถูกทำลาย) กดไม่จาง และ<b>เห็น thrombosed vessels</b> · เพราะ dermis ถูกทำลายทั้งหมด (รวมรากขน/ ต่อมเหงื่อที่เป็นแหล่งเซลล์ผิว) แผลจะหายได้แค่จากขอบช้ามาก และเป็นแผลเป็นหดรั้ง → มาตรฐานคือ <b>early tangential excision + split-thickness skin graft</b> (ภายในราวสัปดาห์แรกหลังผู้ป่วยคงที่) ซึ่งลดการติดเชื้อ ระยะเวลานอนโรงพยาบาล และแผลเป็นหดรั้ง · STSG เหมาะกับแผลกว้างบนฐานที่มีเลือดเลี้ยงดีหลังตัดเนื้อตาย ติดง่าย มี donor site ที่หายเอง · ไฟล์วง B ✓ ลายมือ <b>\"subdermal vein thrombosis = 3rd degree burn\"</b> และ \"ตัดเนื้อตายทิ้ง + skin graft = debridement → ↓deformity ↓infection\"",
   "wrong": {
-   "A": "ทา silver sulfadiazine จนหายใช้กับแผลลึกบางส่วน (partial thickness) ที่หายเองได้ใน 2–3 สัปดาห์ (ลายมือ \"x conservative = partial thickness burn\") · จะถูกถ้าแผลไฟไหม้สีชมพูแดง ชื้น มีตุ่มน้ำ เจ็บมาก กดแล้วจาง",
-   "C": "FTSG ใช้กับพื้นที่เล็กที่ต้องลดการหดรั้งและต้องการความสวย (ลายมือ \"x ใช้กับ area ที่ต้องลด contraction e.g. face, nose, hand\") · จะถูกถ้าแผลไฟไหม้ลึกเต็มชั้นขนาดเล็กที่ฝ่ามือหรือเปลือกตา",
-   "D": "Local flap ใช้ปิดแผลที่เห็นกระดูก เอ็น หรือข้อซึ่งผิวหนังปลูกติดไม่ได้ · จะถูกถ้าแผลไฟไหม้ไฟฟ้าลึกถึงกระดูกหน้าแข้งเปิด (4th degree)",
-   "E": "ทำแผลแห้งอย่างเดียวไม่ทำให้แผลเต็มชั้นหาย เกิดติดเชื้อและแผลเป็นหดรั้ง · จะถูกถ้าเป็นแผลไฟไหม้ระดับ superficial (1st degree) ผิวแดงไม่มีตุ่มน้ำ เช่น แดดเผา"
+   "A": "Silver sulfadiazine ทาจนหายเหมาะกับแผล partial thickness ที่หายเองได้ (ไฟล์เขียน x conservative = partial thickness burn) — ในแผลเต็มความหนาใช้แค่ป้องกันติดเชื้อระหว่างรอผ่าตัด · จะถูกถ้าเป็นเด็กชาย 6 ปีน้ำร้อนลวกที่แขน 3% มีตุ่มน้ำ ผิวชมพูชื้น เจ็บมาก กดจางเร็ว (superficial partial thickness ทำแผลด้วย silver dressing หรือยาทาจนหาย)",
+   "C": "FTSG หนากว่า ติดยากกว่า donor site ต้องเย็บปิดจึงได้พื้นที่น้อย ใช้กับบริเวณเล็กที่ต้องการลดการหดรั้งและความสวยงาม (ไฟล์เขียน face, nose, hand) ไม่ใช่แผลไหม้ 28 cm² ที่ขา · จะถูกถ้าเป็นเด็กหญิง 8 ปีมีแผลเป็นหดรั้งที่ฝ่ามือหลังไฟไหม้ นิ้วเหยียดไม่ได้ (ปลดแผลเป็นแล้วปิดด้วย FTSG จากขาหนีบ)",
+   "D": "Local flap ใช้ปิดแผลที่ฐานไม่มีเลือดเลี้ยง (กระดูก เอ็น ข้อ เปิด) หรือปลดแผลเป็นหดรั้งข้ามข้อ (Z-plasty) — แผลไหม้ที่หลังขาหลังตัดเนื้อตายเหลือฐานไขมัน/ fascia ที่ปลูกผิวได้ · จะถูกถ้าเป็นชาย 30 ปีไฟฟ้าแรงสูงช็อตที่ข้อศอก หลังตัดเนื้อตายเห็นข้อและเอ็นโผล่ (ปิดด้วย local/ regional flap)",
+   "E": "ปิดผ้าแห้งอย่างเดียวไม่ป้องกันการติดเชื้อและไม่ช่วยให้แผลเต็มความหนาหาย · จะถูกถ้าเป็นหญิง 25 ปีผิวไหม้แดดแดงทั่วไหล่ ไม่มีตุ่มน้ำ (superficial burn — ไม่ต้องใช้ยาฆ่าเชื้อ ให้ยาแก้ปวดและครีมบำรุงผิว ปิดผ้าเฉพาะเพื่อกันเสียดสี)"
   },
-  "trap": "คิดว่าแผลขนาดเล็ก 4 × 7 cm ทาครีมจนหายได้ — แผลเต็มชั้นหายเองไม่ได้ ต้อง excision + graft",
+  "trap": "แผลไม่ใหญ่ (4 × 7 cm) และเป็นเด็ก ทำให้คิดว่าทำแผลด้วยยาทาจนหายได้ — แต่<b>ความลึก</b>สำคัญกว่าขนาด: แผลขาว ไม่เจ็บ เห็น thrombosed vessels = full thickness ไม่หายเองในเวลาที่เหมาะสม · ต้องแยก STSG (แผลกว้าง ฐานดี) กับ FTSG (บริเวณเล็กที่ต้องการลดหดรั้ง เช่น หน้า มือ)",
   "summary": [
-   "Superficial (1st): แดง ไม่มีตุ่มน้ำ เจ็บ → ทาครีม",
-   "Superficial partial: ตุ่มน้ำ ชมพู ชื้น กดจาง เจ็บมาก → หายเอง 2–3 สัปดาห์",
-   "Deep partial: ซีด กดไม่จาง เจ็บน้อย → มักต้อง excision + graft",
-   "Full thickness (3rd): ขาว/ เหมือนหนัง ไม่เจ็บ thrombosed veins → excision + STSG",
-   "FTSG: หน้า มือ ข้อพับ (ลดการหดรั้ง)",
-   "4th degree: ถึงกล้ามเนื้อ/ กระดูก → flap"
+   "ความลึก: superficial (epidermis) → superficial partial (papillary dermis, ตุ่มน้ำ เจ็บมาก) → deep partial (reticular dermis, ขาวปนแดง ความรู้สึกลด) → full thickness (ขาว/ ดำแข็ง ไม่เจ็บ thrombosed vessels) → 4th degree (กล้ามเนื้อ/ กระดูก)",
+   "แผลที่คาดว่าไม่หายภายใน 3 สัปดาห์ (deep partial และ full thickness) → early excision + grafting เพื่อลดแผลเป็นนูน/ หดรั้งและการติดเชื้อ",
+   "Topical antimicrobial: silver sulfadiazine (ห้ามแพ้ sulfa, ทำให้ WBC ลดชั่วคราว) · mafenide acetate (ซึมผ่าน eschar ได้ดี ใช้ที่หู แต่เกิด metabolic acidosis จากยับยั้ง carbonic anhydrase) · silver nitrate (Na ต่ำ ผิวดำ) · silver-impregnated dressing",
+   "แผลไหม้เต็มความหนารอบแขนขา/ ลำตัว → ระวัง compartment/ หายใจลำบาก → escharotomy",
+   "STSG: ติดง่าย donor site หายเองใน 10–14 วัน ใช้ซ้ำได้ ขยายด้วย meshing ได้ แต่หดตัวมากกว่า · FTSG: สีและผิวดีกว่า หดน้อย แต่ติดยากกว่า donor site ต้องเย็บปิด",
+   "เกณฑ์ส่ง burn center (ABA/ ATLS): partial thickness &gt; 10% TBSA, full thickness ทุกอายุ, หน้า มือ เท้า อวัยวะเพศ ฝีเย็บ ข้อใหญ่, ไฟฟ้า สารเคมี inhalation injury, โรคร่วม, เด็กในโรงพยาบาลที่ไม่มีบุคลากรพร้อม",
+   "เด็กที่มีแผลไหม้ต้องประเมินการถูกทำร้าย: รูปแผลเป็นถุงมือ/ ถุงเท้าขอบชัด (จุ่มน้ำร้อน) แผลบุหรี่กลม ประวัติไม่สอดคล้องกับพัฒนาการ → แจ้งทีมคุ้มครองเด็ก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง B ✓ และลายมือในไฟล์ · ช้อย E ต้นฉบับจำไม่ได้ จึงเติม dry dressing",
-  "mnemonic": "<b>'ขาว + เส้นเลือดอุด + ไม่เจ็บ = เต็มชั้น → ตัด + ปะ (STSG)'</b>",
-  "guide": "ISBI Practice Guidelines for Burn Care (Burns 2016;42:953); Herndon's Total Burn Care 6th ed. (2023)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — แผลขาวที่เห็น thrombosed subdermal veins คือ full-thickness burn ต้องตัดเนื้อตายและปลูกผิวด้วย STSG ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง B ✓ และตาราง STSG vs FTSG ที่แปะ · ช้อย E ต้นฉบับจำไม่ได้ เว็บเติม dry dressing ซึ่งไม่กระทบคำตอบ",
+  "mnemonic": "<b>'ขาว ไม่เจ็บ เส้นเลือดอุดตัน = Full thickness → Excise + Split graft'</b>",
+  "guide": "Herndon's Total Burn Care 5th ed. (2018) — Burn wound excision and grafting; ATLS 10th ed. (2018) — Thermal Injuries",
   "variants": [
-   "แผลไฟไหม้ตุ่มน้ำ สีชมพู เจ็บมาก → superficial partial thickness ทำแผลชุ่มชื้น",
-   "แผลไฟไหม้เต็มชั้นที่หลังมือ → excision + FTSG/ sheet graft",
-   "แผลไฟไหม้ไฟฟ้าเห็นกระดูกหน้าแข้ง → flap coverage"
+   "ชาย 40 ปีไฟไหม้เต็มความหนารอบต้นแขนทั้งวง มือเย็น ชีพจรเบาลงเรื่อย ๆ → escharotomy ตามแนว mid-medial/ mid-lateral",
+   "แผลไฟไหม้ที่ต้นขามีตุ่มน้ำ ผิวขาวปนแดง กดจางช้า ความรู้สึกลด ผ่านไป 3 สัปดาห์ยังไม่หาย → deep partial thickness → excision + STSG",
+   "เด็ก 2 ปีแผลน้ำร้อนลวกที่เท้าทั้งสองข้างขอบชัดเป็นรูปถุงเท้า ประวัติไม่สอดคล้อง → สงสัยถูกทำร้าย (immersion burn) → ตรวจร่างกายทั้งตัว skeletal survey แจ้งทีมคุ้มครองเด็ก",
+   "แผลเต็มความหนาที่เปลือกตาบนหลังไฟไหม้หน้า ตาปิดไม่สนิท → full-thickness skin graft เพื่อลดการหดรั้ง (ectropion)"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 6 — ตัวพิมพ์: <b>xx. girl ถูกนำมา ER เพราะโดน burn ขนาด 4x7 cm แผลสีขาว posterior right leg ,vein thrombosis is noted ถาม management — A. Silver...... ทาจนแผล heal B. STSG C. FTSG D. Local flap E. จำไม่ได้</b><br>ลายมือ: \"subdermal vein thrombosis = 3rd degree burn\" · \"ตัดเนื้อตายทิ้ง + skin graft = debridement → ↓deformity ↓infection\" · A \"x conservative = partial thickness burn\" · B ✓ · C \"x ใช้กับ area ที่ต้องลด contraction e.g. face, nose, hand\" · D ✗<br>ไฮไลต์: วง B · \"burn ขนาด 4x7 cm\" · \"แผลสีขาว\" \"vein thrombosis\" (เหลือง)<br>รูปที่แปะ: ภาพแผลไฟไหม้ (ลายมือเล็ก) · ตาราง STSG vs FTSG — Structure: STSG 100% epidermis and part of the dermis / FTSG 100% epidermis and dermis (also a percentage of fat) · Graft endurance: high / lower chance of graft survival · Confronting to trauma: less / more resistance · Cosmetic: poor, does not prevent contraction / better-quality, thicker, prevents contraction or deformation · When performed: temporarily or permanently after excision of a burn injury, as long as there is sufficient blood supply / when aesthetic outcome is important (e.g., facial defects) · Donor: abdomen, buttock, inner or outer arm, inner forearm and thigh / nearby site with similar color or texture · Disadvantages: poor cosmetic, greater chance of distortion or contraction / higher risk of graft failure, donor site long healing, greater risk of deformation and hypertrophic scar<br>ที่ปรับในเว็บ: ช้อย E จำไม่ได้ → เติม dry dressing only",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 6",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU70|RoB|5": {
-  "interp": "หญิง 60 ปีไม่มีอาการ US พบไตซ้ายบวมน้ำ <b>ปัสสาวะมีเลือดระดับกล้อง</b> CT พบ<b>ก้อน hypodense 1.5 cm ที่ UPJ</b> ส่องกระเพาะปัสสาวะปกติ → ถามขั้นต่อไป",
-  "why": "Microscopic hematuria + ก้อนที่อุดกรวยไต/ ท่อไต (hydronephrosis = อาการอุดตันทุติยภูมิ) + กระเพาะปัสสาวะปกติ → สงสัย <b>upper tract urothelial carcinoma (UTUC)</b> · ขั้นต่อไปคือ<b>ยืนยันชิ้นเนื้อ</b>ด้วย <b>ureteroscopy + biopsy</b> (± urine cytology จากท่อไตส่วนบน) เพื่อแยกเกรด/ ความเสี่ยง · เสี่ยงต่ำ (ก้อนเดี่ยว &lt; 2 cm เกรดต่ำ ไม่ลุกลามบน CT) → รักษาเก็บไตด้วยการส่องกล้องจี้/ เลเซอร์ · เสี่ยงสูง → <b>radical nephroureterectomy + bladder cuff excision</b> (gold standard) · ไฟล์ P'Ing วง C และลายมือ <b>\"✓ investigate ต่อ (จริง ๆ ก้อนเล็ก URS ใช้ ablation เลยได้)\"</b> ที่ B \"x treatment เลยยังไม่ได้ Investigate ต่อก่อน\"",
+  "interp": "หญิง 60 ปีไม่มีอาการ US พบ hydronephrosis ซ้าย มี <b>microscopic hematuria</b> (RBC 50–100/HPF) CT พบ<b>ก้อน hypodense 1.5 cm ที่ UPJ ซ้าย</b> และ cystoscopy ปกติ = สงสัย <b>upper tract urothelial carcinoma (UTUC)</b> — ถามขั้นต่อไป ต้องรู้ว่าก่อนตัดสินการรักษาต้องยืนยันชิ้นเนื้อและแบ่งความเสี่ยง",
+  "why": "<b>UTUC</b> เป็นมะเร็งเยื่อบุทางเดินปัสสาวะที่ renal pelvis/ ureter พบราว 5–10% ของ urothelial carcinoma ปัจจัยเสี่ยงคือ<b>บุหรี่</b> aristolochic acid (สมุนไพร/ Balkan nephropathy) Lynch syndrome และ phenacetin · CT urography เห็น filling defect/ ผนังหนา หรือก้อนที่ทำให้ hydronephrosis · ขั้นตอนตาม EAU: <b>cystoscopy</b> (ตัดมะเร็งกระเพาะปัสสาวะร่วม) + <b>urine cytology</b> + <b>diagnostic ureteroscopy with biopsy</b> (± selective cytology) เพื่อยืนยันชนิดและ<b>เกรด</b> ซึ่งใช้แบ่ง <b>low-risk</b> (ก้อนเดียว &lt; 2 cm, cytology/ biopsy low grade, CT ไม่มีลักษณะลุกลาม) ที่เลือก <b>kidney-sparing</b> (endoscopic laser ablation, segmental ureterectomy) ได้ กับ <b>high-risk</b> (high grade, &gt; 2 cm, หลายก้อน, hydronephrosis, ลุกลามบนภาพ) ที่รักษาด้วย <b>radical nephroureterectomy (RNU) with bladder cuff excision</b> · การรู้เกรดก่อนสำคัญเพราะ RNU ทำให้เสียไตทั้งข้าง (ราวหนึ่งในห้าถึงครึ่งหนึ่งของผู้ป่วยกลับเป็นในกระเพาะปัสสาวะภายหลัง จึงให้ single intravesical chemotherapy หลัง RNU) · ไฟล์วง C ✓ ลายมือ <b>\"investigate ต่อ (จริงๆ ก้อนเล็ก URS ใช้ ablation เลยได้)\"</b> และขีด B \"x treatment เลยยังไม่ได้ Investigate ต่อก่อน\"",
   "wrong": {
-   "A": "ตัดไตอย่างเดียวเหลือท่อไตซึ่ง UTUC กลับเป็นซ้ำที่ตอท่อไตบ่อย และยังไม่ได้วินิจฉัย · จะถูกถ้าก้อนเนื้อแข็งในเนื้อไต enhance ชัด เข้ากับ renal cell carcinoma",
-   "B": "เป็นการรักษามาตรฐานของ UTUC เสี่ยงสูง แต่ยังไม่ได้ชิ้นเนื้อ (ลายมือ \"x treatment เลยยังไม่ได้ Investigate ต่อก่อน\") · จะถูกถ้า ureteroscopic biopsy ยืนยัน UTUC เกรดสูง ก้อนใหญ่ หรือลุกลามบน CT",
-   "D": "PCNL ใช้เอานิ่วในไตขนาดใหญ่ ไม่ใช่ก้อนเนื้อ และเจาะผ่านผิวเสี่ยงเซลล์มะเร็งฝังที่ทางเจาะ · จะถูกถ้า CT พบนิ่วในกรวยไต > 2 cm (ค่า HU สูง)",
-   "E": "ก้อนที่สงสัยมะเร็งร่วมกับเลือดในปัสสาวะไม่ควรรอ 6 เดือน · จะถูกถ้าเป็นถุงน้ำที่ไต Bosniak IIF (ติดตามด้วย CT/ MRI)"
+   "A": "Nephrectomy (radical/ simple) ตัดไตแต่<b>เหลือท่อไตและ bladder cuff</b> ไว้ ซึ่งในมะเร็ง urothelial จะกลับเป็นซ้ำใน ureteral stump บ่อย — เป็นการรักษามะเร็งเนื้อไต ไม่ใช่ UTUC · จะถูกถ้าเป็นชาย 58 ปี CT พบก้อน solid enhancing 7 cm ในเนื้อไตซ้าย (renal cell carcinoma) ไม่แพร่กระจาย (radical nephrectomy)",
+   "B": "RNU with bladder cuff เป็น gold standard ของ high-risk UTUC แต่<b>ยังไม่มีชิ้นเนื้อยืนยัน</b> — ก้อนอาจเป็นนิ่วโปร่งรังสี ลิ่มเลือด หรือ low-grade ที่เก็บไตได้ (ไฟล์เขียน x treatment เลย) · จะถูกถ้าเป็นชาย 65 ปีสูบบุหรี่ ureteroscopic biopsy เป็น high-grade urothelial carcinoma ก้อน 3 cm ใน renal pelvis ไตอีกข้างปกติ",
+   "D": "PCNL (percutaneous nephrolithotomy) ใช้เอานิ่วในไตขนาดใหญ่ ไม่ใช่วินิจฉัยก้อนเนื้อ และการเจาะผ่านผิวหนังในมะเร็ง urothelial เสี่ยงเซลล์มะเร็งฝังตามแนวท่อ · จะถูกถ้าเป็นหญิง 55 ปีมี staghorn stone 3 cm ในไตขวา ติดเชื้อทางเดินปัสสาวะซ้ำ",
+   "E": "การรอ CT ซ้ำ 6 เดือนเหมาะกับรอยโรคที่มีความเสี่ยงต่ำ ไม่ใช่ก้อนที่ UPJ ซึ่งทำให้ hydronephrosis และมี hematuria (ไตเสื่อมระหว่างรอและมะเร็งลุกลาม) · จะถูกถ้าเป็นหญิง 50 ปีที่ CT พบ angiomyolipoma 2 cm มีไขมันชัดเจนในไต ไม่มีอาการ (ติดตามภาพเป็นระยะ)"
   },
-  "trap": "ข้ามไปผ่าตัดใหญ่ทันที — ต้องได้ชิ้นเนื้อจาก ureteroscopy ก่อน",
+  "trap": "CT เห็นก้อนชัดร่วม hematuria ทำให้รีบตัดไตตามมาตรฐาน RNU — แต่ UTUC เป็นมะเร็งที่<b>การรักษาขึ้นกับเกรด</b> และก้อนเล็กอาจเก็บไตได้ จึงต้อง ureteroscopy + biopsy ก่อน · อีกกับดักคือเลือก nephrectomy ซึ่งไม่ตัดท่อไตออก ใช้กับมะเร็งเนื้อไต ไม่ใช่มะเร็งเยื่อบุ",
   "summary": [
-   "UTUC: hematuria · ก้อนในกรวยไต/ ท่อไต · CT urography",
-   "ส่องกระเพาะปัสสาวะเสมอ (มะเร็งร่วม ~17%)",
-   "วินิจฉัย: URS + biopsy + cytology",
-   "เสี่ยงต่ำ: kidney-sparing (endoscopic ablation)",
-   "เสี่ยงสูง: RNU + bladder cuff excision (gold standard)",
-   "ติดตามกระเพาะปัสสาวะหลังผ่าตัด (กลับเป็นซ้ำ 22–47%)"
+   "UTUC: renal pelvis มากกว่า ureter · พบร่วม/ ตามหลังมะเร็งกระเพาะปัสสาวะ — ผู้ป่วยมะเร็งกระเพาะปัสสาวะต้องตรวจ upper tract เป็นระยะ และผู้ป่วย UTUC ต้อง cystoscopy",
+   "ปัจจัยเสี่ยง: บุหรี่, aristolochic acid (สมุนไพรบางชนิด), arsenic, phenacetin, cyclophosphamide, Lynch syndrome (UTUC เป็นมะเร็งนอกลำไส้ที่พบบ่อยของ Lynch — ซักประวัติครอบครัว/ ตรวจ MMR)",
+   "วินิจฉัย: CT urography (ไวที่สุด) · cystoscopy + urine cytology · diagnostic URS + biopsy (± selective washing) — หลีกเลี่ยง URS ซ้ำโดยไม่จำเป็นก่อน RNU เพราะเพิ่ม intravesical recurrence",
+   "Low-risk UTUC (ทุกข้อ: ก้อนเดียว &lt; 2 cm, low-grade cytology/ biopsy, ไม่มีลักษณะลุกลามบน CT) → kidney-sparing: ureteroscopic laser ablation, segmental ureterectomy (ureter ส่วนปลาย), ± ยาเคมีบำบัดใส่ upper tract",
+   "High-risk (ข้อใดข้อหนึ่ง: hydronephrosis, &gt; 2 cm, high grade, หลายก้อน, ลุกลามบนภาพ, เคยผ่าตัดมะเร็งกระเพาะปัสสาวะ high grade, variant histology) → RNU with bladder cuff excision ± lymphadenectomy",
+   "หลัง RNU: single postoperative intravesical chemotherapy (MMC/ pirarubicin) ลดการกลับเป็นในกระเพาะปัสสาวะ · pT2–T4 หรือ N+ → adjuvant platinum chemotherapy (POUT trial)",
+   "ติดตาม: cystoscopy เป็นระยะทุกราย + CT urography · ผู้ทำ kidney-sparing ต้อง ureteroscopy ซ้ำร่วมด้วย"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C ✓ และลายมือในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
-  "mnemonic": "<b>'ก้อนท่อไตส่วนบน: ส่อง (URS) ก่อน ตัด (RNU) ทีหลัง'</b>",
-  "guide": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma 2024; AUA/ SUO Guideline on Upper Tract Urothelial Carcinoma (2023)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ก้อนที่ UPJ สงสัย UTUC หลัง cystoscopy ปกติต้อง ureteroscopy + biopsy เพื่อยืนยันและแบ่งเกรดก่อนเลือก kidney-sparing หรือ RNU ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง C และขีด B ว่ายังไม่ควรรักษาก่อนสืบค้น · ต้นฉบับมี 4 ช้อย เว็บเติม E",
+  "mnemonic": "<b>'UTUC: Scope &amp; Sample ก่อน Scalpel — Low grade เก็บไต, High grade NU + bladder cuff'</b>",
+  "guide": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma 2025; Campbell-Walsh-Wein Urology 12th ed. (2020) — Urothelial tumors of the upper urinary tract and ureter",
   "variants": [
-   "URS biopsy พบ UTUC เกรดสูง 3 cm → radical nephroureterectomy + bladder cuff",
-   "UTUC เกรดต่ำ ก้อนเดี่ยว 1 cm ไตเดียว → ureteroscopic laser ablation",
-   "ชาย 65 ปีสูบบุหรี่ ปัสสาวะเป็นเลือดเห็นด้วยตา → CT urography + cystoscopy"
+   "ชาย 62 ปี URS biopsy ก้อน 1 cm ที่ ureter ส่วนกลาง เป็น low-grade ก้อนเดียว CT ไม่ลุกลาม → ureteroscopic laser ablation และติดตาม URS ซ้ำ",
+   "หญิง 45 ปีเป็น UTUC มีพ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 48 และน้องสาวเป็นมะเร็งเยื่อบุโพรงมดลูก → สงสัย Lynch syndrome → ตรวจ MMR/ germline testing",
+   "หลัง RNU ผลพยาธิ pT3N0 high grade → adjuvant platinum-based chemotherapy",
+   "ผู้ป่วยมะเร็งกระเพาะปัสสาวะ high-grade ที่รักษาแล้ว 2 ปี cytology บวกแต่ cystoscopy ปกติ → ตรวจ upper tract ด้วย CT urography/ URS และ biopsy ต่อมลูกหมาก/ urethra"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 8 — ตัวพิมพ์: <b>5. หญิง 60 ปี asymptomatic ultrasoundเจอไตhydronephrosis UAมี wbc0-1 rbc 50-100 CTพบ hypodense 1.5 cm mass at UPJ ทำ cystoscope แล้ว normal ควาทำยังไงต่อ — A. left nephrectomy B. left ureteronephrectomy C. left ureteroscope D. left PCNL</b><br>ลายมือ: \"2° sign of obstruction\" · \"microscopic hematuria\" · \"upper TCC\" · B \"x treatment เลยยังไม่ได้ Investigate ต่อก่อน\" (แดง) · C \"✓ investigate ต่อ (จริงๆ ก้อนเล็ก URS ใช้ ablation เลยได้)\"<br>ไฮไลต์: วง C · \"60 ปี asymptomatic\" \"hydronephrosis\" \"rbc 50-100\" \"hypodense 1.5 cm mass at UPJ\" \"ควาทำยังไงต่อ\"<br>รูปที่แปะ: สไลด์ Investigations — Urine cytology · Ureterorenoscope (URS): for diagnosis: biopsy, for treatment: tumor ablation (ลายมือเล็ก) · สไลด์ Treatment — Gold standard: Radical nephroureterectomy with bladder cuff excision (ลายมือเล็ก) พร้อมภาพแนวตัด nephroureterectomy<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 8",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU70|RoB|7": {
-  "interp": "ทารกอายุ 3 สัปดาห์ <b>ชักและซึม</b> ตรวจพบ<b>คลิตอริสโต + แคมติดกัน</b> (ambiguous genitalia) → ถามความผิดปกติที่อธิบายอาการ",
-  "why": "ทารกเพศหญิงที่มีอวัยวะเพศกำกวม (androgen สูง) + ทรุดลงช่วงอายุ 1–4 สัปดาห์ = <b>congenital adrenal hyperplasia (21-hydroxylase deficiency) ชนิด salt-wasting</b> · ขาด aldosterone และ cortisol → เสียเกลือทางไต → <b>hyponatremia</b>, hyperkalemia, ภาวะขาดน้ำ ความดันต่ำ ± hypoglycemia · อาการ<b>ชักและซึม</b>เกิดจาก<b>โซเดียมต่ำ</b> (สมองบวม) · ACTH สูง → androgen สูง · วินิจฉัย: 17-OH progesterone สูง · รักษาวิกฤต: NSS bolus + <b>hydrocortisone</b> ขนาดสูง แก้น้ำตาล ต่อด้วย hydrocortisone + fludrocortisone + เกลือ · ไฟล์ P'Ing วง C และลายมือ <b>\"✓ salt-wasting crisis\"</b> \"dx = congenital adrenal hyperplasia (ACTH ↑; cortisol ↓, mineralocorticoid ↓, androgen ↑)\"",
+  "interp": "ทารก<b>อายุ 3 สัปดาห์</b> (ไฟล์ระบุเป็นเด็กหญิง) มาด้วย<b>ชักและซึม</b> ตรวจพบ<b>ปุ่มกระสันโต (clitoromegaly) และแคมเชื่อมติดกัน</b> = 46,XX ที่ถูก virilize → <b>congenital adrenal hyperplasia (CAH)</b> ชนิด salt-wasting — ถามความผิดปกติทางเคมีที่<b>อธิบายอาการ (ชัก ซึม)</b>",
+  "why": "CAH ที่พบบ่อยที่สุด (ราว 90–95%) คือ <b>21-hydroxylase deficiency</b> ทำให้สร้าง cortisol และ aldosterone ไม่ได้ → ACTH สูง กระตุ้นต่อมหมวกไตจน precursor (17-OHP) ล้นไปทาง <b>androgen</b> → ทารกหญิงมีอวัยวะเพศกำกวม (ทารกชายอวัยวะเพศดูปกติจึงมักวินิจฉัยช้ากว่า) · ชนิด <b>salt-wasting</b> ขาด aldosterone → ไตเสียโซเดียมและเก็บโพแทสเซียม เกิด <b>adrenal crisis ช่วงอายุ 1–4 สัปดาห์</b> (มักราว 2–3 สัปดาห์): อาเจียน ดูดนมไม่ดี น้ำหนักลด ขาดน้ำ ช็อก · <b>hyponatremia</b> ทำให้น้ำเข้าเซลล์สมองเกิด<b>สมองบวม → ซึม ชัก</b> จึงเป็นสิ่งที่อธิบายอาการทางระบบประสาท (hypoglycemia จากขาด cortisol ก็ทำให้ชักได้แต่ไม่อยู่ในช้อย) · ร่วมกับ hyperkalemia (เสี่ยงหัวใจเต้นผิดจังหวะ) และ metabolic acidosis · วินิจฉัยด้วย <b>17-OHP สูงมาก</b> (หลายประเทศคัดกรองทารกแรกเกิด) karyotype · รักษา crisis: <b>NSS 20 mL/kg</b> + dextrose + <b>hydrocortisone stress dose IV</b> แก้ K สูง · ระยะยาว hydrocortisone + fludrocortisone + เกลือเสริมในทารก · ไฟล์วง C ✓ ลายมือ <b>\"salt-wasting crisis\"</b> ขีด B <b>\"x K↑ แต่ไม่ใช่ cause\"</b> และ \"dx = congenital adrenal hyperplasia\"",
   "wrong": {
-   "A": "CAH 21-OH ทำให้โพแทสเซียม<b>สูง</b>ไม่ใช่ต่ำ (ลายมือ ✗) · จะถูกถ้าเป็น CAH ชนิด 11β-hydroxylase deficiency (DOC สูง) มีความดันสูง โพแทสเซียมต่ำ ร่วมกับ virilization",
-   "B": "โพแทสเซียมสูงพบจริงใน salt-wasting แต่ทำให้หัวใจเต้นผิดจังหวะ ไม่ใช่สาเหตุของชักและซึม (ลายมือ \"x K↑ แต่ไม่ใช่ cause\") · จะถูกถ้าคำถามถามสาเหตุของ peaked T wave หรือหัวใจเต้นผิดจังหวะในทารก CAH",
-   "D": "แคลเซียมสูงไม่ใช่ลักษณะของ CAH · จะถูกถ้าทารกมี Williams syndrome (elfin face, supravalvular AS) ซึม อาเจียน แคลเซียมสูง",
-   "E": "CAH ทำให้น้ำตาล<b>ต่ำ</b> (ขาด cortisol) ไม่ใช่สูง · จะถูกถ้าคำถามถามภาวะน้ำตาลในเลือดในวิกฤต CAH แล้วช้อยเป็น hypoglycemia"
+   "A": "Hypokalemia ไม่เข้ากับขาด aldosterone (ต้องได้ K สูง) — พบใน CAH ชนิด <b>11β-hydroxylase deficiency</b> ที่ 11-deoxycorticosterone สะสม (ฤทธิ์ mineralocorticoid) จึงมี virilization ร่วม<b>ความดันสูงและ K ต่ำ</b> · จะถูกถ้าเป็นเด็กหญิง 4 ปีมี clitoromegaly ขนหัวเหน่าขึ้นเร็ว ความดันโลหิตสูง K 2.9 mmol/L",
+   "B": "Hyperkalemia เกิดจริงใน salt-wasting CAH แต่ผลหลักคือ<b>หัวใจเต้นผิดจังหวะ</b> (T สูงแหลม QRS กว้าง) ไม่ใช่ชัก/ ซึม (ไฟล์เขียน K↑ แต่ไม่ใช่ cause) · จะถูกถ้าเป็นทารก CAH อายุ 2 สัปดาห์ที่มาด้วยช็อก ECG มี peaked T wave และ wide QRS หัวใจเต้นช้า (ให้ calcium gluconate ร่วมแก้ K)",
+   "D": "Hypercalcemia ทำให้ซึม กระสับกระส่าย อาเจียน ท้องผูก ปัสสาวะมาก แต่ไม่เกี่ยวกับ CAH หรืออวัยวะเพศกำกวม · จะถูกถ้าเป็นทารก 6 สัปดาห์ที่คลอดยาก มีก้อนแข็งแดงใต้ผิวหนังที่หลังและแก้ม (subcutaneous fat necrosis) ซึม อาเจียน น้ำหนักไม่ขึ้น calcium สูง",
+   "E": "CAH ขาด cortisol ทำให้น้ำตาล<b>ต่ำ</b> ไม่ใช่สูง · hyperglycemia ในทารกพบใน neonatal diabetes หรือทารกก่อนกำหนดที่ได้ glucose infusion มาก · จะถูกถ้าเป็นทารก 6 สัปดาห์ปัสสาวะมาก น้ำหนักไม่ขึ้น หายใจหอบลึก glucose 600 mg/dL มี ketone (neonatal diabetes จาก KCNJ11/ ABCC8 mutation)"
   },
-  "trap": "เลือก hyperkalemia เพราะพบใน CAH — อาการชัก/ ซึมเกิดจากโซเดียมต่ำ",
+  "trap": "Hyperkalemia เป็นค่าที่ผิดปกติชัดใน salt-wasting crisis จึงชวนเลือก — แต่คำถามถามสิ่งที่<b>อธิบายอาการชักและซึม</b> ซึ่งเกิดจาก <b>hyponatremia</b> (สมองบวม) ส่วน K สูงทำให้หัวใจเต้นผิดจังหวะ · อย่าสับสนกับ 11β-hydroxylase deficiency ที่ K ต่ำและความดันสูง",
   "summary": [
-   "CAH 21-OH: พบบ่อยที่สุด (~95%) · 17-OHP สูง",
-   "Salt-wasting: Na ↓ K ↑ ขาดน้ำ ช็อก อายุ 1–4 สัปดาห์",
-   "หญิง: อวัยวะเพศกำกวม · ชาย: อวัยวะเพศปกติ มาด้วยวิกฤตเกลือ",
-   "วิกฤต: NSS 20 mL/kg + hydrocortisone IV + แก้น้ำตาล",
-   "ระยะยาว: hydrocortisone + fludrocortisone + NaCl",
-   "11β-OH: ความดันสูง K ต่ำ"
+   "21-hydroxylase deficiency (CYP21A2) ~90–95% ของ CAH · classic salt-wasting (~75% ของ classic) · simple virilizing · non-classic (อาการหลังคลอด: ขนดก สิว ประจำเดือนผิดปกติ โตเร็ว)",
+   "กลไก: cortisol ↓ → ACTH ↑ → ต่อมหมวกไตโต · aldosterone ↓ → Na ↓ K ↑ acidosis · precursor ล้นไป androgen ↑ → virilization ในทารกหญิง/ precocious puberty ในชาย",
+   "Salt-wasting crisis อายุ 1–4 สัปดาห์: อาเจียน ดูดนมไม่ดี ขาดน้ำ ช็อก · Na ↓ K ↑ glucose ↓ metabolic acidosis — ทารกชายเสี่ยงพลาดการวินิจฉัยเพราะอวัยวะเพศปกติ",
+   "วินิจฉัย: 17-OHP สูงมาก (ยืนยันด้วย ACTH stimulation test ในรายก้ำกึ่ง) · renin สูง · karyotype + pelvic US (มีมดลูกใน 46,XX) · หลายประเทศคัดกรอง 17-OHP ในทารกแรกเกิด",
+   "รักษา crisis: NSS 20 mL/kg bolus + dextrose + hydrocortisone IV ขนาด stress (ราว 50–100 mg/m²) · ระยะยาว: hydrocortisone 10–15 mg/m²/วัน + fludrocortisone + NaCl เสริมในขวบปีแรก · เพิ่มขนาด hydrocortisone เมื่อป่วย/ ผ่าตัด",
+   "11β-hydroxylase deficiency: virilization + ความดันสูง + K ต่ำ (DOC สะสม) · 17α-hydroxylase deficiency: ไม่มี androgen (เพศหญิงไม่เข้าสู่วัยรุ่น ชายอวัยวะเพศกำกวม) + ความดันสูง + K ต่ำ",
+   "ทารกอวัยวะเพศกำกวมเป็นภาวะเร่งด่วนทางการแพทย์ (ตัด salt-wasting CAH ก่อน) และทางสังคม — ไม่กำหนดเพศจนกว่าทีมสหสาขาประเมินครบ · การผ่าตัด feminizing genitoplasty ช่วงเวลายังเป็นข้อถกเถียง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C ✓ และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'CAH 21: เกลือหาย (Na ↓) K ค้าง (↑) เพศหญิงดูเป็นชาย'</b>",
-  "guide": "Endocrine Society Clinical Practice Guideline: Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency (J Clin Endocrinol Metab 2018;103:4043)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ทารกหญิงที่ virilize แล้วชักและซึมตอนอายุ 3 สัปดาห์คือ salt-wasting crisis ของ CAH ซึ่ง hyponatremia อธิบายอาการทางสมอง ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง C และเขียนว่า K สูงไม่ใช่สาเหตุของอาการ · ต้นฉบับมี 3 ช้อย เว็บเติม D, E",
+  "mnemonic": "<b>'21-OH = Salt-wasting: Na ↓ (ชัก), K ↑ (หัวใจ), Sugar ↓, Sex ambiguous (หญิง)'</b>",
+  "guide": "Speiser PW et al. Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency: An Endocrine Society Clinical Practice Guideline (J Clin Endocrinol Metab 2018); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Disorders of sex development",
   "variants": [
-   "ทารกชาย 2 สัปดาห์อาเจียน ขาดน้ำ Na 122 K 7.2 อวัยวะเพศปกติ → CAH salt-wasting",
-   "เด็กหญิง 6 ปีขนหัวหน่าวขึ้น อายุกระดูกเร็ว 17-OHP สูง → non-classic/ simple virilizing CAH",
-   "ทารกมีอวัยวะเพศกำกวม ความดันสูง K ต่ำ → 11β-hydroxylase deficiency"
+   "ทารกชาย 2 สัปดาห์อวัยวะเพศปกติ อาเจียน น้ำหนักลด ช็อก Na 120 K 7.5 → salt-wasting CAH (ทารกชายวินิจฉัยช้าเพราะอวัยวะเพศไม่ผิดปกติ) → NSS + hydrocortisone IV",
+   "เด็กหญิงวัยรุ่น 16 ปี ขนดก สิว ประจำเดือนไม่สม่ำเสมอ 17-OHP สูงหลัง ACTH stimulation → non-classic CAH",
+   "เด็ก CAH ที่กิน hydrocortisone เป็นไข้สูงและอาเจียน → เพิ่ม hydrocortisone เป็น stress dose (ฉีดถ้ากินไม่ได้) เพื่อป้องกัน adrenal crisis",
+   "ทำไม hyponatremia ทำให้ชัก → น้ำซึมเข้าเซลล์สมองตามแรงดันออสโมติก สมองบวม ความดันในกะโหลกสูง"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 8 — ตัวพิมพ์: <b>7. A 3 week old girl presented with seizure drowsiness (มั้ง) PE : big clitoris ,labial fusion. What cause symptom of this patient? — A. Hypokalemia B. Hyperkalemia C. Hyponatremia</b><br>ลายมือ: \"dx = congenital adrenal hyperplasia → ACTH↑ ; cortisol↓, mineralocorticoid↓, androgen↑\" · A ✗ · B \"x K↑ แต่ไม่ใช่ cause\" (แดง) · C \"✓ salt-wasting crisis\"<br>ไฮไลต์: วง C · \"3 week old girl\" \"seizure drowsiness\" \"big clitoris ,labial fusion\"<br>รูปที่แปะ: สรุปลายมือ CAH (Cong. Adrenal hyperplasia) — กลไก 21-OH deficiency → cortisol/ aldosterone ↓ ACTH ↑ androgen ↑, classic (salt wasting/ simple virilizing) vs non-classic, Dx 17-OHP, Tx hydrocortisone + fludrocortisone + NaCl (ตัวเล็ก อ่านได้บางส่วน) และสไลด์ CAH - DIAGNOSIS<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 8",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU70|RoB|11": {
-  "interp": "ชาย 60 ปี เบาหวาน ปวดสีข้างขวา + ปัสสาวะเป็นเลือด นิ่วท่อไตส่วนปลาย 10 mm อยากทำ SWL → ถามข้อห้าม",
-  "why": "<b>ข้อห้ามของ shock wave lithotripsy</b>: <b>coagulopathy/ เลือดออกง่ายที่ยังไม่แก้</b> (เสี่ยงเลือดออกใต้แคปซูลไต), ตั้งครรภ์, การติดเชื้อทางเดินปัสสาวะที่ยังไม่รักษา, หลอดเลือดโป่งพองใกล้นิ่ว (renal/ aortic aneurysm), การอุดตันใต้ต่อนิ่ว, เล็งนิ่วไม่ได้ (โครงกระดูกผิดรูป อ้วนมาก) · เครื่องกระตุ้นหัวใจเป็นข้อควรระวัง · ทำซ้ำได้ เบาหวานและแผลเป็นไม่ใช่ข้อห้าม · ไฟล์ P'Ing วง C และลายมือ <b>\"ESWL contraindication - coagulation disorder - pregnant women - cardiac pacemaker / defibrillators patient - calcified aneurysm / lung tissue in shock wave path\"</b> พร้อมแปะ Box 53-2",
+  "interp": "ชาย 60 ปีเบาหวาน ปวดสีข้างขวาและปัสสาวะเป็นเลือดจาก<b>นิ่ว 10 mm ที่ท่อไตส่วนปลายขวา</b> ต้องการทำ <b>shock-wave lithotripsy (SWL)</b> — ถามว่าข้อใดเป็น<b>ข้อห้าม</b> ต้องรู้ว่า SWL ทำให้เนื้อเยื่อตามแนวคลื่นบาดเจ็บเลือดออก และต้องให้เศษนิ่วผ่านลงไปได้",
+  "why": "SWL ใช้คลื่นกระแทกจากภายนอกโฟกัสที่นิ่วจนแตกเป็นเศษเล็กแล้วขับออกเอง · คลื่นทำให้เนื้อไตและหลอดเลือดเล็กตามแนวคลื่นบาดเจ็บ เกิด <b>renal/ perirenal hematoma</b> ได้ จึงมีข้อห้ามสำคัญ (Campbell-Walsh Box ที่ไฟล์แปะ): <b>ตั้งครรภ์</b> · <b>coagulopathy/ bleeding diathesis ที่ยังไม่แก้</b> (รวมยาต้านเกล็ดเลือด/ ยากันเลือดแข็งที่ยังไม่หยุด) · <b>UTI ที่ยังไม่รักษา</b> (เศษนิ่วติดเชื้อทำให้ sepsis) · <b>aneurysm ใกล้นิ่ว</b> (renal artery aneurysm, AAA) · <b>การอุดตันใต้ต่อนิ่ว</b> (เศษนิ่วออกไม่ได้) · <b>เล็งนิ่วไม่ได้</b> (กระดูกผิดรูป อ้วนมาก) · pacemaker/ ICD เป็นข้อระวัง (ปิดหรือเตรียมโปรแกรม) · ปัจจัยที่ทำให้ SWL ได้ผลน้อย: นิ่วแข็ง (calcium oxalate monohydrate, cystine, brushite) ค่า HU สูง (&gt; ~1,000) skin-to-stone distance ไกล (&gt; ~10 cm) นิ่วใหญ่ &gt; 2 cm หรือที่ lower pole มุมแคบ · สำหรับนิ่วท่อไตส่วนปลาย 10 mm ปัจจุบัน <b>ureteroscopy ได้ผล stone-free สูงกว่า</b> แต่ SWL ยังเป็นทางเลือก · ไฟล์วง C ลายมือ <b>\"ESWL contraindication - coagulation disorder - pregnant women - cardiac pacemaker / defibrillators - calcified aneurysm / lung tissue in shock wave path\"</b>",
   "wrong": {
-   "A": "SWL ทำซ้ำได้ (เว้นระยะ) เคยทำ 1 ปีก่อนไม่ใช่ข้อห้าม · จะถูกถ้าคำถามถามสาเหตุที่ควรเปลี่ยนวิธีหลังทำ SWL ซ้ำ 2–3 ครั้งไม่แตก (เปลี่ยนเป็น URS)",
-   "B": "เบาหวานที่ฉีดอินซูลินไม่ใช่ข้อห้าม · จะถูกถ้าคำถามถามปัจจัยที่ทำให้นิ่วกลับเป็นซ้ำ (เบาหวาน → กรดยูริกในปัสสาวะ)",
-   "D": "หูหนวกไม่เกี่ยวกับ SWL · จะถูกถ้าคำถามถามผลข้างเคียงของยา aminoglycoside ในผู้ป่วยติดเชื้อทางเดินปัสสาวะ",
-   "E": "แผลผ่าตัดไส้ติ่งไม่ขวางทางคลื่นกระแทก · จะถูกถ้าโครงกระดูกผิดรูปมาก (scoliosis รุนแรง) จนเล็งนิ่วไม่ได้"
+   "A": "เคยทำ SWL เมื่อ 1 ปีก่อนไม่ใช่ข้อห้าม ทำซ้ำได้เมื่อนิ่วใหม่/ เหลือ (เว้นระยะพอให้ไตหายจากการบาดเจ็บ) · จะถูกถ้าเป็นผู้ป่วยหลัง SWL ไม่กี่วันที่เศษนิ่วเรียงอัดแน่นในท่อไตส่วนปลาย (steinstrasse) อุดตันจนไตบวม — การอุดตันใต้ต่อนิ่วเป็นข้อห้ามทำ SWL ซ้ำที่นิ่วด้านบน",
+   "B": "เบาหวานที่ใช้ insulin ไม่ใช่ข้อห้าม (ต้องปรับยาช่วงงดอาหาร) แต่เบาหวานเพิ่มโอกาสติดเชื้อ · จะถูกถ้าเป็นผู้ป่วยเบาหวานที่มีไข้ ปัสสาวะแสบขัด UA มีหนองและเพาะเชื้อขึ้น E. coli (untreated UTI เป็นข้อห้าม ต้องรักษาให้หายก่อนทำ SWL)",
+   "D": "หูหนวกไม่เกี่ยวกับการทำ SWL (คลื่นกระแทกโฟกัสที่นิ่ว ไม่กระทบหู) · จะถูกถ้าเป็นผู้ป่วยหูหนวกที่ฝัง cardiac pacemaker หรือ ICD ไว้ใกล้แนวคลื่น — ตัวเครื่องฝังต่างหากที่เป็นข้อระวัง/ ข้อห้ามสัมพัทธ์ ต้องปรึกษาแพทย์โรคหัวใจตั้งค่าเครื่องก่อน",
+   "E": "แผลผ่าตัดไส้ติ่งที่ผนังหน้าท้องไม่ขวางแนวคลื่นที่ใช้กับท่อไต และไม่ใช่ข้อห้าม · จะถูกถ้าเป็นผู้ป่วยที่มีแผลผ่าตัดเก่าและมี abdominal aortic aneurysm หรือ renal artery aneurysm ที่มีหินปูนอยู่ในแนวคลื่น (aneurysm ใกล้นิ่วคือข้อห้ามจริง)"
   },
-  "trap": "คิดว่าโรคประจำตัว (เบาหวาน) หรือการเคยทำแล้วเป็นข้อห้าม — ข้อห้ามหลักคือเลือดออกง่าย ตั้งครรภ์ ติดเชื้อ หลอดเลือดโป่งพอง อุดตันใต้นิ่ว",
+  "trap": "ช้อยหลอกเป็นลักษณะที่ฟังดูเหมือนเพิ่มความเสี่ยง (เบาหวานฉีด insulin, เคยทำมาแล้ว, แผลเป็นใหญ่) — ให้คิดจากกลไก: SWL <b>ทำให้เลือดออก</b> (ห้าม coagulopathy, aneurysm, ตั้งครรภ์) <b>ปล่อยเชื้อจากนิ่ว</b> (ห้าม UTI ที่ยังไม่รักษา) และ<b>ต้องให้เศษนิ่วผ่าน</b> (ห้ามอุดตันใต้นิ่ว) · ไฟล์ต้นฉบับเขียน \"10 cm stone\" ซึ่งเว็บแก้เป็น 10 mm",
   "summary": [
-   "SWL ข้อห้าม: ตั้งครรภ์ · coagulopathy · UTI ไม่รักษา · aneurysm ใกล้นิ่ว · อุดตันใต้นิ่ว · เล็งนิ่วไม่ได้",
-   "ข้อควรระวัง: pacemaker/ ICD · อ้วนมาก (ระยะผิว-นิ่ว > 10 cm)",
-   "นิ่วแข็ง (cystine, calcium oxalate monohydrate, HU > 1000) แตกยาก",
-   "นิ่วท่อไตส่วนปลาย: URS สำเร็จสูงกว่า SWL",
-   "หยุด antiplatelet/ anticoagulant ก่อน SWL",
-   "ภาวะแทรกซ้อน: steinstrasse · subcapsular hematoma"
+   "ข้อห้าม SWL: ตั้งครรภ์ · coagulopathy/ ยาต้านเกล็ดเลือด-กันเลือดแข็งที่ยังไม่หยุด · UTI ที่ยังไม่รักษา · aneurysm ใกล้นิ่ว · อุดตันใต้นิ่ว · เล็งนิ่วไม่ได้ (กระดูกผิดรูป อ้วนมาก)",
+   "ปัจจัย SWL ได้ผลน้อย: นิ่ว &gt; 2 cm, lower pole ที่มุม infundibulopelvic แคบ, นิ่วแข็ง (COM, cystine, brushite), HU &gt; ~1,000, skin-to-stone distance &gt; ~10 cm",
+   "ภาวะแทรกซ้อน SWL: hematuria (เกือบทุกราย), renal colic จากเศษนิ่ว, steinstrasse, perirenal hematoma, UTI/ sepsis",
+   "Steinstrasse ไม่มีอาการ/ ไม่ติดเชื้อ → MET (α-blocker) · ปวด/ อุดตันมาก → URS · มีไข้ → ระบาย PCN/ DJ stent ก่อน",
+   "นิ่วท่อไต (EAU): &lt; 10 mm → SWL หรือ URS · ≥ 10 mm โดยเฉพาะส่วนปลาย → URS เป็นตัวเลือกหลัก (stone-free สูงกว่า ต้องทำซ้ำน้อยกว่า)",
+   "นิ่วในไต: &lt; 1 cm → SWL หรือ RIRS · 1–2 cm → SWL/ RIRS (lower pole แข็ง → RIRS/ PCNL) · &gt; 2 cm → PCNL",
+   "ก่อน SWL/ URS ทุกราย: urine culture และรักษา UTI ให้หาย · หยุดยาต้านเกล็ดเลือด/ กันเลือดแข็งตามความเสี่ยง (URS ทำได้แม้ยังกินยา)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C และ Box 53-2 ที่แปะในไฟล์ · ต้นฉบับเขียนนิ่ว 10 cm ซึ่งน่าจะหมายถึง 10 mm",
-  "mnemonic": "<b>'ห้าม SWL = PUBA: Pregnancy · UTI · Bleeding · Aneurysm (+ อุดตันใต้นิ่ว)'</b>",
-  "guide": "EAU Guidelines on Urolithiasis 2024 — Shock wave lithotripsy contraindications; Campbell-Walsh-Wein Urology 12th ed. (2020)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — coagulopathy ที่ยังควบคุมไม่ได้เป็นข้อห้ามของ SWL เพราะเสี่ยง renal hematoma ส่วนช้อยอื่นไม่ใช่ข้อห้าม ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง C และ Box ข้อห้าม SWL ที่แปะ · ในทางปฏิบัติปัจจุบันนิ่วท่อไตส่วนปลาย 10 mm มักเลือก ureteroscopy มากกว่า",
+  "mnemonic": "<b>'SWL ห้ามเมื่อ ท้อง-เลือดออก-ติดเชื้อ-อุดใต้นิ่ว-aneurysm ใกล้นิ่ว (Pregnant, Bleeding, Infected, Obstructed, Aneurysm)'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2025; Campbell-Walsh-Wein Urology 12th ed. (2020) — Surgical management of upper urinary tract calculi",
   "variants": [
-   "หญิงตั้งครรภ์ 20 สัปดาห์นิ่วท่อไตอุดตัน → DJ stent/ URS (ห้าม SWL)",
-   "ผู้ป่วยนิ่วกรวยไต 1.5 cm มี AAA 5 cm → ห้าม SWL",
-   "นิ่วท่อไตส่วนปลาย 8 mm ปวดไม่หาย → URS + laser"
+   "หญิงตั้งครรภ์ 20 สัปดาห์มีนิ่วท่อไตอุดตันปวดมาก → ห้าม SWL → ใส่ DJ stent หรือ ureteroscopy",
+   "ชาย 50 ปีกิน clopidogrel หลังใส่ stent หัวใจ 3 เดือน นิ่วในไต 8 mm → ไม่ทำ SWL ขณะยังกินยา เลือก flexible ureteroscopy ซึ่งทำได้โดยไม่หยุดยา",
+   "ชาย 45 ปีนิ่วในไต 1.5 cm ค่า 1,400 HU skin-to-stone distance 13 cm → SWL ได้ผลน้อย → RIRS หรือ PCNL",
+   "หลัง SWL 1 สัปดาห์ เศษนิ่วเรียงแน่นในท่อไตส่วนปลาย มีไข้หนาวสั่น → steinstrasse ติดเชื้อ → ระบายด้วย PCN + IV antibiotic"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 8 — ตัวพิมพ์: <b>11. 60 yo male, DM, right flank pain + hematuria, 10 cm stone at right distal ureter. คนไข้อยากทำ SWL อะไรคือ contraindication — A. เคยทำ 1 ปีที่แล้ว B. DM ฉีด insulin C. Uncontrolled coagulopathy D. Deafness E. เคยผ่า appendix มี surgical scar ใหญ่</b><br>ลายมือ: \"shock wave lithotripsy\" ใต้ SWL · \"ESWL contraindication - coagulation disorder - pregnant women - cardiac pacemaker / defibrillators patient - calcified aneurysm / lung tissue in shock wave path\"<br>ไฮไลต์: วง C · \"DM, right flank pain + hematuria\" \"10 cm stone at right distal ureter\" · \"contraindication\" (ชมพู)<br>รูปที่แปะ: BOX 53-2 Contraindications to Shock Wave Lithotripsy — Pregnancy · Uncorrected coagulopathy or bleeding diathesis · Untreated urinary tract infection · Arterial aneurysm near stone (renal or abdominal aortic aneurysm) · Obstruction of urinary tract distal to stone · Inability to target stone (skeletal malformation)<br>ที่ปรับในเว็บ: \"10 cm stone\" เขียนเป็น 10-mm",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 8",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU70|RoB|18": {
-  "interp": "ชาย 60 kg ไฟไหม้ระดับ 2–3 <b>40% TBSA</b> 2 ชม.ก่อนมาถึง ได้ RL ระหว่างทาง <b>1,200 mL</b> → ถามอัตรา RL ต่อชั่วโมงใน 6 ชม.ถัดไป",
-  "why": "สูตร <b>Parkland</b>: 4 mL × kg × %TBSA = 4 × 60 × 40 = <b>9,600 mL/ 24 ชม.</b> · ให้<b>ครึ่งแรกใน 8 ชม. นับจากเวลาเกิดเหตุ</b> = 4,800 mL · ผ่านไปแล้ว 2 ชม. ได้ไป 1,200 mL → เหลือ 3,600 mL ใน 6 ชม. = <b>600 mL/ชม.</b> · อีกครึ่งให้ใน 16 ชม.ต่อมา · สูตรเป็นแค่จุดเริ่ม <b>ปรับตามปัสสาวะ 0.5 mL/kg/ชม. (ผู้ใหญ่ 30–50 mL/ชม.)</b> และระวังให้น้ำเกิน (fluid creep) · ATLS/ ABA ปัจจุบันเริ่มที่ 2 mL × kg × %TBSA ในผู้ใหญ่ · ไฟล์ P'Ing วง E และลายมือ <b>\"Total volume 24 hr = 4 × % × kg = 4×40×60 = 9600 mL · 1/2 ใน 8hr = 4800 mL/8hr ได้ไป 1200 mL/2hr (เหลือ 3600 mL/6hr) ∴ ได้อีก 600 mL ต่อ 6 hrs\"</b>",
+  "interp": "ชาย 35 ปี <b>60 kg</b> ไฟไหม้ระดับสองและสามรวม <b>40% TBSA</b> เกิดเหตุ <b>2 ชม.ก่อน</b>มาถึง ได้ Ringer lactate ระหว่างทาง <b>1,200 mL</b> — ถามอัตรา RL ต่อชั่วโมงใน 6 ชม.ถัดไป ต้องคำนวณตามสูตร <b>Parkland</b> โดยนับเวลาจาก<b>ตอนเกิดเหตุ</b>และหักสารน้ำที่ได้ไปแล้ว",
+  "why": "แผลไฟไหม้กว้าง (ผู้ใหญ่ ≥ 20% TBSA ของระดับสองและสาม) ทำให้ capillary leak ทั่วร่างกายใน 24 ชม.แรก ต้องให้ crystalloid (นิยม <b>Ringer lactate</b>) ทดแทน · <b>Parkland formula: 4 mL × น้ำหนัก (kg) × %TBSA</b> (นับเฉพาะระดับสองและสาม ไม่นับระดับหนึ่ง) ใน 24 ชม. โดยให้<b>ครึ่งแรกใน 8 ชม.แรกนับจากเวลาเกิดเหตุ</b> และครึ่งหลังใน 16 ชม.ถัดไป · คำนวณ: 4 × 60 × 40 = <b>9,600 mL/24 ชม.</b> → ครึ่งแรก 4,800 mL ภายในชั่วโมงที่ 8 · ผ่านไปแล้ว 2 ชม.ได้ 1,200 mL → เหลือ 3,600 mL ใน 6 ชม. = <b>600 mL/ชม.</b> · สูตรเป็นเพียงจุดเริ่มต้น ต้อง<b>ปรับตาม urine output</b> เป้าหมายผู้ใหญ่ 0.5 mL/kg/ชม. (ราว 30–50 mL/ชม.) เด็ก 1 mL/kg/ชม. · ปัจจุบัน ATLS 10th และ ABA แนะนำเริ่มที่ <b>2 mL/kg/%TBSA</b> ในผู้ใหญ่ไฟไหม้จากความร้อน (3 mL ในเด็ก, 4 mL ในไฟฟ้าแรงสูง) เพื่อลด <b>fluid creep</b> ที่ทำให้ abdominal/ extremity compartment syndrome และ pulmonary edema · ไฟล์วง E ลายมือ <b>\"Total volume 24 hr = 4 × % × kg = 4×40×60 = 9600 mL\"</b> \"1/2 ใน 8hr = 4800 ได้ไป 1200 mL/2hr (เหลือ 3600 mL/6hr)\" <b>\"∴ ได้อีก 600 mL ต่อ 6 hrs\"</b>",
   "wrong": {
-   "A": "800 mL/ชม. = 4,800 ÷ 6 คือลืมหักสารน้ำที่ได้ระหว่างทาง · จะถูกถ้าผู้ป่วยไม่ได้สารน้ำเลยใน 2 ชม.แรก (เหลือ 4,800 mL ใน 6 ชม.)",
-   "B": "1,000 mL/ชม. ไม่ตรงกับตัวเลขในโจทย์ · จะถูกถ้าไฟไหม้ 60% TBSA น้ำหนัก 60 kg ได้ 1,200 mL ใน 2 ชม.แรก (ครึ่งแรก 7,200 − 1,200 = 6,000 ÷ 6)",
-   "C": "1,200 mL/ชม. ให้มากเกินไป เสี่ยง fluid creep (compartment syndrome ท้อง ปอดบวมน้ำ) · จะถูกถ้าน้ำหนัก 70 kg ไฟไหม้ 60% ได้ 1,200 mL ใน 2 ชม.แรก (8,400 − 1,200 = 7,200 ÷ 6)",
-   "D": "500 mL/ชม. ให้น้อยเกินไป · จะถูกถ้าไฟไหม้ 35% TBSA น้ำหนัก 60 kg ได้ 1,200 mL ใน 2 ชม.แรก (4,200 − 1,200 = 3,000 ÷ 6)"
+   "A": "800 mL/ชม. ได้จาก 4,800 ÷ 6 คือ<b>ลืมหักสารน้ำ 1,200 mL</b> ที่ได้ระหว่างทาง ทำให้ให้เกินจนเสี่ยง fluid creep · จะถูกถ้าเป็นชาย 60 kg ไฟไหม้ 40% ที่มาถึงหลังเกิดเหตุ 2 ชม.โดย<b>ยังไม่ได้รับสารน้ำเลย</b> (4,800 mL ต้องให้ใน 6 ชม.ที่เหลือ)",
+   "B": "1,000 mL/ชม. ไม่ตรงกับตัวเลข 60 kg 40% ที่ได้ RL ไปแล้ว 1,200 mL ในการคำนวณใด ๆ ตาม Parkland · จะถูกถ้าเป็นชาย <b>75 kg</b> ไฟไหม้ 40% มาถึงหลังเกิดเหตุ 2 ชม.โดยยังไม่ได้สารน้ำ (4 × 75 × 40 = 12,000 → ครึ่งแรก 6,000 ÷ 6 ชม. = 1,000 mL/ชม.)",
+   "C": "1,200 mL/ชม. เป็นสองเท่าของที่ต้องการ อาจมาจากการสับสนเอาปริมาณที่ได้ระหว่างทางมาเป็นอัตรา · จะถูกถ้าเป็นชาย 60 kg ไฟไหม้ <b>60%</b> มาถึงหลังเกิดเหตุ 2 ชม.โดยยังไม่ได้สารน้ำ (4 × 60 × 60 = 14,400 → ครึ่งแรก 7,200 ÷ 6 = 1,200 mL/ชม.)",
+   "D": "500 mL/ชม. ต่ำกว่าที่สูตร Parkland กำหนดสำหรับน้ำหนัก 60 kg และ 40% TBSA · จะถูกถ้าเป็นหญิง <b>50 kg</b> ไฟไหม้ 40% ได้ RL ระหว่างทาง <b>1,000 mL</b> ใน 2 ชม.แรก (4 × 50 × 40 = 8,000 → ครึ่งแรก 4,000 − 1,000 = 3,000 ÷ 6 = 500 mL/ชม.)"
   },
-  "trap": "นับ 8 ชม.จากเวลามาถึงโรงพยาบาล หรือลืมหักสารน้ำที่ได้มาแล้ว — 8 ชม.แรกนับจากเวลาเกิดเหตุ",
+  "trap": "ข้อผิดพลาดที่พบบ่อยคือ<b>นับ 8 ชม.จากตอนมาถึงโรงพยาบาล</b>แทนจากเวลาเกิดเหตุ และ<b>ลืมหักสารน้ำที่ได้ก่อนมาถึง</b> (ได้ 800) · นอกจากนี้ต้องนับ TBSA เฉพาะระดับสองและสาม · คำตอบตามสูตรนี้ใช้ Parkland 4 mL ตามข้อสอบ แม้ ATLS ปัจจุบันเริ่มที่ 2 mL แล้วปรับตาม urine output",
   "summary": [
-   "Parkland: 4 mL × kg × %TBSA (นับเฉพาะ 2nd–3rd degree)",
-   "ครึ่งแรกใน 8 ชม. นับจากเวลาเกิดเหตุ · ครึ่งหลังใน 16 ชม.",
-   "ATLS 10th/ ABA: ผู้ใหญ่เริ่ม 2 mL · ไฟฟ้าแรงสูง 4 mL",
-   "เด็ก: 3 mL × kg × %TBSA + สารน้ำมีน้ำตาล (maintenance)",
-   "เป้าปัสสาวะ: ผู้ใหญ่ 0.5 mL/kg/ชม. · เด็ก &lt; 30 kg 1 mL/kg/ชม. · ไฟฟ้า 1 mL/kg/ชม.",
-   "ให้สารน้ำเมื่อไฟไหม้ ≥ 20% TBSA (ผู้ใหญ่)"
+   "Rule of nines ผู้ใหญ่: ศีรษะ 9, แขนข้างละ 9, ขาข้างละ 18, ลำตัวหน้า 18, ลำตัวหลัง 18, ฝีเย็บ 1 · เด็กศีรษะใหญ่กว่า (ทารก ~18%) ขาเล็กกว่า → ใช้ Lund-Browder · แผลกระจาย → ฝ่ามือผู้ป่วยรวมนิ้ว ≈ 1%",
+   "เริ่ม formal resuscitation เมื่อ ≥ 20% TBSA ในผู้ใหญ่ (≥ 10–15% ในเด็ก) · ให้ผ่าน IV ใหญ่ 2 เส้น ผ่านผิวที่ไม่ไหม้ถ้าได้",
+   "Parkland 4 mL/kg/%TBSA · ATLS 10th: ผู้ใหญ่ thermal 2 mL, เด็ก ≤ 13 ปี 3 mL (+ maintenance ที่มี dextrose ในเด็กเล็ก), ไฟฟ้าแรงสูง 4 mL — ครึ่งแรกใน 8 ชม.จากเวลาเกิดเหตุ",
+   "เป้า urine output: ผู้ใหญ่ 0.5 mL/kg/ชม. · เด็ก &lt; 30 kg 1 mL/kg/ชม. · ไฟฟ้าแรงสูงที่ปัสสาวะสีเข้ม (myoglobinuria) 1–1.5 mL/kg/ชม. จนใส — ปรับอัตราขึ้นลงทีละ ~1/3 ตาม urine output",
+   "Fluid creep (ให้เกินสูตร): abdominal compartment syndrome (วัด bladder pressure), extremity/ orbital compartment syndrome, pulmonary edema, การไหม้ลึกขึ้นจากบวม",
+   "ภาวะที่ต้องการสารน้ำมากกว่าสูตร: inhalation injury, ไฟฟ้าแรงสูง, เริ่มให้ช้า, ดื่มสุรา, แผลลึกกว้าง · ภาวะที่ต้องการน้อยกว่า/ ระวัง: ผู้สูงอายุ หัวใจล้มเหลว",
+   "ช่วง 24 ชม.หลัง capillary leak ลดลง พิจารณา albumin (colloid) ในรายที่ต้องการสารน้ำมาก และเริ่ม enteral nutrition เร็วภายใน 24 ชม."
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับวง E และการคำนวณลายมือในไฟล์ (ข้อสอบใช้ Parkland 4 mL)",
-  "mnemonic": "<b>'Parkland 4-kg-% · ครึ่งแรก 8 ชม. จากเวลาไหม้ (ไม่ใช่เวลามาถึง) · ลบที่ได้มาแล้ว'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (ACS 2018) — Chapter 9 Thermal Injuries; ABA Advanced Burn Life Support Provider Manual (2018)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — คำนวณตาม Parkland ได้ 9,600 mL ครึ่งแรก 4,800 mL ภายใน 8 ชม.นับจากเกิดเหตุ หักที่ได้แล้ว 1,200 mL เหลือ 3,600 mL ใน 6 ชม. = 600 mL/ชม. ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง E · หมายเหตุ ถ้าใช้ 2 mL/kg/%TBSA ตาม ATLS ปัจจุบันจะได้ 200 mL/ชม. ซึ่งไม่มีในช้อย ข้อสอบนี้จึงตั้งใจใช้ Parkland",
+  "mnemonic": "<b>'4-kg-% ครึ่งใน 8 (นับจากไหม้) ลบที่ได้แล้ว ÷ ชม.ที่เหลือ — แล้วดูปัสสาวะ 0.5'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal Injuries; Herndon's Total Burn Care 5th ed. (2018) — Burn resuscitation",
   "variants": [
-   "ชาย 70 kg ไฟไหม้ 30% มาถึงทันที → Parkland 8,400 mL ครึ่งแรก 525 mL/ชม. ใน 8 ชม.",
-   "เด็ก 20 kg ไฟไหม้ 25% → 3 mL × 20 × 25 = 1,500 mL + maintenance D5",
-   "ไฟฟ้าแรงสูง ปัสสาวะสีโค้ก → ให้สารน้ำจนปัสสาวะ 1 mL/kg/ชม."
+   "เด็กชาย 4 ปี 16 kg น้ำร้อนลวก 25% → ATLS 3 mL × 16 × 25 = 1,200 mL/24 ชม. ครึ่งแรกใน 8 ชม. + maintenance fluid ที่มี dextrose ปรับให้ urine output 1 mL/kg/ชม.",
+   "ชาย 70 kg ไฟฟ้าแรงสูงช็อต ปัสสาวะสีน้ำโค้ก → myoglobinuria → เพิ่มสารน้ำให้ urine output 1–1.5 mL/kg/ชม. ระวัง compartment syndrome ของแขนขา",
+   "ผู้ป่วยไฟไหม้ 50% ได้สารน้ำเกินสูตรมาก ท้องตึง ปัสสาวะลดลง ventilator pressure สูงขึ้น bladder pressure 28 mmHg → abdominal compartment syndrome → decompression",
+   "ผู้ป่วยไฟไหม้ 40% ชั่วโมงที่ 6 urine output 15 mL/ชม. (60 kg) → เพิ่มอัตรา RL ราว 1/3 แล้วประเมินซ้ำทุกชั่วโมง"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 8 — ตัวพิมพ์: <b>18. ชายไทยอายุ 35 ปี น้ำหนัก 60 กิโลกรัม ถูกไฟไหม้ขณะกำลังทำอาหาร ได้รับบาดแผลไฟไหม้ระดับที่สองและสามรวมประมาณ 40% บริเวณลำตัวและแขนขวา 2 ชั่วโมงก่อนมาโรงพยาบาล ระหว่างทางมาโรงพยาบาลผู้ป่วยได้รับสารละลาย Ringer lactate 1,200 cc ในอีก 6 ชั่วโมงต่อจากนี้ ผู้ป่วยควรได้รับสารละลาย Ringer lactate อีกเท่าไหร่ — A. 800 cc/hr B. 1000 cc/hr C. 1200 cc/hr D. 500 cc/hr E. 600 cc/hr</b><br>ลายมือ: \"Total volume 24 hr = 4 × % × kg = 4×40×60 = 9600 mL\" · \"1/2 ใน 8hr = 4800 mL/8hr ได้ไป 1200 mL/2hr (เหลือ 3600 mL/6hr)\" · \"1/2 ใน 16 hr\" · \"∴ ได้อีก 600 mL ต่อ 6 hrs\"<br>ไฮไลต์: วง E · \"ได้รับบาดแผลไฟไหม้ระดับที่สองและสามรวมประมาณ 40% บริเวณลำตัวและแขนขวา 2 ชั่วโมงก่อนมาโรงพยาบาล\" \"Ringer lactate 1,200 cc\" \"6 ชั่วโมงต่อจากนี้ ผู้ป่วยควรได้รับสารละลาย Ringer lactate อีกเท่าไหร่\"",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 8",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU70|RoB|27": {
-  "interp": "ผู้ป่วยอุบัติเหตุจักรยานยนต์ <b>เลือดออกมากทางจมูกและปาก + ความดันต่ำ</b> → ถามสิ่งที่ต้องทำเป็นอย่างแรก",
-  "why": "ตาม ATLS ต้องทำตามลำดับ <b>A-B-C</b> · เลือดออกมากจากใบหน้า (maxillary fracture → เลือดจาก maxillary และ palatine artery) <b>ไหลลงทางเดินหายใจ</b> ทำให้สำลักและอุดกั้น จึงต้อง<b>เปิดทางเดินหายใจให้ปลอดภัยก่อน</b> (ดูด ใส่ท่อช่วยหายใจทางปาก หรือ cricothyroidotomy ถ้าใส่ไม่ได้ — ห้ามใส่ท่อทางจมูกเมื่อสงสัยฐานกะโหลกแตก) แล้วจึงห้ามเลือด: anterior/ posterior nasal packing → Barton dressing → angioembolization → จัดกระดูก → ผูก external carotid (น้อย) ควบคู่กับให้สารน้ำ/ เลือด · ไฟล์ P'Ing วง C และลายมือ <b>\"A B C ↳ 1st airway management\"</b> ที่ B \"x after ETT\"",
+  "interp": "หลังอุบัติเหตุมอเตอร์ไซค์ ผู้ป่วยมี<b>เลือดออกมากทางจมูกและปาก</b>ร่วม<b>ความดันต่ำ</b> (คิดถึง midface/ Le Fort fracture ที่เลือดออกจาก internal maxillary artery) — ถามสิ่งที่ต้องทำ<b>เป็นอันดับแรก</b> ตามลำดับ ABCDE ของ ATLS",
+  "why": "เลือดที่ออกมากจากจมูกและปากไหลลงคอ<b>อุดทางเดินหายใจและสำลักเข้าปอด</b> ร่วมกับกระดูกใบหน้าหักเคลื่อน ลิ้นตก และความรู้สึกตัวที่ลดลงจาก shock/ head injury · ATLS ให้แก้ <b>Airway with cervical spine protection</b> ก่อนเสมอ เพราะขาดออกซิเจนฆ่าผู้ป่วยได้เร็วกว่าเสียเลือด และการ pack จมูก/ ปากเพื่อหยุดเลือดทำได้อย่างปลอดภัยหลังทางเดินหายใจถูกป้องกันแล้วเท่านั้น · วิธี: ดูดเลือด นั่ง/ ตะแคงถ้าไม่สงสัยกระดูกสันหลัง → <b>orotracheal intubation</b> (RSI พร้อม inline stabilization) · <b>หลีกเลี่ยง nasotracheal intubation/ NG tube ทางจมูก</b>ใน midface fracture เพราะอาจเข้ากะโหลกผ่านฐานกะโหลกที่แตก · ใส่ไม่ได้ → <b>surgical cricothyroidotomy</b> · จากนั้นจึงจัดการ C: เปิดเส้น ให้เลือด และ<b>หยุดเลือด</b>ตามลำดับ: anterior/ posterior nasal packing (หรือ Foley balloon) + oral packing → <b>manual reduction</b> ของ maxilla + Barton/ compression dressing → <b>angiographic embolization</b> → ผูก external carotid (น้อยมาก) · ไฟล์วง C ลายมือ <b>\"A B C → 1st airway management\"</b> และขีด B <b>\"x after ETT\"</b>",
   "wrong": {
-   "A": "ให้สารน้ำสำคัญแต่ทำหลัง/ ควบคู่การเปิดทางเดินหายใจ ถ้าทางเดินหายใจอุดกั้นผู้ป่วยจะเสียชีวิตก่อน · จะถูกถ้าทางเดินหายใจปลอดภัยแล้ว (ใส่ท่อแล้ว) ความดันยังต่ำ",
-   "B": "Nasal packing ทำหลังใส่ท่อช่วยหายใจ (ลายมือ \"x after ETT\") · จะถูกถ้าใส่ท่อช่วยหายใจแล้ว ยังมีเลือดไหลจากจมูกไม่หยุด",
-   "D": "Angioembolization ใช้เมื่อ packing และ compression ไม่หยุดเลือด · จะถูกถ้าใส่ท่อและ packing ทั้งหน้าและหลังแล้ว ยังเลือดออกต่อเนื่อง",
-   "E": "จัดกระดูกช่วยลดเลือดออกแต่ไม่ใช่อันดับแรก · จะถูกถ้าทางเดินหายใจและการหายใจปลอดภัยแล้ว และกระดูกใบหน้าเคลื่อนมากจนเลือดออกต่อเนื่อง"
+   "A": "IV fluid/ เลือดสำคัญเพราะผู้ป่วยความดันต่ำ แต่อยู่ในลำดับ C ทีมทำพร้อมกันได้แต่<b>ต้องเปิดทางเดินหายใจก่อน</b> · จะถูกถ้าเป็นชาย 30 ปีถูกรถชน พูดได้ชัด หายใจปกติ SpO₂ 98% ไม่มีเลือดในปาก ความดัน 80/50 จาก pelvic fracture (ให้เลือด/ สารน้ำอุ่น + pelvic binder)",
+   "B": "Anterior nasal packing หยุดเลือดได้แต่ทำ<b>หลังใส่ท่อช่วยหายใจ</b> (ไฟล์เขียน x after ETT) — pack ขณะทางเดินหายใจยังไม่ปลอดภัยทำให้ผู้ป่วยไอ สำลัก และเลือดไหลลงคอแทน · จะถูกถ้าเป็นชาย 50 ปีความดันสูง เลือดกำเดาไหลข้างเดียวไม่หยุดหลังกดจมูก 15 นาที ไม่มีบาดเจ็บ ทางเดินหายใจปกติ",
+   "D": "Angiographic embolization ของแขนง internal maxillary artery ใช้เมื่อ<b>เลือดยังออกต่อหลัง</b>ใส่ท่อ pack และ reduce กระดูกแล้ว และต้องย้ายผู้ป่วยไปห้อง angiography · จะถูกถ้าเป็นผู้ป่วย Le Fort II ที่ใส่ท่อช่วยหายใจแล้ว pack จมูกหน้าหลังและดัน maxilla กลับแล้ว ยังมีเลือดออกและความดันต่ำแม้ให้เลือด",
+   "E": "Le Fort fracture reduction (ดัน maxilla กลับด้วยมือ) ช่วยกดหลอดเลือดที่ฉีกให้หยุดเลือดได้ แต่ทำหลังเปิดทางเดินหายใจ ส่วนการผ่าตัดยึดกระดูกถาวรทำเมื่อผู้ป่วยคงที่ · จะถูกถ้าเป็นผู้ป่วย Le Fort III ที่ไม่มีภาวะคุกคามชีวิตแล้ว อาการคงที่ 5–7 วัน บวมยุบลง ฟันสบไม่ลง (ORIF ด้วย plate และ maxillomandibular fixation)"
   },
-  "trap": "เห็นความดันต่ำแล้วให้สารน้ำก่อน — เลือดที่ไหลเข้าทางเดินหายใจคุกคามชีวิตเร็วกว่า A ก่อน C",
+  "trap": "ความดันต่ำและเลือดที่ไหลไม่หยุดทำให้อยากหยุดเลือดหรือให้สารน้ำก่อน — แต่ในการบาดเจ็บใบหน้า เลือดเองคือสิ่งที่<b>อุดทางเดินหายใจ</b> · ลำดับ ATLS คือ A ก่อน C เสมอ และการ pack จมูก/ ปากทำได้ปลอดภัยหลังใส่ท่อแล้ว · ระวังห้ามใส่ท่อทางจมูกใน midface fracture",
   "summary": [
-   "ATLS: Airway (+ c-spine) → Breathing → Circulation",
-   "เลือดออกใบหน้ามาก → เสี่ยงอุดกั้นทางเดินหายใจ → ใส่ท่อ/ surgical airway",
-   "ห้ามใส่ท่อ/ สายทางจมูกเมื่อสงสัย basilar skull fracture",
-   "ห้ามเลือด: anterior + posterior nasal packing → Barton dressing",
-   "ไม่หยุด → angioembolization → manual reduction → ผูก external carotid",
-   "Le Fort fracture: เลือดจาก maxillary และ palatine artery"
+   "Le Fort I: แนวหักแนวนอนเหนือรากฟัน แยก palate/ alveolus (floating palate) · II: แนวรูปปิรามิดผ่าน nasal bone, medial orbit, infraorbital rim (floating maxilla) · III: craniofacial disjunction ผ่าน zygomatic arch และ lateral orbit (floating face)",
+   "การตรวจ: จับฟันหน้าบนโยก — เฉพาะ palate (I), จมูกขยับด้วย (II), ทั้งใบหน้าขยับ (III) · ฟันสบผิด (malocclusion) · midface fracture มักมี CSF rhinorrhea จากฐานกะโหลกหัก",
+   "Airway ในบาดเจ็บใบหน้า: ดูดเลือด jaw thrust/ ดึงลิ้น (bilateral mandible fracture ลิ้นตก) → orotracheal intubation + inline stabilization → ล้มเหลว → surgical cricothyroidotomy · ห้าม nasotracheal intubation/ NG tube ใน midface/ basal skull fracture",
+   "หยุดเลือดตามขั้น: anterior + posterior nasal packing (Foley/ balloon) + oral packing → manual reduction ของ maxilla + compression/ Barton dressing ± bite block → angiographic embolization → ligation ของ external carotid/ superficial temporal (หายาก)",
+   "เลือดออกมากและให้เลือดปริมาณมาก → coagulopathy → ให้ blood component ตาม massive transfusion protocol และ tranexamic acid ภายใน 3 ชม.",
+   "การบาดเจ็บใบหน้ารุนแรงมักมีบาดเจ็บศีรษะและ cervical spine ร่วม → ถือว่ามี C-spine injury จนกว่าจะตัดได้ และประเมิน GCS/ CT brain",
+   "Definitive ORIF ของกระดูกใบหน้ามักทำภายใน 1–2 สัปดาห์เมื่อบวมยุบและผู้ป่วยคงที่ โดยคืนการสบฟันก่อน (maxillomandibular fixation) แล้วยึด buttress ด้วย plate"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'เลือดท่วมหน้า = A ก่อน (ท่อ) แล้วค่อยอุด (pack)'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (ACS 2018) — Chapter 2 Airway and Ventilatory Management",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — เลือดออกมากทางจมูกและปากคุกคามทางเดินหายใจ ต้องเปิดและป้องกัน airway ก่อนตามลำดับ ATLS แล้วจึงหยุดเลือดและแก้ shock ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง C และสไลด์ Emergency Treatment ที่แปะ · ต้นฉบับมี 3 ช้อย เว็บเติม D, E ตามขั้นหยุดเลือดในสไลด์",
+  "mnemonic": "<b>'หน้าเละเลือดท่วม: Tube ก่อน Pack — A ก่อน C เสมอ (ห้ามใส่ทางจมูก)'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Airway and Ventilatory Management; Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial fractures",
   "variants": [
-   "ผู้ป่วยหน้ายุบ Le Fort III ใส่ท่อทางปากไม่ได้ → cricothyroidotomy",
-   "ใส่ท่อแล้ว เลือดยังออกจากจมูก → anterior + posterior nasal packing",
-   "packing แล้วยังเลือดออก → angioembolization"
+   "ผู้ป่วยหน้าแบนยุบหลังรถชน ฟันสบผิด จับฟันหน้าบนโยกแล้วจมูกขยับตาม มีน้ำใสไหลจากจมูก → Le Fort II + CSF rhinorrhea → ห้ามใส่ท่อ/ สายทางจมูก",
+   "ผู้ป่วยบาดเจ็บใบหน้ารุนแรง ใส่ orotracheal tube ไม่สำเร็จ 2 ครั้ง SpO₂ ลดลงเรื่อย ๆ → surgical cricothyroidotomy",
+   "ผู้ป่วยกระดูกขากรรไกรล่างหักสองข้างด้านหน้า ลิ้นตกไปด้านหลัง หายใจเสียงดัง → ดึงขากรรไกร/ ลิ้นไปข้างหน้า แล้วพิจารณาใส่ท่อช่วยหายใจ",
+   "ผู้ป่วยใส่ท่อแล้ว เลือดออกจากจมูกไม่หยุด → posterior nasal packing ด้วย Foley balloon ร่วม anterior packing แล้วประเมินซ้ำ"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 8 — ตัวพิมพ์: <b>27. ผู้ป่วย motorcycle accident มี nasal and oral bleed +hypotension ควรทำอะไรเป็นอย่างแรก — A. IV fluid B.anterior nasal packing C. Airway</b><br>ลายมือ: \"A B C ↳ 1st airway management\" · B \"x after ETT\" (แดง) · ช้อย C \"Airway\" เขียนด้วยลายมือ<br>ไฮไลต์: วง C · \"nasal and oral bleed +hypotension\"<br>รูปที่แปะ: สไลด์ EMERGENCY TREATMENT (เรียงตาม A, B, C) — Breathing and ventilation (→ massive bleeding → obstruct airway) · Circulation and hemorrhage control: Severe maxillary fracture → hemorrhage from maxillary and palatine artery (Bone fracture → เลือดออกเยอะ) · สไลด์ EMERGENCY TREATMENT (ทำเป็น step) — Profuse nasopharyngeal bleeding control: 1 Anterior nasal packing, Posterior nasal packing (ทำได้ใน ER แล้ว refer) · 2 Facial compression dressing (Barton dressing) · 3 Angiographic demonstration and embolization · Manual reduction of fracture · Bilateral external carotid and superficial temporal artery ligation (rare) · Blood and coagulation factor replacement (เลือดออกเยอะ → อาจมี coagulopathy)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 8",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU70|RoB|33": {
-  "interp": "ทารกเป็น <b>NEC</b> ถามข้อใดบ่งชี้<b>ลำไส้ขาดเลือด/ เน่าตายเฉียบพลัน</b>",
-  "why": "<b>ผนังหน้าท้องแดง (abdominal wall erythema)</b> สะท้อนการอักเสบลามถึงเยื่อบุช่องท้องจากลำไส้ที่<b>ขาดเลือดเน่าตาย</b> (peritonitis) ร่วมกับคลำได้ก้อน/ loop ลำไส้ค้าง (fixed loop) · ตัวบ่งชี้ว่าลำไส้ตาย/ ต้องผ่าตัด: <b>pneumoperitoneum</b> (ข้อบ่งชี้แน่นอน), อาการทรุดลงทั้งที่รักษา (respiratory decompensation, ความดันต่ำ), <b>metabolic acidosis</b>, <b>เกล็ดเลือดต่ำ/ DIC</b>, <b>WBC ต่ำมาก</b>, ผนังหน้าท้องแดง, portal venous gas · ไฟล์ P'Ing วง C และลายมือ <b>\"respiratory decompensation, bloody stool, erythematous abdomen, acidosis, DIC\"</b> ที่ A \"x severe ↓WBC\"",
+  "interp": "ทารกเป็น <b>necrotizing enterocolitis (NEC)</b> — ถามสิ่งตรวจพบที่บ่งถึง<b>ลำไส้ขาดเลือดหรือเน่าตายเฉียบพลัน</b> (ระยะลุกลาม) ต้องแยกอาการระยะต้นที่ไม่จำเพาะ กับสัญญาณของลำไส้ตาย/ ทะลุที่อาจต้องผ่าตัด",
+  "why": "NEC เป็นภาวะลำไส้อักเสบเน่าตายที่พบบ่อยที่สุดในทารกคลอดก่อนกำหนด (ยิ่งน้ำหนักน้อยยิ่งเสี่ยง) มักเกิดหลังเริ่มกินนมหลายวันถึงไม่กี่สัปดาห์ กลไกร่วมกันของลำไส้ที่ยังไม่สมบูรณ์ การเปลี่ยนแปลงของจุลชีพ (dysbiosis) และการขาดเลือด — นมแม่ช่วยป้องกัน · <b>Modified Bell staging</b>: <b>I (suspected)</b> อาการไม่จำเพาะ — gastric residual เพิ่ม ท้องอืดเล็กน้อย occult blood · <b>II (definite)</b> pneumatosis intestinalis ± portal venous gas · <b>III (advanced)</b> ทารกทรุด: IIIA ลำไส้ยังไม่ทะลุ IIIB ทะลุ (pneumoperitoneum) · สัญญาณของ<b>ลำไส้เน่าตาย/ peritonitis</b>: <b>ผนังหน้าท้องแดงหรือคล้ำ (abdominal wall erythema)</b> ซึ่งเป็นการอักเสบลามจากลำไส้ตายถึงผนังหน้าท้อง, ก้อนคลำได้คงที่, fixed dilated loop บน X-ray หลายฟิล์ม, metabolic acidosis, <b>เกล็ดเลือดต่ำ/ เม็ดเลือดขาวต่ำ</b>, DIC และการหายใจทรุดต้องเพิ่มเครื่องช่วยหายใจ · รักษา: NPO, NG decompression, broad-spectrum antibiotic, TPN · ผ่าตัด: <b>pneumoperitoneum เป็นข้อบ่งชี้เด็ดขาด</b> ส่วนข้อบ่งชี้สัมพัทธ์คือทรุดลงแม้รักษาเต็มที่ ผนังหน้าท้องแดง fixed loop · ไฟล์วง C ลายมือ <b>\"respiratory decompensation, bloody stool, erythematous abdomen, acidosis, DIC\"</b> และขีด A <b>\"x severe ↓WBC\"</b>",
   "wrong": {
-   "A": "ใน NEC รุนแรง WBC มัก<b>ต่ำ</b> (neutropenia) ไม่ใช่สูง (ลายมือ \"x severe ↓WBC\") · จะถูกถ้าช้อยเขียนว่า WBC ต่ำมาก/ neutropenia",
-   "B": "น้ำในกระเพาะเหลือมาก (gastric residual) เป็นอาการเริ่มต้นของ NEC (Bell stage I) ไม่บ่งชี้ลำไส้ตาย · จะถูกถ้าคำถามถามอาการแรกเริ่มที่ทำให้สงสัย NEC",
-   "D": "ท้องอืดเล็กน้อยพบได้ตั้งแต่ระยะแรก ไม่จำเพาะต่อลำไส้ตาย · จะถูกถ้าคำถามถามอาการของ NEC ระยะสงสัย (Bell I)",
-   "E": "เลือดแฝงในอุจจาระพบในระยะต้น (Bell I) · จะถูกถ้าคำถามถามอาการเริ่มต้นของ NEC ในทารกคลอดก่อนกำหนดที่เพิ่งเริ่มนม"
+   "A": "NEC รุนแรงทำให้<b>เม็ดเลือดขาวต่ำ (neutropenia)</b> และเกล็ดเลือดต่ำ มากกว่าเม็ดเลือดขาวสูง (ไฟล์เขียน x severe ↓WBC) — WBC สูงไม่จำเพาะ · จะถูกถ้าเป็นเด็กชาย 10 ปีปวดท้องย้ายจากรอบสะดือไป RLQ มีไข้ เบื่ออาหาร กดเจ็บ McBurney (WBC สูงเป็นคะแนนหนึ่งใน Alvarado score สนับสนุน appendicitis)",
+   "B": "Gastric aspirate/ residual เพิ่มขึ้นเป็นอาการ<b>ระยะแรก (Bell I)</b> ที่ไม่จำเพาะ พบได้ในทารกก่อนกำหนดที่ลำไส้เคลื่อนไหวช้าทั่วไป · จะถูกถ้าเป็นทารก 30 สัปดาห์กินนมได้ 10 วันแล้วมี residual เพิ่ม ท้องอืดเล็กน้อย ยังดูดี (suspected NEC → งดนม X-ray ท้องและ sepsis workup)",
+   "D": "ท้องอืดเล็กน้อยเป็นอาการระยะต้นของ NEC และพบได้บ่อยจาก feeding intolerance ไม่บ่งการตายของลำไส้ · จะถูกถ้าเป็นทารก 29 สัปดาห์มีท้องอืดเล็กน้อย X-ray เห็น pneumatosis intestinalis ไม่มีลมในช่องท้อง สัญญาณชีพคงที่ (Bell IIA — NPO, antibiotic 7–10 วัน, TPN)",
+   "E": "Occult blood ในอุจจาระเป็นอาการระยะต้นที่ไม่จำเพาะ (พบได้จากกลืนเลือดแม่ หรือ cow's milk protein allergy) · จะถูกถ้าเป็นทารกครบกำหนดอายุ 6 สัปดาห์กินนมผสม อุจจาระมีมูกเลือดเป็นเส้น ท้องไม่อืด เลี้ยงดี (cow's milk protein allergy — เปลี่ยนเป็น extensively hydrolyzed formula)"
   },
-  "trap": "เลือก WBC สูงเพราะคิดว่าติดเชื้อมาก — NEC รุนแรง WBC ต่ำ เกล็ดเลือดต่ำ",
+  "trap": "ช้อย A, B, D, E ล้วนพบใน NEC ได้จริง ทำให้ลังเล — กุญแจคือคำถามถามสัญญาณของ<b>ลำไส้ขาดเลือด/ เน่า</b> ไม่ใช่อาการทั่วไป: residual เพิ่ม ท้องอืดเล็กน้อย occult blood เป็นระยะ suspected · ส่วน<b>ผนังหน้าท้องแดง</b>แสดงว่าการอักเสบลามทะลุผนังลำไส้ถึงผนังหน้าท้อง และ NEC หนักมัก WBC <b>ต่ำ</b>ไม่ใช่สูง",
   "summary": [
-   "NEC: ทารกคลอดก่อนกำหนด เริ่มนม · ท้องอืด เลือดในอุจจาระ residual มาก",
-   "Bell I สงสัย · II pneumatosis intestinalis/ portal venous gas · III ลำไส้ทะลุ/ ช็อก",
-   "รักษา: NPO + OG decompression + ATB กว้าง + TPN 7–14 วัน",
-   "ผ่าตัดแน่นอน: pneumoperitoneum",
-   "ผ่าตัดสัมพัทธ์: ทรุดลง · acidosis · เกล็ดเลือดต่ำ · ผนังท้องแดง · fixed loop · คลำก้อน",
-   "ทารก &lt; 1,000 g ไม่คงที่ → peritoneal drain"
+   "ปัจจัยเสี่ยง NEC: คลอดก่อนกำหนด/ น้ำหนักน้อย (สำคัญที่สุด), นมผสม, เพิ่มนมเร็ว, หัวใจพิการแต่กำเนิด (ในทารกครบกำหนด), ภาวะขาดออกซิเจน · ปัจจัยป้องกัน: นมแม่, probiotics (บางแนวทาง)",
+   "Bell I suspected: อาการทั่วไป (apnea, bradycardia, อุณหภูมิไม่คงที่) + residual เพิ่ม ท้องอืดเล็กน้อย occult blood · II definite: pneumatosis ± portal venous gas · III advanced: ช็อก DIC peritonitis ± pneumoperitoneum",
+   "X-ray: pneumatosis intestinalis (ฟองลมในผนังลำไส้) เป็นลักษณะจำเพาะ · portal venous gas · pneumoperitoneum (football sign ท่านอนหงาย, ลมใต้ผนังหน้าท้องท่า left lateral decubitus) · fixed loop",
+   "Medical: NPO, NG decompression, IV broad-spectrum antibiotic (ราว 7–14 วันตามระยะ), TPN, แก้ acidosis/ เกล็ดเลือด, X-ray ท้องทุก 6–12 ชม.ในระยะเฉียบพลัน",
+   "ข้อบ่งชี้ผ่าตัด: pneumoperitoneum (เด็ดขาด) · สัมพัทธ์: ทรุดลงแม้รักษาเต็มที่, ผนังหน้าท้องแดง/ คล้ำ, ก้อนคงที่, fixed loop, portal venous gas ร่วมอาการหนัก, เจาะท้องได้น้ำสีน้ำตาล/ เชื้อ",
+   "การผ่าตัด: laparotomy ตัดลำไส้ตาย + stoma (หรือ anastomosis ถ้าเฉพาะที่) · ทารกน้ำหนักน้อยมากที่ไม่คงที่อาจใส่ peritoneal drain ก่อน · ลำไส้ตายเกือบทั้งหมด → \"clip and drop\"/ second look",
+   "ภาวะแทรกซ้อนระยะยาว: intestinal stricture (มักที่ colon ด้านซ้าย 4–8 สัปดาห์หลังหาย — ทำ contrast enema ก่อนต่อ stoma), short bowel syndrome, พัฒนาการล่าช้า"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'NEC ลำไส้ตาย = ท้องแดง ลมรั่ว (free air) เลือดเป็นกรด เกล็ดต่ำ WBC ต่ำ'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Necrotizing enterocolitis; Walsh MC, Kliegman RM. Modified Bell staging (Pediatr Clin North Am 1986;33:179)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ผนังหน้าท้องแดงเป็นสัญญาณของลำไส้เน่าตาย/ peritonitis ใน NEC ส่วนช้อยอื่นเป็นอาการระยะต้นที่ไม่จำเพาะหรือผิดทิศ (NEC หนักมี WBC ต่ำ) ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง C และลายมือ \"erythematous abdomen\" · ต้นฉบับมี 3 ช้อย เว็บเติม D, E",
+  "mnemonic": "<b>'NEC ระยะหนัก = Red belly, Low counts (WBC/ PLT ↓), Acid, Air free'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Necrotizing enterocolitis; Blakely ML et al. Initial Laparotomy versus Peritoneal Drainage in Extremely Low Birthweight Infants with Surgical NEC or Isolated Intestinal Perforation (NEST, Ann Surg 2021)",
   "variants": [
-   "ทารกคลอดก่อนกำหนด ท้องอืด ฟิล์มเห็น pneumatosis intestinalis → NEC Bell II → NPO, ATB",
-   "ทารก NEC ฟิล์มท่า left lateral decubitus เห็นลมอิสระ → ผ่าตัด",
-   "ทารก 700 g NEC ทะลุ ไม่คงที่ → peritoneal drain"
+   "ทารก 28 สัปดาห์ท้องอืดตึง X-ray ท่านอนหงายเห็นลมเป็นวงรีใหญ่กลางท้อง (football sign) → NEC ทะลุ (Bell IIIB) → ผ่าตัด",
+   "ทารกเป็น NEC รักษาด้วยยาหายแล้ว 6 สัปดาห์ กลับมาท้องอืด อาเจียน ถ่ายน้อย → intestinal stricture → contrast enema",
+   "ทารก 26 สัปดาห์ 700 g ลำไส้ทะลุ ทรุดหนักเกินกว่าจะผ่าตัดเปิดท้อง → ใส่ peritoneal drain ข้างเตียงเป็นการชั่วคราว",
+   "ทารก NEC มีเกล็ดเลือดลดจาก 150,000 เหลือ 40,000 ใน 12 ชม. และ acidosis แย่ลง → สัญญาณลำไส้เน่ากำลังลุกลาม → ประเมินผ่าตัด"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 8 — ตัวพิมพ์: <b>33. เด็กเป็น NEC. ข้อใด is an indication of acute bowel ischemia — A. Increase wbc B. Increase gastric fluid C erythematous abdominal wall</b><br>ลายมือ: \"respiratory decompensation, bloody stool, erythematous abdomen, acidosis, DIC\" · A \"x severe ↓WBC\" (แดง)<br>ไฮไลต์: วง C · \"indication of acute bowel ischemia\"<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 8",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU70|RoB|34": {
-  "interp": "ทารก<b>อาเจียนน้ำดี</b> upper GI study เห็น <b>corkscrew duodenum</b> → ถามการรักษา",
-  "why": "Corkscrew sign = duodenum/ jejunum ส่วนต้นบิดเป็นเกลียวรอบแกน SMA = <b>malrotation with midgut volvulus</b> · <b>เป็นภาวะฉุกเฉิน</b> ลำไส้เล็กทั้งหมดเสี่ยงขาดเลือด → resuscitate แล้ว<b>ผ่าตัด Ladd procedure ทันที</b>: คลายเกลียวทวนเข็มนาฬิกา (counterclockwise) → ตัด Ladd bands → ขยายฐาน mesentery → ตัดไส้ติ่ง → วางลำไส้เล็กด้านขวา ลำไส้ใหญ่ด้านซ้าย · ลำไส้ที่ตายต้องตัด/ second look · ไฟล์ P'Ing วง B และลายมือ <b>\"✓ คลายเกลียว\"</b> พร้อมภาพ Ladd's procedure และภาพ \"Bird beak sign\" \"Cork screw sign\"",
+  "interp": "ทารกอาเจียนเป็นน้ำดี และ <b>upper GI study เห็น duodenum เป็นรูปเกลียว (corkscrew)</b> = <b>malrotation with midgut volvulus</b> — ถามการรักษา ซึ่งเป็นการผ่าตัดฉุกเฉินเพื่อคลายเกลียวก่อนลำไส้ midgut ทั้งหมดขาดเลือด",
+  "why": "ระหว่างตั้งครรภ์ midgut หมุนทวนเข็มนาฬิกา 270° รอบ SMA ก่อนกลับเข้าช่องท้อง ทำให้ DJ flexure อยู่ซ้ายของกระดูกสันหลัง cecum อยู่ RLQ และ mesentery มี<b>ฐานยึดกว้าง</b>เฉียงจาก LUQ ถึง RLQ · ใน malrotation การหมุนไม่ครบ ฐาน mesentery จึง<b>แคบ</b> ลำไส้ทั้ง midgut บิดรอบ SMA ได้ง่าย และ <b>Ladd bands</b> จาก cecum ที่อยู่ผิดที่พาดกด duodenum · UGI study เป็นการตรวจหลัก: DJ flexure ไม่ข้าม midline ซ้าย/ อยู่ต่ำ และเมื่อมี volvulus จะเห็น duodenum ส่วนต้นอุดเป็นจะงอยนก (bird's beak) หรือ jejunum บิดเป็นเกลียว (<b>corkscrew</b>) · การรักษาคือ <b>Ladd procedure ฉุกเฉิน</b> หลังให้สารน้ำ: คลายเกลียว<b>ทวนเข็มนาฬิกา</b> (volvulus มักบิดตามเข็ม) ประเมินลำไส้ ตัด Ladd bands ขยายฐาน mesentery วางลำไส้เล็กไว้ขวา ลำไส้ใหญ่ไว้ซ้าย และตัดไส้ติ่ง · ลำไส้ก้ำกึ่งให้เก็บไว้แล้ว second look ใน 24–48 ชม. เพื่อเลี่ยง short bowel · ไฟล์วง B ✓ ลายมือ <b>\"คลายเกลียว\"</b> และแปะภาพขั้นตอน Ladd's procedure พร้อมภาพ UGI \"Bird beak sign\" \"Cork screw sign\"",
   "wrong": {
-   "A": "ใส่สายดูดแล้วรอไม่ได้ ลำไส้ทั้งหมดจะตายภายในไม่กี่ชั่วโมง · จะถูกถ้าทารกอาเจียนไม่มีน้ำดี upper GI ปกติ (เช่น GER)",
-   "C": "Barium enema ใช้ดูตำแหน่ง cecum (วินิจฉัย malrotation ได้ไม่ดีเท่า upper GI) ไม่ใช่การรักษา · จะถูกถ้าคำถามถามการตรวจวินิจฉัย Hirschsprung (transition zone) หรือการรักษา meconium ileus ด้วย contrast enema",
-   "D": "Duodenoduodenostomy รักษา duodenal atresia (double bubble ไม่มีลมปลาย) · จะถูกถ้าทารก Down syndrome อาเจียนน้ำดีตั้งแต่วันแรก ฟิล์มเห็น double bubble ไม่มีลมในลำไส้ส่วนปลาย",
-   "E": "Pyloromyotomy รักษา hypertrophic pyloric stenosis ซึ่งอาเจียนไม่มีน้ำดี · จะถูกถ้าทารก 5 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี คลำได้ olive-shaped mass hypochloremic metabolic alkalosis"
+   "A": "NG decompression แล้วสังเกตอาการใช้กับลำไส้อุดตันบางส่วนที่ไม่มีการขาดเลือด — ใน midgut volvulus การรอทำให้ลำไส้ทั้งหมดตายได้ภายในไม่กี่ชั่วโมง · จะถูกถ้าเป็นเด็ก 6 ปีหลังผ่าตัดไส้ติ่ง 1 ปี มี partial adhesive small bowel obstruction ยังผายลมได้ ไม่มีไข้ ไม่มีกดเจ็บเฉพาะที่",
+   "C": "Contrast enema ใช้ดูลำไส้ใหญ่ (เช่น Hirschsprung, meconium ileus, small left colon) — ตำแหน่ง cecum ช่วยบอก malrotation ได้บ้างแต่ไม่แม่นเท่า UGI และไม่ใช่การรักษา volvulus · จะถูกถ้าเป็นทารกแรกเกิดไม่ถ่ายขี้เทาใน 48 ชม. ท้องอืด ตรวจทวารแล้วอุจจาระพุ่ง (สงสัย Hirschsprung → contrast enema หา transition zone + rectal suction biopsy)",
+   "D": "Duodenoduodenostomy (diamond-shaped ของ Kimura) เป็นการผ่าตัด bypass <b>duodenal atresia/ stenosis หรือ annular pancreas</b> ไม่ได้คลายเกลียวหรือแก้ฐาน mesentery · จะถูกถ้าเป็นทารก Down syndrome อาเจียนน้ำดีวันแรกหลังคลอด X-ray เห็น double bubble ไม่มีลมในลำไส้ส่วนปลาย",
+   "E": "Pyloromyotomy (Ramstedt) แก้ <b>hypertrophic pyloric stenosis</b> ซึ่งอาเจียน<b>ไม่มีน้ำดี</b> · จะถูกถ้าเป็นทารกชาย 5 สัปดาห์อาเจียนพุ่งเป็นนมหลังกินทุกมื้อ หิวตลอด มี hypochloremic hypokalemic metabolic alkalosis US กล้ามเนื้อ pylorus หนา ≥ 3–4 mm ยาว ≥ 15–16 mm (แก้ electrolyte ก่อนผ่าตัด)"
   },
-  "trap": "รักษาแบบประคับประคองเพราะทารกยังดูดี — corkscrew = volvulus ต้องผ่าตัดทันที",
+  "trap": "อาเจียนน้ำดีในทารกมีหลายสาเหตุ (duodenal atresia, malrotation, jejunal atresia) ทำให้เลือกการผ่าตัดผิดตัว — ภาพ <b>corkscrew/ bird's beak</b> บน UGI จำเพาะต่อ volvulus จึงต้อง Ladd procedure ทันที · ห้ามสังเกตอาการเพราะลำไส้บิดรอบ SMA ขาดเลือดทั้ง midgut และผลลัพธ์คือ short bowel หรือเสียชีวิต",
   "summary": [
-   "อาเจียนน้ำดีในทารก = malrotation/ volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
-   "Upper GI: DJ flexure อยู่ขวาของกระดูกสันหลัง · corkscrew (volvulus) · bird beak",
-   "US: whirlpool sign · SMV อยู่ซ้ายของ SMA",
-   "Ladd: คลายเกลียวทวนเข็มนาฬิกา · ตัด Ladd bands · ขยาย mesentery · ตัดไส้ติ่ง",
-   "ลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย",
-   "ภาวะแทรกซ้อน: short bowel syndrome"
+   "การหมุนปกติ: midgut หมุนทวนเข็มนาฬิกา 270° รอบ SMA → DJ flexure ซ้ายของ L1 ระดับ pylorus · cecum ที่ RLQ · ฐาน mesentery กว้าง",
+   "Malrotation บนภาพ: DJ flexure อยู่ขวา/ ต่ำกว่า pylorus · ลำไส้เล็กอยู่ด้านขวา · SMV อยู่ซ้ายของ SMA บน US (กลับข้าง) · whirlpool sign บน Doppler US เมื่อบิด",
+   "อาการ: ทารกส่วนใหญ่ (ราวครึ่งหนึ่งในเดือนแรก) อาเจียนน้ำดีทันทีในเด็กที่ดูดี · ระยะท้ายท้องอืด ถ่ายเป็นเลือด ช็อก = ลำไส้ขาดเลือดแล้ว",
+   "Ladd procedure: คลายเกลียวทวนเข็มนาฬิกา → ตัด Ladd bands → ขยายฐาน mesentery (แยก duodenum ออกจาก cecum) → ลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย → appendectomy (เพราะไส้ติ่งจะอยู่ผิดที่)",
+   "ลำไส้ก้ำกึ่งหลังคลายเกลียว → ปิดท้องชั่วคราวแล้ว second-look ใน 24–48 ชม. · ตัดลำไส้มาก → short bowel syndrome ต้อง TPN และ intestinal rehabilitation",
+   "Malrotation ที่พบโดยบังเอิญในเด็กโตไม่มีอาการ: พิจารณา elective Ladd procedure ตามความเสี่ยง (ฐาน mesentery แคบ)",
+   "ทารกที่ช็อก ท้องอืดตึง ถ่ายเป็นเลือดจาก volvulus → ผ่าตัดทันทีโดยไม่ต้องรอ UGI"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง B ✓ และลายมือในไฟล์ · ต้นฉบับจำได้เฉพาะช้อย B, C จึงแต่ง A, D, E เพิ่ม",
-  "mnemonic": "<b>'Corkscrew = เกลียว → Ladd คลายเกลียว (ทวนเข็ม)'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Disorders of intestinal rotation and fixation; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — อาเจียนน้ำดีร่วม corkscrew sign บน UGI คือ midgut volvulus ที่ต้อง Ladd procedure ฉุกเฉิน ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง B ✓ \"คลายเกลียว\" และภาพขั้นตอน Ladd's procedure ที่แปะ · ต้นฉบับจำได้แค่ช้อย B, C และ stem บางส่วน เว็บเติมอาการอาเจียนน้ำดีและช้อย A, D, E",
+  "mnemonic": "<b>'Corkscrew = Cut Ladd: คลาย (ทวนเข็ม) - ตัด band - ขยายฐาน - ขวาเล็ก ซ้ายใหญ่ - เอาไส้ติ่ง'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Malrotation; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric Surgery",
   "variants": [
-   "ทารก 3 วันอาเจียนน้ำดี upper GI เห็น DJ flexure ด้านขวา → malrotation → Ladd procedure",
-   "ทารก Down syndrome double bubble → duodenal atresia → duodenoduodenostomy",
-   "ทารก 5 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี → pyloric stenosis → pyloromyotomy"
+   "ทารก 10 วันอาเจียนน้ำดี UGI เห็น DJ flexure อยู่ขวาของกระดูกสันหลัง ไม่มี corkscrew ท้องไม่อืด → malrotation (ยังไม่ชัดว่าบิด) → Ladd procedure เร่งด่วน",
+   "ระหว่าง Ladd procedure พบลำไส้เล็กสีคล้ำหลังคลายเกลียว ยังไม่ดำชัด → เก็บไว้ ปิดท้องชั่วคราว second look 24 ชม.",
+   "US ทารกอาเจียนน้ำดีเห็น SMV อยู่ด้านซ้ายของ SMA และ whirlpool sign → midgut volvulus → ผ่าตัดด่วน",
+   "ทำไมต้องตัดไส้ติ่งใน Ladd procedure → หลังผ่าตัด cecum อยู่ด้านซ้าย ถ้าไส้ติ่งอักเสบในอนาคตอาการจะผิดตำแหน่งจนวินิจฉัยช้า"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 9 — ตัวพิมพ์: <b>34 ....... upper gastrointestinal studies found corkscrew appearance? What is the management? — B. Ladd procedure C. Barium enema</b><br>ลายมือ: B \"✓ คลายเกลียว\"<br>ไฮไลต์: วง B · \"corkscrew appearance\" (เหลือง)<br>รูปที่แปะ: ภาพขั้นตอน Ladd's procedure (A–E) พร้อมลายมือเล็กอธิบายแต่ละขั้น · ภาพ upper GI ระบุ \"Bird beak sign\" และ \"Cork screw sign\"<br>ที่ปรับในเว็บ: ต้นฉบับจำได้เฉพาะ B, C และ stem ส่วนต้น → แต่ง stem (อาเจียนน้ำดี) และช้อย A, D, E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 9",
@@ -330,30 +350,32 @@
   ]
  },
  "MDCU70|RoB|36": {
-  "interp": "ทารก<b>น้ำลายมาก ใส่สาย OG ไม่ผ่าน ขดในหลอดอาหาร</b> ฟิล์มเห็นปอดกลีบขวาบนแฟบ และ<b>ช่องท้องไม่มีลม</b> → ถามวินิจฉัย",
-  "why": "สาย OG ขดในหลอดอาหารส่วนต้น = <b>esophageal atresia</b> · ดูลมในช่องท้องเพื่อแยกว่ามี distal TEF หรือไม่: <b>มีลมในท้อง</b> = มี fistula จากหลอดลมไปหลอดอาหารส่วนปลาย (type C พบบ่อยที่สุด 86%) · <b>ไม่มีลมในท้อง (gasless abdomen)</b> = <b>ไม่มี distal TEF</b> → <b>pure/ isolated EA (Gross type A, ~7%)</b> ซึ่งมักมีช่องว่างระหว่างปลายหลอดอาหารยาว (long gap) · ปอดกลีบขวาบนแฟบจากสำลักน้ำลาย · ไฟล์ P'Ing วง D และลายมือ <b>\"= esophageal atresia\"</b> <b>\"ไม่มี distal TEF\"</b> พร้อมตาราง Gross type A–E",
+  "interp": "ทารกแรกเกิด<b>น้ำลายมาก</b> ใส่สาย orogastric แล้ว<b>ขดอยู่ในหลอดอาหาร</b> X-ray เห็น <b>right upper lobe atelectasis</b> และ<b>ท้องไม่มีลม (gasless abdomen)</b> — ถามการวินิจฉัย ต้องรู้ชนิดของ esophageal atresia (EA) ตาม Gross และใช้ลมในท้องแยกว่ามี distal TEF หรือไม่",
+  "why": "Esophageal atresia ทำให้หลอดอาหารส่วนบนเป็นถุงตัน → ทารกกลืนน้ำลายไม่ได้ <b>น้ำลายฟูมปาก</b> สำลัก ไอ เขียวเวลาป้อนนม และ<b>สาย OG ใส่ไม่ลง ขดในถุงตัน</b> (ราว 10 cm จากเหงือก) · น้ำลายที่สำลักลงปอดทำให้ปอดอักเสบ/ แฟบ (มักกลีบบนขวา) · การแยกชนิดดูที่<b>ลมในกระเพาะ/ ลำไส้</b>: ถ้ามี <b>distal TEF</b> (หลอดลมต่อกับหลอดอาหารส่วนล่าง) ลมจากการหายใจผ่านรูเข้ากระเพาะ ท้องจึง<b>มีลม</b> (Gross C — พบบ่อยที่สุด ราว 85%) · ถ้า<b>ไม่มี distal TEF</b> ลมเข้ากระเพาะไม่ได้ ท้อง<b>ไม่มีลมเลย</b> = <b>pure EA (Gross A ราว 7–8%)</b> หรือ EA with proximal TEF (Gross B ราว 2%) — ในช้อยมีเพียง EA without distal TEF ที่ตรง · pure EA มักเป็น <b>long-gap</b> (ปลายสองข้างห่างกันมาก) ต่อทันทีไม่ได้ จึงทำ gastrostomy + ดูดถุงบนต่อเนื่อง (Replogle tube) รอให้หลอดอาหารโตแล้วต่อ (delayed primary anastomosis ราว 2–3 เดือน) หรือใช้เทคนิค traction/ esophageal replacement · ไฟล์วง D ลายมือ <b>\"= esophageal atresia\" \"ไม่มี distal TEF\"</b> ขีด C ที่คำว่า with และ E ที่คำว่า distal พร้อมตาราง Gross type A–E",
   "wrong": {
-   "A": "H-type TEF (type E) หลอดอาหารต่อเนื่อง สาย OG ใส่ผ่านได้ ท้องมีลม มาด้วยสำลัก/ ปอดอักเสบซ้ำตอนโต · จะถูกถ้าทารก 3 เดือนไอสำลักทุกครั้งที่ดูดนม ปอดอักเสบซ้ำ ใส่สายได้",
-   "B": "Esophageal stenosis ใส่สายเล็กผ่านได้ มักมีอาการเมื่อเริ่มอาหารข้น (ลายมือ ✗) · จะถูกถ้าเด็ก 8 เดือนกลืนลำบากเมื่อเริ่มอาหารเสริม barium เห็นตีบที่หลอดอาหารส่วนปลาย",
-   "C": "EA with distal TEF จะมีลมเข้าท้องผ่าน fistula (ท้องมีลม/ โป่ง) (ลายมือขีดฆ่า \"with\") · จะถูกถ้าทารกใส่ OG ไม่ผ่าน ฟิล์มเห็นสายขดในหลอดอาหาร และกระเพาะ/ ลำไส้มีลม",
-   "E": "Proximal + distal TEF มีลมในท้องผ่าน distal fistula (ลายมือขีดฆ่า \"distal\") · จะถูกถ้าทารก EA มีลมในท้อง และส่องหลอดลมพบ fistula ทั้งต้นและปลาย"
+   "A": "H-type TEF (Gross E ราว 4%) หลอดอาหาร<b>ต่อเนื่องปกติ</b> สาย OG จึงใส่ลงกระเพาะได้ และท้องมีลมมาก มักวินิจฉัยช้าด้วยอาการสำลัก ไอขณะกินนม ปอดอักเสบซ้ำ · จะถูกถ้าเป็นทารก 3 เดือนไอและเขียวทุกครั้งที่ดูดนม ปอดอักเสบซ้ำ 2 ครั้ง ท้องอืดลม bronchoscopy/ prone pull-back esophagogram เห็นรูเชื่อมรูป H ระดับคอ",
+   "B": "Esophageal stenosis (congenital) หลอดอาหารแคบแต่ไม่ตัน มักมีอาการช้าเมื่อเริ่มอาหารกึ่งแข็ง (กลืนติด อาเจียน) สาย OG ผ่านได้หรือติดเฉพาะส่วนล่าง · จะถูกถ้าเป็นเด็ก 9 เดือนเริ่มกินข้าวบดแล้วอาเจียนเศษอาหารไม่ย่อย esophagogram เห็นหลอดอาหารส่วนล่างตีบเฉพาะที่ (มักจาก tracheobronchial remnant → dilatation/ ผ่าตัด)",
+   "C": "EA with distal TEF (Gross C) พบบ่อยที่สุด (~85%) มีน้ำลายมากและสาย OG ขดเหมือนกัน แต่ลมผ่าน distal TEF เข้ากระเพาะ ท้องจึง<b>มีลม</b> (ไฟล์ขีดคำ with) · จะถูกถ้าเป็นทารกแรกเกิดน้ำลายฟูมปาก สาย OG ขดในหลอดอาหาร X-ray เห็นกระเพาะและลำไส้มีลม (ผ่าตัดปิด TEF และต่อหลอดอาหารปลายต่อปลายในไม่กี่วันแรก)",
+   "E": "EA with proximal and distal TEF (Gross D &lt; 1%) มี distal TEF ท้องจึง<b>มีลม</b> และมักพบรูบนระหว่างผ่าตัด/ bronchoscopy (ไฟล์ขีดคำ distal) · จะถูกถ้าเป็นทารกแรกเกิดสาย OG ขด ท้องมีลม ระหว่างทำ bronchoscopy ก่อนผ่าตัดเห็นรูเชื่อมทั้งที่ถุงบนและหลอดอาหารส่วนล่าง"
   },
-  "trap": "ลืมดูลมในช่องท้อง — gasless abdomen = ไม่มี distal TEF",
+  "trap": "อาการน้ำลายมาก สาย OG ขด และปอดแฟบเหมือนกันทุกชนิดของ EA จนเลือกชนิดที่พบบ่อยที่สุด (Gross C) — ตัวแยกคือ<b>ลมในท้อง</b>: ท้องมีลม = มี distal TEF · <b>gasless abdomen = ไม่มี distal TEF</b> (pure EA หรือมีแค่ proximal TEF) ซึ่งมักเป็น long-gap ต้องวางแผนการผ่าตัดต่างกัน",
   "summary": [
-   "EA: น้ำลายมาก สำลัก ใส่ OG ไม่ผ่าน (ขดในหลอดอาหาร)",
-   "Type C (EA + distal TEF) 86% · ท้องมีลม",
-   "Type A (pure EA) ~7% · gasless abdomen · long gap",
-   "Type E (H-type) ~4% · ไม่มี EA",
-   "VACTERL: ตรวจหัวใจ (echo) ไต กระดูกสันหลัง ทวาร แขนขา",
-   "รักษา: ดูดน้ำลาย (Replogle) ท่าศีรษะสูง → ผ่าตัดต่อ ± ปิด fistula"
+   "Gross classification: A pure EA ~7–8% (gasless) · B EA + proximal TEF ~2% (gasless) · C EA + distal TEF ~85% (มีลม) · D EA + proximal &amp; distal TEF &lt; 1% · E H-type TEF ไม่มี EA ~4%",
+   "ก่อนคลอด: polyhydramnios + กระเพาะเล็ก/ ไม่เห็นบน US · หลังคลอด: น้ำลายมาก สำลักเมื่อกิน สาย OG ใส่ไม่ลง (ขดที่ประมาณ 10 cm)",
+   "VACTERL association ราวครึ่งหนึ่ง: Vertebral, Anorectal, Cardiac, TE fistula, Renal, Limb (radial) · ตรวจ echo ก่อนผ่าตัดเพื่อหาโรคหัวใจและตำแหน่ง aortic arch (right arch → เปลี่ยนข้างที่เปิดอก)",
+   "ดูแลก่อนผ่าตัด: Replogle tube ดูดถุงบนต่อเนื่อง ศีรษะสูง NPO หลีกเลี่ยงการช่วยหายใจแรงดันบวกมาก (ลมเข้ากระเพาะผ่าน TEF) · ทารกที่ต้องใส่ท่อและท้องโป่ง → อาจต้อง gastrostomy/ ปิด TEF ด่วน",
+   "Gross C: right extrapleural thoracotomy (หรือ thoracoscopy) ผูกปิด TEF + end-to-end anastomosis · long-gap (A/ B): gastrostomy → delayed primary anastomosis ราว 2–3 เดือน · ทำไม่ได้ → gastric pull-up/ colon interposition",
+   "ภาวะแทรกซ้อนหลังผ่าตัด: anastomotic leak, anastomotic stricture (ขยายด้วย balloon), recurrent TEF, GERD (พบบ่อยมาก), tracheomalacia",
+   "Spitz classification พยากรณ์รอดชีวิตตามน้ำหนัก (&lt; 1,500 g) และ major cardiac anomaly"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับวง D และลายมือในไฟล์ · ต้นฉบับระบุอายุ 3 สัปดาห์ ซึ่งไม่น่าเป็นไปได้สำหรับ EA จึงเขียนเป็นทารกแรกเกิด",
-  "mnemonic": "<b>'EA: ท้องไม่มีลม = ไม่มี Fistula ปลาย (pure EA)'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Esophageal atresia and tracheoesophageal fistula; ERNICA/ ESPGHAN–NASPGHAN Guidelines on EA-TEF (J Pediatr Gastroenterol Nutr 2016;63:550)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — น้ำลายมาก สาย OG ขด และท้องไม่มีลม บ่งว่าเป็น EA ที่ไม่มี distal TEF ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง D \"ไม่มี distal TEF\" และตาราง Gross ที่แปะ · ต้นฉบับระบุอายุ 3 สัปดาห์ซึ่งไม่สมจริงสำหรับ EA เว็บจึงเขียนเป็นทารกแรกเกิด และ gasless ก็ยังเข้ากับ Gross B ที่ไม่อยู่ในช้อย",
+  "mnemonic": "<b>'OG ขด + ท้องมีลม = Gross C (distal TEF) · OG ขด + ท้องไม่มีลม = Gross A (pure, long-gap)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Esophageal atresia and tracheoesophageal fistula",
   "variants": [
-   "ทารกใส่ OG ไม่ผ่าน ฟิล์มเห็นลมในกระเพาะ → EA with distal TEF (type C)",
-   "ทารก 3 เดือนไอสำลักขณะดูดนม ปอดอักเสบซ้ำ → H-type TEF",
-   "ทารก EA → echo หัวใจก่อนผ่าตัด (ดูตำแหน่ง aortic arch และ VACTERL)"
+   "ทารกแรกเกิดน้ำลายฟูม สาย OG ขด X-ray ท้องมีลม ร่วม anal atresia กระดูกสันหลังผิดรูป และ VSD → EA with distal TEF + VACTERL → echo และ US ไตก่อนผ่าตัด",
+   "ทารก pure EA ระยะห่างระหว่างปลายหลอดอาหาร 5 ช่วงกระดูกสันหลัง → gastrostomy + Replogle ดูดถุงบน รอ delayed primary anastomosis",
+   "เด็ก 6 เดือนหลังผ่าตัด EA กลืนอาหารติด อาเจียน esophagogram ตีบตรงรอยต่อ → anastomotic stricture → balloon dilatation และรักษา GERD",
+   "ทำไมใส่ท่อช่วยหายใจแรงดันบวกในทารก Gross C แล้วท้องโป่งและหายใจแย่ลง → ลมจากเครื่องไหลผ่าน distal TEF เข้ากระเพาะ ดันกะบังลม"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 9 — ตัวพิมพ์: <b>36.เด็กอายุ3week มีexcessive salivary ใส่ogแล้วไม่เข้า ขดอยู่ที่esophagous ทำfilm X rayเห็น right upper lobe atelectasis and gasless in abdomen โรคอะไร? — A. h type esophageal atresia B. esophageal stenosis C. proximal esophageal atresia with distal TE fistula D. proximal esophageal atresia without distal TE fistula E. esophagus atresia with proximal and distal TE fistula</b><br>ลายมือ: \"= esophageal atresia\" · \"ไม่มี distal TEF\" · B ✗ · C ขีดฆ่า \"with\" · E ขีดฆ่า \"distal\" (แดง)<br>ไฮไลต์: วง D · \"excessive salivary\" \"ใส่ogแล้วไม่เข้า ขดอยู่ที่esophagous\" (เหลือง) · \"right upper lobe atelectasis\" · \"gasless in abdomen\" (เหลือง)<br>รูปที่แปะ: ภาพ Gross type A–E พร้อมตาราง A Isolated EA without tracheoesophageal fistula 7% · B EA with proximal TEF 2% · C EA with distal TEF 86% · D EA with proximal and distal TEF &lt;1% · E TEF without EA 4%<br>ที่ปรับในเว็บ: อายุ 3 week เขียนเป็นทารกแรกเกิด",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 9",
@@ -363,30 +385,32 @@
   ]
  },
  "MDCU70|RoB|56": {
-  "interp": "ชาย 68 ปี ปวดศีรษะเรื้อรัง + อ่อนแรง 8 เดือน เริ่มที่<b>แขนขวา → ขาขวา → ขาซ้าย → แขนซ้าย</b> → ถามวินิจฉัย",
-  "why": "การอ่อนแรงไล่<b>เวียนรอบตัวทีละแขนขา (\"around the clock\")</b> แขนข้างหนึ่ง → ขาข้างเดียวกัน → ขาฝั่งตรงข้าม → แขนฝั่งตรงข้าม เป็นลักษณะคลาสสิกของ<b>ก้อนที่ foramen magnum</b> (มักเป็น meningioma) ซึ่งกดรอยต่อ medulla–cervical cord และ pyramidal decussation ค่อย ๆ ไป · อาการร่วม: ปวดท้ายทอย/ คอ ชาแบบ \"เสื้อคลุม\" มือลีบ เสียงแหบ กลืนลำบาก (CN IX–XII) · วินิจฉัยด้วย MRI craniocervical junction · ไฟล์ P'Ing วง D ลายมือ <b>\"= around the clock weakness\"</b> พร้อมวาดรูปคนกับลูกศรวน และมี \"?\" หน้าข้อ",
+  "interp": "ชาย 68 ปีปวดศีรษะเรื้อรังและอ่อนแรง 8 เดือน โดยอ่อนแรง<b>เรียงตามลำดับ: แขนขวา → ขาขวา → ขาซ้าย → แขนซ้าย</b> (\"around the clock\") — ถามตำแหน่ง/ การวินิจฉัย ต้องรู้ว่ารูปแบบนี้เป็นลักษณะเฉพาะของรอยโรคกดที่ <b>foramen magnum</b> (craniocervical junction)",
+  "why": "ที่รอยต่อ medulla กับไขสันหลังส่วนคอสูง เส้นใย corticospinal กำลัง<b>ไขว้ (pyramidal decussation)</b> และเรียงเป็นชั้น — ก้อนที่โตช้าและกดจากด้านข้าง/ หน้าต่อ foramen magnum จึงกดเส้นใยของแขนข้างเดียวกันก่อน แล้วลามไปขาข้างเดียวกัน ขาข้างตรงข้าม และแขนข้างตรงข้าม เป็น <b>\"around-the-clock\" (clockwise/ counterclockwise) weakness</b> · อาการร่วม: <b>ปวดท้ายทอย/ คอส่วนบน</b> (C2) มือชาและกล้ามเนื้อมือลีบแบบ \"ไกล\" (distal upper limb atrophy จาก venous congestion ของไขสันหลังส่วนล่าง) dysesthesia, <b>downbeat nystagmus</b>, เส้นประสาทสมองล่าง (IX–XII) ผิดปกติ เช่น กลืนลำบาก ลิ้นลีบ · ก้อนที่พบบ่อยที่สุดคือ <b>meningioma</b> (มักอยู่ด้านหน้า/ ข้าง) ตามด้วย schwannoma · เพราะอาการค่อยเป็นค่อยไปจึงมักถูกวินิจฉัยผิดเป็น cervical spondylosis, MS หรือ syringomyelia · วินิจฉัยด้วย <b>MRI craniocervical junction with gadolinium</b> · รักษาด้วยการผ่าตัด (เช่น far-lateral approach สำหรับก้อนด้านหน้า) หรือ radiosurgery ในก้อนเล็ก/ เหลือ · ไฟล์วง D ลายมือ <b>\"= around the clock weakness\"</b> พร้อมรูปวาดลูกศรวนรอบตัว",
   "wrong": {
-   "A": "ก้อนระหว่างสมองสองซีก (parasagittal/ falcine meningioma) กดบริเวณ motor ของขา → ขาอ่อนแรงสองข้าง (paraparesis) ± กลั้นปัสสาวะไม่อยู่ · จะถูกถ้าผู้ป่วยขาทั้งสองข้างอ่อนแรงค่อยเป็น แขนปกติ ปัสสาวะราด",
-   "B": "ก้อน pineal กด tectum/ aqueduct → Parinaud syndrome (มองขึ้นไม่ได้) + hydrocephalus · จะถูกถ้าวัยรุ่นปวดหัว มองขึ้นไม่ได้ รูม่านตาไม่ตอบสนองแสงแต่หดเมื่อมองใกล้",
-   "C": "Epidural hematoma ที่คอเกิดเฉียบพลัน (หลังบาดเจ็บ/ ยาต้านการแข็งตัว) ไม่ใช่ 8 เดือน · จะถูกถ้าผู้ป่วยกิน warfarin ปวดคอทันทีแล้วแขนขาอ่อนแรงภายในชั่วโมง",
-   "E": "ก้อนใน third ventricle (colloid cyst) ทำให้ hydrocephalus ปวดหัวตามท่า หมดสติเฉียบพลัน ไม่ทำให้อ่อนแรงไล่รอบตัว · จะถูกถ้าผู้ป่วยปวดหัวรุนแรงเวลาก้ม หมดสติชั่วขณะ CT เห็นก้อนที่ foramen of Monro"
+   "A": "Interhemispheric (parasagittal/ falx) tumor กดบริเวณ motor cortex ด้านในที่คุม<b>ขา</b> ทำให้ขาอ่อนแรงทั้งสองข้าง (paraparesis) ร่วมปัสสาวะกลั้นไม่อยู่และบุคลิกเปลี่ยน ไม่ใช่การลามวนจากแขนไปขา · จะถูกถ้าเป็นหญิง 60 ปีขาทั้งสองอ่อนแรงค่อยเป็นค่อยไป ปัสสาวะราด เฉยเมย MRI พบ falcine meningioma กดผิวสมองด้านในทั้งสองข้าง",
+   "B": "Pineal mass กด tectum และ cerebral aqueduct → <b>Parinaud syndrome</b> (มองขึ้นไม่ได้ light-near dissociation convergence-retraction nystagmus) และ obstructive hydrocephalus · จะถูกถ้าเป็นเด็กชาย 12 ปีปวดศีรษะตอนเช้า อาเจียน มองขึ้นไม่ได้ MRI พบก้อนที่ pineal และ β-hCG ใน CSF สูง (germ cell tumor)",
+   "C": "Cervical epidural hematoma ทำให้ปวดคอทันทีรุนแรงและอ่อนแรงแขนขา<b>ภายในชั่วโมง</b> (ไม่ใช่ 8 เดือน) มักเกิดในผู้ใช้ยากันเลือดแข็ง/ หลังบาดเจ็บ/ หัตถการ · จะถูกถ้าเป็นชาย 70 ปีกิน warfarin INR 4.5 ปวดคอรุนแรงทันทีหลังไอ แล้วแขนขาอ่อนแรงทั้งสี่ภายใน 3 ชม. MRI พบเลือดคั่งใน epidural space (decompression ด่วน + แก้ INR)",
+   "E": "Third ventricle tumor (เช่น <b>colloid cyst</b>) อุด foramen of Monro → ปวดศีรษะเป็นพัก ๆ ตามท่า hydrocephalus อาจหมดสติ/ เสียชีวิตฉับพลัน หรือ hypothalamic dysfunction ไม่ทำให้อ่อนแรงวนสี่แขนขา · จะถูกถ้าเป็นหญิง 35 ปีปวดศีรษะรุนแรงเป็นพัก ๆ เมื่อก้มศีรษะ หายเมื่อเงย CT พบก้อนกลม hyperdense ที่ foramen of Monro และ lateral ventricle ขยาย"
   },
-  "trap": "เห็นปวดหัว + อ่อนแรงแล้วตอบก้อนในสมอง — การอ่อนแรงไล่เวียนทีละแขนขาชี้ตำแหน่ง foramen magnum",
+  "trap": "อ่อนแรงลามทั้งสี่แขนขาค่อยเป็นค่อยไปร่วมปวดศีรษะชวนคิดถึงก้อนในสมอง (interhemispheric/ third ventricle) — แต่ก้อนในสมองหนึ่งตำแหน่งให้รูปแบบอ่อนแรงซีกเดียวหรือขาสองข้าง ส่วน<b>การลามวนเรียงแขน-ขา-ขา-แขน</b>เกิดเมื่อกดเส้นใย corticospinal ที่กำลังไขว้ที่ foramen magnum · cervical epidural hematoma เป็นเฉียบพลัน ไม่ใช่ 8 เดือน",
   "summary": [
-   "Foramen magnum tumor: อ่อนแรงไล่รอบตัว (around the clock)",
-   "มักเป็น meningioma (ด้านหน้า/ ข้าง) · schwannoma",
-   "อาการร่วม: ปวดท้ายทอย มือลีบ CN IX–XII ชา",
-   "MRI craniocervical junction",
-   "Parasagittal meningioma: ขาอ่อนแรงสองข้าง ± ปัสสาวะราด",
-   "Pineal: Parinaud syndrome · Colloid cyst: ปวดหัวตามท่า"
+   "Foramen magnum tumor: meningioma พบบ่อยที่สุด (มักด้านหน้า/ ข้าง) · schwannoma, chordoma (clivus), metastasis · โตช้า อาการหลายเดือนถึงหลายปี",
+   "อาการเด่น: ปวดท้ายทอย/ คอส่วนบน (มักเป็นอาการแรก) · around-the-clock weakness · ชาและกล้ามเนื้อมือลีบ · gait ataxia · downbeat nystagmus · cranial nerve IX–XII · อาจมีปวดศีรษะจาก hydrocephalus",
+   "วินิจฉัยผิดบ่อยเป็น cervical spondylotic myelopathy, multiple sclerosis, syringomyelia, ALS → ผู้ป่วยอาการกดไขสันหลังส่วนคอที่ MRI cervical ไม่อธิบายได้ ต้องดู foramen magnum ด้วย",
+   "MRI with gadolinium: meningioma = ก้อน extra-axial enhance สม่ำเสมอ dural tail · CT ดูหินปูน/ hyperostosis และกายวิภาคกระดูก",
+   "ผ่าตัด: posterior/ posterolateral → suboccipital + C1 laminectomy · anterior/ anterolateral → far-lateral (transcondylar) approach · ระวัง vertebral artery และเส้นประสาทสมองล่าง (กลืน/ สำลักหลังผ่าตัด)",
+   "รูปแบบอ่อนแรงช่วยบอกตำแหน่ง: cortex ด้านใน (parasagittal) → ขาสองข้าง · internal capsule → แขนขาซีกเดียวเท่ากัน · brainstem → crossed signs (เส้นประสาทสมองข้างหนึ่ง แขนขาอีกข้าง) · foramen magnum → วนรอบสี่แขนขา · central cord → แขนอ่อนกว่าขา",
+   "Pineal region tumor ในเด็ก/ วัยรุ่นตรวจ AFP/ β-hCG ใน serum และ CSF ก่อนผ่าตัด — germinoma ไวต่อรังสีและเคมีบำบัดมาก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับวง D และลายมือ \"around the clock weakness\" ในไฟล์",
-  "mnemonic": "<b>'อ่อนแรงวนเข็มนาฬิกา = Foramen magnum'</b>",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — อ่อนแรงลามวนจากแขนขวา ขาขวา ขาซ้าย ไปแขนซ้ายร่วมปวดศีรษะเรื้อรังคือ around-the-clock weakness ซึ่งเป็นลักษณะคลาสสิกของ foramen magnum tumor ตรงกับคีย์ลายมือ P'Ing ในไฟล์ที่วง D (มี ? หน้าข้อแต่ลายมือยืนยันรูปแบบ around the clock)",
+  "mnemonic": "<b>'Foramen magnum = Around the clock: แขน → ขา → ขา → แขน'</b>",
   "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Foramen magnum tumors; Youmans and Winn Neurological Surgery 8th ed. (2022)",
   "variants": [
-   "หญิงขาสองข้างอ่อนแรงค่อยเป็น ปัสสาวะราด MRI ก้อนติด falx → parasagittal meningioma",
-   "วัยรุ่นปวดหัว มองขึ้นไม่ได้ → pineal tumor (Parinaud)",
-   "ผู้ป่วยปวดหัวตามท่า หมดสติเป็นพัก ๆ → colloid cyst"
+   "หญิง 55 ปีปวดท้ายทอยเรื้อรัง มือชาและกล้ามเนื้อมือลีบ เดินเซ MRI cervical ปกติในระดับ C3–C7 → ทำ MRI ดู foramen magnum/ craniocervical junction (meningioma)",
+   "ชาย 50 ปีหลังผ่าตัด far-lateral ตัด foramen magnum meningioma มีเสียงแหบ กลืนสำลัก → เส้นประสาทสมอง IX/ X บาดเจ็บ → งดกินทางปาก ประเมินการกลืน",
+   "ผู้ป่วยมีอ่อนแรงซีกขวาร่วมใบหน้าซีกซ้ายอ่อนแรงแบบ LMN → รอยโรคที่ pons ซ้าย (crossed hemiplegia)",
+   "ทำไมรอยโรคที่ foramen magnum ทำให้อ่อนแรงวนสี่แขนขา → เส้นใย corticospinal กำลังไขว้และเรียงเป็นชั้นตรงจุดนั้น ก้อนที่กดจากข้างหนึ่งจึงกดเส้นใยทีละกลุ่ม"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 9 — ตัวพิมพ์: <b>56. A 68-year old man presented at the OPD complaining weakness and longstanding headache for 8 months. His weakness started from his right upper extremity and progressed to his right lower extremity. Then, weakness developed to his left lower extremity and left upper extremity. Which is the most likely diagnosis? — A. Interhemispheric tumor B. Pineal mass C. Cervical spine epidural hematoma D. Foramen magnum tumor E. Third ventricle tumor</b><br>ลายมือ: \"?\" หน้าข้อ · \"= around the clock weakness\" พร้อมรูปวาดคนและลูกศรวน<br>ไฮไลต์: วง D · \"68-year old man\" \"weakness and longstanding headache for 8 months\" \"right upper extremity and progressed to his right lower extremity\" \"left lower extremity and left upper extremity\"",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 9",

@@ -1,236 +1,411 @@
 {
  "MDCU74|RoD|4": {
-  "interp": "ทารกคลอดก่อนกำหนดหลังผูก PDA ท้องอืด AXR มี pneumatosis intestinalis แต่ไม่มีลมอิสระ = NEC ที่ยังไม่ทะลุ → ถามการรักษา",
-  "why": "ลายมือ P'Ing: <b>A ✓ aggressive medical tx · B ✗ ยังไม่ bowel perforate</b><br><b>นอกสไลด์:</b> NEC เกิดจากลำไส้ของทารกคลอดก่อนกำหนดขาดเลือด (PDA และการผูก PDA ลดเลือดไปลำไส้) ร่วมกับเชื้อและนม · ระยะที่มี pneumatosis แต่ไม่ทะลุ → งดนม ใส่ OG ดูดลม ยาปฏิชีวนะครอบคลุมทางหลอดเลือด สารอาหารทางหลอดเลือด และถ่ายภาพซ้ำเป็นระยะ",
+  "interp": "ทารกคลอดก่อนกำหนดที่เพิ่งผ่าตัดผูก PDA มีท้องอืด ภาพรังสีพบ <b>pneumatosis intestinalis แต่ไม่มี pneumoperitoneum</b> = <b>NEC ที่ยังไม่ทะลุ (Bell stage II)</b> — ถามการดูแลที่เหมาะสม ต้องรู้ว่า NEC ที่ไม่มีลำไส้ทะลุรักษาด้วยยาก่อน และข้อบ่งชี้ผ่าตัด",
+  "why": "<b>Necrotizing enterocolitis (NEC)</b> คือการอักเสบและเนื้อตายของผนังลำไส้ในทารก ส่วนใหญ่คลอดก่อนกำหนด เกิดจาก<b>ลำไส้ยังไม่เจริญเต็มที่ + เลี้ยงด้วยนมผสม + ภาวะเลือดไปเลี้ยงลำไส้ลดลง</b> (PDA ที่ทำให้เกิด diastolic steal, ยา indomethacin, hypoxia) + dysbiosis · แบคทีเรียสร้างแก๊สในผนังลำไส้เกิด <b>pneumatosis intestinalis</b> ซึ่งเป็นเครื่องหมายวินิจฉัย (Bell stage II) · การรักษา NEC ที่ไม่มีทะลุคือ <b>medical management</b>: <b>NPO</b> + ใส่สาย orogastric ดูด decompress + <b>IV broad-spectrum antibiotics</b> (เช่น ampicillin + gentamicin ± metronidazole) นาน 7–14 วัน + TPN + แก้ความผิดปกติของเลือดและ acidosis + <b>ถ่ายภาพรังสีช่องท้องซ้ำทุก 6–12 ชม.</b> และตรวจร่างกายถี่ · ข้อบ่งชี้ผ่าตัดเด็ดขาดคือ <b>pneumoperitoneum</b> (ลำไส้ทะลุ) และข้อบ่งชี้สัมพัทธ์คือแย่ลงแม้รักษาเต็มที่, fixed dilated loop, portal venous gas, ผนังหน้าท้องแดง, คลำได้ก้อน · ไฟล์ <b>วง A</b> พร้อม ✓ <b>\"aggressive medical tx\"</b> และกากบาทช้อย B ว่า <b>\"ยังไม่ bowel perforate\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ผ่าตัดเมื่อลำไส้ทะลุหรือเน่า · จะถูกถ้า AXR มีลมอิสระใต้กะบังลม หรืออาการแย่ลงแม้รักษาด้วยยาเต็มที่ (ผนังท้องแดง ก้อนลำไส้ค้างที่เดิม)",
-   "C": "<b>นอกสไลด์:</b> ใส่สายระบายช่องท้องใช้ในทารกตัวเล็กมากที่ทะลุแล้ว · จะถูกถ้าทารกน้ำหนักต่ำกว่าราว 1,000 g มีลมอิสระและอาการไม่คงที่จนผ่าตัดเปิดท้องไม่ไหว",
-   "D": "<b>นอกสไลด์:</b> การให้นมต่อในทารกที่เป็น NEC ทำให้แย่ลง · จะถูกถ้าเป็นทารกคลอดก่อนกำหนดที่ยังไม่มี NEC — ใช้นมแม่ เพิ่มนมช้า ๆ ± probiotic เพื่อป้องกัน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ NEC รักษาด้วยยาปฏิชีวนะทางปากอย่างเดียว เพราะต้องงดอาหารทางปากและให้ยาทางหลอดเลือดครอบคลุมเชื้อในกระแสเลือดจากลำไส้ที่เสียหาย"
+   "B": "Exploratory laparotomy ทำเมื่อ NEC มีลำไส้ทะลุ (pneumoperitoneum) หรือทรุดลงแม้รักษาด้วยยาเต็มที่ การผ่าตัดทารกที่ยังไม่ทะลุเพิ่มความเสี่ยงโดยไม่จำเป็น — จะถูกถ้าเป็นทารกคลอด 30 สัปดาห์ หนัก 1,400 g เป็น NEC แล้วฟิล์มท่านอนตะแคงซ้ายพบลมอิสระใต้ผนังหน้าท้อง (football sign) ท้องแดงตึง",
+   "C": "Peritoneal drain ใส่ที่ RLQ ข้างเตียงเป็นทางเลือกในทารกน้ำหนักน้อยมาก (&lt; 1,000 g) ที่<b>มีลำไส้ทะลุ</b>และไม่คงที่เกินกว่าจะผ่าตัดใหญ่ ไม่ใช้ใน NEC ที่ยังไม่ทะลุ — จะถูกถ้าเป็นทารกคลอด 25 สัปดาห์ หนัก 700 g ใช้เครื่องช่วยหายใจ ความดันต่ำต้องใช้ยากระตุ้นหัวใจ พบ pneumoperitoneum (หรือ spontaneous intestinal perforation)",
+   "D": "การให้นมต่อเป็นสิ่งที่ห้ามเมื่อเป็น NEC เพราะนมในลำไส้ที่ขาดเลือดเป็นอาหารของแบคทีเรีย ต้องงดนม · probiotics และนมแม่มีบทบาทใน<b>การป้องกัน</b> NEC ไม่ใช่การรักษา — จะถูกถ้าเป็นทารกคลอด 29 สัปดาห์ที่ยังไม่มีอาการทางท้อง กินนมแม่ได้ดี และหอผู้ป่วยมีนโยบายใช้ probiotic สายพันธุ์ที่มีหลักฐานเพื่อลดความเสี่ยง NEC",
+   "E": "ยาปฏิชีวนะชนิดกินอย่างเดียวไม่เพียงพอสำหรับ NEC ซึ่งต้องงดอาหารทางปากและใช้ยาทางหลอดเลือดเพราะมีความเสี่ยง bacteremia/ sepsis สูง — จะถูกถ้าเป็นเด็ก 2 ขวบ ถ่ายเหลวปนมูกเลือดจาก Shigella ไข้ไม่สูง ดื่มน้ำได้ ไม่มีภาวะขาดน้ำรุนแรง → azithromycin ชนิดกิน"
   },
-  "trap": "Pneumatosis ดูน่ากลัวแต่ยังไม่ใช่ข้อบ่งชี้ผ่าตัด — ข้อบ่งชี้เด็ดขาดคือลมอิสระ (ทะลุ)",
+  "trap": "เห็นภาพรังสีผิดปกติในทารกที่เพิ่งผ่าตัดแล้วรีบผ่าตัดซ้ำ · หลักคือ <b>pneumatosis = NEC (stage II) → รักษาด้วยยา</b> · <b>pneumoperitoneum = ทะลุ (stage IIIB) → ผ่าตัด/ drain</b> · และอย่าเลือกให้นมต่อแม้ probiotics ฟังดูทันสมัย เพราะ NEC ต้องงดนม",
   "summary": [
-   "<b>นอกสไลด์:</b> Modified Bell: I สงสัย (ท้องอืด นมค้าง) · II ยืนยัน (pneumatosis ± portal venous gas) → รักษาด้วยยา · III รุนแรง (ช็อก ทะลุ) → ผ่าตัด",
-   "<b>นอกสไลด์:</b> งดนม + ยาปฏิชีวนะราว 7–14 วันตาม stage",
-   "<b>นอกสไลด์:</b> หลังรักษาด้วยยา: ลำไส้ตีบ (มักลำไส้ใหญ่ซ้าย) → ทำ contrast enema เมื่อมีอาการอุดตันหรือตามนัด"
+   "ปัจจัยเสี่ยง NEC: prematurity (สำคัญที่สุด), นมผสม, PDA/ indomethacin, hypoxia-ischemia, polycythemia, umbilical catheter, congenital heart disease",
+   "อาการ: ท้องอืด feeding intolerance (gastric residual มาก/ อาเจียนเขียว) ถ่ายเป็นเลือด apnea bradycardia อุณหภูมิไม่คงที่",
+   "Modified Bell: I สงสัย (ลำไส้อืดเล็กน้อย) · IIA pneumatosis · IIB + portal venous gas/ acidosis/ เกล็ดเลือดต่ำ · IIIA ป่วยหนักลำไส้ยังไม่ทะลุ · IIIB ทะลุ",
+   "Medical: NPO + OG decompression + IV antibiotics 7–14 วัน + TPN + ฟิล์มช่องท้องซ้ำทุก 6–12 ชม. (AP + left lateral decubitus/ cross-table lateral)",
+   "ข้อบ่งชี้ผ่าตัด: pneumoperitoneum (เด็ดขาด) · ทรุดลงแม้รักษาเต็มที่, fixed loop, abdominal wall erythema, คลำได้ก้อน, paracentesis พบเชื้อ/ น้ำสีน้ำตาล",
+   "ผ่าตัด: ตัดลำไส้ส่วนตาย + stoma · ทารกน้ำหนักน้อยมากไม่คงที่ → primary peritoneal drain",
+   "ภาวะแทรกซ้อนระยะยาว: intestinal stricture (มักที่ลำไส้ใหญ่ ราว 2–8 สัปดาห์หลัง) และ short bowel syndrome · ป้องกันด้วยนมแม่ เพิ่มนมช้า ๆ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ไฟล์ไม่มีรูปจึงบรรยายใน stem และช้อย C–E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่วง A ว่า aggressive medical tx และกากบาท explore lap เพราะยังไม่ทะลุ · ไฟล์มีภาพรังสีที่ไม่ได้แนบรูปและมีเพียง 2 ช้อย เว็บจึงบรรยายภาพเป็น pneumatosis ไม่มี free air และเติมช้อย C–E",
+  "mnemonic": "<b>'Pneumatosis → ยา (NPO + IV ATB) · Pneumoperitoneum → ผ่า'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Necrotizing Enterocolitis; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกหาย NEC ด้วยยาแล้ว 5 สัปดาห์ เริ่มกินนมได้ แต่ท้องอืด อาเจียน ถ่ายน้อย → ลำไส้ตีบหลัง NEC ทำ contrast enema แล้วผ่าตัดตัดส่วนตีบ"
+   "ทารกคลอด 28 สัปดาห์ ท้องอืด ฟิล์มเห็น pneumatosis และ portal venous gas เกล็ดเลือดลดลง แต่ไม่มี free air → NEC IIB → medical management ต่อและเฝ้าดูใกล้ชิด",
+   "ทารก NEC รักษาด้วยยา 4 สัปดาห์ต่อมาท้องอืด อาเจียน ไม่ถ่าย → intestinal stricture → contrast enema แล้วผ่าตัดตัดส่วนตีบ",
+   "ทารก NEC ได้ยาเต็มที่ 2 วัน ยัง acidosis ช็อก ผนังหน้าท้องแดง ฟิล์มเห็นลำไส้ขดเดิมไม่เปลี่ยน (fixed loop) → laparotomy",
+   "ทำไมนมแม่ลด NEC → มี IgA, lactoferrin และ oligosaccharides ช่วยให้เชื้อดีเจริญ ลดการอักเสบและการบุกรุกของเชื้อในผนังลำไส้"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 1 — ตัวพิมพ์: <b>เด็ก preterm มีปัญหา PDA ที่ตอนนี้แก้เสร็จแล้ว มาด้วยท้องอืด + ให้ผล film มา (NEC ที่ยังไม่ทะลุ) ถาม management — A. NPO+IV atb B. explore lap</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E · ไฟล์บอกว่าให้ film (NEC ที่ยังไม่ทะลุ) แต่ไม่มีรูป → บรรยายใน stem",
+  "src": "S74DQ · หน้า 1",
+  "kimg": [
+   "kp74d_4"
   ]
  },
  "MDCU74|RoD|5": {
-  "interp": "ข้อ INCORRECT: ข้อความเกี่ยวกับ biliary atresia ข้อใด <b>ผิด</b> · ประเด็นคือระบาดวิทยาและภาพรวมของโรค",
-  "why": "P'Ing ติ๊ก ✓ ที่ <b>B และ C</b> (ข้อความถูก) → เหลือ A เป็นข้อผิด<br><b>นอกสไลด์:</b> BA เป็นสาเหตุที่พบบ่อยที่สุดของ neonatal <b>cholestasis</b> (conjugated) ที่ต้องผ่าตัด · แต่ตัวเหลืองผิดปกติในทารกโดยรวมส่วนใหญ่เป็นชนิด unconjugated (hemolysis เช่น ABO/Rh, G6PD, ติดเชื้อ) จึงพบบ่อยกว่า BA มาก",
+  "interp": "คำถามแบบ <b>incorrect</b> เกี่ยวกับ <b>biliary atresia</b> — ต้องรู้ระบาดวิทยา อาการ การผ่าตัด Kasai และผลระยะยาว แล้วหาข้อความเดียวที่ผิด ซึ่งคือการบอกว่าเป็นสาเหตุที่พบบ่อยที่สุดของ pathologic jaundice ในทารกแรกเกิด",
+  "why": "Biliary atresia เป็นสาเหตุที่พบบ่อยที่สุดของ <b>neonatal cholestatic (conjugated) jaundice ที่ต้องผ่าตัด</b> และเป็นข้อบ่งชี้<b>ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก</b> — แต่ไม่ใช่สาเหตุที่พบบ่อยที่สุดของ <b>pathologic jaundice</b> ในทารกแรกเกิดโดยรวม ซึ่งส่วนใหญ่เป็น <b>unconjugated hyperbilirubinemia</b> จาก hemolysis (ABO/ Rh incompatibility, G6PD deficiency ที่พบมากในไทย), sepsis, cephalohematoma — ข้อ A จึงผิด · ข้อที่ถูก: อาการคือ<b>อุจจาระซีด ปัสสาวะสีเข้ม</b> ตับโต ดีซ่านนานเกิน 2 สัปดาห์ · <b>Kasai portoenterostomy</b> ตัด fibrous remnant ที่ porta hepatis แล้วต่อ Roux-en-Y jejunal limb ผลดีที่สุดเมื่อทำ<b>ก่อน 60 วัน</b> · หลังผ่าตัด <b>ascending cholangitis</b> พบบ่อยที่สุด (ราว 30–60%) ร่วมกับ portal hypertension · แม้ Kasai สำเร็จ ตับยังดำเนินไปเป็น cirrhosis ได้ ผู้ป่วย<b>ส่วนใหญ่ต้องปลูกถ่ายตับในที่สุด</b> (Kasai เป็นการรักษาแรก ปลูกถ่ายเป็นการรักษาสุดท้าย) · ไฟล์ P'Ing <b>ติ๊ก ✓ ที่ B และ C</b> (ข้อความถูก) ช้อย A ในไฟล์เขียน <b>\"M/C cause in pathologic jaundice\"</b>",
   "wrong": {
-   "B": "ข้อความถูก (P'Ing ✓ — ปรับคำจาก \"gold standard\") · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะผู้ป่วย BA ส่วนใหญ่ต้องปลูกถ่ายตับในที่สุดแม้ Kasai สำเร็จช่วงแรก จากตับแข็งที่ดำเนินต่อ",
-   "C": "ข้อความถูก (P'Ing ✓) · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะการผ่าตัดเร็วก่อนตับเป็นพังผืดมาก ทำให้น้ำดีไหลได้มากกว่า",
-   "D": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะน้ำดีไม่ถึงลำไส้ (อุจจาระซีด) และ conjugated bilirubin ละลายน้ำจึงออกทางปัสสาวะ (ปัสสาวะเข้ม)",
-   "E": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะลำไส้ที่ต่อกับขั้วตับเปิดทางให้เชื้อขึ้นท่อน้ำดีเล็กในตับ"
+   "B": "ข้อความถูก: แม้ Kasai จะระบายน้ำดีได้ ตับยังเกิด fibrosis ต่อเนื่อง ผู้ป่วยส่วนใหญ่ (ราวสองในสามขึ้นไป) ต้องปลูกถ่ายตับก่อนเป็นผู้ใหญ่ และ BA เป็นข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็ก 3 ปีหลัง Kasai ที่มีม้ามโต ascites เลือดออกจาก varices และ bilirubin สูงขึ้นเรื่อย ๆ",
+   "C": "ข้อความถูก: Kasai ที่ทำก่อนอายุ 60 วันมีโอกาสระบายน้ำดีสำเร็จและอยู่ได้ด้วยตับตนเองนานกว่าการทำช้า เพราะพังผืดในตับยังน้อย — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 45 วัน ดีซ่าน อุจจาระซีด cholangiogram ยืนยัน biliary atresia และกำลังวางแผนผ่าตัด",
+   "D": "ข้อความถูก: น้ำดีออกลำไส้ไม่ได้ทำให้อุจจาระสีซีด/ ขาวเหมือนดินเหนียว และ conjugated bilirubin ขับทางไตทำให้ปัสสาวะสีเข้ม — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 5 สัปดาห์ที่มารดาสังเกตว่าอุจจาระสีซีดลงและปัสสาวะเปื้อนผ้าอ้อมเป็นสีเหลืองเข้ม ร่วมกับตัวเหลืองไม่หาย",
+   "E": "ข้อความถูก: ascending cholangitis เป็นภาวะแทรกซ้อนที่พบบ่อยที่สุดหลัง Kasai มักใน 2 ปีแรก เพราะ Roux limb ต่อตรงกับท่อน้ำดีในตับโดยไม่มีหูรูดกั้น — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 4 เดือนหลัง Kasai ที่มีไข้สูง ดีซ่านกลับมา อุจจาระซีดลง"
   },
-  "trap": "อ่าน \"pathologic jaundice\" ให้ดี — รวมทั้ง unconjugated ซึ่งพบบ่อยกว่า · BA เป็นอันดับหนึ่งเฉพาะในกลุ่ม cholestatic",
+  "trap": "คำว่า \"most common\" ทำให้สับสนเพราะ BA เป็น \"most common\" หลายอย่าง (สาเหตุ surgical/ obstructive jaundice ในทารก และข้อบ่งชี้ปลูกถ่ายตับในเด็ก) · ต้องอ่านให้ครบว่าข้อ A พูดถึง <b>pathologic jaundice ทั้งหมด</b> ซึ่งรวม unconjugated จาก hemolysis ที่พบบ่อยกว่ามาก · ข้อ B ฟังดูขัดแย้งกับ Kasai แต่ถูกเพราะผู้ป่วยส่วนใหญ่ต้องปลูกถ่ายตับในที่สุด",
   "summary": [
-   "<b>นอกสไลด์:</b> ทารกตัวเหลืองเกิน 2 สัปดาห์ → ตรวจ direct bilirubin · direct > 1.0 mg/dL ถือว่าผิดปกติ → หาสาเหตุ cholestasis",
-   "<b>นอกสไลด์:</b> สาเหตุ neonatal cholestasis: BA (ต้องผ่าตัด) · ติดเชื้อ · พันธุกรรม/เมแทบอลิก (เช่น Alagille, alpha-1 antitrypsin deficiency) · choledochal cyst",
-   "<b>นอกสไลด์:</b> ตรวจสีอุจจาระด้วยแผ่นเทียบสี (stool color card) ช่วยพบ BA เร็ว"
+   "Pathologic jaundice ทารก: เกิดใน 24 ชม.แรก, bilirubin ขึ้นเร็ว, เกิน phototherapy threshold, conjugated สูง หรือนานเกิน 2 สัปดาห์ · ส่วนใหญ่เป็น unconjugated (hemolysis, G6PD, sepsis)",
+   "Conjugated hyperbilirubinemia ทารก: BA (สาเหตุผ่าตัดที่พบบ่อยที่สุด), neonatal hepatitis, choledochal cyst, Alagille, metabolic (galactosemia), TPN cholestasis",
+   "BA type: I CBD · II common hepatic duct · III ถึง porta hepatis (ราว 90%) · BASM (splenic malformation, situs inversus, polysplenia) ส่วนน้อย",
+   "Kasai: ตัด fibrous cone ที่ porta → Roux-en-Y hepaticojejunostomy (portoenterostomy) · ก่อน 60 วันดีที่สุด · หลังผ่าตัดใช้ steroid/ ursodeoxycholic acid/ ยาป้องกัน cholangitis ตามศูนย์",
+   "ภาวะแทรกซ้อนหลัง Kasai: ascending cholangitis (30–60%) · portal hypertension, varices · hepatopulmonary syndrome · ขาดวิตามินที่ละลายในไขมัน (A, D, E, K)",
+   "ปลูกถ่ายตับ: เมื่อ Kasai ล้มเหลว (bilirubin ไม่ลดใน 3 เดือน), cirrhosis มีภาวะแทรกซ้อน, เติบโตช้า · ผลระยะยาวของ living donor ในเด็กดีมาก",
+   "Choledochal cyst แยกจาก BA ได้ด้วย ultrasound (ถุงน้ำของท่อน้ำดีขยาย) · รักษาด้วย cyst excision + Roux-en-Y hepaticojejunostomy เพราะเสี่ยงมะเร็ง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — P'Ing ติ๊ก B และ C เป็นข้อถูก · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ P'Ing ติ๊ก ✓ B และ C ว่าถูก ซึ่งเหลือ A เป็นข้อผิด · เว็บปรับช้อย B จาก \"Liver transplant is gold standard\" ให้ชัดเป็น \"ส่วนใหญ่ต้องปลูกถ่ายตับในที่สุด\" เพื่อไม่ให้ตีความว่าผิด และเติมช้อย D, E ที่เป็นข้อความถูก",
+  "mnemonic": "<b>'BA = Most common ของ \"cholestatic/ surgical\" jaundice ไม่ใช่ jaundice ทั้งหมด'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary Atresia; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 3 สัปดาห์ตัวเหลือง กินนมแม่ดี อุจจาระสีเหลืองปกติ direct bilirubin ปกติ → breast milk jaundice ให้นมแม่ต่อ"
+   "ทารก 3 วัน ตัวเหลืองตั้งแต่วันแรก มารดากลุ่มเลือด O ทารก A Coombs บวก → ABO incompatibility (unconjugated) → phototherapy",
+   "ทารกชายไทย 4 วัน ตัวเหลืองมาก ซีด ปัสสาวะสีเข้ม G6PD ต่ำ → hemolysis จาก G6PD deficiency",
+   "ทารก 6 สัปดาห์ ดีซ่าน อุจจาระซีด ultrasound พบถุงน้ำดีโป่งของท่อน้ำดีร่วม → choledochal cyst → cyst excision + hepaticojejunostomy",
+   "เด็ก 2 ปีหลัง Kasai ดีซ่านไม่หาย ตัวเตี้ย ascites → Kasai ล้มเหลว → ส่งประเมินปลูกถ่ายตับ"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 1 — ตัวพิมพ์: <b>ให้โจทย์เกี่ยวกับ BA ถามว่าข้อใดผิด — A. M/C cause in pathologic jaundice B. Liver transplanted is gold standard of treatment C. ภายใน 60 วัน Kasai operation ช่วยในการรักษา D.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีช้อย A–C (D ว่าง) → เติม D, E และปรับช้อย B ให้ชัดว่า \"ส่วนใหญ่ต้อง LT ในที่สุด\" (เดิมเขียน gold standard ซึ่งอาจตีความว่าผิดได้ เพราะ Kasai เป็นการรักษาแรก) · P'Ing ติ๊ก ✓ B และ C",
+  "src": "S74DQ · หน้า 1",
+  "kimg": [
+   "kp74d_5"
   ]
  },
  "MDCU74|RoD|6": {
-  "interp": "เด็ก 18 เดือน ileocolic intussusception ยืนยันด้วย US → ถามภาวะที่ <b>ห้าม</b> ทำ pneumatic reduction",
-  "why": "ลายมือ P'Ing: <b>A ✗ มี perforation แล้ว · B, C, E ✓ ยังทำได้ · D ✓ ลองได้ 3 ครั้ง</b> + สไลด์ Operative management indications<br><b>นอกสไลด์:</b> การอัดลมทางทวารในลำไส้ที่ทะลุแล้วทำให้ลมและอุจจาระกระจายในช่องท้อง (และ tension pneumoperitoneum) · ข้อห้ามคือทะลุ peritonitis และช็อกที่แก้ไม่ได้ → ผ่าตัด",
+  "interp": "เด็กชาย 18 เดือน ปวดท้องบิดเป็นพัก ๆ อาเจียน ถ่าย currant-jelly และ ultrasound ยืนยัน <b>ileocolic intussusception</b> — ถามสถานการณ์ที่<b>เป็นข้อห้ามของ pneumatic (air) enema reduction</b> ต้องแยกข้อห้ามจริงออกจากปัจจัยที่แค่ลดอัตราสำเร็จ",
+  "why": "<b>Intussusception</b> คือลำไส้ส่วนต้นมุดเข้าลำไส้ส่วนปลาย ส่วนใหญ่ ileocolic ในเด็ก 3 เดือน–3 ปี เป็น idiopathic (lymphoid hyperplasia ของ Peyer patches หลังติดเชื้อไวรัส) · วินิจฉัยด้วย ultrasound (target/ doughnut sign) · รักษาด้วย <b>enema reduction</b> (air หรือ hydrostatic ภายใต้ fluoroscopy/ ultrasound) สำเร็จราว 80–90% · <b>ข้อห้ามมีไม่กี่ข้อ</b>: ① <b>peritonitis</b> ② <b>perforation (pneumoperitoneum)</b> ③ <b>hemodynamic instability/ shock ที่ resuscitation แล้วไม่ดีขึ้น</b> → ต้องผ่าตัด · สิ่งที่<b>ไม่ใช่ข้อห้าม</b>แต่ลดอัตราสำเร็จหรือเพิ่มโอกาส lead point: อาการนาน &gt; 48 ชม., อายุนอกช่วงปกติ, ภาพ small bowel obstruction, ภาวะภูมิคุ้มกันบกพร่อง · ถ้าครั้งแรกไม่สำเร็จแต่ลดได้บางส่วนและเด็กคงที่ ทำ <b>delayed repeat enema</b> ได้ (ภายหลัง 30 นาที–หลายชั่วโมง พยายามได้ราว 3 ครั้ง) · ภาวะแทรกซ้อนสำคัญคือ perforation (&lt; 1%) ที่อาจเกิด tension pneumoperitoneum ต้องเจาะระบายลมด้วยเข็มทันที · ไฟล์ <b>วง A</b> ว่า <b>\"✗ มี perforation แล้ว\"</b> และ ✓ ที่ B, C, E (ยังทำได้) กับ D (ลองได้ 3 ครั้ง) พร้อมแปะสไลด์ <b>Operative management indications</b>",
   "wrong": {
-   "B": "P'Ing ✓ ยังทำได้ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อายุอย่างเดียวเป็นข้อห้าม เพราะอายุมากแค่เพิ่มโอกาสมีจุดนำ (lead point) ต้องหาสาเหตุต่อ ไม่ได้ทำให้การอัดลมอันตราย",
-   "C": "P'Ing ✓ ยังทำได้ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ระยะเวลาอาการอย่างเดียวเป็นข้อห้าม เพราะแค่ลดโอกาสสำเร็จ ถ้าไม่มีทะลุหรือ peritonitis ยังลองได้",
-   "D": "P'Ing: ลองได้ราว 3 ครั้ง · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ล้มเหลวครั้งเดียวเป็นข้อห้าม เพราะถ้าเด็กคงที่และลำไส้เคลื่อนได้บ้าง การลองซ้ำเพิ่มโอกาสสำเร็จ",
-   "E": "P'Ing ✓ ยังทำได้ · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ภูมิคุ้มกันต่ำเป็นข้อห้ามของการอัดลม เพราะเพิ่มโอกาสมีจุดนำจากโรคต่อมน้ำเหลือง ไม่ได้เพิ่มอันตรายของหัตถการ"
+   "B": "ไม่ใช่ข้อห้าม: เด็กอายุมากกว่า 2–3 ปีทำ enema reduction ได้ แต่มีโอกาสพบ pathologic lead point (Meckel, polyp, lymphoma, HSP) มากขึ้น จึงต้องติดตามหาสาเหตุถ้าเป็นซ้ำ — จะถูกถ้าต้องเลือกปัจจัยที่บ่งว่าควรหา lead point ในเด็กชาย 7 ปี ที่ intussusception ซ้ำครั้งที่ 3 น้ำหนักลด US เห็นก้อนเนื้อตันเป็นหัวนำ (สงสัย Burkitt lymphoma)",
+   "C": "ไม่ใช่ข้อห้าม: อาการนานเกิน 48 ชม. ลดอัตราสำเร็จและเพิ่มความเสี่ยงลำไส้ขาดเลือด แต่ถ้าไม่มี peritonitis หรือ free air และสัญญาณชีพคงที่ยังพยายาม enema ได้ — จะถูกถ้าต้องเลือกปัจจัยที่ทำให้อัตราสำเร็จของ enema ต่ำลงในเด็ก 1 ปี ที่ปวดท้องเป็นพักมา 3 วัน ท้องอืด ภาพรังสีมี small bowel obstruction แต่ท้องไม่แข็ง",
+   "D": "ไม่ใช่ข้อห้าม: ครั้งแรกไม่สำเร็จแต่ลดได้บางส่วนและเด็กคงที่ ทำ delayed repeat enema ได้ (โดยทั่วไปพยายามรวมราว 3 ครั้ง) ช่วยเพิ่มอัตราสำเร็จโดยไม่ต้องผ่าตัด — จะถูกถ้าต้องเลือกการจัดการเด็ก 2 ปี ที่ air enema ครั้งแรกดันกลับได้ถึง cecum แต่ไม่ผ่าน ileocecal valve สัญญาณชีพปกติ ไม่มี peritonitis",
+   "E": "ไม่ใช่ข้อห้าม: เด็กที่ภูมิคุ้มกันบกพร่องทำ enema reduction ได้ แต่ควรนึกถึง lead point (เช่น post-transplant lymphoproliferative disorder) และติดเชื้อรุนแรงได้ง่าย — จะถูกถ้าต้องเลือกปัจจัยที่ทำให้ต้องหาสาเหตุเพิ่มในเด็ก 5 ปีหลังปลูกถ่ายไตที่เป็น intussusception และ CT เห็นก้อนต่อมน้ำเหลืองโตใน mesentery"
   },
-  "trap": "อายุมาก อาการนาน เคยล้มเหลว ลดโอกาสสำเร็จ ไม่ใช่ข้อห้าม",
+  "trap": "ช้อย B–E ฟังเหมือนปัจจัยเสี่ยงที่ควรผ่าตัด ทำให้สับสน · หลักคือข้อห้ามของ enema มีเพียง <b>peritonitis, perforation (free air), shock ที่แก้ไม่ได้</b> · ปัจจัยอื่นเป็นเพียงตัวลดอัตราสำเร็จหรือบอกให้หา lead point · การพยายามซ้ำหลังล้มเหลวครั้งแรกยังทำได้ถ้าเด็กคงที่",
   "summary": [
-   "<b>นอกสไลด์:</b> Intussusception พบบ่อยอายุราว 3 เดือน–3 ปี · ileocolic · ส่วนใหญ่ไม่มีจุดนำ (lymphoid hyperplasia)",
-   "<b>นอกสไลด์:</b> US เห็น target/doughnut sign · การอัดลมหรือน้ำสำเร็จราว 80–90%"
+   "Intussusception: ileocolic บ่อยสุด · อายุ 3 เดือน–3 ปี (peak 6–18 เดือน) · idiopathic จาก lymphoid hyperplasia · เด็กโตนึกถึง lead point",
+   "อาการ: ปวดบิดเป็นพัก ๆ ร้องกวนขาขึ้นท้อง อาเจียน currant-jelly stool ก้อนรูปไส้กรอก RUQ (Dance sign: RLQ ว่าง) · บางรายซึมเป็นอาการเด่น",
+   "US: target/ doughnut sign (ตัดขวาง), pseudokidney (ตามยาว) · ไวและจำเพาะสูง ใช้เป็นการตรวจแรก",
+   "Enema reduction (air/ hydrostatic): สำเร็จราว 80–90% · ยืนยันสำเร็จเมื่อลม/ สารทึบรังสีไหลเข้า terminal ileum",
+   "ข้อห้าม enema: peritonitis, perforation/ free air, shock ที่ resuscitation ไม่ดีขึ้น → ผ่าตัด (manual reduction ดันจากปลาย ไม่ดึง; ตัดลำไส้ถ้าตาย/ มี lead point)",
+   "ภาวะแทรกซ้อน: perforation &lt; 1% (tension pneumoperitoneum → needle decompression) · เป็นซ้ำราว 10% หลัง enema และน้อยกว่าหลังผ่าตัด",
+   "Lead point: Meckel (บ่อยสุด), polyp, duplication cyst, lymphoma, HSP (intramural hematoma, มัก ileo-ileal), cystic fibrosis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่วง A (มี perforation แล้ว) และ P'Ing ติ๊ก ✓ ช้อยอื่นว่ายังทำได้ (D ลองได้ 3 ครั้ง) พร้อมแปะสไลด์ข้อบ่งชี้ผ่าตัด · ช้อยในเว็บตรงกับไฟล์ครบ 5 ตัว",
+  "mnemonic": "<b>'ห้าม Enema = 3P: Peritonitis, Perforation (free air), Persistent shock'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> US บังเอิญพบ ileo-ileal intussusception สั้น ๆ ในเด็กที่ไม่มีอาการ → มักคลายเอง ติดตามได้ ไม่ต้องอัดลม"
+   "เด็ก 1 ปี intussusception ท้องแข็งทั่วท้อง ไข้ ชีพจรเร็ว BP ต่ำแม้ให้สารน้ำ → ผ่าตัด (ไม่ทำ enema)",
+   "ระหว่าง air enema เด็กท้องโป่งตึงทันที หายใจลำบาก fluoroscopy เห็นลมเต็มช่องท้อง → tension pneumoperitoneum → needle decompression แล้วผ่าตัด",
+   "เด็ก 8 เดือน air enema สำเร็จ 24 ชม.ต่อมาร้องกวนเป็นพักอีก US พบ intussusception ซ้ำ → enema reduction ซ้ำได้",
+   "เด็ก 5 ปี ปวดท้องเป็นพัก มีผื่น palpable purpura ที่ขา ข้อบวม US พบ ileo-ileal intussusception → Henoch-Schönlein purpura เป็น lead point"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 1 — ตัวพิมพ์: <b>ให้ประวัติเหมือน intussesception ถามว่าถ้ามีอาการใดไม่สามารถทำ pneumatic reduction ได้ — A. pneumoperitoneum B. Age > 2 year C. มาช้ากว่า 48 hr D. One unsuscessful pneumatic reduction E. immunocompromised</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing แปะสไลด์ Operative management indications",
+  "src": "S74DQ · หน้า 1",
+  "kimg": [
+   "kp74d_6"
   ]
  },
  "MDCU74|RoD|7": {
-  "interp": "ถามมะเร็งของลิ้นที่พบบ่อยที่สุด",
-  "why": "P'Ing วง A + แปะสไลด์ <b>Carcinoma of the tongue</b><br><b>นอกสไลด์:</b> ลิ้นบุด้วย squamous epithelium มะเร็งลิ้นเกือบทั้งหมดจึงเป็น SCC พบมากที่ขอบข้างและใต้ลิ้น · ลิ้นมีหลอดน้ำเหลืองมาก กระจายไปต่อมน้ำเหลืองคอเร็ว แม้คลำไม่พบ",
+  "interp": "คำถามความรู้ตรง ๆ ถาม<b>เนื้องอกร้ายที่พบบ่อยที่สุดของลิ้น</b> — ต้องรู้ว่าลิ้นปกคลุมด้วย stratified squamous epithelium และมะเร็งเกิดจากเยื่อบุนี้เป็นหลัก พร้อมแยกช้อยที่เป็นเนื้องอกของผิวหนัง ต่อมน้ำลาย เซลล์สร้างสี และเนื้องอกไม่ร้าย",
+  "why": "ลิ้นปกคลุมด้วย <b>non-keratinized/ keratinized stratified squamous epithelium</b> มะเร็งของลิ้นจึงเป็น <b>squamous cell carcinoma</b> มากกว่า 90% · <b>ลิ้นส่วนหน้า 2/3 (oral tongue)</b> จัดเป็น oral cavity สัมพันธ์กับบุหรี่ สุรา หมาก และการระคายเคืองเรื้อรังจากฟันคม ตำแหน่งบ่อยคือ<b>ขอบข้างและด้านล่างของลิ้น</b> · <b>โคนลิ้น (posterior 1/3)</b> จัดเป็น oropharynx สัมพันธ์กับ <b>HPV-16</b> มากขึ้น · ลิ้นมีหลอดน้ำเหลืองหนาแน่น มะเร็งลิ้นจึง<b>แพร่ไปต่อมน้ำเหลืองคอเร็ว</b>: ปลายลิ้น → submental (level IA), ขอบข้าง → submandibular และ level II–III และอาจข้ามไป level IV ได้ (skip metastasis) · ความลึกการลุกลาม (DOI) เป็นตัวทำนองการแพร่ไปคอ · รักษา: <b>partial glossectomy</b> ขอบปลอดเนื้องอก ร่วมกับ <b>neck dissection</b> (elective ใน DOI ลึกหรือ therapeutic เมื่อคลำได้ต่อม) และ adjuvant RT/ CRT ตามพยาธิ · ไฟล์ <b>วง A</b> และ P'Ing แปะสไลด์ <b>\"Carcinoma of the tongue\"</b> (หัวข้อ [Plastic])",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> BCC เกิดจากผิวหนังที่มีรากขน · ไม่มีสถานการณ์ใดที่เป็นมะเร็งลิ้นที่พบบ่อยที่สุด เพราะเยื่อบุลิ้นไม่มีโครงสร้างที่ BCC เกิด",
-   "C": "<b>นอกสไลด์:</b> Adenocarcinoma ที่ลิ้นมาจากต่อมน้ำลายเล็กซึ่งมีน้อย · ไม่มีสถานการณ์ใดที่พบบ่อยกว่า SCC เพราะเนื้อเยื่อหลักของลิ้นคือ squamous epithelium",
-   "D": "<b>นอกสไลด์:</b> Mucosal melanoma ในปากพบน้อยมากและมักที่เพดานแข็ง/เหงือก · ไม่มีสถานการณ์ใดที่เป็นมะเร็งลิ้นที่พบบ่อยที่สุด เพราะความถี่ต่ำกว่า SCC มาก",
-   "E": "<b>นอกสไลด์:</b> Hemangioma เป็นเนื้องอกไม่ร้าย · ไม่มีสถานการณ์ใดที่เป็นคำตอบของมะเร็ง เพราะไม่ใช่ malignant tumor"
+   "B": "Basal cell carcinoma เกิดจาก basal cell ของหนังกำพร้าที่มีรูขุมขน พบในผิวหนังที่ถูกแดด (ใบหน้า จมูก) โตช้าแทบไม่แพร่กระจาย ไม่เกิดบนเยื่อบุช่องปาก — จะถูกถ้าเป็นชาย 70 ปี ทำงานกลางแจ้ง มีตุ่มขอบมันวาวสีมุก (pearly rolled border) มีเส้นเลือดฝอยบนผิวและแผลตรงกลางที่ข้างจมูก",
+   "C": "Adenocarcinoma ในบริเวณช่องปากเกิดจากต่อมน้ำลายเล็ก (เช่น polymorphous adenocarcinoma ที่เพดาน) พบน้อยมากที่ลิ้นเมื่อเทียบกับ SCC และมักเป็นก้อนใต้เยื่อบุที่ผิวปกติ — จะถูกถ้าเป็นหญิง 55 ปี มีก้อนแข็งใต้เยื่อบุที่รอยต่อเพดานแข็งกับเพดานอ่อนโตช้าหลายปี ผิวเยื่อบุปกติ ชิ้นเนื้อเป็น polymorphous adenocarcinoma",
+   "D": "Mucosal melanoma ในช่องปากพบน้อยมาก (มักที่เพดานแข็งและเหงือกบน) เป็นปื้นหรือก้อนสีดำ/ น้ำตาลเข้ม พยากรณ์โรคแย่กว่า cutaneous melanoma — จะถูกถ้าเป็นชาย 62 ปี มีปื้นสีดำขอบไม่เรียบที่เหงือกบนโตเร็วใน 6 เดือน ฟันโยก ชิ้นเนื้อย้อม HMB-45 และ SOX10 บวก",
+   "E": "Hemangioma เป็นเนื้องอกหลอดเลือดชนิด<b>ไม่ร้าย</b> (infantile hemangioma) ไม่ใช่ malignant tumor โตเร็วในขวบปีแรกแล้วยุบเอง — จะถูกถ้าเป็นทารก 3 เดือน มีก้อนสีแดงสดนุ่มที่ลิ้นโตเร็วตั้งแต่อายุ 2 สัปดาห์ เลือดออกง่ายเวลาดูดนม → propranolol"
   },
-  "trap": "อ่านคำว่า malignant — hemangioma เป็นก้อนที่ลิ้นที่พบได้แต่ไม่ใช่มะเร็ง",
+  "trap": "ช้อยมีทั้งเนื้องอกผิวหนัง (BCC) ต่อมน้ำลาย (adenocarcinoma) และเนื้องอกไม่ร้าย (hemangioma) ซึ่งเป็นตัวลวงให้คิดว่าข้อนี้ถามระบาดวิทยาซับซ้อน · หลักง่าย: <b>เยื่อบุ squamous → มะเร็ง squamous</b> · BCC ต้องมีรูขุมขน (ผิวหนัง) และ hemangioma ไม่ใช่มะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> Depth of invasion (DOI) ใช้แบ่ง T stage (AJCC 8) และตัดสินผ่าตัดต่อมน้ำเหลืองคอ: DOI มากกว่าราว 3–4 mm → elective neck dissection แม้คลำไม่พบ",
-   "<b>นอกสไลด์:</b> ผ่าตัดเผื่อขอบราว 1 cm (ขอบพยาธิ ≥ 5 mm ถือว่าพอ)",
-   "<b>นอกสไลด์:</b> รักษาเสริมด้วยรังสี: ก้อนใหญ่ ต่อมน้ำเหลืองบวก ลามตามเส้นประสาท/หลอดเลือด · ขอบบวกหรือลามนอกต่อมน้ำเหลือง → เคมีร่วมกับรังสี"
+   "มะเร็งลิ้น &gt; 90% เป็น SCC · oral tongue (หน้า 2/3) สัมพันธ์บุหรี่ สุรา หมาก · base of tongue (oropharynx) สัมพันธ์ HPV-16",
+   "ตำแหน่งบ่อยใน oral tongue: ขอบข้างและด้านล่าง (ventrolateral) ที่สารก่อมะเร็งในน้ำลายแช่อยู่",
+   "อาการ: แผลไม่หาย ก้อนแข็ง ปวดร้าวไปหู (referred otalgia ผ่าน lingual → V3/ auriculotemporal) พูดหรือกลืนลำบาก ลิ้นแข็งขยับไม่ได้",
+   "Lymphatic: ปลายลิ้น → submental · ขอบข้าง → submandibular/ jugulodigastric (level II) · skip metastasis ไป level III–IV ได้ · โคนลิ้นแพร่ทั้งสองข้าง",
+   "รักษา oral tongue SCC: partial/ hemiglossectomy ขอบปลอดเนื้องอก + neck dissection (selective I–III/ I–IV) · ข้อบกพร่องใหญ่ใช้ radial forearm/ ALT free flap",
+   "Adjuvant: RT เมื่อ pT3–4, N2–3, PNI, LVI, ขอบใกล้ · CRT (cisplatin) เมื่อ positive margin หรือ extranodal extension",
+   "HPV-positive oropharyngeal SCC (p16+) พยากรณ์ดีกว่า มักพบในผู้อายุน้อยไม่สูบบุหรี่ มาด้วยก้อนต่อมน้ำเหลืองคอแบบ cystic"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับสไลด์ที่ P'Ing แปะ (ข้อคล้าย 74C เลข 26) · ช้อย E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่วง A และแปะสไลด์ Carcinoma of the tongue · ช้อยทั้ง 5 ตัวตรงกับไฟล์ (squamous cell carcinoma, basal cell carcinoma, adenocarcinoma, melanoma, hemangioma) โดยมีคำตอบเดียวที่ชัดเจน",
+  "mnemonic": "<b>'ลิ้น = Squamous epithelium → Squamous cell CA'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers (2025); Grabb and Smith's Plastic Surgery 8th ed. (2020) — Head and Neck Cancer and Reconstruction",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย SCC ขอบข้างลิ้นขนาด 2 cm DOI 2 mm คลำต่อมน้ำเหลืองคอไม่ได้ → ตัดก้อนเผื่อขอบ ส่วนต่อมน้ำเหลืองคอพิจารณาติดตามหรือ sentinel node"
+   "ชาย 55 ปี แผลขอบลิ้นซ้าย 3 cm ปวดร้าวไปหูซ้าย คลำได้ต่อมน้ำเหลือง level II ซ้าย → SCC ลิ้น cN1 → hemiglossectomy + neck dissection + reconstruction",
+   "หญิง 35 ปี ไม่สูบบุหรี่ มีแผลที่ขอบลิ้นตรงกับฟันกรามคมเรื้อรัง 6 สัปดาห์ แม้กรอฟันแล้ว → ตัดชิ้นเนื้อ (แผลไม่หายหลังกำจัดสาเหตุ 2–3 สัปดาห์)",
+   "หลัง partial glossectomy พยาธิพบ DOI 6 mm และ perineural invasion → พิจารณา adjuvant radiotherapy",
+   "ทำไมมะเร็งลิ้นต้องตัดต่อมน้ำเหลืองคอแม้คลำไม่ได้เมื่อ DOI ลึก → ลิ้นมีหลอดน้ำเหลืองหนาแน่น โอกาส occult metastasis สูง และการตัดก่อนเพิ่มการรอดชีวิต"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 1 — ตัวพิมพ์: <b>[Plastic] What is the most common malignant tongue cancer? — A. Squamous cell Carcinoma B. Basal cell carcinoma C. Adenocarcinoma D. Melanoma E. hemangioma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อคล้ายกับ 74C เลข 26 (คนละ rotation)",
+  "src": "S74DQ · หน้า 1",
+  "kimg": [
+   "kp74d_7"
   ]
  },
  "MDCU74|RoD|8": {
-  "interp": "ถามมะเร็งของต่อม parotid ที่พบบ่อยที่สุด (malignant ไม่ใช่เนื้องอกทั้งหมด)",
-  "why": "P'Ing ✓ B + แก้คำเป็น <b>mucoepidermoid</b> และแปะข้อความ salivary gland tumors · <b>A ✗ benign</b><br><b>นอกสไลด์:</b> เนื้องอก parotid ส่วนใหญ่ไม่ร้าย · ในกลุ่มที่ร้าย mucoepidermoid carcinoma พบบ่อยที่สุด (ทั้งผู้ใหญ่และเด็ก) ความรุนแรงขึ้นกับ grade",
+  "interp": "คำถามถาม<b>เนื้องอกร้ายที่พบบ่อยที่สุดของต่อม parotid</b> — ต้องแยก benign (pleomorphic adenoma, Warthin) ออกจาก malignant และรู้ว่ามะเร็งต่อมน้ำลายชนิดใดพบบ่อยในต่อมใด",
+  "why": "เนื้องอกต่อมน้ำลายส่วนใหญ่เกิดที่ parotid และราว 80% ของเนื้องอก parotid เป็น<b>ชนิดไม่ร้าย</b> (\"rule of 80\") ยิ่งต่อมเล็กสัดส่วนมะเร็งยิ่งสูง (submandibular ราวครึ่ง, sublingual/ minor salivary ส่วนใหญ่เป็นมะเร็ง) · เนื้องอกที่พบบ่อยที่สุดของ parotid โดยรวมคือ <b>pleomorphic adenoma</b> (benign) ตามด้วย <b>Warthin tumor</b> (benign) · <b>มะเร็งที่พบบ่อยที่สุดของ parotid (และต่อมน้ำลายโดยรวม รวมถึงในเด็ก) คือ mucoepidermoid carcinoma</b> ประกอบด้วย mucous cells, epidermoid cells และ intermediate cells แบ่ง low/ intermediate/ high grade ซึ่งกำหนดพยากรณ์โรค · <b>adenoid cystic carcinoma</b> พบบ่อยที่สุดใน submandibular และ minor salivary glands · ลักษณะที่ชี้มะเร็ง: โตเร็ว ปวด ติดแน่น <b>facial nerve palsy</b> ต่อมน้ำเหลืองคอโต · ตรวจด้วย ultrasound + FNA และ MRI ถ้าลึก · รักษาด้วย<b>parotidectomy</b> (superficial หรือ total) เก็บ facial nerve ถ้าไม่ถูกลุก ± neck dissection และ adjuvant RT ในเกรดสูง/ ขอบใกล้/ PNI · ไฟล์ ✓ ช้อย B (เขียน \"Mucoepitheloid\") แก้คำเป็น <b>mucoepidermoid</b> และกากบาท A ว่า <b>\"benign cystic tumor\"</b> พร้อมแปะข้อความ salivary gland tumors",
   "wrong": {
-   "A": "P'Ing: benign cystic tumor · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เป็นคำตอบ เพราะ Warthin tumor ไม่ใช่มะเร็ง (เนื้องอกไม่ร้ายอันดับสองของ parotid)",
-   "C": "<b>นอกสไลด์:</b> Adenoid cystic พบมากที่ต่อม submandibular และต่อมน้ำลายเล็ก · ไม่มีสถานการณ์ใดที่เป็นมะเร็ง parotid ที่พบบ่อยที่สุด เพราะใน parotid พบน้อยกว่า mucoepidermoid",
-   "D": "<b>นอกสไลด์:</b> Acinic cell carcinoma เกิดใน parotid ได้แต่พบน้อยกว่า · ไม่มีสถานการณ์ใดที่เป็นอันดับหนึ่ง เพราะความถี่ต่ำกว่า mucoepidermoid",
-   "E": "<b>นอกสไลด์:</b> Pleomorphic adenoma เป็นเนื้องอกต่อมน้ำลายที่พบบ่อยที่สุดแต่ไม่ร้าย · ไม่มีสถานการณ์ใดที่เป็นคำตอบของมะเร็ง (แม้กลายเป็นมะเร็งได้เมื่อทิ้งไว้นาน)"
+   "A": "Warthin tumor (papillary cystadenoma lymphomatosum) เป็นเนื้องอก<b>ไม่ร้าย</b>ที่พบบ่อยเป็นอันดับสองของ parotid มักอยู่ที่ tail of parotid ในชายสูงอายุที่สูบบุหรี่ เป็นสองข้างได้ราว 10% และจับ Tc-99m pertechnetate (hot) — จะถูกถ้าเป็นชาย 65 ปี สูบบุหรี่ 40 pack-years มีก้อนนุ่มกึ่ง cystic ที่มุมกรามทั้งสองข้าง โตช้า FNA พบ oncocytic epithelium กับ lymphoid stroma",
+   "C": "Adenoid cystic carcinoma เป็นมะเร็งต่อมน้ำลายที่พบบ่อยที่สุดใน submandibular และ minor salivary glands (ไม่ใช่ใน parotid) เด่นเรื่อง perineural invasion และแพร่ไปปอดช้า ๆ — จะถูกถ้าเป็นหญิง 50 ปี มีก้อนที่ submandibular gland โตช้า ร่วมกับชาลิ้นและลิ้นอ่อนแรง ชิ้นเนื้อเป็น cribriform pattern และ perineural invasion",
+   "D": "Acinic cell carcinoma เป็นมะเร็งเกรดต่ำที่เกิดเกือบทั้งหมดใน parotid พบบ่อยรองลงมา โตช้า พบในหญิงอายุน้อยได้ บางรายเป็นสองข้าง แต่พบน้อยกว่า mucoepidermoid — จะถูกถ้าเป็นหญิง 35 ปี ก้อนที่ parotid โตช้า ผ่าตัดแล้วพยาธิพบ serous acinar cells ที่มี zymogen granules (PAS-positive, diastase-resistant)",
+   "E": "Pleomorphic adenoma เป็นเนื้องอกที่พบบ่อยที่สุดของ parotid โดยรวมแต่เป็น<b>ชนิดไม่ร้าย</b> โตช้า ไม่เจ็บ มี pseudopods ทะลุแคปซูล ถ้าเลาะแค่ก้อน (enucleation) กลับเป็นซ้ำได้ และถ้าทิ้งไว้นานอาจกลายเป็น carcinoma ex pleomorphic adenoma — จะถูกถ้าเป็นหญิง 40 ปี ก้อนแข็งยางที่หน้าหูโตช้า 5 ปี ไม่เจ็บ facial nerve ปกติ FNA พบ epithelial cells ใน chondromyxoid stroma"
   },
-  "trap": "สับสนเนื้องอกที่พบบ่อยที่สุด (pleomorphic adenoma, ไม่ร้าย) กับมะเร็งที่พบบ่อยที่สุด (mucoepidermoid)",
+  "trap": "ช้อยผสมทั้ง benign และ malignant · คนที่จำว่า pleomorphic adenoma พบบ่อยที่สุดหรือ Warthin เป็นอันดับสองอาจเลือกโดยไม่เห็นคำว่า <b>malignant</b> · และ adenoid cystic มีชื่อเสียงมากจนถูกเลือก แต่พบบ่อยใน<b>ต่อมเล็ก</b> ส่วน parotid คือ mucoepidermoid",
   "summary": [
-   "<b>นอกสไลด์:</b> ยิ่งต่อมเล็ก โอกาสเป็นมะเร็งยิ่งสูง: parotid ราว 20–25% · submandibular ราวครึ่ง · ต่อมน้ำลายเล็กส่วนใหญ่",
-   "<b>นอกสไลด์:</b> Adenoid cystic: ลามตามเส้นประสาท กลับเป็นซ้ำช้าได้หลายปี",
-   "<b>นอกสไลด์:</b> ก้อน parotid ร่วมกับหน้าเบี้ยว (facial nerve อ่อนแรง) → คิดถึงมะเร็ง"
+   "Rule of 80: ~80% ของเนื้องอกต่อมน้ำลายอยู่ที่ parotid · ~80% ของเนื้องอก parotid ไม่ร้าย · ~80% ของ benign เป็น pleomorphic adenoma",
+   "ต่อมยิ่งเล็กยิ่งเป็นมะเร็งมาก: parotid ~20% · submandibular ~40–50% · sublingual/ minor salivary ส่วนใหญ่เป็นมะเร็ง",
+   "Malignant: mucoepidermoid (บ่อยสุดใน parotid และในเด็ก) · adenoid cystic (บ่อยสุดใน submandibular/ minor) · acinic cell (เกือบทั้งหมดใน parotid เกรดต่ำ)",
+   "สัญญาณมะเร็ง: โตเร็ว ปวด ติดแน่น facial nerve palsy ผิวหนังถูกลุก ต่อมน้ำเหลืองคอโต",
+   "Work-up: ultrasound + FNA (หรือ core biopsy) · MRI ดูส่วนลึก (deep lobe, parapharyngeal) และ perineural spread · ห้ามผ่าเปิดชิ้นเนื้อ (open biopsy) เพราะทำให้เซลล์กระจาย",
+   "Superficial parotidectomy เก็บ facial nerve ใน benign ส่วนผิว · มะเร็ง → parotidectomy + neck dissection ตามข้อบ่งชี้ + adjuvant RT ในเกรดสูง/ PNI/ ขอบใกล้",
+   "ภาวะแทรกซ้อน parotidectomy: facial nerve paresis, Frey syndrome (เหงื่อออกที่แก้มเวลากิน จาก auriculotemporal nerve ต่อผิด), ชาติ่งหู (great auricular nerve), salivary fistula"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับที่ P'Ing แก้คำและแปะ · ช้อย E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ ✓ ช้อย B และ P'Ing แก้คำ \"Mucoepitheloid\" เป็น mucoepidermoid พร้อมกากบาท Warthin ว่าเป็น benign · ไฟล์มี 4 ช้อย เว็บเติม pleomorphic adenoma เป็นช้อย E ซึ่งเป็น benign จึงยังมีคำตอบเดียว",
+  "mnemonic": "<b>'Parotid: Benign บ่อยสุด = Pleomorphic · Malignant บ่อยสุด = Mucoepidermoid (M คู่ M)'</b>",
+  "guide": "Cummings Otolaryngology–Head and Neck Surgery 7th ed. (2021) — Malignant Neoplasms of the Salivary Glands; WHO Classification of Head and Neck Tumours 5th ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อน parotid โตช้า ไม่เจ็บ FNA เป็น pleomorphic adenoma → superficial parotidectomy เก็บ facial nerve (ไม่ควักเฉพาะก้อน เพราะกลับเป็นซ้ำ)"
+   "ชาย 60 ปี ก้อนที่ parotid ขวาโตเร็วใน 3 เดือน ปวด หน้าเบี้ยวขวาปิดตาไม่สนิท → นึกถึงมะเร็ง → FNA + MRI → total parotidectomy ± neck dissection",
+   "เด็กหญิง 12 ปี ก้อนที่ parotid FNA เป็นมะเร็ง → mucoepidermoid carcinoma (มะเร็งต่อมน้ำลายที่พบบ่อยที่สุดในเด็ก)",
+   "หลัง superficial parotidectomy 6 เดือน มีเหงื่อออกและแดงที่แก้มขณะรับประทานอาหาร → Frey syndrome (ตรวจด้วย Minor starch-iodine test)",
+   "ทำไม pleomorphic adenoma ห้ามเลาะแค่ตัวก้อน → มี pseudopods ยื่นทะลุแคปซูล เลาะแค่ก้อนจะเหลือเนื้องอกและกลับเป็นซ้ำหลายจุด ต้องตัดพร้อมเนื้อต่อมรอบ (superficial parotidectomy)"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 1 — ตัวพิมพ์: <b>What is the most common malignant parotid cancer? — A. Warthin tumor B. Mucoepitheloid carcinoma C. Adenoid cystic carcinoma D. Acinic cell carcinoma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์เขียน Mucoepitheloid → mucoepidermoid · โจทย์อยู่ท้ายหน้า 82 ช้อยหน้า 83 → ครอป 2 ส่วน · ไฟล์มี 4 ช้อย → เติม E",
+  "src": "S74DQ · หน้า 1",
+  "kimg": [
+   "kp74d_8a",
+   "kp74d_8b"
   ]
  },
  "MDCU74|RoD|9": {
-  "interp": "แผลกดทับที่ sacrum สูญเสียเนื้อเยื่อเต็มความหนาและเห็นกระดูกที่พื้นแผล → ถาม stage",
-  "why": "คีย์ไม่มีคำตอบและไฟล์ไม่มีรูป — <b>Claude บรรยายภาพเป็นแผลเห็นกระดูกและเฉลย</b><br><b>นอกสไลด์:</b> NPIAP: เห็นหรือคลำได้ fascia กล้ามเนื้อ เอ็น กระดูกอ่อน หรือกระดูก = stage 4 · แผลที่เห็นกระดูกต้องคิดถึงกระดูกอักเสบเสมอ",
+  "interp": "ชายติดเตียง 75 ปี มีแผลที่ sacrum <b>สูญเสียเนื้อเยื่อทั้งชั้นและเห็นกระดูกที่ก้นแผล</b> — ถามระดับ (stage) ของ pressure injury ต้องรู้ว่าสิ่งที่มองเห็นที่ก้นแผลเป็นตัวกำหนด stage ตามระบบ NPIAP",
+  "why": "ระบบ <b>NPIAP (2016)</b> จัด stage ตาม<b>เนื้อเยื่อชั้นลึกที่สุดที่มองเห็นหรือคลำได้</b>: stage 1 ผิวไม่แตก แดงกดไม่จาง · stage 2 สูญเสียผิวบางส่วนเห็น dermis · stage 3 สูญเสียผิวทั้งชั้นเห็น<b>ไขมัน</b> อาจมี slough/ undermining แต่ไม่เห็น fascia หรือลึกกว่า · <b>stage 4</b> สูญเสียผิวและเนื้อเยื่อทั้งชั้น <b>เห็นหรือคลำได้ fascia, กล้ามเนื้อ, เอ็น, ligament, กระดูกอ่อน หรือกระดูก</b> มักมี undermining/ tunneling · unstageable คือฐานถูกปิดด้วย slough หรือ eschar จนไม่รู้ความลึก · <b>ไม่มี stage 5</b> · แผลที่เห็นกระดูกจึงเป็น <b>stage 4</b> ซึ่งต้องประเมิน <b>osteomyelitis</b> (probe-to-bone, ESR/ CRP, MRI และ bone biopsy เป็นมาตรฐาน) · รักษา: ลดแรงกดเต็มที่ โภชนาการ ควบคุมการปนเปื้อนจากอุจจาระ (อาจต้อง diverting colostomy) debridement ± NPWT และเมื่อแผลสะอาดผู้ป่วยพร้อม → <b>flap</b> เช่น gluteal rotation/ gluteus maximus myocutaneous flap · ไฟล์จดว่า <b>\"ให้รูปมาถาม pressure sore level ไหน\"</b> พร้อมช้อยเลข 1–5 โดยไม่มีรูปและไม่มีคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Stage 1 ผิวยังไม่แตก · จะถูกถ้าผิวที่ sacrum ยังสมบูรณ์แต่แดง กดแล้วไม่ซีด",
-   "B": "<b>นอกสไลด์:</b> Stage 2 แผลตื้นถึงหนังแท้ · จะถูกถ้าแผลตื้นสีชมพูชื้นหรือเป็นตุ่มน้ำใส ไม่เห็นไขมัน",
-   "C": "<b>นอกสไลด์:</b> Stage 3 ลึกถึงไขมันใต้ผิว · จะถูกถ้าแผลลึกเห็นไขมัน อาจมี slough บางส่วน แต่ไม่เห็นกล้ามเนื้อ เอ็น หรือกระดูก",
-   "E": "<b>นอกสไลด์:</b> Unstageable คือพื้นแผลถูกปิดด้วยเนื้อตายจนประเมินความลึกไม่ได้ · จะถูกถ้าพื้นแผลถูกคลุมด้วย slough หรือ eschar ทั้งหมด"
+   "A": "Stage 1 คือผิวยังไม่แตกแต่แดงกดไม่จาง (non-blanchable erythema) อาจอุ่นหรือแข็งกว่าผิวรอบ ๆ ในคนผิวเข้มอาจเห็นเป็นสีคล้ำ ไม่มีแผลเปิด — จะถูกถ้าเป็นหญิง 85 ปี นอนติดเตียง พบผิวสีแดงที่ส้นเท้าขวา กดด้วยนิ้วแล้วไม่ซีด ผิวยังไม่แตก",
+   "B": "Stage 2 คือสูญเสียผิวบางส่วนเห็น dermis สีชมพู/ แดงชุ่มชื้น หรือเป็นตุ่มน้ำใส ไม่เห็นไขมันหรือเนื้อเยื่อลึก ไม่มี slough — จะถูกถ้าเป็นชาย 70 ปี ใช้รถเข็น มีแผลตื้นสีชมพูที่ก้นกบขนาด 2 cm ฐานแผลชุ่มชื้น ไม่มีเนื้อตาย",
+   "C": "Stage 3 คือสูญเสียผิวทั้งชั้นเห็นไขมันใต้ผิวหนัง อาจมี granulation, slough หรือ undermining แต่ไม่เห็น fascia กล้ามเนื้อ หรือกระดูก — จะถูกถ้าเป็นหญิง 80 ปี มีแผลลึกที่ greater trochanter เห็นชั้นไขมันสีเหลืองที่ก้นแผล ไม่เห็นกล้ามเนื้อหรือกระดูก",
+   "E": "Unstageable คือแผลที่สูญเสียเนื้อเยื่อทั้งชั้นแต่ก้นแผลถูกปิดด้วย slough หรือ eschar จนประเมินความลึกไม่ได้ ต้อง debride ก่อนจึงจัด stage ได้ (ยกเว้น eschar แห้งแข็งที่ส้นเท้า) — จะถูกถ้าเป็นชาย 78 ปี มีแผลที่ sacrum ปกคลุมด้วย eschar สีดำแข็งทั้งแผล มองไม่เห็นฐาน"
   },
-  "trap": "ไฟล์มีช้อยเลข 1–5 แต่ไม่มี stage 5 จึงเปลี่ยนเป็น unstageable · เห็นกระดูก = stage 4 ทันที ไม่ต้องดูขนาด",
+  "trap": "ไฟล์ให้ช้อยเป็นเลข 1–5 ทำให้คนคิดว่ามี stage 5 สำหรับแผลที่ลึกถึงกระดูก · ระบบปัจจุบันมีเพียง stage 1–4 ร่วมกับ unstageable และ deep tissue pressure injury · ให้จำว่า <b>เห็นไขมัน = 3, เห็นกล้ามเนื้อ/ เอ็น/ กระดูก = 4</b> และ unstageable ใช้เมื่อมองไม่เห็นฐาน ไม่ใช่เมื่อแผลลึกมาก",
   "summary": [
-   "<b>นอกสไลด์:</b> Deep tissue injury: ผิวสีม่วงคล้ำหรือตุ่มเลือด ไม่ซีดเมื่อกด — เนื้อใต้ผิวถูกทำลายแล้ว",
-   "<b>นอกสไลด์:</b> Stage 4 ที่ sacrum: ตัดเนื้อตาย ตรวจหากระดูกอักเสบ (ตัดชิ้นเนื้อกระดูก/MRI) แล้วปิดด้วย flap เมื่อพร้อม",
-   "<b>นอกสไลด์:</b> แผลที่หายแล้วยังเรียกตาม stage เดิม (ไม่ลด stage ย้อนกลับ)"
+   "NPIAP 2016: stage 1 → 2 → 3 → 4 + unstageable + deep tissue pressure injury (DTPI) + medical device-related + mucosal membrane pressure injury",
+   "Stage 4: เห็น/ คลำได้ fascia, กล้ามเนื้อ, เอ็น, ligament, กระดูกอ่อน หรือกระดูก · มักมี undermining และ tunneling · เสี่ยง osteomyelitis",
+   "DTPI: ผิวไม่แตกหรือเป็นตุ่มเลือด สีม่วงแดงเข้ม/ น้ำตาล กดไม่จาง จากเนื้อเยื่อลึกที่ถูกกดและ shear อาจกลายเป็นแผลลึกในไม่กี่วัน",
+   "Osteomyelitis ใต้แผลกดทับ: probe-to-bone, ESR/ CRP สูง, MRI · bone biopsy (ส่งเพาะเชื้อ + พยาธิ) เป็นมาตรฐาน → IV antibiotics ตามเชื้อ + ตัดกระดูกตาย",
+   "เตรียมก่อน flap: ลดแรงกด แก้ spasm/ contracture โภชนาการ (albumin, prealbumin) หยุดบุหรี่ คุมเบาหวาน ป้องกันการปนเปื้อนอุจจาระ (บางรายต้อง diverting colostomy)",
+   "Flap ตามตำแหน่ง: sacrum → gluteal rotation/ gluteus maximus myocutaneous (V-Y) · ischium → posterior thigh/ hamstring · trochanter → tensor fascia lata",
+   "แผลกดทับเรื้อรังนานหลายปีที่เปลี่ยนลักษณะ ขอบนูนแข็ง → นึกถึง Marjolin ulcer (SCC) → ตัดชิ้นเนื้อ"
   ],
-  "opinion": "คีย์ไม่มีคำตอบ — Claude บรรยายภาพเป็นแผลเห็นกระดูกและตอบ stage 4 ตามนิยาม NPIAP · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ไฟล์ไม่มีคีย์และไม่มีรูปประกอบ (บอกว่าข้อสอบให้รูปมาถาม stage) และใช้ช้อยเลข 1–5 ซึ่งไม่มี stage 5 จริง · เว็บบรรยายภาพเป็นแผลเห็นกระดูกและเปลี่ยนช้อยที่ 5 เป็น unstageable ทำให้คำตอบตามเกณฑ์ NPIAP คือ stage 4 แต่ข้อสอบจริงอาจเป็นรูปแผลระดับอื่นได้",
+  "mnemonic": "<b>'เห็นไขมัน = 3 · เห็นกระดูก/ กล้ามเนื้อ = 4 · มองไม่เห็นฐาน = Unstageable'</b>",
+  "guide": "NPIAP Pressure Injury Stages (2016); International Guideline: Prevention and Treatment of Pressure Ulcers/Injuries (EPUAP/NPIAP/PPPIA, 3rd ed. 2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> Eschar แห้งแข็งติดแน่นที่ส้นเท้าในผู้ป่วยขาขาดเลือด ไม่มีบวมแดง → unstageable แต่เก็บ eschar ไว้ ไม่ตัดออก"
+   "ผู้ป่วยติดเตียงมีบริเวณสีม่วงคล้ำที่ sacrum ผิวไม่แตก กดไม่จาง มีตุ่มเลือด → deep tissue pressure injury → ลดแรงกดทันที เฝ้าดูการเปลี่ยนแปลง",
+   "แผล stage 4 ที่ ischium ในผู้ป่วยอัมพาตท่อนล่าง แผลสะอาดหลัง debridement โภชนาการดี → posterior thigh (hamstring) V-Y advancement flap",
+   "แผลที่ส้นเท้ามี eschar แห้งแข็งติดแน่น ไม่มีไข้ ไม่มีหนอง รอบแผลไม่แดง → unstageable → ไม่ debride ปล่อยเป็น biological cover และลดแรงกด",
+   "ชาย 60 ปี แผลกดทับที่ sacrum มา 15 ปี ระยะหลังขอบนูนแข็งเลือดออกง่ายกลิ่นเหม็น → Marjolin ulcer → ตัดชิ้นเนื้อหลายตำแหน่ง"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>ให้รูปมาถาม pressure sore level ไหน — F. 1 G. 2 H. 3 I. 4 J. 5</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์บอกว่าให้รูปแต่ไม่มีรูป และช้อยเป็นเลข 1–5 (ไม่มี stage 5 จริง) → Claude บรรยายภาพเป็นแผลเห็นกระดูก (stage 4) และเปลี่ยนช้อย 5 เป็น Unstageable",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_9"
   ]
  },
  "MDCU74|RoD|10": {
-  "interp": "หลังตัดเนื้อตายแผลที่ต้นขาด้านหลัง ขอบผิวเลือดเลี้ยงไม่ดี → ถามวิธีเย็บที่ปิดแผลได้โดยลดการขาดเลือดของขอบ",
-  "why": "P'Ing วง C + เขียน <b>\"half-buried\"</b> เหนือ horizontal mattress<br><b>นอกสไลด์:</b> Half-buried horizontal mattress ผ่านผิวหนังเฉพาะฝั่งที่เลือดดี ส่วนฝั่งที่เลือดไม่ดีไหมวิ่งอยู่ในหนังแท้ ไม่รัดผ่านผิว จึงไม่บีบหลอดเลือดของขอบที่เปราะ · ใช้บ่อยที่มุม flap",
+  "interp": "หลัง debridement แผลที่ต้นขาด้านหลัง <b>ขอบผิวหนังมีเลือดเลี้ยงก้ำกึ่ง (marginal blood supply)</b> — ถามเทคนิคเย็บที่เหมาะเพื่อปิดแผลโดย<b>ลดการขาดเลือดของขอบแผล</b> ต้องรู้ว่าเทคนิคใดไม่ให้ด้ายรัดผ่านผิวหนังฝั่งที่เปราะบาง",
+  "why": "การเย็บที่ทำให้ขอบแผลขาดเลือดคือการที่ห่วงด้ายรัดผิวหนังและ dermal plexus ที่วิ่งขนานขอบแผล · <b>Half-buried horizontal mattress suture</b> (corner stitch/ tip stitch) เริ่มแทงผ่านผิวหนังฝั่งที่เลือดดี แล้ว<b>วิ่งในชั้น dermis ของฝั่งที่เปราะบางในแนวนอนโดยไม่ทะลุผิว</b> ก่อนกลับออกทางฝั่งที่เลือดดี → ฝั่งที่เลือดเลี้ยงน้อยไม่มีด้ายรัดบนผิวและไม่มีรอยเข็ม <b>ลดการขาดเลือดและเนื้อตายที่ขอบ</b> · ใช้กับปลาย flap, มุมแผลรูปตัว V/ Y, ขอบผิวหนังที่ถูกบดหรือหลัง debridement · ต่างจาก <b>horizontal mattress เต็มรูป</b> ที่ด้ายขนานขอบแผลบนผิวทั้งสองฝั่ง ซึ่งรัดเลือดได้มากที่สุด · vertical mattress พลิกขอบดีแต่ยังมีห่วงด้ายผ่านผิวทั้งสองฝั่ง · การเย็บต่อเนื่องแบบ locking รัดแน่นตลอดแนวจึงขาดเลือดได้มาก · หลักเพิ่มเติม: ลดแรงตึงด้วย deep dermal sutures และผูกพอให้ขอบชิดไม่รัด · ไฟล์ <b>วง C</b> และ P'Ing <b>เขียน \"half-buried\" เหนือคำ Horizontal Mattress</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Simple interrupted รัดผ่านผิวทั้งสองขอบ · จะถูกถ้าแผลทั่วไปที่ขอบเลือดเลี้ยงดีและไม่ตึง",
-   "B": "<b>นอกสไลด์:</b> Vertical mattress รัดผ่านผิวทั้งสองขอบสองชั้น · จะถูกถ้าผิวหย่อนหรือขอบแผลม้วนเข้า ต้องการให้ขอบบาน (เช่น หลังมือ ข้อพับ)",
-   "D": "<b>นอกสไลด์:</b> Simple continuous ดึงทั้งแนวถ้าตึงจะรัดขอบ · จะถูกถ้าแผลยาว สะอาด ไม่ตึง ต้องการเย็บเร็ว",
-   "E": "<b>นอกสไลด์:</b> Continuous locking รัดแน่นที่สุดในกลุ่มเย็บต่อเนื่อง · จะถูกถ้าต้องการห้ามเลือดตามแนวแผลที่เลือดออกมาก เช่น หนังศีรษะ"
+   "A": "Simple interrupted ผ่านผิวทั้งสองฝั่งทีละเข็ม รัดเลือดน้อยกว่า mattress แต่ยังมีด้ายบนผิวฝั่งที่เปราะบางและไม่ได้ออกแบบมาเพื่อขอบที่เลือดน้อย — จะถูกถ้าเป็นชาย 25 ปี แผลมีดบาดขอบเรียบยาว 3 cm ที่ปลายแขน เลือดเลี้ยงดี แรงตึงน้อย ทำความสะอาดแล้ว",
+   "B": "Vertical mattress (far-far-near-near) พลิกขอบแผลออกดีที่สุดและรับแรงตึงได้ แต่มีห่วงด้ายผ่านผิวทั้งสองฝั่งสองระดับ ในขอบที่เลือดก้ำกึ่งยังเสี่ยงเนื้อตายและรอยเข็ม — จะถูกถ้าเป็นหญิง 65 ปี แผลที่หลังมือผิวหย่อน ขอบแผลม้วนเข้า เลือดเลี้ยงดี ต้องการให้ขอบพลิกออกชนกันพอดี",
+   "D": "Simple continuous เย็บเร็วกระจายแรงตึงตลอดแนว แต่ถ้ารูดแน่นจะรัดขอบแผลทั้งเส้น และถ้าด้ายขาดจุดเดียวแผลแยกทั้งแนว ไม่ใช่ทางเลือกสำหรับขอบที่เลือดน้อย — จะถูกถ้าเป็นชาย 45 ปี แผลผ่าตัดยาวตรงที่ลำตัว เลือดเลี้ยงดี ขอบชิดกันง่าย ต้องการปิดเร็ว",
+   "E": "Continuous locking (blanket) suture ห้ามเลือดได้ดีเพราะแต่ละเข็มล็อกรัดขอบแผล จึงทำให้ขอบแผลขาดเลือดมากและไม่เหมาะกับผิวที่เลือดเลี้ยงก้ำกึ่ง — จะถูกถ้าเป็นชาย 30 ปี แผลฉีกยาวที่หนังศีรษะเลือดออกซึมมาก ต้องการปิดแผลพร้อมห้ามเลือด"
   },
-  "trap": "ช้อยต้นฉบับเขียนแค่ horizontal mattress แต่ P'Ing เขียน half-buried — horizontal mattress ธรรมดาเป็นตัวที่ทำให้ขอบขาดเลือดที่สุด (74C เลข 22)",
+  "trap": "คำว่า horizontal mattress ทำให้สับสนเพราะเป็นเทคนิคที่<b>รัดเลือดมากที่สุด</b>เมื่อเป็นแบบเต็ม · คำสำคัญคือ <b>half-buried</b>: ด้ายฝังใน dermis ของฝั่งที่เปราะบาง จึงกลับกลายเป็นเทคนิคที่<b>ถนอมเลือด</b> · ต้องอ่านชื่อช้อยให้ครบและเข้าใจว่าส่วนใดของด้ายอยู่บนผิว",
   "summary": [
-   "<b>นอกสไลด์:</b> Half-buried horizontal mattress (corner stitch): ปลาย flap สามเหลี่ยม · ขอบแผลที่เลือดเลี้ยงไม่ดี",
-   "<b>นอกสไลด์:</b> ทุกวิธีเย็บ: ผูกพอให้ขอบชิด ไม่รัดจนซีด (ขอบจะบวมหลังเย็บ)"
+   "Half-buried horizontal mattress (corner/ tip stitch): ด้ายผ่าน dermis ของฝั่งเปราะบางโดยไม่ทะลุผิว → ลดการขาดเลือด ใช้ปลาย flap, มุม V-Y, ขอบที่ถูกบด",
+   "Full horizontal mattress: รัดเลือดมากที่สุดถ้าผูกแน่น · ใช้กับแผลตึงที่เลือดเลี้ยงดี กระจายแรงตึงและห้ามเลือด",
+   "Half-buried vertical mattress ใช้หลักเดียวกันเมื่อต้องการ eversion ในฝั่งเดียวโดยไม่มีรอยเข็มฝั่งที่ต้องการความสวยงาม",
+   "Debridement: ตัดเนื้อตายจนเห็นขอบเลือดออก (bleeding edge) · ผิวที่ยังก้ำกึ่งอาจเก็บไว้แล้วประเมินซ้ำ (second look) แทนการเย็บตึง",
+   "ลดแรงตึง: deep dermal buried sutures, undermining ใน plane ที่เหมาะ, หรือปล่อยแผลเปิด/ NPWT/ graft แทนการเย็บตึงบนขอบที่เลือดน้อย",
+   "แผลที่ขาด้านหลังเลือดเลี้ยงแย่ลงในผู้สูงอายุ เบาหวาน PAD สูบบุหรี่ → พิจารณาปัจจัยระบบก่อนปิดแผล",
+   "สัญญาณขอบแผลขาดเลือดหลังเย็บ: ขอบซีดหรือคล้ำ capillary refill ช้า ตุ่มน้ำ → คลายไหมบางเข็ม ประเมินซ้ำ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ปรับช้อยเป็น half-buried ตามที่ P'Ing เขียน เพื่อไม่ขัดกับ 74C เลข 22 · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่วง C และ P'Ing เขียน half-buried เหนือคำ Horizontal Mattress · เว็บจึงปรับชื่อช้อย C เป็น half-buried horizontal mattress ตามคีย์ เพราะ horizontal mattress เต็มรูปเป็นเทคนิคที่ทำให้ขาดเลือดมากที่สุด (ขัดกับหลักและกับข้อสอบอีกข้อในชุดเดียวกัน)",
+  "mnemonic": "<b>'Half-buried = ฝังฝั่งเปราะ → ด้ายไม่รัดผิวที่เลือดน้อย'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic Techniques and Principles in Plastic Surgery; Sabiston Textbook of Surgery 21st ed. (2022) — Wound Healing",
   "variants": [
-   "<b>นอกสไลด์:</b> ปิดแผลแบบ V-Y หรือ Z-plasty ที่มุมสามเหลี่ยมปลายแหลม → ใช้ corner stitch เย็บมุมเพื่อไม่ให้ปลาย flap ตาย"
+   "ปิดปลาย flap รูปสามเหลี่ยมในการทำ Z-plasty ที่ปลายบางและเลือดเลี้ยงน้อย → half-buried horizontal mattress (tip stitch)",
+   "แผลขาด้านหลังหลัง debridement ขอบผิวยังคล้ำ ไม่แน่ใจว่าจะรอด → ปล่อยแผลเปิด NPWT แล้ว second look 48 ชม. ก่อนปิดแผล",
+   "แผลตึงที่ฝ่ามือในชายหนุ่ม เลือดเลี้ยงดี → horizontal mattress เต็มรูป ผูกหลวม กระจายแรงตึง",
+   "ทำไม continuous locking ไม่เหมาะกับผิวเปราะ → แต่ละเข็มล็อกรัดขอบแผลแน่นตลอดแนว ตัดเลือดที่วิ่งขนานขอบแผลทั้งเส้น"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>แผลที่ต้นขาหลัง debridement แล้ว blood supply ไม่ค่อยดี ควรเย็บแบบไหน — A. Simple B. Vertical Mattress C. Horizontal Mattress D. Continuous E. Continuous locking</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ช้อย C ในไฟล์เขียนแค่ Horizontal Mattress — P'Ing เขียน half-buried เหนือคำ จึงปรับช้อย C เป็น half-buried horizontal mattress ตามคีย์ (ถ้าเป็น horizontal mattress ธรรมดาจะขัดกับ 74C เลข 22)",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_10"
   ]
  },
  "MDCU74|RoD|11": {
-  "interp": "ทารกแรกเกิดปากแหว่งสมบูรณ์ข้างเดียว มาหาแพทย์ทั่วไป → ถามสิ่งที่แพทย์ทั่วไปควรทำ (โจทย์เดียวกับ 74A เลข 90)",
-  "why": "ผู้จดเขียน <b>\"ตรงแอค\"</b> (= 74A เลข 90) · P'Ing วง A + แปะตาราง<br><b>นอกสไลด์:</b> การรักษาปากแหว่งเพดานโหว่ต้องวางแผนตั้งแต่แรกเกิดโดยทีมเดียวกันต่อเนื่องจนโต: ศัลยแพทย์ตกแต่ง ทันตแพทย์จัดฟัน นักแก้ไขการพูด แพทย์หู คอ จมูก/นักแก้ไขการได้ยิน กุมารแพทย์ นักพันธุศาสตร์ และนักสังคมสงเคราะห์",
+  "interp": "ทารกแรกเกิดมี <b>complete unilateral cleft lip</b> ถูกพามาพบแพทย์ทั่วไป (GP) — ถามว่า GP ควรทำอะไร ต้องรู้ว่าการดูแลปากแหว่งเพดานโหว่เป็นงานของทีมสหสาขาที่เริ่มตั้งแต่แรกเกิด และ GP ไม่ใช่ผู้ทำหัตถการเฉพาะทาง",
+  "why": "ปากแหว่ง/ เพดานโหว่เป็นความพิการแต่กำเนิดที่ต้องดูแลต่อเนื่องตั้งแต่แรกเกิดจนโตเต็มที่ ครอบคลุม<b>การกินอาหาร การเจริญเติบโต การผ่าตัดหลายครั้ง การพูด การได้ยิน ฟันและการสบฟัน จิตใจและพันธุกรรม</b> จึงต้องดูแลโดย <b>multidisciplinary cleft team</b> (ศัลยแพทย์ตกแต่ง/ ศัลยแพทย์ช่องปาก, ทันตแพทย์จัดฟัน, นักแก้ไขการพูด, แพทย์หู คอ จมูก, กุมารแพทย์, พันธุกรรม, พยาบาล, นักจิตวิทยา/ สังคมสงเคราะห์) · บทบาทของ GP คือ<b>ส่งต่อทีม cleft โดยเร็ว</b> ประเมินและแนะนำการให้นม (ขวด/ จุกพิเศษ ท่าตั้งตรง เรอบ่อย) ตรวจความผิดปกติร่วมและดูการเพิ่มน้ำหนัก · ไทม์ไลน์คร่าว ๆ: presurgical orthopedics (lip taping/ NAM) ในสัปดาห์แรก ๆ โดยทีม · <b>lip repair ราว 3 เดือน</b> (rule of 10s: 10 สัปดาห์, 10 ปอนด์, Hb 10 g/dL) · <b>palate repair ราว 9–18 เดือน</b> ก่อนเริ่มพูด · alveolar bone graft ช่วง mixed dentition (8–11 ปี) · rhinoplasty/ orthognathic surgery เมื่อโตเต็มที่ · ไฟล์ <b>วง A</b> ผู้จดเขียน <b>\"ตรงแอค\"</b> และ P'Ing แปะตารางการดูแล",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> การติดเทปเป็นแผนของทีมก่อนผ่าตัด · ไม่มีสถานการณ์ใดที่แพทย์ทั่วไปเริ่มแทนการส่งต่อ เพราะทีมต้องประเมินความกว้างของรอยแหว่งก่อนเลือกวิธีจัดรูป",
-   "C": "<b>นอกสไลด์:</b> Lip adhesion เป็นการผ่าตัดขั้นแรกในรอยแหว่งกว้างบางศูนย์ · ไม่มีสถานการณ์ใดที่แพทย์ทั่วไปทำเอง เพราะเป็นการผ่าตัดใต้การดมยาสลบโดยทีม cleft",
-   "D": "<b>นอกสไลด์:</b> NAM ต้องมีทันตแพทย์จัดฟันปรับเครื่องมือทุกสัปดาห์ · ไม่มีสถานการณ์ใดที่แพทย์ทั่วไปเริ่มเอง เพราะต้องทำในทีมที่มีทันตแพทย์จัดฟัน",
-   "E": "<b>นอกสไลด์:</b> 5 ขวบช้าเกินไป · ไม่มีสถานการณ์ใดที่นัดเย็บริมฝีปากตอน 5 ขวบในทารกที่มาตั้งแต่แรกเกิด เพราะเย็บราว 3 เดือนเพื่อการกิน ความสวยงาม และพัฒนาการ"
+   "B": "Hypoallergenic lip taping เป็น presurgical orthopedics ที่ช่วยดึงขอบปากและ premaxilla ให้ชิดก่อนผ่าตัด ทำได้จริงแต่ควรเริ่มภายใต้การดูแลของทีม cleft ซึ่งสอนผู้ปกครองและติดตามผล ไม่ใช่สิ่งแรกที่ GP ทำแทนการส่งต่อ — จะถูกถ้าเป็นทารก 2 สัปดาห์ที่ทีม cleft ประเมินแล้วว่าเป็น wide complete cleft lip และสอนผู้ปกครองให้ติดเทประหว่างรอผ่าตัด",
+   "C": "Lip adhesion เป็นการผ่าตัดเย็บขอบปากเบื้องต้นให้ชิดกันในปากแหว่งที่กว้างมาก เพื่อลดความกว้างก่อน definitive repair ต้องทำโดยศัลยแพทย์ทีม cleft ภายใต้การดมยาสลบ — จะถูกถ้าเป็นทารก 6 สัปดาห์ wide complete unilateral cleft lip ที่ศัลยแพทย์ในทีมวางแผนทำ lip adhesion ก่อนซ่อมจริงตอนอายุราว 5–6 เดือน",
+   "D": "Nasoalveolar molding (NAM) เป็นเครื่องมือในช่องปากร่วมกับแท่งดันจมูก ปรับรูปกระดูก alveolar และกระดูกอ่อนจมูกก่อนผ่าตัด ต้องทำโดยทันตแพทย์จัดฟันในทีมและปรับทุก 1–2 สัปดาห์ — จะถูกถ้าเป็นทารกอายุ 1 สัปดาห์ที่มาถึงศูนย์ cleft แล้ว ทันตแพทย์ในทีมพิมพ์ปากและเริ่ม NAM เพื่อปรับรูปจมูกก่อน lip repair",
+   "E": "การซ่อมปากตอน 5 ปีช้าเกินไป ทำให้เด็กเสียโอกาสทางรูปลักษณ์ การกิน และการพัฒนาทางสังคม แนวทางคือซ่อมปากราว 3 เดือน — จะถูกถ้าเป็นเด็ก 5 ปีที่ซ่อมปากไปแล้วตอนทารกและมีรอยแผลเป็นหรือจมูกผิดรูปเล็กน้อย กำลังวางแผน lip revision ก่อนเข้าโรงเรียน"
   },
-  "trap": "รู้ขั้นตอนการรักษาแล้วเลือกขั้นแรกของทีม — คำถามคือบทบาทของแพทย์ทั่วไป ซึ่งคือส่งต่อ",
+  "trap": "ช้อย B, C, D เป็นการดูแลจริงของผู้ป่วย cleft ทำให้ดูถูกทั้งหมด · ประเด็นคือคำถามถาม<b>บทบาทของ GP</b> ซึ่งไม่ใช่ผู้เริ่มหัตถการเฉพาะทาง ต้อง<b>ส่งต่อทีมสหสาขา</b>และดูแลการให้นมระหว่างรอ · ส่วนการซ่อมที่ 5 ปีเป็นตัวลวงด้านเวลา",
   "summary": [
-   "<b>นอกสไลด์:</b> ช่วงเวลาผ่าตัด: เย็บริมฝีปากราว 3 เดือน (rule of 10s: อายุ 10 สัปดาห์ หนัก 10 ปอนด์ Hb 10 g/dL) · ซ่อมเพดานราว 9–12 เดือน (ไม่เกิน 18 เดือน)"
+   "Cleft care = multidisciplinary team: ศัลยแพทย์, ทันตแพทย์จัดฟัน, speech therapist, ENT/ audiologist, กุมารแพทย์, พันธุกรรม, พยาบาล, จิตสังคม",
+   "Feeding: cleft lip อย่างเดียวมักดูดนมแม่ได้ · cleft palate สร้างแรงดูดไม่ได้ → ขวด/ จุกพิเศษ (squeeze bottle, Haberman) ท่าตั้งตรง เรอบ่อย ติดตามน้ำหนัก",
+   "Rule of 10s สำหรับ lip repair: อายุ 10 สัปดาห์ น้ำหนัก 10 ปอนด์ (~4.5 kg) Hb 10 g/dL (ราว 3 เดือน) · เทคนิค Millard rotation-advancement, Fisher",
+   "Palate repair 9–18 เดือนก่อนเริ่มพูด (Furlow double-opposing Z-plasty, two-flap palatoplasty + intravelar veloplasty)",
+   "Alveolar bone graft ช่วง mixed dentition (~8–11 ปี) ก่อนเขี้ยวแท้ขึ้น · rhinoplasty/ orthognathic surgery หลังโตเต็มที่",
+   "ปัจจัยเสี่ยง: พันธุกรรม, มารดาสูบบุหรี่, ยากันชัก (phenytoin, valproate), ขาด folate · syndromic: Van der Woude (lip pits), 22q11 deletion, Pierre Robin sequence",
+   "Cleft palate เกือบทุกรายมี otitis media with effusion จาก tensor veli palatini ผิดปกติ → ตรวจการได้ยินและใส่ ventilation tube ตามข้อบ่งชี้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ตรงกับ 74A เลข 90) · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่วง A (Refer) ผู้จดเขียนว่าตรงกับ AC และ P'Ing แปะตารางการดูแล · ไฟล์มี 2 ช้อย (refer, tape hypoallergenic) เว็บเติม C–E ที่เป็นหัตถการเฉพาะทางหรือเวลาผิด ทำให้การส่งต่อทีม cleft เป็นบทบาทของ GP เพียงคำตอบเดียว",
+  "mnemonic": "<b>'GP เจอ cleft → Refer Team + สอนให้นม'</b>",
+  "guide": "ACPA Parameters for Evaluation and Treatment of Patients With Cleft Lip/Palate or Other Craniofacial Differences (Cleft Palate Craniofac J 2018); Grabb and Smith's Plastic Surgery 8th ed. (2020) — Cleft Lip and Palate",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 9 ขวบซ่อมปากแหว่งและเพดานแล้ว เหงือกยังแหว่ง ฟันเขี้ยวแท้กำลังจะขึ้น → ปลูกกระดูกเหงือก (alveolar bone graft) ก่อนเขี้ยวขึ้น"
+   "ทารกแรกเกิด cleft palate อย่างเดียว ดูดนมแม่ไม่ได้ น้ำหนักลดลง 12% ใน 1 สัปดาห์ → ใช้ขวดบีบ/ จุกพิเศษ ท่าตั้งตรง ติดตามน้ำหนัก และส่งทีม cleft",
+   "ทารก cleft palate รูป U กว้าง คางเล็ก ลิ้นตกไปด้านหลัง หายใจเสียงดังเวลานอนหงาย → Pierre Robin sequence → จัดท่านอนคว่ำ/ ตะแคง ประเมิน airway",
+   "ทารกปากแหว่งมีหลุมเล็ก ๆ ที่ริมฝีปากล่างและพ่อมีลักษณะเดียวกัน → Van der Woude syndrome (autosomal dominant, IRF6)",
+   "ทารก 3 เดือน น้ำหนัก 5.5 kg Hb 11 g/dL ปากแหว่งข้างเดียว → พร้อมผ่าตัด lip repair (cheiloplasty) ตาม rule of 10s"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>Cleft lip as GP ควรทำไรต่อ (ตรงแอค) — A. Refer B. Tape hypoallergic</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ผู้จดเขียน \"ตรงแอค\" = ตรงกับ 74A เลข 90 · ไฟล์มี 2 ช้อย → เติม C–E",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_11"
   ]
  },
  "MDCU74|RoD|12": {
-  "interp": "ทารก 11 เดือนมีเพดานโหว่อย่างเดียวที่ยังไม่ซ่อม → ถามพัฒนาการที่เป็นตัวกำหนดเวลาผ่าตัดซ่อมเพดาน",
-  "why": "คีย์ P'Ing: <b>Speech (✓ 1 ขวบเริ่มพูด)</b><br><b>นอกสไลด์:</b> เด็กเริ่มพูดคำแรกราว 1 ขวบ ถ้าเพดานยังโหว่ ลมรั่วเข้าจมูกขณะพูด เด็กจะเรียนรู้การออกเสียงชดเชยผิด ๆ ที่แก้ยาก · การซ่อมเพดานรวมถึงจัดกล้ามเนื้อ levator veli palatini ให้ปิดช่องคอหอยกับจมูกได้ ก่อนช่วงเริ่มพูด",
+  "interp": "ทารก 11 เดือน มี <b>isolated cleft palate ที่ยังไม่ได้ซ่อม</b> — ถามปัญหาพัฒนาการหลักที่<b>เป็นตัวกำหนดช่วงเวลาผ่าตัด palatoplasty</b> ต้องรู้ว่าทำไมจึงซ่อมเพดานช่วง 9–18 เดือน และแยกปัญหาที่พบร่วมแต่ไม่ได้กำหนดเวลาผ่าตัด",
+  "why": "เพดานอ่อนมีกล้ามเนื้อ <b>levator veli palatini</b> ที่ทำหน้าที่ปิด velopharyngeal port ขณะพูดเสียงที่ต้องใช้แรงดันในช่องปาก · ใน cleft palate กล้ามเนื้อนี้เกาะผิดที่ (ไปเกาะขอบหลังเพดานแข็ง) ทำให้ปิดช่องจมูกไม่ได้ → เสียงขึ้นจมูก (hypernasality) ลมรั่วทางจมูก และเด็กเรียนรู้<b>การออกเสียงชดเชยที่ผิด (compensatory articulation)</b> เช่น glottal stop ซึ่งแก้ยากแม้ซ่อมเพดานแล้ว · เด็กเริ่มพูดคำแรกราว 1 ขวบ ดังนั้น<b>ต้องซ่อมเพดานก่อนเริ่มพูด (ราว 9–18 เดือน)</b> เพื่อให้กล้ามเนื้อทำงานได้ทันพัฒนาการ<b>การพูด</b> ซึ่งเป็นปัจจัยหลักกำหนดเวลา · ซ่อมเร็วเกินไปในทางทฤษฎีอาจรบกวนการเจริญของ maxilla จึงเป็นการชั่งน้ำหนักระหว่างการพูดกับการเติบโตของใบหน้า · เทคนิค: <b>intravelar veloplasty</b> จัดแนว levator ใหม่เป็น sling, Furlow double-opposing Z-plasty, two-flap palatoplasty · หลังซ่อมบางรายยังมี velopharyngeal insufficiency ต้องฝึกพูดหรือผ่าตัด pharyngeal flap/ sphincter pharyngoplasty · ไฟล์ช้อย B คือ <b>Speech</b> และ P'Ing ✓ พร้อมเขียน <b>\"1 ขวบเริ่มพูด\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> การได้ยินเป็นปัญหาจริง (น้ำในหูชั้นกลางจาก eustachian tube ทำงานไม่ดี) แต่ดูแลด้วยการตรวจการได้ยินและใส่ท่อระบายหูชั้นกลาง · ไม่มีสถานการณ์ใดที่การได้ยินเป็นตัวกำหนดเวลาซ่อมเพดาน เพราะการซ่อมเพดานไม่ได้แก้หูโดยตรง และทำตามจังหวะพัฒนาการพูด",
-   "C": "<b>นอกสไลด์:</b> เพดานโหว่เดี่ยวไม่ทำให้การมองเห็นผิดปกติ · ไม่มีสถานการณ์ใดที่การมองเห็นกำหนดเวลาซ่อมเพดาน เพราะไม่เกี่ยวกับหน้าที่ของเพดาน (แม้บางกลุ่มอาการ เช่น Stickler ต้องตรวจตาแยกต่างหาก)",
-   "D": "<b>นอกสไลด์:</b> เพดานโหว่ไม่กระทบพัฒนาการกล้ามเนื้อมัดใหญ่โดยตรง · ไม่มีสถานการณ์ใดที่เป็นตัวกำหนดเวลาซ่อมเพดาน เพราะหน้าที่ของเพดานเกี่ยวกับการพูดและการกลืน",
-   "E": "<b>นอกสไลด์:</b> ฟันเป็นตัวกำหนดเวลาปลูกกระดูกเหงือก ไม่ใช่ซ่อมเพดาน · ไม่มีสถานการณ์ใดที่ฟันกำหนดเวลาซ่อมเพดาน เพราะต้องซ่อมก่อนวัยพูดนานก่อนฟันแท้ขึ้น"
+   "B": "Hearing เป็นปัญหาจริงที่พบเกือบทุกรายของ cleft palate เพราะ tensor veli palatini ผิดปกติ เปิด eustachian tube ไม่ได้ → otitis media with effusion ซึ่งรักษาด้วย ventilation tube (มักใส่พร้อมผ่าตัดเพดาน) แต่ไม่ได้เป็นตัวกำหนดเวลาซ่อมเพดาน — จะถูกถ้าเป็นเด็ก 2 ปีหลังซ่อมเพดานแล้วไม่ค่อยตอบสนองเวลาเรียก tympanometry เป็น type B สองข้าง → ใส่ ventilation tubes",
+   "C": "Vision ไม่ได้เกี่ยวกับ isolated cleft palate โดยตรง แม้กลุ่มอาการบางชนิด (เช่น Stickler syndrome ที่สัมพันธ์กับ Pierre Robin sequence) มีสายตาสั้นรุนแรงและจอประสาทตาลอก — จะถูกถ้าเป็นเด็ก 3 ปี มี Pierre Robin sequence สายตาสั้นมาก ข้อหลวม พ่อมีจอประสาทตาลอก → Stickler syndrome ส่งตรวจตาเป็นระยะ",
+   "D": "Motor development ของเด็ก isolated cleft palate มักปกติ ไม่เกี่ยวกับการทำงานของเพดาน และไม่ใช่ปัจจัยที่กำหนดเวลาผ่าตัด ถ้าพัฒนาการล่าช้าหลายด้านควรหากลุ่มอาการร่วม — จะถูกถ้าเป็นเด็ก 18 เดือน cleft palate ร่วมกับพัฒนาการกล้ามเนื้อช้า หัวใจพิการ แคลเซียมต่ำ → ส่งตรวจ 22q11.2 deletion",
+   "E": "Dentition มีผลต่อเวลา<b>alveolar bone graft</b> (ช่วง mixed dentition 8–11 ปี ก่อนเขี้ยวแท้ขึ้น) ในผู้ที่มี cleft ผ่าน alveolus ไม่ใช่ตัวกำหนดเวลาซ่อมเพดานอ่อน/ แข็ง และ isolated cleft palate ไม่ได้ผ่าน alveolus — จะถูกถ้าเป็นเด็ก 9 ปี complete unilateral cleft lip and palate ที่ซ่อมปากและเพดานแล้ว เขี้ยวแท้กำลังจะขึ้นบริเวณรอยแยก alveolus → alveolar bone graft"
   },
-  "trap": "Hearing ก็เป็นปัญหาที่พบเกือบทุกราย — แต่คำถามคือสิ่งที่กำหนดเวลาผ่าตัด ซึ่งคือการพูด",
+  "trap": "Hearing และ speech เป็นปัญหาจริงทั้งคู่ของ cleft palate (ไฟล์เองมีแค่ 2 ช้อยนี้) จึงเลือก hearing เพราะพบบ่อยมาก · คำถามในเว็บถามสิ่งที่<b>กำหนดเวลาผ่าตัด</b>: เวลาซ่อมเพดานผูกกับ<b>อายุเริ่มพูด</b> ส่วนปัญหาการได้ยินแก้ด้วย ventilation tube ได้ทุกเวลาไม่ต้องรอซ่อมเพดาน",
   "summary": [
-   "<b>นอกสไลด์:</b> หลังซ่อมเพดานยังพูดเสียงขึ้นจมูก (velopharyngeal insufficiency) → ฝึกพูด ± ผ่าตัดแก้ (pharyngeal flap/pharyngoplasty)",
-   "<b>นอกสไลด์:</b> น้ำในหูชั้นกลางพบเกือบทุกรายของเพดานโหว่ → ตรวจการได้ยินเป็นระยะ"
+   "Palate repair ราว 9–18 เดือน: ก่อนเริ่มพูด (คำแรก ~12 เดือน) ให้ velopharyngeal mechanism พร้อม · ซ่อมช้าเสี่ยง compensatory articulation ถาวร",
+   "Levator veli palatini ใน cleft เกาะผิดที่ขอบหลังเพดานแข็ง → intravelar veloplasty จัดให้เป็น sling ข้ามกลาง",
+   "เทคนิค: Furlow double-opposing Z-plasty (ยืดเพดานอ่อน + จัดกล้ามเนื้อ), Bardach two-flap, von Langenbeck · ภาวะแทรกซ้อน: oronasal fistula, VPI",
+   "VPI หลังซ่อม: hypernasality, nasal air emission → ประเมินด้วย nasendoscopy/ videofluoroscopy → speech therapy หรือ pharyngeal flap/ sphincter pharyngoplasty",
+   "Cleft palate → otitis media with effusion เกือบทุกราย (tensor veli palatini) → ตรวจการได้ยินสม่ำเสมอ ใส่ ventilation tube ตามข้อบ่งชี้",
+   "Isolated cleft palate (ไม่มีปากแหว่ง) สัมพันธ์กับกลุ่มอาการบ่อยกว่า cleft lip: Pierre Robin sequence, Stickler, 22q11.2 deletion",
+   "Submucous cleft palate: bifid uvula + zona pellucida (เส้นกลางบางใส) + notch ที่ขอบหลังเพดานแข็ง → ผ่าตัดเมื่อมี VPI"
   ],
-  "opinion": "เห็นด้วยกับคีย์ speech · ไฟล์มี 2 ช้อยที่เป็นปัญหาจริงทั้งคู่ จึงปรับ stem ให้ถามสิ่งที่กำหนดเวลาผ่าตัด · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — คีย์ในไฟล์คือ B Speech (P'Ing ✓ เขียน 1 ขวบเริ่มพูด) ซึ่งตรงกับช้อย A ในเว็บเพราะเว็บจัดลำดับช้อยใหม่ · ไฟล์มีแค่ Hearing กับ Speech ซึ่งเป็นปัญหาจริงทั้งคู่ เว็บจึงปรับ stem ให้ถามสิ่งที่กำหนดเวลา palatoplasty เพื่อให้เหลือคำตอบเดียวตามคีย์",
+  "mnemonic": "<b>'ซ่อมเพดานก่อนพูด (Palate before Prattle) ~ 1 ขวบ'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Cleft Palate; ACPA Parameters for Evaluation and Treatment of Patients With Cleft Lip/Palate or Other Craniofacial Differences (Cleft Palate Craniofac J 2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกคางเล็ก ลิ้นตก เพดานโหว่รูปตัว U มีสายตาสั้นมากในครอบครัว → Stickler syndrome ตรวจตา (เสี่ยงจอประสาทตาลอก)"
+   "เด็ก 4 ปี หลังซ่อมเพดานเสียงขึ้นจมูก มีลมรั่วออกจมูกเวลาพูด nasendoscopy พบ velopharyngeal gap → speech therapy แล้วพิจารณา pharyngeal flap",
+   "เด็ก 3 ปี พูดไม่ชัดเสียงขึ้นจมูก ลิ้นไก่แยกเป็นสองแฉก เพดานกลางบางใส → submucous cleft palate → ประเมิน VPI แล้วผ่าตัด",
+   "หลังซ่อมเพดาน 2 สัปดาห์ นมไหลออกจมูกเวลาดูด ตรวจพบรูที่รอยต่อเพดานแข็งกับอ่อน → oronasal fistula",
+   "ทำไมไม่ซ่อมเพดานตั้งแต่แรกเกิดพร้อมปาก → ผ่าตัดเร็วมากอาจรบกวนการเติบโตของ maxilla และทารกยังเสี่ยงทางเดินหายใจ จึงซ่อมช่วงก่อนพูดเพื่อสมดุลระหว่างการพูดกับการเจริญของใบหน้า"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>ให้รูป cleft palate อายุ 11 เดือน อะไรเป็น underlying ที่ต้องระวัง — A. Hearing B. Speech</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์มี 2 ช้อย (Hearing, Speech) ทั้งคู่เป็นปัญหาจริง · คีย์ P'Ing ตอบ Speech → ปรับ stem ให้ถามสิ่งที่กำหนดเวลาผ่าตัด เพื่อเหลือคำตอบเดียว · ไฟล์บอกว่าให้รูป cleft palate แต่ไม่มีรูป · เติมช้อย C–E",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_12"
   ]
  },
  "MDCU74|RoD|13": {
-  "interp": "ถามข้อห้ามของการใส่ท่อช่วยหายใจทางจมูก",
-  "why": "P'Ing วง <b>basilar skull fracture</b> (✓ skull base fracture)<br><b>นอกสไลด์:</b> กะโหลกฐานแตกที่ cribriform plate ทำให้ช่องจมูกเชื่อมกับช่องกะโหลก ท่อหรือสายที่ใส่ทางจมูกอาจทะลุเข้าสมอง และนำเชื้อเข้าเยื่อหุ้มสมอง · ใบหน้าส่วนกลางหักรุนแรง (Le Fort II–III) ก็เป็นข้อห้ามเช่นกัน",
+  "interp": "คำถามถาม<b>ข้อห้ามของการใส่ท่อช่วยหายใจทางจมูก (nasotracheal intubation)</b> — ต้องรู้ว่าทางผ่านของท่อทางจมูกอยู่ใต้ฐานกะโหลกส่วนหน้า (cribriform plate) และรู้ว่าการบาดเจ็บแบบใดทำให้ท่อหลงเข้ากะโหลก ส่วนการบาดเจ็บแบบใดกลับเป็นข้อบ่งชี้ให้ใส่ทางจมูก",
+  "why": "ท่อทางจมูกผ่านโพรงจมูกซึ่งมีหลังคาเป็น <b>cribriform plate</b> ของ ethmoid · เมื่อมี <b>basilar skull fracture</b> (โดยเฉพาะ anterior cranial fossa) ท่อหรือสาย NG ที่ใส่ทางจมูกอาจ<b>ทะลุผ่านรอยแตกเข้าโพรงกะโหลก</b> ทำให้บาดเจ็บสมอง ติดเชื้อ (meningitis) และ CSF leak มากขึ้น จึงเป็น<b>ข้อห้าม</b> · อาการบ่งชี้ basilar skull fracture: <b>raccoon eyes</b> (periorbital ecchymosis), <b>Battle sign</b> (ช้ำหลังหู), <b>CSF rhinorrhea/ otorrhea</b>, hemotympanum, CN VII/ VIII palsy · ข้อห้ามอื่นของ nasotracheal: midface fracture ที่ไม่มั่นคง (Le Fort II/ III), coagulopathy รุนแรง, โพรงจมูกอุดตัน และ blind nasal intubation ในผู้ป่วยหยุดหายใจ (ATLS) · ในผู้ป่วยกลุ่มนี้ใช้ <b>orotracheal intubation</b> (ร่วมกับ manual in-line stabilization ถ้าสงสัย c-spine) หรือ surgical airway และใส่ <b>orogastric tube</b> แทน NG · ไฟล์ <b>วงช้อย 1 Basilar skull fracture</b> พร้อม ✓ <b>\"skull base fracture\"</b> (ไฟล์มีอีกช้อย midface instability ซึ่งเป็นข้อห้ามด้วย เว็บจึงตัดออก)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ขากรรไกรล่างหักเป็นข้อบ่งชี้ใส่ท่อทางจมูก เพื่อให้มัดฟันสบกันระหว่างผ่าตัดได้ · ไม่มีสถานการณ์ใดที่ขากรรไกรล่างหักเดี่ยวเป็นข้อห้าม เพราะไม่ได้เปิดทางจากจมูกสู่ช่องกะโหลก",
-   "C": "<b>นอกสไลด์:</b> บาดเจ็บกระดูกคอใส่ท่อได้โดยประคองคอให้อยู่แนวตรง (in-line stabilization) · ไม่มีสถานการณ์ใดที่เป็นข้อห้ามของการใส่ทางจมูกโดยตัวมันเอง เพราะความเสี่ยงอยู่ที่การขยับคอ ไม่ใช่ทางที่ใส่ท่อ",
-   "D": "<b>นอกสไลด์:</b> Zygomatic arch หักเดี่ยวไม่เกี่ยวกับช่องจมูก · ไม่มีสถานการณ์ใดที่เป็นข้อห้าม เพราะแนวหักอยู่ด้านข้างใบหน้า ไม่ผ่านฐานกะโหลกหรือโพรงจมูก",
-   "E": "<b>นอกสไลด์:</b> ผ่าตัดในช่องปากเป็นข้อบ่งชี้ใส่ท่อทางจมูกเพื่อเปิดพื้นที่ผ่าตัด · ไม่มีสถานการณ์ใดที่เป็นข้อห้าม เพราะท่อทางจมูกช่วยให้ทำงานในปากได้สะดวก"
+   "B": "Mandible fracture ไม่ใช่ข้อห้าม กลับเป็น<b>ข้อบ่งชี้</b>ให้ใส่ท่อทางจมูก เพื่อให้ศัลยแพทย์จัดการสบฟันและทำ maxillomandibular fixation (MMF) ระหว่างผ่าตัดได้ โดยไม่มีท่อขวางในปาก — จะถูกถ้าต้องเลือกสถานการณ์ที่ควรใช้ nasotracheal tube เช่นชาย 25 ปี mandible body fracture สองตำแหน่ง ไม่มีกะโหลกหรือ midface แตก วางแผน ORIF + MMF",
+   "C": "Cervical spine injury ไม่ใช่ข้อห้ามของการใส่ท่อทางจมูก (fiberoptic nasal intubation ขณะตื่นขยับคอน้อยกว่า) และในห้องฉุกเฉินมาตรฐานคือ orotracheal intubation ร่วมกับ manual in-line stabilization — จะถูกถ้าต้องเลือกสถานการณ์ที่ใช้ awake fiberoptic nasal intubation ได้เช่นชาย 40 ปี C5 fracture รู้สึกตัวดี หายใจเองได้ ต้องผ่าตัดยึดกระดูกคอแบบ elective",
+   "D": "Isolated zygomatic arch fracture ไม่ได้รบกวนโพรงจมูกหรือฐานกะโหลก จึงไม่ห้ามใส่ท่อทางจมูก (บางครั้ง trismus จาก arch กด coronoid ทำให้ใส่ทางปากยากจนต้องใช้ทางจมูก) — จะถูกถ้าต้องเลือกสถานการณ์ที่ใส่ nasotracheal ได้เช่นชาย 30 ปี arch fracture อ้าปากได้ไม่ถึง 2 cm จาก trismus ต้องดมยาเพื่อทำ Gillies elevation",
+   "E": "การผ่าตัดในช่องปากเป็น<b>ข้อบ่งชี้</b>ของ nasotracheal intubation เพื่อเปิดพื้นที่ผ่าตัดในปากให้ศัลยแพทย์ เช่น ผ่าตัดฟันคุด ผ่าตัด genioplasty หรือ palatoplasty บางแบบ — จะถูกถ้าต้องเลือกสถานการณ์ที่ควรใช้ nasotracheal tube เช่นหญิง 22 ปี ผ่าตัดฟันคุดฝังสี่ซี่ภายใต้การดมยาสลบ ไม่มีโรคเลือดหรือบาดเจ็บศีรษะ"
   },
-  "trap": "ไฟล์มีสองช้อยที่เป็นข้อห้ามทั้งคู่ (กะโหลกฐานแตกกับใบหน้าส่วนกลางไม่มั่นคง) จึงเก็บช้อยที่คีย์เลือกและแต่งช้อยอื่นที่ไม่ใช่ข้อห้าม",
+  "trap": "คำว่า fracture ในหลายช้อยทำให้คิดว่าการบาดเจ็บใบหน้าทุกแบบห้ามใส่ท่อทางจมูก · ความจริง mandible fracture และการผ่าตัดในปากเป็น<b>ข้อบ่งชี้</b> · ข้อห้ามคือภาวะที่ท่อจะหลงขึ้นกะโหลก: <b>basilar skull fracture</b> และ midface ไม่มั่นคง (Le Fort II/ III) · ดู raccoon eyes, Battle sign, CSF rhinorrhea ก่อนใส่ท่อหรือสายใด ๆ ทางจมูก",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อห้ามใส่ท่อหรือสายทางจมูก: กะโหลกฐานแตก · Le Fort II–III · coagulopathy รุนแรง · โพรงจมูกอุดตัน",
-   "<b>นอกสไลด์:</b> Panfacial fracture ที่ต้องมัดฟันและห้ามใส่ทางจมูก → submental intubation หรือ tracheostomy"
+   "ข้อห้าม nasotracheal: basilar skull fracture, Le Fort II/ III (midface unstable), coagulopathy รุนแรง, nasal obstruction/ fracture รุนแรง, apnea (สำหรับ blind nasal)",
+   "ข้อบ่งชี้ nasotracheal: mandible fracture ที่ต้อง MMF, ผ่าตัดในช่องปาก, อ้าปากได้น้อย (trismus), ใส่ท่อนานในบางบริบท",
+   "Basilar skull fracture: raccoon eyes, Battle sign, CSF rhinorrhea/ otorrhea (halo/ ring sign, beta-2 transferrin), hemotympanum, CN VII/ VIII palsy",
+   "สงสัยฐานกะโหลกแตก → ห้ามใส่ NG tube ทางจมูก ใช้ orogastric tube · ห้าม nasal suction/ packing ลึก",
+   "Airway ใน trauma (ATLS): orotracheal RSI + manual in-line stabilization เป็นหลัก · ใส่ไม่ได้ → surgical cricothyroidotomy (needle ในเด็ก &lt; 12 ปี)",
+   "Le Fort: I แยก palate จาก maxilla (floating palate) · II pyramidal ผ่าน nasal bridge · III craniofacial dysjunction (ใบหน้าแยกจากกะโหลก)",
+   "CSF leak หลังบาดเจ็บส่วนใหญ่หยุดเองใน 1–2 สัปดาห์ (ยกศีรษะ หลีกเลี่ยงเบ่ง) · ยาปฏิชีวนะป้องกันไม่แนะนำเป็นประจำ · ไม่หยุด → lumbar drain/ ผ่าตัดซ่อม"
   ],
-  "opinion": "เห็นด้วยกับคีย์ basilar skull fracture · ช้อยแต่งใหม่ให้เหลือข้อห้ามเดียว · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่วงช้อย 1 Basilar skull fracture และ ✓ skull base fracture · ไฟล์มีช้อยที่สองคือ midface instability ซึ่งเป็นข้อห้ามด้วย เว็บจึงคงช้อยตามคีย์และแต่งช้อยอื่นที่ไม่ใช่ข้อห้าม (หลายข้อเป็นข้อบ่งชี้ของการใส่ทางจมูก) ให้เหลือคำตอบเดียว",
+  "mnemonic": "<b>'Raccoon/ Battle/ CSF จมูก → ห้ามทุกอย่างทางจมูก (tube + NG)'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Airway and Ventilatory Management; Head Trauma",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลังอุบัติเหตุมีตาช้ำสองข้างรอบเบ้า (raccoon eyes) และน้ำใสไหลจากจมูก ต้องดูดกระเพาะ → ใส่ OG tube ไม่ใช่ NG"
+   "ชาย 30 ปี อุบัติเหตุ GCS 7 มีรอยช้ำรอบตาสองข้างและน้ำใสไหลจากจมูก ต้องใส่ท่อ → orotracheal RSI + in-line stabilization และใส่ orogastric tube",
+   "ชาย 22 ปี mandible parasymphysis + angle fracture ไม่มีบาดเจ็บศีรษะ → nasotracheal intubation เพื่อทำ ORIF + MMF",
+   "ผู้บาดเจ็บใบหน้ายุบ ทั้งใบหน้าขยับได้เมื่อจับฟันบนโยก เลือดท่วม airway ใส่ท่อทางปากไม่สำเร็จ → surgical cricothyroidotomy",
+   "ทำไมห้ามใส่ NG tube ในผู้ป่วย basilar skull fracture → สายอาจผ่าน cribriform plate ที่แตกเข้าโพรงกะโหลก บาดเจ็บสมองและนำเชื้อเข้า"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>ข้อไหนคือ contraindication ของการใส่ nasotracheal tube — 1. Basilar skull fracture 2. Midface instability nb</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์มี 2 ช้อย (basilar skull fracture, midface instability) ซึ่งเป็นข้อห้ามทั้งคู่ → คงช้อยที่คีย์เลือก แล้วแต่งช้อยอื่นที่ไม่ใช่ข้อห้าม",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_13"
   ]
  },
  "MDCU74|RoD|14": {
-  "interp": "เด็ก 3 ขวบไฟไหม้ partial thickness ที่เท้าทั้งสองรูปถุงเท้าขอบชัด ประวัติไม่สอดคล้อง สงสัยพ่อเลี้ยงทารุณ → ถามการจัดการที่เหมาะที่สุด",
-  "why": "P'Ing ไม่ได้วงคำตอบ · <b>✗ แจ้งตำรวจ</b> และแปะหลัก <b>give needed treatment · ensure the child is protected · prevent further abuse</b> — Claude ตอบ A<br><b>นอกสไลด์:</b> แผลรูปถุงเท้า/ถุงมือขอบชัดสองข้างเท่ากัน คือจุ่มน้ำร้อน (immersion burn) · ต้องให้การรักษาที่จำเป็นและแยกเด็กออกจากผู้ต้องสงสัยไปพร้อมกัน — ส่งต่อด้วยระบบของโรงพยาบาล รับไว้ แล้วให้ทีมคุ้มครองเด็กประเมิน",
+  "interp": "เด็กชาย 3 ปี มี partial-thickness burn ที่<b>เท้าสองข้างแบบถุงเท้า (stocking) ขอบคมชัด</b> ประวัติไม่สอดคล้อง สงสัยพ่อเลี้ยง<b>ทำร้าย (child abuse)</b> — ถามการจัดการที่เหมาะที่สุด ต้องรู้ทั้งเกณฑ์ส่งต่อ burn center และหลักการคุ้มครองเด็กที่ต้องทำไปพร้อมกัน",
+  "why": "รูปแบบแผลไหม้ที่ชี้ <b>immersion burn จากการจุ่มโดยเจตนา</b>: แผลแบบ<b>ถุงเท้า/ ถุงมือ สองข้างสมมาตร ขอบคมชัดเป็นเส้นตรง</b> ไม่มีรอยกระเซ็น ผิวที่พับงอ (ข้อพับ) ไม่ไหม้ ร่วมกับประวัติไม่สอดคล้องกับพัฒนาการ มาช้า หรือเรื่องเล่าเปลี่ยนไปมา · <b>เป้าหมายหลัก</b>: ① ให้การรักษาที่จำเป็น ② <b>ให้เด็กอยู่ในที่ปลอดภัย</b> ③ ป้องกันการถูกทำร้ายซ้ำ · แผลไหม้ที่<b>เท้า</b> (รวมถึงใบหน้า มือ อวัยวะเพศ ข้อใหญ่) และ<b>เด็กที่สงสัยถูกทารุณ</b> เป็นเกณฑ์ส่งต่อ burn center ของ American Burn Association · การส่งด้วย<b>รถโรงพยาบาล</b> ทำให้เด็กอยู่ในความดูแลของบุคลากรตลอด ไม่ถูกพากลับไปอยู่กับผู้ต้องสงสัยหรือหายไประหว่างทาง ได้รับการดูแลแผล/ ความปวดต่อเนื่อง และส่งต่อข้อมูลทางการแพทย์ครบ · ระหว่างนั้นบันทึกแผล (ถ่ายภาพ) ตรวจหาการบาดเจ็บอื่น และ<b>แจ้งทีมคุ้มครองเด็ก/ หน่วยงานสวัสดิการสังคม</b>ตามกฎหมาย (ในไทยผ่านศูนย์พึ่งได้ OSCC ตาม พ.ร.บ.คุ้มครองเด็ก) · ไฟล์<b>ไม่ได้วงคำตอบ</b> แต่ <b>กากบาท \"แจ้งตำรวจ\"</b> และแปะหลัก <b>\"Management: primary goal — give needed treatment, ensure the child is protected, prevent further abuse\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ให้ครอบครัวพาไปเองอาจไม่ไปถึงหรือเด็กไม่ปลอดภัย · จะถูกถ้าเป็นอุบัติเหตุชัดเจน แผล partial thickness เล็กที่มือซึ่งถึงเกณฑ์ปรึกษาศูนย์แต่ไม่ด่วน — นัดคลินิกแผลไหม้ให้ผู้ปกครองพาไปเอง",
-   "C": "P'Ing ✗ แจ้งตำรวจ · <b>นอกสไลด์:</b> เด็กรายนี้ยังต้องรักษาและยังไม่ปลอดภัยที่บ้าน · จะถูกถ้าเด็กถูกคนนอกบ้านทำร้าย แผลเล็กรักษาเสร็จแล้ว และผู้ปกครองที่ปลอดภัยรับกลับ",
-   "D": "<b>นอกสไลด์:</b> รักษาแบบผู้ป่วยนอกเหมาะกับแผลเล็กที่บ้านปลอดภัย · จะถูกถ้าแผลไฟไหม้ตื้นขนาดเล็ก กลไกเข้ากับประวัติ ไม่อยู่ตำแหน่งที่ต้องส่งต่อ และผู้ดูแลพาทำแผลได้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ส่งเด็กกลับกับผู้ต้องสงสัยก่อนทีมคุ้มครองเด็กประเมิน เพราะเสี่ยงถูกทำร้ายซ้ำ"
+   "B": "ส่ง burn center ถูกต้อง แต่ให้ครอบครัวพาไปเองเสี่ยงที่เด็กจะไม่ถึงปลายทาง ถูกพากลับไปอยู่กับผู้ต้องสงสัย หรือถูกกดดันให้เปลี่ยนคำให้การ และขาดการดูแลระหว่างทาง — จะถูกถ้าเป็นเด็ก 8 ปี มีแผลไหม้น้ำร้อนลวกเล็กที่ฝ่ามือจากอุบัติเหตุชัดเจน ประวัติสอดคล้อง ผู้ปกครองน่าไว้ใจ สัญญาณชีพปกติ นัดไปคลินิกแผลไหม้ตามเวลา",
+   "C": "แจ้งตำรวจแล้วให้เด็กกลับบ้าน ไม่ได้รักษาแผลที่ต้องดูแลเฉพาะทางและส่งเด็กกลับไปสู่สภาพแวดล้อมที่อาจถูกทำร้ายซ้ำ หน่วยที่ควรเกี่ยวข้องก่อนคือทีมคุ้มครองเด็ก/ สหวิชาชีพ — จะถูกถ้าเป็นหญิงอายุ 30 ปีถูกทำร้ายร่างกายบาดแผลเล็กน้อยที่ต้องการแจ้งความดำเนินคดีและมีที่พักปลอดภัยของตนเอง",
+   "D": "รักษาแบบผู้ป่วยนอกไม่เหมาะเพราะแผลที่เท้าสองข้างเป็นเกณฑ์ส่งต่อ burn center และต้องประเมินความปลอดภัยของเด็กในโรงพยาบาลก่อน — จะถูกถ้าเป็นเด็ก 4 ปี โดนน้ำร้อนกระเซ็นที่ต้นแขน superficial partial thickness 1% TBSA ประวัติอุบัติเหตุสอดคล้อง ผู้ปกครองทำแผลได้และนัดติดตามได้",
+   "E": "ให้กลับบ้านกับพ่อเลี้ยงซึ่งเป็นผู้ต้องสงสัย ทำให้เด็กเสี่ยงถูกทำร้ายซ้ำซึ่งรุนแรงขึ้นและอาจถึงชีวิต ขัดกับหน้าที่ของแพทย์ในการคุ้มครองเด็ก — จะถูกถ้าเป็นเด็กที่ไฟไหม้เล็กน้อยจากอุบัติเหตุจริง ประวัติตรงกับลักษณะแผลและพัฒนาการ ผู้ดูแลน่าไว้ใจ และแผลดูแลที่บ้านได้"
   },
-  "trap": "แจ้งตำรวจอย่างเดียวแต่ไม่ได้รักษาหรือคุ้มครองเด็ก (P'Ing ✗) · หรือคิดเฉพาะเรื่องแผลจนลืมความปลอดภัย",
+  "trap": "ความรู้สึกแรกเมื่อสงสัยทารุณกรรมคือแจ้งตำรวจ (ไฟล์กากบาทไว้) · แต่หน้าที่หลักของแพทย์คือ<b>รักษาและทำให้เด็กปลอดภัย</b>ก่อน แจ้งทีมคุ้มครองเด็ก/ สหวิชาชีพตามกฎหมายควบคู่ · ช้อย B ใกล้เคียงที่สุดแต่ปล่อยให้ครอบครัวพาไปเองทำให้เด็กไม่ปลอดภัย",
   "summary": [
-   "<b>นอกสไลด์:</b> ลักษณะแผลที่ชวนสงสัย: รูปถุงเท้า/ถุงมือ ขอบชัด สองข้างเท่ากัน ไม่มีรอยกระเด็น · รอยรูปวัตถุ (บุหรี่ เตารีด) · มาช้า · ประวัติไม่เข้ากับพัฒนาการเด็ก",
-   "<b>นอกสไลด์:</b> ABA: deep partial/full thickness ที่มือ เท้า หน้า อวัยวะเพศ → ส่งต่อด่วน · เด็กเล็กอาจได้ประโยชน์จากการส่งต่อแม้แผลไม่ถึงเกณฑ์ · การสงสัยทารุณเป็นเหตุให้รับไว้",
-   "<b>นอกสไลด์:</b> เด็กอายุต่ำกว่า 2 ปีที่สงสัยทารุณ → skeletal survey · บันทึกภาพและประวัติละเอียด · แจ้งทีมคุ้มครองเด็ก"
+   "รูปแบบแผลไหม้ที่สงสัยทารุณ: immersion burn แบบถุงเท้า/ ถุงมือสมมาตร ขอบคม · ก้นและฝีเย็บที่มีวงเว้น (doughnut sparing) · รอยบุหรี่กลมขนาด ~8–10 mm · contact burn รูปวัตถุชัด",
+   "Red flags ในประวัติ: ไม่สอดคล้องกับพัฒนาการ เรื่องเปลี่ยน มาช้า ผู้ดูแลต่างคนเล่าต่างกัน มีแผลเก่าหลายระยะ",
+   "ABA burn center referral: partial thickness &gt; 10% TBSA, full thickness ทุกขนาด, ใบหน้า มือ เท้า อวัยวะเพศ ฝีเย็บ ข้อใหญ่, electrical/ chemical/ inhalation, เด็กที่ต้องการการดูแลทางสังคม (รวมสงสัยทารุณ)",
+   "สงสัยทารุณ: รับไว้/ ส่งต่อพร้อมบุคลากร ถ่ายภาพและบันทึกละเอียด แจ้งทีมคุ้มครองเด็ก ไม่กล่าวหาผู้ปกครองต่อหน้า",
+   "ตรวจเพิ่มในเด็กเล็กที่สงสัยทารุณ: skeletal survey (บังคับใน &lt; 2 ปี) ตรวจตาหา retinal hemorrhage ถ้ามีบาดเจ็บศีรษะ ตรวจพี่น้องคนอื่นในบ้าน",
+   "ประเทศไทย: ศูนย์พึ่งได้ (One Stop Crisis Center) ในโรงพยาบาลรัฐ · พ.ร.บ.คุ้มครองเด็ก พ.ศ. 2546 ให้ผู้พบเห็นแจ้งเจ้าหน้าที่",
+   "การดูแลแผลไหม้ที่เท้า: ยกเท้าสูง ทำแผล ระวัง compartment ในแผลรอบวง ประเมินความลึกซ้ำใน 48–72 ชม. · deep partial ที่ไม่หายใน 2–3 สัปดาห์ → excision + graft"
   ],
-  "opinion": "คีย์ไม่ได้วงคำตอบ (P'Ing ✗ แจ้งตำรวจ + แปะหลักการ) — Claude ตอบ A เพราะได้ทั้งการรักษาและการคุ้มครองเด็ก · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ไฟล์ไม่ได้วงคีย์ (P'Ing กากบาทแจ้งตำรวจและแปะหลัก primary goal: ให้การรักษา ทำให้เด็กปลอดภัย ป้องกันการทำร้ายซ้ำ) คำตอบ A ในเว็บเป็นของ Claude ที่เลือกตามหลักนี้ · การส่ง burn center ด้วยรถโรงพยาบาลตอบทั้งการรักษาและความปลอดภัย ส่วนช้อย B ต่างเพียงให้ครอบครัวพาไปเอง",
+  "mnemonic": "<b>'สงสัยทารุณ → รักษา + ปลอดภัย + ไม่ให้เกิดซ้ำ (ส่งพร้อมรถ รพ.)'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal Injuries (burn center referral criteria, child maltreatment); Sabiston Textbook of Surgery 21st ed. (2022) — Burns",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 3 ปีถูกน้ำร้อนลวกที่อกและแขน แผลไม่สมมาตร ขอบไม่เรียบ มีรอยกระเด็น ประวัติเข้ากับแผล → อุบัติเหตุ รักษาตามขนาดและความลึกของแผล"
+   "เด็ก 18 เดือน แผลไหม้กลมขนาดเท่ากันหลายแผลที่หลังมือ ระยะการหายต่างกัน → สงสัยรอยบุหรี่ → รับไว้ skeletal survey แจ้งทีมคุ้มครองเด็ก",
+   "เด็ก 2 ปี ดึงหม้อน้ำร้อนหกใส่หน้าอกและแขน แผลเป็นรูปกระเซ็นไหลลง ขอบไม่สม่ำเสมอ ประวัติสอดคล้อง → อุบัติเหตุ รักษาตามขนาดและตำแหน่ง",
+   "เด็ก 5 ปี immersion burn ที่ก้นและฝีเย็บ มีวงเว้นตรงกลางก้น → การจุ่มโดยบังคับนั่ง → รับไว้รักษาและแจ้งศูนย์พึ่งได้",
+   "ทำไมรอยไหม้จากการจุ่มมีขอบคมสองข้างเท่ากัน → เด็กถูกจับแช่นิ่งในน้ำร้อน ไม่มีการดิ้นหนีหรือกระเซ็นแบบอุบัติเหตุ"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>เด็ก partial thickness burn เท้า 2 ข้างสงสัยพ่อเลี้ยงทำร้ายทำอะไรดี (ตรงแอค) — 1. Refer to burn center with รถรพ. 2. Refer to burn center แต่ไปเอง 3. แจ้งตำรวจ 4.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ผู้จดเขียน \"ตรงแอค\" · ไฟล์มี 3 ช้อย (ช้อยที่ 4 ว่าง) → เติม D, E · P'Ing ไม่ได้วงคำตอบ แค่ ✗ ที่แจ้งตำรวจ + แปะหลัก management",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_14"
   ]
  },
  "MDCU74|RoD|15": {
-  "interp": "ชายเจ็บอกแหลมตามการหายใจ ดีขึ้นเมื่อนั่งโน้มไปข้างหน้า หลังติดเชื้อไวรัส = acute pericarditis → ถามข้อความที่ถูก",
-  "why": "ไฟล์จดแค่ว่าออกเรื่อง pericarditis ข้อใดถูก — <b>Claude แต่งช้อยและเฉลย</b><br><b>นอกสไลด์:</b> การอักเสบของ pericardium ที่คลุมผิวหัวใจทั้งหมดทำให้ ECG เปลี่ยนแบบกระจาย (ไม่ตามหลอดเลือด) — ST ยกแบบเว้า (concave) หลาย lead ร่วมกับ PR กดต่ำ (aVR กลับทิศ)",
+  "interp": "ชาย 30 ปี <b>เจ็บหน้าอกแหลมแบบ pleuritic ดีขึ้นเมื่อนั่งโน้มตัวไปข้างหน้า</b> หลังติดเชื้อไวรัส = <b>acute pericarditis</b> — ถามข้อความที่<b>ถูก</b> ต้องรู้เกณฑ์วินิจฉัย ลักษณะ ECG การฟังเสียง friction rub สาเหตุ และการรักษาด้วย NSAID + colchicine",
+  "why": "<b>Acute pericarditis</b> วินิจฉัยเมื่อมี<b>อย่างน้อย 2 ใน 4</b> ข้อ (ESC 2015): ① เจ็บหน้าอกแบบ pericarditis (แหลม pleuritic แย่ลงเมื่อนอนหงาย <b>ดีขึ้นเมื่อนั่งโน้มตัวไปข้างหน้า</b> ร้าวไปสันกล้ามเนื้อ trapezius) ② pericardial friction rub ③ <b>ECG: ST elevation ทั่วไป (diffuse) แบบเว้า (concave) ร่วมกับ PR depression</b> (aVR มี ST depression/ PR elevation) ④ pericardial effusion ใหม่หรือเพิ่มขึ้น · ร่วมกับ CRP สูง · ในประเทศพัฒนาแล้วสาเหตุส่วนใหญ่คือ <b>idiopathic/ viral</b> ส่วนในประเทศที่ TB ชุก (รวมไทย) ต้องนึกถึง <b>tuberculous pericarditis</b> · ECG แยกจาก STEMI: STEMI เป็น ST elevation เฉพาะ territory รูปโค้งนูน มี reciprocal ST depression และ Q wave · รักษา: <b>NSAID (ibuprofen) หรือ aspirin + colchicine 3 เดือน</b> (colchicine ลดการกลับเป็นซ้ำราวครึ่งหนึ่ง) งดออกกำลังกายหนัก · steroid เป็นทางเลือกรองเพราะเพิ่มการกลับเป็นซ้ำ · รับไว้ในโรงพยาบาลถ้ามี high-risk features: ไข้ &gt; 38°C, เริ่มแบบ subacute, effusion ใหญ่/ tamponade, ไม่ตอบสนองต่อ NSAID 1 สัปดาห์ · ไฟล์จดเพียงว่า <b>\"ออกเรื่อง pericarditis ข้อใดถูก\"</b> ผู้จดจำช้อยไม่ได้",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> นอนหงายทำให้เจ็บมากขึ้น (เยื่อหุ้มหัวใจเสียดสีมากขึ้น) · ไม่มีสถานการณ์ใดที่ข้อความนี้ถูกกับ pericarditis เพราะลักษณะเฉพาะคือดีขึ้นเมื่อนั่งโน้มไปข้างหน้า",
-   "C": "<b>นอกสไลด์:</b> Friction rub มีได้ถึง 3 ช่วง (systole, early diastole, atrial systole) · ไม่มีสถานการณ์ใดที่ข้อความนี้ถูก เพราะเสียงเกิดจากการเสียดสีทุกครั้งที่หัวใจเคลื่อน ไม่จำกัดที่ diastole",
-   "D": "<b>นอกสไลด์:</b> Colchicine เป็นยาหลักร่วมกับ NSAID ลดการกลับเป็นซ้ำ · จะถูกถ้าผู้ป่วยไตวายรุนแรงและใช้ยายับยั้ง CYP3A4/P-gp แรง (เช่น clarithromycin) ร่วมด้วย ซึ่งทำให้ระดับ colchicine สูงจนเป็นพิษ",
-   "E": "<b>นอกสไลด์:</b> ในประเทศพัฒนาแล้วส่วนใหญ่เป็น idiopathic/ไวรัส · จะถูกถ้าเป็นผู้ป่วยในพื้นที่วัณโรคชุก (โดยเฉพาะร่วมกับ HIV) ที่มีน้ำในเยื่อหุ้มหัวใจมาก — สาเหตุส่วนใหญ่เป็นวัณโรค"
+   "B": "ปวดจาก pericarditis <b>แย่ลงเมื่อนอนหงาย</b> (pericardium ที่อักเสบถูกยืดและกด) และดีขึ้นเมื่อนั่งโน้มไปข้างหน้า ข้อความนี้จึงกลับด้าน · อาการปวดที่ทุเลาเมื่อนอนนิ่งไม่ขยับเป็นลักษณะของ peritonitis — จะถูกถ้าเป็นชาย 40 ปี ปวดท้องทั่วจาก perforated peptic ulcer ที่นอนนิ่งแล้วปวดน้อยลง ขยับหรือไอแล้วปวดมาก",
+   "C": "Pericardial friction rub เป็นเสียงขูดหยาบที่มีได้ <b>3 องค์ประกอบ</b> (atrial systole, ventricular systole, early diastolic filling) ได้ยินชัดที่ left sternal border ตอนนั่งโน้มไปข้างหน้าหายใจออกสุด ไม่ได้มีเฉพาะ diastole และองค์ประกอบช่วง systole ได้ยินบ่อยที่สุด — จะถูกถ้าเป็นชาย 50 ปี ชีพจรกว้าง bounding pulse ได้ยิน early diastolic decrescendo murmur ที่ left sternal border จาก aortic regurgitation (เสียงเฉพาะ diastole)",
+   "D": "Colchicine เป็นยามาตรฐานร่วมกับ NSAID ใน acute และ recurrent pericarditis ช่วยลดอาการและลดการกลับเป็นซ้ำ ไม่ใช่ข้อห้าม แต่ต้องปรับขนาดในไตเสื่อมและระวังยาที่ยับยั้ง CYP3A4/ P-glycoprotein — จะถูกถ้าเป็นผู้ป่วย pericarditis ที่ไตเสื่อมรุนแรง eGFR &lt; 30 และกำลังได้ clarithromycin ซึ่งเพิ่มระดับ colchicine จนเป็นพิษ (ห้ามใช้ร่วมกัน)",
+   "E": "Pericarditis ส่วนใหญ่เป็น idiopathic/ viral ไม่ใช่แบคทีเรีย · purulent (bacterial) pericarditis พบน้อย รุนแรง มาด้วยไข้สูง ภาวะติดเชื้อในกระแสเลือด และ tamponade ต้องระบายหนองและให้ยาปฏิชีวนะ — จะถูกถ้าเป็นเด็ก 6 ปี เป็น S. aureus pneumonia แล้วไข้สูงลอย ความดันต่ำ หัวใจโต echo มีน้ำในเยื่อหุ้มหัวใจขุ่นมาก เจาะได้หนอง"
   },
-  "trap": "ST ยกหลาย lead อาจคิดว่าเป็น STEMI — pericarditis ยกแบบเว้า กระจาย ไม่มี reciprocal change (ยกเว้น aVR) และมี PR กดต่ำ",
+  "trap": "ข้อ B ถูกเปลี่ยนท่าทางกลับด้าน และข้อ C ใช้คำว่า \"only\" ซึ่งทำให้ข้อความผิด · ข้อที่ถูกต้องจำภาพ ECG ให้ได้: <b>ST elevation กระจายทั่วไปแบบเว้า + PR depression</b> ต่างจาก STEMI · และอย่าเชื่อว่า colchicine ห้ามใช้ เพราะเป็นยาหลักลดการกลับเป็นซ้ำ",
   "summary": [
-   "<b>นอกสไลด์:</b> วินิจฉัย (≥ 2 ใน 4): เจ็บอกแบบ pericarditis · friction rub · ECG เปลี่ยนแบบกระจาย · มีน้ำในเยื่อหุ้มหัวใจใหม่หรือเพิ่มขึ้น",
-   "<b>นอกสไลด์:</b> รักษา: NSAID/aspirin + colchicine ราว 3 เดือน · เลี่ยง steroid เป็นยาแรก (เพิ่มการกลับเป็นซ้ำ)",
-   "<b>นอกสไลด์:</b> ภาวะแทรกซ้อน: tamponade · กลับเป็นซ้ำ"
+   "เกณฑ์ ESC: ≥ 2 ใน 4 — chest pain แบบ pericarditis, friction rub, ECG diffuse ST elevation/ PR depression, pericardial effusion ใหม่หรือเพิ่ม",
+   "ECG 4 ระยะ: I diffuse concave ST↑ + PR↓ · II ST กลับ baseline · III T inversion ทั่วไป · IV กลับปกติ · aVR: ST↓ PR↑",
+   "แยก STEMI: ST↑ เฉพาะ territory รูปนูน มี reciprocal ST↓ Q wave และ wall motion ผิดปกติ · myopericarditis มี troponin สูงร่วม",
+   "สาเหตุ: idiopathic/ viral ส่วนใหญ่ · TB (ประเทศที่ชุก), bacterial, uremia, post-MI (Dressler), post-pericardiotomy, autoimmune, malignancy, radiation",
+   "รักษา: NSAID/ aspirin ขนาดสูง ลดขนาดลง + colchicine 3 เดือน (recurrent 6 เดือน) + gastroprotection · งดกีฬาจนหายและ CRP ปกติ (นักกีฬาอย่างน้อย 3 เดือน)",
+   "High-risk (รับไว้): ไข้ &gt; 38°C, subacute onset, effusion ใหญ่ (&gt; 20 mm)/ tamponade, ไม่ตอบสนอง NSAID 1 สัปดาห์ · minor: myopericarditis, ภูมิคุ้มกันต่ำ, trauma, ยาต้านการแข็งตัวของเลือด",
+   "Constrictive pericarditis (ภาวะแทรกซ้อนระยะยาว โดยเฉพาะหลัง TB): Kussmaul sign, pericardial knock, calcified pericardium → pericardiectomy"
   ],
-  "opinion": "ไฟล์ไม่มีช้อยและคีย์ — Claude แต่งทั้งข้อให้ ECG เป็นข้อถูก · ความมั่นใจสูงในเนื้อหา",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีช้อยและคีย์ ผู้จดจำได้เพียงว่าถามข้อใดถูกเรื่อง pericarditis ช้อยทั้งหมดในเว็บจึงแต่งขึ้น โดยข้อ A (diffuse ST elevation + PR depression) เป็นข้อความถูกตามเกณฑ์ ESC ขณะที่ข้ออื่นกลับด้านหรือขัดกับข้อเท็จจริงอย่างชัดเจน",
+  "mnemonic": "<b>'Pericarditis: นั่งโน้มหน้าดีขึ้น + ST ขึ้นทั่ว PR ลง → NSAID + Colchicine'</b>",
+  "guide": "2015 ESC Guidelines for the diagnosis and management of pericardial diseases (Adler et al., Eur Heart J 2015); Braunwald's Heart Disease 12th ed. (2022) — Pericardial Diseases",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลังเคยเป็น pericarditis จากวัณโรค ขาบวม ท้องมาน JVP สูงขึ้นเมื่อหายใจเข้า (Kussmaul) ได้ยิน pericardial knock → constrictive pericarditis ผ่าตัดลอกเยื่อหุ้มหัวใจ"
+   "ชาย 25 ปี เจ็บอกแบบ pericarditis ECG ST ขึ้นทั่วไป troponin สูง echo LV ทำงานลดเล็กน้อย → myopericarditis → รับไว้สังเกตอาการ งดออกกำลังกาย",
+   "ผู้ป่วยไทยมี pericardial effusion ใหญ่ ไข้ต่ำ ๆ น้ำหนักลด เจาะน้ำเป็น exudate lymphocyte เด่น ADA สูง → tuberculous pericarditis → ยาต้านวัณโรค",
+   "หลังผ่าตัดหัวใจ 2 สัปดาห์ มีไข้ เจ็บอกแบบ pericarditis friction rub → post-pericardiotomy syndrome → NSAID + colchicine",
+   "ทำไมต้องให้ colchicine ร่วมกับ NSAID ตั้งแต่ครั้งแรก → ลดโอกาสกลับเป็นซ้ำราวครึ่งหนึ่งและช่วยให้อาการหายเร็วขึ้น"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 2 — ตัวพิมพ์: <b>ออกเรื่อง pericarditis ข้อใดถูก (ผู้จดจำช้อยไม่ได้)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่ว่าออกเรื่อง pericarditis ข้อใดถูก ไม่มีช้อย → Claude แต่งทั้งข้อ",
+  "src": "S74DQ · หน้า 2",
+  "kimg": [
+   "kp74d_15"
   ]
  }
 }

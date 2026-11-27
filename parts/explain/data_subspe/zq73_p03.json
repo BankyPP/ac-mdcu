@@ -1,230 +1,412 @@
 {
  "MDCU73|RoB|Neuro 5": {
-  "interp": "ผู้สูงอายุปวดศีรษะรุนแรงทันที CT มีเลือดใน basal cistern (SAH) CTA พบ AComm aneurysm → ถามการรักษาที่เป็น definitive",
-  "why": "P'Ing ตอบ <b>coiling</b><br><b>นอกสไลด์:</b> เป้าหมายแรกของ aneurysmal SAH คือปิด aneurysm ให้เร็วเพื่อกันแตกซ้ำ · ISAT: aneurysm ที่ทำได้ทั้งสองวิธี coiling มีผู้ป่วยตายหรือพึ่งพาผู้อื่นน้อยกว่า clipping · ผู้สูงอายุและ aneurysm ด้านหน้าที่คอแคบจึงเลือก coil",
+  "interp": "ผู้สูงอายุ<b>ปวดศีรษะรุนแรงทันที</b> CT ไม่ฉีดสีพบรอยเลือด (hyperdense) เล็ก ๆ ใน basal cistern และ CTA พบ <b>AComm aneurysm</b> = <b>aneurysmal subarachnoid hemorrhage (aSAH)</b> — ถาม <b>definitive management</b> คือการปิด aneurysm กันแตกซ้ำ และเลือกวิธีตามอายุและลักษณะ aneurysm",
+  "why": "ภาวะที่อันตรายที่สุดช่วงแรกของ aSAH คือ<b>การแตกซ้ำ (rebleeding)</b> ซึ่งพบมากใน 24 ชม.แรกและอัตราตายสูงมาก จึงต้อง<b>ปิด aneurysm ให้เร็วที่สุด (ภายใน 24 ชม.)</b> ด้วย surgical clipping หรือ <b>endovascular coiling</b> · การศึกษา <b>ISAT (2002)</b> พบว่า coiling มีผู้ป่วยตายหรือพึ่งพาผู้อื่นที่ 1 ปีน้อยกว่า clipping (ราว 24% เทียบ 31%) แม้เสี่ยงแตกซ้ำและต้องทำซ้ำมากกว่าเล็กน้อย · <b>ผู้สูงอายุ</b> (ทนการผ่าตัดเปิดกะโหลกได้น้อย) aneurysm ที่ posterior circulation หรือ basilar tip และคอแคบ → เลือก <b>coiling</b> · คนอายุน้อย aneurysm ที่ MCA (คอกว้าง แตกแขนง) หรือมีก้อนเลือดในเนื้อสมองที่ต้องเอาออก → เลือก clipping · ระหว่างรอและหลังปิด: คุม SBP &lt; 160 ก่อนปิด aneurysm, <b>nimodipine 60 mg ทุก 4 ชม. 21 วัน</b>, EVD ถ้ามี hydrocephalus, เฝ้าระวัง delayed cerebral ischemia วันที่ 3–14 · ไฟล์จดคำตอบ <b>\"elderly SAH → C. coiling\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> คุมความดันเป็นการรักษาเสริมระหว่างรอปิด aneurysm · จะถูกถ้าเป็น hypertensive ICH เล็กใน basal ganglia ผู้ป่วยรู้สึกตัวดี — รักษาด้วยยาและคุมความดัน",
-   "B": "<b>นอกสไลด์:</b> Clipping ปิด aneurysm ได้เช่นกัน · จะถูกถ้าผู้ป่วยอายุน้อยมี MCA aneurysm คอกว้างที่ใส่ coil ยาก",
-   "D": "<b>นอกสไลด์:</b> เลือดใน cistern ไม่ต้องผ่าเอาออก และไม่แก้ aneurysm · จะถูกถ้าเป็น epidural hematoma หลังบาดเจ็บที่ก้อนใหญ่กดเบียดสมอง",
-   "E": "<b>นอกสไลด์:</b> ระบาย CSF ไม่ปิด aneurysm · จะถูกถ้ามีน้ำไขสันหลังรั่วทางจมูกปริมาณน้อยหลังผ่าตัดฐานกะโหลก — ระบายทางหลังให้รูรั่วปิดเอง"
+   "A": "คุมความดันเป็นการรักษาประคับประคองที่จำเป็นช่วงก่อนปิด aneurysm (SBP &lt; 160) แต่ไม่ได้กำจัดต้นเหตุ aneurysm ยังแตกซ้ำได้ — จะถูกถ้าเป็นชาย 60 ปีที่ CT พบเลือดเล็กน้อยรอบก้านสมองด้านหน้า (perimesencephalic SAH) และ CTA กับ DSA ไม่พบ aneurysm ซึ่งพยากรณ์ดี",
+   "B": "Surgical clipping เป็น definitive treatment เช่นกันและอยู่ถาวรกว่า แต่ในผู้สูงอายุที่ aneurysm เข้าถึงทางหลอดเลือดได้ coiling ให้ผลรวมดีกว่าตาม ISAT — จะถูกถ้าเป็นหญิง 40 ปีมี MCA bifurcation aneurysm คอกว้าง แตกพร้อมก้อนเลือด 40 mL ใน temporal lobe ที่ต้องเปิดกะโหลกเอาก้อนออก",
+   "D": "เอาก้อนเลือดออกไม่ใช่การรักษาของ SAH ที่เลือดกระจายใน cistern และไม่ได้ปิด aneurysm · การเอาก้อนออกทำเฉพาะเมื่อมี ICH ก้อนใหญ่กดเบียด — จะถูกถ้าเป็นชาย 70 ปีความดันสูงที่มี lobar hemorrhage 50 mL ซีกขวา ซึมลงจาก mass effect และ CTA ไม่พบ aneurysm",
+   "E": "Lumbar drainage ช่วยระบายเลือดใน CSF อาจลด delayed cerebral ischemia (EARLYDRAIN) แต่ใช้หลังปิด aneurysm แล้วเท่านั้นและไม่ใช่ definitive · การระบาย CSF ก่อนปิดเพิ่ม transmural pressure เสี่ยงแตกซ้ำ — จะถูกถ้าเป็นผู้ป่วย aSAH ที่ coil aneurysm สำเร็จแล้วมีเลือดหนาใน basal cistern (modified Fisher 3–4) และไม่มีก้อนกดเบียด"
   },
-  "trap": "Clipping ก็ปิด aneurysm ได้ — คำถามคือวิธีที่เหมาะที่สุดในผู้สูงอายุ ซึ่ง ISAT ชี้ว่า coil ดีกว่า",
+  "trap": "Clipping และ coiling เป็น definitive ทั้งคู่ คนจึงเลือก clipping เพราะคิดว่า \"ผ่าตัด = ถาวร\" · วิธีแยก: ดู<b>อายุและตำแหน่ง</b> — ผู้สูงอายุหรือ posterior circulation เลือก coiling · MCA หรือมี ICH ก้อนใหญ่เลือก clipping · และการคุมความดัน/ ระบาย CSF เป็นเพียงการรักษาประคับประคอง",
   "summary": [
-   "<b>นอกสไลด์:</b> Aneurysmal SAH: ปิด aneurysm เร็วที่สุด (ภายในราว 24 ชม.) · nimodipine กินทุกรายป้องกัน delayed cerebral ischemia"
+   "aSAH: thunderclap headache \"worst headache of life\" · CT ภายใน 6 ชม. ไวเกือบ 100% · CT ลบแต่สงสัย → LP หา xanthochromia · CTA หา aneurysm, DSA เป็น gold standard",
+   "Rebleeding สูงสุดใน 24 ชม.แรก → ปิด aneurysm เร็วที่สุด · ระหว่างรอคุม SBP &lt; 160 mmHg และพิจารณา tranexamic acid ระยะสั้นมากเท่านั้น",
+   "ISAT: coiling ลดการตาย/พึ่งพาที่ 1 ปีเทียบ clipping · coiling เสี่ยง recanalization ต้องติดตามภาพหลอดเลือด",
+   "Nimodipine 60 mg ทุก 4 ชม. 21 วัน ลด poor outcome จาก delayed cerebral ischemia (ไม่ได้ลด vasospasm บนภาพ)",
+   "Delayed cerebral ischemia/ vasospasm: วันที่ 3–14 (สูงสุด 7–10) · ติดตามด้วย transcranial Doppler · รักษาด้วย euvolemia, induced hypertension, angioplasty/ intra-arterial vasodilator",
+   "ภาวะแทรกซ้อนอื่น: hydrocephalus (EVD), hyponatremia (cerebral salt wasting/ SIADH), ชัก, neurogenic stunned myocardium",
+   "Hunt-Hess และ WFNS บอกความรุนแรงทางคลินิก · modified Fisher บอกปริมาณเลือดบน CT และความเสี่ยง vasospasm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ตรงกับที่ P'Ing ตอบ · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ coiling สำหรับ SAH ในผู้สูงอายุ · ต้นฉบับเขียน \"CTA show no Rt ACom\" เว็บตีความว่าพิมพ์ผิดจาก \"show Rt AComm aneurysm\" (AComm เป็นหลอดเลือดกลางเส้นเดียว คำว่า right อาจหมายถึงด้านที่ aneurysm ยื่น) · ถ้าในข้อสอบจริง CTA ไม่พบ aneurysm คำตอบจะเปลี่ยนเป็นทำ DSA ไม่ใช่ coiling",
+  "mnemonic": "<b>'aSAH 'ปิดรูให้ไว · แก่ coil · MCA/ ก้อนเลือดใหญ่ clip · Nimodipine 21 วัน''</b>",
+  "guide": "2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Hoh et al., Stroke 2023); Molyneux A et al. ISAT, Lancet 2002",
   "variants": [
-   "<b>นอกสไลด์:</b> SAH วันที่ 2 ซึมลง CT ventricle โตขึ้น → acute hydrocephalus: ใส่ EVD",
-   "<b>นอกสไลด์:</b> หลัง coil วันที่ 8 ซึมลงและแขนขาอ่อนแรงใหม่ CT ไม่มีเลือดใหม่ → vasospasm: รักษาให้สารน้ำพอและเพิ่มความดัน พิจารณาขยายหลอดเลือดทางสายสวน"
+   "หญิง 45 ปี SAH จาก MCA bifurcation aneurysm คอกว้างร่วมก้อนเลือดใน temporal lobe 35 mL → craniotomy clipping + เอาก้อนออก",
+   "aSAH วันที่ 7 ผู้ป่วยซึมลงและแขนขวาอ่อนแรงใหม่ TCD ความเร็วสูง → delayed cerebral ischemia ให้ induced hypertension และพิจารณา angioplasty",
+   "aSAH วันแรกซึมลง CT พบ ventricle โต → external ventricular drain",
+   "ทำไมให้ nimodipine ทุกราย → ลด delayed cerebral ischemia และ poor outcome แม้ไม่ได้ลด vasospasm ที่เห็นบนภาพหลอดเลือด"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[neuro] Old patient, acute sudden headache. Non contrast CT show small lesion enhancement in right side of basal cistern. CTA show no Rt ACom. What is the definitive management — A. control bp B. clipping C. coiling embolize D. removal E. (ไฟล์ S73BQ/P'Ing: elderly SAH → C. coiling)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 11 มีโจทย์และช้อยครบกว่า · ไฟล์เขียน CTA show no Rt ACom → ตีความว่าพิมพ์ผิดจาก show Rt AComm aneurysm · ไฟล์ S73BQ/P'Ing จดแค่ช้อย C",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_neuro5"
   ]
  },
  "MDCU73|RoB|Neuro 6": {
-  "interp": "Cerebellar hemorrhage 4 ซม. ซึมลง และกด ventricle ที่ 4 → ถามการจัดการ",
-  "why": "P'Ing ตอบ <b>surgery</b><br><b>นอกสไลด์:</b> Posterior fossa แคบ ก้อนเลือดกดก้านสมองและอุด ventricle ที่ 4 ทำให้ตายเร็ว · AHA/ASA 2022: cerebellar ICH ≥ 15 mL ที่อาการแย่ลง กดก้านสมอง หรือมี hydrocephalus → suboccipital craniectomy เอาก้อนออก · ใส่ EVD อย่างเดียวไม่แนะนำ (เสี่ยง upward herniation)",
+  "interp": "ผู้ป่วย <b>cerebellar hemorrhage ขนาด 4 cm</b> ระดับความรู้สึกตัว<b>ลดลง</b> และ<b>กด 4th ventricle</b> — ถามการจัดการ ต้องรู้ว่าเลือดออกใน posterior fossa ที่ใหญ่หรือกดก้านสมอง/ อุด CSF ต้อง<b>ผ่าตัดเอาก้อนออกด่วน</b> ต่างจาก supratentorial ICH ส่วนใหญ่",
+  "why": "Posterior fossa เป็นช่องเล็กแข็ง ก้อนเลือดใน cerebellum จึง<b>กดก้านสมองโดยตรง</b>และ<b>อุด 4th ventricle → obstructive hydrocephalus</b> ทำให้ทรุดลงเร็วจนหยุดหายใจได้ · AHA/ASA 2022: cerebellar ICH ที่<b>อาการทางระบบประสาทแย่ลง</b> มี<b>การกดก้านสมอง</b> และ/หรือ <b>hydrocephalus</b> จากการอุดตัน หรือ<b>ปริมาตร ≥ 15 mL</b> (ราว ≥ 3 cm) → <b>ผ่าตัดเอาก้อนออกทันที (suboccipital craniectomy and evacuation)</b> ± EVD ซึ่งลดอัตราตาย · <b>ไม่ควรใส่ EVD อย่างเดียว</b>เพราะไม่แก้การกดก้านสมองและเสี่ยง upward herniation · ร่วมกับคุมความดัน (SBP เป้าราว 140) reverse ยาต้านการแข็งตัว ใส่ท่อช่วยหายใจเมื่อปกป้องทางเดินหายใจไม่ได้ · ไฟล์จดคำตอบ <b>\"cerebellar hemorrhage → B. surgery\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าก้อน cerebellum เล็ก ผู้ป่วยรู้สึกตัวดี ไม่กดก้านสมอง ไม่มี hydrocephalus",
-   "C": "<b>นอกสไลด์:</b> ห้ามเด็ดขาดใน ICH · จะถูกถ้าเป็น ischemic stroke ภายใน 4.5 ชม. CT ไม่มีเลือด",
-   "D": "<b>นอกสไลด์:</b> ห้ามใน posterior fossa mass เพราะเสี่ยง tonsillar herniation · จะถูกถ้าสงสัย SAH แต่ CT ที่ทำหลัง 6 ชม. ปกติ — เจาะหลังหา xanthochromia",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมี chronic subdural hematoma บาง ไม่มีอาการ ไม่กดเบียด — ติดตามด้วย CT"
+   "A": "คุมความดันอย่างเดียวเหมาะกับ ICH ขนาดเล็กที่อาการคงที่ แต่ก้อน 4 cm ที่กด 4th ventricle และซึมลงจะทรุดจนเสียชีวิตถ้าไม่เอาก้อนออก — จะถูกถ้าเป็นชาย 65 ปีความดันสูง เวียนศีรษะเดินเซ รู้ตัวดี CT พบเลือดที่ cerebellar hemisphere 1.5 cm ไม่กด 4th ventricle ไม่มี hydrocephalus",
+   "C": "Thrombolysis (rt-PA) ใช้ใน acute ischemic stroke ภายใน 4.5 ชม. และ<b>ห้ามเด็ดขาด</b>ในเลือดออกในสมองทุกชนิด จะทำให้ก้อนโตเร็ว — จะถูกถ้าเป็นหญิง 70 ปีแขนขาขวาอ่อนแรงและพูดไม่ได้ทันทีมา 2 ชม. CT ไม่พบเลือด ไม่มีข้อห้ามอื่น",
+   "D": "Lumbar puncture ห้ามทำในผู้ที่มีก้อนใน posterior fossa และ obstructive hydrocephalus เพราะความดันต่างระหว่างช่องเหนือและใต้ foramen magnum ทำให้ tonsillar herniation — จะถูกถ้าเป็นหญิง 40 ปีปวดศีรษะรุนแรงทันที CT ไม่พบเลือดหลัง 6 ชม. ไม่มีก้อนกดเบียด ต้องหา xanthochromia",
+   "E": "ติดตาม CT ใน 1 สัปดาห์ไม่เหมาะกับผู้ป่วยที่กำลังซึมลง ก้อนใหญ่ใน posterior fossa ทำให้หยุดหายใจได้ภายในชั่วโมง ต้องตัดสินใจผ่าตัดทันที — จะถูกถ้าเป็นผู้ป่วย cerebellar hemorrhage เล็ก &lt; 10 mL อาการคงที่ ที่ CT ซ้ำใน 24 ชม.แรกยืนยันว่าไม่โตแล้ว"
   },
-  "trap": "ก้อนที่ cerebellum ใช้เกณฑ์ผ่าตัดต่างจากก้อนเหนือ tentorium — ซึมลงหรือกดก้านสมองคือข้อบ่งชี้ผ่าตัดทันที",
+  "trap": "ICH ส่วนใหญ่ (supratentorial) รักษาด้วยยาเป็นหลัก ทำให้คนตอบคุมความดัน · วิธีแยก: <b>cerebellum ≠ cerebrum</b> — ก้อนใน posterior fossa &gt; 3 cm หรือซึมลง/ กดก้านสมอง/ hydrocephalus = ผ่าตัดเอาก้อนออกด่วน และอย่าใส่ EVD เดี่ยว ๆ",
   "summary": [
-   "<b>นอกสไลด์:</b> ICH เหนือ tentorium (putamen, thalamus) โดยทั่วไปรักษาด้วยยา ผ่าตัดเฉพาะบางราย · cerebellar ICH ผ่าตัดเร็วกว่าเพราะกดก้านสมอง"
+   "Cerebellar hemorrhage: ราว 10% ของ ICH · อาการ: ปวดท้ายทอยทันที อาเจียนซ้ำ เวียนหัว ยืนเดินไม่ได้ ataxia nystagmus gaze palsy",
+   "ข้อบ่งชี้ผ่าตัด (AHA 2022): ซึมลง, กดก้านสมอง, hydrocephalus จากการอุด 4th ventricle หรือปริมาตร ≥ 15 mL → suboccipital craniectomy + evacuation",
+   "EVD อย่างเดียวไม่แนะนำใน cerebellar ICH ที่กดเบียด เพราะไม่ลดการกดก้านสมองและเสี่ยง upward transtentorial herniation",
+   "Supratentorial ICH: ผ่าตัดในรายเลือก (ทรุดลง ก้อนใหญ่ใกล้ผิว) · ENRICH 2024: minimally invasive evacuation ของ lobar ICH ให้ผลดีกว่าการรักษาด้วยยา",
+   "การรักษาทั่วไป ICH: SBP เป้าราว 140 (เลี่ยง &lt; 130), reverse anticoagulant (PCC + vitamin K สำหรับ warfarin, idarucizumab/ andexanet สำหรับ DOAC), หัวสูง 30°, คุมน้ำตาลและไข้",
+   "ไม่ให้ platelet transfusion ในผู้กิน antiplatelet ที่ไม่ต้องผ่าตัด (PATCH) · ไม่ให้ antiepileptic ป้องกันเป็นประจำ",
+   "Cerebellar infarction ขนาดใหญ่ที่บวมกดก้านสมองก็ใช้หลักเดียวกัน → suboccipital decompressive craniectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับที่ P'Ing ตอบ · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ surgery · ต้นฉบับถามสั้น ๆ ว่า \"hemorrhage cerebellum ทำไงดี\" มีช้อยเพียง control BP กับ surgery เว็บจึงเติมขนาด 4 cm ซึมลง และกด 4th ventricle ลงในโจทย์ให้ชัดว่าเข้าเกณฑ์ผ่าตัด และเติมช้อย C–E",
+  "mnemonic": "<b>'Cerebellar bleed 'เกิน 3 (cm) ซึม กด อุด → ผ่า''</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Greenberg et al., Stroke 2022); Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Cerebellar Hemorrhage",
   "variants": [
-   "<b>นอกสไลด์:</b> Cerebellar infarct ขนาดใหญ่บวม ซึมลง กดก้านสมอง → suboccipital decompressive craniectomy เช่นกัน"
+   "ชาย 70 ปี cerebellar hemorrhage 2 cm รู้ตัวดี ไม่มี hydrocephalus → admit stroke unit คุมความดัน ตรวจระบบประสาทถี่ และ CT ซ้ำ",
+   "Cerebellar hemorrhage 3.5 cm GCS ลดจาก 14 เป็น 9 CT พบ 4th ventricle ถูกกดและ lateral ventricle โต → suboccipital craniectomy + evacuation ± EVD",
+   "ผู้ป่วยกิน warfarin INR 3.5 มี cerebellar hemorrhage ที่ต้องผ่าตัด → IV vitamin K + 4F-PCC ก่อนผ่าตัดทันที",
+   "ทำไมห้ามใส่ EVD อย่างเดียวในก้อนใหญ่ของ cerebellum → การระบายด้านบนทำให้สมองน้อยถูกดันขึ้นผ่าน tentorium (upward herniation) และก้อนยังกดก้านสมองอยู่"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[neuro] Hemorrhage cerebellum ทำไงดี — A. control bp B. surgery (ไฟล์ S73BQ/P'Ing: cerebellar hemorrhage → B. surgery)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 11 มีช้อย A, B · ไฟล์ S73BQ/P'Ing จดแค่ช้อย B · stem เติมขนาด/อาการใน stem ให้ชัดว่าต้องผ่าตัด",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_neuro6"
   ]
  },
  "MDCU73|RoB|Neuro 7": {
-  "interp": "ชายหนุ่มชักครั้งแรก CT มีถุงน้ำหลายขนาดกระจายทั่วสมอง บางถุงมีจุดเล็กข้างใน และมีจุดหินปูนเล็ก ๆ → ถามการวินิจฉัย",
-  "why": "ไฟล์จด <b>cysticercosis</b> (P'Ing ไม่มีลายมือเพิ่ม)<br><b>นอกสไลด์:</b> ภาพมีถุงน้ำผนังบางหลายสิบถุงกระจายทั้งสองซีก บางถุงมีจุดในถุง (hole-with-dot = scolex) และมีหินปูนเล็ก ๆ (ระยะตายแล้ว) — รอยโรคหลายระยะพร้อมกันเป็นลักษณะของ neurocysticercosis ซึ่งเป็นสาเหตุชักที่พบบ่อยในผู้ใหญ่ในประเทศกำลังพัฒนา",
+  "interp": "ชายหนุ่มมาด้วย<b>ชักครั้งแรก</b> CT สมองพบ<b>ถุงน้ำจำนวนมากหลายขนาดกระจายทั่วทั้งสองซีก</b> หลายถุงมีจุดขาวเล็กอยู่ภายในหรือที่ขอบ และมีจุดหินปูนกระจาย — ถามการวินิจฉัย ต้องจำภาพ<b>ถุงที่มีจุด scolex (cyst with dot sign)</b> ของ neurocysticercosis",
+  "why": "<b>Neurocysticercosis</b> เกิดจากตัวอ่อน (cysticercus) ของพยาธิตืดหมู <b>Taenia solium</b> · คนติดจากการ<b>กินไข่พยาธิ</b>ที่ปนเปื้อนอุจจาระของผู้มีพยาธิตัวแก่ในลำไส้ (fecal–oral) ไม่ใช่จากการกินหมูดิบ (ซึ่งทำให้เกิด taeniasis ในลำไส้) · ตัวอ่อนเดินทางไปฝังที่สมอง กล้ามเนื้อ และตา เป็น<b>สาเหตุอันดับต้นของ acquired epilepsy</b> ในประเทศที่มีโรคประจำถิ่น รวมถึงไทย · ภาพ CT/MRI ไล่ตามระยะ: <b>vesicular</b> ถุงน้ำใสมีจุด scolex (dot sign) ไม่ enhance · <b>colloidal</b> ถุงขุ่น ring enhancement และสมองบวมรอบ (มักชักช่วงนี้) · <b>granular nodular</b> · <b>calcified</b> จุดหินปูน · ภาพนี้มีถุงจำนวนมากหลายระยะพร้อมจุด scolex และหินปูน · รักษาด้วยยากันชัก และในถุงที่ยังมีชีวิตให้ <b>albendazole</b> (± praziquantel เมื่อ &gt; 2 ถุง) ร่วม <b>corticosteroid</b> · ถ้ามีถุงจำนวนมากร่วมสมองบวมทั่ว (cysticercotic encephalitis) ให้ steroid และ<b>งดยาฆ่าพยาธิ</b>ก่อน · ไฟล์จดคำตอบ <b>\"cysticercosis\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุที่มีมะเร็งปอด มีก้อน enhance หลายก้อนที่รอยต่อเนื้อเทา–เนื้อขาว บวมรอบก้อนมาก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเดียวหรือไม่กี่ก้อนขอบ enhance เรียบบาง DWI จำกัดการแพร่ (หนอง) ร่วมไข้และแหล่งติดเชื้อ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยวัณโรคปอดมีก้อน enhance ขอบหนาเป็นกลุ่ม ร่วมเยื่อหุ้มสมองที่ฐานหนา",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย HIV CD4 ต่ำมีก้อน ring-enhancing หลายก้อนที่ basal ganglia"
+   "A": "Metastasis มักเป็นก้อน solid หรือ ring enhancing ที่ gray–white junction มีสมองบวมรอบมาก พบในผู้สูงอายุที่มีมะเร็งปฐมภูมิ (ปอด เต้านม melanoma) ไม่ใช่ถุงน้ำจำนวนมากที่มีจุด scolex — จะถูกถ้าเป็นชาย 60 ปีสูบบุหรี่จัด มีก้อนในปอด ชักครั้งแรก MRI พบก้อน ring-enhancing 3 ก้อนที่ gray–white junction มีบวมรอบมาก",
+   "B": "Brain abscess เป็นก้อน ring enhancing ผนังเรียบบาง มักก้อนเดียวหรือไม่กี่ก้อน ตรงกลาง <b>diffusion restriction</b> ผู้ป่วยมีไข้ ปวดศีรษะ และแหล่งติดเชื้อ — จะถูกถ้าเป็นชาย 30 ปีมีหูน้ำหนวกเรื้อรัง ไข้ ปวดศีรษะ MRI พบก้อน ring-enhancing ก้อนเดียวที่ temporal lobe ตรงกลาง restrict diffusion",
+   "D": "Tuberculoma มักเป็นก้อน ring/ nodular enhancing หลายก้อนเกาะกลุ่ม (conglomerate) มักมี basal meningitis และ TB ที่ปอด ไม่ใช่ถุงน้ำใสมี scolex — จะถูกถ้าเป็นชาย 35 ปีไข้ต่ำเรื้อรัง น้ำหนักลด ไอเรื้อรัง CXR มี upper lobe infiltrate MRI พบก้อน ring-enhancing เกาะกลุ่มร่วม basal meningeal enhancement",
+   "E": "Toxoplasmosis พบในผู้ติดเชื้อ HIV ที่ CD4 &lt; 100 เป็นก้อน ring enhancing หลายก้อนที่ basal ganglia และ gray–white junction (eccentric target sign) — จะถูกถ้าเป็นชาย 32 ปีติดเชื้อ HIV ไม่ได้กินยา CD4 50 มีไข้ สับสน อ่อนแรงครึ่งซีก MRI พบก้อน ring-enhancing หลายก้อนที่ basal ganglia"
   },
-  "trap": "ถุงน้ำหลายถุงไม่บวมรอบ ๆ และมีจุดในถุง ต่างจากฝีหรือมะเร็งที่ขอบหนาและบวมมาก · ภาพนี้ถุงน้ำมากจริง",
+  "trap": "ทุกช้อยให้รอยโรคหลายก้อนในสมองได้ คนจึงเดาจากความถี่ (metastasis/ TB) · วิธีแยก: <b>ถุงน้ำใสจำนวนมากมีจุดเล็กข้างใน (scolex) + หินปูน + ชักในคนหนุ่มที่สุขภาพดี</b> = neurocysticercosis · ก้อน solid บวมมาก = metastasis · ก้อนเดียวมีไข้ = abscess · HIV CD4 ต่ำ = toxoplasmosis",
   "summary": [
-   "<b>นอกสไลด์:</b> ระยะของ cyst: vesicular (ถุงใสมี scolex) → colloidal (ขอบ enhance บวมรอบ) → granular → calcified"
+   "Neurocysticercosis: ตัวอ่อน Taenia solium · ติดจากกินไข่ (fecal–oral) · กินหมูดิบมีตัวอ่อน → taeniasis ในลำไส้ (ผู้แพร่ไข่)",
+   "ระยะภาพ: vesicular (ถุง + scolex dot, ไม่ enhance) → colloidal (ring enhancement + บวม) → granular nodular → calcified",
+   "แบ่งตามตำแหน่ง: parenchymal (ชักบ่อยสุด) · extraparenchymal (intraventricular, subarachnoid/ racemose) → hydrocephalus, เส้นเลือดอักเสบ",
+   "รักษา (IDSA/ASTMH 2017): ยากันชักทุกราย · ถุงยังมีชีวิต 1–2 ถุง → albendazole 15 mg/kg/วัน 10–14 วัน · &gt; 2 ถุง → albendazole + praziquantel · ร่วม corticosteroid",
+   "ห้ามให้ยาฆ่าพยาธิทันทีเมื่อมี cysticercotic encephalitis (บวมทั่วสมอง) หรือ hydrocephalus ที่ยังไม่แก้ · ตรวจตา (fundoscopy) หา ocular cysticercosis ก่อนให้ยา",
+   "ถุงใน ventricle → endoscopic removal · hydrocephalus → shunt · calcified lesion อย่างเดียว → ยากันชัก ไม่ต้องให้ยาฆ่าพยาธิ",
+   "ยืนยันด้วย serology (EITB) และตรวจอุจจาระผู้ป่วยและคนในบ้านหา T. solium เพื่อตัดวงจรการแพร่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ภาพถุงน้ำหลายถุงมี scolex และหินปูนชัด · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่จด cysticercosis · ภาพ CT แสดงถุงน้ำจำนวนมากหลายขนาดทั่วทั้งสองซีก หลายถุงมีจุดขาวภายใน (scolex) และมีจุดหินปูนกระจาย ซึ่งเป็นลักษณะเฉพาะของ neurocysticercosis ระยะผสม · ไม่มีลักษณะก้อน solid หรือบวมรอบมากแบบ metastasis",
+  "mnemonic": "<b>''ถุงมีจุด (dot) = ตืดหมู' · Starry-sky ของถุงและหินปูน + ชักในคนหนุ่ม'</b>",
+  "guide": "IDSA/ASTMH Clinical Practice Guidelines for the Diagnosis and Treatment of Neurocysticercosis (White et al., Clin Infect Dis 2018); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย neurocysticercosis มีถุงเดียวใน ventricle ที่ 4 ทำให้ hydrocephalus → เอาถุงออก (ส่องกล้อง/ผ่าตัด) ± shunt ไม่ใช่ให้ยาฆ่าพยาธิอย่างเดียว",
-   "<b>นอกสไลด์:</b> CT พบเพียงจุดหินปูนเล็กเดี่ยวในสมอง ชักควบคุมได้ → ระยะ calcified ให้ยากันชักอย่างเดียว ไม่ต้องให้ albendazole"
+   "หญิง 25 ปีชักครั้งแรก MRI พบถุง 1 ถุงมี scolex และ ring enhancement รอบ → albendazole + steroid + ยากันชัก",
+   "ชาย 40 ปีชักเป็นครั้งคราว CT พบเพียงจุดหินปูนเล็กหลายจุด → ยากันชักอย่างเดียว ไม่ต้องให้ยาฆ่าพยาธิ",
+   "ผู้ป่วยปวดศีรษะ อาเจียน CT พบ 4th ventricle มีถุงอุดและ hydrocephalus → endoscopic removal ของถุง",
+   "ทำไมต้องให้ corticosteroid ร่วมกับ albendazole → ยาทำให้ถุงตายและปล่อยแอนติเจน เกิดการอักเสบและสมองบวมเพิ่มขึ้น"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[neuro] [pic] diag? — A. Metastasis B. abscess C. cysticerosis D. Tuberculoma E. Toxoplasmosis (ไฟล์ S73BQ/P'Ing: ภาพ CT → C. cysticercosis)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 11 มีภาพเดียวกันและช้อยครบ 5 ข้อ → ใช้ช้อยตามไฟล์นั้น · ภาพจากไฟล์โจทย์ · ไฟล์ S73BQ/P'Ing จดแค่ช้อย C",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_neuro7"
   ]
  },
  "MDCU73|RoB|Neuro 8": {
-  "interp": "ผู้ใหญ่ปวดหลัง มีไข้ MRI เป็น pyogenic spondylodiscitis → ถามเชื้อที่พบบ่อยที่สุด",
-  "why": "P'Ing ตอบ <b>S. aureus</b><br><b>นอกสไลด์:</b> Spondylodiscitis ส่วนใหญ่มาทางกระแสเลือด หมอนรองกระดูกของผู้ใหญ่ไม่มีหลอดเลือด เชื้อจึงตั้งต้นที่ endplate แล้วลามเข้าหมอนรอง · S. aureus (รวม MRSA) พบบ่อยที่สุด ตำแหน่งที่พบบ่อยคือกระดูกสันหลังส่วนเอว",
+  "interp": "ผู้ใหญ่ปวดหลังร่วมไข้ MRI พบ <b>pyogenic spondylodiscitis</b> (ติดเชื้อแบคทีเรียที่หมอนรองกระดูกและกระดูกสันหลังข้างเคียง) — ถาม<b>เชื้อก่อโรคที่พบบ่อยที่สุด</b> ต้องรู้ว่าส่วนใหญ่มาทางกระแสเลือดและเชื้อเด่นคือ S. aureus",
+  "why": "Pyogenic spondylodiscitis ในผู้ใหญ่ส่วนใหญ่เกิดจาก<b>เชื้อมาทางกระแสเลือด</b> (จากผิวหนัง ฟัน ทางเดินปัสสาวะ ผู้ฉีดยา สายสวน) ไปตกที่ endplate ของกระดูกสันหลังซึ่งมีเลือดเลี้ยงมาก แล้วลามเข้าหมอนรอง (หมอนรองผู้ใหญ่ไม่มีเลือดเลี้ยง) · <b>Staphylococcus aureus</b> เป็นเชื้อที่พบบ่อยที่สุด (ราว 50% รวม MRSA) · รองลงมาคือ Streptococcus และ <b>gram-negative</b> โดยเฉพาะ <b>E. coli</b> จากทางเดินปัสสาวะในผู้สูงอายุ · Pseudomonas ในผู้ฉีดยาเสพติด · ในไทยต้องแยก <b>TB spondylitis (Pott's disease)</b> ซึ่งมักลุกด้านหน้าตัวกระดูก ลามใต้เอ็น ข้ามหลายระดับ หมอนรองค่อนข้างคงอยู่ และมี paraspinal cold abscess ขนาดใหญ่ · วินิจฉัย MRI + gadolinium · <b>blood culture</b> (บวกราวครึ่งหนึ่ง) ถ้าลบต้อง <b>CT-guided biopsy</b> ก่อนให้ยาในผู้ที่อาการคงที่ · ยาปฏิชีวนะราว 6 สัปดาห์ · ผ่าตัดเมื่อมี neurological deficit, epidural abscess กดเส้นประสาท, instability หรือไม่ตอบสนองต่อยา · ไฟล์จดคำตอบ <b>\"S. aureus\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่เป็น bacterial meningitis หรือปอดอักเสบจากชุมชน",
-   "C": "<b>นอกสไลด์:</b> E. coli เป็นสาเหตุรองของ spondylodiscitis หลังติดเชื้อทางเดินปัสสาวะ · จะถูกถ้าหญิงเป็นกรวยไตอักเสบเฉียบพลัน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ H. influenzae type a เป็นเชื้อที่พบบ่อยที่สุดของโรคติดเชื้อทั่วไป เพราะเป็นสายพันธุ์ที่ก่อโรครุนแรงได้แต่พบน้อย",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กเล็กที่ไม่ได้รับวัคซีนเป็น acute epiglottitis"
+   "B": "S. pneumoniae ก่อ pneumonia, meningitis, otitis media และ bacteremia แต่เป็นสาเหตุ vertebral osteomyelitis ได้น้อย · กลุ่ม Streptococcus ที่พบในโรคนี้มักเป็น viridans หรือ β-hemolytic — จะถูกถ้าเป็นชาย 70 ปีไข้สูง ไอมีเสมหะสีสนิม หายใจหอบ CXR พบ lobar consolidation และ urinary antigen ให้ผลบวก",
+   "C": "E. coli เป็น gram-negative ที่พบบ่อยที่สุดของ spondylodiscitis มาจากทางเดินปัสสาวะในผู้สูงอายุ แต่ยังรองจาก S. aureus — จะถูกถ้าเป็นชาย 75 ปีเพิ่งมี pyelonephritis จาก E. coli แล้วปวดหลังเอวมากขึ้น MRI พบ L4–L5 spondylodiscitis และ blood culture ขึ้น E. coli",
+   "D": "H. influenzae type a เป็นเชื้อก่อโรครุนแรง (meningitis, pneumonia, septic arthritis) ในเด็กบางกลุ่มประชากร พบน้อยมากใน vertebral infection ผู้ใหญ่ — จะถูกถ้าเป็นเด็ก 1 ขวบในกลุ่มประชากรที่มีรายงาน Hia มีไข้ ซึม คอแข็ง CSF เพาะเชื้อขึ้น H. influenzae ที่ serotype a",
+   "E": "H. influenzae type b เคยเป็นสาเหตุสำคัญของ meningitis, epiglottitis และ septic arthritis ในเด็กเล็กก่อนยุควัคซีน Hib ไม่ใช่เชื้อของ spondylodiscitis ผู้ใหญ่ — จะถูกถ้าเป็นเด็ก 3 ขวบไม่ได้รับวัคซีน มีไข้สูง เจ็บคอมาก น้ำลายไหล นั่งโน้มตัวหายใจเสียงดัง (epiglottitis)"
   },
-  "trap": "ในไทยต้องแยกวัณโรคกระดูกสันหลังเสมอ — แต่โจทย์บอก pyogenic แล้ว",
+  "trap": "E. coli เป็นตัวลวงเพราะผู้สูงอายุติดเชื้อทางเดินปัสสาวะบ่อยและแพร่ไปกระดูกสันหลังส่วนเอวได้ผ่าน Batson venous plexus · วิธีแยก: ถามหา \"<b>เชื้อที่พบบ่อยที่สุด</b>\" ของกระดูกและข้อติดเชื้อแทบทุกชนิดในผู้ใหญ่ คำตอบคือ S. aureus เสมอ (ยกเว้นบริบทเฉพาะ เช่น sickle cell ที่ Salmonella เด่น)",
   "summary": [
-   "<b>นอกสไลด์:</b> Pott disease: กระดูกสันหลังส่วนอก ค่อยเป็นค่อยไป หมอนรองค่อนข้างคงอยู่ ฝีข้างกระดูกสันหลังใหญ่",
-   "<b>นอกสไลด์:</b> รักษา pyogenic: ยาปฏิชีวนะตามเชื้อราว 6 สัปดาห์ · ผ่าตัดเมื่อมีประสาทถูกกด กระดูกไม่มั่นคง หรือฝีที่ระบายไม่ได้"
+   "Spondylodiscitis: lumbar ~60% &gt; thoracic ~30% &gt; cervical ~10% · ปวดหลังเฉพาะที่ ปวดกลางคืน ไข้ (มีเพียงครึ่งหนึ่ง) ESR/CRP สูง",
+   "เชื้อ: S. aureus (~50%) &gt; Streptococcus &gt; gram-negative (E. coli จาก UTI) · Pseudomonas/ Candida ในผู้ฉีดยา · Salmonella ใน sickle cell · Brucella/ TB ในพื้นที่ระบาด",
+   "MRI + gadolinium ไวที่สุด: T1 ต่ำ T2 สูงที่ endplate สองข้างและหมอนรอง + enhancement · ตรวจหา epidural/ paraspinal abscess",
+   "Blood culture ก่อนให้ยา · ลบ → CT-guided biopsy ส่งเพาะเชื้อ AFB และพยาธิ · ผู้ป่วยคงที่ให้รอผลเชื้อก่อนให้ยา (IDSA 2015)",
+   "ยาปฏิชีวนะตามเชื้อราว 6 สัปดาห์ (ไม่ด้อยกว่า 12 สัปดาห์) · ติดตามอาการและ CRP มากกว่า MRI ซ้ำ",
+   "ผ่าตัด: neurological deficit, epidural abscess กดไขสันหลัง, kyphosis/ instability, ยาไม่ได้ผล",
+   "TB spondylitis: ลุกหลายระดับ ด้านหน้าตัวกระดูก หมอนรองคงอยู่นาน cold abscess ใหญ่มีหินปูน gibbus deformity · ยาต้าน TB 9–12 เดือน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับที่ P'Ing ตอบ · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ S. aureus และตรงข้อมูลจากทุกตำราว่า S. aureus เป็นสาเหตุราวครึ่งหนึ่งของ pyogenic vertebral osteomyelitis · ช้อยในเว็บใช้ตามไฟล์ S73BMO ที่มีครบ 5 ข้อ",
+  "mnemonic": "<b>''กระดูกติดเชื้อ ถามเชื้อบ่อยสุด → S. aureus' · ผู้สูงอายุ UTI นำมา → คิดถึง E. coli'</b>",
+  "guide": "IDSA Clinical Practice Guidelines for the Diagnosis and Treatment of Native Vertebral Osteomyelitis in Adults (Berbari et al., Clin Infect Dis 2015); Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Spine Infections",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยนี้คงที่ blood culture ไม่ขึ้นเชื้อ → CT-guided biopsy ก่อนให้ยาปฏิชีวนะ",
-   "<b>นอกสไลด์:</b> ผู้ใช้ยาเสพติดฉีดเป็น spondylodiscitis → นอกจาก S. aureus ต้องครอบคลุม Pseudomonas"
+   "ชาย 60 ปีเบาหวาน ปวดหลังและไข้ ขาอ่อนแรงสองข้าง MRI พบ spinal epidural abscess กดไขสันหลัง T10 → ผ่าตัด decompression ด่วน + IV antibiotics",
+   "หญิง 55 ปีปวดหลังเรื้อรัง 4 เดือน น้ำหนักลด MRI พบรอยโรค T8–T10 หมอนรองคงอยู่ มี paraspinal abscess ใหญ่ → TB spondylitis ทำ biopsy ยืนยัน",
+   "Spondylodiscitis blood culture ลบ ผู้ป่วยคงที่ → CT-guided biopsy ก่อนเริ่มยาปฏิชีวนะ",
+   "ทำไมผู้ใหญ่ติดเชื้อที่ endplate ก่อนหมอนรอง → หมอนรองผู้ใหญ่ไม่มีหลอดเลือด เชื้อจากเลือดจึงตกที่ endplate ซึ่งมีหลอดเลือดปลายตันมาก"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[neuro] เชื้อที่พบบ่อยที่สุดที่ทำให้เกิด pyogenic spondylodiscitis — A. Staph aureus B. Strep pneumo C. E. coli D. H. influ type A E. H. influ type B</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 11 มีช้อยครบ 5 ข้อ → ใช้ตามไฟล์นั้น · ไฟล์ S73BQ/P'Ing จดแค่ช้อย A",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_neuro8"
   ]
  },
  "MDCU73|RoB|Ped 1": {
-  "interp": "สาเหตุที่พบบ่อยที่สุดของต่อมน้ำเหลืองคอโตในเด็ก",
-  "why": "P'Ing ตอบ <b>head and neck infection (reactive)</b><br><b>นอกสไลด์:</b> ต่อมคอโตในเด็กส่วนใหญ่เป็น reactive hyperplasia จากการติดเชื้อไวรัสทางเดินหายใจส่วนบน คอ ฟัน หรือหนังศีรษะ · มักโตสองข้าง นุ่ม ขยับได้ ยุบเองในไม่กี่สัปดาห์",
+  "interp": "ถามสาเหตุที่<b>พบบ่อยที่สุด</b>ของต่อมน้ำเหลืองที่คอโตในเด็ก — ต้องรู้ว่าเด็กมีต่อมน้ำเหลืองคลำได้เป็นปกติ และสาเหตุส่วนใหญ่คือ <b>reactive hyperplasia</b> จากการติดเชื้อบริเวณศีรษะและคอ ไม่ใช่มะเร็งหรือการติดเชื้อเฉพาะ",
+  "why": "เด็กมีเนื้อเยื่อน้ำเหลืองตอบสนองมากและติดเชื้อทางเดินหายใจบ่อย ต่อมน้ำเหลืองที่คอขนาด<b>ไม่เกิน 1 cm</b> คลำได้ในเด็กปกติจำนวนมาก · สาเหตุที่พบบ่อยที่สุดของต่อมโตคือ <b>reactive lymphadenopathy จากการติดเชื้อที่ศีรษะและคอ</b> ส่วนใหญ่เป็น<b>ไวรัสทางเดินหายใจส่วนบน</b> (adenovirus, rhinovirus, EBV, CMV) ซึ่งโตสองข้าง นุ่ม ขยับได้ และยุบเองใน 2–6 สัปดาห์ · ต่อมโตข้างเดียวเฉียบพลัน กดเจ็บ แดงร้อน = bacterial lymphadenitis (S. aureus, group A Streptococcus) ซึ่งถ้าเป็นหนองจึงเป็น suppurative lymphadenitis · โตเรื้อรังข้างเดียว ผิวสีม่วง ไม่เจ็บ = nontuberculous mycobacteria ในเด็ก 1–5 ปี · สัญญาณเตือนมะเร็ง (lymphoma, leukemia, neuroblastoma, nasopharyngeal carcinoma): <b>supraclavicular</b> ใหญ่ &gt; 2 cm โตต่อเนื่องเกิน 4–6 สัปดาห์ แข็ง ติดแน่น รวมกลุ่ม ไข้ น้ำหนักลด เหงื่อออกกลางคืน ตับม้ามโต หรือ CXR มีก้อนใน mediastinum → excisional biopsy · ไฟล์จดคำตอบ <b>\"head and neck infection\"</b> (reactive)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าวัยรุ่นมีต่อมคอหรือเหนือไหปลาร้าโตแข็งไม่เจ็บ เกิน 2 ซม. โตต่อเนื่องหลายสัปดาห์ มีไข้ เหงื่อออกกลางคืน น้ำหนักลด",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กติดเชื้อ HIV แต่กำเนิดมีต่อมโตทั่วตัว ตับม้ามโต และเชื้อราในปาก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กมีต่อมคอโตเรื้อรังไม่เจ็บติดกันเป็นกลุ่ม มีหนองเย็นหรือรูหนอง และผู้ใหญ่ในบ้านไอเรื้อรัง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าต่อมคอข้างเดียวโต แดง ร้อน เจ็บ กดนุ่มเป็นหนอง ร่วมไข้"
+   "A": "Lymphoma เป็นสาเหตุมะเร็งที่สำคัญของต่อมโตในเด็กโตและวัยรุ่น (Hodgkin) แต่พบน้อยกว่าการติดเชื้อมาก ลักษณะคือต่อมแข็ง ไม่เจ็บ โตต่อเนื่อง ร่วม B symptoms — จะถูกถ้าเป็นวัยรุ่นหญิง 16 ปีมีต่อมที่ supraclavicular ซ้าย 3 cm แข็ง ไม่เจ็บ โตขึ้นใน 2 เดือน มีไข้กลางคืนและน้ำหนักลด CXR พบ mediastinal mass",
+   "B": "HIV ทำให้ต่อมน้ำเหลืองโตทั่วตัว (generalized) ร่วมต่อมน้ำลาย parotid โต ติดเชื้อซ้ำ และน้ำหนักไม่ขึ้น เป็นสาเหตุที่พบน้อยในเด็กทั่วไป — จะถูกถ้าเป็นเด็ก 2 ปีมารดาติดเชื้อ HIV ไม่ได้รับยาป้องกัน มีต่อมโตหลายตำแหน่ง ฝ้าขาวในปากเรื้อรัง parotid โตสองข้าง และน้ำหนักต่ำกว่าเกณฑ์",
+   "C": "Tuberculosis (scrofula) ทำให้ต่อมคอโตเรื้อรัง ไม่เจ็บ รวมกลุ่ม อาจเป็นหนองเย็นแตกเป็นโพรง มักมีผู้สัมผัส TB ในบ้าน สำคัญในประเทศไทยแต่พบน้อยกว่า reactive — จะถูกถ้าเป็นเด็ก 10 ปีมีต่อมคอโตหลายต่อมติดกันมา 2 เดือน ไม่เจ็บ ไข้ต่ำ น้ำหนักลด ปู่ไอเรื้อรังเป็น TB ปอด และ tuberculin test บวก",
+   "E": "Suppurative lymphadenitis คือต่อมที่ติดเชื้อแบคทีเรียจนเป็นหนอง พบได้บ่อยเป็นอันดับรองแต่เป็นกลุ่มย่อยของต่อมที่ติดเชื้อ ต้องระบายหนองร่วมยาปฏิชีวนะ — จะถูกถ้าเป็นเด็ก 2 ปีมีต่อมใต้คางข้างขวาโต 4 cm แดงร้อน กดเจ็บ ไข้ คลำได้ fluctuation และ US พบโพรงหนอง"
   },
-  "trap": "ช้อย E ก็เป็นการติดเชื้อ แต่ต่อมเป็นหนองจากแบคทีเรียพบน้อยกว่า reactive จากไวรัสมาก",
+  "trap": "Suppurative lymphadenitis เป็น \"การติดเชื้อ\" เหมือนกันจึงสับสนกับ D ส่วน TB/ lymphoma เป็นโรคที่จำได้เด่น · วิธีแยก: คำว่า <b>\"most common\"</b> ในเด็ก = reactive จากการติดเชื้อทางเดินหายใจส่วนบนที่ศีรษะและคอ (ส่วนใหญ่ไวรัส) ไม่ใช่ต่อมที่เป็นหนองเอง และไม่ใช่มะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> ต่อมที่ควรตัดชิ้นเนื้อ: &gt; 2 ซม. แข็ง ยึดติด เหนือไหปลาร้า โตต่อเนื่องเกินราว 4–6 สัปดาห์ หรือมีอาการทั่วร่าง"
+   "ต่อมน้ำเหลืองผิดปกติในเด็ก: คอ/ รักแร้ &gt; 1 cm · ขาหนีบ &gt; 1.5 cm · epitrochlear &gt; 0.5 cm · supraclavicular คลำได้ทุกขนาดถือว่าผิดปกติ",
+   "Acute bilateral: ไวรัส URI (adenovirus, EBV, CMV) · ติดตามได้ ไม่ต้องให้ยา",
+   "Acute unilateral: bacterial lymphadenitis (S. aureus, GAS) → ยาปฏิชีวนะครอบคลุม (cephalexin/ amoxicillin-clavulanate/ clindamycin ถ้าสงสัย MRSA) · มีหนอง → I&amp;D หรือ needle aspiration",
+   "Subacute/ chronic unilateral: NTM (ผิวม่วง ไม่ไข้ เด็ก 1–5 ปี → excision), cat-scratch disease (Bartonella), TB, toxoplasmosis",
+   "Kawasaki disease: ต่อมคอข้างเดียว ≥ 1.5 cm ร่วมไข้ ≥ 5 วัน ตาแดง ปากแดงแตก ผื่น มือเท้าบวม → IVIG + aspirin",
+   "Red flags มะเร็ง → excisional biopsy (ไม่ใช่ FNA): supraclavicular, &gt; 2 cm ที่โตต่อหลัง 2–4 สัปดาห์หรือไม่ยุบใน 4–6 สัปดาห์, แข็งติดแน่น, B symptoms, ตับม้ามโต, CBC ผิดปกติ, CXR มีก้อน",
+   "ห้ามให้ steroid ก่อนได้ชิ้นเนื้อเมื่อสงสัย lymphoma/ leukemia เพราะบดบังการวินิจฉัย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D — ตรงกับที่ P'Ing ตอบ · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ head and neck infection (reactive) · ข้อควรสังเกตคือช้อย E (suppurative lymphadenitis) ก็เป็นการติดเชื้อ แต่เป็นภาวะแทรกซ้อนส่วนน้อยของต่อมที่ติดเชื้อแบคทีเรีย ไม่ใช่สาเหตุที่พบบ่อยที่สุด",
+  "mnemonic": "<b>'ต่อมคอโตในเด็ก 'ส่วนใหญ่แค่หวัด' · Red flag 'S-H-A-B': Supraclavicular, Hard/ fixed, Abnormal CXR/ CBC, B symptoms'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Lymph Node Disorders; Nelson Textbook of Pediatrics 22nd ed. (2024) — Lymphadenopathy",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กมีต่อมใต้รักแร้โตเจ็บข้างเดียวหลังลูกแมวข่วนที่แขน → cat-scratch disease (Bartonella)",
-   "<b>นอกสไลด์:</b> เด็ก 2 ปีต่อมใต้คางโตข้างเดียวไม่เจ็บ ผิวเหนือต่อมสีม่วง ไม่มีไข้ → nontuberculous mycobacteria: ผ่าตัดเอาต่อมออก"
+   "เด็ก 4 ปีเป็นหวัด เจ็บคอ คลำได้ต่อมคอสองข้าง 1.2 cm นุ่ม ขยับได้ → reactive lymphadenopathy ติดตาม 2–4 สัปดาห์",
+   "เด็ก 3 ปีต่อมใต้คางข้างเดียวโตช้า ๆ 2 เดือน ไม่ไข้ ผิวเหนือต่อมสีม่วงบาง → nontuberculous mycobacteria ผ่าตัดเอาต่อมออกทั้งต่อม",
+   "เด็ก 8 ปีถูกแมวข่วน 2 สัปดาห์ก่อน ต่อมรักแร้ข้างเดียวกันโตเจ็บ → cat-scratch disease (Bartonella henselae)",
+   "ทำไมต้อง excisional biopsy ไม่ใช่ FNA เมื่อสงสัย lymphoma → ต้องเห็นโครงสร้างต่อมทั้งหมดเพื่อจำแนกชนิด lymphoma"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[ped] Most common cause lymphadenopathy in children — A. Lymphoma B. HIV C. TB D. Head and neck infection E. Suppurative lymphadenitis</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 11–12 มีช้อยครบ 5 ข้อ → ใช้ตามไฟล์นั้น · ไฟล์ S73BQ/P'Ing จดแค่ช้อย D",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_ped1a",
+   "kp73b_ped1b"
   ]
  },
  "MDCU73|RoB|Ped 2": {
-  "interp": "ทารกคลอดก่อนกำหนดท้องอืดหลังเริ่มนม ภาพรังสีมีลมในผนังลำไส้ (NEC) และ <b>ลมอิสระในช่องท้อง</b> → ถามการจัดการ",
-  "why": "P'Ing ลายมือ <b>absolute indication = perforation (pneumoperitoneum)</b><br><b>นอกสไลด์:</b> ลมอิสระแปลว่าลำไส้ทะลุแล้ว ยาไม่ช่วย ต้องผ่าตัด (laparotomy ตัดลำไส้ส่วนที่ตาย ± stoma)",
+  "interp": "ทารกคลอดก่อนกำหนดน้ำหนักน้อย ท้องอืดหลังเริ่มกินนม X-ray พบ<b>ลมในผนังลำไส้ (pneumatosis intestinalis)</b> และ<b>ลมอิสระในช่องท้อง</b> = <b>necrotizing enterocolitis ที่ลำไส้ทะลุ</b> (Bell stage IIIB) — ถามการจัดการ ต้องรู้ว่า pneumoperitoneum เป็น<b>ข้อบ่งชี้เด็ดขาด</b>ของการผ่าตัด",
+  "why": "NEC เป็นภาวะลำไส้อักเสบและตายจาก<b>ลำไส้ยังไม่เจริญเต็มที่</b> การกินนมผง (โดยเฉพาะไม่ใช่นมแม่) การเปลี่ยนแปลงเชื้อจุลชีพในลำไส้ และเลือดเลี้ยงลำไส้ลดลง · ปัจจัยเสี่ยงสำคัญที่สุดคือ<b>การคลอดก่อนกำหนด</b> (ยิ่งอายุครรภ์น้อยยิ่งเกิดช้าหลังคลอด) · <b>Bell staging</b>: I สงสัย (อาการทั่วไป ท้องอืด) · II ยืนยัน (<b>pneumatosis intestinalis</b> ± portal venous gas) · III รุนแรง (IIIA ไม่ทะลุแต่ทรุด, <b>IIIB ทะลุ</b>) · stage I–II ใช้ <b>medical management</b>: งดนม NG decompression ยาปฏิชีวนะ broad-spectrum 7–14 วัน TPN และ X-ray ซ้ำทุก 6–8 ชม. · <b>ลมอิสระในช่องท้อง (pneumoperitoneum)</b> = ลำไส้ทะลุ = <b>absolute indication for surgery</b>: laparotomy ตัดลำไส้ที่ตายและทำ stoma หรือในทารกน้ำหนัก &lt; 1000 g ที่ไม่คงที่อาจใส่ primary peritoneal drain ชั่วคราว · ไฟล์คีย์ลายมือ P'Ing เขียน <b>\"absolute indication = perforation (pneumoperitoneum)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทารกท้องอืด มีลมในผนังลำไส้แต่ไม่มีลมอิสระ สัญญาณชีพคงที่ — งดนม ใส่สายระบาย ยาปฏิชีวนะ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกสงสัย NEC ระยะแรก ภาพรังสียังปกติ อาการดีขึ้นหลังงดนม — ถ่ายภาพซ้ำติดตาม",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทารกครบกำหนดถ่ายขี้เทาช้า ท้องอืด สงสัย Hirschsprung — สวนล้างระบายระหว่างรอวินิจฉัย",
-   "E": "<b>นอกสไลด์:</b> ห้ามในระยะเฉียบพลันเพราะเสี่ยงทะลุ · จะถูกถ้าทารกหาย NEC แล้วหลายสัปดาห์ มีอาการลำไส้อุดตัน — หา stricture"
+   "A": "Medical management อย่างเดียว (งดนม NG antibiotic TPN) เหมาะกับ NEC Bell I–II ที่ยังไม่ทะลุ เมื่อมีลมอิสระแล้วการรักษาด้วยยาไม่ปิดรูทะลุ อุจจาระรั่วเข้าช่องท้องจนเสียชีวิต — จะถูกถ้าเป็นทารกคลอด 29 สัปดาห์ ท้องอืดหลังกินนม X-ray พบ pneumatosis intestinalis แต่ไม่มีลมอิสระ สัญญาณชีพคงที่ (Bell IIA)",
+   "C": "X-ray ซ้ำเป็นการติดตาม NEC ที่ยังไม่ทะลุทุก 6–8 ชม. เพื่อจับลมอิสระให้เร็ว แต่เมื่อเห็นลมอิสระแล้วการรอ 24 ชม. ทำให้ทรุดหนัก — จะถูกถ้าเป็นทารกคลอดก่อนกำหนดที่ X-ray พบ pneumatosis เพียงเล็กน้อย ท้องไม่ตึง กำลังได้ยาปฏิชีวนะและงดนม",
+   "D": "Rectal irrigation ใช้ใน <b>Hirschsprung disease</b> หรือ Hirschsprung-associated enterocolitis เพื่อระบายลมและอุจจาระ · ใน NEC ที่ลำไส้บางเปราะและทะลุแล้วเป็นอันตราย — จะถูกถ้าเป็นทารกครบกำหนดที่ไม่ถ่ายขี้เทาใน 48 ชม. ท้องอืด rectal exam มีลมและอุจจาระพุ่งออก และ suction rectal biopsy ไม่พบ ganglion cell",
+   "E": "Contrast enema ห้ามทำใน NEC ระยะเฉียบพลันเพราะเสี่ยงทะลุ ใช้ภายหลังเพื่อหา stricture (พบราว 10–35% หลัง NEC) หรือวินิจฉัย/ รักษา meconium ileus — จะถูกถ้าเป็นทารกที่หายจาก NEC ด้วยยาแล้ว 6 สัปดาห์ เริ่มกินนมแล้วท้องอืดอาเจียน สงสัย post-NEC stricture ที่ลำไส้ใหญ่"
   },
-  "trap": "ลมในผนังลำไส้อย่างเดียวรักษาด้วยยา · ลมอิสระ = ข้อบ่งชี้เด็ดขาดข้อเดียวของการผ่าตัด",
+  "trap": "คนจำได้ว่า NEC ส่วนใหญ่รักษาด้วยยา จึงตอบ medical management · วิธีแยก: ดู X-ray — <b>pneumatosis อย่างเดียว = ยา</b> · <b>pneumoperitoneum = ทะลุ = ผ่าตัด</b> (absolute) · portal venous gas เป็นข้อบ่งชี้สัมพัทธ์ที่บ่งความรุนแรง",
   "summary": [
-   "<b>นอกสไลด์:</b> Bell staging: I สงสัย · II ยืนยัน (ลมในผนังลำไส้ ± portal venous gas) · III รุนแรง (ช็อก หรือทะลุ)"
+   "NEC: พบราว 5–10% ของทารก &lt; 1500 g · ปัจจัยเสี่ยงหลักคือ prematurity · นมแม่และ probiotics ลดความเสี่ยง",
+   "อาการ: ท้องอืด feeding intolerance (gastric residual) อาเจียนน้ำดี ถ่ายเป็นเลือด ซึม apnea หัวใจเต้นช้า",
+   "X-ray: dilated loops → pneumatosis intestinalis (ลักษณะเฉพาะ) → portal venous gas → pneumoperitoneum (football sign, Rigler sign)",
+   "Medical: NPO, NG decompression, broad-spectrum antibiotics (เช่น ampicillin + gentamicin + metronidazole) 7–14 วัน, TPN, X-ray ซ้ำทุก 6–8 ชม.",
+   "Absolute indication ผ่าตัด: pneumoperitoneum · Relative: ทรุดลงแม้รักษาด้วยยา, fixed dilated loop, ผนังท้องแดง/ บวม, คลำก้อน, portal venous gas, paracentesis ได้น้ำสีน้ำตาลหรือพบเชื้อ",
+   "ผ่าตัด: laparotomy ตัดลำไส้ที่ตาย ทำ stoma (หรือ primary anastomosis ในรายเลือก) · primary peritoneal drainage เป็นทางเลือกในทารก &lt; 1000 g ที่ไม่คงที่",
+   "ภาวะแทรกซ้อนระยะยาว: intestinal stricture (มักที่ลำไส้ใหญ่ซ้าย) และ short bowel syndrome"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่เขียนว่า perforation (pneumoperitoneum) เป็น absolute indication · ต้นฉบับใช้คำว่า \"DOL2 after feeding\" ซึ่ง NEC ในทารกก่อนกำหนดมักเกิดช้ากว่านั้น (สัปดาห์ที่ 2–3) แต่ไม่เปลี่ยนคำตอบเพราะประเด็นของข้อคือลมอิสระในช่องท้อง",
+  "mnemonic": "<b>'NEC 'ลมในผนัง = ยา · ลมในท้อง = มีด''</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Necrotizing Enterocolitis; Blakely ML et al. Necrotizing Enterocolitis Surgery Trial (NET), Ann Surg 2021",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกน้ำหนัก 700 g ไม่คงที่ มีลมอิสระ → ใส่ peritoneal drain ข้างเตียงก่อน",
-   "<b>นอกสไลด์:</b> ทารก NEC รักษาด้วยยา แต่ผนังท้องแดง คลำก้อน เกล็ดเลือดและความดันลดลงต่อเนื่อง → ผ่าตัด (ทรุดลงแม้ให้ยาเต็มที่)"
+   "ทารกคลอด 28 สัปดาห์ ท้องอืด ถ่ายมีเลือด X-ray มี pneumatosis และ portal venous gas ไม่มีลมอิสระ → NPO NG antibiotics TPN และ X-ray ซ้ำทุก 6–8 ชม.",
+   "ทารก NEC ได้ยาเต็มที่ 48 ชม. แต่ช็อก เกล็ดเลือดลดต่อเนื่อง ผนังท้องแดงบวม → ผ่าตัด (ทรุดลงแม้รักษาด้วยยา)",
+   "ทารก 700 g NEC ทะลุ ช็อกต้องใช้ยากระตุ้นหัวใจ → primary peritoneal drain ข้างเตียงชั่วคราว",
+   "ทำไมนมแม่ลด NEC → มี IgA, lactoferrin, oligosaccharide ส่งเสริมจุลชีพที่ดีและลดการอักเสบของเยื่อบุลำไส้"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[ped] Preterm, low birth weight, distended abdomen DOL2 after feeding. Air in bowel wall and peritoneum management? — A. conservative by … (ไฟล์ S73BQ/P'Ing: NEC perforation → B. surgery)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 12 มีโจทย์ละเอียดกว่า · ไฟล์ S73BQ/P'Ing จดแค่ช้อย B",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_ped2"
   ]
  },
  "MDCU73|RoB|Ped 3": {
-  "interp": "ทารกครบกำหนดแข็งแรง อายุ 7 วัน อาเจียน<b>น้ำดีปนเลือด</b> วันต่อมาถ่ายเป็นเลือด → ถามการวินิจฉัย",
-  "why": "P'Ing ตอบ <b>malrotation with volvulus</b><br><b>นอกสไลด์:</b> อาเจียนน้ำดีในทารกที่เคยกินได้ = malrotation with midgut volvulus จนกว่าจะพิสูจน์ว่าไม่ใช่ · ถ่ายเป็นเลือดแปลว่าลำไส้ขาดเลือดแล้ว (เวลาน้อยก่อนลำไส้ตายทั้ง midgut)",
+  "interp": "ทารกครบกำหนดแข็งแรงดี วันที่ 7 มี<b>อาเจียนเป็นน้ำดีปนเลือด</b> แล้ววันถัดมา<b>ถ่ายเป็นเลือด</b> — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องรู้ว่าอาเจียนน้ำดีในทารกคือภาวะฉุกเฉินทางศัลยกรรม และถ่ายเป็นเลือดตามมาบ่งว่า<b>ลำไส้เริ่มขาดเลือด</b>",
+  "why": "อาเจียน<b>น้ำดี</b>บ่งการอุดตันใต้ ampulla of Vater · ในทารกครบกำหนดที่เคยปกติ ต้องคิดถึง <b>malrotation with midgut volvulus</b> ก่อนเสมอ · กลไก: ลำไส้ไม่หมุน 270° ทวนเข็มนาฬิกาตามปกติขณะกลับเข้าช่องท้อง → duodenojejunal flexure อยู่ขวา cecum อยู่สูงใกล้ pylorus มี <b>Ladd's bands</b> พาดผ่าน duodenum และ<b>ฐาน mesentery แคบ</b> → ลำไส้ทั้ง midgut บิดตามเข็มนาฬิการอบ SMA · ระยะแรกอุดตันเชิงกลทำให้อาเจียนน้ำดี ต่อมาหลอดเลือดดำและแดงถูกบิด → เยื่อบุลำไส้ขาดเลือด → <b>ถ่ายเป็นเลือด</b> (สัญญาณระยะหลังที่น่ากลัว) แล้วท้องอืดตึง ช็อก · ทารกคงที่ → <b>UGI contrast study ด่วน</b> (DJ flexure อยู่ขวาหรือต่ำกว่า pylorus, corkscrew) · ทารกช็อก/ peritonitis → ผ่าตัดทันที · ผ่าตัด <b>Ladd procedure</b> และประเมินลำไส้ที่ขาดเลือด (อาจ second-look) · ไฟล์จดคำตอบ <b>\"malrotation with volvulus\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทารกคลอดก่อนกำหนดท้องอืดและถ่ายเป็นเลือดหลังเริ่มนม ภาพรังสีมีลมในผนังลำไส้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกอายุ 8 เดือน ร้องปวดเป็นพัก ๆ ขาคู้ ถ่ายเป็นมูกเลือด คลำก้อนรูปไส้กรอก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทารกชาย 4 สัปดาห์ อาเจียนพุ่งไม่มีน้ำดีหลังกินนม คลำได้ก้อนเหนือสะดือ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกกลุ่มอาการดาวน์อาเจียนน้ำดีตั้งแต่วันแรก ภาพรังสีเป็น double bubble ไม่มีลมปลาย"
+   "A": "NEC ในทารกครบกำหนดพบน้อยและมักมีปัจจัยเสี่ยง เช่น โรคหัวใจแต่กำเนิดชนิดเขียว ขาดออกซิเจนแรกคลอด polycythemia มักเริ่มด้วยท้องอืดและถ่ายเป็นเลือดมากกว่าอาเจียนน้ำดีนำ — จะถูกถ้าเป็นทารกครบกำหนดที่มี hypoplastic left heart syndrome หลังผ่าตัดหัวใจ เริ่มกินนมแล้วท้องอืด ถ่ายเป็นเลือด และ X-ray พบ pneumatosis intestinalis",
+   "C": "Intussusception ในทารกแรกเกิดพบน้อยมาก (ช่วงอายุปกติ 3 เดือน–3 ปี) และถ้าเกิดมักมี lead point · อาการเด่นคือร้องกวนเป็นพัก ๆ ถ่ายมูกเลือด คลำได้ก้อน — จะถูกถ้าเป็นเด็ก 7 เดือนร้องกวนขาขึ้นท้องเป็นพัก ๆ ทุก 15–20 นาที ถ่ายมูกเลือดสีแดงคล้ำ และ US พบ target sign ที่ท้องด้านขวา",
+   "D": "Hypertrophic pyloric stenosis อุดเหนือ ampulla จึงอาเจียน<b>ไม่มีน้ำดี</b> พุ่งแรงหลังกินนม เกิดอายุ 2–8 สัปดาห์ ไม่ถ่ายเป็นเลือด — จะถูกถ้าเป็นทารกชายลูกคนแรกอายุ 4 สัปดาห์อาเจียนพุ่งเป็นนมไม่มีสีเขียวหลังทุกมื้อ หิวตลอด คลำได้ก้อนรูปมะกอกที่ epigastrium",
+   "E": "Duodenal atresia มีอาการ<b>ตั้งแต่วันแรก</b>หลังคลอด อาเจียนน้ำดี (ส่วนใหญ่อุดใต้ ampulla) X-ray เห็น double bubble ไม่มีลมส่วนปลาย ไม่ใช่ทารกที่ปกติมา 6 วัน — จะถูกถ้าเป็นทารก Down syndrome มารดามีน้ำคร่ำมาก อาเจียนเขียวภายใน 24 ชม. แรก ท้องไม่อืด และ X-ray พบ double bubble"
   },
-  "trap": "ทารกครบกำหนดที่เคยปกติ ไม่ใช่กลุ่ม NEC · เริ่มวันที่ 7 ไม่ใช่ atresia ที่อาเจียนตั้งแต่วันแรก",
+  "trap": "ถ่ายเป็นเลือดในทารกชวนให้คิดถึง NEC หรือ intussusception · วิธีแยก: ลำดับอาการ — <b>อาเจียนน้ำดีนำ</b> ในทารกครบกำหนดที่แข็งแรง = volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ และถ่ายเป็นเลือดคือสัญญาณว่าลำไส้เริ่มตาย ต้องรีบผ่าตัด ไม่ใช่สัญญาณของโรคอื่น",
   "summary": [
-   "<b>นอกสไลด์:</b> Ladd procedure: คลายลำไส้ทวนเข็มนาฬิกา · ตัด Ladd bands · ขยายฐาน mesentery · วางลำไส้เล็กขวา ใหญ่ซ้าย · ตัดไส้ติ่ง"
+   "Malrotation พื้นฐาน: ลำไส้หมุน 270° ทวนเข็มนาฬิการอบ SMA ไม่สมบูรณ์ → DJ flexure อยู่ขวา cecum สูง Ladd's bands ฐาน mesentery แคบ",
+   "Volvulus บิดตามเข็มนาฬิกา → แก้โดยหมุนทวนเข็มนาฬิกา · ถ่ายเป็นเลือด ท้องตึง ช็อก = ลำไส้ขาดเลือดแล้ว",
+   "UGI contrast study เป็นการตรวจหลัก: DJ flexure ไม่ข้ามซ้ายของกระดูกสันหลัง หรืออยู่ต่ำกว่า pylorus · corkscrew/ beak ที่ duodenum",
+   "US: whirlpool sign และ SMV อยู่ซ้ายของ SMA ช่วยสนับสนุน แต่ไม่ใช้แทน UGI ในทารกคงที่",
+   "Ladd procedure: detorsion → ตัด Ladd's bands → ขยายฐาน mesentery → ลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย → appendectomy",
+   "ลำไส้ขาดเลือดกว้างไม่แน่ใจว่ารอด → detorsion แล้วปิดท้องทำ second-look ใน 24–48 ชม. เพื่อเก็บลำไส้ให้มากที่สุด (ป้องกัน short bowel)",
+   "Malrotation ที่ไม่มีอาการพบร่วม heterotaxy, gastroschisis, omphalocele, congenital diaphragmatic hernia"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับที่ P'Ing ตอบ · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ malrotation with volvulus · ต้นฉบับมีช้อยเพียง A–C (NEC, malrotation with volvulus, intussusception) เว็บเติม D (pyloric stenosis) และ E (duodenal atresia) ซึ่งเป็นตัวลวงเรื่องอาเจียนในทารกที่ต้องแยกจากเวลาเริ่มอาการและสีของอาเจียน",
+  "mnemonic": "<b>''เขียวก่อน แดงตาม = Volvulus ลำไส้กำลังตาย''</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Malrotation; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกนี้ท้องแข็ง ช็อก → ผ่าตัดทันที ไม่รอ UGI study (UGI ใช้เมื่อคงที่)",
-   "<b>นอกสไลด์:</b> ผ่าตัดคลายแล้วลำไส้ยังคล้ำไม่แน่ใจว่าตาย → ปิดท้องแล้ว second look ใน 24–48 ชม. ไม่ตัดลำไส้มากในครั้งแรก (กัน short bowel)"
+   "ทารก 5 วันอาเจียนเขียว ท้องแบน ไม่ช็อก → UGI contrast study ด่วน พบ DJ flexure อยู่ขวา corkscrew → Ladd procedure",
+   "ทารกอาเจียนเขียว ถ่ายเป็นเลือด ท้องตึงแดง ความดันต่ำ → resuscitate และผ่าตัดทันทีไม่ต้องรอ UGI",
+   "ผ่าตัดพบ midgut ทั้งหมดคล้ำหลังหมุนทวนเข็มคืน → ปิดท้องชั่วคราวและ second-look ใน 24–48 ชม.",
+   "ทำไมต้องตัดไส้ติ่งใน Ladd procedure → หลังผ่าตัด cecum อยู่ซ้ายของช่องท้อง ถ้าไส้ติ่งอักเสบภายหลังจะวินิจฉัยยาก"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[ped] term, otherwise healthy, DOL7, billious bloody vomitting, next day bloody stool. Diag? — A. NEC B. malrotation with volvulus C. intussusception</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 12 มีช้อย A–C · ไฟล์ S73BQ/P'Ing จดแค่ช้อย B",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_ped3"
   ]
  },
  "MDCU73|RoB|Ped 4": {
-  "interp": "ทารก 3 สัปดาห์อาเจียนไม่มีน้ำดี คลำก้อนที่ลิ้นปี่ = IHPS → ถามสิ่งที่ทำก่อนและหลังผ่าตัดให้ผลดีที่สุด",
-  "why": "P'Ing เขียน <b>Ramstedt pyloromyotomy</b><br><b>นอกสไลด์:</b> IHPS ไม่ใช่การผ่าตัดฉุกเฉิน · อาเจียนกรดทำให้ขาดน้ำและ hypochloremic hypokalemic metabolic alkalosis ต้องแก้ก่อนดมยา (เลือดด่างกดการหายใจหลังผ่าตัด) แล้วจึงผ่าตัด pyloromyotomy · หลังผ่าตัดเริ่มนมได้ภายในไม่กี่ชั่วโมง",
+  "interp": "ทารก 3 สัปดาห์<b>อาเจียนไม่มีน้ำดี</b> คลำได้<b>ก้อนที่ epigastrium</b> = <b>infantile hypertrophic pyloric stenosis (IHPS)</b> — ถามสิ่งที่ต้องทำก่อนและหลังผ่าตัดเพื่อผลลัพธ์ดีที่สุด ต้องรู้ว่า IHPS <b>ไม่ใช่การผ่าตัดฉุกเฉิน</b> ต้องแก้น้ำและเกลือแร่ก่อน แล้วจึงทำ pyloromyotomy",
+  "why": "IHPS เกิดจากกล้ามเนื้อ pylorus หนาตัวจนอุดทางออกกระเพาะ พบอายุ 2–8 สัปดาห์ (บ่อยสุด 3–6 สัปดาห์) ชายมากกว่าหญิงราว 4:1 · อาเจียนพุ่งไม่มีน้ำดีหลังกินนม หิวตลอด คลำได้ก้อนรูปมะกอก · การอาเจียนกรดในกระเพาะทำให้เกิด <b>hypochloremic, hypokalemic metabolic alkalosis</b> และระยะหลังมี <b>paradoxical aciduria</b> (ไตเก็บ Na แลก H⁺ เมื่อ K ต่ำ) · ภาวะ alkalosis ทำให้หายใจช้าชดเชย และหลังดมยาสลบเสี่ยง<b>หยุดหายใจ (postoperative apnea)</b> · จึงต้อง<b>แก้สารน้ำและเกลือแร่ก่อนผ่าตัด</b>: 0.9% (หรือ 0.45%) saline + dextrose 5–10% เติม KCl เมื่อปัสสาวะออก จนได้ <b>Cl ≥ 100 mmol/L</b>, <b>HCO₃ &lt; 28–30 mmol/L</b>, K ปกติ และปัสสาวะออกดี · แล้วทำ <b>Ramstedt pyloromyotomy</b> (เปิดหรือส่องกล้อง) ผ่ากล้ามเนื้อตามยาวจนเยื่อบุโป่งโดยไม่ทะลุ · หลังผ่าตัดให้<b>เริ่มกินนมเร็วแบบ ad libitum</b> ภายในไม่กี่ชั่วโมง (อาเจียนเล็กน้อยหลังผ่าตัดพบได้และหายเอง) · ไฟล์จดเพียง <b>\"IHPS\"</b> และคีย์ลายมือ P'Ing เขียน <b>\"Ramstedt pyloromyotomy\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผ่าตัด pyloromyotomy ก่อนแก้สารน้ำและเกลือแร่ เพราะ IHPS ไม่ทำให้ลำไส้ขาดเลือด การรอแก้ไขไม่มีอันตรายแต่การดมยาขณะ alkalosis อันตราย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่มี gastric outlet obstruction จากมะเร็งตับอ่อนที่ตัดไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่มีทางออกกระเพาะตีบจากแผล peptic ulcer เรื้อรัง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ต้องงดนม 1 สัปดาห์หลัง pyloromyotomy เพราะการผ่าตัดแยกเฉพาะกล้ามเนื้อ ไม่ได้เปิดหรือต่อลำไส้"
+   "A": "ผ่าตัดทันทีขณะยังมี alkalosis และขาดน้ำ เสี่ยงหยุดหายใจหลังดมยาสลบและหัวใจเต้นผิดจังหวะจาก K ต่ำ IHPS ไม่ใช่ภาวะที่ลำไส้ขาดเลือดจึงรอแก้เกลือแร่ได้ — จะถูกถ้าเป็นทารกที่อาเจียนเขียวและถ่ายเป็นเลือดจาก midgut volvulus ซึ่งต้องผ่าตัดทันทีพร้อมกับ resuscitate",
+   "C": "Gastrojejunostomy เป็นการทำทางเบี่ยงสำหรับ gastric outlet obstruction ในผู้ใหญ่ที่แก้ที่ตำแหน่งอุดไม่ได้ ไม่ใช่การรักษา IHPS ซึ่งผ่ากล้ามเนื้อเพียงอย่างเดียวก็หายถาวร — จะถูกถ้าเป็นชาย 70 ปีมะเร็งตับอ่อนลุกลาม duodenum อุดตันอาเจียนทุกมื้อ ผ่าตัดเอาก้อนออกไม่ได้ (หรือใส่ duodenal stent แทน)",
+   "D": "Endoscopic balloon dilatation ใช้กับ pyloric stricture ในผู้ใหญ่จากแผล peptic ulcer เรื้อรัง ไม่ได้ผลใน IHPS เพราะปัญหาคือกล้ามเนื้อหนาตัว — จะถูกถ้าเป็นชาย 50 ปีมีประวัติแผลกระเพาะเรื้อรัง อาเจียนอาหารที่กินเมื่อวาน ส่องกล้องพบ pylorus ตีบจากแผลเป็น ชิ้นเนื้อไม่พบมะเร็ง",
+   "E": "งดนม 1 สัปดาห์หลัง pyloromyotomy ไม่จำเป็นและทำให้นอนโรงพยาบาลนาน การให้นมเร็วแบบ ad libitum ปลอดภัยและจำหน่ายได้เร็วกว่า — จะถูกถ้าเป็นทารกหลังผ่าตัด NEC ที่ตัดลำไส้และทำ stoma ซึ่งงดนมราว 7–14 วันพร้อม TPN ก่อนเริ่มกินใหม่"
   },
-  "trap": "โจทย์ถามสิ่งที่ทำ 'ก่อนและหลัง' — คำตอบต้องมีทั้งแก้สารน้ำก่อนผ่าตัดและการผ่าตัด",
+  "trap": "คำว่า \"best outcome\" ชวนให้คิดว่าผ่าตัดให้เร็วที่สุดดีที่สุด · วิธีแยก: IHPS เป็น <b>medical emergency ไม่ใช่ surgical emergency</b> — แก้ alkalosis/ K ต่ำก่อน แล้วค่อยผ่า และหลังผ่าให้กินเร็ว ไม่ต้องงดนาน",
   "summary": [
-   "<b>นอกสไลด์:</b> แก้ด้วย NSS bolus แล้ว D5 ½NS + KCl (เติม K เมื่อปัสสาวะออก) จน Cl ราว ≥ 100 และ HCO3 &lt; 30 mEq/L แล้วจึงผ่าตัด"
+   "IHPS: อายุ 2–8 สัปดาห์ ชาย:หญิง ~4:1 ลูกคนแรก · ใช้ erythromycin/ azithromycin ช่วงขวบแรกเพิ่มความเสี่ยง",
+   "US วินิจฉัย: กล้ามเนื้อ pylorus หนา ≥ 3–4 mm และยาว ≥ 15–17 mm · UGI: string sign, shoulder sign",
+   "Electrolyte: hypochloremic hypokalemic metabolic alkalosis · paradoxical aciduria ระยะหลัง",
+   "เป้าก่อนผ่าตัด: Cl ≥ 100 mmol/L, HCO₃ &lt; 28–30 mmol/L, K ปกติ, ปัสสาวะ ≥ 1 mL/kg/h · ใส่ KCl เมื่อมีปัสสาวะ",
+   "Ramstedt pyloromyotomy (open/ laparoscopic): ผ่า serosa และกล้ามเนื้อตามยาวจนเยื่อบุโป่ง · ระวังทะลุที่ฝั่ง duodenum (fornix)",
+   "หลังผ่าตัด ad libitum feeding เร็วลด length of stay · อาเจียนเล็กน้อยใน 1–2 วันแรกพบบ่อย · อาเจียนต่อเนื่อง &gt; 5 วันคิดถึง incomplete pyloromyotomy",
+   "Medical alternative (atropine) ใช้ในบางประเทศเมื่อผ่าตัดไม่ได้ แต่ได้ผลช้ากว่าและไม่แน่นอน"
   ],
-  "opinion": "เห็นด้วย — ไฟล์มีแค่การวินิจฉัย IHPS และ P'Ing เขียน Ramstedt จึงแต่ง stem และช้อยให้ครอบคลุมการเตรียมก่อนผ่าตัด · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ไฟล์มีเพียงโจทย์ไม่มีช้อยและไม่มีคำตอบตรง ๆ คีย์ลายมือ P'Ing เขียนเฉพาะ Ramstedt pyloromyotomy เว็บจึงแต่งช้อยตามคำถามที่ถามเรื่อง pre/post op โดยคำตอบรวมทั้งการแก้สารน้ำเกลือแร่ก่อนและการทำ pyloromyotomy ตามคีย์",
+  "mnemonic": "<b>'IHPS 'เกลือก่อน มีดทีหลัง กินเร็ว' (Cl ≥ 100, HCO₃ &lt; 30 → Ramstedt → ad lib feed)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Pyloric Stenosis; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกได้ erythromycin ในสองสัปดาห์แรก ต่อมาอาเจียนพุ่ง → เสี่ยง IHPS มากขึ้น ส่ง US",
-   "<b>นอกสไลด์:</b> ทารก IHPS มีตัวเหลือง indirect bilirubin เล็กน้อย → พบร่วมได้จากกินได้น้อย หายหลังผ่าตัด"
+   "ทารก 5 สัปดาห์ IHPS Cl 82 HCO₃ 38 K 2.8 → resuscitate ด้วย saline + dextrose เติม KCl เมื่อปัสสาวะออก ตรวจซ้ำจนผ่านเกณฑ์ก่อนผ่าตัด",
+   "หลัง pyloromyotomy 6 ชม. ทารกอาเจียน 1 ครั้งแล้วกินต่อได้ → ให้นมต่อแบบ ad libitum ไม่ต้องงด",
+   "ทารกหลัง pyloromyotomy มีไข้ ท้องอืด ซึมในวันแรก → สงสัย mucosal perforation ที่ไม่ได้ซ่อม ต้องผ่าตัดซ้ำ",
+   "ทำไม IHPS ทำให้ alkalosis แต่ปัสสาวะเป็นกรด → ขาดน้ำและ K ต่ำ ไตเก็บ Na โดยแลกกับการขับ H⁺ (paradoxical aciduria)"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[ped] 3 week, non-billions vomitting, mass at epigastrium. What should be done pre/post op for the best outcome? — (ไม่ได้จดช้อย)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 12 มีโจทย์ (ไม่มีช้อย) · ไฟล์ไม่มีคำถาม/ช้อยครบ → Claude แต่งทั้ง stem และช้อย · ข้อคล้ายกับ 75D Ped 4",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_ped4"
   ]
  },
  "MDCU73|RoB|Ped 5": {
-  "interp": "ข้อ NOT: ทารกอายุ 3 สัปดาห์ตัวเหลือง → สาเหตุใด <b>ไม่น่า</b> เป็นในวัยนี้",
-  "why": "P'Ing ลายมือ <b>breastfeeding jaundice เกิดสัปดาห์แรก/unconjugated</b><br><b>นอกสไลด์:</b> Breast-feeding jaundice เกิดจากได้นมไม่พอในช่วงแรกที่น้ำนมยังมาน้อย (ขาดน้ำ ถ่ายน้อย bilirubin ดูดกลับมาก) จึงเกิดในสัปดาห์แรก ต่างจาก breast milk jaundice ที่เกิดจากสารในน้ำนมและเหลืองยาวหลายสัปดาห์",
+  "interp": "ทารกอายุ <b>3 สัปดาห์</b>มีตัวเหลือง — ถามสาเหตุที่<b>ไม่น่าเป็น</b>ในอายุนี้ (ข้อแบบ NOT) ต้องรู้ช่วงเวลาเกิดของ jaundice แต่ละชนิด โดยเฉพาะแยก <b>breast-feeding jaundice</b> (สัปดาห์แรก) ออกจาก <b>breast milk jaundice</b> (หลังสัปดาห์แรก นานหลายสัปดาห์)",
+  "why": "ตัวเหลืองที่อยู่เกิน <b>14 วันในทารกครบกำหนด</b> (21 วันในทารกก่อนกำหนด) เรียก <b>prolonged jaundice</b> ต้องตรวจ <b>conjugated (direct) bilirubin</b> ทุกราย · <b>breast-feeding jaundice</b> (suboptimal intake jaundice) เกิดใน<b>สัปดาห์แรก</b> (วันที่ 2–5) จากทารกได้นมไม่พอ ขาดน้ำ ถ่ายขี้เทาช้า → enterohepatic circulation ของ bilirubin เพิ่ม · รักษาด้วยเพิ่มความถี่การให้นมแม่ จึง<b>ไม่ใช่สาเหตุของตัวเหลืองที่อายุ 3 สัปดาห์</b> · <b>breast milk jaundice</b> เริ่มหลังวันที่ 5–7 สูงสุดราว 2 สัปดาห์ และอยู่ได้ถึง 2–3 เดือน (สารในนมแม่ยับยั้ง UGT1A1 และ β-glucuronidase เพิ่มการดูดกลับ) เป็น unconjugated ทารกโตดี · ภาวะอื่นที่ต้องแยกที่อายุนี้: hypothyroidism, hemolysis, infection และสำคัญที่สุดคือ <b>biliary atresia</b> (conjugated, อุจจาระซีด ปัสสาวะเข้ม) ซึ่งต้องผ่าตัด Kasai ให้เร็ว · ไฟล์คีย์ลายมือ P'Ing เขียน <b>\"breastfeeding jaundice เกิดสัปดาห์แรก/ unconjugated\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> เป็นสาเหตุที่พบบ่อยของเหลืองนานในทารกกินนมแม่ · จะถูก (ไม่น่าเป็น) ถ้าทารกอายุ 2 วัน — breast milk jaundice เริ่มหลังสัปดาห์แรก",
-   "C": "<b>นอกสไลด์:</b> จะถูก (ไม่น่าเป็น) ถ้าทารกเหลืองภายใน 24 ชม. แรกหลังคลอด — ต้องคิดถึง hemolysis",
-   "D": "<b>นอกสไลด์:</b> เหลืองที่ 3 สัปดาห์ส่วนใหญ่เป็น indirect (breast milk, hypothyroidism, hemolysis) · จะถูก (ไม่น่าเป็น) ถ้าทารกอุจจาระซีด ปัสสาวะสีเข้ม — เป็น direct (cholestasis)",
-   "E": "<b>นอกสไลด์:</b> ต้องนึกถึงเสมอเมื่อเหลืองเกิน 2 สัปดาห์ · จะถูก (ไม่น่าเป็น) ถ้าทารกอายุ 3 วัน เหลืองแบบ indirect อุจจาระสีเหลืองปกติ"
+   "A": "ข้อความถูก: breast milk jaundice เป็นสาเหตุที่พบบ่อยที่สุดของ prolonged unconjugated jaundice ในทารกกินนมแม่ที่โตดี เริ่มหลังสัปดาห์แรกและอยู่ได้ 2–3 เดือน — จะถูกถ้าต้องเลือกสาเหตุที่เป็นไปได้ในทารก 3 สัปดาห์กินนมแม่ล้วน น้ำหนักขึ้นดี อุจจาระสีเหลืองทอง direct bilirubin ปกติ",
+   "C": "ข้อความถูกบางส่วน: physiologic jaundice ในทารกครบกำหนดสูงสุดวันที่ 3–5 และหายภายในราว 2 สัปดาห์ แต่ในทารกก่อนกำหนดอยู่ได้นานถึง 3 สัปดาห์หรือมากกว่า จึงยังเป็นไปได้ในบางกลุ่ม — จะถูกถ้าต้องเลือกสาเหตุที่เป็นไปได้ในทารกคลอด 34 สัปดาห์ อายุ 3 สัปดาห์ เหลืองเล็กน้อยลดลงเรื่อย ๆ ผลเลือดเป็น unconjugated ทั้งหมด",
+   "D": "ข้อความถูก: indirect (unconjugated) hyperbilirubinemia เป็นกลุ่มสาเหตุใหญ่ของ prolonged jaundice เช่น breast milk jaundice, hypothyroidism, hemolysis (G6PD deficiency ที่พบบ่อยในไทย) และ Gilbert/ Crigler-Najjar — จะถูกถ้าต้องเลือกสาเหตุที่เป็นไปได้ในทารก 3 สัปดาห์ที่ตัวเหลือง ท้องผูก ลิ้นโต ร้องเสียงแหบ และ TSH สูง (congenital hypothyroidism)",
+   "E": "ข้อความถูก: biliary atresia เริ่มเหลืองหลังคลอดไม่กี่สัปดาห์และเป็นเหตุสำคัญที่สุดที่ต้องแยกใน prolonged jaundice เพราะผ่าตัด Kasai ได้ผลดีเมื่อทำก่อนอายุราว 60 วัน — จะถูกถ้าต้องเลือกสาเหตุที่เป็นไปได้ในทารก 3 สัปดาห์ที่อุจจาระสีซีดเหมือนดินเหนียว ปัสสาวะสีเข้ม ตับโต และ direct bilirubin สูง"
   },
-  "trap": "Breast-feeding (ได้นมน้อย สัปดาห์แรก) กับ breast milk (สารในนม เหลืองนาน) ชื่อคล้ายกัน · physiologic ในทารกครบกำหนดมักหายใน 2 สัปดาห์ จึงกำกวมเล็กน้อย แต่คีย์เลือก B",
+  "trap": "ชื่อ breast milk กับ breast-feeding jaundice คล้ายกันมากจนสลับกัน และ physiologic jaundice ก็ดูไม่น่าเป็นที่ 3 สัปดาห์ · วิธีแยก: <b>breast-feeding = Feeding ไม่พอ = สัปดาห์แรก</b> · <b>breast milk = Milk มีสาร = หลังสัปดาห์แรกนานหลายสัปดาห์</b> · physiologic ยังยืดได้ในทารกก่อนกำหนด ส่วน breast-feeding jaundice ไม่เกิดที่อายุนี้",
   "summary": [
-   "<b>นอกสไลด์:</b> ทารกเหลืองเกิน 2 สัปดาห์ → ตรวจ direct bilirubin ทุกราย (&gt; 1.0 mg/dL = ผิดปกติ ต้องหาสาเหตุ cholestasis)"
+   "Physiologic jaundice: ครบกำหนดเริ่มหลัง 24 ชม. สูงสุดวันที่ 3–5 หายใน ~2 สัปดาห์ · ก่อนกำหนดสูงสุดวันที่ 5–7 หายช้ากว่า",
+   "เหลืองภายใน 24 ชม.แรก = ผิดปกติเสมอ (hemolysis: ABO/ Rh incompatibility, G6PD deficiency, sepsis)",
+   "Breast-feeding (suboptimal intake) jaundice: สัปดาห์แรก ได้นมไม่พอ น้ำหนักลด &gt; 10% → ให้นมแม่บ่อยขึ้น 8–12 ครั้ง/วัน",
+   "Breast milk jaundice: เริ่มหลังวันที่ 5–7 สูงสุด 2 สัปดาห์ อยู่ได้ 2–3 เดือน unconjugated ทารกโตดี · ไม่ต้องหยุดนมแม่ในส่วนใหญ่",
+   "Prolonged jaundice (&gt; 14 วันครบกำหนด/ &gt; 21 วันก่อนกำหนด): ตรวจ total และ direct bilirubin, TSH, ดูสีอุจจาระ ปัสสาวะ",
+   "Conjugated hyperbilirubinemia (direct &gt; 1.0 mg/dL) ผิดปกติเสมอ → US (triangular cord, ไม่มีถุงน้ำดี), HIDA, ยืนยันด้วย intraoperative cholangiography",
+   "Biliary atresia: Kasai portoenterostomy ก่อนอายุ ~60 วันให้ผลดีที่สุด · ล้มเหลว → ปลูกถ่ายตับ (สาเหตุอันดับหนึ่งของการปลูกถ่ายตับในเด็ก) · ใช้ stool color card คัดกรอง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing · ช้อย C กำกวมเล็กน้อย · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือ P'Ing ที่เลือก breast-feeding jaundice เพราะเกิดในสัปดาห์แรก · ข้อสังเกต: physiologic jaundice (ช้อย C) ในทารกครบกำหนดก็ควรหายก่อน 3 สัปดาห์ ข้อนี้จึงกำกวมเล็กน้อย แต่ physiologic jaundice ยังยืดได้ในทารกก่อนกำหนด ขณะที่ breast-feeding jaundice ไม่ใช่สาเหตุของตัวเหลืองที่อายุนี้ในทุกกรณี",
+  "mnemonic": "<b>''Breast-Feeding = First week (Feed ไม่พอ)' · 'Breast Milk = Many weeks (นมมีสาร)''</b>",
+  "guide": "AAP Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation (Kemper et al., Pediatrics 2022); NASPGHAN Guideline for the Evaluation of Cholestatic Jaundice in Infants (Fawaz et al., J Pediatr Gastroenterol Nutr 2017)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 3 สัปดาห์กินนมแม่ เหลือง indirect อุจจาระปกติ น้ำหนักขึ้นดี → breast milk jaundice ให้นมแม่ต่อ",
-   "<b>นอกสไลด์:</b> ทารก 4 สัปดาห์เหลืองนาน ท้องผูก ลิ้นโต สะดือจุ่น → congenital hypothyroidism"
+   "ทารก 3 วันกินนมแม่ น้ำหนักลด 12% ปัสสาวะน้อย bilirubin สูง → breast-feeding jaundice เพิ่มความถี่ให้นมและประเมินการดูดนม",
+   "ทารก 5 สัปดาห์ เหลือง อุจจาระสีซีด direct bilirubin 4 mg/dL US ไม่เห็นถุงน้ำดี → สงสัย biliary atresia ส่ง intraoperative cholangiogram และ Kasai",
+   "ทารกเหลืองตั้งแต่ 18 ชม.หลังคลอด แม่เลือด O ลูกเลือด A DAT บวก → ABO hemolytic disease ส่องไฟและติดตาม",
+   "ทารกเพศชาย 4 วันเหลืองมาก ซีด bilirubin สูงเร็ว G6PD ต่ำ → ส่องไฟเข้มข้น พิจารณาเปลี่ยนถ่ายเลือดตามเกณฑ์"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[ped] 3 week old infant with jaundice. What is not the cause? — A. breast milk jaundice B. breast feeding jaundice C. physiologic jaundice D. indirect hyperbilirubinemia E. biliary atresia</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 12 มีช้อยครบ 5 ข้อ → ใช้ตามไฟล์นั้น · ⚠ physiologic jaundice ในทารกครบกำหนดก็หายก่อน 3 สัปดาห์ จึงอาจกำกวม — คีย์ P'Ing เลือก breast-feeding jaundice",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_ped5a",
+   "kp73b_ped5b"
   ]
  },
  "MDCU73|RoB|Plastic 1": {
-  "interp": "สงสัยกระดูก mandibular condyle หัก → ถาม plain film ท่าที่ควรส่ง",
-  "why": "P'Ing ตอบ <b>Towne</b><br><b>นอกสไลด์:</b> Towne (หรือ reverse Towne) ถ่ายแนวหน้า–หลังเอียงมุม ทำให้เห็นคอ condyle ทั้งสองข้างโดยไม่ถูกกระดูก mastoid และฐานกะโหลกบัง · ปัจจุบันถ้ามี CT ใช้ CT เป็นหลัก",
+  "interp": "สงสัย<b>กระดูก mandibular condyle หัก</b> — ถามภาพถ่ายรังสีธรรมดา (plain film) ที่ควรส่ง ต้องรู้ว่าแต่ละ view ของใบหน้าเห็นส่วนใด และ view ใดแสดง condyle ได้โดยไม่ถูกกระดูกฐานกะโหลกบัง",
+  "why": "Condyle เป็นตำแหน่งหักที่พบบ่อยของขากรรไกรล่าง (มักหักจากแรงกระแทกที่คางส่งผ่านขึ้นไป) อาการ: ปวดหน้าหู อ้าปากลำบาก สบฟันผิด <b>คางเบี้ยวไปทางข้างที่หักเมื่ออ้าปาก</b> และ<b>หักสองข้างทำให้ฟันหน้าสบไม่ได้ (anterior open bite)</b> · plain film: <b>Towne view (AP/ reverse Towne)</b> ถ่ายเอียงทำให้ condyle และ condylar neck สองข้างไม่ซ้อนกับ petrous bone เห็นการเคลื่อนไปด้านในหรือนอกได้ดี · <b>panoramic (OPG)</b> เห็นขากรรไกรล่างทั้งชิ้นรวมถึง condyle และฟัน เป็น screening ที่ดีของ mandible fracture แต่ต้องให้ผู้ป่วยนั่งตรงและอาจเห็น condyle ไม่ชัดหรือบิดเบี้ยว · ปัจจุบัน <b>CT</b> เป็นมาตรฐานสำหรับ condyle เพราะเห็น intracapsular fracture และทิศทางการเคลื่อน · ส่วนใหญ่รักษาแบบปิดด้วย MMF ระยะสั้นแล้วบริหารขากรรไกร · ไฟล์คีย์ลายมือ P'Ing ตอบ <b>\"Towne\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Lateral ทำให้ mandible สองข้างซ้อนกัน · จะถูกถ้าสงสัยกระดูกจมูกหัก (lateral nasal view)",
-   "B": "<b>นอกสไลด์:</b> AP/PA ทำให้ condyle ถูกฐานกะโหลกบัง · จะถูกถ้าสงสัย ramus หรือ angle ของ mandible หัก (PA mandible)",
-   "D": "<b>นอกสไลด์:</b> Panoramic เห็น condyle ได้ด้วยแต่ไม่ใช่ท่าเฉพาะตามคีย์ · จะถูกถ้าสงสัย mandible body หักร่วมฟันโยก ต้องเห็นทั้งชิ้นและรากฟัน",
-   "E": "<b>นอกสไลด์:</b> Waters ดู midface · จะถูกถ้าสงสัย orbital floor หัก (blowout) หลังถูกต่อยตา"
+   "A": "Lateral view ของกะโหลกหรือ lateral oblique mandible เห็น body และ ramus ได้บางส่วน แต่ condyle สองข้างซ้อนกันและซ้อนกับฐานกะโหลก ประเมินไม่ได้ — จะถูกถ้าเป็นชายถูกต่อยที่แก้มกดเจ็บที่ body ของขากรรไกรล่างด้านซ้ายในสถานที่ที่ไม่มีเครื่อง panoramic หรือ CT ต้องการดูเฉพาะ body/ angle ข้างนั้น",
+   "B": "AP/ PA view ของ mandible เห็น body, angle, ramus และ symphysis ในแนวหน้าหลัง แต่ condyle ซ้อนกับ mastoid และฐานกะโหลกจึงเห็นไม่ชัด — จะถูกถ้าเป็นชายถูกเตะที่มุมขากรรไกรขวา ฟันสบผิด กดเจ็บที่ angle ต้องการดูการเคลื่อนของ angle fracture ด้านข้าง",
+   "D": "Panoramic เห็นขากรรไกรล่างทั้งชิ้นรวม condyle เป็นภาพคัดกรองที่ดีที่สุดของ mandible fracture แต่ตามคีย์ condyle ใช้ Towne ที่ไม่ซ้อนทับกับฐานกะโหลก และ panoramic ทำไม่ได้ในผู้ป่วยที่นั่งไม่ได้ — จะถูกถ้าเป็นชายหลังอุบัติเหตุจักรยานยนต์ที่นั่งได้ ฟันสบผิดและกดเจ็บหลายตำแหน่งที่ขากรรไกรล่าง ต้องการดูภาพรวมทั้งชิ้นและรากฟัน",
+   "E": "Waters view (occipitomental) ใช้ดู<b>กลางใบหน้า</b>: maxillary sinus, zygoma, orbital floor และ Le Fort fracture ไม่เห็น condyle ของขากรรไกรล่าง — จะถูกถ้าเป็นชายถูกต่อยที่โหนกแก้ม แก้มยุบ ชาที่แก้มและริมฝีปากบน (infraorbital nerve) สงสัย zygomaticomaxillary complex fracture"
   },
-  "trap": "Panoramic ก็ดู condyle ได้ — ข้อนี้ถามท่าที่เจาะจง condyle ตามคีย์ คือ Towne",
+  "trap": "Panoramic ก็เห็น condyle และเป็นภาพที่ใช้บ่อยที่สุดของขากรรไกรล่าง จึงเป็นตัวลวงสำคัญ · วิธีแยก: คำถามถาม<b>เฉพาะ condyle</b> → Towne view ที่ออกแบบให้ condyle สองข้างพ้นฐานกะโหลก · ถ้าถาม<b>ภาพรวมของ mandible</b> → panoramic · และในเวชปฏิบัติจริง CT ดีที่สุด",
   "summary": [
-   "<b>นอกสไลด์:</b> Plain film ของ mandible: panoramic เห็นทั้งชิ้น + Towne เห็น condyle · ปัจจุบัน CT เป็นมาตรฐาน"
+   "ตำแหน่ง mandible fracture ที่พบบ่อย: condyle, angle, body, symphysis/ parasymphysis · มักหักสองตำแหน่งเพราะเป็นวงแหวน (เช่น parasymphysis ร่วม condyle ด้านตรงข้าม)",
+   "Condyle fracture: ปวดหน้าหู คางเบี้ยวไปข้างที่หักเมื่ออ้าปาก · สองข้าง → anterior open bite · เลือดออกในรูหู (ผนัง external auditory canal ฉีก)",
+   "Plain film ใบหน้า: Towne = condyle · Panoramic = mandible ทั้งชิ้น · Waters = midface/ maxillary sinus/ orbital floor · Caldwell = frontal sinus/ orbital rim · Submentovertex = zygomatic arch",
+   "CT maxillofacial เป็นมาตรฐานปัจจุบันของ facial fracture ทุกชนิด และจำเป็นใน condyle fracture ที่วางแผนผ่าตัด",
+   "Condyle fracture ส่วนใหญ่: closed treatment (MMF/ elastic guidance 1–2 สัปดาห์) แล้วบริหารเปิดปากเพื่อกัน ankylosis โดยเฉพาะในเด็ก",
+   "ORIF ของ condyle เมื่อ: condyle เคลื่อนเข้า middle cranial fossa, จัดฟันสบไม่ได้, เคลื่อนออกด้านนอกมาก, มีสิ่งแปลกปลอมในข้อ หรือหักสองข้างร่วม midface fracture",
+   "Mandible fracture ที่ผ่านฟัน = open fracture → ให้ยาปฏิชีวนะ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — panoramic ก็ใช้ได้ แต่ Towne เป็นท่าเฉพาะ condyle · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ Towne · panoramic (ช้อย D) ก็ใช้ดู condyle ได้และหลายตำราใช้เป็นภาพแรกของ mandible จึงอาจกำกวม แต่เมื่อคำถามระบุ condyle โดยเฉพาะ Towne view เป็นคำตอบคลาสสิก · ในเวชปฏิบัติปัจจุบัน CT เป็นการตรวจที่เหมาะที่สุด",
+  "mnemonic": "<b>''Towne = Top of mandible (condyle)' · 'Waters = Watery sinus (midface)' · 'Pano = Panorama ทั้งขากรรไกร''</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Mandible Fractures; Neligan's Plastic Surgery 5th ed. (2023) Vol.3 — Facial Fractures",
   "variants": [
-   "<b>นอกสไลด์:</b> ล้มคางกระแทกพื้น เจ็บหน้าหูทั้งสองข้าง → condyle หักสองข้างจากแรงส่งผ่าน (ตรวจรอยแผลที่คางเป็นเบาะแส)",
-   "<b>นอกสไลด์:</b> หลังคางกระแทก อ้าปากแล้วขากรรไกรเบี้ยวไปทางขวา → condyle ขวาหัก (ขากรรไกรเบี้ยวไปข้างที่หัก)"
+   "ชายถูกชกคาง อ้าปากแล้วคางเบี้ยวไปทางซ้าย ปวดหน้าหูซ้าย → สงสัย left condylar fracture ส่ง Towne/ CT",
+   "ชายตกจากที่สูงคางกระแทกพื้น ฟันหน้าสบไม่ได้ maxilla มั่นคง → bilateral condylar fracture",
+   "เด็ก 6 ปี intracapsular condylar fracture → closed treatment และบริหารอ้าปากเร็วเพื่อกัน TMJ ankylosis และความผิดปกติการเจริญของขากรรไกร",
+   "ทำไม plain AP view เห็น condyle ไม่ชัด → condyle ซ้อนทับกับ mastoid และ petrous ridge ของฐานกะโหลก"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[plastic] สงสัย fractured mandibular condyle ส่ง film อะไร — A. lateral B. ap C. towne D. panoramic E. water</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 12 มีช้อยครบ 5 ข้อ → ใช้ตามไฟล์นั้น · ⚠ panoramic ก็ใช้ดู condyle ได้ — ตอบตามคีย์ Towne",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_plastic1"
   ]
  },
  "MDCU73|RoB|Plastic 2": {
-  "interp": "หลังบาดเจ็บใบหน้า มี <b>anterior open bite</b> แต่ <b>maxilla ไม่โยก</b> → condyle หักสองข้าง · ถามภาพรังสีแรก",
-  "why": "P'Ing ลายมือ <b>open bite = bilateral condyle fx</b><br><b>นอกสไลด์:</b> Condyle หักสองข้างทำให้ ramus สั้นลง ฟันกรามชนกันก่อน ฟันหน้าจึงสบไม่ถึง · panoramic เห็น mandible ทั้งชิ้นรวม condyle ทั้งสองข้างในภาพเดียว",
+  "interp": "หลังบาดเจ็บที่ใบหน้า ผู้ป่วยมี<b>ฟันหน้าสบไม่ได้ (anterior open bite)</b> แต่ <b>maxilla มั่นคง</b> (ไม่ใช่ Le Fort) — ถามภาพถ่ายรังสีแรกที่เหมาะที่สุด ต้องแปลว่า open bite ที่ maxilla ปกติบ่ง<b>กระดูกขากรรไกรล่างหักสองข้างด้านหลัง</b> (bilateral condyle/ angle) จึงต้องดู mandible ทั้งชิ้น",
+  "why": "ฟันหน้าสบไม่ได้ (anterior open bite) เกิดเมื่อ<b>ส่วนหลังของการสบฟันชนกันก่อน</b>: ① <b>bilateral condylar (หรือ angle) fracture</b> — ramus สั้นลงและกล้ามเนื้อ masseter/ medial pterygoid ดึง ramus ขึ้น ฟันกรามชนกันก่อน ฟันหน้าจึงอ้า ② <b>Le Fort fracture</b> — maxilla ทั้งชิ้นหลุดเลื่อนลงและไปด้านหลัง ฟันกรามบนชนก่อน · การตรวจว่า <b>maxilla มั่นคง</b> (จับฟันหน้าบนโยกแล้วไม่ขยับ) ตัด Le Fort ออก ปัญหาจึงอยู่ที่ <b>mandible</b> · ภาพแรกที่เหมาะคือ <b>panoramic radiograph</b> ซึ่งเห็นขากรรไกรล่างทั้งชิ้นตั้งแต่ condyle สองข้าง ramus angle body จนถึง symphysis ในภาพเดียว จับรอยหักหลายตำแหน่งที่มักเกิดคู่กัน (เช่น symphysis ร่วม bilateral condyle) และเห็นฟันในแนวรอยหัก · CT maxillofacial ให้รายละเอียดมากกว่าและใช้วางแผนผ่าตัด · ไฟล์คีย์ลายมือ P'Ing ตอบ <b>\"panoramic\"</b> พร้อมเขียน <b>\"open bite = bilateral condyle fx\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าจับฟันหน้าโยกแล้วขากรรไกรบนขยับได้ (Le Fort) — Waters view (ปัจจุบันใช้ CT)",
-   "C": "<b>นอกสไลด์:</b> Towne เห็นเฉพาะ condyle · จะถูกถ้าผู้ป่วยบาดเจ็บหลายระบบนั่งไม่ได้ (panoramic ต้องนั่งหรือยืน) — ใช้ Towne ร่วม PA mandible แทน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าหน้าผากยุบหลังกระแทก สงสัย frontal sinus หัก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าโหนกแก้มด้านข้างยุบ อ้าปากติด สงสัย zygomatic arch หัก"
+   "A": "Waters view ดู<b>กลางใบหน้า</b> (maxillary sinus, orbital floor, zygoma) เหมาะเมื่อสงสัย Le Fort หรือ ZMC fracture แต่ maxilla มั่นคงจึงไม่ใช่ปัญหาของข้อนี้ — จะถูกถ้าเป็นชายหลังอุบัติเหตุรถที่มี anterior open bite และจับฟันหน้าบนโยกได้ทั้งแผงพร้อมเพดานปาก หน้ายาวแบน (Le Fort I–II)",
+   "C": "Towne view เห็นเฉพาะ condyle และ condylar neck ใช้ได้เมื่อสงสัย condyle เดี่ยว ๆ แต่ไม่เห็น body และ symphysis ที่มักหักร่วม จึงไม่ใช่ภาพแรกที่ครอบคลุมพอ — จะถูกถ้าเป็นชายที่ panoramic เห็น condylar neck ไม่ชัดเพราะซ้อนทับ และไม่มีเครื่อง CT ต้องการดูการเคลื่อนของ condyle ด้านในด้านนอกเพิ่มเติม",
+   "D": "Caldwell view (PA เอียง 15°) ใช้ดู frontal sinus, ethmoid และขอบ orbit ด้านข้าง ไม่เห็นขากรรไกรล่างส่วนหลัง — จะถูกถ้าเป็นชายถูกกระแทกที่หน้าผากมีรอยบุบ สงสัย frontal sinus anterior table fracture ในสถานที่ที่ไม่มี CT",
+   "E": "Submentovertex (jug-handle) view ใช้ดู <b>zygomatic arch</b> ที่หักยุบ ไม่ได้ประเมิน mandible — จะถูกถ้าเป็นชายถูกต่อยด้านข้างใบหน้าเหนือโหนกแก้ม มีรอยบุ๋มหน้าหู และอ้าปากได้น้อยเพราะ arch ที่ยุบไปกด coronoid process"
   },
-  "trap": "Open bite ทำให้นึกถึง Le Fort — แต่โจทย์บอก maxilla มั่นคง จึงเป็น condyle สองข้าง",
+  "trap": "Anterior open bite เป็นอาการคลาสสิกของ Le Fort จึงเลือก Waters view · วิธีแยก: <b>maxilla มั่นคง = ไม่ใช่ Le Fort</b> → ปัญหาอยู่ที่ mandible ส่วนหลังสองข้าง → panoramic ซึ่งเห็นทั้งชิ้น · Towne เห็นแค่ condyle จึงพลาดรอยหักร่วมที่ symphysis/ body",
   "summary": [
-   "<b>นอกสไลด์:</b> Anterior open bite มีสองสาเหตุหลัก: condyle หักสองข้าง หรือ Le Fort (ขากรรไกรบนเลื่อนลงไปด้านหลัง) · แยกด้วยการจับโยก maxilla"
+   "Anterior open bite หลังบาดเจ็บ: bilateral condylar/ angle fracture (maxilla มั่นคง) หรือ Le Fort fracture (maxilla โยก)",
+   "Unilateral condylar fracture: ฟันกรามข้างที่หักชนก่อน (premature contact) ข้างตรงข้ามเปิด · คางเบี้ยวไปข้างที่หัก",
+   "Le Fort I: แนวหักเหนือฟันบน (palate โยก) · II: pyramidal ผ่าน nasal bridge (จมูกและ palate โยก) · III: craniofacial disjunction (ทั้งใบหน้าโยก)",
+   "Panoramic: ภาพแรกของ mandible fracture ครอบคลุมทั้งชิ้นและฟัน · ต้องนั่งตรงได้ · CT ใช้เมื่อบาดเจ็บหลายระบบ นั่งไม่ได้ หรือวางแผนผ่าตัด",
+   "Mandible เป็นวงแหวน มักหัก ≥ 2 ตำแหน่ง: symphysis/ parasymphysis มักคู่กับ condyle หรือ angle ด้านตรงข้าม",
+   "รักษา: ฟื้นการสบฟัน (occlusion) เป็นเป้าหลัก · MMF หรือ ORIF ด้วย plate · ฟันในแนวรอยหักที่โยกหรือติดเชื้อให้ถอน",
+   "Bilateral condylar fracture ร่วม midface fracture (panfacial) มักต้อง ORIF condyle อย่างน้อยหนึ่งข้างเพื่อคืนความสูงของ ramus"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ panoramic และแปลว่า open bite = bilateral condyle fracture · Towne (ช้อย C) ก็เห็น condyle สองข้างได้ แต่ panoramic ครอบคลุม mandible ทั้งชิ้นจึงเหมาะเป็นภาพแรกมากกว่า · ต้นฉบับมีช้อย A–C เว็บเติม D (Caldwell) และ E (submentovertex)",
+  "mnemonic": "<b>'Open bite: 'บนนิ่ง → ล่างหักหลังสองข้าง → Pano' · 'บนโยก → Le Fort → Waters/ CT''</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Mandible Fractures and Le Fort Fractures; Neligan's Plastic Surgery 5th ed. (2023) Vol.3 — Facial Fractures",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 6 ปี condyle หักโดยฟันยังสบได้ → รักษาแบบไม่ผ่าตัดและขยับขากรรไกรเร็ว (กันข้อยึด) กระดูกเด็ก remodel ได้ดี",
-   "<b>นอกสไลด์:</b> ผู้ป่วยมัดฟันด้วยลวด (MMF) หลังผ่าตัด → ต้องมีคีมตัดลวดข้างเตียงเผื่ออาเจียนหรือทางเดินหายใจอุดกั้น"
+   "หลังอุบัติเหตุมี anterior open bite จับฟันบนโยกได้ทั้งแผงพร้อมจมูก → Le Fort II ส่ง CT maxillofacial",
+   "Panoramic พบ left parasymphysis fracture → ตรวจหารอยหักที่ right condyle หรือ angle ร่วมเสมอ",
+   "ผู้ป่วยบาดเจ็บหลายระบบนอนบนเตียงสงสัย mandible fracture → CT maxillofacial แทน panoramic",
+   "ทำไม bilateral condylar fracture ทำให้ฟันหน้าอ้า → ramus สั้นลงสองข้าง กล้ามเนื้อเคี้ยวดึงส่วนหลังขึ้น ฟันกรามชนก่อน ฟันหน้าจึงสบไม่ถึง"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[plastic] Face injury. Anterior open bite and stable maxilla. ส่ง film อะไร — A. Water B. Panoramic C. Town</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 12 มีช้อย A–C · ไฟล์ S73BQ/P'Ing จดแค่ช้อย B",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_plastic2"
   ]
  },
  "MDCU73|RoB|Plastic 3": {
-  "interp": "แผลไหม้ 50% TBSA ให้สารน้ำตาม Parkland ความดันคงที่แต่ชีพจร 130 → ถามตัวชี้วัดที่ดีที่สุดว่าให้สารน้ำพอ",
-  "why": "P'Ing ตอบ <b>urine output 0.5 mL/kg/h</b><br><b>นอกสไลด์:</b> ปัสสาวะต่อชั่วโมงสะท้อนการไหลเวียนไปไตได้ดีที่สุดและติดตามได้ง่าย จึงใช้ปรับอัตราสารน้ำทุกชั่วโมง · ชีพจรเร็วในแผลไหม้มาจากความปวด catecholamine และ hypermetabolism แม้สารน้ำพอแล้ว",
+  "interp": "ผู้ป่วยแผลไหม้ <b>50% TBSA</b> ได้สารน้ำตาม Parkland formula ความดันคงที่แต่<b>ชีพจร 130</b> — ถามตัวชี้วัดที่ดีที่สุดว่าให้สารน้ำเพียงพอ ต้องรู้ว่าสูตรเป็นเพียงจุดเริ่ม และต้อง<b>ปรับตาม urine output</b> ทุกชั่วโมง",
+  "why": "สูตรคำนวณสารน้ำ (Parkland 4 mL/kg/%TBSA หรือ ATLS 10th: <b>2 mL/kg/%TBSA</b> ของ Ringer lactate ในผู้ใหญ่ 3 mL ในเด็ก 4 mL ใน electrical injury; ให้ครึ่งแรกใน 8 ชม.นับจาก<b>เวลาที่ไหม้</b> อีกครึ่งใน 16 ชม.) เป็นเพียง<b>ค่าเริ่มต้น</b> ผู้ป่วยแต่ละรายต้องการไม่เท่ากัน · ตัวชี้วัดที่ใช้ปรับคือ <b>urine output</b>: ผู้ใหญ่ <b>0.5 mL/kg/h (ราว 30–50 mL/h)</b> · เด็ก &lt; 30 kg <b>1 mL/kg/h</b> · high-voltage electrical injury ที่มีปัสสาวะสีเข้ม (myoglobin) 1–1.5 mL/kg/h จนใส · ถ้าปัสสาวะต่ำหรือสูงเกินให้เพิ่ม/ ลดอัตราราว 1/3 ต่อชั่วโมง · <b>ชีพจรเร็วไม่ใช่ตัวชี้วัดที่ดี</b> เพราะผู้ป่วยแผลไหม้มี catecholamine สูง ปวด กังวล และ hypermetabolism จึงเร็วแม้ได้สารน้ำพอ การไล่ให้ชีพจรปกติทำให้ได้สารน้ำเกิน (<b>fluid creep</b>) → abdominal compartment syndrome ปอดบวมน้ำ แขนขาบวมกดหลอดเลือด · ไฟล์จดคำตอบ <b>\"urine output 0.5 mL/kg/h\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ชีพจรกลับปกติเป็นตัวชี้วัดหลักของการให้สารน้ำในแผลไหม้ เพราะชีพจรเร็วจากความปวดและ catecholamine ต่อเนื่องหลายวันแม้สารน้ำพอ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การยึดสูตรเคร่งครัดเหมาะ เพราะสูตรเป็นแค่อัตราเริ่มต้น ต้องปรับตามปัสสาวะทุกชั่วโมงเสมอ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ CVP 15 cmH2O เป็นเป้าการให้สารน้ำแผลไหม้ เพราะ CVP สัมพันธ์กับปริมาณน้ำในหลอดเลือดไม่ดี การไล่ค่าสูงทำให้ให้น้ำเกิน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Hct &gt; 50% แปลว่าให้สารน้ำพอ เพราะ Hct สูงบ่งเลือดข้นจากพลาสมารั่ว = ยังขาดสารน้ำ"
+   "A": "ชีพจรเร็วในแผลไหม้มาจากปวด ความเครียด catecholamine และ hypermetabolism ไม่ได้บ่งว่าขาดสารน้ำเสมอ การให้สารน้ำจนชีพจรปกติทำให้ fluid overload และ compartment syndrome — จะถูกถ้าเป็นชาย 30 ปีเสียเลือดจากบาดแผลถูกแทงที่ต้นขา ไม่มีแผลไหม้ ชีพจร 130 ซึ่งชีพจรที่ลดลงหลังให้เลือดใช้ติดตามการตอบสนองได้",
+   "C": "ยึดสูตร Parkland ตายตัวโดยไม่ปรับตามปัสสาวะทำให้ได้สารน้ำน้อยหรือมากเกินในแต่ละราย เพราะความต้องการขึ้นกับความลึกของแผล inhalation injury และความล่าช้าในการเริ่มให้ — จะถูกถ้าเป็นการคำนวณ<b>อัตราเริ่มต้น</b>ในชั่วโมงแรกของผู้ป่วยไหม้ 40% TBSA ที่เพิ่งมาถึงห้องฉุกเฉินและยังไม่มีข้อมูลปัสสาวะ",
+   "D": "CVP สะท้อน preload ได้ไม่แม่นในผู้ป่วยแผลไหม้ที่มี capillary leak และค่า 15 cmH₂O ค่อนข้างสูง การไล่ตามค่านี้นำไปสู่สารน้ำเกิน ไม่ใช่เป้ามาตรฐาน — จะถูกถ้าเป็นผู้ป่วยแผลไหม้กว้างที่มีโรคหัวใจล้มเหลวเดิมและปัสสาวะไม่ตอบสนองต่อสารน้ำ ที่ต้องใช้ hemodynamic monitoring ขั้นสูงร่วมประเมินใน ICU",
+   "E": "Hematocrit &gt; 50% บ่งเลือดข้น (hemoconcentration) จาก plasma รั่วออก เป็นสัญญาณว่าสารน้ำ<b>ไม่พอ</b> ไม่ใช่เป้าหมาย · เป้าคือให้ปัสสาวะพอ ไม่ใช่ทำให้เลือดข้น — จะถูกถ้าเป็นผู้ป่วยแผลไหม้ 60% TBSA ที่มาช้า 6 ชม.หลังไหม้ ยังไม่ได้สารน้ำ Hct 58% ปัสสาวะน้อย ซึ่งบ่งว่าต้องเร่งให้สารน้ำ"
   },
-  "trap": "ชีพจรยังเร็วไม่ได้แปลว่าต้องให้น้ำเพิ่ม — ดูปัสสาวะ",
+  "trap": "ชีพจร 130 ทำให้รู้สึกว่ายังขาดสารน้ำ และคนจำว่าต้อง \"ทำตามสูตร\" · วิธีแยก: ใน burn resuscitation <b>ปัสสาวะคือเข็มทิศ</b> (ผู้ใหญ่ 0.5 mL/kg/h, เด็ก 1 mL/kg/h) สูตรเป็นแค่จุดตั้งต้น และชีพจรเร็วเป็นลักษณะปกติของแผลไหม้ ไม่ใช่เป้าที่ต้องไล่ให้ปกติ",
   "summary": [
-   "<b>นอกสไลด์:</b> เป้าปัสสาวะ: ผู้ใหญ่ 0.5 mL/kg/h (ราว 30–50 mL/h) · เด็ก &lt; 30 kg 1 mL/kg/h · ไฟฟ้าแรงสูงหรือปัสสาวะสีเข้มจาก myoglobin ราว 1–1.5 mL/kg/h จนปัสสาวะใส"
+   "Burn resuscitation (ATLS 10th): ผู้ใหญ่ 2 mL × kg × %TBSA (Ringer lactate) · เด็ก 3 mL · electrical 4 mL · ครึ่งแรกใน 8 ชม.นับจากเวลาไหม้",
+   "นับ %TBSA เฉพาะ partial และ full thickness (ไม่นับ superficial/ first-degree) · ผู้ใหญ่ใช้ rule of nines · ฝ่ามือรวมนิ้วผู้ป่วย ≈ 1%",
+   "เป้า urine output: ผู้ใหญ่ 0.5 mL/kg/h (30–50 mL/h) · เด็ก &lt; 30 kg 1 mL/kg/h · electrical injury มี myoglobinuria 1–1.5 mL/kg/h",
+   "ปรับอัตราทีละราว 1/3 ตามปัสสาวะทุกชั่วโมง · ใส่ Foley ทุกรายที่ไหม้กว้าง",
+   "Fluid creep: ได้สารน้ำเกินสูตรมาก → abdominal compartment syndrome (วัด bladder pressure), ปอดบวมน้ำ, extremity/ orbital compartment syndrome",
+   "เด็กเล็กเติมสารน้ำมี dextrose เป็น maintenance เพราะ glycogen สำรองน้อย เสี่ยงน้ำตาลต่ำ",
+   "ทำให้ต้องการสารน้ำมากกว่าสูตร: inhalation injury, electrical injury, เริ่มให้ช้า, แผลลึกกว้าง, ใช้แอลกอฮอล์/ สารเสพติด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับที่ P'Ing ตอบ · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ตอบ urine output 0.5 mL/kg/h และตรงกับ ATLS ว่า urine output เป็นตัวชี้วัดหลักของ burn resuscitation · ต้นฉบับมีช้อย A–C เว็บเติม D (CVP) และ E (hematocrit) ซึ่งเป็นตัวลวงเรื่อง monitoring",
+  "mnemonic": "<b>'Burn: 'สูตรพาเริ่ม ฉี่พาไป' — 0.5 ผู้ใหญ่ · 1 เด็ก · 1–1.5 ไฟฟ้า'</b>",
+  "guide": "ATLS 10th ed. (2018) — Thermal Injuries; ISBI Practice Guidelines for Burn Care (Burns 2016)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชั่วโมงที่ 4 ปัสสาวะ 0.2 mL/kg/h → เพิ่มอัตราสารน้ำราวหนึ่งในสี่ถึงหนึ่งในสามแล้วประเมินซ้ำทุกชั่วโมง ไม่ให้ยาขับปัสสาวะ",
-   "<b>นอกสไลด์:</b> ผู้ใหญ่ปัสสาวะ 2 mL/kg/h ต่อเนื่อง → ลดอัตราสารน้ำลง (กันให้เกินจนเกิด abdominal compartment syndrome)"
+   "ชาย 70 kg ไหม้ 40% TBSA ตามสูตร ATLS ได้ RL รวม 5,600 mL ใน 24 ชม. ครึ่งแรก 2,800 mL ใน 8 ชม.แรก → ปัสสาวะได้ 15 mL/h เพิ่มอัตราราว 1/3",
+   "เด็ก 20 kg ไหม้ 30% TBSA → RL 3 mL/kg/%TBSA และเป้าปัสสาวะ 1 mL/kg/h (20 mL/h) ร่วมกับ maintenance ที่มี dextrose",
+   "ช่างไฟฟ้าถูกไฟฟ้าแรงสูง ปัสสาวะสีน้ำโค้ก → myoglobinuria ให้สารน้ำจนปัสสาวะ 1–1.5 mL/kg/h จนใส",
+   "ผู้ป่วยไหม้ 60% ได้สารน้ำเกินมาก ท้องตึง ventilate ยาก ปัสสาวะลด bladder pressure 28 mmHg → abdominal compartment syndrome ทำ decompression"
+  ],
+  "notes": "ไฟล์ S73BQ หน้า 3 — ตัวพิมพ์: <b>[plastic] Burn patient BSA 50% resusitated by Parkland formula. Right now stable BP but HR 130. What is the best indicator for adequete resusitation? — A. Keep HR down to normal B. Keep urine output 0.5 ml/kg/hr C. Adhering strictly to Parkland formula is enough</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ S73BMO หน้า 12 มีโจทย์และช้อย A–C · ไฟล์ S73BQ/P'Ing จดแค่ช้อย B",
+  "src": "S73BQ · หน้า 3",
+  "kimg": [
+   "kp73b_plastic3"
   ]
  }
 }

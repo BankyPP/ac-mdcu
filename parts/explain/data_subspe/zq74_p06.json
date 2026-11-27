@@ -1,238 +1,410 @@
 {
  "MDCU74|RoC|28": {
-  "interp": "Melanoma ที่แก้ม Breslow 0.3 mm (บาง) หลังตัดชิ้นเนื้อแล้ว → ถามระยะขอบ wide local excision",
-  "why": "P'Ing วง <b>1 cm</b> + แปะตาราง <b>Surgical margins for primary lesion</b><br><b>นอกสไลด์:</b> ขอบตัดกำหนดตามความหนา Breslow ไม่ใช่ขนาดก้อน · ความหนาไม่เกิน 1 mm ใช้ขอบ 1 cm · บนใบหน้าอาจต้องปรับใกล้โครงสร้างสำคัญ แต่ยังยึดหลักขอบเป็นลบ",
+  "interp": "หญิง 55 ปี มีรอยโรคสีดำที่แก้ม ตัดชิ้นเนื้อแบบ excisional พบ <b>malignant melanoma Breslow 0.3 mm</b> — ถามขอบการผ่าตัด (wide local excision margin) ที่แนะนำ ต้องรู้ตารางขอบผ่าตัดตามความหนา Breslow",
+  "why": "หลังวินิจฉัย melanoma จาก excisional biopsy (ขอบ 1–3 mm) ต้องทำ <b>wide local excision</b> เพื่อลด local recurrence โดยขอบทางคลินิกกำหนดตาม <b>Breslow thickness</b> (วัดจาก granular layer ถึงเซลล์มะเร็งที่ลึกที่สุด เป็นปัจจัยพยากรณ์โรคที่สำคัญที่สุดของ melanoma เฉพาะที่): <b>in situ</b> 0.5–1 cm · <b>≤ 1.0 mm → 1 cm</b> · 1.01–2.0 mm → 1–2 cm · <b>&gt; 2.0 mm → 2 cm</b> · ขอบที่กว้างกว่า 2 cm ไม่เพิ่มการรอดชีวิตจากการศึกษาแบบสุ่ม จึงเลิกใช้ขอบ 3–5 cm แบบดั้งเดิม · Breslow 0.3 mm (T1a ถ้าไม่มี ulceration) จึงใช้ขอบ <b>1 cm</b> ลึกถึง fascia ชั้นบน (เก็บ fascia ไว้) · บนใบหน้าอาจลดขอบได้เพื่อรักษาหน้าที่และความสวยงาม และใช้ Mohs/ staged excision กับ lentigo maligna · SLNB: พิจารณาใน T1b (0.8–1.0 mm หรือ &lt; 0.8 mm ที่มี ulceration) และแนะนำเมื่อ &gt; 1 mm · 0.3 mm ไม่มี ulceration ไม่ต้อง SLNB · ไฟล์ P'Ing <b>วง 1 cm</b> และแปะตาราง <b>\"Surgical margins for primary lesion\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> 0.5 cm ไม่พอสำหรับ invasive melanoma · จะถูกถ้าชิ้นเนื้อเป็น melanoma in situ (ใช้ขอบ 0.5–1 cm)",
-   "C": "<b>นอกสไลด์:</b> 2 cm กว้างเกินสำหรับก้อนบาง · จะถูกถ้า Breslow หนากว่า 2 mm",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ใช้ขอบ 3 cm กับ melanoma เพราะการศึกษาแบบสุ่มพบว่าขอบกว้างกว่า 2 cm ไม่เพิ่มการรอดชีวิต จึงใช้ขอบสูงสุด 2 cm",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ใช้ขอบ 4 cm กับ melanoma เพราะขอบสูงสุดตามแนวทางคือ 2 cm (ขอบ 4–5 cm เป็นแนวทางเก่าที่ถูกทดลองแล้วว่าไม่ช่วย)"
+   "A": "ขอบ 0.5 cm ใช้กับ melanoma in situ (แนวทางปัจจุบัน 0.5–1 cm) ซึ่งเซลล์มะเร็งยังไม่ผ่าน basement membrane แต่ melanoma ที่ลุกเข้า dermis แล้วแม้หนาเพียง 0.3 mm ต้องใช้ขอบ 1 cm — จะถูกถ้าเป็นหญิง 60 ปี ปื้นสีน้ำตาลแบนที่แขน ชิ้นเนื้อเป็น melanoma in situ ไม่มีการลุกเข้า dermis",
+   "C": "ขอบ 2 cm ใช้กับ melanoma หนา &gt; 2 mm (และเป็นทางเลือกในช่วง 1.01–2 mm) ถ้าใช้ในรอยโรค 0.3 mm บนใบหน้าจะเสียเนื้อเยื่อมากโดยไม่ได้ประโยชน์ — จะถูกถ้าเป็นชาย 50 ปี ก้อนสีดำที่หลัง ชิ้นเนื้อ Breslow 3.2 mm มี ulceration → WLE ขอบ 2 cm ร่วมกับ SLNB",
+   "D": "ขอบ 3 cm มาจากการศึกษาเก่าที่เปรียบเทียบขอบ 1 กับ 3 cm ใน melanoma หนา &gt; 2 mm ปัจจุบันแนวทางสูงสุดไม่เกิน 2 cm เพราะขอบกว้างกว่านี้ไม่เพิ่มการรอดชีวิต ไม่มีสถานการณ์ใน melanoma ปัจจุบันที่แนะนำขอบ 3 cm เป็นมาตรฐาน (ยกเว้นข้อจำกัดเฉพาะราย)",
+   "E": "ขอบ 4 cm เป็นแนวทางในอดีต การศึกษาแบบสุ่มของ melanoma หนา &gt; 2 mm (ขอบ 2 vs 4 cm) พบว่าการรอดชีวิตไม่ต่างกัน และขอบกว้างเพิ่มความจำเป็นต้องใช้ graft/ flap ไม่มีสถานการณ์ในแนวทางปัจจุบันที่แนะนำขอบ 4 cm สำหรับ primary melanoma"
   },
-  "trap": "ใช้ความหนา Breslow ไม่ใช่เส้นผ่านศูนย์กลางก้อน · และอย่าเผื่อขอบกว้างเกิน 2 cm",
+  "trap": "ข้อนี้อยู่บนใบหน้า บางคนจึงลดขอบลงเหลือ 0.5 cm เพื่อความสวยงาม หรือจำตารางเก่าที่ใช้ขอบกว้าง · หลักคือเลือกตาม <b>Breslow</b>: ≤ 1 mm = 1 cm · ใบหน้าอาจปรับขอบตามโครงสร้างสำคัญได้ แต่ตัวเลขที่แนะนำยังคือ 1 cm และขอบ 0.5 cm สงวนไว้สำหรับ in situ",
   "summary": [
-   "ตารางในคีย์ (NCCN): in situ 0.5–1 cm · ≤ 1 mm → 1 cm · 1.01–2 mm → 1–2 cm · > 2 mm → 2 cm",
-   "<b>นอกสไลด์:</b> SLNB: พิจารณาเมื่อหนา 0.8–1 mm หรือบางกว่าแต่มี ulceration · แนะนำเมื่อหนากว่า 1 mm · ก้อนนี้ 0.3 mm ไม่มี ulcer ไม่ต้องทำ",
-   "<b>นอกสไลด์:</b> Breslow thickness เป็นปัจจัยพยากรณ์ที่สำคัญที่สุดของ melanoma ระยะเฉพาะที่"
+   "WLE margin (NCCN): in situ 0.5–1 cm · ≤ 1 mm 1 cm · 1.01–2 mm 1–2 cm · &gt; 2 mm 2 cm · ขอบลึกถึงแต่ไม่ตัด muscular fascia",
+   "Biopsy: excisional ขอบ 1–3 mm แนวขนานกับ lymphatic drainage เพื่อไม่รบกวน SLNB · หลีกเลี่ยง shave biopsy ที่ตัดฐานทำให้วัด Breslow ไม่ได้",
+   "Breslow = ปัจจัยพยากรณ์ที่สำคัญที่สุดของ localized melanoma · T1 ≤ 1 mm · T2 1–2 · T3 2–4 · T4 &gt; 4 mm · แบ่ง a/b ตาม ulceration",
+   "SLNB: พิจารณาใน T1b (0.8–1.0 mm หรือ &lt; 0.8 mm + ulceration) · แนะนำใน T2 ขึ้นไป (&gt; 1 mm) ที่ต่อมน้ำเหลืองคลำไม่ได้",
+   "SLNB บวก: ปัจจุบันเฝ้าติดตามด้วย ultrasound ต่อมน้ำเหลืองแทน completion lymph node dissection (MSLT-II) และพิจารณา adjuvant immunotherapy",
+   "ABCDE ของ melanoma: Asymmetry, Border ไม่เรียบ, Color หลายสี, Diameter &gt; 6 mm, Evolving · ชนิด: superficial spreading (บ่อยสุดในคนผิวขาว), nodular, lentigo maligna, acral lentiginous (บ่อยในคนเอเชีย)",
+   "Lentigo maligna บนใบหน้า ขอบเห็นยากและลุกตามรูขุมขน → staged excision/ Mohs ตรวจขอบครบก่อนปิดแผล"
   ],
-  "opinion": "เห็นด้วยกับคีย์ 1 cm — ตรงกับตารางที่ P'Ing แปะ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ P'Ing วง 1 cm พร้อมแปะตาราง surgical margins · melanoma Breslow 0.3 mm อยู่ในกลุ่ม ≤ 1 mm ซึ่งแนวทางทุกฉบับแนะนำขอบ 1 cm แม้อยู่บนใบหน้าก็ใช้เป็นเป้าหมายก่อนปรับตามโครงสร้าง",
+  "mnemonic": "<b>'≤ 1 mm → 1 cm · &gt; 2 mm → 2 cm (ไม่เกิน 2)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Melanoma: Cutaneous (2025); AJCC Cancer Staging Manual 8th ed. (2017) — Melanoma of the Skin",
   "variants": [
-   "<b>นอกสไลด์:</b> Lentigo maligna (in situ) กว้างที่แก้มผู้สูงอายุ ขอบไม่ชัด → ตัดแบบตรวจขอบครบ (staged excision/Mohs) เพราะเซลล์ลามเกินขอบที่เห็น"
+   "ชาย 45 ปี melanoma ที่ขา Breslow 1.5 mm ไม่มี ulceration คลำต่อมน้ำเหลืองไม่ได้ → WLE ขอบ 1–2 cm + SLNB",
+   "หญิง 70 ปี ปื้นสีน้ำตาลกว้างที่แก้มโตช้าหลายปี ชิ้นเนื้อเป็น lentigo maligna → staged excision/ Mohs ตรวจขอบครบ",
+   "ชาย 60 ปี ปื้นสีดำที่ฝ่าเท้าขอบไม่เรียบ (acral lentiginous) → excisional/ incisional biopsy เต็มความหนาเพื่อวัด Breslow",
+   "ทำไมไม่ใช้ขอบ 4 cm ใน melanoma หนา → การศึกษาแบบสุ่มพบว่าขอบกว้างกว่า 2 cm ไม่ลดการตาย แต่เพิ่มความจำเป็นต้องใช้ graft และภาวะแทรกซ้อน"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Malignant melanoma ที่หน้า ลึก 0.3 mm - ถาม margin — 1 cm · 2 cm · 3 cm · 4 cm</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing แปะตาราง Surgical treatment of primary melanoma",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_28"
   ]
  },
  "MDCU74|RoC|29": {
-  "interp": "Adenocarcinoma ของ rectum ส่วนกลาง MRI cT3N1 CRM ไม่ถูกคุกคาม ไม่มีการกระจาย = locally advanced → ถามการรักษา",
-  "why": "คีย์ P'Ing ไม่ได้ระบุคำตอบ (มี ?) — <b>Claude เติม cT3N1 ใน stem และตอบ C</b><br><b>นอกสไลด์:</b> มะเร็ง rectum ส่วนกลาง/ล่างที่ T3–4 หรือต่อมน้ำเหลืองบวก → ให้ chemoradiation (หรือ total neoadjuvant therapy) ก่อนผ่าตัด เพื่อลดการกลับเป็นซ้ำเฉพาะที่ในอุ้งเชิงกราน แล้วผ่าตัด total mesorectal excision",
+  "interp": "ชาย 58 ปี <b>adenocarcinoma ของ middle rectum</b> MRI pelvis เป็น <b>cT3N1</b> ขอบ CRM ยังห่าง ไม่มีการแพร่กระจาย = locally advanced rectal cancer (stage III) — ถามการรักษาที่เหมาะที่สุด ต้องรู้ลำดับของการรักษาก่อนผ่าตัด (neoadjuvant) กับ TME",
+  "why": "มะเร็งไส้ตรงแบ่งตามระยะจาก anal verge: low 0–5 cm, <b>middle 5–10 cm</b>, upper 10–15 cm · ใช้ <b>MRI pelvis</b> ประเมิน T, N, circumferential resection margin (CRM/ mesorectal fascia) และ EMVI · มะเร็ง <b>T3–T4 หรือ N+ (locally advanced)</b> ในไส้ตรงส่วนกลางและล่าง มาตรฐานคือ<b>ให้การรักษาก่อนผ่าตัด</b>: long-course <b>chemoradiotherapy</b> (50.4 Gy ร่วมกับ capecitabine/ 5-FU) หรือ short-course RT 5 × 5 Gy แล้วตามด้วย <b>total mesorectal excision (TME)</b> ประมาณ 6–12 สัปดาห์ต่อมา · neoadjuvant ลด local recurrence ได้ราวครึ่งหนึ่งเมื่อเทียบกับฉายรังสีหลังผ่าตัด มีพิษน้อยกว่า และอาจทำให้ก้อนเล็กลงจนเก็บหูรูดได้ · ปัจจุบันนิยม <b>total neoadjuvant therapy (TNT)</b> ให้ทั้ง CRT/ SCRT และ chemotherapy ครบก่อนผ่าตัด ผู้ที่ตอบสนองสมบูรณ์ (cCR) อาจเข้าโปรแกรม watch-and-wait · TME เลาะตาม mesorectal fascia (holy plane) เอา mesorectum ออกทั้งก้อน ขอบปลาย ≥ 1–2 cm และ CRM &gt; 1 mm · ไฟล์จดหัวข้อ <b>\"Rectal CA — middle rectum treatment\"</b> พร้อมช้อย \"TME เฉย ๆ · TME ค่อย CMT · CMT ก่อน TME\" โดยไม่ได้วงคำตอบ (P'Ing มี ? หน้าข้อ)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ผ่าตัดอย่างเดียวพอเมื่อก้อนยังไม่ลึกและต่อมน้ำเหลืองลบ · จะถูกถ้า MRI เป็น cT2N0 ที่ rectum ส่วนกลาง",
-   "B": "<b>นอกสไลด์:</b> เคมีบำบัดหลังผ่าตัดไม่ลดการกลับเป็นซ้ำในอุ้งเชิงกรานเท่าการฉายรังสีก่อนผ่าตัด · จะถูกถ้ามะเร็ง rectum ส่วนบนเหนือ peritoneal reflection ผ่าตัดแล้วพยาธิเป็น stage III (รักษาแบบมะเร็ง colon)",
-   "D": "<b>นอกสไลด์:</b> ตัดเฉพาะที่ไม่ได้เอาต่อมน้ำเหลืองใน mesorectum · จะถูกถ้าเป็นก้อน T1 เล็กใน rectum ส่วนล่าง ลักษณะพยาธิความเสี่ยงต่ำ ไม่มีต่อมน้ำเหลืองโต",
-   "E": "<b>นอกสไลด์:</b> เคมีบำบัดอย่างเดียวไม่ใช่การรักษาเพื่อหายขาดของโรคเฉพาะที่ · จะถูกถ้าเป็น stage IV ที่ก้อนกระจายตัดไม่ได้"
+   "A": "TME อย่างเดียวเพียงพอใน rectal cancer ระยะต้น (T1–T2 N0) หรือใน upper rectum บางรายที่ MRI ดีมาก แต่ cT3N1 ที่ไส้ตรงส่วนกลางมีความเสี่ยง local recurrence สูงถ้าไม่ได้ neoadjuvant — จะถูกถ้าเป็นชาย 62 ปี มะเร็งไส้ตรงส่วนกลาง MRI เป็น cT2N0 ไม่มี EMVI CRM ห่าง → low anterior resection with TME",
+   "B": "TME แล้วให้ adjuvant chemotherapy เป็นแนวทางของมะเร็งลำไส้ใหญ่ (colon) stage III หรือ rectum ที่ผ่าตัดไปก่อนแล้วพบ N+ ภายหลัง ไม่ใช่ลำดับที่ดีที่สุดของ locally advanced rectal cancer ที่รู้ระยะก่อนผ่าตัด — จะถูกถ้าเป็นหญิง 60 ปี มะเร็ง sigmoid colon ผ่าตัด sigmoidectomy แล้วพยาธิเป็น pT3N1 → adjuvant CAPOX/ FOLFOX",
+   "D": "Local excision (transanal: TAMIS/ TEM) ใช้กับก้อน cT1N0 ขนาดเล็ก (&lt; 3 cm, &lt; 30% ของเส้นรอบวง) well-differentiated ไม่มี LVI/ PNI และอยู่ใกล้ทวารพอ เพราะไม่ได้เอาต่อมน้ำเหลืองออก — จะถูกถ้าเป็นชาย 75 ปี ก้อน 2 cm ห่าง anal verge 6 cm MRI/ ERUS เป็น T1N0 ชิ้นเนื้อ well-differentiated",
+   "E": "Chemotherapy อย่างเดียวเป็นการรักษาหลักของมะเร็งที่แพร่กระจายและตัดออกไม่ได้ ไม่ได้ควบคุมโรคเฉพาะที่ของ cT3N1 ที่ยังผ่าตัดหายขาดได้ — จะถูกถ้าเป็นชาย 65 ปี มะเร็งไส้ตรงร่วมกับ liver metastasis หลายตำแหน่งทั้งสองกลีบและปอดที่ผ่าตัดไม่ได้ → systemic chemotherapy ± biologic agent"
   },
-  "trap": "ต้นฉบับไม่บอก stage จึงเติม cT3N1 · การตัดสินขึ้นกับตำแหน่ง (ส่วนบนรักษาแบบ colon) และ T/N จาก MRI",
+  "trap": "หลายคนใช้หลักของ colon cancer (ผ่าตัดก่อนแล้วให้ adjuvant) กับ rectum จึงเลือก B · หลักของ rectum คือ<b>รู้ stage จาก MRI ก่อนผ่าตัด</b> และ locally advanced (T3–4/ N+) ใน mid-low rectum ให้ <b>neoadjuvant ก่อน TME</b> เพราะ pelvis แคบ local recurrence สูง และรังสีก่อนผ่าตัดได้ผลดีกว่าหลังผ่าตัด",
   "summary": [
-   "<b>นอกสไลด์:</b> Staging: MRI อุ้งเชิงกราน (T, N, CRM, EMVI) + CT ทรวงอก/ช่องท้อง + CEA",
-   "<b>นอกสไลด์:</b> cT1–2N0 → TME · cT3–4 หรือ N+ (ส่วนกลาง/ล่าง) → neoadjuvant → TME (LAR หรือ APR)",
-   "<b>นอกสไลด์:</b> ตอบสนองสมบูรณ์ทางคลินิกหลัง TNT → บางรายเลือก watch-and-wait ร่วมกับติดตามใกล้ชิด"
+   "ระยะจาก anal verge: low 0–5 cm · middle 5–10 cm · upper 10–15 cm (upper rectum บางแนวทางรักษาคล้าย sigmoid)",
+   "Staging: MRI pelvis (T, N, CRM/ MRF, EMVI) + CT chest/ abdomen + CEA · ERUS ช่วยแยก T1/ T2 ในก้อนเล็ก",
+   "Locally advanced (cT3–4 หรือ N+) mid/ low rectum → neoadjuvant (long-course CRT 50.4 Gy + capecitabine หรือ SCRT 5 × 5 Gy) → TME",
+   "TNT: ให้ chemotherapy (FOLFOX/ CAPOX) ร่วมกับ CRT/ SCRT ครบก่อนผ่าตัด (RAPIDO, PRODIGE-23) เพิ่ม pCR และลด distant metastasis",
+   "cCR หลัง neoadjuvant → watch-and-wait ได้ในศูนย์ที่ติดตามด้วย MRI + endoscopy ถี่ (dMMR/ MSI-H อาจตอบสนองดีมากต่อ immunotherapy)",
+   "TME: เลาะตาม mesorectal fascia เอา mesorectum ทั้งก้อน · distal margin ≥ 1–2 cm (low rectal 1 cm ยอมรับได้) · CRM &gt; 1 mm · low anastomosis มัก diverting ileostomy",
+   "ก้อนลุกหูรูดหรืออยู่ต่ำมากจนเก็บหูรูดไม่ได้ → abdominoperineal resection (APR) + end colostomy"
   ],
-  "opinion": "คีย์ไม่ได้ระบุคำตอบ — Claude เติม stage และตอบ C ตามแนวทางมาตรฐาน · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ไม่มีคีย์ (P'Ing ใส่ ? หน้าข้อ ผู้จดเขียนแค่ช้อย 3 แบบ) คำตอบในเว็บเป็นของ Claude ที่เติม cT3N1 ให้เหลือคำตอบเดียว · ตามแนวทาง NCCN locally advanced mid-rectal cancer ใช้ neoadjuvant CRT/ TNT ก่อน TME · ESMO ยอมให้ TME อย่างเดียวในกลุ่ม cT3a/b ที่ MRF ห่างและผ่าตัดคุณภาพสูงได้ แต่ข้อสอบนักศึกษาแพทย์ยึด neoadjuvant ก่อน",
+  "mnemonic": "<b>'Rectum T3/N+ → ฉายก่อน ตัดทีหลัง (CRT → TME)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Rectal Cancer (2025); ESMO Clinical Practice Guidelines: Rectal cancer (Glynne-Jones et al., Ann Oncol 2017)",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็ง rectum ส่วนล่าง MRI พบ CRM ถูกคุกคาม (ก้อนห่าง mesorectal fascia ≤ 1 mm) → total neoadjuvant therapy ก่อนผ่าตัด"
+   "ชาย 55 ปี มะเร็งไส้ตรงห่าง anal verge 4 cm MRI cT3N2 MRF threatened → TNT แล้วประเมินซ้ำด้วย MRI ก่อนผ่าตัด",
+   "หลัง neoadjuvant CRT ส่องกล้องและ MRI ไม่เห็นก้อน (clinical complete response) → watch-and-wait ติดตามถี่ หรือ TME",
+   "ชาย 70 ปี ก้อน T1N0 ขนาด 2 cm well-differentiated ที่ low rectum → transanal local excision (TAMIS/ TEM)",
+   "ทำไม rectal cancer ต้องฉายรังสีก่อนผ่าตัดแต่ colon ไม่ต้อง → rectum อยู่ใน pelvis แคบ ขอบรอบ (CRM) ได้ยาก local recurrence สูง ส่วน colon มี serosa และขอบกว้างกว่า"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Rectal CA - middle rectum treatment — TME เฉยๆ · TME ค่อย CMT · CMT ก่อน TME</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์ไม่บอก stage และไม่มีคำตอบ → Claude เติม cT3N1 ให้เหลือคำตอบเดียว · มะเร็งไส้ตรงอยู่ในขอบเขต Gen Sx แต่ข้อนี้ออกในข้อสอบ Subspe",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_29"
   ]
  },
  "MDCU74|RoC|30": {
-  "interp": "High trans-sphincteric fistula-in-ano → ถามการผ่าตัดที่รักษาโดย <b>ไม่ตัด</b> กล้ามเนื้อหูรูด",
-  "why": "ผู้จดและ P'Ing เขียน <b>LIFT (ligation of the intersphincteric fistula tract)</b><br><b>นอกสไลด์:</b> LIFT เข้าทางร่องระหว่างหูรูดชั้นในกับชั้นนอก หา tract ที่วิ่งผ่านร่องนี้ ผูกแล้วตัด ไม่ตัดกล้ามเนื้อหูรูด จึงเหมาะกับ fistula ที่ผ่านหูรูดมาก ซึ่งถ้าตัดเปิด (fistulotomy) จะกลั้นไม่อยู่",
+  "interp": "ชาย 40 ปี มี <b>high trans-sphincteric fistula-in-ano</b> — ถามการผ่าตัดที่ออกแบบมารักษา fistula <b>โดยไม่ตัดกล้ามเนื้อหูรูด</b> ต้องรู้หลักการของ sphincter-sparing procedures โดยเฉพาะชื่อเต็มของ LIFT",
+  "why": "Fistula-in-ano ส่วนใหญ่เกิดจาก cryptoglandular infection ของต่อม anal gland ที่ dentate line · Parks classification: intersphincteric (บ่อยสุด), <b>trans-sphincteric</b>, suprasphincteric, extrasphincteric · fistula ที่ผ่าน external sphincter มาก (high trans-sphincteric, &gt; 30% ของหูรูด), อยู่ด้านหน้าในผู้หญิง หรือผู้ที่หูรูดอ่อนอยู่แล้ว เป็น <b>complex fistula</b> ถ้าทำ fistulotomy จะเสี่ยง<b>กลั้นอุจจาระไม่อยู่</b> · <b>LIFT (Ligation of the Intersphincteric Fistula Tract)</b>: กรีดที่ intersphincteric groove เลาะหาทางเดินที่วิ่งระหว่าง internal และ external sphincter ผูกและตัดทางเดินชิดหูรูดทั้งสองด้าน แล้วขูดทางเดินส่วนนอก โดย<b>ไม่ตัดกล้ามเนื้อหูรูดเลย</b> · ทางเลือก sphincter-sparing อื่น: endorectal advancement flap, loose (draining) seton, fibrin glue/ plug (ผลหายต่ำกว่า) · ก่อนผ่าตัดใช้ MRI pelvis หรือ endoanal ultrasound ดูแนว tract · ไฟล์จดว่า <b>\"Sx ไม่ให้โดน sphincter — LIFT — ชื่อเต็ม ๆ\"</b> และ P'Ing เขียนชื่อเต็ม ligation of the intersphincteric fistula tract",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Fistulotomy ตัดผ่านหูรูดแม้จะเย็บซ่อมทีหลัง · จะถูกถ้าใช้ในบางศูนย์กับ fistula สูงในผู้ที่หูรูดแข็งแรง โดยยอมรับความเสี่ยงกลั้นไม่อยู่แลกกับอัตราหายสูง",
-   "C": "<b>นอกสไลด์:</b> Cutting seton ค่อย ๆ ตัดผ่านหูรูด ไม่ใช่วิธีเก็บหูรูด · ไม่มีสถานการณ์ใดที่เป็นวิธีที่ไม่ตัดหูรูด เพราะกลไกคือรัดให้ตัดผ่านกล้ามเนื้อช้า ๆ",
-   "D": "<b>นอกสไลด์:</b> Fistulectomy ตัด tract และเนื้อรอบ ๆ ออกหมด แผลกว้าง · จะถูกถ้าเป็น low fistula ที่ต้องการส่งเนื้อตรวจ (สงสัยมะเร็งหรือวัณโรค) — แต่ยังตัดหูรูดส่วนล่าง",
-   "E": "<b>นอกสไลด์:</b> LIS เป็นการรักษา anal fissure ไม่เกี่ยวกับ fistula และเป็นการตัดหูรูด · ไม่มีสถานการณ์ใดที่เป็นการรักษา fistula โดยไม่ตัดหูรูด เพราะตัวหัตถการคือการตัดหูรูดชั้นใน"
+   "B": "Fistulotomy with primary sphincter repair (fistulotomy + sphincteroplasty) ตัดเปิด tract รวมถึงกล้ามเนื้อหูรูดที่คร่อมอยู่แล้วเย็บซ่อมกลับ จึงยังเป็นการตัดหูรูด และมีความเสี่ยงแผลแยก/ กลั้นไม่อยู่ — จะถูกถ้าเป็นหญิง 50 ปี complex fistula ที่ทำ sphincter-sparing มาแล้วล้มเหลวหลายครั้ง ศัลยแพทย์ชำนาญเลือกตัดเปิดแล้วซ่อมหูรูดทันที",
+   "C": "Cutting seton คือการร้อยเชือกผ่าน tract แล้วรัดให้แน่นขึ้นเป็นระยะ ค่อย ๆ ตัดผ่านกล้ามเนื้อหูรูดช้า ๆ ให้แผลเป็นยึดตาม ยังเป็นการตัดหูรูดและเสี่ยงกลั้นไม่อยู่ — จะถูกถ้าเป็นชาย 35 ปี trans-sphincteric fistula ที่ผ่านหูรูดส่วนกลางในศูนย์ที่ใช้ cutting seton เพื่อแบ่งการตัดหูรูดเป็นขั้น (ต่างจาก loose seton ที่ใช้ระบายใน Crohn)",
+   "D": "Fistulectomy with marsupialization ตัดเอา tract ออกทั้งแนวแล้วเย็บขอบแผลกับผนัง tract เพื่อให้แผลตื้นหายเร็ว แต่ต้องเปิดผ่านกล้ามเนื้อที่คร่อม tract จึงตัดหูรูด — จะถูกถ้าเป็นชาย 30 ปี low intersphincteric fistula ผ่านหูรูดส่วนล่างเพียงเล็กน้อย กลั้นอุจจาระปกติ (ใช้ fistulotomy + marsupialization)",
+   "E": "Lateral internal sphincterotomy ตัด internal sphincter บางส่วนเพื่อลด spasm เป็นการรักษา chronic anal fissure ไม่ใช่ fistula และเป็นการตัดหูรูดโดยตรง — จะถูกถ้าเป็นหญิง 30 ปี ปวดแสบขณะถ่ายมีเลือดสดติดกระดาษนาน 3 เดือน มีแผลที่ posterior midline และ sentinel tag ไม่ดีขึ้นด้วย topical nitrate"
   },
-  "trap": "จำ seton เป็นวิธีเก็บหูรูด — loose seton ใช้ระบาย ส่วน cutting seton ตัดหูรูด",
+  "trap": "ช้อยหลายข้อมีคำว่า \"fistula\" ทำให้เลือก fistulotomy/ fistulectomy · ต้องโฟกัสคำว่า<b>ไม่ตัดหูรูด</b>: LIFT เลาะเข้าทาง intersphincteric plane แล้วผูก tract โดยไม่ตัดกล้ามเนื้อ · seton แบบ cutting และ sphincteroplasty ยังตัดหูรูด · LIS เป็นการรักษา fissure",
   "summary": [
-   "<b>นอกสไลด์:</b> Fistula ต่ำ (ผ่านหูรูดน้อย) → fistulotomy หายสูง",
-   "<b>นอกสไลด์:</b> Fistula สูง/ซับซ้อน → วิธีเก็บหูรูด: LIFT · endorectal advancement flap · (plug/glue หายต่ำกว่า)",
-   "<b>นอกสไลด์:</b> Loose (draining) seton: ใส่ระบายหนองก่อนผ่าตัดขั้นต่อไป หรือใน Crohn"
+   "Fistula-in-ano: ส่วนใหญ่ cryptoglandular · Parks: intersphincteric (บ่อยสุด) → trans-sphincteric → suprasphincteric → extrasphincteric",
+   "Goodsall's rule: รูนอกด้านหลังเส้นขวางผ่านทวาร → tract โค้งไปเปิดที่ posterior midline · ด้านหน้า → ตรงเข้ารัศมี (ยกเว้นอยู่ไกล &gt; 3 cm)",
+   "Simple fistula (low, ผ่านหูรูดส่วนน้อย, ไม่ใช่ด้านหน้าในหญิง) → fistulotomy ได้ผลหายสูงสุด",
+   "Complex fistula (high trans-sphincteric, supra/ extra-sphincteric, anterior ในหญิง, Crohn, recurrent) → sphincter-sparing: LIFT, advancement flap, seton",
+   "LIFT: เข้าทาง intersphincteric groove → ผูกและตัด tract → ขูด tract ส่วนนอก · ไม่ตัดหูรูด ความเสี่ยงกลั้นไม่อยู่ต่ำมาก",
+   "Loose (draining) seton: ใช้ระบายเพื่อคุมการติดเชื้อก่อนผ่าตัดขั้นต่อไป หรือระยะยาวใน Crohn ร่วมกับ anti-TNF",
+   "Imaging complex/ recurrent fistula: MRI pelvis (มาตรฐาน) หรือ endoanal ultrasound · ระหว่างผ่าตัดใช้ probe/ ฉีด hydrogen peroxide หารูใน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ LIFT · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน LIFT และ P'Ing เขียนชื่อเต็ม ligation of the intersphincteric fistula tract (ผู้จดย้ำว่าในข้อสอบเขียนชื่อเต็ม) · เป็นผ่าตัดเพียงอย่างเดียวในช้อยที่ไม่ตัดกล้ามเนื้อหูรูด",
+  "mnemonic": "<b>'LIFT = Ligate ใน Intersphincteric plane → Fistula หาย หูรูดไม่โดน'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Gaertner et al., Dis Colon Rectum 2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงมี anterior fistula ผ่านหูรูดในระดับต่ำ เคยคลอดยาก → เลี่ยง fistulotomy เพราะหูรูดด้านหน้าในผู้หญิงสั้น ใช้วิธีเก็บหูรูด"
+   "ชาย 30 ปี low intersphincteric fistula กลั้นอุจจาระปกติ → fistulotomy (ได้ผลหายสูงสุด)",
+   "หญิง 45 ปี anterior trans-sphincteric fistula เคยคลอดบุตรทางช่องคลอดฉีกขาด → sphincter-sparing เช่น LIFT หรือ advancement flap",
+   "ผู้ป่วย Crohn's disease มี perianal fistula หลายรูมีหนอง → ระบายหนอง + loose seton + anti-TNF",
+   "ชาย 40 ปี ปวดบวมแดงร้อนข้างทวาร มีไข้ → perianal abscess → incision and drainage (ไม่หา fistula ในขณะอักเสบรุนแรง)"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Sx ไม่ให้โดน spincter — LIFT - ชื่อเต็มๆ</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Sx ไม่ให้โดน sphincter - LIFT - ชื่อเต็มๆ\" (ช้อยในข้อสอบเขียนชื่อเต็ม) → แต่งโจทย์ · ข้อคล้ายกับ 75C Colo 6 (คนละปี)",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_30"
   ]
  },
  "MDCU74|RoC|31": {
-  "interp": "Fissure ที่ posterior midline 4 เดือน มี sentinel tag (= chronic) กลั้นได้ปกติ ไม่เคยบาดเจ็บจากการคลอด ยาทา nitrate 8 สัปดาห์ไม่ได้ผล → ถามการรักษาที่ได้ผลที่สุด",
-  "why": "ผู้จดจำไม่ได้ว่า acute หรือ chronic — Claude แต่งเป็น chronic (ข้อ acute อยู่ที่ 74A เลข 61)<br><b>นอกสไลด์:</b> Chronic fissure เกิดจากหูรูดชั้นในเกร็งค้าง ทำให้เลือดเลี้ยงแผลไม่พอ · LIS ตัดหูรูดชั้นในบางส่วนลดความดันถาวร แผลหายสูงที่สุด (> 90%) · ทำเมื่อยาทาไม่ได้ผลและหูรูดแข็งแรง",
+  "interp": "หญิง 35 ปี มี <b>anal fissure ที่ posterior midline นาน 4 เดือน</b> มี sentinel skin tag (= chronic fissure) กลั้นอุจจาระปกติ ไม่เคยบาดเจ็บจากการคลอด และใช้ <b>topical GTN 8 สัปดาห์ไม่หาย</b> — ถามการรักษาที่ได้ผลที่สุด ต้องรู้ขั้นการรักษา chronic fissure หลังยาล้มเหลว",
+  "why": "Anal fissure คือรอยฉีกของ anoderm ใต้ dentate line มักอยู่ <b>posterior midline</b> (เลือดเลี้ยงน้อยที่สุด) กลไกหลักคือ <b>internal anal sphincter เกร็งตัวสูง</b> → ความดันในทวารสูง → เลือดไปเลี้ยงแผลลดลง (ischemia) → แผลไม่หาย · <b>chronic</b> เมื่อเกิน 6–8 สัปดาห์ หรือมี sentinel tag, hypertrophied anal papilla, เห็นใย internal sphincter ที่ฐาน · ขั้นแรกทุกรายคือใยอาหาร น้ำ stool softener นั่งแช่น้ำอุ่น · ขั้นถัดไปคือ chemical sphincterotomy: <b>topical nitrate (GTN)</b> หรือ <b>calcium channel blocker (diltiazem/ nifedipine)</b> 6–8 สัปดาห์ หรือ <b>botulinum toxin</b> · เมื่อยาไม่ได้ผลในผู้ที่หูรูดดี <b>lateral internal sphincterotomy (LIS)</b> เป็นการรักษาที่<b>ได้ผลหายสูงที่สุด (มากกว่า 90%)</b> โดยตัด internal sphincter ด้านข้างยาวเท่าความยาว fissure หรือถึง dentate line · ความเสี่ยงกลั้นลมหรืออุจจาระไม่อยู่มีน้อยและส่วนใหญ่เล็กน้อย จึงต้องเลือกผู้ป่วยที่หูรูดปกติ ส่วนผู้มีความเสี่ยง (หญิงคลอดบาดเจ็บ, ผู้สูงอายุ, IBD) ใช้ botulinum toxin หรือ advancement flap · ไฟล์จดว่า <b>\"Anal fissure จำไม่ค่อยได้ — รู้สึกจะ acute/chronic รักษาไงนี่แหละ\"</b> โดยไม่มีช้อยและคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ยาระบายอย่างเดียวไม่พอสำหรับแผลเรื้อรังที่ล้มเหลวจากยาทา · จะถูกถ้าเป็น acute fissure ที่เพิ่งเป็นไม่กี่สัปดาห์",
-   "C": "<b>นอกสไลด์:</b> การถ่างทวารด้วยมือทำให้หูรูดฉีกไม่สม่ำเสมอ กลั้นไม่อยู่สูง · ไม่มีสถานการณ์ใดที่ได้ผลดีที่สุดสำหรับ chronic fissure เพราะ LIS หายมากกว่าและควบคุมความยาวที่ตัดได้",
-   "D": "<b>นอกสไลด์:</b> ทายาซ้ำนาน 1 ปีหลังล้มเหลวไม่เพิ่มการหาย และ nitrate ปวดศีรษะบ่อย · ไม่มีสถานการณ์ใดที่ควรใช้ซ้ำนาน 1 ปี เพราะถ้ายาไม่ได้ผลใน 6–8 สัปดาห์ให้ไปขั้นต่อไป (เปลี่ยนยา/botox/LIS)",
-   "E": "<b>นอกสไลด์:</b> Hemorrhoidectomy ไม่แก้ fissure · จะถูกถ้าผู้ป่วยเป็นริดสีดวง grade III–IV ที่มีอาการ"
+   "B": "Stool softener + fiber + sitz bath เป็นการรักษาขั้นแรกของ acute fissure ซึ่งหายได้ราวครึ่งหนึ่งภายในไม่กี่สัปดาห์ แต่ chronic fissure ที่ยาล้มเหลวมาแล้วไม่หายด้วยการทำให้อุจจาระนิ่มอย่างเดียว — จะถูกถ้าเป็นชาย 25 ปี ปวดแสบขณะถ่ายหลังท้องผูกมา 1 สัปดาห์ เลือดสดติดกระดาษ ตรวจพบแผลตื้นขอบเรียบที่ posterior midline ไม่มี sentinel tag",
+   "C": "Anal dilatation (Lord's procedure) ยืดหูรูดแบบควบคุมไม่ได้ ทำให้หูรูดฉีกหลายตำแหน่งและกลั้นไม่อยู่สูงกว่า LIS จึงเลิกใช้ในแนวทางปัจจุบัน — จะถูกถ้าเป็นชาย 50 ปี หลังผ่าตัด hemorrhoid แล้วเกิด anal stenosis ตีบจนถ่ายลำบาก ใช้ graded dilator ขยายทวารแบบค่อยเป็นค่อยไป",
+   "D": "ใช้ topical nitrate ต่ออีก 1 ปีไม่มีหลักฐานว่าจะหาย ผลข้างเคียงปวดศีรษะทำให้หยุดยาบ่อย และ chronic fissure ที่ไม่ตอบสนองหลังใช้ยาครบ 6–8 สัปดาห์ควรเปลี่ยนขั้นการรักษา — จะถูกถ้าเป็นหญิง 28 ปี chronic fissure ที่เริ่มใช้ GTN มาได้ 3 สัปดาห์ แผลเริ่มดีขึ้น ปวดลดลง ให้ใช้ยาต่อจนครบ 6–8 สัปดาห์",
+   "E": "Hemorrhoidectomy รักษา hemorrhoid grade III–IV ที่ไม่ตอบสนองต่อการรัดยาง หรือมี thrombosis/ prolapse รุนแรง ไม่รักษา fissure และอาจทำให้ทวารตีบ — จะถูกถ้าเป็นชาย 55 ปี มีริดสีดวงหลุดออกมาทุกครั้งที่ถ่ายต้องดันกลับ (grade III) เลือดออกเรื้อรังจน Hb 9 g/dL รัดยางแล้วไม่ดีขึ้น"
   },
-  "trap": "Chronic = เกินราว 6–8 สัปดาห์ หรือมี sentinel tag/ใยกล้ามเนื้อที่ก้นแผล · โจทย์บอกกลั้นปกติและไม่มีบาดเจ็บจากคลอด เพื่อให้ LIS ปลอดภัย",
+  "trap": "หลายคนกลัวการผ่าตัดหูรูดเพราะเสี่ยงกลั้นไม่อยู่ จึงเลือกใช้ยาต่อหรือ stool softener · หลักคือ <b>chronic fissure + ยาล้มเหลว + หูรูดปกติ</b> → LIS ซึ่งได้ผลสูงที่สุด · และ anal dilatation ดูเหมือนอ่อนโยนกว่าแต่ทำลายหูรูดแบบควบคุมไม่ได้",
   "summary": [
-   "<b>นอกสไลด์:</b> ขั้นการรักษา chronic fissure: ยาทา nitrate หรือ diltiazem 6–8 สัปดาห์ → botulinum toxin → LIS",
-   "<b>นอกสไลด์:</b> LIS ตัดหูรูดชั้นในด้านข้าง ความยาวเท่าแผลหรือถึง dentate line · ผลข้างเคียงหลักคือกลั้นลมไม่อยู่เล็กน้อย"
+   "Anal fissure: posterior midline ~90% (anterior พบในหญิงหลังคลอดได้) · fissure ด้านข้างหรือหลายแผล → นึกถึง Crohn, TB, HIV, syphilis, มะเร็ง → EUA + biopsy",
+   "กลไก: internal sphincter hypertonia → ความดันทวารสูง → ischemia ที่ posterior commissure → แผลไม่หาย",
+   "Chronic (&gt; 6–8 สัปดาห์): sentinel tag ภายนอก + hypertrophied anal papilla ภายใน + เห็นใย internal sphincter ที่ฐาน",
+   "ขั้นที่ 1 ทุกราย: fiber 25–35 g/วัน น้ำ stool softener sitz bath ± topical anesthetic",
+   "ขั้นที่ 2 chemical sphincterotomy: GTN 0.2–0.4% (ปวดศีรษะบ่อย) หรือ diltiazem 2%/ nifedipine (ผลข้างเคียงน้อยกว่า) 6–8 สัปดาห์ · botulinum toxin ฉีด internal sphincter",
+   "ขั้นที่ 3 LIS: ผลหาย &gt; 90% · ตัดยาวเท่า fissure หรือถึง dentate line · ความเสี่ยงกลั้นไม่อยู่ส่วนใหญ่เล็กน้อย",
+   "ผู้เสี่ยงกลั้นไม่อยู่ (คลอดบาดเจ็บหูรูด, ผู้สูงอายุ, ความดันหูรูดต่ำ) → botulinum toxin หรือ anal advancement flap แทน LIS"
   ],
-  "opinion": "ผู้จดจำไม่ได้และไม่มีคีย์ — Claude แต่งเป็น chronic fissure ที่ยาทาล้มเหลว ตอบ LIS ตามแนวทางมาตรฐาน · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีคีย์ (ผู้จดจำไม่ได้ว่าถาม acute หรือ chronic) โจทย์ในเว็บจึงแต่งเป็น chronic fissure ที่ topical nitrate ล้มเหลวในหญิงที่หูรูดปกติ ซึ่งแนวทาง ASCRS ระบุว่า lateral internal sphincterotomy ได้ผลหายสูงที่สุด",
+  "mnemonic": "<b>'Fissure เรื้อรัง ยาไม่หาย หูรูดดี → LIS'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Stewart et al., Dis Colon Rectum 2023); Sabiston Textbook of Surgery 21st ed. (2022) — Anus",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย chronic fissure ไม่อยากผ่าตัดหลังยาทาล้มเหลว → ฉีด botulinum toxin เข้าหูรูดชั้นใน (หายน้อยกว่า LIS แต่กลั้นไม่อยู่ถาวรน้อย)"
+   "ชาย 30 ปี ปวดแสบขณะถ่ายมา 10 วัน แผลตื้นที่ posterior midline ไม่มี tag → acute fissure → fiber + sitz bath + topical diltiazem",
+   "หญิง 32 ปี chronic fissure ไม่หายด้วย GTN เคยคลอดบุตรมีหูรูดฉีกขาด → botulinum toxin (หลีกเลี่ยง LIS)",
+   "ชาย 28 ปี มีแผลที่ทวารด้านข้างหลายแผล ท้องเสียเรื้อรังน้ำหนักลด → นึกถึง Crohn's disease → EUA + biopsy + ส่องลำไส้",
+   "ทำไม fissure มักเกิดที่ posterior midline → เลือดจาก inferior rectal artery เลี้ยงบริเวณนี้น้อยที่สุด เมื่อหูรูดเกร็งจึงขาดเลือดง่าย"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Anal fissure จำไม่ค่อยได้ - รู้สึกจะ acute/chronic รักษาไงนี่แหละ</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ผู้จดจำไม่ได้ว่าเป็น acute หรือ chronic → แต่งเป็น chronic fissure (74A ข้อเลข 61 ถาม acute fissure แล้ว)",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_31"
   ]
  },
  "MDCU74|RoC|32": {
-  "interp": "ถามสารในปัสสาวะที่เป็นตัว <b>ยับยั้ง</b> การเกิดนิ่วแคลเซียมที่สำคัญที่สุด",
-  "why": "P'Ing วง <b>citrate</b> + เขียน <b>\"จับ Ca\"</b><br><b>นอกสไลด์:</b> Citrate จับ calcium เป็นสารประกอบที่ละลายน้ำ calcium อิสระจึงเหลือน้อยที่จะจับกับ oxalate/phosphate และยังยับยั้งการโตและเกาะกลุ่มของผลึก · citrate ในปัสสาวะต่ำพบบ่อยในผู้ป่วยนิ่ว",
+  "interp": "คำถามความรู้พื้นฐานเรื่องนิ่วทางเดินปัสสาวะ ถามสารในปัสสาวะที่เป็น<b>ตัวยับยั้งการเกิดนิ่ว calcium ที่สำคัญที่สุด</b> — ต้องแยกสารยับยั้ง (inhibitors) ออกจากสารส่งเสริม (promoters) และเข้าใจกลไกการจับกับ calcium",
+  "why": "นิ่วเกิดเมื่อปัสสาวะ<b>อิ่มตัวยิ่งยวด (supersaturation)</b> ด้วยเกลือที่ก่อนิ่ว ร่วมกับเสียสมดุลระหว่าง promoters และ inhibitors · <b>Citrate</b> เป็น inhibitor ที่สำคัญที่สุดของนิ่ว calcium: ① <b>จับ calcium เป็น soluble complex</b> ทำให้ calcium อิสระที่จะไปจับ oxalate/ phosphate ลดลง ② ยับยั้ง nucleation, growth และ aggregation ของผลึก calcium oxalate/ phosphate โดยตรง · <b>Hypocitraturia</b> (citrate ในปัสสาวะ 24 ชม. &lt; 320 mg/วัน) พบบ่อยในผู้เป็นนิ่วซ้ำ สาเหตุ: metabolic acidosis (distal RTA, ท้องเสียเรื้อรัง), hypokalemia, อาหารโปรตีนสัตว์สูง, thiazide · รักษาด้วย <b>potassium citrate</b> ซึ่งทั้งเพิ่ม citrate และทำให้ปัสสาวะเป็นด่าง · inhibitors อื่น: magnesium (จับ oxalate), pyrophosphate, glycoproteins เช่น Tamm-Horsfall protein (uromodulin), osteopontin, nephrocalcin · promoters: <b>calcium, oxalate, uric acid, sodium</b>, ปัสสาวะน้อย · ไฟล์ P'Ing <b>วง Citrate</b> และเขียน ✓ <b>\"จับ Ca\"</b> (ไฟล์มีช้อย Citrate · Ca · Oxalate)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Calcium เป็นวัตถุดิบของนิ่ว (promoter) · ไม่มีสถานการณ์ใดที่ calcium ในปัสสาวะเป็นตัวยับยั้ง เพราะยิ่งสูงยิ่งอิ่มตัวเกิดผลึกง่าย",
-   "C": "<b>นอกสไลด์:</b> Oxalate เป็นส่วนประกอบของนิ่วที่พบบ่อยที่สุด (promoter) · ไม่มีสถานการณ์ใดที่ oxalate เป็นตัวยับยั้ง เพราะเพิ่มความอิ่มตัวของ calcium oxalate",
-   "D": "<b>นอกสไลด์:</b> Uric acid เป็นแกนให้ calcium oxalate เกาะ (promoter) · ไม่มีสถานการณ์ใดที่เป็นตัวยับยั้งนิ่วแคลเซียม เพราะผลึกกรดยูริกเป็นจุดตั้งต้นให้ผลึกแคลเซียมเกาะ",
-   "E": "<b>นอกสไลด์:</b> โซเดียมเพิ่มการขับแคลเซียมทางปัสสาวะ (promoter) · ไม่มีสถานการณ์ใดที่เป็นตัวยับยั้ง เพราะยิ่งกินเค็มแคลเซียมในปัสสาวะยิ่งสูง"
+   "B": "Calcium เป็น<b>องค์ประกอบหลัก</b>ของนิ่ว calcium oxalate/ phosphate (ราว 80% ของนิ่วทั้งหมด) hypercalciuria (&gt; 250 mg/วัน ในหญิง, &gt; 300 mg/วัน ในชาย) เป็นความผิดปกติทางเมตาบอลิกที่พบบ่อยที่สุดในผู้เป็นนิ่ว จึงเป็น promoter ไม่ใช่ inhibitor — จะถูกถ้าเป็นหญิง 45 ปี นิ่ว calcium oxalate ซ้ำ ปัสสาวะ 24 ชม. พบ calcium 350 mg/วัน PTH สูง calcium ในเลือดสูง → primary hyperparathyroidism",
+   "C": "Oxalate จับ calcium เป็นผลึก calcium oxalate จึงเป็น promoter ที่ทรงพลัง (เพิ่มเล็กน้อยก็เพิ่ม supersaturation มาก) hyperoxaluria เกิดจาก enteric (ไขมันใน lumen จับ calcium ทำให้ oxalate อิสระถูกดูดซึม) หรือ primary — จะถูกถ้าเป็นชาย 50 ปี หลังผ่าตัด bariatric (Roux-en-Y) หรือ Crohn ที่ตัดลำไส้เล็กส่วนปลาย มีท้องเสียไขมันและนิ่ว calcium oxalate ซ้ำ",
+   "D": "Uric acid เป็น promoter ทั้งของนิ่ว uric acid (ในปัสสาวะกรด pH &lt; 5.5) และนิ่ว calcium oxalate (ผลึก urate เป็นแกนให้ calcium oxalate เกาะ: heterogeneous nucleation) ไม่ใช่ inhibitor — จะถูกถ้าเป็นชาย 55 ปี เป็นเกาต์ ปัสสาวะ pH 5.0 นิ่วโปร่งรังสี (radiolucent) บนฟิล์มแต่เห็นใน CT → uric acid stone รักษาด้วย potassium citrate ให้ปัสสาวะ pH 6–6.5",
+   "E": "Sodium ที่กินมากเพิ่มการขับ calcium ทางปัสสาวะ (sodium และ calcium ถูกดูดกลับร่วมกันที่ proximal tubule) และลด citrate จึงเป็นปัจจัยส่งเสริม ไม่ใช่ inhibitor — จะถูกถ้าเป็นชาย 40 ปี กินอาหารเค็มจัดและอาหารสำเร็จรูปประจำ นิ่ว calcium ซ้ำ ปัสสาวะ 24 ชม. พบ sodium 250 mmol/วัน ร่วมกับ hypercalciuria → แนะนำลดเกลือ"
   },
-  "trap": "แยก promoter (calcium, oxalate, uric acid, sodium, ปัสสาวะน้อย) กับ inhibitor (citrate, magnesium, pyrophosphate, Tamm-Horsfall protein)",
+  "trap": "ทุกช้อยเกี่ยวกับนิ่วจึงดูคุ้นเคย บางคนเลือก calcium เพราะคิดว่าเกี่ยวข้องมากที่สุด หรือเลือก oxalate ตามชื่อนิ่ว · คำถามถาม <b>inhibitor</b> ไม่ใช่ส่วนประกอบ: calcium, oxalate, uric acid และ sodium ล้วนเป็น promoter · citrate (และ magnesium) เท่านั้นที่ยับยั้ง",
   "summary": [
-   "<b>นอกสไลด์:</b> Inhibitors: citrate (สำคัญที่สุด) · magnesium · pyrophosphate · Tamm-Horsfall protein",
-   "<b>นอกสไลด์:</b> สาเหตุ citrate ต่ำ: distal RTA (type 1) · ท้องเสียเรื้อรัง · ยาที่ทำให้ K ต่ำ · กินโปรตีนสัตว์มาก",
-   "<b>นอกสไลด์:</b> รักษา citrate ต่ำ → potassium citrate (เพิ่ม citrate และทำให้ปัสสาวะเป็นด่าง)"
+   "ชนิดนิ่ว: calcium oxalate ~70–80% · calcium phosphate · uric acid ~5–10% (โปร่งรังสี) · struvite (infection, urease-splitting เช่น Proteus) · cystine (hexagonal crystal)",
+   "Inhibitors: citrate (สำคัญที่สุด), magnesium, pyrophosphate, Tamm-Horsfall protein, osteopontin, nephrocalcin · Promoters: calcium, oxalate, uric acid, sodium, ปัสสาวะน้อย",
+   "Hypocitraturia &lt; 320 mg/วัน: distal RTA, chronic diarrhea, hypokalemia, high animal protein → potassium citrate",
+   "ป้องกันนิ่วซ้ำทุกชนิด: ดื่มน้ำให้ปัสสาวะ ≥ 2.5 L/วัน · calcium ในอาหารปกติ 1,000–1,200 mg/วัน (ไม่ควรงด) · ลดเกลือ &lt; 2,300 mg sodium/วัน · ลดโปรตีนสัตว์",
+   "Hypercalciuria → thiazide · hyperuricosuria + calcium oxalate stone (calcium ปัสสาวะปกติ) → allopurinol · hyperoxaluria → จำกัด oxalate + ให้ calcium กับมื้ออาหาร",
+   "ผู้เป็นนิ่วซ้ำหรือเสี่ยงสูง → metabolic evaluation: serum Ca, uric acid, PTH + ปัสสาวะ 24 ชม. (volume, Ca, oxalate, citrate, uric acid, sodium, pH)",
+   "Uric acid stone: ปัสสาวะกรด pH &lt; 5.5 (เบาหวาน โรคอ้วน เกาต์) → alkalinization ด้วย potassium citrate เป้า pH 6–6.5 สลายนิ่วได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ citrate — ตรงกับลายมือ P'Ing · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่ P'Ing วง Citrate และเขียน ✓ จับ Ca · ไฟล์มีช้อย 3 ตัว (Citrate, Ca, Oxalate) เว็บเติม uric acid และ sodium ซึ่งเป็น promoter ทั้งคู่ จึงยังมีคำตอบเดียวคือ citrate",
+  "mnemonic": "<b>'Citrate จับ Ca = ตัวกันนิ่ว (C กัน C)'</b>",
+  "guide": "AUA Guideline: Medical Management of Kidney Stones (Pearle et al., J Urol 2014); EAU Guidelines on Urolithiasis (2025); Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่วแคลเซียมฟอสเฟตซ้ำ ปัสสาวะเป็นด่างตลอด K ในเลือดต่ำ metabolic acidosis → distal RTA (type 1)"
+   "หญิง 30 ปี นิ่ว calcium phosphate ซ้ำ ปัสสาวะ pH 6.8 serum bicarbonate ต่ำ potassium ต่ำ → distal RTA → potassium citrate",
+   "ชาย 45 ปี นิ่ว calcium oxalate ซ้ำ ปัสสาวะ 24 ชม. citrate 150 mg/วัน → hypocitraturia → potassium citrate",
+   "ผู้ป่วยนิ่ว calcium oxalate ถามว่าควรงดนมหรือไม่ → ไม่ควรงด calcium ในอาหาร เพราะ calcium ในลำไส้จับ oxalate ลดการดูดซึม oxalate",
+   "ชาย 35 ปี นิ่ว staghorn ปัสสาวะ pH 8 เพาะเชื้อได้ Proteus mirabilis → struvite stone → PCNL เอานิ่วออกให้หมด + ยาปฏิชีวนะ"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Most important inhibitor of stone — Citrate · Ca · Oxalate</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เติม D, E · ผู้จดบันทึกต่อจากข้อนี้ว่า \"ปีนี้ไม่มี CIx ของ ESWL\" (ไม่ได้เป็นข้อสอบ — ไม่นำเข้า)",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_32"
   ]
  },
  "MDCU74|RoC|33": {
-  "interp": "ชายอายุ 66 PSA 8.2 ng/mL และคลำได้ก้อนแข็งจาก DRE → ถามขั้นต่อไป",
-  "why": "ผู้จดเขียน <b>TRUS-Bx</b> · P'Ing ไฮไลต์ <b>DRE + หรือ PSA > 4</b><br><b>นอกสไลด์:</b> DRE ผิดปกติเป็นข้อบ่งชี้ตัดชิ้นเนื้อด้วยตัวเอง และ PSA ก็สูงเกินเกณฑ์ · ต้องได้ชิ้นเนื้อยืนยันและ grade ก่อน staging หรือรักษา · ปัจจุบันทำ mpMRI ก่อนตัดชิ้นเนื้อเพื่อเล็งเป้าและลดการตรวจพบมะเร็งที่ไม่สำคัญ — ช้อยในข้อนี้ไม่มี mpMRI จึงตอบ biopsy (ถ้ามีช้อย mpMRI ให้ตอบ mpMRI ตาม EAU)",
+  "interp": "ชาย 66 ปี <b>PSA 8.2 ng/mL</b> และ <b>คลำได้ก้อนแข็ง (firm nodule) จาก DRE</b> — ถามขั้นตอนต่อไป ต้องรู้ว่า DRE ผิดปกติหรือ PSA สูงเป็นข้อบ่งชี้ของการยืนยันเนื้อเยื่อ ก่อนจะคิดถึง staging หรือการรักษา",
+  "why": "การวินิจฉัย prostate cancer ต้อง<b>ยืนยันด้วยชิ้นเนื้อ</b>เสมอ · ข้อบ่งชี้ตัดชิ้นเนื้อ: <b>DRE ผิดปกติ</b> (ก้อนแข็ง ขรุขระ ไม่สมมาตร) ไม่ว่า PSA เท่าไร หรือ <b>PSA สูง</b> (ค่าตัดดั้งเดิม &gt; 4 ng/mL หรือตามอายุ/ PSA density &gt; 0.15) โดยถ้า PSA สูงเล็กน้อยและ DRE ปกติควรตรวจ PSA ซ้ำก่อนเพื่อตัดสาเหตุชั่วคราว (prostatitis, หลังสวนปัสสาวะ, หลังหลั่ง) · ผู้ป่วยในข้อมีทั้ง DRE ผิดปกติและ PSA 8.2 จึงต้อง <b>prostate biopsy</b> · แนวทางปัจจุบันทำ <b>multiparametric MRI ก่อน biopsy</b> (PI-RADS) แล้ว MRI-targeted ร่วมกับ systematic biopsy (10–12 cores) · ทางเข้า <b>transperineal</b> มีการติดเชื้อน้อยกว่า transrectal (TRUS-guided) ที่เสี่ยง sepsis · ผลชิ้นเนื้อให้ Gleason score/ ISUP grade group ร่วมกับ PSA และ T stage จัด risk group แล้วจึงตัดสิน staging (bone scan/ PSMA PET ในกลุ่มเสี่ยงสูง) และการรักษา · ไฟล์จดว่า <b>\"DRE + หรือ PSA &gt; 4 ทำไงต่อ — TRUS - Bx\"</b> และบอกว่ามีข้อแนวนี้ 2–3 ข้อ (P'Ing ไฮไลต์)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Bone scan เป็น staging หลังยืนยันมะเร็ง · จะถูกถ้าชิ้นเนื้อยืนยันมะเร็งกลุ่มเสี่ยงสูง (Gleason สูงหรือ PSA สูงมาก) หรือมีปวดกระดูก",
-   "C": "<b>นอกสไลด์:</b> TURP ไม่ใช่วิธีวินิจฉัยมะเร็ง (เก็บเนื้อจาก transition zone ส่วนมะเร็งมักอยู่ peripheral zone) · จะถูกถ้าชายปัสสาวะไม่ออกซ้ำจาก BPH ที่ยาไม่ได้ผล และ PSA กับ DRE ไม่ชวนสงสัยมะเร็ง",
-   "D": "<b>นอกสไลด์:</b> ยังไม่มีการวินิจฉัย · จะถูกถ้าชิ้นเนื้อยืนยันมะเร็งต่อมลูกหมากที่กระจายไปกระดูก (metastatic hormone-sensitive) — ADT เป็นแกนหลัก ให้ร่วมกับยากลุ่ม ARPI ± docetaxel",
-   "E": "<b>นอกสไลด์:</b> ตรวจซ้ำเมื่อไม่มีสิ่งชวนสงสัย · จะถูกถ้า PSA ปกติและ DRE ปกติในชายที่เลือกตรวจคัดกรอง"
+   "B": "Bone scan เป็นการ staging หาการแพร่กระจายไปกระดูก ทำหลังยืนยันมะเร็งแล้วในกลุ่ม unfavorable intermediate/ high risk (PSA &gt; 20, ISUP grade ≥ 4, cT3) หรือมีอาการปวดกระดูก ไม่ใช่ขั้นแรกก่อนมีชิ้นเนื้อ — จะถูกถ้าเป็นชาย 70 ปี ชิ้นเนื้อยืนยัน adenocarcinoma Gleason 4+4 PSA 45 ng/mL ปวดหลัง",
+   "C": "TURP เป็นการผ่าตัดลด lower urinary tract symptoms จาก BPH ที่ไม่ตอบสนองต่อยาหรือมีภาวะแทรกซ้อน ไม่ใช่วิธีวินิจฉัยมะเร็ง (ชิ้นเนื้อมาจาก transition zone ส่วนมะเร็งส่วนใหญ่อยู่ peripheral zone) — จะถูกถ้าเป็นชาย 72 ปี ปัสสาวะลำบาก ต้องคาสายสวนจาก urinary retention ซ้ำ ใช้ alpha-blocker + 5-ARI แล้วไม่ดีขึ้น PSA ปกติ DRE โตเรียบ",
+   "D": "Androgen deprivation therapy เป็นการรักษามะเร็งต่อมลูกหมากระยะแพร่กระจาย หรือใช้ร่วมกับรังสีในกลุ่มเสี่ยงสูง ห้ามให้ก่อนยืนยันชิ้นเนื้อ — จะถูกถ้าเป็นชาย 75 ปี ชิ้นเนื้อยืนยันมะเร็ง PSMA PET พบแพร่ไปกระดูกหลายตำแหน่ง (metastatic hormone-sensitive) → ADT ร่วมกับ androgen receptor pathway inhibitor",
+   "E": "ตรวจ PSA ซ้ำใน 1 ปีใช้กับผู้ที่ PSA ต่ำและ DRE ปกติในโปรแกรมคัดกรอง การรอ 1 ปีเมื่อคลำได้ก้อนแข็งและ PSA 8.2 ทำให้วินิจฉัยช้า — จะถูกถ้าเป็นชาย 60 ปี ตัดสินใจร่วมกับแพทย์ขอคัดกรอง PSA ได้ 2.1 ng/mL DRE ปกติ ไม่มีประวัติครอบครัว → นัดตรวจซ้ำเป็นระยะ"
   },
-  "trap": "อย่าทำ staging (bone scan, CT) ก่อนมีชิ้นเนื้อยืนยัน",
+  "trap": "บางคนคิดว่า PSA 8.2 เป็น grey zone (4–10) แล้วเลือกตรวจซ้ำ หรือรีบ staging ด้วย bone scan · จุดตัดสินคือ<b>DRE ผิดปกติเป็นข้อบ่งชี้ biopsy ด้วยตัวเอง</b> และทุกการรักษา/ staging ต้องตามหลังการยืนยันชิ้นเนื้อ · ในยุคปัจจุบันทำ MRI ก่อน biopsy แต่ขั้นตอนหลักที่ข้อสอบต้องการยังคือการตัดชิ้นเนื้อ",
   "summary": [
-   "ลายมือในคีย์: biopsy เมื่อ DRE ผิดปกติ หรือ PSA > 4",
-   "<b>นอกสไลด์:</b> PSA สูงเล็กน้อยโดย DRE ปกติ: ตรวจซ้ำและแยก UTI/ปัจจัยรบกวนก่อน · คิด PSA ×2 ในผู้ที่กิน 5-ARI",
-   "<b>นอกสไลด์:</b> mpMRI ก่อนตัดชิ้นเนื้อ (PI-RADS) — EAU แนะนำหนักแน่น"
+   "ข้อบ่งชี้ prostate biopsy: DRE ผิดปกติ (ไม่ว่า PSA เท่าไร) หรือ PSA สูงยืนยันซ้ำ (&gt; 4 ng/mL แบบดั้งเดิม, PSA density &gt; 0.15, free/total PSA ต่ำ)",
+   "PSA สูงชั่วคราวจาก prostatitis/ UTI, สวนปัสสาวะ, cystoscopy, หลั่งน้ำอสุจิ, ปั่นจักรยาน · 5-ARI ลด PSA ลงราวครึ่งหนึ่ง",
+   "Pre-biopsy mpMRI (PI-RADS 1–5) → PI-RADS ≥ 3 ทำ targeted + systematic biopsy · transperineal เสี่ยงติดเชื้อน้อยกว่า transrectal",
+   "Gleason/ ISUP grade group: GG1 = 3+3 · GG2 = 3+4 · GG3 = 4+3 · GG4 = 8 · GG5 = 9–10 · ร่วมกับ PSA และ cT จัด risk group (very low → very high)",
+   "Staging: bone scan/ CT หรือ PSMA PET ใน unfavorable intermediate และ high risk · low risk ไม่ต้องทำ",
+   "Localized low risk → active surveillance · intermediate/ high → radical prostatectomy หรือ radiotherapy (+ ADT ในกลุ่มเสี่ยงสูง)",
+   "มะเร็งส่วนใหญ่ (~70%) เกิดที่ peripheral zone จึงคลำได้ทาง DRE · BPH เกิดที่ transition zone"
   ],
-  "opinion": "เห็นด้วยกับคีย์ biopsy · ไฟล์จดว่ามีข้อแนวนี้ 2–3 ข้อแต่ไม่ได้แยกจด จึงใส่ 1 ข้อ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน TRUS-Bx (P'Ing ไฮไลต์ DRE + หรือ PSA &gt; 4) · ช้อยในเว็บเขียนเป็น prostate biopsy แบบกว้างเพื่อครอบคลุมแนวทางปัจจุบันที่ทำ MRI ก่อนและนิยม transperineal แทน TRUS แต่หลักการเดียวกัน",
+  "mnemonic": "<b>'DRE แข็ง หรือ PSA &gt; 4 → Biopsy ก่อนทุกอย่าง'</b>",
+  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer (2025); AUA/SUO Guideline: Early Detection of Prostate Cancer (Wei et al., J Urol 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชิ้นเนื้อพบ Gleason 3+3 ปริมาณน้อย PSA 6 ก้อนคลำไม่ได้ ชายอายุ 65 → active surveillance (ตรวจ PSA, MRI, ชิ้นเนื้อซ้ำตามนัด)"
+   "ชาย 62 ปี PSA 5.5 DRE ปกติ ไม่มีอาการ → ตรวจ PSA ซ้ำ ถ้ายังสูง → mpMRI แล้วพิจารณา biopsy",
+   "ชาย 68 ปี PSA 1.8 แต่ DRE คลำได้ก้อนแข็งที่ lobe ซ้าย → prostate biopsy (DRE ผิดปกติเป็นข้อบ่งชี้แม้ PSA ปกติ)",
+   "ชิ้นเนื้อพบ Gleason 3+3 ใน 2 cores PSA 6 cT1c → low risk → active surveillance",
+   "ชาย 70 ปี หลัง TRUS biopsy 2 วัน ไข้สูงหนาวสั่น ความดันต่ำ → post-biopsy sepsis (มักเป็น E. coli ดื้อยา) → IV carbapenem และ resuscitation"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Prostate CA — มีข้อทำนองนี้ 2-3 ข้อ แบบ DRE + หรือ PSA > 4 ทำไงต่อ — TRUS - Bx</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ผู้จดบอกว่ามีข้อแนวนี้ 2–3 ข้อ (DRE+ หรือ PSA &gt;4) แต่ไม่ได้จดแยก → ใส่ 1 ข้อ · แต่งโจทย์",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_33"
   ]
  },
  "MDCU74|RoC|34": {
-  "interp": "High-grade papillary urothelial carcinoma ลุก lamina propria แต่ไม่ถึงกล้ามเนื้อ (T1 high grade = high-risk NMIBC) หลัง TURBT ครบ → ถามการรักษาเสริม",
-  "why": "ผู้จดเขียน <b>BCG</b> · P'Ing ไฮไลต์<br><b>นอกสไลด์:</b> High-risk NMIBC กลับเป็นซ้ำและลุกลามเป็น muscle-invasive ได้มาก · BCG ใส่ในกระเพาะปัสสาวะกระตุ้นภูมิคุ้มกันเฉพาะที่ ลดทั้งการกลับเป็นซ้ำและการลุกลาม · T1 ควรทำ re-TURBT เพื่อยืนยันว่าไม่มีกล้ามเนื้อถูกลุกและตัดก้อนเหลือ แล้วให้ BCG induction + maintenance",
+  "interp": "ชาย 64 ปี สูบบุหรี่ ทำ TURBT ได้ครบ พยาธิเป็น <b>high-grade papillary urothelial carcinoma ลุกถึง lamina propria แต่ไม่ถึง detrusor</b> = <b>pT1 high grade</b> ยังเป็น non-muscle invasive (NMIBC) กลุ่มเสี่ยงสูง — ถามการรักษาเสริม (adjuvant) ที่แนะนำ",
+  "why": "ชั้น<b>กล้ามเนื้อ detrusor (muscularis propria)</b> เป็นเส้นแบ่งการรักษาของมะเร็งกระเพาะปัสสาวะ: Ta, T1, CIS = <b>NMIBC</b> รักษาโดยเก็บกระเพาะปัสสาวะ ส่วน T2 ขึ้นไป = MIBC ต้อง radical cystectomy หรือ trimodality therapy · T1 high grade จัดเป็น <b>high-risk NMIBC</b> มีโอกาสกลับเป็นซ้ำและลุกลามเป็น MIBC สูง · แนวทาง: ① <b>re-TURBT</b> ภายใน 2–6 สัปดาห์ (หาเนื้องอกที่เหลือและ understaging) ② <b>intravesical BCG</b>: induction สัปดาห์ละครั้ง 6 สัปดาห์ (เริ่มหลัง TURBT อย่างน้อย 2 สัปดาห์ เมื่อแผลหายและไม่มีเลือดออก) ตามด้วย <b>maintenance 1–3 ปี</b> · BCG กระตุ้นภูมิคุ้มกันเฉพาะที่ (Th1 response) ลดทั้ง recurrence และ progression ดีกว่า intravesical chemotherapy · ผลข้างเคียง: cystitis, ไข้ต่ำ ๆ, ส่วนน้อยเกิด BCG sepsis · ติดตามด้วย cystoscopy + cytology ทุก 3 เดือนในช่วงแรก · ไฟล์จดว่า <b>\"Superficial bladder cancer โจทย์ให้มาแบบยังไม่ทะลุ muscle — treatment — BCG\"</b> (P'Ing ไฮไลต์)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ผ่าตัดกระเพาะปัสสาวะยังไม่จำเป็นใน T1 ที่ตอบสนองต่อ BCG · จะถูกถ้าก้อนลุกถึงกล้ามเนื้อ (T2) หรือเป็น high-risk NMIBC ที่ไม่ตอบสนองต่อ BCG",
-   "C": "<b>นอกสไลด์:</b> เคมีบำบัดทั้งตัวใช้กับโรคที่ลุกถึงกล้ามเนื้อ · จะถูกถ้าเป็น MIBC (T2–T4a) ที่ไตทำงานดี — ให้ cisplatin-based ก่อนผ่าตัดกระเพาะปัสสาวะ",
-   "D": "<b>นอกสไลด์:</b> ฉายรังสีไม่ใช่การรักษามาตรฐานของ NMIBC · จะถูกถ้าผู้ป่วย MIBC ไม่เหมาะหรือไม่ยอมผ่าตัด → trimodality (TURBT + เคมีร่วมกับรังสี)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ NMIBC ไม่ต้องส่องกล้องติดตาม เพราะทุกกลุ่มความเสี่ยงกลับเป็นซ้ำได้ (แม้ low-risk ก็ต้องส่องที่ราว 3 เดือน)"
+   "B": "Radical cystectomy เป็นมาตรฐานของ MIBC และ NMIBC เสี่ยงสูงมากหรือ BCG ล้มเหลว ไม่ใช่การรักษาแรกของ T1 high grade ทั่วไปที่ยังเก็บกระเพาะปัสสาวะได้ด้วย BCG — จะถูกถ้าเป็นชาย 60 ปี T1 high grade กลับเป็นซ้ำภายใน 6 เดือนหลังได้ BCG induction + maintenance ครบ (BCG-unresponsive) และร่างกายแข็งแรงพอผ่าตัด",
+   "C": "Systemic chemotherapy (cisplatin-based) ใช้เป็น neoadjuvant ก่อน radical cystectomy ใน MIBC หรือในโรคแพร่กระจาย ยาทางหลอดเลือดไม่ได้ช่วยควบคุมเนื้องอกที่เยื่อบุผิวใน NMIBC — จะถูกถ้าเป็นชาย 62 ปี TURBT พบมะเร็งลุกถึง detrusor (cT2N0M0) ไตทำงานดี → neoadjuvant gemcitabine-cisplatin แล้ว radical cystectomy",
+   "D": "External beam radiotherapy ใช้ใน trimodality therapy (maximal TURBT + concurrent chemoradiation) สำหรับ MIBC ที่ต้องการเก็บกระเพาะปัสสาวะหรือผ่าตัดไม่ได้ ไม่ใช่การรักษาเสริมของ NMIBC — จะถูกถ้าเป็นชาย 80 ปี MIBC cT2 ก้อนเดียว ไม่มี hydronephrosis ไม่มี CIS กว้าง และมีโรคหัวใจจนผ่าตัดใหญ่ไม่ได้",
+   "E": "การเฝ้าดูโดยไม่ส่องกล้องไม่มีที่ใช้ในมะเร็งกระเพาะปัสสาวะทุกระดับ เพราะกลับเป็นซ้ำบ่อยมาก ทุกรายต้อง cystoscopy ที่ 3 เดือน — จะถูกถ้าเป็นหญิง 24 ปี มีปัสสาวะแสบขัดและเลือดปนจาก hemorrhagic cystitis UA พบ WBC มาก หลังยาปฏิชีวนะอาการหายและ UA ซ้ำปกติ จึงไม่ต้องส่องกล้อง"
   },
-  "trap": "T1 ยังเป็น non-muscle invasive — อย่าตัดกระเพาะปัสสาวะทันที · แต่ high grade ต้อง re-TURBT และ BCG ไม่ใช่แค่ติดตาม",
+  "trap": "คำว่า high grade และ \"invading\" ทำให้รีบเลือก radical cystectomy หรือ chemotherapy · ต้องถามว่า<b>ถึง detrusor หรือยัง</b>: lamina propria = T1 ยังเป็น NMIBC รักษาด้วย re-TURBT + BCG · คำว่า superficial bladder cancer ในไฟล์คือชื่อเก่าของ NMIBC",
   "summary": [
-   "<b>นอกสไลด์:</b> NMIBC = Ta, T1, CIS · low risk → ยาเคมีใส่กระเพาะครั้งเดียวหลัง TURBT · intermediate → เคมีหรือ BCG · high risk → BCG 1–3 ปี",
-   "<b>นอกสไลด์:</b> ข้อห้าม BCG เด็ดขาด: ภายในราว 2 สัปดาห์หลัง TURBT · gross hematuria · ใส่สายสวนแล้วบาดเจ็บ · UTI ที่มีอาการ",
-   "<b>นอกสไลด์:</b> สูบบุหรี่เป็นปัจจัยเสี่ยงหลัก — ให้เลิกบุหรี่"
+   "NMIBC = Ta (papillary ไม่ลุก) + T1 (lamina propria) + CIS (แบนเรียบ high grade) ราว 75% ของผู้ป่วยใหม่ · MIBC = ≥ T2 (detrusor)",
+   "High-risk NMIBC: T1 high grade, CIS, Ta high grade ขนาดใหญ่/ หลายก้อน/ ซ้ำ · very high risk: T1 HG + CIS, LVI, variant histology, prostatic urethra",
+   "re-TURBT 2–6 สัปดาห์: T1 ทุกราย หรือชิ้นเนื้อแรกไม่มี detrusor muscle · พบเนื้องอกค้างและ upstaging ได้บ่อย",
+   "BCG: induction 6 สัปดาห์ + maintenance (3 สัปดาห์ที่ 3, 6, 12 เดือน แล้วทุก 6 เดือน) 1–3 ปี · ห้ามให้ภายใน 2 สัปดาห์หลัง TURBT, gross hematuria, traumatic catheterization, UTI มีอาการ",
+   "Low risk (Ta low grade ก้อนเดียว &lt; 3 cm) → single immediate instillation ของ chemotherapy (mitomycin C/ gemcitabine) ภายใน 24 ชม.",
+   "BCG-unresponsive high risk → radical cystectomy · ผ่าตัดไม่ได้/ ไม่ต้องการ → pembrolizumab, nadofaragene หรือ intravesical chemotherapy ร่วม",
+   "ปัจจัยเสี่ยง urothelial carcinoma: บุหรี่ (สำคัญที่สุด), aromatic amines ในอุตสาหกรรมสีย้อม/ ยาง, cyclophosphamide, pelvic radiation · schistosomiasis → SCC"
   ],
-  "opinion": "เห็นด้วยกับคีย์ BCG · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน BCG (P'Ing ไฮไลต์) · โจทย์ในเว็บกำหนด high-grade T1 ที่ตัดครบแล้ว จึงเป็น high-risk NMIBC ซึ่งมาตรฐานคือ intravesical BCG (ในทางปฏิบัติควรทำ re-TURBT ก่อน แต่ไม่มีในช้อย)",
+  "mnemonic": "<b>'ไม่ถึง Detrusor = NMIBC → T1 HG ได้ BCG'</b>",
+  "guide": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (2025); AUA/SUO Guideline: Diagnosis and Treatment of Non-Muscle Invasive Bladder Cancer (Holzbeierlein et al., J Urol 2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยได้ BCG แล้วมีไข้สูงหนาวสั่นนานกว่า 48 ชม. ซึมลง → BCG sepsis หยุด BCG ให้ยาต้านวัณโรคร่วมกับ steroid"
+   "ชาย 70 ปี TURBT พบ Ta low grade ก้อนเดียว 1.5 cm → single immediate instillation ของ mitomycin C ภายใน 24 ชม. แล้ว cystoscopy ที่ 3 เดือน",
+   "หลังให้ BCG ครั้งที่ 2 ผู้ป่วยไข้ 39.5°C หนาวสั่น ความดันต่ำ → BCG sepsis → หยุด BCG ให้ยาต้านวัณโรค (isoniazid, rifampicin, ethambutol) ± steroid",
+   "cystoscopy พบเยื่อบุแดงกำมะหยี่ cytology high grade ชิ้นเนื้อเป็น CIS → high-risk NMIBC → BCG induction + maintenance",
+   "ทำไม T1 ต้อง re-TURBT → การตัดครั้งแรกอาจไม่ได้กล้ามเนื้อหรือเหลือเนื้องอก ทำให้ประเมินต่ำกว่าความจริง และพบ T2 ที่ซ่อนอยู่ได้"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 4 — ตัวพิมพ์: <b>Superficial bladder cancer โจทย์ให้มาแบบยังไม่ทะลุ muscle นู่นนี่ — treatment — BCG</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ว่าโจทย์ให้ยังไม่ทะลุ muscle → BCG → แต่งโจทย์ (ข้อคล้ายกับ 76A ข้อเลข 1)",
+  "src": "S74CQ · หน้า 4",
+  "kimg": [
+   "kp74c_34"
   ]
  },
  "MDCU74|RoC|35": {
-  "interp": "เด็ก 3 ขวบรูดหนังหุ้มไม่ลง ไม่มี ballooning ไม่ติดเชื้อ ปัสสาวะปกติ หนังหุ้มไม่มีแผลเป็น = physiologic phimosis → ถามการจัดการ",
-  "why": "ผู้จดเขียน <b>\"Phimosis ยังไม่ 4 ขวบ - Follow up\"</b> · P'Ing ไฮไลต์<br><b>นอกสไลด์:</b> หนังหุ้มยึดกับ glans เป็นเรื่องปกติในเด็กเล็ก และจะค่อย ๆ แยกเองเมื่อโต (ช่วยด้วยการแข็งตัวและเศษเซลล์สะสม) · ไม่มีอาการและไม่มีแผลเป็น → ให้ความมั่นใจ สอนทำความสะอาดโดยไม่ดึงแรง",
+  "interp": "เด็กชาย 3 ปี รูดหนังหุ้มปลายองคชาตไม่ได้ แต่<b>ไม่มีอาการผิดปกติ</b> (ไม่ป่องตอนปัสสาวะ ไม่ติดเชื้อ ปัสสาวะปกติ) และผิว prepuce ปกติไม่มีแผลเป็น = <b>physiologic phimosis</b> — ถามการดูแลที่เหมาะสม ต้องแยกจาก pathologic phimosis ที่ต้องรักษา",
+  "why": "ทารกแรกเกิดเกือบทุกคนรูดหนังหุ้มไม่ได้เพราะเยื่อบุด้านในของ prepuce ยังติดกับ glans (preputial adhesions) · การแยกตัวเกิดเองตามธรรมชาติจากการแข็งตัวขององคชาตและการสะสมของ smegma เป็นปีกว่าจะรูดได้: ส่วนใหญ่ราว 90% รูดได้เมื่ออายุ 3 ปี เหลือรูดไม่ได้ราว 8% ที่อายุ 6–7 ปี และราว 1% เมื่ออายุ 16–17 ปี · <b>physiologic phimosis</b> ผิว prepuce ปกติ เวลาดึงเห็นปลายรูเปิดบานเป็นดอกไม้ ไม่มีวงแผลเป็นสีขาว → <b>ให้ความมั่นใจและติดตาม</b> สอนผู้ปกครองทำความสะอาดภายนอก ไม่ต้องรูดแรง · <b>pathologic phimosis</b>: วงแผลเป็นสีขาวแข็งจาก balanitis xerotica obliterans (lichen sclerosus) หรือหลังการอักเสบ/ ฉีกขาดจากการรูดแรง → ต้องรักษา · ballooning ตอนปัสสาวะเพียงอย่างเดียวไม่ใช่ข้อบ่งชี้ผ่าตัด · ถ้ามีอาการ (balanoposthitis ซ้ำ, ปัสสาวะลำบาก) ใช้ <b>topical corticosteroid</b> (เช่น betamethasone 0.05% วันละ 2 ครั้ง 4–8 สัปดาห์) ก่อน · circumcision เมื่อ pathologic phimosis, balanoposthitis ซ้ำ, หรือ UTI ซ้ำร่วมกับความผิดปกติของทางเดินปัสสาวะ · ไฟล์จดว่า <b>\"Phimosis ยังไม่ 4 ขวบ — Follow up\"</b> (P'Ing ไฮไลต์)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ขลิบไม่จำเป็นใน physiologic phimosis · จะถูกถ้าเด็กมี febrile UTI ซ้ำร่วมกับ VUR grade สูงหรือความผิดปกติของทางเดินปัสสาวะ (ขลิบลดโอกาส UTI)",
-   "C": "<b>นอกสไลด์:</b> การดึงแรงทำให้หนังหุ้มฉีกเกิดแผลเป็น (กลายเป็น pathological phimosis) หรือรูดค้าง · ไม่มีสถานการณ์ใดที่แนะนำ เพราะทำร้ายเนื้อเยื่อปกติ",
-   "D": "<b>นอกสไลด์:</b> Dorsal slit ใช้แก้หนังหุ้มที่รัดค้าง · จะถูกถ้าเด็กมี paraphimosis ที่ดันกลับด้วยมือไม่สำเร็จ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีการติดเชื้อจึงไม่ต้องใช้ยา · จะถูกถ้าเด็กมีไข้ ปัสสาวะแสบ ตรวจปัสสาวะพบการติดเชื้อ (UTI)"
+   "B": "Circumcision เป็นการรักษา pathologic phimosis (BXO/ แผลเป็น), balanoposthitis ซ้ำ, paraphimosis ซ้ำ หรือ UTI ซ้ำที่มีความผิดปกติทางเดินปัสสาวะ เด็กที่ไม่มีอาการและผิวปกติไม่ต้องผ่าตัด — จะถูกถ้าเป็นเด็กชาย 8 ปี ปัสสาวะลำบากต้องเบ่ง ปลาย prepuce เป็นวงแผลเป็นสีขาวแข็ง ใช้ steroid cream 8 สัปดาห์ไม่ดีขึ้น (lichen sclerosus)",
+   "C": "การรูดหนังหุ้มแรง ๆ ทำให้ prepuce ฉีกเป็นแผล เจ็บ เกิดแผลเป็นจนกลายเป็น pathologic phimosis จริง และเสี่ยง paraphimosis ถ้ารูดค้างไว้ — จะถูกถ้าเป็นชายวัยรุ่น 16 ปีที่หนังหุ้มรูดได้ปกติ ได้รับคำแนะนำให้รูดลงเบา ๆ ทำความสะอาด glans ขณะอาบน้ำแล้วดึงกลับทุกครั้ง",
+   "D": "Dorsal slit คือการตัดผ่าหนังหุ้มด้านบนตามแนวยาว ใช้เป็นหัตถการฉุกเฉินเมื่อ paraphimosis ดันกลับไม่ได้หรือ phimosis รุนแรงจนปัสสาวะไม่ออกในสถานที่ที่ทำ circumcision ไม่ได้ — จะถูกถ้าเป็นเด็กชาย 6 ปี หนังหุ้มถูกรูดค้างหลัง glans บวมแดงมา 6 ชม. บีบดันกลับด้วยมือแล้วไม่สำเร็จ",
+   "E": "ยาปฏิชีวนะชนิดกินใช้กับ balanoposthitis ที่มีอาการติดเชื้อชัด (บวมแดง ปวด มีหนอง) หรือ UTI ไม่ใช่การรักษาหนังหุ้มที่รูดไม่ได้โดยไม่มีการอักเสบ — จะถูกถ้าเป็นเด็กชาย 4 ปี หนังหุ้มปลายบวมแดงร้อน ปวด มีหนองไหลออกจากปลาย มีไข้ต่ำ ๆ (balanoposthitis จาก Streptococcus/ Staphylococcus)"
   },
-  "trap": "รูดไม่ลงในเด็กเล็กไม่ใช่โรค — ดูว่ามีแผลเป็นหรือมีภาวะแทรกซ้อนหรือไม่ ถ้าไม่มีให้เฝ้าดู",
+  "trap": "ผู้ปกครองและแพทย์หลายคนมองว่ารูดไม่ได้ = phimosis ต้องขลิบ หรือแนะนำให้รูดทุกวัน · หลักคือ<b>อายุน้อยกว่า 4–5 ปี + ไม่มีอาการ + ผิวปกติ = physiologic</b> → ติดตาม · ต้องดูว่ามีวงแผลเป็นสีขาว (pathologic) หรือมีอาการซ้ำก่อนพิจารณาการรักษา",
   "summary": [
-   "<b>นอกสไลด์:</b> หนังหุ้มรูดได้เต็มที่เพิ่มขึ้นตามอายุ — ส่วนใหญ่รูดได้ก่อนหรือช่วงวัยรุ่น",
-   "<b>นอกสไลด์:</b> Physiologic phimosis ที่มีอาการ (ballooning รบกวน, balanoposthitis) → steroid ทา 4–8 สัปดาห์ก่อน"
+   "Physiologic phimosis: preputial adhesions ปกติในเด็กเล็ก แยกเองตามอายุ · ส่วนใหญ่รูดได้เมื่อ 3 ปี เหลือราว 1% ในวัยรุ่นตอนปลาย",
+   "Pathologic phimosis: วงแผลเป็นสีขาวแข็ง (lichen sclerosus/ BXO) หรือหลังการอักเสบ/ ฉีกขาด · มีปัสสาวะลำบาก ปัสสาวะออกเป็นหยด balanoposthitis ซ้ำ",
+   "Ballooning ตอนปัสสาวะในเด็กที่ไม่มีอาการอื่นไม่ใช่ข้อบ่งชี้ผ่าตัด · smegma pearls ใต้หนังหุ้มเป็นเรื่องปกติ",
+   "มีอาการ/ ไม่แยกในเด็กโต → topical corticosteroid (betamethasone 0.05% วันละ 2 ครั้ง 4–8 สัปดาห์) ร่วมกับการรูดเบา ๆ",
+   "ข้อบ่งชี้ circumcision: pathologic phimosis/ BXO, balanoposthitis ซ้ำ, paraphimosis ซ้ำ, UTI ซ้ำร่วมกับ VUR ระดับสูงหรือ posterior urethral valves",
+   "ข้อห้ามขลิบในทารก: hypospadias, chordee, buried/ webbed penis (ต้องเก็บ prepuce ไว้ใช้ซ่อม), bleeding disorder ที่ยังไม่เตรียม",
+   "Paraphimosis = หนังหุ้มรูดค้างหลัง glans บวมรัด → ภาวะฉุกเฉิน → ลดบวม (กดบีบ, น้ำแข็ง) แล้วดันกลับ ไม่ได้ → dorsal slit"
   ],
-  "opinion": "เห็นด้วยกับคีย์ follow-up · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน Follow up (P'Ing ไฮไลต์) · โจทย์ในเว็บระบุอายุ 3 ปี ไม่มี ballooning การติดเชื้อ หรือแผลเป็น ทำให้เป็น physiologic phimosis ชัดเจน ซึ่งแนวทาง EAU/ESPU แนะนำให้ติดตามโดยไม่ต้องรักษา",
+  "mnemonic": "<b>'เด็กเล็ก รูดไม่ได้ ไม่มีอาการ ผิวปกติ → รอได้ (Physiologic)'</b>",
+  "guide": "EAU/ESPU Guidelines on Paediatric Urology (2025) — Phimosis; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 4 ขวบมีก้อนสีขาวนิ่มใต้หนังหุ้มที่รูดไม่ลง ไม่เจ็บ ไม่แดง → smegma pearl (ปกติ) ไม่ต้องรักษา"
+   "เด็กชาย 7 ปี หนังหุ้มอักเสบซ้ำ 3 ครั้งในปีนี้ ปลายหนังหุ้มตีบแต่ไม่มีแผลเป็นขาว → topical steroid 4–8 สัปดาห์ ไม่ดีขึ้น → circumcision",
+   "ทารกชาย 2 เดือน มี VUR grade V ทั้งสองข้างและ febrile UTI ซ้ำ → พิจารณา circumcision ลดความเสี่ยง UTI",
+   "ทารกแรกเกิดรูเปิดท่อปัสสาวะอยู่ใต้ glans หนังหุ้มด้านล่างไม่ครบ (hooded prepuce) → hypospadias → ห้ามขลิบ ส่งศัลยแพทย์เด็ก",
+   "เด็กชาย 5 ปี หนังหุ้มรูดค้างหลังรูดทำความสะอาด glans บวมม่วง → paraphimosis → ลดบวมแล้วดันกลับทันที"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 4 — ตัวพิมพ์: <b>Phimosis ยังไม่ 4 ขวบ — Follow up</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Phimosis ยังไม่ 4 ขวบ - Follow up\" → แต่งโจทย์",
+  "src": "S74CQ · หน้า 4",
+  "kimg": [
+   "kp74c_35"
   ]
  },
  "MDCU74|RoC|36": {
-  "interp": "เด็กหญิง 2 ขวบ febrile UTI 2 ครั้ง US ไตบวมน้ำเล็กน้อยด้านซ้าย → ถามการตรวจมาตรฐานในการวินิจฉัยและแบ่ง grade ของ VUR",
-  "why": "ไฟล์จดแค่ <b>\"มีออก VUR\"</b> — Claude แต่งโจทย์ทั้งข้อ<br><b>นอกสไลด์:</b> VCUG ใส่สารทึบรังสีเข้ากระเพาะปัสสาวะทางสายสวนแล้วถ่ายภาพขณะปัสสาวะ เห็นการไหลย้อนขึ้นท่อไตโดยตรงและระดับการขยาย จึงใช้แบ่ง grade I–V · ในเด็กชายเห็นท่อปัสสาวะส่วนหลัง (posterior urethral valve) ด้วย",
+  "interp": "เด็กหญิง 2 ปี มี <b>febrile UTI 2 ครั้ง</b> และ renal ultrasound พบ mild hydronephrosis ซ้าย — ถามการตรวจที่เป็น<b>มาตรฐาน (gold standard) ในการวินิจฉัยและจัดระดับ vesicoureteral reflux (VUR)</b> ต้องแยกบทบาทของการตรวจทางรังสีแต่ละชนิดในเด็ก UTI",
+  "why": "<b>VUR</b> คือปัสสาวะไหลย้อนจากกระเพาะปัสสาวะขึ้นท่อไตเพราะ<b>อุโมงค์ของท่อไตในผนังกระเพาะปัสสาวะ (intramural tunnel) สั้น</b>เกินไป (primary) หรือจากความดันสูงในกระเพาะปัสสาวะ (secondary เช่น posterior urethral valves, neurogenic bladder) · พบราว 30–40% ของเด็กที่มี febrile UTI และเป็นปัจจัยของ pyelonephritis ซ้ำและ renal scarring · <b>Voiding cystourethrography (VCUG)</b> ใส่สายสวนฉีดสารทึบรังสีเข้ากระเพาะปัสสาวะแล้วถ่ายภาพขณะปัสสาวะ เป็น<b>มาตรฐานในการวินิจฉัยและจัด grade I–V</b> (International Reflux Study) พร้อมดูท่อปัสสาวะ (เช่น posterior urethral valves ในเด็กชาย) และรูปร่างกระเพาะปัสสาวะ · ข้อบ่งชี้ VCUG (AAP): หลัง febrile UTI ครั้งที่สอง หรือครั้งแรกถ้า ultrasound ผิดปกติ (hydronephrosis, scarring) · ทางเลือกไม่ใช้รังสีคือ contrast-enhanced voiding urosonography · รักษา: แก้ bladder-bowel dysfunction, continuous antibiotic prophylaxis (RIVUR trial ลด UTI ซ้ำ), endoscopic injection หรือ ureteral reimplantation ใน grade สูงที่ติดเชื้อซ้ำ · ไฟล์จดไว้เพียง <b>\"มีออก VUR\"</b> โดยไม่มีโจทย์หรือช้อย",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> DMSA ดูแผลเป็นที่เนื้อไตและ pyelonephritis ไม่เห็นการไหลย้อน · จะถูกถ้าต้องการหาแผลเป็นที่ไตหลัง febrile UTI (ทำหลังติดเชื้อราว 4–6 เดือน)",
-   "C": "<b>นอกสไลด์:</b> Diuretic renogram ดูการระบายและการทำงานแยกข้าง · จะถูกถ้าเด็กมีไตบวมน้ำมากโดยไม่มีท่อไตขยาย สงสัย UPJ obstruction",
-   "D": "<b>นอกสไลด์:</b> CT urography ให้รังสีสูงและไม่เห็นการไหลย้อนขณะปัสสาวะ · จะถูกถ้าผู้ใหญ่ปัสสาวะเป็นเลือดที่มองเห็นได้ ต้องหานิ่วและเนื้องอกของทางเดินปัสสาวะส่วนบน",
-   "E": "<b>นอกสไลด์:</b> Cystoscopy ดูรูเปิดท่อไตได้แต่ไม่ได้วัดการไหลย้อน · จะถูกถ้าใช้เป็นช่องทางฉีดสารเพิ่มปริมาตร (endoscopic injection) ที่รูเปิดท่อไตเพื่อรักษา VUR"
+   "B": "DMSA scan (Tc-99m dimercaptosuccinic acid) จับกับ proximal tubule เป็นมาตรฐานในการดู<b>เนื้อไตอักเสบเฉียบพลันและ renal scarring</b> และวัด split function แต่ไม่เห็นการไหลย้อน — จะถูกถ้าเป็นเด็กหญิง 4 ปี มี VUR grade IV และ febrile UTI 3 ครั้ง ต้องการประเมินว่ามีแผลเป็นที่เนื้อไตหรือไม่ก่อนตัดสินใจผ่าตัด (ทำห่างจากการติดเชื้อ 4–6 เดือน)",
+   "C": "Diuretic renography (MAG3 + furosemide) ใช้แยก<b>การอุดตัน</b>จาก hydronephrosis ที่ไม่อุด และวัด split renal function ไม่ได้วินิจฉัย reflux — จะถูกถ้าเป็นทารก 3 เดือน antenatal hydronephrosis ข้างซ้าย ultrasound หลังคลอด APD 25 mm ไม่มี ureter ขยาย สงสัย ureteropelvic junction obstruction",
+   "D": "CT urography ใช้รังสีสูงไม่เหมาะกับการประเมินเด็ก UTI และไม่ได้ถ่ายภาพขณะปัสสาวะจึงไม่เห็นการไหลย้อน ใช้หลักในผู้ใหญ่ที่มี hematuria — จะถูกถ้าเป็นชาย 65 ปี สูบบุหรี่ มี painless gross hematuria ต้องดู upper tract หามะเร็ง (ร่วมกับ cystoscopy)",
+   "E": "Cystoscopy เห็นรูท่อไต (ตำแหน่งและรูปร่าง) และใช้ทำ endoscopic injection (Deflux) รักษา VUR แต่ไม่ได้วินิจฉัยหรือจัด grade reflux — จะถูกถ้าเป็นเด็กหญิง 5 ปี มี VUR grade III ที่ยังติดเชื้อแม้ได้ยาป้องกัน ผู้ปกครองเลือกการรักษาแบบส่องกล้องฉีดสารเพิ่มปริมาตรใต้รูท่อไต"
   },
-  "trap": "DMSA ดูแผลเป็น ไม่ได้ดู reflux · VCUG คือการตรวจเดียวที่แบ่ง grade VUR ได้",
+  "trap": "DMSA และ VCUG ใช้บ่อยคู่กันในเด็ก UTI จึงสับสนบทบาท · จำว่า <b>VCUG ดู reflux (กระเพาะปัสสาวะ → ท่อไต ขณะปัสสาวะ)</b> ส่วน <b>DMSA ดูเนื้อไต (scar/ pyelonephritis)</b> และ <b>MAG3 ดูการอุดตัน</b> · ultrasound เป็นการตรวจแรกแต่ไวต่ำต่อ VUR",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ VCUG: febrile UTI ครั้งที่สอง หรือ US ผิดปกติ (ไตบวมน้ำ แผลเป็น) หลัง febrile UTI ครั้งแรก",
-   "<b>นอกสไลด์:</b> Grade I ไหลถึงท่อไตไม่ขยาย · II ถึงกรวยไตไม่ขยาย · III ขยายเล็กน้อย · IV ขยายปานกลาง · V ขยายมาก ท่อไตคดเคี้ยว",
-   "<b>นอกสไลด์:</b> Primary VUR จากท่อไตส่วนที่อยู่ในผนังกระเพาะสั้น · secondary จาก PUV หรือ neurogenic bladder"
+   "VUR: primary จาก intramural tunnel สั้น (ความยาว tunnel ต่อเส้นผ่าศูนย์กลางท่อไตควร ~5:1) · secondary จากความดันสูง (PUV, neurogenic bladder)",
+   "Grade (IRS): I ท่อไตอย่างเดียว · II ถึงกรวยไตไม่ขยาย · III ขยายเล็กน้อย fornix ทู่ · IV ขยายปานกลาง ท่อไตคดเคี้ยว · V ขยายมาก papillary impression หายไป",
+   "เด็ก 2–24 เดือนหลัง febrile UTI แรก → renal-bladder ultrasound · VCUG เมื่อ US ผิดปกติ หรือหลัง febrile UTI ครั้งที่ 2 (AAP)",
+   "DMSA = renal scarring/ acute pyelonephritis · MAG3 diuretic renogram = obstruction + split function · VCUG = reflux + ท่อปัสสาวะ",
+   "รักษา: แก้ bladder-bowel dysfunction (ท้องผูก กลั้นปัสสาวะ) + continuous antibiotic prophylaxis (TMP-SMX หรือ nitrofurantoin) · grade ต่ำในเด็กเล็กหายเองได้บ่อย",
+   "ผ่าตัด: breakthrough febrile UTI แม้ให้ยา, grade IV–V ที่ไม่หาย, scarring ใหม่ → endoscopic injection หรือ ureteral reimplantation (Cohen cross-trigonal)",
+   "เด็กชายที่มี hydronephrosis สองข้าง กระเพาะปัสสาวะหนา ปัสสาวะเบา → VCUG หา posterior urethral valves (ภาพท่อปัสสาวะส่วน posterior ขยาย)"
   ],
-  "opinion": "ไฟล์ไม่มีโจทย์และคีย์ — Claude แต่งโจทย์ให้ตอบ VCUG ซึ่งเป็นมาตรฐาน · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีโจทย์ ช้อย หรือคีย์ ผู้จดเขียนเพียงว่ามีข้อเรื่อง VUR · โจทย์ในเว็บแต่งให้ถามการตรวจที่เป็นมาตรฐานของการวินิจฉัยและจัด grade ซึ่งคำตอบมาตรฐานในตำราทุกเล่มคือ VCUG",
+  "mnemonic": "<b>'Reflux ต้องดูตอน Void → VCUG · Scar → DMSA · อุดตัน → MAG3'</b>",
+  "guide": "AAP Clinical Practice Guideline: Urinary Tract Infection in Febrile Infants and Children 2–24 Months (Pediatrics 2011, reaffirmed 2016); EAU/ESPU Guidelines on Paediatric Urology (2025) — Vesicoureteral reflux",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกชายแรกเกิด US ก่อนคลอดพบไตบวมน้ำสองข้าง กระเพาะปัสสาวะผนังหนา ปัสสาวะไหลเป็นหยด → VCUG หา posterior urethral valve"
+   "ทารกชาย 2 เดือน hydronephrosis สองข้าง กระเพาะปัสสาวะผนังหนา ปัสสาวะออกเป็นหยด → VCUG → posterior urethral valves → endoscopic valve ablation",
+   "เด็ก VUR grade II อายุ 1 ปี ไม่มีติดเชื้อซ้ำหลังให้ยาป้องกัน → ติดตาม ส่วนใหญ่หายเองตามอายุ",
+   "เด็ก VUR grade V สองข้าง มี febrile UTI ซ้ำแม้ได้ยาป้องกัน DMSA พบ scar ใหม่ → ureteral reimplantation",
+   "เด็กหญิง 6 ปี VUR ร่วมกับท้องผูกเรื้อรังและกลั้นปัสสาวะ → แก้ bladder-bowel dysfunction ก่อน (ท้องผูกทำให้ UTI ซ้ำและ VUR หายช้า)"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 4 — ตัวพิมพ์: <b>มีออก VUR (ผู้จดจำได้แค่ว่ามีข้อเรื่องนี้)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่ \"มีออก VUR\" ไม่มีโจทย์/ช้อย → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S74CQ · หน้า 4",
+  "kimg": [
+   "kp74c_36"
   ]
  },
  "MDCU74|RoD|1": {
-  "interp": "ทารก 6 สัปดาห์ conjugated hyperbilirubinemia อุจจาระซีด ทำ US · ข้อ FALSE: ข้อความใดเกี่ยวกับ triangular cord sign ที่ <b>ผิด</b>",
-  "why": "P'Ing แปะสไลด์ <b>Ultrasonography (triangular cord sign, specificity)</b> + The diagnosis of BA — Claude แต่งช้อยและเฉลย<br><b>นอกสไลด์:</b> Triangular cord sign คือเนื้อพังผืดเหลือของท่อน้ำดีที่ขั้วตับ เห็นเป็นแถบสะท้อนเสียงหน้าต่อจุดแยกของ portal vein · จำเพาะสูงแต่ความไวปานกลาง (ขึ้นกับผู้ตรวจ) → พบแล้วสนับสนุน BA มาก แต่ไม่พบก็ยังเป็น BA ได้ ต้องตรวจต่อ",
+  "interp": "ทารก 6 สัปดาห์ มี <b>conjugated hyperbilirubinemia และอุจจาระซีด (acholic stool)</b> = สงสัย <b>biliary atresia</b> ทำ ultrasound — ถามข้อความที่<b>ผิด</b>เกี่ยวกับ <b>triangular cord sign</b> ต้องรู้ความหมาย ตำแหน่งวัด และความไว/ ความจำเพาะของสัญญาณนี้",
+  "why": "Biliary atresia เป็นการอักเสบและพังผืดอุดท่อน้ำดีนอกตับ ทำให้เกิด cholestatic jaundice ในทารก ต้องวินิจฉัยเร็วเพราะ<b>ผล Kasai portoenterostomy ดีที่สุดเมื่อทำก่อนอายุ 60 วัน</b> · <b>triangular cord sign</b> คือแถบ echogenic รูปสามเหลี่ยม/ ท่อ ที่ porta hepatis <b>ด้านหน้าต่อการแยกแขนงของ portal vein</b> (วัดที่ผนังด้านหน้าของ right portal vein หนาราว ≥ 3–4 mm) เป็นภาพของ <b>fibrous remnant</b> ของท่อน้ำดีที่ตีบตัน · สัญญาณนี้ <b>จำเพาะสูง</b> (specificity ใกล้ 100% ในหลายการศึกษา) แต่<b>ความไวปานกลาง</b> จึง<b>ไม่พบก็ไม่ได้ตัด biliary atresia ออก</b> — ข้อความ C จึงผิด · เมื่อใช้ร่วมกับ<b>ความผิดปกติของถุงน้ำดี</b> (เล็ก &lt; 1.5 cm, ไม่มี, ผนังไม่เรียบ, ไม่หดตัวหลังกินนม) ความแม่นยำสูงขึ้น · การวินิจฉัยยืนยันคือ <b>intraoperative cholangiogram</b> ± liver biopsy (bile ductular proliferation, bile plugs, portal fibrosis) · HIDA scan ที่ไม่มีสารออกลำไส้ใน 24 ชม. ไวสูงแต่ไม่จำเพาะ · ไฟล์จดเพียงหัวข้อ <b>\"Which is false about finding triangular cord sign by us\"</b> และ P'Ing แปะสไลด์ Ultrasonography (triangular cord sign, specificity) กับ The diagnosis of BA",
   "wrong": {
-   "A": "ข้อความถูก (สไลด์ในคีย์) · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะใน BA ท่อน้ำดีนอกตับถูกแทนที่ด้วยพังผืด ซึ่งเป็นสิ่งที่ US เห็น",
-   "B": "ข้อความถูก (สไลด์ในคีย์: specificity สูง) · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะแถบพังผืดที่ขั้วตับแทบไม่พบในภาวะท่อน้ำดีคั่งจากสาเหตุอื่น",
-   "D": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะพังผืดอยู่ที่ขั้วตับตรงหน้าจุดแยกของ portal vein ซึ่งเป็นตำแหน่งวัดมาตรฐาน",
-   "E": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะถุงน้ำดีเล็ก รูปร่างผิดปกติ หรือไม่หดตัวหลังกินนม เป็นอีกสัญญาณของ BA เมื่อใช้ร่วมกันจึงแม่นขึ้น"
+   "A": "ข้อความถูก: triangular cord คือภาพ ultrasound ของเนื้อพังผืด (fibrous ductal remnant) ที่แทนที่ท่อน้ำดีบริเวณ porta hepatis ในทารก biliary atresia — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับสิ่งที่ศัลยแพทย์เห็นและตัดออกที่ porta hepatis ระหว่างทำ Kasai ในทารก 7 สัปดาห์ที่ดีซ่านและอุจจาระสีขาว",
+   "B": "ข้อความถูก: triangular cord sign มีความจำเพาะสูงมากต่อ biliary atresia เมื่อพบจึงช่วยสนับสนุนการผ่าตัดสำรวจ แต่ความไวไม่สูง — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 5 สัปดาห์ ดีซ่าน direct bilirubin 6 mg/dL อุจจาระซีด ultrasound พบ triangular cord หนา 5 mm ถุงน้ำดีเล็ก ซึ่งควรส่งผ่าตัด cholangiogram",
+   "D": "ข้อความถูก: วัดความหนาของแถบ echogenic ด้านหน้าต่อ portal vein bifurcation (ผนังด้านหน้าของ right portal vein) ค่าตัดที่ใช้บ่อยราว 3–4 mm — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเทคนิค ultrasound ที่รังสีแพทย์ใช้ในทารก 8 สัปดาห์สงสัย biliary atresia โดยวาง probe ตามแนว portal vein ในท่านอนหงาย",
+   "E": "ข้อความถูก: ถุงน้ำดีผิดปกติ (เล็ก ยาว &lt; 1.5 cm, ผนังไม่เรียบ, ไม่มีเยื่อบุชัด, ไม่หดตัวหลังกินนม) ร่วมกับ triangular cord ทำให้ความแม่นยำในการวินิจฉัยสูงขึ้น — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 6 สัปดาห์ที่งดนม 4 ชม.แล้ว ultrasound ไม่เห็นถุงน้ำดีปกติ ร่วมกับ triangular cord sign"
   },
-  "trap": "จำเพาะสูง ≠ ไวสูง — การตรวจที่จำเพาะสูงใช้ยืนยันเมื่อพบ แต่ใช้ตัดโรคเมื่อไม่พบไม่ได้",
+  "trap": "ข้อแบบ \"false\" ที่ทุกช้อยฟังเป็นวิชาการทำให้สับสน · ประเด็นที่ต้องจับคือ<b>จำเพาะสูง ≠ ไวสูง</b>: เจอแล้วเชื่อได้ แต่ไม่เจอก็ยังเป็นได้ · ทารกที่ดีซ่านแบบ conjugated + อุจจาระซีดต้องสืบค้นต่อจนได้ cholangiogram แม้ ultrasound ไม่เห็น triangular cord",
   "summary": [
-   "สไลด์ในคีย์: triangular cord sign specificity สูง",
-   "<b>นอกสไลด์:</b> ลำดับวินิจฉัย BA: direct bilirubin สูง + อุจจาระซีด → US (triangular cord, ถุงน้ำดีผิดปกติ) → HIDA (สารไม่ลงลำไส้) ± ตัดชิ้นเนื้อตับ → intraoperative cholangiogram ยืนยัน",
-   "<b>นอกสไลด์:</b> HIDA ที่สารลงลำไส้ได้ตัด BA ได้ (ความไวสูง) แต่ไม่ลงไม่ได้ยืนยัน BA"
+   "ทารกดีซ่านเกิน 2 สัปดาห์ (3 สัปดาห์ในทารกกินนมแม่) → ตรวจ total/ direct bilirubin · direct &gt; 1.0 mg/dL ถือว่าผิดปกติ ต้องหาสาเหตุ cholestasis",
+   "Biliary atresia: อุจจาระซีด ปัสสาวะเข้ม ตับโต GGT สูง · พบบ่อยในเอเชีย · type III (ตีบถึง porta hepatis) พบมากที่สุดราว 90%",
+   "Ultrasound: triangular cord sign (จำเพาะสูง ไวปานกลาง) + ถุงน้ำดีผิดปกติ · ไม่หดตัวหลังกินนม",
+   "HIDA scan: ไม่เห็นสารเข้าลำไส้ใน 24 ชม. → ไวสูงแต่จำเพาะต่ำ (neonatal hepatitis ก็ไม่ออกได้) · ถ้าเห็นสารในลำไส้ช่วยตัด BA ได้",
+   "Gold standard: intraoperative cholangiogram (ฉีดสารเข้าถุงน้ำดีไม่เห็นท่อน้ำดีต่อเนื่อง) ± liver biopsy (ductular proliferation, bile plugs, portal fibrosis)",
+   "Kasai portoenterostomy ก่อน 60 วันได้ผลดีที่สุด · ผล bilirubin กลับปกติภายใน 3 เดือนหลังผ่าตัดบ่งว่าการระบายน้ำดีได้ผล",
+   "Stool color card ใช้คัดกรองทารกทั่วประเทศ (เช่นไต้หวัน) ทำให้ผ่าตัด Kasai เร็วขึ้น"
   ],
-  "opinion": "ไฟล์ไม่มีช้อยและคีย์ — Claude แต่งช้อยตามสไลด์ที่ P'Ing แปะ ให้ C เป็นข้อผิด · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ไม่มีช้อยและคีย์ ผู้จดจำได้แค่หัวข้อ ส่วนช้อยทั้งหมดในเว็บแต่งขึ้นตามสไลด์ที่ P'Ing แปะ (triangular cord sign มี specificity สูง) · หลักที่ว่าสัญญาณจำเพาะสูงแต่ไวปานกลาง ทำให้ข้อ \"ไม่พบแล้วตัด BA ได้\" เป็นข้อความเดียวที่ผิด",
+  "mnemonic": "<b>'Triangular cord: เจอ = ใช่ (Specific) · ไม่เจอ ≠ ไม่ใช่ (ไม่ Sensitive)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary Atresia; NASPGHAN/ESPGHAN Guideline for the Evaluation of Cholestatic Jaundice in Infants (Fawaz et al., J Pediatr Gastroenterol Nutr 2017)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกตัวเหลืองอุจจาระซีด US ไม่พบ triangular cord sign แต่ HIDA สารไม่ลงลำไส้ใน 24 ชม. → ยังสงสัย BA ทำ intraoperative cholangiogram"
+   "ทารก 7 สัปดาห์ ดีซ่าน อุจจาระขาว ultrasound ไม่พบ triangular cord แต่ถุงน้ำดีเล็ก HIDA ไม่ออกลำไส้ → intraoperative cholangiogram ต่อ",
+   "ทารก 4 สัปดาห์ ดีซ่าน direct bilirubin 0.6 mg/dL total 14 mg/dL กินนมแม่ อุจจาระเหลืองปกติ → breast milk jaundice ติดตามได้",
+   "ทารก 2 เดือนหลัง Kasai มีไข้ ดีซ่านกลับมา อุจจาระซีดลง → ascending cholangitis → IV antibiotics",
+   "ทำไมต้องรีบทำ Kasai ก่อน 60 วัน → พังผืดในตับลุกลามทุกสัปดาห์ ผ่าตัดช้าโอกาสระบายน้ำดีสำเร็จลดลงและต้องปลูกถ่ายตับเร็วขึ้น"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 1 — ตัวพิมพ์: <b>Which is false about finding triangular cord sign by us (ผู้จดจำช้อยไม่ได้)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่หัวข้อ \"Which is false about finding triangular cord sign by us\" ไม่มีช้อย → Claude แต่งช้อยทั้งหมด",
+  "src": "S74DQ · หน้า 1",
+  "kimg": [
+   "kp74d_1"
   ]
  },
  "MDCU74|RoD|2": {
-  "interp": "เด็ก 10 ปี ปวดท้องขวาล่าง 10 วัน เดินก้มตัว ท้องเสียเป็นน้ำ ได้ยาปฏิชีวนะจากคลินิกแล้วไม่ดีขึ้น คลำได้ก้อนกดเจ็บ 4 cm ที่ RLQ → ถามการวินิจฉัย",
-  "why": "ลายมือ P'Ing: <b>appendiceal mass · B ✗ อายุ 3 เดือน–3 ปี</b><br><b>นอกสไลด์:</b> ไส้ติ่งอักเสบที่มาช้าและได้ยาปฏิชีวนะ ร่างกายจะห่อด้วย omentum และลำไส้เป็นก้อน (phlegmon) หรือเป็นฝี · ไส้ติ่งที่ชี้ลงอุ้งเชิงกรานระคายลำไส้ตรง ทำให้ท้องเสียได้ จึงถูกคิดว่าเป็นลำไส้อักเสบ",
+  "interp": "เด็กชาย 10 ปี ปวดท้องน้อยขวามา <b>10 วัน</b> ปวดไม่ร้าว เปลี่ยนท่าไม่ดีขึ้น เดินตัวงอ ถ่ายเหลวเป็นน้ำวันละ 3 ครั้ง เคยได้ยาปฏิชีวนะจากคลินิกไม่ดีขึ้น ตรวจพบ <b>กดเจ็บ RLQ และคลำได้ก้อน 4 cm</b> — ถามการวินิจฉัย ต้องรู้ว่าไส้ติ่งอักเสบที่มาช้าหรือได้ยาบางส่วนจะห่อตัวเป็นก้อน/ ฝี",
+  "why": "ไส้ติ่งอักเสบที่ไม่ได้รับการผ่าตัดภายในราว 3–5 วันมักแตกแล้วถูก omentum และลำไส้รอบ ๆ ห่อไว้ เกิดเป็น <b>appendiceal phlegmon (mass)</b> หรือ <b>appendiceal abscess</b> · ลักษณะ: ปวดท้องน้อยขวานานหลายวัน ไข้ <b>คลำได้ก้อนกดเจ็บที่ RLQ</b> · ไส้ติ่งที่อยู่ในอุ้งเชิงกรานหรือฝีที่ติดกับลำไส้ตรง/ ลำไส้เล็กจะระคายเคืองทำให้<b>ถ่ายเหลวบ่อยครั้งละน้อย</b> จนถูกวินิจฉัยผิดเป็นลำไส้อักเสบและได้ยาปฏิชีวนะจากคลินิก ซึ่งทำให้อาการแปรปรวน (partially treated) · ท่าเดินตัวงอจากการระคายเคือง psoas · วินิจฉัยด้วย <b>ultrasound</b> (เด็ก) หรือ CT with contrast เห็นแอ่งหนองมีขอบ · รักษา: ฝีขนาดใหญ่ (ราว &gt; 3 cm) → <b>IV antibiotics + percutaneous drainage</b> ตามด้วยพิจารณา interval appendectomy · phlegmon ไม่มีหนอง → antibiotics · ผู้ป่วยที่มี peritonitis ทั่วท้องหรือไม่ตอบสนอง → ผ่าตัด · ไฟล์ <b>วง A</b> พร้อมลายมือ <b>\"appendiceal mass\"</b> และกากบาทช้อย B ว่า <b>\"3 m – 3 y/o\"</b>",
   "wrong": {
-   "B": "ลายมือ P'Ing: intussusception พบอายุ 3 เดือน–3 ปี · <b>นอกสไลด์:</b> จะถูกถ้าเด็กเล็กร้องกวนเป็นพัก ๆ ขาหดเข้าท้อง อาเจียน ถ่ายมูกปนเลือด คลำได้ก้อนรูปไส้กรอก",
-   "C": "<b>นอกสไลด์:</b> Meckel diverticulitis อาการคล้ายไส้ติ่งอักเสบแต่พบน้อยกว่ามาก · จะถูกถ้าผ่าตัดพบไส้ติ่งปกติแต่มี diverticulum อักเสบที่ ileum ห่างจาก ileocecal valve ราว 2 ฟุต",
-   "D": "<b>นอกสไลด์:</b> Mesenteric adenitis ไม่ทำให้คลำได้ก้อนชัด · จะถูกถ้าเด็กมีไข้หวัดนำมา ปวดท้องขวาล่าง US เห็นต่อมน้ำเหลืองหลายต่อมโต ไส้ติ่งปกติ",
-   "E": "<b>นอกสไลด์:</b> Crohn เป็นโรคเรื้อรัง · จะถูกถ้าเด็กโตท้องเสียเรื้อรังหลายสัปดาห์ น้ำหนักลด ซีด มี fistula รอบทวาร"
+   "B": "Intussusception พบมากในเด็กอายุ 3 เดือน–3 ปี (ไฟล์ขีด ✗ ไว้) มาด้วยปวดท้องบิดเป็นพัก ๆ ร้องกวนขาขึ้นท้อง อาเจียน ถ่ายมูกเลือด (currant jelly) ก้อนรูปไส้กรอกมักอยู่ใต้ชายโครงขวา อาการเฉียบพลันไม่ใช่ 10 วัน · ในเด็กโตต้องหา pathologic lead point — จะถูกถ้าเป็นเด็กชาย 9 เดือน ร้องกวนเป็นพัก ๆ ทุก 15–20 นาที ถ่ายมูกปนเลือด คลำได้ก้อนยาวใต้ชายโครงขวา US พบ target sign",
+   "C": "Meckel diverticulitis ให้อาการคล้ายไส้ติ่งอักเสบ (ปวดรอบสะดือ/ RLQ) และมักพบระหว่างผ่าตัดเมื่อไส้ติ่งปกติ แต่ไม่ค่อยเป็นก้อนหลังปวด 10 วัน และพบน้อยกว่ามาก — จะถูกถ้าเป็นเด็กชาย 8 ปี ปวดท้องรอบสะดือและ RLQ เฉียบพลัน ไข้ ผ่าตัดพบไส้ติ่งปกติ แต่มี diverticulum อักเสบที่ ileum ห่าง ileocecal valve ราว 60 cm",
+   "D": "Mesenteric adenitis เกิดตามหลังการติดเชื้อไวรัสทางเดินหายใจหรือ Yersinia ทำให้ต่อมน้ำเหลืองใน mesentery โต ปวด RLQ ไข้ กดเจ็บไม่เฉพาะที่ ไม่มีก้อนคลำได้ หายเองใน 1–2 สัปดาห์ — จะถูกถ้าเป็นเด็กหญิง 7 ปี เจ็บคอไข้ 3 วันแล้วปวดท้องรอบสะดือ/ RLQ US ไส้ติ่งปกติ ต่อมน้ำเหลืองใน mesentery โตหลายต่อมขนาด &gt; 1 cm",
+   "E": "Crohn disease ของ terminal ileum ทำให้ปวด RLQ ท้องเสีย และคลำได้ก้อนอักเสบได้ แต่เป็นโรคเรื้อรังหลายสัปดาห์ถึงเดือน มีน้ำหนักลด โตช้า ซีด และ perianal disease — จะถูกถ้าเป็นเด็กชาย 13 ปี ท้องเสียเรื้อรัง 4 เดือน น้ำหนักลด 5 kg ส่วนสูงไม่เพิ่ม มีแผลรอบทวาร fecal calprotectin สูง MRI enterography พบ terminal ileum หนาตัว"
   },
-  "trap": "ท้องเสียชวนให้คิดว่าเป็นลำไส้อักเสบ — ปวดคงที่ที่ขวาล่างเกินสัปดาห์ + ก้อนกดเจ็บ = ไส้ติ่งอักเสบที่เป็นก้อน/ฝี",
+  "trap": "อาการท้องเสียและประวัติได้ยาปฏิชีวนะทำให้คิดถึงลำไส้อักเสบ (mesenteric adenitis, Crohn) หรือคิดถึง intussusception จากก้อนในท้อง · ตัวชี้คือ <b>ปวด RLQ นาน 10 วัน + ก้อนกดเจ็บ 4 cm + partially treated</b> ซึ่งเป็นภาพของไส้ติ่งแตกที่ถูกห่อไว้ และอายุ 10 ปีพ้นช่วงอายุของ intussusception (ข้อสอบปีอื่นที่คล้ายกันเคยมีคีย์ต่างออกไป จึงต้องดูก้อนและระยะเวลาเป็นหลัก)",
   "summary": [
-   "<b>นอกสไลด์:</b> Appendiceal phlegmon → ยาปฏิชีวนะทางหลอดเลือด · ฝีขนาดใหญ่ (ราว > 3–4 cm) → ระบายผ่านผิวหนัง + ยา",
-   "<b>นอกสไลด์:</b> ในเด็ก การผ่าตัดไส้ติ่งเร็วระหว่างนอนโรงพยาบาลก็เป็นทางเลือก · interval appendectomy ไม่จำเป็นทุกราย แต่ในผู้ใหญ่ต้องส่องลำไส้ใหญ่หาเนื้องอก"
+   "Appendicitis ในเด็ก: perforation สูงในเด็กเล็ก (&lt; 5 ปี) เพราะบอกอาการไม่ได้และ omentum สั้น · เด็กโตอาการคล้ายผู้ใหญ่",
+   "มาช้า &gt; 3–5 วัน + ก้อน RLQ → appendiceal phlegmon/ abscess · pelvic appendix/ ฝีติดลำไส้ตรง → ถ่ายเหลวบ่อยครั้งละน้อย ปัสสาวะบ่อย",
+   "Imaging เด็ก: ultrasound ก่อน (ไส้ติ่งกดไม่แฟบ &gt; 6 mm, fecalith, fluid collection) · CT/ MRI เมื่อ US ไม่ชัด",
+   "Abscess ขนาดใหญ่ (ราว &gt; 3 cm) → IV antibiotics + percutaneous drainage · phlegmon → IV antibiotics · ไม่ตอบสนอง/ peritonitis → ผ่าตัด",
+   "Interval appendectomy หลัง 6–8 สัปดาห์ยังเป็นที่ถกเถียง · เด็กส่วนใหญ่ยังทำ ส่วนผู้ใหญ่ &gt; 40 ปีต้องส่องลำไส้ใหญ่ตัดมะเร็งหลัง nonoperative",
+   "Pediatric Appendicitis Score/ Alvarado ใช้แบ่งความเสี่ยง · ไส้ติ่งอักเสบ uncomplicated ในเด็กบางรายรักษาด้วยยาปฏิชีวนะได้ แต่ appendectomy ยังเป็นมาตรฐาน",
+   "Differential RLQ ในเด็ก: mesenteric adenitis, Meckel diverticulitis, intussusception (เล็ก), ovarian torsion/ cyst (หญิง), testicular torsion (ชาย ต้องตรวจอัณฑะเสมอ), Crohn ileitis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing (ข้อคล้ายใน 75D คีย์ตอบ mesenteric adenitis แต่โจทย์นี้คลำได้ก้อน) · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่วง A และเขียน appendiceal mass พร้อมกากบาท intussusception ว่าอายุ 3 เดือน–3 ปี · ไฟล์มีแค่ 2 ช้อย เว็บเติม C–E (มีข้อสอบปีอื่นที่โจทย์คล้ายกันแต่คีย์ตอบ mesenteric adenitis ซึ่งไม่เข้ากับก้อน 4 cm ในข้อนี้)",
+  "mnemonic": "<b>'ปวด RLQ หลายวัน + ก้อน + ได้ยามาแล้ว = Appendiceal abscess/ mass'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis; Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines (Di Saverio et al., World J Emerg Surg 2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยอายุ 55 หายจากฝีไส้ติ่งด้วยการระบายและยา → ส่องลำไส้ใหญ่ (หรือ CT) ตามนัดเพื่อหาเนื้องอกของไส้ติ่ง/ลำไส้ใหญ่"
+   "เด็กชาย 9 ปี ปวด RLQ 7 วัน ไข้ US พบฝีขนาด 5 cm มีขอบชัด สัญญาณชีพคงที่ → IV antibiotics + percutaneous drainage → พิจารณา interval appendectomy",
+   "เด็กหญิง 11 ปี ปวดท้องรอบสะดือย้ายมา RLQ 1 วัน ไข้ต่ำ US ไส้ติ่ง 9 mm กดไม่แฟบ → laparoscopic appendectomy",
+   "เด็กชาย 4 ปี ปวดท้อง 3 วัน ไข้สูง ท้องแข็งทั่วท้อง → perforated appendicitis with generalized peritonitis → resuscitation + IV antibiotics + ผ่าตัด",
+   "ทำไมไส้ติ่งอักเสบในอุ้งเชิงกรานทำให้ท้องเสีย → ฝีและการอักเสบระคายเคืองผนังลำไส้ตรง ทำให้ถ่ายบ่อยครั้งละน้อย ถูกวินิจฉัยผิดเป็น gastroenteritis"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 1 — ตัวพิมพ์: <b>ให้ประวัติผู้ป่วยอายุ 10 ปี ปวดท้องด้านล่างขวาใต้ท้องน้อยขณะพักอยู่ในห้องคนเดียวที่บ้าน อาการปวดเป็นมาก ไม่ร้าวไปไหน เปลี่ยนท่าแล้วไม่ดีขึ้น ต้องเดินตัวงอ มีท้องเสีย ถ่ายเหลวเป็นน้ำ สีเหลือง ไม่มีมูกเลือดปน ถ่ายประมาณ 3 ครั้งต่อวัน เป็นมา 10 วันก่อนมา รพ. 5 วันก่อนมา รพ. ไปคลินิกเอกชนได้ยา antibiotic ก็ไม่ได้ขึ้น มาโรงพยาบาลตรวจร่างกายได้ RLQ pain + mass 4 cm ถาม dx — A. appendix abscess B. Intuss</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E · ข้อคล้ายกับ 75D Ped 6 (คนละปี, คีย์ 75D ตอบ mesenteric adenitis)",
+  "src": "S74DQ · หน้า 1",
+  "kimg": [
+   "kp74d_2"
   ]
  },
  "MDCU74|RoD|3": {
-  "interp": "เด็ก 2 ขวบถ่ายเป็นเลือดไม่ปวด ซีด อ่อนเพลีย (เสียเลือดมาก) → หลัง resuscitation ถามการตรวจที่ควรส่ง",
-  "why": "ลายมือ P'Ing: <b>Meckel's diverticulum · painless rectal bleeding, blood loss</b><br><b>นอกสไลด์:</b> ลำดับคือ resuscitation ก่อน (สารน้ำ เลือด) แล้วส่ง Meckel scan หาเยื่อบุกระเพาะผิดที่ · ถ้าผลบวก → ผ่าตัดตัดลำไส้ส่วนที่มี diverticulum รวมแผลที่ ileum ข้างเคียง (แหล่งเลือดออกจริง) · ถ้าผลลบแต่ยังสงสัย → ส่องกล้องช่องท้อง",
+  "interp": "เด็กชาย 2 ขวบ <b>ถ่ายเป็นเลือดโดยไม่ปวด</b> ซีดและอ่อนเพลียมาก (เสียเลือดมาก) — หลัง resuscitation แล้วถามการตรวจที่ควรส่ง ต้องนึกถึงสาเหตุเลือดออกทางเดินอาหารส่วนล่างปริมาณมากที่ไม่ปวดในเด็กเล็ก คือ <b>Meckel's diverticulum</b>",
+  "why": "<b>Meckel's diverticulum</b> เป็นส่วนค้างของ omphalomesenteric (vitelline) duct เป็น <b>true diverticulum</b> ที่ antimesenteric border ของ ileum · \"rule of 2s\": พบราว 2% ของประชากร, ห่าง ileocecal valve ราว 2 ฟุต, ยาวราว 2 นิ้ว, มีเยื่อบุผิดที่ 2 ชนิด (<b>gastric</b> และ pancreatic), มีอาการราว 2%, มักมีอาการก่อน 2 ขวบ, ชาย:หญิง 2:1 · <b>gastric mucosa ผิดที่หลั่งกรด</b>ทำให้เกิดแผลที่ผนัง ileum ข้างเคียง → <b>painless massive rectal bleeding</b> (เลือดสีแดงคล้ำ/ สีอิฐ) เป็นอาการที่พบบ่อยที่สุดในเด็กเล็ก · การตรวจคือ <b>Meckel scan (Tc-99m pertechnetate)</b> ซึ่งจับกับ mucin-secreting cells ของ gastric mucosa ความไวในเด็กสูง และเพิ่มได้ด้วย H2 blocker/ PPI ก่อนตรวจ · ถ้าผลลบแต่ยังสงสัยมาก → diagnostic laparoscopy · รักษาด้วย<b>ผ่าตัด</b>: segmental ileal resection (เมื่อแผลเลือดออกอยู่ที่ ileum ข้างเคียง) หรือ diverticulectomy · ไฟล์ <b>วง A</b> และ ✓ <b>\"Meckel's diverticulum\"</b> ลายมือ <b>\"painless rectal bleeding, blood loss\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Tagged RBC scan หาจุดเลือดออกที่กำลังออกอยู่ ไม่จำเพาะกับ Meckel · จะถูกถ้าเด็กยังมีเลือดออกต่อเนื่องแต่ Meckel scan ผลลบ",
-   "C": "<b>นอกสไลด์:</b> AXR ไม่ช่วยหาแหล่งเลือดออก · จะถูกถ้าเด็กท้องอืด อาเจียน สงสัยลำไส้อุดตันหรือทะลุ",
-   "D": "<b>นอกสไลด์:</b> US ใช้หาลำไส้กลืนกัน · จะถูกถ้าเด็กปวดท้องเป็นพัก ๆ ร้องกวน ถ่ายเลือดปนมูก (target sign)",
-   "E": "<b>นอกสไลด์:</b> CT ให้รังสีและไม่เห็นเยื่อบุกระเพาะผิดที่ · จะถูกถ้าเด็กได้รับบาดเจ็บช่องท้องหรือคลำได้ก้อนในท้องที่ต้องดูขอบเขต"
+   "B": "Tagged RBC scan ตรวจหาจุดเลือดออกที่กำลังออกอยู่ (อัตรา ≥ 0.1–0.5 mL/min) ไม่จำเพาะต่อสาเหตุ ใช้เมื่อไม่ทราบตำแหน่ง — จะถูกถ้าเป็นชาย 70 ปี ถ่ายเลือดสดปริมาณมากเป็นพัก ๆ ส่องกล้องบนและ colonoscopy ไม่พบจุดเลือดออก (หรือเด็กที่ Meckel scan ลบแต่ยังเลือดออกต่อเนื่อง)",
+   "C": "Plain abdominal radiograph ใช้หาลำไส้อุดตัน ลมรั่วนอกลำไส้ หรือ pneumatosis ไม่บอกสาเหตุเลือดออกที่ไม่ปวดและมักปกติใน Meckel ที่เลือดออก — จะถูกถ้าเป็นเด็กชาย 3 ขวบ ปวดท้อง อาเจียนเขียว ท้องอืด ไม่ถ่าย ต้องการดู air-fluid levels และ free air (Meckel ทำให้ลำไส้อุดตันจาก volvulus รอบ fibrous band ได้)",
+   "D": "Abdominal ultrasound เหมาะกับ intussusception (target sign) และ appendicitis แต่หา Meckel ที่เลือดออกได้ไม่ดี · intussusception มักมีปวดท้องเป็นพัก ๆ และถ่ายมูกเลือด currant jelly — จะถูกถ้าเป็นเด็ก 10 เดือน ร้องกวนเป็นพัก ๆ ขาขึ้นท้อง อาเจียน ถ่ายมูกปนเลือด คลำได้ก้อนใต้ชายโครงขวา",
+   "E": "CT abdomen (หรือ CT angiography) ใช้ในผู้ใหญ่ที่เลือดออกปริมาณมากและกำลังออก หรือใน trauma/ ฝีในท้อง มีรังสีสูงสำหรับเด็ก และหา ectopic gastric mucosa ไม่ได้ — จะถูกถ้าเป็นชาย 65 ปี ถ่ายเลือดสดปริมาณมาก ความดันต่ำแต่ตอบสนองต่อสารน้ำ ต้องการหาจุดเลือดออกก่อนทำ angioembolization"
   },
-  "trap": "Resuscitation มาก่อนการตรวจเสมอ · เลือดออกไม่ได้มาจากตัว diverticulum แต่จากแผลที่ ileum ข้างเคียง จึงต้องตัดลำไส้รวมแผล",
+  "trap": "เห็นคำว่าเลือดออกมากแล้วคิดถึง tagged RBC scan หรือ CT angiography แบบผู้ใหญ่ · ในเด็ก 2 ขวบที่<b>ถ่ายเลือดมากโดยไม่ปวด</b> ต้องนึกถึง Meckel ก่อน และการตรวจจำเพาะคือหาตัว <b>ectopic gastric mucosa</b> ด้วย Tc-99m pertechnetate · ถ้ามีปวดเป็นพัก ๆ และ currant jelly ให้คิดถึง intussusception แทน",
   "summary": [
-   "<b>นอกสไลด์:</b> Meckel scan ผลลบลวงได้ (เยื่อบุกระเพาะน้อยหรือเลือดบดบัง) · ไวขึ้นเมื่อให้ H2 blocker ก่อน",
-   "<b>นอกสไลด์:</b> ภาวะแทรกซ้อนอื่นของ Meckel: ลำไส้อุดตัน (ลำไส้กลืนกัน, บิดรอบพังผืด) · อักเสบ · ไส้เลื่อน (Littre)"
+   "Meckel = true diverticulum (ทุกชั้นของผนัง) จาก vitelline duct ค้าง · antimesenteric border ของ ileum · rule of 2s",
+   "อาการ: เด็กเล็ก → painless massive rectal bleeding (บ่อยสุด) · เด็กโต/ ผู้ใหญ่ → obstruction (intussusception ที่มี Meckel เป็น lead point, volvulus รอบ band) หรือ diverticulitis",
+   "Meckel scan (Tc-99m pertechnetate): จับ gastric mucosa · เพิ่มความไวด้วย H2 blocker/ PPI · ผลลบลวงจาก mucosa น้อยหรือเลือดเจือจาง",
+   "Meckel scan ลบแต่สงสัยมาก → ทำซ้ำ หรือ diagnostic laparoscopy (ดู ileum ส่วนปลาย 100 cm)",
+   "ผ่าตัด: เลือดออก → segmental ileal resection (แผลอยู่ใน ileum ข้างเคียง) · diverticulum ฐานแคบไม่มีแผล → diverticulectomy (wedge)",
+   "เลือดออกทางทวารในเด็ก: anal fissure (ปวด เลือดเป็นเส้น) · juvenile polyp (2–5 ปี เลือดสดไม่ปวดปริมาณน้อย) · intussusception (currant jelly + ปวด) · Meckel (มากและไม่ปวด)",
+   "Incidental Meckel ระหว่างผ่าตัดอื่น: เด็กมักตัดออก · ผู้ใหญ่ตัดเมื่อมีปัจจัยเสี่ยง (ชาย, อายุ &lt; 50, ยาว &gt; 2 cm, คลำได้ ectopic tissue, มี fibrous band)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing (ข้อคล้าย 74C เลข 12) · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่วง A และ ✓ Meckel's diverticulum พร้อมเขียน painless rectal bleeding, blood loss · ช้อยในเว็บตรงกับไฟล์ครบ 5 ตัว (Meckel scan, RBC scan, plain film, ultrasound, CT)",
+  "mnemonic": "<b>'เด็ก 2 ขวบ ถ่ายเลือดมาก ไม่ปวด = Meckel → Tc-99m pertechnetate'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Meckel Diverticulum; Sabiston Textbook of Surgery 21st ed. (2022) — Small Intestine",
   "variants": [
-   "<b>นอกสไลด์:</b> ผ่าตัดไส้ติ่งอักเสบในผู้ใหญ่พบ Meckel diverticulum ปกติโดยบังเอิญ → ส่วนใหญ่ไม่ต้องตัด (ยกเว้นมีเนื้อเยื่อผิดที่คลำได้ ฐานแคบ หรือมีพังผืดยึด)"
+   "เด็กชาย 3 ขวบ ถ่ายเลือดแดงคล้ำมาก Hb 6 g/dL Meckel scan พบจุดจับสารที่ RLQ → resuscitation แล้ว laparoscopic segmental ileal resection",
+   "เด็ก 4 ขวบ ถ่ายมีเลือดสดติดอุจจาระปริมาณน้อยเป็นพัก ๆ ไม่ปวด ไม่ซีด → juvenile polyp → colonoscopy polypectomy",
+   "เด็ก 6 ปี ปวดท้องบิดเป็นพัก ๆ US พบ intussusception ที่ ileo-ileal พร้อม lead point → ผ่าตัด พบ Meckel's diverticulum เป็น lead point",
+   "ทำไม Meckel เลือดออกแต่ไม่ปวด → แผลเกิดจากกรดของ gastric mucosa ผิดที่กัดผนัง ileum ข้างเคียงจนหลอดเลือดแตก โดยไม่มีการอุดตันหรือการอักเสบของเยื่อบุช่องท้อง"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 1 — ตัวพิมพ์: <b>เด็ก 2 ขวบมาด้วยขี้เป็นเลือดไม่เจ็บ สภาพอิดโรยมาก ถามว่าหลังจาก initial management ควรส่ง investigation อะไร — A. Meckel scan B. RBC scan C. plain film D. ultrasound E. ct</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ข้อคล้ายกับ 74C เลข 12 (คนละ rotation)",
+  "src": "S74DQ · หน้า 1",
+  "kimg": [
+   "kp74d_3"
   ]
  }
 }

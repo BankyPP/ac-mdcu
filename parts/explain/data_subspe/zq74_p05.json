@@ -1,239 +1,410 @@
 {
  "MDCU74|RoC|16": {
-  "interp": "ชาหน้าซ้าย (CN V) + SNHL ซ้าย (Weber ไปขวา) = ก้อนที่ CP angle ซ้าย · MRI: ฐานกว้างติด dura มี dural tail และไม่เข้า internal auditory canal → ถามชนิดก้อน",
-  "why": "ผู้จดเขียน <b>\"Lt. CPA meningioma ?\"</b> (ไม่แน่ใจ) — Claude ใส่ลักษณะ MRI ใน stem ให้เหลือคำตอบเดียว<br><b>นอกสไลด์:</b> Meningioma เกิดจากเยื่อหุ้มสมอง จึงเกาะ dura เป็นฐานกว้าง มี dural tail อาจมีหินปูน และมักไม่เข้าไปในช่องหู · vestibular schwannoma เกิดจากเส้นประสาทในช่องหูจึงงอกจากในช่องหูออกมา ช่องหูกว้างขึ้น",
+  "interp": "หญิง 55 ปี มี pinprick ลดลงที่ใบหน้าซ้าย (CN V) ร่วมกับ sensorineural hearing loss หูซ้าย (Weber ไปหูขวาที่ดี) และ MRI เห็นก้อน enhance ฐานกว้างติด dura มี <b>dural tail</b> ที่ CP angle ซ้าย โดย<b>ไม่ยื่นเข้า internal auditory canal</b> — ถามการวินิจฉัย ต้องแยกเนื้องอก CP angle 2 ชนิดหลักด้วยลักษณะภาพ",
+  "why": "Cerebellopontine angle (CPA) tumor ที่พบบ่อยที่สุดคือ <b>vestibular schwannoma</b> (ราว 80%) รองลงมาคือ <b>meningioma</b> (ราว 10%) และ epidermoid · ทั้งคู่กด CN VII/VIII และถ้าก้อนโตจะกด CN V ให้ชาหน้าและ corneal reflex ลด · Weber ไปหูขวา ร่วมกับหูซ้ายได้ยินลดลง = SNHL ข้างซ้าย (ใน SNHL เสียงไปหูที่ดี ส่วน conductive loss ไปหูที่เสีย) · จุดแยกอยู่ที่ภาพ: meningioma ฐานกว้างติด petrous dura ทำมุม<b>ป้าน (obtuse)</b> กับกระดูก มี <b>dural tail</b> อาจมี calcification/ hyperostosis และมักอยู่เยื้องจาก porus จึง<b>ไม่ขยายหรือเข้า IAC</b> — การได้ยินจึงมักเสียช้ากว่า แต่ CN V ถูกกดได้เร็ว · vestibular schwannoma เกิดจาก Schwann cell ของ vestibular nerve ใน IAC จึงขยาย IAC เป็นรูป <b>\"ice cream cone\"</b> ทำมุมแหลมกับ petrous bone และอาการแรกคือหูอื้อ/ tinnitus ข้างเดียว · รักษา meningioma: ก้อนเล็กไม่มีอาการติดตามด้วย MRI, มีอาการหรือโต → ผ่าตัด (Simpson grade บอกความครบ) หรือ stereotactic radiosurgery สำหรับก้อนเล็ก · ไฟล์จดอาการ pinprick ลดและ Weber ไปหูขวา แล้วเขียนคำตอบไว้ว่า <b>\"Lt. CPA meningioma ?\"</b> (มีเครื่องหมายคำถาม ผู้จดไม่แน่ใจ)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Vestibular schwannoma พบบ่อยที่สุดที่ CP angle แต่ภาพไม่ตรง · จะถูกถ้า MRI เห็นก้อนต่อจากในช่องหูที่กว้างขึ้นออกมาที่ CP angle รูปไอศกรีมโคน ไม่มี dural tail",
-   "C": "<b>นอกสไลด์:</b> Trigeminal neuralgia เป็นกลุ่มอาการปวด ไม่ใช่ก้อนและไม่ทำให้หูตึง · จะถูกถ้าผู้ป่วยปวดแปลบเหมือนไฟช็อตที่ใบหน้าเวลาแปรงฟัน ตรวจระบบประสาทและ MRI ไม่พบก้อน",
-   "D": "<b>นอกสไลด์:</b> Paraganglioma ที่ jugular foramen กด CN IX–XI · จะถูกถ้าผู้ป่วยได้ยินเสียงตุบในหูตามชีพจร เสียงแหบ กลืนลำบาก เห็นก้อนแดงหลังแก้วหู",
-   "E": "<b>นอกสไลด์:</b> Hemangioblastoma อยู่ในเนื้อ cerebellum เป็นถุงน้ำมีก้อนเนื้อติดผนัง · จะถูกถ้าผู้ป่วย VHL เดินเซ เลือดข้น และ MRI เห็นถุงน้ำใน cerebellum มี mural nodule"
+   "B": "Vestibular schwannoma เป็น CPA tumor ที่พบบ่อยที่สุดและทำให้ SNHL ข้างเดียวได้เหมือนกัน แต่ภาพจะเป็นก้อนที่เกิดใน IAC ขยายรู IAC (ice cream cone) ทำมุมแหลมกับ petrous bone และไม่มี dural tail — จะถูกถ้าเป็นชาย 45 ปี หูซ้ายอื้อและมีเสียงในหูข้างเดียวมา 2 ปี speech discrimination แย่ MRI เห็นก้อน enhance ที่เริ่มจาก IAC ยื่นออก CPA",
+   "C": "Trigeminal neuralgia เป็นอาการปวดแปลบเหมือนไฟช็อตสั้น ๆ ตามแขนง V2/V3 มี trigger zone (แปรงฟัน ลมโชก) และตรวจระบบประสาทมักปกติ ไม่ใช่อาการชาและไม่มีหูเสีย — จะถูกถ้าเป็นหญิง 60 ปี ปวดแปลบที่แก้มขวาครั้งละไม่กี่วินาทีเวลาแปรงฟัน ตรวจ sensation ปกติ MRI เห็นหลอดเลือด (superior cerebellar artery) กดรากประสาท V → carbamazepine",
+   "D": "Jugular foramen paraganglioma (glomus jugulare) เกิดที่ jugular bulb มาด้วย pulsatile tinnitus, conductive hearing loss, ก้อนแดงหลังแก้วหู และ CN IX–XI palsy (กลืนลำบาก เสียงแหบ) ภาพ MRI เป็น salt-and-pepper จาก flow void — จะถูกถ้าเป็นหญิง 50 ปี ได้ยินเสียงฟู่ตามชีพจรในหูซ้าย ส่องหูเห็นก้อนสีแดงหลังแก้วหู เสียงแหบ ลิ้นไก่เบี้ยว",
+   "E": "Hemangioblastoma เป็นเนื้องอกใน cerebellar hemisphere (intra-axial) รูป cyst with enhancing mural nodule พบใน von Hippel-Lindau อาจมี polycythemia จาก erythropoietin อาการคือ ataxia/ ปวดศีรษะจาก hydrocephalus ไม่ใช่ก้อนติด dura นอกเนื้อสมอง — จะถูกถ้าเป็นชาย 30 ปี เดินเซ ปวดศีรษะ Hct 58% มี retinal angioma และ renal cyst MRI เห็น cyst ใน cerebellum มี nodule enhance"
   },
-  "trap": "เลือก vestibular schwannoma เพราะพบบ่อยกว่า — ภาพ dural tail และไม่เข้าช่องหูชี้ไปที่ meningioma",
+  "trap": "ทุกคนจำว่า CPA tumor + หูเสียข้างเดียว = vestibular schwannoma เพราะพบบ่อยที่สุด จึงตอบ B โดยไม่อ่านภาพ · ตัวแยกคือ <b>dural tail + ฐานกว้าง + ไม่เข้า IAC</b> (meningioma) เทียบกับ <b>ice cream cone ขยาย IAC</b> (schwannoma) · อีกจุดคือชาใบหน้าเด่นแต่หูเสียไม่มาก เข้ากับ meningioma ที่กด CN V ได้ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> ก้อนที่ CP angle: vestibular schwannoma (ราว 80%) > meningioma > epidermoid",
-   "<b>นอกสไลด์:</b> แยกด้วย MRI: schwannoma เข้าช่องหู ไม่มี dural tail · meningioma ฐานกว้าง dural tail อาจมีหินปูน · epidermoid สว่างใน DWI ไม่ enhance แทรกตามช่อง"
+   "CPA tumor: vestibular schwannoma ~80% · meningioma ~10% · epidermoid ~5% (restricted diffusion บน DWI) · ที่เหลือเช่น facial schwannoma, metastasis",
+   "Vestibular schwannoma: เกิดใน IAC จาก Schwann cell → asymmetric SNHL + tinnitus เป็นอาการแรก · ภาพ ice cream cone ขยาย porus มุมแหลมกับ petrous bone · bilateral = NF2",
+   "Meningioma ที่ CPA: ฐานกว้าง มุมป้าน dural tail, calcification, hyperostosis มักไม่เข้า IAC · CN V ถูกกดได้เร็ว (ชาหน้า, corneal reflex ลด) · เพศหญิงมากกว่า",
+   "Tuning fork: Weber ไปหูที่ดี = SNHL ข้างตรงข้าม · Weber ไปหูที่เสีย + Rinne BC &gt; AC = conductive loss · asymmetric SNHL ทุกรายควรทำ MRI with gadolinium หา retrocochlear lesion",
+   "ก้อนโตกด CN V (ชาหน้า) → CN VII (อ่อนแรงใบหน้ามักมาช้าเพราะทนการกดได้) → กด cerebellum (เดินเซ) → กด fourth ventricle (hydrocephalus)",
+   "รักษา meningioma: เล็กไม่มีอาการ → MRI ติดตาม · มีอาการ/ โต → ผ่าตัดเอาออกให้มากที่สุดโดยรักษาเส้นประสาท (Simpson grade) · ก้อนเล็กหรือเหลือค้าง → stereotactic radiosurgery",
+   "รักษา vestibular schwannoma: เล็กไม่มีอาการ wait-and-scan · ขนาดกลาง (ราว &lt; 2.5–3 cm) SRS ได้ · ใหญ่กด brainstem → microsurgery (translabyrinthine/ retrosigmoid)"
   ],
-  "opinion": "ผู้จดไม่แน่ใจและคีย์ไม่ได้ทำเครื่องหมาย — Claude ใส่ภาพ MRI ให้ตอบ meningioma ตามที่ผู้จดตอบ · ความมั่นใจสูงเมื่อมีภาพตามที่บรรยาย",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — คีย์ในไฟล์มีแค่ลายมือผู้จดว่า \"Lt. CPA meningioma ?\" (ไม่แน่ใจ และ P'Ing ไม่ได้ทำเครื่องหมาย) · ข้อในเว็บเติมลักษณะ MRI (dural tail ฐานกว้าง ไม่เข้า IAC) ให้เหลือคำตอบเดียวตามที่ผู้จดตอบ ถ้าข้อสอบจริงให้แค่อาการโดยไม่มีภาพ vestibular schwannoma จะเป็นคำตอบที่พบบ่อยกว่า",
+  "mnemonic": "<b>'Tail ติด Dura = Meningioma · Cone เข้า IAC = Schwannoma'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Meningiomas; Vestibular schwannoma; EANO guideline on the diagnosis and management of meningiomas (Goldbrunner et al., Neuro-Oncology 2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงมี meningioma 1.5 cm ที่ convexity พบโดยบังเอิญ ไม่มีอาการ ไม่มี edema → ติดตาม MRI เป็นระยะ"
+   "ชาย 40 ปี หูขวาอื้อค่อย ๆ เป็น มีเสียงในหูข้างเดียว MRI ก้อนใน IAC ขวาขนาด 1 cm → vestibular schwannoma ขนาดเล็ก → wait-and-scan หรือ SRS",
+   "หญิง 25 ปี มีก้อนที่ CPA ทั้ง 2 ข้าง ร่วมกับ cataract ในวัยหนุ่มสาว → NF2 (NF2-related schwannomatosis) ตรวจยีนและครอบครัว",
+   "ก้อนที่ CPA ไม่ enhance แต่ restricted diffusion บน DWI ห่อหุ้มเส้นประสาทและหลอดเลือด → epidermoid cyst",
+   "ทำไม Weber ไปหูขวาเมื่อหูซ้ายเป็น SNHL → cochlea/ เส้นประสาทซ้ายรับเสียงได้น้อยลง เสียงผ่านกระดูกจึงรับรู้ที่หูขวาซึ่งปกติ"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>อาการ pinprick sensation ลดลง, Lat to Rt ear สักอย่าง — Lt. CPA meningioma ?</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่อาการ (pinprick ลด, lateralize ไปหูขวา) และคำตอบที่ผู้จดไม่แน่ใจ \"Lt. CPA meningioma ?\" → Claude แต่งโจทย์ + ใส่ลักษณะ MRI ให้เหลือคำตอบเดียวตามที่ผู้จดตอบ · ข้อคล้ายกับ 74A เลข 48 (คนละ rotation)",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_16"
   ]
  },
  "MDCU74|RoC|17": {
-  "interp": "แผลถูกแทงที่อก สงสัย cardiac tamponade · ข้อ NOT: สิ่งตรวจพบใด <b>ไม่เข้า</b> กับ tamponade",
-  "why": "ผู้จดจำช้อยได้ 2 อัน (<b>EKG เบา, pulsus paradoxus</b>) ไม่ได้จดว่าข้อไหนผิด — Claude แต่งช้อยและเฉลย<br><b>นอกสไลด์:</b> เลือดในถุงหุ้มหัวใจกดห้องหัวใจ เลือดไหลเข้าไม่ได้ stroke volume ลด → systolic ลดมากกว่า diastolic → pulse pressure <b>แคบ</b> · pulse pressure กว้างพบใน aortic regurgitation, sepsis ระยะแรก, hyperthyroidism",
+  "interp": "ผู้ป่วยถูกแทงที่หน้าอก สงสัย <b>cardiac tamponade</b> — คำถามแบบ NOT ให้หาสิ่งตรวจพบที่<b>ไม่เข้ากับ</b> tamponade ต้องรู้สรีรวิทยาว่าเลือดในถุงหุ้มหัวใจบีบการเติมเลือดของหัวใจห้องขวา ทำให้ stroke volume ลดและความดันชีพจรแคบ",
+  "why": "เลือดสะสมในถุงหุ้มหัวใจที่ยืดได้น้อย (แม้เพียง 60–100 mL ในกรณีเกิดเร็ว) ทำให้ความดันในถุงสูงกว่าความดันห้องหัวใจขณะ diastole → RA/ RV แฟบ เติมเลือดไม่ได้ → <b>stroke volume ลด</b> → hypotension, tachycardia และ <b>pulse pressure แคบ (narrowed)</b> ไม่ใช่กว้าง · <b>Beck's triad</b>: hypotension, distended neck veins (JVP สูง), muffled heart sounds (ใน trauma ได้ครบ 3 ข้อไม่บ่อย และคอไม่โป่งถ้าเสียเลือดร่วม) · <b>Pulsus paradoxus</b>: systolic BP ลด &gt; 10 mmHg ขณะหายใจเข้า เพราะเลือดกลับเข้า RV มากขึ้นดัน septum ไปทาง LV (ventricular interdependence) · ECG: <b>low voltage QRS</b> และ <b>electrical alternans</b> (หัวใจแกว่งในน้ำ) · echo/ FAST: pericardial fluid, RA systolic collapse, RV diastolic collapse, IVC โป่งไม่ยุบตามการหายใจ · ใน penetrating trauma การรักษาคือผ่าตัดเปิดหน้าอก (sternotomy/ thoracotomy) ซ่อมหัวใจ ส่วน pericardiocentesis เป็นเพียงทางชั่วคราวเมื่อผ่าตัดไม่ได้ทันที · ไฟล์จดได้แค่ช้อย <b>\"EKG เบา\"</b> และ <b>\"Pulsus paradoxus\"</b> (ซึ่งเป็นข้อที่เข้ากับ tamponade) โดยไม่ได้จดว่าข้อไหนผิด",
   "wrong": {
-   "A": "ผู้จดจำได้ว่าอยู่ในช้อย · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ low voltage ขัดกับ tamponade เพราะของเหลวรอบหัวใจลดสัญญาณไฟฟ้าที่ผิวกาย (อาจไม่พบได้ แต่ถ้าพบก็เข้ากัน)",
-   "B": "ผู้จดจำได้ว่าอยู่ในช้อย · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pulsus paradoxus ขัดกับ tamponade เพราะเป็นกลไกหลัก: หายใจเข้า RV ขยายดัน septum ไปเบียด LV ที่ถูกจำกัดอยู่ ความดัน systolic จึงลดลงมากผิดปกติ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ electrical alternans ขัดกับ tamponade เพราะหัวใจแกว่งไปมาในน้ำปริมาณมาก ทำให้ QRS สูงต่ำสลับกัน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่หลอดเลือดดำคอโป่งขัดกับ tamponade เพราะความดันในถุงหุ้มหัวใจขวางเลือดดำกลับเข้าหัวใจ CVP จึงสูง (ภาวะขาดน้ำ/เสียเลือดร่วมทำให้ไม่เห็นได้ แต่ไม่ได้ขัดแย้ง)"
+   "A": "ข้อความถูก: low-voltage QRS พบใน pericardial effusion/ tamponade เพราะน้ำในถุงหุ้มหัวใจกั้นสัญญาณไฟฟ้า (QRS ใน limb leads &lt; 5 mm) แต่ไม่จำเพาะ (พบใน obesity, COPD, hypothyroidism ได้) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับ ECG ของหญิง 50 ปีมะเร็งปอดที่เหนื่อยมากขึ้น echo พบ large pericardial effusion",
+   "B": "ข้อความถูก: pulsus paradoxus (SBP ลด &gt; 10 mmHg ขณะหายใจเข้า) เป็นอาการสำคัญของ tamponade จาก ventricular interdependence พบได้ใน severe asthma/ COPD exacerbation ด้วย — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 25 ปีถูกแทงบริเวณ precordium ความดัน 80/60 ชีพจรเบาลงชัดเวลาหายใจเข้า",
+   "C": "ข้อความถูก: electrical alternans คือ QRS สูงต่ำสลับทีละตัวจากหัวใจแกว่งไปมาในน้ำปริมาณมาก จำเพาะต่อ tamponade/ large effusion แต่ไวต่ำ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับ ECG ของผู้ป่วย TB pericarditis ที่มีน้ำในถุงหุ้มหัวใจมาก ความดันต่ำ หัวใจเต้นเร็ว",
+   "E": "ข้อความถูก: distended neck veins (JVP สูง) เป็นหนึ่งใน Beck's triad จากเลือดกลับเข้าหัวใจห้องขวาไม่ได้ แต่ในผู้บาดเจ็บที่เสียเลือดมากร่วมด้วยอาจไม่โป่ง — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชายถูกแทงหน้าอกซ้ายที่ความดันต่ำ หลอดเลือดคอโป่ง เสียงหัวใจเบา และ FAST เห็นน้ำใน pericardium"
   },
-  "trap": "จำว่าความดันในอกสูงแล้วคิดว่า pulse pressure กว้าง — tamponade ทำให้แคบ · และ JVD อาจไม่เห็นถ้าเสียเลือดร่วม",
+  "trap": "คำว่า \"widened\" กับ \"narrowed\" pulse pressure ดูคล้ายกันจนเลือกผิดถ้าจำแค่ว่า tamponade มีความดันผิดปกติ · หลักคือ tamponade ทำ stroke volume ลด → pulse pressure <b>แคบ</b> · pulse pressure กว้างนึกถึง Cushing reflex (ICP สูง), aortic regurgitation, hyperthyroidism, sepsis ระยะแรก · และอย่าตัด pulsus paradoxus เพราะชื่อคำว่า \"paradoxus\" ฟังเหมือนผิดปกติแปลก ๆ",
   "summary": [
-   "<b>นอกสไลด์:</b> Beck triad: ความดันต่ำ · หลอดเลือดดำคอโป่ง · เสียงหัวใจเบา · pulsus paradoxus = SBP ลดเกิน 10 mmHg ขณะหายใจเข้า",
-   "<b>นอกสไลด์:</b> ตรวจ: FAST/echo (RA ยุบช่วงปลาย diastole, RV ยุบช่วงต้น diastole) · ECG low voltage, electrical alternans",
-   "<b>นอกสไลด์:</b> Tamponade จากบาดแผล → ผ่าตัด (sternotomy/thoracotomy) · เจาะ pericardium เป็นเพียงการซื้อเวลาเมื่อผ่าตัดไม่ได้ทันที"
+   "Tamponade = ความดันในถุงหุ้มหัวใจสูงกว่าความดัน diastole ของห้องขวา → RA/RV แฟบ → preload และ stroke volume ลด · obstructive shock",
+   "Beck's triad: hypotension + JVP สูง + muffled heart sounds · ใน trauma ครบไม่บ่อย JVP อาจไม่สูงถ้ามี hypovolemia ร่วม",
+   "Pulsus paradoxus &gt; 10 mmHg · Kussmaul sign (JVP เพิ่มขณะหายใจเข้า) เด่นใน constrictive pericarditis มากกว่า tamponade",
+   "ECG: sinus tachycardia, low voltage QRS, electrical alternans · CXR: หัวใจโตรูปขวดน้ำ (water-bottle) ในน้ำสะสมช้า แต่ acute traumatic tamponade เงาหัวใจอาจปกติ",
+   "FAST/ echo: pericardial fluid + RA collapse ช่วง systole + RV collapse ช่วง diastole + IVC plethora → วินิจฉัยได้ข้างเตียง",
+   "Penetrating cardiac injury + tamponade → ผ่าตัด (sternotomy/ thoracotomy) · pericardiocentesis หรือ subxiphoid window เป็นทางชั่วคราว · arrest หลังถูกแทงหน้าอก → resuscitative thoracotomy",
+   "Pulse pressure กว้าง: Cushing reflex (กับ bradycardia, หายใจผิดปกติ), aortic regurgitation, thyrotoxicosis, AV fistula/ PDA, sepsis ระยะ hyperdynamic"
   ],
-  "opinion": "ไฟล์ไม่ได้จดคีย์ข้อที่ผิด — Claude แต่งช้อยให้ widened pulse pressure เป็นข้อผิดตามสรีรวิทยา · ความมั่นใจสูงในเนื้อหา",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ไฟล์ไม่มีคีย์ว่าข้อใดผิด (ผู้จดจำได้เพียงช้อย EKG เบา และ pulsus paradoxus ซึ่งเป็นลักษณะของ tamponade จริง) ช้อย widened pulse pressure ในเว็บแต่งขึ้นให้ขัดกับสรีรวิทยาของ tamponade ที่ stroke volume ลดจนความดันชีพจรแคบ จึงเป็นคำตอบเดียวที่ไม่เข้ากัน",
+  "mnemonic": "<b>'Tamponade บีบหัวใจ → ชีพจร \"แคบ\" ไม่ใช่ \"กว้าง\"'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thoracic Trauma; 2015 ESC Guidelines for the diagnosis and management of pericardial diseases (Adler et al., Eur Heart J 2015)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลังผ่าตัดหัวใจ 6 ชม. ความดันลดลง ท่อระบายจากช่องอกที่เคยมีเลือดออกมากหยุดไหลทันที CVP สูงขึ้น → สงสัย tamponade กลับเข้าห้องผ่าตัด"
+   "ชาย 20 ปีถูกแทงที่ precordium BP 70/50 JVP สูง FAST มีน้ำใน pericardium → ผ่าตัดเปิดหน้าอกซ่อมหัวใจทันที (pericardiocentesis ใช้ประคองระหว่างรอห้องผ่าตัด)",
+   "ผู้ป่วยถูกแทงหน้าอกหัวใจหยุดเต้นในห้องฉุกเฉินหลังมาถึงไม่นาน → resuscitative (left anterolateral) thoracotomy เปิด pericardium ระบายเลือด",
+   "ชาย 50 ปีปวดศีรษะหลังศีรษะกระแทก BP 180/60 ชีพจร 48 หายใจไม่สม่ำเสมอ → Cushing reflex จาก ICP สูง (pulse pressure กว้าง)",
+   "ผู้ป่วย uremia มี pericardial effusion ใหญ่ ความดันตก pulsus paradoxus 20 mmHg echo RV diastolic collapse → pericardiocentesis ด่วน แล้ว dialysis"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>Cardiac tamponade investigation ไหนผิด — EKG เบา · Pulsus paradoxus · ……</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์ไม่ได้จดว่าข้อไหนผิด → Claude แต่งช้อยและเฉลย · เติมบริบท trauma",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_17"
   ]
  },
  "MDCU74|RoC|18": {
-  "interp": "เด็ก 1 ขวบเขียวมากขึ้นเวลาร้อง นั่งยอง ๆ systolic ejection murmur ที่ LUSB CXR หัวใจรูป boot → ถามการวินิจฉัย",
-  "why": "ผู้จดเขียน <b>TOF</b> — Claude แต่งโจทย์ทั้งข้อ<br><b>นอกสไลด์:</b> Tetralogy of Fallot = VSD + RVOT obstruction + overriding aorta + RVH · RVOT ตีบทำให้เลือดดำข้าม VSD ไปฝั่งซ้าย (เขียว) · murmur เกิดจาก RVOT ตีบ ไม่ใช่ VSD · นั่งยองเพิ่มแรงต้านหลอดเลือดส่วนปลาย ดันเลือดไปปอดมากขึ้น",
+  "interp": "เด็ก 1 ขวบ <b>เขียวมากขึ้นเวลาร้อง</b> ชอบ<b>นั่งยอง (squatting)</b> มี harsh systolic ejection murmur ที่ left upper sternal border และ CXR หัวใจรูป<b>รองเท้าบูต</b> — ถามการวินิจฉัยโรคหัวใจพิการแต่กำเนิดชนิดเขียว ต้องจับคู่อาการ เสียง และภาพรังสีให้ได้",
+  "why": "<b>Tetralogy of Fallot</b> (TOF) เป็นโรคหัวใจพิการแต่กำเนิดชนิดเขียวที่พบบ่อยที่สุดหลังวัยทารกแรกเกิด ประกอบด้วย ① <b>VSD</b> ขนาดใหญ่ ② <b>RVOT obstruction</b> (infundibular/ pulmonary stenosis) ③ <b>overriding aorta</b> ④ <b>RVH</b> — ต้นเหตุทั้งหมดมาจาก infundibular septum เคลื่อนไปทาง anterior-cephalad · ความรุนแรงของการเขียวขึ้นกับความตีบของ RVOT: เลือดดำไหลผ่าน VSD ไป aorta (right-to-left shunt) · <b>tet spell</b> (hypercyanotic spell) เกิดเวลาร้องหรือขาดน้ำ เพราะ infundibulum หดเกร็งและ SVR ลด → shunt มากขึ้น · <b>squatting</b> เพิ่ม SVR ทำให้เลือดไปปอดมากขึ้น · murmur เกิดจาก RVOT (ไม่ใช่จาก VSD) และ<b>เบาลงขณะ spell</b> · CXR: <b>boot-shaped heart (coeur en sabot)</b> จาก RVH ยกปลายหัวใจและ pulmonary trunk เล็ก ร่วมกับ pulmonary vascular marking ลดลง · รักษา spell: knee-chest position, O2, morphine, IV fluid, phenylephrine, propranolol · ผ่าตัด complete repair (ปิด VSD + ขยาย RVOT) มักทำช่วงอายุ 3–6 เดือน ส่วน modified Blalock-Taussig shunt เป็นการผ่าตัดประคองในทารกที่เขียวมากและยังไม่พร้อมแก้ไขทั้งหมด · ไฟล์จดไว้แค่ <b>\"เด็กเขียวสักอย่าง — TOF\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> TGA เขียวมากตั้งแต่แรกเกิดเพราะวงจรเลือดสองวงแยกกัน · จะถูกถ้าทารกอายุไม่กี่ชั่วโมงเขียวมาก ให้ออกซิเจนไม่ดีขึ้น CXR หัวใจรูปไข่ก้านแคบ (egg on a string)",
-   "C": "<b>นอกสไลด์:</b> VSD เดี่ยวเป็น L→R shunt ไม่เขียว · จะถูกถ้าทารกอายุ 2–3 เดือนเหนื่อยเวลาดูดนม เลี้ยงไม่โต holosystolic murmur ที่ LLSB",
-   "D": "<b>นอกสไลด์:</b> Truncus arteriosus เขียวเล็กน้อยร่วมกับหัวใจวาย ชีพจรแรง · จะถูกถ้าทารกมีหัวใจวายในสัปดาห์แรก ๆ ชีพจรแรง และมีลักษณะ 22q11 deletion",
-   "E": "<b>นอกสไลด์:</b> TAPVR เขียวและปอดบวมน้ำในชนิดอุดกั้น · จะถูกถ้าทารกเขียวหอบตั้งแต่วันแรก CXR หัวใจเล็กปอดบวมน้ำ (ชนิดอุดกั้น) หรือรูป snowman (ชนิด supracardiac)"
+   "B": "Transposition of the great arteries เขียวมากตั้งแต่<b>วันแรกหลังคลอด</b> (เลือดดำวนกลับเข้าร่างกาย) อยู่รอดได้ด้วย PDA/ ASD ภาพ CXR เป็น <b>egg on a string</b> และเสียง murmur อาจไม่มี — จะถูกถ้าเป็นทารกแรกเกิดอายุ 1 วัน มารดาเป็นเบาหวาน เขียวมากไม่ดีขึ้นด้วย O2 → PGE1 + balloon atrial septostomy แล้ว arterial switch ใน 2–3 สัปดาห์แรก",
+   "C": "VSD เป็น acyanotic left-to-right shunt มี holosystolic murmur ที่ left lower sternal border และ pulmonary blood flow เพิ่ม ทำให้หัวใจวาย หายใจเร็ว น้ำหนักขึ้นช้าที่ 6–8 สัปดาห์ ไม่เขียวยกเว้นเกิด Eisenmenger — จะถูกถ้าเป็นทารก 2 เดือน เหงื่อออกขณะดูดนม หายใจเร็ว ตับโต ได้ยิน pansystolic murmur LLSB CXR หัวใจโตและ pulmonary marking เพิ่ม",
+   "D": "Truncus arteriosus มีหลอดเลือดแดงใหญ่เส้นเดียวคร่อม VSD เลือดไปปอดมาก → หัวใจวายตั้งแต่ไม่กี่สัปดาห์แรกร่วมกับเขียวเล็กน้อย สัมพันธ์กับ 22q11 deletion (DiGeorge) — จะถูกถ้าเป็นทารก 3 สัปดาห์ เขียวเล็กน้อย หอบ bounding pulse มีชักจากแคลเซียมต่ำ CXR หัวใจโต pulmonary marking เพิ่ม → ผ่าตัดแก้ในช่วงทารกแรกเกิด",
+   "E": "TAPVR หลอดเลือดดำปอดทั้งหมดเปิดเข้าหัวใจห้องขวา ชนิด supracardiac ให้ภาพ snowman ส่วนชนิด infracardiac มักอุดตัน ทำให้เขียวรุนแรงกับ pulmonary edema ตั้งแต่ทารกแรกเกิด — จะถูกถ้าเป็นทารก 2 วัน เขียวและหอบมาก CXR หัวใจไม่โตแต่ปอดขาวฝ้าแบบ venous congestion → ผ่าตัดฉุกเฉิน"
   },
-  "trap": "ยิ่งเขียวมาก (tet spell) murmur ยิ่งเบา เพราะ RVOT ตีบจนเลือดไปปอดน้อย — อย่าคิดว่า murmur เบาแปลว่าดีขึ้น",
+  "trap": "โรคหัวใจเขียวมีหลายชนิด (5T: Tetralogy, Transposition, Truncus, TAPVR, Tricuspid atresia) ทำให้สับสน · ตัวแยก TOF คือ <b>เขียวตอนร้อง + squatting + boot-shaped + ปอดดำ (vascular marking ลด)</b> และมักแสดงหลังอายุไม่กี่เดือน · TGA/ TAPVR อุดตัน/ truncus เขียวหรือหัวใจวายตั้งแต่ช่วงทารกแรกเกิด และ truncus/ TAPVR มี pulmonary flow เพิ่ม",
   "summary": [
-   "<b>นอกสไลด์:</b> Tet spell: จัดท่าเข่าชิดอก · ออกซิเจน · morphine · สารน้ำ · β-blocker · phenylephrine (เพิ่ม SVR)",
-   "<b>นอกสไลด์:</b> ผ่าตัดแก้ไขทั้งหมด (ปิด VSD + ขยาย RVOT) ราว 3–6 เดือน · ทารกเขียวมากก่อนวัยผ่าตัด → modified Blalock-Taussig shunt"
+   "TOF 4 อย่าง: VSD + RVOT obstruction + overriding aorta + RVH · ความเขียวแปรตามความตีบของ RVOT",
+   "Tet spell: กระสับกระส่าย เขียวมากขึ้น หายใจเร็วลึก murmur เบาลง · กระตุ้นด้วยร้อง ถ่าย ขาดน้ำ ไข้",
+   "รักษา spell: knee-chest (เพิ่ม SVR) → O2 → morphine → IV fluid bolus → phenylephrine → propranolol/ esmolol · แก้ acidosis ด้วย bicarbonate",
+   "CXR TOF: boot-shaped heart + pulmonary trunk เว้า + pulmonary vascular marking ลด · ราว 25% มี right aortic arch",
+   "ผ่าตัด TOF: elective complete repair ราว 3–6 เดือน (ปิด VSD + resect infundibulum ± transannular patch) · ภาวะแทรกซ้อนระยะยาว pulmonary regurgitation ต้องเปลี่ยนลิ้นภายหลัง",
+   "Modified Blalock-Taussig shunt (subclavian → pulmonary artery ด้วย graft) = palliative เพิ่มเลือดไปปอดในทารกเขียวมากที่ยังไม่พร้อม complete repair",
+   "5T ของโรคหัวใจเขียว: TOF, TGA, Truncus arteriosus, TAPVR, Tricuspid atresia · ทารกแรกเกิดเขียวมากที่ PDA-dependent → PGE1"
   ],
-  "opinion": "เห็นด้วยกับคีย์ TOF · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — คีย์ในไฟล์มีเพียงลายมือผู้จด \"TOF\" (จำโจทย์ไม่ได้ เขียนแค่ว่าเด็กเขียว) โจทย์ในเว็บจึงแต่งให้มีครบทั้ง cyanosis ตอนร้อง squatting harsh SEM ที่ LUSB และ boot-shaped heart ซึ่งชี้ TOF ชัดเจนเพียงคำตอบเดียว ไม่ขัดกับคีย์",
+  "mnemonic": "<b>'Boot + Squat + ร้องแล้วเขียว = TOF'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Congenital Heart Disease; Moss and Adams' Heart Disease in Infants, Children, and Adolescents 10th ed. (2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกแรกเกิดเขียวมาก ฟังได้ continuous murmur จาก PDA และ echo พบ pulmonary atresia → ให้ prostaglandin E1 คง ductus ไว้"
+   "เด็ก TOF 8 เดือน ร้องไห้แล้วเขียวคล้ำ หายใจหอบลึก murmur หายไป → hypercyanotic spell → อุ้มท่า knee-chest ให้ O2 และ morphine",
+   "ทารกแรกเกิด 1 วัน เขียวมาก O2 ไม่ช่วย CXR egg on a string → TGA → PGE1 และ balloon atrial septostomy",
+   "ทารก TOF ที่ pulmonary atresia เขียวมาก SpO2 65% อายุ 2 สัปดาห์ → PGE1 แล้ว modified BT shunt",
+   "ทำไม squatting ทำให้เด็ก TOF เขียวลดลง → พับขาเพิ่ม SVR ลด right-to-left shunt ผ่าน VSD เลือดจึงไปปอดมากขึ้น"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>เด็กเขียวสักอย่าง — TOF</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์จดแค่ \"เด็กเขียวสักอย่าง - TOF\" → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_18"
   ]
  },
  "MDCU74|RoC|19": {
-  "interp": "หญิงเคยเป็นไข้รูมาติกตอนเด็ก เหนื่อยมากขึ้น AF · mid-diastolic rumble ความถี่ต่ำที่ apex + opening snap → ถามลิ้นหัวใจที่ผิดปกติ",
-  "why": "ไฟล์จดแค่ว่าออกเรื่อง <b>rheumatic fever/infective endocarditis ให้ดู murmur/valve</b> และ P'Ing แปะสรุป — Claude แต่งโจทย์<br><b>นอกสไลด์:</b> Rheumatic heart disease ทำลาย mitral valve มากที่สุด commissure เชื่อมติดกัน ลิ้นเปิดแคบ · opening snap คือเสียงลิ้นที่แข็งเปิดสุดทันที ตามด้วยเสียงฟู่ช่วง diastole เมื่อเลือดไหลผ่านรูแคบ · LA โต → AF",
+  "interp": "หญิง 35 ปี เคยเป็น <b>rheumatic fever</b> ตอนเด็ก มาด้วยเหนื่อยมากขึ้น <b>atrial fibrillation</b> และฟังได้ <b>low-pitched mid-diastolic rumble ที่ apex พร้อม opening snap</b> — ถามลิ้นหัวใจที่ผิดปกติ ต้องจับคู่จังหวะ ตำแหน่ง และลักษณะ murmur กับรอยโรคลิ้น",
+  "why": "Rheumatic heart disease เป็นสาเหตุหลักของ <b>mitral stenosis</b> (MS) ทั่วโลก โดยเฉพาะในประเทศกำลังพัฒนา — การอักเสบซ้ำทำให้ commissure เชื่อมติด ลิ้นหนา chordae สั้น · ลิ้น mitral แคบทำให้เลือดผ่านจาก LA ไป LV ช่วง <b>diastole</b> ได้ยาก → เกิด <b>opening snap</b> (ลิ้นแข็งเปิดแล้วหยุดกึก) ตามด้วย <b>low-pitched mid-diastolic rumble ที่ apex</b> (ฟังด้วย bell ท่านอนตะแคงซ้าย) และมี presystolic accentuation ถ้ายังเป็น sinus rhythm · ความดัน LA สูง → LA โต → <b>AF</b> และ thrombus, pulmonary venous congestion → เหนื่อย, hemoptysis, pulmonary hypertension · S1 ดัง · severe MS คือ mitral valve area <b>≤ 1.5 cm²</b> · รักษา: ยาลดอัตราการเต้น/ diuretic, AF ร่วม MS ปานกลางขึ้นไปให้ <b>warfarin</b> (ไม่ใช้ DOAC) · severe MS มีอาการและลิ้นเหมาะ (ไม่มี LA thrombus, MR ไม่เกิน mild) → <b>percutaneous mitral balloon commissurotomy</b> ถ้าไม่เหมาะ → ผ่าตัดเปลี่ยนลิ้น · ป้องกัน rheumatic fever ซ้ำด้วย benzathine penicillin G · ไฟล์จดไว้ว่าข้อนี้ <b>\"ตรง AC เรื่อง rheumatic fever / infective endocarditis → ดูพวก murmur / valve\"</b> โดยไม่มีโจทย์และคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> AS เป็น systolic ejection murmur ที่ RUSB ร้าวไปคอ · จะถูกถ้าผู้สูงอายุเจ็บอก เป็นลม เหนื่อย และฟังได้ systolic murmur ร้าวขึ้นคอ",
-   "C": "<b>นอกสไลด์:</b> MR เป็น holosystolic murmur ไม่ใช่ diastolic · จะถูกถ้าฟังได้ holosystolic murmur ที่ apex ร้าวไปรักแร้",
-   "D": "<b>นอกสไลด์:</b> TR เป็น holosystolic murmur ที่ LLSB ดังขึ้นเมื่อหายใจเข้า · จะถูกถ้าผู้ป่วยฉีดยาเสพติดมีไข้ murmur ที่ LLSB ดังตอนหายใจเข้า JVP มี v wave ใหญ่",
-   "E": "<b>นอกสไลด์:</b> PS เป็น systolic ejection murmur ที่ LUSB · จะถูกถ้าเด็ก Noonan syndrome (ตัวเตี้ย คอเป็นพังผืด) มี systolic murmur ที่ LUSB"
+   "B": "Aortic stenosis เป็น crescendo-decrescendo systolic ejection murmur ที่ right upper sternal border ร้าวไปคอ ร่วมกับ angina, syncope, dyspnea และ pulsus parvus et tardus สาเหตุหลักคือ calcific ในผู้สูงอายุหรือ bicuspid valve — จะถูกถ้าเป็นชาย 75 ปี เป็นลมขณะออกแรง ได้ยิน harsh SEM ที่ RUSB ร้าวขึ้นคอ S2 เบา echo พบ aortic valve area 0.8 cm²",
+   "C": "Mitral regurgitation เป็น holosystolic (pansystolic) murmur เสียงสูงที่ apex ร้าวไปรักแร้ ไม่มี opening snap และเกิดใน systole ไม่ใช่ diastole แม้ rheumatic ก็ทำ MR ได้ — จะถูกถ้าเป็นชาย 60 ปี หลัง inferior MI 5 วัน เหนื่อยเฉียบพลัน ปอดบวมน้ำ ได้ยิน pansystolic murmur ใหม่ที่ apex จาก papillary muscle rupture",
+   "D": "Tricuspid regurgitation เป็น holosystolic murmur ที่ left lower sternal border ดังขึ้นขณะหายใจเข้า (Carvallo sign) มี JVP สูงเห็น giant v wave และตับเต้น — จะถูกถ้าเป็นชาย 28 ปี ใช้ยาเสพติดฉีดเข้าเส้น ไข้สูง septic pulmonary emboli จาก tricuspid infective endocarditis",
+   "E": "Pulmonary stenosis เป็น systolic ejection murmur ที่ left upper sternal border มี ejection click ที่เบาลงขณะหายใจเข้า มักเป็นแต่กำเนิด (พบใน Noonan syndrome) ไม่สัมพันธ์กับ rheumatic fever — จะถูกถ้าเป็นเด็ก 6 ปี ตัวเตี้ย webbed neck ได้ยิน SEM ที่ LUSB พร้อม ejection click echo พบ dysplastic pulmonary valve → balloon valvuloplasty"
   },
-  "trap": "เสียงฟู่ช่วง diastole ที่ apex ในหญิงวัยเจริญพันธุ์ที่เคยเป็นไข้รูมาติก = MS · อย่าเลือก MR เพราะ MR เป็นช่วง systole",
+  "trap": "ทั้ง MS และ MR เป็นโรคลิ้น mitral จาก rheumatic เหมือนกันและอยู่ที่ apex จึงสลับกันง่าย · แยกด้วย<b>จังหวะ</b>: diastolic rumble + opening snap = stenosis ส่วน holosystolic ร้าวรักแร้ = regurgitation · และ AS กับ MS ต่างกันที่ตำแหน่งและจังหวะ (AS เป็น systolic ที่ RUSB)",
   "summary": [
-   "<b>นอกสไลด์:</b> RHD: mitral > aortic > tricuspid",
-   "<b>นอกสไลด์:</b> Severe MS: valve area ≤ 1.5 cm²",
-   "<b>นอกสไลด์:</b> รักษา MS ที่มีอาการ: percutaneous mitral balloon commissurotomy ถ้าลิ้นเหมาะ (Wilkins ≤ 8 ไม่มี LA thrombus ไม่มี MR มาก) · ไม่เหมาะ → ผ่าตัดเปลี่ยนลิ้น",
-   "<b>นอกสไลด์:</b> Secondary prophylaxis: benzathine penicillin ทุก 3–4 สัปดาห์"
+   "Rheumatic heart disease: ลิ้นที่โดนบ่อยสุดคือ mitral (MS เป็นรอยโรคจำเพาะที่สุด) รองลงมา aortic · มักแสดงอาการหลัง acute rheumatic fever 10–20 ปี",
+   "MS: opening snap + low-pitched mid-diastolic rumble ที่ apex (bell, left lateral decubitus) + S1 ดัง · ระยะ S2–OS ยิ่งสั้นยิ่งตีบมาก",
+   "ผลของ MS: LA โต → AF, LA thrombus, stroke · pulmonary venous hypertension → เหนื่อย นอนราบไม่ได้ hemoptysis · เสียงแหบจาก LA กด recurrent laryngeal nerve (Ortner syndrome)",
+   "Severe MS: MVA ≤ 1.5 cm² · มีอาการ + ลิ้นเหมาะ (ไม่มี LA thrombus, MR ≤ mild, calcification ไม่มาก) → percutaneous mitral balloon commissurotomy",
+   "AF ร่วมกับ rheumatic MS ปานกลางขึ้นไป → warfarin (DOAC ไม่ใช้ในกลุ่มนี้)",
+   "Murmur จับคู่: AS = SEM RUSB ร้าวคอ · AR = early diastolic LSB · MR = holosystolic apex ร้าวรักแร้ · TR = holosystolic LLSB ดังขึ้นตอนหายใจเข้า",
+   "Secondary prophylaxis rheumatic fever: benzathine penicillin G ฉีดเข้ากล้ามทุก 3–4 สัปดาห์ ระยะเวลาขึ้นกับว่ามี carditis/ ลิ้นเสียหลงเหลือหรือไม่"
   ],
-  "opinion": "ไฟล์ไม่มีโจทย์และคีย์ — Claude แต่งโจทย์ให้ตอบ mitral stenosis ซึ่งเป็น RHD ที่พบบ่อยที่สุด · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีคีย์และไม่มีโจทย์ ผู้จดบอกเพียงว่าตรงกับ AC เรื่อง rheumatic fever / infective endocarditis ให้ทบทวน murmur และลิ้น · โจทย์ในเว็บแต่งให้มี opening snap + mid-diastolic rumble ที่ apex + AF ในผู้มีประวัติ rheumatic fever ซึ่งเป็นภาพคลาสสิกของ mitral stenosis",
+  "mnemonic": "<b>'Rheumatic → Mitral Stenosis: Snap แล้ว Rumble ช่วง Diastole'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Otto et al., Circulation 2021); 2021 ESC/EACTS Guidelines for the management of valvular heart disease (Vahanian et al., Eur Heart J 2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ 28 สัปดาห์ที่มี MS เหนื่อยมากขึ้น หัวใจเต้นเร็ว → β-blocker ลดอัตราหัวใจเพื่อยืดเวลา diastole",
-   "<b>นอกสไลด์:</b> ผู้ป่วย MS ร่วม AF → ยาต้านการแข็งตัวด้วย warfarin (ไม่ใช้ DOAC ใน moderate–severe MS)"
+   "หญิง 30 ปี ตั้งครรภ์ 28 สัปดาห์ เหนื่อยมากขึ้นจนนอนราบไม่ได้ ได้ยิน diastolic rumble + OS echo MVA 1.0 cm² ลิ้นเหมาะ → percutaneous mitral balloon commissurotomy",
+   "ผู้ป่วย rheumatic MS มี AF ใหม่ → ควบคุมอัตราการเต้น + warfarin เป้า INR 2–3",
+   "เด็ก 10 ปี เจ็บคอเมื่อ 3 สัปดาห์ก่อน ตามด้วยข้ออักเสบย้ายที่ และ pansystolic murmur ใหม่ → acute rheumatic fever (Jones criteria) ร่วม carditis",
+   "ผู้ป่วยลิ้นหัวใจผิดปกติจาก rheumatic มีไข้ 2 สัปดาห์ hemoculture พบ viridans streptococci 2 ครั้ง → infective endocarditis (Duke criteria)"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>ตรง AC เรื่อง rheumatic fever / infective endocarditis -> ดูพวก murmur / valve</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์ไม่มีโจทย์ จดแค่ว่าออกเรื่อง rheumatic fever / infective endocarditis ให้ดู murmur / valve → Claude แต่งโจทย์ (ระบุ \"ตรง AC\" — ข้อเดิมในคลังยังไม่มีปีที่ตรงชัด)",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_19"
   ]
  },
  "MDCU74|RoC|20": {
-  "interp": "อาเจียนแรงหลังดื่มสุรา เจ็บอกรุนแรง ลมใต้ผิวหนังที่คอ น้ำในเยื่อหุ้มปอดซ้าย · esophagogram มีรอยรั่วที่หลอดอาหารส่วนปลาย 6 ชม.หลังเกิด = Boerhaave → ถามการรักษา",
-  "why": "ผู้จดเขียน <b>Surgery</b> · P'Ing เขียน <b>eso. rupture</b> + แปะสรุป<br><b>นอกสไลด์:</b> รอยฉีกทะลุทุกชั้นที่รั่วออกช่องอกอย่างอิสระ ทำให้ mediastinitis และ sepsis เร็ว · มาเร็ว → ผ่าตัดเย็บซ่อมทุกชั้น (เสริมด้วยเนื้อเยื่อ) + ระบายช่องอก + ยาปฏิชีวนะกว้าง + งดอาหาร ให้อาหารทางสาย",
+  "interp": "ชาย 50 ปี ปวดหลังกระดูกอกรุนแรงหลังอาเจียนแรงจากดื่มสุราหนัก มี subcutaneous emphysema ที่คอ และ left pleural effusion — esophagogram ด้วยสารทึบรังสีละลายน้ำเห็นรั่วจาก distal esophagus ที่ 6 ชม. = <b>Boerhaave syndrome</b> · ถามการรักษา ซึ่งขึ้นกับว่ารั่วเข้าช่องอกอย่างอิสระและมาเร็วหรือไม่",
+  "why": "<b>Boerhaave syndrome</b> คือการฉีกขาด<b>ทะลุทุกชั้น (transmural)</b> ของหลอดอาหารจากความดันเพิ่มทันทีขณะอาเจียนโดยหูรูด cricopharyngeus ไม่คลาย มักเกิดที่ <b>left posterolateral ของ distal esophagus</b> เหนือ GE junction 2–3 cm ซึ่งกล้ามเนื้อบางและไม่มีโครงสร้างค้ำ · Mackler triad: อาเจียน + เจ็บหน้าอกรุนแรง + subcutaneous emphysema · ของในกระเพาะรั่วเข้า mediastinum และ pleura ซ้าย → mediastinitis, sepsis, ตายสูงมากถ้ารักษาช้า · วินิจฉัยด้วย <b>water-soluble contrast esophagogram</b> (ถ้าไม่เห็นรั่วตามด้วย barium) หรือ CT ที่ให้สารทึบรังสีทางปาก · การรักษามาตรฐานของ perforation ที่รั่วอิสระในผู้ป่วยมาเร็ว (โดยทั่วไปภายใน 24 ชม.) คือ <b>ผ่าตัดซ่อม (primary repair)</b> ผ่าน left thoracotomy: ผ่า myotomy ให้เห็นขอบเยื่อบุที่ขาดซึ่งมักยาวกว่าแผลกล้ามเนื้อ เย็บ 2 ชั้น เสริมด้วย tissue flap (intercostal muscle/ pleura) ล้างช่องอก วางสายระบาย ร่วมกับ NPO, broad-spectrum antibiotics, antifungal ตามความเหมาะสม และให้อาหารทาง feeding jejunostomy · มาช้าหรือเนื้อเยื่อตายมาก → ระบาย ± esophageal exclusion/ esophagectomy · ไฟล์จดว่าโจทย์ให้อาการแล้วถาม treatment คำตอบคือ <b>\"surgery\"</b> และ P'Ing เขียน eso. rupture",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> การรักษาโดยไม่ผ่าตัดใช้กับรอยรั่วที่ถูกจำกัด · จะถูกถ้า esophagogram เห็นรอยรั่วเล็กที่ไหลกลับเข้าหลอดอาหารได้ ไม่ไหลเข้าช่องเยื่อหุ้มปอด และผู้ป่วยไม่มีอาการ sepsis",
-   "C": "<b>นอกสไลด์:</b> PPI อย่างเดียวไม่แก้รอยทะลุ · จะถูกถ้าเป็น Mallory-Weiss tear ที่ฉีกเฉพาะเยื่อบุ อาเจียนเป็นเลือดหลังอาเจียนแรงแล้วหยุดเอง",
-   "D": "<b>นอกสไลด์:</b> การขยายหลอดอาหารในรอยทะลุทำให้ฉีกมากขึ้น · จะถูกถ้าผู้ป่วยกลืนลำบากจาก peptic stricture ที่ไม่มีรอยรั่ว",
-   "E": "<b>นอกสไลด์:</b> ดูดทาง NG อย่างเดียวไม่ควบคุมการปนเปื้อนในช่องอก · จะถูกถ้าผู้ป่วยลำไส้เล็กอุดตันจากพังผืด อาเจียน ท้องอืด ไม่มีสัญญาณลำไส้ขาดเลือด — งดอาหาร ใส่ NG ดูดและให้สารน้ำ"
+   "B": "Antibiotics + observation (non-operative) ใช้ได้เฉพาะ perforation ที่ <b>contained</b> อยู่ใน mediastinum สารทึบรังสีไหลกลับเข้าหลอดอาหาร อาการน้อย ไม่มี sepsis (Cameron criteria) แต่ข้อนี้รั่วเข้าช่องเยื่อหุ้มปอด — จะถูกถ้าเป็นหญิง 60 ปี หลังขยายหลอดอาหารด้วยกล้อง เจ็บหน้าอกเล็กน้อย สัญญาณชีพปกติ esophagogram เห็นรั่วเล็ก ๆ ค้างใน mediastinum แล้วไหลกลับเข้าหลอดอาหาร",
+   "C": "PPI อย่างเดียวรักษาภาวะที่เยื่อบุอักเสบหรือฉีกขาดตื้น ๆ ไม่ได้ปิดรูทะลุและไม่จัดการการปนเปื้อนในช่องอก — จะถูกถ้าเป็นชาย 40 ปี อาเจียนหลายครั้งหลังดื่มสุราแล้วมีเลือดสดปนเล็กน้อย สัญญาณชีพปกติ ส่องกล้องพบ Mallory-Weiss tear ที่เลือดหยุดแล้ว",
+   "D": "การขยายหลอดอาหารด้วยกล้องเป็นการรักษาภาวะตีบหรือ achalasia และเป็นสาเหตุที่พบบ่อยของ iatrogenic perforation จึงเป็นข้อห้ามเมื่อมีรูทะลุ — จะถูกถ้าเป็นหญิง 45 ปี กลืนลำบากทั้งของแข็งและของเหลวมานาน barium เห็น bird's beak manometry เป็น achalasia → pneumatic dilatation",
+   "E": "NG suction อย่างเดียวลดของเหลวไหลออกได้บ้างแต่ไม่ปิดรูทะลุและไม่ระบายหนองใน mediastinum/ pleura — จะถูกถ้าเป็นชาย 65 ปี เคยผ่าตัดช่องท้อง ปวดท้องบิด ท้องอืด อาเจียน ไม่มีไข้หรือกดเจ็บเฉพาะที่ CT เป็น adhesive small bowel obstruction ไม่มี strangulation → NG decompression + IV fluid"
   },
-  "trap": "สับสน Boerhaave (ทะลุทุกชั้น → ผ่าตัด) กับ Mallory-Weiss (ฉีกเยื่อบุ → อาเจียนเลือด หยุดเอง)",
+  "trap": "อาการเหมือน MI, aortic dissection หรือ pancreatitis และคนมักเลือก conservative เพราะคิดว่าเป็น Mallory-Weiss tear จากอาเจียนหลังดื่มสุรา · แยกด้วย <b>subcutaneous emphysema + pleural effusion ซ้าย + contrast รั่วอิสระ</b> = ทะลุทุกชั้น ต้องผ่าตัด · Mallory-Weiss เป็นแค่เยื่อบุฉีก อาเจียนเป็นเลือดโดยไม่มีลมรั่ว",
   "summary": [
-   "<b>นอกสไลด์:</b> Mackler triad: อาเจียน · เจ็บอก · ลมใต้ผิวหนัง",
-   "<b>นอกสไลด์:</b> ตำแหน่ง: หลอดอาหารส่วนปลายด้านซ้ายหลัง → น้ำในเยื่อหุ้มปอดซ้าย",
-   "<b>นอกสไลด์:</b> มาภายใน 24 ชม. → เย็บซ่อมทุกชั้น (รอยทะลุส่วนปลายเข้าทาง left thoracotomy) · มาช้าหรืออักเสบมาก → ระบายกว้าง ± stent หรือ exclusion/diversion"
+   "Boerhaave: transmural rupture จากความดันเพิ่มขณะอาเจียน · ตำแหน่งบ่อยสุด left posterolateral distal esophagus เหนือ GEJ 2–3 cm",
+   "Mackler triad: อาเจียน + เจ็บหน้าอก/ ลิ้นปี่รุนแรง + subcutaneous emphysema · CXR: pneumomediastinum, left pleural effusion, Naclerio V sign",
+   "วินิจฉัย: water-soluble contrast esophagogram ก่อน (ถ้าลบ → barium) หรือ CT with oral contrast · pleural fluid มี amylase สูง pH ต่ำ อาจเห็นเศษอาหาร",
+   "Free perforation มาเร็ว → primary repair ผ่าน left thoracotomy (lower third): myotomy เห็นขอบเยื่อบุ เย็บ 2 ชั้น + tissue buttress + ระบายช่องอก + feeding jejunostomy",
+   "Non-operative (Cameron criteria): contained ใน mediastinum, ระบายกลับเข้าหลอดอาหาร, อาการน้อย, ไม่มี sepsis → NPO + IV antibiotics + nutrition + เฝ้าดูใกล้ชิด",
+   "Endoscopic stent/ clip/ endoscopic vacuum therapy เป็นทางเลือกในผู้ป่วยบางรายที่รูเล็กและช่องอกถูกระบายแล้ว · มาช้า เนื้อตายมาก → diversion/ exclusion หรือ esophagectomy",
+   "สาเหตุ perforation ที่พบบ่อยที่สุดคือ iatrogenic (การส่องกล้อง/ ขยาย) ไม่ใช่ Boerhaave · Mallory-Weiss = เยื่อบุฉีกตื้น มาด้วย hematemesis รักษาประคับประคอง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ surgery · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียนว่า surgery และ P'Ing เขียน eso. rupture · โจทย์ในเว็บใส่รายละเอียดว่ารั่วเข้าช่องอกซ้ายและมาภายใน 6 ชม. ทำให้ primary surgical repair เป็นทางเลือกที่ดีที่สุด ไม่ใช่กลุ่ม contained ที่รักษาแบบประคับประคองได้",
+  "mnemonic": "<b>'อาเจียน + เจ็บอก + ลมใต้ผิวหนัง = Boerhaave → ซ่อม (Repair) เร็ว'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Esophagus; Esophageal emergencies: WSES guidelines (Chirica et al., World J Emerg Surg 2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย achalasia หลังขยายด้วยบอลลูนเกิดรอยทะลุ มาเร็ว → ผ่าตัดเย็บซ่อมร่วมกับ Heller myotomy ด้านตรงข้ามในครั้งเดียว"
+   "ชาย 70 ปี หลัง EGD ขยาย stricture เจ็บอกเล็กน้อย ไม่มีไข้ esophagogram รั่วเล็ก contained และไหลกลับ → NPO + IV antibiotics + เฝ้าสังเกต",
+   "ชาย 45 ปี อาเจียนหลังดื่มสุราแล้วมีเลือดสดปน สัญญาณชีพคงที่ ไม่มีลมใต้ผิวหนัง → ส่องกล้อง พบ Mallory-Weiss tear → PPI ± endoscopic hemostasis",
+   "Boerhaave มาช้า 4 วัน mediastinitis รุนแรง ขอบแผลเปื่อยยุ่ย → ระบายช่องอก + esophageal exclusion/ esophagectomy + feeding jejunostomy",
+   "ทำไมต้องทำ myotomy ก่อนเย็บ → แผลเยื่อบุมักยาวกว่าแผลกล้ามเนื้อ ต้องเห็นขอบเยื่อบุให้ครบจึงเย็บปิดได้แน่น"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>Boerhavve — โจทย์ให้อาการมา ถาม treatment — surgery</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ว่าโจทย์ให้อาการ ถาม treatment → surgery · แต่งโจทย์ · ข้อคล้ายกับ 75D CVT 5 (คนละปี)",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_20"
   ]
  },
  "MDCU74|RoC|21": {
-  "interp": "ปอดอักเสบ 10 วัน ไข้ไม่ลง น้ำในเยื่อหุ้มปอดซ้ายปานกลาง เจาะได้หนองชัด = empyema → ถามการรักษาเริ่มต้นร่วมกับยาปฏิชีวนะ",
-  "why": "ผู้จดเขียน <b>ICD</b> · P'Ing ไฮไลต์<br><b>นอกสไลด์:</b> หนองในช่องเยื่อหุ้มปอดเป็นการติดเชื้อที่ขังอยู่ ยาเข้าได้แต่ไม่กำจัดหนอง ต้องระบาย (source control) · ใส่สายระบายทรวงอกเป็นขั้นแรก ไม่ต้องรอผล pH เมื่อได้หนองชัด",
+  "interp": "ชาย 60 ปี เป็น pneumonia มา 10 วัน ไข้ไม่ลง มี moderate left pleural effusion และเจาะได้<b>หนองชัด (frank pus)</b> = <b>empyema thoracis</b> — ถามการรักษาเริ่มต้นนอกเหนือจากยาปฏิชีวนะ ต้องรู้ข้อบ่งชี้การใส่ท่อระบายใน parapneumonic effusion",
+  "why": "Parapneumonic effusion แบ่ง 3 ระยะ: ① <b>exudative</b> น้ำใส ไหลอิสระ ② <b>fibrinopurulent</b> แบคทีเรียบุก มี fibrin เป็นช่อง (loculation) pH/ glucose ลด ③ <b>organizing</b> มี peel หนาห่อปอด (trapped lung) · ข้อบ่งชี้ต้อง<b>ระบายด้วย chest tube</b> (complicated parapneumonic effusion/ empyema) ได้แก่ <b>หนองชัด</b>, Gram stain/ culture บวก, pleural fluid <b>pH &lt; 7.2</b>, glucose ต่ำ (&lt; 60 mg/dL), มี loculation หรือน้ำปริมาณมาก · ยาปฏิชีวนะอย่างเดียวเข้าไปในโพรงหนองได้ไม่พอ ต้องเอาหนองออก · ปัจจุบันใช้ <b>intercostal chest drain</b> ขนาดเล็กถึงกลางได้ (small-bore ร่วมกับ flush) · ถ้าระบายไม่ดีหรือมี loculation → intrapleural <b>tPA + DNase</b> หรือ <b>VATS debridement/ decortication</b> · ระยะ organizing ที่ปอดขยายไม่ได้ → decortication (VATS หรือ open) · ยาปฏิชีวนะต้องครอบคลุม anaerobes และให้นานหลายสัปดาห์ตามการตอบสนอง · ไฟล์จดว่าโจทย์ให้อาการแล้วถาม treatment คำตอบคือ <b>\"ICD\"</b> (P'Ing ไฮไลต์)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ยาอย่างเดียวพอใน parapneumonic effusion ที่ไม่ซับซ้อน · จะถูกถ้าเจาะได้น้ำใส pH สูงกว่าเกณฑ์ระบาย ย้อมเชื้อไม่พบ และปริมาณน้อย",
-   "C": "<b>นอกสไลด์:</b> เจาะครั้งเดียวระบายหนองไม่หมดและจะกลับมาใหม่ · จะถูกถ้า parapneumonic effusion ไม่ซับซ้อนปริมาณปานกลางที่เจาะเพื่อวินิจฉัยและบรรเทาอาการครั้งเดียว",
-   "D": "<b>นอกสไลด์:</b> Decortication ใช้ในระยะ organizing ที่ปอดถูกเปลือกหนารัด · จะถูกถ้าใส่สายระบายและให้ยาสลายลิ่มแล้วยังมีช่องหนองหลายช่องและปอดไม่ขยาย (trapped lung)",
-   "E": "<b>นอกสไลด์:</b> Pleurodesis ทำให้เยื่อหุ้มปอดติดกันเพื่อกันน้ำกลับ · จะถูกถ้าผู้ป่วยมะเร็งมีน้ำในเยื่อหุ้มปอดกลับมาซ้ำ และปอดขยายเต็มเมื่อระบายออก"
+   "B": "ยาปฏิชีวนะอย่างเดียวใช้ได้กับ uncomplicated parapneumonic effusion ที่น้ำใส pH ≥ 7.2 glucose ปกติ Gram stain ลบ แต่หนองชัดต้องระบายเสมอ — จะถูกถ้าเป็นหญิง 40 ปี pneumonia มี effusion เล็ก เจาะได้น้ำใสสีเหลือง pH 7.4 glucose 90 mg/dL ไม่พบเชื้อ ไข้ลดลงหลังให้ยา 2 วัน",
+   "C": "เจาะดูดครั้งเดียวไม่พอสำหรับหนองที่จะสะสมซ้ำและมักมี loculation · การเจาะดูดใช้เพื่อวินิจฉัยหรือลดอาการชั่วคราว — จะถูกถ้าเป็นชาย 70 ปี heart failure มี transudative pleural effusion ข้างขวาปริมาณมากจนเหนื่อย ต้องการ therapeutic thoracentesis ร่วมกับปรับยาขับปัสสาวะ",
+   "D": "Open thoracotomy + decortication เป็นการผ่าตัดใหญ่สำหรับ empyema ระยะ organizing ที่มี peel หนาห่อปอดจนปอดขยายไม่ได้ หรือล้มเหลวจากการระบายและ VATS ไม่ใช่ขั้นแรก — จะถูกถ้าเป็นชาย 55 ปี empyema มา 6 สัปดาห์ ใส่ท่อระบายและให้ fibrinolytics แล้ว CT ยังเห็น pleura หนาห่อปอด ปอดแฟบค้าง เหนื่อย",
+   "E": "Pleurodesis ทำให้เยื่อหุ้มปอดสองชั้นติดกัน ใช้ป้องกันน้ำ/ ลมสะสมซ้ำ ห้ามทำในช่องที่ติดเชื้อ — จะถูกถ้าเป็นหญิง 60 ปี มะเร็งเต้านมแพร่กระจาย malignant pleural effusion สะสมซ้ำหลังเจาะ ปอดขยายได้เต็มหลังระบาย → talc pleurodesis"
   },
-  "trap": "เจาะได้หนองชัดแล้วรอผล pH หรือให้ยาอย่างเดียว — หนองชัด = ระบายเลย",
+  "trap": "คนเลือก antibiotics เพราะคิดว่า pneumonia รักษาด้วยยา หรือข้ามไป decortication เพราะคำว่า pus · หลัก: <b>หนองในช่องปอด = ต้องระบาย (drain the pus)</b> และขั้นแรกคือ chest drain ส่วนผ่าตัดเก็บไว้เมื่อระบายไม่ได้ผลหรือมี trapped lung",
   "summary": [
-   "<b>นอกสไลด์:</b> ระยะ: exudative → fibrinopurulent (เริ่มมีผนังกั้นเป็นช่อง) → organizing (เปลือกหนารัดปอด)",
-   "<b>นอกสไลด์:</b> มีช่องหลายช่องระบายไม่หมด → ให้ tPA + DNase ทางสาย หรือ VATS",
-   "<b>นอกสไลด์:</b> ยาปฏิชีวนะครอบคลุม anaerobe ในปอดอักเสบที่ติดเชื้อในชุมชน"
+   "Parapneumonic effusion 3 ระยะ: exudative (ใส ไหลอิสระ) → fibrinopurulent (loculation, pH/ glucose ลด) → organizing (peel หนา trapped lung) ใช้เวลาราวหลายสัปดาห์",
+   "ข้อบ่งชี้ chest drain: frank pus, Gram stain/ culture บวก, pH &lt; 7.2, glucose &lt; 60 mg/dL (3.3 mmol/L), loculation, effusion ใหญ่",
+   "Empyema รักษา: IV antibiotics ครอบ anaerobes + ระบายด้วย chest drain · ส่ง pleural fluid ตรวจ pH, glucose, LDH, Gram stain, culture",
+   "ระบายไม่ได้ผล/ loculated → intrapleural tPA + DNase (MIST-2) หรือ VATS debridement · ล้มเหลว/ trapped lung → decortication",
+   "Light's criteria exudate: pleural/serum protein &gt; 0.5 หรือ pleural/serum LDH &gt; 0.6 หรือ pleural LDH &gt; 2/3 ของ upper limit ปกติ",
+   "Pleurodesis (talc) เหมาะกับ malignant effusion ซ้ำที่ปอดขยายได้ · ห้ามทำในช่องที่ติดเชื้อ",
+   "Empyema ไม่ตอบสนองในประเทศไทยนึกถึง TB empyema, melioidosis (Burkholderia pseudomallei) ในผู้ป่วยเบาหวาน และ anaerobes จาก aspiration"
   ],
-  "opinion": "เห็นด้วยกับคีย์ ICD · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน ICD และ P'Ing ไฮไลต์ · โจทย์ในเว็บระบุว่าเจาะได้หนองชัดซึ่งเป็นข้อบ่งชี้เด็ดขาดของการใส่ intercostal chest drain ร่วมกับยาปฏิชีวนะ ก่อนจะพิจารณา fibrinolytics หรือผ่าตัด",
+  "mnemonic": "<b>'Pus in pleura → Drain it (ICD)'</b>",
+  "guide": "British Thoracic Society Guideline for pleural disease (Roberts et al., Thorax 2023); AATS expert consensus guidelines for the management of empyema (Shen et al., J Thorac Cardiovasc Surg 2017)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย empyema ใส่สายระบายแล้ว 3 วัน ไข้ยังสูง CT พบหนองหลายช่องที่สายเข้าไม่ถึง → ให้ tPA + DNase ทางสาย หรือ VATS debridement"
+   "ผู้ป่วย empyema ใส่ ICD แล้ว 3 วัน ยังไข้ CT เห็นหลาย loculation → intrapleural tPA + DNase หรือ VATS debridement",
+   "pneumonia มี effusion pH 7.0 glucose 35 mg/dL แต่ลักษณะยังไม่ขุ่น → complicated parapneumonic effusion → ใส่ chest drain",
+   "ชาย 58 ปี เบาหวาน ไข้สูงในฤดูฝน มี empyema เชื้อเป็น Gram-negative bacilli รูป safety pin → melioidosis → ceftazidime/ meropenem + ระบาย",
+   "ทำไมยาปฏิชีวนะอย่างเดียวรักษา empyema ไม่หาย → หนองในช่องปิดมีเลือดเลี้ยงน้อย ยาเข้าได้ไม่พอ และ pH ต่ำทำให้ยาบางกลุ่มออกฤทธิ์ลดลง ต้องเอาหนองออก"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>Empyema thoracis — โจทย์ให้อาการมา ถาม treatment — ICD</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ว่าโจทย์ให้อาการ ถาม treatment → ICD · แต่งโจทย์",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_21"
   ]
  },
  "MDCU74|RoC|22": {
-  "interp": "ถามเทคนิคเย็บผิวหนังที่เสี่ยงทำให้ขอบแผลขาดเลือดและเนื้อตายมากที่สุดถ้าผูกแน่นเกิน",
-  "why": "ผู้จดเขียน <b>Horizontal</b> (\"ตรง Ac\") · P'Ing ไฮไลต์ <b>blood supply compromise</b><br><b>นอกสไลด์:</b> Horizontal mattress วิ่งขนานขอบแผลแล้วรัดเนื้อเยื่อเป็นวงสี่เหลี่ยม จึงบีบหลอดเลือดที่วิ่งเข้าหาขอบแผลมากที่สุด · ข้อดีคือกระจายแรงตึงและช่วยห้ามเลือด",
+  "interp": "คำถามถามเทคนิคการเย็บผิวหนังที่<b>ทำให้ขอบแผลขาดเลือดและเนื้อตายมากที่สุดถ้าผูกแน่นเกินไป</b> — ต้องรู้ว่าแต่ละแบบเย็บผ่านเนื้อเยื่ออย่างไร และแบบใดรัดหลอดเลือดที่วิ่งขนานขอบแผลไว้ในห่วงเส้นด้าย",
+  "why": "เลือดที่เลี้ยงขอบแผลผิวหนังมาจาก dermal/ subdermal plexus ที่วิ่ง<b>ขนานกับขอบแผล</b> · <b>Horizontal mattress suture</b> เข็มผ่านเข้าออกสองจุดบนฝั่งเดียวกันในแนวขนานขอบแผล ทำให้ห่วงด้ายเป็นวงสี่เหลี่ยมที่รัดผิวหนังส่วนขอบแผลไว้ทั้งแถบ → ตัด<b>เลือดที่วิ่งขนานขอบแผลได้มากที่สุด</b> ถ้าผูกแน่นเกิด edge necrosis · ข้อดีคือกระจายแรงตึงได้ดี ช่วยพลิกขอบออก (eversion) และห้ามเลือดได้ ใช้กับแผลตึงหรือผิวบาง (เช่นฝ่ามือ ผู้สูงอายุ) แต่ต้องผูกหลวมและตัดไหมเร็ว · <b>Vertical mattress</b> เย็บลึกและตื้นในแนวตั้งฉากขอบแผล พลิกขอบออกดีมาก และรบกวนเลือดน้อยกว่า horizontal · ถ้าขอบแผลเลือดเลี้ยงไม่ดี (เช่นปลาย flap) ใช้ <b>half-buried horizontal mattress</b> (corner stitch) ที่ด้ายผ่านใน dermis ฝั่งที่เปราะบางโดยไม่ทะลุผิว · ไฟล์จดว่าข้อนี้ออกแบบ <b>\"blood supply compromise เย็บแบบไหน — Horizontal\"</b> และเขียนว่า \"ตรง Ac\" (P'Ing ไฮไลต์ blood supply compromise)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Simple interrupted รัดเนื้อเยื่อเฉพาะจุดตั้งฉากกับขอบแผล เลือดยังไหลระหว่างเข็มได้ · ไม่มีสถานการณ์ใดที่เสี่ยงขอบแผลขาดเลือดมากที่สุด เพราะแต่ละเข็มกินเนื้อเยื่อแคบและไม่ขนานกับขอบ",
-   "C": "<b>นอกสไลด์:</b> Vertical mattress วิ่งตั้งฉากกับขอบแผล ไม่ขวางหลอดเลือดที่เข้าหาขอบ ให้ขอบแผลบานออก (eversion) ดี · ไม่มีสถานการณ์ใดที่เสี่ยงกว่า horizontal mattress เพราะแนวไหมขนานกับทิศเลือดที่เลี้ยงขอบแผล",
-   "D": "<b>นอกสไลด์:</b> Subcuticular เย็บในชั้นหนังแท้ ไม่รัดผ่านผิว แผลเป็นสวย · ไม่มีสถานการณ์ใดที่เสี่ยงขอบแผลขาดเลือดมากที่สุด เพราะไม่รัดเนื้อเยื่อเต็มความหนา",
-   "E": "<b>นอกสไลด์:</b> Simple continuous เย็บเร็ว แต่ถ้าดึงแน่นจะรัดได้ทั้งแนว · ไม่มีสถานการณ์ใดที่เสี่ยงกว่า horizontal mattress เพราะแต่ละช่วงยังตั้งฉากกับขอบแผล ไม่รัดขนานขอบเป็นวง"
+   "B": "Simple interrupted เป็นเทคนิคพื้นฐานที่ใช้บ่อยสุด แต่ละเข็มเป็นอิสระ ปรับแรงตึงทีละจุดได้ และเปิดบางเข็มระบายได้ถ้าติดเชื้อ รัดเลือดน้อยกว่า mattress — จะถูกถ้าเป็นชาย 30 ปี แผลฉีกขาดขอบเรียบยาว 4 cm ที่ปลายแขน ปนเปื้อนเล็กน้อย ต้องการวิธีเย็บที่เปิดบางเข็มระบายได้หากติดเชื้อ",
+   "C": "Vertical mattress (far-far-near-near) พลิกขอบแผลออกได้ดีที่สุดและปิด dead space ในชั้นเดียว แนวเย็บตั้งฉากกับขอบแผลจึงรัดหลอดเลือดที่วิ่งขนานขอบน้อยกว่า horizontal — จะถูกถ้าเป็นหญิง 70 ปี แผลที่หลังมือผิวหย่อน ขอบแผลม้วนเข้า (inversion) ต้องการเทคนิคที่พลิกขอบออกให้ชนกันพอดี",
+   "D": "Subcuticular continuous เย็บอยู่ในชั้น dermis ไม่มีรอยเข็มบนผิว ได้แผลเป็นสวยที่สุด ไม่รัดผิวหนังเพราะไม่ทะลุผิว แต่รับแรงตึงได้น้อย — จะถูกถ้าเป็นหญิง 28 ปี แผลผ่าตัดไทรอยด์แนวขวางที่คอ ขอบแผลตึงน้อย ต้องการแผลเป็นสวยและไม่ต้องตัดไหม",
+   "E": "Simple continuous เย็บเร็ว กระจายแรงตึงตลอดแนว ห้ามเลือดได้ แต่ถ้าด้ายขาดจุดเดียวแผลแยกทั้งเส้น และถ้ารูดแน่นทำขอบแผลขาดเลือดได้บ้าง (น้อยกว่า horizontal mattress) — จะถูกถ้าเป็นชาย 40 ปี แผลยาวตรงสะอาดที่หนังศีรษะเลือดซึม ต้องการปิดเร็วและห้ามเลือด"
   },
-  "trap": "สับสนว่า vertical mattress (ไหมสองชั้นกินลึก) ขาดเลือดมากกว่า — ทิศของไหมสำคัญกว่าความลึก",
+  "trap": "หลายคนคิดว่า vertical mattress รัดแน่นกว่าเพราะเย็บลึกสองชั้น หรือคิดว่า continuous แย่สุด · หลักคือดู<b>แนวด้ายเทียบกับหลอดเลือดที่วิ่งขนานขอบแผล</b>: horizontal mattress วางด้ายขนานขอบแผลจึงรัดหลอดเลือดทั้งแถบ ส่วน vertical วางตั้งฉาก เลือดยังผ่านช่องระหว่างเข็มได้",
   "summary": [
-   "<b>นอกสไลด์:</b> Vertical mattress: ขอบแผลบานดี ใช้กับผิวหย่อนหรือขอบแผลม้วนเข้า",
-   "<b>นอกสไลด์:</b> Horizontal mattress: กระจายแรงตึง ห้ามเลือด แต่เสี่ยงขอบแผลเนื้อตาย",
-   "<b>นอกสไลด์:</b> Subcuticular: แผลเป็นสวย ไม่มีรอยเข็ม"
+   "เลือดขอบแผลมาจาก dermal/ subdermal plexus ที่วิ่งขนานขอบแผล → ด้ายที่วางขนานขอบแผล (horizontal mattress) รัดเลือดมากที่สุด",
+   "Horizontal mattress: กระจายแรงตึง eversion ห้ามเลือดได้ ใช้กับแผลตึง ผิวบาง ฝ่ามือ/ ฝ่าเท้า · ต้องผูกหลวม ใช้ bolster ในผิวเปราะ และตัดไหมเร็ว",
+   "Vertical mattress: eversion ดีที่สุด ปิด dead space ในชั้นเดียว รบกวนเลือดน้อยกว่า horizontal · ข้อเสียรอยเข็ม (track marks) มากกว่า",
+   "Half-buried horizontal mattress (corner/ tip stitch): ด้ายผ่าน dermis ของฝั่งเปราะโดยไม่ทะลุผิว → ใช้ที่ปลาย flap/ มุมแผลรูป V ลดการขาดเลือด",
+   "Subcuticular: แผลเป็นสวยที่สุด ไม่มี track marks ใช้กับแผลตึงน้อยหลังเย็บชั้นลึกแล้ว · simple interrupted ใช้ได้กว้างสุดและระบายได้ถ้าติดเชื้อ",
+   "วันตัดไหมโดยประมาณ: ใบหน้า 5 วัน · หนังศีรษะ 7–10 วัน · ลำตัว/ แขนขา 10–14 วัน · ฝ่ามือฝ่าเท้าและข้อต่อนานกว่า",
+   "Track marks (railroad) เกิดจากไหมผิวหนังค้างนาน + แรงตึงมาก + บวม → ผูกให้พอชิดไม่รัด ลดแรงตึงด้วย deep dermal sutures"
   ],
-  "opinion": "เห็นด้วยกับคีย์ horizontal mattress (ตรงกับ AC เดิม) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน Horizontal (ระบุว่าตรงกับ AC และ P'Ing ไฮไลต์ blood supply compromise) · horizontal mattress เป็นเทคนิคที่ตำราระบุว่าทำให้ขอบแผลขาดเลือดได้มากที่สุดเมื่อผูกแน่น ต่างจาก half-buried horizontal mattress ที่ออกแบบมาเพื่อลดการขาดเลือด",
+  "mnemonic": "<b>'Horizontal = ด้ายขนานขอบ = รัดเลือดทั้งแถบ'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic Techniques and Principles; Sabiston Textbook of Surgery 21st ed. (2022) — Wound Healing",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลที่หนังศีรษะยาว เลือดออกมาก ต้องเย็บเร็วและห้ามเลือด → simple continuous (locking) หรือ horizontal mattress"
+   "แผลที่ฝ่ามือผิวหนาตึง ขอบมีแรงดึงมาก ผู้ป่วยหนุ่ม ผิวดี → horizontal mattress ผูกหลวม ช่วยกระจายแรงตึง",
+   "ปิดมุมของแผลรูป V ที่ปลายผิวหนังบางและเลือดเลี้ยงน้อย → half-buried horizontal mattress (corner stitch)",
+   "แผลผ่าตัดที่คอ ต้องการแผลเป็นเรียบไม่มีรอยเข็ม → deep dermal sutures แล้วปิดด้วย subcuticular continuous",
+   "ทำไม horizontal mattress ในผู้สูงอายุผิวบางควรใช้ bolster หรือหลีกเลี่ยง → ด้ายรัดผิวทั้งแถบ ผิวที่เลือดเลี้ยงน้อยอยู่แล้วตายและขาดได้ง่าย"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>Suture — ออกแบบ blood supply compromise เย็บแบบไหน — Horizontal - ตรง Ac</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ว่าออกแบบ blood supply compromise → Horizontal ตรง AC → แต่งโจทย์",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_22"
   ]
  },
  "MDCU74|RoC|23": {
-  "interp": "ชาย 70 kg ไฟไหม้ deep partial + full thickness ที่ลำตัวด้านหน้าทั้งหมดและแขนขาทั้งสี่รอบวง ยังไม่ได้สารน้ำ → คำนวณอัตราสารน้ำต่อชั่วโมงช่วง 8 ชม.แรกด้วย Parkland",
-  "why": "ผู้จดบอกว่าสไตล์เหมือน AC (ลำตัวหน้า + แขนขาทั้งหมด ยังไม่ให้ IV ถาม rate) — Claude เลือกน้ำหนักและแต่งช้อย<br><b>นอกสไลด์:</b> TBSA = ลำตัวหน้า 18 + แขน 9 × 2 + ขา 18 × 2 = 72% · Parkland 4 × 70 × 72 = 20,160 mL/24 ชม. · ครึ่งแรก 10,080 mL ใน 8 ชม. = <b>1,260 mL/h</b>",
+  "interp": "ชาย 70 kg ไฟไหม้ deep partial + full thickness ที่<b>ลำตัวด้านหน้าทั้งหมด</b>และ<b>แขนขาทั้ง 4 รอบวง</b> ยังไม่ได้รับสารน้ำ — ถามอัตราสารน้ำต่อชั่วโมงใน 8 ชม.แรกตาม <b>Parkland formula</b> ต้องคำนวณ %TBSA ด้วย rule of nines ก่อน แล้วแบ่งครึ่งให้ใน 8 ชม.แรก",
+  "why": "ขั้นแรกประเมิน %TBSA ด้วย <b>rule of nines</b> (ผู้ใหญ่) นับเฉพาะ <b>partial thickness (second degree) ขึ้นไป</b> ไม่นับ superficial (first degree): ลำตัวด้านหน้า 18% + แขน 2 ข้างรอบวง 9% × 2 = 18% + ขา 2 ข้างรอบวง 18% × 2 = 36% → รวม <b>72% TBSA</b> · <b>Parkland</b> = <b>4 mL × น้ำหนัก (kg) × %TBSA</b> ใน 24 ชม.แรก = 4 × 70 × 72 = <b>20,160 mL</b> · ให้<b>ครึ่งหนึ่งใน 8 ชม.แรกนับจากเวลาเกิดเหตุ</b> = 10,080 mL → <b>1,260 mL/h</b> อีกครึ่งให้ใน 16 ชม.ถัดไป (630 mL/h) · ใช้ Lactated Ringer's · สูตรเป็นเพียงอัตราเริ่ม ต้อง<b>ปรับตาม urine output</b>: ผู้ใหญ่ 0.5 mL/kg/h (30–50 mL/h), เด็ก &lt; 30 kg 1 mL/kg/h, electrical/ myoglobinuria 1–1.5 mL/kg/h · ATLS 10th และ ABA แนะนำเริ่ม 2 mL/kg/%TBSA ในผู้ใหญ่เพื่อลด fluid creep (ได้ 630 mL/h ในกรณีเดียวกัน) แต่ข้อนี้ระบุให้ใช้ Parkland · burn รอบวงแขนขาและลำตัวต้องเฝ้าดู compartment และทำ escharotomy เมื่อจำเป็น · ไฟล์จดว่า <b>\"คำนวณ parkland — สไตล์ Ac เป๊ะเลย ... โดนตัวด้านหน้า แขนขาทั้งหมด ยังไม่ให้ IV ถาม rate\"</b> โดยไม่มีตัวเลขน้ำหนักหรือช้อย",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> 630 mL/h = ครึ่งหนึ่งของคำตอบ · จะถูกถ้าแผลมีแค่ลำตัวด้านหน้าและแขนสองข้าง (36%) ในชาย 70 kg",
-   "B": "<b>นอกสไลด์:</b> 945 mL/h · จะถูกถ้าแผลมีแค่ลำตัวด้านหน้าและขาสองข้าง (54%) ในชาย 70 kg",
-   "C": "<b>นอกสไลด์:</b> 1,050 mL/h · จะถูกถ้าแผลรวม 60% TBSA ในชาย 70 kg",
-   "E": "<b>นอกสไลด์:</b> 1,890 mL/h · จะถูกถ้าผู้ป่วยหนัก 105 kg และแผลเท่าเดิม 72%"
+   "A": "630 mL/h ได้จากสูตร 2 mL × 70 × 72 = 10,080 mL ใน 24 ชม. แล้วให้ครึ่งหนึ่งใน 8 ชม. (หรือเท่ากับอัตรา 16 ชม.หลังของ Parkland) จึงไม่ใช่ 8 ชม.แรกของ Parkland — จะถูกถ้าเป็นชาย 70 kg burn 72% เท่ากันที่แพทย์เลือกเริ่มตามสูตร ATLS 10th/ ABA สำหรับผู้ใหญ่ (2 mL/kg/%TBSA) แล้วปรับตาม urine output",
+   "B": "945 mL/h ได้จาก 3 mL × 70 × 72 = 15,120 mL ครึ่งหนึ่งใน 8 ชม. คือสูตรเด็กของ ATLS (3 mL/kg/%TBSA) หรือเกิดจากนับ TBSA เพียง 54% ด้วยสูตร 4 mL — จะถูกถ้าเป็นเด็กชายอายุ 13 ปี หนัก 70 kg ไฟไหม้ 72% TBSA เท่ากัน ซึ่ง ATLS ให้เริ่มที่ 3 mL/kg/%TBSA ในเด็ก ≤ 14 ปี",
+   "C": "1,050 mL/h ได้จาก Parkland ที่ใช้ TBSA 60% (4 × 70 × 60 = 16,800 mL ครึ่งหนึ่ง 8,400 mL ใน 8 ชม.) เป็นการประเมินพื้นที่แผลต่ำกว่าจริง — จะถูกถ้าเป็นชาย 70 kg ไฟไหม้ deep partial thickness ที่ประเมินด้วย Lund-Browder chart ได้ 60% TBSA และใช้ Parkland เริ่มทันทีหลังเกิดเหตุ",
+   "E": "1,890 mL/h ได้จากการให้ 10,080 mL ของ 8 ชม.แรกในเวลาเหลือเพียง 5 ชม. 20 นาที คือเหมาะเมื่อผู้ป่วยมาช้าโดยยังไม่ได้สารน้ำ เพราะ 8 ชม.นับจากเวลาไฟไหม้ไม่ใช่เวลามาถึง — จะถูกถ้าเป็นชาย 70 kg burn 72% เดียวกันที่มาถึงโรงพยาบาลหลังเกิดเหตุ 2 ชม. 40 นาทีโดยยังไม่ได้สารน้ำเลย"
   },
-  "trap": "630 mL/h คือผลของสูตร 2 mL × kg × %TBSA (ATLS/ABA) พอดี — โจทย์ระบุ Parkland จึงใช้ 4 mL · นับแขนข้างละ 9% และขาข้างละ 18% · เวลา 8 ชม. นับจากเวลาเกิดแผล ไม่ใช่เวลาที่มาถึง",
+  "trap": "ผิดบ่อย 3 จุด: ① คิด TBSA ผิด (ขา 1 ข้างรอบวง = 18% ไม่ใช่ 9%) ② ลืมแบ่งครึ่งหรือหารด้วย 24 แทน 8 ③ นับเวลาจากที่มาถึงแทนเวลาเกิดเหตุ · ช้อยตัวลวงแต่ละตัวมาจากความผิดพลาดเหล่านี้ จึงต้องคำนวณทีละขั้นและตรวจหน่วยทุกครั้ง",
   "summary": [
-   "<b>นอกสไลด์:</b> Rule of nines ผู้ใหญ่: ศีรษะ 9 · แขนข้างละ 9 · ลำตัวหน้า 18 · ลำตัวหลัง 18 · ขาข้างละ 18 · อวัยวะเพศ 1 · ฝ่ามือรวมนิ้วราว 1%",
-   "<b>นอกสไลด์:</b> Parkland: 4 mL × kg × %TBSA ใน 24 ชม. ครึ่งแรกใน 8 ชม. · ATLS/ABA ปัจจุบันเริ่มที่ 2 mL × kg × %TBSA ในผู้ใหญ่ (เด็ก 3 mL) แล้วปรับตามปัสสาวะ",
-   "<b>นอกสไลด์:</b> เป้าปัสสาวะผู้ใหญ่ราว 0.5 mL/kg/h (ไฟฟ้าแรงสูง/myoglobinuria ราว 1 mL/kg/h)"
+   "Rule of nines ผู้ใหญ่: ศีรษะ 9 · แขนข้างละ 9 · ลำตัวหน้า 18 · ลำตัวหลัง 18 · ขาข้างละ 18 · perineum 1 · ฝ่ามือผู้ป่วย (รวมนิ้ว) ≈ 1%",
+   "นับเฉพาะ partial thickness ขึ้นไป ไม่นับ superficial (first degree) · เด็กใช้ Lund-Browder เพราะศีรษะสัดส่วนใหญ่กว่า",
+   "Parkland: 4 mL × kg × %TBSA ใน 24 ชม. · ครึ่งแรกใน 8 ชม.นับจากเวลาเกิดเหตุ ครึ่งหลังใน 16 ชม. · ใช้ Lactated Ringer's",
+   "ATLS 10th/ ABA: ผู้ใหญ่เริ่ม 2 mL/kg/%TBSA · เด็ก ≤ 14 ปี 3 mL/kg/%TBSA (+ maintenance ที่มี dextrose ในเด็กเล็ก) · electrical 4 mL/kg/%TBSA",
+   "ปรับตาม urine output: ผู้ใหญ่ 0.5 mL/kg/h · เด็ก &lt; 30 kg 1 mL/kg/h · myoglobinuria/ electrical 1–1.5 mL/kg/h จนปัสสาวะใส",
+   "Fluid creep (ให้เกิน) → abdominal compartment syndrome, pulmonary edema, extremity compartment · ให้น้อยไป → burn shock, AKI",
+   "Circumferential full-thickness burn ของแขนขา/ ทรวงอก → เฝ้าดู perfusion/ การหายใจ ทำ escharotomy เมื่อชีพจรลด หรือ ventilation ไม่พอ"
   ],
-  "opinion": "ไฟล์ไม่มีตัวเลขและคีย์ — Claude ตั้งน้ำหนัก 70 kg และคำนวณเองตามสูตร Parkland ที่โจทย์ระบุ · ความมั่นใจสูงในการคำนวณ",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ไฟล์ไม่มีตัวเลขและช้อย (ผู้จดบอกเพียงว่าสไตล์เหมือน AC ไหม้ลำตัวด้านหน้า + แขนขาทั้งหมด ยังไม่ให้ IV ถาม rate) จึงไม่มีคีย์เป็นตัวอักษร · เว็บเลือกน้ำหนัก 70 kg แล้วคำนวณ 72% × 4 × 70 = 20,160 mL ครึ่งหนึ่งใน 8 ชม. = 1,260 mL/h ซึ่งตรวจซ้ำแล้วถูกต้อง",
+  "mnemonic": "<b>'4 × kg × % → ครึ่งแรก 8 ชม. (นับจากไฟไหม้)'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal Injuries; Sabiston Textbook of Surgery 21st ed. (2022) — Burns",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยไฟไหม้ 40% หนัก 60 kg ได้สารน้ำตามสูตรแล้วปัสสาวะออก 10 mL/h → เพิ่มอัตราสารน้ำราว 20–30% แล้วประเมินซ้ำ"
+   "หญิง 60 kg ไฟไหม้ลำตัวหน้าและหลังทั้งหมด (36%) Parkland → 4 × 60 × 36 = 8,640 mL · 8 ชม.แรก 4,320 mL = 540 mL/h",
+   "ผู้ป่วย burn 50% ให้ตามสูตรแล้ว urine output 15 mL/h (70 kg) → เพิ่มอัตราสารน้ำราว 20–30% แล้วประเมินซ้ำทุกชั่วโมง",
+   "ไฟฟ้าแรงสูงช็อต ปัสสาวะสีโคล่า → electrical burn + myoglobinuria → เป้า urine output 1–1.5 mL/kg/h จนปัสสาวะใส",
+   "ทำไมต้องนับ 8 ชม.จากเวลาไฟไหม้ → การรั่วของสารน้ำจาก capillary leak เริ่มทันทีหลังไหม้ ถ้ามาช้าต้องให้ส่วนที่เหลือเร็วขึ้นในเวลาที่เหลือ"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>คำนวณ parkland — สไตล์ Ac เป๊ะเลย อันนี้บอกว่าโดนตัวด้านหน้า แขนขาทั้งหมด ยังไม่ให้ IV ถาม rate</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์ไม่มีตัวเลขน้ำหนัก/ช้อย → Claude เลือกน้ำหนัก 70 kg (เหมือน AC 75C) และแต่งช้อยจากการคำนวณ · ข้อคล้ายกับ 75C Plastic 5 (คนละปี)",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_23"
   ]
  },
  "MDCU74|RoC|24": {
-  "interp": "ZMC fracture ซ้าย ชาแก้ม ข้างจมูก และริมฝีปากบน → ถามเส้นประสาทที่บาดเจ็บ",
-  "why": "ผู้จดเขียน <b>Infra-orbital nerve</b> · P'Ing ไฮไลต์<br><b>นอกสไลด์:</b> แนวหักของ ZMC ผ่านพื้นเบ้าตาและขอบล่างเบ้าตาซึ่งมี infraorbital canal/foramen · infraorbital nerve (แขนงของ V2) รับความรู้สึกแก้ม ข้างจมูก ริมฝีปากบน และฟันบน",
+  "interp": "ชาย 30 ปี กระดูก <b>zygomaticomaxillary complex (ZMC)</b> ซ้ายหักจากถูกทำร้าย มีชาที่แก้ม ข้างจมูก และริมฝีปากบนซ้าย — ถามเส้นประสาทที่บาดเจ็บ ต้องรู้ว่าแนวกระดูกหักของ ZMC ผ่าน orbital floor/ infraorbital rim ซึ่งเป็นทางเดินของเส้นประสาทรับความรู้สึกแขนง V2",
+  "why": "ZMC (tripod/ tetrapod) fracture แยก zygoma ออกจาก 4 จุดต่อ: zygomaticofrontal suture, zygomaticomaxillary buttress, <b>infraorbital rim/ orbital floor</b> และ zygomatic arch · แนวหักที่ orbital floor และ infraorbital rim ผ่าน <b>infraorbital canal/ foramen</b> → <b>infraorbital nerve</b> (แขนงปลายของ maxillary nerve, V2) ถูกกดหรือฉีก → <b>ชาที่แก้ม ข้างจมูก ริมฝีปากบน</b> และฟัน/ เหงือกบนด้านหน้า เป็นอาการทางระบบประสาทที่พบบ่อยที่สุดของ ZMC fracture · อาการอื่น: แก้มแบน (malar flattening), periorbital ecchymosis, subconjunctival hemorrhage, step-off ที่ขอบเบ้าตา, trismus (arch กด coronoid/ temporalis), enophthalmos/ diplopia จาก orbital floor · ตรวจด้วย <b>CT facial bones</b> · ข้อบ่งชี้ ORIF: displacement ที่เห็นผิดรูป, enophthalmos/ entrapment, trismus, infraorbital nerve ถูกกดจาก fragment · ส่วนใหญ่ความรู้สึกฟื้นภายในหลายเดือนหลังจัดกระดูก · ไฟล์จดไว้ว่า <b>\"Zygoma fracture โดน nerve อะไร — Infra-orbital nerve\"</b> (P'Ing ไฮไลต์)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Zygomatic branch ของ facial nerve เป็นประสาทสั่งการ ทำให้หลับตาไม่สนิท ไม่ทำให้ชา · จะถูกถ้าแผลลึกที่โหนกแก้มแล้วผู้ป่วยหลับตาข้างนั้นไม่สนิท",
-   "C": "<b>นอกสไลด์:</b> Supraorbital nerve (V1) รับความรู้สึกหน้าผาก · จะถูกถ้าผู้ป่วยชาหน้าผากเหนือคิ้วหลังถูกกระแทกที่ขอบบนเบ้าตา",
-   "D": "<b>นอกสไลด์:</b> Inferior alveolar nerve (V3) วิ่งในขากรรไกรล่าง · จะถูกถ้าขากรรไกรล่างหักที่ body หรือ angle แล้วชาริมฝีปากล่างและคาง",
-   "E": "<b>นอกสไลด์:</b> Mental nerve เป็นปลายของ inferior alveolar ออกที่คาง · จะถูกถ้าแผลหรือกระดูกหักที่ parasymphysis แล้วชาริมฝีปากล่างข้างนั้น"
+   "B": "Zygomatic branch ของ facial nerve เป็นเส้นประสาท<b>สั่งการ</b>ไปยัง orbicularis oculi (หลับตา) ไม่ได้รับความรู้สึก บาดเจ็บจะหลับตาไม่สนิท ไม่ใช่อาการชา — จะถูกถ้าเป็นชาย 25 ปี แผลมีดฟันลึกที่แก้มกลางระหว่างหูกับหางตา หลังบาดเจ็บหลับตาซ้ายไม่สนิท (lagophthalmos) แต่ความรู้สึกที่แก้มปกติ",
+   "C": "Supraorbital nerve (V1) ออกจาก supraorbital notch เลี้ยงความรู้สึกหน้าผากและหนังศีรษะส่วนหน้า บาดเจ็บจาก frontal bone/ supraorbital rim fracture หรือแผลที่คิ้ว — จะถูกถ้าเป็นหญิง 40 ปี หน้าผากกระแทกพวงมาลัย CT พบ supraorbital rim fracture แล้วชาที่หน้าผากไปจนถึงหนังศีรษะส่วนหน้า",
+   "D": "Inferior alveolar nerve (V3) วิ่งใน mandibular canal เลี้ยงฟันล่าง ริมฝีปากล่าง และคาง บาดเจ็บจาก mandible fracture ที่ angle/ body ทำให้ชาริมฝีปากล่างและคาง — จะถูกถ้าเป็นชาย 22 ปี ถูกต่อยกรามซ้าย สบฟันผิด กดเจ็บที่ mandibular angle และชาริมฝีปากล่างกับคางซ้าย CT พบ angle fracture",
+   "E": "Mental nerve เป็นแขนงปลายของ inferior alveolar nerve ออกที่ mental foramen ใต้ฟัน premolar ล่าง เลี้ยงริมฝีปากล่างและคาง บาดเจ็บจาก parasymphyseal fracture หรือผ่าตัดบริเวณนั้น — จะถูกถ้าเป็นหญิง 35 ปี หลังผ่าตัดใส่รากฟันเทียมที่ฟัน premolar ล่างซ้าย แล้วชาริมฝีปากล่างและคางซ้าย"
   },
-  "trap": "แยกประสาทรับความรู้สึก (แขนง trigeminal) กับประสาทสั่งการ (แขนง facial) — อาการชาคือ trigeminal",
+  "trap": "ชื่อ \"zygomatic\" ทำให้เลือก zygomatic branch ของ facial nerve ตามชื่อกระดูก · แต่ facial nerve เป็นเส้นประสาทสั่งการ อาการ<b>ชา</b>ต้องนึกถึง trigeminal และแขนงที่ผ่านแนวหักคือ infraorbital (V2) · ให้จำบริเวณผิวหนัง: แก้ม ข้างจมูก ริมฝีปากบน = V2 · ริมฝีปากล่าง คาง = V3",
   "summary": [
-   "<b>นอกสไลด์:</b> ZMC fracture: แก้มแบน · ชาตาม infraorbital nerve · อ้าปากลำบากเมื่อ arch กด coronoid · เห็นภาพซ้อนเมื่อพื้นเบ้าตาเสีย",
-   "<b>นอกสไลด์:</b> ตรวจด้วย CT ใบหน้า · ผ่าตัดยึดกระดูก (ORIF) เมื่อเคลื่อนหรือมีปัญหาการทำงาน"
+   "ZMC (tetrapod) fracture: แยกที่ zygomaticofrontal suture, zygomaticomaxillary buttress, infraorbital rim/ orbital floor และ zygomatic arch",
+   "Infraorbital nerve (V2) วิ่งใน infraorbital groove/ canal ใต้ orbital floor ออกที่ infraorbital foramen → ชาแก้ม ข้างจมูก ริมฝีปากบน ฟันบนหน้า",
+   "อาการ ZMC fracture: malar flattening, periorbital ecchymosis, step-off ที่ infraorbital rim, trismus, diplopia/ enophthalmos, epistaxis ข้างเดียว",
+   "Isolated zygomatic arch fracture: แอ่งยุบเหนือ arch + trismus จาก arch กด coronoid/ temporalis · ยกด้วย Gillies approach (temporal)",
+   "ZMC: CT facial bones (axial + coronal) · ข้อบ่งชี้ ORIF: displacement/ deformity, enophthalmos, entrapment, trismus · ตรึง 2–3 จุดด้วย plates",
+   "Sensory ใบหน้า: V1 หน้าผาก ตา ปลายจมูก · V2 แก้ม ข้างจมูก ริมฝีปากบน · V3 ริมฝีปากล่าง คาง ขมับ (ยกเว้นมุมกรามที่ great auricular)",
+   "Orbital floor (blowout) fracture: diplopia มองขึ้น จาก inferior rectus entrapment + ชาแก้ม (infraorbital) · เด็กที่ entrapment + bradycardia/ คลื่นไส้ (white-eyed blowout) → ผ่าตัดด่วน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ infraorbital nerve · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน Infra-orbital nerve (P'Ing ไฮไลต์) · โจทย์ในเว็บเติมอาการชาที่แก้ม ข้างจมูก และริมฝีปากบน ซึ่งเป็นบริเวณของ infraorbital nerve ชัดเจน ไม่ขัดกับคีย์",
+  "mnemonic": "<b>'Zygoma หัก → ชาแก้ม-จมูก-ปากบน = Infraorbital (V2)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial Fractures; Sabiston Textbook of Surgery 21st ed. (2022) — Plastic Surgery / Facial Trauma",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังถูกต่อยที่ตา มองขึ้นแล้วเห็นภาพซ้อน ตาข้างนั้นกลอกขึ้นไม่ได้ → orbital floor blowout fracture มี inferior rectus ติดคา"
+   "ชาย 25 ปี ถูกต่อยตาซ้าย มองขึ้นแล้วเห็นภาพซ้อน ชาแก้มซ้าย CT พบ orbital floor fracture มีกล้ามเนื้อติด → orbital floor repair",
+   "ถูกตีที่แก้มด้านข้าง อ้าปากไม่ขึ้น คลำได้แอ่งยุบเหนือ zygomatic arch → isolated arch fracture → Gillies elevation",
+   "ชาย 30 ปี ถูกต่อยคาง สบฟันผิด ชาริมฝีปากล่างและคางซ้าย → mandible fracture โดน inferior alveolar nerve",
+   "ZMC fracture ที่ไม่เคลื่อน ไม่มี diplopia หรือ trismus ชาแก้มเล็กน้อย → รักษาแบบไม่ผ่าตัด ทานอาหารอ่อน หลีกเลี่ยงการกดแก้ม นัดติดตาม"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Zygoma fracture โดน nerve อะไร — Infra-orbital nerve</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Zygoma fracture โดน nerve อะไร - Infra-orbital nerve\" → แต่งโจทย์",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_24"
   ]
  },
  "MDCU74|RoC|25": {
-  "interp": "แผลลึกที่ขมับซ้ายเหนือ zygomatic arch ด้านข้างคิ้ว หลังบาดเจ็บยกคิ้วและย่นหน้าผากซ้ายไม่ได้ → ถามเส้นประสาทที่บาดเจ็บ",
-  "why": "ผู้จดบอกว่า <b>แผลอยู่สูงใกล้ศีรษะ (ปีอื่นออก zygomatic branch) จึงน่าจะเป็น frontal n.</b> — Claude แต่งโจทย์ให้แผลอยู่ที่ขมับ<br><b>นอกสไลด์:</b> Frontal (temporal) branch ข้าม zygomatic arch แล้ววิ่งตื้นในชั้น temporoparietal fascia ไปเลี้ยงกล้ามเนื้อหน้าผาก จึงบาดเจ็บง่ายเมื่อมีแผลที่ขมับ · แขนงนี้แทบไม่มีแขนงเชื่อมจากแขนงอื่น เมื่อขาดจึงฟื้นเองยาก",
+  "interp": "ชาย 25 ปี แผลลึกที่ขมับซ้าย เหนือ zygomatic arch ด้านข้างคิ้ว หลังบาดเจ็บ<b>ยกคิ้วซ้ายไม่ได้และย่นหน้าผากซ้ายไม่ได้</b> — ถามเส้นประสาทที่บาดเจ็บ ต้องรู้ทางเดินของแขนงต่าง ๆ ของ facial nerve และกล้ามเนื้อที่แต่ละแขนงเลี้ยง",
+  "why": "Facial nerve ออกจาก stylomastoid foramen เข้า parotid แล้วแตก 5 แขนง: <b>temporal (frontal)</b>, zygomatic, buccal, marginal mandibular และ cervical · <b>Frontal branch</b> เลี้ยง <b>frontalis</b> (ยกคิ้ว ย่นหน้าผาก) และส่วนบนของ orbicularis oculi · ทางเดินประมาณตาม <b>Pitanguy's line</b> จากใต้ tragus 0.5 cm ไปเหนือหางคิ้ว 1.5 cm โดย<b>ข้าม zygomatic arch ตื้นมาก</b> อยู่ใต้ temporoparietal fascia (ต่อกับ SMAS) แทบไม่มีเนื้อเยื่อกั้น จึงบาดเจ็บง่ายจากแผลที่ขมับหรือการผ่าตัด · แขนงนี้มี cross-innervation น้อย ถ้าขาดมักไม่ฟื้นเอง → <b>brow ptosis</b> และหน้าผากเรียบข้างเดียว · ถ้าแผลอยู่ lateral ต่อเส้นตั้งที่ผ่าน lateral canthus ควร<b>สำรวจและต่อเส้นประสาทแบบ primary</b> (ภายใน 72 ชม. ยังใช้เครื่องกระตุ้นหาปลายด้าน distal ได้) ส่วนแผล medial ต่อเส้นนี้แขนงเล็กและเชื่อมกันมาก มักฟื้นเอง · ไฟล์จดว่า <b>\"ทุกปีจะออก zygomatic branch แต่ปีนี้ฟันไม่โดนนะ — โดนด้านบน ๆ หัวหน่อย — Frontal n.\"</b> พร้อมช้อย Frontal, Zygomatic, Buccal, Marginal",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Zygomatic branch เลี้ยง orbicularis oculi · จะถูกถ้าแผลบริเวณโหนกแก้มแล้วผู้ป่วยหลับตาไม่สนิทแต่ยกคิ้วได้",
-   "C": "<b>นอกสไลด์:</b> Buccal branch เลี้ยงกล้ามเนื้อรอบปากส่วนบน · จะถูกถ้าแผลกลางแก้มแล้วยิ้มเบี้ยว มุมปากบนยกไม่ขึ้น",
-   "D": "<b>นอกสไลด์:</b> Marginal mandibular branch เลี้ยงกล้ามเนื้อมุมปากล่าง · จะถูกถ้าแผลที่ขอบขากรรไกรล่างแล้วมุมปากล่างข้างนั้นไม่ลงเวลายิงฟัน",
-   "E": "<b>นอกสไลด์:</b> Supraorbital nerve เป็นประสาทรับความรู้สึก ไม่ทำให้ยกคิ้วไม่ได้ · จะถูกถ้าผู้ป่วยชาหน้าผากแต่ยกคิ้วได้ปกติ"
+   "B": "Zygomatic branch วิ่งขนาน zygomatic arch ด้านล่างไปเลี้ยง orbicularis oculi ส่วนล่าง ทำหน้าที่<b>หลับตา</b> บาดเจ็บแล้วหลับตาไม่สนิท (lagophthalmos) ไม่ใช่ยกคิ้วไม่ได้ — จะถูกถ้าเป็นชาย 30 ปี ถูกมีดฟันที่โหนกแก้มใต้หางตา หลังบาดเจ็บหลับตาซ้ายไม่สนิท ตาแห้งแดง แต่ยกคิ้วได้ปกติ",
+   "C": "Buccal branch เลี้ยงกล้ามเนื้อรอบปากและแก้ม (buccinator, zygomaticus, orbicularis oris ส่วนบน) บาดเจ็บแล้วยิ้ม/ ป่องแก้มไม่ได้ อาหารค้างกระพุ้งแก้ม และมี cross-innervation มากจึงมักฟื้นเอง — จะถูกถ้าเป็นหญิง 35 ปี แผลลึกกลางแก้มระดับปีกจมูก ยิ้มแล้วมุมปากบนไม่ยก ป่องแก้มไม่ได้",
+   "D": "Marginal mandibular branch วิ่งตามขอบล่างของ mandible (บางส่วนลงต่ำกว่าขอบกระดูก) เลี้ยง depressor anguli oris และ depressor labii inferioris บาดเจ็บแล้วยิ้มเบี้ยว ริมฝีปากล่างไม่ดึงลง — จะถูกถ้าเป็นชาย 50 ปี หลังผ่าตัด submandibular gland หรือ neck dissection แล้วยิ้มกว้างมุมปากล่างข้างเดียวไม่ลง",
+   "E": "Supraorbital nerve (V1) เป็นเส้นประสาท<b>รับความรู้สึก</b>ของหน้าผากและหนังศีรษะส่วนหน้า ไม่สั่งการกล้ามเนื้อ บาดเจ็บแล้วชาแต่ยังยกคิ้วได้ — จะถูกถ้าเป็นหญิง 28 ปี แผลแตกตรงขอบบนเบ้าตากลางคิ้ว หลังเย็บมีอาการชาหน้าผากไปถึงหนังศีรษะ แต่ยกคิ้วและย่นหน้าผากได้ปกติ"
   },
-  "trap": "ไฟล์จดว่าปีอื่นออก zygomatic branch — ตำแหน่งแผลบอกแขนง: ขมับเหนือ arch = frontal · โหนกแก้ม = zygomatic",
+  "trap": "ข้อสอบปีอื่นมักถามแผลที่แก้ม/ โหนกแก้มซึ่งตอบ zygomatic branch ทำให้ตอบตามความเคยชิน · ต้องดู<b>ตำแหน่งแผล + หน้าที่ที่เสีย</b>: ยกคิ้ว/ ย่นหน้าผากไม่ได้ = frontal branch (แผลเหนือ arch ที่ขมับ) · หลับตาไม่สนิท = zygomatic · และอย่าสับสนกับ supraorbital ที่เสียแค่ความรู้สึก",
   "summary": [
-   "<b>นอกสไลด์:</b> Facial nerve 5 แขนง: temporal/frontal · zygomatic · buccal · marginal mandibular · cervical",
-   "<b>นอกสไลด์:</b> แนวของ frontal branch (Pitanguy line): จากใต้ tragus ราว 0.5 cm ไปเหนือหางคิ้วราว 1.5 cm",
-   "<b>นอกสไลด์:</b> แผลที่ตัด facial nerve ด้านข้างต่อหางตา → สำรวจและต่อเส้นประสาทเร็ว (ภายในราว 72 ชม. ยังกระตุ้นหาปลายได้)"
+   "Facial nerve 5 แขนง (บนลงล่าง): Temporal/ frontal → Zygomatic → Buccal → Marginal mandibular → Cervical (\"To Zanzibar By Motor Car\")",
+   "Frontal branch: ข้าม zygomatic arch ตื้นใต้ temporoparietal fascia ตาม Pitanguy's line (0.5 cm ใต้ tragus → 1.5 cm เหนือหางคิ้ว) เลี้ยง frontalis",
+   "Frontal และ marginal mandibular มี cross-innervation น้อย บาดเจ็บแล้วมักเสียถาวร · buccal/ zygomatic เชื่อมกันมาก มักฟื้น",
+   "แผลที่ lateral ต่อเส้นตั้งผ่าน lateral canthus + อ่อนแรงใบหน้า → สำรวจและต่อเส้นประสาท primary repair ภายใน 72 ชม. (ปลาย distal ยังกระตุ้นได้)",
+   "Peripheral facial palsy เสียทั้งหน้าครึ่งบนและล่าง · central (UMN) lesion หน้าผากยังย่นได้เพราะ frontalis ได้เส้นใยจากสมองทั้งสองข้าง",
+   "Brow ptosis ถาวรจาก frontal branch palsy แก้ด้วย brow lift (direct/ endoscopic) · กล้ามเนื้อหลับตาอ่อนแรงต้องป้องกัน exposure keratitis (น้ำตาเทียม ใส่ gold weight)",
+   "ผ่าตัดที่ขมับ (เช่น coronal approach, temporal artery biopsy) ต้องเลาะลึกต่อ superficial layer ของ deep temporal fascia เพื่อหลบ frontal branch"
   ],
-  "opinion": "ไฟล์ไม่ระบุคีย์ชัด — Claude แต่งโจทย์ให้แผลอยู่ขมับตามที่ผู้จดบรรยายและตอบ frontal branch · ความมั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — คีย์ในไฟล์ไม่ได้วงคำตอบ ผู้จดเขียนเหตุผลว่าปีนี้แผลอยู่สูงกว่าปีอื่นจึงน่าจะเป็น Frontal n. · โจทย์ในเว็บกำหนดแผลที่ขมับเหนือ arch และอาการยกคิ้วไม่ได้ ซึ่งชี้ frontal branch เพียงคำตอบเดียว แต่หากข้อสอบจริงระบุแผลต่ำกว่านี้ (ที่โหนกแก้ม) คำตอบอาจเป็น zygomatic",
+  "mnemonic": "<b>'ยกคิ้วไม่ได้ = Frontal · หลับตาไม่สนิท = Zygomatic · ยิ้มเบี้ยวปากล่าง = Marginal'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial Nerve Anatomy and Facial Trauma; Sabiston Textbook of Surgery 21st ed. (2022) — Plastic Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัดต่อม submandibular ผู้ป่วยมุมปากล่างข้างนั้นไม่ลงเวลายิงฟัน → บาดเจ็บ marginal mandibular branch"
+   "ชาย 20 ปี แผลมีดฟันที่แก้มหน้าหู (lateral ต่อ lateral canthus) ยิ้มไม่ได้และหลับตาไม่สนิท → สำรวจแผลต่อแขนง facial nerve แบบ primary ภายใน 72 ชม.",
+   "แผลเล็กที่แก้มใกล้ nasolabial fold (medial ต่อ lateral canthus) มุมปากอ่อนแรงเล็กน้อย → สังเกตอาการ มักฟื้นเองจาก cross-innervation",
+   "หลังผ่าตัด face lift ผู้ป่วยยกคิ้วข้างหนึ่งไม่ได้ → frontal branch injury บริเวณ zygomatic arch",
+   "Stroke ที่ motor cortex ทำให้ปากเบี้ยวแต่ยังย่นหน้าผากได้ → central facial palsy (หน้าผากได้เส้นใยจากสมองสองข้าง)"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>มีโดนฟันหน้า ถามโดน nerve อะไร — คือทุกปีจะออก zygomatic branch แต่ปีนี้ฟันไม่โดนนะ - โดนด้านบนๆ หัวหน่อย — Frontal n. · Zygomatic · Buccal · Marginal</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์ไม่ได้จดโจทย์ชัด (\"มีโดนฟันหน้า\" = ใบหน้าถูกฟัน/แผลที่ใบหน้า, แผลอยู่ด้านบนใกล้หัว) และไม่ได้ระบุคำตอบ → Claude แต่งโจทย์ให้แผลอยู่ที่ขมับ ตอบ frontal branch",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_25"
   ]
  },
  "MDCU74|RoC|26": {
-  "interp": "ชายสูบบุหรี่เคี้ยวหมาก มีแผลไม่หายที่ขอบข้างลิ้น → ถามชนิดมะเร็งในช่องปากที่พบบ่อยที่สุด",
-  "why": "ผู้จดเขียน <b>SCC</b> · P'Ing ไฮไลต์<br><b>นอกสไลด์:</b> เยื่อบุช่องปากเป็น squamous epithelium มะเร็งช่องปากกว่า 90% จึงเป็น SCC · ปัจจัยเสี่ยงคือบุหรี่ สุรา หมาก (เสริมกัน) · ตำแหน่งที่พบบ่อยคือขอบข้างลิ้นและพื้นปาก",
+  "interp": "ชาย 60 ปี สูบบุหรี่และเคี้ยวหมาก มี<b>แผลเรื้อรังไม่หายที่ขอบข้างลิ้น</b> — ถามชนิดมะเร็งในช่องปากที่พบบ่อยที่สุด ต้องรู้ว่าเยื่อบุช่องปากเป็น stratified squamous epithelium และปัจจัยเสี่ยงหลักกระตุ้นเยื่อบุนี้",
+  "why": "มะเร็งช่องปาก (oral cavity: ริมฝีปาก, ลิ้นส่วนหน้า 2/3, พื้นปาก, เหงือก, กระพุ้งแก้ม, เพดานแข็ง, retromolar trigone) เป็น <b>squamous cell carcinoma มากกว่า 90%</b> เพราะเกิดจากเยื่อบุผิว stratified squamous ที่ถูกสารก่อมะเร็งสัมผัสโดยตรง · ปัจจัยเสี่ยง: <b>บุหรี่ แอลกอฮอล์ (เสริมกันแบบทวีคูณ) และหมาก (areca nut)</b> ซึ่งพบมากในเอเชียใต้และผู้สูงอายุไทย, ฟันคมระคายเคืองเรื้อรัง · รอยโรคก่อนมะเร็ง: leukoplakia, <b>erythroplakia</b> (เสี่ยงกลายเป็นมะเร็งสูงที่สุด) และ oral submucous fibrosis (สัมพันธ์กับหมาก) · ตำแหน่งที่พบบ่อยในลิ้นคือ<b>ขอบข้างและด้านล่าง</b> · ทุกแผลในปากที่ไม่หายใน 2–3 สัปดาห์ต้องตัดชิ้นเนื้อ · staging (AJCC 8th) ใช้ขนาดร่วมกับ depth of invasion (DOI) และ DOI ที่ลึกขึ้นสัมพันธ์กับการแพร่ไปต่อมน้ำเหลืองคอ · รักษาหลักคือ<b>ผ่าตัดตัดก้อนพร้อมขอบปลอดเนื้องอก</b> ± neck dissection ตาม DOI/ N stage และให้ adjuvant RT/ CRT ตามปัจจัยเสี่ยง · ไฟล์จดว่า <b>\"Most common CA intraoral — SCC\"</b> (P'Ing ไฮไลต์)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Adenoid cystic carcinoma เป็นมะเร็งต่อมน้ำลายเล็ก ชอบลามตามเส้นประสาท · จะถูกถ้าผู้ป่วยมีก้อนที่เพดานแข็งร่วมกับชาหรือปวดตามเส้นประสาท",
-   "C": "<b>นอกสไลด์:</b> Mucoepidermoid เป็นมะเร็งต่อมน้ำลายที่พบบ่อยที่สุด ไม่ใช่มะเร็งเยื่อบุช่องปาก · จะถูกถ้าถามชนิดมะเร็งของก้อนที่ต่อม parotid",
-   "D": "<b>นอกสไลด์:</b> Lymphoma ในช่องปากพบน้อย · จะถูกถ้าผู้ป่วยมีก้อนนุ่มที่ต่อมทอนซิลข้างเดียวโตเร็ว ร่วมกับต่อมน้ำเหลืองคอโตหลายต่อม ไข้ เหงื่อออกกลางคืน",
-   "E": "<b>นอกสไลด์:</b> Mucosal melanoma ในช่องปากพบน้อย มักที่เพดานแข็งและเหงือกบน · จะถูกถ้าผู้ป่วยมีรอยดำนูนขยายที่เพดานแข็ง"
+   "B": "Adenoid cystic carcinoma เป็นมะเร็งต่อมน้ำลาย พบบ่อยใน minor salivary gland (เพดาน) และ submandibular gland เด่นเรื่อง <b>perineural invasion</b> โตช้าแต่กลับเป็นซ้ำและแพร่ไปปอดช้า ๆ ได้หลายปี — จะถูกถ้าเป็นหญิง 50 ปี ก้อนใต้เยื่อบุที่เพดานแข็งโตช้า ชาและปวดตามแนวเส้นประสาท V2 ชิ้นเนื้อเป็น cribriform (Swiss cheese) pattern",
+   "C": "Mucoepidermoid carcinoma เป็นมะเร็งต่อมน้ำลายที่พบบ่อยที่สุดโดยรวม (โดยเฉพาะ parotid) และพบใน minor salivary gland ของเพดานได้ แต่ไม่ใช่มะเร็งที่พบบ่อยที่สุดของเยื่อบุช่องปาก — จะถูกถ้าเป็นชาย 45 ปี ก้อนที่ parotid โตเร็วขึ้น ชิ้นเนื้อพบ mucous cells ปนกับ epidermoid cells",
+   "D": "Lymphoma ในศีรษะและคอมักเกิดที่ Waldeyer ring (ต่อมทอนซิล โคนลิ้น nasopharynx) หรือต่อมน้ำเหลืองคอ มาด้วยก้อนนุ่มไม่เจ็บ ทอนซิลโตข้างเดียว ± B symptoms ไม่ใช่แผลเรื้อรังบนเยื่อบุ — จะถูกถ้าเป็นชาย 55 ปี ทอนซิลขวาโตข้างเดียวไม่เจ็บ มีไข้ต่ำ ๆ เหงื่อออกกลางคืน น้ำหนักลด ต่อมน้ำเหลืองคอโตหลายต่อม",
+   "E": "Mucosal melanoma ในช่องปากพบน้อยมาก มักเป็นก้อนหรือปื้นสีดำ/ น้ำตาลที่เพดานแข็งหรือเหงือกบน พยากรณ์โรคแย่ — จะถูกถ้าเป็นชาย 65 ปี มีปื้นสีดำขอบไม่เรียบที่เพดานแข็งโตขึ้นเรื่อย ๆ ชิ้นเนื้อย้อม S-100/ HMB-45 บวก"
   },
-  "trap": "แยกมะเร็งเยื่อบุช่องปาก (SCC) กับมะเร็งต่อมน้ำลาย (mucoepidermoid)",
+  "trap": "ช้อย salivary gland tumor (adenoid cystic, mucoepidermoid) ดูเฉพาะทางจนคิดว่าเป็นคำตอบของข้อ head and neck · หลักคือ<b>มะเร็งของเยื่อบุผิว</b>ช่องปาก/ ลิ้น = SCC เกือบทั้งหมด ส่วนมะเร็งต่อมน้ำลายมาจากต่อมใต้เยื่อบุ และมักเป็นก้อนใต้เยื่อบุที่ผิวปกติ ไม่ใช่แผลที่ขอบลิ้น",
   "summary": [
-   "<b>นอกสไลด์:</b> รอยโรคก่อนมะเร็ง: erythroplakia (เสี่ยงสูงกว่า) · leukoplakia · oral submucous fibrosis (หมาก)",
-   "<b>นอกสไลด์:</b> แผลในปากที่ไม่หายเกิน 2–3 สัปดาห์ → ตัดชิ้นเนื้อ"
+   "Oral cavity cancer &gt; 90% เป็น SCC · ปัจจัยเสี่ยง: บุหรี่, แอลกอฮอล์ (เสริมกัน), หมาก, ฟันคม/ ฟันปลอมระคายเรื้อรัง, ภูมิคุ้มกันบกพร่อง",
+   "รอยโรคก่อนมะเร็ง: leukoplakia (ปื้นขาวขูดไม่ออก) · erythroplakia (ปื้นแดง เสี่ยงสูงสุด) · oral submucous fibrosis (หมาก อ้าปากได้น้อย) · lichen planus ชนิด erosive",
+   "แผลในปากไม่หายภายใน 2–3 สัปดาห์หลังกำจัดสาเหตุ → incisional biopsy · ประเมินด้วย CT/ MRI ช่องปากและคอ ± PET-CT ในโรคระยะลุกลาม",
+   "AJCC 8th: T ของ oral cavity ใช้ขนาด + depth of invasion (≤ 5 mm, &gt; 5–10 mm, &gt; 10 mm) · DOI ลึกเพิ่มโอกาส occult neck metastasis",
+   "ผ่าตัดเป็นหลัก: ตัดก้อนขอบ ~1 cm (ขอบทางพยาธิ ≥ 5 mm ถือว่าปลอดภัย) ± elective neck dissection เมื่อ DOI เกินราว 3–4 mm",
+   "Adjuvant: RT เมื่อ pT3–4, N+, PNI, LVI, ขอบใกล้ · CRT (cisplatin) เมื่อ positive margin หรือ extranodal extension",
+   "Oropharynx (โคนลิ้น ทอนซิล) SCC สัมพันธ์ HPV-16 ตรวจ p16 พยากรณ์ดีกว่า HPV-negative ต่างจาก oral cavity ที่สัมพันธ์บุหรี่/ หมาก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ SCC · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน SCC (P'Ing ไฮไลต์) · โจทย์ในเว็บเติมปัจจัยเสี่ยงบุหรี่ หมาก และแผลที่ขอบข้างลิ้น ซึ่งยิ่งชี้ squamous cell carcinoma โดยคำถามหลักยังเป็น most common intraoral cancer ตามที่ผู้จดจำไว้",
+  "mnemonic": "<b>'แผลในปากเรื้อรัง + บุหรี่/ หมาก = SCC จนกว่าจะพิสูจน์ได้ว่าไม่ใช่'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers (2025); Cummings Otolaryngology–Head and Neck Surgery 7th ed. (2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้เคี้ยวหมากมานานอ้าปากได้แคบลงเรื่อย ๆ เยื่อบุกระพุ้งแก้มซีดแข็งเป็นแถบ → oral submucous fibrosis (รอยโรคก่อนมะเร็ง)"
+   "หญิง 65 ปี เคี้ยวหมาก มีปื้นแดงกำมะหยี่ที่พื้นปาก → erythroplakia → ตัดชิ้นเนื้อ (เสี่ยง dysplasia/ carcinoma สูงสุดในรอยโรคก่อนมะเร็ง)",
+   "ชาย 58 ปี SCC ขอบลิ้น 2.5 cm DOI 7 mm คอยังคลำไม่ได้ต่อม → partial glossectomy + elective neck dissection (levels I–III)",
+   "หลังผ่าตัดมะเร็งลิ้น พยาธิพบ positive margin และ extranodal extension → adjuvant concurrent chemoradiation (cisplatin)",
+   "ชาย 50 ปี ไม่สูบบุหรี่ ก้อนต่อมน้ำเหลืองคอ level II เป็น cystic ตรวจพบรอยโรคที่ทอนซิล p16 บวก → HPV-associated oropharyngeal SCC"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Most common CA intraoral — SCC</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Most common CA intraoral - SCC\" → แต่งโจทย์",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_26"
   ]
  },
  "MDCU74|RoC|27": {
-  "interp": "หญิงสูงอายุติดเตียง แผลที่ sacrum ตื้น สีชมพู partial-thickness ไม่มี slough = pressure injury stage 2 → ถามการรักษาที่เหมาะที่สุด",
-  "why": "ผู้จดเขียน <b>Hydrocolloid</b> (\"ตรง Ac\") · P'Ing ไฮไลต์<br><b>นอกสไลด์:</b> แผล stage 2 หายเองเมื่อได้ความชื้นที่เหมาะและเอาแรงกดออก · หัวใจของการรักษาแผลกดทับทุกระยะคือลดแรงกด (พลิกตัว ที่นอนลดแรงกด) ดูแลโภชนาการ และกันผิวเปียกจากปัสสาวะอุจจาระ",
+  "interp": "หญิง 80 ปี นอนติดเตียง มีแผลตื้น สีชมพู ที่กระดูก sacrum เป็น<b>การสูญเสียผิวหนังบางส่วน (partial thickness)</b> ไม่มี slough = <b>pressure injury stage 2</b> — ถามการรักษาที่เหมาะที่สุด ต้องรู้ว่าแผลระดับนี้หายเองได้ด้วย dressing ที่รักษาความชื้นร่วมกับลดแรงกด",
+  "why": "NPIAP staging: <b>stage 1</b> ผิวหนังยังไม่แตก แดงกดไม่จาง · <b>stage 2</b> สูญเสียผิวหนังบางส่วน เห็น dermis สีชมพูหรือแดงชุ่มชื้น ไม่มี slough/ eschar หรืออาจเป็นตุ่มน้ำใส · stage 3 สูญเสียผิวหนังทั้งชั้นเห็นไขมัน · stage 4 เห็น fascia, กล้ามเนื้อ, เอ็น หรือกระดูก · unstageable คือฐานถูกปิดด้วย slough/ eschar · แผล stage 2 ยังมี adnexa (รูขุมขน ต่อมเหงื่อ) ที่เป็นแหล่งของ epithelial cells จึง<b>หายเองได้ด้วย re-epithelialization</b> ไม่ต้องผ่าตัด · หลักการรักษา: ① <b>ลดแรงกด</b> (พลิกตัวทุก 2 ชม., ที่นอนกระจายแรงกด, หลีกเลี่ยงนอนทับแผล, ศีรษะเตียงไม่เกิน 30° ลด shear) ② <b>dressing ที่รักษาความชื้น</b> เช่น <b>hydrocolloid</b> หรือ foam/ film ซึ่งช่วยให้เซลล์ผิวคลานปิดแผลเร็ว กันน้ำปัสสาวะ/ อุจจาระ และเปลี่ยนไม่บ่อย ③ จัดการความชื้นจากการกลั้นไม่อยู่ ④ โภชนาการ (พลังงานและโปรตีนพอ) · ไฟล์จดว่า <b>\"Bedsore ตรง Ac — stage 2 treatment — hydrocolloid\"</b> (P'Ing ไฮไลต์)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> STSG ไม่ทนแรงกดและไม่จำเป็นในแผลตื้น · จะถูกถ้าเป็นแผลตื้นกว้างจากไฟไหม้หรือบาดเจ็บในบริเวณที่ไม่ต้องรับน้ำหนัก หลังพื้นแผลมี granulation ดี",
-   "C": "<b>นอกสไลด์:</b> Gluteal flap ใช้ปิดแผลกดทับลึก · จะถูกถ้าแผลเดียวกันลึกถึงกระดูก (stage 4) ควบคุมการติดเชื้อแล้ว และผู้ป่วยแข็งแรงพอและแก้ปัจจัยแรงกดได้",
-   "D": "<b>นอกสไลด์:</b> Debridement ใช้เมื่อมีเนื้อตาย · จะถูกถ้าแผลที่ sacrum มีเนื้อตายสีเหลือง/ดำ มีกลิ่น หรือมีฝีและผิวรอบแผลอักเสบ",
-   "E": "<b>นอกสไลด์:</b> FTSG ใช้กับแผลเล็กที่ต้องการความสวยงาม · จะถูกถ้าเป็นแผลเล็กที่ใบหน้าหลังตัดเนื้องอกผิวหนัง"
+   "B": "Split-thickness skin graft ใช้ปิดแผลกว้างที่ฐานมี granulation ดี แต่แผลกดทับบริเวณ sacrum ที่ยังถูกกด graft บางจะแตกซ้ำ และแผล stage 2 หายเองได้อยู่แล้ว — จะถูกถ้าเป็นชาย 40 ปี แผลไฟไหม้ deep partial thickness ที่ต้นขา 6% TBSA หลัง tangential excision ฐานเลือดดี",
+   "C": "Gluteal rotation flap (หรือ gluteus maximus myocutaneous flap) ใช้ปิดแผลกดทับ stage 3–4 ที่ sacrum หลังเตรียมแผลและผู้ป่วยพร้อม เพราะนำเนื้อหนาที่มีเลือดดีมารองกระดูก — จะถูกถ้าเป็นชาย 35 ปี อัมพาตท่อนล่างจาก spinal cord injury มีแผล sacrum stage 4 เห็นกระดูก ไม่หายหลัง debridement และลดแรงกด 3 เดือน โภชนาการดีและหยุดสูบบุหรี่แล้ว",
+   "D": "Surgical debridement ใช้กำจัดเนื้อตาย (slough, eschar) หรือแผลติดเชื้อ ซึ่งแผล stage 2 ไม่มี การตัดเนื้อดีออกทำให้แผลลึกขึ้น — จะถูกถ้าเป็นหญิง 75 ปี แผลที่ sacrum ปกคลุมด้วย eschar สีดำนุ่มมีหนองกลิ่นเหม็น ไข้ รอบแผลแดงลาม (ยกเว้น eschar แห้งแข็งที่ส้นเท้าซึ่งไม่ควรตัด)",
+   "E": "Full-thickness skin graft ต้องการฐานแผลเลือดดีมากและใช้กับแผลเล็กบนใบหน้าหรือมือที่ต้องการสีและเนื้อผิวเหมือนเดิม ไม่เหมาะกับบริเวณที่ถูกกดทับ — จะถูกถ้าเป็นหญิง 70 ปี หลังตัด basal cell carcinoma ที่ปลายจมูกขนาด 1.5 cm ใช้ผิวหลังหูปิดแผล"
   },
-  "trap": "แผลเปิดในผู้สูงอายุติดเตียงชวนคิดว่าต้องผ่าตัด — partial thickness ไม่มี slough = stage 2 ใช้ dressing",
+  "trap": "คำว่า \"ulcer\" และผู้ป่วยติดเตียงทำให้นึกถึงการผ่าตัด debridement หรือ flap · ต้องดู<b>ความลึกของแผลก่อน</b>: partial thickness สีชมพู ไม่มี slough = stage 2 หายเองด้วย moist dressing + offloading · การผ่าตัดเก็บไว้สำหรับ stage 3–4 ที่ไม่หาย หรือมีเนื้อตาย/ ติดเชื้อ",
   "summary": [
-   "<b>นอกสไลด์:</b> ป้องกัน: พลิกตัวราวทุก 2 ชม. · ที่นอนลดแรงกด · ยกหัวเตียงไม่เกินราว 30° ลดแรงเฉือน · โภชนาการ · ผิวแห้งสะอาด",
-   "<b>นอกสไลด์:</b> แผลที่ไม่หายตามคาดให้หาสาเหตุ: แรงกดยังอยู่ · โภชนาการ · การติดเชื้อ/กระดูกอักเสบ"
+   "NPIAP: stage 1 แดงกดไม่จางผิวไม่แตก · stage 2 partial thickness เห็น dermis/ ตุ่มน้ำใส · stage 3 full thickness เห็นไขมัน · stage 4 เห็น fascia/ กล้ามเนื้อ/ กระดูก",
+   "Unstageable = ฐานถูกปิดด้วย slough/ eschar · deep tissue pressure injury = ผิวสีม่วงแดงเข้มหรือตุ่มเลือดที่กดไม่จาง",
+   "ตำแหน่งบ่อย: sacrum (นอนหงาย), ischial tuberosity (นั่ง), greater trochanter (นอนตะแคง), ส้นเท้า, occiput ในเด็ก",
+   "ป้องกัน/ รักษาทุก stage: พลิกตัวทุก 2 ชม., ที่นอนลดแรงกด, หัวเตียง ≤ 30° ลด shear, ดูแลความชื้น/ การกลั้นไม่อยู่, โภชนาการ (โปรตีน 1.25–1.5 g/kg/วัน)",
+   "Stage 2: hydrocolloid, foam หรือ film dressing รักษาความชื้น เปลี่ยนตามการซึม · หลีกเลี่ยงการนวดบริเวณที่แดง",
+   "Stage 3–4: debridement เนื้อตาย ประเมิน osteomyelitis ± NPWT · ไม่หาย → flap (sacrum: gluteal rotation/ gluteus maximus · ischial: posterior thigh/ hamstring · trochanter: TFL)",
+   "Braden scale (6 ด้าน: sensory, moisture, activity, mobility, nutrition, friction/ shear) ใช้ประเมินความเสี่ยง · คะแนน ≤ 18 ถือว่าเสี่ยง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ hydrocolloid (ตรงกับ 74A ข้อไม่มีเลข 4) · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ที่เขียน Hydrocolloid (ผู้จดบอกว่าตรง AC และ P'Ing ไฮไลต์) · โจทย์ในเว็บบรรยายแผลตื้นสีชมพู partial thickness ไม่มี slough ให้ชัดว่าเป็น stage 2 ซึ่ง moist dressing เช่น hydrocolloid เป็นการรักษาหลักร่วมกับลดแรงกด",
+  "mnemonic": "<b>'Stage 2 = ชมพูตื้น → Hydrocolloid + พลิกตัว'</b>",
+  "guide": "International Guideline: Prevention and Treatment of Pressure Ulcers/Injuries (EPUAP/NPIAP/PPPIA, 3rd ed. 2019); NPIAP Pressure Injury Stages (2016)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยติดเตียงแผลที่ sacrum ลึก พื้นแผลเห็นกระดูก กดเจ็บ ไข้ต่ำ ๆ แผลไม่หาย → สงสัยกระดูกอักเสบ ตัดชิ้นเนื้อกระดูกส่งเพาะเชื้อ"
+   "ผู้ป่วยติดเตียงมีผิวแดงที่ sacrum กดแล้วไม่จาง ผิวไม่แตก → stage 1 → ลดแรงกด พลิกตัว ใช้ film/ foam ป้องกัน ไม่ต้องทำแผลเปิด",
+   "แผลที่ sacrum มี slough สีเหลืองปกคลุมจนมองไม่เห็นฐาน → unstageable → debride ก่อนจึงจัด stage ได้",
+   "แผลที่ ischium ลึกถึงกระดูก ESR สูงมาก MRI สงสัย osteomyelitis → bone biopsy เพาะเชื้อ ให้ยาตามเชื้อ แล้ว debride + flap",
+   "ทำไม stage 2 หายเองได้แต่ stage 3 หายช้ามาก → stage 2 ยังมี dermis และ adnexa เป็นแหล่งเซลล์ผิว ส่วน stage 3 ต้องอาศัย granulation และ contraction จากขอบแผล"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 3 — ตัวพิมพ์: <b>Bedsore ตรง Ac - stage 2 treatment — hydrocolloid</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดว่า \"ตรง Ac\" — ตรงกับ 74A ข้อไม่มีเลข 4 (คนละ rotation) · แต่งโจทย์",
+  "src": "S74CQ · หน้า 3",
+  "kimg": [
+   "kp74c_27"
   ]
  }
 }

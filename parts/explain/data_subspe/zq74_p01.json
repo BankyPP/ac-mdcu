@@ -1,251 +1,411 @@
 {
  "MDCU74|RoA|5@p2": {
-  "interp": "ผู้ป่วยมะเร็งทวารหนักจะทำ low anterior resection = ผ่าตัดมะเร็งใหญ่ในช่องท้อง/อุ้งเชิงกราน กลุ่มเสี่ยง VTE สูง · ข้อ NOT: หามาตรการที่ <b>ไม่</b> ลดความเสี่ยง VTE",
-  "why": "ลายมือในคีย์: <b>กากบาท C + \"X ↑ risk\"</b> และติ๊กถูกที่ A, B, D, E (ทั้งสี่ช้อยเป็นมาตรการป้องกัน VTE)<br><b>นอกสไลด์:</b> Neoadjuvant chemoradiotherapy เป็นการรักษามะเร็ง (ลด local recurrence) ไม่ได้ป้องกันลิ่มเลือด และยังเพิ่มความเสี่ยงตาม Virchow's triad — เคมีบำบัดทำ endothelial injury และภาวะเลือดแข็งตัวง่าย รังสีทำหลอดเลือดในอุ้งเชิงกรานอักเสบ บวกกับตัวมะเร็งและการผ่าตัดอุ้งเชิงกรานนาน",
+  "interp": "หญิงที่แข็งแรงดีมาก่อน เป็น <b>rectal cancer</b> จะผ่าตัด <b>low anterior resection</b> (ผ่าตัดใหญ่ในอุ้งเชิงกรานจากมะเร็ง = กลุ่มเสี่ยง VTE สูง) — ถามแบบ <b>NOT</b> ว่ามาตรการใด<b>ไม่ได้ลด</b>ความเสี่ยง venous thromboembolism ช่วงผ่าตัด ต้องแยกให้ออกว่าอะไรเป็นการป้องกัน (ยา/ กลไก/ ลุกเดินเร็ว) และอะไรเป็นปัจจัยที่<b>เพิ่ม</b>ความเสี่ยง",
+  "why": "VTE เกิดจาก <b>Virchow's triad</b>: venous stasis (ดมยาสลบนาน นอนนิ่ง จัดท่า lithotomy) · endothelial injury (ผ่าตัดในอุ้งเชิงกรานใกล้ iliac vein) · hypercoagulability (มะเร็งหลั่ง tissue factor, ผ่าตัดใหญ่, ยาเคมีบำบัด) · ผ่าตัดใหญ่ช่องท้อง/ อุ้งเชิงกรานจากมะเร็งได้ <b>Caprini score ≥ 5 = high risk</b> (มะเร็ง 2 แต้ม + ผ่าตัดใหญ่ &gt; 45 นาที 2 แต้ม + อายุ/ ปัจจัยอื่น) → ACCP แนะนำ <b>pharmacologic prophylaxis</b> คือ LDUH 5,000 U SC ทุก 8–12 ชม. หรือ LMWH (enoxaparin 40 mg SC วันละครั้ง) <b>ร่วมกับ mechanical</b> (IPC/ elastic stocking) ถ้าไม่มีความเสี่ยงเลือดออกสูง และหลังผ่าตัดมะเร็งช่องท้อง/ อุ้งเชิงกรานให้ <b>extended LMWH 4 สัปดาห์</b> · <b>early mobilization</b> ตาม ERAS ลด stasis · ส่วน <b>neoadjuvant chemoradiotherapy</b> (5-FU/ capecitabine + RT) เป็นการรักษามะเร็งเพื่อลดขนาดก้อนและลด local recurrence แต่ยาเคมีบำบัดทำลาย endothelium เพิ่ม procoagulant และรังสีทำให้เนื้อเยื่ออุ้งเชิงกรานอักเสบ จึง<b>เพิ่ม</b>ความเสี่ยง VTE ไม่ได้ลด · ไฟล์กากบาท C และเขียนลายมือท้ายช้อย <b>\"X ↑ risk\"</b> พร้อม ✓ ที่ A B D E",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Low-dose unfractionated heparin เป็นยาป้องกัน VTE หลังผ่าตัดที่ลด DVT และ PE ได้ชัด เทียบเท่า LMWH · ไม่มีสถานการณ์ใดที่ LDUH ไม่ลดความเสี่ยง VTE เพราะเป็นยาต้านการแข็งตัวของเลือดที่ออกฤทธิ์ตรงต่อกลไกการเกิดลิ่มเลือด (ปัญหาของมันคือเลือดออก ไม่ใช่ไม่ได้ผล)",
-   "B": "<b>นอกสไลด์:</b> LMWH เป็นยามาตรฐานในผ่าตัดมะเร็งความเสี่ยงสูง · ไม่มีสถานการณ์ใดที่ LMWH ไม่ลดความเสี่ยง VTE เพราะยับยั้ง factor Xa โดยตรง",
-   "D": "<b>นอกสไลด์:</b> Intermittent pneumatic compression ลด venous stasis ที่ขา · ไม่มีสถานการณ์ใดที่ IPC ไม่ลดความเสี่ยง VTE เพราะแก้ stasis ซึ่งเป็นองค์ประกอบหนึ่งของ Virchow's triad (ใช้เดี่ยวได้เมื่อเสี่ยงเลือดออกสูง)",
-   "E": "<b>นอกสไลด์:</b> Early mobilization ลด stasis เป็นมาตรการพื้นฐานใน ERAS · ไม่มีสถานการณ์ใดที่การลุกเดินเร็วไม่ลดความเสี่ยง VTE เพราะการหดตัวของกล้ามเนื้อน่องช่วยปั๊มเลือดดำกลับ"
+   "A": "ข้อความถูก: low-dose unfractionated heparin 5,000 U SC ทุก 8–12 ชม. ลด DVT หลังผ่าตัดทั่วไปได้ราวสองในสาม ราคาถูก ใช้ได้ในไตเสื่อมเพราะไม่ขับทางไต — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับยาป้องกัน VTE ในชาย 70 ปี eGFR 20 ที่จะผ่าตัด colectomy จากมะเร็ง (เลือก UFH แทน LMWH)",
+   "B": "ข้อความถูก: LMWH (enoxaparin 40 mg SC วันละครั้ง) เป็นยาป้องกันหลักหลังผ่าตัดมะเร็ง และให้ต่อเนื่องถึง 28 วันหลังผ่าตัดช่องท้อง/ อุ้งเชิงกรานจากมะเร็ง — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการป้องกันหลังกลับบ้านของหญิง 60 ปีที่เพิ่งทำ abdominoperineal resection",
+   "D": "ข้อความถูก: intermittent pneumatic compression บีบน่องเป็นจังหวะ ลด stasis และกระตุ้น fibrinolysis ใช้คู่กับยาในกลุ่มเสี่ยงสูง หรือใช้เดี่ยวเมื่อเสี่ยงเลือดออก — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการป้องกัน VTE ในชาย 50 ปีหลังผ่าตัด splenectomy จาก trauma ที่ยังมีเลือดออกในช่องท้องและงดยาต้านการแข็งตัวของเลือด",
+   "E": "ข้อความถูก: early mobilization (ลุกนั่ง/ เดินในวันที่ผ่าตัดหรือวันรุ่งขึ้น) เป็นส่วนหนึ่งของ ERAS ลด stasis ลด VTE ปอดแฟบ และลำไส้หยุดทำงาน — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการดูแลหลังผ่าตัดลำไส้ใหญ่แบบส่องกล้องในหญิง 45 ปีตามแนวทาง ERAS"
   },
-  "trap": "อ่านข้ามคำว่า NOT แล้วเลือกยาที่ดีที่สุด (LMWH) · หรือคิดว่า chemoradiation ทำให้ก้อนยุบจึงลดความเสี่ยง — จริง ๆ เป็นปัจจัยเสี่ยง",
+  "trap": "คำว่า <b>neoadjuvant</b> ฟังดูเป็นสิ่งที่ 'ดี' ต่อผลการรักษา คนอ่านเร็วจึงอาจตัดช้อยยาหรือ IPC แทน · ต้องแยกว่า neoadjuvant CRT รักษา<b>มะเร็ง</b> ไม่ได้ป้องกัน<b>ลิ่มเลือด</b> และยาเคมีบำบัด/ รังสีเป็นปัจจัยเสี่ยง VTE เอง (Khorana score ใช้ประเมินผู้ป่วยมะเร็งที่ได้เคมีบำบัด) ส่วนอีก 4 ช้อยคือยา กลไก และ ERAS ที่ลด stasis/ hypercoagulability จริง",
   "summary": [
-   "<b>นอกสไลด์:</b> Caprini score: มะเร็ง +2 · major surgery > 45 นาที +2 · ≥ 5 คะแนน = high risk",
-   "<b>นอกสไลด์:</b> High risk ที่เลือดออกไม่สูง → LMWH หรือ LDUH + mechanical (IPC) · เสี่ยงเลือดออกสูง → mechanical ก่อน แล้วเริ่มยาเมื่อเลือดออกลดลง",
-   "<b>นอกสไลด์:</b> ผ่าตัดมะเร็งช่องท้อง/อุ้งเชิงกราน → extended LMWH ราว 4 สัปดาห์หลังผ่าตัด (ACCP, ASCO)",
-   "<b>นอกสไลด์:</b> ไตวาย (CrCl &lt; 30 mL/min) → เลือก UFH เพราะไม่ขับทางไต"
+   "Virchow's triad: stasis + endothelial injury + hypercoagulability — ผ่าตัดใหญ่จากมะเร็งมีครบทั้งสามจึงเป็นกลุ่มเสี่ยง VTE สูงสุดกลุ่มหนึ่งในศัลยกรรมทั่วไป",
+   "Caprini score (ACCP 2012 ผ่าตัด non-orthopedic): 0 very low → early ambulation · 1–2 low → mechanical · 3–4 moderate → LMWH/ LDUH หรือ mechanical · ≥ 5 high → ยา + mechanical",
+   "ยาป้องกัน: enoxaparin 40 mg SC วันละครั้ง (เริ่ม 12 ชม.ก่อนหรือ 6–12 ชม.หลังผ่าตัด) · UFH 5,000 U SC q8–12h ใช้เมื่อ CrCl &lt; 30 · fondaparinux 2.5 mg ใช้เมื่อมีประวัติ HIT",
+   "Extended prophylaxis LMWH 4 สัปดาห์หลังผ่าตัดใหญ่ช่องท้อง/ อุ้งเชิงกรานจากมะเร็ง ลด VTE ที่เกิดหลังกลับบ้านลงได้ราวครึ่งหนึ่ง (ACCP, ASCO, NCCN)",
+   "Mechanical (IPC ดีกว่า graduated stocking) ใช้เสริมยา หรือใช้เดี่ยวเมื่อเสี่ยงเลือดออกสูง เช่น trauma ที่ยังมีเลือดออก ผ่าตัดสมอง/ ไขสันหลัง",
+   "ปัจจัยที่เพิ่ม VTE ในผู้ป่วยมะเร็ง: เคมีบำบัด (โดยเฉพาะ cisplatin, 5-FU), รังสีรักษา, hormonal therapy, angiogenesis inhibitor, central venous catheter, การนอนนาน",
+   "Rectal cancer ระยะ II–III ส่วนกลาง/ ล่าง: ให้ neoadjuvant CRT หรือ total neoadjuvant therapy ก่อน TME เพื่อลด local recurrence — เป็นการรักษามะเร็ง ไม่ใช่การป้องกัน VTE"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — chemoradiation เป็นการรักษามะเร็งและเพิ่มความเสี่ยง VTE ส่วนอีกสี่ช้อยเป็นมาตรการป้องกันมาตรฐาน · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ Key 74ACD ที่กากบาท C และเขียน \"X ↑ risk\" · A B D E เป็นมาตรการป้องกัน VTE มาตรฐานทั้งหมด (ยา 2 ชนิด กลไก 1 และ ERAS 1) ส่วน neoadjuvant CRT เป็นปัจจัยเสี่ยงที่เพิ่ม hypercoagulability จึงเป็นข้อเดียวที่ไม่ลดความเสี่ยง",
+  "mnemonic": "<b>'ยา (UFH/LMWH) + เครื่องบีบ (IPC) + ลุกเดิน (ERAS) = ลด VTE · เคมี/ รังสี = เพิ่ม VTE'</b>",
+  "guide": "Gould MK et al. Prevention of VTE in Nonorthopedic Surgical Patients, ACCP Antithrombotic Therapy 9th ed. CHEST 2012; Key NS et al. ASCO Guideline Update: VTE Prophylaxis and Treatment in Patients With Cancer, J Clin Oncol 2023",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัดได้ heparin มา 7 วัน เกล็ดเลือดลดลงเกินครึ่งและมีลิ่มเลือดใหม่ → HIT หยุด heparin ทุกชนิด (รวม LMWH) เปลี่ยนเป็นยาต้านการแข็งตัวที่ไม่ใช่ heparin",
-   "<b>นอกสไลด์:</b> หลังผ่าตัดลำไส้ 5 วัน ขาซ้ายบวมกดเจ็บ → compression ultrasound ยืนยัน DVT แล้วให้ยาต้านการแข็งตัวขนาดรักษา"
+   "หญิง 55 ปี หลัง LAR วันที่ 2 มี drain เป็นเลือดสด Hb ลด 3 g/dL → หยุด LMWH ชั่วคราว ใช้ IPC อย่างเดียวจนเลือดหยุด",
+   "ชาย 65 ปี ได้ enoxaparin หลังผ่าตัดวันที่ 7 เกล็ดเลือดลดจาก 250,000 เหลือ 90,000 มีลิ่มเลือดที่ขา → สงสัย HIT หยุด heparin ทุกชนิด เปลี่ยนเป็น fondaparinux หรือ argatroban",
+   "ทำไมต้องให้ LMWH ต่อ 4 สัปดาห์หลังผ่าตัดมะเร็งอุ้งเชิงกราน → ภาวะ hypercoagulable จากมะเร็งและการผ่าตัดยังอยู่หลังกลับบ้าน VTE ราวหนึ่งในสามเกิดหลังจำหน่าย",
+   "หญิง 40 ปี ผ่าตัด laparoscopic cholecystectomy 40 นาที ไม่มีปัจจัยเสี่ยงอื่น (Caprini 1–2) → ใช้ mechanical prophylaxis และลุกเดินเร็ว ไม่ต้องให้ยา"
+  ],
+  "notes": "ไฟล์ 74ACDK หน้า 2 — ตัวพิมพ์: <b>5. A female with rectal cancer is planned to undergo low anterior resection. She has been previously healthy. Which of the following measures does NOT reduce the risk of perioperative venous thromboembolism? — A. Low dose unfractionated heparin B. Low molecular weight heparin C. Neoadjuvant chemoradiotherapy D. Intermittent pneumatic compression during surgery E. Early mobilisation after surgery</b><br>ลายมือ/ ไฮไลต์ในไฟล์: <b>กากบาทที่ C</b> + ลายมือท้ายช้อย C <b>\"X ↑ risk\"</b>; มี <b>✓ ท้ายช้อย A, B, D, E</b>; ขีดเส้นใต้ \"NOT\" (มีกากบาทเล็ก x อยู่เหนือคำ), \"reduce\" และ \"perioperative venous thromboembolism\"; ไม่มีโน้ตอื่น. stem และช้อยตามต้นฉบับ",
+  "src": "74ACDK · หน้า 2",
+  "kimg": [
+   "k74a_2"
   ]
  },
  "MDCU74|RoA|28": {
-  "interp": "หญิงอายุน้อยปวดท้องเป็นพัก ๆ มี polyp หลายก้อนในลำไส้เล็ก + จุดสีเข้มที่ริมฝีปากและกระพุ้งแก้ม (mucocutaneous pigmentation) → hereditary polyposis → ถามชนิดพยาธิของ polyp",
-  "why": "ลายมือในคีย์: <b>\"Peutz-Jeghers syndrome\"</b> (โยงจากจุดสีที่ปาก) และ <b>\"Juvenile polyposis\"</b> · ตาราง First Aid ที่แปะ: <b>hamartomatous polyp — associated with Peutz-Jeghers syndrome and juvenile polyposis</b><br><b>นอกสไลด์:</b> Peutz-Jeghers (AD, ยีน STK11) มี hamartomatous polyp ที่มีกล้ามเนื้อเรียบแตกแขนงแบบต้นไม้ พบมากใน jejunum · ปวดท้องเป็นพัก ๆ มักเกิดจาก polyp เป็น lead point ของ intussusception หรือเลือดออก",
+  "interp": "หญิง 20 ปี ปวดท้องเป็นพัก ๆ ซ้ำหลายครั้งใน 6 เดือน (เข้าได้กับ <b>intussusception ที่คลายเองเป็นพัก ๆ</b> จากติ่งเนื้อในลำไส้เล็ก) ตรวจพบ<b>ติ่งเนื้อหลายอันในลำไส้เล็ก</b> ร่วมกับ<b>จุดสีเข้มที่ริมฝีปากและกระพุ้งแก้ม</b> = Peutz-Jeghers syndrome — ถามชนิดพยาธิวิทยาของติ่งเนื้อ",
+  "why": "<b>Peutz-Jeghers syndrome (PJS)</b> เป็นโรคถ่ายทอดแบบ <b>autosomal dominant</b> จาก germline mutation ของ <b>STK11 (LKB1)</b> บนโครโมโซม 19p13.3 · ลักษณะคู่คือ ① <b>mucocutaneous pigmentation</b> สีน้ำตาลเข้ม-ดำ ที่ริมฝีปาก กระพุ้งแก้ม รอบปาก จมูก ฝ่ามือฝ่าเท้า เริ่มในวัยเด็กและจางลงเมื่อโต (ยกเว้นในกระพุ้งแก้มที่มักคงอยู่) ② <b>hamartomatous polyp</b> ทั่วทางเดินอาหาร พบมากที่สุดใน<b>ลำไส้เล็ก (jejunum)</b> · พยาธิเฉพาะคือเยื่อบุปกติเรียงตัวผิดรูปบน<b>แกนกล้ามเนื้อเรียบแตกกิ่งแบบต้นไม้ (arborizing smooth muscle)</b> · อาการที่พบบ่อยคือ <b>intussusception</b> (ปวดท้องเป็นพัก ๆ ลำไส้อุดตัน) เลือดออกและซีด · ติ่งเนื้อเองกลายเป็นมะเร็งน้อย แต่ผู้ป่วยมีความเสี่ยงมะเร็งตลอดชีวิตสูงมาก ทั้ง colorectal, กระเพาะ, ลำไส้เล็ก, <b>ตับอ่อน</b>, <b>เต้านม</b>, รังไข่ (SCTAT), ปากมดลูก (adenoma malignum) และ Sertoli cell tumor ของอัณฑะ · ไฟล์กากบาท A และเขียนลายมือ <b>\"↳ Peutz-Jeghers syndrome\"</b> ลากจาก hyperpigmented macules พร้อมแปะตาราง First Aid ที่ไฮไลต์ว่า hamartomatous polyp \"Associated with Peutz-Jeghers syndrome and juvenile polyposis\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Adenomatous polyp เป็น neoplastic polyp ของ FAP (APC) ซึ่ง polyp อยู่ใน colon นับร้อยและไม่มีจุดสีที่ปาก · จะถูกถ้าชายอายุน้อยส่องกล้องพบ polyp นับร้อยใน colon ร่วมกับ osteoma ขากรรไกร (Gardner)",
-   "C": "<b>นอกสไลด์:</b> GIST มาจาก interstitial cells of Cajal เป็นก้อน submucosal เดี่ยว ไม่ใช่ polyposis · จะถูกถ้าผู้สูงอายุมีก้อนใต้เยื่อบุก้อนเดียวในกระเพาะหรือลำไส้เล็กเลือดออก ชิ้นเนื้อเป็น spindle cell ย้อม CD117 บวก",
-   "D": "Hyperplastic polyp พบบ่อยที่สุดแต่ก้อนเล็ก อยู่ rectosigmoid (ตาราง First Aid) ไม่อยู่ลำไส้เล็กหลายก้อน · จะถูกถ้าส่องกล้องคัดกรองพบ polyp เล็ก ๆ ไม่กี่มิลลิเมตรใน rectum",
-   "E": "Inflammatory pseudopolyp เกิดจาก mucosal erosion ใน IBD (ตาราง First Aid) · จะถูกถ้าผู้ป่วย ulcerative colitis ถ่ายเป็นเลือดเรื้อรัง ส่องกล้องเห็น polyp จำนวนมากบนเยื่อบุที่อักเสบ"
+   "B": "Adenomatous polyp เป็นติ่งเนื้อ neoplastic (APC → KRAS → TP53 ตาม adenoma-carcinoma sequence) ลักษณะเด่นของ FAP คือ adenoma นับร้อยถึงพันอันใน<b>ลำไส้ใหญ่</b> ไม่มีจุดสีที่ริมฝีปาก — จะถูกถ้าเป็นชาย 25 ปี พ่อเสียชีวิตจากมะเร็งลำไส้ตอนอายุ 40 ส่องกล้องพบติ่งเนื้อมากกว่า 100 อันทั่ว colon ร่วมกับ CHRPE และ osteoma ที่ขากรรไกร (Gardner)",
+   "C": "GIST เป็น mesenchymal tumor จาก interstitial cell of Cajal (CD117/ KIT, DOG1 บวก) มักเป็นก้อนใต้เยื่อบุก้อนเดียวที่กระเพาะ (~60%) หรือลำไส้เล็ก (~30%) ไม่ใช่ polyp หลายอันร่วมกับจุดสี — จะถูกถ้าเป็นชาย 60 ปี ถ่ายดำ ซีด CT พบก้อนขอบเรียบ 6 cm ยื่นจากผนังกระเพาะ ส่อง EUS พบก้อนจาก muscularis propria",
+   "D": "Hyperplastic polyp เป็นติ่งเนื้อที่พบบ่อยที่สุดในลำไส้ใหญ่ ขนาดเล็ก &lt; 5 mm อยู่ rectosigmoid ไม่มีอาการและไม่เกี่ยวกับลำไส้เล็กหรือจุดสีที่ปาก — จะถูกถ้าเป็นชาย 55 ปีที่ส่องกล้องคัดกรองพบติ่งเนื้อเล็ก 3 mm สีซีดที่ rectum ตัดออกแล้วพยาธิเป็นต่อมรูปฟันเลื่อย (serrated) ไม่มี dysplasia",
+   "E": "Inflammatory pseudopolyp เกิดจากเยื่อบุที่เหลือระหว่างแผลถลอกใน IBD (โดยเฉพาะ ulcerative colitis) ไม่ใช่เนื้องอกจริงและไม่มีจุดสีที่ปาก — จะถูกถ้าเป็นหญิง 35 ปีเป็น ulcerative colitis ทั้งลำไส้ใหญ่มา 10 ปี ส่องกล้องพบติ่งเนื้อเล็กหลายอันกระจายในบริเวณที่เคยอักเสบรุนแรง"
   },
-  "trap": "เห็น polyp หลายก้อนในคนอายุน้อยแล้วตอบ adenomatous (FAP) — FAP มี adenoma นับร้อยเด่นที่ colon และไม่มีจุดสี · Juvenile polyposis ก็ hamartomatous แต่ไม่มีจุดสีและอยู่ colon เป็นหลัก ช้อยนี้จึงตอบเหมือนกัน",
+  "trap": "ลายมือในไฟล์เขียนทั้ง Juvenile polyposis และ Peutz-Jeghers ไว้ และทั้งสองโรคเป็น hamartomatous เหมือนกัน คำตอบจึงไม่เปลี่ยน · คนที่เห็นคำว่า 'multiple polyps + คนอายุน้อย' มักนึกถึง FAP แล้วตอบ adenomatous · วิธีแยก: <b>จุดสีที่ริมฝีปาก/ กระพุ้งแก้ม + polyp ในลำไส้เล็ก</b> = PJS (hamartoma) ส่วน FAP คือ adenoma จำนวนมากใน<b>ลำไส้ใหญ่</b> ไม่มีจุดสี",
   "summary": [
-   "Hamartomatous polyp = Peutz-Jeghers และ juvenile polyposis · ก้อนเดี่ยวแทบไม่กลายเป็นมะเร็ง (ตาราง First Aid)",
-   "<b>นอกสไลด์:</b> Peutz-Jeghers: STK11 · polyp ลำไส้เล็ก + จุดสีที่ริมฝีปาก กระพุ้งแก้ม นิ้ว · มะเร็งเพิ่มหลายอวัยวะ (ลำไส้ใหญ่ เต้านม ตับอ่อน กระเพาะ รังไข่ชนิด SCTAT อัณฑะชนิด Sertoli) จึงต้องตรวจติดตามตั้งแต่วัยเด็ก",
-   "<b>นอกสไลด์:</b> Juvenile polyposis: SMAD4/BMPR1A · ชนิด SMAD4 อาจมี HHT ร่วม"
+   "PJS: autosomal dominant, STK11/ LKB1 (19p13.3) · เกณฑ์วินิจฉัย (WHO) เช่น ≥ 2 PJ polyps, หรือ PJ polyp ร่วมประวัติครอบครัว, หรือจุดสีเด่นร่วมประวัติครอบครัว/ polyp",
+   "PJ polyp: hamartoma ที่มี arborizing smooth muscle core · พบมากที่สุดใน jejunum → intussusception (มักก่อนอายุ 20) เลือดออก ซีด",
+   "มะเร็งใน PJS: ความเสี่ยงสะสมตลอดชีวิตสูงมาก (รายงานถึงราว 80–90% สำหรับมะเร็งทุกชนิด) — CRC, เต้านม, ตับอ่อน, กระเพาะ, ลำไส้เล็ก, รังไข่ SCTAT, adenoma malignum ของปากมดลูก, Sertoli cell tumor",
+   "Surveillance (ESGE 2021): เริ่ม EGD + colonoscopy + ตรวจลำไส้เล็ก (capsule หรือ MR enterography) ที่อายุ 8 ปี แล้วทุก 1–3 ปี · ตัด polyp ลำไส้เล็ก ≥ 15–20 mm (เช่น balloon-assisted enteroscopy) เพื่อกัน intussusception",
+   "Juvenile polyposis: SMAD4 หรือ BMPR1A · ≥ 5 juvenile polyps ในลำไส้ใหญ่ หรือมีทั่วทางเดินอาหาร · SMAD4 พบร่วม HHT · polyp มีต่อมขยายเป็นถุงในเนื้อเยื่อพยุงบวม ไม่มีแกนกล้ามเนื้อ",
+   "Hamartomatous syndromes อื่น: Cowden (PTEN — trichilemmoma, มะเร็งเต้านม/ ไทรอยด์/ endometrium) · Cronkhite-Canada (ไม่ถ่ายทอด ผมร่วง เล็บเสื่อม ผิวคล้ำ ท้องเสีย)",
+   "Adenomatous polyposis: FAP (APC, &gt; 100 adenomas, prophylactic colectomy) · attenuated FAP (&lt; 100) · MUTYH-associated (autosomal recessive)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — polyp ลำไส้เล็กหลายก้อน + จุดสีที่ปาก = Peutz-Jeghers ซึ่งเป็น hamartomatous polyp · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ Key 74ACD ที่กากบาท A เขียนวงกลม \"จำ\" ไว้ข้างข้อ และโยงจุดสีที่ปากไปยัง Peutz-Jeghers syndrome · ลายมือที่เขียน Juvenile polyposis ไว้ด้วยไม่ทำให้คำตอบเปลี่ยนเพราะเป็น hamartomatous polyp เช่นกัน แต่ juvenile polyposis ไม่มีจุดสีที่ปาก จึงเป็น PJS ชัดเจน",
+  "mnemonic": "<b>'ปากมีจุด ลำไส้เล็กมีติ่ง = Peutz-Jeghers = Hamartoma (STK11)'</b>",
+  "guide": "van Leerdam ME et al. ESGE Guideline: Endoscopic management of polyposis syndromes, Endoscopy 2019; Wagner A et al. Peutz-Jeghers syndrome: European Hereditary Tumour Group recommendations, J Clin Med 2021; Sabiston Textbook of Surgery 21st ed. (2022) Small Intestine",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมี hamartomatous polyp หลายก้อน ตุ่มที่ใบหน้า (trichilemmoma) และเป็นมะเร็งเต้านม → Cowden syndrome (PTEN) เฝ้าระวังมะเร็งเต้านม ไทรอยด์ เยื่อบุโพรงมดลูก",
-   "<b>นอกสไลด์:</b> ผู้ป่วย FAP หลังตัดลำไส้ใหญ่แล้ว ถามมะเร็งที่ต้องเฝ้าระวังต่อ → duodenal/periampullary (ส่องกล้องส่วนบนเป็นระยะ)"
+   "เด็ก 12 ปี มีจุดสีที่ริมฝีปาก ปวดท้องบิดเป็นพัก ๆ อาเจียน US พบ target sign ที่ลำไส้เล็ก → small bowel intussusception จาก PJ polyp → ผ่าตัดคลาย + ตัด polyp (intraoperative enteroscopy เก็บ polyp อื่นด้วย)",
+   "หญิง 30 ปีที่เป็น PJS ต้องตรวจคัดกรองมะเร็งอะไรเพิ่มนอกจากทางเดินอาหาร → เต้านม (MRI/ mammogram ทุกปีตั้งแต่ราว 25–30 ปี), ตับอ่อน (MRCP/ EUS ตั้งแต่ราว 30–35 ปี), ปากมดลูกและรังไข่",
+   "เด็กชาย 8 ปี ถ่ายเป็นเลือดสดไม่เจ็บ ส่องพบติ่งเนื้อมีก้านก้อนเดียวที่ rectum พยาธิเป็นต่อมขยายเป็นถุง → solitary juvenile polyp ไม่เพิ่มความเสี่ยงมะเร็ง ตัดออกพอ",
+   "ชาย 45 ปี มี trichilemmoma ที่ใบหน้า มะเร็งไทรอยด์ follicular และ hamartomatous polyp หลายอันในลำไส้ → Cowden syndrome (PTEN)"
+  ],
+  "notes": "ไฟล์ 74ACDK หน้า 3 — ตัวพิมพ์: <b>28. A-20-year-old female presents with recurrent abdominal pain a few times in the past 6 months. Work up shows multiple small bowel polyps. Physical examination shows a thin, young female with scattered hyperpigmented macules on her lips and buccal mucosa. What is the most likely histopathology of her small bowel polyps? — A. Hamartomatous polyp B. Adenomatous polyp C. Gastrointestinal stromal tumor D. Hyperplastic polyp E. Inflammatory polyp</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ขอบซ้ายมีคำว่า <b>\"จำ\" ในวงกลม</b>; ขีดเส้นใต้ \"recurrent abdominal pain\", \"multiple small bowel polyps\" และ \"scattered hyperpigmented macules on her lips and buccal mucosa\"; ลายมือ <b>\"↱ Juvenile polyposis\"</b> (เหนือ multiple small bowel polyps) และ <b>\"↳ Peutz-Jeghers syndrome\"</b> (ลากจาก hyperpigmented macules มาท้ายโจทย์); <b>กากบาทที่ A</b>. แปะตาราง <b>First Aid 2021 \"Colonic polyps\"</b> (HISTOLOGIC TYPE / CHARACTERISTICS) — Generally nonneoplastic: <b>Hamartomatous polyps</b>: Solitary lesions do not have significant risk of transformation. Growths of normal colonic tissue with distorted architecture. <b>Associated with Peutz-Jeghers syndrome and juvenile polyposis</b> (ไฮไลต์เหลือง) · Hyperplastic polyps: Most common; generally smaller and predominantly located in rectosigmoid region. Occasionally evolves into serrated polyps and more advanced lesions · Inflammatory pseudopolyps: Due to mucosal erosion in inflammatory bowel disease · Mucosal polyps: Small, usually &lt;5 mm. Look similar to normal mucosa. Clinically insignificant · Submucosal polyps: May include lipomas, leiomyomas, fibromas, and other lesions (ส่วน potentially malignant: adenomatous polyps — APC, KRAS, chromosomal instability, tubular &lt; villous; serrated polyps — CIMP, MMR silencing, BRAF ในตารางเดียวกันของ First Aid). แก้ typo \"A-20-year-old\" ใน stem",
+  "src": "74ACDK · หน้า 3",
+  "kimg": [
+   "k74a_10"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 1@p3#1": {
-  "interp": "ท้องเสียเป็นน้ำหลังได้ยาปฏิชีวนะ ยืนยัน C. difficile infection (CDI) → ถามยารักษาที่เหมาะที่สุด <b>จากช้อยที่ให้</b>",
-  "why": "คีย์: <b>E Metronidazole + ลายมือ \"or vancomycin\"</b><br><b>นอกสไลด์:</b> ในช้อยมีเพียง metronidazole ที่ฆ่า C. difficile ได้ ส่วนช้อยอื่นเป็นยาที่ก่อ CDI · แต่ guideline ปัจจุบัน (IDSA/SHEA 2021) ให้ fidaxomicin หรือ vancomycin แบบกินเป็นยาแรก metronidazole ใช้เฉพาะ non-severe เมื่อไม่มียาสองตัวนี้ · vancomycin ต้องให้ทางปาก (ทางหลอดเลือดไม่ออกมาในลำไส้)",
+  "interp": "หลังได้ยาปฏิชีวนะ ผู้ป่วยถ่ายเหลวเป็นน้ำ และยืนยันว่าเป็น <b>Clostridioides difficile infection (CDI)</b> — ถามยาที่เป็น drug of choice <b>จากช้อยที่ให้</b> ต้องรู้ทั้งยาที่รักษา CDI ได้ (ยารับประทานที่ไปถึงลำไส้ใหญ่) และยาที่เป็นตัวก่อโรค",
+  "why": "ยาปฏิชีวนะทำลาย normal colonic flora ทำให้ <b>C. difficile</b> (gram-positive spore-forming anaerobe) เจริญและหลั่ง <b>toxin A และ B</b> → colitis ตั้งแต่ท้องเสียเป็นน้ำจนถึง pseudomembranous colitis และ toxic megacolon · ยาที่เป็นตัวก่อบ่อยคือ <b>clindamycin, fluoroquinolone, cephalosporin รุ่น 2–3, penicillin กลุ่มกว้าง</b> · ขั้นแรกคือ<b>หยุดยาปฏิชีวนะที่เป็นเหตุ</b>ถ้าทำได้ แยกห้อง contact precaution และล้างมือด้วยสบู่ (แอลกอฮอล์ไม่ฆ่า spore) · ยาตาม IDSA/SHEA 2021: episode แรก <b>fidaxomicin 200 mg PO bid 10 วัน (preferred)</b> หรือ <b>vancomycin 125 mg PO qid 10 วัน</b> · <b>metronidazole 500 mg PO tid 10–14 วัน</b> ใช้เฉพาะ non-severe เมื่อหายาสองตัวแรกไม่ได้ · severe = WBC ≥ 15,000 หรือ Cr &gt; 1.5 mg/dL · fulminant (shock, ileus, megacolon) → vancomycin 500 mg PO/NG qid + metronidazole IV ± vancomycin ทางทวารหนัก และปรึกษาศัลยแพทย์ · ในช้อยมี metronidazole เป็นยาเดียวที่รักษา CDI ได้ · ไฟล์กากบาท E และเขียนลายมือท้ายช้อย <b>\"✓ or vancomycin\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Ciprofloxacin เป็นยากลุ่มเสี่ยงสูงที่ก่อ CDI ไม่มีฤทธิ์รักษา · จะถูกถ้าเป็นท้องเสียเป็นน้ำในนักท่องเที่ยวที่อาการมากหรือมีไข้ (เชื้อ enterotoxigenic E. coli) — แม้ปัจจุบันนิยม azithromycin มากขึ้น",
-   "B": "<b>นอกสไลด์:</b> Cefazolin เป็นยาป้องกันการติดเชื้อก่อนผ่าตัด ไม่ฆ่าเชื้อในลำไส้ · ไม่มีสถานการณ์ใดที่ cefazolin เป็นยารักษาท้องเสียติดเชื้อ เพราะเป็น cephalosporin รุ่น 1 ที่ไม่ครอบคลุมเชื้อก่อโรคลำไส้และไม่ถูกใช้รักษาลำไส้อักเสบติดเชื้อชนิดใด",
-   "C": "<b>นอกสไลด์:</b> Clindamycin เป็นยาคลาสสิกที่ก่อ pseudomembranous colitis · ไม่มีสถานการณ์ใดที่ clindamycin เป็นยารักษาท้องเสียติดเชื้อ เพราะไม่ครอบคลุมเชื้อก่อโรคลำไส้กลุ่ม gram-negative และทำลาย anaerobic flora จนเอื้อ C. difficile",
-   "D": "<b>นอกสไลด์:</b> Ceftriaxone เป็นยาเสี่ยงสูงต่อ CDI · จะถูกถ้าเด็กมีไข้สูงถ่ายเป็นมูกเลือดจาก Shigella หรือ Salmonella แบบลุกลามจนต้องให้ยาทางหลอดเลือด"
+   "A": "Ciprofloxacin (fluoroquinolone) เป็นยากลุ่มที่สัมพันธ์กับ CDI สูง โดยเฉพาะสายพันธุ์ BI/NAP1/027 ที่ดื้อ fluoroquinolone และสร้าง toxin มาก จึงห้ามใช้รักษา CDI — จะถูกถ้าเป็นหญิง 30 ปี มีไข้ ปวดบั้นเอวขวา ปัสสาวะขุ่น เป็น acute pyelonephritis ที่รักษาแบบผู้ป่วยนอกได้",
+   "B": "Cefazolin (cephalosporin รุ่น 1) ฆ่าแบคทีเรียแกรมบวกบนผิวหนัง ใช้เป็น surgical antibiotic prophylaxis มาตรฐาน ไม่มีฤทธิ์ต่อ C. difficile และเป็นปัจจัยเสี่ยงเอง — จะถูกถ้าเป็นชาย 50 ปีที่จะผ่าตัด inguinal hernia ใส่ mesh และต้องให้ยาป้องกันการติดเชื้อแผลผ่าตัดภายใน 60 นาทีก่อนลงมีด",
+   "C": "Clindamycin เป็นยาคลาสสิกที่ทำให้เกิด CDI/ pseudomembranous colitis (เดิมเรียก clindamycin colitis) การให้ซ้ำทำให้แย่ลง — จะถูกถ้าเป็นหญิง 25 ปีแพ้ penicillin ชนิด anaphylaxis มี cellulitis ที่ขา หรือใช้เป็นยาเสริมยับยั้ง toxin ใน necrotizing soft tissue infection จาก Group A Streptococcus",
+   "D": "Ceftriaxone (cephalosporin รุ่น 3) เป็นยาที่เพิ่มความเสี่ยง CDI เพราะกด anaerobic flora ในลำไส้ใหญ่และไม่มีฤทธิ์ต่อ C. difficile — จะถูกถ้าเป็นชาย 70 ปี ไข้ ไอ เสมหะ CURB-65 ได้ 3 นอนโรงพยาบาลด้วย community-acquired pneumonia (ให้ร่วมกับ macrolide)"
   },
-  "trap": "คิดว่า metronidazole ยังเป็น first-line ตามตำราเก่า — ข้อนี้ตอบได้เพราะไม่มี vancomycin/fidaxomicin ในช้อย · ถ้ามี oral vancomycin ในช้อยให้เลือกตัวนั้น",
+  "trap": "คนที่จำแนวทางใหม่ได้อาจลังเลเพราะ IDSA 2021 ไม่ให้ metronidazole เป็นยาแรกแล้ว (ใช้ fidaxomicin หรือ oral vancomycin) · แต่ในช้อยไม่มียาสองตัวนั้น — ข้อนี้คือการเลือกยาเดียวที่รักษา CDI ได้ออกจาก<b>ยาที่เป็นตัวก่อโรค</b> 4 ตัว (cipro, cefazolin, clindamycin, ceftriaxone) · ระวังด้วยว่า vancomycin ต้องให้<b>ทางปาก</b> ส่วน IV vancomycin ไม่ถึงลำไส้ใหญ่",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง CDI: clindamycin, fluoroquinolone, cephalosporin · อายุมาก นอนโรงพยาบาลนาน PPI",
-   "<b>นอกสไลด์:</b> วินิจฉัย: ถ่ายเหลว ≥ 3 ครั้ง/24 ชม. + ตรวจอุจจาระ (NAAT หรือ GDH + toxin) · ไม่ตรวจ test of cure",
-   "<b>นอกสไลด์:</b> Severe: WBC ≥ 15,000/µL หรือ creatinine > 1.5 mg/dL → fidaxomicin หรือ vancomycin 125 mg กิน 4 ครั้ง/วัน 10 วัน"
+   "ปัจจัยเสี่ยง CDI: ยาปฏิชีวนะ (clindamycin, fluoroquinolone, cephalosporin, broad-spectrum penicillin), อายุ &gt; 65, นอนโรงพยาบาล, PPI, ภูมิคุ้มกันต่ำ, IBD",
+   "ตรวจเฉพาะอุจจาระเหลวไม่เป็นรูป ≥ 3 ครั้งใน 24 ชม. · NAAT (PCR) หรือ multistep: GDH + toxin EIA (± NAAT เมื่อผลไม่ตรงกัน) · ไม่ตรวจซ้ำเพื่อยืนยันว่าหาย",
+   "Severe CDI: WBC ≥ 15,000/µL หรือ serum creatinine &gt; 1.5 mg/dL · Fulminant: hypotension/ shock, ileus หรือ megacolon",
+   "Episode แรก: fidaxomicin 200 mg bid 10 วัน (ลด recurrence ได้ดีกว่า) หรือ vancomycin 125 mg PO qid 10 วัน · metronidazole 500 mg tid ใช้เมื่อหายาทั้งสองไม่ได้และไม่รุนแรง",
+   "Fulminant: vancomycin 500 mg PO/NG qid + metronidazole 500 mg IV q8h ± vancomycin enema ถ้ามี ileus",
+   "ผ่าตัดใน fulminant ที่ไม่ตอบสนอง (lactate สูง ≥ 5 mmol/L, WBC ≥ 50,000, ทะลุ, megacolon): subtotal colectomy + end ileostomy หรือ diverting loop ileostomy + colonic lavage ด้วย vancomycin",
+   "Recurrence: ครั้งแรกใช้ fidaxomicin หรือ vancomycin แบบ taper/ pulse · กลับเป็นซ้ำ ≥ 2 ครั้ง → fecal microbiota transplantation · ป้องกันด้วย antimicrobial stewardship"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ในขอบเขตช้อยที่ให้ — ยาที่ดีที่สุดตาม guideline ปัจจุบันคือ fidaxomicin หรือ oral vancomycin (ผู้เฉลยก็เขียน \"or vancomycin\") · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง-สูงในบริบทของช้อย — ตรงกับคีย์ลายมือในไฟล์ Key 74ACD ที่กากบาท E และเขียน \"or vancomycin\" · แนวทางปัจจุบัน (IDSA/SHEA 2021, ACG 2021) ให้ fidaxomicin หรือ oral vancomycin เป็นยาแรก และเหลือ metronidazole เป็นทางเลือกใน non-severe เท่านั้น แต่ทั้งสองไม่อยู่ในช้อย อีกสี่ช้อยเป็นยาที่ก่อ CDI จึงตอบ E",
+  "mnemonic": "<b>'Fidaxo &gt; Vanco (ทางปาก) &gt; Metro · Clinda-Cipro-Cephalo ก่อ C. diff'</b>",
+  "guide": "Johnson S et al. IDSA/SHEA 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults, Clin Infect Dis 2021; Kelly CR et al. ACG Clinical Guideline: Prevention, Diagnosis, and Treatment of C. difficile Infections, Am J Gastroenterol 2021",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย CDI ความดันต่ำ ท้องอืด film เห็น colon ขยาย 8 cm → vancomycin 500 mg ทาง NG + metronidazole ทางหลอดเลือด ไม่ดีขึ้นหรือทะลุ → subtotal colectomy + end ileostomy",
-   "<b>นอกสไลด์:</b> ผู้ป่วย CDI กลับเป็นซ้ำครั้งที่ 3 → fecal microbiota transplantation"
+   "หญิง 75 ปี เป็น CDI ความดันตก ท้องอืดมาก CT ลำไส้ใหญ่ขยาย 8 cm lactate 5 → fulminant colitis + toxic megacolon → ให้ยาตามสูตร fulminant และผ่าตัด subtotal colectomy",
+   "ชาย 60 ปี เคยเป็น CDI รักษาด้วย vancomycin หายแล้ว 3 สัปดาห์ต่อมาท้องเสียซ้ำ → first recurrence → fidaxomicin หรือ vancomycin แบบ taper/ pulse",
+   "ทำไมต้องล้างมือด้วยสบู่และน้ำแทนแอลกอฮอล์เจลเมื่อดูแลผู้ป่วย CDI → spore ของ C. difficile ทนแอลกอฮอล์ ต้องใช้แรงขัดและน้ำล้างออก",
+   "ผู้ป่วยกลับเป็น CDI ครั้งที่ 3 แม้ได้ vancomycin taper แล้ว → fecal microbiota transplantation"
+  ],
+  "notes": "ไฟล์ 74ACDK หน้า 3 — ตัวพิมพ์: <b>What is the antibiotic of choice for C. difficile infection? — A. Ciprofloxacin B. Cefazolin C. Clindamycin D. Ceftriaxone E. Metronidazole</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ขีดเส้นใต้ \"C. difficile\"; <b>กากบาทที่ E</b> (Metronidazole) + ลายมือ <b>\"✓ or vancomycin\"</b> ท้ายช้อย; ไม่มีเลขข้อในต้นฉบับ. stem เปลี่ยนเป็นเคสสั้น (ต้นฉบับ: \"What is the antibiotic of choice for C. difficile infection?\") และเติม \"among the following\"",
+  "src": "74ACDK · หน้า 3",
+  "kimg": [
+   "k74a_13"
   ]
  },
  "MDCU74|RoA|ไม่มีเลข 9": {
-  "interp": "ผู้สูงอายุเลือดออกทางทวารหนักปริมาณมากแบบเฉียบพลัน = acute lower GI bleeding → ถามสาเหตุที่พบบ่อยที่สุด",
-  "why": "ตารางที่แปะในคีย์ (Etiology of LGIB in adults): <b>diverticula 26–56% มากที่สุด</b> · ลายมือที่ AVM และ cancer: <b>\"มักไม่ค่อย massive\"</b><br><b>นอกสไลด์:</b> Diverticular bleeding ออกจาก vasa recta ที่ถูกยืดคลุมโดมของ diverticulum จนผนังบางแตก เป็นเลือดแดง ออกมาก ไม่เจ็บ ส่วนใหญ่หยุดเองแต่ออกซ้ำได้ · ตำแหน่งที่ออกพบ right colon ได้บ่อย",
+  "interp": "ชาย 70 ปี ถ่ายเป็นเลือด<b>ปริมาณมาก (massive rectal bleeding)</b> เริ่ม 6 ชม.ก่อน — ถามสาเหตุที่<b>พบบ่อยที่สุด</b> ของ lower GI bleeding รุนแรงในผู้สูงอายุ ต้องรู้ระบาดวิทยาและลักษณะเลือดออกของแต่ละสาเหตุ (ออกมากเฉียบพลัน vs ออกซึมเรื้อรัง)",
+  "why": "<b>Diverticular bleeding</b> เป็นสาเหตุอันดับหนึ่งของ lower GI bleeding ในผู้ใหญ่ (ราว 30–50%; ตารางในไฟล์ 26–56%) · กลไก: เมื่อ diverticulum ยื่นออกผ่านผนังตรงจุดที่ <b>vasa recta</b> แทงผ่านกล้ามเนื้อ หลอดเลือดแดงเล็กถูกยืดคลุมโดม/ คอของถุงและบางลง แตกเข้าสู่ lumen → <b>เลือดแดงออกมาก ไม่เจ็บ เกิดทันที</b> · พบมากขึ้นตามอายุ ยา NSAIDs/ aspirin/ antithrombotic เพิ่มความเสี่ยง · หยุดเองได้ราว 75–80% แต่ rebleed ได้ · การดูแล: resuscitation (2 large-bore IV, crossmatch) → ตัด upper GI source เพราะ hematochezia ที่ hemodynamic ไม่คงที่มาจาก UGIB ได้ราว 10–15% (BUN/Cr สูง → EGD) → ถ้า unstable ทำ <b>CT angiography</b> ก่อน (เห็นเลือดออก ≥ 0.3–0.5 mL/min) แล้ว <b>transcatheter embolization</b> · ถ้า stable ทำ colonoscopy หลังเตรียมลำไส้ ห้ามเลือดด้วย clip/ band · ล้มเหลวซ้ำ → segmental colectomy (ถ้าไม่รู้ตำแหน่ง ทำ subtotal colectomy) · ไฟล์กากบาท A Diverticulosis และใส่วงเล็บปีกกาที่ AVM กับ colorectal cancer ลายมือ <b>\"มักไม่ค่อย massive\"</b> พร้อมแปะตาราง Etiology of LGIB ที่ Diverticula 26–56%",
   "wrong": {
-   "B": "AVM/angiodysplasia เป็นอันดับสองในตาราง แต่มักออกซึม ๆ ซ้ำ ๆ (ลายมือ \"มักไม่ค่อย massive\") · จะถูกถ้าผู้สูงอายุที่มี aortic stenosis หรือไตวายเรื้อรังมีเลือดออกทางทวารซ้ำหลายครั้งปริมาณไม่มาก ร่วมกับซีดจากขาดเหล็ก",
-   "C": "มะเร็งลำไส้ใหญ่ทำให้เลือดออกน้อย เรื้อรัง ปนอุจจาระ (ลายมือ \"มักไม่ค่อย massive\") · จะถูกถ้าผู้สูงอายุถ่ายมีเลือดปนเป็นเดือน ถ่ายผิดนิสัย น้ำหนักลด ซีด",
-   "D": "ริดสีดวงภายในเป็นสาเหตุเลือดออกทางทวารที่พบบ่อยในคนทั่วไป แต่ในตารางผู้ป่วยที่ต้องนอนโรงพยาบาลมีเพียงส่วนน้อย · จะถูกถ้าคนอายุน้อยมีเลือดสดหยดหลังเบ่งถ่าย ไม่ซีด ไม่มีอาการอื่น",
-   "E": "Ischemic colitis มักปวดท้องเกร็งนำมาก่อนแล้วถ่ายเป็นเลือดปนปริมาณไม่มาก · จะถูกถ้าผู้สูงอายุมีความดันต่ำหรือหลังผ่าตัด aorta แล้วปวดท้องซ้ายเฉียบพลันตามด้วยถ่ายเป็นเลือด"
+   "B": "Angiodysplasia/ AVM เป็นสาเหตุอันดับต้นในผู้สูงอายุ (2.7–30%) อยู่ cecum/ ลำไส้ใหญ่ขวา มักออกซึม เป็นพัก ๆ ทำให้ซีดจากขาดเหล็ก ไม่ใช่สาเหตุที่พบบ่อยที่สุดของ massive bleeding (ลายมือในไฟล์ \"มักไม่ค่อย massive\") — จะถูกถ้าเป็นหญิง 78 ปีเป็น aortic stenosis ซีดเรื้อรังจากขาดเหล็กและถ่ายดำแดงเป็นพัก ๆ (Heyde syndrome)",
+   "C": "มะเร็งลำไส้ใหญ่มักเลือดออกซึม (occult) ทำให้ซีดจากขาดเหล็ก หรือถ่ายมีเลือดปนเล็กน้อยกับการขับถ่ายเปลี่ยน ไม่ค่อยออกมากทันที (ลายมือ \"มักไม่ค่อย massive\") — จะถูกถ้าเป็นชาย 68 ปี ถ่ายมีเลือดปนมูก อุจจาระลีบเล็กลง น้ำหนักลด 5 kg ใน 3 เดือน Hb 9 g/dL MCV ต่ำ",
+   "D": "ริดสีดวงภายในเป็นสาเหตุที่พบบ่อยที่สุดของถ่ายเป็นเลือดสด<b>ปริมาณน้อย</b> (หยดหลังถ่าย ติดกระดาษ) ในประชากรทั่วไป แต่เป็นเพียงราว 2–4% ของ LGIB ที่ต้องนอนโรงพยาบาล — จะถูกถ้าเป็นชาย 40 ปี ท้องผูก เบ่งแล้วมีเลือดสดหยดตามหลังอุจจาระ ไม่ปวด ส่อง anoscope พบหัวริดสีดวงที่ตำแหน่ง 3, 7, 11 นาฬิกา",
+   "E": "Ischemic colitis เกิดที่ watershed (splenic flexure, rectosigmoid) อาการคือ<b>ปวดท้องเฉียบพลันก่อน</b> แล้วถ่ายเป็นเลือดปนอุจจาระปริมาณไม่มาก มักหายเอง — จะถูกถ้าเป็นหญิง 72 ปีหลังผ่าตัดหัวใจที่มีความดันต่ำ ปวดท้องซ้ายล่างทันที แล้วถ่ายเป็นเลือดแดงปนอุจจาระ CT พบผนังลำไส้หนาที่ splenic flexure"
   },
-  "trap": "เลือกมะเร็งเพราะอายุ 70 ปี — มะเร็งออกน้อยเรื้อรัง · คำว่า massive + เฉียบพลัน + ผู้สูงอายุ ให้นึก diverticular bleeding ก่อน แล้ว angiodysplasia",
+  "trap": "ผู้สูงอายุทำให้คนนึกถึง<b>มะเร็ง</b>หรือ angiodysplasia ก่อน · คำสำคัญคือ <b>massive + เฉียบพลัน + ไม่เจ็บ</b> = diverticular bleeding ส่วนมะเร็งและ angiodysplasia มักออกซึมเรื้อรัง (ตรงกับลายมือ \"มักไม่ค่อย massive\") · และระวังว่าถ้าถามสาเหตุของถ่ายเลือดสด<b>ปริมาณน้อย</b>ในประชากรทั่วไป ริดสีดวงพบบ่อยกว่า",
   "summary": [
-   "ตารางในคีย์ (LGIB ผู้ใหญ่): diverticula 26–56% · angiodysplasia/AVM 2.7–30% · cancer 7–14% · IBD 2–16% · polyps 1.4–22% · ischemic colitis 2–9.7% · hemorrhoids 1.4–3.6%",
-   "<b>นอกสไลด์:</b> Diverticular bleeding ไม่เจ็บ ออกมาก หยุดเองราว 75–80% ออกซ้ำได้"
+   "LGIB = เลือดออกต่ำกว่า ligament of Treitz (ปัจจุบันแยก mid-GI bleeding ในลำไส้เล็กออกมา) · สาเหตุผู้ใหญ่: diverticula &gt; angiodysplasia, colitis (ischemic/ IBD/ infectious), มะเร็ง/ polyp, anorectal, post-polypectomy",
+   "Diverticular bleeding: vasa recta แตกที่โดม/ คอ diverticulum · เลือดแดงออกมาก ไม่เจ็บ · หยุดเองราว 75–80% · ส่วนใหญ่ของ diverticula อยู่ sigmoid แต่เลือดออกจากด้านขวาได้บ่อยพอกัน (ในเอเชียพบ right-sided diverticula มาก)",
+   "Diverticulitis (อักเสบ ปวด ไข้) กับ diverticular bleeding มักไม่เกิดพร้อมกัน — ถ้ามีปวดท้องเด่นให้นึกถึง ischemic colitis/ IBD",
+   "แนวทาง ACG 2023: resuscitation (Hb เป้า ≥ 7 g/dL; ≥ 8 ถ้ามีโรคหัวใจ) · ประเมินความเสี่ยง (เช่น Oakland score ≤ 8 กลับบ้านได้) · unstable → CTA ก่อน → embolization",
+   "อัตราเลือดออกที่ตรวจเห็น: tagged RBC scan ~0.05–0.1 mL/min · CTA ~0.3–0.5 mL/min · mesenteric angiography ~0.5–1 mL/min",
+   "Hematochezia + shock: ใส่ NG/ ทำ EGD ตัด UGIB ก่อน (BUN/Cr &gt; 30 ชวนคิด upper source)",
+   "ผ่าตัดเมื่อ: ล้มเหลวจาก endoscopy/ embolization, ให้เลือด &gt; 6 units ใน 24 ชม. หรือเลือดออกซ้ำ · รู้ตำแหน่ง → segmental colectomy · ไม่รู้ → subtotal colectomy (rebleed จาก blind segmental สูงมาก)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตารางในคีย์ยืนยัน diverticula เป็นสาเหตุอันดับหนึ่ง (ทางเทคนิคคือ diverticular bleeding แต่ช้อยเขียน diverticulosis) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ Key 74ACD ที่กากบาท Diverticulosis และใส่ลายมือ \"มักไม่ค่อย massive\" ที่ AVM และมะเร็ง พร้อมตาราง Etiology of LGIB ที่ diverticula 26–56% · ต้นฉบับมีแค่ 3 ช้อย เว็บเติม hemorrhoids และ ischemic colitis ซึ่งไม่ทำให้คำตอบเปลี่ยน",
+  "mnemonic": "<b>'แก่ + เลือดพุ่ง + ไม่เจ็บ = Diverticulum · แก่ + ซีดซึม = Angiodysplasia/ มะเร็ง'</b>",
+  "guide": "Sengupta N et al. ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, Am J Gastroenterol 2023; Sabiston Textbook of Surgery 21st ed. (2022) Colon and Rectum",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยถ่ายเลือดแดงปริมาณมาก ความดันต่ำ BUN สูงกว่าปกติมาก → ต้องแยกเลือดออกจากทางเดินอาหารส่วนบนด้วยการส่องกล้องกระเพาะก่อน",
-   "<b>นอกสไลด์:</b> ผู้ป่วยกินยา NSAIDs ถ่ายเลือดแดงปริมาณมาก ไม่ปวดท้อง ส่องกล้องพบเลือดออกจากรูของ diverticulum ที่ ascending colon → ใส่ clip ผ่านกล้อง"
+   "ชาย 75 ปี ถ่ายเลือดแดงสดจำนวนมาก BP 80/50 หลังให้สารน้ำยังไม่ขึ้น → CT angiography → เห็น contrast extravasation ที่ ascending colon → transcatheter embolization",
+   "ชาย 70 ปี ถ่ายเลือดแดงคล้ำจำนวนมาก BUN/Cr 40 เคยกิน NSAIDs ประจำ → EGD ก่อน (สงสัย peptic ulcer เลือดออกเร็ว)",
+   "หญิง 72 ปี เลือดออกจาก diverticulum หยุดเอง hemodynamic คงที่ → เตรียมลำไส้แล้วทำ colonoscopy ภายใน 24 ชม. ถ้าเห็นเส้นเลือดโผล่ใช้ clip หรือ band ligation",
+   "ทำไมผ่าตัด segmental colectomy แบบไม่รู้ตำแหน่งเลือดออกไม่ได้ → โอกาสเลือดออกซ้ำสูงมาก ถ้าระบุตำแหน่งไม่ได้ต้องทำ subtotal colectomy"
+  ],
+  "notes": "ไฟล์ 74ACDK หน้า 4 — ตัวพิมพ์: <b>A 70-year-old male presents with massive rectal bleeding 6 hours ago. What is the most common cause? — A. Diverticulosis B. Arteriovenous malformation C. Colorectal cancer</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ขีดเส้นใต้ <b>\"massive rectal bleeding 6 hours ago\"</b> และ <b>\"most common\"</b>; กากบาทช้อย A Diverticulosis; ช้อย B Arteriovenous malformation และ C Colorectal cancer มีวงเล็บปีกกา + ลายมือ <b>\"มักไม่ค่อย massive\"</b>. แปะตาราง <b>\"Table 1. Etiology of Lower Gastrointestinal Bleeding in Adults\"</b>: SOURCE / FREQUENCY (%) — Diverticula 26-56 · Vascular ectasias/angiodysplasia/AVM 2.7-30 · Cancer 7-14 · Inflammatory bowel disease 2-16 · Hemorrhoids 1.4-3.6 · Ischemic colitis 2-9.7 · Polyps 1.4-22 · Unknown 1-14; Abbreviation: AVM = arteriovenous malformation. ต้นฉบับมี 3 ช้อย — ช้อย D Internal hemorrhoids และ E Ischemic colitis แต่งเพิ่ม",
+  "src": "74ACDK · หน้า 4",
+  "kimg": [
+   "k74a_21"
   ]
  },
  "MDCU74|RoC|13@p10": {
-  "interp": "ชายไม่มีอาการ ส่องกล้องเจอ tubular adenoma 1 cm → ถามว่าการกระทำใด <b>สำหรับผู้ป่วยรายนี้</b> เป็น secondary prevention ของมะเร็งลำไส้ใหญ่",
-  "why": "สไลด์ในคีย์: <b>\"Secondary prevention: colonoscopic polypectomy\"</b> พร้อมลายมือ <b>\"ไม่มีอาการ!\"</b> และภาพ adenoma-carcinoma sequence · ลายมือที่ CEA: <b>\"✗ 3° prevention\"</b><br><b>นอกสไลด์:</b> Secondary prevention = หารอยโรคระยะแรกก่อนมีอาการแล้วรักษาเพื่อตัดการดำเนินโรค · การตัด adenoma ตัดวงจร adenoma → carcinoma ก่อนกลายเป็นมะเร็ง",
+  "interp": "ชาย 55 ปี<b>ไม่มีอาการ</b> ส่องกล้องพบ <b>tubular adenoma 1 cm</b> ที่ sigmoid — ถามว่ามาตรการใดสำหรับผู้ป่วยคนนี้เป็น <b>secondary prevention</b> ของมะเร็งลำไส้ใหญ่ ต้องแยกระดับการป้องกัน primary/ secondary/ tertiary และรู้ว่า adenoma คือ precursor lesion ในระยะก่อนมีอาการ",
+  "why": "ระดับการป้องกัน: <b>primary</b> = กันไม่ให้เกิดโรคในคนปกติ (เลิกบุหรี่ ลดเนื้อแดง/ เนื้อปิ้งย่างไหม้ ออกกำลังกาย อาหารเส้นใยสูง) · <b>secondary</b> = ค้นหาโรคหรือรอยโรคตั้งต้นใน<b>ระยะที่ยังไม่มีอาการ</b>แล้วรักษาทันทีเพื่อหยุดการดำเนินโรค (คัดกรองด้วย FIT/ gFOBT/ colonoscopy และ<b>ตัด adenoma ที่พบ</b>) · <b>tertiary</b> = ลดความพิการ ภาวะแทรกซ้อน และการกลับเป็นซ้ำหลังเป็นโรคแล้ว (adjuvant chemotherapy, ติดตาม CEA/ CT หลังผ่าตัด, ฟื้นฟู stoma) · มะเร็งลำไส้ใหญ่ส่วนใหญ่เกิดผ่าน <b>adenoma-carcinoma sequence</b> (APC → KRAS → 18q/ DCC-SMAD4 → TP53) ใช้เวลาราว 10 ปี การตัด adenoma ที่คัดกรองพบในคนไม่มีอาการจึงตัดวงจรก่อนเป็นมะเร็ง — colonoscopy + polypectomy ลดอุบัติการณ์และการตายจาก CRC ได้ (National Polyp Study) · หลังตัด adenoma ≥ 10 mm ต้องนัด surveillance colonoscopy ที่ 3 ปี (USMSTF 2020) ไม่ใช่กลับไปตรวจ FOBT · ไฟล์กากบาทสีชมพูที่ b. polypectomy ลายมือที่ a. <b>\"✗ 3° prevention\"</b> และแปะสไลด์ที่เขียน <b>\"Secondary prevention : colonoscopic polypectomy\"</b> โดยมีลายมือแดง \"ไม่มีอาการ!\"",
   "wrong": {
-   "A": "CEA ไม่ไวและไม่จำเพาะพอใช้คัดกรอง ใช้ติดตามหลังรักษามะเร็ง (ลายมือ \"3° prevention\") · ไม่มีสถานการณ์ใดที่ CEA เป็น secondary prevention เพราะค่าสูงขึ้นเมื่อมะเร็งลุกลามแล้ว และสูงได้จากการสูบบุหรี่หรือโรคอื่น",
-   "C": "PET scan ใช้ในผู้ที่สงสัยหรือเป็นมะเร็งแล้ว (ลายมือ ✗) · ไม่มีสถานการณ์ใดที่ PET เป็น secondary prevention เพราะใช้หาการลุกลาม/กลับเป็นซ้ำของมะเร็งที่มีอยู่แล้ว ซึ่งเป็นระดับ tertiary",
-   "D": "<b>นอกสไลด์:</b> FOBT/FIT เป็นการคัดกรอง = secondary prevention เช่นกัน แต่ผู้ป่วยรายนี้ส่องกล้องเจอ adenoma แล้ว ขั้นที่เหลือคือตัดออก · จะถูกถ้าเป็นคนอายุ 45–75 ปีไม่มีอาการที่ยังไม่เคยคัดกรอง",
-   "E": "<b>นอกสไลด์:</b> อาหารกากใยสูงเป็นการลดปัจจัยเสี่ยง (สไลด์: primary prevention = no smoking, no red meat…) · ไม่มีสถานการณ์ใดที่การปรับอาหารเป็น secondary prevention เพราะทำก่อนเกิดรอยโรค ไม่ได้หาและรักษารอยโรคระยะแรก"
+   "A": "CEA ไวต่ำในมะเร็งระยะแรก (สูงเพียงราว 30–40% ใน stage I–II) และสูงได้ในคนสูบบุหรี่ ตับแข็ง IBD จึงไม่ใช้คัดกรอง ใช้บอกพยากรณ์และติดตามหลังผ่าตัด (tertiary — ลายมือในไฟล์ \"✗ 3° prevention\") — จะถูกถ้าเป็นชาย 60 ปีหลังผ่าตัด stage III colon cancer ครบ adjuvant chemotherapy แล้วนัดตรวจ CEA ทุก 3–6 เดือนเพื่อหาการกลับเป็นซ้ำ",
+   "C": "PET-CT ไม่ใช้คัดกรองหรือ staging ประจำของ CRC และในผู้ที่สงสัยมะเร็งแล้วถือเป็นการวินิจฉัย/ staging ไม่ใช่การป้องกัน (ลายมือ ✗) — จะถูกถ้าเป็นชาย 65 ปีหลังผ่าตัด colon cancer 2 ปี CEA ขึ้นต่อเนื่องแต่ CT chest/ abdomen ไม่พบรอยโรค ต้องหาตำแหน่งที่กลับเป็นซ้ำ",
+   "D": "FOBT/ FIT เป็น secondary prevention แบบคัดกรองในคนทั่วไปที่ยังไม่ได้ตรวจ แต่คนที่เพิ่งส่องกล้องพบ adenoma 1 cm แล้วต้องได้ polypectomy และนัด colonoscopy ที่ 3 ปี การตรวจอุจจาระไม่มีที่ใช้ — จะถูกถ้าเป็นหญิง 50 ปี ไม่มีอาการ ไม่มีประวัติครอบครัว ยังไม่เคยคัดกรองและไม่สะดวกส่องกล้อง (FIT ทุกปี)",
+   "E": "อาหารเส้นใยสูง ลดเนื้อแดง เลิกบุหรี่ ออกกำลังกาย เป็น primary prevention ที่ลดโอกาสเกิด adenoma/ มะเร็งในคนปกติ ไม่ใช่การค้นหาและรักษารอยโรคระยะแรก — จะถูกถ้าเป็นชาย 35 ปี สุขภาพดี กินเนื้อแดงย่างทุกวัน มาขอคำแนะนำลดความเสี่ยงมะเร็งลำไส้ก่อนถึงวัยคัดกรอง"
   },
-  "trap": "จำว่า screening = secondary แล้วเลือก FOBT — โจทย์ถามสำหรับรายนี้ที่เจอ adenoma แล้ว · ต้นฉบับมี 4 ช้อยและผู้เฉลยไม่ได้ทำเครื่องหมายที่ FOBT",
+  "trap": "ทั้ง FOBT และ polypectomy เป็น secondary prevention ในความหมายกว้าง (ต้นฉบับมีแค่หัวข้อ 'Secondary prevention' และช้อย d ไม่มีเครื่องหมาย) · เว็บเติมเคสชาย 55 ปีที่ส่องพบ adenoma แล้วเพื่อให้เหลือคำตอบเดียว — สำหรับคนนี้ขั้นต่อไปคือตัด polyp ส่วน FIT ไม่มีที่ใช้ · อีกกับดักคือคิดว่าตัด adenoma = primary เพราะ 'ยังไม่เป็นมะเร็ง' ให้จำตามสไลด์ว่าการตรวจพบรอยโรคตั้งต้นในคนไม่มีอาการแล้วรักษา = secondary",
   "summary": [
-   "สไลด์ในคีย์: primary = ลดปัจจัยเสี่ยง (ไม่สูบบุหรี่ ลดเนื้อแดง/เนื้อปิ้งย่าง) · secondary = colonoscopic polypectomy · CEA ติดตามหลังรักษา = tertiary",
-   "Adenoma-carcinoma sequence ในสไลด์: APC (5q) → K-ras (12p) → DCC (18q) → p53 (17p)"
+   "Primary prevention CRC: เลิกบุหรี่ จำกัดเนื้อแดง/ เนื้อแปรรูป/ เนื้อไหม้ จำกัดแอลกอฮอล์ คุมน้ำหนัก ออกกำลังกาย อาหารเส้นใยสูง · aspirin ลดความเสี่ยงใน Lynch syndrome (CAPP2)",
+   "Secondary prevention: คัดกรองคนไม่มีอาการ — USPSTF 2021 average risk อายุ 45–75 ปี: FIT ทุกปี, gFOBT ทุกปี, stool DNA-FIT ทุก 1–3 ปี, CT colonography ทุก 5 ปี, flexible sigmoidoscopy ทุก 5 ปี, colonoscopy ทุก 10 ปี",
+   "ผลคัดกรองด้วยอุจจาระหรือ CT colonography ผิดปกติ → ต้องตาม colonoscopy เสมอ และตัด polyp ที่พบ",
+   "Tertiary prevention: adjuvant chemotherapy stage III (และ II ความเสี่ยงสูง), ติดตาม CEA ทุก 3–6 เดือน 2 ปีแรกแล้วทุก 6 เดือนจนครบ 5 ปี, CT ทุก 6–12 เดือน, colonoscopy ที่ 1 ปีหลังผ่าตัด",
+   "Adenoma-carcinoma sequence: APC (5q) → KRAS (12p) → 18q loss (DCC/ SMAD4) → TP53 (17p) ใช้เวลาราว 10 ปี — ความเสี่ยงมะเร็งเพิ่มตามขนาด ≥ 1 cm, villous component และ high-grade dysplasia",
+   "Surveillance หลัง polypectomy (USMSTF 2020): tubular adenoma 1–2 อัน &lt; 10 mm → 7–10 ปี · 3–4 อัน &lt; 10 mm → 3–5 ปี · ≥ 10 mm, villous, HGD หรือ 5–10 อัน → 3 ปี · &gt; 10 อัน → 1 ปี",
+   "CEA ไม่ใช้คัดกรองเพราะไวต่ำในระยะแรกและไม่จำเพาะ (สูงในคนสูบบุหรี่ ตับแข็ง IBD ตับอ่อนอักเสบ)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับสไลด์ที่แปะ · ช้อย E แต่งเพิ่ม (ต้นฉบับ 4 ช้อย) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง-สูง — ตรงกับคีย์ลายมือในไฟล์ Key 74ACD ที่กากบาท b. polypectomy และสไลด์ที่แปะเขียนชัดว่า Secondary prevention = colonoscopic polypectomy · ในต้นฉบับ FOBT ก็เป็น secondary prevention ได้ จึงตอบได้สองแบบ เว็บเติมเคสผู้ป่วยที่ส่องพบ adenoma แล้วเพื่อให้ polypectomy เป็นคำตอบเดียว ซึ่งยุติธรรมและตรงกับเจตนาของคีย์",
+  "mnemonic": "<b>'1° ไม่ให้เกิด · 2° ไม่มีอาการ-หาเจอ-ตัดทิ้ง · 3° เป็นแล้ว-ไม่ให้แย่/ ไม่ให้กลับ'</b>",
+  "guide": "US Preventive Services Task Force. Screening for Colorectal Cancer: Recommendation Statement, JAMA 2021; Gupta S et al. Recommendations for Follow-Up After Colonoscopy and Polypectomy: US Multi-Society Task Force 2020, Gastroenterology 2020; NCCN Guidelines Colon Cancer 2025",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงอายุ 50 ไม่มีอาการ ตรวจ FIT ผลบวก → colonoscopy (ห้ามตรวจ FIT ซ้ำแทน)",
-   "<b>นอกสไลด์:</b> หลังตัด tubular adenoma ขนาด 1 cm หมดแล้ว ถามนัดส่องกล้องครั้งต่อไป → ราว 3 ปี (advanced adenoma ≥ 10 mm)"
+   "หญิง 50 ปี ไม่มีอาการ ตรวจ FIT ได้ผลบวก → colonoscopy ภายในไม่กี่สัปดาห์ (ไม่ตรวจ FIT ซ้ำ)",
+   "ชาย 45 ปี พ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 50 → เริ่ม colonoscopy ที่อายุ 40 ปี (หรือ 10 ปีก่อนอายุญาติที่เป็น) และส่องทุก 5 ปี",
+   "หลังตัด colon cancer stage II ได้รับ adjuvant chemotherapy และติดตาม CT ทุกปี → tertiary prevention",
+   "ส่องกล้องพบ tubular adenoma ขนาด 6 mm 1 อัน ตัดหมด → นัด surveillance colonoscopy ใน 7–10 ปี"
+  ],
+  "notes": "ไฟล์ 74ACDK หน้า 10 — ตัวพิมพ์: <b>Secondary prevention — a. screen blood CEA b. polypectomy c. PET scan in patient with suspected CA colon d. screen fecal occult blood</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ต้นฉบับพิมพ์ \"13. Secondary prevention\" ช้อย a. screen blood CEA b. polypectomy c. PET scan in patient with suspected CA colon d. screen fecal occult blood (จดมา 4 ช้อย); ผู้เฉลยวาง<b>★ สีชมพู</b>หน้าเลขข้อ, ขีดเส้นใต้ <b>\"Secondary\"</b>; ที่ a. ลายมือ <b>\"✗ 3° prevention\"</b>; <b>กากบาทชมพูที่ b.</b>; ที่ c. <b>\"✗\"</b>; ที่ d. ไม่มีเครื่องหมาย; แปะสไลด์ <b>\"Adenoma-carcinoma sequence in colon cancer tumorogenesis\"</b> (slide 31 of 74) — แถว Chromosome/Alteration/Gene: \"5q mutation or loss FAP\" → \"DNA hypomethylation\" → \"12p mutation K-ras\" → \"18q loss DCC\" → \"17p loss p53\" → \"other alterations\"; ขั้น normal epithelium → hyperprol. epithelium → early adenoma → intermediate adenoma → late adenoma → carcinoma → metastasis (กรอบฟ้าล้อมภาพส่องกล้องช่วง adenoma); แถบล่าง <b>\"Primary prevention : no smoking, no red meat, no over-grilled meat, …\"</b> และ <b>\"Secondary prevention : colonocscopic polypectomy\"</b> โดยมีลายมือสีแดงเข้ม <b>\"ไม่มีอาการ!\"</b> เหนือคำว่า Secondary prevention; ต้นฉบับช้อย d (FOBT) ก็เป็น secondary prevention → เราเติมเคสใน stem (ชาย 55 ปี ไม่มีอาการ ส่องกล้องพบ tubular adenoma 1 cm) ให้เหลือคำตอบเดียว; ช้อย E (high-fiber diet) แต่งเพิ่มเป็น primary prevention; สอดคล้องกับข้อสอบชุด 78C เรื่องเดียวกัน และ 77D (ตรวจพบ DCIS แล้วผ่าตัด = secondary)",
+  "src": "74ACDK · หน้า 10",
+  "kimg": [
+   "k74c_13"
   ]
  },
  "MDCU74|RoD|ไม่มีเลข 2": {
-  "interp": "ชายไม่มีโรคประจำตัว (ไม่มีตับแข็ง/ไวรัสตับ) มีก้อน hypoechoic หลายก้อนในตาม US + CEA สูง → ถามการวินิจฉัย",
-  "why": "ลายมือในคีย์: <b>ขีดเส้นใต้ \"multiple hypoechic nodule ในผช\" และ \"cea ขึ้น\" → colorectal metas</b><br><b>นอกสไลด์:</b> Metastasis พบบ่อยกว่ามะเร็งตับปฐมภูมิ และตับเป็นที่แพร่กระจายอันดับหนึ่งของมะเร็งลำไส้ใหญ่เพราะเลือดจากลำไส้ไหลผ่าน portal vein เข้าตับ · ก้อนหลายก้อน + CEA สูง + ตับปกติ ชี้ไปที่ colorectal metastases",
+  "interp": "ชายไม่มีโรคประจำตัว (ไม่มีตับแข็ง/ ไวรัสตับอักเสบ) US พบ<b>ก้อน hypoechoic หลายก้อนในตับ</b> ร่วมกับ <b>CEA สูง</b> — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องรู้ว่าในตับที่ไม่มีโรคเดิม มะเร็งที่พบบ่อยที่สุดคือมะเร็งแพร่กระจาย และ tumor marker ใดชี้ไปต้นกำเนิดใด",
+  "why": "ในตับปกติ (ไม่มีตับแข็ง) มะเร็งที่พบบ่อยที่สุดคือ <b>metastasis</b> ไม่ใช่ HCC และต้นกำเนิดที่พบบ่อยที่สุดคือ<b>มะเร็งลำไส้ใหญ่</b> เพราะเลือดดำจากลำไส้ไหลผ่าน <b>portal vein</b> เข้าตับก่อน · ผู้ป่วย CRC ราว 50% จะมี liver metastasis ในช่วงชีวิต (synchronous ราว 15–25%) · ลักษณะภาพ: <b>หลายก้อน</b>ขนาดต่าง ๆ US เป็น hypoechoic หรือ <b>target/ bull's-eye</b> (ขอบ hypoechoic halo) CT portal venous phase เป็น hypoattenuating with rim enhancement · <b>CEA</b> เป็น tumor marker ของ adenocarcinoma ทางเดินอาหารโดยเฉพาะ CRC และขึ้นสูงมากเมื่อแพร่ไปตับ · การตรวจต่อ: colonoscopy หาก้อนต้นกำเนิด, CT chest/ abdomen/ pelvis, MRI ตับด้วย hepatobiliary contrast (ไวที่สุดสำหรับก้อนเล็ก), biopsy เมื่อจำเป็น · CRLM ที่ตัดได้ (เหลือตับ ≥ 2 segments ติดกัน มี inflow/ outflow/ biliary drainage และ future liver remnant ≥ 20% ในตับปกติ, ≥ 30% หลังเคมีบำบัด) ผ่าตัดร่วมกับเคมีบำบัดได้ 5-year survival ราว 40–50% · ไฟล์กากบาทที่ช้อย 2 <b>\"colorectal metas\"</b> และขีดเส้นใต้ \"multiple hypoechic nodule ในผช\" กับ \"cea ขึ้น\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Polycystic liver เป็นถุงน้ำ (anechoic) ไม่ใช่ก้อนเนื้อ hypoechoic และ CEA ไม่สูง · จะถูกถ้าผู้ป่วย ADPKD มีถุงน้ำผนังบางจำนวนมากทั้งในไตและตับ",
-   "C": "<b>นอกสไลด์:</b> Hepatocellular adenoma มักก้อนเดียว ในหญิงที่กินยาคุมหรือใช้ anabolic steroid · จะถูกถ้าหญิงกินยาคุมมานานมีก้อนเดียวในตับ แล้วปวดท้องเฉียบพลันจากก้อนแตกเลือดออก",
-   "D": "<b>นอกสไลด์:</b> HCC เกิดในตับแข็งหรือ HBV และใช้ AFP ไม่ใช่ CEA · จะถูกถ้าผู้ป่วย HBV carrier หรือตับแข็งมีก้อนในตับและ AFP สูง",
-   "E": "<b>นอกสไลด์:</b> Hemangioma เป็นก้อนไม่ร้ายที่พบบ่อยสุดในตับ US เป็น hyperechoic ขอบเรียบ CEA ปกติ · จะถูกถ้าหญิงไม่มีอาการพบก้อน hyperechoic ขอบชัดโดยบังเอิญ"
+   "A": "Polycystic liver disease เป็นถุงน้ำหลายถุง US เป็น<b>anechoic</b> ขอบบาง มี posterior acoustic enhancement ไม่ใช่ก้อนเนื้อ hypoechoic และ CEA ไม่ขึ้น มักพบร่วม ADPKD — จะถูกถ้าเป็นหญิง 45 ปีเป็น ADPKD ท้องโตแน่นอืด US พบถุงน้ำใสหลายสิบถุงทั้งในตับและไตสองข้าง",
+   "C": "Hepatocellular adenoma พบในหญิงวัยเจริญพันธุ์ที่กินยาคุมนาน หรือชายที่ใช้ anabolic steroid/ GSD type I มักก้อนเดียว เสี่ยงเลือดออกเมื่อ &gt; 5 cm และ CEA ไม่สูง — จะถูกถ้าเป็นหญิง 30 ปีกินยาคุม 10 ปี ปวดท้องขวาบนทันที CT พบก้อนเดี่ยว 7 cm มีเลือดออกในก้อน AFP และ CEA ปกติ",
+   "D": "HCC มักเกิดในตับแข็ง/ HBV/ HCV (ในไทย HBV สำคัญที่สุด) marker คือ <b>AFP</b> ไม่ใช่ CEA ภาพจำเพาะคือ arterial phase hyperenhancement + washout + capsule — จะถูกถ้าเป็นชาย 55 ปีเป็น chronic HBV มีตับแข็ง AFP 800 ng/mL CT พบก้อน 4 cm ติดสีช่วง arterial และ washout ช่วง portal venous (LI-RADS 5)",
+   "E": "Hemangioma เป็นเนื้องอกไม่ร้ายที่พบบ่อยที่สุดของตับ US เป็น<b>hyperechoic</b> ขอบชัด ไม่มีอาการ CT/ MRI ติดสีเป็นปุ่มที่ขอบแล้วค่อยเติมเข้าตรงกลาง (peripheral nodular, centripetal fill-in) และ CEA ปกติ — จะถูกถ้าเป็นหญิง 40 ปีตรวจสุขภาพพบก้อน hyperechoic ขอบชัด 2.5 cm ในตับ ไม่มีอาการ ผลเลือดปกติ"
   },
-  "trap": "เห็นก้อนในตับแล้วตอบ HCC — HCC ต้องมีบริบทตับแข็ง/HBV และ marker คือ AFP · หลายก้อน + CEA = metastasis",
+  "trap": "คำว่า 'ก้อนในตับของผู้ชาย' ชวนให้ตอบ HCC ทันที · ต้องดู 2 จุด: ① <b>ไม่มีโรคประจำตัว</b> = ไม่มีตับแข็ง/ ไวรัส ซึ่งเป็นพื้นของ HCC ② marker ที่ขึ้นคือ <b>CEA</b> (ลำไส้ใหญ่) ไม่ใช่ AFP (HCC) · ก้อน<b>หลายก้อน</b>ในตับปกติจึงเป็น metastasis จาก CRC มากที่สุด",
   "summary": [
-   "<b>นอกสไลด์:</b> Tumor marker: CEA → colorectal · AFP → HCC · CA 19-9 → ตับอ่อน/ท่อน้ำดี",
-   "<b>นอกสไลด์:</b> สงสัย colorectal liver mets → colonoscopy หาก้อนต้นตอ + CT ทรวงอก/ช่องท้อง ± MRI ตับ",
-   "<b>นอกสไลด์:</b> ตัดได้เมื่อเอาออกได้หมดโดยเหลือตับพอ (future liver remnant ตับปกติ ≥ 20–25%) → hepatectomy ± เคมีบำบัดก่อน/หลัง · ตับเหลือไม่พอ → portal vein embolization หรือ two-stage hepatectomy"
+   "ในตับไม่มีตับแข็ง metastasis พบบ่อยกว่ามะเร็งปฐมภูมิของตับมาก · ต้นกำเนิดบ่อย: ลำไส้ใหญ่ (ผ่าน portal vein), กระเพาะ, ตับอ่อน, เต้านม, ปอด, melanoma, neuroendocrine",
+   "CRLM: ราว 50% ของผู้ป่วย CRC · synchronous 15–25% · ภาพ: หลายก้อน hypoechoic/ target sign บน US, hypoattenuating + rim enhancement บน CT, MRI gadoxetic acid ไวที่สุดในก้อน &lt; 1 cm",
+   "Tumor markers: CEA → CRC (ใช้ติดตาม) · AFP → HCC, yolk sac tumor · CA 19-9 → ตับอ่อน/ ท่อน้ำดี · CA-125 → รังไข่",
+   "Resectability CRLM: R0 ได้ เหลือ ≥ 2 segments ติดกันพร้อม inflow/ outflow/ biliary drainage · FLR ≥ 20% (ตับปกติ), ≥ 30% (หลังเคมีบำบัดหนัก), ≥ 40% (ตับแข็ง) · FLR ไม่พอ → portal vein embolization",
+   "CRLM ที่ตัดได้: hepatectomy ± perioperative FOLFOX · ตัดไม่ได้ → systemic therapy (FOLFOX/ FOLFIRI + bevacizumab หรือ anti-EGFR ตาม RAS/ BRAF) แล้วประเมินเพื่อ conversion surgery",
+   "HCC บนตับแข็ง: วินิจฉัยด้วยภาพได้ไม่ต้อง biopsy เมื่อพบ APHE + washout ± capsule (LI-RADS 5) · คัดกรองกลุ่มเสี่ยงด้วย US ± AFP ทุก 6 เดือน",
+   "Benign: hemangioma (hyperechoic, centripetal fill-in) · FNH (central scar, ไม่ต้องรักษา) · adenoma (ยาคุม, ตัดเมื่อ &gt; 5 cm หรือชาย หรือ β-catenin)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตับปกติ หลายก้อน CEA สูง เข้ากับ colorectal metastases · ช้อย E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ Key 74ACD ที่กากบาทช้อย 2 colorectal metas · ก้อนหลายก้อนในตับปกติร่วมกับ CEA สูงเป็นภาพคลาสสิกของ CRLM ช้อย E hemangioma เว็บแต่งเพิ่มและไม่ทำให้คำตอบเปลี่ยน · stem เติม 'on ultrasound' ให้ตรงความหมายของ hypoechoic",
+  "mnemonic": "<b>'ตับปกติ + หลายก้อน + CEA ขึ้น = Colon มาเยือนตับ (ผ่าน portal)'</b>",
+  "guide": "NCCN Guidelines Colon Cancer 2025 (Metastatic disease); Adam R et al. Managing synchronous liver metastases from colorectal cancer: a multidisciplinary international consensus, Cancer Treat Rev 2015; Blumgart's Surgery of the Liver, Biliary Tract and Pancreas 7th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมะเร็งลำไส้ใหญ่มีก้อนในตับหลายก้อนทั้งสองกลีบ ตัดไม่ได้ → เคมีบำบัดร่วมยามุ่งเป้า แล้วประเมินซ้ำว่าก้อนยุบจนตัดได้หรือไม่",
-   "<b>นอกสไลด์:</b> ผู้ป่วยตับแข็งจาก HBV มีก้อน 3 cm ภาพ arterial enhancement + washout → HCC วินิจฉัยได้จากภาพโดยไม่ต้อง biopsy"
+   "ชาย 60 ปี เพิ่งวินิจฉัย sigmoid cancer CT พบ liver metastasis 2 ก้อนใน right lobe ไม่มีที่อื่น → ประเมินร่วม MDT: ตัดได้ → perioperative chemotherapy + hepatectomy (ผ่าตัดพร้อมกันหรือแยกขั้น)",
+   "CRLM หลายก้อนต้องตัด right trisectionectomy แต่ future liver remnant 15% → portal vein embolization ฝั่งขวาก่อนให้ตับซ้ายโต แล้วค่อยผ่าตัด",
+   "หญิง 50 ปี ไม่มีโรคตับ CT พบก้อนในตับหลายก้อน CEA ปกติ แต่ CA 15-3 สูงและเคยผ่าตัดมะเร็งเต้านม → breast cancer metastasis",
+   "ทำไม CRC ไปตับก่อนปอดแต่ rectal cancer ส่วนล่างไปปอดได้โดยไม่ผ่านตับ → middle/ inferior rectal vein ระบายเข้า systemic (IVC) ไม่ผ่าน portal"
+  ],
+  "notes": "ไฟล์ 74ACDK หน้า 14 — ตัวพิมพ์: <b>multiple hypoechic nodule ในผช ไม่มีโรคประจำตัว cea ขึ้น — 1. poly cystic liver 2. colorectal metas 3. hepatic adenome 4. hcc</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ต้นฉบับ (หน้า 14): \"multiple hypoechic nodule ในผช ไม่มีโรคประจำตัว cea ขึ้น\" (ในผช = ในผู้ชาย; hypoechic = hypoechoic) ช้อย 1. poly cystic liver 2. colorectal metas 3. hepatic adenome 4. hcc — <b>เราแต่งช้อย E (hepatic hemangioma) เพิ่ม</b>, stem ระบุ \"on ultrasound\" เพราะ hypoechoic เป็นศัพท์ของ US; ลายมือสีส้ม: <b>ขีดเส้นใต้ \"multiple hypoechic nodule ในผช\" และ \"cea ขึ้น\"</b>; <b>กากบาท X ที่ช้อย 2</b>; ไม่มีโน้ตอื่น",
+  "src": "74ACDK · หน้า 14",
+  "kimg": [
+   "k74d_2"
   ]
  },
  "MDCU74|RoD|ไม่มีเลข 29": {
-  "interp": "ผู้ป่วย HIV มีประวัติหูดที่ทวาร (HPV) ตอนนี้มีก้อนที่ anus → ถามชนิดมะเร็งที่น่าจะเป็นที่สุด",
-  "why": "ตาราง First Aid ที่แปะในคีย์ (Common diseases of HIV-positive adults): <b>HPV — squamous cell carcinoma</b> (ทวารหนักและปากมดลูก)<br><b>นอกสไลด์:</b> Anal canal ใต้ dentate line บุด้วย squamous epithelium · anal SCC ส่วนใหญ่ (> 90%) สัมพันธ์กับ HPV 16/18 · HIV ทำให้กำจัด HPV ไม่ได้ จึงเสี่ยงสูงมาก โดยเฉพาะชายที่มีเพศสัมพันธ์กับชาย",
+  "interp": "ชาย <b>HIV-positive</b> มีประวัติ<b>หูดที่ทวารหนัก (anorectal warts = HPV)</b> ตอนนี้มีก้อนที่ทวารหนัก — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องเชื่อม HPV + ภูมิคุ้มกันต่ำ เข้ากับชนิดของมะเร็งบริเวณ anal canal/ anal margin ซึ่งบุด้วยเยื่อบุ squamous ใต้ dentate line",
+  "why": "<b>Anal squamous cell carcinoma</b> คิดเป็นราว 80–85% ของมะเร็งทวารหนัก และสัมพันธ์กับ <b>HPV ชนิดเสี่ยงสูง (16 &gt; 18)</b> ในราว 90% · ผ่านขั้น <b>anal intraepithelial neoplasia (AIN)/ HSIL</b> คล้ายมะเร็งปากมดลูก · ปัจจัยเสี่ยง: <b>HIV</b> (โดยเฉพาะชายที่มีเพศสัมพันธ์กับชาย อุบัติการณ์สูงกว่าคนทั่วไปหลายสิบเท่า), ประวัติ condyloma, receptive anal intercourse, คู่นอนหลายคน, สูบบุหรี่, ผู้รับปลูกถ่ายอวัยวะ, ประวัติ HPV-related neoplasia ของปากมดลูก/ ช่องคลอด · ก้อนใต้ dentate line ระบายน้ำเหลืองไป<b>ต่อมน้ำเหลืองขาหนีบ</b> · การรักษามาตรฐานของ anal canal SCC คือ <b>chemoradiation ตาม Nigro protocol</b> (5-FU หรือ capecitabine + mitomycin C ร่วมกับ RT ~50–54 Gy) ไม่ใช่ผ่าตัดก่อน — complete response ราว 80–90% ประเมินผลได้ถึง 26 สัปดาห์ (ACT II) · <b>APR</b> สงวนไว้เป็น salvage เมื่อเหลือโรคหรือกลับเป็นซ้ำ · anal margin T1 ขนาด ≤ 2 cm well-differentiated ตัดเฉพาะที่ขอบ 1 cm ได้ · ไฟล์กากบาทสีส้มที่ B <b>\"Squamous cell CA\"</b> และแปะตาราง First Aid ที่ระบุ HPV → \"Squamous cell carcinoma at site(s) of sexual contact (most commonly anus, cervix, oropharynx)\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Adenocarcinoma มาจากเยื่อบุ glandular เหนือ dentate line (rectum) ไม่สัมพันธ์กับ HPV · จะถูกถ้าผู้สูงอายุมีก้อนใน rectum เหนือ dentate line ถ่ายมีเลือดปนและถ่ายผิดนิสัย",
-   "C": "<b>นอกสไลด์:</b> Anorectal melanoma พบน้อยมาก ไม่สัมพันธ์กับ HPV/HIV · จะถูกถ้าก้อนสีดำคล้ำที่ anal canal ชิ้นเนื้อย้อม S-100/HMB-45 บวก",
-   "D": "<b>นอกสไลด์:</b> BCC เกิดที่ผิวหนังรอบทวาร (anal margin) ไม่สัมพันธ์กับ HPV · จะถูกถ้าผู้สูงอายุมีแผลขอบนูนมันวาวที่ผิวหนังรอบทวาร โตช้า",
-   "E": "<b>นอกสไลด์:</b> GIST เป็นก้อนใต้เยื่อบุ ไม่สัมพันธ์กับ HIV/HPV · จะถูกถ้าคลำได้ก้อนเรียบใต้เยื่อบุผนัง rectum ชิ้นเนื้อเป็น spindle cell CD117 บวก"
+   "A": "Adenocarcinoma ของบริเวณทวารหนักส่วนใหญ่เป็นมะเร็ง rectum ส่วนล่างที่ลามลงมา หรือมาจาก anal gland/ fistula เรื้อรังใน Crohn ไม่สัมพันธ์กับ HPV/ หูด — จะถูกถ้าเป็นชาย 65 ปี ขับถ่ายเปลี่ยน ถ่ายมีเลือดปนมูก DRE คลำได้ก้อนแข็งเหนือ anorectal ring ราว 4 cm biopsy เป็น adenocarcinoma",
+   "C": "Anorectal melanoma พบน้อยมาก (~1% ของมะเร็งทวารหนัก) เกิดจาก melanocyte บริเวณ dentate line อาจไม่มีสี (amelanotic) พยากรณ์โรคเลวมาก ไม่สัมพันธ์กับ HPV/ HIV — จะถูกถ้าเป็นหญิง 70 ปี ถ่ายเป็นเลือด DRE คลำได้ก้อนเป็นติ่งสีดำคล้ำที่ dentate line biopsy ย้อม S-100/ HMB-45 บวก",
+   "D": "Perianal basal cell carcinoma พบน้อยมากเพราะไม่โดนแดด เป็นแผลขอบนูนมันวาวที่ผิวหนังรอบทวาร (anal margin) โตช้า แพร่กระจายน้อย รักษาด้วยการตัดเฉพาะที่ — จะถูกถ้าเป็นชาย 75 ปี มีแผลขอบนูนมุก 1.5 cm ที่ผิวหนังรอบทวารมานาน 2 ปี biopsy พบ palisading basaloid cells",
+   "E": "GIST ของ anorectum พบน้อย เป็นก้อนใต้เยื่อบุจากผนังกล้ามเนื้อ เยื่อบุคลุมเรียบ ไม่เกี่ยวกับ HPV/ หูด — จะถูกถ้าเป็นชาย 55 ปี DRE คลำได้ก้อนแข็งเรียบใต้เยื่อบุผนัง rectum ด้านหน้า EUS พบก้อน hypoechoic จาก muscularis propria biopsy CD117 และ DOG1 บวก"
   },
-  "trap": "เห็นก้อนที่ทวารแล้วคิดแบบมะเร็งลำไส้ใหญ่ (adenocarcinoma) — ใต้ dentate line = squamous · HPV + HIV คือปัจจัยเสี่ยงหลัก · Kaposi sarcoma ในตารางเดียวกันเป็นของ HHV-8 ไม่ใช่ HPV",
+  "trap": "ไฟล์แปะตาราง HIV ที่ไฮไลต์ <b>Kaposi sarcoma</b> (HHV-8) ไว้ด้วย ทำให้นึกว่าก้อนใน HIV ต้องเป็น Kaposi หรือ lymphoma · แต่คำสำคัญคือ<b>หูด = HPV</b> → SCC ที่ anus · และคนที่จำว่ามะเร็งลำไส้ส่วนปลายเป็น adenocarcinoma อาจลืมว่า anal canal ใต้ dentate line เป็น squamous epithelium",
   "summary": [
-   "ตาราง First Aid ในคีย์: HIV + HPV → squamous cell carcinoma (ทวาร ปากมดลูก) · HHV-8 → Kaposi sarcoma · EBV → oral hairy leukoplakia",
-   "<b>นอกสไลด์:</b> Precursor คือ anal HSIL · กลุ่ม HIV โดยเฉพาะชายรักชายมีแนวทางคัดกรอง (anal cytology/HRA)",
-   "<b>นอกสไลด์:</b> วินิจฉัยด้วย biopsy · staging: MRI อุ้งเชิงกราน + CT ทรวงอก/ช่องท้อง · คลำต่อมน้ำเหลืองขาหนีบ"
+   "Anal canal: บน dentate line เป็น columnar (adenocarcinoma) · transitional zone · ใต้ dentate line เป็น squamous (SCC) · ใต้ dentate ระบายน้ำเหลืองไป inguinal nodes",
+   "Anal SCC: HPV 16/18 ~90% · ปัจจัยเสี่ยง HIV (โดยเฉพาะ MSM), condyloma, receptive anal sex, สูบบุหรี่, organ transplant, ประวัติ CIN/ VIN",
+   "อาการ: เลือดออก ก้อน ปวด คัน มักถูกวินิจฉัยผิดเป็นริดสีดวง/ fissure · ตรวจ DRE, anoscopy + biopsy, คลำ inguinal nodes, MRI pelvis, CT chest/ abdomen หรือ PET-CT",
+   "รักษา anal canal SCC: Nigro chemoradiation (5-FU/ capecitabine + mitomycin C + RT) เป็นมาตรฐาน · ไม่ต้องทำ stoma ถ้าไม่มี obstruction/ fistula",
+   "ประเมินผลหลัง CRT: complete response อาจใช้เวลาถึง 26 สัปดาห์ · persistent/ recurrent disease → salvage APR",
+   "Anal margin T1 ≤ 2 cm well-differentiated → local excision margin 1 cm ได้ · ใหญ่กว่านั้นรักษาเหมือน anal canal",
+   "คัดกรองกลุ่มเสี่ยง (HIV): anal cytology ± HPV test → high-resolution anoscopy · การรักษา HSIL ลดการเกิดมะเร็งได้ราว 57% (ANCHOR trial 2022)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — HIV + HPV + ก้อนที่ทวาร = anal SCC ตรงกับตาราง First Aid ที่แปะ · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือในไฟล์ Key 74ACD ที่กากบาท B Squamous cell CA และตาราง First Aid ที่ผู้จดแปะไว้ระบุ HPV → SCC ที่ anus · ต้นฉบับมีเพียงช้อย A และ B เว็บแต่ง C–E เพิ่ม (melanoma, BCC, GIST) ซึ่งไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'หูด (HPV) + HIV + ก้อนทวาร = Squamous · รักษา Nigro (5-FU + Mitomycin + RT) ไม่ใช่ APR'</b>",
+  "guide": "NCCN Guidelines Anal Carcinoma 2025; Palefsky JM et al. Treatment of Anal High-Grade Squamous Intraepithelial Lesions to Prevent Anal Cancer (ANCHOR), N Engl J Med 2022; ASCRS Clinical Practice Guidelines for Anal Squamous Cell Cancers, Dis Colon Rectum 2018",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย anal SCC ขนาด 4 cm ต่อมน้ำเหลืองขาหนีบไม่โต ไม่กระจาย → chemoradiation (5-FU + mitomycin) เป็นการรักษาแรก",
-   "<b>นอกสไลด์:</b> ผู้ป่วย anal SCC หลัง chemoradiation ครบ 6 เดือนยังมีก้อนเหลือ ชิ้นเนื้อยืนยันมะเร็ง → abdominoperineal resection"
+   "ชาย 50 ปี biopsy ก้อนใน anal canal 4 cm เป็น SCC คลำได้ต่อมน้ำเหลืองขาหนีบซ้าย ไม่มี distant metastasis → chemoradiation (5-FU + mitomycin C + RT ครอบคลุม inguinal nodes)",
+   "หลัง chemoradiation 6 เดือน ยังคลำได้ก้อนที่ anal canal biopsy ยังเป็น SCC → salvage abdominoperineal resection",
+   "ทำไมก้อนมะเร็งที่ anal canal ใต้ dentate line จึงลามไปต่อมน้ำเหลืองขาหนีบไม่ใช่ mesorectum → ระบายน้ำเหลืองตาม ectoderm ไปทาง superficial inguinal nodes",
+   "ชาย MSM ที่ติดเชื้อ HIV ไม่มีอาการ มาตรวจสุขภาพ → anal cytology และส่ง high-resolution anoscopy ถ้าผิดปกติ ตัด/ จี้ HSIL"
+  ],
+  "notes": "ไฟล์ 74ACDK หน้า 16 — ตัวพิมพ์: <b>Px HIV positive, เคยเป็น anorectal wart now มีก้อนที่ anal เป็นอะไร — A adenoCA B Squamous cell CA (โจทย์ท้ายหน้า 16 ช้อยต้นหน้า 17)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: <b>กากบาทสีส้มที่ B \"Squamous cell CA\"</b>; ไม่มีโน้ตลายมือ. ข้อนี้ข้ามหน้า: โจทย์ \"Px HIV positive, เคยเป็น anorectal wart now มีก้อนที่ anal เป็นอะไร\" ท้ายหน้า 16 + ช้อย A/B ต้นหน้า 17. ผู้เฉลย<b>แปะ screenshot \"USMLE First Aid 2021\"</b> (ช่องค้นหา \"kaposi\" 3 of 12 results; ความละเอียดเต็มอยู่ต่อท้ายรูป) ตาราง <b>\"Common diseases of HIV-positive adults\"</b>: ↓CD4+ cell count → reactivation of past infections (eg, TB, HSV, shingles), dissemination of bacterial infections and fungal infections (eg, coccidioidomycosis), and non-Hodgkin lymphomas. <b>CD4+ cell count &lt;500/mm3</b>: Candida albicans — Oral thrush — Scrapable white plaque, pseudohyphae on microscopy (ไฮไลต์เหลือง); EBV — Oral hairy leukoplakia — Unscrapable white plaque on lateral tongue (ไฮไลต์ชมพู); HHV-8 — Kaposi sarcoma (ไฮไลต์ส้ม/เขียวที่คำว่า Kaposi) — Perivascular spindle cells invading and forming vascular tumors on histology; <b>HPV — Squamous cell carcinoma at site(s) of sexual contact (most commonly anus, cervix, oropharynx)</b>. ต้นฉบับมีช้อย 2 ข้อ (A adenoCA, B Squamous cell CA) → แต่ง C–E (melanoma, basal cell carcinoma, GIST); \"Px\" = patient, ระบุเพศชายใน stem",
+  "src": "74ACDK · หน้า 16",
+  "kimg": [
+   "k74d_29"
   ]
  },
  "MDCU74|RoA|1": {
-  "interp": "หญิงไทยปวดสีข้างขวา + ปัสสาวะเป็นเลือดที่มองเห็นได้ (gross hematuria) มีประวัตินิ่ว → ต้องหาทั้งนิ่วและเนื้องอกของทางเดินปัสสาวะส่วนบน → ถาม investigation ที่เหมาะที่สุด",
-  "why": "คีย์ P'Ing: <b>วง C เขียน \"✓ 1st line\"</b> และแปะสไลด์ Imaging (<b>acute renal colic → NCCT</b>)<br><b>นอกสไลด์:</b> CT urography มีทั้ง phase ไม่ฉีดสี (เห็นนิ่ว) และ phase ฉีดสี/excretory (เห็นเนื้องอกไตและ urothelial tumor ใน upper tract) จึงตอบโจทย์ gross hematuria + ปวดสีข้างได้ครบในการตรวจเดียว · gross hematuria ในผู้ใหญ่ต้องประเมินกระเพาะปัสสาวะด้วย cystoscopy ร่วมเสมอ",
+  "interp": "หญิงไทยมาด้วย<b>ปวดบั้นเอวขวา + ปัสสาวะเป็นเลือดชนิดเห็นด้วยตา (gross hematuria)</b> มีประวัตินิ่วไต 2 ปีก่อน — ถามการตรวจที่เหมาะที่สุด ต้องเลือกภาพที่ตอบได้ทั้งนิ่ว (สาเหตุที่น่าจะเป็น) และเนื้องอกทางเดินปัสสาวะส่วนบน (ต้องไม่พลาดใน gross hematuria)",
+  "why": "ปวดบั้นเอวร่วมปัสสาวะเป็นเลือดในคนเคยเป็นนิ่ว (ไทยอยู่ในแถบ stone belt โดยเฉพาะภาคอีสาน) นึกถึง<b>นิ่วท่อไต/ ไต</b>เป็นอันดับแรก — การตรวจมาตรฐานของ acute renal colic คือ <b>non-contrast CT KUB</b> (ไวและจำเพาะ &gt; 95% เห็นนิ่วเกือบทุกชนิด) ซึ่งไม่อยู่ในช้อย · แต่ <b>gross hematuria</b> ต้อง work-up ทั้ง upper และ lower tract เพื่อหาเนื้องอก (renal cell carcinoma, upper tract urothelial carcinoma) และ <b>CT urography</b> ประกอบด้วย 3 phase: ① <b>non-contrast</b> (เห็นนิ่ว) ② nephrographic (เห็นก้อนที่เนื้อไต) ③ <b>excretory/ delayed</b> (contrast เต็ม collecting system เห็น filling defect ของ urothelial tumor) จึงครอบคลุมทั้งนิ่วและเนื้องอกในการตรวจเดียว เป็นการตรวจ upper tract อันดับแรกของ gross hematuria ตาม AUA/ EAU · ต้องระวังเรื่องไตเสื่อม แพ้ contrast และการตั้งครรภ์ (ตรวจ pregnancy test ในหญิงวัยเจริญพันธุ์) · ไฟล์ P'Ing วง C เขียน <b>\"✓1st line\"</b> และแปะสไลด์ Imaging ที่ระบุ acute renal colic → NCCT",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> IVP ถูกแทนด้วย CT urography เพราะไวต่อนิ่วและก้อนเล็กน้อยกว่า · จะถูกถ้าโรงพยาบาลไม่มี CT แต่ต้องดูทางเดินปัสสาวะส่วนบนในผู้ป่วยปัสสาวะเป็นเลือด",
-   "B": "<b>นอกสไลด์:</b> Retrograde pyelography ต้องส่องกล้องและฉีดสีย้อนขึ้นท่อไต · จะถูกถ้าผู้ป่วยไตเสื่อมหรือแพ้สารทึบรังสีจนทำ CT urography ไม่ได้ และต้องดู upper tract (ทำพร้อม cystoscopy)",
-   "D": "<b>นอกสไลด์:</b> MR urography เห็นนิ่วได้ไม่ดี · จะถูกถ้าหญิงตั้งครรภ์ที่ US ไม่พอ หรือแพ้สารทึบรังสีไอโอดีน",
-   "E": "<b>นอกสไลด์:</b> Cystoscopy ดูเฉพาะท่อปัสสาวะและกระเพาะปัสสาวะ ไม่เห็นไตและท่อไต · จะถูกถ้าผู้ป่วยปัสสาวะเป็นเลือดที่ CT urography ของ upper tract ปกติแล้ว ต้องหารอยโรคในกระเพาะปัสสาวะ"
+   "A": "IVP ต้องเตรียมลำไส้ ฉีด contrast และถ่ายหลายฟิล์ม ไวต่อนิ่วและก้อนน้อยกว่า CT มาก ปัจจุบันถูกแทนที่แล้ว — จะถูกถ้าเป็นผู้ป่วยในโรงพยาบาลชุมชนที่ไม่มี CT ปวดบั้นเอวหายแล้ว creatinine ปกติ KUB เห็นนิ่วทึบรังสี และต้องดูกายวิภาคท่อไตและการอุดตันก่อนส่งต่อ",
+   "B": "Retrograde pyelography ฉีด contrast ย้อนผ่านท่อไตระหว่าง cystoscopy ต้องดมยา เป็นหัตถการ invasive ใช้เมื่อฉีด contrast เข้าเส้นไม่ได้ หรือระหว่างทำ ureteroscopy — จะถูกถ้าเป็นชาย 70 ปี eGFR 25 มี gross hematuria ต้องประเมิน upper tract ร่วมกับ cystoscopy ในห้องผ่าตัดโดยไม่ฉีดสีเข้าเส้นเลือด",
+   "D": "MR urography ไม่ใช้รังสี แต่เห็นนิ่วได้ไม่ดี (นิ่วเป็นจุดไม่มีสัญญาณ) แพงและนาน ใช้เป็นทางเลือกเมื่อทำ CT ไม่ได้ — จะถูกถ้าเป็นหญิงตั้งครรภ์ 24 สัปดาห์ ปวดบั้นเอวขวา US ไม่ชัดว่าเป็น physiologic hydronephrosis หรือนิ่ว (ทำ MRU ไม่ใช้ gadolinium)",
+   "E": "Cystoscopy ดูกระเพาะปัสสาวะและท่อปัสสาวะ (lower tract) จำเป็นใน hematuria work-up แต่ไม่เห็นไตและท่อไตที่เป็นต้นเหตุของปวดบั้นเอว — จะถูกถ้าเป็นชาย 65 ปี สูบบุหรี่ 40 pack-years มี gross hematuria ไม่เจ็บ CT urography ปกติ ต้องหามะเร็งกระเพาะปัสสาวะ"
   },
-  "trap": "เห็นประวัตินิ่วแล้วคิดแค่ NCCT (ตามสไลด์ renal colic) — gross hematuria ต้องแยกเนื้องอกด้วย จึงต้องมี phase ฉีดสี · ถ้าปวดแบบ renal colic อย่างเดียวไม่มี gross hematuria ใช้ NCCT",
+  "trap": "สไลด์ที่ P'Ing แปะเขียนว่า renal colic → <b>NCCT</b> แต่ช้อยไม่มี NCCT คนจึงอาจลังเลไป IVP (ตำราเก่า) หรือ cystoscopy (เพราะ hematuria) · CT urography มี non-contrast phase อยู่แล้วจึงเห็นนิ่ว และ excretory phase เห็นเนื้องอก upper tract — ช้อยเดียวที่ครอบคลุมทั้งสองโรค",
   "summary": [
-   "สไลด์ในคีย์: acute renal colic → non-contrast CT (NCCT KUB)",
-   "<b>นอกสไลด์:</b> Gross hematuria ผู้ใหญ่ (AUA): CT urography + cystoscopy ± urine cytology",
-   "<b>นอกสไลด์:</b> ตั้งครรภ์/เด็ก → US ก่อน · ไตเสื่อม/แพ้สารทึบรังสี → retrograde pyelography หรือ MR urography"
+   "Acute flank pain สงสัยนิ่ว: NCCT KUB low-dose เป็นมาตรฐาน · US เป็นตัวแรกในหญิงตั้งครรภ์ เด็ก และใช้ร่วมกับ KUB ได้ในที่ทรัพยากรจำกัด",
+   "CT urography: non-contrast + nephrographic + excretory phase · ใช้ประเมิน upper tract ใน gross hematuria และ microhematuria ความเสี่ยงสูง",
+   "Gross hematuria: ต้อง work-up ทุกราย = upper tract (CT urography) + lower tract (cystoscopy) · พบมะเร็งทางเดินปัสสาวะราว 10–20%",
+   "ห้าม contrast (eGFR &lt; 30, แพ้รุนแรง) → MR urography (ถ้า eGFR พอ) หรือ retrograde pyelography + US/ NCCT",
+   "นิ่วที่ต้องส่งต่อด่วน: นิ่วอุดตันร่วมติดเชื้อ (ไข้ = obstructed infected kidney → PCN หรือ DJ stent ด่วน), ไตข้างเดียว, ไตวาย, ปวดคุมไม่ได้",
+   "นิ่วท่อไต ≤ 10 mm ไม่มีข้อบ่งชี้ด่วน → medical expulsive therapy (tamsulosin) ได้นาน 4–6 สัปดาห์",
+   "ไทย: stone belt ภาคอีสาน นิ่ว calcium oxalate และ uric acid พบบ่อย · hypocitraturia และ hypokalemia พบบ่อยในผู้ป่วยไทย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — gross hematuria + ปวดสีข้าง ต้องดูทั้งนิ่วและเนื้องอก CT urography ครอบคลุมทั้งสอง · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง-สูง — ตรงกับคีย์ลายมือ P'Ing ที่วง C และเขียน \"✓1st line\" · ถ้ามีช้อย NCCT KUB จะเป็นคำตอบสำหรับ renal colic ตามสไลด์ที่แปะ แต่ข้อนี้มี gross hematuria ร่วมด้วย CT urography จึงเหมาะกว่าเพราะได้ทั้งนิ่ว (non-contrast phase) และหาเนื้องอก upper tract",
+  "mnemonic": "<b>'ปวดเอว = NCCT · เลือดออก = CTU (บน) + Cysto (ล่าง)'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2025; Barocas DA et al. AUA/SUFU Guideline: Microhematuria 2025 Amendment; Campbell-Walsh-Wein Urology 12th ed. (2020) Evaluation of the Urologic Patient",
   "variants": [
-   "<b>นอกสไลด์:</b> ปัสสาวะสีแดงหลังวิ่งมาราธอน dipstick เลือดบวก แต่ส่องกล้องไม่พบเม็ดเลือดแดง → myoglobinuria ไม่ใช่ hematuria",
-   "<b>นอกสไลด์:</b> หญิงปัสสาวะเป็นเลือดร่วมกับแสบขัด ปัสสาวะมีเม็ดเลือดขาว → รักษา UTI แล้วตรวจปัสสาวะซ้ำหลังหาย ถ้ายังมีเลือดจึงตรวจหาสาเหตุต่อ"
+   "ชาย 35 ปี ปวดบั้นเอวซ้ายร้าวลงขาหนีบทันที บิดตัวไปมา UA RBC 20–30 → NCCT KUB",
+   "ชาย 50 ปี นิ่วท่อไตขวา 8 mm มีไข้ 39 °C ความดันตก → ระบายด่วนด้วย PCN หรือ DJ stent + ยาปฏิชีวนะ ห้ามสลายนิ่วตอนติดเชื้อ",
+   "ทำไม CT urography ต้องมี excretory phase → ให้ contrast เต็ม collecting system เห็น filling defect ของ upper tract urothelial carcinoma",
+   "หญิงตั้งครรภ์ 20 สัปดาห์ปวดบั้นเอวขวา → ultrasound KUB ก่อน (ไม่ใช้รังสี)"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 1 — ตัวพิมพ์: <b>1. A Thai female patient presents with right flank pain with gross hematuria. History of renal stone 2 years ago. What is the most appropriate investigation? — A. Intravenous pyelography B. Retrograde pyelography C. CT urography D. MR urography E. Cystoscopy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing วง C เขียน ✓1st line และแปะสไลด์ Imaging (acute renal colic: NCCT) · ไฟล์โจทย์ S74AQ = recall ชุดเดียวกับไฟล์ P'Ing หน้า 72–75 ทุกตัวอักษร (ไม่มีลายมือ)",
+  "src": "S74AQ · หน้า 1",
+  "kimg": [
+   "kp74a_1"
   ]
  },
  "MDCU74|RoA|5@p1": {
-  "interp": "เด็กชายหนังหุ้มปลายถูกรูดค้างหลัง glans บวมเจ็บ = paraphimosis (ภาวะฉุกเฉิน) → ถามสิ่งที่ทำเป็นอันดับแรก",
-  "why": "ลายมือ P'Ing: <b>paraphimosis</b> + สไลด์ Treatment: <b>emergency manual reduction → dorsal slit → elective circumcision</b><br><b>นอกสไลด์:</b> หนังหุ้มที่ค้างรัดเหมือนสายรัด ทำให้เลือดดำ/น้ำเหลืองคั่ง บวมมากขึ้นจนรัดแน่นขึ้นเป็นวงจร เสี่ยง glans ขาดเลือด · ขั้นแรกลดบวม (บีบไล่บวม ประคบเย็น ± ยาชา) แล้วดันกลับด้วยมือ",
+  "interp": "เด็กชายมี<b>หนังหุ้มปลายบวม เจ็บ ถูกรูดค้างอยู่หลัง glans</b> กลับคืนไม่ได้ = <b>paraphimosis</b> — ถามสิ่งที่ต้องทำ<b>เป็นอันดับแรก</b> ต้องรู้ว่าเป็นภาวะฉุกเฉินทางระบบปัสสาวะ และลำดับการรักษาจากไม่รุกล้ำไปหารุกล้ำ",
+  "why": "<b>Paraphimosis</b> เกิดเมื่อหนังหุ้มที่ตีบถูกรูดลงหลัง coronal sulcus แล้วค้าง (มักหลังทำความสะอาด ใส่สายสวน หรือตรวจร่างกายแล้วลืมรูดกลับ) วงหนังที่ตีบรัดเป็น <b>constricting band</b> → venous และ lymphatic return อุดตัน → หนังหุ้มและ glans <b>บวมมากขึ้นเรื่อย ๆ</b> เป็นวงจร → ถ้านานจะกด arterial flow จน glans ขาดเลือดและเนื้อตาย จึงเป็น <b>urologic emergency</b> · ขั้นแรกคือ <b>manual reduction</b> โดยเร็ว: ให้ยาแก้ปวด/ ยาชาเฉพาะที่หรือ dorsal penile block (เด็กอาจต้อง sedation) → ลดบวมก่อนด้วยการบีบรัดอย่างสม่ำเสมอ 5–10 นาที ประคบเย็น/ น้ำแข็ง หรือแทงเข็มเล็กหลายจุดระบายน้ำ (puncture technique) → ใช้นิ้วชี้สองข้างดึงหนังมาด้านหน้าพร้อมใช้นิ้วโป้งดัน glans เข้าไป · ถ้าไม่สำเร็จ → <b>dorsal slit</b> ภายใต้ยาสลบ · เมื่อบวมยุบแล้วจึงนัด <b>elective circumcision</b> เพื่อกันการเป็นซ้ำ · ไฟล์ P'Ing วง C เขียน ✓ ลายมือ <b>\"paraphimosis\"</b> แก้ช้อย A เป็น \"dorsal slit\" และเขียนที่ B ว่า \"✗ elective after dorsal slit/ reduction, prevent recurrence\"",
   "wrong": {
-   "A": "P'Ing แก้ช้อยเป็น <b>dorsal slit</b> (ventral ไม่ใช่วิธีมาตรฐาน) · จะถูก (ในรูป dorsal slit) ถ้าพยายามดันกลับด้วยมือแล้วไม่สำเร็จ — กรีดแถบรัดทาง dorsal ภายใต้ยาชา",
-   "B": "ลายมือ P'Ing: elective หลัง dorsal slit/reduction เพื่อกันกลับเป็นซ้ำ — ไม่ทำฉุกเฉินขณะบวมมาก · จะถูกถ้าหนังหุ้มเน่าตายจนดันกลับและกรีดไม่ช่วย",
-   "D": "<b>นอกสไลด์:</b> Steroid ทาใช้กับ phimosis ไม่ใช่ paraphimosis · จะถูกถ้าเด็กหนังหุ้มรูดเปิดไม่ได้ (phimosis) และมีอาการ เช่น ballooning ตอนปัสสาวะ",
-   "E": "<b>นอกสไลด์:</b> รอดูทำให้บวมรัดมากขึ้น · ไม่มีสถานการณ์ใดที่ paraphimosis ให้เฝ้าดูได้ เพราะวงรัดที่บวมไม่คลายเอง และต่อไปจะทำให้ glans ขาดเลือด"
+   "A": "Slit หนังหุ้มเป็นขั้นที่สองเมื่อ manual reduction ล้มเหลว และมาตรฐานคือ <b>dorsal</b> slit (P'Ing แก้ ventral เป็น dorsal ในไฟล์) ตัดวงรัดด้านบนเพื่อปลดล็อก — จะถูกถ้าเปลี่ยนเป็น dorsal slit และเป็นเด็กชาย 6 ปี paraphimosis มา 10 ชม. ลองลดบวมและดันกลับภายใต้ยาสลบแล้วไม่สำเร็จ glans เริ่มคล้ำ",
+   "B": "Circumcision ช่วงที่บวมมากทำได้ยาก เนื้อเยื่อบวมทำให้กะความยาวหนังที่ตัดผิดและแทรกซ้อนมาก จึงทำแบบ elective หลังบวมยุบเพื่อกันการเป็นซ้ำ (ลายมือ \"✗ elective\") — จะถูกถ้าเป็นเด็กชาย 7 ปี เคย paraphimosis และรักษาด้วย manual reduction ได้แล้ว 3 สัปดาห์ก่อน ตอนนี้บวมยุบหมด มาผ่าตัดตามนัดเพื่อกันการเป็นซ้ำ",
+   "D": "Topical corticosteroid (เช่น 0.05% betamethasone ทาวันละ 2 ครั้ง 4–8 สัปดาห์) ใช้รักษา <b>phimosis</b> ให้หนังยืดจนรูดได้ ไม่ช่วยภาวะเฉียบพลันที่หนังรัดอยู่หลัง glans — จะถูกถ้าเป็นเด็กชาย 5 ปี หนังหุ้มรูดไม่ลง ปัสสาวะแล้วหนังโป่ง ไม่มีแผลเป็นที่ปลาย และพ่อแม่อยากให้รูดได้",
+   "E": "เฝ้าดู/ ประคบอุ่นไม่ลดวงรัด และการรอทำให้บวมมากขึ้นจน glans ขาดเลือด (ความร้อนยังเพิ่มบวมด้วย) — จะถูกถ้าเป็นเด็กชาย 2 ปีที่หนังหุ้มรูดไม่ลงแต่ไม่มีอาการ ไม่มีติดเชื้อ ปัสสาวะปกติ (physiologic phimosis — อธิบายให้พ่อแม่สบายใจและเฝ้าดู)"
   },
-  "trap": "สับสน paraphimosis (รูดค้างหลัง glans → ฉุกเฉิน ดันกลับ) กับ phimosis (รูดเปิดไม่ได้ → steroid ทา/ขลิบ) · ช้อย A ต้นฉบับเขียน ventral แต่ที่ถูกคือ dorsal slit",
+  "trap": "คำว่า 'swollen prepuce' ชวนให้นึกถึง phimosis หรือ balanoposthitis แล้วตอบ steroid หรือ circumcision · ต้องแยก <b>phimosis</b> (หนังรูดไม่ลง — ไม่ฉุกเฉิน) กับ <b>paraphimosis</b> (หนังรูดลงแล้วกลับไม่ได้ — ฉุกเฉิน) · ลำดับคือ reduction → dorsal slit → circumcision ภายหลัง ไม่ใช่ circumcision ทันที",
   "summary": [
-   "สไลด์ในคีย์: paraphimosis → manual reduction → dorsal slit ถ้าไม่สำเร็จ → circumcision แบบ elective ภายหลังเพื่อกันกลับเป็นซ้ำ",
-   "<b>นอกสไลด์:</b> สาเหตุที่พบบ่อย: รูดหนังหุ้มแล้วลืมดึงกลับ เช่น หลังใส่สายสวนปัสสาวะหรือทำความสะอาด — ดึงกลับทุกครั้ง"
+   "Physiologic phimosis: ทารกแรกเกิดเกือบทั้งหมดรูดหนังหุ้มไม่ได้ ค่อย ๆ แยกตัวเองตามอายุ ส่วนใหญ่รูดได้ในวัยเรียน/ วัยรุ่น · หนังโป่งเวลาปัสสาวะในเด็กเล็กเป็นปกติ",
+   "Pathologic phimosis: แผลเป็นขาวแข็งที่ปลายหนัง (balanitis xerotica obliterans/ lichen sclerosus) หรือ balanoposthitis ซ้ำ ๆ → circumcision",
+   "Phimosis ที่ไม่มีแผลเป็น: topical steroid 4–8 สัปดาห์ สำเร็จราว 70–90% ก่อนพิจารณาผ่าตัด",
+   "Paraphimosis = emergency: ลดบวม (บีบรัด, ประคบเย็น, puncture, hyaluronidase) + ยาชา/ sedation → manual reduction",
+   "Manual reduction ล้มเหลว → dorsal slit ภายใต้ยาสลบ (ตัดวงรัดตามแนวยาวแล้วเย็บตามขวาง) → elective circumcision เมื่อบวมยุบ",
+   "ข้อบ่งชี้ circumcision ในเด็ก: pathologic phimosis/ BXO, balanoposthitis ซ้ำ, paraphimosis ซ้ำ, UTI ซ้ำร่วม VUR/ ความผิดปกติทางเดินปัสสาวะ · ห้ามทำใน hypospadias (ต้องเก็บหนังไว้ซ่อม)",
+   "ป้องกัน iatrogenic paraphimosis: ทุกครั้งที่รูดหนังทำความสะอาดหรือใส่สายสวน ต้องรูดกลับคืนเสมอ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ตรงกับสไลด์ treatment ที่ P'Ing แปะ · ช้อย E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง C และเขียนลำดับ reduction → dorsal slit → elective circumcision ตามสไลด์ Treatment ที่แปะ · ต้นฉบับจด 'swollen prepuce below the glans' P'Ing วินิจฉัยว่า paraphimosis เว็บจึงเขียน stem ให้ชัดว่าหนังค้างหลัง glans และเติมช้อย E ที่ต้นฉบับว่าง",
+  "mnemonic": "<b>'Para = รูดแล้วค้าง → ดันกลับก่อน (Reduce) → ผ่าหลัง (Dorsal slit) → ขลิบทีหลัง (Elective)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Circumcision/ Disorders of the Penis; EAU-ESPU Guidelines on Paediatric Urology 2025 (Phimosis)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กปลายองคชาตบวมแดงมีหนอง หนังหุ้มอยู่ตำแหน่งปกติ → balanoposthitis ทำความสะอาด ยาทาหรือยาปฏิชีวนะ (ไม่ใช่ paraphimosis)"
+   "ชายสูงอายุนอน ICU ใส่สายสวนปัสสาวะ 3 วัน พยาบาลพบ glans บวม มีวงรัดหลัง glans → iatrogenic paraphimosis → ลดบวมและ manual reduction ทันที",
+   "เด็กชาย 9 ปี ปลายหนังหุ้มเป็นวงขาวแข็ง ปัสสาวะลำเล็ก ทายาสเตียรอยด์ไม่ดีขึ้น → BXO → circumcision",
+   "ทำไมต้องลดบวมก่อนดันหนังกลับ → ปริมาตร glans และหนังที่บวมมากเกินวงรัด การบีบรัดไล่น้ำออกก่อนทำให้ดันผ่านได้",
+   "เด็กชาย 3 ปี หนังหุ้มปลายแดงบวมมีหนอง ไข้ต่ำ ยังรูดหนังได้ปกติ → balanoposthitis → ทำความสะอาด ยาฆ่าเชื้อ ยังไม่ต้องผ่าตัด"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 1 — ตัวพิมพ์: <b>5. A male child presents with swollen prepuce below the glans penis. What should be done first? — A. Ventral slit B. Circumcision C. Manual reduction D. Topical corticosteroid E.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์จด \"swollen prepuce below the glans\" (P'Ing เขียน paraphimosis) → เขียน stem ให้ชัดว่า foreskin ค้างหลัง glans · ช้อย E ว่าง → เติม · P'Ing แก้ A Ventral → dorsal slit",
+  "src": "S74AQ · หน้า 1",
+  "kimg": [
+   "kp74a_5"
   ]
  },
  "MDCU74|RoA|6": {
-  "interp": "ทารกมีประวัติไตบวมน้ำตั้งแต่ในครรภ์ US พบ severe hydronephrosis ซ้ายโดยไม่มี hydroureter (= อุดที่ UPJ) · diuretic renogram: DRF ซ้าย 22% + กราฟอุดตัน → ถามการรักษาต่อไป",
-  "why": "ลายมือ P'Ing: <b>\"DRF &lt; 40% → surgery: pyeloplasty\"</b> และสไลด์ Treatment primary UPJO<br><b>นอกสไลด์:</b> ไตที่ DRF ต่ำกว่า 40% และระบายไม่ออกยังกู้การทำงานได้ถ้าแก้การอุดตัน · dismembered (Anderson-Hynes) pyeloplasty ตัดส่วนตีบออกแล้วต่อใหม่ สำเร็จ > 90%",
+  "interp": "เด็กหญิง 7 เดือน มีประวัติ <b>antenatal hydronephrosis</b> US ยัง <b>severe left hydronephrosis ไม่มี hydroureter</b> (= อุดที่ <b>UPJ</b>) และ diuretic renogram พบ <b>DRF ซ้าย 22%</b> ร่วม <b>obstructive curve</b> — ถามการรักษาต่อไป ต้องรู้ข้อบ่งชี้การผ่าตัด UPJ obstruction ในเด็ก",
+  "why": "Hydronephrosis โดยไม่มี hydroureter บ่งว่าการอุดอยู่ที่ <b>ureteropelvic junction (UPJO)</b> — สาเหตุที่พบบ่อยที่สุดของ antenatal hydronephrosis ที่มีพยาธิสภาพ (ในเด็กเล็กมักเป็น intrinsic adynamic segment ส่วนเด็กโต/ ผู้ใหญ่อาจมี crossing lower pole vessel) · UPJO ส่วนใหญ่ดีขึ้นเองจึงเริ่มด้วยการเฝ้าดู แต่มี<b>ข้อบ่งชี้ผ่าตัด</b>: ① <b>DRF &lt; 40%</b> ② DRF ลดลง &gt; 10% ในการตรวจซ้ำ ③ hydronephrosis แย่ลง (APD เพิ่ม/ SFU grade สูงขึ้น) ④ มีอาการ — ปวด, febrile UTI, นิ่ว ⑤ ไตข้างเดียวหรือเป็นสองข้าง · <b>MAG3 diuretic renogram</b> บอก DRF และรูปแบบการระบาย (T½ &gt; 20 นาทีหรือกราฟขึ้นไม่ลง = obstructive) · ผู้ป่วยได้ DRF 22% ร่วม obstructive curve → ผ่าตัด <b>dismembered (Anderson-Hynes) pyeloplasty</b> ตัดส่วนที่ตีบออก ตัดแต่ง pelvis แล้วต่อ ureter ใหม่แบบ spatulated ให้เป็นรูปกรวย สำเร็จ &gt; 90–95% และไตที่ DRF ลดลงมักกลับมาดีขึ้นหรือคงที่ (เด็กเล็กมี potential ฟื้นตัวสูง) · ไฟล์ P'Ing วง A เขียน <b>\"✓ DRF &lt; 40%, surgery: pyeloplasty\"</b> และแปะสไลด์ Treatment primary UPJO",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ตัดไตเมื่อไตแทบไม่ทำงาน — DRF 22% ยังกู้ได้ · จะถูกถ้า DRF ต่ำกว่าราว 10% และไม่ดีขึ้นหลังระบายด้วย nephrostomy",
-   "C": "<b>นอกสไลด์:</b> Nephrostomy เป็นการระบายชั่วคราว ไม่ได้แก้จุดตีบ · จะถูกถ้าไตที่อุดตันติดเชื้อ (pyonephrosis) เด็กมีไข้สูง ต้องระบายหนองก่อน",
-   "D": "<b>นอกสไลด์:</b> ใส่ DJ stent เป็นการระบายภายในชั่วคราว ในทารกทำยากและไม่ได้แก้จุดตีบ · จะถูกถ้าผู้ใหญ่มีนิ่วอุดท่อไตร่วมกับไตเสื่อมหรือติดเชื้อ ต้องระบายก่อนเอานิ่วออก",
-   "E": "<b>นอกสไลด์:</b> เฝ้าดูได้เมื่อไตยังทำงานดี · จะถูกถ้า DRF ≥ 40% ไม่มีอาการ และไตบวมไม่แย่ลงระหว่างติดตาม"
+   "B": "Nephrectomy ใช้เมื่อไตแทบไม่ทำงานแล้ว (DRF &lt; 10% ซึ่งฟื้นยาก) และมีอาการ เช่น ติดเชื้อซ้ำ ปวด ความดันสูง — DRF 22% ในทารกยังมีโอกาสฟื้นตัวมาก ไม่ควรตัดทิ้ง — จะถูกถ้าเป็นเด็ก 8 ปี UPJO ข้างซ้าย DRF 6% มี pyonephrosis ซ้ำ ๆ แม้ระบายแล้ว renogram ซ้ำหลังใส่ PCN ไตยังไม่ฟื้น",
+   "C": "PCN เป็นการระบายชั่วคราว ใช้เมื่อไตอุดตันร่วมติดเชื้อ (pyonephrosis) หรือเพื่อประเมินว่าไตที่ DRF ต่ำมากจะฟื้นได้ไหมก่อนตัดสินใจ pyeloplasty vs nephrectomy ไม่ใช่การรักษาหลัก — จะถูกถ้าเป็นทารก 3 เดือน UPJO ข้างซ้าย มีไข้สูง ซึม US พบ pelvis ขยายมีตะกอนหนอง (obstructed infected kidney)",
+   "D": "DJ stent ไม่แก้จุดตีบถาวร ในทารกต้องดมยาใส่/ ถอดซ้ำ เสี่ยงติดเชื้อ stent อุดตัน และไม่ใช่การรักษามาตรฐานของ UPJO ในเด็ก ใช้ชั่วคราวหลัง pyeloplasty หรือระบายในผู้ใหญ่ — จะถูกถ้าเป็นหญิง 40 ปี นิ่วอุดท่อไตร่วมไข้และติดเชื้อ ต้องระบายด่วนก่อนรักษานิ่ว",
+   "E": "เฝ้าดูด้วย US/ renogram ซ้ำใช้เมื่อ DRF ≥ 40% ไม่มีอาการ และกราฟยังไม่ชัดว่าอุดตัน เพราะส่วนใหญ่ดีขึ้นเอง แต่ DRF 22% + obstructive curve รอไม่ได้ — จะถูกถ้าเป็นทารก 3 เดือน left hydronephrosis APD 18 mm ไม่มีอาการ DRF 47% และกราฟระบายได้หลังให้ furosemide"
   },
-  "trap": "ไม่มี hydroureter = อุดที่ UPJ ไม่ใช่ VUR หรือ megaureter · อย่าเลือกเฝ้าดูเพราะเด็กไม่มีอาการ — DRF 22% + กราฟอุดตัน คือข้อบ่งชี้ผ่าตัด",
+  "trap": "คนจำว่า antenatal hydronephrosis ส่วนใหญ่หายเอง จึงตอบเฝ้าดู (E) หรือเห็นไตทำงานต่ำจึงตอบ nephrectomy (B) · จุดตัดคือ <b>DRF &lt; 40% + obstructive curve = ผ่าตัด pyeloplasty</b> ส่วน nephrectomy ต้อง DRF &lt; 10% ร่วมอาการ และ PCN/ DJ เป็นการระบายชั่วคราวเท่านั้น",
   "summary": [
-   "ข้อบ่งชี้ผ่าตัด UPJO (ลายมือ P'Ing): DRF &lt; 40% → pyeloplasty",
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้อื่น: DRF ลดลง > 10% ระหว่างติดตาม · มีอาการ (ปวด, UTI, นิ่ว) · ไตบวมมากขึ้น",
-   "<b>นอกสไลด์:</b> สาเหตุ UPJO ในทารกส่วนใหญ่เป็นส่วนตีบในผนังท่อไตเอง",
-   "<b>นอกสไลด์:</b> มี hydroureter → คิดถึง VUR (ส่ง VCUG) หรือ primary obstructive megaureter"
+   "Antenatal hydronephrosis: พบราว 1–5% ของการตั้งครรภ์ · ส่วนใหญ่เป็น transient/ physiologic · สาเหตุพยาธิที่พบบ่อยสุดคือ UPJO ตามด้วย VUR, UVJ obstruction (megaureter), PUV",
+   "หลังคลอด: US ครั้งแรกหลัง 48 ชม. (ยกเว้นสงสัย PUV/ bilateral รุนแรงทำเร็ว) เพราะวันแรก ๆ ปัสสาวะน้อยอาจ underestimate · ให้ continuous antibiotic prophylaxis ในรายรุนแรง/ สงสัย VUR",
+   "แยกโรค: hydronephrosis ไม่มี hydroureter → UPJO · มี hydroureter → VUR หรือ UVJO (VCUG แยก) · ทั้งสองข้าง + กระเพาะหนาในเด็กชาย → posterior urethral valves",
+   "MAG3 diuretic renogram ทำหลังอายุ 4–6 สัปดาห์ (ไตยังไม่โตเต็มที่) · obstructive = T½ &gt; 20 นาที · DRF ปกติ 45–55%",
+   "ข้อบ่งชี้ pyeloplasty: DRF &lt; 40%, DRF ลด &gt; 10%, APD เพิ่ม/ SFU 3–4 แย่ลง, febrile UTI, ปวด, นิ่ว, ไตข้างเดียว",
+   "Anderson-Hynes dismembered pyeloplasty (open/ laparoscopic/ robotic) สำเร็จ &gt; 90–95% · ผู้ใหญ่ที่มี crossing vessel ย้ายหลอดเลือดไปไว้หลังรอยต่อ",
+   "Dietl's crisis: ปวดบั้นเอวเป็นพัก ๆ หลังดื่มน้ำมาก/ ดื่มเบียร์ ในเด็กโต-ผู้ใหญ่ที่มี UPJO แบบ intermittent (มักมี crossing vessel)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — DRF 22% + กราฟอุดตัน เป็นข้อบ่งชี้ pyeloplasty ตามลายมือ P'Ing · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียน \"DRF &lt; 40%, surgery: pyeloplasty\" · ทั้ง DRF 22% และ obstructive curve เป็นข้อบ่งชี้ผ่าตัดชัด และทารกมีโอกาสที่ไตจะฟื้นหลังแก้การอุดตันจึงไม่ควรตัดไต",
+  "mnemonic": "<b>'UPJO ผ่าเมื่อ 'สี่สิบ-สิบ-แย่-อาการ' (DRF &lt; 40, ลด &gt; 10%, hydro แย่ลง, มีอาการ)'</b>",
+  "guide": "EAU-ESPU Guidelines on Paediatric Urology 2025 (Dilatation of the upper urinary tract); Nguyen HT et al. Multidisciplinary consensus on the classification of prenatal and postnatal urinary tract dilation (UTD classification), J Pediatr Urol 2014; Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> วัยรุ่นปวดสีข้างเป็นพักหลังดื่มน้ำหรือเบียร์มาก CT พบ hydronephrosis มีหลอดเลือดพาดผ่าน UPJ → laparoscopic pyeloplasty ย้ายท่อไตมาไว้หน้าหลอดเลือด"
+   "ทารก 2 เดือน bilateral hydronephrosis + hydroureter กระเพาะปัสสาวะผนังหนา ปัสสาวะไม่พุ่ง → VCUG → posterior urethral valves → valve ablation",
+   "เด็ก 6 เดือน left UPJO DRF 45% กราฟระบายช้าเล็กน้อย ไม่มีอาการ → เฝ้าดูด้วย US ทุก 3–6 เดือนและ renogram ซ้ำ",
+   "ทำไมรอ US หลังคลอด 48 ชม. → ทารกขาดน้ำสัมพัทธ์ในวันแรก ๆ ทำให้ hydronephrosis ดูน้อยกว่าจริง",
+   "ชาย 25 ปี ปวดบั้นเอวซ้ายทุกครั้งที่ดื่มเบียร์มาก CT พบ hydronephrosis มี lower pole crossing vessel → laparoscopic pyeloplasty ย้ายหลอดเลือด"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 1 — ตัวพิมพ์: <b>6. A 7-month-old girl with history of antenatal hydronephrosis is referred for ultrasonography of the KUB system. Ultrasonography of the KUB system shows persistent severe left hydronephrosis without hydroureter. Diuretic renography shows differential renal function in left : right kidney as 22 : 78. Obstructive curve is also seen on the left side. What is the next management? — A. Left pyeloplasty B. Left nephrectomy C. Left percutaneous nephrostomy D. Left antegrade DJ stent insertion E. Follow-up with ultrasonography of the KUB system</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ช้อย D, E อยู่ต้นคอลัมน์ขวา → ครอป 2 ส่วน · P'Ing แปะสไลด์ Treatment primary UPJO",
+  "src": "S74AQ · หน้า 1",
+  "kimg": [
+   "kp74a_6a",
+   "kp74a_6b"
   ]
  },
  "MDCU74|RoA|10": {
-  "interp": "ถามคุณสมบัติของยา: α-blocker ดีกว่า 5-alpha-reductase inhibitor (5-ARI) ตรงไหนในการรักษา BPH",
-  "why": "ลายมือ P'Ing: <b>\"5α-reductase slow onset\"</b> (เห็นผลหลายเดือน)<br><b>นอกสไลด์:</b> α1-blocker คลายกล้ามเนื้อเรียบที่ต่อมลูกหมากและคอกระเพาะปัสสาวะ ลดแรงต้านทันที อาการดีขึ้นในวันถึงสัปดาห์ · 5-ARI ลด DHT ทำให้ต่อมเล็กลงช้า ๆ ต้องใช้ราว 3–6 เดือน",
+  "interp": "ถามข้อได้เปรียบของ <b>alpha-adrenergic antagonist</b> เมื่อเทียบกับ <b>5-alpha-reductase inhibitor (5ARI)</b> ในการรักษา BPH — ต้องรู้ว่ายาสองกลุ่มออกฤทธิ์ต่อคนละองค์ประกอบของการอุดตัน (dynamic vs static) จึงต่างกันทั้งเวลาเริ่มออกฤทธิ์ ผลต่อขนาดต่อม และผลระยะยาว",
+  "why": "การอุดตันจาก BPH มี 2 องค์ประกอบ: <b>dynamic</b> = กล้ามเนื้อเรียบใน prostate stroma และ bladder neck หดตัวผ่าน <b>α1A receptor</b> และ <b>static</b> = ปริมาตรต่อมที่โต · <b>Alpha-blocker</b> (tamsulosin 0.4 mg, alfuzosin, silodosin, doxazosin, terazosin) คลายกล้ามเนื้อเรียบ จึง<b>ออกฤทธิ์เร็วภายในชั่วโมงถึงไม่กี่วัน</b> เห็นผลเต็มที่ใน 2–4 สัปดาห์ ลด IPSS ราว 30–40% และเพิ่ม Qmax ราว 20–25% แต่<b>ไม่ลดขนาดต่อม</b>และไม่ลดความเสี่ยง AUR หรือการผ่าตัดในระยะยาว · <b>5ARI</b> (finasteride ยับยั้ง type 2, dutasteride ยับยั้ง type 1 และ 2) ลดการเปลี่ยน testosterone เป็น <b>DHT</b> → ต่อมเล็กลงราว 18–28% และ PSA ลดราว 50% แต่<b>ต้องใช้ 3–6 เดือน</b>จึงเห็นผลต่ออาการ (ผลเต็มที่ 6–12 เดือน) และลดความเสี่ยง AUR และการผ่าตัดได้ราวครึ่งหนึ่ง (PLESS, MTOPS) เหมาะกับต่อม &gt; 30–40 mL หรือ PSA &gt; 1.5 ng/mL · ไฟล์ P'Ing วง B เขียน ✓ และลายมือ <b>\"5α-reductase slow onset\"</b> (เห็นผลหลายเดือน)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> การลดขนาดต่อมเป็นข้อดีของ 5-ARI · ไม่มีสถานการณ์ใดที่ α-blocker ลดขนาดต่อม เพราะออกฤทธิ์ที่ตัวรับ α1 ของกล้ามเนื้อเรียบ ไม่ยับยั้งการเปลี่ยน testosterone เป็น DHT",
-   "C": "<b>นอกสไลด์:</b> การเพิ่มความจุกระเพาะปัสสาวะ/ลดปัสสาวะบ่อยเป็นฤทธิ์ของ antimuscarinic หรือ β3-agonist · ไม่มีสถานการณ์ใดที่นับเป็นข้อดีของ α-blocker เพราะยานี้ลดแรงต้านทางออก ไม่ได้คลายกล้ามเนื้อ detrusor",
-   "D": "<b>นอกสไลด์:</b> การลดความเสี่ยงปัสสาวะไม่ออกเฉียบพลันระยะยาวเป็นของ 5-ARI ในต่อมโต · ไม่มีสถานการณ์ใดที่เป็นข้อดีของ α-blocker เหนือ 5-ARI เพราะ α-blocker ไม่เปลี่ยนการดำเนินโรค (ช่วยแค่ให้ถอดสายสวนสำเร็จหลังเกิดแล้ว)",
-   "E": "<b>นอกสไลด์:</b> การลดโอกาสผ่าตัดในอนาคตเป็นของ 5-ARI · ไม่มีสถานการณ์ใดที่เป็นข้อดีของ α-blocker เพราะไม่ลดขนาดต่อมจึงไม่ชะลอการโตของโรค"
+   "A": "ลดขนาดต่อมลูกหมากเป็นคุณสมบัติของ 5ARI (ลด DHT → ต่อมฝ่อลงราว 20–30% ใน 6–12 เดือน) alpha-blocker ไม่เปลี่ยนขนาดต่อมเลย — จะถูกถ้าเป็นชาย 68 ปี ต่อมลูกหมาก 70 mL PSA 4 ปัสสาวะลำเล็ก IPSS 15 แพทย์เลือกยาที่ทำให้ต่อมเล็กลงและลดโอกาสต้องผ่าตัด (finasteride/ dutasteride)",
+   "C": "การเพิ่มความจุกระเพาะปัสสาวะเป็นเป้าหมายของยารักษาอาการกักเก็บ (storage/ OAB) เช่น antimuscarinic และ β3-agonist (mirabegron) ไม่ใช่ผลเด่นของยาทั้งสองกลุ่ม — จะถูกถ้าเป็นชาย 70 ปีที่ได้ tamsulosin แล้ว ลำปัสสาวะดีขึ้น ปัสสาวะเหลือค้างน้อย แต่ยังปวดปัสสาวะรีบ ปัสสาวะบ่อยกลางคืน (เพิ่ม mirabegron หรือ antimuscarinic)",
+   "D": "ลดความเสี่ยง acute urinary retention เป็นข้อได้เปรียบของ 5ARI/ combination ตาม MTOPS และ PLESS alpha-blocker เดี่ยวลดอาการแต่ไม่ลด AUR ระยะยาวอย่างมีนัยสำคัญ — จะถูกถ้าเป็นชาย 65 ปี ต่อม 60 mL PSA 3 IPSS 18 มีความเสี่ยงดำเนินโรค แพทย์ต้องการลดโอกาสปัสสาวะไม่ออกเฉียบพลันในอนาคต",
+   "E": "ลดความจำเป็นต้องผ่าตัดในอนาคตเป็นผลของ 5ARI (ลดการผ่าตัดเกี่ยวกับ BPH ราวครึ่งหนึ่งใน PLESS) ไม่ใช่ของ alpha-blocker — จะถูกถ้าเป็นชาย 72 ปี ต่อม 80 mL อาการปานกลางถึงรุนแรง อยากเลี่ยงการผ่าตัด แพทย์ให้ combination therapy (alpha-blocker + 5ARI) ระยะยาว"
   },
-  "trap": "สลับคุณสมบัติสองกลุ่มยา: α-blocker = เร็ว ลดอาการ ไม่เปลี่ยนโรค · 5-ARI = ช้า ลดขนาด ลดการเกิดปัสสาวะไม่ออกและการผ่าตัด",
+  "trap": "ช้อย A D E ล้วนเป็นข้อดีจริงของ<b>การรักษา BPH</b> จึงฟังดูถูก แต่เป็นของ <b>5ARI</b> ทั้งหมด · คำถามถามข้อได้เปรียบของ <b>alpha-blocker เหนือ 5ARI</b> ซึ่งมีข้อเดียวคือ<b>ออกฤทธิ์เร็ว</b> · ช้อย C เป็นเป้าหมายของยารักษา OAB ไม่ใช่ทั้งสองกลุ่ม",
   "summary": [
-   "<b>นอกสไลด์:</b> α-blocker (tamsulosin, alfuzosin, doxazosin): ผลข้างเคียง orthostatic hypotension, ejaculatory dysfunction",
-   "<b>นอกสไลด์:</b> 5-ARI (finasteride, dutasteride): ใช้ในต่อม > 30–40 mL · ลดขนาดราว 20–30% · ผลข้างเคียงทางเพศ",
-   "<b>นอกสไลด์:</b> Combination (α-blocker + 5-ARI): ต่อมโตร่วมกับอาการปานกลาง–รุนแรง"
+   "BPH obstruction: dynamic (α1A ที่ stroma/ bladder neck) → alpha-blocker · static (ขนาดต่อม ขึ้นกับ DHT) → 5ARI",
+   "Alpha-blocker: tamsulosin/ silodosin (uroselective α1A) ความดันตกน้อย · doxazosin/ terazosin ต้อง titrate ระวัง orthostatic hypotension · ผลข้างเคียง ejaculatory dysfunction, floppy iris syndrome ระหว่างผ่าตัดต้อกระจก",
+   "5ARI: finasteride 5 mg (type 2) · dutasteride 0.5 mg (type 1+2) · ลดขนาดต่อม 18–28% · PSA ลด ~50% (ต้องคูณ 2 เมื่อแปลผลหลังใช้ 6 เดือน) · ผลข้างเคียง libido ลด erectile dysfunction gynecomastia",
+   "Combination (MTOPS, CombAT): ลดการดำเนินโรคมากกว่ายาเดี่ยว เหมาะกับ LUTS ปานกลาง-รุนแรง + ต่อม &gt; 30–40 mL หรือ PSA &gt; 1.5",
+   "อาการกักเก็บเด่น (urgency, frequency, nocturia) หลังได้ alpha-blocker → เพิ่ม antimuscarinic หรือ β3-agonist เมื่อ PVR ไม่สูง",
+   "PDE5 inhibitor (tadalafil 5 mg/วัน) ใช้รักษา LUTS จาก BPH ได้ เหมาะกับผู้ที่มี erectile dysfunction ร่วม",
+   "ประเมิน: IPSS, DRE, UA, PSA (เมื่อคาดอายุขัย &gt; 10 ปี และผลเปลี่ยนการรักษา), PVR, uroflowmetry, frequency-volume chart"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing ว่า 5-ARI ออกฤทธิ์ช้า · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B และเขียน \"5α-reductase slow onset\" · ข้อได้เปรียบอื่นในช้อย (ลดขนาดต่อม ลด AUR ลดการผ่าตัด) เป็นของ 5ARI ทั้งสิ้น ต้นฉบับมี 3 ช้อย เว็บเติม D E ที่เป็นผลของ 5ARI ทำให้ข้อชัดขึ้นโดยไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Alpha = ไวเหมือนกด 'เปิด' (relax) · 5ARI = ช้าแต่ 'หด' ต่อม (shrink)'</b>",
+  "guide": "Lerner LB et al. AUA Guideline: Management of Lower Urinary Tract Symptoms Attributed to BPH 2021 (amended 2023); EAU Guidelines on Management of Non-neurogenic Male LUTS 2025; McConnell JD et al. MTOPS, N Engl J Med 2003",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายกิน finasteride มา 1 ปี ตรวจ PSA ได้ 2.0 ng/mL ถามวิธีแปลผล → คูณ 2 เพื่อเทียบกับค่าปกติ",
-   "<b>นอกสไลด์:</b> ชายมี BPH จะผ่าตัดต้อกระจก ถามยาที่ต้องแจ้งจักษุแพทย์ → tamsulosin (floppy iris syndrome)"
+   "ชาย 66 ปี เริ่ม tamsulosin 1 สัปดาห์ ปัสสาวะคล่องขึ้นแล้ว แต่มีน้ำอสุจิออกน้อยเวลาหลั่ง → retrograde/ anejaculation จาก alpha-blocker อธิบายว่าไม่อันตราย",
+   "ชาย 70 ปี ได้ finasteride มา 1 ปี PSA 2.5 ng/mL → แปลผลเท่ากับ PSA ~5 ng/mL ต้องประเมินมะเร็งต่อมลูกหมากเพิ่ม",
+   "ชาย 68 ปี กำลังจะผ่าตัดต้อกระจก ได้ tamsulosin มา 2 ปี → แจ้งจักษุแพทย์เรื่อง intraoperative floppy iris syndrome",
+   "ทำไม finasteride ไม่ช่วยในผู้ที่ต่อมเล็ก 20 mL → อาการมาจากองค์ประกอบ dynamic มากกว่าขนาดต่อม ยาที่ลดขนาดจึงได้ผลน้อย"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 1 — ตัวพิมพ์: <b>10. What is the advantage of alpha adrenergic antagonist compared with 5-alpha reductase inhibitor? — A. Reduce prostate size B. Faster onset of action C. Increase bladder capcity</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เติม D, E · P'Ing ลายมือ 5α-reductase slow onset",
+  "src": "S74AQ · หน้า 1",
+  "kimg": [
+   "kp74a_10"
   ]
  },
  "MDCU74|RoA|11": {
-  "interp": "ชายอายุ 62 ต่อม 60 g PSA 3.5 ng/mL อาการปัสสาวะเล็กน้อยไม่รบกวน → ถามการจัดการ (BPH รักษาตามอาการ ไม่ใช่ตามขนาด · PSA ไม่ถึงเกณฑ์ biopsy)",
-  "why": "ลายมือ P'Ing: <b>\"follow up 3–6 months\"</b> · <b>A ✗ when symptomatic</b> · <b>B ✗ when PSA ≥ 4</b><br><b>นอกสไลด์:</b> BPH รักษาเมื่ออาการรบกวนหรือมีภาวะแทรกซ้อน · อาการน้อยไม่รบกวน → watchful waiting + ปรับพฤติกรรม (ลดน้ำก่อนนอน ลดกาแฟ/แอลกอฮอล์) และนัดติดตาม · PSA 3.5 กับต่อม 60 g เข้ากับ BPH (PSA สูงตามขนาดต่อม)",
+  "interp": "ชาย 62 ปี ต่อมลูกหมาก <b>60 g</b> PSA <b>3.5 ng/mL</b> มีอาการปัสสาวะ<b>เล็กน้อยและไม่รบกวน</b> — ถามการดูแลที่เหมาะสม ต้องรู้ว่าการรักษา BPH ขึ้นกับความรุนแรงและความรำคาญของอาการ ไม่ใช่ขนาดต่อม และต้องแปล PSA เทียบกับขนาดต่อม",
+  "why": "การรักษา BPH มุ่งที่<b>อาการและภาวะแทรกซ้อน</b> ไม่ได้รักษาตามขนาดต่อม · ผู้ป่วยอาการน้อย (IPSS 0–7) หรือปานกลางแต่ไม่รำคาญ และไม่มี absolute indication → <b>watchful waiting</b>: ให้ความรู้ ปรับพฤติกรรม (ลดน้ำช่วงเย็น ลดคาเฟอีน/ แอลกอฮอล์ ปัสสาวะสองรอบ ฝึกกลั้น ทบทวนยาที่ทำให้ปัสสาวะลำบาก เช่น antihistamine, decongestant) แล้ว<b>นัดประเมินซ้ำเป็นระยะ</b>ด้วย IPSS, PVR และ uroflowmetry · <b>absolute indications ผ่าตัด</b>: retention ที่ถอดสายไม่ผ่าน, UTI ซ้ำ, gross hematuria ซ้ำจาก BPH, นิ่วในกระเพาะปัสสาวะ, ไตเสื่อมจากการอุดตัน, bladder diverticulum ใหญ่ · <b>PSA 3.5</b> ในต่อม 60 g สอดคล้องกับปริมาตรต่อม (<b>PSA density</b> 3.5/60 ≈ 0.06 ต่ำกว่าเกณฑ์ 0.15) ถ้า DRE ไม่พบก้อนแข็ง ไม่ต้อง biopsy แต่ติดตาม PSA · ไฟล์ P'Ing ไม่ได้วงช้อย ใส่ ? หน้าข้อ และเขียนลายมือ <b>\"follow up 3–6 months\"</b> · \"A ✗ when symptomatic\" · \"B ✗ when PSA ≥ 4\"",
   "wrong": {
-   "A": "ลายมือ P'Ing: ใช้เมื่อมีอาการ · จะถูกถ้าอาการปานกลาง–รุนแรงรบกวนชีวิต และต่อมโตถึงเกณฑ์ใช้ 5-ARI",
-   "B": "Biopsy ทำเมื่อ PSA ≥ 4 — รายนี้ 3.5 · <b>นอกสไลด์:</b> TURP ทำเมื่อมีข้อบ่งชี้ผ่าตัด ไม่ใช่ใช้หามะเร็ง · จะถูกถ้าผู้ป่วยปัสสาวะไม่ออกซ้ำจนถอดสายสวนไม่สำเร็จ และ PSA สูงหรือคลำได้ก้อน จึงต้องได้ชิ้นเนื้อก่อน/ร่วมกับการผ่าตัด",
-   "D": "<b>นอกสไลด์:</b> PSA 3.5 และไม่มีก้อนจาก DRE ยังไม่ถึงเกณฑ์ · จะถูกถ้า PSA ถึงเกณฑ์ (ยืนยันซ้ำ) หรือ DRE คลำได้ก้อนแข็ง",
-   "E": "<b>นอกสไลด์:</b> ยังไม่มีการวินิจฉัยมะเร็ง · จะถูกถ้าชิ้นเนื้อยืนยันมะเร็งต่อมลูกหมากระยะจำกัดในต่อม กลุ่มความเสี่ยงปานกลาง–สูง และคาดว่าจะมีชีวิตอีกเกิน 10 ปี"
+   "A": "Combination alpha-blocker + 5ARI เหมาะกับ LUTS ปานกลางถึงรุนแรงที่รบกวนชีวิตร่วมกับต่อมโต &gt; 30–40 mL (P'Ing เขียน \"✗ when symptomatic\") การให้ยาในคนที่อาการน้อยไม่รบกวนได้แต่ผลข้างเคียง — จะถูกถ้าเป็นชาย 66 ปี ต่อม 60 g PSA 3.5 ปัสสาวะลำเล็ก ต้องเบ่ง ตื่นปัสสาวะ 3 ครั้งต่อคืน IPSS 20 และรำคาญมาก",
+   "B": "TURP ใช้เมื่อมี absolute indication หรืออาการรุนแรงไม่ตอบสนองต่อยา และชิ้นเนื้อที่ได้ส่งพยาธิอยู่แล้ว ส่วน biopsy ต้องมีข้อสงสัยมะเร็ง (P'Ing \"✗ when PSA ≥ 4\") — จะถูกถ้าเป็นชาย 72 ปี ต่อม 55 g มี acute urinary retention 2 ครั้ง ถอดสายแล้วปัสสาวะไม่ออกแม้ได้ alpha-blocker และมีนิ่วในกระเพาะปัสสาวะ",
+   "D": "Prostate biopsy ทำเมื่อสงสัยมะเร็ง เช่น DRE คลำได้ก้อนแข็ง PSA สูงเกินคาดตามอายุ/ ขนาดต่อม (PSA density &gt; 0.15) หรือ MRI PI-RADS ≥ 3–4 — PSA 3.5 ในต่อม 60 g ยังไม่ใช่ — จะถูกถ้าเป็นชาย 62 ปี PSA 8 ng/mL ต่อม 35 g (PSA density 0.23) MRI พบรอยโรค PI-RADS 4 ที่ peripheral zone",
+   "E": "Radical prostatectomy เป็นการรักษามะเร็งต่อมลูกหมากระยะจำกัดในผู้ที่คาดอายุขัย &gt; 10 ปี ต้องมีผลชิ้นเนื้อยืนยันก่อน ไม่ใช้รักษา BPH — จะถูกถ้าเป็นชาย 60 ปี สุขภาพแข็งแรง biopsy พบ adenocarcinoma Gleason 4+3 (ISUP grade 3) ระยะ cT2 ไม่มีการแพร่กระจาย"
   },
-  "trap": "เห็นต่อม 60 g แล้วให้ยาทันที — BPH ไม่รักษาตามขนาด · และอย่า biopsy ที่ PSA &lt; 4 ร่วมกับ DRE ปกติ",
+  "trap": "ต่อม 60 g 'ใหญ่' ทำให้คนอยากให้ยา combination หรือผ่าตัด และ PSA 3.5 'ใกล้ 4' ทำให้อยาก biopsy · แต่การรักษา BPH ขึ้นกับ<b>อาการที่รบกวน</b>และภาวะแทรกซ้อน ไม่ใช่ขนาดต่อม และ PSA ต้องแปลเทียบขนาดต่อม (density ต่ำ) · ต้นฉบับมีแค่ 2 ช้อย P'Ing ไม่ได้วงคำตอบ เว็บจึงเติมว่าอาการเล็กน้อยไม่รบกวนให้ตรงกับลายมือ follow up",
   "summary": [
-   "ลายมือ P'Ing: อาการน้อย → ติดตาม 3–6 เดือน · ยาเมื่อมีอาการ · biopsy เมื่อ PSA ≥ 4",
-   "<b>นอกสไลด์:</b> IPSS: 0–7 น้อย · 8–19 ปานกลาง · 20–35 รุนแรง · 5-ARI ใช้เมื่อต่อม > 30–40 mL",
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ผ่าตัด BPH: ปัสสาวะไม่ออกซ้ำ · นิ่วในกระเพาะปัสสาวะ · UTI ซ้ำ · เลือดออกซ้ำ · ไตเสื่อมจากการอุดกั้น · ยาไม่ได้ผล",
-   "<b>นอกสไลด์:</b> PSA density > 0.15 ng/mL/cc ชวนสงสัยมะเร็ง — รายนี้ราว 0.06 เข้ากับ BPH"
+   "IPSS: 0–7 mild · 8–19 moderate · 20–35 severe + quality-of-life score บอกความรำคาญ — ใช้ตัดสินใจรักษาและติดตามผล",
+   "Watchful waiting: อาการน้อยหรือไม่รบกวน + ไม่มีภาวะแทรกซ้อน → ให้ความรู้ ปรับพฤติกรรม ทบทวนยา และประเมินซ้ำเป็นระยะ (ราว 6–12 เดือน)",
+   "Absolute indications ผ่าตัด BPH: refractory retention, UTI ซ้ำ, gross hematuria ซ้ำ, bladder stone, renal insufficiency จาก BPH, bladder diverticulum ที่ก่อปัญหา",
+   "เลือกหัตถการตามขนาดต่อม: &lt; 30 mL TUIP · 30–80 mL TURP (มาตรฐาน) · &gt; 80 mL HoLEP หรือ simple prostatectomy (open/ robotic) · ทางเลือกรุกล้ำน้อย เช่น Urolift, Rezum",
+   "PSA: ขึ้นได้จาก BPH, prostatitis, retention, ใส่สาย, DRE หนัก ๆ · PSA density &gt; 0.15 ng/mL/cc ชวนสงสัยมะเร็ง · ก่อน biopsy นิยมทำ mpMRI",
+   "Biopsy เมื่อ: DRE ผิดปกติ, PSA สูงตามเกณฑ์อายุ (เช่น ≥ 4 หรือขึ้นเร็ว), MRI PI-RADS ≥ 3–4 · ใช้ systematic + targeted biopsy",
+   "การรักษายา: alpha-blocker (เร็ว) · 5ARI เมื่อต่อม &gt; 30–40 mL · combination สำหรับต่อมโต + อาการปานกลาง-รุนแรง"
   ],
-  "opinion": "เห็นด้วยกับ C — P'Ing ไม่ได้วงช้อย (recall ไม่ครบ มี ?) แต่ลายมือ \"follow up 3–6 months\" ตรงกับ watchful waiting ที่เติม · ช้อย C, D, E และรายละเอียดอาการใน stem เติมเพิ่ม · ความมั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง — ไฟล์ P'Ing ไม่ได้วงคีย์ไว้ เขียนเพียง \"follow up 3–6 months\" และขีด ✗ ช้อย A (ใช้เมื่อมีอาการ) และ B (ใช้เมื่อ PSA ≥ 4) ซึ่งสอดคล้องกับ watchful waiting · ต้นฉบับ recall ไม่ครบ (2 ช้อย ไม่บอกอาการ) เว็บเติม stem และช้อย C ตามลายมือ จึงตอบตามเจตนาของผู้เฉลย",
+  "mnemonic": "<b>'BPH รักษา 'อาการ' ไม่ใช่ 'กรัม' — ไม่รำคาญ = Watch & Wait'</b>",
+  "guide": "Lerner LB et al. AUA Guideline: Management of LUTS Attributed to BPH 2021 (amended 2023); EAU Guidelines on Management of Non-neurogenic Male LUTS 2025; EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายอาการปัสสาวะปานกลางรบกวน (IPSS 14) ต่อม 25 mL → α-blocker เดี่ยว (5-ARI ไม่ช่วยในต่อมเล็ก)"
+   "ชาย 75 ปี ต่อม 100 g ปัสสาวะไม่ออกซ้ำ ใส่สายถาวร → HoLEP หรือ simple prostatectomy",
+   "ชาย 60 ปี IPSS 6 ไม่รำคาญ แต่ PSA ขึ้นจาก 2.0 เป็น 4.5 ใน 1 ปี DRE ปกติ → ตรวจ PSA ซ้ำ (ตัด UTI/ prostatitis) แล้ว mpMRI ก่อนพิจารณา biopsy",
+   "ชาย 70 ปี BPH ได้ tamsulosin มีไข้ ปวดบั้นเอว creatinine เพิ่ม US พบ bilateral hydronephrosis PVR 900 mL → ใส่สายสวนระบาย ตามด้วยผ่าตัด (renal insufficiency จาก BPH)",
+   "ทำไมต้องหยุด/ ระวังยาแก้หวัดที่มี pseudoephedrine ในผู้สูงอายุที่มี BPH → α-agonist ทำให้ bladder neck หดตัว ปัสสาวะไม่ออกเฉียบพลัน"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 1 — ตัวพิมพ์: <b>11. A male patient presents with a prostate gland 60 g and PSA 3.5. What is the appropriate management? — A. Alpha blocker and 5 alpha reductase inhibitor B. TURP + biopsy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ recall ไม่ครบ: ไฟล์มีแค่ 2 ช้อยและไม่บอกอาการ · P'Ing ไม่ได้ตอบ เขียน \"follow up 3–6 months\" และ A ✗ when symptomatic, B ✗ when PSA ≥4 → เติมช้อย watchful waiting (C) + เติม stem ว่าอาการเล็กน้อยไม่รบกวน ให้ตรงกับที่ P'Ing เขียน",
+  "src": "S74AQ · หน้า 1",
+  "kimg": [
+   "kp74a_11"
   ]
  }
 }

@@ -1,211 +1,376 @@
 {
  "MDCU74|RoD|40": {
-  "interp": "ข้อ NOT: ผู้ป่วย anal fissure รายใด <b>ไม่ต้อง</b> ทำ LIS · ช้อย A–D เป็น chronic fissure ที่ยาไม่ได้ผล ช้อย E เป็น acute",
-  "why": "P'Ing วง <b>E ✗ conservative tx</b> · ผู้จดเขียนว่า <b>A–D เป็นอาการ chronic anal fissure ทั้งหมด</b><br><b>นอกสไลด์:</b> Acute fissure ส่วนใหญ่หายด้วยใยอาหาร ยาระบาย แช่น้ำอุ่น จึงไม่ต้องตัดหูรูด · LIS สงวนไว้สำหรับ chronic fissure ที่ยาไม่ได้ผล และผู้ป่วยกลั้นได้ปกติ",
+  "interp": "ข้อแบบ <b>NOT</b>: ให้เลือกผู้ป่วย anal fissure ที่<b>ไม่ต้อง</b>ทำ lateral internal sphincterotomy (LIS) — ต้องแยก <b>acute fissure</b> (รักษาแบบประคับประคองก่อน) ออกจาก <b>chronic fissure</b> ที่มีลักษณะเรื้อรังและไม่หายด้วยยา ซึ่งเป็นข้อบ่งชี้ของ LIS",
+  "why": "Anal fissure คือรอยฉีกของ anoderm ใต้ dentate line พบที่ <b>posterior midline ~90%</b> (anterior พบมากขึ้นในหญิงหลังคลอด) เกิดจากอุจจาระแข็งร่วมกับ <b>internal anal sphincter (IAS) hypertonia</b> ซึ่งทำให้เลือดไปเลี้ยง posterior midline ลดลง แผลจึงหายยาก · อาการ: ปวดแสบมากขณะและหลังถ่าย มีเลือดสดติดกระดาษ · <b>acute</b> (&lt; 6–8 สัปดาห์) ขอบแผลสะอาด · <b>chronic</b> (&gt; 6–8 สัปดาห์) มี <b>sentinel pile/ skin tag</b>, <b>hypertrophied anal papilla</b>, ขอบแข็งยกนูน และเห็น<b>เส้นใยของ IAS</b>ที่ก้นแผล · การรักษาเป็นขั้น: (1) ทุกราย: fiber, ดื่มน้ำ, stool softener, sitz bath ± ยาชาเฉพาะที่ — acute fissure หายได้ราวครึ่งหนึ่งหรือมากกว่า (2) chronic: <b>chemical sphincterotomy</b> ด้วย topical nitroglycerin (ปวดศีรษะบ่อย) หรือ calcium channel blocker (diltiazem/ nifedipine) 6–8 สัปดาห์ หรือ <b>botulinum toxin</b> (3) ไม่หายหรือเป็นซ้ำ → <b>LIS</b> หายได้ &gt; 90% แต่มีความเสี่ยงกลั้นลม/ อุจจาระไม่อยู่เล็กน้อย · fissure นอก midline ให้คิดถึง Crohn's, TB, HIV, syphilis, มะเร็ง → EUA + biopsy · ไฟล์วง E ลายมือ P'Ing เขียนว่า <b>\"✗ conservative tx\"</b> และจดว่าช้อย A–D เป็น chronic anal fissure ทั้งหมด",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Chronic fissure ที่ยาทาไม่ได้ผลเป็นข้อบ่งชี้ LIS · จะถูก (ไม่ต้อง LIS) ถ้าเป็นหญิงหลังคลอดที่หูรูดความดันต่ำหรือเคยบาดเจ็บหูรูด — ใช้ advancement flap แทน",
-   "B": "<b>นอกสไลด์:</b> Hypertrophied papilla เป็นลักษณะ chronic ที่ต้องรักษาต่อ · จะถูก (ไม่ต้อง LIS) ถ้า fissure เกิดจาก Crohn disease — รักษาโรค Crohn ด้วยยา เลี่ยงการตัดหูรูด",
-   "C": "<b>นอกสไลด์:</b> กลับเป็นซ้ำหลัง botox เป็นข้อบ่งชี้ LIS · จะถูก (ไม่ต้อง LIS) ถ้าผู้ป่วยมีปัญหากลั้นอุจจาระไม่อยู่อยู่ก่อนแล้ว — เลือกวิธีที่ไม่ตัดหูรูด",
-   "D": "<b>นอกสไลด์:</b> เห็นใยหูรูดที่ก้นแผลเป็นลักษณะ chronic ที่ต้องผ่าตัดเมื่อยาไม่ได้ผล · จะถูก (ไม่ต้อง LIS) ถ้าแผลอยู่ด้านข้างทวารหรือหลายแผล สงสัยมะเร็ง วัณโรค HIV — ตัดชิ้นเนื้อหาสาเหตุก่อน"
+   "A": "ข้อความถูก: chronic fissure ที่มี sentinel tag และไม่หายหลังใช้ topical nitrate ครบ 6–8 สัปดาห์ ถือว่าล้มเหลวจากการรักษาด้วยยา จึงเป็นข้อบ่งชี้ของ LIS (ทางเลือกคือ botulinum toxin ถ้าห่วงเรื่องกลั้นอุจจาระ) · จะถูกถ้าต้องเลือกผู้ป่วยที่ควรทำ LIS เช่น ชาย 35 ปี ปวดถ่ายมีเลือด 4 เดือน มี skin tag ที่ posterior midline ใช้ nitroglycerin 2 เดือนไม่หาย",
+   "B": "ข้อความถูก: hypertrophied anal papilla เป็นลักษณะของ chronic fissure และการล้มเหลวจาก diltiazem (ตัวที่ผลข้างเคียงน้อยกว่า nitrate) หมายถึง chemical sphincterotomy ไม่ได้ผล จึงควรทำ LIS · จะถูกถ้าต้องเลือกผู้ป่วยที่ควรผ่าตัด เช่น หญิง 30 ปี fissure 5 เดือน มีติ่งเนื้อในทวารที่แผลด้านบน ใช้ diltiazem 2% 8 สัปดาห์ยังปวดถ่าย",
+   "C": "ข้อความถูก: fissure เรื้อรังที่กลับเป็นซ้ำหลังฉีด botulinum toxin (ซึ่งได้ผลชั่วคราวราว 3 เดือนและกลับเป็นซ้ำได้บ่อยกว่า LIS) เป็นข้อบ่งชี้ของ LIS เพื่อให้หายถาวร · จะถูกถ้าต้องเลือกผู้ป่วยที่ควรทำ LIS เช่น ชาย 40 ปี ฉีด botulinum toxin แล้วหาย 4 เดือนก่อนกลับมาเป็นแผลที่เดิม sphincter function ปกติ",
+   "D": "ข้อความถูก: การเห็นเส้นใยของ IAS ที่ก้นแผลเป็นลักษณะของ chronic fissure ที่ลึก และเมื่อล้มเหลวจากยา LIS เป็นการรักษามาตรฐานที่หายได้มากที่สุด · จะถูกถ้าต้องเลือกผู้ป่วยที่ควรทำ LIS เช่น หญิง 45 ปี ไม่มีประวัติคลอดยากหรือกลั้นอุจจาระไม่อยู่ แผลลึกเห็นเส้นใยกล้ามเนื้อขาว ใช้ยาทาครบแล้วไม่หาย"
   },
-  "trap": "ข้อนี้ถามผู้ที่ <b>ไม่ต้อง</b> ผ่าตัด · ระยะเวลา 2 สัปดาห์ = acute",
+  "trap": "ช้อย A–D ล้วนเป็น chronic fissure ที่ล้มเหลวจากยา คนอาจลังเลเพราะคิดว่า chronic ทุกรายต้องลองยาก่อน (ซึ่งช้อยทั้งหมดลองแล้ว) · คำตอบคือ <b>acute fissure 2 สัปดาห์</b> ที่ยังไม่ได้รักษาแบบ conservative และมีโอกาสหายเองสูง การผ่าตัดเสี่ยงกลั้นอุจจาระไม่อยู่โดยไม่จำเป็น",
   "summary": [
-   "<b>นอกสไลด์:</b> ก่อนทำ LIS ต้องดู: ระยะเวลา (chronic) · ยาไม่ได้ผล · กลั้นปกติ · ไม่มีสาเหตุรอง · หูรูดความดันไม่ต่ำ",
-   "<b>นอกสไลด์:</b> ผลข้างเคียงหลักของ LIS: กลั้นลมหรืออุจจาระเหลวไม่อยู่ (ส่วนใหญ่เล็กน้อย)"
+   "Acute vs chronic: &lt; 6–8 สัปดาห์ ขอบเรียบ vs &gt; 6–8 สัปดาห์ + sentinel pile, hypertrophied papilla, IAS fibers, ขอบแข็ง (triad ของ chronic fissure)",
+   "Posterior midline ~90% · anterior ~10% (หญิงหลังคลอด) · lateral/ หลายแผล/ ไม่เจ็บ → Crohn's, TB, HIV, syphilis, SCC → EUA + biopsy",
+   "Conservative ทุกราย: fiber 25–35 g/วัน น้ำ sitz bath stool softener ยาชาเฉพาะที่ · acute fissure หายได้มาก",
+   "Chemical sphincterotomy: nitroglycerin 0.2–0.4% (ปวดศีรษะ ~20–30%) หรือ diltiazem 2%/ nifedipine 0.2–0.3% (ผลเท่ากัน ผลข้างเคียงน้อยกว่า) วันละ 2–3 ครั้ง 6–8 สัปดาห์ หายราว 50–70%",
+   "Botulinum toxin ฉีด IAS: อัมพาตชั่วคราว ~3 เดือน หายราว 60–80% แต่กลับเป็นซ้ำมากกว่า LIS · เหมาะกับผู้ที่เสี่ยงกลั้นอุจจาระไม่อยู่",
+   "LIS: ตัด IAS ด้านข้างยาวเท่า apex ของแผลหรือถึง dentate line · หาย &gt; 90% · incontinence ส่วนใหญ่เป็นลม เล็กน้อย · ระวังในหญิงหลังคลอด ผู้สูงอายุ ผู้ที่ sphincter อ่อนอยู่แล้ว → advancement flap",
+   "ห้ามทำ manual anal dilatation (Lord's) เพราะทำ sphincter ฉีกขาดคาดเดาไม่ได้และกลั้นอุจจาระไม่อยู่มากกว่า"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E — ตรงกับลายมือ P'Ing · ช้อย A–D แต่งตามที่ผู้จดบอกว่าเป็น chronic ทั้งหมด · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง E และเขียนว่า acute fissure รักษาแบบ conservative · ไฟล์จดว่า A–D เป็นอาการของ chronic fissure ทั้งหมดแต่ไม่ได้จดรายละเอียด จึงแต่งช้อยให้เป็น chronic fissure ที่ล้มเหลวจากยา ซึ่งตาม ASCRS เป็นข้อบ่งชี้ของ LIS",
+  "mnemonic": "<b>'Acute = Analgesia + Fiber · Chronic = Cream (GTN/ diltiazem) → Botox → Cut (LIS)'</b>",
+  "guide": "Davids JS et al. ASCRS Clinical Practice Guidelines for the Management of Anal Fissures, Dis Colon Rectum 2023; Sabiston Textbook of Surgery 21st ed. (2022) — Anus",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกอายุ 6 เดือนถ่ายแข็งมีเลือดสดติดอุจจาระ พบแผลเล็กที่ทวาร → acute fissure ในทารก แก้ท้องผูก (สาเหตุเลือดออกทางทวารที่พบบ่อยในทารก)"
+   "หญิง 28 ปี หลังคลอด 2 เดือน ปวดถ่ายมีเลือด แผลที่ anterior midline 3 สัปดาห์ → acute fissure → fiber + sitz bath + ยาชาเฉพาะที่",
+   "ชาย 38 ปี มีแผลที่ทวารหนักด้านข้างหลายแผล ไม่ค่อยเจ็บ ท้องเสียเรื้อรังและน้ำหนักลด → สงสัย Crohn's disease → EUA + biopsy + colonoscopy ไม่ทำ LIS",
+   "หญิงสูงอายุ 70 ปี chronic fissure ล้มเหลวจากยา แต่เคยคลอดยากและกลั้นลมไม่อยู่ → botulinum toxin หรือ anal advancement flap แทน LIS",
+   "ทำไม anal fissure ส่วนใหญ่อยู่ posterior midline → เลือดที่มาเลี้ยง anoderm ด้านหลังน้อยที่สุด และ IAS ที่หดเกร็งกดหลอดเลือดยิ่งทำให้ขาดเลือด"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>ข้อไหนไม่ต้อง LIT — A–D เป็นอาการ chronic anal fissure หมดเลย E. acute anal fissure</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์จดว่าช้อย A–D เป็นอาการของ chronic anal fissure ทั้งหมด (ไม่ได้จดรายละเอียด) → แต่งช้อย A–D ให้เป็น chronic fissure ที่ล้มเหลวจากยา",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_40"
   ]
  },
  "MDCU74|RoD|41": {
-  "interp": "ข้อ INCORRECT: ข้อความเกี่ยวกับ neuroblastoma ข้อใด <b>ผิด</b>",
-  "why": "P'Ing วง A (ผู้จดเขียน \"ตรงแอค\") — Claude เติม <b>\"in most children diagnosed after 2 years\"</b> ให้ช้อยผิดชัด<br><b>นอกสไลด์:</b> พยากรณ์ขึ้นกับอายุ ระยะ และชีววิทยาของก้อน · ทารกอายุน้อยกว่าราว 18 เดือนพยากรณ์ดี · เด็กโตส่วนใหญ่มาด้วยโรคกระจาย (กระดูก ไขกระดูก) และเป็นกลุ่มเสี่ยงสูง พยากรณ์ไม่ดี",
+  "interp": "ข้อแบบ <b>incorrect</b>: ให้เลือกข้อความที่<b>ผิด</b>เกี่ยวกับ <b>neuroblastoma</b> — ต้องรู้ว่าอายุที่วินิจฉัยเป็นปัจจัยพยากรณ์สำคัญที่สุดตัวหนึ่ง และเด็กที่<b>อายุมากกว่า</b>เกณฑ์ (18 เดือน) มักมาด้วยโรคแพร่กระจายและพยากรณ์แย่",
+  "why": "Neuroblastoma เกิดจาก <b>neural crest cells</b> ของ sympathetic nervous system พบที่ <b>adrenal medulla</b> มากที่สุด (~40–50%) รองลงมาคือ paraspinal ganglia ในท้อง อก คอ และ pelvis · เป็น<b>เนื้องอกแข็งนอกกะโหลกที่พบบ่อยที่สุดในเด็ก</b>และมะเร็งที่พบบ่อยที่สุดในทารก อายุเฉลี่ยราว 18 เดือน · ปัจจัยพยากรณ์: <b>อายุ &lt; 18 เดือน</b> ดี (เกณฑ์เดิมคือ 1 ปี), ระยะ (INRG: L1, L2, M, MS), histology ตาม Shimada, <b>MYCN amplification</b> (~20%) แย่, DNA index hyperdiploid ดีในทารก, 11q aberration แย่ · เด็กที่วินิจฉัยหลังอายุ 18 เดือน–2 ปี ส่วนใหญ่มาด้วย<b>โรคแพร่กระจาย (stage M)</b> ไปกระดูก ไขกระดูก ต่อมน้ำเหลือง เป็นกลุ่ม <b>high-risk</b> ที่อัตรารอดระยะยาวเพียงราว 50–60% แม้รักษาเต็มที่ · ตรวจ: urine <b>VMA/ HVA</b> สูงราว 90%, CT/ MRI (ก้อนมีหินปูน ~85–90% ห่อหุ้มหลอดเลือด), <b>MIBG scan</b>, bone marrow biopsy · high-risk รักษาด้วย induction chemotherapy → ผ่าตัด → high-dose chemotherapy + autologous stem cell rescue → radiotherapy → anti-GD2 immunotherapy (dinutuximab) + isotretinoin · ไฟล์วง A <b>\"Good prognosis\"</b> และผู้จดเขียนว่าข้อนี้<b>\"ตรงแอค\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ neuroblastoma มาจากเซลล์ neural crest ที่สร้าง sympathetic ganglia และต่อมหมวกไตชั้นใน",
-   "C": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิดในภาพรวม เพราะก้อนสร้าง catecholamine ที่สลายเป็น VMA/HVA และพบสูงในผู้ป่วยส่วนใหญ่",
-   "D": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ MYCN amplification ทำให้ก้อนโตเร็วและเป็นเกณฑ์จัดกลุ่มเสี่ยงสูงโดยไม่ขึ้นกับอายุ",
-   "E": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะเป็นมะเร็งก้อนตันนอกกะโหลกที่พบบ่อยที่สุดในเด็ก (สมองเป็นก้อนตันที่พบบ่อยที่สุดโดยรวม)"
+   "B": "ข้อความถูก: neuroblastoma มาจาก neural crest cells ที่จะเจริญเป็น sympathetic ganglia และ adrenal medulla ในกลุ่มเดียวกับ ganglioneuroblastoma และ ganglioneuroma (ร้ายน้อยลงตามลำดับ) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับต้นกำเนิดของก้อน paraspinal ในทรวงอกของเด็กชาย 3 ปี ที่มี Horner syndrome",
+   "C": "ข้อความถูก: เนื้องอกสร้าง catecholamine จึงพบ metabolite คือ VMA และ HVA ในปัสสาวะสูงในราว 90% ใช้ช่วยวินิจฉัยและติดตามโรค แต่ความดันโลหิตสูงจาก catecholamine พบไม่บ่อย · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการตรวจของเด็กหญิง 2 ปี ท้องโตมีก้อนข้ามเส้นกลางและรอบตาช้ำเป็นวง (raccoon eyes)",
+   "D": "ข้อความถูก: MYCN amplification (&gt; 10 copies) พบราว 20% และสัมพันธ์กับโรคลุกลามเร็วและพยากรณ์แย่ จัดเข้า high-risk ไม่ว่าอายุหรือระยะใด (ยกเว้นบางกลุ่มที่ตัดออกหมด) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับปัจจัยพยากรณ์ของทารก 10 เดือน ที่ก้อนเฉพาะที่แต่มี MYCN amplification",
+   "E": "ข้อความถูก: neuroblastoma เป็นเนื้องอกแข็งนอกกะโหลกที่พบบ่อยที่สุดในเด็ก (ราว 8–10% ของมะเร็งเด็ก) ส่วนเนื้องอกแข็งที่พบบ่อยที่สุดโดยรวมคือ brain tumor และมะเร็งที่พบบ่อยที่สุดคือ leukemia · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับระบาดวิทยาของมะเร็งเด็ก เช่น ก้อนในท้องของเด็ก 1 ปีที่ไม่ใช่สมอง"
   },
-  "trap": "ข้อนี้ถามข้อความที่ผิด · พยากรณ์ดีเฉพาะทารกอายุน้อยและระยะต้น ไม่ใช่เด็กส่วนใหญ่",
+  "trap": "คนจำได้ว่า neuroblastoma มี spontaneous regression และพยากรณ์ดีในบางกลุ่ม จึงคิดว่า good prognosis เป็นข้อความถูก · แต่ภาวะนั้นเกิดใน<b>ทารก &lt; 18 เดือน</b> (โดยเฉพาะ stage MS) ส่วนเด็กที่<b>อายุ &gt; 18 เดือน–2 ปี</b>ส่วนใหญ่มาด้วย metastasis และพยากรณ์แย่ · จำว่าอายุมาก = แย่",
   "summary": [
-   "<b>นอกสไลด์:</b> อาการ: ก้อนในท้องข้ามแนวกลาง · ตาโปนช้ำรอบตา (raccoon eyes จากกระจายไปเบ้าตา) · ปวดกระดูก · opsoclonus-myoclonus · Horner (ก้อนที่คอ/อก)",
-   "<b>นอกสไลด์:</b> แยกจาก Wilms: neuroblastoma ข้ามแนวกลาง มีหินปูน ห่อหลอดเลือด · Wilms อยู่ในไต ไม่ค่อยข้ามแนวกลาง"
+   "ตำแหน่ง: adrenal ~40–50% · paraspinal abdominal ~25% · posterior mediastinum ~15% · คอ pelvis น้อยกว่า · เด็กเล็กเนื้องอกใน posterior mediastinum พยากรณ์ดีกว่าในท้อง",
+   "อาการ: ก้อนท้องแข็งข้ามเส้นกลาง · raccoon eyes (metastasis หลังเบ้าตา) · ปวดกระดูก ซีด (ไขกระดูก) · Horner syndrome · spinal cord compression (dumbbell) · blueberry muffin skin ในทารก",
+   "Paraneoplastic: opsoclonus–myoclonus–ataxia (มักพยากรณ์ด้านมะเร็งดีแต่มีปัญหาพัฒนาการ) · VIP-secreting ทำท้องเสียเรื้อรัง (Kerner–Morrison)",
+   "แยกจาก Wilms tumor: neuroblastoma อายุน้อยกว่า ป่วยกว่า มีหินปูน ห่อหุ้มหลอดเลือด ข้ามเส้นกลาง ดันไตลง · Wilms เกิดในไต เด็กดูแข็งแรง ดันหลอดเลือด มี claw sign",
+   "INRG staging: L1 เฉพาะที่ไม่มี image-defined risk factors · L2 มี IDRF · M แพร่กระจาย · MS อายุ &lt; 18 เดือน แพร่ไปผิวหนัง ตับ ไขกระดูก (&lt; 10%) มัก regress เอง",
+   "Risk group: low (L1, MS ที่ดี) → ผ่าตัดหรือติดตาม · intermediate → chemotherapy + ผ่าตัด · high (M อายุ &gt; 18 เดือน หรือ MYCN amplified) → multimodal + stem cell + immunotherapy",
+   "Favorable: อายุน้อย, Shimada favorable histology, hyperdiploid, ไม่มี MYCN amplification, ไม่มี 11q/ 1p loss"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · ไฟล์จดได้ช้อยเดียวจึงแต่งช้อยที่เหลือเป็นข้อความถูก · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A \"Good prognosis\" (ผู้จดเขียนว่าตรงข้อสอบเก่า) · ช้อยในไฟล์มีคำเดียว จึงเติม \"in most children diagnosed after 2 years of age\" ให้ผิดชัดตามข้อมูล COG/ INRG และแต่งช้อยอื่นเป็นข้อความที่ถูกตามตำรา",
+  "mnemonic": "<b>'Neuroblastoma: อายุน้อยรอด อายุมากแย่ · MYCN = Many copies = Mean (แย่)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Neuroblastoma; Cohn SL et al. The International Neuroblastoma Risk Group (INRG) classification system, J Clin Oncol 2009",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกอายุ 3 เดือนมีก้อนที่ต่อมหมวกไตเล็ก ตับโต ตุ่มสีน้ำเงินที่ผิวหนัง ไขกระดูกมีเซลล์เล็กน้อย → stage MS พยากรณ์ดี หลายรายก้อนยุบเอง"
+   "ทารก 6 เดือน ก้อนที่ adrenal เล็ก ตับโตและมีตุ่มสีน้ำเงินที่ผิวหนัง ไขกระดูกมีเซลล์มะเร็ง 5% ไม่มี MYCN amplification → stage MS → ติดตามใกล้ชิด มัก regress เอง",
+   "เด็ก 4 ปี ปวดกระดูก ซีด raccoon eyes ก้อน adrenal ใหญ่ MIBG พบหลายจุด → high-risk neuroblastoma → induction chemotherapy ก่อนผ่าตัด",
+   "เด็ก 18 เดือน เดินเซ ตากระตุกทุกทิศทาง แขนขากระตุก → opsoclonus–myoclonus → หา neuroblastoma ด้วย CT/ MRI และ urine VMA/ HVA",
+   "ทำไมต้องรู้ image-defined risk factors ก่อนผ่าตัด → ก้อนที่ห่อหุ้มหลอดเลือดใหญ่หรือเข้า spinal canal ผ่าตัดตอนแรกเสี่ยงมาก ควรให้ยาเคมีให้ยุบก่อน"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>neuroblastoma ข้อใดผิด (ตรงแอค) — A. Good prognosis (ผู้จดจำได้ช้อยเดียว)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดได้ช้อยเดียว \"Good prognosis\" (ผู้จดเขียนตรงแอค) → แต่งช้อยที่เหลือเป็นข้อความถูก และเติม \"in most children diagnosed after 2 years\" ให้ช้อย A ผิดชัดเจน",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_41"
   ]
  },
  "MDCU74|RoD|42": {
-  "interp": "ชายอายุ 78 ถ่ายเป็นเลือดสด ไม่ปวดท้อง → ถามสาเหตุที่พบบ่อยที่สุด (คล้าย 74A ข้อไม่มีเลข 9 · ข้อนี้เน้นการจัดการ)",
-  "why": "P'Ing วง <b>diverticulosis</b><br><b>นอกสไลด์:</b> ในผู้สูงอายุ เลือดออกทางเดินอาหารส่วนล่างแบบไม่ปวดที่พบบ่อยที่สุดคือ diverticular bleeding · ส่วนใหญ่หยุดเอง จึงเริ่มจาก resuscitation ประเมินความรุนแรง และแยกเลือดออกส่วนบน แล้วค่อยส่องลำไส้ใหญ่หลังเตรียมลำไส้",
+  "interp": "ชาย 78 ปี มี<b>ถ่ายเป็นเลือดสด/ แดงคล้ำแบบไม่ปวดท้อง (painless hematochezia)</b> — ถามสาเหตุที่พบบ่อยที่สุดของ lower GI bleeding ในผู้สูงอายุ ซึ่งต้องรู้ทั้งความถี่และลักษณะทางคลินิกของแต่ละสาเหตุ",
+  "why": "<b>Diverticular bleeding</b> เป็นสาเหตุที่พบบ่อยที่สุดของ acute lower GI bleeding (ราว 30–50%) โดยเฉพาะผู้สูงอายุ · diverticulum เป็น pseudodiverticulum ที่ mucosa ยื่นผ่านจุดอ่อนที่ <b>vasa recta</b> ทะลุผนังลำไส้ หลอดเลือดถูกยืดบางจนแตกเข้าโพรงลำไส้ จึงเลือดออก<b>มากทันทีและไม่ปวด</b> (การอักเสบ diverticulitis มักไม่เลือดออก) · ฝั่งตะวันตก diverticula อยู่ sigmoid มาก แต่<b>ฝั่งขวาเลือดออกบ่อยกว่า</b> (คอกว้าง ผนังบาง) และในเอเชียพบด้านขวามาก · ราว <b>75–80% หยุดเอง</b> แต่เลือดออกซ้ำได้ราว 20–40% · ปัจจัยเสี่ยง: อายุ, NSAIDs/ aspirin, antiplatelet/ anticoagulant · การดูแล: resuscitation, ตัด UGIB (hematochezia + ช็อกอาจมาจาก UGIB ราว 10–15% → ส่อง EGD), <b>colonoscopy</b> ระหว่างนอนโรงพยาบาลหลังเตรียมลำไส้ให้ endoscopic hemostasis (clip, band) — การเร่งทำภายใน 24 ชม. ไม่ได้ลดเลือดออกซ้ำหรือการตายชัดเจน · ไม่คงที่หรือเลือดยังออก → <b>CTA</b> แล้ว angioembolization · ผ่าตัด segmental colectomy เมื่อระบุตำแหน่งได้ (subtotal colectomy เมื่อหาไม่พบ) · ไฟล์วงข้อ 1 ลายมือ P'Ing คือ <b>\"Diverticulosis\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Angiodysplasia เป็นสาเหตุรองลงมา มักออกซ้ำปริมาณน้อย · จะถูกถ้าผู้ป่วยไตวายเรื้อรังฟอกเลือด ถ่ายเลือดซ้ำหลายครั้งปริมาณน้อยและซีดจากขาดเหล็ก",
-   "C": "<b>นอกสไลด์:</b> มะเร็งลำไส้ใหญ่ออกน้อยเรื้อรังปนอุจจาระ · จะถูกถ้าผู้สูงอายุถ่ายมีเลือดปนหลายเดือน ถ่ายผิดนิสัย น้ำหนักลด",
-   "D": "<b>นอกสไลด์:</b> Ischemic colitis มีปวดท้องนำ · จะถูกถ้าผู้สูงอายุปวดท้องซ้ายเฉียบพลันหลังความดันต่ำ แล้วถ่ายเป็นเลือดปนอุจจาระ",
-   "E": "<b>นอกสไลด์:</b> ริดสีดวงออกเป็นหยดหลังถ่าย ปริมาณน้อย · จะถูกถ้าผู้ใหญ่อายุน้อยมีเลือดสดหยดตามอุจจาระหลังเบ่ง ไม่ซีด"
+   "B": "Angiodysplasia เป็นหลอดเลือดเสื่อมขยายใน submucosa พบมากที่ cecum/ right colon ในผู้สูงอายุ สัมพันธ์กับ aortic stenosis (Heyde syndrome), CKD และ von Willebrand disease มักเลือดออกซึมเรื้อรังหรือเป็นพัก ๆ จนซีด พบน้อยกว่า diverticular bleeding · จะถูกถ้าเป็นหญิง 80 ปี มี aortic stenosis ซีดจากขาดธาตุเหล็ก ถ่ายดำ/ แดงเป็นพัก ๆ colonoscopy พบจุดแดงแผ่เป็นแฉกที่ cecum",
+   "C": "Colon cancer มักเลือดออกซึม (occult) จนซีดจากขาดธาตุเหล็ก (โดยเฉพาะ right colon) หรือเลือดปนอุจจาระร่วมกับการขับถ่ายเปลี่ยนแปลง น้ำหนักลด ไม่ค่อยทำเลือดออกมากเฉียบพลัน (ราว 10%) · จะถูกถ้าเป็นชาย 70 ปี ซีด อ่อนเพลีย ถ่ายเหลวสลับผูก น้ำหนักลด 5 kg ใน 3 เดือน FIT บวก",
+   "D": "Ischemic colitis ทำให้<b>ปวดท้องบิดเฉียบพลัน</b>ตามด้วยถ่ายเป็นเลือดปนภายใน 24 ชม. ที่ watershed area (splenic flexure, rectosigmoid junction) ในผู้สูงอายุที่มีโรคหลอดเลือด ช็อก หรือหลังผ่าตัด aorta · ไม่ใช่ painless · จะถูกถ้าเป็นหญิง 75 ปี หลังผ่าตัด AAA วันที่ 2 ปวดท้องซ้ายแล้วถ่ายเป็นเลือด colonoscopy พบ mucosa ซีดบวมที่ sigmoid",
+   "E": "Hemorrhoids เป็นสาเหตุที่พบบ่อยที่สุดของเลือดสดเล็กน้อยทางทวารในผู้ป่วยนอก (เลือดหยดหรือติดกระดาษหลังถ่าย) แต่ไม่ค่อยทำให้เลือดออกมากจนต้องนอนโรงพยาบาล และในผู้สูงอายุต้องตัดสาเหตุอื่นก่อนสรุป · จะถูกถ้าเป็นชาย 35 ปี ท้องผูก เบ่งถ่าย มีเลือดสดหยดหลังถ่ายไม่ปวด ส่องตรวจพบริดสีดวงภายใน grade II"
   },
-  "trap": "ถ่ายเลือดสดปริมาณมากร่วมกับช็อก อาจมาจากเลือดออกส่วนบนได้ — ต้องแยกก่อน",
+  "trap": "Angiodysplasia ก็เป็นสาเหตุ painless LGIB ในผู้สูงอายุ และริดสีดวงก็เป็นเลือดสดที่พบบ่อย ทำให้สับสน · วิธีแยก: เลือดออก<b>มากทันทีไม่ปวด</b>ในผู้สูงอายุ = diverticular bleeding เป็นอันดับแรก · angiodysplasia มักซึมเรื้อรัง · ischemic colitis มีปวดท้องนำ · มะเร็งมักซึมหรือมีอาการอื่นร่วม",
   "summary": [
-   "<b>นอกสไลด์:</b> ACG 2023: ผู้ป่วยคงที่ → colonoscopy ระหว่างนอนโรงพยาบาลหลังเตรียมลำไส้ (ห้ามเลือดด้วย clip/band)",
-   "<b>นอกสไลด์:</b> Hb เป้าหมายราว 7 g/dL (ราว 8 ในผู้มีโรคหัวใจ) · แก้ภาวะเลือดแข็งตัวผิดปกติ · หยุด NSAIDs"
+   "สาเหตุ acute LGIB ในผู้ใหญ่: diverticulosis (บ่อยสุด) · ischemic colitis · hemorrhoids · post-polypectomy bleeding · colorectal neoplasia · angiodysplasia · IBD · infectious colitis · radiation proctitis",
+   "Hematochezia ร่วมกับช็อก: คิดถึง UGIB ที่เลือดออกมากราว 10–15% → NG aspirate/ EGD ก่อน · BUN/ creatinine สูงชวนคิด UGIB",
+   "ACG 2023: resuscitate และ risk stratify (เช่น Oakland score ≤ 8 ให้กลับบ้านได้) · colonoscopy หลังเตรียมลำไส้เป็นการตรวจหลัก ไม่จำเป็นต้องเร่งด่วนภายใน 24 ชม. ในทุกราย",
+   "CTA (เห็นเลือดออก ≥ 0.3–0.5 mL/นาที) ในผู้ที่ไม่คงที่หรือเลือดออกต่อเนื่อง → catheter angiography + superselective embolization · tagged RBC scan ไวกว่า (0.1 mL/นาที) แต่ระบุตำแหน่งได้ไม่แม่น",
+   "ผ่าตัด: segmental colectomy เมื่อระบุตำแหน่งได้แน่ · หาไม่เจอแต่เลือดออกต่อเนื่อง → subtotal colectomy (blind segmental resection เลือดออกซ้ำสูง)",
+   "Diverticular bleeding: หยุดเอง ~75–80% · ซ้ำ ~20–40% · ซ้ำหลายครั้งพิจารณา elective resection · หยุด NSAIDs/ aspirin ที่ไม่จำเป็น",
+   "Angiodysplasia: argon plasma coagulation ทาง endoscopy · Heyde syndrome ดีขึ้นหลังเปลี่ยนลิ้น aortic · ซ้ำบ่อยอาจใช้ octreotide หรือ thalidomide"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ข้อคล้าย 74A ข้อไม่มีเลข 9) · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วงข้อ 1 Diverticulosis · ACG และตำราศัลยกรรมระบุว่า diverticular bleeding เป็นสาเหตุที่พบบ่อยที่สุดของ acute LGIB ในผู้สูงอายุ ไฟล์มี 3 ช้อยจึงเติม ischemic colitis และ hemorrhoids เป็น D, E",
+  "mnemonic": "<b>'แก่ + เลือดออกมาก + ไม่ปวด = Diverticulum (ปวดท้องนำ = Ischemic)'</b>",
+  "guide": "Sengupta N et al. ACG Clinical Guideline: Management of Patients with Acute Lower Gastrointestinal Bleeding, Am J Gastroenterol 2023; Oakland K et al. BSG Guideline: Diagnosis and management of acute lower gastrointestinal bleeding, Gut 2019",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้สูงอายุถ่ายเลือดสดมาก ความดันต่ำแม้ให้สารน้ำและเลือด ส่องกระเพาะปกติ → CTA หาจุดเลือดออก แล้วทำ embolization"
+   "ชาย 80 ปี ถ่ายเลือดแดงคล้ำมาก ความดัน 80/50 หลังให้สารน้ำยังไม่คงที่ → CTA แล้ว angioembolization",
+   "หญิง 70 ปี ถ่ายเลือดแดงคล้ำ ความดันปกติ Hb คงที่ → เตรียมลำไส้แล้ว colonoscopy พบ diverticulum ที่มีหลอดเลือดโผล่ → endoscopic clip",
+   "ชาย 65 ปี ถ่ายเลือดสดมาก ช็อก BUN สูงมาก มีประวัติปวดท้องตอนท้องว่าง → ส่อง EGD ก่อน (สงสัย duodenal ulcer เลือดออก)",
+   "ทำไม diverticular bleeding ไม่ปวดท้อง → เป็นการแตกของ vasa recta ที่ถูกยืดบาง ไม่มีการอักเสบหรือขาดเลือดของผนังลำไส้"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>คนแก่มาด้วย painless LGIB อะไรคือ most common cause — 1. Diverticulosis 2. Angiodysplasia 3. CA colon</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เติม D, E · ข้อคล้าย diverticular bleeding ในคลังปีอื่น",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_42"
   ]
  },
  "MDCU74|RoD|43": {
-  "interp": "ถามข้อห้ามของการรัดยางริดสีดวงภายใน (rubber band ligation)",
-  "why": "P'Ing วง <b>On immunosuppressive drug</b><br><b>นอกสไลด์:</b> การรัดยางทำให้เนื้อริดสีดวงขาดเลือดและหลุดเป็นแผล · ในผู้ภูมิคุ้มกันต่ำ แผลนี้อาจลุกลามเป็นการติดเชื้อรุนแรงในอุ้งเชิงกราน (pelvic sepsis) จึงเป็นข้อห้าม",
+  "interp": "ถามข้อห้ามของ <b>rubber band ligation (RBL)</b> ในริดสีดวงทวารภายใน — ต้องรู้ภาวะแทรกซ้อนที่อันตรายที่สุดของ RBL คือ <b>pelvic sepsis</b> และเลือดออกช้า จึงห้ามหรือระวังในผู้ที่ภูมิคุ้มกันบกพร่องและเลือดออกง่าย",
+  "why": "RBL เป็นการรักษาริดสีดวงภายใน <b>grade I–III</b> ที่ทำที่ OPD ได้ ใช้ยางรัดที่ฐานริดสีดวง<b>เหนือ dentate line</b> อย่างน้อยราว 1–2 cm (บริเวณที่ไม่มีเส้นประสาทรับความเจ็บ) ทำให้ขาดเลือด เนื้อตายหลุดใน 5–10 วันเหลือแผลเป็นที่ยึดเยื่อบุไว้ไม่ให้ย้อย · ภาวะแทรกซ้อน: ปวด (ยางใกล้ dentate line เกินไป → ต้องเอาออก), <b>เลือดออกช้า</b>ช่วงวันที่ 5–10 เมื่อเนื้อตายหลุด, ปัสสาวะไม่ออก, thrombosed external hemorrhoid และที่อันตรายที่สุดคือ <b>pelvic/ perineal sepsis</b> (necrotizing infection) ซึ่งมาด้วยสามอาการ <b>ปวดมากขึ้น ไข้ ปัสสาวะไม่ออก</b> · ข้อห้าม/ ข้อควรระวัง: <b>ภูมิคุ้มกันบกพร่อง</b> (ยากดภูมิ, เคมีบำบัด, HIV ที่ CD4 ต่ำ, neutropenia) เพราะเสี่ยง sepsis สูง, ภาวะเลือดออกง่ายหรือใช้ anticoagulant/ antiplatelet ที่หยุดไม่ได้, portal hypertension ที่มี anorectal varices, anorectal Crohn's disease, ริดสีดวงภายนอก (มีเส้นประสาทรับความเจ็บ) · ไฟล์วงข้อ 2 ลายมือ P'Ing คือ <b>\"On immunosuppressive drug\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Grade II เป็นข้อบ่งชี้หลักของการรัดยาง · ไม่มีสถานการณ์ใดที่ grade II เป็นข้อห้าม เพราะเป็นริดสีดวงภายในที่โผล่แล้วกลับเข้าเอง เหมาะกับหัตถการนี้ที่สุด",
-   "C": "<b>นอกสไลด์:</b> การมีเพศสัมพันธ์ทางทวารไม่ใช่ข้อห้าม · ไม่มีสถานการณ์ใดที่เป็นข้อห้ามโดยตัวมันเอง เพราะความเสี่ยงของหัตถการมาจากการติดเชื้อและเลือดออก ไม่ใช่พฤติกรรมทางเพศ (ให้งดช่วงแผลหาย)",
-   "D": "<b>นอกสไลด์:</b> เคยรัดสำเร็จทำซ้ำได้ · ไม่มีสถานการณ์ใดที่ประวัติรัดสำเร็จเป็นข้อห้าม เพราะการรัดซ้ำเป็นวิธีปกติเมื่อริดสีดวงกลับมา",
-   "E": "<b>นอกสไลด์:</b> อายุมากไม่ใช่ข้อห้าม · ไม่มีสถานการณ์ใดที่อายุอย่างเดียวเป็นข้อห้าม เพราะหัตถการไม่ต้องดมยาและทำได้ที่ห้องตรวจ"
+   "B": "Grade II (ย้อยออกมาขณะเบ่งแล้วกลับเข้าไปเอง) เป็น<b>ข้อบ่งชี้หลัก</b>ของ RBL ไม่ใช่ข้อห้าม เมื่อปรับอาหารและยาแล้วยังเลือดออก (RBL ได้ผลดีที่สุดใน grade I–III) · จะถูกถ้าเป็นชาย 45 ปี ภูมิคุ้มกันปกติ มีเลือดสดหยดหลังถ่ายและก้อนย้อยออกมาขณะเบ่งแล้วกลับเข้าเอง กินใยอาหารแล้ว 6 สัปดาห์ยังไม่ดีขึ้น (เหมาะกับ RBL)",
+   "C": "การมี anal intercourse ไม่ใช่ข้อห้ามของ RBL แต่ควรแนะนำให้งดช่วงแผลยังไม่หาย และในผู้ที่มี HIV ต้องดู CD4/ ภูมิคุ้มกันเป็นสำคัญ (ไฟล์มีช้อยนี้แต่ไม่ได้วง) · จะถูกถ้าเป็นชาย 30 ปี มีเพศสัมพันธ์ทางทวารหนัก HIV ลบ มีริดสีดวง grade II เลือดออกซ้ำ ภูมิคุ้มกันปกติ (ทำ RBL ได้และแนะนำงด 2–4 สัปดาห์)",
+   "D": "ประวัติทำ RBL สำเร็จมาก่อนไม่ใช่ข้อห้าม ริดสีดวงกลับเป็นซ้ำได้ (ราว 10–25% ในหลายปี) และทำ RBL ซ้ำได้หลายครั้ง โดยรัดได้ 1–3 ก้อนต่อครั้งห่างกัน 4–6 สัปดาห์ · จะถูกถ้าเป็นหญิง 50 ปี เคยรัดยาง grade II ได้ผลดี 3 ปีก่อน ตอนนี้เลือดออกซ้ำจากริดสีดวงก้อนเดิมขนาดเล็ก ภูมิคุ้มกันปกติ",
+   "E": "อายุมากไม่ใช่ข้อห้าม RBL กลับเหมาะกับผู้สูงอายุเพราะไม่ต้องดมยาสลบ ทำที่ OPD ได้ ต่างจาก hemorrhoidectomy ที่ปวดมากและพักฟื้นนาน แต่ต้องตรวจลำไส้ใหญ่ตามข้อบ่งชี้เพื่อตัดมะเร็งที่ทำให้เลือดออก · จะถูกถ้าเป็นชาย 72 ปี ริดสีดวง grade II เลือดออก colonoscopy ปกติ ไม่ได้กินยาต้านเกล็ดเลือด"
   },
-  "trap": "คิดว่าเพศสัมพันธ์ทางทวารหรืออายุเป็นข้อห้าม — ข้อห้ามจริงคือภูมิคุ้มกันต่ำ ภาวะเลือดออกง่าย/ยาต้านการแข็งตัว และริดสีดวงภายนอก",
+  "trap": "ข้อนี้คนเลือก anal intercourse เพราะดูเป็นปัจจัยเสี่ยงที่แผลจะติดเชื้อหรือมีแรงกด · แต่สิ่งที่ทำให้ RBL อันตรายจริงคือ<b>ร่างกายสู้เชื้อไม่ได้</b> (pelvic sepsis) และเลือดหยุดยาก · จำข้อห้ามด้วยคำถามว่า \"ถ้าเกิด sepsis หรือเลือดออกจากแผลตายหลุด ผู้ป่วยจะรับไหวไหม\"",
   "summary": [
-   "<b>นอกสไลด์:</b> Rubber band ligation: ริดสีดวงภายใน grade I–III · รัดเหนือ dentate line (ไม่มีเส้นประสาทรับความเจ็บ)",
-   "<b>นอกสไลด์:</b> ข้อห้าม: ภูมิคุ้มกันต่ำ · ยาต้านการแข็งตัว/เลือดออกง่าย · ริดสีดวงภายนอก · ภาวะอักเสบรอบทวาร"
+   "Goligher grading (ริดสีดวงภายใน): I เลือดออก ไม่ย้อย · II ย้อยเมื่อเบ่ง กลับเอง · III ย้อยต้องดันกลับ · IV ย้อยค้างดันไม่กลับ",
+   "การรักษา: ทุก grade เริ่มด้วยใยอาหาร น้ำ ลดการเบ่ง ไม่นั่งส้วมนาน · I–II (บาง III) → RBL (ดีที่สุดใน office procedure) หรือ sclerotherapy/ infrared coagulation",
+   "Grade III–IV, mixed internal–external หรือ RBL ล้มเหลว → excisional hemorrhoidectomy (Milligan–Morgan เปิด, Ferguson ปิด) หรือ stapled hemorrhoidopexy/ DGHAL (ปวดน้อยกว่า แต่กลับเป็นซ้ำมากกว่า)",
+   "RBL: รัด 1–3 ก้อนต่อครั้ง เหนือ dentate line · ปวดมากทันทีหลังรัดแสดงว่ายางใกล้ dentate line → เอายางออก",
+   "Pelvic sepsis หลัง RBL: ปวดมากขึ้น ไข้ ปัสสาวะไม่ออก (triad) ภายในไม่กี่วัน → นอนโรงพยาบาล broad-spectrum IV antibiotics, CT, EUA และ debridement ถ้าจำเป็น",
+   "ข้อห้าม/ ระวัง: ภูมิคุ้มกันบกพร่อง, anticoagulant/ antiplatelet ที่หยุดไม่ได้, coagulopathy, anorectal varices, Crohn's ที่ทวาร, ริดสีดวงภายนอก, ตั้งครรภ์ (สัมพัทธ์)",
+   "Thrombosed external hemorrhoid ภายใน 72 ชม. ปวดมาก → excision ใต้ยาชาเฉพาะที่ · หลัง 72 ชม. → รักษาตามอาการ (ไม่ใช้ RBL)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วงข้อ 2 On immunosuppressive drug · ตำราศัลยกรรมและแนวทาง ASCRS ระบุว่าผู้ป่วยภูมิคุ้มกันบกพร่องเสี่ยง pelvic sepsis หลัง RBL จึงควรหลีกเลี่ยง ส่วน anal sex (ช้อยในไฟล์อีกข้อ) ไม่ใช่ข้อห้าม ไฟล์มี 2 ช้อยจึงเติม C–E",
+  "mnemonic": "<b>'RBL ห้ามใน \"ภูมิพัง เลือดไหลไม่หยุด เส้นเลือดขอด Crohn's\" · ระวัง Triad ปวด–ไข้–ฉี่ไม่ออก = Sepsis'</b>",
+  "guide": "Davis BR et al. ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids, Dis Colon Rectum 2018; Sabiston Textbook of Surgery 21st ed. (2022) — Anus",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังรัดยาง 3 วัน ปวดทวารมากขึ้น ไข้ ปัสสาวะลำบาก → สงสัย pelvic sepsis รับไว้ ให้ยาปฏิชีวนะทางหลอดเลือด ตรวจ CT"
+   "หญิง 40 ปี หลังรัดยางริดสีดวง 3 วัน ปวดก้นมากขึ้น ไข้ 38.8 °C ปัสสาวะไม่ออก → pelvic sepsis → admit ให้ broad-spectrum IV antibiotics, CT และ EUA",
+   "ชาย 60 ปี กิน warfarin จาก AF ริดสีดวง grade II เลือดออก → หลีกเลี่ยง RBL ใช้ infrared coagulation/ sclerotherapy หรือปรับยาร่วมกับแพทย์โรคหัวใจ",
+   "ชาย 50 ปี ริดสีดวง grade IV ย้อยค้างและมีส่วนภายนอกร่วม → excisional hemorrhoidectomy",
+   "ทำไม RBL ต้องรัดเหนือ dentate line → เหนือเส้นนี้รับความรู้สึกด้วย visceral nerve ไม่เจ็บ ใต้เส้นเป็น somatic nerve รัดแล้วปวดมาก"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 5 — ตัวพิมพ์: <b>Contraindication ของ rubber band ligation — 1. Anal sex 2. On immunosuppressive drug</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E",
+  "src": "S74DQ · หน้า 5",
+  "kimg": [
+   "kp74d_43"
   ]
  },
  "MDCU74|RoD|44": {
-  "interp": "ทารก 5 สัปดาห์อาเจียนพุ่งไม่มีน้ำดีมากขึ้นเรื่อย ๆ AXR กระเพาะโป่งลมมาก ลมส่วนปลายน้อย (สงสัย IHPS) → ถามการตรวจต่อไป",
-  "why": "คีย์ P'Ing ไม่ได้วง (มี ?) — <b>Claude ตอบ US</b> (ข้อคล้าย 74A ข้อไม่มีเลข 7)<br><b>นอกสไลด์:</b> US ยืนยัน IHPS ได้โดยไม่มีรังสี · ขณะรอผ่าตัดต้องแก้สารน้ำและเกลือแร่ก่อน เพราะอาเจียนกรดในกระเพาะทำให้ Cl และ K ต่ำ เลือดเป็นด่าง",
+  "interp": "ทารก 5 สัปดาห์ อาเจียน<b>พุ่งไม่มีน้ำดี</b>มากขึ้นเรื่อย ๆ plain film เห็นกระเพาะโป่งลมมากและลมส่วนปลายน้อย — สงสัย <b>infantile hypertrophic pyloric stenosis (IHPS)</b> ถามการตรวจขั้นต่อไป ซึ่งต้องเลือกการตรวจมาตรฐานที่ไว ปลอดภัย และไม่มีรังสี",
+  "why": "IHPS คือกล้ามเนื้อ pylorus หนาตัวจนอุดทางออกกระเพาะ (เหนือ ampulla จึงอาเจียน<b>ไม่มีน้ำดี</b>) · พบอายุ <b>2–8 สัปดาห์</b> (บ่อยสุด 3–6) เพศชายราว 4–5 เท่า บุตรคนแรก มีประวัติครอบครัว และสัมพันธ์กับ <b>erythromycin/ azithromycin</b> ในช่วง 2 สัปดาห์แรก · อาการ: อาเจียนพุ่งหลังกินนม หิวตลอด เห็น gastric peristalsis คลำได้ก้อนรูปมะกอก (olive) ที่ใต้ลิ้นปี่ขวา · ผลเลือด: <b>hypochloremic hypokalemic metabolic alkalosis</b> และ paradoxical aciduria ในรายขาดน้ำมาก · การตรวจยืนยันมาตรฐานคือ <b>ultrasonography</b> (ไวและจำเพาะ &gt; 95%): <b>pyloric muscle thickness ≥ 3–4 mm</b> และ <b>channel length ≥ 15–17 mm</b> ร่วมกับเห็นอาหารผ่านไม่ได้ · ถ้าคลำได้ olive ชัดจากผู้ตรวจที่ชำนาญวินิจฉัยได้เลย · รักษา: IHPS <b>ไม่ใช่ surgical emergency</b> — ต้องแก้น้ำและ electrolyte ก่อน (Cl ≥ 100, HCO3 &lt; 30 mmol/L, K ปกติ) เพื่อลดความเสี่ยง apnea หลังดมยา แล้วทำ <b>Ramstedt pyloromyotomy</b> (open หรือ laparoscopic) · ไฟล์ไม่ได้วงคำตอบ P'Ing ใส่ <b>\"?\"</b> หน้าข้อ ช้อยในไฟล์คือ \"1. US 2. CT 3. UGI study\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> CT ไม่จำเป็นในทารกสงสัย IHPS (US เห็น pylorus ชัดโดยไม่มีรังสี) · จะถูกถ้าเด็กบาดเจ็บช่องท้อง สัญญาณชีพคงที่ → CT with contrast",
-   "C": "<b>นอกสไลด์:</b> UGI study ใช้เมื่อ US ไม่ชัด · จะถูกถ้าทารกอาเจียนน้ำดี สงสัย malrotation (ดูตำแหน่ง duodenojejunal junction) หรือ US ก้ำกึ่ง (string sign)",
-   "D": "<b>นอกสไลด์:</b> สารทึบรังสีทางทวารไม่ไปถึง pylorus · จะถูกถ้าทารกแรกเกิดท้องอืด อาเจียนน้ำดี ไม่ถ่ายขี้เทา AXR ลำไส้ขยายหลายห่วง (distal obstruction) → contrast enema",
-   "E": "<b>นอกสไลด์:</b> MRI ต้องดมยาในทารกที่เกลือแร่ผิดปกติ · จะถูกถ้า US พบก้อนในท้องทารก → MRI ประเมินขอบเขตก่อนวางแผนรักษา"
+   "B": "CT ช่องท้องเห็นกล้ามเนื้อ pylorus หนาได้ แต่ให้รังสีสูงในทารก อาจต้องใช้ยานอนหลับ และไม่ได้เพิ่มความแม่นกว่า US จึงไม่ใช่การตรวจของ IHPS · ใช้ในเด็กเมื่อสงสัยภาวะในช่องท้องที่ US ประเมินไม่ได้ · จะถูกถ้าเป็นเด็ก 8 ปี รถชน ท้องแข็ง ความดันคงที่ FAST ไม่ชัด สงสัยบาดเจ็บตับหรือม้าม",
+   "C": "UGI contrast study วินิจฉัย IHPS ได้ (string sign, shoulder sign, double-track sign, beak sign) และใช้เมื่อ US ทำไม่ได้หรือผลไม่ชัด หรือเพื่อหาโรคอื่น แต่มีรังสีและเสี่ยงสำลัก contrast ในกระเพาะที่โป่ง จึงไม่ใช่ตัวเลือกแรก · จะถูกถ้าเป็นทารก 3 สัปดาห์ แข็งแรงดีแล้วอาเจียน<b>เขียว</b>ทันที (สงสัย malrotation with volvulus)",
+   "D": "Contrast enema ใช้กับการอุดตันลำไส้ส่วนปลายในทารกแรกเกิด (Hirschsprung, meconium ileus, meconium plug, small left colon, colonic atresia) ซึ่งมาด้วยท้องอืดมาก อาเจียนเขียว ไม่ถ่ายขี้เทา ไม่ใช่ gastric outlet obstruction · จะถูกถ้าเป็นทารกครบกำหนด 2 วัน ยังไม่ถ่ายขี้เทา ท้องอืดมาก อาเจียนเขียว plain film มีลำไส้ขยายหลายห่วง",
+   "E": "MRI ช่องท้องไม่มีรังสีแต่ใช้เวลานาน ต้องให้ยานอนหลับหรือดมยาในทารก ราคาแพง และไม่ได้ดีกว่า US สำหรับ IHPS · ใช้ในเด็กเมื่อต้องการดูเนื้อเยื่อละเอียด เช่น ก้อนในท้องหรือ biliary anatomy · จะถูกถ้าเป็นเด็ก 3 ปี มีก้อนในท้องขนาดใหญ่ที่สงสัย neuroblastoma และต้องดู image-defined risk factors"
   },
-  "trap": "เลือก UGI เพราะจำ string sign — ปัจจุบัน US เป็นมาตรฐาน",
+  "trap": "ภาพ plain film กระเพาะโป่งทำให้บางคนเลือก UGI study เพื่อ \"ดูทางผ่านอาหาร\" · แต่เมื่ออาการคลาสสิกของ IHPS (อายุ 5 สัปดาห์ พุ่ง ไม่มีน้ำดี) การตรวจแรกที่มาตรฐานคือ <b>US</b> · ข้อสำคัญคือแยก <b>ไม่มีน้ำดี = pylorus</b> ออกจาก <b>มีน้ำดี = ใต้ ampulla</b> ซึ่งต้องทำ UGI ด่วนหา volvulus",
   "summary": [
-   "<b>นอกสไลด์:</b> เกณฑ์ US ของ IHPS: กล้ามเนื้อ pylorus หนา ≥ 3–4 mm · pyloric channel ยาว ≥ 15–17 mm · target sign",
-   "<b>นอกสไลด์:</b> เกลือแร่: hypochloremic hypokalemic metabolic alkalosis + ปัสสาวะเป็นกรดผิดคาด (paradoxical aciduria) ในรายรุนแรง",
-   "<b>นอกสไลด์:</b> แก้ด้วย NSS ร่วมกับ dextrose และเติม KCl เมื่อปัสสาวะออก จน Cl และ HCO3 กลับเป็นปกติ แล้วผ่าตัด pyloromyotomy (Ramstedt)"
+   "IHPS: 2–8 สัปดาห์ · ชาย:หญิง ~4–5:1 · บุตรคนแรก · ครอบครัว · macrolide ในทารกช่วงแรก · อาเจียนพุ่งไม่มีน้ำดี หิวตลอด olive mass",
+   "Electrolyte: hypochloremic hypokalemic metabolic alkalosis (เสีย HCl) · ไตเก็บ Na แลกกับ K และ H → paradoxical aciduria เมื่อขาดน้ำมาก",
+   "US criteria: muscle thickness ≥ 3–4 mm · pyloric channel length ≥ 15–17 mm · pyloric diameter ≥ 10–14 mm · เห็นอาหารผ่าน pylorus ไม่ได้",
+   "UGI signs: string sign, double-track sign, shoulder sign, mushroom sign, beak sign · ใช้เมื่อ US ไม่ได้หรือไม่ชัด",
+   "เตรียมก่อนผ่าตัด: NPO, IV fluid 5% dextrose in 0.45–0.9% NaCl + KCl เมื่อปัสสาวะออก · ผ่าตัดเมื่อ Cl ≥ 100 และ HCO3 &lt; 30 · เพราะ alkalosis ทำ postoperative apnea",
+   "Ramstedt pyloromyotomy: กรีดกล้ามเนื้อตามยาวจนเห็น mucosa นูน ไม่ทะลุ mucosa (ระวังด้าน duodenum) · laparoscopic หรือ open ผลใกล้เคียง · เริ่มนมได้ภายในไม่กี่ชั่วโมง",
+   "Differential ที่ไม่มีน้ำดี: GERD, overfeeding, milk protein allergy, adrenal insufficiency (CAH salt-wasting มี hyperkalemia), raised ICP"
   ],
-  "opinion": "คีย์ไม่ได้วงคำตอบ — Claude ตอบ US ตามแนวทางวินิจฉัย IHPS · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีคีย์ (P'Ing ใส่ ?) คำตอบเว็บจึงเป็นของ Claude ที่เลือก US และเติมอายุ 5 สัปดาห์ให้เข้ากับ IHPS · ตาม Holcomb and Ashcraft และแนวทาง ACR, US เป็นการตรวจมาตรฐานลำดับแรกของทารกที่อาเจียนไม่มีน้ำดีและสงสัย pyloric stenosis ส่วน UGI ใช้เมื่อ US ไม่ชัด",
+  "mnemonic": "<b>'ไม่เขียว + พุ่ง + 2–8 สัปดาห์ = Pylorus → US · เขียว = Volvulus → UGI'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Pyloric Stenosis; ACR Appropriateness Criteria: Vomiting in Infants, J Am Coll Radiol 2020",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัด pyloromyotomy วันแรกทารกอาเจียนเล็กน้อยหลังเริ่มนม → พบได้ ให้นมต่อตามปกติ"
+   "ทารกชาย 4 สัปดาห์ IHPS ยืนยันด้วย US Cl 85 HCO3 36 K 2.9 → แก้น้ำและ electrolyte ก่อน แล้วจึง pyloromyotomy",
+   "ทารก 6 สัปดาห์ อาเจียนไม่มีน้ำดี US ไม่ชัด กล้ามเนื้อหนา 2.8 mm → ทำ US ซ้ำหรือ UGI study",
+   "หลัง pyloromyotomy ทารกอาเจียนเล็กน้อยในวันแรก → พบได้บ่อยจาก gastric atony/ edema ให้นมต่อไม่ต้องผ่าตัดซ้ำ",
+   "ทำไมทารก IHPS ต้องแก้ alkalosis ก่อนดมยา → alkalosis กดการหายใจหลังผ่าตัด ทำให้ postoperative apnea"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 5 — ตัวพิมพ์: <b>ทารกมาด้วย non-bilious vomiting plain film เจอ air bubble at stomach ถาม next investigation — 1. US 2. CT 3. UGI study</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์ไม่มีคำตอบ (P'Ing ใส่ ?) → Claude ตอบ US · เติมอายุ 5 สัปดาห์ · เติมช้อย D, E · ข้อคล้ายกับ 74A ไม่มีเลข 7",
+  "src": "S74DQ · หน้า 5",
+  "kimg": [
+   "kp74d_44"
   ]
  },
  "MDCU74|RoD|45": {
-  "interp": "มะเร็ง rectum ส่วนบน (14 cm เหนือ peritoneal reflection) ผ่าตัด anterior resection ไปแล้วโดยไม่ได้รักษาก่อนผ่าตัด · พยาธิ T2 N2a M0 (stage III) → ถามการรักษาเสริม",
-  "why": "คีย์ P'Ing: <b>post op CCRT</b> (ลายมือ T2N2M0 = stage 3, RT/CMT เพื่อ local control) — <b>Claude ตอบ A</b> เพราะโจทย์ระบุ upper rectum<br><b>นอกสไลด์:</b> Rectum ส่วนบนเหนือ peritoneal reflection มีเยื่อบุช่องท้องคลุม การกลับเป็นซ้ำเฉพาะที่ต่ำคล้าย colon หลายแนวทาง (เช่น ESMO) จึงรักษาแบบ colon: stage III ให้เคมีบำบัดเสริม ไม่ต้องฉายรังสี",
+  "interp": "ชาย 64 ปี มะเร็ง<b>ไส้ตรงส่วนบน (upper rectum)</b> ห่าง anal verge 14 cm <b>เหนือ peritoneal reflection</b> ผ่าตัด anterior resection โดยไม่ได้ให้ยาก่อนผ่าตัด พยาธิ poorly differentiated ลุกถึง muscularis propria (<b>pT2</b>) node บวก <b>4/16 (N2a)</b> M0 = stage IIIB — ถามการรักษาเสริมหลังผ่าตัด ซึ่งต้องรู้ว่ามะเร็ง rectum ส่วนบนรักษาแบบใด",
+  "why": "มะเร็ง rectum แบ่งตามระยะจาก anal verge: low (&lt; 5 cm), mid (5–10 cm), <b>high/ upper (10–15 cm)</b> · rectum ส่วนบนอยู่<b>เหนือ peritoneal reflection</b> มีเยื่อบุช่องท้องคลุม ไม่ได้อยู่ในอุ้งเชิงกรานแคบ อัตรา local recurrence หลังผ่าตัดที่ได้มาตรฐาน (TME/ partial mesorectal excision) จึงต่ำใกล้เคียง colon · <b>ESMO 2017</b> ระบุว่ามะเร็ง rectum ส่วนบนที่ไม่ลุกลามเฉพาะที่มาก ให้<b>รักษาแบบ colon cancer</b> คือผ่าตัดแล้วให้ <b>adjuvant oxaliplatin-based chemotherapy</b> (CAPOX/ FOLFOX) เมื่อ node บวก · ส่วน rectum กลางและล่าง stage II–III มาตรฐานคือให้รังสีร่วมยาเคมี<b>ก่อนผ่าตัด</b> (neoadjuvant CRT หรือ total neoadjuvant therapy) · ถ้าผ่าตัดไปก่อนแล้วพบ pT3–4 หรือ N+ ใน mid/ low rectum จึงพิจารณา <b>postoperative chemoradiation</b> (NSABP R-02, German CAO/ARO/AIO-94 แสดงว่า preop ดีกว่า postop) โดยเฉพาะเมื่อ CRM บวกหรือ TME ไม่สมบูรณ์ · pT2N2a = <b>stage IIIB</b> (AJCC 8th) · ไฟล์วงข้อ 3 <b>\"Post op CCRT\"</b> ลายมือ P'Ing เขียน <b>\"✓ RT, CMT: local control\"</b> และ <b>\"T2N2M0 = stage 3\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่รังสีอย่างเดียวเป็นการรักษาเสริมของ stage III เพราะต่อมน้ำเหลืองบวกเสี่ยงกระจายทั่วร่าง ต้องมีเคมีบำบัด",
-   "C": "คีย์ P'Ing เลือกช้อยนี้ · <b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็ง rectum ส่วนกลาง/ล่าง stage III ที่ผ่าตัดไปก่อนโดยไม่ได้รักษาก่อนผ่าตัด",
-   "D": "<b>นอกสไลด์:</b> ติดตามอย่างเดียวพอในระยะต้น · จะถูกถ้าพยาธิเป็น pT2N0 ไม่มีปัจจัยเสี่ยง",
-   "E": "<b>นอกสไลด์:</b> ตัดซ้ำทำเมื่อการผ่าตัดครั้งแรกไม่พอ · จะถูกถ้าตัดเฉพาะที่ก้อนใน rectum ส่วนล่างแล้วพยาธิพบลึกกว่าที่คาด — ผ่าตัดซ้ำแบบ TME (เป็น APR ถ้าก้อนต่ำมาก)"
+   "B": "Postoperative radiotherapy เดี่ยวลด local recurrence ได้เล็กน้อยแต่ไม่ลด distant metastasis และไม่ได้ประโยชน์ด้าน survival ไม่เคยเป็นมาตรฐานเดี่ยวของ stage III ซึ่งต้องมียาเคมีเสมอ · จะถูกถ้าเป็นชาย 85 ปี มะเร็ง rectum ส่วนล่างที่เลือดออก ผ่าตัดไม่ได้และรับยาเคมีไม่ได้ (palliative RT เพื่อหยุดเลือดและปวด)",
+   "C": "Postoperative chemoradiation เป็นทางเลือกของ mid/ low rectal cancer stage II–III ที่ผ่าตัดไปก่อนโดยไม่ได้ neoadjuvant (และเป็นคีย์ในไฟล์) แต่ upper rectum เหนือ peritoneal reflection มี local recurrence ต่ำ การฉายรังสีเพิ่ม toxicity ต่อลำไส้เล็กและ anastomosis โดยไม่ได้ประโยชน์ชัด · จะถูกถ้าเป็นชาย 64 ปี มะเร็ง rectum ห่าง anal verge 6 cm ผ่าตัด LAR ไปก่อน พยาธิพบ pT3N1 และ CRM 1 mm",
+   "D": "Observation ใช้กับ stage I (pT1–2 N0) หลังผ่าตัดที่ได้มาตรฐาน · stage III มี node บวกถึง 4 ต่อม (N2a) ร่วมกับ poorly differentiated เสี่ยงกลับเป็นซ้ำสูง ต้องให้ยาเสริม · จะถูกถ้าเป็นชาย 64 ปี มะเร็ง rectum ส่วนบน pT2N0 ตรวจ node 16 ต่อมลบทั้งหมด margin ปกติ ไม่มี LVI",
+   "E": "Completion APR ตัด anus และ sphincter ทิ้งเป็น permanent colostomy ใช้กับมะเร็งที่ลุก sphincter หรืออยู่ต่ำมากจนเก็บ sphincter ไม่ได้ ไม่ใช่การรักษาเสริมเพราะ node บวก · upper rectum ที่ตัดด้วย anterior resection ได้ margin ดีไม่ต้องตัดเพิ่ม · จะถูกถ้าเป็นชาย 60 ปี มะเร็ง rectum ห่าง anal verge 2 cm ลุกเข้า external anal sphincter"
   },
-  "trap": "Rectum ทุกตำแหน่งไม่ได้รักษาเหมือนกัน — ส่วนบนรักษาแบบ colon · <b>เราตอบ A ต่างจากคีย์ P'Ing (C)</b> ถ้าข้อสอบจริงไม่ได้ระบุตำแหน่ง คำตอบตามคีย์ก็สมเหตุสมผล",
+  "trap": "คีย์ในไฟล์ตอบ post-op CCRT ตามหลัก rectal cancer ทั่วไป (RT ช่วย local control) · กุญแจของโจทย์คือคำว่า <b>upper rectum เหนือ peritoneal reflection</b> ซึ่งแนวทาง ESMO ให้รักษาแบบ colon · หากข้อสอบไม่ระบุตำแหน่ง (rectum กลาง/ ล่าง) คำตอบ CCRT จะสมเหตุสมผล จึงต้องอ่านระยะจาก anal verge ทุกครั้ง",
   "summary": [
-   "<b>นอกสไลด์:</b> T2 + ต่อมบวก 4 ต่อม (N2a) + M0 = stage IIIB (AJCC 8)",
-   "<b>นอกสไลด์:</b> แบ่ง rectum: ล่าง 0–5 cm · กลาง 5–10 cm · บน 10–15 cm จาก anal verge — ส่วนกลาง/ล่างที่ cT3–4 หรือ N+ ให้รักษาก่อนผ่าตัด"
+   "ระยะจาก anal verge (rigid proctoscopy/ MRI): low &lt; 5 cm · mid 5–10 cm · high 10–15 cm · MRI ใช้ sigmoid take-off เป็นจุดแบ่ง rectum–sigmoid",
+   "Staging rectal cancer: MRI pelvis (T, CRM, EMVI, mesorectal nodes) + CT chest/ abdomen + CEA · ERUS ช่วยแยก T1–T2 ในก้อนเล็ก",
+   "Mid/ low rectum cT3–4 หรือ N+ → neoadjuvant long-course CRT (capecitabine + 50.4 Gy) หรือ short-course RT 5×5 Gy หรือ TNT → TME 6–12 สัปดาห์หลังรังสี",
+   "Upper rectum (เหนือ peritoneal reflection) ที่ MRI ไม่มี CRM threat/ EMVI → ผ่าตัดก่อนและรักษาแบบ colon (ESMO 2017)",
+   "TME: ตัด mesorectum ทั้งหมดตามแนว embryologic plane · upper rectum ใช้ partial mesorectal excision ตัดใต้ก้อน 5 cm · distal margin ≥ 1–2 cm ใน low rectum",
+   "Adjuvant หลังผ่าตัด upfront: stage III colon-type → CAPOX/ FOLFOX · mid/ low pT3–4 หรือ N+ ที่ไม่ได้ neoadjuvant → chemotherapy + CRT",
+   "Complete clinical response หลัง TNT ใน low rectum → watch-and-wait ด้วย MRI + endoscopy ถี่ ๆ ช่วยเลี่ยง APR"
   ],
-  "opinion": "ไม่ตรงกับคีย์ P'Ing (C) — ตอบ A เพราะโจทย์ระบุ upper rectum ซึ่งรักษาแบบ colon (ESMO) · ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — คำตอบเว็บต่างจากคีย์ลายมือ P'Ing ที่วง post-op CCRT เพราะโจทย์ระบุ upper rectum เหนือ peritoneal reflection ซึ่ง ESMO 2017 ให้รักษาแบบ colon (adjuvant chemotherapy อย่างเดียว) · ถ้าข้อสอบจริงหมายถึง rectum ทั่วไป (mid/ low) คำตอบตามคีย์ CCRT ก็สมเหตุสมผล · ไฟล์จด node 2/16 + 2/16 จึงรวมเป็น 4/16",
+  "mnemonic": "<b>'Rectum สูงเหนือ Reflection = รักษาแบบ Colon · Rectum ต่ำ = RT ก่อนผ่า'</b>",
+  "guide": "Glynne-Jones R et al. ESMO Clinical Practice Guidelines: Rectal cancer, Ann Oncol 2017; NCCN Guidelines Rectal Cancer v.2025; Sauer R et al. (CAO/ARO/AIO-94) N Engl J Med 2004",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็ง rectum ส่วนบน cT3N1 ก่อนผ่าตัด MRI ขอบ mesorectal fascia ปลอดภัย → ผ่าตัดได้เลยโดยไม่ต้องฉายรังสีก่อน (แนวทางที่รักษาแบบ colon)"
+   "หญิง 58 ปี มะเร็ง rectum ห่าง anal verge 7 cm MRI cT3N1 CRM ปลอดภัย → neoadjuvant CRT หรือ TNT แล้ว TME",
+   "ชาย 70 ปี มะเร็ง rectum ส่วนบน 13 cm MRI cT3N0 ไม่มี EMVI → anterior resection ก่อนแล้วพิจารณา adjuvant ตามพยาธิแบบ colon",
+   "หญิง 55 ปี มะเร็ง rectum 4 cm หลัง TNT ส่องกล้องและ MRI ไม่เห็นก้อน → watch-and-wait ติดตามถี่",
+   "ทำไมรังสีก่อนผ่าตัดดีกว่าหลังผ่าตัดใน rectal cancer → เนื้อเยื่อยังมีเลือดเลี้ยงดี ลำไส้เล็กยังไม่ตกลงไปในอุ้งเชิงกราน ลด local recurrence และ toxicity มากกว่า"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 5 — ตัวพิมพ์: <b>CA upper rectum s/p anterior resection patho อ่านว่า poorly diff, tumor invade muscularis propria, pericolic node positive 2/16, apical node positive 2/16 ทำอะไรต่อดี — 1. Post op chemo 2. Post op RT 3. Post op ccrt 4. ทำใจ</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ คีย์ P'Ing = post op CCRT · Claude ตอบ post op chemo เพราะโจทย์ระบุ upper rectum (ESMO 2017: upper rectal cancer รักษาแบบ colon) — ถ้าข้อสอบจริงหมายถึง rectum ทั่วไป คำตอบตามคีย์ (CCRT) ก็สมเหตุสมผล · ไฟล์จด node 2/16 + 2/16 → รวม 4/16 · มะเร็งไส้ตรงอยู่ในขอบเขต Gen Sx แต่ออกในข้อสอบ Subspe",
+  "src": "S74DQ · หน้า 5",
+  "kimg": [
+   "kp74d_45"
   ]
  },
  "MDCU74|RoD|46": {
-  "interp": "ทารก 2 วันน้ำลายไหลมาก สำลักทุกครั้งที่กินนม ใส่ OG ไม่ลง film เห็นสายขดในอกส่วนบน และ <b>ไม่มีลมในกระเพาะและลำไส้</b> → ถามชนิดของความผิดปกติ",
-  "why": "P'Ing วง A + ลายมือ <b>\"ไม่มี distal TEF\"</b><br><b>นอกสไลด์:</b> สายขดในถุงหลอดอาหารส่วนบน = esophageal atresia · ลมจะเข้ากระเพาะได้ทางเดียวคือ fistula ระหว่างหลอดลมกับหลอดอาหารส่วนล่าง ช่องท้องไม่มีลมจึงบอกว่าไม่มี distal TEF (pure EA) · pure EA มักมีช่องว่างระหว่างสองปลายยาว ซ่อมทันทีไม่ได้",
+  "interp": "ทารก 2 วัน น้ำลายไหลมาก สำลักทุกครั้งที่กินนม ใส่ OG tube ไม่ผ่านและ X-ray เห็นสายขดในทรวงอกส่วนบน <b>ไม่มีลมในกระเพาะและลำไส้ (gasless abdomen)</b> — ถามชนิดของ esophageal atresia (EA) ซึ่งตัดสินจาก<b>การมีหรือไม่มีลมในช่องท้อง</b>",
+  "why": "EA ทำให้ทารกกลืนน้ำลายไม่ได้ (น้ำลายฟูมปาก) สำลักและเขียวเมื่อกินนม และใส่สายทางปากได้เพียงราว 10 cm แล้วขดใน upper pouch · ชนิดตาม Gross: <b>C</b> proximal EA + <b>distal TEF</b> ~85% · <b>A pure EA ไม่มี TEF</b> ~7–8% · E H-type TEF ไม่มี atresia ~4% · B proximal TEF ~1–2% · D ทั้ง proximal และ distal TEF ~1–3% · <b>ลมเข้ากระเพาะได้ต้องผ่าน distal TEF</b> (หลอดลม → หลอดอาหารส่วนล่าง → กระเพาะ) ดังนั้น EA + <b>gasless abdomen</b> = ไม่มี distal fistula → <b>pure EA (type A)</b> หรือ type B ซึ่งพบน้อยมาก · pure EA มักเป็น <b>long-gap</b> (ช่องว่างระหว่างปลายหลอดอาหาร &gt; 3 vertebral bodies) ต่อกันทันทีไม่ได้ จึงทำ <b>gastrostomy</b> ให้อาหาร ดูด upper pouch ต่อเนื่องด้วย <b>Replogle tube</b> รอให้หลอดอาหารโต 6–12 สัปดาห์แล้วทำ <b>delayed primary anastomosis</b> หรือใช้ traction (Foker) หรือ esophageal replacement · ค้นหา <b>VACTERL</b> ทุกราย (echo ดูหัวใจและด้านของ aortic arch, renal US, spine, แขนขา) · ไฟล์วงข้อ 1 ลายมือ P'Ing เขียนว่า <b>\"ไม่มี distal TEF\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> EA + distal TEF พบบ่อยที่สุด · จะถูกถ้าภาพเดียวกันแต่มีลมในกระเพาะและลำไส้ (ลมผ่าน fistula)",
-   "C": "<b>นอกสไลด์:</b> H-type TEF หลอดอาหารต่อกันปกติ ใส่สายลงได้ · จะถูกถ้าทารกโตขึ้นไอสำลักขณะกินนมเป็นประจำ ปอดอักเสบซ้ำ ท้องอืดลม",
-   "D": "<b>นอกสไลด์:</b> Duodenal atresia ใส่สายลงกระเพาะได้ · จะถูกถ้าทารกอาเจียนน้ำดีในวันแรก AXR เป็น double bubble ไม่มีลมส่วนปลาย",
-   "E": "<b>นอกสไลด์:</b> Congenital esophageal stenosis ใส่สายผ่านได้บางส่วน อาการมาช้า · จะถูกถ้าเด็กเริ่มกลืนลำบากและอาหารติดเมื่อเริ่มอาหารแข็ง"
+   "B": "EA with distal TEF (type C) เป็นชนิดที่พบบ่อยที่สุด อาการเหมือนกันทุกอย่าง แต่ X-ray จะเห็น<b>ลมในกระเพาะและลำไส้</b>จากลมที่ผ่าน fistula และเสี่ยง aspiration ของน้ำย่อยเข้าปอด รักษาด้วยการผูกตัด fistula และต่อหลอดอาหารผ่าน right thoracotomy ในช่วงแรก · จะถูกถ้าเป็นทารก 1 วัน น้ำลายฟูม ใส่สายไม่ผ่าน X-ray เห็นสายขดใน upper pouch และมีลมในกระเพาะและลำไส้",
+   "C": "H-type TEF (type E) ไม่มี atresia จึง<b>ใส่สายลงกระเพาะได้</b>และมีลมในท้องมาก อาการมักไม่ชัดในวันแรก มาด้วยสำลักไอขณะกินนม ท้องอืดลม ปอดอักเสบซ้ำ วินิจฉัยด้วย prone pull-back tube esophagogram หรือ bronchoscopy · จะถูกถ้าเป็นทารก 3 เดือน ไอสำลักทุกมื้อ ปอดอักเสบซ้ำ 3 ครั้ง ใส่ OG ได้ปกติ",
+   "D": "Duodenal atresia อาเจียน (มักมีน้ำดี) ในวันแรกและ X-ray เห็น <b>double bubble</b> ไม่มีลมส่วนปลาย ใส่ OG ลงกระเพาะได้ปกติ ไม่มีน้ำลายฟูมหรือสายขดในอก พบร่วมกับ Down syndrome ~30% · จะถูกถ้าเป็นทารก Down syndrome อายุ 1 วัน อาเจียนเขียวทุกมื้อ ใส่ OG ได้ดูดน้ำดีออกมามาก X-ray พบ double bubble",
+   "E": "Congenital esophageal stenosis (fibromuscular, tracheobronchial remnant, membranous web) มีรูแคบแต่ไม่ตัน อาการมักเริ่มเมื่อเริ่มกินอาหารข้นหรือของแข็งช่วงอายุ 4–10 เดือน (กลืนลำบาก อาเจียนอาหารที่ยังไม่ย่อย) ไม่ใช่สายใส่ไม่ผ่านตั้งแต่วันที่ 2 · จะถูกถ้าเป็นเด็ก 8 เดือน เริ่มอาหารบดแล้วอาเจียนเศษอาหารและติดคอ esophagogram พบตีบที่ distal third"
   },
-  "trap": "ไม่มีลมในช่องท้อง = ไม่มี distal TEF · มีลม = EA + distal TEF (ชนิดที่พบบ่อยที่สุด)",
+  "trap": "คนเลือก EA with distal TEF เพราะจำได้ว่าเป็นชนิดที่พบบ่อยที่สุด (~85%) · แต่โจทย์ให้ข้อมูลชี้ขาดคือ <b>ไม่มีลมในกระเพาะและลำไส้</b> ซึ่งแปลว่าไม่มีทางให้ลมลงไป = ไม่มี distal fistula · อีกกับดักคือ H-type ที่ใส่สายผ่านได้เสมอเพราะหลอดอาหารไม่ตัน",
   "summary": [
-   "<b>นอกสไลด์:</b> ตรวจหาความผิดปกติร่วม VACTERL: vertebral · anorectal · cardiac (echo ก่อนผ่าตัด) · TE · renal · limb",
-   "<b>นอกสไลด์:</b> Pure EA ช่องว่างยาว → gastrostomy ให้อาหาร ดูดน้ำลายในถุงบนต่อเนื่อง แล้วรอต่อหลอดอาหารภายหลัง (delayed primary anastomosis)"
+   "Gross: A pure EA ~7–8% (gasless) · B proximal TEF ~1–2% (gasless) · C proximal EA + distal TEF ~85% · D double fistula ~1–3% · E H-type ~4%",
+   "Prenatal: polyhydramnios + กระเพาะเล็กหรือมองไม่เห็น · หลังคลอด: น้ำลายฟูม สำลัก เขียวเมื่อกินนม ใส่ OG ไม่ผ่าน (ขดที่ T2–T4)",
+   "VACTERL ~50%: Vertebral, Anorectal, Cardiac (สำคัญที่สุดต่อการรอดชีวิต), TE fistula, Renal, Limb (radial) · echo หา right aortic arch ก่อนเลือกข้าง thoracotomy",
+   "เตรียม: Replogle tube ดูด upper pouch ต่อเนื่อง ศีรษะสูง NPO IV fluid หลีกเลี่ยงการบีบ bag-mask แรง ๆ ในรายมี distal TEF (ลมเข้ากระเพาะจนโป่งแตกได้)",
+   "Type C: right extrapleural thoracotomy (หรือ thoracoscopy) ผูกตัด fistula + end-to-end anastomosis ในไม่กี่วันแรก",
+   "Long-gap EA: gastrostomy → รอ 6–12 สัปดาห์ → delayed primary anastomosis / Foker traction · ไม่ได้ → gastric pull-up หรือ colon interposition",
+   "ภาวะแทรกซ้อนหลังผ่าตัด: anastomotic leak, stricture (~30–40% ต้อง dilate), GERD (มาก), tracheomalacia, recurrent TEF, dysmotility ตลอดชีวิต"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วงข้อ 1 EA without TEF และเขียนว่าไม่มี distal TEF · Holcomb and Ashcraft ระบุว่า EA ร่วมกับ gasless abdomen บ่งชี้ pure EA (หรือ proximal TEF ที่พบน้อยมาก) ไฟล์มี 3 ช้อยจึงเติม duodenal atresia และ esophageal stenosis เป็น D, E",
+  "mnemonic": "<b>'EA + ท้องไม่มีลม = ไม่มี Distal fistula (Pure EA, มัก Long gap) · มีลม = Type C'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Esophageal Atresia and Tracheoesophageal Fistula; Krishnan U et al. ESPGHAN-NASPGHAN Guidelines for the Evaluation and Treatment of GI and Nutritional Complications in Children With EA-TEF, J Pediatr Gastroenterol Nutr 2016",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก EA + distal TEF หลังเย็บต่อ 3 สัปดาห์ กลืนลำบากอาเจียนนม → anastomotic stricture ขยายด้วยบอลลูน"
+   "ทารก 1 วัน น้ำลายฟูม ใส่สายไม่ผ่าน X-ray มีลมในกระเพาะ echo หัวใจปกติ left aortic arch → type C → right thoracotomy ผูก fistula + primary anastomosis",
+   "ทารก pure EA gap 5 vertebral bodies → gastrostomy + Replogle → delayed primary anastomosis เมื่ออายุ 2–3 เดือน",
+   "ทารกหลังผ่าตัด EA 1 เดือน กลืนลำบาก สำลักนม esophagogram พบตีบที่รอยต่อ → balloon dilatation และรักษา GERD",
+   "ทำไมต้องทำ echo ก่อนผ่าตัด EA → หาโรคหัวใจซึ่งเป็นปัจจัยพยากรณ์หลัก และดูว่ามี right aortic arch หรือไม่เพื่อเลือกผ่าตัดเข้าทางซ้าย"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 5 — ตัวพิมพ์: <b>เด็กทารก 2 วัน drooling, รับ feed ไม่ได้ plain film ไม่เจอ air ใน stomach ใส่ og ไม่เข้า ถาม diagnosis — 1. EA without TEF 2. EA with TEF 3. H-type</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เติม D, E",
+  "src": "S74DQ · หน้า 5",
+  "kimg": [
+   "kp74d_46"
   ]
  },
  "MDCU74|RoD|47": {
-  "interp": "ทารกชายไม่มีรูทวาร พบขี้เทาในปัสสาวะหลัง 24 ชม. = ARM ที่มี fistula เข้าทางเดินปัสสาวะ (rectourethral/rectovesical) → ถามการผ่าตัดเริ่มต้น",
-  "why": "P'Ing แปะข้อสอบเดิม <b>\"เจอ meconium ในฉี่ ต้องทำอะไร → colostomy ✓\"</b> + ลายมือ <b>high type ARM, rectourethral/rectovesical fistula</b><br><b>นอกสไลด์:</b> Fistula เข้าท่อปัสสาวะหมายถึง rectum อยู่สูงเกินกว่าจะต่อจากฝีเย็บในวันแรกได้อย่างปลอดภัย → ทำ colostomy ระบายอุจจาระก่อน แล้วผ่าตัด PSARP ภายหลัง (ราว 1–3 เดือน) แยก fistula และดึง rectum ลงมาในกล้ามเนื้อหูรูด",
+  "interp": "ทารกชายแรกเกิด<b>ไม่มีรูทวาร</b> และหลัง 24 ชม. พบ<b>ขี้เทาปนในปัสสาวะ</b> — บ่งว่ามี <b>rectourinary fistula</b> (rectourethral หรือ rectobladder neck) = anorectal malformation ชนิดสูง ถามการผ่าตัดเริ่มต้นที่เหมาะสม",
+  "why": "Anorectal malformation (ARM) ในทารกชาย ตัดสินใจหลังรอ <b>16–24 ชม.</b> (ให้ความดันในช่องท้องดันขี้เทาผ่าน fistula ออกมาให้เห็น) · <b>Perineal (cutaneous) fistula</b> เห็นขี้เทาออกที่ฝีเย็บ/ median raphe = ชนิดต่ำ → <b>anoplasty</b> (minimal PSARP) ในวัยแรกเกิดได้โดยไม่ต้อง colostomy · <b>ขี้เทาในปัสสาวะ</b> = <b>rectourethral (bulbar หรือ prostatic) หรือ rectobladder neck fistula</b> = ชนิดกลางถึงสูง ลำไส้อยู่ไกลจากผิวหนัง → ขั้นแรกทำ <b>diverting colostomy</b> (descending colostomy แบบแยกปาก เพื่อไม่ให้อุจจาระไหลเข้าทางเดินปัสสาวะ) ทำ distal colostogram ดูตำแหน่ง fistula แล้วทำ <b>PSARP</b> ที่อายุราว 1–3 เดือน → ปิด colostomy หลัง dilate ทวารใหม่ · ไม่มีหลักฐาน fistula หลัง 24 ชม. ทำ <b>cross-table prone lateral X-ray</b>: ลมใน rectum ห่างผิวหนัง &lt; 1 cm → PSARP ได้ · &gt; 1 cm → colostomy · ตรวจหา VACTERL (urologic anomaly พบมากในชนิดสูง, tethered cord, sacral anomaly) · ไฟล์วงข้อ 2 <b>\"Colostomy\"</b> P'Ing แปะข้อสอบเก่าที่ตรงกันพร้อมลายมือ <b>\"high type ARM, rectourethral/ rectovesical fistula\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Anoplasty ใช้กับ ARM ต่ำ · จะถูกถ้าทารกชายมีขี้เทาออกทางรูเล็กที่ผิวหนังฝีเย็บ (perineal fistula)",
-   "C": "<b>นอกสไลด์:</b> Endorectal pull-through เป็นการผ่าตัด Hirschsprung · จะถูกถ้าทารกถ่ายขี้เทาช้ากว่า 48 ชม. ท้องอืด ชิ้นเนื้อ rectum ไม่พบ ganglion cell",
-   "D": "<b>นอกสไลด์:</b> PSARP ในวันแรกโดยไม่ทำ colostomy ทำได้เฉพาะ rectum อยู่ต่ำ · จะถูกถ้าทารกไม่มี fistula และ prone cross-table lateral ที่ 24 ชม. เห็น rectum ห่างผิวไม่เกินราว 1 cm",
-   "E": "<b>นอกสไลด์:</b> ทารกชายที่ไม่มีทางออกของอุจจาระทางผิวหนังต้องได้รับการผ่าตัด · จะถูกถ้าทารกหญิงมี vestibular fistula รูใหญ่ถ่ายได้ดี — ขยายรูและนัดผ่าตัดตามเวลา"
+   "B": "Anoplasty (หรือ minimal PSARP/ cutback) ใช้กับ ARM <b>ชนิดต่ำ</b> ที่มี perineal fistula เปิดใกล้ตำแหน่ง anus ซึ่งลำไส้อยู่ชิดผิวหนัง ทำได้ในวัยแรกเกิดโดยไม่ต้อง colostomy · ทำในชนิดสูงไม่ได้เพราะลำไส้อยู่สูงและยังมีทางติดต่อกับทางเดินปัสสาวะ · จะถูกถ้าเป็นทารกชาย 1 วัน ไม่มีรูทวารแต่เห็นขี้เทาออกจากรูเล็กที่ median raphe ของถุงอัณฑะ",
+   "C": "Endorectal pull-through (Soave) เป็นการผ่าตัดของ <b>Hirschsprung disease</b> ที่ตัดลำไส้ส่วน aganglionic แล้วดึงลำไส้ปกติลงมาผ่านแขนของ rectal muscle ไม่ใช่การรักษา ARM · จะถูกถ้าเป็นทารก 5 วัน ถ่ายขี้เทาช้ากว่า 48 ชม. ท้องอืด rectal biopsy ไม่พบ ganglion cell ใน rectosigmoid",
+   "D": "Primary PSARP ในวันแรกแบบไม่ทำ colostomy ไม่เหมาะกับชนิดสูงที่มี rectourinary fistula เพราะยังไม่รู้ตำแหน่ง fistula ชัด ทารกเพิ่งเกิด และต้องรอ 24 ชม. ก่อนตัดสินใจ (บางศูนย์ทำ primary repair ในชนิดกลางที่ทารกคงที่ แต่ไม่ใช่ในวันแรกก่อนประเมิน) · จะถูกถ้าเป็นทารกหญิง 2 เดือน rectovestibular fistula ที่ถ่ายได้ดีผ่าน fistula แล้ววางแผน PSARP ครั้งเดียว",
+   "E": "การเฝ้าดูไม่เหมาะเพราะทารกไม่มีทางระบายอุจจาระที่เพียงพอ เกิดลำไส้อุดตัน ลำไส้ทะลุ และอุจจาระไหลเข้าทางเดินปัสสาวะทำ UTI/ urosepsis ซ้ำ · การรอใช้เฉพาะช่วง 16–24 ชม. แรกเพื่อดู fistula · จะถูกถ้าเป็นทารกชาย 6 ชม. หลังคลอดที่ไม่มีรูทวารและยังไม่เห็นขี้เทาออกจากที่ใด (ให้ NPO, OG decompression, IV fluid และตรวจหา VACTERL ระหว่างรอ)"
   },
-  "trap": "ทารกชาย ARM: ขี้เทาในปัสสาวะ = fistula เข้าทางเดินปัสสาวะ → colostomy ก่อน · ขี้เทาที่ฝีเย็บ = ต่ำ → anoplasty/PSARP ได้เลย",
+  "trap": "คนเลือก anoplasty หรือ PSARP เพราะคิดว่าแค่สร้างรูทวารให้ · แต่<b>ขี้เทาในปัสสาวะ</b>บ่งว่ามี fistula เข้าทางเดินปัสสาวะ = ชนิดสูง ลำไส้อยู่ไกล ต้อง <b>colostomy ก่อน</b> แล้วค่อยแก้ทีหลัง · ส่วน endorectal pull-through เป็นชื่อผ่าตัดของ Hirschsprung ที่มักถูกใช้เป็นตัวหลอก",
   "summary": [
-   "<b>นอกสไลด์:</b> รอ 24 ชม. ก่อนตัดสิน เพื่อให้ขี้เทาดันลงมาเผยตำแหน่ง fistula",
-   "<b>นอกสไลด์:</b> ARM ราวครึ่งมีความผิดปกติของทางเดินปัสสาวะร่วม → US ไต · ตรวจหาความผิดปกติ VACTERL (กระดูกสันหลัง ไขสันหลังยึดรั้ง หัวใจ)"
+   "ARM ชาย: perineal fistula (ต่ำ, anoplasty) · rectourethral bulbar (บ่อยที่สุดในชาย) · rectourethral prostatic · rectobladder neck (สูงสุด) · imperforate anus without fistula (มักพบใน Down syndrome)",
+   "ARM หญิง: perineal fistula · rectovestibular fistula (บ่อยที่สุดในหญิง) · cloaca (rectum, vagina, urethra รวมเป็นช่องเดียว ต้อง colostomy ± vaginostomy ถ้า hydrocolpos)",
+   "รอ 16–24 ชม. ก่อนตัดสินใจ: ตรวจฝีเย็บหา fistula ตรวจปัสสาวะหา meconium · ระหว่างรอ NPO, OG decompression, IV fluid, antibiotics",
+   "ไม่มีหลักฐาน fistula → cross-table prone lateral X-ray: rectum ห่างผิว &lt; 1 cm → PSARP/ anoplasty · &gt; 1 cm → colostomy",
+   "Colostomy ใน ARM: divided descending colostomy (แยก proximal และ mucous fistula) → distal colostogram ก่อน PSARP เพื่อดูตำแหน่ง fistula",
+   "VACTERL work-up: echo, renal–bladder US (urologic anomaly ~50% ในชนิดสูง), spinal US/ MRI (tethered cord), sacral X-ray (sacral ratio บอกพยากรณ์การกลั้นอุจจาระ), แขนขา",
+   "พยากรณ์การกลั้นอุจจาระ: perineal/ bulbar ดี · prostatic ปานกลาง · bladder neck และ sacral anomaly แย่ → bowel management program"
   ],
-  "opinion": "เห็นด้วยกับคีย์ colostomy — ตรงกับข้อเดิมที่ P'Ing แปะ · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง colostomy และแปะข้อสอบเก่าที่ตรงกัน (ขี้เทาในปัสสาวะ → colostomy) พร้อมเขียนว่าเป็น high-type ARM ที่มี rectourethral/ rectovesical fistula ตามแนวทางของ Peña และ Holcomb and Ashcraft",
+  "mnemonic": "<b>'ขี้เทาออกฝีเย็บ = ต่ำ → Anoplasty · ขี้เทาในฉี่ = สูง → Colostomy ก่อน PSARP'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Anorectal Atresia and Cloacal Malformations; Levitt MA, Peña A. Anorectal malformations, Orphanet J Rare Dis 2007",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกหญิงไม่มีรูทวาร มีรูเปิดเดียวที่ฝีเย็บรวมทั้งปัสสาวะ ช่องคลอด อุจจาระ → cloaca ทำ colostomy และประเมินการระบายปัสสาวะ/ช่องคลอด"
+   "ทารกชาย 20 ชม. ไม่มีรูทวาร เห็นขี้เทาเป็นเส้นสีเขียวใต้ผิวที่ median raphe ของถุงอัณฑะ → perineal fistula (ชนิดต่ำ) → anoplasty ในวัยแรกเกิด",
+   "ทารกหญิง 1 วัน ไม่มีรูทวาร มีรูเปิดเดียวที่ฝีเย็บ คลำได้ก้อนในท้องน้อย → cloaca + hydrocolpos → colostomy + vaginostomy",
+   "ทารกชาย 24 ชม. ไม่มีรูทวาร ไม่พบ fistula ทั้งฝีเย็บและปัสสาวะ X-ray ท่าคว่ำพบลมใน rectum ห่างผิว 2 cm → colostomy",
+   "ทำไมต้องรอ 16–24 ชม. ก่อนตัดสินใจ → ต้องให้ลำไส้มีลมและความดันพอดันขี้เทาผ่าน fistula ออกมาให้เห็น ถ้าตัดสินใจเร็วอาจจัดชนิดผิด"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 5 — ตัวพิมพ์: <b>เด็กทารกชาย ไม่มีก้น + ขี้เทาออกทางจู๋ ทำอะไรดี — 1. Anoplasty 2. Colostomy 3. Endorectal pull through</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing แปะข้อสอบเก่าที่ตรงกัน (เลข 51 ในชุดอื่น) ตอบ colostomy",
+  "src": "S74DQ · หน้า 5",
+  "kimg": [
+   "kp74d_47"
   ]
  },
  "MDCU74|RoD|48": {
-  "interp": "ชายปวด renal colic จากนิ่วท่อไตส่วนปลาย 0.8 cm มีประวัติแพ้ NSAIDs รุนแรง (anaphylaxis) → ถามยาแก้ปวดที่เหมาะที่สุด",
-  "why": "P'Ing ✓ morphine · ลายมือ <b>pain control = NSAIDs, opioids</b><br><b>นอกสไลด์:</b> NSAIDs เป็นยาแก้ปวดแรกของ renal colic (EAU) แต่ผู้ป่วยแพ้รุนแรง ช้อยอื่นเป็น NSAIDs ทั้งหมด จึงเหลือ opioid (หรือ paracetamol ทางหลอดเลือด)",
+  "interp": "ชาย 40 ปี มี renal colic จาก<b>นิ่วท่อไตส่วนปลาย 0.8 cm</b> และมีประวัติ <b>anaphylaxis ต่อ NSAIDs</b> — ถามยาแก้ปวดที่เหมาะที่สุด ซึ่งต้องรู้ว่า NSAIDs เป็นยาแรกของ renal colic แต่ใช้ไม่ได้ในรายนี้ จึงต้องเลือกยาทางเลือก",
+  "why": "Renal colic เกิดจาก<b>ความดันใน collecting system เพิ่มขึ้น</b>เมื่อนิ่วอุด ร่วมกับการบีบตัวของท่อไตและการหลั่ง <b>prostaglandin</b> ที่ทำให้หลอดเลือดแดงในไตขยายและปัสสาวะออกมากขึ้น ยิ่งเพิ่มความดัน · ดังนั้น <b>NSAIDs</b> (diclofenac, ibuprofen, ketorolac, metamizole) เป็นยาแรกตาม EAU/ AUA เพราะลดทั้งการอักเสบและ glomerular filtration ในข้างที่อุด ได้ผลดีกว่าหรือเท่า opioid และต้องการยาเพิ่มน้อยกว่า · เมื่อ<b>ใช้ NSAIDs ไม่ได้</b> (แพ้, ไตเสื่อม, แผลในกระเพาะ, ตั้งครรภ์ไตรมาสสาม) ใช้ <b>opioid</b> เช่น <b>morphine</b>, hydromorphone หรือ <b>IV paracetamol</b> · ผู้ที่มี <b>anaphylaxis ต่อ NSAID</b> ไม่ควรได้ NSAID ตัวอื่นโดยไม่ได้ประเมินโดยแพทย์ด้านภูมิแพ้ · นิ่ว 0.8 cm ที่ distal ureter: ถ้าปวดคุมได้ ไม่มีติดเชื้อ ไตทำงานดี ให้ <b>medical expulsive therapy</b> ด้วย α-blocker (tamsulosin) ได้ (หลุดเองราว 50%) ติดตาม 4–6 สัปดาห์ · ต้องเอานิ่วออก (<b>ureteroscopy</b> หรือ ESWL) เมื่อปวดคุมไม่ได้ อุดตันต่อเนื่อง ไตข้างเดียว หรือไม่หลุด · ถ้ามี<b>ไข้ร่วมกับการอุดตัน</b> ต้อง<b>ระบายด่วน</b>ด้วย PCN หรือ JJ stent ก่อน · ไฟล์ลายมือ P'Ing ให้ข้อ 1 <b>\"Morphine\"</b> และเขียนว่า <b>\"pain control = NSAIDs, opioids\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Diclofenac เป็น NSAID · จะถูกถ้าผู้ป่วยไม่แพ้ ไตปกติ มาที่ห้องฉุกเฉิน — diclofenac เป็นยาแรกของ renal colic",
-   "C": "<b>นอกสไลด์:</b> Ibuprofen เป็น NSAID · จะถูกถ้าผู้ป่วยไม่แพ้ ปวดไม่มาก กลับไปกินยาที่บ้านระหว่างรอนิ่วหลุด",
-   "D": "<b>นอกสไลด์:</b> Ketorolac เป็น NSAID · จะถูกถ้าผู้ป่วยไม่แพ้ แต่อาเจียนกินยาไม่ได้ ต้องให้ยาทางหลอดเลือด",
-   "E": "<b>นอกสไลด์:</b> Celecoxib เป็น COX-2 inhibitor ยังเสี่ยงแพ้ข้ามในผู้ที่ anaphylaxis ต่อ NSAIDs · จะถูกถ้าผู้ป่วยไม่แพ้แต่เคยมีแผลกระเพาะจาก NSAIDs"
+   "B": "Diclofenac (IM/ IV/ rectal) เป็น NSAID ที่ใช้รักษา renal colic บ่อยที่สุดและได้ผลดีมากในผู้ป่วยทั่วไป แต่ผู้ที่มีประวัติ anaphylaxis ต่อ NSAIDs ใช้ไม่ได้ · ระวังในโรคหัวใจและหลอดเลือดและไตเสื่อม · จะถูกถ้าเป็นชาย 40 ปี ไม่มีโรคประจำตัว ไม่แพ้ยา creatinine ปกติ ปวดบั้นเอวร้าวลงขาหนีบจากนิ่วท่อไต 5 mm",
+   "C": "Ibuprofen เป็น NSAID ชนิดกินที่ใช้ได้ทั้งในห้องฉุกเฉินและรักษาต่อที่บ้าน แต่เป็นกลุ่มเดียวกับที่ผู้ป่วยแพ้รุนแรง จึงห้ามใช้ · จะถูกถ้าเป็นหญิง 30 ปี ไม่ได้ตั้งครรภ์ ไม่แพ้ยา นิ่วท่อไต 4 mm ปวดลดลงแล้วหลังได้ยาฉีด กลับบ้านพร้อมยาแก้ปวดชนิดกินและ tamsulosin",
+   "D": "Ketorolac IV/ IM เป็น NSAID ฤทธิ์แรงที่ใช้ในห้องฉุกเฉินได้ผลดีเทียบเท่า opioid แต่ห้ามในผู้แพ้ NSAIDs ไตเสื่อม เลือดออกง่าย และไม่ควรใช้เกิน 5 วัน · จะถูกถ้าเป็นชาย 35 ปี ปวดบั้นเอวรุนแรงจากนิ่วท่อไต 6 mm ไม่แพ้ยา eGFR ปกติ ไม่มีประวัติแผลในกระเพาะ ต้องการยาฉีดออกฤทธิ์เร็ว",
+   "E": "Celecoxib เป็น COX-2 selective inhibitor ซึ่งผู้ที่มี NSAID-exacerbated respiratory disease ส่วนใหญ่ทนได้ แต่ใน anaphylaxis ต่อ NSAID ยังเสี่ยงปฏิกิริยาข้ามกลุ่มหรือแพ้ซ้ำ และไม่ได้เป็นยามาตรฐานของ renal colic เฉียบพลัน · จะถูกถ้าเป็นหญิง 50 ปี ข้อเข่าเสื่อม มีแผลในกระเพาะเดิม ต้องการยาแก้ปวดข้อเรื้อรังที่ระคายกระเพาะน้อย ไม่เคยแพ้ NSAIDs"
   },
-  "trap": "Celecoxib ดูเหมือนปลอดภัยกว่าเพราะเป็น COX-2 selective — แต่ในผู้ที่แพ้รุนแรงยังไม่ควรเสี่ยง",
+  "trap": "คนรู้ว่า NSAIDs เป็นยาแรกของ renal colic จึงเลือก diclofenac หรือ ketorolac โดยไม่อ่านประวัติแพ้ หรือเลือก celecoxib เพราะคิดว่าเป็น COX-2 จึงปลอดภัย · ประวัติ<b>anaphylaxis</b>ทำให้ต้องหลีกเลี่ยง NSAIDs ทั้งกลุ่มในห้องฉุกเฉิน คำตอบจึงเป็น opioid (ตามลายมือในไฟล์ \"NSAIDs, opioids\") ไม่ใช่ว่า morphine ดีกว่า NSAIDs",
   "summary": [
-   "<b>นอกสไลด์:</b> EAU renal colic: NSAIDs หรือ paracetamol ก่อน opioid",
-   "<b>นอกสไลด์:</b> นิ่วท่อไตส่วนปลาย: MET ด้วย α-blocker (EAU ใช้กับนิ่วมากกว่า 5 mm) · ข้อบ่งชี้เอานิ่วออกด่วน: ติดเชื้อร่วมกับอุดตัน · ไตข้างเดียว · ปวดคุมไม่ได้"
+   "Renal colic: ปวดบั้นเอวเป็นพัก ๆ รุนแรง ร้าวลงขาหนีบ/ อัณฑะ/ แคมตามระดับนิ่ว ดิ้นไปมาหาท่าไม่ได้ คลื่นไส้อาเจียน มี hematuria ~85–90%",
+   "Imaging: non-contrast CT KUB (low-dose) เป็นมาตรฐาน · ตั้งครรภ์/ เด็ก → US ก่อน · KUB ติดตามนิ่วทึบรังสี",
+   "ยาแก้ปวด: NSAIDs/ metamizole เป็นยาแรก · ใช้ไม่ได้ → opioid หรือ IV paracetamol · ไม่ใช้ antispasmodic (hyoscine) เดี่ยว",
+   "โอกาสหลุดเอง: &lt; 5 mm ~70–80% · 5–10 mm ~50% (distal ดีกว่า proximal) · MET ด้วย tamsulosin ได้ประโยชน์ในนิ่ว distal &gt; 5 mm",
+   "ข้อบ่งชี้เอานิ่วออก: นิ่ว &gt; 10 mm หรือไม่หลุดใน 4–6 สัปดาห์, ปวดคุมไม่ได้, อุดตันต่อเนื่อง, ไตข้างเดียว/ สองข้าง, ไตวาย, อาชีพเสี่ยง (นักบิน)",
+   "Obstructed infected kidney (ไข้ + นิ่วอุด) = urologic emergency → PCN หรือ JJ stent ด่วน + antibiotics · เอานิ่วออกภายหลังเมื่อหายติดเชื้อ",
+   "Distal ureter: ureteroscopy (laser) stone-free สูงกว่า ESWL · proximal ureter &lt; 10 mm ESWL หรือ URS ได้ใกล้เคียงกัน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · ไฟล์มีช้อยเดียวจึงแต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ให้ morphine และเขียนว่ายาแก้ปวดคือ NSAIDs หรือ opioids · EAU Urolithiasis ให้ NSAIDs เป็นยาแรกและใช้ opioid เมื่อใช้ NSAIDs ไม่ได้ ซึ่งในข้อนี้คือประวัติ anaphylaxis ไฟล์มีช้อยเดียวจึงเติม NSAID ชนิดต่าง ๆ เป็น B–E",
+  "mnemonic": "<b>'Renal colic: NSAIDs ก่อน · แพ้/ ไตไม่ดี/ ตั้งครรภ์ → Opioid หรือ Paracetamol IV · ไข้ + อุดตัน → ระบายด่วน'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2025; Assimos D et al. Surgical Management of Stones: AUA/Endourological Society Guideline, J Urol 2016",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่วท่อไตมีไข้ หนาวสั่น ปวดสีข้าง → ระบายด่วน (DJ stent หรือ nephrostomy) + ยาปฏิชีวนะ แล้วเอานิ่วออกภายหลัง"
+   "ชาย 35 ปี นิ่วท่อไตส่วนปลาย 4 mm ปวดลดลงหลังได้ diclofenac ไม่มีไข้ → กลับบ้านพร้อม NSAID ชนิดกิน + tamsulosin นัดติดตาม",
+   "หญิง 45 ปี นิ่วท่อไตส่วนต้น 7 mm ไข้ 39 °C หนาวสั่น hydronephrosis → ใส่ JJ stent หรือ PCN ด่วน + antibiotics ไม่ทำ URS ตอนนี้",
+   "ชาย 50 ปี นิ่วท่อไตส่วนปลาย 12 mm → ureteroscopic laser lithotripsy (โอกาสหลุดเองต่ำ)",
+   "ทำไม NSAIDs ได้ผลดีใน renal colic → ยับยั้ง prostaglandin ที่ทำให้หลอดเลือดไตขยายและปัสสาวะเพิ่ม จึงลดความดันใน collecting system และลดการอักเสบรอบนิ่ว"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 5 — ตัวพิมพ์: <b>Ureteric stone size 0.8 cm แพ้ NSAIDs ให้ยาแก้ปวดอะไร — 1. Morphine</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีช้อยเดียว → เติม B–E",
+  "src": "S74DQ · หน้า 5",
+  "kimg": [
+   "kp74d_48"
   ]
  },
  "MDCU74|RoD|49": {
-  "interp": "ข้อ LEAST: สาเหตุใดของเลือดออกทางเดินอาหารใน <b>ทารกแรกเกิด</b> ที่พบน้อยที่สุด",
-  "why": "P'Ing วง A <b>✗ 2–8 y/o</b><br><b>นอกสไลด์:</b> Juvenile polyp พบสูงสุดในเด็กอายุราว 2–8 ปี แทบไม่พบในทารกแรกเกิด · สาเหตุในทารกแรกเกิดที่พบบ่อยคือ กลืนเลือดแม่ fissure NEC ขาด vitamin K แพ้โปรตีนนมวัว และ malrotation with volvulus",
+  "interp": "ถามสาเหตุที่<b>พบน้อยที่สุด (least common)</b> ของเลือดออกทางเดินอาหารใน<b>ทารกแรกเกิด</b> — ต้องจับคู่แต่ละสาเหตุกับ<b>ช่วงอายุ</b>ที่พบบ่อย ซึ่งเป็นหลักของการวินิจฉัยเลือดออกทางเดินอาหารในเด็ก",
+  "why": "สาเหตุเลือดออกทางเดินอาหารในเด็กแบ่งตามอายุ · <b>ทารกแรกเกิด (0–30 วัน)</b>: <b>swallowed maternal blood</b> (จากการคลอดหรือหัวนมแม่แตก แยกด้วย <b>Apt–Downey test</b>: fetal Hb ทนด่างยังเป็นสีชมพู adult Hb เปลี่ยนเป็นน้ำตาลเหลือง), <b>anal fissure</b> (สาเหตุเลือดสดทางทวารที่พบบ่อยที่สุดในทารก), <b>NEC</b> (ทารกคลอดก่อนกำหนดหลังเริ่มนม), <b>vitamin K deficiency bleeding</b> (ทารกที่ไม่ได้ vitamin K แรกคลอด), allergic proctocolitis, stress gastritis, malrotation with volvulus, Hirschsprung enterocolitis, coagulopathy · <b>วัยเตาะแตะถึงวัยเรียน</b>: intussusception, Meckel's diverticulum (painless massive bleeding ราวอายุ 2 ปี) และ <b>juvenile polyp</b> · Juvenile (hamartomatous) polyp พบมากที่อายุ <b>2–8 ปี</b> (สูงสุดราว 2–5 ปี) เป็นสาเหตุเลือดสดไม่ปวดที่พบบ่อยที่สุดในวัยนี้ มักเป็นก้อนเดียวที่ rectosigmoid อาจหลุดเองหรือโผล่ออกทางทวาร ไม่เพิ่มความเสี่ยงมะเร็งเมื่อเป็นก้อนเดี่ยว · ในทารกแรกเกิดจึงพบน้อยมาก · ไฟล์วง A ลายมือ P'Ing เขียน <b>\"✗ 2–8 y/o\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> กลืนเลือดแม่ (ตอนคลอดหรือหัวนมแตก) พบบ่อย · ไม่มีสถานการณ์ใดที่เป็นสาเหตุพบน้อยที่สุดในทารกแรกเกิด เพราะเป็นสาเหตุที่พบบ่อยและต้องตัดก่อนด้วย Apt test",
-   "C": "<b>นอกสไลด์:</b> Fissure จากถ่ายแข็งพบบ่อยในทารก · ไม่มีสถานการณ์ใดที่พบน้อยกว่า juvenile polyp ในทารกแรกเกิด เพราะเป็นสาเหตุเลือดสดติดอุจจาระที่พบบ่อยที่สุดในวัยนี้",
-   "D": "<b>นอกสไลด์:</b> NEC พบบ่อยในทารกคลอดก่อนกำหนดหลังเริ่มนม (ท้องอืด ถ่ายเลือด ลมในผนังลำไส้) · ไม่มีสถานการณ์ใดที่พบน้อยกว่า juvenile polyp ในทารกแรกเกิด เพราะ NEC เป็นโรคของวัยทารกแรกเกิดโดยตรง",
-   "E": "<b>นอกสไลด์:</b> VKDB เกิดในทารกที่ไม่ได้ฉีด vitamin K แรกเกิด (เลือดออกหลายที่ PT ยาว) · ไม่มีสถานการณ์ใดที่พบน้อยกว่า juvenile polyp ในทารกแรกเกิด เพราะ VKDB ชนิด classic เกิดในสัปดาห์แรกหลังคลอด"
+   "B": "ข้อความเป็นสาเหตุที่พบบ่อย: ทารกกลืนเลือดแม่ขณะคลอดหรือจากหัวนมแตกขณะดูดนม แล้วอาเจียนหรือถ่ายเป็นเลือด โดยที่ทารกดูแข็งแรง สัญญาณชีพและ Hb ปกติ แยกด้วย Apt test · จะถูกถ้าต้องเลือกสาเหตุที่พบบ่อยในทารกอายุ 2 วัน ดูดนมแม่ที่หัวนมแตกแล้วอาเจียนมีเลือดปน Apt test เปลี่ยนเป็นสีน้ำตาลเหลือง",
+   "C": "ข้อความเป็นสาเหตุที่พบบ่อย: anal fissure เป็นสาเหตุของเลือดสดทางทวารที่พบบ่อยที่สุดในทารกและเด็กเล็ก จากอุจจาระแข็ง เห็นรอยฉีกที่ขอบทวาร เลือดติดผิวอุจจาระเล็กน้อย รักษาด้วยปรับอุจจาระให้นุ่ม · จะถูกถ้าต้องเลือกสาเหตุที่พบบ่อยในทารก 3 สัปดาห์ ถ่ายแข็งมีเลือดสดเป็นเส้นติดอุจจาระ ตรวจพบแผลที่ทวารด้านหลัง",
+   "D": "ข้อความเป็นสาเหตุที่พบบ่อย: NEC เป็นภาวะฉุกเฉินทางศัลยกรรมที่พบบ่อยที่สุดในทารกแรกเกิด โดยเฉพาะคลอดก่อนกำหนดและน้ำหนักน้อย มาด้วยท้องอืด ถ่ายเป็นเลือด feeding intolerance และ pneumatosis intestinalis · จะถูกถ้าต้องเลือกสาเหตุที่พบบ่อยในทารกคลอด 29 สัปดาห์ อายุ 10 วัน หลังเริ่มนมผสมแล้วท้องอืด ถ่ายเป็นเลือด X-ray พบ pneumatosis",
+   "E": "ข้อความเป็นสาเหตุที่พบในทารกแรกเกิด: vitamin K deficiency bleeding (classic) เกิดวันที่ 2–7 ในทารกที่ไม่ได้ vitamin K 1 mg IM แรกคลอด โดยเฉพาะกินนมแม่อย่างเดียว เลือดออกทางเดินอาหาร สายสะดือ หรือหลังขลิบ PT ยาวมาก ป้องกันได้ด้วย vitamin K แรกคลอด · จะถูกถ้าต้องเลือกสาเหตุในทารก 4 วัน คลอดที่บ้าน ไม่ได้ vitamin K ถ่ายดำและเลือดซึมที่สายสะดือ PT ยาว"
   },
-  "trap": "ข้อนี้ถามสาเหตุที่พบ <b>น้อยที่สุด</b> ในทารกแรกเกิด — juvenile polyp เป็นสาเหตุที่พบบ่อยในเด็กวัยก่อนเรียน",
+  "trap": "Juvenile polyp เป็นสาเหตุเลือดสดทางทวารที่<b>พบบ่อยที่สุด</b>ในเด็กวัยเรียนเล็ก คนจำคำว่า \"พบบ่อย\" แล้วไม่เลือก · แต่คำถามเจาะจง<b>ทารกแรกเกิด</b> ซึ่ง polyp ยังไม่เกิด · กุญแจคือใช้<b>อายุ</b>แยกสาเหตุ และอย่าลืมว่า VKDB ก็เป็นสาเหตุจริงของทารกแรกเกิดแม้พบน้อยลงเพราะมีการฉีด vitamin K",
   "summary": [
-   "<b>นอกสไลด์:</b> Apt test แยกเลือดแม่ (Hb ผู้ใหญ่เปลี่ยนสีเมื่อเจอด่าง) กับเลือดทารก (HbF ทนด่าง ยังแดง)"
+   "ทารกแรกเกิด: swallowed maternal blood, anal fissure, NEC, VKDB, allergic proctocolitis, stress gastritis/ ulcer, malrotation with volvulus, Hirschsprung enterocolitis, coagulopathy",
+   "Infant–toddler (1 เดือน–2 ปี): anal fissure, cow's milk protein allergy, intussusception (currant jelly), Meckel's diverticulum, infectious colitis",
+   "Preschool/ school (2–12 ปี): juvenile polyp (painless bright red), Meckel's, intussusception, infectious colitis, HSP, HUS · วัยรุ่น: IBD, peptic ulcer, varices, hemorrhoids",
+   "Apt–Downey test: ผสมเลือดกับ NaOH 1% · fetal Hb (HbF) ทนด่างคงสีชมพู · adult Hb เปลี่ยนเป็นน้ำตาลเหลือง = เลือดแม่",
+   "Juvenile polyp: hamartoma ก้อนเดียว rectosigmoid · อายุ 2–8 ปี · colonoscopic polypectomy · juvenile polyposis syndrome ถ้า ≥ 5 ก้อนใน colorectum หรือมีทั่วทางเดินอาหาร หรือมีประวัติครอบครัว (SMAD4, BMPR1A) เสี่ยงมะเร็ง",
+   "VKDB: early (&lt; 24 ชม. แม่ใช้ยากันชัก/ warfarin) · classic (2–7 วัน) · late (2–12 สัปดาห์ มักมีเลือดออกในสมอง กินนมแม่ล้วน/ cholestasis) · ป้องกันด้วย vitamin K 1 mg IM แรกคลอด",
+   "Meckel's diverticulum: rule of 2 · ectopic gastric mucosa ทำแผลที่ ileum ข้างเคียง → painless massive bleeding · Tc-99m pertechnetate scan"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียนว่า juvenile polyp พบที่อายุ 2–8 ปี จึงพบน้อยที่สุดในทารกแรกเกิด ส่วนช้อยที่เติม (fissure, NEC, VKDB) ล้วนเป็นสาเหตุจริงในวัยแรกเกิดตาม Holcomb and Ashcraft ไฟล์มี 2 ช้อยจึงเติม C–E",
+  "mnemonic": "<b>'Newborn: กลืนเลือดแม่ · Fissure · NEC · Vit K · Polyp รอ 2–8 ขวบ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Gastrointestinal Bleeding; Polyps; Nelson Textbook of Pediatrics 21st ed. (2020) — Gastrointestinal Bleeding",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกกินนมผสม 6 สัปดาห์ ถ่ายมีมูกเลือดปน แข็งแรงดี น้ำหนักขึ้นดี → แพ้โปรตีนนมวัว เปลี่ยนเป็นนม extensively hydrolyzed"
+   "เด็ก 4 ปี ถ่ายเลือดสดไม่ปวดเป็นครั้งคราว ซีดเล็กน้อย ไม่มีอาการอื่น → juvenile polyp → colonoscopy + polypectomy",
+   "เด็ก 2 ปี ถ่ายเลือดแดงคล้ำปริมาณมาก ไม่ปวดท้อง Hb ลดลง 3 g/dL → Meckel's diverticulum → Tc-99m pertechnetate scan",
+   "ทารก 6 สัปดาห์ กินนมวัว ถ่ายมีมูกเลือดเป็นเส้น ดูแข็งแรง → allergic proctocolitis → แม่งดนมวัวหรือเปลี่ยนเป็น extensively hydrolyzed formula",
+   "ทำไม Apt test ช่วยได้ในทารกที่อาเจียนเป็นเลือด → แยกว่าเลือดมาจากแม่ (กลืน) หรือจากทารกเอง ซึ่งเปลี่ยนการตรวจและการรักษาทั้งหมด"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 5 — ตัวพิมพ์: <b>Least common cause of gi bleeding in newborn — A. Rectal polyp B. Ingest marternal blood C.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E",
+  "src": "S74DQ · หน้า 5",
+  "kimg": [
+   "kp74d_49"
   ]
  },
  "MDCU74|RoD|50": {
-  "interp": "ถามว่าเด็กรายใดมีข้อบ่งชี้ผ่าตัดกันกรดไหลย้อน (fundoplication) ชัดที่สุด",
-  "why": "คีย์ P'Ing ไม่ได้วง (มี ?) แต่แปะสไลด์ Treatments: <b>surgical — GERD with complication (ulcer, stricture), incomplete resolution or relapse while on PPI</b> — Claude ตอบ A<br><b>นอกสไลด์:</b> เด็ก 9 ปีที่ยาไม่ได้ผลหลายรอบและมีภาวะแทรกซ้อนรุนแรงจากการสำลัก (ฝีในปอด) เข้าเกณฑ์ทั้งสองข้อ · การผ่าตัดในเด็กสงวนไว้สำหรับ GERD ที่ยาไม่ได้ผลหรือมีภาวะแทรกซ้อนที่อันตราย",
+  "interp": "ถามว่าเด็กรายใด<b>มีข้อบ่งชี้ชัดที่สุด</b>ในการผ่าตัด antireflux สำหรับ GERD — ต้องแยก physiologic reflux และ GERD ที่คุมได้ด้วยยา ออกจาก GERD ที่<b>ล้มเหลวจากยา</b>หรือมี<b>ภาวะแทรกซ้อนรุนแรง</b> (เช่น aspiration lung disease) ซึ่งเป็นข้อบ่งชี้ fundoplication",
+  "why": "<b>Gastroesophageal reflux (GER)</b> ในทารกเป็นเรื่องปกติ (\"happy spitter\") พบมากที่สุดราวอายุ 4 เดือนและหายเองส่วนใหญ่ภายใน 12–18 เดือน ไม่ต้องตรวจหรือรักษาด้วยยาถ้าโตดี · <b>GERD</b> คือ reflux ที่ก่ออาการหรือภาวะแทรกซ้อน: esophagitis, stricture, Barrett, น้ำหนักไม่ขึ้น, ระบบหายใจ (aspiration pneumonia ซ้ำ, asthma คุมยาก), BRUE · การรักษาเป็นขั้น: ปรับการให้นม/ thickened feeds, ลองงดนมวัวในทารก 2–4 สัปดาห์ → <b>PPI</b> 4–8 สัปดาห์ในเด็กที่มีอาการชัดหรือ esophagitis · <b>ข้อบ่งชี้ผ่าตัด antireflux (laparoscopic Nissen 360° หรือ partial fundoplication)</b>: ภาวะแทรกซ้อนที่คุกคามชีวิต (aspiration lung disease ซ้ำ, apnea/ BRUE), อาการไม่ดีขึ้นหรือกลับเป็นซ้ำแม้ใช้ยาเหมาะสม, ต้องใช้ยาระยะยาวตลอด, esophagitis/ stricture ที่ดื้อยา และเด็ก<b>ความผิดปกติทางระบบประสาท</b>ที่ต้องทำ gastrostomy ร่วมกับ GERD · ก่อนผ่าตัดควรยืนยันด้วย pH–impedance monitoring/ endoscopy และ UGI ดู anatomy · ไฟล์ไม่ได้วงคำตอบ (มี <b>\"?\"</b> หน้าข้อ) P'Ing แปะสไลด์ Treatments: surgical — <b>\"GERD with complication (ulcer, stricture), incomplete resolution of symptom or relapse symptom while on PPI\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> กระเพาะอักเสบครั้งแรกในทารกรักษาด้วยยา · ไม่มีสถานการณ์ใดที่การอักเสบครั้งแรกเป็นข้อบ่งชี้ผ่าตัด เพราะยังไม่ได้ลองรักษาด้วยยาเลย",
-   "C": "<b>นอกสไลด์:</b> การแหวะนมในทารกที่น้ำหนักขึ้นดีเป็นเรื่องปกติ (happy spitter) · ไม่มีสถานการณ์ใดที่เป็นข้อบ่งชี้ผ่าตัด เพราะหายเองเมื่อหูรูดหลอดอาหารแข็งแรงขึ้นราวขวบปีแรก",
-   "D": "<b>นอกสไลด์:</b> อาเจียนครั้งเดียวจากลำไส้อักเสบไม่ใช่ GERD · ไม่มีสถานการณ์ใดที่เป็นข้อบ่งชี้ผ่าตัด เพราะเป็นอาการเฉียบพลันจากการติดเชื้อที่หายเอง",
-   "E": "<b>นอกสไลด์:</b> อาการเล็กน้อยที่คุมได้ด้วย PPI ยังไม่ใช่ข้อบ่งชี้ชัด · ไม่มีสถานการณ์ใดที่ข้อนี้เป็นข้อบ่งชี้ชัดที่สุด เพราะยายังได้ผลและไม่มีภาวะแทรกซ้อน"
+   "B": "Gastritis ครั้งแรกในทารก 3 เดือนไม่ใช่ภาวะแทรกซ้อนของ GERD ที่ต้องผ่าตัด และยังไม่ได้ลองการรักษาด้วยการปรับนมหรือยา ส่วนใหญ่ตอบสนองต่อการรักษาทางยา (ถ้าเป็น esophagitis ก็เริ่มด้วย PPI ก่อน) · จะถูกถ้าเป็นทารก 3 เดือน อาเจียนบ่อย ร้องกวนขณะกินนม แอ่นตัว ส่องกล้องพบ erosive esophagitis → PPI 4–8 สัปดาห์แล้วประเมินซ้ำ",
+   "C": "Physiologic regurgitation ในทารก 6 เดือนที่น้ำหนักขึ้นดี เป็น GER ปกติที่หายเองเมื่อนั่งได้และกินอาหารแข็ง ไม่ต้องตรวจหรือให้ยา ให้คำแนะนำผู้ปกครองเท่านั้น · จะถูกถ้าเป็นทารก 5 เดือน แหวะนมหลังกินบ่อยครั้ง ยิ้มเล่นปกติ น้ำหนักตามเกณฑ์ ไม่มีอาการทางเดินหายใจ (reassurance และหลีกเลี่ยง overfeeding)",
+   "D": "อาเจียนครั้งเดียวขณะเป็น viral gastroenteritis ไม่ใช่ GERD เลย เป็นอาการของการติดเชื้อที่หายเอง รักษาด้วยสารน้ำทางปาก (ORS) และ ondansetron ในบางราย · จะถูกถ้าเป็นเด็ก 2 ปี อาเจียนและถ่ายเหลวหลังไปเนอสเซอรี่ที่มีเด็กป่วยหลายคน ขาดน้ำเล็กน้อย (oral rehydration therapy)",
+   "E": "แสบร้อนกลางอกเล็กน้อยที่คุมได้ด้วย PPI ในเด็กโตเป็น GERD ที่ตอบสนองดีต่อยา ไม่มีภาวะแทรกซ้อน จึงไม่มีข้อบ่งชี้ผ่าตัด ควรลดยาลงเมื่ออาการดีและปรับพฤติกรรม (ลดน้ำหนัก เลี่ยงอาหารมื้อดึก) · จะถูกถ้าเป็นเด็ก 13 ปี แสบร้อนกลางอกหลังอาหารมัน ใช้ omeprazole 8 สัปดาห์แล้วหาย (ลดและหยุดยา ติดตามอาการ)"
   },
-  "trap": "อย่าผ่าตัดเด็กที่แหวะนมแต่โตดี — ต้องมียาที่ล้มเหลวหรือภาวะแทรกซ้อนที่อันตราย",
+  "trap": "ช้อยส่วนใหญ่เป็นเด็กที่มีอาการ reflux จริงทำให้ลังเล · หลักคือผ่าตัดเมื่อ<b>ยาล้มเหลว</b>หรือมี<b>ภาวะแทรกซ้อนรุนแรง</b>เท่านั้น — ช้อย A ครบทั้งสองเงื่อนไข (ล้มเหลวจากยา 3 ครั้งและมี lung abscess จาก aspiration) · ระวังการรักษาเกินในทารก happy spitter ซึ่งพบบ่อยกว่ามาก",
   "summary": [
-   "สไลด์ในคีย์: ผ่าตัดเมื่อมีภาวะแทรกซ้อน (แผล หลอดอาหารตีบ) หรืออาการไม่หาย/กลับเป็นซ้ำขณะได้ PPI",
-   "<b>นอกสไลด์:</b> ภาวะแทรกซ้อนอื่นที่เป็นข้อบ่งชี้: ปอดอักเสบจากการสำลักซ้ำ · เลี้ยงไม่โต · หยุดหายใจ/เขียวจากการไหลย้อน · Barrett"
+   "GER (physiologic): แหวะนม พบมากราว 4 เดือน ~2/3 ของทารก หายเองเกือบทั้งหมดภายใน 12–18 เดือน · โตดี → reassurance ไม่ต้องตรวจหรือยา",
+   "Red flags ที่ต้องหาโรคอื่น: อาเจียนมีน้ำดี/ เลือด, อาเจียนพุ่ง, เริ่มหลัง 6 เดือน, ไข้, ซึม, กระหม่อมโป่ง, ท้องอืด, ท้องเสียเรื้อรัง, น้ำหนักลด",
+   "GERD ในทารก: ลด overfeeding, thickened feeds, ลองงดนมวัว (แม่งดหรือใช้ extensively hydrolyzed formula) 2–4 สัปดาห์ ก่อนใช้ยา",
+   "PPI/ H2RA: ใช้เมื่อมีอาการชัดหรือ esophagitis 4–8 สัปดาห์แล้วประเมิน · ไม่ใช้รักษาทารกที่ร้องกวนหรือแหวะนมอย่างเดียว · prokinetics ไม่แนะนำ",
+   "ข้อบ่งชี้ fundoplication: ล้มเหลว/ ต้องพึ่งยาตลอด, aspiration lung disease, apnea/ BRUE จาก reflux, esophagitis/ stricture ดื้อยา, neurologically impaired ที่ต้องใส่ gastrostomy",
+   "ก่อนผ่าตัด: pH–impedance, endoscopy + biopsy (ตัด eosinophilic esophagitis), UGI ดู malrotation/ hiatal hernia · ประเมิน gastric emptying ในเด็กที่สงสัย",
+   "Laparoscopic Nissen 360°: ภาวะแทรกซ้อน gas-bloat, dysphagia, wrap หลุด/ เลื่อน, กลับเป็นซ้ำ (สูงกว่าในเด็กที่มีปัญหาระบบประสาท) · ทางเลือก Thal/ Toupet (partial)"
   ],
-  "opinion": "คีย์ไม่ได้วงคำตอบ — Claude ตอบ A ตามเกณฑ์ในสไลด์ที่ P'Ing แปะ · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีคีย์ (P'Ing ใส่ ? หน้าข้อ) คำตอบเว็บจึงเป็นของ Claude แต่ตรงกับสไลด์ที่ P'Ing แปะว่าผ่าตัดเมื่อมีภาวะแทรกซ้อนหรืออาการไม่หาย/ กลับเป็นซ้ำขณะใช้ PPI · ช้อย A ล้มเหลวจากยา 3 รอบร่วมกับ lung abscess ซึ่งตรงกับแนวทาง NASPGHAN/ESPGHAN 2018 · ไฟล์มีช้อยครบ 2 ข้อ จึงแต่ง C–E",
+  "mnemonic": "<b>'Antireflux surgery เด็ก = Fail ยา หรือ Complication (ปอด สำลัก ตีบ) · Happy spitter = ปลอบใจพ่อแม่'</b>",
+  "guide": "Rosen R et al. Pediatric Gastroesophageal Reflux Clinical Practice Guidelines: Joint Recommendations of NASPGHAN and ESPGHAN, J Pediatr Gastroenterol Nutr 2018; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Gastroesophageal Reflux",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กสมองพิการให้อาหารทางสายลงกระเพาะ ปอดอักเสบจากการสำลักซ้ำแม้ได้ยา → gastrostomy ร่วมกับ fundoplication"
+   "เด็ก 5 ปี cerebral palsy กลืนลำบาก ต้องใส่ gastrostomy และมี aspiration pneumonia ซ้ำจาก reflux → gastrostomy ร่วมกับ laparoscopic fundoplication",
+   "ทารก 2 เดือน แหวะนมบ่อย ร้องกวน แอ่นตัว น้ำหนักขึ้นดี → ปรับการให้นม thickened feeds ไม่เริ่ม PPI ทันที",
+   "เด็ก 10 ปี กลืนติดเศษอาหาร มีประวัติภูมิแพ้ endoscopy พบ furrows และ eosinophil &gt; 15/HPF → eosinophilic esophagitis ไม่ใช่ข้อบ่งชี้ fundoplication",
+   "หลังทำ Nissen fundoplication เด็กท้องอืดมาก เรอและอาเจียนไม่ได้ → gas-bloat syndrome ส่วนใหญ่ดีขึ้นเมื่อเวลาผ่านไปและปรับอาหาร"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 5 — ตัวพิมพ์: <b>ข้อใดต้องทำ antireflux surgery — A. 9 ขวบ fail med 3 รอบ + lung abscess B. 3 เดือนเป็น gastritis ครั้งแรก C.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์มีช้อยครบแค่ 2 (C ว่าง) และไม่มีคำตอบ → Claude ตอบ A และแต่งช้อย C–E",
+  "src": "S74DQ · หน้า 5",
+  "kimg": [
+   "kp74d_50"
   ]
  }
 }

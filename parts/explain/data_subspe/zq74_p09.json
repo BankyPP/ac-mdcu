@@ -1,235 +1,410 @@
 {
  "MDCU74|RoD|28": {
-  "interp": "หญิงอายุ 28 น้ำนมไหล ประจำเดือนขาด 6 เดือน prolactin 250 ng/mL ไม่ตั้งครรภ์ → ถามการวินิจฉัย",
-  "why": "ผู้จดจำได้ช้อยเดียว — <b>Claude แต่งโจทย์และช้อย</b> ตามคีย์ A<br><b>นอกสไลด์:</b> Prolactin สูงทำให้ GnRH ถูกกด จึงประจำเดือนขาดและมีบุตรยาก ร่วมกับน้ำนมไหล · ค่าที่สูงมาก (หลายร้อย ng/mL) แทบยืนยัน prolactinoma ซึ่งเป็น pituitary adenoma ชนิดสร้างฮอร์โมนที่พบบ่อยที่สุด",
+  "interp": "หญิง 28 ปี มีน้ำนมไหล (galactorrhea) และประจำเดือนขาด 6 เดือน prolactin <b>250 ng/mL</b> ตรวจครรภ์ลบ — ถามการวินิจฉัยที่น่าจะเป็นที่สุด โดยใช้<b>ระดับ prolactin</b>แยกสาเหตุที่ทำให้ prolactin สูงเล็กน้อยออกจากเนื้องอกหลั่ง prolactin",
+  "why": "Prolactin หลั่งจาก lactotroph และถูก<b>กดด้วย dopamine</b> จาก hypothalamus ที่ส่งมาตาม pituitary stalk · prolactin สูงกด GnRH pulsatility → LH/ FSH ต่ำ → หญิงมี <b>amenorrhea, galactorrhea, มีบุตรยาก</b> ชายมี libido ลด erectile dysfunction และมักมาช้าเมื่อก้อนใหญ่ · ขั้นแรกตัดสาเหตุที่พบบ่อย: <b>การตั้งครรภ์</b>, ยา (antipsychotic เช่น risperidone, metoclopramide, domperidone, methyldopa, verapamil), <b>primary hypothyroidism</b>, ไตวาย, macroprolactin · ระดับ prolactin ช่วยแยก: <b>&gt; 200–250 ng/mL แทบทั้งหมดเป็น prolactinoma</b> (มักเป็นก้อนใหญ่) ส่วนยา hypothyroidism หรือ stalk effect มักทำ prolactin &lt; 100–150 · ยืนยันด้วย <b>MRI pituitary</b> · <b>prolactinoma เป็น functioning pituitary adenoma ที่พบบ่อยที่สุด</b> หญิงวัยเจริญพันธุ์มักเป็น microadenoma · รักษาด้วย <b>dopamine agonist (cabergoline)</b> เป็นอันดับแรกทั้ง micro และ macro ทำให้ prolactin ปกติและก้อนยุบได้ราว 80–90% · ผ่าตัด transsphenoidal เมื่อดื้อยาหรือทนยาไม่ได้ · ไฟล์จำช้อยได้เพียงข้อเดียวและลายมือ P'Ing ให้คำตอบ <b>\"Pituitary prolactinoma\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Craniopharyngioma กดก้านต่อมใต้สมองทำให้ prolactin สูงเล็กน้อยเท่านั้น · จะถูกถ้าวัยรุ่นตัวเตี้ย ปวดศีรษะ ตามัว CT มีก้อนเหนือ sella มีหินปูนและถุงน้ำ",
-   "C": "<b>นอกสไลด์:</b> Primary hypothyroidism ทำให้ TRH สูงกระตุ้น prolactin ได้เล็กน้อย · จะถูกถ้าผู้ป่วยขี้หนาว น้ำหนักขึ้น TSH สูง prolactin สูงเล็กน้อยและลดลงเมื่อได้ levothyroxine",
-   "D": "<b>นอกสไลด์:</b> PCOS ทำให้ประจำเดือนห่าง แต่ไม่ทำให้ prolactin สูงมาก · จะถูกถ้าหญิงประจำเดือนมาห่าง สิว ขนดก US เห็นรังไข่มีถุงเล็กจำนวนมาก prolactin ปกติ",
-   "E": "<b>นอกสไลด์:</b> Stalk effect ทำให้ prolactin สูงไม่มาก · จะถูกถ้าก้อนใหญ่ที่ sella แต่ prolactin สูงเพียงเล็กน้อย (74C เลข 15)"
+   "B": "Craniopharyngioma เป็นก้อน suprasellar จาก Rathke's pouch ที่มีถุงน้ำและหินปูน พบมากในเด็กและผู้ใหญ่อายุ 50–70 ปี ทำ prolactin สูงได้เพียงเล็กน้อยจาก stalk compression ร่วมกับ diabetes insipidus ตัวเตี้ย และลานสายตาเสีย · จะถูกถ้าเป็นเด็กชาย 10 ปี ปวดศีรษะ ปัสสาวะมาก โตช้า CT พบก้อน suprasellar ที่มีถุงน้ำและหินปูน prolactin 40 ng/mL",
+   "C": "Primary hypothyroidism ทำ TRH สูงซึ่งกระตุ้น lactotroph ให้ prolactin สูงเล็กน้อย (มัก &lt; 100 ng/mL) และอาจทำ pituitary hyperplasia คล้ายก้อน จึงต้องตรวจ TSH ทุกรายก่อนทำ MRI · จะถูกถ้าเป็นหญิง 35 ปี เหนื่อย ขี้หนาว น้ำหนักเพิ่ม ประจำเดือนมาน้อย มีน้ำนมไหลเล็กน้อย TSH 45 mIU/L prolactin 50 ng/mL",
+   "D": "PCOS ทำประจำเดือนไม่สม่ำเสมอ มีบุตรยาก ร่วมกับลักษณะ hyperandrogenism (ขนดก สิว) และรังไข่ polycystic บน US (Rotterdam criteria 2 ใน 3) prolactin อาจสูงเล็กน้อยแต่ไม่ถึงระดับนี้และไม่มี galactorrhea เด่น · จะถูกถ้าเป็นหญิง 24 ปี อ้วน มีขนดกที่คางและหน้าท้อง ประจำเดือนมา 3–4 ครั้ง/ปี US พบ follicle ≥ 20 ใบต่อรังไข่",
+   "E": "Nonfunctioning adenoma ที่กด stalk ทำให้ dopamine ส่งลงมาไม่ได้ prolactin จึงสูงเล็กน้อย (มัก &lt; 100–150 ng/mL) แม้ก้อนใหญ่ ซึ่งแยกได้จาก macroprolactinoma ที่ prolactin มักหลายร้อยถึงหลายพัน · จะถูกถ้าเป็นชาย 55 ปี ตามัว bitemporal hemianopia MRI พบก้อน 3 cm prolactin 70 ng/mL (เจือจางแล้วไม่เปลี่ยน)"
   },
-  "trap": "Prolactin สูงต้องตัดสาเหตุอื่นก่อน: ตั้งครรภ์ · ยา · hypothyroidism · ไตวาย — ข้อนี้ตั้งครรภ์ลบและค่าสูงมาก",
+  "trap": "คนเลือก hypothyroidism หรือ PCOS เพราะเป็นสาเหตุ prolactin สูงที่ต้องคิดถึงเสมอในหญิงที่ประจำเดือนผิดปกติ · กุญแจอยู่ที่<b>ระดับ 250 ng/mL</b> ซึ่งสูงเกินกว่าที่สาเหตุทุติยภูมิทำได้ · อีกกับดักคือ stalk effect ที่ทำ prolactin สูงได้แต่ไม่ถึงหลักร้อยปลาย ๆ",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาที่ทำ prolactin สูง: antipsychotic · metoclopramide · domperidone · ยาต้านซึมเศร้าบางชนิด · verapamil",
-   "<b>นอกสไลด์:</b> ตรวจคู่กัน: pregnancy test · TSH · การทำงานของไต · MRI ต่อมใต้สมอง",
-   "<b>นอกสไลด์:</b> รักษา: cabergoline เป็นยาแรก แม้เป็น macroadenoma ที่กด chiasm · ผ่าตัดเมื่อดื้อยา ทนยาไม่ได้ หรือ apoplexy"
+   "สาเหตุ hyperprolactinemia: physiologic (ตั้งครรภ์ ให้นม stress) · ยา (antipsychotic, metoclopramide, domperidone, SSRIs บางตัว, opioid, verapamil, methyldopa) · primary hypothyroidism · CKD · cirrhosis · chest wall lesion (herpes zoster) · stalk compression · prolactinoma",
+   "ระดับ prolactin: &lt; 100 มักเป็นยา/ hypothyroid/ stalk effect · &gt; 200–250 บ่งชี้ prolactinoma · &gt; 500 มักเป็น macroprolactinoma",
+   "Hook effect: macroadenoma ใหญ่มากแต่ prolactin ปกติหรือสูงเล็กน้อยเพราะ antigen ล้น assay → ขอให้เจือจางตัวอย่าง (เช่น 1:100) ก่อนสรุปว่าเป็น nonfunctioning",
+   "Macroprolactin (prolactin จับกับ IgG) ทำค่าสูงแต่ไม่มีอาการ ตรวจด้วย polyethylene glycol precipitation",
+   "Cabergoline (dopamine agonist) เป็นการรักษาแรกของ prolactinoma ทุกขนาด: ฟื้นประจำเดือน หยุดน้ำนม ยุบก้อน · ผลข้างเคียง: คลื่นไส้ หน้ามืด impulse control disorder · ขนาดสูงมากระยะยาว (Parkinson) เสี่ยง valvulopathy",
+   "Microprolactinoma ที่ไม่มีอาการและไม่ต้องการบุตรอาจติดตามหรือให้ฮอร์โมนคุมกำเนิดป้องกันกระดูกบาง · หยุดยาได้เมื่อ prolactin ปกติ ≥ 2 ปีและก้อนหายบน MRI",
+   "ตั้งครรภ์: หยุด dopamine agonist เมื่อรู้ว่าตั้งครรภ์ใน microadenoma · macroadenoma เสี่ยงก้อนโตขณะตั้งครรภ์ → ตรวจลานสายตาเป็นระยะ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · ไฟล์มีช้อยเดียวจึงแต่งโจทย์และช้อย · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ให้ pituitary prolactinoma · ไฟล์มีเพียงคำว่า galactorrhea dx กับช้อยเดียว โจทย์จึงเติมอายุ อาการ และ prolactin 250 ng/mL พร้อมตัดการตั้งครรภ์ ทำให้ช้อยที่เติม (hypothyroid, PCOS, stalk effect) ซึ่งทำ prolactin สูงเพียงเล็กน้อยตัดออกได้",
+  "mnemonic": "<b>'Prolactin &gt; 200 = Prolactinoma · &lt; 100 คิดยา ไทรอยด์ Stalk'</b>",
+  "guide": "Melmed S et al. Diagnosis and Treatment of Hyperprolactinemia: Endocrine Society Clinical Practice Guideline, J Clin Endocrinol Metab 2011; Petersenn S et al. Pituitary Society international Consensus Statement on prolactinomas, Nat Rev Endocrinol 2023",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงที่มี prolactinoma ขนาดเล็กได้ cabergoline แล้วตั้งครรภ์ → โดยทั่วไปหยุดยาและติดตามอาการปวดศีรษะ/ลานสายตา"
+   "หญิง 30 ปี ใช้ risperidone รักษา schizophrenia มีน้ำนมไหล prolactin 80 ng/mL → drug-induced hyperprolactinemia → ปรึกษาจิตแพทย์เปลี่ยนเป็น aripiprazole ก่อนทำ MRI",
+   "ชาย 50 ปี ปวดศีรษะ ความต้องการทางเพศลด ตามัว MRI พบก้อน 4 cm prolactin 30 ng/mL → ขอเจือจางตัวอย่างตรวจ hook effect",
+   "หญิง 26 ปี microprolactinoma ใช้ cabergoline แล้วประจำเดือนกลับมาและตั้งครรภ์ → หยุดยาเมื่อทราบว่าตั้งครรภ์ ติดตามอาการ",
+   "ทำไม prolactinoma ทำประจำเดือนขาด → prolactin กด GnRH pulsatility ที่ hypothalamus ทำให้ LH/ FSH ต่ำและ estrogen ต่ำ"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>galactorrhea dx — A. Pituitary prolactinoma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีช้อยเดียว → Claude แต่งโจทย์ + ช้อย B–E",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_28"
   ]
  },
  "MDCU74|RoD|29": {
-  "interp": "ข้อ INCORRECT เรื่อง brain abscess (โจทย์เดียวกับ 74A ข้อไม่มีเลข 1) · ข้อนี้เน้นภาพและการรักษา",
-  "why": "ลายมือ P'Ing: <b>A ✗ fever ~½</b><br><b>นอกสไลด์:</b> ฝีในสมองเป็นการติดเชื้อที่ถูกผนังหุ้ม อาการเด่นเป็นแบบก้อนกดเบียด จึงมีไข้เพียงราวครึ่งหนึ่ง · การไม่มีไข้ตัดฝีในสมองไม่ได้",
+  "interp": "ข้อแบบ <b>incorrect</b>: ให้เลือกข้อความที่<b>ผิด</b>เกี่ยวกับ <b>brain abscess</b> — ต้องรู้ว่าอาการคลาสสิกไข้ ปวดศีรษะ และ focal deficit ไม่ได้พบครบหรือพบบ่อยอย่างที่คิด โดยเฉพาะไข้ ซึ่งพบเพียงราวครึ่งหนึ่ง",
+  "why": "Brain abscess คือหนองในเนื้อสมองที่ดำเนินจาก <b>early cerebritis</b> (วันที่ 1–3) → late cerebritis (4–9) → early capsule (10–13) → <b>late capsule</b> (&gt; 14 วัน) · อาการเกิดจาก<b>ก้อนกินที่ (mass effect)</b> มากกว่าการติดเชื้อทั่วร่าง: <b>ปวดศีรษะพบบ่อยที่สุด (~70%)</b>, <b>ไข้พบเพียงราว 50%</b>, focal neurological deficit ~50%, ชัก ~25%, ซึม/ สับสน · triad ไข้ + ปวดศีรษะ + focal deficit ครบเพียงราว 20% · แหล่งเชื้อ: <b>contiguous spread</b> จาก sinusitis, otitis media/ mastoiditis, ฟัน (~40–50%, ก้อนเดียวใกล้แหล่ง) · hematogenous (หลายก้อนที่ gray–white junction; endocarditis, lung abscess, bronchiectasis, <b>cyanotic congenital heart disease</b> ที่มี right-to-left shunt ซึ่งเลือดดำไม่ผ่านการกรองที่ปอด) · บาดเจ็บทะลุ/ หลังผ่าตัดสมอง · ภูมิคุ้มกันบกพร่อง · MRI: <b>ring enhancement</b> ผนังบางเรียบ ด้าน ventricle บางกว่า และ <b>DWI restricted</b> ตรงกลางซึ่งแยกจากเนื้องอกเน่าตาย · ไม่ควรทำ LP · รักษา: stereotactic aspiration หรือ excision (ก้อน &gt; 2.5 cm หรือมี mass effect) + ยาฆ่าเชื้อทางหลอดเลือด 6–8 สัปดาห์ · ไฟล์กากบาทช้อย A ลายมือ P'Ing เขียน <b>\"fever ~½\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะก้อนที่โตในกะโหลกเพิ่มความดันในกะโหลก ปวดศีรษะจึงพบบ่อยที่สุด",
-   "C": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะไซนัสอยู่ติด frontal lobe เชื้อลามผ่านกระดูกและหลอดเลือดดำได้โดยตรง",
-   "D": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ right-to-left shunt ทำให้เลือดดำที่มีเชื้อไม่ผ่านการกรองที่ปอด",
-   "E": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะผนังฝีที่มีหลอดเลือดใหม่รับสารทึบรังสีเป็นวงแหวนรอบหนองตรงกลาง"
+   "B": "ข้อความถูก: ปวดศีรษะเป็นอาการที่พบบ่อยที่สุดของ brain abscess (~70%) มักเป็นข้างเดียวด้านที่มีก้อนและปวดมากขึ้นเรื่อย ๆ ถ้าปวดเพิ่มทันทีร่วมกับคอแข็งต้องคิดถึงหนองแตกเข้า ventricle · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับอาการนำของชาย 40 ปี ไซนัสอักเสบเรื้อรัง ปวดศีรษะหน้าผากมากขึ้น 2 สัปดาห์ CT พบ frontal lobe abscess",
+   "C": "ข้อความถูก: การลามจากแหล่งติดเชื้อข้างเคียงเป็นกลไกที่พบบ่อยที่สุด — frontal sinusitis → frontal lobe · otitis media/ mastoiditis → temporal lobe และ cerebellum · ฟัน → frontal lobe · มักเป็นเชื้อผสม streptococci + anaerobe · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับต้นเหตุของเด็กชาย 14 ปี frontal sinusitis แล้วเกิดฝีใน frontal lobe",
+   "D": "ข้อความถูก: cyanotic congenital heart disease (เช่น Tetralogy of Fallot) มี right-to-left shunt เลือดดำที่มีเชื้อไม่ถูกกรองที่ปอด ร่วมกับ polycythemia ทำให้สมองมีจุดขาดเลือดเล็ก ๆ ที่เชื้อเกาะ จึงเป็นปัจจัยเสี่ยงสำคัญในเด็กอายุ &gt; 2 ปี · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับปัจจัยเสี่ยงของเด็ก 6 ปี TOF ที่ยังไม่ผ่าตัด มีไข้ ปวดศีรษะ และชัก",
+   "E": "ข้อความถูก: MRI with contrast เห็น ring enhancement รอบ capsule ร่วมกับ DWI restricted ตรงกลาง ช่วยแยกจาก glioblastoma หรือ metastasis ที่ใจกลางเน่าตายซึ่ง DWI มักไม่ restricted · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับภาพของชาย 50 ปี ไข้ ปวดศีรษะ MRI พบก้อน ring-enhancing ผนังบางเรียบที่ DWI สว่างตรงกลาง"
   },
-  "trap": "ข้อนี้ถามข้อความที่ผิด · ring enhancement ไม่จำเพาะกับฝี — แยกจากมะเร็งด้วย DWI (หนองตรงกลาง restricted diffusion)",
+  "trap": "คนคิดว่าฝีต้องมีไข้จึงมองข้ามช้อย A ว่าเป็นข้อความถูก · ความจริง brain abscess เป็นการติดเชื้อในช่องปิดและอาการมาจาก mass effect ไข้จึงพบเพียงครึ่งหนึ่ง การไม่มีไข้ไม่ตัด abscess · เทียบกับ meningitis ที่ไข้พบเกือบทุกราย ทำให้สับสนกันได้",
   "summary": [
-   "<b>นอกสไลด์:</b> MRI: ผนังบางเรียบ enhance เป็นวง · ตรงกลางสว่างใน DWI (หนอง) ช่วยแยกจากเนื้องอกที่ตรงกลางตาย",
-   "<b>นอกสไลด์:</b> รักษา: เจาะดูดหรือผ่าตัดเอาหนองออก (ก้อนใหญ่ หรือมีการกดเบียด) + ยาปฏิชีวนะนานราว 6 สัปดาห์ · empirical ฝีจากไซนัส/ฟัน: ceftriaxone + metronidazole",
-   "<b>นอกสไลด์:</b> ห้ามเจาะหลังเมื่อมีก้อนกดเบียด (เสี่ยงสมองเคลื่อน) และ CSF มักไม่ช่วยวินิจฉัย"
+   "อาการ: ปวดศีรษะ ~70% · ไข้ ~50% · focal deficit ~50% · ชัก ~25% · papilledema · triad ครบ ~20% · ผลเลือด WBC และ CRP อาจปกติ",
+   "Contiguous source ~40–50%: sinus (frontal lobe), ear/ mastoid (temporal lobe, cerebellum), dental · hematogenous ~25–33% (หลายก้อน MCA territory) · trauma/ neurosurgery · cryptogenic ~15–30%",
+   "เชื้อ: streptococci (viridans, S. anginosus/ milleri group) พบบ่อยที่สุด · anaerobe (Bacteroides, Prevotella) จากหู/ ฟัน · S. aureus หลังบาดเจ็บ/ ผ่าตัด · Toxoplasma, Nocardia, Aspergillus, Cryptococcus ในภูมิคุ้มกันบกพร่อง",
+   "MRI: ring enhancement, ผนังด้าน ventricle บาง (เสี่ยงแตกเข้า ventricle → ventriculitis mortality สูง), DWI restricted · CT ใช้เมื่อ MRI ไม่ได้",
+   "ห้าม LP เมื่อสงสัย abscess: เสี่ยง herniation และ CSF culture บวกน้อย · เพาะเชื้อจากหนองที่ aspirate ได้และ blood culture",
+   "ยาเริ่มต้น (community): ceftriaxone หรือ cefotaxime + metronidazole · หลังบาดเจ็บ/ ผ่าตัดเพิ่ม vancomycin และครอบคลุม Pseudomonas · นาน 6–8 สัปดาห์ IV ติดตาม MRI",
+   "Aspiration/ excision: ก้อน &gt; 2.5 cm, mass effect, ใกล้ ventricle, ไม่ทราบเชื้อ หรือไม่ดีขึ้นด้วยยา · ก้อนเล็ก &lt; 2.5 cm ที่ทราบเชื้อให้ยาอย่างเดียวได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing (ข้อคล้าย 74A) · ช้อยที่เหลือแต่งเป็นข้อความถูก · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่กากบาท A และเขียนว่าไข้พบราวครึ่งหนึ่ง ตรงกับข้อมูลใน NEJM review ของ Brouwer และตำรา neurosurgery · ช้อย B–E เติมขึ้นเป็นข้อความที่ถูกตามตำรา เพราะผู้จดจำได้เพียงช้อยเดียว",
+  "mnemonic": "<b>'Brain abscess: Headache เกือบทุกคน · Fever แค่ครึ่ง · Triad ครบแค่ 1 ใน 5'</b>",
+  "guide": "Brouwer MC et al. Brain Abscess, N Engl J Med 2014; Bodilsen J et al. ESCMID Guidelines on Diagnosis and Treatment of Brain Abscess in Children and Adults, Clin Microbiol Infect 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยฝีในสมองก้อนเล็กหลายก้อนลึกในสมอง ภาวะคงที่ → ยาปฏิชีวนะอย่างเดียวและตรวจภาพซ้ำ (เจาะไม่ได้ทุกก้อน)"
+   "ชาย 35 ปี ฟันผุ ปวดศีรษะมากขึ้น 10 วัน ไม่มีไข้ CT พบก้อน ring-enhancing 3 cm ที่ frontal lobe → ยังคิดถึง brain abscess แม้ไม่มีไข้ → stereotactic aspiration",
+   "ผู้ป่วย brain abscess ปวดศีรษะเพิ่มทันที คอแข็ง ซึมลง → intraventricular rupture → ผ่าตัด drainage + ใส่ EVD + ยาฆ่าเชื้อ",
+   "ชาย 55 ปี ไข้ ลิ้นหัวใจมี vegetation MRI พบ ring-enhancing lesion หลายก้อนที่ gray–white junction → hematogenous brain abscess จาก infective endocarditis",
+   "ทำไมก้อน ring-enhancing ที่ DWI สว่างตรงกลางชวนคิดถึงฝีมากกว่ามะเร็ง → หนองข้นมีเซลล์และโปรตีนมากจำกัดการเคลื่อนของน้ำ ต่างจากเนื้อเน่าตายในเนื้องอก"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>ข้อใดไม่ถูกเกี่ยวกับ cns infection — A. Mostly febrile (ผู้จดจำช้อยได้ข้อเดียว)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ผู้จดจำได้แค่ช้อย \"Mostly febrile\" (P'Ing ✗ fever ~½) → แต่งช้อยที่เหลือเป็นข้อความถูก · ข้อคล้ายกับ 74A ไม่มีเลข 1 (คนละ rotation)",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_29"
   ]
  },
  "MDCU74|RoD|30": {
-  "interp": "หญิงปวดศีรษะมากขึ้น 2 เดือน ตามัว เห็นภาพซ้อน CN VI อ่อนแรงสองข้าง ไม่มีแขนขาอ่อนแรง = ความดันในกะโหลกสูงโดยไม่มีรอยโรคเฉพาะที่ → ถามการวินิจฉัย",
-  "why": "P'Ing วง B + แปะข้อสอบเก่าที่คล้ายกัน (เฉลย <b>venous sinus thrombosis</b>)<br><b>นอกสไลด์:</b> CN VI วิ่งยาวบนฐานกะโหลก ถูกยืดเมื่อความดันในกะโหลกสูง จึงอ่อนแรงสองข้างโดยไม่ได้บอกตำแหน่งรอยโรค (false localizing sign) · ลิ่มเลือดใน venous sinus ทำให้ระบาย CSF และเลือดดำไม่ได้ ความดันในกะโหลกสูงขึ้นช้า ๆ ตามัวจาก papilledema",
+  "interp": "หญิง 30 ปี ปวดศีรษะเป็น ๆ หาย ๆ มากขึ้นนาน 2 เดือน ตามัว เห็นภาพซ้อน สายตา 20/100 สองข้าง และ <b>bilateral CN VI palsy</b> โดยไม่มีแขนขาอ่อนแรงและ cerebellum ปกติ — เป็นภาพของ<b>ความดันในกะโหลกสูงทั่วไป (raised ICP)</b> โดยไม่มีรอยโรคเฉพาะที่ ถามการวินิจฉัย",
+  "why": "CN VI มีทางเดินในกะโหลกยาวที่สุดและพาดผ่านยอด petrous bone เมื่อ ICP สูงทั่วไปจะถูกดึง/ กดจนอ่อนแรง จึงเป็น <b>false localizing sign</b> · ตามัวสองข้างเกิดจาก <b>papilledema</b> เรื้อรังจนเส้นประสาทตาเสีย · กลุ่มอาการปวดศีรษะ + papilledema + CN VI palsy ที่ไม่มี focal deficit = isolated intracranial hypertension ซึ่งในหญิงวัยเจริญพันธุ์ต้องคิดถึง <b>cerebral venous sinus thrombosis (CVST)</b> (และ IIH ที่ต้องตัด CVST ก่อนเสมอ) · CVST: ลิ่มเลือดใน dural sinus (superior sagittal, transverse) ทำให้ CSF ดูดซึมไม่ได้และเลือดดำคั่ง → ICP สูง, venous infarct ที่มักมีเลือดออก, ชัก · ปัจจัยเสี่ยง: <b>ยาคุมกำเนิด</b>, ตั้งครรภ์/ หลังคลอด, thrombophilia, ติดเชื้อใกล้เคียง (mastoiditis), ขาดน้ำ, มะเร็ง · อาการเริ่มได้ตั้งแต่เฉียบพลันถึงเรื้อรังหลายสัปดาห์ · CT อาจเห็น dense sinus/ cord sign และ <b>empty delta sign</b> บน contrast CT · ยืนยันด้วย <b>MRV หรือ CTV</b> · รักษาด้วย <b>anticoagulation</b> (LMWH หรือ UFH) <b>แม้มี hemorrhagic venous infarct</b> แล้วต่อด้วยยากิน 3–12 เดือน · ไฟล์วง B และ P'Ing แปะข้อสอบเก่าที่คล้ายกัน (<b>\"bilateral lateral rectus palsy → venous sinus thrombosis\"</b>)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ฝีที่ occipital lobe ให้ลานสายตาหายครึ่งซีกและมักมีไข้ · จะถูกถ้าผู้ป่วยไข้ ปวดศีรษะ ลานสายตาหายครึ่งซีกด้านเดียวกันทั้งสองตา",
-   "C": "<b>นอกสไลด์:</b> มะเร็งกระจายหลายก้อนมักมีอาการเฉพาะที่ · จะถูกถ้าผู้สูงอายุมีมะเร็งปอด ชักหรืออ่อนแรง และ MRI มีก้อนหลายก้อนที่รอยต่อเนื้อเทา–ขาว",
-   "D": "<b>นอกสไลด์:</b> ก้อนที่ cerebellum ทำให้ความดันในกะโหลกสูงจาก hydrocephalus ได้ แต่ต้องมีอาการ cerebellum (โจทย์บอกว่าตรวจปกติ) · จะถูกถ้าผู้ป่วยเดินเซ finger-to-nose ผิดปกติข้างเดียว ปวดศีรษะตอนเช้า อาเจียน",
-   "E": "<b>นอกสไลด์:</b> AVM แตกเป็นเฉียบพลัน · จะถูกถ้าคนอายุน้อยปวดศีรษะรุนแรงทันทีร่วมกับชัก CT พบเลือดออกในเนื้อสมอง"
+   "A": "Occipital lobe abscess ทำ <b>contralateral homonymous hemianopia</b> (มักเว้น macula) ร่วมกับไข้และปวดศีรษะ เป็นรอยโรคเฉพาะที่ ไม่ทำตามัวสองข้างแบบ acuity ลดเท่ากันและไม่ทำ CN VI palsy ทั้งสองข้างเว้นแต่ก้อนใหญ่มาก · จะถูกถ้าเป็นชาย 40 ปี หูน้ำหนวก ไข้ ปวดศีรษะ ลานสายตาซีกซ้ายหายทั้งสองตา MRI พบก้อน ring-enhancing ที่ occipital lobe ขวา",
+   "C": "Brain metastasis หลายก้อนพบในผู้สูงอายุที่มีมะเร็งต้นทาง (ปอด เต้านม melanoma) มาด้วยปวดศีรษะร่วมกับ focal deficit ชัก และสับสนตามตำแหน่งก้อน ไม่ใช่ภาพ ICP สูงล้วน ๆ ในหญิงอายุน้อยโดยไม่มี focal sign · จะถูกถ้าเป็นหญิง 55 ปี เคยผ่าตัดมะเร็งเต้านม ปวดศีรษะ แขนขวาอ่อนแรง MRI พบก้อน enhance หลายก้อนที่ gray–white junction",
+   "D": "Cerebellar tumor ทำ obstructive hydrocephalus จึงมี papilledema และ CN VI palsy ได้ แต่ควรมี <b>ataxia, dysmetria, nystagmus</b> เดินเซ ซึ่งโจทย์ระบุว่า cerebellar exam ปกติ · จะถูกถ้าเป็นชาย 50 ปี ปวดศีรษะตอนเช้า อาเจียน เดินเซไปทางขวา finger-to-nose ขวาผิดปกติ MRI พบก้อนที่ cerebellar hemisphere ขวา",
+   "E": "Ruptured AVM มาด้วยเลือดออกในสมองหรือ subarachnoid แบบ<b>เฉียบพลัน</b>: ปวดศีรษะรุนแรงทันที ชัก focal deficit หรือหมดสติ ในคนอายุน้อย ไม่ใช่อาการค่อยเป็นค่อยไป 2 เดือน · จะถูกถ้าเป็นชาย 25 ปี ปวดศีรษะรุนแรงทันทีขณะออกกำลัง แขนซ้ายอ่อนแรง CT พบ intracerebral hemorrhage ที่ parietal lobe และ CTA เห็น nidus"
   },
-  "trap": "CN VI อ่อนแรงสองข้างอาจทำให้คิดถึงรอยโรคที่ก้านสมอง — จริง ๆ เป็นสัญญาณของความดันในกะโหลกสูง",
+  "trap": "Bilateral CN VI palsy ชวนให้คิดว่ามีรอยโรคที่ brainstem หรือ posterior fossa (เลือก cerebellar tumor) · แต่โจทย์บอกว่าไม่มี focal sign และ cerebellum ปกติ — CN VI palsy ที่นี่เป็น <b>false localizing sign ของ ICP สูง</b> · ในหญิงวัยเจริญพันธุ์ที่มี ICP สูงโดยไม่มีก้อน ต้องหา CVST ด้วย MRV ก่อนสรุปว่าเป็น IIH",
   "summary": [
-   "<b>นอกสไลด์:</b> CVST ปัจจัยเสี่ยง: หญิง ยาคุม ตั้งครรภ์/หลังคลอด ขาดน้ำ ภาวะเลือดแข็งตัวง่าย ติดเชื้อใกล้เคียง",
-   "<b>นอกสไลด์:</b> วินิจฉัยด้วย MR/CT venography (empty delta sign) · รักษาด้วยยาต้านการแข็งตัวแม้มีเลือดออกจาก venous infarct"
+   "Raised ICP: ปวดศีรษะตอนเช้า/ เวลาไอ เบ่ง, อาเจียน, papilledema, ตามัวชั่วขณะ (transient visual obscuration), CN VI palsy (false localizing), Cushing triad ในระยะท้าย",
+   "CVST ปัจจัยเสี่ยง: ยาคุมกำเนิด, ตั้งครรภ์/ หลังคลอด, thrombophilia (factor V Leiden, antiphospholipid), มะเร็ง, ขาดน้ำ, ติดเชื้อหู/ ไซนัส, IBD, nephrotic syndrome · พบในหญิงอายุน้อยมากกว่าชายราว 3 เท่า",
+   "อาการ CVST: ปวดศีรษะ ~90% (ค่อยเป็นหรือ thunderclap) · isolated intracranial hypertension · ชัก · focal deficit · encephalopathy (deep venous system/ thalamus ทั้งสองข้าง)",
+   "ภาพ: CT cord sign/ dense triangle sign, empty delta sign (contrast CT), venous infarct ที่ไม่ตรง arterial territory มักมีเลือดออก · MRV/ CTV เป็นการยืนยัน",
+   "รักษา: anticoagulation ทันที (LMWH หรือ UFH) แม้มี ICH · ต่อด้วย warfarin หรือ DOAC (dabigatran) 3–12 เดือน · ถาวรถ้ามี thrombophilia รุนแรงหรือเป็นซ้ำ · หยุดยาคุมกำเนิดที่มี estrogen",
+   "แย่ลงแม้ได้ยา → endovascular thrombectomy ในศูนย์ที่ทำได้ · herniation จาก venous infarct ใหญ่ → decompressive craniectomy · ป้องกันตาบอดด้วย acetazolamide/ optic nerve sheath fenestration/ shunt",
+   "IIH: หญิงอ้วนวัยเจริญพันธุ์ ICP สูง MRI ไม่มีก้อน MRV ไม่มี thrombosis (อาจมี transverse sinus stenosis) LP opening pressure &gt; 25 cmH2O CSF ปกติ → ลดน้ำหนัก + acetazolamide"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับข้อเก่าที่ P'Ing แปะ · ช้อย D, E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B และแปะข้อสอบเก่าที่คล้ายกันซึ่งเฉลย venous sinus thrombosis · ภาพ ICP สูงล้วนโดยไม่มี focal sign ในหญิงอายุน้อยเข้ากับ CVST มากที่สุดในช้อย (IIH ไม่อยู่ในช้อย) ช้อย D และ E เติมภายหลังเพราะไฟล์มี 3 ช้อย",
+  "mnemonic": "<b>'ICP สูง + CN VI สองข้าง + ไม่มี focal sign ในหญิงสาว → MRV หา CVST ก่อนเรียก IIH'</b>",
+  "guide": "Saposnik G et al. Diagnosis and Management of Cerebral Venous Thrombosis: AHA Scientific Statement, Stroke 2024; Ferro JM et al. European Stroke Organization Guideline for CVT, Eur J Neurol 2017",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงอ้วนปวดศีรษะ ตามัว papilledema MRI/MRV ปกติ ความดันเจาะหลังสูง CSF ปกติ → idiopathic intracranial hypertension ลดน้ำหนัก + acetazolamide"
+   "หญิง 25 ปี ใช้ยาคุมกำเนิด ปวดศีรษะ 1 สัปดาห์ ชัก CT พบ hemorrhagic infarct ที่ parasagittal ทั้งสองข้าง → superior sagittal sinus thrombosis → MRV ยืนยันแล้วให้ heparin แม้มีเลือดออก",
+   "หญิง 28 ปี BMI 36 ปวดศีรษะ papilledema CN VI palsy MRI/ MRV ปกติ LP opening pressure 35 cmH2O CSF ปกติ → IIH → ลดน้ำหนัก + acetazolamide",
+   "หญิงหลังคลอด 10 วัน ปวดศีรษะมากขึ้นเรื่อย ๆ ตามัว → postpartum CVST → MRV",
+   "ทำไม CVST ให้ anticoagulant ได้ทั้งที่มีเลือดออกในสมอง → เลือดออกเกิดจากเลือดดำคั่ง การเปิดทางไหลกลับของเลือดดำช่วยลดความดันและลดเลือดออก"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>diplopia, blur vision, visual acuity 20/100 bilateral CN 6 palsy เป็นอะไร — A. Occipital abscess B. Venous sinus thrombosis C. Brain metastasis</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 3 ช้อย → เติม D, E · P'Ing แปะข้อสอบเก่าที่คล้าย (เฉลย venous sinus thrombosis) · เติมอายุ/เพศและระยะเวลาตามข้อที่ P'Ing แปะ",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_30"
   ]
  },
  "MDCU74|RoD|31": {
-  "interp": "HIV ไม่ได้รักษา CD4 50 ไข้ ปวดศีรษะ อ่อนแรงครึ่งซีก MRI ก้อน ring-enhancing หลายก้อนที่ basal ganglia และรอยต่อเปลือก–เนื้อขาว Toxoplasma IgG บวก → ถามการวินิจฉัย",
-  "why": "ผู้จดจำได้ช้อยเดียว (Toxoplasma) — <b>Claude บรรยายภาพและแต่งช้อย</b><br><b>นอกสไลด์:</b> Cerebral toxoplasmosis เป็นก้อนในสมองจากเชื้อฉวยโอกาสที่พบบ่อยที่สุดในผู้ป่วยเอดส์ CD4 ต่ำกว่าราว 100 · เป็นการกำเริบของเชื้อที่แฝงอยู่ จึง IgG บวก · รักษาแบบ empirical ได้เลย แล้วดูการตอบสนองทางภาพ",
+  "interp": "ชาย 40 ปี ติดเชื้อ HIV ที่ยังไม่รักษา <b>CD4 50</b> และเป็นเบาหวาน มีไข้ ปวดศีรษะ แขนขาขวาอ่อนแรง MRI พบ<b>ก้อน ring-enhancing หลายก้อนที่ basal ganglia และ corticomedullary junction</b> และ Toxoplasma IgG บวก — ถามการวินิจฉัยของก้อนในสมองผู้ป่วยภูมิคุ้มกันบกพร่องรุนแรง",
+  "why": "<b>Cerebral toxoplasmosis</b> เป็นสาเหตุของก้อนในสมองที่พบบ่อยที่สุดในผู้ป่วย AIDS · เกิดจาก<b>การกลับเป็นซ้ำ (reactivation)</b> ของ <i>Toxoplasma gondii</i> ที่แฝงอยู่ จึงแทบทุกรายมี <b>Toxoplasma IgG บวก</b> และเกิดเมื่อ <b>CD4 &lt; 100 cells/µL</b> · อาการ: ปวดศีรษะ ไข้ สับสน focal deficit ชัก · ภาพ: ก้อน <b>ring-enhancing หลายก้อน</b> ที่ <b>basal ganglia</b>, thalamus และ corticomedullary junction มี edema รอบ บางครั้งเห็น eccentric target sign · ในทางปฏิบัติให้ <b>empirical treatment</b> เลย: <b>pyrimethamine + sulfadiazine + leucovorin</b> (ทางเลือก TMP-SMX ขนาดสูงซึ่งหาง่ายในไทย) นาน ≥ 6 สัปดาห์ แล้วตามด้วย maintenance · ถ้าอาการไม่ดีขึ้นใน 10–14 วัน หรือ IgG ลบ หรือก้อนเดียวที่ไม่ตอบสนอง ให้คิดถึง <b>primary CNS lymphoma</b> และพิจารณา brain biopsy · ให้ steroid เฉพาะเมื่อมี mass effect มาก (เพราะบังผลของ lymphoma) · เริ่ม ART ภายในราว 2 สัปดาห์ · ป้องกันปฐมภูมิด้วย TMP-SMX DS วันละครั้งเมื่อ CD4 &lt; 100 และ IgG บวก · ไฟล์บอกว่าข้อสอบให้รูปแต่ไม่มีรูป และลายมือ P'Ing ให้คำตอบ <b>\"Toxoplasma\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Primary CNS lymphoma มักเป็นก้อนเดียวรอบโพรงสมอง · จะถูกถ้าก้อนเดียวรอบ ventricle ไม่ดีขึ้นหลังรักษา toxoplasmosis ราว 2 สัปดาห์ และ CSF EBV PCR บวก",
-   "C": "<b>นอกสไลด์:</b> Tuberculoma ร่วมกับ basal meningitis · จะถูกถ้าผู้ป่วยมีวัณโรคปอด ไข้เรื้อรัง เส้นประสาทสมองอ่อนแรง MRI เห็น basal meningeal enhancement",
-   "D": "<b>นอกสไลด์:</b> Cryptococcus มักทำ meningitis มากกว่าก้อน · จะถูกถ้าผู้ป่วยปวดศีรษะหลายสัปดาห์ ความดัน CSF สูง และ cryptococcal antigen บวก",
-   "E": "<b>นอกสไลด์:</b> PML เป็นรอยโรคเนื้อขาวไม่ enhance ไม่มีผลกดเบียด · จะถูกถ้าผู้ป่วยเอดส์อ่อนแรงและพูดช้าลงหลายสัปดาห์โดยไม่มีไข้ MRI เห็นรอยโรคเนื้อขาวใต้เปลือกสมองไม่ enhance"
+   "B": "Primary CNS lymphoma ใน AIDS สัมพันธ์กับ <b>EBV</b> มักเป็นก้อนเดียวหรือไม่กี่ก้อนที่ periventricular/ corpus callosum ลามตาม subependyma และ hyperdense บน CT · Thallium SPECT/ PET ติดสาร CSF EBV PCR บวก ไม่ตอบสนองต่อยา Toxoplasma · จะถูกถ้าเป็นชาย 38 ปี HIV CD4 30 Toxoplasma IgG ลบ MRI พบก้อนเดียวรอบ ventricle ข้าม corpus callosum CSF พบ EBV DNA",
+   "C": "Tuberculoma เป็นก้อน ring-enhancing ผนังหนาได้ทุกระดับ CD4 มักมีวัณโรคที่อื่น (ปอด ต่อมน้ำเหลือง) หรือ TB meningitis ร่วม เห็น basal meningeal enhancement · จะถูกถ้าเป็นชาย 35 ปี HIV CD4 250 ไอเรื้อรัง เหงื่อออกกลางคืน CXR มี miliary pattern MRI พบ ring-enhancing lesion หลายก้อนร่วมกับ basal meninges enhance",
+   "D": "Cryptococcus ใน AIDS มักเป็น <b>meningitis</b> ที่ปวดศีรษะมาก ICP สูงมาก CSF cryptococcal antigen บวก ส่วน cryptococcoma หรือ gelatinous pseudocyst ที่ basal ganglia มักไม่ enhance เป็นวง · จะถูกถ้าเป็นหญิง 32 ปี HIV CD4 20 ปวดศีรษะ 3 สัปดาห์ CSF opening pressure 40 cmH2O India ink และ cryptococcal antigen บวก",
+   "E": "PML เกิดจาก <b>JC virus</b> ใน CD4 ต่ำ เป็นรอยโรคใน white matter (subcortical U-fibers) ที่<b>ไม่ enhance และไม่มี mass effect</b> อาการค่อย ๆ แย่ลงหลายสัปดาห์ ไม่มีไข้ · จะถูกถ้าเป็นชาย 45 ปี HIV CD4 40 อ่อนแรงและพูดลำบากมากขึ้น 2 เดือน MRI พบรอยโรค T2 สว่างใน white matter parieto-occipital ไม่ enhance CSF JC virus PCR บวก"
   },
-  "trap": "ก้อน ring-enhancing ในผู้ป่วยเอดส์ไม่ต้องรอชิ้นเนื้อ — ให้ยา toxoplasmosis ก่อน ถ้าไม่ดีขึ้นจึงตัดชิ้นเนื้อหา lymphoma",
+  "trap": "ทั้ง toxoplasmosis และ primary CNS lymphoma เป็นก้อน ring-enhancing ใน AIDS CD4 ต่ำมาก คนจึงสลับกัน · วิธีแยก: <b>หลายก้อนที่ basal ganglia + IgG บวก + ไข้</b> = toxoplasmosis → รักษาแบบ empirical และประเมินซ้ำใน 2 สัปดาห์ · <b>ก้อนเดียว periventricular + IgG ลบ + EBV บวก</b> = lymphoma",
   "summary": [
-   "<b>นอกสไลด์:</b> รักษา: pyrimethamine + sulfadiazine + leucovorin (หรือ TMP-SMX) แล้วเริ่มยาต้านไวรัส",
-   "<b>นอกสไลด์:</b> ป้องกัน: TMP-SMX เมื่อ CD4 ต่ำกว่า 100 และ Toxoplasma IgG บวก"
+   "ก้อน ring-enhancing ใน AIDS: toxoplasmosis (บ่อยสุด) · primary CNS lymphoma · tuberculoma · cryptococcoma · bacterial/ fungal abscess · ส่วน PML ไม่ enhance",
+   "Toxoplasmosis: CD4 &lt; 100, IgG บวก (&gt; 95%), หลายก้อนที่ basal ganglia/ corticomedullary junction, ไข้ · IgG ลบทำให้โอกาสต่ำมาก",
+   "รักษา: pyrimethamine + sulfadiazine + leucovorin หรือ TMP-SMX ≥ 6 สัปดาห์ → maintenance (secondary prophylaxis) จน CD4 &gt; 200 นาน ≥ 6 เดือนหลัง ART",
+   "ทางคลินิกดีขึ้นใน 1–2 สัปดาห์ ภาพดีขึ้นใน 2–3 สัปดาห์ · ไม่ดีขึ้น → brain biopsy หา lymphoma หรือโรคอื่น",
+   "PCNSL ใน AIDS: EBV-related, periventricular, Thallium SPECT/ FDG-PET hot, CSF EBV PCR · รักษาด้วย high-dose methotrexate + ART · steroid ทำให้ biopsy ไม่พบเซลล์มะเร็งได้",
+   "Primary prophylaxis: TMP-SMX DS วันละ 1 เม็ดเมื่อ CD4 &lt; 100 และ IgG บวก (ป้องกัน PCP ด้วยเมื่อ CD4 &lt; 200) · หยุดได้เมื่อ CD4 &gt; 200 นาน ≥ 3 เดือนหลัง ART",
+   "เริ่ม ART ภายใน 2 สัปดาห์ของการรักษา toxoplasmosis · ระวัง IRIS · ยกเว้น cryptococcal/ TB meningitis ที่ต้องเลื่อน ART ออกไป 4–6 สัปดาห์"
   ],
-  "opinion": "เห็นด้วยกับคีย์ toxoplasma · ไฟล์ไม่มีรูปและมีช้อยเดียว จึงบรรยายภาพและแต่งช้อย · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่ให้ Toxoplasma · ไฟล์บอกว่าข้อสอบให้รูปแต่ไม่มีรูปและมีช้อยเดียว โจทย์จึงบรรยายภาพเป็นก้อน ring-enhancing หลายก้อนที่ basal ganglia พร้อม CD4 50 และ IgG บวก ซึ่งเป็นภาพคลาสสิกตามแนวทาง opportunistic infection ของ NIH",
+  "mnemonic": "<b>'AIDS + หลายวง + Basal ganglia + IgG บวก = Toxo → รักษาเลย 2 สัปดาห์ไม่ดีขึ้น → Biopsy หา Lymphoma'</b>",
+  "guide": "Panel on Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV (NIH/CDC/HIVMA-IDSA) — Toxoplasma gondii Encephalitis, updated 2024; Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยเอดส์ได้ยารักษา toxoplasmosis 2 สัปดาห์ ก้อนไม่เล็กลง ก้อนเดียวรอบ ventricle → stereotactic biopsy หา primary CNS lymphoma"
+   "ชาย 35 ปี HIV CD4 40 มีก้อน ring-enhancing หลายก้อน IgG บวก รักษาด้วย pyrimethamine + sulfadiazine 2 สัปดาห์แล้วแย่ลง → stereotactic brain biopsy หา primary CNS lymphoma",
+   "หญิง 30 ปี HIV เพิ่งวินิจฉัย CD4 70 Toxoplasma IgG บวก ไม่มีอาการ → เริ่ม TMP-SMX DS วันละครั้ง (ป้องกันทั้ง toxoplasmosis และ PCP) + ART",
+   "ผู้ป่วย toxoplasmosis แพ้ sulfa รุนแรง → pyrimethamine + leucovorin + clindamycin",
+   "ทำไมต้องตรวจ Toxoplasma IgG ในก้อนสมองของ AIDS → โรคเป็น reactivation ถ้า IgG ลบโอกาส toxoplasmosis ต่ำมาก ต้องหาโรคอื่นโดยเฉพาะ lymphoma"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>HIV, DM ให้รูปมา ถาม dx — A. Toxoplasma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์บอกว่าให้รูปแต่ไม่มีรูป และมีช้อยเดียว → Claude บรรยายภาพ + แต่งช้อย B–E",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_31"
   ]
  },
  "MDCU74|RoD|32": {
-  "interp": "ไข้และมีหนองที่แผล 3 สัปดาห์หลังผ่าตัดยกกะโหลกจากกะโหลกยุบ CT มีฝีใต้ dura และในเนื้อสมองใต้ bone flap → ถามเชื้อที่น่าจะเป็นที่สุด",
-  "why": "ผู้จดเขียน <b>S. aureus</b> (\"ตรงแอคเก่า\") — Claude แต่งโจทย์ให้เป็นฝีหลังผ่าตัด/บาดเจ็บ<br><b>นอกสไลด์:</b> ฝีหลังแผลทะลุกะโหลกหรือหลังผ่าตัดมาจากเชื้อผิวหนังที่เข้าทางแผล เชื้อหลักคือ S. aureus (และ coagulase-negative staphylococci ที่เกาะ bone flap) · ยา empirical ต้องครอบคลุม MRSA และแกรมลบในโรงพยาบาล",
+  "interp": "ชาย 30 ปี มีไข้และแผลมีหนองคั่ง 3 สัปดาห์หลัง craniotomy เพื่อแก้ depressed skull fracture CT พบ ring-enhancing subdural empyema และฝีในสมองใต้ bone flap — ถามเชื้อก่อโรคที่เป็นไปได้มากที่สุด ซึ่งต้องจับคู่<b>กลไกการติดเชื้อ (หลังบาดเจ็บ/ ผ่าตัด)</b> กับเชื้อ",
+  "why": "เชื้อก่อ brain abscess ขึ้นกับ<b>ทางที่เชื้อเข้า</b>: ลามจากไซนัส/ ฟัน → <b>streptococci (S. anginosus/ milleri group)</b> + anaerobe · จากหู/ mastoid → streptococci, <b>Bacteroides</b>, Enterobacterales, Pseudomonas · hematogenous จาก endocarditis → S. aureus, viridans streptococci · ภูมิคุ้มกันบกพร่อง → Toxoplasma, Nocardia, fungi · ส่วน<b>บาดเจ็บทะลุหรือหลังผ่าตัดสมอง</b> เชื้อจากผิวหนังเข้าตรง → <b>Staphylococcus aureus</b> เป็นเชื้อหลัก (รวม MRSA) รองลงมาคือ coagulase-negative staphylococci และ gram-negative bacilli ในโรงพยาบาล (Pseudomonas, Enterobacter, Acinetobacter) · bone flap ที่ไม่มีเลือดเลี้ยงเป็นสิ่งแปลกปลอมให้เชื้อเกาะเป็น biofilm · การรักษา: ผ่าตัด<b>เอา bone flap ที่ติดเชื้อออก</b> ล้างหนอง ระบาย subdural empyema และเปิดดู abscess + ยาเริ่มต้น <b>vancomycin + cefepime หรือ meropenem</b> (ครอบคลุม MRSA และ Pseudomonas) แล้วปรับตามผลเพาะเชื้อ นาน 6–8 สัปดาห์ · ใส่ cranioplasty ภายหลังเมื่อหายติดเชื้อหลายเดือน · ไฟล์จดเพียงว่า <b>\"Pyogenic อะไรสักอย่าง (ตรงแอคเก่า) ถามเชื้ออะไร — S.aureus\"</b> โจทย์จึงแต่งให้เป็นฝีหลังผ่าตัดซึ่ง S. aureus เป็นเชื้อหลัก",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Pneumococcus ทำให้ meningitis หลังกะโหลกฐานแตกที่มี CSF รั่ว · จะถูกถ้าผู้ป่วยกะโหลกฐานแตกมีน้ำใสไหลจากจมูกแล้วเป็นเยื่อหุ้มสมองอักเสบ",
-   "C": "<b>นอกสไลด์:</b> Bacteroides เป็น anaerobe ในฝีที่ลามจากหูหรือไซนัส (มักร่วมกับ streptococci) · จะถูกถ้าผู้ป่วยหูน้ำหนวกเรื้อรังเกิดฝีที่ temporal lobe หรือ cerebellum",
-   "D": "<b>นอกสไลด์:</b> H. influenzae ทำ meningitis ในเด็กเล็กที่ไม่ได้รับวัคซีน · จะถูกถ้าเด็กอายุ 1 ปีที่ไม่ได้วัคซีน Hib มีไข้ คอแข็ง",
-   "E": "<b>นอกสไลด์:</b> Nocardia ทำฝีในผู้ภูมิคุ้มกันต่ำมักร่วมกับรอยโรคปอด · จะถูกถ้าผู้ป่วยปลูกถ่ายอวัยวะที่ได้ steroid มีก้อนในปอดและฝีในสมอง ย้อมพบแบคทีเรียแกรมบวกเป็นเส้นแตกแขนง"
+   "B": "Streptococcus pneumoniae เป็นเชื้อก่อ <b>bacterial meningitis</b> ที่พบบ่อยที่สุดในผู้ใหญ่ รวมถึง recurrent meningitis จาก CSF leak หลัง basal skull fracture แต่ทำ brain abscess ได้น้อยมาก · จะถูกถ้าเป็นชาย 35 ปี มีน้ำใสไหลจากจมูกหลังอุบัติเหตุ 2 เดือน แล้วเกิดไข้ คอแข็ง ซึม CSF พบ gram-positive diplococci",
+   "C": "Bacteroides fragilis และ anaerobe อื่นมาจากการลามของ <b>otitis media/ mastoiditis</b> หรือฝีในช่องท้อง พบในฝีที่ temporal lobe หรือ cerebellum มักเป็นเชื้อผสมกับ streptococci · จะถูกถ้าเป็นชาย 25 ปี หูน้ำหนวกข้างซ้ายเรื้อรังมีกลิ่นเหม็น ปวดศีรษะ เดินเซ MRI พบฝีที่ cerebellum ซ้าย",
+   "D": "Haemophilus influenzae type b ก่อ meningitis ในเด็กเล็กที่ไม่ได้รับวัคซีน (ลดลงมากหลังมีวัคซีน Hib) และอาจทำ subdural effusion แต่ไม่ใช่เชื้อของฝีหลังผ่าตัด · จะถูกถ้าเป็นเด็ก 10 เดือน ไม่เคยได้วัคซีน Hib ไข้สูง กระหม่อมโป่ง ชัก CSF พบ gram-negative coccobacilli",
+   "E": "Nocardia เป็น gram-positive branching filamentous bacteria (modified acid-fast บวก) ก่อโรคใน<b>ภูมิคุ้มกันบกพร่อง</b> (steroid ขนาดสูง ปลูกถ่ายอวัยวะ HIV) มักมีรอยโรคปอดร่วมกับฝีในสมองแบบ multiloculated รักษาด้วย TMP-SMX นาน · จะถูกถ้าเป็นชาย 55 ปี หลังปลูกถ่ายไตกิน prednisolone มีก้อนในปอดและชัก MRI พบฝีหลายห้องในสมอง"
   },
-  "trap": "จับคู่แหล่งติดเชื้อกับเชื้อ — หลังผ่าตัด/แผลทะลุ = S. aureus · ไซนัส/ฟัน = streptococci + anaerobe",
+  "trap": "คนเลือก streptococci หรือ anaerobe เพราะจำว่าเป็นเชื้อที่พบบ่อยที่สุดของ brain abscess โดยรวม · แต่โจทย์ผูกกับ<b>การผ่าตัด/ บาดเจ็บทะลุ</b> ซึ่งเชื้อจากผิวหนังเข้าตรง จึงต้องตอบ S. aureus · หลักจำคือคำถามเรื่องเชื้อมักซ่อนคำตอบไว้ใน<b>แหล่งที่มา</b>ของฝีเสมอ",
   "summary": [
-   "<b>นอกสไลด์:</b> เชื้อตามแหล่ง: ไซนัส/ฟัน → streptococci (กลุ่ม milleri) + anaerobe · หู → streptococci, anaerobe, แกรมลบ · กระแสเลือด → ตามโรคต้นเหตุ (เช่น S. aureus จาก endocarditis) · ภูมิคุ้มกันต่ำ → Toxoplasma, Nocardia, เชื้อรา",
-   "<b>นอกสไลด์:</b> ฝีหลังผ่าตัดที่ bone flap ติดเชื้อ → เอา bone flap ออก ระบายหนอง แล้วใส่กะโหลกเทียมภายหลัง"
+   "Source → organism: sinus/ ฟัน → S. anginosus group + anaerobe (frontal lobe) · หู/ mastoid → streptococci, Bacteroides, Proteus, Pseudomonas (temporal lobe, cerebellum) · endocarditis → S. aureus, viridans strep (หลายก้อน)",
+   "Trauma/ neurosurgery → S. aureus (MSSA/ MRSA), CoNS, gram-negative bacilli ในโรงพยาบาล · cyanotic heart disease → streptococci",
+   "Immunocompromised: T-cell defect → Toxoplasma, Nocardia, Listeria, Cryptococcus · neutropenia/ transplant → Aspergillus, Mucor (เบาหวาน DKA → rhinocerebral mucormycosis)",
+   "Subdural empyema: หนองใต้ dura ลามเร็ว มักจาก frontal sinusitis ในเด็กชายวัยรุ่น หรือหลังผ่าตัด · เป็น neurosurgical emergency ต้องผ่าตัดระบาย (craniotomy ดีกว่า burr hole)",
+   "Post-craniotomy infection: แผลบวมแดง หนองซึม bone flap osteomyelitis → เอา bone flap ออก + debridement + ยา 6–8 สัปดาห์ → cranioplasty ภายหลัง (มักรอ 3–6 เดือน)",
+   "Empiric ยาหลังผ่าตัดสมอง: vancomycin + cefepime/ ceftazidime/ meropenem · community: ceftriaxone + metronidazole ± vancomycin",
+   "ป้องกัน: prophylactic antibiotic ก่อนลงมีด (cefazolin) · ล้างแผล debride และปิด dura ให้สนิทในบาดเจ็บทะลุ · แก้ CSF leak"
   ],
-  "opinion": "เห็นด้วยกับคีย์ S. aureus · ไฟล์จดไม่ครบจึงแต่งโจทย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่จดว่าข้อนี้ตรงข้อสอบเก่าและตอบ S. aureus · ไฟล์ไม่ได้จดโจทย์ (เขียนเพียงว่าเป็น pyogenic อะไรสักอย่าง) จึงแต่งให้เป็นฝีหลังผ่าตัด/ บาดเจ็บ ซึ่งตำรา neurosurgery และ NEJM review ระบุ S. aureus เป็นเชื้อหลักของกลไกนี้",
+  "mnemonic": "<b>'ฝีหลังมีด/ หลังบาดเจ็บ = Staph (ผิวหนังเข้าตรง) · หู = Anaerobe · ไซนัส = Strep'</b>",
+  "guide": "Brouwer MC et al. Brain Abscess, N Engl J Med 2014; Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Cerebral Abscess and Subdural Empyema",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลังผ่าตัดสมองมีฝีใต้ bone flap ระหว่างรอผลเพาะเชื้อ → vancomycin ร่วมกับ cefepime หรือ meropenem"
+   "เด็กชาย 15 ปี frontal sinusitis ไข้สูง ปวดศีรษะ ซึม ชัก CT พบหนองบาง ๆ ใต้ dura ซีกซ้าย → subdural empyema → craniotomy ระบายด่วน + ยา",
+   "ชาย 25 ปี ถูกยิงที่ศีรษะ 2 สัปดาห์ก่อน ไข้ แผลซึม CT พบฝีตามแนวกระสุนที่มีเศษกระดูก → S. aureus → debridement + vancomycin",
+   "หญิง 60 ปี เบาหวานคุมไม่ได้ DKA หน้าบวม เพดานปากดำ ตาโปน → rhinocerebral mucormycosis → amphotericin B + surgical debridement ด่วน",
+   "ทำไมต้องเอา bone flap ที่ติดเชื้อออก → กระดูกที่ถอดออกแล้วใส่กลับไม่มีเลือดเลี้ยง เชื้อเกาะเป็น biofilm ยาเข้าไม่ถึงจึงหายด้วยยาอย่างเดียวไม่ได้"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>Pyogenic อะไรสักอย่าง (ตรงแอคเก่า) ถามเชื้ออะไร — A. S.aureus</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่ \"Pyogenic อะไรสักอย่าง (ตรงแอคเก่า) ถามเชื้ออะไร — S.aureus\" → Claude แต่งโจทย์ให้เป็นฝีในสมองหลังผ่าตัด/บาดเจ็บ ซึ่ง S. aureus เป็นเชื้อหลัก",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_32"
   ]
  },
  "MDCU74|RoD|33": {
-  "interp": "หญิงเบาหวาน ไข้ ปวดสีข้าง sepsis CT มีลมในเนื้อไตและลมรอบไต → ถามการวินิจฉัย",
-  "why": "P'Ing เขียน <b>emphysematous pyelonephritis</b> + แปะสไลด์<br><b>นอกสไลด์:</b> เชื้อ (E. coli, Klebsiella) หมักกลูโคสในเนื้อไตที่น้ำตาลสูงและเลือดเลี้ยงไม่ดี สร้างก๊าซและเนื้อไตตาย · พบในเบาหวานเกือบทั้งหมด และ/หรือทางเดินปัสสาวะอุดตัน",
+  "interp": "หญิง 60 ปี เบาหวาน มีไข้ ปวดสีข้าง และ sepsis CT พบ<b>ก๊าซเป็นจุดกระจายในเนื้อไต</b>และ<b>ก๊าซรูปจันทร์เสี้ยวใน perinephric space</b> — ถามการวินิจฉัยการติดเชื้อทางเดินปัสสาวะส่วนบนที่สร้างก๊าซ ซึ่งรุนแรงที่สุดในกลุ่ม",
+  "why": "<b>Emphysematous pyelonephritis (EPN)</b> คือการติดเชื้อเนื้อไตแบบ necrotizing ที่เชื้อสร้างก๊าซ (CO2, H2) ใน<b>เนื้อไต</b>และรอบไต · ราว <b>90–95% เป็นเบาหวาน</b> (glucose สูงเป็นอาหารให้ fermentation และเลือดไปเลี้ยงไตไม่ดีจาก microangiopathy) หญิงมากกว่าชาย และบางรายมี obstruction ร่วม · เชื้อ: <b>E. coli</b> (~70%) และ Klebsiella pneumoniae · อาการเหมือน pyelonephritis รุนแรง มีไข้ ปวดสีข้าง sepsis, AKI, thrombocytopenia, ซึม · <b>CT</b> เป็นการตรวจหลักที่ใช้แบ่งระดับ (<b>Huang & Tseng 2000</b>): class 1 ก๊าซใน collecting system เท่านั้น (emphysematous pyelitis) · class 2 ก๊าซในเนื้อไตไม่ลามออก · <b>class 3A ลามเข้า perinephric space</b> · 3B ลามเข้า pararenal space · class 4 สองข้างหรือไตข้างเดียว → ภาพในโจทย์ (ก๊าซในเนื้อไต + crescent ใน perinephric space) = class 3A · รักษา: resuscitation, broad-spectrum antibiotics, คุมน้ำตาล, แก้การอุดตัน และ <b>percutaneous catheter drainage</b> ร่วมกับยาเป็นทางเลือกแรกในเกือบทุก class · <b>nephrectomy</b> เมื่อ PCD ล้มเหลวหรือ class 3–4 ที่มีปัจจัยเสี่ยงหลายข้อ (thrombocytopenia, AKI, altered consciousness, shock) · ไฟล์ไม่มีช้อย ลายมือ P'Ing เขียนคำตอบ <b>\"Emphysematous pyelonephritis\"</b> พร้อมแปะสไลด์",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Emphysematous cystitis มีลมเฉพาะผนังกระเพาะปัสสาวะ · จะถูกถ้า CT เห็นลมเป็นแนวในผนังกระเพาะปัสสาวะ ไตปกติ",
-   "C": "<b>นอกสไลด์:</b> ฝีในไตเป็นก้อนหนองที่มีผนัง ไม่ใช่ลมกระจายในเนื้อไต · จะถูกถ้า CT เห็นก้อนน้ำมีผนัง enhance ในเนื้อไตโดยไม่มีลม",
-   "D": "<b>นอกสไลด์:</b> XGP เป็นการอักเสบเรื้อรังร่วมกับนิ่ว · จะถูกถ้าหญิงวัยกลางคนไข้ต่ำ ๆ น้ำหนักลด CT เห็นไตโตมีนิ่ว staghorn และโพรงหลายโพรง (bear paw)",
-   "E": "<b>นอกสไลด์:</b> Pyonephrosis คือหนองในระบบรวบรวมปัสสาวะที่อุดตัน · จะถูกถ้า US/CT เห็นกรวยไตขยายมีตะกอนหนองร่วมกับนิ่วอุดท่อไต ไม่มีลมในเนื้อไต"
+   "B": "Emphysematous cystitis มีก๊าซใน<b>ผนังและโพรงกระเพาะปัสสาวะ</b> พบในหญิงเบาหวานเช่นกัน อาการปัสสาวะแสบขัด ปวดท้องน้อย pneumaturia ส่วนใหญ่รุนแรงน้อยกว่า EPN รักษาด้วยยาและใส่สายสวน · จะถูกถ้าเป็นหญิง 70 ปี เบาหวาน ปัสสาวะมีลม ปวดท้องน้อย CT พบก๊าซเป็นวงรอบผนังกระเพาะปัสสาวะ ไตปกติ",
+   "C": "Renal abscess เป็นโพรงหนองในเนื้อไต CT เห็น fluid collection ขอบ enhance โดยทั่วไปไม่มีก๊าซกระจายในเนื้อไต · ก้อน &lt; 3 cm รักษาด้วยยา ก้อนใหญ่ (&gt; 5 cm) ต้องระบายผ่านผิวหนัง · จะถูกถ้าเป็นชาย 45 ปี เบาหวาน ไข้ 2 สัปดาห์หลัง pyelonephritis CT พบโพรงน้ำ 4 cm ขอบ enhance ในไตขวา",
+   "D": "Xanthogranulomatous pyelonephritis เป็นการอักเสบ<b>เรื้อรัง</b>ที่ไตถูกแทนที่ด้วย lipid-laden macrophage (foam cell) มักมี <b>staghorn stone</b> อุดตัน ไตโตไม่ทำงาน CT เห็น <b>bear paw sign</b> รักษาด้วย nephrectomy · จะถูกถ้าเป็นหญิง 50 ปี ไข้ต่ำ ๆ น้ำหนักลดหลายเดือน คลำได้ก้อนที่สีข้าง CT พบ staghorn กับ calyx ขยายรอบเป็นรูปอุ้งเท้าหมี",
+   "E": "Pyonephrosis คือหนองใน collecting system ที่ถูกอุดตัน (มักจากนิ่วในท่อไต) US เห็น hydronephrosis ที่มี debris/ fluid–fluid level เป็นภาวะฉุกเฉินที่ต้อง <b>decompress</b> ด้วย PCN หรือ JJ stent · จะถูกถ้าเป็นชาย 55 ปี มีนิ่วท่อไต 1 cm ไข้สูงหนาวสั่น US พบไตบวมน้ำที่มีตะกอนหนาในกรวยไต"
   },
-  "trap": "ลมในไตต้องแยกว่าอยู่ในระบบรวบรวม (class 1) หรือในเนื้อไต/รอบไต — ยิ่งลามออกนอกไตยิ่งรุนแรง",
+  "trap": "คำว่า gas กับ perinephric ทำให้บางคนคิดถึง perinephric abscess หรือ emphysematous cystitis · จุดแยกคือ<b>ตำแหน่งของก๊าซ</b>: ในเนื้อไต = EPN · ใน collecting system อย่างเดียว = emphysematous pyelitis (class 1 พยากรณ์ดีกว่า) · ในผนังกระเพาะปัสสาวะ = emphysematous cystitis · ไม่มีก๊าซแต่มีโพรงหนอง = abscess",
   "summary": [
-   "<b>นอกสไลด์:</b> Huang-Tseng: 1 ลมในระบบรวบรวม · 2 ลมในเนื้อไต · 3A ลมรอบไต · 3B ลมหลังเยื่อบุช่องท้อง · 4 สองข้าง/ไตข้างเดียว",
-   "<b>นอกสไลด์:</b> รักษา: ยาปฏิชีวนะ + คุมน้ำตาล + แก้การอุดตัน + ระบายผ่านผิวหนัง · class รุนแรงที่มีเกล็ดเลือดต่ำ ไตวายเฉียบพลัน ช็อก หรือระบายแล้วไม่ดีขึ้น → nephrectomy"
+   "EPN: necrotizing gas-forming infection ของเนื้อไต · เบาหวาน ~90–95% · หญิงมากกว่าชาย · E. coli ~70%, Klebsiella · obstruction ร่วมพบได้ราว 20–40%",
+   "CT จำเป็นทุกราย: Huang & Tseng — 1 collecting system · 2 parenchyma · 3A perinephric · 3B pararenal · 4 bilateral/ solitary kidney",
+   "ปัจจัยพยากรณ์แย่: thrombocytopenia, AKI, altered consciousness, shock, hypoalbuminemia",
+   "รักษา: resuscitate, broad-spectrum antibiotic (เช่น carbapenem หรือ 3rd-gen cephalosporin ± aminoglycoside), คุมน้ำตาล, แก้ obstruction (PCN/ JJ) · PCD + ยาเป็นมาตรฐานใน class 1–3 ส่วนใหญ่",
+   "Nephrectomy (มักเป็น open หรือ laparoscopic หลังผู้ป่วยคงที่): PCD ล้มเหลว หรือ class 3–4 ที่มีปัจจัยเสี่ยง ≥ 2 ข้อและไม่ตอบสนอง · mortality ลดจากราว 40% ในอดีตเหลือราว 10–20% ด้วย PCD",
+   "Upper UTI ที่ต้องทำภาพ: ไข้ไม่ลงใน 48–72 ชม., sepsis, เบาหวาน/ ภูมิคุ้มกันต่ำ, สงสัยนิ่ว/ อุดตัน, ไตข้างเดียว · CT with contrast ดีที่สุด (US เป็นตัวแรกเมื่อห่วงไตหรือตั้งครรภ์)",
+   "XGP: chronic + staghorn + bear paw sign + foam cell → nephrectomy · pyonephrosis: obstructed infected system → decompress ด่วน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ emphysematous pyelonephritis — ตรงกับสไลด์ที่ P'Ing แปะ · ไฟล์ไม่มีช้อยจึงแต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่เขียน emphysematous pyelonephritis และแปะสไลด์ · ไฟล์จดเพียงลักษณะภาพจาก CT (intraparenchymal mottled gas และ crescent-shaped perinephric gas) โดยไม่มีช้อย จึงเติมช้อยเป็นการติดเชื้อทางเดินปัสสาวะชนิดอื่นที่ต้องแยก",
+  "mnemonic": "<b>'Gas ในเนื้อไต + เบาหวาน = EPN → CT แบ่ง class → PCD ก่อน ตัดไตเมื่อล้มเหลว'</b>",
+  "guide": "Huang JJ, Tseng CC. Emphysematous pyelonephritis: clinicoradiological classification, management, prognosis, and pathogenesis, Arch Intern Med 2000; Campbell-Walsh-Wein Urology 12th ed. (2020) — Infections of the Urinary Tract",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยเบาหวาน CT เห็นลมในเนื้อไตไม่ลามออกนอกไต สัญญาณชีพคงที่ เกล็ดเลือดปกติ → ยาปฏิชีวนะ + ระบายผ่านผิวหนัง เก็บไตไว้ได้"
+   "หญิง 65 ปี เบาหวาน ไข้ ปวดสีข้าง CT พบก๊าซเฉพาะในกรวยไตและ calyces ไม่มีในเนื้อไต → emphysematous pyelitis (class 1) → ยาฆ่าเชื้อ ± ระบาย",
+   "ผู้ป่วย EPN class 3A ได้ PCD และยา 48 ชม. ยังช็อก เกล็ดเลือดต่ำ ไตวาย → nephrectomy",
+   "หญิง 50 ปี เบาหวาน EPN class 2 มีนิ่วอุดที่ ureteropelvic junction → ใส่ PCN หรือ JJ stent ร่วมกับยา",
+   "ทำไม EPN พบเกือบทั้งหมดในเบาหวาน → glucose ในเนื้อเยื่อสูงให้เชื้อ fermentation สร้างก๊าซ ร่วมกับเลือดไปเลี้ยงไม่ดีและภูมิคุ้มกันบกพร่อง"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 3 — ตัวพิมพ์: <b>[Uro] intraparenchymal mottled gas, crescent shape perinephric dx?</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์จดแค่ลักษณะภาพ ถาม dx ไม่มีช้อย → แต่งช้อย",
+  "src": "S74DQ · หน้า 3",
+  "kimg": [
+   "kp74d_33"
   ]
  },
  "MDCU74|RoD|34": {
-  "interp": "เด็กหญิง 1 ขวบ febrile UTI ครั้งแรก VCUG พบ VUR grade IV สองข้าง ไตทำงานปกติ → ถามการจัดการต่อไป",
-  "why": "ลายมือ P'Ing: <b>B ✗ when breakthrough UTI (ก่อนไตเสีย)</b><br><b>นอกสไลด์:</b> VUR จำนวนมากดีขึ้นเมื่อเด็กโตขึ้น (ท่อไตในผนังกระเพาะยาวขึ้น) · เริ่มด้วยยาปฏิชีวนะป้องกันต่อเนื่อง (continuous antibiotic prophylaxis) ร่วมกับดูแลการขับถ่าย (bladder and bowel dysfunction) เพื่อกันการติดเชื้อซ้ำและแผลเป็นที่ไต ระหว่างรอ",
+  "interp": "เด็กหญิง 1 ปี มี <b>febrile UTI ครั้งแรก</b> VCUG พบ <b>bilateral VUR grade IV</b> การทำงานของไตปกติ — ถามการจัดการขั้นต่อไป ซึ่งต้องรู้ว่า VUR ในเด็กเล็กเริ่มด้วยการป้องกันการติดเชื้อ และเก็บการผ่าตัดไว้เมื่อมีข้อบ่งชี้",
+  "why": "<b>Primary VUR</b> เกิดจาก<b>อุโมงค์ของท่อไตในผนังกระเพาะปัสสาวะ (intramural tunnel) สั้น</b> ทำให้ flap-valve ไม่ทำงาน ปัสสาวะไหลย้อนขึ้นไต เสี่ยง pyelonephritis ซ้ำและ <b>renal scarring</b> (reflux nephropathy → HT, CKD) · แบ่ง grade ตาม International Reflux Study: I เข้าท่อไตเท่านั้น · II ถึงกรวยไตไม่ขยาย · III ขยายเล็กน้อย-ปานกลาง fornix ทู่เล็กน้อย · <b>IV ขยายปานกลางและท่อไตคดเคี้ยว fornix ทู่หมดแต่ยังเห็น papillary impression</b> · V ขยายมากคดมาก papillary impression หาย · VUR หายเองได้เมื่อเด็กโตขึ้น (เกรดต่ำ ข้างเดียว อายุน้อยหายได้มาก ส่วน grade IV–V สองข้างหายช้ากว่ามาก) · แนวทาง AUA/ EAU: เด็ก<b>อายุ &lt; 1 ปี</b>ที่มี VUR และ febrile UTI ให้ <b>continuous antibiotic prophylaxis (CAP)</b> เช่น TMP-SMX หรือ nitrofurantoin ขนาดต่ำวันละครั้ง ร่วมกับรักษา bladder–bowel dysfunction (ในเด็กชายพิจารณาขลิบ) · RIVUR trial: CAP ลด febrile UTI ซ้ำได้ราวครึ่งหนึ่ง · ผ่าตัด (ureteric reimplantation หรือ endoscopic injection) เมื่อมี <b>breakthrough febrile UTI</b> ขณะได้ CAP, เกิด scar ใหม่, ไม่ยอมกินยา หรือ VUR เกรดสูงที่ไม่หายเมื่อโตขึ้น · ไฟล์วง A ลายมือ P'Ing เขียนที่ช้อย B ว่า <b>\"✗ when breakthrough UTI : ก่อนไตเสีย\"</b>",
   "wrong": {
-   "B": "ลายมือ P'Ing: ผ่าตัดเมื่อ breakthrough UTI · <b>นอกสไลด์:</b> จะถูกถ้าเด็กเกิด febrile UTI ซ้ำทั้งที่กินยาป้องกันอยู่ หรือพบแผลเป็นใหม่ที่ไต",
-   "C": "<b>นอกสไลด์:</b> ตัดไตทั้งสองข้างไม่ใช่การรักษา VUR · ไม่มีสถานการณ์ใดที่ตัดไตทั้งสองข้างเพื่อรักษา VUR เพราะทำให้ไตวายต้องฟอกไตทันที (ตัดไตข้างเดียวเฉพาะไตที่ไม่ทำงานและเป็นแหล่งติดเชื้อ)",
-   "D": "<b>นอกสไลด์:</b> ไม่ให้ยาป้องกันพอได้ใน VUR ระดับต่ำ · จะถูกถ้าเป็น VUR grade I–II ไม่มีแผลเป็นที่ไต และติดตามอาการไข้ได้ใกล้ชิด",
-   "E": "<b>นอกสไลด์:</b> ฉีดสารที่รูท่อไตเป็นทางเลือกเมื่อต้องแก้ แต่ยังไม่ถึงข้อบ่งชี้ในครั้งแรก · จะถูกถ้าเด็กมี breakthrough UTI ระหว่างกินยาป้องกัน และผู้ปกครองต้องการเลี่ยงการผ่าตัดเปิด"
+   "B": "Bilateral ureteric reimplantation (Cohen cross-trigonal หรือ Lich–Gregoir) แก้ VUR ได้ราว 95–98% แต่เป็นการผ่าตัดใหญ่ที่ไม่ได้ทำทันทีหลัง febrile UTI ครั้งแรก ใช้เมื่อมี breakthrough infection หรือ scar ใหม่ (ตามลายมือในไฟล์) · จะถูกถ้าเป็นเด็กหญิง 3 ปี bilateral VUR grade IV ได้ CAP มาแล้วยังมี febrile UTI ซ้ำ 2 ครั้ง และ DMSA พบ scar ใหม่",
+   "C": "Nephrectomy ใช้กับไตที่<b>ไม่ทำงานแล้ว</b> (เช่น split function &lt; 10% จาก reflux nephropathy) และเป็นแหล่งติดเชื้อซ้ำหรือทำ HT ไม่ใช่ไตที่ทำงานปกติ และการตัดไตสองข้างทำให้ต้องฟอกไต · จะถูกถ้าเป็นเด็กหญิง 6 ปี VUR grade V ข้างซ้าย DMSA ไตซ้ายทำงาน 5% ติดเชื้อซ้ำและความดันสูง (ตัดไตซ้ายข้างเดียว)",
+   "D": "Observation โดยไม่ให้ยาป้องกันพิจารณาได้ในเด็กโตที่ VUR เกรดต่ำ (I–II) ไม่มีอาการและไม่มี bladder–bowel dysfunction ซึ่งติดเชื้อซ้ำต่ำ แต่เด็กอายุ 1 ปี grade IV สองข้างหลัง febrile UTI เสี่ยงไตเป็นแผลสูง · จะถูกถ้าเป็นเด็กชาย 7 ปี พบ VUR grade I ข้างเดียวโดยบังเอิญจากการตรวจพี่น้อง ไม่เคยมี UTI",
+   "E": "Endoscopic injection (dextranomer/ hyaluronic acid, Deflux) ใต้รูเปิดท่อไตเป็นทางเลือกที่รุกล้ำน้อย ได้ผลดีในเกรดต่ำ-ปานกลาง (ราว 70–80% ต่อครั้ง) ผลลดลงใน grade IV–V และไม่ใช่สิ่งที่ทำทันทีหลังติดเชื้อครั้งแรก · จะถูกถ้าเป็นเด็กหญิง 5 ปี VUR grade III ข้างเดียวที่มี breakthrough UTI ขณะได้ CAP และผู้ปกครองต้องการหลีกเลี่ยงการผ่าตัดเปิด"
   },
-  "trap": "Grade สูงแล้วคิดว่าต้องผ่าตัดทันที — เริ่มที่ยาป้องกันก่อน เว้นแต่ติดเชื้อซ้ำหรือไตเสีย",
+  "trap": "Grade IV สองข้างฟังดูรุนแรง ทำให้รีบเลือกผ่าตัด reimplantation · แต่การผ่าตัดไม่ได้ทำให้ไตดีขึ้นกว่าการป้องกันการติดเชื้อในระยะแรก และ VUR ในเด็กเล็กยังหายเองได้บางส่วน · จำข้อบ่งชี้ผ่าตัดเป็นคำว่า <b>breakthrough</b> (ติดเชื้อขณะกินยาป้องกัน) หรือ scar ใหม่ ตามลายมือในไฟล์",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาป้องกัน: TMP-SMX หรือ nitrofurantoin ขนาดต่ำวันละครั้ง (RIVUR: ลด febrile UTI ซ้ำ)",
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ผ่าตัด: breakthrough febrile UTI · แผลเป็นใหม่ · grade สูงที่ไม่หายเมื่อโต · ผู้ปกครองไม่สามารถให้ยาต่อเนื่อง · ผ่าตัด ureteral reimplantation สำเร็จสูงมาก"
+   "VUR พบในเด็กที่มี febrile UTI ราว 30–40% · primary จาก intramural tunnel สั้น · secondary จาก bladder outlet obstruction (posterior urethral valves) หรือ neurogenic bladder",
+   "การตรวจหลัง febrile UTI: renal–bladder US ทุกราย · VCUG ถ้า US ผิดปกติหรือ febrile UTI ครั้งที่ 2 (AAP 2011) · DMSA ดู scar และ split function",
+   "Grade I–V (International Reflux Study) · เกรดต่ำ อายุน้อย ข้างเดียว หายเองได้มาก · grade IV–V สองข้าง และมี BBD หายยาก",
+   "CAP: TMP-SMX หรือ nitrofurantoin วันละครั้ง (ทารก &lt; 2 เดือนใช้ amoxicillin หรือ cephalexin) · RIVUR (NEJM 2014): ลด recurrent febrile UTI ~50% แต่ไม่ลด scar ชัดเจน",
+   "ข้อบ่งชี้ผ่าตัด: breakthrough febrile UTI ขณะ CAP, scar ใหม่, ไม่ร่วมมือกินยา, VUR เกรดสูงคงอยู่เมื่อโต, ผู้ปกครองเลือก",
+   "Ureteric reimplantation: Cohen (cross-trigonal), Politano–Leadbetter, Lich–Gregoir (extravesical) สร้างอุโมงค์ใหม่ยาวราว 5 เท่าของเส้นผ่านศูนย์กลางท่อไต · สำเร็จ ~95–98%",
+   "Bladder–bowel dysfunction (ท้องผูก กลั้นปัสสาวะ) ต้องรักษาทุกราย เพราะเพิ่มการติดเชื้อซ้ำและลดโอกาส VUR หาย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียนว่าผ่าตัดเมื่อมี breakthrough UTI ก่อนไตเสีย · AUA และ EAU/ESPU แนะนำ CAP ในเด็ก &lt; 1 ปีที่มี VUR และ febrile UTI โดยเฉพาะเกรดสูง ไฟล์มี 2 ช้อยจึงเติม C–E และเติมอายุกับประวัติ febrile UTI ครั้งแรก",
+  "mnemonic": "<b>'VUR เด็กเล็ก: Prophylaxis ก่อน · Breakthrough หรือ Scar ใหม่ → ผ่าตัด'</b>",
+  "guide": "Peters CA et al. AUA Guideline: Management and Screening of Primary Vesicoureteral Reflux in Children (2010, reviewed 2017); EAU/ESPU Guidelines on Paediatric Urology 2024; RIVUR Trial Investigators (Hoberman A et al.) N Engl J Med 2014",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กที่มี VUR ท้องผูกเรื้อรังและกลั้นปัสสาวะไม่ทัน → รักษา bladder and bowel dysfunction ร่วมด้วย (ลด UTI ซ้ำและช่วยให้ VUR หาย)"
+   "ทารกชาย 3 เดือน febrile UTI US พบ bilateral hydroureteronephrosis กระเพาะปัสสาวะหนา VCUG พบ posterior urethra ขยาย → posterior urethral valves (secondary VUR) → endoscopic valve ablation",
+   "เด็กหญิง 4 ปี VUR grade II ท้องผูกเรื้อรังและกลั้นปัสสาวะ → รักษา bladder–bowel dysfunction ร่วมกับ CAP",
+   "เด็กหญิง 2 ปี VUR grade IV ได้ CAP 1 ปี มี febrile UTI ซ้ำ 2 ครั้ง → ureteric reimplantation",
+   "ทำไม VUR เกรดต่ำหายเองได้เมื่อเด็กโต → ผนังกระเพาะปัสสาวะหนาขึ้นและอุโมงค์ท่อไตในผนังยาวขึ้น flap-valve จึงทำงานดีขึ้น"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>bilateral vur grade4 ทำไรต่อ — A. Prophylatic ATB B. Bilat ureteric implantation</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E · เติมอายุ/ประวัติ febrile UTI ครั้งแรก",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_34"
   ]
  },
  "MDCU74|RoD|35": {
-  "interp": "หญิงมี staghorn stone เต็มไตซ้าย renal scan ไตซ้ายทำงาน 10% ไตขวาปกติ → ถามการรักษาที่เหมาะที่สุด",
-  "why": "คีย์ P'Ing ไม่ได้วงชัด — เขียน <b>B ✓ > 2 cm · C ✗ 1–2 cm</b> (เกณฑ์ขนาด) — <b>Claude ตอบ A</b> เพราะโจทย์ให้การทำงานของไตแล้ว<br><b>นอกสไลด์:</b> ไตที่ทำงานเหลือน้อยมาก การเอานิ่วออกไม่ได้ทำให้ไตฟื้น และไตที่มีนิ่วเรื้อรังเป็นแหล่งติดเชื้อซ้ำและ sepsis · เมื่อไตอีกข้างปกติ ตัดไต (มักทางกล้อง) จึงเหมาะกว่า",
+  "interp": "หญิง 55 ปี มี <b>complete staghorn stone</b> ขนาดใหญ่ในไตซ้าย renal scan พบไตซ้ายทำงานเพียง <b>10% ของทั้งหมด</b> ไตขวาปกติ — ถามการรักษาที่เหมาะสม ซึ่งต้องตัดสินจาก<b>การทำงานของไต</b>ข้างนั้นก่อนเลือกวิธีเอานิ่วออกตามขนาด",
+  "why": "Staghorn stone คือนิ่วที่แตกกิ่งเต็มกรวยไตและ calyces ส่วนใหญ่เป็น <b>struvite (infection stone)</b> จากเชื้อที่ผลิต urease (Proteus, Klebsiella) จึงพบในหญิงมากกว่า · ถ้าไม่รักษาจะทำให้ติดเชื้อซ้ำ urosepsis และไตเสื่อมจนไม่ทำงาน (บางรายเป็น xanthogranulomatous pyelonephritis) · ขั้นแรกคือประเมิน<b>split renal function</b> ด้วย DMSA/ MAG3 · ไตที่ยังทำงานดี มาตรฐานคือ <b>PCNL</b> (เกณฑ์นิ่วไต &gt; 2 cm) ให้<b>นิ่วหมด (stone-free)</b> เพราะเศษนิ่วติดเชื้อเป็นแหล่งเชื้อและโตซ้ำ · แต่เมื่อไตข้างนั้น<b>ทำงานน้อยมาก (มักใช้เกณฑ์ &lt; 10–15%)</b> และไตอีกข้างปกติ การเอานิ่วออกไม่ได้คืนการทำงานที่มีประโยชน์ แต่ไตที่เหลือยังเป็นแหล่งติดเชื้อ ปวด และ sepsis → AUA/ Endourological Society และ EAU แนะนำ <b>nephrectomy</b> (laparoscopic หรือ open ซึ่งมักยากเพราะพังผืดรอบไต) · ก่อนผ่าตัดให้ยาฆ่าเชื้อตามผลเพาะเชื้อ · ไฟล์ไม่ได้วงคำตอบชัด ลายมือ P'Ing เขียนเกณฑ์ขนาด <b>\"B ✓ &gt;2 cm · C ✗ 1–2 cm\"</b> พร้อมตาราง stone treatment ซึ่งตอบตามขนาดนิ่วแต่ไม่ได้รวม function 10% ที่โจทย์ให้",
   "wrong": {
-   "B": "P'Ing เลือกตามขนาดนิ่ว · <b>นอกสไลด์:</b> PCNL เป็นการรักษาหลักของ staghorn · จะถูกถ้าไตข้างนั้นยังทำงาน ≥ 15%",
-   "C": "<b>นอกสไลด์:</b> ESWL ใช้กับนิ่วขนาดเล็ก–กลาง · จะถูกถ้าเป็นนิ่วในไตราว 1–2 cm ไม่อยู่ lower pole และไม่แข็งมาก",
-   "D": "<b>นอกสไลด์:</b> Ureteroscopy เหมาะกับนิ่วในท่อไตหรือนิ่วไตขนาดไม่ใหญ่ · จะถูกถ้าเป็นนิ่วท่อไตส่วนต้นที่ ESWL ไม่ได้ผล",
-   "E": "<b>นอกสไลด์:</b> ละลายนิ่วด้วยยาได้เฉพาะนิ่วกรดยูริก · จะถูกถ้าผู้ป่วยเกาต์มีนิ่วโปร่งรังสีที่ปัสสาวะเป็นกรดตลอด"
+   "B": "PCNL เป็นการรักษาแรกของนิ่วไต &gt; 2 cm และ staghorn ในไตที่ยังทำงานได้ (ลายมือในไฟล์ติ๊กตามเกณฑ์ขนาด) ให้ stone-free สูงสุด แต่ในไตที่ทำงานเพียง 10% การเจาะไตหลายช่องเสี่ยงเลือดออกและติดเชื้อโดยไม่ได้คืนการทำงาน · จะถูกถ้าเป็นหญิง 55 ปี staghorn stone ข้างซ้ายที่ DMSA พบไตซ้ายทำงาน 45% และไม่มีไข้",
+   "C": "ESWL ใช้ได้ดีกับนิ่วไต &lt; 2 cm (ลายมือในไฟล์เขียน 1–2 cm) ที่ไม่แข็งมาก ใช้เดี่ยว ๆ กับ staghorn ไม่ได้เพราะเศษนิ่วจำนวนมากอุดท่อไต (steinstrasse) และ stone-free ต่ำ · ใช้ได้ในบทบาทเสริมหลัง PCNL · จะถูกถ้าเป็นชาย 40 ปี นิ่วไตขวา 1.2 cm ที่ renal pelvis HU 700 BMI 24 ไตทำงานปกติ",
+   "D": "Ureteroscopic lithotripsy (flexible URS + laser) ใช้กับนิ่วท่อไตและนิ่วไต &lt; 2 cm หรือในผู้ที่ทำ PCNL ไม่ได้ (เช่น ต้องกินยาต้านเลือดแข็งต่อ) แต่ทำ staghorn ใหญ่ต้องหลายครั้งและไม่เหมาะกับไตที่ไม่ทำงาน · จะถูกถ้าเป็นหญิง 60 ปี กิน warfarin หยุดไม่ได้ มีนิ่วที่ lower pole 1.5 cm ไตทำงานปกติ",
+   "E": "Medical dissolution ใช้ได้เฉพาะ<b>นิ่ว uric acid</b> (ทำปัสสาวะเป็นด่าง pH 6.5–7 ด้วย potassium citrate) ส่วน struvite ละลายด้วยยาไม่ได้ผลในทางปฏิบัติ (acetohydroxamic acid ใช้ได้จำกัด) · จะถูกถ้าเป็นชาย 60 ปี gout นิ่วไต 1.5 cm ที่ X-ray มองไม่เห็น CT HU 400 ปัสสาวะ pH 5.0"
   },
-  "trap": "ตัดสินจากขนาดนิ่วอย่างเดียว (คีย์ P'Ing) — ต้องดูการทำงานของไตด้วย",
+  "trap": "คนตอบ PCNL ตามเกณฑ์ขนาดนิ่ว &gt; 2 cm เหมือนลายมือในไฟล์ (คีย์ไม่ได้วงแต่ติ๊ก B) · แต่โจทย์ใส่ตัวเลข <b>function 10%</b> มาเป็นกุญแจ: ไตที่แทบไม่ทำงานไม่คุ้มที่จะเก็บไว้ เพราะเป็นแหล่งติดเชื้อและ sepsis · หลักคือดู function ก่อน แล้วค่อยเลือกวิธีตามขนาด",
   "summary": [
-   "<b>นอกสไลด์:</b> ไตที่ทำงาน &lt; 15% และไตอีกข้างปกติ → nephrectomy",
-   "<b>นอกสไลด์:</b> Staghorn ส่วนใหญ่เป็น struvite (ติดเชื้อ urease-producing) → ต้องเอาออกหมด ไม่งั้นติดเชื้อและนิ่วโตซ้ำ",
-   "<b>นอกสไลด์:</b> ประเมินการทำงานแยกข้างด้วย DMSA หรือ MAG3"
+   "Staghorn: partial หรือ complete · ส่วนใหญ่ struvite (magnesium ammonium phosphate + carbonate apatite) จากเชื้อ urease-producing (Proteus, Klebsiella, Pseudomonas) ในปัสสาวะด่าง pH &gt; 7.2",
+   "ไม่รักษา staghorn → ไตเสื่อม ติดเชื้อซ้ำ urosepsis mortality สูง → ควรรักษาทุกรายที่ทำได้ เป้าหมายคือ stone-free",
+   "เลือกวิธีตามขนาด (ไตทำงานดี): &lt; 1 cm ESWL หรือ URS · 1–2 cm ESWL หรือ URS (lower pole &gt; 1 cm เลือก PCNL/ URS มากกว่า ESWL) · &gt; 2 cm หรือ staghorn → PCNL",
+   "ESWL ผลไม่ดีเมื่อ: HU &gt; 1000, skin-to-stone distance &gt; 10 cm, lower pole infundibulopelvic angle แคบ, นิ่ว cystine/ brushite/ calcium oxalate monohydrate · ห้ามในตั้งครรภ์ ภาวะเลือดออกง่าย",
+   "Split function &lt; 10–15% ร่วมกับนิ่ว/ ติดเชื้อ และไตอีกข้างปกติ → nephrectomy · ตรวจ DMSA หรือ MAG3 ก่อนวางแผน",
+   "Medical dissolution ได้ผลเฉพาะ uric acid (potassium citrate ให้ pH 6.5–7) และ cystine บางส่วน (alkalinization + tiopronin)",
+   "หลังเอานิ่วติดเชื้อออก: เพาะเชื้อจากนิ่ว ให้ยาตามผล ติดตาม UA/ culture และ imaging เพราะเศษนิ่วโตซ้ำได้"
   ],
-  "opinion": "ไม่ตรงกับคีย์ P'Ing (B ตามขนาด) — ตอบ A ตาม EAU/AUA เพราะไตทำงานเหลือ 10% · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — คำตอบเว็บต่างจากลายมือในไฟล์ (ไม่ได้วงคีย์ แต่ติ๊ก B ตามเกณฑ์ &gt;2 cm) เพราะลายมือตอบตามขนาดนิ่วโดยไม่ได้ใช้ข้อมูล function 10% · แนวทาง AUA/ Endourological Society 2016 และ EAU ระบุว่าไตที่ทำงานน้อยมากร่วมกับนิ่วและอีกข้างปกติ ควรทำ nephrectomy",
+  "mnemonic": "<b>'Stone ใหญ่แต่ไตตายแล้ว (&lt; 10–15%) → ตัดไต ไม่ใช่บดนิ่ว'</b>",
+  "guide": "Assimos D et al. Surgical Management of Stones: AUA/Endourological Society Guideline, J Urol 2016; EAU Guidelines on Urolithiasis 2025",
   "variants": [
-   "<b>นอกสไลด์:</b> นิ่วอุดตันท่อไตร่วมกับไข้/sepsis → ระบายก่อน (PCN หรือ DJ stent) ให้ยาปฏิชีวนะ แล้วค่อยเอานิ่วออกภายหลัง"
+   "หญิง 50 ปี complete staghorn ไตขวา DMSA ไตขวาทำงาน 40% ไม่มีไข้ → PCNL (อาจหลาย tract หรือร่วมกับ flexible URS) ให้ stone-free",
+   "ชาย 45 ปี นิ่วไต 8 mm ที่ upper calyx HU 600 → ESWL หรือ flexible URS",
+   "หญิง 60 ปี staghorn ไตซ้าย ไข้หนาวสั่น ความดันต่ำ CT พบ hydronephrosis → PCN ระบายก่อน รักษา sepsis แล้วจึงวางแผนเอานิ่วหรือตัดไต",
+   "ทำไม struvite ต้องเอาออกให้หมดไม่เหลือเศษ → เชื้อแฝงอยู่ในเนื้อนิ่ว เศษที่เหลือทำให้ติดเชื้อซ้ำและนิ่วโตกลับมาเร็ว"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>มี staghorn stone ใหญ่มากอยู่ในไต และไต function เหลือ 10% ทำอะไรดี — A. Nephrectomy B. PCNL C. ESWL</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ P'Ing เขียน B ✓ &gt;2 cm (เกณฑ์ขนาด) แต่โจทย์ให้ function ไตเหลือ 10% → ตาม EAU/AUA ตอบ nephrectomy · เติมช้อย D, E",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_35"
   ]
  },
  "MDCU74|RoD|36": {
-  "interp": "ชายอายุ 68 ปัสสาวะไม่ออก 1 วัน มีอาการ BPH มาก่อน เพิ่งเริ่มยา sympathomimetic สำหรับหอบหืด (ตัวกระตุ้น) ใส่สายสวนแล้ว → ถามการจัดการ",
-  "why": "P'Ing วง B (มี ? หน้าข้อ)<br><b>นอกสไลด์:</b> ยากระตุ้น α-receptor ทำให้คอกระเพาะปัสสาวะและต่อมลูกหมากหดตัว บนพื้น BPH จึงปัสสาวะไม่ออก · คาสายไว้ ให้ α-blocker ราว 2–3 วัน หยุดหรือเปลี่ยนยาที่กระตุ้น แล้วลองถอดสาย (trial without catheter) — α-blocker เพิ่มโอกาสถอดสายสำเร็จ",
+  "interp": "ชาย 68 ปี ปัสสาวะไม่ออก 1 วัน มีอาการ LUTS จาก BPH (ลำเล็ก ต้องเบ่ง) มา 3–4 เดือน และเพิ่งเริ่มยาพ่นขยายหลอดลมกับ<b>ยากิน sympathomimetic</b> รักษาหอบ ใส่ Foley แล้ว — ถามการจัดการต่อของ <b>acute urinary retention ที่มีตัวกระตุ้น (precipitated AUR)</b>",
+  "why": "<b>Acute urinary retention (AUR)</b> ในชายสูงอายุส่วนใหญ่เกิดจาก BPH แบ่งเป็น spontaneous กับ <b>precipitated</b> ซึ่งมีตัวกระตุ้น เช่น <b>ยา α-agonist/ sympathomimetic</b> (pseudoephedrine, ephedrine, ยาแก้หวัดคัดจมูก) ที่ทำให้ smooth muscle ของ bladder neck และ prostate หดตัว, ยา anticholinergic (รวม ipratropium/ tiotropium พ่น, antihistamine, TCA) ที่ทำให้ detrusor บีบตัวไม่ดี, opioid, ยาสลบ, ท้องผูก, ดื่มสุรา, กลั้นปัสสาวะนาน · หลักการ: ระบายด้วย <b>urethral catheter</b> ทันที บันทึก residual volume · <b>หยุดหรือเปลี่ยนยาที่กระตุ้น</b> · เริ่ม <b>α1-blocker</b> (tamsulosin, alfuzosin) อย่างน้อย 2–3 วัน แล้วทำ <b>trial without catheter (TWOC)</b> — การให้ α-blocker ก่อนถอดสายเพิ่มโอกาสปัสสาวะเองได้ชัดเจน (ALFAUR) และ precipitated AUR มีโอกาสสำเร็จสูงกว่า spontaneous · ถ้า TWOC ล้มเหลว หรือ AUR ซ้ำ จึงเป็นข้อบ่งชี้ผ่าตัด (<b>TURP</b>) · ระยะยาวพิจารณา 5α-reductase inhibitor ถ้าต่อมใหญ่ &gt; 30–40 mL เพื่อลดความเสี่ยง AUR · ไฟล์วง B (ช้อยในไฟล์ \"Retain foley with alpha blocker 2 wk แล้วนัดมาถอดสาย\") และ P'Ing ใส่ <b>\"?\"</b> หน้าข้อ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ผ่าตัดไม่จำเป็นหลังเกิดครั้งแรกที่มีตัวกระตุ้น · จะถูกถ้าถอดสายไม่สำเร็จหรือปัสสาวะไม่ออกซ้ำ หรือมีนิ่วในกระเพาะปัสสาวะ/ไตเสื่อมจากการอุดกั้น",
-   "C": "<b>นอกสไลด์:</b> สวนเป็นครั้ง ๆ ระหว่างรอผ่าตัดเหมาะเมื่อมีข้อบ่งชี้ผ่าตัดแล้ว · จะถูกถ้าผู้ป่วยถอดสายไม่สำเร็จและรอคิว TURP โดยทำสวนเองได้",
-   "D": "<b>นอกสไลด์:</b> การสวนเป็นครั้งร่วมกับยาใช้ได้ในผู้ที่ทำเองได้ · จะถูกถ้าผู้ป่วยถนัดสวนปัสสาวะเองและไม่ต้องการคาสายระหว่างรอดูผลยา",
-   "E": "<b>นอกสไลด์:</b> Suprapubic cystostomy ใช้เมื่อใส่สายทางท่อปัสสาวะไม่ได้ · จะถูกถ้าใส่ Foley ไม่ผ่านจากท่อปัสสาวะตีบหรือบาดเจ็บของท่อปัสสาวะ"
+   "A": "การคา Foley แล้วนัดผ่าตัด TURP เลยข้ามขั้น TWOC ไป ทั้งที่ AUR ครั้งแรกที่มีตัวกระตุ้นจากยามีโอกาสกลับมาปัสสาวะเองได้สูงเมื่อหยุดยาและให้ α-blocker · TURP เหมาะเมื่อมีข้อบ่งชี้ชัด · จะถูกถ้าเป็นชาย 75 ปี BPH ที่ AUR ครั้งที่ 3 แม้ได้ α-blocker และ 5-ARI ล้มเหลว TWOC 2 ครั้ง",
+   "C": "การสวนเป็นครั้ง ๆ (intermittent catheterization) ลดการติดเชื้อเมื่อเทียบกับคาสาย แต่การนัด TURP ทันทีหลัง AUR ครั้งแรกที่มีตัวกระตุ้นยังเร็วเกินไป และไม่ได้ให้ α-blocker ที่ช่วยให้ถอดสายสำเร็จ · จะถูกถ้าเป็นชาย 70 ปี BPH มี AUR ซ้ำ มีนิ่วในกระเพาะปัสสาวะและ hydronephrosis สองข้าง ระหว่างรอผ่าตัด TURP ใช้ CISC",
+   "D": "CISC ร่วมกับ α-blocker ทำได้จริงในบางสถาบันและลด catheter-associated UTI แต่ผู้ป่วยสูงอายุที่เพิ่ง AUR ครั้งแรกต้องฝึกสวนเองหรือมีผู้ดูแลช่วย ในทางปฏิบัติมาตรฐานของข้อนี้คือคาสายระยะสั้นแล้ว TWOC · จะถูกถ้าเป็นชาย 50 ปี underactive bladder จากเบาหวาน residual urine 600 mL สวนเองได้ทุก 4–6 ชม.",
+   "E": "Suprapubic cystostomy ใช้เมื่อสวนทางท่อปัสสาวะไม่ได้หรือไม่ควรสวน (urethral stricture, false passage, pelvic fracture ที่สงสัย urethral injury, acute prostatitis) หรือคาสายระยะยาว · จะถูกถ้าเป็นชาย 30 ปี ตกจากที่สูง กระดูกเชิงกรานหัก มีเลือดที่ปลายท่อปัสสาวะและปัสสาวะไม่ออก"
   },
-  "trap": "ปัสสาวะไม่ออกครั้งแรกที่มีตัวกระตุ้น (ยา ท้องผูก ดมยา สุรา UTI) — แก้ตัวกระตุ้นและลองถอดสายก่อนผ่าตัด",
+  "trap": "คนเลือก TURP เพราะผู้ป่วยมีอาการ BPH มาก่อนและตอนนี้ปัสสาวะไม่ออก จึงคิดว่าต้องผ่าตัด · แต่โจทย์ใส่<b>ตัวกระตุ้นจากยา sympathomimetic</b>ไว้ ซึ่งแก้ได้ — ขั้นตอนมาตรฐานคือหยุดยา ให้ α-blocker แล้ว TWOC ก่อน ผ่าตัดเมื่อถอดสายไม่สำเร็จหรือเป็นซ้ำ",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาที่กระตุ้นปัสสาวะไม่ออก: anticholinergic · sympathomimetic (ยาแก้คัดจมูก ยาขยายหลอดลมบางชนิด) · opioid",
-   "<b>นอกสไลด์:</b> หลังระบายปัสสาวะค้างปริมาณมาก ระวัง post-obstructive diuresis และตรวจ creatinine"
+   "AUR: ปวดท้องน้อย คลำได้กระเพาะปัสสาวะโป่ง ปัสสาวะไม่ออก · residual มักมากกว่า 500–800 mL · ต่างจาก chronic retention ที่ไม่ปวดและมี overflow incontinence",
+   "ยากระตุ้น AUR: α-agonist (pseudoephedrine, phenylephrine), anticholinergic (antihistamine รุ่นแรก, TCA, antipsychotic, ยาพ่น ipratropium/ tiotropium), opioid, benzodiazepine, ยาสลบ/ spinal anesthesia",
+   "Post-obstructive diuresis หลังระบาย (&gt; 200 mL/ชม. นาน 2 ชม. หรือ &gt; 3 L/วัน) พบในรายที่มีไตวายจาก retention เรื้อรัง → ติดตามปัสสาวะ น้ำหนัก และ electrolyte",
+   "TWOC หลังให้ α-blocker 2–3 วัน: สำเร็จราว 50–60% (ดีกว่ายาหลอก) · precipitated AUR สำเร็จสูงกว่า · ปัจจัยล้มเหลว: อายุ &gt; 70, residual &gt; 1,000 mL, PSA สูง, ต่อมใหญ่",
+   "ข้อบ่งชี้ผ่าตัด BPH: refractory/ recurrent AUR, recurrent UTI, recurrent gross hematuria จาก prostate, bladder stone, renal insufficiency จาก BPH, ไม่ตอบสนองต่อยา",
+   "ยาระยะยาว: α-blocker ลดอาการเร็ว · 5-ARI (finasteride, dutasteride) ลดขนาดต่อม ~20–30% และลด AUR และการผ่าตัด (MTOPS) ในต่อม &gt; 30–40 mL · ใช้ร่วมกันในต่อมใหญ่",
+   "ทางเลือกผ่าตัด: TURP (มาตรฐาน ต่อม 30–80 mL) · HoLEP/ simple prostatectomy (ต่อม &gt; 80 mL) · minimally invasive (Urolift, Rezum) ในรายเลือกเฉพาะ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (P'Ing มี ? หน้าข้อ) · ช้อยปรับคำตามไฟล์และเติม E · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B (แม้มี ? หน้าข้อ) · EAU และ AUA แนะนำให้ α-blocker ก่อน TWOC ใน AUR จาก BPH โดยเฉพาะเมื่อมีตัวกระตุ้นจากยาที่หยุดได้ ส่วน TURP เก็บไว้เมื่อ TWOC ล้มเหลว · ไฟล์เขียนว่า alpha agonist โจทย์จึงใช้คำว่า oral sympathomimetic",
+  "mnemonic": "<b>'AUR จากยา: Catheter → หยุดยา → α-blocker 2–3 วัน → TWOC · ล้มเหลวจึง TURP'</b>",
+  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2025; AUA Guideline: Management of Lower Urinary Tract Symptoms Attributed to BPH (2021, amended 2023); McNeill SA et al. (ALFAUR) J Urol 2004",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายสูงอายุปัสสาวะไม่ออกหลังผ่าตัดไส้เลื่อนใต้การดมยา ไม่มีอาการ BPH เด่นมาก่อน → ใส่สายระบาย ลองถอดเมื่อเดินได้และหยุดยาแก้ปวดกลุ่ม opioid"
+   "ชาย 72 ปี หลังผ่าตัดเปลี่ยนข้อสะโพกภายใต้ spinal anesthesia ได้ morphine แล้วปัสสาวะไม่ออก → สวนระบาย + α-blocker แล้ว TWOC",
+   "ชาย 68 ปี TWOC ล้มเหลวหลังได้ tamsulosin ต่อมลูกหมาก 60 mL → TURP",
+   "ชาย 70 ปี สวนปัสสาวะได้ 1,500 mL creatinine 3.2 หลังจากนั้นปัสสาวะออก 400 mL/ชม. → post-obstructive diuresis → ติดตาม electrolyte ให้สารน้ำทดแทนตามปริมาณ",
+   "ทำไมยาแก้หวัดคัดจมูกทำให้ชายที่มี BPH ปัสสาวะไม่ออก → กระตุ้น α1 receptor ที่ bladder neck และ prostatic stroma ให้หดตัว เพิ่มแรงต้านทางออก"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>man ฉี่ไม่ออกมา 1 วัน มีฉี่แล้วลำเล็ก ต้องเบ่งมาก่อนหน้านี้ 3-4 mo เป็นหอบต้องพ่นยา+กินยา alpha agonist ถาม management — A. Retain foley with advice TUR P หรือ TRUS ไม่แน่ใจ B. Retain foley with alpha blocker 2 wk แล้วนัดมาถอดสาย C. Intermittent cath with advice TUR P หรือ TRUS ไม่แน่ใจ D. Intermittent cath with alpha blocker E.</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์เขียน \"alpha agonist\" (ยาพ่น/กินสำหรับหอบ) → stem ใช้ oral sympathomimetic · ช้อย A/C เขียน \"TUR P หรือ TRUS ไม่แน่ใจ\" → ใช้ TURP · เติมช้อย E · P'Ing มี ? หน้าข้อ",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_36"
   ]
  },
  "MDCU74|RoD|37": {
-  "interp": "วัยรุ่นปวดถุงอัณฑะซ้ายเฉียบพลัน 3 ชม. อัณฑะยกสูง cremasteric reflex หาย · ผ่าตัดพบอัณฑะบิด แก้บิดแล้วกลับเป็นสีชมพู → ถามสิ่งที่ต้องทำต่อ",
-  "why": "สไลด์ในคีย์ (Torsion of testis): <b>detorsed → placed in warm pack · unaffected testis fixed to scrotal wall</b> (P'Ing วง B แต่สไลด์ให้ fix ข้างที่ไม่บิดด้วย)<br><b>นอกสไลด์:</b> Bell-clapper deformity มักเป็นทั้งสองข้าง ข้างที่ไม่บิดจึงเสี่ยงบิดในอนาคต · อัณฑะที่มีชีวิตหลังแก้บิด → เย็บยึดทั้งสองข้าง",
+  "interp": "เด็กชาย 15 ปี ปวดอัณฑะซ้ายรุนแรงทันที 3 ชม. อัณฑะซ้ายอยู่สูง cremasteric reflex หาย ผ่าตัดสำรวจพบ <b>testicular torsion</b> และอัณฑะกลับเป็นสีชมพูหลังคลายเกลียว (viable) — ถามว่าต้องทำอะไรต่อในห้องผ่าตัด ซึ่งต้องรู้ว่า<b>ความผิดปกติที่เป็นเหตุมักเป็นทั้งสองข้าง</b>",
+  "why": "Testicular torsion ในวัยรุ่นเป็นแบบ <b>intravaginal</b> เกิดจาก <b>bell-clapper deformity</b>: tunica vaginalis หุ้มสูงจนอัณฑะลอยไม่ยึดกับผนังถุงอัณฑะ หมุนรอบ spermatic cord ได้ · ความผิดปกตินี้พบ<b>ทั้งสองข้างในผู้ป่วยส่วนใหญ่</b> อัณฑะอีกข้างจึงเสี่ยงบิดในอนาคต · อาการ: ปวดทันที คลื่นไส้อาเจียน อัณฑะอยู่สูง วางตัวแนวนอน <b>cremasteric reflex หาย</b> · โอกาสรักษาอัณฑะไว้ขึ้นกับเวลา: <b>&lt; 6 ชม. ~90–100%</b>, 12 ชม. ~50%, &gt; 24 ชม. &lt; 10% · ถ้าคลินิกชัดให้<b>ผ่าตัดสำรวจทันที</b>ไม่ต้องรอ Doppler US · ในห้องผ่าตัด: ลงแผล median raphe หรือ transverse scrotal → นำอัณฑะออก → <b>คลายเกลียว</b> → ห่อผ้าชุบน้ำอุ่นและรอประเมินสี/ เลือดออกจากรอยกรีด tunica albuginea · <b>viable → orchidopexy ข้างที่บิด</b> (เย็บ 3 จุดด้วยไหมไม่ละลายหรือทำ dartos pouch) <b>และ orchidopexy ข้างตรงข้ามเสมอ</b> · <b>non-viable → orchiectomy</b> + contralateral orchidopexy · ระหว่างรอห้องผ่าตัดลอง manual detorsion แบบ <b>\"open book\"</b> (หมุนออกด้านนอก) ได้แต่ยังต้องผ่าตัด · ไฟล์วง B ซึ่งในไฟล์คือ <b>\"detorsion (viable testis) with left and right fixation\"</b> พร้อมสไลด์ \"unaffected testis fixed to scrotal wall\"",
   "wrong": {
-   "B": "คีย์ P'Ing วงช้อยนี้ · <b>นอกสไลด์:</b> ยึดเฉพาะข้างที่บิดทิ้งข้างตรงข้ามให้เสี่ยง · จะถูกถ้าอัณฑะข้างตรงข้ามถูกยึดไว้แล้วจากการผ่าตัดครั้งก่อน หรือถูกตัดไปแล้ว",
-   "C": "<b>นอกสไลด์:</b> ตัดอัณฑะเมื่อไม่มีชีวิต · จะถูกถ้าบิดนานเกินราว 12–24 ชม. และอัณฑะยังดำคล้ำหลังแก้บิดและอุ่นแล้ว (ร่วมกับยึดข้างตรงข้าม)",
-   "D": "<b>นอกสไลด์:</b> แก้บิดอย่างเดียวในห้องผ่าตัดทิ้งให้บิดซ้ำ · จะถูกถ้าเป็นการหมุนแก้ด้วยมือที่ห้องฉุกเฉินระหว่างรอผ่าตัด (มาตรการชั่วคราว ต้องผ่าตัดยึดตามมา)",
-   "E": "<b>นอกสไลด์:</b> อัณฑะซ้ายกลับมามีชีวิตจึงไม่ควรตัด · จะถูกถ้าอัณฑะซ้ายไม่มีชีวิตหลังแก้บิด — ตัดข้างซ้ายและยึดข้างขวา"
+   "B": "Fixation เฉพาะข้างซ้ายป้องกันการบิดซ้ำของข้างที่บิดได้ แต่ไม่ได้แก้ bell-clapper deformity ของอัณฑะขวาซึ่งพบได้ในผู้ป่วยส่วนใหญ่ หากขวาบิดในอนาคตอาจเสียอัณฑะทั้งสองข้าง · จะถูกถ้าเป็นชาย 20 ปี เคยถูกตัดอัณฑะขวาไปแล้วจากมะเร็ง แล้วอัณฑะซ้ายที่เหลือบิด (เหลือข้างเดียวให้ fix)",
+   "C": "Orchiectomy ทำเมื่ออัณฑะ<b>ไม่ฟื้น</b>หลังคลายเกลียวและรอด้วยผ้าอุ่น (ดำ ไม่มีเลือดออกเมื่อกรีด tunica albuginea) เพราะเนื้อตายทิ้งไว้ทำให้ติดเชื้อและอาจกระตุ้นภูมิต้านทานต่ออสุจิ · อัณฑะที่กลับเป็นสีชมพูต้องเก็บไว้ · จะถูกถ้าเป็นเด็กชาย 14 ปี ปวดอัณฑะซ้าย 36 ชม. ผ่าตัดพบอัณฑะดำคล้ำไม่ฟื้นหลังคลายเกลียว 15 นาที (ร่วมกับ fix ข้างขวา)",
+   "D": "คลายเกลียวอย่างเดียวโดยไม่ยึดอัณฑะ ปล่อยให้ bell-clapper deformity ยังอยู่ อัณฑะบิดซ้ำได้ทั้งสองข้าง · การคลายด้วยมือจากภายนอกเป็นเพียงการช่วยชั่วคราวระหว่างรอผ่าตัด · จะถูกถ้าเป็นเด็กชาย 13 ปี ปวดอัณฑะทันที แพทย์ทำ manual detorsion แบบ open book ได้สำเร็จที่ห้องฉุกเฉินระหว่างรอห้องผ่าตัด (ยังต้องผ่าตัด fix ทั้งสองข้างภายหลัง)",
+   "E": "Orchiectomy ข้างซ้ายร่วมกับ fix ข้างขวาเป็นการรักษาที่ถูกเมื่ออัณฑะซ้ายตายแล้ว แต่โจทย์บอกว่าอัณฑะกลับเป็นสีชมพูหลังคลายเกลียวจึงต้องเก็บไว้ · จะถูกถ้าเป็นเด็กชาย 16 ปี ปวดอัณฑะซ้าย 2 วันก่อนมาโรงพยาบาล ผ่าตัดพบอัณฑะซ้ายเน่าตาย ไม่มีเลือดออกเมื่อกรีด tunica albuginea"
   },
-  "trap": "ยึดแค่ข้างที่บิด (คีย์ P'Ing วง B) — สไลด์ในคีย์เองบอกให้ยึดข้างที่ไม่บิดด้วย · <b>เราตอบ A ต่างจากคีย์ P'Ing (B)</b>",
+  "trap": "คนเลือก fix เฉพาะข้างที่บิดเพราะคิดว่าอีกข้างปกติดี · แต่ bell-clapper deformity พบสองข้างในผู้ป่วยส่วนใหญ่ จึงต้อง <b>fix ทั้งสองข้างเสมอ</b> ไม่ว่าข้างที่บิดจะถูกเก็บหรือตัดออก · อีกกับดักคือรอ Doppler US ก่อนผ่าตัดทั้งที่ประวัติและตรวจร่างกายชัด ทำให้เสียเวลาที่ชี้ชะตาอัณฑะ",
   "summary": [
-   "สไลด์ในคีย์: ผ่าตัดทันที แผลกลางถุงอัณฑะ · แก้บิด · ประคบอุ่น · ยึดข้างที่ไม่บิด",
-   "<b>นอกสไลด์:</b> ผ่าตัดภายในราว 6 ชม. อัณฑะรอดเกือบทั้งหมด หลังจากนั้นลดลงเร็ว · ภาพชัดทางคลินิกไม่ต้องรอ Doppler US",
-   "<b>นอกสไลด์:</b> หมุนแก้ด้วยมือ: มองจากปลายเท้า ข้างซ้ายหมุนตามเข็ม ข้างขวาทวนเข็ม (open the book)"
+   "Torsion พบสองช่วง: neonatal (extravaginal บิดทั้ง tunica มักตายตั้งแต่คลอด) และวัยรุ่น 12–18 ปี (intravaginal จาก bell-clapper) ซึ่งพบบ่อยที่สุด",
+   "อาการ: ปวดทันทีรุนแรง คลื่นไส้อาเจียน (ชวนคิด torsion มาก) อัณฑะสูง แนวนอน cremasteric reflex หาย · Prehn sign ไม่ช่วยแยกได้น่าเชื่อถือ · TWIST score ช่วยคัดกรอง",
+   "เวลา = อัณฑะ: &lt; 6 ชม. รอดเกือบทั้งหมด · 6–12 ชม. ลดลงมาก · &gt; 24 ชม. แทบไม่รอด → คลินิกชัดผ่าตัดทันที ไม่รอ US",
+   "Doppler US: ใช้เมื่อคลินิกไม่ชัด เห็นเลือดไปเลี้ยงลดลง และ whirlpool sign ของ cord ที่บิด · ผลปกติไม่ตัด torsion ถ้าสงสัยมาก",
+   "ผ่าตัด: คลายเกลียว → ผ้าอุ่น → ประเมิน viability → orchidopexy (viable) หรือ orchiectomy (non-viable) → contralateral orchidopexy ทุกราย",
+   "Differential: torsion of appendix testis (ปวดค่อยเป็น จุดกดเจ็บที่ขั้วบน blue dot sign cremasteric reflex ปกติ รักษาตามอาการ) · epididymitis (ค่อยเป็น ไข้ pyuria เลือดไปเลี้ยงเพิ่มบน Doppler)",
+   "Intermittent torsion: ปวดทันทีแล้วหายเองซ้ำ ๆ → elective bilateral orchidopexy เพื่อป้องกันการบิดเต็มที่"
   ],
-  "opinion": "ไม่ตรงกับคีย์ P'Ing (B) — ตอบ A เพราะสไลด์ที่ P'Ing แปะเองและแนวทางมาตรฐานให้ยึดทั้งสองข้าง · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — คีย์ลายมือ P'Ing วง B ซึ่งในไฟล์คือ \"detorsion (viable testis) with left and right fixation\" ตรงกับช้อย A ในเว็บ (ตัวอักษรต่างเพราะไฟล์มีช้อยเดียวและ A เว้นว่าง จึงจัดช้อยใหม่) · ตรงกับสไลด์อาจารย์และ EAU/ESPU ที่ให้ fix อัณฑะอีกข้างทุกราย",
+  "mnemonic": "<b>'Torsion: Detorse → ดูสี → Fix ทั้ง 2 ข้างเสมอ (Bell-clapper เป็นคู่)'</b>",
+  "guide": "EAU/ESPU Guidelines on Paediatric Urology 2024 — Acute Scrotum; Campbell-Walsh-Wein Urology 12th ed. (2020) — Pediatric Scrotal Disorders",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กปวดถุงอัณฑะเฉียบพลัน คลำได้จุดกดเจ็บเล็ก ๆ ที่ขั้วบน เห็นจุดสีน้ำเงิน (blue dot) cremasteric reflex ปกติ → torsion of appendix testis รักษาตามอาการ"
+   "เด็กชาย 10 ปี ปวดอัณฑะขวาค่อย ๆ มากขึ้น 1 วัน กดเจ็บเฉพาะขั้วบน เห็นจุดสีน้ำเงินใต้ผิว cremasteric reflex ปกติ → torsion of appendix testis → ยาแก้ปวดและพัก",
+   "ชาย 25 ปี ปวดอัณฑะค่อยเป็น 3 วัน ไข้ ปัสสาวะแสบ ยกอัณฑะแล้วปวดลดลง Doppler เลือดไปเลี้ยงเพิ่ม → epididymitis จาก STI → ceftriaxone + doxycycline",
+   "ทารกแรกเกิดมีก้อนแข็งไม่เจ็บสีคล้ำในถุงอัณฑะตั้งแต่คลอด → neonatal extravaginal torsion",
+   "เด็กชาย 14 ปี ปวดอัณฑะทันทีแล้วหายเองภายใน 30 นาที เป็นซ้ำ 3 ครั้ง ตรวจตอนนี้ปกติ → intermittent torsion → elective bilateral orchidopexy"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>left testicular torsion ต้องทำไรบ้าง — A. (ว่าง) B. detorsion (viable testis) with left and right fixation</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีช้อยเดียว (A ว่าง) → แต่งโจทย์ + ช้อยที่เหลือ",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_37"
   ]
  },
  "MDCU74|RoD|38": {
-  "interp": "ชายหนองไหลจากท่อปัสสาวะ Gram stain พบ gram-negative diplococci ในเซลล์ (gonorrhea) ผลเพาะเชื้อรอ ผู้ป่วยบอกว่าน่าจะกินยา 7 วันไม่ครบ → ถามสูตรยาที่เหมาะที่สุด",
-  "why": "P'Ing วง A + สไลด์ Urethritis: <b>GU — ceftriaxone 500 mg IM single dose + treat NGU (chlamydia) azithromycin 1 g single dose</b><br><b>นอกสไลด์:</b> Gonorrhea มักมี chlamydia ร่วม จึงรักษาร่วมเมื่อยังตัดไม่ได้ · CDC 2021 ให้ doxycycline 7 วันเป็นตัวหลักสำหรับ chlamydia แต่ azithromycin ครั้งเดียวเหมาะเมื่อกังวลว่าผู้ป่วยกินยาไม่ครบ (stem ระบุไว้)",
+  "interp": "ชาย 25 ปี มีหนองไหลจากท่อปัสสาวะ gram stain พบ <b>intracellular gram-negative diplococci</b> (= gonococcal urethritis) เพาะเชื้อยังไม่ออก และ<b>ไม่น่าจะกินยาครบ 7 วัน</b> — ถามสูตรยาที่เหมาะที่สุด ซึ่งต้องรักษาทั้ง gonorrhea และ chlamydia ที่ติดร่วมบ่อยโดยคำนึงถึงความร่วมมือในการกินยา",
+  "why": "Urethritis แบ่งเป็น <b>gonococcal (GU)</b> กับ <b>non-gonococcal (NGU)</b> (Chlamydia trachomatis พบบ่อยที่สุด, Mycoplasma genitalium, Trichomonas, Ureaplasma) · gram stain ของหนองที่พบ intracellular gram-negative diplococci ใน neutrophil วินิจฉัย GU ในชายได้ไวและจำเพาะสูง · ผู้ป่วย GU มี <b>chlamydia ร่วมได้บ่อย (ราว 20–40%)</b> จึงต้องรักษาครอบคลุมทั้งสองเมื่อยังไม่ได้ตัด chlamydia ด้วย NAAT · gonorrhea: <b>ceftriaxone 500 mg IM ครั้งเดียว</b> (CDC 2021; ≥ 150 kg ใช้ 1 g) เพราะ N. gonorrhoeae ดื้อ fluoroquinolone, penicillin, tetracycline และลดความไวต่อ cefixime · chlamydia: doxycycline 100 mg วันละ 2 ครั้ง 7 วันเป็นตัวเลือกแรกตาม CDC 2021 แต่เมื่อ<b>กังวลเรื่องการกินยาไม่ครบ</b>หรือตั้งครรภ์ ใช้ <b>azithromycin 1 g กินครั้งเดียว</b> (directly observed therapy) · รักษาคู่นอนในช่วง 60 วัน งดเพศสัมพันธ์ 7 วันหลังรักษาครบและจนคู่ได้รับการรักษา ตรวจ HIV/ syphilis และตรวจซ้ำที่ 3 เดือน · ไฟล์วง A ลายมือ P'Ing เขียน <b>\"GU / NGU\"</b> พร้อมสไลด์ \"GU — ceftriaxone 500 mg IM single dose + treat NGU (chlamydia) azithromycin 1 g single dose\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Ceftriaxone เดี่ยวไม่ครอบคลุม chlamydia · จะถูกถ้าตรวจ NAAT แล้วไม่พบ chlamydia",
-   "C": "<b>นอกสไลด์:</b> Gonococcus ดื้อ fluoroquinolone แพร่หลาย · จะถูกถ้าผลความไวยืนยันว่าเชื้อไวต่อ ciprofloxacin และผู้ป่วยแพ้ cephalosporin รุนแรง",
-   "D": "<b>นอกสไลด์:</b> Doxycycline เดี่ยวรักษาเฉพาะ chlamydia/NGU · จะถูกถ้า Gram stain พบแต่เม็ดเลือดขาวไม่พบ diplococci (non-gonococcal urethritis)",
-   "E": "สูตรตาม CDC 2021 · <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยกินยาครบ 7 วันได้และไม่ได้ตั้งครรภ์"
+   "B": "Ceftriaxone 500 mg IM เดี่ยวรักษา gonorrhea ได้ และ CDC 2021 ใช้เดี่ยวได้เมื่อ<b>ตรวจแล้วไม่มี chlamydia</b> แต่ผู้ป่วยยังไม่ได้ตัด chlamydia ซึ่งติดร่วมบ่อย จึงต้องให้ยาครอบคลุม NGU ด้วย · จะถูกถ้าเป็นชาย 25 ปี หนองไหลจากท่อปัสสาวะ NAAT พบ N. gonorrhoeae แต่ C. trachomatis NAAT ลบ",
+   "C": "Ciprofloxacin เคยเป็นยารักษา gonorrhea แต่เชื้อ<b>ดื้อ fluoroquinolone สูงมาก</b>ทั่วโลกรวมทั้งไทย จึงไม่แนะนำแบบ empirical และไม่ครอบคลุม chlamydia ได้ดีพอ · ใช้ได้เฉพาะเมื่อมีผลความไวยืนยัน · จะถูกถ้าเป็นชาย 50 ปี ไข้ ปวดฝีเย็บ ต่อมลูกหมากกดเจ็บบวม (acute bacterial prostatitis จาก E. coli ที่ไวต่อยา)",
+   "D": "Doxycycline เดี่ยวรักษา chlamydia และ NGU ได้ดีมาก แต่ไม่รักษา gonorrhea (เชื้อดื้อ tetracycline) ซึ่ง gram stain ยืนยันแล้ว และยังต้องกินครบ 7 วันที่ผู้ป่วยบอกว่าทำไม่ได้ · จะถูกถ้าเป็นชาย 22 ปี ปัสสาวะแสบมีมูกใสไหล gram stain พบ WBC ≥ 2/oil field แต่ไม่พบ diplococci (NGU)",
+   "E": "Ceftriaxone 500 mg IM + doxycycline 100 mg วันละ 2 ครั้ง 7 วันคือสูตรแรกตาม CDC 2021 (doxycycline ได้ผลต่อ chlamydia ดีกว่า azithromycin เล็กน้อยโดยเฉพาะที่ทวารหนัก) แต่ผู้ป่วยบอกว่ากินยาครบ 7 วันไม่ได้ จึงเปลี่ยนเป็น azithromycin ครั้งเดียว · จะถูกถ้าเป็นชาย 25 ปี GU ยังไม่ได้ตัด chlamydia และพร้อมกินยาครบ ไม่ได้ตั้งครรภ์"
   },
-  "trap": "CDC 2021 ใช้ doxycycline เป็นหลักสำหรับ chlamydia — ข้อนี้เลือก azithromycin เพราะ stem บอกว่ากินยาไม่ครบ (ตรงสไลด์อาจารย์)",
+  "trap": "ช้อย A และ E ถูกทั้งคู่ในแง่หลักการ (ceftriaxone + ยาครอบคลุม chlamydia) — คำที่ชี้ขาดคือ<b>ผู้ป่วยไม่น่าจะกินยาครบ 7 วัน</b> ทำให้ azithromycin ครั้งเดียวเหมาะกว่า ตรงกับสไลด์อาจารย์ · กับดักอีกข้อคือ ciprofloxacin ที่สะดวกแต่เชื้อดื้อแล้ว และ ceftriaxone เดี่ยวที่ลืม chlamydia",
   "summary": [
-   "สไลด์ในคีย์: gonorrhea → ceftriaxone 500 mg IM ครั้งเดียว + รักษา chlamydia ร่วม",
-   "<b>นอกสไลด์:</b> CDC 2021: ceftriaxone 500 mg IM (≥ 150 kg ใช้ 1 g) · chlamydia: doxycycline 100 mg วันละ 2 ครั้ง 7 วัน (หลัก) หรือ azithromycin 1 g ครั้งเดียว",
-   "<b>นอกสไลด์:</b> รักษาคู่นอน · ตรวจ HIV และ syphilis · งดเพศสัมพันธ์ราว 7 วันหลังรักษา"
+   "GU: ระยะฟักตัว 2–7 วัน หนองข้นปริมาณมาก · NGU: ระยะฟักตัว 1–3 สัปดาห์ มูกใสปริมาณน้อย ปัสสาวะแสบ · แยกด้วย gram stain และ NAAT",
+   "เกณฑ์ urethritis: หนอง/ มูกจากท่อปัสสาวะ หรือ gram stain WBC ≥ 2/ oil immersion field หรือ first-void urine leukocyte esterase บวก/ ≥ 10 WBC/HPF",
+   "Gonorrhea (CDC 2021): ceftriaxone 500 mg IM ครั้งเดียว (≥ 150 kg ใช้ 1 g) · ทางเลือกแพ้ cephalosporin: gentamicin 240 mg IM + azithromycin 2 g · ไม่มี ceftriaxone: cefixime 800 mg",
+   "Chlamydia: doxycycline 100 mg bid 7 วัน (แรก) · azithromycin 1 g ครั้งเดียว (ตั้งครรภ์หรือกังวลการกินยา) · M. genitalium ดื้อ macrolide มาก ใช้ doxycycline ตามด้วย moxifloxacin",
+   "Pharyngeal gonorrhea ตรวจ test of cure 7–14 วันหลังรักษา · ทุกรายตรวจซ้ำที่ 3 เดือนเพราะติดซ้ำบ่อย",
+   "รักษาคู่นอนในช่วง 60 วัน (expedited partner therapy ได้) · งดเพศสัมพันธ์ 7 วันหลังรักษาและจนคู่หาย · ตรวจ HIV, syphilis, HBV",
+   "ภาวะแทรกซ้อน: epididymitis, urethral stricture, disseminated gonococcal infection (arthritis–dermatitis, tenosynovitis), reactive arthritis จาก chlamydia"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ตามสไลด์อาจารย์ · stem เติมว่ากินยาไม่ครบเพื่อให้เหลือคำตอบเดียวตาม CDC 2021 · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และสไลด์อาจารย์ (ceftriaxone 500 mg IM + azithromycin 1 g) · CDC 2021 ให้ doxycycline 7 วันเป็นตัวเลือกแรกสำหรับ chlamydia (ช้อย E) โจทย์จึงเติมว่าผู้ป่วยไม่น่าจะกินยาครบ ทำให้ azithromycin ครั้งเดียวเป็นคำตอบเดียวที่เหมาะ",
+  "mnemonic": "<b>'GU + NGU ต้องคู่กัน: Ceftriaxone 500 IM + (Doxy 7 วัน หรือ Azithro 1 g ถ้ากินไม่ครบ)'</b>",
+  "guide": "Workowski KA et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep 2021;70(4); Campbell-Walsh-Wein Urology 12th ed. (2020) — Sexually Transmitted Diseases",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ตรวจพบ chlamydia ที่ปากมดลูก → azithromycin 1 g ครั้งเดียว (ไม่ใช้ doxycycline)"
+   "ชาย 24 ปี GU แพ้ cephalosporin รุนแรง (anaphylaxis) → gentamicin 240 mg IM + azithromycin 2 g กินครั้งเดียว",
+   "หญิงตั้งครรภ์ 20 สัปดาห์ NAAT พบ chlamydia → azithromycin 1 g ครั้งเดียว (doxycycline ห้ามในครรภ์) แล้วตรวจ test of cure 4 สัปดาห์",
+   "ชาย 30 ปี ไข้ ผื่นตุ่มหนองที่มือเท้า ข้อมืออักเสบ หลังมีเพศสัมพันธ์ไม่ป้องกัน → disseminated gonococcal infection → ceftriaxone 1 g IV ทุก 24 ชม.",
+   "ทำไมไม่ใช้ ciprofloxacin รักษา gonorrhea แบบ empirical อีกต่อไป → N. gonorrhoeae ดื้อ fluoroquinolone ในอัตราสูงทั่วโลก ทำให้รักษาล้มเหลวและแพร่เชื้อต่อ"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>สงสัย STD stain ได้ diplococcus culture ยังไม่ออก ให้ยาอะไรดี (จำโดสไม่ได้) — A. Ceftri 500 mg IM + Azithro 1 g single dose B. C. D. Doxy E. Ceftri+doxy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ผู้จดจำช้อยได้ไม่ครบ (B, C ว่าง) และจำโดสไม่ได้ · ช้อย A ตรงสไลด์อาจารย์ ส่วนช้อย E (ceftriaxone + doxycycline) ตรง CDC 2021 → เติมใน stem ว่าผู้ป่วยไม่น่าจะกินยาครบ 7 วัน ให้เหลือคำตอบเดียวตามคีย์ · เติมช้อย B, C",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_38"
   ]
  },
  "MDCU74|RoD|39": {
-  "interp": "Sigmoid diverticulitis CT มีฝี 5 cm ข้างลำไส้ (pericolic) → ถาม stage ตาม modified Hinchey",
-  "why": "คีย์ P'Ing วง B (II) ตามตารางที่แปะ (<b>Ib pericolic abscess &lt; 4 cm · II abscess > 4 cm</b>) — <b>ตรวจคีย์ 22 พ.ย. แก้เป็น A</b><br><b>นอกสไลด์:</b> Hinchey ทั้งฉบับเดิมและ modified แบ่งตาม <b>ตำแหน่ง</b> ของหนอง ไม่ใช่ขนาด · ฝีที่อยู่ติดลำไส้ส่วนที่อักเสบ (pericolic/mesocolic) = stage I(b) ทุกขนาด · ขนาดใช้ตัดสินการระบาย",
+  "interp": "ชาย 62 ปี เป็น acute sigmoid diverticulitis CT พบ <b>pericolic abscess ขนาด 5 cm</b> — ถามว่าจัดอยู่ stage ใดตาม <b>modified Hinchey classification</b> ซึ่งต้องรู้ว่าระบบนี้แบ่งตาม<b>ตำแหน่ง</b>ของฝี (pericolic vs pelvic/ distant) ไม่ใช่ขนาด",
+  "why": "<b>Hinchey (1978)</b> แบ่ง perforated diverticulitis จากสิ่งที่พบขณะผ่าตัด: I pericolic abscess · II pelvic, intra-abdominal หรือ retroperitoneal abscess (ไกลจากลำไส้) · III generalized <b>purulent</b> peritonitis · IV generalized <b>fecal</b> peritonitis · <b>Modified Hinchey</b> (Wasvary 1999, Kaiser 2005 ซึ่งใช้ CT): 0 mild clinical diverticulitis · <b>Ia</b> confined pericolic inflammation/ phlegmon · <b>Ib pericolic หรือ mesocolic abscess</b> · II pelvic, distant intra-abdominal หรือ retroperitoneal abscess · III purulent peritonitis · IV fecal peritonitis — <b>ไม่มีเกณฑ์ขนาด</b> ฝีที่อยู่ข้างลำไส้จึงเป็น <b>stage I (Ib)</b> ไม่ว่าขนาดเท่าใด · จุดตัด 4 cm มาจาก <b>WSES 2020 CT classification</b> (1b abscess ≤ 4 cm, 2a abscess &gt; 4 cm) ซึ่งเป็นคนละระบบ · ขนาดใช้ตัดสินการรักษา: ฝีเล็ก (&lt; 3–4 cm) ให้ยาฆ่าเชื้อ · ฝีใหญ่ (≥ 3–4 cm) ทำ <b>percutaneous drainage</b> + ยา แล้วพิจารณา elective resection · III → laparoscopic lavage ในบางราย หรือ resection (Hartmann หรือ primary anastomosis + diverting ileostomy) · IV → <b>Hartmann's procedure</b> · ไฟล์วง B ลายมือ P'Ing เขียน <b>\"✓ &gt;4 cm\"</b> และ \"A ✗ &lt;4 cm\" พร้อมตารางที่แปะว่า Ib pericolic abscess &lt; 4 cm, II abscess &gt; 4 cm",
   "wrong": {
-   "B": "คีย์ P'Ing (ตารางที่ใช้เกณฑ์ขนาด) · <b>นอกสไลด์:</b> จะถูกถ้าฝีอยู่ไกลจากลำไส้ส่วนที่อักเสบ เช่น ใน pelvis หรือระหว่างห่วงลำไส้",
-   "C": "<b>นอกสไลด์:</b> Stage III = purulent peritonitis · จะถูกถ้าผู้ป่วยท้องแข็งทั่วท้อง มีลมอิสระ ผ่าตัดพบหนองทั่วช่องท้องโดยไม่มีอุจจาระ",
-   "D": "<b>นอกสไลด์:</b> Stage IV = fecal peritonitis · จะถูกถ้าผ่าตัดพบอุจจาระกระจายในช่องท้องจากลำไส้ทะลุเปิด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เป็น Hinchey V เพราะ Hinchey มีเพียงระดับ 0–IV"
+   "B": "Stage II ตาม modified Hinchey คือ<b>ฝีที่อยู่ไกลจากลำไส้</b> ใน pelvis, ระหว่างห่วงลำไส้ หรือ retroperitoneum ซึ่งเป็นเหตุผลของคีย์ในไฟล์ที่ใช้ตารางผสมเกณฑ์ &gt; 4 cm ของ WSES · ฝี pericolic 5 cm ตาม Hinchey จึงยังเป็น Ib · จะถูกถ้าเป็นชาย 62 ปี sigmoid diverticulitis CT พบฝี 6 cm ใน pouch of Douglas แยกห่างจากลำไส้ส่วนที่อักเสบ",
+   "C": "Stage III คือ generalized <b>purulent peritonitis</b> จากฝีแตกเข้าช่องท้อง (ไม่มีรูเปิดสู่โพรงลำไส้) มีท้องแข็งทั่ว sepsis free fluid และ free air ทั่วช่องท้อง · จะถูกถ้าเป็นหญิง 65 ปี sigmoid diverticulitis แล้วปวดทั่วท้องทันที ท้องแข็ง ผ่าตัดพบหนองกระจายทั่วช่องท้องแต่ไม่มีอุจจาระ",
+   "D": "Stage IV คือ generalized <b>fecal peritonitis</b> จากลำไส้ทะลุเปิดสู่ช่องท้องโดยตรง mortality สูงที่สุด ต้องผ่าตัดด่วนส่วนใหญ่ทำ Hartmann's procedure · จะถูกถ้าเป็นชาย 70 ปี กิน steroid sigmoid diverticulitis ช็อก ผ่าตัดพบอุจจาระกระจายในช่องท้องจากรูทะลุที่ sigmoid",
+   "E": "Modified Hinchey มีเพียง 0, Ia, Ib, II, III และ IV ไม่มี stage V จึงเป็นช้อยหลอกที่ไม่มีอยู่จริงในระบบนี้ (ระบบ CT ของ WSES ก็มีเพียงระดับ 0–4) · ไม่มีสถานการณ์ผู้ป่วยใดที่ถูกจัดเป็น Hinchey stage V — แม้ชาย 70 ปี กิน steroid ลำไส้ทะลุ มีอุจจาระกระจายทั่วช่องท้องและช็อก ก็ยังเป็นเพียง stage IV"
   },
-  "trap": "ใช้ขนาดเกิน 4 cm ตัดสินเป็น stage II (ตารางในคีย์) — ขนาดเป็นเกณฑ์ระบายหนอง/ของ WSES ไม่ใช่ Hinchey · <b>เราตอบ A ต่างจากคีย์ P'Ing (B)</b>",
+  "trap": "หลายตารางสอน (รวมตารางที่แปะในไฟล์) ผสมเกณฑ์ขนาด 4 cm ของ WSES เข้ากับ Hinchey จึงตอบ II · หลักของ Hinchey คือ<b>ตำแหน่ง</b>: ติดลำไส้ = I · ไกลออกไป (pelvis/ distant) = II · ส่วนขนาดใช้ตัดสินใจระบายฝีไม่ใช่เปลี่ยน stage · โจทย์ระบุชัดว่า pericolic และถาม modified Hinchey",
   "summary": [
-   "<b>นอกสไลด์:</b> Modified Hinchey: 0 อักเสบเล็กน้อย · Ia phlegmon รอบลำไส้ · Ib ฝีรอบลำไส้ · II ฝีใน pelvis/ไกลออกไป/หลังเยื่อบุช่องท้อง · III หนองทั่วช่องท้อง · IV อุจจาระทั่วช่องท้อง",
-   "<b>นอกสไลด์:</b> ฝีราว ≥ 3–4 cm → ยาปฏิชีวนะ + ระบายผ่านผิวหนัง · เล็กกว่านั้นยาอย่างเดียว"
+   "Modified Hinchey: 0 mild clinical · Ia pericolic phlegmon/ inflammation · Ib pericolic/ mesocolic abscess · II pelvic, distant intra-abdominal, retroperitoneal abscess · III purulent peritonitis · IV fecal peritonitis",
+   "WSES 2020 (CT): 0 uncomplicated · 1a pericolic air/ fluid ไม่มีฝี · 1b abscess ≤ 4 cm · 2a abscess &gt; 4 cm · 2b distant air &gt; 5 cm จากลำไส้ · 3 diffuse fluid ไม่มี distant free air · 4 diffuse fluid + distant free air",
+   "Uncomplicated diverticulitis ในคนภูมิคุ้มกันปกติ: อาจไม่ต้องให้ยาฆ่าเชื้อ (DIABOLO, AVOD) รักษาแบบผู้ป่วยนอกได้",
+   "ฝี: เล็ก (&lt; 3–4 cm) ยาฆ่าเชื้ออย่างเดียว · ใหญ่ → CT-guided percutaneous drainage + ยา · ล้มเหลว → ผ่าตัด",
+   "Purulent peritonitis (III): resection ± primary anastomosis with diverting ileostomy ในผู้ป่วยคงที่ หรือ Hartmann · laparoscopic lavage ใช้ในรายเลือกเฉพาะ · fecal peritonitis (IV): Hartmann's procedure",
+   "หลัง complicated diverticulitis ทำ colonoscopy 6–8 สัปดาห์เพื่อตัดมะเร็ง · elective sigmoid resection พิจารณารายบุคคล (ฝีที่ระบายแล้ว ภูมิคุ้มกันต่ำ fistula stricture)",
+   "Diverticular fistula ที่พบบ่อยที่สุดคือ colovesical (pneumaturia, fecaluria) โดยเฉพาะในผู้ชาย"
   ],
-  "opinion": "ไม่ตรงกับคีย์ P'Ing (B) — ตอบ A เพราะ Hinchey ใช้ตำแหน่งไม่ใช่ขนาด (ตรวจคีย์ 22 พ.ย.) · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — คำตอบเว็บต่างจากคีย์ลายมือ P'Ing ที่วง B ตามตารางที่แปะ (abscess &gt; 4 cm = II) เพราะตาราง Hinchey ฉบับดั้งเดิมและ modified (Wasvary 1999, Kaiser 2005) จัด pericolic abscess ทุกขนาดเป็น Ib ส่วนจุดตัด 4 cm เป็นของ WSES 2020 · ข้อควรระวัง: ถ้าข้อสอบอิงตารางในสไลด์อาจารย์ คะแนนอาจให้ B",
+  "mnemonic": "<b>'Hinchey ดูที่อยู่ ไม่ดูขนาด: ข้างลำไส้ = I · ไกลออกไป = II · หนอง = III · อุจจาระ = IV'</b>",
+  "guide": "Kaiser AM et al. The management of complicated diverticulitis and the role of computed tomography, Am J Gastroenterol 2005; Sartelli M et al. 2020 update of the WSES guidelines for acute colonic diverticulitis in the emergency setting, World J Emerg Surg 2020; Hall J et al. ASCRS Clinical Practice Guidelines for Left-sided Colonic Diverticulitis, Dis Colon Rectum 2020",
   "variants": [
-   "<b>นอกสไลด์:</b> Diverticulitis ทะลุเป็นหนองทั่วช่องท้อง ผู้ป่วยคงที่ → ผ่าตัด sigmoidectomy ต่อลำไส้ ± diverting ileostomy หรือ Hartmann ตามสภาพ"
+   "หญิง 55 ปี sigmoid diverticulitis CT พบ pericolic abscess 2 cm สัญญาณชีพคงที่ → modified Hinchey Ib → ยาฆ่าเชื้อทางหลอดเลือดอย่างเดียว",
+   "ชาย 60 ปี CT พบ pericolic abscess 6 cm ไข้ไม่ลด → Hinchey Ib (WSES 2a) → CT-guided percutaneous drainage + ยา",
+   "ชาย 58 ปี ปัสสาวะมีลมและเศษอุจจาระหลังเคยเป็น diverticulitis → colovesical fistula → sigmoid resection + ซ่อมกระเพาะปัสสาวะ",
+   "ทำไมต้องส่องกล้องลำไส้ใหญ่หลังหายจาก complicated diverticulitis → มะเร็งลำไส้ทะลุหรือก่อฝีมีภาพ CT คล้ายกัน และพบมะเร็งซ่อนอยู่ได้มากขึ้นในกลุ่ม complicated"
+  ],
+  "notes": "ไฟล์ S74DQ หน้า 4 — ตัวพิมพ์: <b>Pericolic abscess 5 cm hinchey ? — A. 1 B. 2 C. 3 D. 4 E. 5</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ตรวจคีย์ 22 พ.ย. 2026: เดิมคลังตอบ B Stage II ตามตารางที่ P’Ing แปะ (abscess >4 cm = II) → แก้เป็น A Stage I · Hinchey 1978 / modified Hinchey (Wasvary 1999, Kaiser 2005) จัด pericolic abscess ทุกขนาดเป็น I(b) · ตัด 4 cm เป็นของ WSES 2020 CT classification (1b ≤4 cm / 2a >4 cm) คนละระบบ · 73D Colo 1 และ 76D 16 ตอบ I เหมือนกัน",
+  "src": "S74DQ · หน้า 4",
+  "kimg": [
+   "kp74d_39"
   ]
  }
 }

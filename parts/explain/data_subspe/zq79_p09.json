@@ -1,29 +1,31 @@
 {
  "MDCU79|RoD|Neuro 3": {
-  "interp": "ผู้ป่วยสังเกตว่านิ้ว คาง และหน้าผากโตขึ้นเรื่อย ๆ (รูปใบหน้า) → ถามสาเหตุที่น่าจะเป็นที่สุด",
-  "why": "มือเท้าโต คางยื่น (prognathism) หน้าผากและโหนกคิ้วนูน จมูกและริมฝีปากหนา ฟันห่าง = <b>acromegaly</b> จาก <b>growth hormone เกินในผู้ใหญ่</b> (หลังกระดูกปิด) · สาเหตุ > 95% คือ <b>somatotroph (GH-secreting) pituitary adenoma</b> ส่วนใหญ่เป็น macroadenoma · ภาวะร่วม: เบาหวาน ความดันสูง หัวใจโต นอนกรน/ หยุดหายใจ carpal tunnel ติ่งเนื้อและมะเร็งลำไส้ใหญ่ · วินิจฉัย: <b>IGF-1 สูง</b> + GH ไม่ถูกกดหลังกินน้ำตาล (OGTT) + MRI pituitary · รักษา: <b>transsphenoidal surgery</b> ± somatostatin analogue/ pegvisomant/ radiotherapy · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 3 A\"</b> = somatotroph pituitary adenoma ตรงกับคำตอบ",
+  "interp": "ผู้ป่วยสังเกตว่า<b>นิ้ว คาง และหน้าผากใหญ่ขึ้น</b> ภาพแสดงลักษณะใบหน้า — ถามสาเหตุที่เป็นไปได้มากที่สุด ต้องจำลักษณะของ <b>acromegaly</b> (GH เกินหลังกระดูกปิด) ได้ และรู้ว่าเกือบทั้งหมดเกิดจาก <b>somatotroph (GH-secreting) pituitary adenoma</b> แยกจากก้อนบริเวณ sella/ pineal อื่น",
+  "why": "<b>Acromegaly</b> คือภาวะ <b>growth hormone (GH) เกินหลังแผ่นกระดูกปิดแล้ว</b> GH กระตุ้นตับสร้าง <b>IGF-1</b> ทำให้กระดูกและเนื้อเยื่ออ่อนหนาขึ้นช้า ๆ เฉลี่ยวินิจฉัยช้าหลังเริ่มอาการราว 5–10 ปี · ลักษณะ: <b>frontal bossing, คางยื่น (prognathism) ฟันห่าง ลิ้นโต จมูก/ ริมฝีปากหนา มือเท้าใหญ่</b> (แหวน/ รองเท้าคับ) เหงื่อออกมาก ผิวมัน carpal tunnel syndrome ปวดข้อ · ผลระบบ: ความดันสูง cardiomyopathy เบาหวาน sleep apnea colon polyp/ มะเร็งลำไส้ใหญ่ (ต้อง colonoscopy) · ก่อนกระดูกปิดเรียก gigantism · สาเหตุ <b>&gt; 95% คือ somatotroph pituitary adenoma</b> ส่วนใหญ่เป็น macroadenoma (≥ 10 mm) อาจกด optic chiasm → bitemporal hemianopia · วินิจฉัย: <b>IGF-1 สูง</b> (คัดกรอง) → ยืนยันด้วย <b>GH ไม่ถูกกดเหลือ &lt; 1 ng/mL หลัง oral glucose tolerance test</b> → MRI pituitary · รักษา: <b>transsphenoidal surgery</b> เป็นลำดับแรก (microadenoma หายได้ราว 80–90%) · ไม่หายหรือผ่าตัดไม่ได้ → somatostatin receptor ligand (octreotide, lanreotide, pasireotide), GH receptor antagonist (pegvisomant), cabergoline และ radiotherapy · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" ตัวพิมพ์ <b>\"Neurosurgery 3 A\"</b> (ช่องเฉลยในตารางว่าง ไม่มีลายมือ)",
   "wrong": {
-   "B": "Prolactinoma ทำให้น้ำนมไหล ประจำเดือนขาด/ เสื่อมสมรรถภาพทางเพศ ไม่ทำให้มือเท้าคางโต · จะถูกถ้าหญิง 28 ปีประจำเดือนขาด มีน้ำนมไหล prolactin 250 ng/mL",
-   "C": "เนื้องอก pineal (germinoma) ทำ Parinaud syndrome hydrocephalus หรือ precocious puberty ในเด็กชาย ไม่ใช่ acromegaly · จะถูกถ้าเด็กชาย 12 ปีมองขึ้นไม่ได้ ปวดศีรษะ β-hCG สูง",
-   "D": "Craniopharyngioma ในเด็ก/ ผู้ใหญ่ทำให้ฮอร์โมน pituitary <b>ขาด</b> (ตัวเตี้ย เบาจืด) ตามัว ไม่สร้าง GH เกิน · จะถูกถ้าเด็กตัวเตี้ย ปัสสาวะมาก ตามัวขอบนอกสองข้าง CT ก้อนมีหินปูนเหนือ sella",
-   "E": "Rathke cleft cyst เป็นถุงน้ำไม่สร้างฮอร์โมน มักไม่มีอาการหรือปวดศีรษะ/ ฮอร์โมนขาด · จะถูกถ้า MRI พบถุงน้ำเล็กใน sella โดยบังเอิญ ฮอร์โมนปกติ"
+   "B": "Lactotroph adenoma (prolactinoma) เป็น functioning pituitary adenoma ที่พบบ่อยที่สุด prolactin สูงกดการหลั่ง GnRH ทำให้หญิงมี galactorrhea ประจำเดือนขาด มีบุตรยาก ชายมีความต้องการทางเพศลด erectile dysfunction และ macroadenoma กดตา ไม่ทำให้ใบหน้า/ มือโต · รักษาด้วย cabergoline ก่อนแม้เป็น macroadenoma — จะถูกถ้าเป็นหญิง 28 ปีประจำเดือนขาด 6 เดือน มีน้ำนมไหลทั้งที่ไม่ได้ตั้งครรภ์ prolactin 250 ng/mL MRI พบ microadenoma",
+   "C": "Pineal region germ cell tumor (germinoma) พบในเด็กชายวัยรุ่น ทำให้ Parinaud syndrome, obstructive hydrocephalus และ β-hCG ที่หลั่งอาจทำให้ precocious puberty ในเด็กชาย ไม่ทำให้ GH เกิน — จะถูกถ้าเป็นเด็กชาย 10 ปีมองขึ้นไม่ได้ ปวดศีรษะ อาเจียน และมีลักษณะเข้าวัยรุ่นก่อนวัย ตรวจพบ β-hCG ใน CSF สูงและก้อนบริเวณ pineal",
+   "D": "Craniopharyngioma เป็นก้อน suprasellar จาก Rathke pouch remnant พบสองช่วงอายุ (เด็ก 5–14 ปีและผู้ใหญ่ 50–75 ปี) ทำให้ <b>ฮอร์โมนต่อมใต้สมองขาด</b> (เตี้ย โตช้า diabetes insipidus) และ bitemporal hemianopia ไม่ใช่ฮอร์โมนเกิน — จะถูกถ้าเป็นเด็ก 10 ขวบตัวเตี้ย ปวดศีรษะ ตามัวด้านข้าง ปัสสาวะบ่อยมาก CT เห็นก้อนถุงน้ำมี calcification เหนือ sella",
+   "E": "Rathke cleft cyst เป็นถุงน้ำไม่ร้ายใน sella/ suprasellar ผนังเป็นเยื่อบุชั้นเดียว ไม่จับสีตรงกลาง ไม่มี calcification ส่วนใหญ่พบโดยบังเอิญ บางรายปวดศีรษะหรือ hypopituitarism/ hyperprolactinemia จากก้านถูกกด ไม่สร้าง GH — จะถูกถ้าเป็นหญิง 40 ปีทำ MRI เพราะปวดศีรษะ พบถุงน้ำขนาด 8 mm ระหว่างกลีบหน้าและหลังของต่อมใต้สมอง ไม่จับสี ฮอร์โมนปกติ"
   },
-  "trap": "ตอบ prolactinoma เพราะเป็น pituitary adenoma ที่พบบ่อยที่สุด — ลักษณะมือเท้าคางโตบอกชนิด GH ชัด",
+  "trap": "Prolactinoma (B) เป็น pituitary adenoma ที่พบบ่อยที่สุดจึงเลือกตามสถิติ — แต่<b>อาการ (ใบหน้า มือ คางโต) บอกชนิดของฮอร์โมนที่เกิน</b> = GH → somatotroph · ก้อนบริเวณ sella อื่น (craniopharyngioma, Rathke cleft cyst) ทำให้ฮอร์โมน<b>ขาด</b>ไม่ใช่เกิน · ระวัง adenoma ที่หลั่งทั้ง GH และ prolactin ได้ (mammosomatotroph) แต่ภาพหลักยังเป็น acromegaly",
   "summary": [
-   "Acromegaly: GH เกินในผู้ใหญ่ · gigantism: ก่อนกระดูกปิด",
-   "อาการ: มือเท้าโต · คางยื่น · หน้าผากนูน · ฟันห่าง · เหงื่อมาก · carpal tunnel",
-   "ร่วม: เบาหวาน · HT · cardiomyopathy · OSA · colon polyp/ cancer",
-   "วินิจฉัย: IGF-1 สูง + GH ไม่ถูกกดหลัง OGTT + MRI",
-   "รักษา: transsphenoidal surgery → ยา (octreotide, pegvisomant) → RT",
-   "Macroadenoma กด chiasm → bitemporal hemianopia"
+   "Acromegaly: GH/ IGF-1 เกินหลังกระดูกปิด · ใบหน้าหยาบ frontal bossing prognathism ฟันห่าง ลิ้นโต มือเท้าใหญ่ เหงื่อออก carpal tunnel · ก่อนกระดูกปิด = gigantism",
+   "วินิจฉัย: IGF-1 (ปรับตามอายุ) สูง → OGTT 75 g GH ไม่ถูกกดเหลือ &lt; 1 ng/mL (assay ไวสูงใช้ &lt; 0.4) → MRI pituitary · ตรวจ visual field และฮอร์โมนต่อมใต้สมองอื่น",
+   "โรคร่วมที่ต้องคัดกรอง: ความดันสูง cardiomyopathy เบาหวาน sleep apnea colon polyp/ มะเร็ง (colonoscopy) thyroid nodule · สาเหตุตายหลักคือหัวใจและหลอดเลือด",
+   "รักษา: transsphenoidal surgery ลำดับแรก · ไม่หาย → somatostatin receptor ligand (octreotide, lanreotide; pasireotide) → pegvisomant (ติดตามด้วย IGF-1 ไม่ใช่ GH) → radiotherapy/ radiosurgery · เป้าหมาย IGF-1 ปกติ",
+   "Pituitary adenoma (PitNET): microadenoma &lt; 10 mm · macroadenoma ≥ 10 mm กด chiasm → bitemporal hemianopia · functioning: prolactinoma (บ่อยสุด) &gt; somatotroph &gt; corticotroph (Cushing disease) &gt; thyrotroph",
+   "Prolactinoma รักษาด้วย dopamine agonist (cabergoline) ก่อน แม้เป็น macroadenoma ที่กดตา · adenoma ชนิดอื่นที่มีอาการใช้การผ่าตัดเป็นหลัก",
+   "Pituitary apoplexy: ก้อนเลือดออก/ ขาดเลือดฉับพลัน ปวดศีรษะรุนแรงทันที ตามัว ตากลอกไม่ได้ ช็อกจาก adrenal insufficiency → hydrocortisone ทันที ± ผ่าตัดลดแรงกด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และลักษณะคลาสสิกของ acromegaly",
-  "mnemonic": "<b>'นิ้ว คาง หน้าผากโต = GH adenoma → IGF-1 + MRI'</b>",
-  "guide": "Endocrine Society Clinical Practice Guideline: Acromegaly (J Clin Endocrinol Metab 2014;99:3933); Youmans and Winn Neurological Surgery 8th ed. (2022) — Pituitary adenomas",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — นิ้ว คาง หน้าผากใหญ่ขึ้นเป็นลักษณะของ acromegaly ซึ่งเกิดจาก somatotroph pituitary adenoma เกือบทั้งหมด · ตรงกับคีย์ในไฟล์ 79D หน้า 36 เฉลยอย่างย่อ \"Neurosurgery 3 A\" (ช่องเฉลยในตารางว่าง)",
+  "mnemonic": "<b>'มือ คาง หน้าผากโต = GH เกิน = Somatotroph · ตรวจ IGF-1 → OGTT ไม่กด GH → MRI → ผ่าทาง sphenoid'</b>",
+  "guide": "Katznelson L, et al. Acromegaly: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2014; Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Pituitary Neuroendocrine Tumors",
   "variants": [
-   "หญิงประจำเดือนขาด น้ำนมไหล prolactin สูง MRI microadenoma → cabergoline",
-   "ผู้ป่วย acromegaly ตามัวขอบนอกสองข้าง → macroadenoma กด optic chiasm ผ่าตัด",
-   "ปวดศีรษะเฉียบพลัน ตามัว ความดันต่ำในผู้ที่มี pituitary adenoma → pituitary apoplexy ให้ steroid ด่วน"
+   "ชาย 45 ปีแหวนคับ ฟันห่าง ความดันสูง IGF-1 สูง 3 เท่า → OGTT แล้ว GH ไม่ลดลงต่ำกว่า 1 ng/mL → MRI พบ macroadenoma → transsphenoidal surgery",
+   "หลังผ่าตัด GH adenoma 3 เดือน IGF-1 ยังสูง MRI พบก้อนเหลือใน cavernous sinus → somatostatin receptor ligand (octreotide/ lanreotide)",
+   "เด็กชาย 12 ปีสูงเร็วผิดปกติจนสูงกว่าพ่อแม่มาก มือเท้าใหญ่ IGF-1 สูง → gigantism จาก GH-secreting adenoma ก่อนกระดูกปิด",
+   "ผู้ป่วย pituitary macroadenoma ปวดศีรษะรุนแรงทันที ตามัว หนังตาตก ความดันต่ำ → pituitary apoplexy ให้ hydrocortisone IV ทันทีและปรึกษาผ่าตัด"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 22 แถว Neuro 3 — ตัวพิมพ์: <b>คนไข้มา นิ้วคางหน้าผากใหญ่ขึ้น (มีรูป) — 1. somatotroph pituitary adenoma 2. Prolactinoma 3. Pineal gland tumor 4. Craniopharyngioma 5. Rathke's cleft cyst</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 22 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU79|RoD|Neuro 4": {
-  "interp": "ผู้ป่วยมะเร็งเต้านมกำลังได้เคมี มีอาการทางระบบประสาทหลายอย่าง อ่อนแรง สับสน และความดันในกะโหลกสูง ภาพตามรูป (หลายก้อน) → ถามสิ่งที่น่าจะพบ",
-  "why": "ผู้ป่วย<b>มะเร็ง</b> + อาการทางระบบประสาทหลายตำแหน่ง + <b>ICP สูง</b> + ภาพเห็นก้อนหลายก้อน (มัก enhance เป็นวงหรือก้อนตัน อยู่ที่<b>รอยต่อ gray-white matter</b> มี edema รอบมาก) = <b>brain metastases</b> · เป็น<b>เนื้องอกสมองในผู้ใหญ่ที่พบบ่อยที่สุด</b> · ต้นกำเนิดบ่อย: <b>ปอด > เต้านม > melanoma</b> > ไต > ลำไส้ · รักษา: dexamethasone ลดบวม · ก้อนน้อย (1–4) → SRS ± ผ่าตัดก้อนใหญ่ที่มีอาการ · ก้อนมาก → whole-brain RT หรือยาที่เข้าสมองได้ (HER2-targeted เช่น tucatinib ในมะเร็งเต้านม HER2+) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 4 A\"</b> = Metastasis ตรงกับคำตอบ",
+  "interp": "ผู้ป่วย<b>มะเร็งเต้านมขณะได้เคมีบำบัด</b> มีอาการทางระบบประสาทหลายอย่าง (อ่อนแรง สับสนขณะคุยกับลูก) ร่วมกับ<b>อาการความดันในกะโหลกศีรษะสูง</b> มีภาพประกอบ — ถามสิ่งที่น่าจะพบ ต้องนึกถึง brain metastases ซึ่งเป็นเนื้องอกในสมองที่พบบ่อยที่สุดในผู้ใหญ่ และแยกจากภาวะทางระบบประสาทอื่นในผู้ป่วยมะเร็ง",
+  "why": "<b>Brain metastasis เป็นเนื้องอกในกะโหลกศีรษะที่พบบ่อยที่สุดในผู้ใหญ่</b> (มากกว่า primary brain tumor หลายเท่า) มะเร็งต้นทางที่พบบ่อย: <b>ปอด &gt; เต้านม &gt; melanoma</b> &gt; ไต &gt; ลำไส้ใหญ่ · ในมะเร็งเต้านม ชนิด <b>HER2-positive และ triple-negative</b> แพร่ไปสมองบ่อยกว่า และยาเคมีบำบัดหลายชนิดผ่าน blood-brain barrier ได้น้อย สมองจึงเป็นแหล่งหลบ (sanctuary) แม้โรคที่อื่นตอบสนอง · เซลล์มะเร็งมาทางกระแสเลือดไปติดที่<b>รอยต่อ gray-white matter</b> และ watershed area · ภาพ: <b>ก้อนหลายก้อน ขอบชัด จับสีแบบวงแหวนหรือทึบ ล้อมด้วย vasogenic edema มากเกินขนาดก้อน</b> ทำให้ความดันในกะโหลกสูง (ปวดศีรษะ อาเจียน ซึม) อาการเฉพาะที่ สับสน และชัก · MRI ฉีด gadolinium ไวที่สุด · รักษา: <b>dexamethasone</b> ลดสมองบวมเมื่อมีอาการ · ยากันชักเฉพาะผู้ที่ชักแล้ว · ก้อนเดียว/ น้อยก้อนที่ใหญ่มี mass effect และโรคทั่วร่างคุมได้ → <b>ผ่าตัด</b> + SRS ที่โพรง · ก้อนจำนวนจำกัด → <b>stereotactic radiosurgery</b> · ก้อนจำนวนมาก → <b>whole-brain RT แบบ hippocampal avoidance + memantine</b> · ยาที่ผ่านสมองได้ เช่น tucatinib/ trastuzumab deruxtecan ใน HER2+ · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" ตัวพิมพ์ <b>\"Neurosurgery 4 A\"</b> (ช่องเฉลยในตารางว่าง ไม่มีลายมือ)",
   "wrong": {
-   "B": "Paraneoplastic cerebellar degeneration ทำให้เดินเซ พูดไม่ชัด ตากระตุก แบบกึ่งเฉียบพลัน MRI มักปกติในตอนแรก ไม่มีก้อนหรือ ICP สูง · จะถูกถ้าหญิงมะเร็งรังไข่/ เต้านมเดินเซรุนแรงขึ้นใน 2 สัปดาห์ MRI ปกติ anti-Yo บวก",
-   "C": "Leukoencephalopathy จากเคมีเป็นความผิดปกติของ white matter แบบกระจายสมมาตร ความจำลดลง ไม่มีก้อนหรือ mass effect · จะถูกถ้าผู้ป่วยได้ methotrexate intrathecal แล้วความจำแย่ลง MRI white matter สองข้างสมมาตร",
-   "D": "Neurocysticercosis เป็นถุงน้ำเล็กมีจุด scolex หรือหินปูนหลายจุด ชักเป็นอาการหลัก ไม่สัมพันธ์กับมะเร็ง · จะถูกถ้าคนกินหมูดิบชักครั้งแรก CT เห็นหินปูนเล็กหลายจุดและถุงมีจุดตรงกลาง",
-   "E": "PML ไม่ enhance ไม่มี mass effect พบในภูมิคุ้มกันต่ำมาก (HIV, natalizumab, rituximab) · จะถูกถ้าผู้ป่วยได้ rituximab แล้วอ่อนแรงค่อยเป็นค่อยไป MRI white matter ไม่ enhance"
+   "B": "Paraneoplastic cerebellar degeneration เป็นภาวะภูมิคุ้มกันต่อต้านเซลล์ Purkinje (เช่น anti-Yo ในมะเร็งเต้านม/ รังไข่) อาการเซทั้งตัว พูดไม่ชัด ตากระตุกที่เป็นเร็วในสัปดาห์ถึงเดือน มักเกิดก่อนพบมะเร็ง MRI ระยะแรกปกติ ระยะหลัง cerebellum ฝ่อ ไม่มีก้อนหรือความดันในกะโหลกสูง — จะถูกถ้าเป็นหญิง 55 ปีเดินเซ พูดไม่ชัดมา 6 สัปดาห์ MRI สมองปกติ ตรวจพบ anti-Yo antibody และแมมโมแกรมเจอก้อนเต้านม",
+   "C": "Chemotherapy-induced leukoencephalopathy เกิดจากยา เช่น methotrexate (โดยเฉพาะ intrathecal/ ขนาดสูงร่วมกับฉายรังสี), 5-FU/ capecitabine, cytarabine ทำให้สับสน ความจำเสื่อม เดินผิดปกติ ภาพเป็น<b>รอยโรค white matter สมมาตรกระจายทั่ว ไม่จับสีและไม่มีก้อน</b> — จะถูกถ้าเป็นเด็ก ALL ที่ได้ high-dose methotrexate และ intrathecal methotrexate แล้วสับสนและชัก MRI เห็นรอยสว่าง T2 ใน white matter สองข้างสมมาตร ไม่จับสี",
+   "D": "Neurocysticercosis จากตัวอ่อนพยาธิตืดหมู (<i>Taenia solium</i>) พบในไทย มักมาด้วย<b>ชัก</b> ภาพเป็นถุงน้ำขนาดเล็กหลายถุงที่มีจุด scolex ภายใน (cyst with dot) หรือหินปูนเม็ดเล็ก ประวัติกินหมูดิบ/ อาศัยในชนบท รักษาด้วย albendazole ± praziquantel ร่วม steroid — จะถูกถ้าเป็นชาย 30 ปีจากชนบทชักครั้งแรก CT พบถุงน้ำเล็กหลายถุงมีจุดตรงกลางและหินปูนเม็ดเล็กหลายจุด",
+   "E": "PML เกิดจาก JC virus ในผู้ภูมิคุ้มกันบกพร่องรุนแรง (HIV CD4 ต่ำ, ยา natalizumab, rituximab, หลังปลูกถ่ายอวัยวะ) ภาพเป็นรอยโรค white matter ไม่สมมาตร <b>ไม่จับสี ไม่มี mass effect</b> จึงไม่ทำให้ความดันในกะโหลกสูง — จะถูกถ้าเป็นผู้ป่วย multiple sclerosis ที่ได้ natalizumab มา 3 ปี มีอ่อนแรงและตามัวครึ่งซีกค่อย ๆ เป็น MRI พบรอยโรค white matter ใต้เปลือกสมองไม่จับสี JC virus PCR ใน CSF บวก"
   },
-  "trap": "นึกถึงผลข้างเคียงยาก่อน — ผู้ป่วยมะเร็งมีก้อนหลายก้อน + ICP สูง = metastasis จนพิสูจน์ได้ว่าไม่ใช่",
+  "trap": "ผู้ป่วยกำลังได้เคมีบำบัดจึงอาจคิดว่าอาการมาจากพิษยา (C) หรือ paraneoplastic (B) — แต่<b>อาการความดันในกะโหลกสูง + อาการเฉพาะที่หลายตำแหน่ง</b> บ่งว่ามี mass lesion ซึ่ง B, C, E ไม่ทำให้เกิด · มะเร็งเต้านมเป็นต้นทางอันดับสองของ brain metastasis จึงเป็นคำตอบที่เข้าได้มากที่สุด · neurocysticercosis มาด้วยชักมากกว่า",
   "summary": [
-   "Brain metastasis: เนื้องอกสมองผู้ใหญ่พบบ่อยที่สุด",
-   "ต้นกำเนิด: ปอด > เต้านม > melanoma > ไต > ลำไส้",
-   "ภาพ: หลายก้อน · รอยต่อ gray-white · edema มาก",
-   "เลือดออกในก้อนบ่อย: melanoma · RCC · choriocarcinoma · thyroid",
-   "รักษา: dexamethasone · SRS (1–4 ก้อน) · ผ่าตัดก้อนใหญ่มีอาการ · WBRT (หลายก้อน)",
-   "ยาที่เข้าสมองได้: HER2-targeted (tucatinib, T-DXd) · EGFR/ ALK TKI ในมะเร็งปอด"
+   "Brain metastasis: เนื้องอกในกะโหลกที่พบบ่อยที่สุดในผู้ใหญ่ · ต้นทาง: ปอด &gt; เต้านม &gt; melanoma &gt; ไต &gt; ลำไส้ใหญ่ · melanoma, ไต, choriocarcinoma, thyroid มักเลือดออกในก้อน",
+   "ภาพ: หลายก้อน (ราวครึ่งหนึ่ง) ที่ gray-white junction จับสีวงแหวน/ ทึบ vasogenic edema มาก · MRI gadolinium ไวที่สุด · ก้อนเดียวในผู้ไม่มีประวัติมะเร็งต้องหา primary (CT chest/abdomen/pelvis, PET) หรือ biopsy",
+   "Dexamethasone (เช่น 4–16 mg/วัน) เมื่อมีอาการจากสมองบวม แล้วลดขนาดเมื่อพ้นระยะ · ไม่ให้ยากันชักป้องกันในผู้ที่ไม่เคยชัก",
+   "ผ่าตัด: ก้อนเดียว/ น้อยก้อน ใหญ่ (&gt; 3 cm) มี mass effect หรือต้องการชิ้นเนื้อ ในผู้ที่ performance status ดีและโรคทั่วร่างคุมได้ → ตามด้วย SRS ที่โพรงแทน WBRT",
+   "SRS สำหรับก้อนจำนวนจำกัด (แนวทางปัจจุบันรวมถึงหลายก้อนที่ปริมาตรรวมไม่มาก) · WBRT แบบ hippocampal avoidance + memantine ลดผลต่อความจำเมื่อก้อนจำนวนมาก",
+   "ความเสี่ยง brain metastasis ในมะเร็งเต้านม: HER2-positive และ triple-negative สูง · ยาที่ช่วยในสมอง: tucatinib + trastuzumab + capecitabine, trastuzumab deruxtecan",
+   "แยกจาก: abscess (ไข้, DWI restricted ตรงกลาง), glioblastoma (ก้อนเดียว ข้าม corpus callosum), PCNSL (periventricular), radiation necrosis (หลัง SRS ใช้ perfusion MRI แยก)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ช้อย 3 ต้นฉบับจดไม่จบ (\"Chemotherapy induced …\") จึงเติมเป็น leukoencephalopathy",
-  "mnemonic": "<b>'คนเป็นมะเร็ง + ก้อนในสมองหลายก้อน = mets (ปอด เต้านม melanoma)'</b>",
-  "guide": "ASCO-SNO-ASTRO Guideline: Treatment of Brain Metastases (J Clin Oncol 2022;40:492); NCCN Central Nervous System Cancers v.2024",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ผู้ป่วยมะเร็งเต้านมที่มีอาการทางระบบประสาทหลายตำแหน่งร่วมกับความดันในกะโหลกสูง และภาพมีรอยโรค เข้ากับ brain metastases มากที่สุด · ตรงกับคีย์ในไฟล์ 79D หน้า 36 เฉลยอย่างย่อ \"Neurosurgery 4 A\" (ช่องเฉลยในตารางว่าง) · ไฟล์ต้นฉบับมี 4 ช้อย (ช้อย 3 พิมพ์ไม่จบ) เว็บเติมให้ครบและเพิ่ม E",
+  "mnemonic": "<b>'มะเร็ง + ICP สูง + หลายก้อนที่ gray-white junction = Mets (\"Lung, Breast, Melanoma\")'</b>",
+  "guide": "Vogelbaum MA, et al. Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline. J Clin Oncol 2022; Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Cerebral Metastases",
   "variants": [
-   "ผู้ป่วย melanoma มีก้อนเลือดออกในสมองหลายก้อน → hemorrhagic metastases",
-   "มะเร็งปอด brain mets 2 ก้อน 2 cm → stereotactic radiosurgery",
-   "มะเร็งเต้านม HER2+ brain mets หลายก้อน → พิจารณา tucatinib-based therapy ร่วมกับ RT"
+   "ชาย 60 ปีมะเร็งปอด ก้อนเดียวในสมอง 4 cm ที่ cerebellum กด fourth ventricle performance status ดี โรคในปอดคุมได้ → ผ่าตัดเอาก้อนออก แล้วฉายรังสี SRS ที่โพรง",
+   "หญิงมะเร็งเต้านม HER2+ มีก้อนในสมอง 3 ก้อนขนาด 1–2 cm ไม่มีอาการมาก → stereotactic radiosurgery ร่วมกับยาที่ผ่านสมองได้",
+   "ผู้ป่วย melanoma ปวดศีรษะฉับพลัน CT พบก้อนในสมองที่มีเลือดออกในก้อน → hemorrhagic metastasis (melanoma, renal cell, choriocarcinoma, thyroid)",
+   "ผู้ป่วยมะเร็งที่มีก้อนในสมองหลายสิบก้อน → whole-brain radiotherapy แบบ hippocampal avoidance ร่วมกับ memantine เพื่อลดผลต่อความจำ"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 22 แถว Neuro 4 — ตัวพิมพ์: <b>ผู้ป่วย breast cancer on chemo มีอาการทาง neuro เยอะ weakness confused ตอนคุยกะลูก อาการ increased ICP, Imaging found — 1. Metastasis 2. Paraneoplastic cerebellar degeneration 3. Chemotherapy induced … 4. Neurocysticercosis</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 22 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU79|RoD|Neuro 5": {
-  "interp": "ผู้สูงอายุล้มในห้องน้ำ 3 สัปดาห์ก่อน ไม่ได้พบแพทย์ ตอนนี้ GCS ลดลงทันที CT ตามรูป → ถามวินิจฉัย",
-  "why": "ผู้สูงอายุ (สมองฝ่อ bridging vein ยืดตึง) + ล้มเล็กน้อย + <b>ระยะเวลา 3 สัปดาห์</b> = <b>chronic subdural hematoma (cSDH)</b> · CT เห็น<b>รูปพระจันทร์เสี้ยว (crescent) ข้ามรอยต่อ suture</b> ได้ (แต่ไม่ข้ามแนวกลาง) เป็น<b>สีเข้ม (hypodense)</b> หรือผสม (มีเลือดใหม่ซ้อน — acute-on-chronic) อธิบายอาการทรุดลงทันที · ระยะเวลา: acute &lt; 3 วัน (ขาว) · subacute 3 วัน–3 สัปดาห์ (isodense) · chronic > 3 สัปดาห์ (เข้ม) · รักษา cSDH ที่มีอาการ: <b>burr-hole drainage</b> ± ใส่สายระบาย · หยุด/ แก้ยาต้านการแข็งตัวของเลือด · middle meningeal artery embolization ลดการกลับเป็นซ้ำ · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 5 B\"</b> = Chronic subdural hematoma ตรงกับคำตอบ",
+  "interp": "ผู้สูงอายุ<b>ล้มในห้องน้ำเมื่อ 3 สัปดาห์ก่อน</b>โดยไม่ได้พบแพทย์ ขณะนี้ <b>GCS ลดลงทันที</b> มีภาพ CT สมอง — ถามการวินิจฉัย ต้องรู้ว่าเลือดออกใต้เยื่อหุ้มสมองในผู้สูงอายุหลังบาดเจ็บเล็กน้อยเกิดอาการช้าเป็นสัปดาห์ และแยกชนิดเลือดออกในกะโหลกจากเวลาและรูปร่างบน CT",
+  "why": "<b>Chronic subdural hematoma (CSDH)</b> พบบ่อยใน<b>ผู้สูงอายุ</b> ผู้ใช้ยาต้านเกล็ดเลือด/ ยาต้านการแข็งตัวของเลือด ติดสุรา และผู้ที่สมองฝ่อ เพราะสมองหดทำให้ <b>bridging veins</b> ระหว่างผิวสมองกับ dural sinus ถูกยืดตึง ฉีกได้ง่ายแม้บาดเจ็บเล็กน้อย (บ่อยครั้งผู้ป่วยจำไม่ได้ว่าล้ม) · เลือดซึมช้า ร่างกายสร้าง<b>เยื่อหุ้ม (neomembrane) ที่มีหลอดเลือดเปราะ</b> เลือดออกซ้ำเล็ก ๆ และการอักเสบดึงน้ำเข้า ก้อนจึงโตขึ้นเรื่อย ๆ · อาการ<b>เกิดหลังบาดเจ็บ 3 สัปดาห์ขึ้นไป</b>: ปวดศีรษะ สับสน ความจำแย่ลง อ่อนแรงครึ่งซีก เดินผิดปกติ และ<b>ซึมลงทันทีเมื่อมีเลือดออกใหม่ซ้อน (acute-on-chronic)</b> หรือสมองเลื่อน · CT: <b>รูปพระจันทร์เสี้ยว (crescent) ข้าม suture ได้แต่ไม่ข้าม midline</b> · ความทึบตามเวลา: acute (&lt; 3 วัน) ขาว hyperdense → subacute (ราว 1–3 สัปดาห์) isodense อาจมองไม่เห็นต้องดู mass effect → <b>chronic (&gt; 3 สัปดาห์) hypodense</b> หรือมีชั้นผสมเมื่อมีเลือดใหม่ · รักษา: มีอาการ หรือหนา &gt; 1 cm/ midline shift → <b>burr hole drainage + ใส่ subdural drain</b> (drain ลดการกลับเป็นซ้ำราวครึ่งหนึ่ง) · หยุด/ แก้ฤทธิ์ยาต้านการแข็งตัว · <b>middle meningeal artery embolization</b> เสริมลดการกลับเป็นซ้ำ · <b>ไม่แนะนำ dexamethasone</b> · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" ตัวพิมพ์ <b>\"Neurosurgery 5 B\"</b> (ช่องเฉลยในตารางว่าง ไม่มีลายมือ)",
   "wrong": {
-   "A": "Acute SDH เป็นรูปพระจันทร์เสี้ยว<b>สีขาว</b> ภายใน 3 วันหลังบาดเจ็บ มักรุนแรงตั้งแต่แรก · จะถูกถ้าผู้สูงอายุล้มหัวฟาดวันนี้ ซึมลง CT ก้อนสีขาวรูปพระจันทร์เสี้ยว",
-   "C": "Epidural hematoma ไม่ค่อยเป็นแบบเรื้อรัง และเป็นรูป<b>เลนส์นูน (biconvex) ไม่ข้าม suture</b> · จะถูกถ้ามีก้อนรูปเลนส์ที่ไม่ข้าม suture ที่เห็นช้าหลังบาดเจ็บในเด็ก (พบน้อย)",
-   "D": "Acute EDH เกิดจาก middle meningeal artery ฉีก รูปเลนส์นูนสีขาว มี lucid interval หลังบาดเจ็บไม่กี่ชั่วโมง · จะถูกถ้าวัยรุ่นโดนตีขมับ หมดสติ ตื่นดีแล้วซึมลงใน 3 ชั่วโมง CT ก้อนรูปเลนส์",
-   "E": "ICH อยู่ใน<b>เนื้อสมอง</b> ไม่ใช่ใต้กะโหลก มักจากความดันสูงหรือ contusion · จะถูกถ้า CT เห็นก้อนเลือดในเนื้อสมองที่ putamen ในผู้ป่วยความดันสูง"
+   "A": "Acute subdural hemorrhage เป็นเลือดใหม่จาก bridging vein ฉีกหลังบาดเจ็บแรง (high-energy) อาการเกิดทันทีหรือภายในไม่กี่ชั่วโมง CT เป็นรูปพระจันทร์เสี้ยว<b>สีขาว (hyperdense)</b> มักมีสมองช้ำร่วม อัตราตายสูง ผ่าตัด craniotomy เมื่อหนา &gt; 10 mm หรือ midline shift &gt; 5 mm — จะถูกถ้าเป็นชาย 30 ปีรถจักรยานยนต์ชนแล้วหมดสติทันที GCS 7 CT พบก้อนเลือดขาวรูปพระจันทร์เสี้ยวหนา 15 mm",
+   "C": "Chronic epidural hemorrhage พบน้อยมาก เพราะ epidural hematoma ส่วนใหญ่มาจากหลอดเลือดแดง (middle meningeal artery) จึงเกิดเร็ว แบบเรื้อรังพบได้บ้างเมื่อเลือดออกจาก venous sinus/ diploic vein ในคนอายุน้อย และรูปยังเป็นเลนส์นูน ไม่ข้าม suture — จะถูกถ้าเป็นชาย 20 ปีปวดศีรษะเรื้อรัง 2 สัปดาห์หลังถูกตีที่ศีรษะ CT เห็นก้อน biconvex ความทึบผสมใต้รอยกระดูกร้าวข้าม venous sinus",
+   "D": "Acute epidural hemorrhage เกิดจาก<b>กระดูกขมับแตกฉีก middle meningeal artery</b> พบในคนอายุน้อย ลักษณะคลาสสิกคือหมดสติ → ตื่นดี (lucid interval) → ซึมลงเร็วในไม่กี่ชั่วโมง CT เป็นก้อนขาว<b>รูปเลนส์นูน (biconvex) ไม่ข้าม suture</b> ผ่าตัดเมื่อปริมาตร &gt; 30 mL — จะถูกถ้าเป็นเด็กชาย 16 ปีถูกลูกเบสบอลกระแทกขมับ ตื่นดีอยู่ 2 ชม. แล้วซึมลง รูม่านตาข้างเดียวกันขยาย CT พบก้อน biconvex ขาว",
+   "E": "Intracerebral hemorrhage เป็นเลือดออก<b>ในเนื้อสมอง</b> ส่วนใหญ่จากความดันสูง (basal ganglia, thalamus, pons, cerebellum) หรือ cerebral amyloid angiopathy (lobar ในผู้สูงอายุ) อาการเกิดทันที ไม่สัมพันธ์กับการล้มเมื่อ 3 สัปดาห์ก่อน และก้อนอยู่ในเนื้อสมองไม่ใช่ใต้เยื่อหุ้ม — จะถูกถ้าเป็นชาย 65 ปีความดันสูงไม่กินยา อ่อนแรงซีกขวาทันทีขณะยกของ ความดัน 210/120 CT พบเลือดออกที่ putamen ซ้าย"
   },
-  "trap": "ตอบ acute SDH เพราะ GCS ลดลงทันที — ระยะเวลา 3 สัปดาห์ + ผู้สูงอายุ = chronic (อาจมีเลือดใหม่ซ้อนทำให้ทรุดเร็ว)",
+  "trap": "คำว่า \"GCS drops suddenly\" ชวนให้เลือกชนิด acute (A, D) — แต่ประวัติ<b>ล้มมา 3 สัปดาห์ในผู้สูงอายุ</b>คือ chronic SDH ซึ่งอาการทรุดฉับพลันได้จากเลือดใหม่ซ้อน (acute-on-chronic) · ใช้ทั้ง<b>เวลา + รูปร่าง + ความทึบ</b>: crescent ข้าม suture = subdural · biconvex ไม่ข้าม suture = epidural · hypodense = &gt; 3 สัปดาห์",
   "summary": [
-   "SDH: bridging vein · พระจันทร์เสี้ยว · ข้าม suture ได้ ไม่ข้ามแนวกลาง",
-   "EDH: middle meningeal artery · เลนส์นูน · ไม่ข้าม suture · lucid interval",
-   "ความเข้มบน CT: acute ขาว · subacute ใกล้เนื้อสมอง (isodense) · chronic เข้ม",
-   "cSDH ปัจจัยเสี่ยง: สูงอายุ · สุรา · ยาต้านเลือด · ล้มบ่อย",
-   "cSDH มีอาการ → burr-hole drainage + drain · MMA embolization ลดซ้ำ",
-   "Acute SDH หนา > 10 mm หรือ midline shift > 5 mm → craniotomy"
+   "Subdural: bridging vein · crescent · ข้าม suture ไม่ข้าม midline/ falx · Epidural: middle meningeal artery (กระดูกขมับแตก) · biconvex · ไม่ข้าม suture (dura ยึดแน่นที่ suture) · lucid interval",
+   "ความทึบของ SDH บน CT: acute (&lt; 3 วัน) hyperdense · subacute (ราว 3 วัน–3 สัปดาห์) isodense ระวังมองไม่เห็น · chronic (&gt; 3 สัปดาห์) hypodense · mixed density = acute-on-chronic",
+   "ปัจจัยเสี่ยง CSDH: อายุมาก สมองฝ่อ ยาต้านเกล็ดเลือด/ ยาต้านการแข็งตัว ติดสุรา ล้มบ่อย หลังทำ shunt (ventricle แฟบ) · อาการคล้ายสมองเสื่อม/ stroke",
+   "รักษา CSDH: มีอาการหรือ mass effect → burr hole drainage + subdural drain 24–48 ชม. (ลดการกลับเป็นซ้ำจากราว 24% เหลือราว 9% — Santarius, Lancet 2009) · ไม่มีอาการและก้อนบาง → เฝ้าดู · กลับเป็นซ้ำรวมราว 10–20%",
+   "Middle meningeal artery embolization เป็นการรักษาเสริมที่ลดการกลับเป็นซ้ำ (หลาย RCT 2024) · dexamethasone ทำให้ผลลัพธ์แย่ลง (Dex-CSDH, NEJM 2020) จึงไม่ใช้",
+   "Acute SDH ผ่าตัด craniotomy เมื่อหนา &gt; 10 mm หรือ midline shift &gt; 5 mm ไม่ว่า GCS เท่าใด หรือ GCS ลดลง ≥ 2 แต้ม/ pupil ผิดปกติ (Brain Trauma Foundation)",
+   "Acute EDH ผ่าตัดเมื่อปริมาตร &gt; 30 mL ไม่ว่า GCS เท่าใด · &lt; 30 mL หนา &lt; 15 mm shift &lt; 5 mm GCS &gt; 8 ไม่มี focal deficit → เฝ้าดูด้วย CT ซ้ำ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และประวัติ 3 สัปดาห์ในผู้สูงอายุ",
-  "mnemonic": "<b>'ผู้สูงอายุล้มแล้วลืม 3 สัปดาห์ = chronic SDH (สีเข้ม) → เจาะรูระบาย'</b>",
-  "guide": "Brain Trauma Foundation Guidelines for the Surgical Management of Traumatic Brain Injury (Neurosurgery 2006;58:S2); Youmans and Winn Neurological Surgery 8th ed. (2022) — Chronic subdural hematoma",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ผู้สูงอายุล้มเมื่อ 3 สัปดาห์ก่อนแล้วซึมลง คือ chronic subdural hematoma (การทรุดฉับพลันอาจเกิดจากเลือดใหม่ซ้อน) · ตรงกับคีย์ในไฟล์ 79D หน้า 36 เฉลยอย่างย่อ \"Neurosurgery 5 B\" (ช่องเฉลยในตารางว่าง)",
+  "mnemonic": "<b>'Elderly + ล้มเล็กน้อย + 3 สัปดาห์ + crescent ดำ = Chronic SDH → Burr hole + drain'</b>",
+  "guide": "Santarius T, et al. Use of drains versus no drains after burr-hole evacuation of chronic subdural haematoma. Lancet 2009; Hutchinson PJ, et al. Trial of Dexamethasone for Chronic Subdural Hematoma. N Engl J Med 2020; Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "วัยรุ่นโดนตีขมับ lucid interval CT เลนส์นูน → acute EDH craniotomy ด่วน",
-   "ผู้สูงอายุกิน warfarin ล้มวันนี้ CT พระจันทร์เสี้ยวสีขาวหนา 15 mm → acute SDH แก้ INR แล้ว craniotomy",
-   "cSDH เป็นซ้ำหลังเจาะระบาย 2 ครั้ง → middle meningeal artery embolization"
+   "หญิง 80 ปีกิน warfarin สับสนและอ่อนแรงซีกซ้ายค่อย ๆ เป็น 2 สัปดาห์ CT พบ hypodense crescent ด้านขวาหนา 18 mm → แก้ฤทธิ์ warfarin (vitamin K + PCC) แล้วทำ burr hole drainage + subdural drain",
+   "ชาย 75 ปีหลังผ่าตัด burr hole 1 เดือน กลับมาอ่อนแรงซ้ำ CT พบก้อนเลือดใหม่ที่ตำแหน่งเดิม → recurrent CSDH ผ่าตัดซ้ำและพิจารณา middle meningeal artery embolization",
+   "ผู้สูงอายุล้มเมื่อ 10 วันก่อน CT ไม่เห็นก้อนชัดแต่ sulci ข้างขวาหายและ ventricle ถูกกด → isodense subacute SDH ทำ MRI หรือ CT ฉีดสียืนยัน",
+   "ทำไมผู้สูงอายุเกิด CSDH ง่าย → สมองฝ่อทำให้ช่องใต้เยื่อหุ้มกว้าง bridging vein ถูกยืดตึงจึงฉีกได้จากแรงเล็กน้อย และสมองมีที่ว่างรองรับก้อนเลือดนานก่อนเกิดอาการ"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 23 แถว Neuro 5 — ตัวพิมพ์: <b>ล้มในห้องน้ำ 3 week ไม่ได้มาหาหมอ อยู่ ๆ GCS drop ดู CT — A. Acute subdural hemorrhage B. Chronic subdural hematoma C. Chronic epidural hemorrhage D. Acute epidural hemorrhage E. Intracerebral hemorrhage</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 23 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU79|RoD|Neuro 6": {
-  "interp": "หญิง 22 ปีกิน<b>ยาคุมกำเนิด</b>หลายปี ปวดศีรษะ CT พบ ICH ความดันไม่สูง → ถามสาเหตุที่น่าจะเป็นที่สุด",
-  "why": "หญิงสาว + <b>ยาคุมกำเนิดชนิดฮอร์โมนรวม (estrogen)</b> ซึ่งทำให้เลือดแข็งตัวง่าย + ปวดศีรษะ + ICH ที่ไม่มีความดันสูง = <b>cerebral venous thrombosis (CVT) ที่มีเลือดออก (venous infarct)</b> · CVT ทำให้เลือดดำระบายไม่ได้ → แรงดันในหลอดเลือดดำสูง → เนื้อสมองบวมและเลือดออก มักเป็น lobar/ ใกล้ผิวสมอง สองข้างแนวกลางถ้าอุด superior sagittal sinus · ICH พบได้ ~30–40% ของ CVT · ตรวจ <b>CT venography หรือ MR venography</b> (empty delta sign) · รักษา: <b>anticoagulation (heparin) แม้มีเลือดออก</b> แล้วต่อด้วยยากิน · หยุดยาคุมที่มี estrogen · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 6 A\"</b> = Venous thrombosis with ICH ตรงกับคำตอบ",
+  "interp": "หญิงอายุ 22 ปี<b>กินยาคุมกำเนิดชนิดฮอร์โมนรวมมาหลายปี</b> ปวดศีรษะ CT พบ <b>intracerebral hemorrhage</b> ความดันไม่สูง — ถามสาเหตุของเลือดออกที่เป็นไปได้มากที่สุด ต้องรู้สาเหตุ ICH ในคนอายุน้อยที่ไม่มีความดันสูง และว่า estrogen เพิ่มการแข็งตัวของเลือดจนเกิด cerebral venous thrombosis ที่ทำให้เลือดออกในเนื้อสมองได้",
+  "why": "<b>Cerebral venous thrombosis (CVT)</b> พบมากในหญิงอายุน้อย (ราว 3 ใน 4 เป็นหญิง) ปัจจัยเสี่ยงสำคัญคือ<b>ยาคุมกำเนิดชนิด estrogen</b> ตั้งครรภ์/ หลังคลอด thrombophilia ขาดน้ำ ติดเชื้อใกล้เคียง (หู ไซนัส) และมะเร็ง · กลไก: ลิ่มเลือดอุด dural sinus/ cortical vein → ความดันในหลอดเลือดดำสูง เลือดระบายไม่ได้ → สมองบวมแบบ vasogenic/ cytotoxic และ<b>venous infarction ที่มีเลือดออก (hemorrhagic infarct)</b> ราว 30–40% ของผู้ป่วย · ลักษณะเลือดออกที่ชวนคิด CVT: อยู่ <b>lobar/ juxtacortical ไม่ตรงกับเขตหลอดเลือดแดง</b> เป็นสองข้างแนว parasagittal (superior sagittal sinus) หรือ temporal lobe (transverse sinus) · อาการ: <b>ปวดศีรษะ (ราว 90%)</b> ค่อย ๆ เป็นหรือฉับพลัน ชัก อาการเฉพาะที่ papilledema ซึม · CT ธรรมดาอาจเห็น dense cord/ hyperdense sinus, empty delta sign บน CT ฉีดสี · ยืนยันด้วย <b>CT venography หรือ MR venography</b> · รักษา: <b>anticoagulation ด้วย LMWH/ heparin ทันทีแม้มีเลือดออกในสมอง</b> (เพราะเลือดออกเกิดจากลิ่มเลือด) แล้วต่อด้วยยากิน (warfarin หรือ dabigatran) 3–12 เดือน · หยุดยาคุมที่มี estrogen · ทรุดลงแม้ได้ยา → endovascular thrombectomy · สมองเลื่อน → decompressive craniectomy · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" ตัวพิมพ์ <b>\"Neurosurgery 6 A\"</b> (ช่องเฉลยในตารางว่าง ไม่มีลายมือ)",
   "wrong": {
-   "B": "AVM เป็นสาเหตุ ICH ในคนอายุน้อยที่พบบ่อยที่สุดโดยรวม แต่โจทย์ให้ปัจจัยเสี่ยงลิ่มเลือดชัด (ยาคุม) ซึ่งชี้ CVT · จะถูกถ้าชายหนุ่มไม่มีปัจจัยเสี่ยงลิ่มเลือด MRI เห็น flow void เป็นกลุ่ม",
-   "C": "Hypertensive ICH เกิดในผู้ที่ความดันสูงเรื้อรัง อายุมาก ตำแหน่งลึก · จะถูกถ้าชาย 60 ปีความดันสูงไม่กินยา ICH ที่ thalamus",
-   "D": "Aneurysm แตกให้ SAH เป็นหลัก (เลือดใน basal cistern) ปวดศีรษะทันทีรุนแรงที่สุดในชีวิต · จะถูกถ้าหญิง 45 ปีปวดศีรษะแบบฟ้าผ่า CT เห็นเลือดใน basal cistern",
-   "E": "CAA เกิดในผู้สูงอายุ > 55–60 ปี ไม่ใช่อายุ 22 · จะถูกถ้าหญิง 80 ปีความจำเสื่อม lobar ICH ซ้ำ MRI microbleeds ที่ cortex"
+   "B": "AVM เป็นสาเหตุของ ICH ที่พบบ่อยที่สุดในเด็กและผู้ใหญ่ตอนต้นที่ไม่มีปัจจัยเสี่ยงอื่น เลือดออกเกิดฉับพลัน อาจมีประวัติชักหรือปวดศีรษะเรื้อรังมาก่อน MRI เห็น flow voids และยืนยันด้วย angiography (Spetzler-Martin grading) ไม่สัมพันธ์กับยาคุม — จะถูกถ้าเป็นชาย 19 ปีชักบ่อยตั้งแต่เด็ก แล้วปวดศีรษะฉับพลันและอ่อนแรงครึ่งซีก MRI พบเลือดออกร่วมกับกลุ่มหลอดเลือดขดและ flow voids",
+   "C": "Hypertensive hemorrhage เกิดจาก lipohyalinosis/ Charcot-Bouchard microaneurysm ของ perforating artery ในผู้ที่<b>ความดันสูงเรื้อรัง</b> มักอายุมากกว่า 50 ปี ตำแหน่งลึก (putamen, thalamus, pons, cerebellum) ข้อนี้ความดันไม่สูงและอายุน้อย — จะถูกถ้าเป็นชาย 62 ปีความดันสูงไม่กินยา ความดันขณะมา 220/120 อ่อนแรงซีกขวาทันที CT พบเลือดออกที่ thalamus ซ้าย",
+   "D": "Ruptured aneurysm ทำให้ <b>subarachnoid hemorrhage</b> เป็นหลัก ปวดศีรษะรุนแรงที่สุดในชีวิตทันที (thunderclap) คอแข็ง บางรายมีเลือดเข้าเนื้อสมองตามตำแหน่ง aneurysm (เช่น MCA → temporal, ACom → frontal) ร่วมกับเลือดใน basal cisterns — จะถูกถ้าเป็นหญิง 50 ปีสูบบุหรี่ ปวดศีรษะรุนแรงทันทีขณะเบ่ง อาเจียน คอแข็ง CT พบเลือดใน basal cisterns และ Sylvian fissure",
+   "E": "Cerebral amyloid angiopathy เกิดจาก amyloid-β สะสมในผนังหลอดเลือดเล็กของเปลือกสมองใน<b>ผู้สูงอายุ (&gt; 55 ปี)</b> ทำให้ lobar ICH ซ้ำ ๆ microbleeds และ cortical superficial siderosis บน MRI (Boston criteria 2.0) ไม่พบในหญิงอายุ 22 ปี — จะถูกถ้าเป็นหญิง 78 ปีความจำเสื่อม มีเลือดออก lobar ที่ occipital ครั้งที่สอง MRI SWI พบ microbleeds กระจายตามเปลือกสมองจำนวนมาก"
   },
-  "trap": "ICH คนหนุ่มสาวตอบ AVM อัตโนมัติ — ถ้ามีปัจจัยเสี่ยงลิ่มเลือด (ยาคุม ตั้งครรภ์ หลังคลอด) ต้องนึก CVT",
+  "trap": "AVM (B) เป็นสาเหตุ ICH อันดับต้นในคนอายุน้อยจึงเลือกตามสถิติ — แต่โจทย์ใส่<b>ยาคุมกำเนิด</b>มาเป็นเบาะแส ซึ่งชี้ไปที่ภาวะเลือดแข็งตัวง่าย → CVT · กับดักที่สองคือคิดว่ามีเลือดออกแล้วห้ามให้ยาต้านการแข็งตัว — ใน CVT ต้องให้ heparin แม้มี hemorrhagic infarct",
   "summary": [
-   "CVT: หญิงสาว · ยาคุม · ตั้งครรภ์/ หลังคลอด · thrombophilia · ติดเชื้อ · ขาดน้ำ",
-   "อาการ: ปวดศีรษะ (บ่อยสุด) · papilledema · ชัก · focal deficit · ICH",
-   "ภาพ: CTV/ MRV · empty delta sign · cord sign · venous infarct มีเลือดออก",
-   "รักษา: heparin แม้มี ICH → ยากิน 3–12 เดือน (warfarin/ DOAC)",
-   "แย่ลงแม้ได้ยา → endovascular thrombectomy · herniation → decompressive craniectomy",
-   "หยุดยาคุมที่มี estrogen ตลอดไป"
+   "CVT: หญิงอายุน้อย · ปัจจัย: estrogen (ยาคุม, HRT), ตั้งครรภ์/ หลังคลอด, thrombophilia, ขาดน้ำ, ติดเชื้อ หู/ ไซนัส, มะเร็ง, IBD, nephrotic syndrome",
+   "อาการ: ปวดศีรษะราว 90% ชัก อาการเฉพาะที่ papilledema ซึม · บางรายเป็นเพียง isolated intracranial hypertension",
+   "เลือดออกใน CVT: ราว 30–40% เป็น hemorrhagic venous infarct · lobar/ juxtacortical ไม่ตรงเขตหลอดเลือดแดง · สองข้าง parasagittal บ่ง superior sagittal sinus · temporal บ่ง transverse sinus",
+   "Imaging: CT อาจปกติ หรือ dense sinus/ cord sign · CT ฉีดสี empty delta sign · ยืนยันด้วย CT venography หรือ MRI + MR venography",
+   "รักษา: LMWH/ UFH ทันทีแม้มี ICH → ยากิน 3–12 เดือน (ยาวกว่าใน thrombophilia รุนแรง/ เป็นซ้ำ) · dabigatran ใช้แทน warfarin ได้ (RE-SPECT CVT) · หยุด estrogen ถาวร",
+   "ทรุดลงแม้ได้ยา → endovascular thrombectomy · สมองเลื่อนจากก้อน/ บวมมาก → decompressive craniectomy · ชักให้ยากันชัก · ความดันในกะโหลกสูงต่อเนื่องอาจใช้ acetazolamide/ LP",
+   "สาเหตุ ICH ตามอายุ: เด็ก/ หนุ่มสาว → AVM, cavernoma, CVT, ยาเสพติด (amphetamine, cocaine) · วัยกลางคน-สูงอายุ → hypertension (ลึก) · ผู้สูงอายุ → amyloid angiopathy (lobar) · ทุกวัย → anticoagulant, เนื้องอก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ต้นฉบับจดความดัน 109/100 (diastolic สูงผิดปกติ อาจจดผิด) จึงเขียนเพียงว่าความดันไม่สูง",
-  "mnemonic": "<b>'สาวกินยาคุม + ปวดหัว + เลือดออกในสมอง = ลิ่มเลือดดำ → ให้ heparin'</b>",
-  "guide": "AHA/ASA Scientific Statement: Diagnosis and Management of Cerebral Venous Thrombosis (Stroke 2024;55:e77); ESO Guideline on CVT (Eur J Neurol 2017;24:1203)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — หญิงอายุน้อยที่กินยาคุมกำเนิดและมี ICH โดยไม่มีความดันสูงชี้ไปที่ CVT ซึ่งต้องยืนยันด้วย venography แม้ AVM ก็เป็นสาเหตุที่พบได้ในวัยนี้ · ตรงกับคีย์ในไฟล์ 79D หน้า 36 เฉลยอย่างย่อ \"Neurosurgery 6 A\" (ช่องเฉลยในตารางว่าง) · ไฟล์พิมพ์ความดันว่า \"BP 109/100\" (ค่า diastolic น่าจะจดคลาดเคลื่อน) เว็บสรุปเป็น \"ความดันไม่สูง\" และไฟล์มี 4 ช้อย เว็บเติม E",
+  "mnemonic": "<b>'สาวกินยาคุม + ICH ที่ไม่ตามเขตหลอดเลือดแดง = CVT → Venography → Heparin แม้เลือดออก'</b>",
+  "guide": "Saposnik G, et al. Diagnosis and Management of Cerebral Venous Thrombosis: A Scientific Statement From the American Heart Association. Stroke 2024; Ferro JM, et al. European Stroke Organization guideline for the diagnosis and treatment of cerebral venous thrombosis. Eur J Neurol 2017",
   "variants": [
-   "หญิงหลังคลอด 2 สัปดาห์ปวดศีรษะ ชัก MRV ไม่เห็น superior sagittal sinus → CVT ให้ heparin",
-   "ชายหนุ่มไม่มีปัจจัยเสี่ยง lobar ICH → CTA หา AVM",
-   "CVT ได้ heparin แล้วซึมลง สมองบวมจะ herniate → decompressive craniectomy"
+   "หญิง 30 ปีหลังคลอด 2 สัปดาห์ ปวดศีรษะมากขึ้นเรื่อย ๆ และชัก CT พบเลือดออกสองข้างแนว parasagittal → superior sagittal sinus thrombosis ยืนยันด้วย CT venography แล้วให้ LMWH",
+   "ผู้ป่วย CVT ได้ heparin เต็มที่แล้วยังซึมลง CT venography พบลิ่มเลือดลามมากขึ้น → endovascular mechanical thrombectomy",
+   "ผู้ป่วย CVT จาก thrombophilia ที่ไม่รุนแรง อาการคงที่หลังให้ heparin 1 สัปดาห์ → เปลี่ยนเป็น warfarin หรือ dabigatran ต่อ 3–12 เดือน และเลิกยาคุมที่มี estrogen",
+   "ทำไมให้ยาต้านการแข็งตัวได้ทั้งที่มีเลือดออกในสมอง → เลือดออกเกิดจากความดันหลอดเลือดดำสูงจากลิ่มเลือดอุด การหยุดลิ่มเลือดลามช่วยให้เลือดระบายและลดเลือดออกใหม่"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 24 แถว Neuro 6 — ตัวพิมพ์: <b>เด็ก 22 กินยาคุมมาหาปี ให้ CT มา ICH, BP 109/100 — 1. Venous thrombosis with ICH 2. AVM 3. Hypertensive bleeding 4. Aneurysm bleeding</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 24 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU79|RoD|Neuro 7": {
-  "interp": "ผู้ป่วยปวดศีรษะรุนแรงทันที (thunderclap) CT ไม่ฉีดสีเห็นเลือดตามรูป → ถามการตรวจถัดไป",
-  "why": "Thunderclap headache + CT เห็น<b>เลือดใน subarachnoid space (basal cistern, Sylvian fissure)</b> = <b>SAH</b> ซึ่ง ~85% เกิดจาก<b>หลอดเลือดโป่งพองแตก (ruptured aneurysm)</b> · เมื่อ CT ยืนยัน SAH แล้ว ขั้นต่อไปคือ<b>หาตำแหน่ง aneurysm</b> ด้วย <b>CT angiography</b> (เร็ว ไวสูงสำหรับ aneurysm ≥ 3 mm) ± DSA (มาตรฐานทอง) เพื่อวางแผน<b>ปิด aneurysm โดยเร็ว (coiling/ clipping ภายใน 24–72 ชม.)</b> ป้องกันแตกซ้ำ · ร่วมกับ nimodipine (ป้องกัน delayed cerebral ischemia) คุมความดัน · LP ใช้เมื่อ CT ปกติแต่ยังสงสัย · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 7 A\"</b> = CT angiography ตรงกับคำตอบ",
+  "interp": "ผู้ป่วย<b>ปวดศีรษะรุนแรงทันที (thunderclap headache)</b> CT สมองไม่ฉีดสีแสดงบริเวณสีขาวในช่องใต้เยื่อหุ้มสมอง (subarachnoid hemorrhage) — ถามการตรวจขั้นต่อไปที่เหมาะสมที่สุด ต้องรู้ว่าเมื่อ CT ยืนยัน SAH แล้ว ต้องหาสาเหตุ (ruptured aneurysm) ทันทีเพื่อปิดก่อนเลือดออกซ้ำ",
+  "why": "<b>Aneurysmal subarachnoid hemorrhage</b> คิดเป็นราว 85% ของ SAH ที่ไม่ใช่จากอุบัติเหตุ อาการคลาสสิก: <b>ปวดศีรษะรุนแรงที่สุดในชีวิต ถึงจุดสูงสุดภายในวินาทีถึง 1 นาที</b> คลื่นไส้อาเจียน คอแข็ง หมดสติชั่วคราว · <b>non-contrast CT</b> ไวเกือบ 100% ถ้าทำภายใน 6 ชม. แรก (ความไวลดลงตามเวลา) เห็นเลือดขาวใน basal cisterns, Sylvian fissure, interhemispheric fissure · <b>เมื่อ CT พบ SAH แล้ว ขั้นต่อไปคือ CT angiography</b> หา aneurysm — ไว &gt; 95% สำหรับ aneurysm ≥ 3 mm ทำได้เร็วในห้องฉุกเฉินและใช้วางแผนผ่าตัด · ถ้า CTA ลบแต่สงสัยมาก → <b>digital subtraction angiography (DSA)</b> ซึ่งเป็นมาตรฐานทองคำ · <b>lumbar puncture ใช้เฉพาะเมื่อ CT ปกติ</b> แต่ยังสงสัย SAH (ดู xanthochromia หลังเริ่มปวด ≥ 12 ชม.) · หลังพบ aneurysm: ปิด (<b>endovascular coiling หรือ surgical clipping</b>) ให้เร็วที่สุดภายใน 24–72 ชม. เพราะ rebleeding สูงสุดในวันแรก · ระหว่างรอ: คุม SBP &lt; 160 mmHg, แก้ฤทธิ์ยาต้านการแข็งตัว, <b>nimodipine 60 mg กินทุก 4 ชม. นาน 21 วัน</b> (ลด delayed cerebral ischemia), EVD ถ้ามี hydrocephalus · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" ตัวพิมพ์ <b>\"Neurosurgery 7 A\"</b> (ช่องเฉลยในตารางว่าง ไม่มีลายมือ)",
   "wrong": {
-   "B": "LP ใช้เมื่อ <b>CT ไม่พบเลือด</b> แต่ยังสงสัย SAH (หา xanthochromia) ในรายนี้ CT เห็นเลือดแล้ว LP ไม่เพิ่มข้อมูลและเสี่ยง · จะถูกถ้าปวดศีรษะทันที 8 ชั่วโมงก่อน CT ปกติ",
-   "C": "MRI ใช้เวลานาน ผู้ป่วยวิกฤตเฝ้าระวังยาก และไม่ใช่การตรวจหลักหา aneurysm ในภาวะเฉียบพลัน · จะถูกถ้าสงสัย SAH ที่มาช้ากว่า 2 สัปดาห์และ CT ปกติ (FLAIR/ SWI ไวกว่า)",
-   "D": "Nimodipine ให้ทุกรายแต่ไม่พอ ต้องหาและปิด aneurysm เพื่อป้องกันแตกซ้ำซึ่งอันตรายที่สุดในวันแรก · จะถูกถ้าถามยาที่ให้ทุกรายของ aneurysmal SAH เพื่อลด delayed cerebral ischemia",
-   "E": "Craniotomy ฉุกเฉินทันทีใช้เมื่อมีก้อนเลือดในเนื้อสมองใหญ่กด (ทำพร้อม clip) ยังต้องรู้ตำแหน่ง aneurysm ก่อน · จะถูกถ้า SAH ร่วมกับ temporal ICH ขนาดใหญ่ midline shift และ CTA เห็น MCA aneurysm แล้ว"
+   "B": "Lumbar puncture ใช้วินิจฉัย SAH <b>เมื่อ CT ไม่พบเลือด</b> แต่อาการชวนสงสัย (โดยเฉพาะมาหลัง 6 ชม.) ดู xanthochromia และ RBC ที่ไม่ลดลงในหลอดท้าย — เมื่อ CT เห็นเลือดแล้ว LP ไม่ได้ข้อมูลเพิ่มและอาจเสี่ยงสมองเลื่อนถ้ามีก้อนเลือด/ hydrocephalus — จะถูกถ้าเป็นหญิง 40 ปีปวดศีรษะฉับพลันรุนแรงเมื่อ 14 ชม.ก่อน CT สมองปกติ และต้องการตัด SAH",
+   "C": "MRI ฉีด gadolinium ไม่ใช่การตรวจแรกในภาวะฉุกเฉินนี้ ใช้เวลานาน ผู้ป่วยต้องนิ่ง และไม่ได้ออกแบบมาเพื่อหา aneurysm (MRA ใช้คัดกรองได้) MRI FLAIR/ SWI ช่วยหา SAH ที่เกินระยะ CT หรือหาสาเหตุอื่นของ thunderclap — จะถูกถ้าเป็นหญิง 35 ปีหลังคลอด ปวดศีรษะฉับพลันซ้ำ ๆ CT และ LP ปกติ สงสัย reversible cerebral vasoconstriction syndrome หรือ CVT จึงทำ MRI/ MRA/ MRV",
+   "D": "Nimodipine เป็นยามาตรฐานที่ต้องให้ทุกรายใน aneurysmal SAH (60 mg ทุก 4 ชม. 21 วัน) ลด delayed cerebral ischemia แต่ไม่ได้ป้องกัน rebleeding การให้ยาแล้วสังเกตอาการเฉย ๆ โดยไม่หาและปิด aneurysm จึงอันตราย — จะถูกถ้าเป็นผู้ป่วย aneurysmal SAH ที่ได้ coiling ปิด aneurysm เรียบร้อยแล้ว และอยู่ใน ICU เฝ้าระวัง vasospasm ช่วงวันที่ 4–14",
+   "E": "Emergency craniotomy ทำเมื่อมี<b>ก้อนเลือดในเนื้อสมองขนาดใหญ่ที่กดสมอง</b>ร่วมกับ SAH (มักจาก MCA aneurysm) ซึ่งจะเอาก้อนเลือดออกพร้อม clip aneurysm — แต่ต้องรู้ตำแหน่ง aneurysm จาก CTA ก่อนเสมอ — จะถูกถ้าเป็นชาย 55 ปีหลัง SAH ซึมลงเร็ว CT พบก้อนเลือด 60 mL ใน temporal lobe กดสมองเลื่อน และ CTA พบ MCA aneurysm"
   },
-  "trap": "สับสนว่าต้อง LP ทุกราย — LP เมื่อ CT ปกติเท่านั้น · CT เห็นเลือดแล้วไป CTA",
+  "trap": "LP (B) ถูกสอนคู่กับ thunderclap headache จึงเลือกตามความเคยชิน — แต่ LP ใช้เมื่อ <b>CT ปกติ</b> · ข้อนี้ CT เห็นเลือดแล้ว ขั้นต่อไปคือหาต้นเหตุด้วย <b>CTA</b> เพื่อปิด aneurysm ก่อนเลือดออกซ้ำ · D ผิดเพราะ nimodipine ให้ร่วมแต่ไม่ใช่ \"observe only\" · E ต้องมีข้อบ่งชี้ (ก้อนเลือดกดสมอง) และต้องรู้ตำแหน่งก่อน",
   "summary": [
-   "Thunderclap → CT ไม่ฉีดสี (ไวเกือบ 100% ใน 6 ชม. แรก)",
-   "CT ปกติ ยังสงสัย → LP (xanthochromia)",
-   "CT/ LP บวก → CTA ± DSA หา aneurysm",
-   "ปิด aneurysm เร็ว (coil/ clip) ป้องกันแตกซ้ำ",
-   "Nimodipine 60 mg ทุก 4 ชม. 21 วัน · คุม SBP &lt; 160 ก่อนปิด",
-   "ภาวะแทรกซ้อน: rebleed · hydrocephalus · vasospasm/ DCI (วันที่ 3–14) · hyponatremia"
+   "Thunderclap headache: ปวดรุนแรงถึงจุดสูงสุดใน &lt; 1 นาที · สาเหตุสำคัญ: aneurysmal SAH, RCVS, CVT, cervical artery dissection, pituitary apoplexy",
+   "Ottawa SAH rule (ผู้ใหญ่ GCS 15, ปวดถึงสูงสุดใน 1 ชม.): อายุ ≥ 40, ปวด/ แข็งคอ, หมดสติ, เริ่มขณะออกแรง, thunderclap, งอคอได้จำกัด — มีข้อใดข้อหนึ่งต้องตรวจต่อ",
+   "Non-contrast CT ภายใน 6 ชม. ไวเกือบ 100% · CT ปกติแต่สงสัย → LP (xanthochromia หลัง ≥ 12 ชม.) หรือ CTA ตามบริบท · CT พบ SAH → CTA → DSA ถ้า CTA ลบ",
+   "Grading: Hunt and Hess และ WFNS (ทางคลินิก, พยากรณ์โรค) · modified Fisher (ปริมาณเลือดบน CT, ทำนาย vasospasm)",
+   "ปิด aneurysm ภายใน 24–72 ชม. (coiling หรือ clipping) · ก่อนปิด: SBP &lt; 160, แก้ฤทธิ์ยาต้านการแข็งตัว, analgesia, tranexamic acid ระยะสั้นในบางที่",
+   "ภาวะแทรกซ้อน: rebleeding (สูงสุด 24 ชม.แรก) · hydrocephalus (EVD) · delayed cerebral ischemia/ vasospasm วันที่ 4–14 (nimodipine, euvolemia, induced hypertension, endovascular) · hyponatremia (cerebral salt wasting/ SIADH) · ชัก",
+   "ปัจจัยเสี่ยง aneurysm: สูบบุหรี่ ความดันสูง หญิง ADPKD Ehlers-Danlos coarctation of aorta ประวัติครอบครัว · ตำแหน่งบ่อยที่สุด ACom"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ AHA/ASA aSAH Guideline 2023",
-  "mnemonic": "<b>'CT เห็นเลือด SAH = CTA หา aneurysm · CT ปกติ = LP'</b>",
-  "guide": "2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — CT ยืนยัน SAH แล้วในผู้ป่วย thunderclap headache ขั้นต่อไปคือ CT angiography หา aneurysm เพื่อปิดให้เร็วที่สุด ตาม AHA/ASA 2023 · ตรงกับคีย์ในไฟล์ 79D หน้า 36 เฉลยอย่างย่อ \"Neurosurgery 7 A\" (ช่องเฉลยในตารางว่าง)",
+  "mnemonic": "<b>'Thunderclap → CT: เลือด = CTA (หา aneurysm) · ไม่มีเลือด = LP (xanthochromia)'</b>",
+  "guide": "Hoh BL, et al. 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage: A Guideline From the American Heart Association/American Stroke Association. Stroke 2023",
   "variants": [
-   "ปวดศีรษะทันที 10 ชม. CT ปกติ → LP หา xanthochromia",
-   "SAH วันที่ 7 ซึมลงอ่อนแรงใหม่ → vasospasm/ DCI ทำ CTA/ CTP",
-   "SAH แล้ว ventricle โตซึม → hydrocephalus ใส่ EVD"
+   "หญิง 45 ปีปวดศีรษะฉับพลันรุนแรง 3 ชม. CT ไม่ฉีดสีปกติ (scanner รุ่นใหม่ อ่านโดยรังสีแพทย์) GCS 15 → SAH แทบตัดได้ พิจารณาสาเหตุอื่นของ thunderclap",
+   "ผู้ป่วย SAH หลัง coiling วันที่ 7 ซึมลงและแขนขวาอ่อนแรงใหม่ CT ไม่มีเลือดใหม่ → delayed cerebral ischemia จาก vasospasm → induced hypertension และพิจารณา angioplasty/ intra-arterial vasodilator",
+   "ผู้ป่วย SAH วันที่ 2 ซึมลง CT พบ ventricle โตขึ้น → acute hydrocephalus → external ventricular drain",
+   "ผู้ป่วย SAH วันที่ 5 Na 126 ปัสสาวะมาก ขาดน้ำ → cerebral salt wasting ให้สารน้ำ normal saline/ hypertonic และ fludrocortisone ห้ามจำกัดน้ำ"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 24 แถว Neuro 7 — ตัวพิมพ์: <b>ผู้ป่วยมีอาการปวดศีรษะรุนแรงทันที (thunderclap headache) ทำ CT brain บริเวณสีขาวรูป ข้อใดเป็นการตรวจต่อไปที่เหมาะสมที่สุด — A. CT angiography B. Lumbar puncture C. MRI brain with gadolinium D. ให้ nimodipine และ observe เท่านั้น E. Emergency craniotomy</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 24 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU79|RoD|Neuro 8": {
-  "interp": "ผ่าตัดกะโหลกแตกมาไม่ถึง 1 เดือน มีปวดศีรษะและไข้ สงสัยฝีในสมองหรือ subdural empyema → ถามการตรวจถัดไป",
-  "why": "การติดเชื้อในกะโหลกหลังผ่าตัด (brain abscess, subdural/ epidural empyema) ต้องดูขอบที่ <b>enhance</b> จึงต้อง<b>ฉีดสารทึบรังสี</b> · ในช้อยที่มี <b>CT brain with contrast</b> เป็นการตรวจที่เหมาะสม ทำได้เร็ว เห็นฝีขอบ enhance และ empyema · <b>MRI with gadolinium + DWI</b> ไวกว่า (DWI เห็นหนองเป็น restricted diffusion) แต่ช้อยในโจทย์เป็น MRI <b>ไม่ฉีดสี</b> ซึ่งเห็นขอบ enhance ไม่ได้ · ห้าม LP เมื่อสงสัยก้อนในกะโหลก (เสี่ยง herniation และผลมักไม่ช่วย) · รักษา: ระบายหนอง/ ล้างแผล เอาแผ่นกระดูกที่ติดเชื้อออก + IV antibiotic ครอบ staphylococcus (vancomycin) และ gram-negative · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 8 A\"</b> = CT brain with contrast ตรงกับคำตอบ",
+  "interp": "ผู้ป่วยเพิ่ง<b>ผ่าตัดรักษา skull fracture มาไม่ถึง 1 เดือน</b> มีปวดศีรษะและไข้ สงสัย<b>ฝีในสมองหรือ subdural empyema</b> — ถามการตรวจขั้นต่อไปที่เหมาะสม ต้องรู้ว่าการติดเชื้อหนองในกะโหลกต้องใช้ภาพที่<b>ฉีดสี</b>เพื่อเห็นผนังหนองที่จับสี และว่าการเจาะหลังเป็นข้อห้ามเมื่อสงสัย mass lesion",
+  "why": "การผ่าตัดหรือกระดูกกะโหลกแตกแบบเปิดทำให้เชื้อเข้าสู่ช่องในกะโหลกได้โดยตรง เกิด <b>bone flap infection, epidural abscess, subdural empyema หรือ brain abscess</b> เชื้อที่พบบ่อยหลังผ่าตัด/ บาดเจ็บ: <b>Staphylococcus aureus (รวม MRSA)</b>, coagulase-negative staphylococci และ <b>gram-negative bacilli (รวม Pseudomonas)</b> · ฝีในสมองดำเนินจาก cerebritis (สัปดาห์แรก) → สร้าง<b>แคปซูล</b> (ราวหลังวันที่ 10–14) · การตรวจที่ต้องการต้อง<b>ฉีดสี</b>: <b>CT with contrast</b> เห็นก้อน <b>ring-enhancing</b> ผนังบางเรียบ ล้อมด้วยสมองบวม หรือ<b>ของเหลวรูปพระจันทร์เสี้ยว/ เลนส์ใต้เยื่อหุ้มที่ขอบจับสี</b> (empyema) ทำได้เร็วทุกโรงพยาบาลและเห็นกระดูก/ bone flap ด้วย · <b>MRI ฉีด gadolinium ร่วมกับ DWI</b> ไวกว่า (หนองจำกัดการแพร่ของน้ำ แยกจากเนื้องอกตาย และเห็น empyema บาง ๆ ที่ CT พลาด) แต่ช้อย MRI <b>ไม่ฉีดสี</b>ในข้อนี้ประเมินผนังฝีไม่ได้ · ข้อห้าม <b>LP</b> เพราะ mass effect เสี่ยงสมองเลื่อนและผลน้ำไขสันหลังมักไม่ช่วย · รักษา: <b>subdural empyema เป็นภาวะฉุกเฉินทางศัลยกรรมประสาท</b> → craniotomy ระบายหนอง (และเอา bone flap ที่ติดเชื้อออก) · brain abscess &gt; 2.5 cm หรือมี mass effect → aspiration/ excision · ยาปฏิชีวนะ empirical หลังผ่าตัด/ บาดเจ็บ: <b>vancomycin + cefepime/ ceftazidime/ meropenem</b> นาน 6–8 สัปดาห์ ปรับตามผลเพาะเชื้อ · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" ตัวพิมพ์ <b>\"Neurosurgery 8 A\"</b> (ช่องเฉลยในตารางว่าง ไม่มีลายมือ)",
   "wrong": {
-   "B": "MRI ไม่ฉีดสีเห็นของเหลวแต่บอกขอบ enhance ไม่ได้ (ถ้ามี DWI จะช่วยได้) ควรฉีด gadolinium · จะถูกถ้าช้อยเป็น MRI with gadolinium และ DWI ซึ่งไวที่สุด",
-   "C": "LP ห้ามเมื่อสงสัยก้อน/ empyema ในกะโหลก เสี่ยง herniation และหนองที่อยู่ใน subdural/ เนื้อสมองไม่ปนใน CSF · จะถูกถ้าสงสัย meningitis หลังผ่าตัดที่ CT ไม่มี mass effect",
-   "D": "ฟิล์มกะโหลกเห็นแค่กระดูก ไม่เห็นหนองหรือฝีในเนื้อสมอง · จะถูกถ้าไม่มีสถานการณ์ปัจจุบันที่ใช้ฟิล์มกะโหลกวินิจฉัยฝีในสมอง",
-   "E": "EEG ใช้ประเมินการชัก ไม่ได้ใช้หาการติดเชื้อในกะโหลก · จะถูกถ้าผู้ป่วยหลังผ่าตัดซึมผันผวนสงสัย non-convulsive status epilepticus"
+   "B": "MRI ไวที่สุดสำหรับฝีในสมองและ empyema <b>เมื่อฉีด gadolinium ร่วมกับ DWI</b> แต่ MRI ไม่ฉีดสีเห็นเพียงบริเวณบวมและของเหลว ประเมินผนังฝีที่จับสีไม่ได้ และทำยากในผู้ป่วยหลังผ่าตัดที่ไม่คงที่ (ยังได้ประโยชน์จาก DWI) — จะถูกถ้าเป็นผู้ป่วยไตวายระยะท้าย eGFR 10 ที่หลีกเลี่ยง gadolinium และต้องการแยกฝีกับเนื้องอกตายจากภาพ DWI ที่เห็นหนองจำกัดการแพร่ของน้ำตรงกลางก้อน",
+   "C": "LP ใช้วินิจฉัย meningitis หลังผ่าตัดสมอง/ CSF leak แต่<b>ห้ามทำเมื่อสงสัยก้อนหนองที่มี mass effect</b> จนกว่าภาพสมองจะตัดออก เพราะเสี่ยงสมองเลื่อน และ CSF ในฝีสมองมักไม่พบเชื้อ — จะถูกถ้าเป็นผู้ป่วยหลังผ่าตัดกระดูกฐานกะโหลกแตก 10 วัน มีน้ำใสไหลจากจมูก ไข้ คอแข็ง และ CT สมองไม่พบก้อนหรือ mass effect (สงสัย post-traumatic meningitis)",
+   "D": "Skull X-ray เห็นรอยกระดูกแตก ลมในกะโหลก หรือ bone flap ได้คร่าว ๆ แต่ไม่เห็นเนื้อสมองหรือหนองใต้กะโหลก ปัจจุบันแทบถูกแทนที่ด้วย CT — จะถูกถ้าเป็นเด็กเล็กที่สงสัยถูกทำร้าย (non-accidental injury) ซึ่ง skeletal survey ใช้ X-ray กะโหลกร่วมกับ CT เพื่อหารอยแตกหลายตำแหน่งต่างระยะเวลา",
+   "E": "EEG บันทึกคลื่นไฟฟ้าสมอง ใช้วินิจฉัยและติดตามการชัก (เช่น non-convulsive status epilepticus) ไม่ได้ระบุว่ามีหนองหรือก้อนในสมอง — จะถูกถ้าเป็นผู้ป่วยหลังผ่าตัดศีรษะที่ไม่มีไข้ แต่ซึมลงเป็นพัก ๆ ตากระตุก CT ไม่พบความผิดปกติใหม่ และสงสัย non-convulsive status epilepticus"
   },
-  "trap": "คิดว่า MRI ดีกว่าเสมอ — แต่ไม่ฉีดสีจะไม่เห็นขอบ enhance ของฝี ในช้อยนี้ CT ฉีดสีเหมาะกว่า",
+  "trap": "รู้ว่า MRI ดีกว่า CT สำหรับฝีในสมองจึงเลือก B — แต่ต้องอ่านว่า<b>ไม่ฉีดสี</b> ซึ่งไม่เห็นผนังฝี · ในช้อยที่ให้ CT ฉีดสีเป็นตัวที่ใช้ได้จริงและเร็ว · LP (C) เป็นกับดักคลาสสิก: ไข้ + ปวดศีรษะ ไม่ได้แปลว่าต้องเจาะหลัง ต้องตัด mass lesion ด้วยภาพก่อน",
   "summary": [
-   "สงสัยฝี/ empyema → ภาพฉีดสี (MRI + gadolinium + DWI ดีที่สุด · CT contrast ทำได้เร็ว)",
-   "Subdural empyema: crescent ขอบ enhance · ลามเร็ว · ผ่าตัดระบายด่วน",
-   "Brain abscess: ขอบ enhance บางเรียบ · DWI restricted",
-   "ห้าม LP เมื่อมี mass effect",
-   "หลังผ่าตัด: เชื้อ S. aureus · coagulase-negative staph · gram-negative",
-   "รักษา: ระบาย/ ล้าง · เอาแผ่นกระดูกที่ติดเชื้อออก · vancomycin + anti-pseudomonal"
+   "ระยะฝีในสมอง: early cerebritis (วัน 1–3) → late cerebritis (4–9) → early capsule (10–13) → late capsule (&gt; 14) · CT/ MRI ระยะแคปซูลเห็น ring enhancement ผนังบางเรียบ",
+   "MRI + gadolinium + DWI: หนองจำกัดการแพร่ของน้ำ (DWI สว่าง ADC ต่ำ) ช่วยแยกฝีจากเนื้องอกตายตรงกลาง (DWI มืด) · CT ฉีดสีใช้เมื่อ MRI ไม่พร้อม/ ผู้ป่วยไม่คงที่",
+   "เชื้อตามต้นทาง: ไซนัส/ ฟัน → streptococci (viridans, S. anginosus) + anaerobes · หู → anaerobes, gram-negative · หลังผ่าตัด/ บาดเจ็บ → S. aureus (MRSA), gram-negative/ Pseudomonas · hematogenous (endocarditis) → หลายก้อน",
+   "Empirical: community-acquired → ceftriaxone/ cefotaxime + metronidazole · หลังผ่าตัด/ บาดเจ็บ → vancomycin + cefepime/ ceftazidime/ meropenem · ภูมิคุ้มกันต่ำเพิ่มยาครอบ Nocardia, Toxoplasma, เชื้อรา",
+   "ผ่าตัดฝีในสมอง: &gt; 2.5 cm, mass effect, ใกล้ ventricle (เสี่ยงแตกเข้า ventricle อัตราตายสูง), ไม่ตอบสนองยา → stereotactic aspiration หรือ excision · ยา IV รวมราว 6–8 สัปดาห์",
+   "Subdural empyema: ลามเร็ว ชัก อาการเฉพาะที่ เกิด cortical vein thrombosis → craniotomy ระบายหนองด่วน (burr hole มักไม่พอ) + ยาปฏิชีวนะ",
+   "Bone flap infection หลัง craniotomy: แผลบวมแดง หนองซึม → เอา bone flap ออก ล้างแผล ให้ยา แล้วทำ cranioplasty ภายหลังเมื่อหายติดเชื้อ (มักหลังหลายเดือน)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ในทางปฏิบัติ MRI ฉีดสี + DWI ไวที่สุด แต่ช้อย MRI ในโจทย์ไม่ฉีดสี",
-  "mnemonic": "<b>'หาฝี ต้องฉีดสี (เห็นขอบ enhance) · มีก้อน ห้ามเจาะหลัง'</b>",
-  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Postoperative infections and brain abscess; IDSA Healthcare-Associated Ventriculitis and Meningitis Guideline (Clin Infect Dis 2017;64:e34)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ในช้อยที่มี CT ฉีดสีเป็นการตรวจที่เหมาะที่สุดและเร็วสำหรับฝีในสมอง/ subdural empyema หลังผ่าตัดกะโหลก (ในทางปฏิบัติ MRI ฉีดสี + DWI ไวกว่า แต่ช้อยในข้อนี้เป็น MRI ไม่ฉีดสี) · ตรงกับคีย์ในไฟล์ 79D หน้า 36 เฉลยอย่างย่อ \"Neurosurgery 8 A\" (ช่องเฉลยในตารางว่าง)",
+  "mnemonic": "<b>'ไข้ + ปวดหัวหลังผ่ากะโหลก = หาหนองด้วยภาพ \"ฉีดสี\" ก่อน · ห้ามเจาะหลังก่อนดูภาพ'</b>",
+  "guide": "Bodilsen J, et al. European Society of Clinical Microbiology and Infectious Diseases guidelines on diagnosis and treatment of brain abscess in children and adults. Clin Microbiol Infect 2024; Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Cerebral Abscess and Subdural Empyema",
   "variants": [
-   "หลังผ่าตัดกะโหลก ไข้ CSF ขุ่น CT ไม่มี mass effect → LP/ CSF จากสายระบาย หา meningitis",
-   "ไซนัสอักเสบ ไข้ ชัก MRI crescent ขอบ enhance → subdural empyema ผ่าตัดระบายด่วน",
-   "ฝีในสมอง 4 cm หลังผ่าตัด → aspiration + IV vancomycin + cefepime/ meropenem"
+   "ผู้ป่วยหลัง craniotomy 3 สัปดาห์ ไข้ แผลบวมแดง มีหนองซึม CT ฉีดสีพบของเหลวขอบจับสีใต้ bone flap → bone flap infection/ epidural abscess → เอา bone flap ออกและล้างแผล ร่วมกับ vancomycin + meropenem",
+   "เด็ก 12 ปีไซนัสอักเสบหน้าผาก แล้วไข้สูง ชัก อ่อนแรงครึ่งซีก MRI พบของเหลวรูปพระจันทร์เสี้ยวขอบจับสีตาม falx → subdural empyema → craniotomy ระบายด่วน",
+   "ผู้ป่วย tetralogy of Fallot ที่ไม่ได้ผ่าตัด ปวดศีรษะ ไข้ต่ำ MRI พบก้อน ring-enhancing 3 cm DWI สว่าง → brain abscess (right-to-left shunt) → stereotactic aspiration + ยาปฏิชีวนะ",
+   "ทำไมฝีที่อยู่ติด ventricle ต้องรีบระบาย → ผนังด้านใกล้ ventricle บางกว่าด้านเปลือกสมอง ถ้าแตกเข้า ventricle เกิด ventriculitis ซึ่งอัตราตายสูงมาก"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 25 แถว Neuro 8 — ตัวพิมพ์: <b>ผู้ป่วยเพิ่งผ่าตัดรักษา skull fracture มาไม่ถึง 1 เดือน มีปวดศีรษะและไข้ สงสัยการติดเชื้อในสมอง (brain abscess/empyema) ข้อใดเป็นการส่งตรวจต่อไปที่เหมาะสม — A. CT brain with contrast B. MRI brain without contrast C. Lumbar puncture D. Skull X-ray E. EEG</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 25 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU79|RoD|Neuro 9": {
-  "interp": "CT เห็น <b>lobar ICH ใหญ่มาก</b>ที่ supratentorial มี midline shift มาก และ <b>GCS ลดจาก 13 เป็น 9</b> → ถามการจัดการ",
-  "why": "ICH ใหญ่ที่อยู่ <b>lobar ใกล้ผิวสมอง (≤ 1 cm)</b> ทำให้ <b>mass effect/ midline shift</b> และ<b>อาการทรุดลง</b> (GCS ลดจาก 13 → 9) = ข้อบ่งชี้<b>ผ่าตัดเอาก้อนเลือดออก (clot evacuation/ craniotomy)</b> เพื่อช่วยชีวิตและลดการกดเบียด · AHA/ASA 2022: supratentorial ICH ที่อาการแย่ลงอาจพิจารณาผ่าตัดเพื่อลดอัตราตาย · ICH ที่ GCS 9–12 ปริมาณ 20–80 mL ระยะแรกอาจพิจารณา minimally invasive evacuation · ร่วมกับคุมความดัน (SBP 130–150) แก้การแข็งตัวของเลือด · mannitol ใช้ชั่วคราวระหว่างรอผ่า · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 9 D\"</b> = Clot evacuation ตรงกับคำตอบ",
+  "interp": "CT พบ <b>lobar intracerebral hemorrhage เหนือ tentorium ขนาดใหญ่มาก</b> สมองเลื่อนกลางชัด และ <b>GCS ลดลงจาก 13 เหลือ 9</b> — ถามการรักษาที่เหมาะที่สุด ต้องรู้ว่าผู้ป่วยที่อาการทรุดลงจากก้อนเลือดใหญ่ใกล้ผิวสมองที่กดสมอง การเอาก้อนเลือดออกเป็นการรักษาช่วยชีวิต ส่วนยา/ คุมความดันเป็นการรักษาประคับประคอง",
+  "why": "ICH ทำให้สมองเสียหายสองระยะ: ① <b>ก้อนเลือดกดและดันสมอง (mass effect)</b> ทันที และก้อนอาจโตขึ้นใน 24 ชม.แรก ② secondary injury จากสมองบวมรอบก้อนและสารพิษจากเลือด · ปัจจัยพยากรณ์ (ICH score): GCS ต่ำ ปริมาตร ≥ 30 mL มีเลือดเข้า ventricle ตำแหน่ง infratentorial อายุ ≥ 80 · ใน <b>supratentorial ICH ที่อาการทรุดลง</b> (GCS ลด, midline shift มาก, เสี่ยงสมองเลื่อน) <b>การผ่าตัดเอาก้อนเลือดออก (craniotomy ± decompressive craniectomy) เป็นการรักษาเพื่อช่วยชีวิต</b> (AHA/ASA 2022) และ lobar hematoma ที่อยู่ <b>ใกล้ผิวสมอง (≤ 1 cm)</b> เอาออกได้โดยไม่ผ่านเนื้อสมองสำคัญมาก (STICH II) · หลักฐานใหม่ <b>ENRICH (NEJM 2024)</b>: minimally invasive parafascicular evacuation ใน lobar ICH 30–80 mL ภายใน 24 ชม. ทำให้ผลการทำงานดีขึ้น · ส่วน <b>cerebellar ICH</b> ที่อาการทรุด กดก้านสมอง หรือมี hydrocephalus หรือปริมาตร &gt; 15 mL → ผ่าตัดเอาออกทันที (Class I) · การดูแลร่วมทุกราย: คุมความดัน แก้ฤทธิ์ยาต้านการแข็งตัว (vitamin K + PCC, idarucizumab, andexanet) คุมน้ำตาล ไข้ ชัก · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" ตัวพิมพ์ <b>\"Neurosurgery 9 D\"</b> (ช่องเฉลยในตารางว่าง ไม่มีลายมือ · ไฟล์บรรยายว่า \"ICH ใหญ่มาก ๆ ไม่ได้บอกขนาด\")",
   "wrong": {
-   "A": "Mannitol ลด ICP ชั่วคราวระหว่างรอผ่าตัด ไม่แก้ก้อนเลือดใหญ่ที่กดเบียด · จะถูกถ้าถามการรักษาเพื่อซื้อเวลาระหว่างพาเข้าห้องผ่าตัดในผู้ป่วยที่รูม่านตาเริ่มขยาย",
-   "B": "คุมความดันเป็นส่วนหนึ่งของการดูแล ICH ทุกราย (เป้า SBP ~140 ลดการโตของก้อน) แต่ไม่พอเมื่อก้อนใหญ่และอาการทรุด · จะถูกถ้า ICH ขนาดเล็ก 15 mL GCS 15 ความดัน 200/110",
-   "C": "EVD ใช้เมื่อ <b>hydrocephalus</b> หรือ IVH มากที่อุดทางไหล CSF ไม่แก้ก้อนเลือดในเนื้อสมองที่กด · จะถูกถ้า thalamic ICH แตกเข้า ventricle จน ventricle โต ซึมลง",
-   "E": "ห้ามให้ยาละลายลิ่มเลือดใน ICH เพราะเลือดออกมากขึ้น · จะถูกถ้าเป็น acute ischemic stroke ภายใน 4.5 ชม. CT ไม่มีเลือดออก"
+   "A": "20% mannitol (0.5–1 g/kg) ลดความดันในกะโหลกชั่วคราวผ่าน osmotic effect ใช้เป็น<b>สะพาน</b>ระหว่างรอผ่าตัดเมื่อมีสัญญาณสมองเลื่อน ไม่ได้เอาก้อนเลือดที่เป็นต้นเหตุออก และให้ซ้ำนานเสี่ยงไตวาย/ rebound — จะถูกถ้าเป็นผู้ป่วยก้อนเลือดใหญ่ในสมองที่รูม่านตาขวาขยายฉับพลันระหว่างเตรียมเข้าห้องผ่าตัด และต้องลดความดันในกะโหลกทันทีระหว่างรอ",
+   "B": "การคุม SBP เป้าหมายราว 140 mmHg (ให้อยู่ 130–150, หลีกเลี่ยงลดต่ำกว่า 130) ใน ICH ที่ SBP 150–220 ช่วยลดการโตของก้อนเลือดและเป็นการดูแลพื้นฐานที่ต้องทำทุกราย (INTERACT2, AHA 2022) แต่ไม่พอสำหรับก้อนใหญ่ที่กดสมองจนอาการทรุด — จะถูกถ้าเป็นชาย 60 ปี ICH ที่ putamen ปริมาตร 15 mL GCS 14 ความดัน 190/100 อาการคงที่",
+   "C": "External ventricular drain ระบายน้ำในโพรงสมองเมื่อมี<b>intraventricular hemorrhage ร่วมกับ hydrocephalus</b> ระดับรู้สติลดลง ไม่ได้ลด mass effect ของก้อนเลือด lobar ในเนื้อสมอง — จะถูกถ้าเป็นหญิง 70 ปี thalamic hemorrhage ที่แตกเข้า ventricle CT พบ ventricle ทั้งหมดโตจาก hydrocephalus และ GCS ลดจาก 13 เหลือ 8",
+   "E": "IV thrombolysis (alteplase/ tenecteplase) ใช้กับ<b>acute ischemic stroke</b> ภายใน 4.5 ชม. หลังตัดเลือดออกด้วย CT แล้ว การมี ICH เป็น<b>ข้อห้ามเด็ดขาด</b>เพราะเลือดจะออกมากขึ้น — จะถูกถ้าเป็นชาย 65 ปีอ่อนแรงครึ่งซีกขวาและพูดไม่ได้ทันทีเมื่อ 2 ชม.ก่อน CT ไม่พบเลือดออก ความดัน 170/95 ไม่มีข้อห้ามอื่น"
   },
-  "trap": "ICH ใหญ่แล้วให้แค่ยาลดบวมและคุมความดัน — lobar ใกล้ผิว + midline shift + GCS ทรุด = ผ่าตัดเอาก้อนออก",
+  "trap": "คุมความดัน (B) และ mannitol (A) เป็นสิ่งที่ทำจริงในผู้ป่วย ICH จึงดูถูก — แต่ข้อนี้มี<b>ก้อนใหญ่มาก + midline shift ชัด + GCS ลดลง 4 แต้ม</b> ซึ่งเป็นสัญญาณกำลังจะสมองเลื่อน ต้องเอาต้นเหตุออก · EVD (C) ใช้กับ hydrocephalus จาก IVH ไม่ใช่ lobar mass · thrombolysis (E) เป็นข้อห้ามเด็ดขาด",
   "summary": [
-   "ICH: คุม SBP 130–150 · แก้ anticoagulant · ยกหัว 30°",
-   "ผ่าตัดเอาออก: lobar > 30 mL ใกล้ผิว ≤ 1 cm อาการทรุด · cerebellar > 3 cm/ กด brainstem/ hydrocephalus",
-   "MIS evacuation: supratentorial 20–80 mL GCS 5–12 (ทางเลือก)",
-   "EVD: hydrocephalus จาก IVH",
-   "Deep ICH (basal ganglia, thalamus) ผ่าเปิดไม่ช่วยชัด",
-   "ห้าม tPA · ห้าม steroid ใน ICH"
+   "ICH score: GCS (3–4 = 2, 5–12 = 1), ปริมาตร ≥ 30 mL (1), IVH (1), infratentorial (1), อายุ ≥ 80 (1) · คะแนนยิ่งสูงอัตราตาย 30 วันยิ่งสูง · ปริมาตรประมาณด้วย ABC/2",
+   "Spot sign บน CTA บ่งการโตของก้อนเลือด · ก้อนโตส่วนใหญ่ใน 3–6 ชม.แรก · CTA ช่วยหาสาเหตุ (AVM, aneurysm) ในคนอายุน้อย/ lobar/ ไม่มีความดันสูง",
+   "คุมความดัน (AHA 2022): SBP 150–220 → ลดสู่ราว 140 (ช่วง 130–150) เร็วและนิ่ง · หลีกเลี่ยงลดต่ำกว่า 130 · แก้ฤทธิ์ยา: warfarin → vitamin K + 4F-PCC · dabigatran → idarucizumab · factor Xa inhibitor → andexanet alfa หรือ PCC",
+   "Supratentorial ICH: ผ่าตัด craniotomy ไม่ได้ประโยชน์ทั่วไป (STICH) แต่พิจารณาเป็นการช่วยชีวิตเมื่ออาการทรุด · lobar ใกล้ผิว (≤ 1 cm) ได้ประโยชน์มากกว่า · minimally invasive evacuation ใน lobar 30–80 mL (ENRICH 2024)",
+   "Cerebellar ICH: ทรุดลง กดก้านสมอง hydrocephalus หรือ &gt; 15 mL (เส้นผ่านศูนย์กลาง &gt; 3 cm) → suboccipital craniectomy เอาก้อนออกทันที · อย่าใส่ EVD อย่างเดียว (เสี่ยง upward herniation)",
+   "IVH + hydrocephalus + ระดับรู้สติลด → EVD · intraventricular alteplase ลดอัตราตายแต่ไม่เพิ่มผลการทำงาน (CLEAR III)",
+   "ICP สูง: ยกหัวเตียง 30°, sedation/ analgesia, hyperosmolar therapy (mannitol, hypertonic saline) เป็นสะพาน · ห้าม steroid ใน ICH · ยากันชักเฉพาะผู้ที่ชัก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ต้นฉบับบอกแค่ว่า ICH ใหญ่มากไม่ได้บอกขนาด จึงเติม midline shift และ GCS ที่ลดลงเพื่อให้ข้อบ่งชี้ผ่าตัดชัด",
-  "mnemonic": "<b>'ICH ใหญ่ ใกล้ผิว shift + ซึมลง = ผ่าเอาก้อนออก'</b>",
-  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลางถึงสูง — lobar ICH ใหญ่มากที่มี midline shift และ GCS ลดลงต่อเนื่อง ต้องเอาก้อนเลือดออกเพื่อช่วยชีวิต (ร่วมกับคุมความดันและ mannitol เป็นสะพาน) แม้หลักฐานใน supratentorial ICH ทั่วไปไม่ได้แสดงประโยชน์ของการผ่าตัดทุกราย · ตรงกับคีย์ในไฟล์ 79D หน้า 36 เฉลยอย่างย่อ \"Neurosurgery 9 D\" (ช่องเฉลยในตารางว่าง)",
+  "mnemonic": "<b>'ICH ใหญ่ + shift + GCS ดิ่ง = เอาก้อนออก · Cerebellum &gt; 3 cm = ผ่าเลย · IVH + hydrocephalus = EVD'</b>",
+  "guide": "Greenberg SM, et al. 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (AHA/ASA). Stroke 2022; Pradilla G, et al. Trial of Early Minimally Invasive Removal of Intracerebral Hemorrhage (ENRICH). N Engl J Med 2024",
   "variants": [
-   "Cerebellar ICH 4 cm กด fourth ventricle → suboccipital craniectomy เอาเลือดออก",
-   "Thalamic ICH แตกเข้า ventricle ventricle โต ซึมลง → EVD",
-   "ICH 15 mL GCS 15 BP 190/100 → ลด SBP ให้ ~140 เฝ้าดู"
+   "ผู้ป่วย cerebellar hemorrhage 4 cm ซึมลง CT พบ fourth ventricle ถูกกดและ hydrocephalus → suboccipital craniectomy เอาก้อนเลือดออกทันที",
+   "ชาย 70 ปีกิน warfarin มี lobar ICH INR 3.5 → vitamin K IV + 4-factor PCC ทันที แล้วประเมินการผ่าตัด",
+   "ผู้ป่วย ICH ที่ basal ganglia 20 mL GCS 14 ความดัน 200/110 → nicardipine IV ลด SBP สู่ราว 140 และเฝ้าดูใน stroke unit",
+   "หญิง 35 ปี lobar ICH ที่ไม่มีความดันสูง → CTA/ DSA หา AVM หรือ aneurysm และพิจารณา MRI หา cavernoma หรือเนื้องอกหลังเลือดสลาย"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 26 แถว Neuro 9 — ตัวพิมพ์: <b>ให้ CT ICH ใหญ่มาก ๆ ไม่ได้บอกขนาด ถาม management — 20% mannitol · Keep BP &lt; 140 · Emergency ventricular drainage · Clot evacuation · Intravenous thrombolysis</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 26 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",

@@ -1,29 +1,31 @@
 {
  "MDCU79|RoD|Uro 14": {
-  "interp": "ผู้ป่วยปวดบิดร้าวไปหลัง มีไข้ US เห็นนิ่ว 5 mm ที่กรวยไต <b>ไม่มี hydronephrosis</b> → ถามการจัดการ ต้องแยกว่ามีการอุดกั้นหรือไม่",
-  "why": "ไข้ + นิ่ว แต่<b>ไม่มี hydronephrosis</b> = <b>ไม่มีการอุดกั้น</b> → เป็น pyelonephritis ที่มีนิ่วเล็กร่วม · รักษาด้วย<b>ยาปฏิชีวนะ (ตามผลเพาะเชื้อ) ร่วมกับให้น้ำ/ ดื่มน้ำมาก</b> และยาแก้ปวด · ไม่ต้องระบายด่วนเพราะปัสสาวะยังไหลได้ · <b>ห้ามทำลายนิ่วตอนมีไข้</b> (ESWL/ PCNL) เพราะเสี่ยง urosepsis · นิ่ว 5 mm มีโอกาสหลุดเองสูง หรือรักษาภายหลังเมื่อหายติดเชื้อ · ถ้าอาการไม่ดีขึ้นใน 48–72 ชม. ให้ทำ CT หาการอุดกั้น/ ฝี · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 14 A\"</b> = Antibiotics ร่วมกับ hydration ตรงกับคำตอบ",
+  "interp": "ผู้ป่วยปวดบิดท้องร้าวไปหลังและ<b>มีไข้</b> US พบนิ่ว 5 mm ใน renal pelvis แต่<b>ไม่มี hydronephrosis</b> — ถามการจัดการที่เหมาะสม ประเด็นคือแยกให้ได้ว่าเป็นการติดเชื้อของไตที่<b>ไม่มีการอุดกั้น</b> (ไม่ต้อง decompress ฉุกเฉิน) จากไตอุดตันติดเชื้อที่ต้องระบายทันที",
+  "why": "สิ่งที่กำหนดความเร่งด่วนของนิ่วร่วมไข้คือ<b>การอุดกั้น</b> ไม่ใช่การมีนิ่ว · ไตที่อุดตันและติดเชื้อต้องระบายด่วน แต่นิ่ว 5 mm ที่อยู่ใน renal pelvis โดย<b>ไม่มี hydronephrosis</b> ไม่ได้อุดทางไหลของปัสสาวะ ภาวะนี้จึงเป็น <b>acute pyelonephritis ที่มีนิ่วร่วม</b> ซึ่งรักษาด้วย <b>ยาฆ่าเชื้อร่วมกับให้สารน้ำ</b> ยาแก้ปวด และติดตามใกล้ชิด · ส่ง UA, urine culture (± blood culture), CBC, creatinine ก่อนให้ยา เริ่ม empirical antibiotic ครอบคลุม gram-negative (เช่น ceftriaxone หรือ fluoroquinolone ตามความไวในพื้นที่) แล้วปรับตามผลเพาะเชื้อ รวม 7–14 วัน · ถ้าไข้ไม่ลงใน 48–72 ชั่วโมง ต้องตรวจภาพซ้ำ (CT) หาการอุดกั้นหรือ abscess ที่อาจเกิดใหม่ · นิ่วใน renal pelvis 5 mm ค่อยรักษาแบบ elective หลังหายติดเชื้อ (ติดตาม หรือ SWL/RIRS ตามอาการ) · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"14 A\"</b> (ตัวพิมพ์ช้อย \"Antibiotics ร่วมกับ hydration\")",
   "wrong": {
-   "B": "ESWL ห้ามทำระหว่างติดเชื้อ (เศษนิ่วและเชื้อกระจาย) · จะถูกถ้านิ่วในไต 1.2 cm ไม่มีไข้ ปัสสาวะไม่ติดเชื้อ",
-   "C": "DJ stent ใช้ระบายเมื่อมีการอุดกั้น (hydronephrosis) ร่วมกับติดเชื้อ ผู้ป่วยในโจทย์ไม่มีการอุดกั้น · จะถูกถ้านิ่วอุดท่อไต ไตบวมน้ำ มีไข้ (obstructive pyelonephritis)",
-   "D": "PCNL ใช้กับนิ่วไต > 2 cm หรือ staghorn ทำหลังรักษาติดเชื้อ ไม่ใช่นิ่ว 5 mm ตอนมีไข้ · จะถูกถ้านิ่วรูปเขากวาง 3 cm ไม่มีไข้",
-   "E": "มีไข้บอกว่าติดเชื้อ ต้องให้ยาปฏิชีวนะ การดูอาการอย่างเดียวเสี่ยง urosepsis · จะถูกถ้าปวดบิดจากนิ่วเล็กไม่มีไข้ ไม่มีการอุดกั้น UA ไม่มีเชื้อ"
+   "B": "SWL เป็นการรักษานิ่วไตขนาดไม่เกินราว 2 cm แบบ elective แต่<b>ห้ามทำขณะติดเชื้อ</b> เพราะการแตกของนิ่วปล่อยเชื้อและ endotoxin เข้ากระแสเลือดเกิด urosepsis · จะถูกถ้าเป็นชาย 40 ปีหลังรักษา pyelonephritis หายแล้ว 4 สัปดาห์ urine culture ลบ ยังมีนิ่ว 8 mm ใน renal pelvis ที่ปวดเป็นครั้งคราว",
+   "C": "DJ stent ใช้ระบายไตที่<b>อุดตัน</b>และติดเชื้อ ในไตที่ไม่มี hydronephrosis การใส่ stent ไม่เพิ่มการระบาย แต่เพิ่มหัตถการ ความเสี่ยง และอาการระคายเคืองจาก stent · จะถูกถ้าเป็นหญิง 50 ปี ไข้ 39°C ปวดเอว CT พบนิ่ว 6 mm อุดที่ proximal ureter และไตบวมน้ำปานกลาง",
+   "D": "PCNL เป็นการรักษาหลักของนิ่วไตก้อนใหญ่ (&gt; 2 cm) หรือ staghorn ไม่ใช่นิ่ว 5 mm และไม่ทำขณะยังติดเชื้อ (ต้องให้ urine culture ลบก่อน) · จะถูกถ้าเป็นหญิง 55 ปี UTI ซ้ำ มี staghorn calculus 4 cm เต็ม renal pelvis และ calyces หลังรักษาการติดเชื้อจนเพาะเชื้อลบแล้ว",
+   "E": "ยาแก้ปวดและสังเกตอาการเหมาะกับ renal colic จากนิ่วเล็กที่<b>ไม่มีไข้</b> แต่การมีไข้ร่วมปวดเอวบ่งการติดเชื้อของไต การไม่ให้ยาฆ่าเชื้อเสี่ยง sepsis และ renal scarring · จะถูกถ้าเป็นชาย 30 ปี ปวดเอวร้าวลงขาหนีบ ไม่มีไข้ UA ไม่มี pyuria/ nitrite CT พบนิ่ว 4 mm ที่ distal ureter ไตบวมน้ำเล็กน้อย creatinine ปกติ"
   },
-  "trap": "เห็นนิ่ว + ไข้แล้วตอบใส่ stent ทุกครั้ง — ต้องมีการอุดกั้น (hydronephrosis) ด้วยจึงต้องระบายด่วน",
+  "trap": "คำว่านิ่ว + ไข้ ดึงให้ตอบ DJ stent ทันทีเพราะจำหลัก \"infected obstructed kidney\" · แต่<b>ไม่มี hydronephrosis = ไม่มีการอุดกั้น</b> จึงไม่ต้อง decompress · อีกกับดักคือคิดว่าต้องเอานิ่วออก (SWL/PCNL) ซึ่งห้ามทำขณะติดเชื้อ · ต้องติดตามไข้ใน 48–72 ชั่วโมง ถ้าไม่ลงให้ตรวจภาพซ้ำ",
   "summary": [
-   "นิ่ว + ไข้ + มีการอุดกั้น → ระบายด่วน (DJ stent/ PCN) + ATB",
-   "นิ่ว + ไข้ + ไม่มีการอุดกั้น → ATB + น้ำ + ยาแก้ปวด เฝ้าดู",
-   "ห้าม ESWL/ URS/ PCNL ตอนติดเชื้อ",
-   "ไม่ดีขึ้นใน 48–72 ชม. → CT หาการอุดกั้น ฝีในไต",
-   "นิ่ว ≤ 5 mm หลุดเองได้ส่วนใหญ่",
-   "เพาะเชื้อปัสสาวะก่อนให้ยาทุกครั้ง"
+   "นิ่ว + ไข้: ถามก่อนว่า<b>อุดตันหรือไม่</b> · อุดตัน (hydronephrosis) → decompress ด่วน (DJ stent/PCN) · ไม่อุดตัน → antibiotic + สารน้ำ + ติดตาม",
+   "Acute pyelonephritis: ไข้ ปวดเอว CVA tenderness ± คลื่นไส้อาเจียน · ส่ง urine culture ทุกราย · E. coli บ่อยสุด",
+   "Empirical: ceftriaxone หรือ fluoroquinolone (ถ้าดื้อในพื้นที่ &lt; 10%) · มี ESBL risk → carbapenem · รวม 7 วัน (FQ) ถึง 10–14 วัน (beta-lactam)",
+   "ไข้ไม่ลงใน 48–72 ชม. → CT หา obstruction, renal/ perinephric abscess, emphysematous pyelonephritis",
+   "US ไวต่อ hydronephrosis แต่ไวต่อนิ่วท่อไตน้อย · CT KUB ไม่ฉีดสีเป็นมาตรฐานเมื่อสงสัยนิ่วอุดท่อไต",
+   "นิ่วไตไม่มีอาการ &lt; 1 cm: ติดตามได้ · 1–2 cm: SWL หรือ RIRS · &gt; 2 cm: PCNL · lower pole &gt; 1 cm SWL ได้ผลน้อยกว่า",
+   "ห้ามทำ SWL/URS/PCNL ขณะ UTI ที่ยังไม่รักษา — ต้อง urine culture ลบ หรือได้ยาตามเชื้อก่อนหัตถการ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ถ้าข้อสอบจริงมี hydronephrosis คำตอบจะเปลี่ยนเป็น DJ stent",
-  "mnemonic": "<b>'ไข้ + นิ่ว: ไตบวมน้ำ = ระบาย · ไม่บวมน้ำ = ยา + น้ำ'</b>",
-  "guide": "EAU Guidelines on Urolithiasis 2024; EAU Guidelines on Urological Infections 2024 — Pyelonephritis",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"14 A\") · นิ่วใน renal pelvis ที่ไม่มี hydronephrosis ไม่ได้อุดตัน จึงรักษาการติดเชื้อด้วยยาและสารน้ำ · ข้อควรระวังคือ US อาจพลาดการอุดกั้นระยะแรก ในทางปฏิบัติถ้าอาการรุนแรงหรือไข้ไม่ลงควรทำ CT และถ้ามี hydronephrosis คำตอบจะเปลี่ยนเป็นระบายด้วย DJ stent",
+  "mnemonic": "<b>'Stone + Fever: Hydro มี = Drain · Hydro ไม่มี = Antibiotic + Fluid'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2024; EAU Guidelines on Urological Infections 2024 — Uncomplicated/ complicated pyelonephritis; Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "ไข้ + นิ่วท่อไต 6 mm + hydronephrosis → DJ stent หรือ PCN + ATB",
-   "ปวดบิด ไม่มีไข้ นิ่วท่อไตส่วนล่าง 4 mm → ยาแก้ปวด + tamsulosin",
-   "ให้ ATB 72 ชม. ยังไข้สูง → CT หาฝีในไตหรือการอุดกั้น"
+   "หญิง 35 ปี ไข้ ปวดเอวซ้าย US ไม่มีนิ่วหรือ hydronephrosis ไม่มี sepsis กินยาได้ → oral fluoroquinolone 7 วัน รักษาแบบผู้ป่วยนอก",
+   "นิ่ว 5 mm ใน renal pelvis ไม่มี hydronephrosis ให้ ceftriaxone มา 72 ชั่วโมงยังไข้สูง → CT ดูว่ามีการอุดกั้นใหม่หรือ abscess",
+   "หลังหาย pyelonephritis ยังมีนิ่ว 5 mm ใน renal pelvis ไม่มีอาการ → ติดตามด้วยภาพเป็นระยะ ดื่มน้ำมาก ตรวจหาความผิดปกติทาง metabolic ถ้าเป็นซ้ำ",
+   "ทำไมนิ่วที่ไม่อุดตันไม่ต้องใส่ stent → ปัสสาวะยังไหลออกได้ ยาฆ่าเชื้อเข้าถึงและขับออกได้ดี การใส่ stent เพิ่มแต่ภาวะแทรกซ้อน"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 7 แถว Uro 14 — ตัวพิมพ์: <b>ผู้ป่วยมาด้วยอาการปวดบิดท้องร้าวไปหลัง มีไข้ ultrasound พบนิ่วขนาด 5 mm ที่ renal pelvis ไม่พบ hydronephrosis ข้อใดเป็นการจัดการที่เหมาะสมที่สุด — A. Antibiotics ร่วมกับ hydration B. ESWL C. ใส่ DJ stent D. Percutaneous nephrolithotomy (PCNL) E. ให้ยาแก้ปวดและสังเกตอาการโดยไม่ให้ antibiotic</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 7 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU79|RoD|Uro 15": {
-  "interp": "ชายราว 60 ปีมี LUTS มาก่อน ปัสสาวะไม่ออก 12 ชั่วโมง DRE ต่อมลูกหมากโต firm ระบายปัสสาวะแล้ว → ถามการจัดการต่อ",
-  "why": "<b>Acute urinary retention จาก BPH</b> หลังระบายแล้ว แนวทางคือ <b>คาสาย Foley ร่วมกับ alpha-blocker</b> (tamsulosin/ alfuzosin) แล้วทำ <b>trial without catheter (TWOC)</b> · alpha-blocker ที่เริ่มตั้งแต่ใส่สาย<b>เพิ่มโอกาส TWOC สำเร็จ</b> (~1.5–2 เท่า) · เวลาคาสายแนะนำ 2–3 วัน (ไม่เกิน ~1–2 สัปดาห์) เพราะคานานเสี่ยงติดเชื้อ · ถ้า TWOC ไม่ผ่าน → ผ่าตัด (TURP) · <b>ไม่ผ่าตัดทันที</b>เพราะกระเพาะที่เพิ่งยืดเกินและอาจติดเชื้อ การผ่าตัดเฉียบพลันมีภาวะแทรกซ้อนมากกว่า · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 15 A\"</b> = คา Foley catheter ร่วมกับ alpha-blocker แล้วทำ trial without catheter",
+  "interp": "ชายราว 60 ปีมี LUTS มาก่อน ปัสสาวะไม่ออก 12 ชั่วโมง DRE ต่อมโตเนื้อแน่น (firm, เข้ากับ BPH) = <b>acute urinary retention (AUR) จาก BPH</b> หลังสวนระบายแล้ว — ถามขั้นต่อไปที่ทำให้มีโอกาสกลับมาปัสสาวะเองได้มากที่สุด",
+  "why": "AUR จาก BPH เกิดจาก<b>การอุดกั้นที่มีอยู่เดิม</b> (ต่อมโต + tone ของกล้ามเนื้อเรียบที่ bladder neck/ต่อมลูกหมาก ซึ่งควบคุมด้วย alpha-1 adrenergic receptor) ร่วมกับตัวกระตุ้น เช่น ดื่มสุรา ยา anticholinergic/ decongestant กลั้นปัสสาวะนาน ท้องผูก หรือหลังผ่าตัด · การจัดการ: สวนระบายทันที (บันทึกปริมาณปัสสาวะซึ่งบอกชนิด retention) → <b>คาสายสวน</b>ให้กระเพาะปัสสาวะที่ยืดตัวเกินพักฟื้น ร่วมกับเริ่ม <b>alpha-blocker</b> (เช่น alfuzosin, tamsulosin) อย่างน้อย 2–3 วันก่อน <b>trial without catheter (TWOC)</b> — alpha-blocker เพิ่มโอกาส TWOC สำเร็จอย่างมีนัย · ถ้า TWOC ล้มเหลวหรือ AUR ซ้ำ → พิจารณาผ่าตัด (TURP หรือวิธีอื่น) แบบ elective · ไม่ควรตรวจ PSA ช่วงนี้เพราะ retention และการสวนทำให้สูงลวง · ติดตาม creatinine และ post-obstructive diuresis ในรายที่ปริมาณปัสสาวะค้างมาก · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"15 A\"</b> (ตัวพิมพ์ช้อย \"คา Foley catheter ร่วมกับ alpha-blocker 2 สัปดาห์ แล้วทำ trial without catheter\")",
   "wrong": {
-   "B": "สวนครั้งเดียวแล้วถอดทันทีโดยไม่ให้ยา โอกาส retention ซ้ำสูงในต่อมลูกหมากโต · จะถูกถ้าเป็น retention จากยาหรือหลังดมยาผ่าตัดที่ไม่มี BPH ชัด",
-   "C": "Suprapubic cystostomy ใช้เมื่อใส่สายทางท่อปัสสาวะไม่ได้หรือมีข้อห้าม · จะถูกถ้าใส่ Foley ไม่ผ่านเพราะ stricture แน่น",
-   "D": "TURP ไม่ทำในภาวะเฉียบพลัน ทำหลัง TWOC ไม่ผ่านหรือ retention ซ้ำ · จะถูกถ้าผู้ป่วยในโจทย์ TWOC ไม่ผ่านแม้ได้ alpha-blocker",
-   "E": "5-ARI ใช้เวลา 3–6 เดือนจึงลดขนาดต่อม ไม่ช่วยภาวะเฉียบพลัน และต้องระบายก่อน · จะถูกถ้าชาย BPH ต่อมใหญ่ > 40 g อาการปานกลาง ต้องการลดความเสี่ยง retention ระยะยาว"
+   "B": "สวนครั้งเดียวแล้วถอด (in-and-out) ในกระเพาะปัสสาวะที่ยืดตัวมากและยังไม่ได้แก้การอุดกั้นมีโอกาสปัสสาวะไม่ออกซ้ำสูง · จะถูกถ้าเป็นหญิง 30 ปีหลังคลอดหรือหลังผ่าตัดใต้ spinal anesthesia ที่ปัสสาวะค้าง 500 mL โดยไม่มีการอุดกั้นทางกายวิภาค (สวนเป็นครั้งคราวจนกระเพาะกลับมาบีบได้)",
+   "C": "Suprapubic cystostomy ใช้เมื่อ<b>สวนทางท่อปัสสาวะไม่ได้</b> (urethral stricture, false passage) หรือ urethral injury หรือต้องคาสายนาน — ไม่ใช่ขั้นแรกเมื่อสวน Foley ผ่านแล้ว · จะถูกถ้าเป็นชาย 65 ปี ปัสสาวะไม่ออก กระเพาะปัสสาวะโป่ง สวน Foley และ coudé catheter ไม่ผ่านเพราะ urethral stricture",
+   "D": "TURP ทันทีหลัง AUR มีภาวะแทรกซ้อนมากกว่า (เลือดออก ติดเชื้อ) เพราะต่อมบวมอักเสบและกระเพาะปัสสาวะยังไม่ฟื้น ควรให้ alpha-blocker และลอง TWOC ก่อน แล้วผ่าตัดเมื่อล้มเหลวหรือเป็นซ้ำ · จะถูกถ้าเป็นชาย 70 ปี AUR ครั้งที่ 2 TWOC ล้มเหลวทั้งที่ได้ alpha-blocker ต่อม 50 mL PSA ปกติ → elective TURP",
+   "E": "5-ARI ลดขนาดต่อมได้ราว 20–30% แต่ต้องใช้เวลา 6 เดือนขึ้นไป ไม่ช่วยในภาวะเฉียบพลัน และการไม่คาสายในกระเพาะที่ยังบีบไม่ได้ทำให้ retention ซ้ำทันที · จะถูกถ้าเป็นชาย 68 ปี LUTS เรื้อรัง ต่อม 70 mL PSA 3 ng/mL ไม่เคยมี retention ใช้เพื่อลดความเสี่ยง AUR และการผ่าตัดในอนาคต (ร่วมกับ alpha-blocker)"
   },
-  "trap": "คิดว่า retention จาก BPH = TURP ทันที — ต้องให้ alpha-blocker + TWOC ก่อน",
+  "trap": "คิดว่า AUR ต้องผ่าตัดทันทีจึงเลือก TURP หรือคิดว่าสวนครั้งเดียวพอ · หลักคือ<b>คาสาย + alpha-blocker แล้วค่อย TWOC</b> เพราะเพิ่มโอกาสปัสสาวะเองได้และเลี่ยงการผ่าตัดฉุกเฉิน · suprapubic ใช้เมื่อสวนทางท่อไม่ได้ · ระยะคาสายตาม guideline ราว 2–3 วัน (ต้นฉบับเขียน 2 สัปดาห์ แต่หลักการเดียวกัน)",
   "summary": [
-   "AUR → ใส่ Foley ระบาย",
-   "เริ่ม alpha-blocker ตั้งแต่ใส่สาย → TWOC ใน 2–3 วัน",
-   "TWOC ไม่ผ่าน/ retention ซ้ำ → TURP/ HoLEP",
-   "ใส่ทางท่อปัสสาวะไม่ได้ → suprapubic cystostomy",
-   "5-ARI: ลดขนาดต่อมใน 3–6 เดือน ลดความเสี่ยง AUR ระยะยาว",
-   "Residual > 1 L หรือ creatinine สูง → เฝ้าระวัง post-obstructive diuresis"
+   "AUR: ปวดท้องน้อย ปัสสาวะไม่ออก กระเพาะโป่งคลำได้ · สาเหตุชายสูงอายุ: BPH บ่อยสุด · ตัวกระตุ้น: แอลกอฮอล์, anticholinergic, antihistamine, decongestant, opioid, ท้องผูก, หลังผ่าตัด",
+   "ปริมาณที่สวนออกช่วยแยก: AUR มักราว 500–1,000 mL · chronic retention มักมากกว่า 800–1,000 mL ไม่ค่อยปวด อาจมี overflow incontinence และไตบวมน้ำ",
+   "การจัดการ AUR จาก BPH: catheterize → alpha-blocker ≥ 2–3 วัน → TWOC · alpha-blocker เพิ่มอัตรา TWOC สำเร็จ",
+   "TWOC ล้มเหลว/ AUR ซ้ำ → ผ่าตัด elective (TURP, HoLEP, simple prostatectomy ในต่อมใหญ่มาก) · ระหว่างรอใช้ clean intermittent catheterization หรือคาสาย",
+   "Post-obstructive diuresis: ปัสสาวะ &gt; 200 mL/ชม. หลายชั่วโมงหลังระบาย chronic retention → ติดตาม electrolytes และสารน้ำ",
+   "Hematuria หลังระบายเร็วพบได้ (ex vacuo) แต่ไม่จำเป็นต้องค่อย ๆ ปล่อยทีละน้อย — ระบายหมดได้อย่างปลอดภัย",
+   "PSA สูงลวงหลัง AUR และการสวน → เลื่อนตรวจไปหลายสัปดาห์ · ต่อมแข็งเป็นก้อน (hard nodular) ให้สงสัยมะเร็ง ต่างจาก firm/ rubbery ของ BPH"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ EAU Male LUTS Guidelines · ระยะคาสายในช้อยต้นฉบับ (2 สัปดาห์) ยาวกว่าที่ guideline แนะนำ (2–3 วัน) แต่หลักการตรงกัน",
-  "mnemonic": "<b>'Retention = สาย + alpha-blocker → TWOC · ไม่ผ่านค่อย TURP'</b>",
-  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2024 — Acute urinary retention",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"15 A\") และ EAU Male LUTS Guidelines ที่ให้คาสายร่วม alpha-blocker ก่อน TWOC · ระยะคาสาย 2 สัปดาห์ในตัวพิมพ์ยาวกว่าที่การศึกษาส่วนใหญ่ใช้ (2–3 วัน) แต่หลักการตรงกัน และช้อยอื่นผิดชัดเจน",
+  "mnemonic": "<b>'AUR = Cath → Alpha → TWOC (CAT) · Fail ซ้ำค่อย TURP'</b>",
+  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2024; McNeill SA et al. ALFAUR study: alfuzosin in acute urinary retention (BJU Int 2005); Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "TWOC ไม่ผ่านแม้ได้ tamsulosin → TURP",
-   "ใส่ Foley ไม่ผ่าน → coudé tip แล้ว suprapubic cystostomy",
-   "Retention หลังผ่าตัดเปลี่ยนข้อสะโพก ไม่มี LUTS มาก่อน → สวนแล้วถอด ติดตาม"
+   "ชาย 75 ปี ปัสสาวะไม่ออก สวน Foley ไม่ผ่านหลายครั้ง มีประวัติ urethral stricture → suprapubic cystostomy",
+   "ชาย 70 ปี TWOC หลังได้ tamsulosin 3 วันล้มเหลว PVR 600 mL ต่อม 45 mL → elective TURP",
+   "ชาย 72 ปี ไม่ปวด ปัสสาวะไหลซึมตลอด กระเพาะโป่งถึงสะดือ สวนได้ 1,500 mL creatinine สูง → chronic retention ติดตาม post-obstructive diuresis และไตฟื้น",
+   "ทำไม alpha-blocker ช่วย TWOC → ลด tone กล้ามเนื้อเรียบที่ bladder neck และ prostatic urethra (alpha-1A) ลดแรงต้านทางออก ทำให้กระเพาะที่ฟื้นแล้วบีบผ่านได้"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 7 แถว Uro 15 — ตัวพิมพ์: <b>ชายสูงอายุ (ประมาณ 60 ปี) ปัสสาวะไม่ออกมา 12 ชั่วโมง ก่อนหน้านี้มี LUTS ตรวจ DRE พบ prostate โต consistency firm (acute urinary retention) หลังสวนปัสสาวะระบายแล้ว ข้อใดเป็นการจัดการต่อที่เหมาะสมที่สุด — A. คา Foley catheter ร่วมกับ alpha-blocker 2 สัปดาห์ แล้วทำ trial without catheter B. สวนปัสสาวะครั้งเดียว (single catheterization) แล้วถอดทันที นัดติดตาม C. ทำ suprapubic cystostomy ทันที D. TURP ทันที E. ให้ 5-ARI อย่างเดียว ไม่ใส่สายสวน</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 7 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU79|RoD|Uro 16": {
-  "interp": "เด็กชาย 4 ปีอัณฑะซ้ายไม่ลงถุง ข้างขวาปกติ <b>คลำได้อัณฑะซ้ายในช่องขาหนีบ</b> → ถามการรักษา",
-  "why": "<b>Undescended testis ที่คลำได้</b> (palpable) ในเด็กอายุเกิน 6 เดือน ไม่ลงเองแล้ว · แนวทางคือ <b>orchidopexy ระหว่าง 6–18 เดือน</b> (ภายใน 12–18 เดือน) · เด็กนี้อายุ 4 ปี<b>เลยเวลาที่เหมาะสมแล้ว จึงต้องผ่าตัดโดยเร็ว</b> ไม่ต้องรอ · การผ่าช้าทำให้เซลล์สืบพันธุ์เสียหาย (ภาวะมีบุตรยาก) และเสี่ยงมะเร็งอัณฑะ (ผ่าตัดลดความเสี่ยงและทำให้คลำตรวจได้) · ผ่าทางขาหนีบ (inguinal orchidopexy) ปิด processus vaginalis ที่เปิดอยู่ด้วย · ไม่ใช้ฮอร์โมนเป็นการรักษาหลัก · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 16 A\"</b> = Orchidopexy ทันที ตรงกับคำตอบ",
+  "interp": "เด็กชาย 4 ปี อัณฑะซ้ายไม่ลงถุง (ขวาปกติ) แต่<b>คลำได้ใน inguinal canal</b> = palpable undescended testis ที่อายุเกินเวลาผ่าตัดที่แนะนำไปมากแล้ว — ถามการรักษา ซึ่งคือการผ่าตัดดึงอัณฑะลงถุงให้เร็วที่สุด",
+  "why": "อัณฑะไม่ลงถุง (cryptorchidism) พบราว 1–4.6% ของทารกครบกำหนดและสูงถึง 30% ในทารกคลอดก่อนกำหนด ส่วนใหญ่ลงเองภายใน<b>ราว 6 เดือนแรก</b> (corrected age) หลังจากนั้นแทบไม่ลงเองอีก · อัณฑะที่อยู่นอกถุงอุณหภูมิสูงกว่า ทำให้ germ cell และ Leydig cell เสื่อมตั้งแต่ขวบปีแรก เสี่ยง<b>มีบุตรยาก</b> และ<b>มะเร็งอัณฑะ</b>เพิ่มขึ้น · guideline (AUA 2014, EAU/ESPU) จึงให้ <b>orchidopexy ที่อายุ 6–18 เดือน</b> · เด็ก 4 ปีเลยกำหนดแล้วจึงต้อง<b>ผ่าตัดโดยเร็ว</b> ไม่รอต่อ · อัณฑะคลำได้ที่ขาหนีบ → <b>inguinal orchidopexy</b> (เลาะ cremaster ปิด patent processus vaginalis ที่มักพบร่วม ยืดความยาว cord แล้วตรึงอัณฑะใน subdartos pouch) หรือ scrotal approach ถ้าอยู่ต่ำ · การผ่าตัดก่อนวัยรุ่นช่วยลดความเสี่ยงมะเร็ง และทำให้ตรวจคลำติดตามได้ · ไม่แนะนำฮอร์โมน (hCG/GnRH) เพราะสำเร็จน้อยและอาจทำลาย germ cell · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"16 A\"</b> (ตัวพิมพ์ช้อย \"Orchidopexy ทันที\")",
   "wrong": {
-   "B": "hCG ได้ผลต่ำ (&lt; 20%) อัณฑะกลับขึ้นได้ และอาจทำลายเซลล์สืบพันธุ์ guideline ไม่แนะนำเป็นการรักษาหลัก · จะถูกถ้าถามการทดสอบในเด็กที่คลำอัณฑะไม่ได้ทั้งสองข้างเพื่อดูว่ามีเนื้ออัณฑะอยู่หรือไม่ (hCG stimulation test)",
-   "C": "รอถึงวัยรุ่นทำให้เสียหน้าที่และเสี่ยงมะเร็งมากขึ้น · จะถูกถ้าเป็น retractile testis ที่ดึงลงถุงได้และค้างอยู่ได้เอง",
-   "D": "Testosterone ไม่ใช่การรักษา undescended testis · จะถูกถ้าเด็ก micropenis ต้องการเพิ่มขนาดองคชาตก่อนผ่าตัดแก้ hypospadias",
-   "E": "Laparoscopy ใช้เมื่อ<b>คลำไม่ได้</b> (non-palpable) เพื่อหาอัณฑะในช่องท้อง เด็กนี้คลำได้ในช่องขาหนีบแล้ว · จะถูกถ้าคลำอัณฑะไม่ได้ทั้งในถุงและขาหนีบ"
+   "B": "hCG กระตุ้น Leydig cell ให้สร้าง testosterone หวังให้อัณฑะเคลื่อนลง แต่สำเร็จต่ำ (ราว 20% และมักกลับขึ้นซ้ำ) และอาจเพิ่ม apoptosis ของ germ cell AUA จึงไม่แนะนำใช้รักษา · จะถูกถ้าเป็นเด็กชายที่อัณฑะทั้งสองข้างคลำไม่ได้ ใช้ hCG stimulation test (ร่วมกับ AMH/inhibin B) เพื่อดูว่ามีเนื้ออัณฑะอยู่หรือไม่ (anorchia)",
+   "C": "การรอถึงวัยรุ่นทำให้เนื้ออัณฑะเสื่อมถาวร เสี่ยงมีบุตรยาก และเพิ่มความเสี่ยงมะเร็ง (orchidopexy หลังวัยรุ่นเสี่ยงมะเร็งสูงกว่าทำก่อนราว 2 เท่า) · จะถูกถ้าเป็นเด็กชาย 5 ปีที่มี <b>retractile testis</b> คือดึงลงถุงได้และค้างอยู่ได้ชั่วครู่ก่อนกลับขึ้นตาม cremasteric reflex (ติดตามทุกปีเพราะอาจกลายเป็น ascending testis)",
+   "D": "Testosterone ไม่ใช้รักษาอัณฑะไม่ลงถุง ใช้เฉพาะกระตุ้นการโตขององคชาตก่อนผ่าตัด hypospadias บางราย หรือ micropenis · จะถูกถ้าเป็นทารกชาย 3 เดือนที่มี micropenis (ความยาวต่ำกว่า −2.5 SD) จาก hypogonadotropic hypogonadism ให้ testosterone ระยะสั้นเพื่อให้องคชาตโต",
+   "E": "Diagnostic laparoscopy ใช้กับอัณฑะที่<b>คลำไม่ได้</b>เพื่อหาว่าอยู่ในช่องท้องหรือไม่มี ในกรณีคลำได้ใน inguinal canal ตำแหน่งชัดแล้วจึงผ่าทางขาหนีบได้เลย · จะถูกถ้าเป็นเด็กชาย 1 ขวบที่อัณฑะขวาคลำไม่ได้แม้ตรวจใต้ยาสลบ (non-palpable)"
   },
-  "trap": "เห็นอายุ 4 ปีแล้วคิดว่าสายเกินไปหรือรอได้ — ยิ่งช้ายิ่งต้องรีบผ่าทันที",
+  "trap": "ช้อย B และ C ฟังดูอนุรักษ์นิยมและไม่ต้องผ่าตัด · แต่อัณฑะที่ไม่ลงหลัง 6 เดือนจะไม่ลงเอง และ<b>ยิ่งรอเนื้ออัณฑะยิ่งเสื่อม</b> · เด็ก 4 ปีเลยช่วง 6–18 เดือนไปแล้วจึงต้องผ่าตัดทันที · laparoscopy เป็นของ non-palpable เท่านั้น",
   "summary": [
-   "Undescended testis: ลงเองได้ภายใน 6 เดือนแรก หลังจากนั้นไม่ลงแล้ว",
-   "Orchidopexy ช่วง 6–18 เดือน · ถ้าเลยแล้วผ่าโดยเร็ว",
-   "Palpable → inguinal orchidopexy",
-   "Non-palpable → diagnostic laparoscopy (ไม่ต้อง US/ MRI)",
-   "Non-palpable สองข้าง + hypospadias → แยก DSD (CAH) ตรวจฮอร์โมน/ karyotype",
-   "ความเสี่ยงระยะยาว: มีบุตรยาก · มะเร็งอัณฑะ · inguinal hernia · torsion"
+   "Undescended testis: 1–4.6% ทารกครบกำหนด สูงถึง 30% ในทารกก่อนกำหนด · ลงเองส่วนใหญ่ใน 6 เดือนแรก (corrected age)",
+   "แยก retractile (ดึงลงได้และค้างได้ ติดตามทุกปี) · ascending (เคยอยู่ในถุงแล้วขึ้นไป → ผ่าตัด) · ectopic (นอกทางเคลื่อนปกติ เช่น superficial inguinal pouch, perineum)",
+   "Orchidopexy ที่อายุ 6–18 เดือน (AUA/EAU) · เลยกำหนด → ผ่าตัดเร็วที่สุด · ไม่แนะนำฮอร์โมนรักษา",
+   "ผลเสียของการไม่ลง: มีบุตรยาก (โดยเฉพาะ bilateral), มะเร็งอัณฑะเพิ่มขึ้น (ส่วนใหญ่ seminoma), torsion, inguinal hernia (patent processus vaginalis)",
+   "Palpable → inguinal (หรือ scrotal) orchidopexy · non-palpable → ตรวจใต้ยาสลบ แล้ว diagnostic laparoscopy · ไม่แนะนำ US/MRI ก่อนส่งต่อ",
+   "Bilateral non-palpable หรือร่วม hypospadias → ประเมิน DSD (karyotype, 17-OHP เพื่อแยก CAH 46,XX) ก่อนผ่าตัด",
+   "หลังผ่าตัด: ยังเสี่ยงมะเร็งมากกว่าคนทั่วไป → สอนตรวจคลำอัณฑะตัวเองเมื่อถึงวัยรุ่น"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ EAU/ESPU Paediatric Urology Guidelines",
-  "mnemonic": "<b>'อัณฑะค้าง: 6 เดือนรอ · 6–18 เดือนผ่า · เลยแล้วผ่าเลย'</b>",
-  "guide": "EAU/ESPU Guidelines on Paediatric Urology 2024 — Undescended testes; AUA Guideline: Evaluation and Treatment of Cryptorchidism (J Urol 2014;192:337)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"16 A\") และ AUA Cryptorchidism Guideline รวมทั้ง EAU/ESPU Paediatric Urology Guidelines ที่ให้ผ่าตัดภายใน 18 เดือน เด็ก 4 ปีที่คลำอัณฑะได้ในขาหนีบจึงต้อง inguinal orchidopexy โดยเร็ว",
+  "mnemonic": "<b>'UDT: รอได้ถึง 6 เดือน · ผ่าก่อน 18 เดือน · คลำได้ = Inguinal · คลำไม่ได้ = Laparoscope'</b>",
+  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism 2014 (reviewed 2018); EAU/ESPU Guidelines on Paediatric Urology 2024; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Undescended Testes",
   "variants": [
-   "ทารก 3 เดือนอัณฑะข้างหนึ่งไม่ลง คลำได้ที่ขาหนีบ → เฝ้าดูถึง 6 เดือน",
-   "เด็ก 18 เดือนคลำอัณฑะซ้ายไม่ได้ → diagnostic laparoscopy",
-   "เด็ก 5 ขวบอัณฑะขึ้นลงได้ ดึงลงถุงแล้วค้างอยู่ → retractile testis ติดตามรายปี"
+   "ทารกชาย 2 เดือน อัณฑะซ้ายคลำได้ที่ขาหนีบ ขวาปกติ → นัดติดตามถึงอายุ 6 เดือน ถ้าไม่ลงส่งผ่าตัด orchidopexy ก่อน 18 เดือน",
+   "เด็กชาย 6 ปี เคยตรวจพบอัณฑะในถุงตอนเด็ก ตอนนี้อัณฑะขวาอยู่สูงที่ขาหนีบดึงลงไม่ได้ → ascending testis ทำ orchidopexy",
+   "ทารกแรกเกิดอัณฑะทั้งสองข้างคลำไม่ได้ และมี hypospadias รุนแรง → ประเมิน DSD (karyotype, 17-OHP, electrolytes) ก่อน",
+   "ทำไมอัณฑะนอกถุงเสื่อม → อุณหภูมิในขาหนีบ/ช่องท้องสูงกว่าถุงอัณฑะราว 2–4°C ทำให้ gonocyte ไม่เปลี่ยนเป็น spermatogonia ตามวัย"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 7 แถว Uro 16 — ตัวพิมพ์: <b>เด็กชายอายุ 4 ปี ตรวจพบอัณฑะข้างซ้ายไม่ลงถุง แต่ข้างขวาลงปกติ คลำพบ testis ที่ inguinal canal ข้อใดเป็นการรักษาที่เหมาะสมที่สุด — A. Orchidopexy ทันที B. hCG injection C. สังเกตอาการจนถึงวัยรุ่น D. Testosterone therapy E. Diagnostic laparoscopy</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 7 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU79|RoD|Uro 17": {
-  "interp": "เด็กชาย 18 เดือนอัณฑะซ้ายไม่ลงถุงตั้งแต่เกิด <b>คลำไม่ได้</b> และ pelvic US ก็ไม่เห็น → ถามขั้นต่อไป",
-  "why": "<b>Non-palpable testis</b> ข้างเดียว ขั้นต่อไปคือ <b>diagnostic laparoscopy</b> ซึ่งเป็นทั้งการวินิจฉัยและการรักษา: (1) เห็น vas และ vessels จบที่ blind end ในช่องท้อง (vanishing testis) → จบ (2) vas และ vessels ลงช่องขาหนีบ → สำรวจขาหนีบ (3) <b>เห็นอัณฑะในช่องท้อง</b> → ทำ laparoscopic orchidopexy (หรือ Fowler-Stephens สองขั้น) ได้ในครั้งเดียว · <b>US/ MRI ไม่แนะนำ</b>เพราะความไวต่ำ ผลลบไม่ตัดว่ามีอัณฑะ จึงไม่เปลี่ยนการจัดการ · อายุ 18 เดือนเลยเวลาที่ควรผ่าแล้ว ไม่ควรรอ · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 17 D\"</b> = Diagnostic laparoscopy ตรงกับคำตอบ",
+  "interp": "เด็กชาย 18 เดือน อัณฑะซ้ายไม่ลงถุงตั้งแต่เกิด <b>คลำไม่ได้</b> และ pelvic US ก็ไม่พบ — ถามขั้นต่อไป ต้องรู้ว่าภาพถ่ายไม่สามารถตัดการมีอยู่ของอัณฑะในช่องท้องได้ และการตรวจที่ทั้งวินิจฉัยและรักษาได้คือ <b>diagnostic laparoscopy</b>",
+  "why": "Non-palpable testis พบราว 20% ของอัณฑะไม่ลงถุง อาจเป็น (1) อัณฑะในช่องท้อง (2) อัณฑะใน inguinal canal ที่คลำไม่ได้ หรือ (3) ไม่มีอัณฑะ (vanishing testis จาก torsion ในครรภ์) · <b>US และ MRI ไม่แนะนำ</b> (AUA) เพราะผลลบไม่ได้ตัดอัณฑะในช่องท้อง และผลไม่เปลี่ยนการตัดสินใจผ่าตัด · ขั้นตอน: ตรวจคลำซ้ำ<b>ใต้ยาสลบ</b> (บางครั้งคลำได้) → <b>diagnostic laparoscopy</b> ดูที่ internal inguinal ring: (ก) เห็นอัณฑะในช่องท้อง → laparoscopic orchidopexy หรือ <b>Fowler-Stephens</b> (ตัด testicular vessels ให้อัณฑะอยู่ด้วยเลือดจาก vasal artery แบบ 1 หรือ 2 ขั้น) ถ้า vessels สั้น (ข) vas และ vessels วิ่งเข้า internal ring → สำรวจขาหนีบ มักพบ nubbin ที่เหลือ (ค) vas และ vessels <b>ปลายตันเหนือ ring</b> → vanishing testis หยุดการสำรวจได้ · อายุ 18 เดือนเป็นขอบบนของช่วงผ่าตัดที่แนะนำ จึงไม่ควรรอ · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"17 D\"</b> (ใต้ช้อยในตัวพิมพ์มีคำ \"laparotomy\" พิมพ์ค้าง)",
   "wrong": {
-   "A": "อายุ 18 เดือนอัณฑะไม่ลงเองแล้ว การรอทำให้เซลล์สืบพันธุ์เสียหายเพิ่ม · จะถูกถ้าทารกอายุ 3 เดือนอัณฑะยังไม่ลงถุง",
-   "B": "hCG stimulation test ใช้เมื่อคลำไม่ได้<b>ทั้งสองข้าง</b> เพื่อดูว่ามีเนื้ออัณฑะทำงานหรือไม่ (anorchia) ไม่จำเป็นในข้างเดียว · จะถูกถ้าคลำอัณฑะไม่ได้ทั้งสองข้างและไม่มี hypospadias",
-   "C": "MRI ความไวต่ำ ผลลบไม่ตัดว่ามีอัณฑะ ยังต้อง laparoscopy อยู่ดี และเด็กต้องดมยา · จะถูกถ้าไม่มีสถานการณ์ที่ MRI ช่วยเปลี่ยนการจัดการ non-palpable testis ในเด็กทั่วไป",
-   "E": "ไม่ตัดอัณฑะโดยยังไม่เห็น อัณฑะในช่องท้องส่วนใหญ่นำลงถุงได้ ตัดเฉพาะเมื่อฝ่อหรือนำลงไม่ได้ในเด็กโต/ วัยรุ่น · จะถูกถ้าวัยรุ่น 16 ปีพบอัณฑะในช่องท้องเล็กฝ่อ ข้างตรงข้ามปกติ"
+   "A": "การรอต่อไม่มีประโยชน์ เพราะอัณฑะที่ไม่ลงหลังอายุ 6 เดือนจะไม่ลงเองแล้ว และ 18 เดือนเป็นเวลาที่ควรผ่าตัดเสร็จแล้ว การรอทำให้เนื้ออัณฑะในช่องท้องเสื่อมมากขึ้น · จะถูกถ้าเป็นทารกชายอายุ 3 เดือน (คลอดครบกำหนด) อัณฑะข้างหนึ่งไม่ลง ซึ่งยังลงเองได้ในช่วง 6 เดือนแรก",
+   "B": "hCG stimulation test ดู testosterone ที่ตอบสนองเพื่อบอกว่ามีเนื้ออัณฑะที่ทำงานหรือไม่ มีประโยชน์ใน<b>อัณฑะคลำไม่ได้ทั้งสองข้าง</b> (ร่วมกับ AMH และ inhibin B) เพื่อวินิจฉัย bilateral anorchia · ข้างเดียวไม่ช่วยเพราะอัณฑะอีกข้างที่ปกติสร้าง testosterone อยู่แล้ว · จะถูกถ้าเป็นเด็กชาย 2 ขวบ อัณฑะทั้งสองข้างคลำไม่ได้ karyotype 46,XY และ AMH ต่ำมาก",
+   "C": "MRI ไม่แนะนำเพราะไวไม่พอ (โดยเฉพาะอัณฑะเล็กฝ่อในช่องท้อง) ต้องดมยาในเด็กเล็ก และผลลบยังต้องผ่าตัดสำรวจอยู่ดี · จะถูกถ้าเป็นเด็กโตหรือผู้ใหญ่ที่มีภาวะเพศกำกวม (DSD) ต้องการประเมินอวัยวะภายใน เช่น มดลูกหรือ Müllerian remnant ก่อนวางแผนผ่าตัด",
+   "E": "Orchiectomy ทันทีโดยยังไม่รู้ว่าอัณฑะอยู่ที่ไหนทำไม่ได้ และในเด็กเล็กเป้าหมายคือพยายามเก็บอัณฑะที่ยังมีชีวิตไว้ · การตัดออกพิจารณาเมื่อพบอัณฑะฝ่อเหลือแค่ nubbin หรือพบในผู้ใหญ่ · จะถูกถ้าเป็นชาย 25 ปีที่พบอัณฑะในช่องท้องข้างเดียว อัณฑะอีกข้างปกติ (หลังวัยรุ่นเนื้ออัณฑะเสื่อม เสี่ยงมะเร็ง จึงตัดออก)"
   },
-  "trap": "ส่ง US/ MRI ก่อนเพราะคิดว่าต้องหาตำแหน่ง — non-palpable testis ใช้ laparoscopy เลย",
+  "trap": "คนมักคิดว่าต้องหาให้เจอด้วยภาพก่อน (US/ MRI) หรือใช้ฮอร์โมนทดสอบ · แต่ US ที่ไม่พบ<b>ไม่ได้แปลว่าไม่มี</b> และ laparoscopy ให้ทั้งตำแหน่ง ความยาว vessels และรักษาได้ในครั้งเดียว · hCG test ใช้ใน bilateral non-palpable ไม่ใช่ข้างเดียว",
   "summary": [
-   "Non-palpable testis → diagnostic laparoscopy (วินิจฉัย + รักษา)",
-   "ผลที่เป็นไปได้: blind-ending vessels (vanishing) · ลงขาหนีบ · อยู่ในช่องท้อง",
-   "อัณฑะในช่องท้อง → laparoscopic orchidopexy / Fowler-Stephens",
-   "US/ MRI ไม่แนะนำ (ผลไม่เปลี่ยนการจัดการ)",
-   "สองข้างคลำไม่ได้ → hCG test/ AMH, inhibin B · แยก DSD (CAH ในทารกที่ดูเหมือนชาย)",
-   "Orchidopexy ภายใน 18 เดือน"
+   "Non-palpable testis ราว 20% ของ UDT: intra-abdominal, inguinal ที่คลำไม่ได้, หรือ absent/ vanishing (torsion ในครรภ์)",
+   "ไม่แนะนำ US/MRI ก่อนผ่าตัด (AUA) · ขั้นตอน: ตรวจใต้ยาสลบ → diagnostic laparoscopy",
+   "Laparoscopy: เห็นอัณฑะ → orchidopexy (Fowler-Stephens 1/2 ขั้นถ้า vessels สั้น) · vessels เข้า ring → สำรวจขาหนีบ · vessels ปลายตัน → vanishing testis จบได้",
+   "Fowler-Stephens: ตัด testicular artery ให้เลือดเลี้ยงจาก vasal artery และ cremasteric collaterals · แบบ 2 ขั้นห่างราว 6 เดือนให้ collateral เจริญ",
+   "อัณฑะข้างเดียวคลำไม่ได้ + อัณฑะอีกข้างโตกว่าปกติ (compensatory hypertrophy) บ่งว่าอาจไม่มีอัณฑะข้างนั้น แต่ยังต้องสำรวจยืนยัน",
+   "Bilateral non-palpable: แยก CAH 46,XX (virilized female) ก่อน · ตรวจ AMH/ inhibin B ± hCG test หา anorchia",
+   "อัณฑะในช่องท้องหลังวัยรุ่นที่อีกข้างปกติ → orchiectomy เพราะไม่สร้างอสุจิและเสี่ยงมะเร็ง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ EAU/ESPU Guidelines · ใต้ช้อยในไฟล์มีคำว่า \"laparotomy\" พิมพ์ค้างไว้ ไม่นับเป็นช้อย",
-  "mnemonic": "<b>'คลำไม่ได้ = ส่องกล้องท้องเลย ไม่ต้องอัลตราซาวด์'</b>",
-  "guide": "EAU/ESPU Guidelines on Paediatric Urology 2024 — Undescended testes; AUA Guideline: Cryptorchidism (J Urol 2014;192:337)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"17 D\") และ AUA/ EAU-ESPU ที่ให้ diagnostic laparoscopy เป็นมาตรฐานของอัณฑะคลำไม่ได้ · คำ \"laparotomy\" ที่พิมพ์ค้างใต้ช้อยในไฟล์ไม่ได้นับเป็นช้อย และ laparoscopy เป็นวิธีที่ใช้ในปัจจุบันแทนการเปิดหน้าท้อง",
+  "mnemonic": "<b>'Non-palpable = No imaging, Go Laparoscope (ดูที่ internal ring)'</b>",
+  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism 2014 (reviewed 2018); EAU/ESPU Guidelines on Paediatric Urology 2024; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
   "variants": [
-   "Laparoscopy เห็น vas และ vessels จบที่ blind end ในช่องท้อง → vanishing testis จบการผ่าตัด",
-   "ทารกดูเหมือนชาย คลำอัณฑะไม่ได้ทั้งสองข้าง → ตรวจ 17-OHP และ karyotype (CAH ในเพศหญิง)",
-   "อัณฑะในช่องท้องสูงใกล้ไต → Fowler-Stephens orchidopexy สองขั้น"
+   "Laparoscopy พบอัณฑะซ้ายใกล้ internal ring vessels ยาวพอ → laparoscopic orchidopexy ขั้นเดียว",
+   "Laparoscopy พบอัณฑะสูงใกล้ไต vessels สั้นมาก → Fowler-Stephens 2 ขั้น (ตัด vessels ก่อน แล้ว 6 เดือนต่อมาดึงอัณฑะลง)",
+   "Laparoscopy เห็น vas และ testicular vessels ปลายตันเหนือ internal ring → vanishing testis ไม่ต้องสำรวจต่อ",
+   "ทารกแรกเกิดดูเหมือนเพศชาย อัณฑะทั้งสองข้างคลำไม่ได้ → ตรวจ karyotype และ 17-OHP แยก CAH ใน 46,XX ก่อน (ภาวะเกลือแร่ผิดปกติอันตราย)"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 8 แถว Uro 17 — ตัวพิมพ์: <b>เด็กชายอายุ 18 เดือน อัณฑะข้างซ้ายไม่ลงถุงมาตั้งแต่กำเนิดตรวจร่างกายไม่คลำพบ testis (non-palpable) ทำ pelvic ultrasound ก็ไม่พบ ขอใดเป็นขั้นตอนต่อไปที่เหมาะสมที่สุด — A. สังเกตอาการอีก 6 เดือน B. hCG stimulation test C. MRI pelvis D. Diagnostic laparoscopy E. Orchiectomy ทันที · (ใต้ช้อยมีคำว่า \"laparotomy\" พิมพ์ค้างอยู่)</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 8 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 1": {
-  "interp": "เด็ก craniosynostosis <b>ตาโปนรุนแรงจนหนังตาปิดไม่สนิท</b> → ถามการรักษาที่เร่งด่วนและได้ผลที่สุดเพื่อปกป้องตา",
-  "why": "Syndromic craniosynostosis (Crouzon, Apert) มี <b>orbit ตื้น</b> ทำให้ลูกตาโปน (exorbitism) · ถ้า<b>หนังตาปิดไม่คลุมกระจกตา</b> กระจกตาจะแห้ง เป็นแผล ติดเชื้อ และทะลุได้ หรือลูกตาหลุดออกนอกหนังตา (globe luxation) · การป้องกันที่<b>ได้ผลทันทีและแน่นอนที่สุด</b> คือ <b>tarsorrhaphy</b> (เย็บหนังตาบนกับล่างเข้าหากันบางส่วน) ลดพื้นที่กระจกตาที่สัมผัสอากาศ ร่วมกับน้ำตาเทียมและยาป้ายหล่อลื่น · การแก้ถาวรคือ<b>ผ่าตัดเลื่อนกระดูกใบหน้าส่วนกลางมาด้านหน้า (monobloc/ Le Fort III advancement)</b> ให้ orbit ลึกขึ้น · ถ้ากระจกตายังดีและปิดตาได้ ใช้น้ำตาเทียมก่อน · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 1 B\"</b> = Tarsorhapy ตรงกับคำตอบ",
+  "interp": "เด็ก craniosynostosis (มักเป็นแบบ syndromic เช่น Crouzon/Apert) มี<b>ตาโปนรุนแรงจนหนังตาปิดคลุมกระจกตาไม่ได้</b> — ถามการรักษาที่เร่งด่วนและได้ผลที่สุดเพื่อปกป้องตา คือการปิดหนังตาด้วยการผ่าตัด (tarsorrhaphy) จนกว่าจะแก้ปัญหาเบ้าตาตื้น",
+  "why": "Syndromic craniosynostosis (Crouzon, Apert, Pfeiffer — ส่วนใหญ่จาก <b>FGFR2</b> mutation) มี coronal suture ปิดก่อนกำหนดร่วมกับ <b>midface hypoplasia</b> ทำให้<b>เบ้าตาตื้น</b> ลูกตาจึงยื่นออกมา (exorbitism) · เมื่อหนังตาปิดคลุมกระจกตาไม่ได้ (lagophthalmos) กระจกตาแห้ง เกิด <b>exposure keratopathy</b> → แผลกระจกตา ติดเชื้อ ทะลุ และตาบอดได้ บางรายลูกตาเคลื่อนหลุดออกนอกหนังตา (globe subluxation) ซึ่งเป็นภาวะฉุกเฉิน · การป้องกันที่<b>ได้ผลและทันทีที่สุด</b>คือ <b>tarsorrhaphy</b> (เย็บหนังตาบนและล่างเข้าหากันบางส่วนหรือทั้งหมดชั่วคราว) ร่วมกับหล่อลื่นตา · การแก้ที่ต้นเหตุคือเพิ่มปริมาตรเบ้าตาด้วย <b>monobloc frontofacial advancement</b> หรือ Le Fort III advancement (มักใช้ distraction osteogenesis) · ปัญหาร่วมที่ต้องเฝ้าระวังในเด็กกลุ่มนี้: ความดันในกะโหลกสูง (papilledema, optic atrophy), ทางเดินหายใจอุดกั้นจาก midface เล็ก (OSA) และ hydrocephalus · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"1 B\"</b> (ตัวพิมพ์ช้อย \"Tarsorhapy\")",
   "wrong": {
-   "A": "ติดเทปหนังตาช่วยชั่วคราวตอนนอน แต่หลุดง่าย ไม่พอเมื่อตาโปนรุนแรง · จะถูกถ้าผู้ป่วยอัมพาตเส้นที่ 7 ปิดตาไม่สนิทเฉพาะตอนนอน กระจกตายังดี",
-   "C": "ยาปฏิชีวนะป้ายใช้เมื่อมีการติดเชื้อหรือป้องกัน แต่ไม่แก้สาเหตุที่กระจกตาสัมผัสอากาศ · จะถูกถ้ามีกระจกตาถลอกเล็กน้อยจากสิ่งแปลกปลอม",
-   "D": "น้ำตาเทียม + steroid ช่วยหล่อลื่น แต่ steroid เสี่ยงแผลกระจกตาติดเชื้อ และไม่ปกป้องเมื่อหนังตาปิดไม่ได้ · จะถูกถ้าตาโปนเล็กน้อย หนังตาปิดได้สนิท กระจกตาปกติ (ใช้น้ำตาเทียมอย่างเดียว)",
-   "E": "ยาปฏิชีวนะทางกระแสเลือดไม่ปกป้องกระจกตาจากการแห้ง · จะถูกถ้าเกิด orbital cellulitis ตาบวมแดง ไข้"
+   "A": "Lid taping ช่วยปิดตาชั่วคราว เช่น ตอนนอนในผู้ที่หนังตาปิดได้เกือบสนิท แต่ในตาโปนรุนแรงที่หนังตาคลุมกระจกตาไม่ได้ เทปหลุดง่าย ปิดได้ไม่สนิทและไม่ยั่งยืน ทั้งเด็กยังดึงเทปออก · จะถูกถ้าเป็นผู้ใหญ่ 50 ปี Bell palsy เฉียบพลันที่หลับตาไม่สนิทเล็กน้อย ใช้เทปปิดตาตอนนอนร่วมกับน้ำตาเทียมระหว่างรอเส้นประสาทฟื้น",
+   "C": "Antibiotic ointment ช่วยหล่อลื่นและป้องกันการติดเชื้อของกระจกตาที่ถลอก แต่ไม่ได้แก้การที่กระจกตาสัมผัสอากาศตลอดเวลา จึงใช้เสริมไม่ใช่การรักษาหลัก · จะถูกถ้าเป็นเด็ก 8 ปีมี corneal abrasion จากเล็บข่วน ย้อม fluorescein พบรอยถลอกเล็ก หนังตาปิดได้ปกติ",
+   "D": "น้ำตาเทียมช่วยหล่อลื่นในตาแห้งเล็กน้อย แต่ <b>steroid ointment</b> ห้ามใช้ในกระจกตาที่สัมผัสอากาศหรือมีแผลเพราะเพิ่มการติดเชื้อ (โดยเฉพาะเชื้อรา/ herpes) และทำให้แผลหายช้า · จะถูกถ้าเป็นเด็ก craniosynostosis ที่ตาโปนเล็กน้อย หนังตายังปิดคลุมกระจกตาได้ (น้ำตาเทียมอย่างเดียว ไม่ใช้ steroid)",
+   "E": "ยาฆ่าเชื้อทางหลอดเลือดไม่ป้องกัน exposure keratopathy เพราะปัญหาคือกลไกการปิดตา ใช้เฉพาะเมื่อมีการติดเชื้อรุนแรงลุกลาม · จะถูกถ้าเป็นเด็ก 6 ปี เปลือกตาบวมแดง ตาโปน กลอกตาเจ็บและเคลื่อนไหวได้จำกัด หลังเป็นไซนัสอักเสบ (orbital cellulitis) ต้องให้ IV antibiotic"
   },
-  "trap": "เลือกน้ำตาเทียมเพราะเป็นวิธีง่าย — ถามวิธี urgent และ effective ที่สุดเมื่อปิดตาไม่ได้ = tarsorrhaphy",
+  "trap": "Lid taping และยาหยอดหรือขี้ผึ้งดูง่ายและไม่รุกล้ำ จึงเป็นตัวเลือกที่คนนึกถึงก่อน · แต่คำถามบอกว่า<b>ตาโปนรุนแรง หนังตาปิดคลุมไม่ได้</b> และถาม <b>most urgent and effective</b> ซึ่งต้องปิดตาด้วยการผ่าตัด · ถ้าหนังตายังปิดได้และกระจกตายังดี น้ำตาเทียมก็พอ",
   "summary": [
-   "Syndromic craniosynostosis (Crouzon, Apert, Pfeiffer): orbit ตื้น → ตาโปน",
-   "ตาโปนเล็กน้อย กระจกตาดี → น้ำตาเทียม/ ยาป้าย",
-   "ปิดตาไม่ได้/ กระจกตาเสี่ยง → tarsorrhaphy",
-   "แก้ถาวร: monobloc หรือ Le Fort III midface advancement",
-   "ภาวะเร่งด่วนอื่น: ทางเดินหายใจอุดกั้น (midface hypoplasia) · ICP สูง",
-   "ลูกตาหลุดออกนอกหนังตา → ดันกลับทันทีแล้ว tarsorrhaphy"
+   "Craniosynostosis: sagittal พบบ่อยสุด (scaphocephaly) · metopic → trigonocephaly · unilateral coronal → anterior plagiocephaly + harlequin eye · lambdoid พบน้อย",
+   "Virchow law: กะโหลกโตไม่ได้ในแนวตั้งฉากกับ suture ที่ปิด และโตชดเชยในแนวขนาน",
+   "Syndromic (FGFR2): Crouzon (ไม่มีความผิดปกติมือ) · Apert (complex syndactyly มือเท้า) · Pfeiffer (นิ้วโป้งมือเท้ากว้าง) · มักเป็น bicoronal + midface hypoplasia",
+   "เบ้าตาตื้น → exorbitism → exposure keratopathy/ globe subluxation · ป้องกันด่วนด้วย tarsorrhaphy + lubricant",
+   "แก้ต้นเหตุ: monobloc frontofacial advancement หรือ Le Fort III (± distraction) เพิ่มปริมาตรเบ้าตาและขยายทางเดินหายใจ",
+   "ภาวะเร่งด่วนอื่น: ICP สูง (papilledema, ตามัว), OSA จาก midface hypoplasia → อาจต้อง tracheostomy, hydrocephalus",
+   "ผ่าตัด craniosynostosis: endoscopic strip craniectomy + helmet อายุราว 2–4 เดือน · open cranial vault remodeling ราว 6–12 เดือน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ข้อนี้คล้าย 72C ไม่มีเลข 5 แต่ต่างกันที่ความรุนแรง (ข้อนั้นกระจกตายังดีจึงตอบน้ำตาเทียม)",
-  "mnemonic": "<b>'ตาโปนปิดไม่ได้ = เย็บหนังตา (tarsorrhaphy) ก่อน · ถาวรค่อยเลื่อนหน้า'</b>",
-  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Syndromic craniosynostosis; Craniofacial surgery: Le Fort III and monobloc advancement",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"1 B\") · ในตาโปนรุนแรงจากเบ้าตาตื้นที่หนังตาคลุมกระจกตาไม่ได้ tarsorrhaphy เป็นวิธีเดียวในช้อยที่ปิดตาได้จริงและทันที ส่วนเทปและยาเป็นการดูแลเสริม (ต้นฉบับมี 4 ช้อย เว็บเติมช้อย E)",
+  "mnemonic": "<b>'ตาโปนจนปิดไม่ได้ = Tarsorrhaphy ก่อน แล้วค่อย Advance midface'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Craniosynostosis/ Syndromic Craniosynostosis; Neligan's Plastic Surgery 5th ed. (2023) Vol.3 Craniofacial; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
   "variants": [
-   "เด็ก Crouzon ตาโปนเล็กน้อย ปิดตาได้ กระจกตาดี → น้ำตาเทียม",
-   "เด็ก Apert ลูกตาหลุดออกนอกหนังตาตอนร้อง → ดันกลับ แล้ว tarsorrhaphy",
-   "เด็ก Crouzon นอนกรนหยุดหายใจ → midface hypoplasia ประเมินทางเดินหายใจ ± midface advancement"
+   "เด็ก Crouzon ตาโปนมาก ลูกตาเคลื่อนหลุดออกนอกหนังตาขณะร้องไห้ → ดันลูกตากลับทันที แล้วทำ tarsorrhaphy และวางแผน midface advancement",
+   "เด็ก Apert นอนกรนหยุดหายใจ หายใจลำบากจาก midface เล็ก → ประเมิน OSA อาจต้อง tracheostomy หรือ midface advancement",
+   "ทารก 3 เดือน ศีรษะยาวหน้า-หลัง แคบด้านข้าง คลำสันนูนกลางกระหม่อม → sagittal synostosis พิจารณา endoscopic strip craniectomy + helmet",
+   "ทำไม syndromic craniosynostosis ตาโปน → coronal synostosis + midface hypoplasia ทำให้เบ้าตาตื้น (ไม่ใช่ลูกตาใหญ่ขึ้น)"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 8 แถว Plastic 1 — ตัวพิมพ์: <b>เด็ก craniosynostosis ตาโปน most urgent and effective treatment — 1. Lid taping 2. Tarsorhapy 3. Antibiotic ointment 4. Artificial tears with steroid ointment</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 8 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 2": {
-  "interp": "หญิงที่มี keloid ที่แขนต้องการเจาะหู → ถามมาตรการ<b>ป้องกันอันดับแรก</b>ไม่ให้เกิด keloid ที่รอยเจาะ",
-  "why": "ผู้ที่มี keloid มาก่อน<b>มีแนวโน้มเกิดซ้ำที่แผลใหม่</b> (ติ่งหูเป็นตำแหน่งที่เกิด keloid บ่อย) · การป้องกันที่แนะนำเป็น<b>อันดับแรก (first-line)</b> สำหรับแผลใหม่คือ <b>silicone gel/ sheet</b> ทาหรือแปะต่อเนื่องเมื่อแผลปิดแล้ว อย่างน้อย 12 ชั่วโมง/วัน เป็นเวลา 2–3 เดือน · silicone เพิ่มความชุ่มชื้นของชั้นผิว (hydration/ occlusion) ลดการกระตุ้น fibroblast ปลอดภัย ไม่เจ็บ · ร่วมกับ<b>แนะนำให้หลีกเลี่ยงการเจาะ</b>เมื่อเป็นไปได้ · intralesional steroid เป็นการ<b>รักษา</b> keloid ที่เกิดแล้ว · radiotherapy ใช้ป้องกันหลัง<b>ตัด keloid ออก</b> ไม่ใช้กับแผลเจาะหูธรรมดา · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 2 B\"</b> = silicone gel ตรงกับคำตอบ",
+  "interp": "หญิงที่<b>มี keloid อยู่แล้ว</b>ที่แขน (บ่งว่าเป็นคนเสี่ยงเกิด keloid) ต้องการเจาะหู — ถามวิธีป้องกัน keloid ที่ตำแหน่งเจาะซึ่งเป็น <b>first-line</b> ตาม scar management guideline คือ <b>silicone gel/sheet</b>",
+  "why": "Keloid เป็นแผลเป็นที่เนื้อเยื่อพังผืดเจริญเกิน<b>เลยขอบแผลเดิม</b> ไม่ยุบเอง และกลับเป็นซ้ำบ่อยหลังตัดออกอย่างเดียว เกิดจาก fibroblast สร้าง collagen (type I และ III) มากผิดปกติภายใต้ TGF-β · ปัจจัยเสี่ยง: ผิวสีเข้ม (แอฟริกัน เอเชีย) ประวัติครอบครัว อายุ 10–30 ปี และตำแหน่งที่มีแรงตึง (หน้าอก ไหล่ ต้นแขน) และ<b>ติ่งหู</b> · ผู้ที่เคยเป็น keloid ถือเป็นกลุ่มเสี่ยงสูง วิธีป้องกันที่ดีที่สุดคือหลีกเลี่ยงการเจาะ แต่ถ้ายืนยันจะเจาะ การป้องกันแบบ <b>first-line</b> ตาม International Clinical Recommendations on Scar Management คือ <b>silicone gel หรือ silicone sheet</b> เริ่มเมื่อแผลปิดสนิท (epithelialized) ใช้วันละ 12–24 ชั่วโมงต่อเนื่องอย่างน้อย 1–3 เดือน · silicone ช่วย<b>เพิ่มความชุ่มชื้นของ stratum corneum</b> (occlusion) ลดการกระตุ้น keratinocyte ส่งสัญญาณให้ fibroblast สร้าง collagen · ปลอดภัย ไม่เจ็บ และใช้ได้ทุกวัย · ในกลุ่มเสี่ยงสูงอาจเสริม pressure ได้ ส่วน steroid ฉีด รังสี ใช้กับการรักษา keloid ที่เกิดแล้วหรือหลังตัด keloid · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"2 B\"</b> (ตัวพิมพ์ช้อย \"silicone gel\")",
   "wrong": {
-   "A": "Radiotherapy ใช้หลังผ่าตัดตัด keloid ออก (ภายใน 24–48 ชม.) ลดการกลับเป็นซ้ำ ไม่ใช่ป้องกันรอยเจาะหูธรรมดา และมีรังสีต่อเนื้อเยื่อปกติ · จะถูกถ้าผู้ป่วยเพิ่งผ่าตัดตัด keloid ใหญ่ที่ติ่งหูที่เป็นซ้ำหลายครั้ง",
-   "C": "Pressure therapy (ต่างหูกดทับ) ใช้หลังตัด keloid ที่ติ่งหูได้ผลดี แต่ไม่ใช่ first-line ป้องกันในแผลเจาะใหม่ · จะถูกถ้าถามการป้องกันหลังตัด keloid ติ่งหูด้วย pressure earring",
-   "D": "Steroid ฉีดเข้าแผลเป็นการรักษา keloid ที่เกิดแล้ว หรือใช้หลังตัด keloid การฉีดทันทีในรอยเจาะใหม่ไม่ใช่มาตรฐาน · จะถูกถ้ามี keloid ที่ติ่งหูขนาด 1 cm อยู่แล้ว",
-   "E": "TCA เป็นกรดลอกผิวใช้กับรอยแผลหลุมสิว ไม่ใช้ป้องกัน keloid และอาจทำให้แย่ลง · จะถูกถ้าถามการรักษา ice-pick acne scar ด้วย TCA CROSS"
+   "A": "Prophylactic radiotherapy (เช่น electron beam) ใช้เป็น adjuvant <b>หลังตัด keloid ออก</b> ภายใน 24–72 ชั่วโมงเพื่อลดการกลับเป็นซ้ำ ไม่ใช่การป้องกันก่อนเกิดในแผลเจาะใหม่ เพราะมีความเสี่ยงระยะยาวจากรังสี · จะถูกถ้าเป็นหญิง 30 ปีที่มี keloid ติ่งหูกลับเป็นซ้ำหลังตัดและฉีดยามาแล้ว ทำ excision ใหม่แล้วฉายรังสีเสริมหลังผ่าตัด",
+   "C": "Pressure therapy (ต่างหูกด pressure earring 24–30 mmHg) ใช้ได้ผลดีหลังตัด keloid ติ่งหูและเป็นการป้องกันเสริมในบางตำรา แต่ต้องใส่วันละ 12–24 ชั่วโมงหลายเดือน การยอมรับต่ำ และไม่ใช่ first-line ตาม guideline · จะถูกถ้าเป็นหญิง 25 ปีหลังตัด keloid ที่ติ่งหูและฉีด triamcinolone แล้ว ใส่ pressure earring ต่อหลายเดือนเพื่อลดการกลับเป็นซ้ำ",
+   "D": "Intralesional triamcinolone (10–40 mg/mL) เป็น first-line ในการ<b>รักษา</b> keloid ที่เกิดแล้ว ฉีดทุก 4–6 สัปดาห์ ลด fibroblast proliferation และ collagen · การฉีดทันทีในแผลเจาะใหม่ไม่ใช่มาตรฐาน มีผลข้างเคียง (ผิวบาง ฝ่อ hypopigmentation telangiectasia) · จะถูกถ้าเป็นหญิง 28 ปีมีก้อน keloid นูนแข็งคันที่ติ่งหู 1 cm หลังเจาะหู 6 เดือน",
+   "E": "Trichloroacetic acid (TCA) เป็นสารลอกผิวทางเคมี ใช้กับรอยด่าง ฝ้า หรือแผลเป็นสิวหลุมลึก (TCA CROSS technique) การทาบนแผลเจาะทำให้ผิวบาดเจ็บเพิ่ม กระตุ้นการอักเสบและ keloid · จะถูกถ้าเป็นชาย 30 ปีมีแผลเป็นสิวหลุมแบบ ice-pick ที่แก้ม ทำ TCA CROSS (หยด TCA เข้มข้นสูงเฉพาะก้นหลุม)"
   },
-  "trap": "สับสนการป้องกันกับการรักษา — steroid/ radiation ใช้กับ keloid ที่มีอยู่หรือหลังตัด ส่วนป้องกันแผลใหม่ใช้ silicone",
+  "trap": "ช้อย D (steroid) และ A (radiotherapy) เป็นการรักษา keloid ที่ได้ผลจริง จึงชวนเลือก · แต่สิ่งเหล่านี้ใช้<b>รักษา keloid ที่เกิดแล้วหรือหลังตัด keloid</b> ไม่ใช่การป้องกันแรกในแผลใหม่ · คำถามถาม <b>first-line prevention</b> = silicone ที่ปลอดภัยและไม่รุกล้ำ (ในทางปฏิบัติควรแนะนำให้เลี่ยงการเจาะด้วย)",
   "summary": [
-   "Keloid: เกินขอบแผลเดิม ไม่ยุบเอง · Hypertrophic: อยู่ในขอบแผล ยุบได้เอง",
-   "ป้องกันแผลใหม่ในผู้มีความเสี่ยง: silicone gel/ sheet (first-line) ± pressure",
-   "รักษา keloid: intralesional triamcinolone ทุก 4–6 สัปดาห์ (first-line)",
-   "ตัด keloid อย่างเดียวกลับเป็นซ้ำ 45–100% → ต้องร่วมกับ steroid/ RT/ pressure",
-   "Post-excision RT ลดการกลับเป็นซ้ำได้มาก (ใช้กับรายดื้อ)",
-   "ตำแหน่งเสี่ยง: ติ่งหู · หน้าอก · ไหล่ · หลังส่วนบน"
+   "Keloid: เลยขอบแผลเดิม ไม่ยุบเอง เกิดหลังแผลหายหลายเดือน กลับเป็นซ้ำหลังตัดอย่างเดียวสูง (มากกว่าครึ่ง) · hypertrophic scar: อยู่ในขอบแผล เกิดใน 4–8 สัปดาห์ และยุบลงเองได้",
+   "ปัจจัยเสี่ยง keloid: ผิวสีเข้ม ประวัติครอบครัว อายุ 10–30 ปี ตำแหน่งตึง (presternal, deltoid, หลังส่วนบน) และติ่งหู · พยาธิ: collagen หนาเรียงไม่เป็นระเบียบ (keloidal collagen)",
+   "ป้องกัน (แผลใหม่ในคนเสี่ยง): silicone gel/sheet เป็น first-line เริ่มเมื่อแผลปิด ใช้ 12–24 ชม./วัน อย่างน้อย 1–3 เดือน ± pressure",
+   "รักษา keloid: intralesional triamcinolone 10–40 mg/mL ทุก 4–6 สัปดาห์ (first-line) ± 5-FU · cryotherapy · silicone · laser",
+   "ตัด keloid ต้องมี adjuvant เสมอ: steroid ฉีด หรือ radiotherapy ภายใน 24–72 ชม. หลังผ่าตัด · ติ่งหูใช้ pressure earring ต่อ",
+   "เทคนิคเย็บลดแผลเป็น: เย็บตามแนว relaxed skin tension lines, ลดแรงตึงด้วยการเย็บชั้นลึก, ป้องกันติดเชื้อ",
+   "Silicone ออกฤทธิ์ผ่าน occlusion และ hydration ของ stratum corneum ลดสัญญาณกระตุ้น fibroblast · ผลข้างเคียงน้อย (ผื่น คัน)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง-สูง — ตรงกับเฉลยอย่างย่อในไฟล์และ International Clinical Recommendations on Scar Management · บางตำรายอมรับ pressure earring เป็นการป้องกันได้ แต่ silicone เป็น first-line ที่ระบุชัด",
-  "mnemonic": "<b>'ป้องกัน = Silicone · รักษา = Steroid · หลังตัด = RT/ กด'</b>",
-  "guide": "International Clinical Recommendations on Scar Management (Plast Reconstr Surg 2002;110:560; updated 2014); Grabb and Smith's Plastic Surgery 8th ed. (2020) — Hypertrophic scars and keloids",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"2 B\") และ International Clinical Recommendations on Scar Management ที่ให้ silicone เป็น first-line ในการป้องกัน · บางตำรายอมรับ pressure earring เป็นการป้องกันที่ติ่งหูด้วย แต่ silicone ถูกระบุเป็น first-line ชัดเจนกว่าและใช้ง่ายกว่า",
+  "mnemonic": "<b>'Keloid: Prevent = Silicone · Treat = Steroid · ตัดแล้วต้อง Steroid/ Radiation (S-S-S)'</b>",
+  "guide": "Gold MH et al. Updated international clinical recommendations on scar management: part 2 — algorithms for scar prevention and treatment. Dermatol Surg 2014; Ogawa R. Keloid and hypertrophic scars are the result of chronic inflammation in the reticular dermis (Int J Mol Sci 2017); Grabb and Smith's Plastic Surgery 8th ed. (2020)",
   "variants": [
-   "Keloid ที่หน้าอก 3 cm คันเจ็บ → intralesional triamcinolone ทุก 4–6 สัปดาห์",
-   "Keloid ติ่งหูกลับเป็นซ้ำหลายครั้ง → ตัดออก + RT หลังผ่าตัด หรือ pressure earring",
-   "แผลผ่าตัดคลอดนูนแดงอยู่ในขอบแผล 2 เดือน → hypertrophic scar ใช้ silicone และ pressure"
+   "หญิง 25 ปีมี keloid ติ่งหู 2 cm หลังเจาะหู ฉีด steroid หลายครั้งไม่ยุบ → excision ร่วมกับ adjuvant steroid ฉีดหรือ radiotherapy และใส่ pressure earring",
+   "ชาย 20 ปีมี keloid ที่หน้าอกคันและเจ็บ ขนาด 3 cm → intralesional triamcinolone 40 mg/mL ทุก 4–6 สัปดาห์ (ไม่ตัดอย่างเดียวเพราะกลับเป็นซ้ำสูง)",
+   "หลังผ่าตัดไฟไหม้ แผลเป็นนูนแดงอยู่ในขอบแผลเดิม 6 สัปดาห์หลังแผลหาย → hypertrophic scar ใช้ pressure garment + silicone",
+   "ทำไมไม่ใช้ radiotherapy ป้องกันในแผลเจาะใหม่ → รังสีมีความเสี่ยงระยะยาว (มะเร็งทุติยภูมิ) ใช้เฉพาะ keloid ดื้อการรักษาหลังตัดออก"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 8 แถว Plastic 2 — ตัวพิมพ์: <b>คนไข้มีแผล keloid ที่แขนมาเจาะหู prevent keloid ear piercing — prophylactic radiotherapy · silicone gel · pressure therapy · Immediate Intralesional steroid prophylaxis · TCA</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 8 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 3": {
-  "interp": "ผู้ป่วยอุบัติเหตุ BP 80/40 <b>maxilla โยกได้</b> (Le Fort fracture) เลือดออกในปากและจมูก → ถามสิ่งที่ต้องทำต่อไป ต้องคิดตามลำดับ ATLS",
-  "why": "ตาม <b>ATLS: Airway ก่อน Breathing และ Circulation</b> · Le Fort fracture ที่มีเลือดออกในปากและจมูกมาก + ช็อก (อาจซึม) เสี่ยง<b>ทางเดินหายใจอุดตันและสำลักเลือด</b> · ใบหน้าส่วนกลางที่หักเลื่อนไปด้านหลังอาจปิดช่องคอ · จึงต้อง<b>ทำ definitive airway ด้วย orotracheal intubation</b> (RSI + in-line stabilization ของกระดูกคอ) ทันที ถ้าใส่ไม่ได้ → surgical cricothyroidotomy · <b>ห้าม nasotracheal intubation</b> เพราะอาจมีกะโหลกฐานแตก ท่ออาจเข้ากะโหลก · หลังได้ airway จึงห้ามเลือดด้วย nasal packing/ balloon และให้สารน้ำ/ เลือด · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 3 B\"</b> = Orotracheal intubation ตรงกับคำตอบ",
+  "interp": "ผู้ป่วยอุบัติเหตุจราจร ความดัน 80/40 mmHg <b>maxilla โยกได้</b> (Le Fort fracture) และ<b>เลือดออกในปากและจมูก</b> — ถามขั้นต่อไป ต้องใช้ลำดับ ATLS (ABCDE) ซึ่ง<b>ทางเดินหายใจมาก่อน</b>การให้สารน้ำ และต้องเลือกวิธีใส่ท่อที่ปลอดภัยในการบาดเจ็บกลางใบหน้า",
+  "why": "ATLS ให้แก้ปัญหาตามลำดับ <b>A (airway with restriction of cervical spine motion) → B → C</b> · กระดูกใบหน้าส่วนกลางหัก (Le Fort) ร่วมกับเลือดออกในช่องปากและจมูก คุกคามทางเดินหายใจโดยตรง: เลือดและลิ่มเลือดไหลลงคอ ชิ้นกระดูก maxilla ที่หลุดเลื่อนไปด้านหลังล่างอุดคอหอย ฟันหักและเนื้อเยื่อบวม ร่วมกับความดันต่ำที่อาจทำให้ซึม · ผู้ป่วยจึงต้องได้ <b>definitive airway</b> ก่อน — <b>orotracheal intubation</b> ด้วย RSI และ manual in-line stabilization ของคอ เตรียม suction แรงและอุปกรณ์ผ่าตัดเปิดทางเดินหายใจ · ถ้าใส่ไม่ได้ → <b>surgical cricothyroidotomy</b> · <b>ห้าม nasotracheal intubation</b> เมื่อมี midface หรือ skull base fracture · การให้สารน้ำและหาจุดเลือดออกทำ<b>คู่ขนาน</b>ทันทีหลังได้ airway (ทีมทำพร้อมกันได้ แต่ถ้าต้องเลือกลำดับ A มาก่อน) · ความดันต่ำในบาดเจ็บใบหน้าส่วนใหญ่มาจากที่อื่น (ทรวงอก ช่องท้อง เชิงกราน กระดูกยาว) ต้องค้นหาเสมอ · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"3 B\"</b> (ตัวพิมพ์ช้อย \"Orotracheal intubation\")",
   "wrong": {
-   "A": "ให้สารน้ำจำเป็นแต่เป็นขั้น C ทำหลังหรือพร้อมกับการคุม airway ไม่ใช่ก่อน · จะถูกถ้าผู้ป่วยมี airway ปลอดภัยแล้ว (ใส่ท่อแล้ว) ยังช็อกจากเลือดออก",
-   "C": "Nasal packing ห้ามเลือดจมูกได้ แต่ต้องทำ<b>หลัง</b>ได้ airway ปลอดภัย เพราะเลือดยังไหลลงคอ · จะถูกถ้าใส่ท่อแล้วยังมีเลือดออกจากจมูกมาก",
-   "D": "Nasotracheal intubation ห้ามใน midface fracture/ สงสัยกะโหลกฐานแตก (ท่อทะลุ cribriform plate เข้ากะโหลกได้) · จะถูกถ้าผู้ป่วยหักขากรรไกรล่างอย่างเดียว ไม่มี midface fracture และต้องการท่อทางจมูกเพื่อผ่าตัดยึดฟัน",
-   "E": "CT ทำหลังผู้ป่วย stable และ airway ปลอดภัย การพาไป CT ขณะช็อกและ airway ไม่ปลอดภัยอันตราย · จะถูกถ้าผู้ป่วยใส่ท่อแล้ว ความดันคงที่ ต้องวางแผนผ่าตัดกระดูกใบหน้า"
+   "A": "การให้สารน้ำ (crystalloid อุ่น 1 L ในผู้ใหญ่ แล้วเลือดเร็วตามการตอบสนอง) จำเป็นในภาวะช็อก แต่เป็นขั้น C ที่ต้องทำหลังหรือพร้อมกับการทำให้ทางเดินหายใจปลอดภัย ถ้าทางเดินหายใจอุดตันผู้ป่วยตายก่อนเสียเลือด · จะถูกถ้าเป็นชาย 30 ปีถูกแทงที่ต้นขา พูดได้ชัด หายใจปกติ ความดัน 80/50 ชีพจร 130 เลือดพุ่งจากแผล (กดห้ามเลือด + IV fluid/ เลือด)",
+   "C": "Anterior nasal packing ใช้หยุดเลือดกำเดาส่วนหน้า (Kiesselbach plexus) ในผู้ป่วยที่ทางเดินหายใจปลอดภัยแล้ว ในการบาดเจ็บ Le Fort เลือดมักมาจากด้านหลัง (internal maxillary artery) ต้อง posterior packing, ลดกระดูก หรือ angioembolization และการ packing ทำ<b>หลังใส่ท่อช่วยหายใจแล้ว</b> · จะถูกถ้าเป็นชาย 60 ปีความดันสูง เลือดกำเดาไหลจากรูจมูกซ้ายด้านหน้า ไม่มีการบาดเจ็บ บีบจมูกแล้วไม่หยุด",
+   "D": "Nasotracheal intubation <b>ห้ามทำ</b>ในกระดูกใบหน้าส่วนกลางหักหรือ basilar skull fracture (เลือดออกหู CSF rhinorrhea, raccoon eyes) เพราะท่ออาจทะลุ cribriform plate เข้าโพรงกะโหลก และทำให้เลือดออกเพิ่ม · จะถูกถ้าเป็นชาย 25 ปีที่ขากรรไกรล่างหัก (mandible) อย่างเดียว ไม่มี midface/ skull base fracture ต้องผ่าตัดยึดกระดูกแบบ elective ร่วมกับมัดฟัน (MMF) จึงใส่ท่อทางจมูกเพื่อให้สบฟันได้",
+   "E": "CT facial bones เป็นการตรวจที่ใช้วางแผนรักษากระดูกใบหน้าหัก แต่เป็นส่วนของ secondary survey ทำเมื่อผู้ป่วย<b>ทางเดินหายใจปลอดภัยและ hemodynamics คงที่</b> การส่ง CT ขณะช็อกและทางเดินหายใจเสี่ยงอันตรายถึงชีวิต · จะถูกถ้าเป็นชาย 35 ปีถูกชกหน้า สัญญาณชีพปกติ หายใจได้ดี มีหน้าแบน สบฟันผิด และ maxilla โยกเล็กน้อย"
   },
-  "trap": "เห็นช็อกแล้วตอบให้น้ำก่อน — Le Fort + เลือดออกในปาก/ จมูก = Airway มาก่อน และห้ามใส่ท่อทางจมูก",
+  "trap": "ความดัน 80/40 ดึงความสนใจไปที่การให้สารน้ำ (C) และเลือดออกจมูกชวนให้ packing · แต่ ATLS ยึด <b>A มาก่อน C</b> และ Le Fort + เลือดในปากเป็นภัยต่อ airway โดยตรง · ระหว่าง B กับ D จำว่า midface fracture = <b>ห้ามทางจมูก</b> ใส่ทางปากเท่านั้น (ไม่ได้ → cricothyroidotomy)",
   "summary": [
-   "ATLS: Airway (+ c-spine) → Breathing → Circulation → Disability → Exposure",
-   "Le Fort fracture + เลือดในปาก/ จมูก → เสี่ยงอุดกั้น → orotracheal intubation",
-   "ห้าม nasotracheal/ NG tube เมื่อสงสัยกะโหลกฐานแตกหรือ midface fracture",
-   "ใส่ท่อไม่ได้ → surgical cricothyroidotomy",
-   "ห้ามเลือดจากใบหน้า: anterior/ posterior packing · balloon · ± angioembolization",
-   "Le Fort I (เพดานโยก) · II (จมูก+เพดาน) · III (ทั้งใบหน้าแยกจากกะโหลก)"
+   "ATLS primary survey: A (airway + cervical spine motion restriction) → B → C (hemorrhage control) → D → E · แก้ทันทีเมื่อพบปัญหาก่อนไปขั้นต่อไป",
+   "Le Fort I: แนวนอนเหนือรากฟัน (floating palate) · II: pyramidal ผ่าน nasal bone และ infraorbital rim · III: craniofacial dissociation ผ่าน zygomatic arch และ frontozygomatic suture",
+   "ข้อบ่งชี้ definitive airway: ป้องกัน airway ไม่ได้ (GCS ≤ 8), ทางเดินหายใจอุดกั้นหรือคุกคาม (maxillofacial trauma, เลือด/อาเจียน), ระบายอากาศ/ออกซิเจนไม่พอ",
+   "Midface/ basal skull fracture: ห้าม nasotracheal intubation และห้ามใส่ nasogastric tube → ใช้ orogastric tube",
+   "Failed intubation ในผู้ใหญ่ → surgical cricothyroidotomy · เด็ก &lt; 12 ปี → needle cricothyroidotomy",
+   "เลือดออกจาก Le Fort ที่ไม่หยุด: posterior packing (Foley/ balloon), ลดกระดูกและยึดชั่วคราว (MMF), angioembolization ของ internal maxillary artery",
+   "Hypotension ในบาดเจ็บใบหน้าหาจุดอื่นเสมอ (chest, abdomen, pelvis, long bones, external) ด้วย CXR, pelvic X-ray, eFAST"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ ATLS 10th ed.",
-  "mnemonic": "<b>'หน้าหักกลางใบหน้า + เลือดในปาก = ใส่ท่อทางปาก (ห้ามทางจมูก)'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Airway and ventilatory management; Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial fractures",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"3 B\") และ ATLS 10th ed. ที่ให้จัดการทางเดินหายใจก่อนการไหลเวียน · Le Fort fracture ร่วมเลือดออกในปากและจมูกคุกคามทางเดินหายใจ และ nasotracheal เป็นข้อห้าม จึงเหลือ orotracheal intubation",
+  "mnemonic": "<b>'Mobile maxilla + เลือดในปาก = Airway ก่อน · ทางปากเท่านั้น (No Nose)'</b>",
+  "guide": "ATLS Advanced Trauma Life Support Student Course Manual 10th ed. (2018) — Airway and Ventilatory Management; Shock; Grabb and Smith's Plastic Surgery 8th ed. (2020) — Midface Fractures",
   "variants": [
-   "Le Fort III ใส่ท่อทางปากไม่ได้ เลือดมาก → surgical cricothyroidotomy",
-   "ใส่ท่อแล้วยังเลือดออกจากจมูกมาก → anterior + posterior packing หรือ balloon",
-   "ขากรรไกรล่างหักสองข้าง ลิ้นตกไปด้านหลัง → jaw thrust ดึงลิ้น แล้วพิจารณาใส่ท่อ"
+   "ผู้ป่วยหน้าแตกยับ ใส่ท่อทางปากไม่ได้ 2 ครั้ง SpO₂ ลดลง → surgical cricothyroidotomy",
+   "หลังใส่ท่อแล้ว เลือดยังไหลจากจมูกด้านหลังมาก → posterior nasal packing ด้วย balloon ทั้งสองข้าง ถ้าไม่หยุด angioembolization",
+   "ผู้ป่วยหน้าหัก raccoon eyes มีน้ำใสไหลจากจมูก ต้องใส่สายให้อาหาร → orogastric tube (ห้าม NG tube)",
+   "ทำไม Le Fort ทำให้ทางเดินหายใจอุดตัน → ชิ้น maxilla ที่หลุดเลื่อนไปด้านหลังล่างตามแรงดึงของกล้ามเนื้อ pterygoid ร่วมกับเลือดและเนื้อเยื่อบวมอุดคอหอย"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 8 แถว Plastic 3 — ตัวพิมพ์: <b>ผู้ป่วยอุบัติเหตุ BP 80/40 mmHg ตรวจพบ mobile maxilla มีเลือดออกในช่องปากและจมูก ข้อใดควรทำเป็นลำดับต่อไป — A. IV fluid resuscitation B. Orotracheal intubation C. Anterior nasal packing D. Nasotracheal intubation E. CT facial bones</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 8 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 4": {
-  "interp": "ผู้ใหญ่ไฟไหม้ ~30% TBSA ที่ลำตัวด้านหน้า ขา แขน <b>ไม่โดนหน้า ทางเดินหายใจปกติ</b> → ถามการจัดการแรกที่เหมาะสม",
-  "why": "Airway ปลอดภัยแล้ว (ไม่มี burn ที่หน้า ไม่มี inhalation injury) → ปัญหาเร่งด่วนถัดไปคือ <b>burn shock</b> · ไฟไหม้ <b>≥ 20% TBSA ในผู้ใหญ่</b> (≥ 10–15% ในเด็ก) ต้อง <b>IV fluid resuscitation</b> ด้วย Ringer lactate ตามสูตร <b>Parkland (4 mL/kg/%TBSA)</b> หรือ ATLS (2 mL/kg/%TBSA) ครึ่งแรกใน 8 ชั่วโมงนับจากเวลาเกิดเหตุ · ปรับตามปัสสาวะ 0.5 mL/kg/h · พร้อมกับให้ยาแก้ปวด ประเมินแผลรอบแขนขา และส่งต่อ burn center (≥ 20% TBSA) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 4 B\"</b> = IV resuscitation ตามสูตร Parkland ตรงกับคำตอบ",
+  "interp": "ผู้ใหญ่ไฟไหม้ราว <b>30% TBSA</b> ที่ลำตัวด้านหน้า ขา และแขน <b>ไม่โดนใบหน้า ทางเดินหายใจปกติ</b> — ถาม first appropriate management เมื่อ airway และ breathing ไม่มีปัญหา ขั้นสำคัญคือ<b>การให้สารน้ำทดแทน</b>ตามสูตร เพื่อป้องกัน burn shock",
+  "why": "ไฟไหม้ ≥ 20% TBSA ในผู้ใหญ่ (≥ 10–15% ในเด็ก) ทำให้เกิด <b>burn shock</b> จาก capillary leak ทั่วร่างกาย (สารสื่อกลางการอักเสบ เช่น histamine, prostaglandin, cytokine) พลาสมารั่วออกนอกหลอดเลือดมากที่สุดใน 24 ชั่วโมงแรก · เมื่อ A และ B ปลอดภัยแล้ว จึงต้องเปิดเส้นใหญ่ 2 เส้น (ผ่านผิวที่ไม่ไหม้ถ้าได้) และให้ <b>Lactated Ringer</b> ตามสูตร: <b>Parkland 4 mL × kg × %TBSA</b> (ATLS 10th และ ABA แนะนำเริ่ม 2 mL × kg × %TBSA ในผู้ใหญ่) ครึ่งหนึ่งใน <b>8 ชั่วโมงแรกนับจากเวลาเกิดเหตุ</b> อีกครึ่งใน 16 ชั่วโมงถัดไป · คิดเฉพาะ partial- และ full-thickness (ไม่นับ superficial/ first-degree) · สูตรเป็นเพียงจุดเริ่ม ต้อง<b>ปรับตาม urine output</b>: ผู้ใหญ่ 0.5 mL/kg/ชม. เด็ก &lt; 30 kg 1 mL/kg/ชม. electrical injury 1–1.5 mL/kg/ชม. ใส่สายสวนปัสสาวะติดตาม · ระวัง over-resuscitation (fluid creep) ที่ทำให้เกิด abdominal compartment syndrome · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"4 B\"</b> (ตัวพิมพ์ช้อย \"IV resuscitation ตามสูตร Parkland\")",
   "wrong": {
-   "A": "ใส่ท่อป้องกันใช้เมื่อมี inhalation injury, burn ที่หน้า/ คอลึก, stridor หรือ burn กว้างมาก (> 40–50%) ผู้ป่วยในโจทย์ airway ปกติ ไม่โดนหน้า · จะถูกถ้าผู้ป่วยติดในห้องปิด มีเขม่าในปาก เสียงแหบ",
-   "C": "ยาแก้ปวดจำเป็นและให้ได้ แต่ไม่ใช่การจัดการแรกที่ช่วยชีวิต (ภาวะช็อกสำคัญกว่า) · จะถูกถ้าไฟไหม้ 5% ที่มือ ไม่ต้องให้สารน้ำ",
-   "D": "Escharotomy ทำเมื่อแผล full thickness รอบแขนขาหรือหน้าอกจนเลือดไปเลี้ยงลดหรือหายใจลำบาก ไม่ใช่ขั้นแรกและโจทย์ไม่บอกว่ามีแผลรอบวง · จะถูกถ้าแผลไหม้ลึกรอบแขนทั้งแขน นิ้วซีดเย็น ชีพจรเบาลง",
-   "E": "ไม่แนะนำยาปฏิชีวนะป้องกันทางกระแสเลือดในผู้ป่วยไฟไหม้ (เพิ่มเชื้อดื้อยา) · จะถูกถ้าแผลไหม้มีไข้ แผลเปลี่ยนสี เพาะเชื้อพบเชื้อในเนื้อเยื่อ (burn wound infection)"
+   "A": "การใส่ท่อช่วยหายใจป้องกันทำเมื่อมีหลักฐาน <b>inhalation injury</b> หรือเสี่ยง airway edema เช่น ไฟไหม้ใบหน้าและคอ ขนจมูกไหม้ เสมหะมีเขม่า เสียงแหบ stridor ไฟไหม้ในที่ปิด หรือไฟไหม้กว้างมาก — ไม่ใช่ทุกราย และการใส่โดยไม่จำเป็นมีภาวะแทรกซ้อน · จะถูกถ้าเป็นชาย 35 ปีติดในห้องที่ไฟไหม้ ใบหน้าไหม้ ขนจมูกไหม้ เสียงแหบ เสมหะมีเขม่าดำ",
+   "C": "การระงับปวดด้วย opioid IV ขนาดเล็ก ๆ ไตเตรตเป็นสิ่งที่ต้องให้ในผู้ป่วยไฟไหม้ทุกราย แต่ไม่ใช่ขั้นตอนที่ช่วยชีวิตลำดับแรก และไม่ควรฉีดเข้ากล้ามเนื้อเพราะการดูดซึมไม่แน่นอนช่วง burn shock · จะถูกถ้าเป็นชาย 40 ปีไฟไหม้ 5% TBSA ที่มือแบบ partial-thickness ไม่ต้องให้สารน้ำตามสูตร ปวดมาก",
+   "D": "Escharotomy ทำเมื่อแผล<b>full-thickness รอบวง (circumferential)</b> ที่แขนขาจนเลือดไปส่วนปลายลดลง หรือที่หน้าอกจนขยายตัวไม่ได้ (ventilation ลด) มักเกิดหลังให้สารน้ำไประยะหนึ่ง — ไม่ใช่ทำทันทีทุกราย · จะถูกถ้าเป็นชาย 30 ปีไฟไหม้ full-thickness รอบแขนซ้าย 12 ชั่วโมงหลังให้สารน้ำ นิ้วเย็นซีด capillary refill ช้า Doppler สัญญาณลดลง",
+   "E": "Prophylactic systemic antibiotics <b>ไม่แนะนำ</b>ในไฟไหม้เฉียบพลัน เพราะไม่ลดการติดเชื้อและเพิ่มเชื้อดื้อยา แผลดูแลด้วยยาทาเฉพาะที่ (silver sulfadiazine, silver dressing) และให้ tetanus prophylaxis · จะถูกถ้าเป็นผู้ป่วยไฟไหม้ 40% TBSA วันที่ 7 มีไข้สูง ความดันต่ำ แผลเปลี่ยนสีดำ เพาะเชื้อเนื้อเยื่อพบ &gt; 10⁵ organisms/g (burn wound sepsis)"
   },
-  "trap": "เลือกใส่ท่อเพราะกลัว airway edema ในทุก burn ใหญ่ — ต้องมีข้อบ่งชี้ (inhalation, หน้า/ คอ, stridor) ก่อน",
+  "trap": "Intubation ดึงความสนใจเพราะ ATLS เริ่มที่ A และไฟไหม้บางรายต้องใส่ท่อเร็วก่อนบวม · แต่คำถามบอกชัดว่า<b>ใบหน้าไม่โดนและทางเดินหายใจปกติ</b> จึงไปขั้น C คือให้สารน้ำ · escharotomy และยาฆ่าเชื้อไม่ใช่ขั้นแรก · ระวังสับสนสูตร: 4 mL (Parkland ดั้งเดิม) vs 2 mL (ATLS 10th สำหรับผู้ใหญ่) แต่ทั้งคู่ต้องไตเตรตตาม urine output",
   "summary": [
-   "Burn ≥ 20% ผู้ใหญ่ / ≥ 10–15% เด็ก → IV resuscitation",
-   "Parkland 4 mL/kg/% · ATLS 2 mL/kg/% (ผู้ใหญ่) · ครึ่งแรก 8 ชม. จากเวลาเกิดเหตุ",
-   "เป้าปัสสาวะ: ผู้ใหญ่ 0.5 mL/kg/h · เด็ก &lt; 30 kg 1 mL/kg/h",
-   "ข้อบ่งชี้ intubation: stridor · เสียงแหบ · burn หน้า/ คอลึก · GCS ต่ำ · burn กว้างมาก",
-   "Escharotomy: full thickness รอบวง + เลือดไปเลี้ยงลด/ หายใจลำบาก",
-   "ไม่ให้ prophylactic systemic ATB · ให้ tetanus prophylaxis"
+   "Rule of nines (ผู้ใหญ่): ศีรษะ 9 · แขนข้างละ 9 · ลำตัวหน้า 18 · ลำตัวหลัง 18 · ขาข้างละ 18 · perineum 1 · ฝ่ามือผู้ป่วย (รวมนิ้ว) ≈ 1% · เด็กใช้ Lund-Browder",
+   "Fluid resuscitation: ผู้ใหญ่ ≥ 20% TBSA · LR · ATLS 10th: 2 mL/kg/%TBSA (ผู้ใหญ่), 3 mL (เด็ก), 4 mL (electrical) · ครึ่งแรกใน 8 ชม. จากเวลาเกิดเหตุ",
+   "เป้า urine output: ผู้ใหญ่ 0.5 mL/kg/ชม. · เด็ก &lt; 30 kg 1 mL/kg/ชม. · electrical/ myoglobinuria 1–1.5 mL/kg/ชม. จนปัสสาวะใส",
+   "Inhalation injury: ไฟไหม้ในที่ปิด, ใบหน้าไหม้, ขนจมูกไหม้, carbonaceous sputum, เสียงแหบ/ stridor, COHb สูง → ใส่ท่อเร็วก่อนบวม · CO poisoning ให้ 100% O₂",
+   "Escharotomy: full-thickness รอบแขนขา (ischemia) หรือรอบอก/ท้อง (ventilation ลด, abdominal compartment) · ตัดผ่าน eschar ไม่ต้องดมยาเพราะชา",
+   "ไม่ให้ prophylactic systemic antibiotics · tetanus prophylaxis · topical silver · early excision and grafting ภายในราว 3–7 วันลดการติดเชื้อ",
+   "เกณฑ์ส่ง burn center: partial-thickness &gt; 10% TBSA, ใบหน้า มือ เท้า อวัยวะเพศ ข้อใหญ่, full-thickness, electrical/ chemical, inhalation injury, โรคร่วม"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ ATLS Thermal injuries",
-  "mnemonic": "<b>'Airway โอเค + burn ≥ 20% = น้ำ Ringer ตามสูตรก่อน'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries; ABA Guidelines for Burn Patient Referral (2022)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"4 B\") และ ATLS 10th ed. (Thermal Injuries) · ไฟไหม้ 30% TBSA ที่ทางเดินหายใจปลอดภัยต้องให้สารน้ำตามสูตรเพื่อป้องกัน burn shock เป็นขั้นแรก · ATLS 10th แนะนำเริ่ม 2 mL/kg/%TBSA ในผู้ใหญ่แทน 4 mL ของ Parkland ดั้งเดิม แต่หลักการเดียวกันคือไตเตรตตามปัสสาวะ",
+  "mnemonic": "<b>'Parkland: 4 × kg × % · ครึ่งแรก 8 ชม.จากเวลาไฟไหม้ · ปัสสาวะ 0.5 (ผู้ใหญ่)'</b>",
+  "guide": "ATLS Advanced Trauma Life Support Student Course Manual 10th ed. (2018) — Thermal Injuries; ISBI Practice Guidelines for Burn Care 2016 (Burns 2016); Sabiston Textbook of Surgery 21st ed. (2022) — Burns",
   "variants": [
-   "Burn 30% มี stridor เขม่าในปาก → ใส่ท่อก่อน แล้วให้สารน้ำ",
-   "Burn full thickness รอบแขน นิ้วเย็นซีด → escharotomy",
-   "Burn 10% ที่ขาในผู้ใหญ่ ดื่มได้ → ไม่ต้องให้สารน้ำทางหลอดเลือดตามสูตร"
+   "ชาย 70 kg ไฟไหม้ 40% TBSA มาถึงหลังเกิดเหตุ 2 ชั่วโมง ใช้สูตร 4 mL → รวม 11,200 mL ให้ 5,600 mL ภายใน 6 ชั่วโมงที่เหลือของ 8 ชั่วโมงแรก",
+   "ระหว่างให้สารน้ำ urine output 0.2 mL/kg/ชม. → เพิ่มอัตรา LR ราว 20–30% แล้วประเมินซ้ำ (ไม่ใช้ furosemide)",
+   "ผู้ป่วยไฟฟ้าแรงสูงช็อต แผลเข้าออกเล็ก ปัสสาวะสีโค้ก → myoglobinuria ให้สารน้ำจนปัสสาวะ 1–1.5 mL/kg/ชม. และเฝ้าระวัง compartment syndrome",
+   "ทำไมนับ 8 ชั่วโมงจากเวลาเกิดเหตุ ไม่ใช่เวลามาถึง → capillary leak เริ่มทันทีที่ไหม้ การเริ่มนับช้าทำให้ให้สารน้ำไม่ทันในช่วงรั่วมากที่สุด"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 9 แถว Plastic 4 — ตัวพิมพ์: <b>ผู้ป่วยผู้ใหญ่ burn ประมาณ 30% TBSA ที่ anterior trunk, ขา และแขน ไม่โดนใบหน้า ข้อใดเป็น first appropriate management — A. Intubation เพื่อป้องกัน airway edema B. IV resuscitation ตามสูตร Parkland C. ให้ opioid เพื่อควบคุมความปวด D. Escharotomy ทันที E. Prophylactic IV antibiotics</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 9 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",

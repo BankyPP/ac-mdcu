@@ -1,230 +1,410 @@
 {
  "MDCU73|RoD|Plastic 1": {
-  "interp": "รอยโรคผิวหนังใดเป็น premalignant",
-  "why": "P'Ing แปะข้อสอบเดิม ลายมือ <b>actinic keratosis, Bowen's disease → SCC</b> · <b>nevus sebaceous of Jadassohn → basal cell CA</b><br><b>นอกสไลด์:</b> Solar (actinic) keratosis เป็นผื่นสากเป็นขุยบนผิวที่โดนแดดสะสม เซลล์ผิดปกติในชั้นหนังกำพร้าบางส่วนพัฒนาเป็น SCC · เนื้องอกที่เกิดบน nevus sebaceous ในปัจจุบันพบว่าส่วนใหญ่ไม่ร้าย BCC พบน้อยกว่าที่เคยเชื่อ",
+  "interp": "ให้รายชื่อรอยโรคผิวหนัง 5 ชนิด ถามว่าข้อใดเป็น <b>premalignant lesion</b> คือรอยโรคที่ยังไม่ใช่มะเร็งแต่มีโอกาสกลายเป็นมะเร็งได้ ต้องแยกกลุ่ม benign tumor ทั่วไปของผิวหนัง ออกจากรอยโรคที่มี dysplasia ของ keratinocyte จากแสงแดด",
+  "why": "<b>Solar (actinic) keratosis</b> เกิดจาก UV ทำลาย DNA ของ keratinocyte (โดยเฉพาะยีน <b>TP53</b>) ทำให้เกิด dysplasia เฉพาะชั้นล่างของ epidermis — จึงเป็น <b>premalignant ของ squamous cell carcinoma</b> · ลักษณะเป็นปื้นแดงขรุขระ สากเหมือนกระดาษทราย บนผิวที่โดนแดดเรื้อรัง (หน้า หนังศีรษะล้าน หลังมือ) ในผู้สูงอายุผิวขาวหรือคนทำงานกลางแดด · โอกาสกลายเป็น SCC ต่อหนึ่งรอยโรคต่ำ (น้อยกว่าราว 1% ต่อปี) แต่ <b>SCC ส่วนใหญ่เกิดบน AK เดิม</b> และรอยโรคบางส่วนหายเองได้ · ถ้ารอยโรค<b>หนาขึ้น เจ็บ โตเร็ว หรือเป็นแผล</b> ต้อง biopsy หา SCC · รักษาด้วย cryotherapy (รอยโรคเดี่ยว) หรือ field therapy เช่น 5-fluorouracil cream, imiquimod, photodynamic therapy เมื่อเป็นหลายจุด · ไฟล์จดคำตอบว่า <b>\"solar keratosis\"</b> และลายมือเขียนว่า <b>\"actinic keratosis, Bowen's disease → SCC · nevus sebaceous of Jadassohn → basal cell CA\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ syringoma เป็น premalignant เพราะเป็นเนื้องอกไม่ร้ายของท่อต่อมเหงื่อ (ตุ่มเล็กสีเนื้อใต้ตา)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ seborrheic keratosis กลายเป็นมะเร็ง เพราะเป็นเนื้องอกไม่ร้ายของหนังกำพร้า — ที่ขึ้นจำนวนมากทันทีบ่งมะเร็งในอวัยวะภายใน ไม่ใช่ตัวมันเป็นมะเร็ง",
-   "D": "<b>นอกสไลด์:</b> ไฝทั่วไปกลายเป็น melanoma น้อยมาก · จะถูกถ้าเป็นไฝแต่กำเนิดขนาดใหญ่มาก (giant congenital nevus) ซึ่งเสี่ยง melanoma",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ dermatofibroma เป็น premalignant เพราะเป็นก้อนพังผืดไม่ร้าย (บีบแล้วบุ๋ม)"
+   "A": "Syringoma เป็น benign adnexal tumor ของท่อต่อมเหงื่อ eccrine เป็นตุ่มเล็กสีเนื้อหลายเม็ดที่หนังตาล่าง พบในหญิงและผู้ป่วย Down syndrome ไม่กลายเป็นมะเร็ง รักษาเพื่อความสวยงามด้วย laser หรือจี้ไฟฟ้า — จะถูกถ้าเป็นหญิง 30 ปีมีตุ่มเล็กสีเนื้อนูนเล็กน้อยหลายเม็ดใต้ตาสองข้าง ไม่คัน ไม่เจ็บ เป็นมาหลายปี",
+   "C": "Seborrheic keratosis เป็น benign epidermal tumor ที่พบบ่อยที่สุดในผู้สูงอายุ เป็นตุ่มสีน้ำตาลถึงดำผิวขรุขระเหมือน<b>แปะติดบนผิว</b> (stuck-on) ไม่มีศักยภาพเป็นมะเร็ง แต่ถ้าขึ้นจำนวนมากอย่างรวดเร็ว (Leser–Trélat sign) ต้องหามะเร็งในช่องท้อง — จะถูกถ้าเป็นชาย 65 ปีมีตุ่มสีน้ำตาลเข้มขอบชัดผิวเป็นขี้ผึ้งหลายจุดที่หลัง ค่อย ๆ เพิ่มจำนวนตามอายุ",
+   "D": "Compound nevus เป็นไฝธรรมดาที่มี nevus cell ทั้งที่รอยต่อ dermis–epidermis และใน dermis เป็นตุ่มนูนสีน้ำตาลสม่ำเสมอขอบเรียบ เสี่ยงต่ำมาก ต่างจาก dysplastic nevus หรือ giant congenital nevus (&gt; 20 cm) ที่เสี่ยง melanoma สูงขึ้น — จะถูกถ้าเป็นวัยรุ่น 16 ปีมีไฝนูนสีน้ำตาลขนาด 4 mm สีเท่ากันทั้งเม็ด ขอบเรียบ ไม่เปลี่ยนแปลงมาหลายปี",
+   "E": "Dermatofibroma เป็น benign fibrohistiocytic nodule แข็งสีน้ำตาลแดงที่ขาของหญิง มักตามหลังแมลงกัดหรือแผลเล็ก บีบด้านข้างแล้วบุ๋มลง (dimple sign) ไม่กลายเป็นมะเร็ง — จะถูกถ้าเป็นหญิง 35 ปีมีก้อนแข็งเล็กสีน้ำตาลที่หน้าแข้งหลังโดนยุงกัด เวลาบีบสองข้างก้อนบุ๋มลงไปตรงกลาง"
   },
-  "trap": "ชื่อ solar keratosis กับ seborrheic keratosis คล้ายกัน — seborrheic เป็นแผ่นนูนสีน้ำตาลเหมือนแปะบนผิว ไม่ใช่มะเร็ง",
+  "trap": "ชื่อที่ลงท้ายด้วย keratosis เหมือนกันทำให้สับสนระหว่าง <b>seborrheic</b> (benign ไม่เกี่ยวแดด) กับ <b>solar/actinic</b> (dysplasia จาก UV → SCC) · และไฝ (nevus) ชวนให้คิดถึง melanoma — แยกโดยจำว่า premalignant ต้องมี dysplasia หรือภาวะที่มีหลักฐานกลายเป็นมะเร็ง เช่น AK, Bowen's disease, dysplastic nevus, leukoplakia ไม่ใช่ไฝธรรมดาหรือ adnexal tumor",
   "summary": [
-   "<b>นอกสไลด์:</b> Actinic keratosis ที่หนาขึ้น แข็งที่ฐาน โตเร็ว เจ็บ หรือเป็นแผล → ตัดชิ้นเนื้อหา SCC · รอยโรคบางรักษาด้วย cryotherapy หรือยาทา (5-FU, imiquimod)"
+   "Actinic (solar) keratosis: ปื้นแดงสาก ๆ บนผิวโดนแดดเรื้อรัง เป็น keratinocyte dysplasia จาก UV (TP53) → premalignant ของ SCC · SCC ส่วนใหญ่เกิดบน AK เดิม",
+   "รักษา AK: รอยโรคน้อย → cryotherapy · หลายจุดทั่วบริเวณ → field therapy (5-FU cream, imiquimod, photodynamic therapy) · หนาขึ้น เจ็บ โตเร็ว เป็นแผล → biopsy หา SCC",
+   "Bowen's disease = SCC in situ (full-thickness atypia) ปื้นแดงมีสะเก็ดขอบชัด · ที่องคชาตเรียก erythroplasia of Queyrat · รักษาด้วย excision, 5-FU หรือ PDT",
+   "Premalignant อื่น: leukoplakia/ erythroplakia ในช่องปาก (erythroplakia เสี่ยงสูงกว่า) · xeroderma pigmentosum · แผลเป็นไฟไหม้เรื้อรัง → Marjolin ulcer (SCC)",
+   "Nevus sebaceous of Jadassohn: ปื้นสีเหลืองส้มไม่มีผมที่หนังศีรษะตั้งแต่เกิด โตเป็นหูดในวัยรุ่น อาจเกิดเนื้องอก (trichoblastoma, BCC ซึ่งพบน้อย) → พิจารณาตัดออก",
+   "Melanoma risk: dysplastic nevus หลายเม็ด, giant congenital nevus &gt; 20 cm, ประวัติครอบครัว · ใช้ ABCDE (Asymmetry, Border, Color, Diameter &gt; 6 mm, Evolving) คัดกรอง",
+   "Benign ที่ไม่กลายเป็นมะเร็ง: seborrheic keratosis (stuck-on), syringoma (ใต้ตา), dermatofibroma (dimple sign), compound/ intradermal nevus ธรรมดา"
   ],
-  "opinion": "เห็นด้วยกับคีย์ (solar keratosis) — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B (solar keratosis) ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่จดคำตอบว่า solar keratosis (ในไฟล์อยู่ช้อย A แต่ในเว็บสลับตำแหน่งเป็น B) และลายมือที่เขียนว่า actinic keratosis และ Bowen's disease นำไปสู่ SCC · ช้อยอื่นทั้งหมดเป็น benign lesion ที่ไม่มีศักยภาพเป็นมะเร็ง",
+  "mnemonic": "<b>'Solar = Sun → SCC (3S) · Seborrheic = Stuck-on (benign)'</b>",
+  "guide": "Bolognia Dermatology 5th ed. (2024) — Actinic keratosis, Bowen disease; Grabb and Smith's Plastic Surgery 8th ed. (2020) — Benign and premalignant skin lesions",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลเรื้อรังไม่หายบนแผลเป็นไฟไหม้เก่า ขอบนูนแข็ง → Marjolin ulcer (SCC) ตัดชิ้นเนื้อ",
-   "<b>นอกสไลด์:</b> ผู้ป่วยปลูกถ่ายไตกินยากดภูมิ มี actinic keratosis จำนวนมาก → เสี่ยง SCC สูงมาก ตรวจผิวหนังใกล้ชิด"
+   "ชาวนา 70 ปี มีปื้นแดงสากที่หน้าผากหลายจุด จุดหนึ่งหนาขึ้น โตเร็ว เจ็บ และเป็นแผลใน 2 เดือน → excisional/ punch biopsy สงสัย SCC ที่เกิดบน AK",
+   "หญิง 60 ปี ปื้นแดงมีสะเก็ดขอบชัดที่ขา ไม่หายด้วยยาทาสเตียรอยด์ ชิ้นเนื้อพบ atypia เต็มความหนา epidermis → Bowen's disease (SCC in situ)",
+   "เด็กมีปื้นสีเหลืองส้ม ผิวเป็นขี้ผึ้ง ไม่มีผมขึ้นที่หนังศีรษะตั้งแต่เกิด → nevus sebaceous of Jadassohn → ติดตาม/ พิจารณาตัดออกก่อนวัยรุ่น",
+   "ชาย 55 ปี มีแผลเรื้อรังไม่หายบนแผลเป็นไฟไหม้ที่ขามา 20 ปี ขอบนูนแข็ง → Marjolin ulcer → wide excision และ biopsy ต่อมน้ำเหลืองตามข้อบ่งชี้"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>Premalignant lesion — A. solar keratosis</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ช้อยตามข้อสอบเดิมที่ P'Ing แปะ (ช้อย 3, 5 ว่าง → Claude เติม) · ไฟล์ช้อย A = คำตอบ แต่ในชุดนี้สลับตำแหน่ง",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plastic1"
   ]
  },
  "MDCU73|RoD|Plastic ตรงแอค 1": {
-  "interp": "ผู้ใหญ่ 60 kg แผลไหม้ระดับสองและสาม 40% TBSA → ปริมาณ crystalloid ใน 8 ชม.แรกตาม Parkland",
-  "why": "ไฟล์จดแค่หัวข้อ <b>คิด parkland</b> — โจทย์แต่งขึ้น<br><b>นอกสไลด์:</b> Parkland = 4 × 60 × 40 = 9,600 mL ใน 24 ชม. · ครึ่งแรก 4,800 mL ให้ใน 8 ชม.นับจากเวลาเกิดเหตุ ที่เหลือใน 16 ชม.ถัดไป",
+  "interp": "ผู้ใหญ่หนัก 60 kg ไฟไหม้ระดับสองและสาม 40% TBSA — ถามปริมาณ crystalloid ใน <b>8 ชั่วโมงแรกหลังเกิดไฟไหม้</b> ตาม <b>Parkland formula</b> ต้องคำนวณยอดทั้ง 24 ชม. ก่อนแล้วแบ่งครึ่ง ไม่ใช่ตอบยอดทั้งวัน",
+  "why": "Parkland formula = <b>4 mL × น้ำหนัก (kg) × %TBSA</b> (นับเฉพาะ partial และ full thickness ไม่นับ superficial/ first degree) = ยอด Lactated Ringer's ใน 24 ชม. · <b>ครึ่งแรกให้ใน 8 ชม. นับจากเวลาเกิดไฟไหม้</b> (ไม่ใช่เวลามาถึงโรงพยาบาล) อีกครึ่งให้ใน 16 ชม. ถัดไป · คำนวณ: 4 × 60 × 40 = <b>9,600 mL/24 ชม.</b> → 8 ชม.แรก <b>4,800 mL</b> (ราว 600 mL/ชม.) · เหตุผลที่ต้องให้มากในช่วงแรกคือ burn ทำให้ capillary leak สูงสุดใน 24 ชม.แรก น้ำและโปรตีนรั่วออกนอกหลอดเลือด เกิด burn shock · สูตรเป็นเพียง<b>จุดเริ่มต้น</b> ต้องปรับตาม <b>urine output</b> (ผู้ใหญ่ 0.5 mL/kg/ชม., เด็กน้ำหนัก &lt; 30 kg 1 mL/kg/ชม., electrical injury 1–1.5 mL/kg/ชม.) · ATLS 10th ed. เสนอเริ่มที่ 2 mL/kg/%TBSA ในผู้ใหญ่เพื่อลด fluid creep แต่ข้อนี้ระบุ Parkland ชัด · ไฟล์จดเพียงหัวข้อ <b>\"ตรงแอคเกือบหมด — คิด parkland\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 60 kg แผล 20% → 4 × 60 × 20 ÷ 2 = 2,400 mL",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 60 kg แผล 60% → 4 × 60 × 60 ÷ 2 = 7,200 mL",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 80 kg แผล 60% → 4 × 80 × 60 ÷ 2 = 9,600 mL",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 60 kg แผล 30% → 4 × 60 × 30 ÷ 2 = 3,600 mL"
+   "A": "2,400 mL คือครึ่งแรกของสูตร <b>2 mL/kg/%TBSA</b> (2 × 60 × 40 = 4,800 แบ่งครึ่ง) ซึ่งเป็นค่าเริ่มต้นที่ ATLS 10th ed. แนะนำในผู้ใหญ่ ไม่ใช่ Parkland 4 mL — จะถูกถ้าเป็นชาย 60 kg ไฟไหม้ 40% TBSA ที่แพทย์เลือกเริ่มสารน้ำตามคำแนะนำ ATLS ฉบับปัจจุบัน (2 mL/kg/%TBSA) ใน 8 ชม.แรก",
+   "C": "7,200 mL ได้จาก 3 × 60 × 40 ซึ่งเป็นยอด 24 ชม.ของสูตร 3 mL/kg/%TBSA ที่ ATLS ใช้ในเด็ก หรือคิดเป็นสามในสี่ของ Parkland โดยไม่มีหลักการ — จะถูกถ้าเป็นเด็กโตน้ำหนัก 60 kg ไฟไหม้ 40% TBSA ที่คำนวณด้วยสูตรเด็ก 3 mL/kg/%TBSA และถามยอดรวมทั้ง 24 ชม. (ไม่รวม maintenance)",
+   "D": "9,600 mL คือ<b>ยอดทั้ง 24 ชม.</b>ของ Parkland ไม่ใช่ 8 ชม.แรก — ถ้าให้ทั้งหมดนี้ใน 8 ชม.จะเกินเกือบเท่าตัว เสี่ยง abdominal compartment syndrome และปอดบวมน้ำ · จะถูกถ้าเป็นชาย 60 kg ไฟไหม้ 40% TBSA ที่แพทย์ต้องประเมินปริมาณ Lactated Ringer's ทั้งหมดที่จะให้ภายใน 24 ชม.แรกหลังไฟไหม้",
+   "E": "3,600 mL ได้จากครึ่งแรกของสูตร 3 mL/kg/%TBSA (7,200 แบ่งครึ่ง) ซึ่งเป็นสูตรเริ่มต้นในเด็กของ ATLS ไม่ใช่ Parkland ในผู้ใหญ่ — จะถูกถ้าเป็นเด็กวัยรุ่นน้ำหนัก 60 kg ไฟไหม้ระดับสองถึงสาม 40% TBSA ที่ใช้สูตรเด็ก (3 mL) คิดสารน้ำ 8 ชม.แรก"
   },
-  "trap": "2,400 mL เท่ากับครึ่งแรกของสูตร 2 mL/kg/%TBSA (ATLS) พอดี · 9,600 mL คือปริมาณทั้ง 24 ชม. ไม่ใช่ 8 ชม.แรก",
+  "trap": "ลืมแบ่งครึ่งแล้วตอบ 9,600 mL (ยอด 24 ชม.) หรือจำสูตร ATLS ใหม่ (2 mL) ปนกับ Parkland (4 mL) · อ่านให้ชัดว่าถามสูตรอะไรและช่วงเวลาไหน และจำว่า 8 ชม.นับจาก<b>เวลาเกิดไฟไหม้</b> — ถ้ามาช้า 3 ชม. ต้องให้ครึ่งแรกให้หมดในเวลาที่เหลือ 5 ชม.",
   "summary": [
-   "<b>นอกสไลด์:</b> ATLS ฉบับปัจจุบันเริ่มที่ 2 mL × kg × %TBSA ในผู้ใหญ่ · ไฟฟ้าแรงสูงเริ่ม 4 mL · ทุกสูตรเป็นแค่อัตราเริ่มต้น ปรับตามปัสสาวะ"
+   "Parkland: 4 mL × kg × %TBSA (partial + full thickness) ด้วย Lactated Ringer's · ครึ่งแรกใน 8 ชม.นับจากเวลาเกิดเหตุ ครึ่งหลังใน 16 ชม.",
+   "ATLS 10th ed.: ผู้ใหญ่ thermal burn เริ่ม 2 mL/kg/%TBSA · เด็ก 3 mL/kg/%TBSA (+ maintenance ที่มี dextrose ในเด็กเล็ก) · electrical 4 mL/kg/%TBSA",
+   "เป้า urine output: ผู้ใหญ่ 0.5 mL/kg/ชม. (ราว 30–50 mL/ชม.) · เด็ก &lt; 30 kg 1 mL/kg/ชม. · electrical/ myoglobinuria 1–1.5 mL/kg/ชม. จนปัสสาวะใส",
+   "Rule of nines ผู้ใหญ่: ศีรษะ 9 · แขนข้างละ 9 · ลำตัวหน้า 18 หลัง 18 · ขาข้างละ 18 · perineum 1 · ฝ่ามือรวมนิ้วของผู้ป่วยราว 1% · เด็กใช้ Lund–Browder (ศีรษะใหญ่กว่า)",
+   "ข้อบ่งชี้ให้สารน้ำตามสูตร: ไฟไหม้ partial/ full thickness ราว &gt; 20% TBSA ในผู้ใหญ่ (เด็กเกณฑ์ต่ำกว่า) · เปิดเส้นใหญ่ 2 เส้น ใส่สายสวนปัสสาวะวัด urine ทุกชั่วโมง",
+   "Fluid creep (ให้เกินสูตร): abdominal/ extremity/ orbital compartment syndrome, ปอดบวมน้ำ · ให้น้อยไป: burn shock, AKI, zone of stasis กลายเป็นเนื้อตาย",
+   "ไม่นับ first-degree burn (แดงไม่พอง) ใน %TBSA · ประเมินซ้ำหลัง 24–48 ชม.เพราะความลึกของแผลชัดขึ้น"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ — ตอบตามการคำนวณ Parkland · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B (4,800 mL) ความมั่นใจสูง — คำนวณตรงตาม Parkland formula 4 × 60 × 40 = 9,600 mL ใน 24 ชม. แบ่งครึ่งใน 8 ชม.แรก · ไฟล์จดไว้เพียงหัวข้อว่าข้อสอบให้คิด Parkland และตรงกับข้อสอบเดิมเกือบหมด ตัวเลขผู้ป่วยในเว็บจึงแต่งขึ้นเพื่อฝึกคำนวณ",
+  "mnemonic": "<b>'4 × kg × % → ครึ่งใน 8 (นับจากเวลาไหม้) ครึ่งใน 16'</b>",
+  "guide": "ATLS 10th ed. (2018) Chapter 9 Thermal Injuries; ISBI Practice Guidelines for Burn Care (Burns 2016)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 20 kg แผลไหม้ระดับสอง 30% → 3 × 20 × 30 = 1,800 mL ใน 24 ชม. (ครึ่งแรก 900 mL ใน 8 ชม.) บวก maintenance ที่มี dextrose",
-   "<b>นอกสไลด์:</b> ผู้ใหญ่ 70 kg แผลระดับหนึ่ง (แดงไม่มีตุ่มน้ำ) 30% และระดับสอง 10% → นับแค่ 10% ยังไม่ถึงเกณฑ์ให้สารน้ำทางหลอดเลือดตามสูตร"
+   "หญิง 50 kg ไฟไหม้ 30% TBSA มาถึงโรงพยาบาล 2 ชม.หลังเกิดเหตุ ยังไม่ได้สารน้ำ → Parkland 6,000 mL/24 ชม. ครึ่งแรก 3,000 mL ต้องให้หมดใน 6 ชม.ที่เหลือ (500 mL/ชม.)",
+   "ไฟไหม้ 40% TBSA หลังให้สารน้ำตามสูตร 4 ชม. urine output 15 mL/ชม. (น้ำหนัก 60 kg) → เพิ่มอัตราสารน้ำ ไม่ใช่ให้ furosemide",
+   "ชายถูกไฟฟ้าแรงสูงดูด แผลเข้าออกเล็ก ปัสสาวะสีโค้ก → ให้ 4 mL/kg/%TBSA เป้า urine 1–1.5 mL/kg/ชม. จนปัสสาวะใส",
+   "ทำไมไม่นับ first-degree burn → ผิวแดงอย่างเดียวไม่มี capillary leak มากพอจะเสียน้ำ การนับรวมทำให้ให้สารน้ำเกิน"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>ตรงแอคเกือบหมด — คิด parkland</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดว่า ตรงแอคเกือบหมด แล้วระบุแค่หัวข้อ (คิด parkland) → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plasticlist"
   ]
  },
  "MDCU73|RoD|Plastic ตรงแอค 2": {
-  "interp": "ชาวนาสูงอายุ ตุ่มเงาแบบมุก (pearly) ขอบม้วนนูน มีเส้นเลือดฝอย แผลตรงกลาง ที่จมูก โตช้า → ถามการวินิจฉัย",
-  "why": "ไฟล์จดแค่หัวข้อ <b>basal cell ca</b> — โจทย์แต่งขึ้น<br><b>นอกสไลด์:</b> BCC เป็นมะเร็งผิวหนังที่พบบ่อยที่สุด เกิดบนผิวโดนแดดของใบหน้า · ชนิด nodular เป็นตุ่มมุกขอบม้วน มี telangiectasia ตรงกลางเป็นแผล (rodent ulcer) โตช้า ลุกลามเฉพาะที่ แทบไม่แพร่กระจาย",
+  "interp": "ชาวนาสูงอายุ (สัมผัสแดดเรื้อรัง) มีก้อนที่จมูกโตช้า ลักษณะ <b>pearly nodule ขอบม้วนนูน (rolled edge) มี telangiectasia และแผลตรงกลาง</b> — ถามการวินิจฉัย ซึ่งเป็นลักษณะคลาสสิกของมะเร็งผิวหนังที่พบบ่อยที่สุด",
+  "why": "<b>Basal cell carcinoma (BCC)</b> เป็นมะเร็งผิวหนังที่พบบ่อยที่สุด กำเนิดจาก basal keratinocyte สัมพันธ์กับ UV (intermittent/ สะสม) และการกลายพันธุ์ใน <b>Hedgehog pathway (PTCH1)</b> · ราว 80% อยู่ที่ศีรษะและคอ โดยเฉพาะจมูก · ชนิด <b>nodular</b> พบบ่อยที่สุด: ก้อนมันวาวเหมือนไข่มุก ขอบม้วน มีหลอดเลือดฝอยบนผิว และแผลตรงกลาง (rodent ulcer) · คนเอเชียมักเป็น <b>pigmented BCC</b> สีดำน้ำตาลทำให้สับสนกับ melanoma · โตช้า ทำลายเนื้อเยื่อเฉพาะที่แต่ <b>แพร่กระจายน้อยมาก</b> (&lt; 0.1%) · วินิจฉัยด้วย punch/ shave biopsy · รักษาด้วยการตัด: ก้อนความเสี่ยงต่ำ &lt; 2 cm ใช้ margin ราว 4 mm · ก้อนเสี่ยงสูง (H-zone ของหน้า เช่น จมูก เปลือกตา ริมฝีปาก หู, ชนิด morpheaform/ infiltrative, เป็นซ้ำ) ใช้ <b>Mohs micrographic surgery</b> เพื่อเก็บเนื้อปกติ · ไฟล์จดหัวข้อ <b>\"ตรงแอคเกือบหมด — basal cell ca\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมีก้อนแข็งมีขุยหนาหรือแผลตกสะเก็ดที่ริมฝีปากล่างหรือใบหู โตเร็วกว่า",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นรอยสีดำไม่สมมาตร ขอบไม่เรียบ หลายสี โตขึ้น (ABCDE) เช่นที่ฝ่าเท้าคนไทย",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าตุ่มรูปโดมมีจุก keratin ตรงกลาง โตเร็วมากในไม่กี่สัปดาห์",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผื่นแบนสาก มีขุย สีแดงบนผิวโดนแดด คลำได้ดีกว่ามองเห็น"
+   "A": "Squamous cell carcinoma ก็พบบนผิวโดนแดดและมักเกิดบน actinic keratosis แต่เป็นปื้นหรือก้อนแข็ง มี<b>สะเก็ดหนา (keratotic)</b> แผลเลือดออกง่าย ไม่มีขอบมุก โตเร็วกว่า และแพร่ไปต่อมน้ำเหลืองได้มากกว่า BCC — จะถูกถ้าเป็นชาย 70 ปีมีก้อนแข็งผิวเป็นสะเก็ดหนาที่ริมฝีปากล่างหรือหูซึ่งโตใน 3 เดือน หรือแผลเรื้อรังบนแผลเป็นไฟไหม้เก่า",
+   "C": "Malignant melanoma ต้องมีลักษณะ ABCDE (ไม่สมมาตร ขอบไม่เรียบ หลายสี ใหญ่ &gt; 6 mm เปลี่ยนแปลง) — ในคนไทยพบชนิด <b>acral lentiginous</b> ที่ฝ่าเท้า ฝ่ามือ ใต้เล็บบ่อยที่สุด ไม่ใช่ก้อนมุกมี telangiectasia — จะถูกถ้าเป็นหญิง 60 ปีมีปื้นดำขอบไม่เรียบหลายสีที่ฝ่าเท้าโตขึ้นเรื่อย ๆ หรือเส้นดำใต้เล็บที่ลามออกมาที่ผิวรอบเล็บ (Hutchinson sign)",
+   "D": "Keratoacanthoma เป็นก้อนรูปโดมโต<b>เร็วมากในไม่กี่สัปดาห์</b> ตรงกลางเป็นจุกขี้ไคล (keratin-filled crater) และอาจยุบเองได้ แต่แยกจาก well-differentiated SCC ทางพยาธิได้ยากจึงรักษาแบบ SCC — จะถูกถ้าเป็นชาย 65 ปีมีก้อนรูปโดมที่หลังมือโตจาก 2 mm เป็น 2 cm ใน 4 สัปดาห์ ตรงกลางเป็นหลุมมีขี้ไคลอุด",
+   "E": "Actinic keratosis เป็นปื้นแดงแบนผิว<b>สากเป็นขุย</b>ขนาดเล็ก ไม่ใช่ก้อนนูนมันวาวที่มีแผลตรงกลาง และเป็นรอยโรค premalignant ของ SCC ไม่ใช่มะเร็ง — จะถูกถ้าเป็นชาวสวน 65 ปีมีปื้นแดงสากหลายจุดขนาดไม่กี่มิลลิเมตรบนหน้าผากและหลังมือ คลำแล้วเหมือนกระดาษทราย ไม่โตเป็นก้อน"
   },
-  "trap": "แผลตรงกลางทำให้คิดถึง SCC — แต่ขอบมุกม้วนนูนและ telangiectasia เป็นลักษณะ BCC",
+  "trap": "ทั้ง BCC, SCC, keratoacanthoma และ AK เกิดบนผิวโดนแดดในผู้สูงอายุเหมือนกัน คนจึงเลือก SCC จากคำว่าชาวนาและแผล · แยกด้วยลักษณะผิว: <b>มันวาวเหมือนมุก + rolled edge + telangiectasia</b> = BCC · <b>สะเก็ดหนา/ keratotic + โตเร็วกว่า</b> = SCC · โตเร็วเป็นสัปดาห์มีจุก keratin = keratoacanthoma",
   "summary": [
-   "<b>นอกสไลด์:</b> BCC ความเสี่ยงต่ำ ตัดขอบราว 4 mm (NCCN)"
+   "BCC: มะเร็งผิวหนังพบบ่อยที่สุด · ราว 80% ที่ศีรษะและคอ โดยเฉพาะจมูก · เกี่ยวกับ UV และ Hedgehog pathway (PTCH1) · แพร่กระจายน้อยมากแต่ทำลายเนื้อเยื่อเฉพาะที่",
+   "ชนิดของ BCC: nodular (พบบ่อยสุด) · superficial (ปื้นแดงที่ลำตัว) · pigmented (พบบ่อยในคนเอเชีย) · morpheaform/ infiltrative (แผลเป็นแข็ง ขอบไม่ชัด เป็นซ้ำบ่อย)",
+   "Low-risk BCC &lt; 2 cm: excision margin ราว 4 mm หรือ curettage/ electrodesiccation · High-risk (H-zone ของหน้า, ชนิด aggressive, เป็นซ้ำ) → Mohs micrographic surgery",
+   "ผู้ที่ผ่าตัดไม่ได้: radiotherapy, imiquimod/ 5-FU (superficial BCC) · ลุกลามหรือแพร่กระจาย: Hedgehog inhibitor (vismodegib, sonidegib)",
+   "Gorlin syndrome (basal cell nevus syndrome, PTCH1): BCC หลายก้อนตั้งแต่อายุน้อย, odontogenic keratocyst ที่ขากรรไกร, palmar pits, calcified falx · หลีกเลี่ยงการฉายรังสี",
+   "SCC: เกิดบน AK/ Bowen's/ แผลเรื้อรัง (Marjolin) · margin low-risk ราว 4 mm high-risk ราว 6 mm · แพร่ไปต่อมน้ำเหลืองได้ (โดยเฉพาะริมฝีปาก หู)",
+   "แยก melanoma ด้วย ABCDE · ในคนเอเชียพบ acral lentiginous บ่อย · ความหนา Breslow เป็นตัวพยากรณ์และกำหนด margin"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ (มีแค่หัวข้อ BCC) — ตอบ BCC · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B (basal cell carcinoma) ความมั่นใจสูง — ลักษณะ pearly nodule, rolled edge, telangiectasia และ central ulceration บนจมูกของผู้สูงอายุที่ทำงานกลางแดดเป็นภาพคลาสสิกของ nodular BCC · ไฟล์จดเพียงหัวข้อ basal cell ca ว่าตรงกับข้อสอบเดิม เว็บจึงแต่งโจทย์ให้ครบลักษณะเด่น",
+  "mnemonic": "<b>'Pearly + Rolled + Telangiectasia = BCC (\"มุก ม้วน เส้นเลือด\")'</b>",
+  "guide": "NCCN Guidelines: Basal Cell Skin Cancer (Version 2025); Grabb and Smith's Plastic Surgery 8th ed. (2020) — Skin cancer",
   "variants": [
-   "<b>นอกสไลด์:</b> BCC ที่จมูกนี้ (บริเวณ H-zone ของใบหน้า) → Mohs surgery เพื่อตัดให้หมดและเก็บเนื้อดีไว้มากที่สุด",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุผ่าตัดไม่ได้ เป็น BCC ชนิดผิวตื้น (superficial) ที่ลำตัว → ยาทา imiquimod หรือ cryotherapy"
+   "หญิง 72 ปี มีก้อน BCC ชนิด morpheaform ที่ปีกจมูก ขอบเขตไม่ชัด → Mohs micrographic surgery แล้วซ่อมด้วย local flap",
+   "ชาย 60 ปี มีปื้นแดงขอบชัดเล็กน้อยที่หลัง ชิ้นเนื้อเป็น superficial BCC ไม่อยากผ่าตัด → imiquimod หรือ 5-FU ทาได้",
+   "ชายไทย 65 ปี มีก้อนสีดำมันวาวขอบนูนที่แก้ม โตช้าหลายปี → pigmented BCC (พบบ่อยในคนเอเชีย) ต้อง biopsy แยกจาก melanoma",
+   "วัยรุ่น 17 ปี มี BCC หลายก้อนที่หน้า ร่วมกับถุงน้ำในขากรรไกรและหลุมเล็กที่ฝ่ามือ → Gorlin syndrome (PTCH1) หลีกเลี่ยงการฉายรังสี"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>ตรงแอคเกือบหมด — basal cell ca</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่หัวข้อ basal cell ca → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plasticlist"
   ]
  },
  "MDCU73|RoD|Plastic ตรงแอค 3": {
-  "interp": "แผลลึกที่แก้มตัดผ่านแนวจาก tragus ถึงกึ่งกลางริมฝีปากบน หน้าต่อ masseter มีน้ำใสไหล → โครงสร้างใดบาดเจ็บ",
-  "why": "ไฟล์จดหัวข้อ <b>รูปแผลแก้ม → Stensen duct</b> — โจทย์แต่งขึ้น<br><b>นอกสไลด์:</b> Parotid (Stensen) duct วิ่งตามช่วงกลางของเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน ข้ามหน้า masseter แล้วแทง buccinator เปิดตรงฟันกรามบนซี่ที่สอง · น้ำใสที่ไหลคือน้ำลาย",
+  "interp": "แผลลึกที่แก้ม<b>ตัดผ่านเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน</b> อยู่หน้าต่อกล้ามเนื้อ masseter และมี<b>น้ำใสไหลออกจากแผล</b> (น้ำลาย) — ถามโครงสร้างที่น่าจะบาดเจ็บ ต้องรู้ surface anatomy ของ parotid duct และสิ่งที่วิ่งคู่กัน",
+  "why": "<b>Parotid (Stensen) duct</b> ยาวราว 5–7 cm ออกจากขอบหน้าของต่อม parotid วิ่ง<b>บนผิวกล้ามเนื้อ masseter</b> แล้วหักลึกแทง buccinator ที่ขอบหน้าของ masseter เปิดในช่องปาก<b>ตรงข้ามฟันกรามบนซี่ที่ 2</b> · surface marking คือ<b>กึ่งกลางสามส่วนของเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน</b> · แผลลึกในแนวนี้ที่มีน้ำใสไหลต้องสงสัย duct ขาด และต้องตรวจ <b>buccal branch ของ facial nerve</b> ซึ่งวิ่งคู่กับ duct (ให้ผู้ป่วยยิ้ม ยกริมฝีปากบน) · ยืนยันโดยสอด catheter/ lacrimal probe เข้ารูเปิด duct ในปากแล้วฉีด saline หรือ methylene blue ดูว่าออกมาที่แผลไหม · รักษา: duct ขาด → <b>ต่อปลายด้วย microsurgical technique บน stent</b> (silastic tube/ angiocatheter) คาไว้ราว 2 สัปดาห์ · บาดเจ็บในเนื้อต่อม → เย็บ capsule ใส่ drain พันกด · ถ้าไม่ซ่อม อาจเกิด sialocele หรือ salivary fistula · ไฟล์จดหัวข้อ <b>\"ตรงแอคเกือบหมด — รูปแผลแก้ม → stensen duct\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าแผลที่พื้นปากใต้ลิ้น มีน้ำลายรั่วจากแผล",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าแผลที่ขอบล่างของขากรรไกรหน้าต่อ masseter มีเลือดแดงพุ่ง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแผลลึกใต้ขากรรไกรล่าง แลบลิ้นแล้วลิ้นเบี้ยวไปข้างแผล",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าแผลที่หัวตาด้านใน (medial canthus) ตัดขอบเปลือกตา แล้วน้ำตาไหลตลอด"
+   "A": "Submandibular (Wharton) duct อยู่ใต้ลิ้นที่พื้นช่องปาก เปิดที่ sublingual caruncle ข้าง frenulum ไม่ได้ผ่านแก้ม จึงไม่บาดเจ็บจากแผลแนว tragus–ริมฝีปาก — จะถูกถ้าเป็นชาย 30 ปีถูกแทงที่พื้นช่องปากใต้ลิ้น หลังจากนั้นต่อมใต้ขากรรไกรบวมเวลากินอาหาร หรือหลังผ่าตัด ranula แล้วมีน้ำลายคั่ง",
+   "C": "Facial artery ข้ามขอบล่างของ mandible ตรง<b>ขอบหน้าของ masseter</b> (คลำชีพจรได้) แล้ววิ่งเฉียงขึ้นไปมุมปากและข้างจมูก แผลบริเวณนี้อาจโดนได้แต่จะมี<b>เลือดแดงพุ่ง</b> ไม่ใช่น้ำใส — จะถูกถ้าเป็นชาย 25 ปีถูกมีดฟันที่ขอบขากรรไกรล่างหน้าต่อมุมขากรรไกร มีเลือดแดงพุ่งเป็นจังหวะต้องกดห้ามเลือดและผูกหลอดเลือด",
+   "D": "Hypoglossal nerve อยู่ลึกใต้ขากรรไกรใน submandibular triangle วิ่งผ่านเหนือ hyoid ไปเลี้ยงกล้ามเนื้อลิ้น ไม่ได้อยู่ที่แก้ม บาดเจ็บแล้วลิ้นเอียงไป<b>ด้านที่บาดเจ็บ</b> เวลาแลบลิ้นและฝ่อ — จะถูกถ้าเป็นผู้ป่วยหลังผ่าตัด carotid endarterectomy หรือตัดต่อม submandibular แล้วแลบลิ้นเบี้ยวไปด้านผ่าตัด พูดและกลืนลำบาก",
+   "E": "Lacrimal canaliculus/ duct อยู่ที่<b>หัวตาด้านใน (medial canthus)</b> ระบายน้ำตาลง lacrimal sac และ nasolacrimal duct ไปออกใต้ inferior turbinate ไม่ได้อยู่กลางแก้ม · บาดเจ็บแล้วน้ำตาไหลล้น (epiphora) — จะถูกถ้าเป็นเด็ก 6 ขวบโดนสุนัขกัดหรือเกี่ยวขอบเปลือกตาล่างใกล้หัวตาฉีกขาด ต้องซ่อม canaliculus บน silicone stent"
   },
-  "trap": "แผลแก้มลึกหน้า masseter ต้องตรวจทั้ง duct และ buccal branch ของ facial nerve ที่วิ่งคู่กัน",
+  "trap": "เห็นน้ำใสออกจากแผลหน้าแล้วคิดถึงน้ำตา (lacrimal) หรือ CSF หรือจำต่อมน้ำลายผิดเป็น submandibular · จำ landmark: แผล<b>กลางแก้มบนแนว tragus–กึ่งกลางริมฝีปากบน หน้าต่อหู แต่หลังขอบหน้า masseter</b> = parotid duct + buccal branch ของ facial nerve ต้องตรวจทั้งสองอย่างทุกครั้ง",
   "summary": [
-   "<b>นอกสไลด์:</b> ยืนยันโดยใส่สายเล็กเข้ารูเปิดตรงฟันกรามบนซี่ที่สองแล้วฉีดน้ำเกลือหรือสีดูการรั่วที่แผล · ซ่อมด้วยการเย็บต่อท่อบนสายค้าง (stent)"
+   "Parotid duct: กึ่งกลางของเส้น tragus → กึ่งกลางริมฝีปากบน · วิ่งบน masseter แล้วแทง buccinator เปิดตรงข้ามฟันกรามบนซี่ที่ 2",
+   "Buccal branch ของ facial nerve วิ่งคู่ duct → แผลแก้มลึกต้องตรวจการยิ้ม ยกริมฝีปากบน ก่อนให้ยาชา",
+   "ตรวจยืนยัน duct injury: สอด catheter เข้ารูเปิดในปาก ฉีด saline/ methylene blue ดูที่แผล",
+   "รักษา: duct ขาด → microsurgical repair บน stent ราว 2 สัปดาห์ · ซ่อมไม่ได้ → ทำ fistula เข้าช่องปาก หรือผูก duct (ต่อมฝ่อ) · บาดเจ็บในเนื้อต่อม → drain + pressure dressing",
+   "ภาวะแทรกซ้อนเมื่อไม่ซ่อม: sialocele (ถุงน้ำลายใต้ผิว) และ salivary fistula ที่ผิว · รักษาด้วยเจาะดูด พันกด ยาลดน้ำลาย หรือ botulinum toxin",
+   "Facial nerve ขาด: ต่อปลายด้วย microsurgery ภายใน 72 ชม. (ยังใช้ nerve stimulator หาปลายส่วนปลายได้) · แผลหน้าต่อแนวดิ่งจาก lateral canthus แขนงเล็กมาก มักไม่ต้องต่อ",
+   "แผลหัวตาด้านใน → นึกถึง lacrimal canaliculus · แผลพื้นปาก → Wharton duct · แผลใต้ขากรรไกร → hypoglossal, marginal mandibular nerve"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ (มีแค่หัวข้อ Stensen duct) — ตอบ parotid duct · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B (parotid duct) ความมั่นใจสูง — แนวแผล tragus ถึงกึ่งกลางริมฝีปากบนหน้าต่อ masseter ร่วมกับน้ำใสไหลออกเป็นลักษณะของ Stensen duct ขาด ตรงกับที่ไฟล์จดว่าข้อสอบเดิมเป็นรูปแผลแก้มที่คำตอบคือ stensen duct · ในไฟล์ไม่มีรูป เว็บจึงบรรยายแนวแผลเป็นข้อความแทน",
+  "mnemonic": "<b>'Tragus → ริมฝีปากบน: ตรงกลาง = Stensen + Buccal branch (\"แก้มขาด ตรวจน้ำลายกับยิ้ม\")'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Soft tissue injuries of the face; Sabiston Textbook of Surgery 21st ed. (2022) — Head and neck",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลเดียวกัน ยิ้มแล้วมุมปากข้างนั้นไม่ยก → buccal branch ของ facial nerve ขาด ต่อเส้นประสาทในช่วงแรก (ภายในราว 72 ชม. ยังกระตุ้นหาปลายได้)",
-   "<b>นอกสไลด์:</b> หลังแผลแก้มหาย มีก้อนนุ่มบวมขึ้นเวลากินอาหาร → sialocele: เจาะดูดและพันกด"
+   "แผลแก้มลึกหลังอุบัติเหตุ หลังเย็บ 2 สัปดาห์มีก้อนนิ่มบวมใต้แผลโตขึ้นเวลากินอาหาร เจาะได้น้ำใสมี amylase สูง → sialocele → เจาะดูดและพันกด",
+   "แผลแก้มยาวผ่านแนว parotid duct ยิ้มแล้วมุมปากข้างนั้นไม่ยก → buccal branch ของ facial nerve ขาด → ต่อเส้นประสาทด้วย microsurgery ภายใน 72 ชม.",
+   "แผลฉีกขาดที่เปลือกตาล่างใกล้หัวตา น้ำตาไหลล้นตลอด → inferior canaliculus ขาด → ซ่อมบน silicone stent",
+   "ทำไมต้องสอด catheter ผ่านรูเปิดในปาก → เพื่อหาปลาย duct ส่วนปลายและใช้เป็น stent ประคองการต่อ ลดการตีบหลังซ่อม"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>ตรงแอคเกือบหมด — รูปแผลแก้ม → stensen duct</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดว่าเป็นรูปแผลแก้ม แต่ไม่มีรูป → Claude แต่งโจทย์เป็นข้อความ",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plasticlist"
   ]
  },
  "MDCU73|RoD|Plastic ตรงแอค 4": {
-  "interp": "เด็ก Crouzon ตาโปนมาก (exorbitism) หลับตาไม่สนิท กระจกตาเริ่มแห้ง → หัตถการเร่งด่วนเพื่อปกป้องตา",
-  "why": "ไฟล์จดหัวข้อ <b>crouzon → tarsorrhaphy</b> — โจทย์แต่งขึ้น<br><b>นอกสไลด์:</b> เบ้าตาตื้นจาก midface hypoplasia ทำให้ลูกตาโปนจนเปลือกตาปิดไม่ได้ กระจกตาแห้งเป็นแผลจนตาบอดได้ · tarsorrhaphy (เย็บเปลือกตาบนล่างเข้าหากันบางส่วน) ทำได้ทันทีเพื่อคลุมกระจกตา ระหว่างรอผ่าตัดแก้เบ้าตาที่ต้องวางแผน",
+  "interp": "เด็กกลุ่มอาการ <b>Crouzon</b> ตาโปนรุนแรง (exorbitism) จนหลับตาไม่สนิท และเริ่มมี <b>corneal exposure</b> — ถามหัตถการที่ต้องทำทันทีเพื่อปกป้องตา คือแยกการแก้เฉพาะหน้าออกจากการผ่าตัดกระดูกแก้โครงสร้างที่ทำภายหลัง",
+  "why": "Crouzon syndrome เป็น syndromic craniosynostosis จาก <b>FGFR2 mutation</b> (autosomal dominant) — กะโหลกปิดก่อนกำหนด (มักเป็น bicoronal) ร่วมกับ <b>midface hypoplasia</b> ทำให้เบ้าตาตื้น ลูกตาจึงยื่นออกมา (exorbitism) · ผลคือเปลือกตาปิดไม่สนิท กระจกตาแห้ง เกิด <b>exposure keratopathy</b> แผลกระจกตา ติดเชื้อ จนตาบอดได้ และในรายรุนแรงลูกตาอาจหลุดออกนอกเปลือกตา (globe subluxation) · การปกป้องตาเฉพาะหน้า: ยาหยอด/ ขี้ผึ้งหล่อลื่นตา และ <b>tarsorrhaphy</b> (เย็บเปลือกตาบนล่างติดกันบางส่วน) เพื่อปิดกระจกตาทันที · การแก้ต้นเหตุคือเพิ่มปริมาตรเบ้าตาด้วย <b>monobloc frontofacial advancement หรือ Le Fort III</b> (มักร่วมกับ distraction osteogenesis) ซึ่งต้องวางแผน ประเมิน ICP ทางเดินหายใจ และทำตามวัยที่เหมาะ ไม่ใช่หัตถการฉุกเฉิน · ไฟล์จดหัวข้อ <b>\"ตรงแอคเกือบหมด — crouzon → tarsorrhaphy\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ monobloc advancement เป็นหัตถการทันทีเพื่อปกป้องตา เพราะเป็นการผ่าตัดกะโหลกและใบหน้าใหญ่ที่ต้องเตรียมและวางแผน — เป็นการแก้ระยะยาวหลังปกป้องตาแล้ว",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Le Fort I ปกป้องตา เพราะเลื่อนเฉพาะขากรรไกรบนส่วนที่มีฟัน ไม่เพิ่มความลึกของเบ้าตา",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ขยายกะโหลกปกป้องตาที่โปน เพราะแก้ความดันในกะโหลกและรูปศีรษะ ไม่ได้เปลี่ยนความลึกเบ้าตา",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ DCR ปกป้องกระจกตาจากการหลับตาไม่สนิท เพราะแก้ท่อน้ำตาอุดตัน"
+   "B": "Monobloc advancement เลื่อนหน้าผากและ midface มาข้างหน้าพร้อมกันจึงแก้ทั้งเบ้าตาตื้นและ midface hypoplasia เป็นการแก้ต้นเหตุ แต่เป็นการผ่าตัดใหญ่ที่ต้องวางแผน เสี่ยงติดเชื้อและ CSF leak ไม่ใช่สิ่งที่ทำ<b>ทันที</b> — จะถูกถ้าเป็นเด็ก Crouzon อายุราว 5–7 ปีที่ตาโปนและ midface เล็กรุนแรง มีหยุดหายใจขณะหลับ และได้ tarsorrhaphy ประคองตาไว้แล้ว",
+   "C": "Le Fort I osteotomy เลื่อนเฉพาะ maxilla ส่วนที่มีฟันเพื่อแก้การสบฟัน ไม่ได้เพิ่มปริมาตรเบ้าตาเลย จึงไม่ช่วยตาโปน — จะถูกถ้าเป็นวัยรุ่น 17 ปีที่โตเต็มที่แล้ว มีฟันล่างยื่นเลยฟันบน (class III malocclusion) จาก maxilla เล็กหลังผ่าตัด cleft lip and palate ในวัยเด็ก",
+   "D": "Cranial vault expansion (fronto-orbital advancement หรือ posterior vault distraction) ขยายกะโหลกเพื่อแก้ความดันในกะโหลกสูงและรูปศีรษะ มักทำในขวบปีแรก ช่วยขอบเบ้าตาบนได้บางส่วนแต่ไม่ใช่การปกป้องกระจกตาเฉพาะหน้า — จะถูกถ้าเป็นทารก Crouzon อายุ 8 เดือนที่มี papilledema กระหม่อมโป่งตึง และ CT เห็น copper-beaten skull",
+   "E": "Dacryocystorhinostomy ทำทางระบายน้ำตาใหม่จาก lacrimal sac เข้าโพรงจมูกเมื่อ nasolacrimal duct อุดตัน ไม่เกี่ยวกับการปิดกระจกตา — จะถูกถ้าเป็นหญิง 50 ปีน้ำตาไหลล้นข้างเดียวเรื้อรัง ถุงน้ำตาอักเสบบวมแดงที่หัวตาซ้ำ ๆ กดแล้วมีหนองไหลออกจาก punctum และ probing ไม่ผ่าน"
   },
-  "trap": "การผ่าตัดใหญ่ (monobloc) แก้ต้นเหตุได้ แต่คำถามคือหัตถการเร่งด่วนเพื่อปกป้องตา",
+  "trap": "เห็นชื่อ Crouzon แล้วตอบการผ่าตัดกระดูกใบหน้าที่เป็นการรักษาหลักของโรค (monobloc/ Le Fort III) · คำว่า <b>immediate</b> และ <b>early corneal exposure</b> บอกว่าถามการป้องกันตาบอดเฉพาะหน้า — ลำดับคือหล่อลื่นตา + tarsorrhaphy ก่อน แล้วค่อยวางแผนผ่าตัดเพิ่มปริมาตรเบ้าตา",
   "summary": [
-   "<b>นอกสไลด์:</b> Crouzon: FGFR2 · craniosynostosis + midface hypoplasia + ตาโปน · มือเท้าปกติ · ก่อน tarsorrhaphy ใช้น้ำตาเทียมและปิดตาชื้นได้"
+   "Crouzon: FGFR2, autosomal dominant · bicoronal synostosis + midface hypoplasia + exorbitism · มือเท้าปกติ (ต่างจาก Apert ที่มี syndactyly)",
+   "Apert: FGFR2 · craniosynostosis + syndactyly มือเท้าแบบ mitten · Pfeiffer: นิ้วโป้งมือเท้ากว้างเอียง · Saethre–Chotzen: TWIST1, หนังตาตก",
+   "ปัญหาหลักของ syndromic synostosis: ICP สูง, ทางเดินหายใจอุดตัน (OSA จาก midface เล็ก), exposure keratopathy, hydrocephalus, การได้ยิน",
+   "ปกป้องตา: หล่อลื่นตา → tarsorrhaphy · ลูกตาหลุดนอกเปลือกตา (globe subluxation) → ดันกลับทันทีแล้วเย็บ tarsorrhaphy",
+   "ลำดับผ่าตัดโดยทั่วไป: ขวบปีแรก cranial vault expansion (ICP) → วัยเด็ก monobloc/ Le Fort III ± distraction (ตาโปน OSA) → หลังโตเต็มที่ Le Fort I/ orthognathic (การสบฟัน)",
+   "Non-syndromic synostosis: sagittal พบบ่อยที่สุด (scaphocephaly ศีรษะยาว) · metopic → trigonocephaly · unicoronal → anterior plagiocephaly",
+   "ทำ tarsorrhaphy ได้แบบชั่วคราว (เย็บผ่านผิว) หรือถาวร (ลอกขอบเปลือกตาให้ติดกัน) · lateral tarsorrhaphy ปิดตาบางส่วนยังมองเห็นได้"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ (มีแค่หัวข้อ) — ตอบ tarsorrhaphy · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A (tarsorrhaphy) ความมั่นใจสูง — โจทย์ถามการปกป้องกระจกตาเฉพาะหน้า ซึ่ง tarsorrhaphy ทำได้ทันทีและป้องกันตาบอด ขณะที่ช้อยอื่นเป็นการผ่าตัดกระดูกตามแผนหรือไม่เกี่ยวกับกระจกตา · ไฟล์จดไว้เพียงหัวข้อ crouzon → tarsorrhaphy ว่าตรงกับข้อสอบเดิม",
+  "mnemonic": "<b>'Crouzon ตาโปน: ปิดตาก่อน (Tarsorrhaphy) ขยับหน้าทีหลัง (Monobloc)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Syndromic craniosynostosis; Neligan's Plastic Surgery 5th ed. (2023) Vol.3 Craniofacial",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก craniosynostosis มีนิ้วมือนิ้วเท้าติดกันทั้งหมด → Apert syndrome (FGFR2 เช่นกัน)",
-   "<b>นอกสไลด์:</b> เด็ก Crouzon นอนกรนหยุดหายใจ → ทางเดินหายใจแคบจาก midface hypoplasia ส่ง sleep study (อาจต้องเลื่อน midface)"
+   "ทารก Crouzon ร้องไห้แล้วลูกตาข้างหนึ่งหลุดออกมานอกเปลือกตา → ดันลูกตากลับทันที หล่อลื่นตา แล้วเย็บ tarsorrhaphy",
+   "เด็ก 6 เดือน Crouzon กระหม่อมโป่งตึง อาเจียน ตรวจตาพบ papilledema → posterior vault distraction/ cranial vault expansion",
+   "เด็ก 6 ปี Crouzon กรนหยุดหายใจขณะหลับรุนแรง ตาโปน midface เล็ก → monobloc หรือ Le Fort III advancement ร่วมกับ distraction",
+   "ทารกนิ้วมือเท้าติดกันทั้งหมดแบบ mitten ร่วมกับ craniosynostosis → Apert syndrome (FGFR2) ไม่ใช่ Crouzon"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>ตรงแอคเกือบหมด — crouzon → tarsorrhaphy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่หัวข้อ → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plasticlist"
   ]
  },
  "MDCU73|RoD|Plastic ตรงแอค 5": {
-  "interp": "สงสัย zygomaticomaxillary complex (ZMC) หัก → ท่าถ่ายภาพรังสีธรรมดาที่มีประโยชน์ที่สุด",
-  "why": "ไฟล์จดหัวข้อ <b>zygoma fracture → Water's view</b> — โจทย์แต่งขึ้น<br><b>นอกสไลด์:</b> Waters (occipitomental) ยกฐานกะโหลกพ้นใบหน้าส่วนกลาง เห็นขอบเบ้าตา zygoma และ maxillary sinus (เลือดในไซนัส) ทั้งสองข้างเทียบกัน · ปัจจุบัน CT ใบหน้าเป็นมาตรฐาน",
+  "interp": "สงสัย <b>zygomaticomaxillary complex (ZMC) fracture</b> — ถามท่าถ่ายภาพรังสีธรรมดา (plain film) ที่มีประโยชน์ที่สุด ต้องรู้ว่าแต่ละ view ของใบหน้าแสดงโครงสร้างใดชัด และรู้ว่ามาตรฐานปัจจุบันคือ CT",
+  "why": "ZMC (tripod/ tetrapod) fracture แตกที่จุดยึดของ zygoma กับกะโหลก 4 จุด: <b>frontozygomatic suture</b>, <b>infraorbital rim/ zygomaticomaxillary buttress</b>, <b>zygomatic arch</b> และ zygomaticosphenoid suture (ผนังข้างเบ้าตา) · อาการ: แก้มแบน (malar flattening) ช้ำรอบตา เลือดออกใต้เยื่อบุตา <b>ชาที่แก้ม ริมฝีปากบน ข้างจมูก</b> (infraorbital nerve) คลำได้ขั้นบันไดที่ขอบเบ้าตาล่าง อ้าปากไม่ขึ้นเมื่อกระดูกกด coronoid process และอาจเห็นภาพซ้อน · plain film ที่ดีที่สุดคือ <b>Waters view (occipitomental)</b> เพราะยก petrous ridge ลงพ้น maxillary sinus จึงเห็นขอบเบ้าตาล่าง โพรง maxillary sinus (มีเลือดคั่งเป็น air-fluid level) zygoma และรอยต่อ FZ ได้ชัด · ส่วน arch ดูด้วย submentovertex (jug-handle) view · ปัจจุบันมาตรฐานคือ <b>CT facial bones แบบ axial + coronal (± 3D)</b> ใช้วางแผน ORIF · ไฟล์จดหัวข้อ <b>\"ตรงแอคเกือบหมด — zygoma fracture → Water's view\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยกระดูกท้ายทอยหักหลังล้มหงายศีรษะกระแทก",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ lateral cephalogram เป็นท่าหลักประเมินกระดูกใบหน้าหัก เพราะออกแบบไว้วัดสัดส่วนขากรรไกรเพื่อวางแผนจัดฟันหรือผ่าตัดขากรรไกร และภาพสองข้างซ้อนกัน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัย mandible body หัก ฟันสบผิด ชาริมฝีปากล่าง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยผนังหน้าของ frontal sinus หักหลังหน้าผากกระแทก"
+   "B": "Towne view (AP axial เอียงหัวลอด) แสดง occipital bone, foramen magnum และ mandibular condyle/ ramus ได้ดี (reverse Towne ใช้ดู condyle) แต่ไม่เห็นกลางหน้าและขอบเบ้าตาล่างชัด — จะถูกถ้าเป็นชาย 20 ปีถูกชกคาง ปวดหน้าหู อ้าปากแล้วคางเบี่ยงไปข้างเดียว สงสัย condylar fracture ของ mandible",
+   "C": "Lateral cephalogram เป็นภาพด้านข้างมาตรฐานที่ถ่ายระยะคงที่เพื่อวัดมุมและสัดส่วนกระดูกใบหน้าและฟัน ใช้วางแผนจัดฟันและ orthognathic surgery ไม่ใช่ดูกระดูกหักของ zygoma ซึ่งซ้อนกันสองข้างในภาพด้านข้าง — จะถูกถ้าเป็นวัยรุ่น 18 ปีคางยื่น ฟันล่างคร่อมฟันบน ที่ต้องวัดความสัมพันธ์ maxilla–mandible ก่อนผ่าตัดขากรรไกร",
+   "D": "Panoramic radiograph (orthopantomogram) แสดงขากรรไกรล่างทั้งชิ้นตั้งแต่ condyle ถึง symphysis และรากฟันในภาพเดียว เป็นภาพหลักของ mandible fracture แต่ดูกลางหน้าและขอบเบ้าตาได้ไม่ดี — จะถูกถ้าเป็นชาย 25 ปีถูกเตะที่ขากรรไกรล่าง ฟันสบไม่ลง มีเลือดออกที่เหงือกระหว่างฟัน และชาที่ริมฝีปากล่าง",
+   "E": "Caldwell view (PA occipitofrontal เอียงราว 15°) แสดง frontal sinus, ethmoid และขอบเบ้าตาด้านข้างได้ดี แต่ petrous ridge บังส่วนล่างของเบ้าตาและ maxillary sinus จึงไม่ดีเท่า Waters สำหรับ ZMC — จะถูกถ้าเป็นชาย 30 ปีหน้าผากกระแทกพวงมาลัย หน้าผากยุบ สงสัย frontal sinus fracture และมี CT ไม่ได้"
   },
-  "trap": "Caldwell ก็เห็นขอบเบ้าตาบางส่วน แต่ zygoma และ maxillary sinus เห็นชัดใน Waters",
+  "trap": "ชื่อ view ของกะโหลกคล้ายกันและจำสลับได้ง่าย โดยเฉพาะ Caldwell กับ Waters ที่เป็น PA ทั้งคู่ · แยกโดยจำว่า Waters = <b>เงยคาง</b> ให้ petrous ridge ลงต่ำกว่า maxillary sinus จึงเห็น<b>กลางหน้า</b> (ZMC, orbital floor, sinus) ส่วน Caldwell เห็น<b>หน้าผากและ ethmoid</b> · และในชีวิตจริงต้องสั่ง CT",
   "summary": [
-   "<b>นอกสไลด์:</b> อาการ ZMC หัก: โหนกแก้มแบน ชาแก้มและริมฝีปากบน (infraorbital nerve) ขอบเบ้าตาล่างเป็นขั้น อ้าปากติด ภาพซ้อน · เคลื่อนมาก → ผ่าตัดยึด (ORIF)"
+   "ZMC fracture แตก 4 จุด: frontozygomatic suture, infraorbital rim/ ZM buttress, zygomatic arch, zygomaticosphenoid (ผนังข้างเบ้าตา)",
+   "อาการ ZMC: แก้มแบน, ชาบริเวณ infraorbital nerve, ขั้นบันไดที่ขอบเบ้าตาล่าง, trismus (arch กด coronoid), subconjunctival hemorrhage, ภาพซ้อน/ enophthalmos",
+   "Plain film ใบหน้า: Waters (occipitomental) → กลางหน้า ZMC orbital floor maxillary sinus · Caldwell → frontal/ ethmoid sinus · submentovertex → zygomatic arch · panoramic → mandible",
+   "CT facial bones (axial + coronal ± 3D) เป็นมาตรฐานปัจจุบันของ facial fracture ทุกชนิด และดู orbital floor/ entrapment ได้ดี",
+   "รักษา ZMC: ไม่เคลื่อน ไม่มีอาการ → สังเกตอาการ อาหารอ่อน · เคลื่อนหรือ trismus/ ภาพซ้อน → ORIF ด้วย plate ที่ FZ, ขอบเบ้าตาล่าง, ZM buttress",
+   "Isolated zygomatic arch fracture ยุบลง → ยกด้วย Gillies temporal approach (สอดเครื่องมือใต้ temporalis fascia)",
+   "ตรวจตาทุกรายที่มี orbital involvement: visual acuity, การกลอกตา, retrobulbar hematoma (ตาโปนแข็ง สายตาลด → lateral canthotomy ด่วน)"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ (มีแค่หัวข้อ) — ตอบ Waters · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A (Waters view) ความมั่นใจสูง — เป็น plain film มาตรฐานของกลางหน้าและ ZMC fracture ตามตำรา แม้ปัจจุบันจะใช้ CT แทนเกือบทั้งหมด โจทย์ระบุ plain radiograph ชัด · ตรงกับที่ไฟล์จดว่า zygoma fracture → Water's view และตรงกับข้อสอบเดิมเกือบหมด",
+  "mnemonic": "<b>'Waters = Water ในโพรง maxillary sinus → ดูกลางหน้า (ZMC)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial fractures; ATLS 10th ed. (2018) Head and maxillofacial trauma",
   "variants": [
-   "<b>นอกสไลด์:</b> ZMC หักไม่เคลื่อน ไม่มีปัญหาตาหรือการอ้าปาก → ไม่ผ่าตัด งดสั่งน้ำมูกแรง (ลมเข้าเนื้อเยื่อ)",
-   "<b>นอกสไลด์:</b> หลังบาดเจ็บโหนกแก้ม มองขึ้นแล้วเห็นภาพซ้อน ลูกตาจม → orbital floor หักร่วม กล้ามเนื้อ inferior rectus ติด"
+   "หลังถูกต่อยแก้มซ้าย แก้มแบน ชาริมฝีปากบน คลำได้ขั้นที่ขอบเบ้าตาล่าง → CT facial bones → ZMC fracture เคลื่อน → ORIF 2–3 จุด",
+   "ถูกตีด้วยไม้ที่ขมับ เห็นรอยบุ๋มเหนือโหนกแก้ม อ้าปากไม่ขึ้น ไม่ชา → isolated zygomatic arch fracture → submentovertex view/ CT แล้วยกด้วย Gillies approach",
+   "หลังถูกชกตา มองขึ้นแล้วเห็นภาพซ้อน ตาจมลง ชาแก้ม CT เห็นกล้ามเนื้อติดใน orbital floor → orbital blowout fracture with entrapment → ผ่าตัดซ่อมพื้นเบ้าตา",
+   "หลังอุบัติเหตุ ตาปูดแข็ง ปวดมาก การมองเห็นลดลงเร็ว → retrobulbar hematoma → lateral canthotomy และ cantholysis ทันที"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>ตรงแอคเกือบหมด — zygoma fracture → Water's view</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่หัวข้อ → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plasticlist"
   ]
  },
  "MDCU73|RoD|Plastic ตรงแอค 6": {
-  "interp": "หลังบาดเจ็บใบหน้า กระดูกใดหักแล้วทำให้ฟันสบผิด (malocclusion) มากที่สุด",
-  "why": "ไฟล์จดหัวข้อ <b>malocclusion → maxilla fracture</b> — โจทย์แต่งขึ้น<br><b>นอกสไลด์:</b> ฟันสบผิดเกิดเมื่อกระดูกที่มีฟัน (maxilla หรือ mandible) หักเคลื่อน · Le Fort ทำให้ขากรรไกรบนเลื่อนลงและไปด้านหลัง ฟันหน้าสบไม่ถึง (anterior open bite)",
+  "interp": "ผู้ป่วยบาดเจ็บที่ใบหน้า — ถามว่ากระดูกใดหักแล้วทำให้<b>ฟันสบผิด (malocclusion)</b> มากที่สุด ต้องรู้ว่ากระดูกที่ถือฟันคือ maxilla และ mandible ส่วนกระดูกอื่นของใบหน้าไม่ได้ยึดฟันโดยตรง",
+  "why": "การสบฟันขึ้นกับความสัมพันธ์ของ<b>กระดูกที่ถือฟัน</b> คือ maxilla (alveolar process ของฟันบน) และ mandible · เมื่อ <b>maxilla หัก (Le Fort fracture)</b> ชิ้นกระดูกที่มีฟันบนจะถูกกล้ามเนื้อ pterygoid ดึงลงล่างและไปด้านหลัง ฟันกรามด้านหลังชนกันก่อน (premature posterior contact) ทำให้เกิด <b>anterior open bite</b> และหน้ายาวแบน (dish face) · ตรวจโดยจับฟันหน้าบนโยกแล้วกระดูกกลางหน้าขยับ (<b>midface mobility</b>) · Le Fort I แตกแนวนอนเหนือรากฟัน (floating palate) · Le Fort II รูปปิรามิดผ่านกระดูกจมูกและขอบเบ้าตาล่าง (ชาแก้ม) · Le Fort III แยกหน้าออกจากกะโหลก (craniofacial dysjunction) ผ่าน FZ suture · รักษาโดย<b>จัดการสบฟันก่อนด้วย maxillomandibular fixation (MMF)</b> แล้ว ORIF ที่ buttress · ไฟล์จดหัวข้อ <b>\"ตรงแอคเกือบหมด — อะไรทำให้ malocclusion → maxilla fracture\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่กระดูกจมูกหักอย่างเดียวทำให้ฟันสบผิด เพราะไม่เกี่ยวกับกระดูกที่มีฟัน",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ zygomatic arch หักอย่างเดียวทำให้ฟันสบผิด เพราะ arch ที่ยุบกด coronoid process ทำให้อ้าปากไม่ขึ้น (trismus) แต่ฟันยังสบตรง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ frontal sinus หักอย่างเดียวทำให้ฟันสบผิด เพราะอยู่เหนือเบ้าตา ห่างจากขากรรไกร",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ orbital floor หักอย่างเดียวทำให้ฟันสบผิด เพราะแยกจากส่วนที่มีฟันของ maxilla"
+   "A": "Nasal bone fracture เป็นกระดูกใบหน้าหักที่พบบ่อยที่สุด มีจมูกเบี้ยว เลือดกำเดา บวมช้ำ แต่ไม่เกี่ยวกับฟัน ต้องส่องดู <b>septal hematoma</b> เสมอ (ถ้าไม่เจาะระบายจะเกิดผนังกั้นจมูกตายเป็น saddle nose) — จะถูกถ้าเป็นชาย 20 ปีถูกชกที่จมูก จมูกเบี้ยวไปทางซ้าย เลือดกำเดาไหล สบฟันปกติ จัดกระดูกภายใน 1–2 สัปดาห์หลังยุบบวม",
+   "B": "Isolated zygomatic arch fracture ทำให้รอยบุ๋มเหนือโหนกแก้มและ<b>อ้าปากไม่ขึ้น (trismus)</b> เพราะชิ้นกระดูกกด coronoid process หรือ temporalis ซึ่งเป็นการจำกัดการขยับขากรรไกร ไม่ใช่ฟันสบผิดตำแหน่ง — จะถูกถ้าเป็นชาย 30 ปีถูกตีด้วยไม้ที่ข้างหน้า มีรอยบุ๋มหน้าหู อ้าปากได้แค่ 1 นิ้วมือ แต่เมื่อกัดฟันสบได้ตรงเดิม",
+   "D": "Frontal sinus fracture เกิดจากแรงกระแทกหน้าผากรุนแรง ทำให้หน้าผากยุบ ถ้าผนังหลังแตกอาจมี CSF รั่วและเยื่อหุ้มสมองอักเสบ ถ้า nasofrontal outflow tract เสียเกิด mucocele ภายหลัง ไม่ได้กระทบฟัน — จะถูกถ้าเป็นชาย 35 ปีหน้าผากกระแทกพวงมาลัย มีรอยยุบเหนือคิ้ว และมีน้ำใสไหลจากจมูกเมื่อก้มหน้า",
+   "E": "Orbital floor (blowout) fracture ทำให้<b>ภาพซ้อนเวลามองขึ้น</b> ตาจม (enophthalmos) และชาแก้ม เพราะกล้ามเนื้อ inferior rectus ติดและ infraorbital nerve บาดเจ็บ ไม่ได้ทำให้ฟันสบผิด — จะถูกถ้าเป็นเด็ก 12 ปีโดนลูกบอลที่ตา มองขึ้นไม่ได้ ปวดเวลากลอกตา คลื่นไส้และหัวใจเต้นช้า (trapdoor/ white-eyed blowout) ต้องผ่าตัดด่วน"
   },
-  "trap": "อ้าปากไม่ขึ้น (trismus จาก arch) ไม่ใช่ฟันสบผิด",
+  "trap": "ZMC/ arch fracture ทำให้อ้าปากไม่ขึ้นจึงถูกเหมาว่าเป็นปัญหาการสบฟัน · แยกให้ได้ว่า <b>trismus = อ้าปากได้น้อย</b> ส่วน <b>malocclusion = ฟันบนล่างสบไม่ตรงตำแหน่งเดิม</b> ซึ่งต้องมีกระดูกที่ถือฟัน (maxilla หรือ mandible) หรือ condyle เคลื่อนเท่านั้น",
   "summary": [
-   "<b>นอกสไลด์:</b> Le Fort I แยก maxilla ส่วนที่มีฟัน · II รูปปิรามิดผ่านจมูก · III แยกใบหน้าส่วนกลางทั้งหมดจากฐานกะโหลก — ทุกระดับจับฟันหน้าโยกแล้ว maxilla ขยับ"
+   "Malocclusion หลังบาดเจ็บ → maxilla (Le Fort) หรือ mandible fracture (รวม condyle) · ถามผู้ป่วยว่า \"กัดฟันแล้วเหมือนเดิมไหม\" เป็นการตรวจที่ไวมาก",
+   "Le Fort I: แนวนอนเหนือรากฟันบน (floating palate) · Le Fort II: ปิรามิดผ่านกระดูกจมูก ขอบเบ้าตาล่าง (ชาแก้ม) · Le Fort III: แยกหน้าออกจากกะโหลกผ่าน FZ suture",
+   "Le Fort fracture: midface mobility, anterior open bite, หน้ายาวแบน · Le Fort II–III เสี่ยง CSF rhinorrhea และทางเดินหายใจอุดตัน",
+   "Mandible fracture: ตำแหน่งพบบ่อย condyle, angle, body, symphysis · มักหักสองที่ (ring) · condyle ข้างเดียว → คางเบี่ยงไปข้างที่หัก + open bite ด้านตรงข้าม",
+   "รักษา: ตั้งการสบฟันก่อนด้วย MMF (arch bars/ IMF screws) แล้ว ORIF ที่ buttress (nasomaxillary, zygomaticomaxillary, pterygomaxillary)",
+   "Nasal fracture: พบบ่อยสุด · ตรวจ septal hematoma ทุกราย → เจาะระบาย · จัดกระดูกทันทีหรือภายใน 1–2 สัปดาห์หลังยุบบวม",
+   "Trismus หลังบาดเจ็บ → นึกถึง zygomatic arch/ ZMC กด coronoid หรือ condyle fracture ไม่ใช่ malocclusion"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ (มีแค่หัวข้อ) — ตอบ maxilla · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ C (maxillary fracture) ความมั่นใจสูง — ในช้อยที่ให้มา maxilla เป็นกระดูกเดียวที่ถือฟันบน จึงเป็นกระดูกเดียวที่หักแล้วฟันสบผิด (ไม่มีช้อย mandible ให้เลือก) · ตรงกับที่ไฟล์จดหัวข้อว่า malocclusion → maxilla fracture ตรงข้อสอบเดิมเกือบหมด",
+  "mnemonic": "<b>'สบฟันผิด = กระดูกที่ถือฟัน (Maxilla/ Mandible) · อ้าปากไม่ขึ้น = Arch'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Midface and mandible fractures; Sabiston Textbook of Surgery 21st ed. (2022) — Plastic surgery: facial trauma",
   "variants": [
-   "<b>นอกสไลด์:</b> Le Fort II ร่วมน้ำใสไหลจากจมูก → CSF rhinorrhea ห้ามใส่สายทางจมูก",
-   "<b>นอกสไลด์:</b> Mandible body หักข้างเดียว ฟันสบผิด ชาริมฝีปากล่างข้างนั้น → inferior alveolar nerve ถูกกด"
+   "หลังรถชน หน้ายาวแบน จับฟันหน้าบนโยกได้ทั้งเพดานปาก กระดูกจมูกไม่ขยับ ฟันหน้าสบไม่ชน → Le Fort I → MMF + ORIF",
+   "ชายถูกชกที่คางด้านซ้าย คางเบี่ยงไปซ้ายเวลาอ้าปาก ปวดหน้าหูขวา → condylar fracture ขวาร่วมกับ parasymphysis ซ้าย (หักสองที่)",
+   "หลังอุบัติเหตุ หน้าแบนยาว มีน้ำใสไหลจากจมูก จับฟันหน้าโยกแล้วกระดูกจมูกและขอบเบ้าตาล่างขยับด้วย → Le Fort II → ระวังทางเดินหายใจ หลีกเลี่ยงใส่สายทางจมูก",
+   "ทำไมต้อง MMF ก่อน ORIF → ใช้การสบฟันเดิมเป็นแม่แบบจัดตำแหน่งชิ้นกระดูก ถ้า plate ก่อนจะยึดผิดตำแหน่งและสบผิดถาวร"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>ตรงแอคเกือบหมด — อะไรทำให้ malocclusion → maxilla fracture</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่หัวข้อ → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plasticlist"
   ]
  },
  "MDCU73|RoD|Plastic ตรงแอค 7": {
-  "interp": "ช่วยออกจากบ้านไฟไหม้ แผลไหม้ที่หน้า ขนจมูกไหม้ เสมหะมีเขม่า เสียงแหบ และ <b>stridor</b> → การจัดการแรก",
-  "why": "ไฟล์จดหัวข้อ <b>initial mx ของ burn → orotracheal tube</b> — โจทย์แต่งขึ้น<br><b>นอกสไลด์:</b> Stridor และเสียงแหบแปลว่าทางเดินหายใจส่วนบนบวมแล้วและจะบวมต่อเนื่องจากการให้สารน้ำ ถ้ารอจะใส่ท่อไม่ได้ · ใส่ท่อทางปากเร็วโดยผู้ชำนาญ ใช้ท่อขนาดใหญ่ที่สุดที่ใส่ได้",
+  "interp": "ชายถูกช่วยออกจากบ้านไฟไหม้ มี<b>หน้าไหม้ ขนจมูกไหม้ เสมหะมีเขม่า เสียงแหบ และ stridor</b> = inhalation injury ที่ทางเดินหายใจส่วนบนเริ่มบวมอุดตันแล้ว — ถามการจัดการเริ่มแรก ตามหลัก ABCDE ของ ATLS",
+  "why": "ความร้อนจากอากาศถูกดูดซับเกือบหมดเหนือ vocal cords จึงทำให้ <b>supraglottic edema</b> ซึ่งบวมขึ้นเรื่อย ๆ ใน 24–48 ชม.แรก และยิ่งบวมมากเมื่อเริ่มให้สารน้ำปริมาณมาก · อาการ <b>เสียงแหบและ stridor</b> บอกว่าทางเดินหายใจแคบลงมากแล้ว ถ้ารอจนบวมเต็มที่จะใส่ท่อไม่ได้และต้องเจาะคอฉุกเฉินซึ่งยากมากในคอที่บวมไหม้ · จึงต้อง <b>orotracheal intubation ทันที</b> (โดยผู้ชำนาญ เตรียมอุปกรณ์ surgical airway ใช้ท่อขนาดใหญ่เพื่อดูดเขม่าและส่องหลอดลมภายหลัง และยึดท่อให้แน่นเพราะหน้าจะบวมมาก) · ให้ <b>100% O₂</b> เพื่อรักษาพิษ CO ร่วม และส่ง ABG + co-oximetry วัด carboxyhemoglobin (pulse oximetry อ่านค่าปกติหลอก) · สงสัย cyanide เมื่อ lactate สูงมาก ให้ hydroxocobalamin · หลังจากนั้นจึงเปิดเส้นให้สารน้ำและประเมินแผล · ไฟล์จดหัวข้อ <b>\"ตรงแอคเกือบหมด — initial mx ของ burn → orotracheal tube\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผลไหม้ 40% ที่ลำตัวและขาจากไฟไหม้ในที่โล่ง ประเมินทางเดินหายใจและการหายใจปกติแล้ว — ขั้นต่อไปคือเปิดเส้นให้สารน้ำ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าแผลไหม้ลึกรอบอกทำให้อกขยายไม่ได้ ความดันในเครื่องช่วยหายใจสูงขึ้น",
-   "D": "<b>นอกสไลด์:</b> ไม่ป้องกันทางเดินหายใจที่บวม · จะถูกถ้าผู้ป่วยไม่มีแผลไหม้ เป็นปอดอักเสบออกซิเจนต่ำ ทางเดินหายใจโล่ง รู้สึกตัวดี",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าแผลไหม้ระดับสองเล็กที่แขน ไม่มีปัญหาทางเดินหายใจ — ล้างแผลแล้วทายาต้านเชื้อ"
+   "B": "สารน้ำตาม Parkland สำคัญในแผลไหม้กว้าง แต่เป็นขั้น C ที่ทำ<b>หลัง</b>จัดการทางเดินหายใจ และการให้สารน้ำมากจะยิ่งทำให้กล่องเสียงบวมเร็ว ถ้าให้ก่อนอาจปิดทางเดินหายใจระหว่างให้น้ำ — จะถูกถ้าเป็นชาย 40 ปีน้ำร้อนลวกที่ลำตัวและขา 35% TBSA รู้สึกตัวดี พูดเสียงปกติ ไม่ไหม้หน้า ไม่มีเขม่าในปาก",
+   "C": "Escharotomy กรีดเปิด eschar ที่แข็งไม่ยืด เมื่อแผลไหม้<b>ลึกรอบทรวงอก</b>จนทรวงอกขยายไม่ได้ หรือรอบแขนขาจนขาดเลือด ไม่ได้แก้การอุดตันที่กล่องเสียง — จะถูกถ้าเป็นผู้ป่วยไฟไหม้ full thickness รอบลำตัวที่ใส่ท่อช่วยหายใจแล้ว แต่ peak airway pressure สูงขึ้นเรื่อย ๆ บีบ bag ยาก และ CO₂ คั่ง",
+   "D": "High-flow nasal cannula ให้ออกซิเจนความเข้มข้นสูงและ PEEP เล็กน้อยได้ แต่<b>ไม่ได้เปิดทางเดินหายใจที่กำลังบวมปิด</b> การรอดูอาการด้วย oxygen อย่างเดียวขณะมี stridor ทำให้พลาดช่วงที่ยังใส่ท่อได้ — จะถูกถ้าเป็นผู้ป่วยไฟไหม้แขนในที่โล่ง หายใจปกติ ไม่มีเสียงแหบหรือ stridor แต่ SpO₂ ต่ำเล็กน้อยจากปอดอักเสบในวันที่ 4",
+   "E": "Silver sulfadiazine เป็นยาทาฆ่าเชื้อแผลไหม้ partial/ full thickness ใช้หลังผ่าน primary survey แล้ว และอาจทำให้เม็ดเลือดขาวต่ำชั่วคราว ห้ามในผู้แพ้ sulfa หญิงตั้งครรภ์ใกล้คลอด และทารกอายุน้อยกว่า 2 เดือน — จะถูกถ้าเป็นหญิง 30 ปีน้ำร้อนลวกที่แขน 5% TBSA เป็น deep partial thickness ที่มาทำแผลแบบผู้ป่วยนอก"
   },
-  "trap": "เห็นแผลไหม้แล้วคิดเรื่องสารน้ำก่อน — airway มาก่อนเสมอ โดยเฉพาะเมื่อมี stridor",
+  "trap": "คนเห็นคำว่า burn แล้วนึกถึง Parkland ทันที หรือเลือกออกซิเจนเพราะดูไม่รุกราน · หลักคือ <b>Airway ก่อนเสมอ</b> และใน inhalation injury เวลาเป็นศัตรู — เสียงแหบ stridor เขม่าในเสมหะ = ทางเดินหายใจกำลังปิด ต้องใส่ท่อตอนนี้ ไม่ใช่รอให้อาการชัดขึ้น",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ใส่ท่อเร็ว: stridor · เสียงแหบ · หายใจลำบาก · แผลไหม้ลึกที่หน้าหรือในปาก · ซึม · แผลกว้างมาก · ต้องส่งตัวไกล"
+   "สัญญาณ inhalation injury: ไฟไหม้ในที่ปิด, หน้าไหม้, ขนจมูก/ คิ้วไหม้, เขม่าในปากและเสมหะ, เสียงแหบ, stridor, ไอ, ซึม",
+   "ATLS ข้อบ่งชี้ใส่ท่อเร็ว: stridor/ เสียงแหบ, ใช้กล้ามเนื้อช่วยหายใจ, ไหม้ลึกที่หน้าคอหรือในปาก, กลืนลำบาก, GCS ลด, ไหม้ &gt; 40–50% TBSA, ต้องส่งต่อไกล",
+   "ใส่ท่อขนาดใหญ่พอให้ดูดเขม่าและส่อง bronchoscopy ได้ · ยึดท่อแน่น (หน้าบวม) · เตรียม surgical airway",
+   "CO poisoning: SpO₂ ปกติหลอก → วัด COHb ด้วย co-oximetry · 100% O₂ ลด half-life ของ COHb จากราว 4–5 ชม. เหลือราว 1 ชม.",
+   "Cyanide (ไฟไหม้พลาสติก/ โฟม): lactic acidosis รุนแรงที่ไม่ดีขึ้นด้วยออกซิเจน → hydroxocobalamin",
+   "Bronchoscopy ยืนยันการบาดเจ็บใต้ glottis และดูดเขม่า ทำหลังจัดการทางเดินหายใจแล้ว",
+   "ลำดับดูแลไฟไหม้: หยุดการไหม้ → ABCDE (airway ก่อน) → สารน้ำตามสูตรถ้า &gt; 20% TBSA → escharotomy เมื่อจำเป็น → ทำแผล"
   ],
-  "opinion": "ไฟล์ไม่มีคีย์ (มีแค่หัวข้อ) — ตอบใส่ท่อทางปาก · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A (orotracheal intubation) ความมั่นใจสูง — เสียงแหบและ stridor ร่วมกับหลักฐานหายใจเอาความร้อนเป็นข้อบ่งชี้ใส่ท่อทันทีตาม ATLS ก่อนสารน้ำหรือการทำแผล · ตรงกับที่ไฟล์จดหัวข้อว่า initial mx ของ burn → orotracheal tube และตรงข้อสอบเดิมเกือบหมด",
+  "mnemonic": "<b>'แหบ + Stridor + เขม่า = Tube Now (ก่อนบวมปิด)'</b>",
+  "guide": "ATLS 10th ed. (2018) Chapter 9 Thermal Injuries; ABA Advanced Burn Life Support Course Provider Manual (2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยไฟไหม้ในห้องปิด ปวดศีรษะ สับสน SpO2 ปกติ → สงสัยพิษ CO: ให้ O2 100% ทาง non-rebreather ตรวจ COHb ด้วย co-oximetry",
-   "<b>นอกสไลด์:</b> ใส่ท่อกันไว้ระหว่างส่งตัว 24 ชม.ต่อมาส่องไม่พบบวม cuff leak ผ่าน → ถอดท่อได้"
+   "ผู้ป่วยไฟไหม้ในห้องปิด รู้ตัวดี ไม่มีเสียงแหบ COHb 25% → 100% O₂ ผ่าน non-rebreather mask และติดตามทางเดินหายใจใกล้ชิด",
+   "หลังไฟไหม้โรงงานพลาสติก ใส่ท่อแล้ว ความดันต่ำ lactate &gt; 10 mmol/L ไม่ดีขึ้นด้วยสารน้ำและออกซิเจน → สงสัย cyanide → hydroxocobalamin",
+   "ใส่ท่อแล้ว ต้องประเมินความรุนแรงของหลอดลมไหม้และดูดเขม่าออก → fiberoptic bronchoscopy",
+   "ทำไมต้องใส่ท่อตั้งแต่ยังหายใจได้ → กล่องเสียงบวมมากที่สุดใน 24–48 ชม. และยิ่งบวมเมื่อให้สารน้ำ รอช้าจะใส่ท่อไม่ได้"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>ตรงแอคเกือบหมด — initial mx ของ burn → orotracheal tube</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่หัวข้อ → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plasticlist"
   ]
  },
  "MDCU73|RoD|Plastic ตรงแอค 8": {
-  "interp": "ข้อ INCORRECT: ข้อความเกี่ยวกับ skin graft ข้อใด <b>ผิด</b>",
-  "why": "ไฟล์จดหัวข้อ <b>ข้อใดผิด → donor site full thickness spontaneous healed</b> — ช้อยแต่งขึ้น<br><b>นอกสไลด์:</b> FTSG เอาผิวหนังไปทั้งชั้นรวมรากขนและต่อมทั้งหมด ไม่เหลือเยื่อบุให้งอกปิด แผล donor จึงต้องเย็บปิด · STSG เหลือ dermis และ adnexa แผล donor หายเองได้",
+  "interp": "ข้อแบบ<b>เลือกข้อที่ผิด</b>เกี่ยวกับ skin graft — ต้องรู้ความต่างของ split-thickness (STSG) กับ full-thickness (FTSG) ทั้งเรื่องการหายของ donor site และการหดตัวของ graft (primary vs secondary contraction)",
+  "why": "ผิวหนังประกอบด้วย epidermis และ dermis โดย<b>รูขุมขนและต่อมเหงื่อ (adnexa) ฝังลึกใน dermis</b> · <b>STSG</b> ตัด epidermis กับ dermis บางส่วน donor site ยังเหลือ adnexa จึง<b>หายเองโดย re-epithelialization</b> จากเซลล์ในรูขุมขนและต่อมเหงื่อภายในราว 1–3 สัปดาห์ และเก็บซ้ำได้ · <b>FTSG</b> ตัด dermis ทั้งชั้น ไม่เหลือ adnexa ให้งอกผิวใหม่ donor site จึง<b>หายเองไม่ได้ ต้องเย็บปิด (primary closure)</b> หรือในรายใหญ่ต้องใช้ STSG ปิด donor อีกที — จึงเก็บจากที่ผิวหย่อนเย็บปิดได้ เช่น หลังใบหู เหนือไหปลาร้า ขาหนีบ เปลือกตาบน · การหดตัว: <b>primary contraction</b> (หดทันทีหลังตัดจาก elastin) มากใน FTSG · <b>secondary contraction</b> (หดระหว่างหาย จาก myofibroblast ที่ฐานแผล) มากใน STSG เพราะ dermis บางยับยั้ง myofibroblast ได้น้อย — FTSG จึงเหมาะกับหน้า มือ ข้อพับ · ไฟล์จดหัวข้อ <b>\"ตรงแอคเกือบหมด — ข้อใดผิด → donor site full thickness spontaneous healed\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ STSG ตัดเพียงบางส่วนของ dermis เซลล์จากรากขนและต่อมเหงื่อที่เหลือจึงงอกปิดแผล donor",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะแผล FTSG ไม่เหลือเซลล์ให้งอก จึงเลือก donor ที่ผิวหย่อนพอเย็บปิดได้ (หลังหู เหนือไหปลาร้า ขาหนีบ)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ dermis เต็มชั้นยับยั้ง myofibroblast แผลจึงหดภายหลังน้อย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ dermis น้อย แผลจึงหดภายหลังมาก ยิ่งบางยิ่งหด"
+   "A": "ข้อความถูก: STSG ทิ้ง dermis ส่วนลึกและ adnexa ไว้ เซลล์ epithelium จากรูขุมขนและต่อมเหงื่อจึงงอกขึ้นมาคลุม donor site ได้เอง (ยิ่งตัดบาง ยิ่งหายเร็ว) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการหายของ donor site เช่นผู้ป่วยไฟไหม้ที่เก็บ STSG จากต้นขาซ้ำได้อีกครั้งหลังผิวที่ต้นขางอกปิดแล้ว",
+   "B": "ข้อความถูก: FTSG ตัด dermis ทั้งชั้นจึงต้องเก็บจากบริเวณที่ผิวหย่อนพอเย็บปิดเป็นเส้นตรง เช่น หลังใบหู เหนือไหปลาร้า ขาหนีบ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการดูแล donor site เช่นผู้ป่วยหลังตัด BCC ที่ปลายจมูกซึ่งเก็บ FTSG จากหลังใบหูแล้วเย็บปิดแผลหลังหู",
+   "C": "ข้อความถูก: FTSG มี dermis เต็มชั้นซึ่งยับยั้ง myofibroblast ที่ฐานแผล จึงหดตัวระหว่างหายน้อย (แม้ primary contraction ทันทีหลังตัดจะมากกว่า) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการเลือก graft เช่นเด็กหลังปลดแผลเป็นดึงรั้งที่ฝ่ามือหรือข้อพับนิ้ว ซึ่งควรใช้ FTSG เพื่อลดการหดรั้งซ้ำ",
+   "D": "ข้อความถูก: STSG ยิ่งบางยิ่งติดง่ายแต่หดตัวระหว่างหาย (secondary contraction) มาก จึงไม่เหมาะกับข้อพับและหน้า — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับข้อด้อยของ STSG เช่นผู้ป่วยไฟไหม้ที่ปลูก STSG แบบ mesh ที่ข้อพับรักแร้แล้วเกิด contracture ยกแขนไม่ขึ้นหลังหลายเดือน"
   },
-  "trap": "หดทันทีหลังตัด (primary) FTSG มากกว่า · หดภายหลัง (secondary) STSG มากกว่า — อย่าสลับ",
+  "trap": "สับสนระหว่าง primary กับ secondary contraction จึงคิดว่า C หรือ D ผิด · จำให้แม่น: <b>Primary = FTSG มาก</b> (elastin ใน dermis ดึงทันที) · <b>Secondary = STSG มาก</b> (dermis บาง myofibroblast หดแผล) · และ donor site หายเองได้ต้องมี adnexa เหลือ ซึ่งมีแค่ STSG",
   "summary": [
-   "<b>นอกสไลด์:</b> Graft ติดผ่าน imbibition (ราว 48 ชม.แรก) → inosculation → หลอดเลือดงอกเข้า · ล้มเหลวบ่อยสุดจากเลือดหรือน้ำขังใต้ graft รองลงมาคือติดเชื้อและการเลื่อนไถล"
+   "STSG: epidermis + dermis บางส่วน · ติดง่าย (ต้องการเลือดเลี้ยงน้อย) · secondary contraction มาก · สีและเนื้อผิวไม่สวย · ใช้ปิดแผลกว้าง แผลไฟไหม้",
+   "FTSG: epidermis + dermis ทั้งชั้น · ติดยากกว่า · secondary contraction น้อย สีเนื้อผิวดี · ใช้หน้า มือ ข้อพับ · donor ต้องเย็บปิด",
+   "Donor STSG หายเองจาก adnexa ใน 1–3 สัปดาห์ (ต้นขา ก้น หนังศีรษะ) · เก็บซ้ำได้ · ปวดมากกว่าแผลที่รับ graft",
+   "Primary contraction = หดทันทีหลังตัด (FTSG มาก) · Secondary contraction = หดระหว่างหายจาก myofibroblast (STSG มาก)",
+   "Graft take: plasmatic imbibition (48 ชม.แรก) → inosculation → revascularization · ล้มเหลวจาก hematoma/ seroma บ่อยสุด, shear, ติดเชื้อ (Streptococcus กลุ่ม A ทำลาย graft ได้แม้จำนวนน้อย)",
+   "Meshed STSG: ปิดพื้นที่ได้กว้างขึ้น น้ำเลือดระบายผ่านรู แต่หายแล้วเป็นลายตาข่ายและหดตัวมาก · หลีกเลี่ยงที่หน้าและมือ",
+   "ฐานที่ graft ไม่ติด: กระดูกไม่มี periosteum, tendon ไม่มี paratenon, cartilage ไม่มี perichondrium, บริเวณฉายรังสี → ใช้ flap"
   ],
-  "opinion": "ไฟล์มีแค่หัวข้อและคำตอบ — ช้อยแต่งขึ้น · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — donor site ของ FTSG ไม่เหลือ adnexa จึงหายเองไม่ได้ ต้องเย็บปิด ข้ออื่นเป็นข้อเท็จจริงมาตรฐานของ skin graft · ตรงกับที่ไฟล์จดหัวข้อว่าข้อผิดคือ donor site full thickness spontaneous healed ตรงข้อสอบเดิมเกือบหมด",
+  "mnemonic": "<b>'Full = Full ตัดหมด → ต้องเย็บ · Split = เหลือรากผิว → งอกเอง'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Skin grafts; Neligan's Plastic Surgery 5th ed. (2023) Vol.1 Principles: Skin grafts",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลไหม้กว้างแต่ผิวดีเหลือน้อย → STSG แบบ mesh ขยายพื้นที่ และใช้ donor ซ้ำหลังหาย",
-   "<b>นอกสไลด์:</b> ปิดแผลที่ฝ่ามือหรือใบหน้าเด็ก → FTSG (หดน้อย สีและผิวเข้ากับบริเวณนั้นกว่า)"
+   "หลังตัด BCC ที่ปลายจมูก แผลขนาด 1.5 cm ฐานมีเลือดเลี้ยงดี → FTSG จากหลังใบหูหรือเหนือไหปลาร้า แล้วเย็บปิด donor",
+   "ผู้ป่วยไฟไหม้ 40% TBSA หลัง excision ต้องปิดแผลกว้างแต่ donor มีน้อย → meshed STSG (ขยาย 1.5:1–3:1) หรือ dermal substitute",
+   "หลังปลูก STSG 4 วัน graft ยกตัวเป็นถุงน้ำ ไม่ติดตรงกลาง → seroma/ hematoma → เจาะระบาย กดให้แนบ",
+   "ทำไม donor STSG ที่ตัดหนาหายช้ากว่าที่ตัดบาง → เหลือ adnexa ในชั้นลึกน้อยลง เซลล์ต้นกำเนิดผิวงอกขึ้นมาคลุมได้ช้า และอาจเป็นแผลเป็นนูน"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>ตรงแอคเกือบหมด — ข้อใดผิด → donor site full thickness spontaneous healed</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่หัวข้อ → Claude แต่งโจทย์ทั้งข้อ",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plasticlist"
   ]
  },
  "MDCU73|RoD|Plastic 2": {
-  "interp": "มะเร็งของต่อม parotid ที่พบบ่อยที่สุด",
-  "why": "P'Ing วง <b>A</b><br><b>นอกสไลด์:</b> Mucoepidermoid carcinoma เป็นมะเร็งต่อมน้ำลายที่พบบ่อยที่สุด และพบที่ parotid มากที่สุด รวมทั้งในเด็ก",
+  "interp": "ถามเนื้องอก<b>ชนิดร้าย</b>ที่พบบ่อยที่สุดของต่อม <b>parotid</b> — ต้องแยกให้ออกจากเนื้องอกไม่ร้ายที่พบบ่อยที่สุด (pleomorphic adenoma) และจากมะเร็งที่พบบ่อยในต่อมน้ำลายอื่น (adenoid cystic carcinoma)",
+  "why": "ต่อม parotid เป็นตำแหน่งของเนื้องอกต่อมน้ำลายราว 80% และส่วนใหญ่เป็น<b>ชนิดไม่ร้าย</b> (pleomorphic adenoma มากที่สุด รองลงมา Warthin tumor) · ยิ่งต่อมเล็ก สัดส่วนมะเร็งยิ่งสูง (parotid ราวหนึ่งในห้า, submandibular ราวครึ่ง, sublingual และ minor salivary gland ส่วนใหญ่เป็นมะเร็ง) · มะเร็งที่พบบ่อยที่สุดของ parotid และของต่อมน้ำลายโดยรวม (ทั้งผู้ใหญ่และเด็ก) คือ <b>mucoepidermoid carcinoma</b> ประกอบด้วยเซลล์ mucous, epidermoid และ intermediate · แบ่ง low/ intermediate/ high grade ซึ่งกำหนดพยากรณ์โรค · ประเมินด้วย <b>FNA และ MRI/ CT</b> · รักษาด้วย <b>parotidectomy เก็บ facial nerve</b> (ตัดเส้นประสาทเฉพาะเมื่อมะเร็งลุกเข้าเส้นประสาทจริง) · neck dissection เมื่อมีต่อมน้ำเหลืองหรือ high grade · ฉายรังสีเสริมเมื่อ high grade, margin ใกล้/ บวก, perineural invasion · ไฟล์วงช้อย <b>A (Mucoepidermoid)</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ adenocarcinoma NOS เป็นมะเร็ง parotid ที่พบบ่อยที่สุด เพราะพบน้อยกว่า mucoepidermoid ทุกกลุ่มอายุ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ที่ต่อม submandibular หรือต่อมน้ำลายเล็กที่เพดานปาก",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ acinic cell carcinoma พบบ่อยที่สุด เพราะแม้เกิดที่ parotid เกือบทั้งหมด ก็พบน้อยกว่า mucoepidermoid",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมีประวัติ SCC ผิวหนังที่หนังศีรษะหรือใบหน้า แล้วมีก้อนใน parotid — มักเป็น SCC ที่แพร่มาที่ต่อมน้ำเหลืองใน parotid"
+   "B": "Adenocarcinoma NOS เป็นมะเร็งต่อมน้ำลายที่วินิจฉัยเมื่อไม่เข้ากับชนิดเฉพาะ พบได้แต่น้อยกว่า mucoepidermoid และมักเป็น high grade — จะถูกถ้าเป็นชาย 65 ปีมีก้อนที่ parotid โตเร็ว ใบหน้าเบี้ยวครึ่งซีก ชิ้นเนื้อเป็นต่อมรูปร่างผิดปกติที่จัดเข้าชนิดเฉพาะไม่ได้ (พยาธิวินิจฉัยเป็น adenocarcinoma NOS)",
+   "C": "Adenoid cystic carcinoma เป็นมะเร็งที่พบบ่อยที่สุดของ <b>submandibular และ minor salivary gland</b> (เพดานปาก) เติบโตช้าแต่ลุกตามเส้นประสาท (perineural invasion) และแพร่ไปปอดช้า ๆ หลายปี — จะถูกถ้าเป็นหญิง 50 ปีมีก้อนที่เพดานปากแข็งร่วมกับชาและปวดแสบที่เพดาน หรือก้อนต่อม submandibular ร่วมลิ้นชา",
+   "D": "Acinic cell carcinoma เป็นมะเร็ง low grade ที่เกือบทั้งหมดเกิดใน parotid พบในหญิงและคนอายุน้อยได้บ่อยกว่ามะเร็งชนิดอื่น และอาจเป็นสองข้าง แต่พบน้อยกว่า mucoepidermoid — จะถูกถ้าเป็นหญิง 35 ปีมีก้อนที่ parotid โตช้าไม่เจ็บหลายปี ชิ้นเนื้อเป็นเซลล์คล้าย serous acinar cell มี zymogen granule",
+   "E": "SCC ใน parotid เกือบทั้งหมดเป็น<b>มะเร็งผิวหนังที่แพร่มาต่อมน้ำเหลืองใน parotid</b> (intraparotid node) ไม่ใช่มะเร็งปฐมภูมิ ซึ่งพบน้อยมาก — จะถูกถ้าเป็นชาย 75 ปีชาวสวนที่เคยตัด SCC ที่หนังศีรษะหรือใบหูเมื่อปีก่อน แล้วมีก้อนแข็งโตเร็วที่ parotid ข้างเดียวกัน"
   },
-  "trap": "Most common tumor (รวมไม่ร้าย) = pleomorphic adenoma · most common malignant = mucoepidermoid",
+  "trap": "สับสน <b>most common tumor</b> (pleomorphic adenoma) กับ <b>most common malignant tumor</b> (mucoepidermoid) หรือจำสลับกับ adenoid cystic ที่เด่นใน submandibular/ minor gland · จำแยกตามต่อม: parotid ร้าย = mucoepidermoid · ต่อมเล็ก ร้าย = adenoid cystic",
   "summary": [
-   "<b>นอกสไลด์:</b> เนื้องอก parotid ส่วนใหญ่ไม่ร้าย พบบ่อยที่สุด pleomorphic adenoma · ผ่าตัด superficial parotidectomy เก็บ facial nerve"
+   "กฎราว 80: เนื้องอกต่อมน้ำลายส่วนใหญ่อยู่ใน parotid · เนื้องอก parotid ส่วนใหญ่ไม่ร้าย · ส่วนใหญ่ของที่ไม่ร้ายเป็น pleomorphic adenoma",
+   "สัดส่วนมะเร็งสูงขึ้นเมื่อต่อมเล็กลง: parotid ราว 20–25% · submandibular ราว 40–50% · sublingual/ minor salivary gland ส่วนใหญ่เป็นมะเร็ง",
+   "Mucoepidermoid carcinoma: มะเร็งต่อมน้ำลายพบบ่อยที่สุด (ผู้ใหญ่และเด็ก) โดยเฉพาะ parotid · grade เป็นตัวพยากรณ์หลัก",
+   "Adenoid cystic carcinoma: พบบ่อยใน submandibular/ minor gland · perineural invasion (ชา ปวด อัมพาตเส้นประสาท) · แพร่ไปปอดช้าแต่ยาวนาน",
+   "Pleomorphic adenoma: ไม่ร้ายพบบ่อยสุด มี pseudopod ยื่นออกนอก capsule → ทำ superficial parotidectomy ไม่ enucleation (กลับเป็นซ้ำ) · ทิ้งไว้นานกลายเป็น carcinoma ex pleomorphic adenoma",
+   "Warthin tumor: ชายสูงอายุสูบบุหรี่ อาจเป็นสองข้าง ไม่กลายเป็นมะเร็ง · Tc-99m pertechnetate scan เป็น hot spot",
+   "สัญญาณมะเร็ง: โตเร็ว ปวด facial nerve palsy ติดผิวหนัง ต่อมน้ำเหลืองคอโต · ภาวะแทรกซ้อนหลัง parotidectomy: facial nerve palsy, Frey syndrome (เหงื่อออกที่แก้มเวลากิน)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A (mucoepidermoid carcinoma) ความมั่นใจสูง — เป็นมะเร็งที่พบบ่อยที่สุดของ parotid ตามตำรามาตรฐาน ตรงกับไฟล์ที่วงช้อย A ไว้ · ในไฟล์มีเพียงช้อย A และ B เว็บเติม C–E ด้วยมะเร็งต่อมน้ำลายชนิดอื่นที่มักนำมาเป็นตัวลวง",
+  "mnemonic": "<b>'Parotid ร้าย = Mucoepidermoid (\"M ใหญ่ ต่อมใหญ่\") · ต่อมเล็กร้าย = Adenoid cystic'</b>",
+  "guide": "Cummings Otolaryngology–Head and Neck Surgery 7th ed. (2021) — Malignant neoplasms of the salivary glands; NCCN Guidelines: Head and Neck Cancers (Salivary gland tumors, 2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อน parotid ร่วมใบหน้าอ่อนแรงข้างเดียวกัน → มะเร็งจนกว่าจะพิสูจน์ได้",
-   "<b>นอกสไลด์:</b> ชายสูงอายุสูบบุหรี่ มีก้อนนุ่มที่ parotid สองข้าง → Warthin tumor"
+   "หญิง 40 ปี มีก้อนที่ parotid โตช้าไม่เจ็บ 3 ปี FNA เป็น pleomorphic adenoma → superficial parotidectomy เก็บ facial nerve (ไม่ทำ enucleation)",
+   "ชาย 70 ปี สูบบุหรี่ มีก้อนนุ่มที่หางของ parotid สองข้าง Tc-99m scan เป็น hot spot → Warthin tumor",
+   "หลัง parotidectomy 6 เดือน เหงื่อออกและแดงที่แก้มเวลากินอาหาร → Frey syndrome (auriculotemporal nerve งอกผิดทางไปต่อมเหงื่อ)",
+   "หญิง 55 ปี ก้อนที่เพดานปากแข็ง ปวดและชาเพดาน ชิ้นเนื้อเป็น cribriform pattern → adenoid cystic carcinoma → ผ่าตัดกว้างและฉายรังสีเสริมเพราะ perineural invasion"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>What is the most common malignant tumor of the parotid gland? — A. Mucoepidermoid B. adenocarcinoma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plastic2"
   ]
  },
  "MDCU73|RoD|Plastic 3": {
-  "interp": "ผู้ป่วย 50 kg แผลไหม้ 50% ได้สารน้ำมาแล้ว 2 L <b>ไม่ทราบเวลาเกิดเหตุ</b> BP 120/90 ชีพจร 160 → ควรให้สารน้ำต่ออย่างไร",
-  "why": "P'Ing วง <b>A</b><br><b>นอกสไลด์:</b> เมื่อไม่ทราบเวลาเกิดเหตุ คำนวณช่วง 8 ชม.ของ Parkland ไม่ได้ และสูตรใดก็เป็นแค่อัตราเริ่มต้น · เริ่มอัตราโดยประมาณแล้วปรับตามปัสสาวะทุกชั่วโมง ชีพจรเร็วในแผลไหม้ไม่ใช่ตัวบอกที่เชื่อถือได้ (ปวด catecholamine)",
+  "interp": "ผู้ป่วย 50 kg ไฟไหม้ 50% TBSA ได้สารน้ำไปแล้ว 2 ลิตร <b>ไม่ทราบเวลาที่เกิดไฟไหม้</b> BP 120/90 (pulse pressure แคบ) ชีพจร 160 — ถามว่าจะให้สารน้ำต่ออย่างไร คือถามหลักการติดตามและปรับสารน้ำในแผลไหม้มากกว่าการคำนวณสูตร",
+  "why": "สูตร Parkland (4 mL/kg/%TBSA) หรือสูตร ATLS (2 mL/kg/%TBSA) เป็นเพียง<b>ค่าประมาณเริ่มต้น</b> และนับเวลาจากเวลาเกิดไฟไหม้ — เมื่อไม่ทราบเวลาและได้สารน้ำไปแล้วบางส่วน การยึดสูตรเคร่งครัดจึงคำนวณไม่ได้แม่นและเสี่ยงให้ขาดหรือเกิน · สิ่งที่ใช้ปรับจริงคือ <b>urine output ทุกชั่วโมง</b> ผ่านสายสวนปัสสาวะ: ผู้ใหญ่เป้า <b>0.5 mL/kg/ชม.</b> (50 kg = 25 mL/ชม. ขึ้นไป หรือราว 30–50 mL/ชม.) · ถ้าน้อยกว่าเป้า → เพิ่มอัตรา Lactated Ringer's · ถ้ามากเกิน → ลดอัตราเพื่อเลี่ยง fluid creep · ชีพจรเร็วและความดันในไฟไหม้ไม่น่าเชื่อถือเป็นตัวปรับ เพราะเกิดจากความปวด catecholamine และความกลัว และวัดความดันที่แขนขาที่ไหม้บวมได้ยาก แต่ pulse pressure แคบและชีพจร 160 ก็บอกว่ายังขาดน้ำ ต้องให้ต่ออย่างพอเพียง · ร่วมกับดู mental status, lactate, base deficit · ไฟล์วงช้อย A ซึ่งเขียนว่า <b>\"ตาม urine output ให้เพียงพอ\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยึดสูตรเคร่งครัดเหมาะ โดยเฉพาะเมื่อไม่ทราบเวลาเกิดเหตุ เพราะสูตรต้องรู้จุดเริ่มเวลาและต้องปรับตามปัสสาวะเสมอ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ให้ colloid อย่างเดียวในช่วงแรก เพราะ crystalloid เป็นหลัก — albumin ใช้เสริมบางราย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่จำกัดสารน้ำเพื่อลดบวมในช่วง burn shock เพราะหลอดเลือดรั่วอยู่แล้ว การขาดน้ำทำให้ไตวายและแผลลึกขึ้น — ลดอัตราได้เมื่อปัสสาวะเกินเป้า ซึ่งต่างจากการจำกัด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ให้อัตราตายตัวจนชีพจรลด เพราะชีพจรไม่ใช่เป้า และอัตราตายตัวไม่ปรับตามปัสสาวะ ทำให้ให้น้ำเกินได้"
+   "B": "ยึด Parkland เคร่งครัดโดยไม่ดูผลตอบสนอง ต้องรู้เวลาเกิดเหตุและคิดสารน้ำที่ให้ไปแล้ว และแม้คำนวณได้ก็ยังต้องปรับตาม urine output ทุกชั่วโมง การให้ตามตัวเลขอย่างเดียวทำให้เกิด fluid creep หรือให้ไม่พอ — จะถูกถ้าเป็นชาย 70 kg ไฟไหม้ 30% TBSA ที่ทราบเวลาเกิดเหตุแน่นอน มาถึงภายใน 1 ชม. ต้องคำนวณอัตราสารน้ำเริ่มต้นก่อนปรับตามปัสสาวะ",
+   "C": "Colloid (albumin) ไม่ใช้เป็นสารน้ำหลักใน 24 ชม.แรกเพราะ capillary รั่วมาก โปรตีนรั่วออกนอกหลอดเลือด และไม่ลดอัตราตาย ใช้เสริมเป็น albumin rescue เมื่อต้องการ crystalloid เกินสูตรมาก — จะถูกถ้าเป็นผู้ป่วยไฟไหม้ 60% TBSA ที่ 16 ชม.แล้วต้องการสารน้ำเกินสูตรเกือบเท่าตัว urine ยังน้อย และความดันในช่องท้องเริ่มสูง",
+   "D": "จำกัดสารน้ำเพื่อลดบวมทำให้เกิด <b>burn shock</b> ไตวายเฉียบพลัน และ zone of stasis ของแผลกลายเป็นเนื้อตายลึกขึ้น ไม่ใช่หลักการช่วงแรกของไฟไหม้กว้าง — จะถูกถ้าเป็นผู้ป่วยไฟไหม้ที่พ้น 48 ชม.แล้ว capillary leak หายแล้ว น้ำหนักเพิ่มมาก มีปอดบวมน้ำ ต้องลดสารน้ำและอาจให้ยาขับปัสสาวะ",
+   "E": "ให้อัตราตายตัว 1 L/ชม.จนกว่าชีพจรจะลด ใช้ชีพจรเป็นเป้าซึ่งไม่น่าเชื่อถือในไฟไหม้ (ปวด catecholamine) และไม่ปรับตามปริมาณปัสสาวะ เสี่ยงให้เกินจน compartment syndrome — จะถูกถ้าเป็นผู้ป่วยเสียเลือดจากบาดแผลถูกแทงที่ความดันต่ำ ซึ่งให้ crystalloid 1 L เป็น bolus แรกตาม ATLS แล้วประเมินการตอบสนอง"
   },
-  "trap": "ชีพจร 160 ชวนให้เร่งน้ำ — แต่ทั้งชีพจรและความดันไม่ใช่ตัวปรับที่เชื่อถือได้ในแผลไหม้ ต้องดูปัสสาวะ",
+  "trap": "ข้อมูลตัวเลขเยอะ (น้ำหนัก %TBSA สารน้ำที่ได้แล้ว) ชวนให้คำนวณ Parkland และเลือกข้อ B · แต่เวลาที่ไม่ทราบและสารน้ำที่ให้ไปแล้วบอกว่าสูตรใช้ไม่ได้แม่น และหลักจริงของทุกสูตรคือ <b>ปรับตาม urine output</b> · ชีพจร 160 ล่อให้ใช้ HR เป็นเป้า ซึ่งไม่น่าเชื่อถือในไฟไหม้",
   "summary": [
-   "<b>นอกสไลด์:</b> ก่อนคำนวณได้หรือไม่ทราบเวลา ABLS เริ่มราว 500 mL/h ในผู้ใหญ่ แล้วปรับตามปัสสาวะทุกชั่วโมง"
+   "สูตรสารน้ำทุกสูตรเป็นแค่จุดเริ่มต้น · ตัวปรับหลักคือ urine output ทุกชั่วโมงผ่านสายสวน (ผู้ใหญ่ 0.5 mL/kg/ชม., เด็ก &lt; 30 kg 1 mL/kg/ชม.)",
+   "ชีพจรและความดันไม่ใช่เป้าที่ดีในไฟไหม้ (ปวด catecholamine แขนขาบวม) · ใช้ร่วมกับ mental status, lactate, base deficit",
+   "Urine น้อย → เพิ่มอัตรา crystalloid (ไม่ให้ diuretic) · urine มากเกิน → ลดอัตราลง เพื่อเลี่ยง fluid creep",
+   "Fluid creep: abdominal compartment syndrome (ความดันกระเพาะปัสสาวะ &gt; 20 mmHg ร่วมอวัยวะล้มเหลว), extremity/ orbital compartment, ปอดบวมน้ำ",
+   "Albumin rescue: พิจารณาเมื่อ crystalloid ที่ต้องใช้เกินสูตรมาก (มักหลัง 8–12 ชม.) · ไม่ใช้ colloid เป็นสารน้ำหลักในช่วงแรก",
+   "Jackson's zones: coagulation (ตาย) · stasis (กู้ได้ถ้าเลือดเลี้ยงพอ) · hyperemia · ให้น้ำน้อยไปทำให้ zone of stasis ตายเพิ่ม",
+   "ปัสสาวะสีเข้ม/ myoglobin (electrical, crush) → เป้า urine 1–1.5 mL/kg/ชม. ให้จนปัสสาวะใส"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไม่ทราบเวลาเกิดเหตุและได้สารน้ำไปแล้ว ทำให้สูตรใช้ได้เพียงคร่าว ๆ หลักการที่ถูกในทุก guideline คือปรับสารน้ำให้ urine output ถึงเป้า ตรงกับไฟล์ที่วงช้อย A ไว้ · ไฟล์มีเพียงช้อย A และ B เว็บเติม C–E เป็นแนวทางที่ผิดหลัก",
+  "mnemonic": "<b>'สูตรแค่เริ่ม — ฉี่เป็นเข็มทิศ (0.5 ผู้ใหญ่ · 1 เด็ก)'</b>",
+  "guide": "ATLS 10th ed. (2018) Chapter 9 Thermal Injuries; ISBI Practice Guidelines for Burn Care (Burns 2016) — Fluid resuscitation",
   "variants": [
-   "<b>นอกสไลด์:</b> ให้สารน้ำไปมากกว่าราว 6 mL/kg/%TBSA แล้วปัสสาวะยังน้อย → เริ่ม albumin (albumin rescue) และหาสาเหตุอื่น",
-   "<b>นอกสไลด์:</b> หลังให้สารน้ำปริมาณมาก ท้องตึง ความดันในกระเพาะปัสสาวะสูง ปัสสาวะลด หายใจลำบาก → abdominal compartment syndrome"
+   "ผู้ใหญ่ 70 kg ไฟไหม้ 40% หลังให้สารน้ำ 6 ชม. urine 80 mL/ชม. ต่อเนื่อง → ลดอัตรา Lactated Ringer's ลง ป้องกัน fluid creep",
+   "ไฟไหม้ 60% TBSA วันแรก ท้องตึงแข็ง หายใจลำบาก ความดันกระเพาะปัสสาวะ 28 mmHg ปัสสาวะน้อย → abdominal compartment syndrome → ลดสารน้ำ/ albumin rescue, escharotomy ลำตัว หรือ decompressive laparotomy",
+   "เด็ก 20 kg ไฟไหม้ 25% TBSA → สูตร 3 mL/kg/%TBSA + maintenance ที่มี dextrose เป้า urine 1 mL/kg/ชม. (20 mL/ชม.)",
+   "ทำไมไม่ให้ furosemide เมื่อ urine น้อยช่วงแรก → ปัสสาวะน้อยจากปริมาตรในหลอดเลือดไม่พอ ยาขับปัสสาวะทำให้ขาดน้ำมากขึ้นและทำให้ urine ใช้เป็นตัวติดตามไม่ได้"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>50 kg, %burn = 50, ได้สารน้ำไปแล้ว 2 ลิตร, ไม่ได้บอกชั่วโมงที่ burn, bp 120/90, Hr 160 ต้องให้สารน้ำยังไง — A. ตาม urine output ให้เพียงพอ B. ตาม parkland แบบเคร่งครัด</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plastic3"
   ]
  },
  "MDCU73|RoD|Plastic 4": {
-  "interp": "เทคนิคเย็บที่เหมาะกับเนื้อเยื่อที่ยุบตัว (ไม่มีโครง) เช่นเยื่อบุช่องปาก",
-  "why": "P'Ing วง <b>A</b> (มี ? หน้าข้อ)<br><b>นอกสไลด์:</b> Simple interrupted แต่ละปมเป็นอิสระ ปรับแรงตึงทีละจุดได้ ไหมขาดหนึ่งปมแผลไม่แยกทั้งแนว และมีช่องให้เลือดและน้ำลายระบาย — เหมาะกับเนื้อเยื่อบางนุ่มที่ไม่ต้องดึงขอบให้ evert",
+  "interp": "ถามเทคนิคการเย็บที่เหมาะกับเนื้อเยื่อที่<b>มีแนวโน้มยุบหรือม้วนเข้า (collapse)</b> เช่น <b>เยื่อบุช่องปาก</b> ซึ่งบาง นุ่ม ไม่มีชั้น dermis ให้ฝังไหม และขยับตลอดเวลาจากการพูด เคี้ยว — ต้องรู้ข้อดีข้อเสียของแต่ละเทคนิค",
+  "why": "<b>Simple interrupted suture</b> เย็บทีละปมแยกกัน แต่ละเข็มปรับแรงและตำแหน่งได้เฉพาะจุด จึง<b>จัดขอบให้ชนกันพอดีและพลิกออก (eversion) ได้แม่น</b> แม้เนื้อเยื่อนุ่มยุบง่าย และถ้าปมใดหลุดหรือขาด (บ่อยในช่องปากที่ขยับตลอด) ปมอื่นยังยึดอยู่ แผลไม่แยกทั้งแนว · ถ้ามีติดเชื้อหรือมีเลือดคั่งก็ตัดไหมออกเฉพาะจุดเพื่อระบายได้ · ในช่องปากใช้ไหมละลาย (เช่น chromic gut, polyglactin ชนิดละลายเร็ว) เย็บผ่านเยื่อบุทั้งความหนาแบบ simple interrupted · เทคนิคต่อเนื่องเร็วกว่าแต่ปรับแรงรายจุดไม่ได้และขาดที่เดียวคลายทั้งเส้น ส่วน subcuticular ต้องการชั้น dermis ที่เยื่อบุไม่มี · ไฟล์วงช้อย <b>A (simple interrupted)</b> และมีเครื่องหมาย <b>\"?\"</b> หน้าข้อแสดงว่าผู้จดยังไม่แน่ใจ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไหมขาดจุดเดียวแยกทั้งแนว · จะถูกถ้าเป็นแผลผ่าตัดยาวขอบตรงสะอาด ตึงสม่ำเสมอ ต้องการเย็บเร็ว",
-   "C": "<b>นอกสไลด์:</b> ต้องมี dermis หนาให้เย็บ · จะถูกถ้าเป็นแผลผ่าตัดผิวหนังลำตัวที่ต้องการแผลเป็นสวยไม่มีรอยเข็ม",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเย็บมุมแหลมของ flap รูปสามเหลี่ยมให้ปลาย flap ไม่ขาดเลือด (tip stitch)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลผ่าตัดยาวที่หน้าท้องหรือขาที่ต้องการปิดเร็ว"
+   "B": "Continuous over-and-over (simple running) เย็บเร็ว แรงกระจายสม่ำเสมอ และห้ามเลือดดี แต่ปรับแรงรายจุดไม่ได้ ถ้าขาดจุดเดียวคลายทั้งแนว และดึงแน่นแล้วขอบย่นเป็นจีบ (purse-string) ในเนื้อเยื่อนุ่ม — จะถูกถ้าเป็นชาย 30 ปีมีแผลฉีกขาดยาว 8 cm ที่หนังศีรษะเลือดออกมาก ขอบเรียบ ต้องการเย็บเร็วและห้ามเลือดพร้อมกัน",
+   "C": "Subcuticular (running intradermal) เย็บใต้ผิวในชั้น dermis ไม่มีรอยไหมบนผิว ให้แผลเป็นสวยที่สุด แต่ต้องการ <b>dermis ที่หนาพอ</b> และแผลตึงน้อย เยื่อบุช่องปากไม่มีชั้นนี้จึงเย็บไม่ได้ — จะถูกถ้าเป็นหญิง 28 ปีหลังผ่าตัดคลอดแบบ Pfannenstiel หรือตัดไฝที่แขน ต้องการปิดผิวหนังให้แผลเป็นเรียบสวย",
+   "D": "Half-buried horizontal mattress (corner/ tip stitch) ใช้เย็บ<b>มุมแหลมของ flap</b> โดยฝังไหมในชั้น dermis ของปลาย flap เพื่อไม่บีบเลือดเลี้ยงปลายมุม ไม่ใช่เทคนิคสำหรับเยื่อบุนุ่มทั่วไป — จะถูกถ้าเป็นเด็ก 10 ขวบมีแผลฉีกขาดรูปตัว V ที่หน้าแข้ง ปลายมุมแหลมบาง ต้องเย็บยึดปลายมุมโดยไม่ให้ปลายขาดเลือดตาย",
+   "E": "Skin staples เย็บเร็ว ปฏิกิริยาเนื้อเยื่อน้อย ติดเชื้อน้อย เหมาะกับหนังศีรษะ ลำตัว แผลผ่าตัดยาว แต่ใช้ในเยื่อบุช่องปากไม่ได้ (ไม่มีชั้นยึด เจ็บ และหลุด) และไม่เหมาะกับหน้า — จะถูกถ้าเป็นชาย 40 ปีมีแผลฉีกขาดเส้นตรง 5 cm ที่หนังศีรษะในห้องฉุกเฉินที่คนไข้รอคิวมาก ต้องปิดแผลเร็ว"
   },
-  "trap": "ข้อคู่กับ RoB Plastic 5 (ไหมละลายในปาก) — ข้อนี้ถามเฉพาะเทคนิค",
+  "trap": "คิดว่าเนื้อเยื่อยุบง่ายต้องใช้ mattress เพื่อพลิกขอบ (half-buried) หรือ running เพื่อให้แรงกระจาย · เยื่อบุช่องปากไม่มี dermis ให้ฝังไหม ขยับตลอดเวลาและปมหลุดง่าย สิ่งที่ต้องการคือ<b>จัดขอบแม่นรายจุดและไม่แยกทั้งแนวเมื่อปมหนึ่งหลุด</b> = simple interrupted",
   "summary": [
-   "<b>นอกสไลด์:</b> Mattress (vertical/horizontal) ใช้ดึงขอบผิวหนังให้ evert ในผิวที่ขอบม้วนเข้า · subcuticular ใช้กับผิวหนังที่ต้องการแผลสวย"
+   "Simple interrupted: แม่นยำรายจุด พลิกขอบดี ปมหนึ่งหลุดไม่แยกทั้งแนว ตัดไหมระบายเฉพาะจุดได้ · ช้ากว่าแบบต่อเนื่อง · ใช้กับแผลไม่เรียบ แผลปนเปื้อน เยื่อบุ",
+   "Simple running: เร็ว ห้ามเลือดดี (หนังศีรษะ) · ขาดจุดเดียวคลายทั้งเส้น · running locked ห้ามเลือดดีขึ้นแต่บีบเลือดเลี้ยงขอบ",
+   "Vertical mattress: พลิกขอบได้ดีที่สุดในผิวที่ม้วนเข้า (คอหลัง ผิวหย่อน) · horizontal mattress: กระจายแรงตึง ห้ามเลือด",
+   "Half-buried horizontal mattress (corner stitch): เย็บปลายมุมแหลมของ flap โดยไม่บีบเลือดเลี้ยงปลายมุม",
+   "Subcuticular: ไม่มีรอยไหมบนผิว แผลเป็นสวย ต้องการ dermis และแรงตึงต่ำ · ใช้แผลผ่าตัดสะอาด",
+   "เยื่อบุช่องปาก: ไหมละลาย (chromic gut, polyglactin ละลายเร็ว) simple interrupted ผ่านเยื่อบุทั้งหนา · แผลริมฝีปากต้องจัด vermilion border ให้ตรงเข็มแรก",
+   "เวลาตัดไหมผิวหนังโดยประมาณ: หน้า 5 วัน · หนังศีรษะ ลำตัว 7–10 วัน · แขนขา 10–14 วัน · บริเวณข้อหรือฝ่ามือฝ่าเท้านานกว่านั้น"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A (simple interrupted) ความมั่นใจปานกลาง — เป็นเทคนิคมาตรฐานสำหรับเยื่อบุช่องปากที่ไม่มี dermis และขยับตลอดเวลา ตรงกับไฟล์ที่วงช้อย A แม้ผู้จดใส่ \"?\" ไว้หน้าข้อเพราะถ้อยคำ \"tend to collapse\" กำกวม · ช้อย D ในไฟล์เขียนเพียง half-buried เว็บระบุเป็น horizontal mattress และเติมช้อย E",
+  "mnemonic": "<b>'ปากนุ่ม ขยับตลอด → เย็บทีละปม (Interrupted) หลุดหนึ่ง ยังเหลือทั้งแถว'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles: wound closure and suture techniques; Roberts and Hedges' Clinical Procedures in Emergency Medicine 7th ed. (2019) — Methods of wound closure",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลเย็บแล้วติดเชื้อบางส่วนต้องเปิดระบาย → ตัดไหม simple interrupted ออกเฉพาะจุดได้ โดยแผลส่วนอื่นยังปิดอยู่",
-   "<b>นอกสไลด์:</b> แผลใบหน้าเด็กที่ไม่อยากให้กลับมาตัดไหม → ไหมละลายเร็วเย็บ simple interrupted"
+   "แผลฉีกขาดที่ริมฝีปากล่างผ่าน vermilion border → เย็บแนว vermilion border ให้ตรงเป็นเข็มแรก แล้ว simple interrupted ชั้นกล้ามเนื้อ เยื่อบุ และผิวหนัง",
+   "แผลที่คอด้านหลังของผู้สูงอายุผิวหย่อน ขอบม้วนเข้าใต้ → vertical mattress เพื่อพลิกขอบออก",
+   "แผลฉีกขาดที่ลิ้นยาว 2 cm ขอบแยก เลือดออกไม่หยุด → เย็บด้วยไหมละลายแบบ simple interrupted ลึกถึงกล้ามเนื้อลิ้น",
+   "ทำไมแผลปนเปื้อนควรใช้ interrupted มากกว่า running → ถ้าติดเชื้อ ตัดไหมบางเข็มระบายหนองได้โดยแผลส่วนอื่นยังปิดอยู่"
+  ],
+  "notes": "ไฟล์ S73DQ หน้า 2 — ตัวพิมพ์: <b>suture technique for เย็บ tissue tend to collapse เช่น mucosa ของในปาก — A. simple interrupted B. continuous over and over C. subcuticular D. half-buried</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์ช้อย D half-buried → ระบุ horizontal mattress · เติมช้อย E · ข้อคล้ายกับ 73B Plastic 5",
+  "src": "S73DQ · หน้า 2",
+  "kimg": [
+   "kp73d_plastic4"
   ]
  }
 }

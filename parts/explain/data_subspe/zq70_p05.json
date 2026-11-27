@@ -1,29 +1,31 @@
 {
  "MDCU70|RoB|ไม่มีเลข 8": {
-  "interp": "ถามข้อที่<b>ไม่ใช่</b>ข้อบ่งชี้ผ่าตัดใน <b>lung abscess</b>",
-  "why": "Lung abscess ส่วนใหญ่ (~80–90%) <b>หายด้วยยาปฏิชีวนะ</b> (มักนาน 4–6 สัปดาห์) ร่วมกับกายภาพ/ ระบายเสมหะ · ผ่าตัด (มัก lobectomy) หรือระบายผ่านผิวหนังเมื่อ: <b>ฝีใหญ่ &gt; 6 cm</b>, <b>ไม่ดีขึ้น/ โตขึ้นหลังยา ~2 สัปดาห์</b>, <b>ไอเป็นเลือดมาก</b>, <b>ฝีแตกเข้าช่องเยื่อหุ้มปอด</b> (empyema/ bronchopleural fistula) และ<b>สงสัยมะเร็ง</b> · ฝี 3 cm ที่ดีขึ้นด้วยยาจึงรักษาต่อด้วยยา ไม่ใช่ข้อบ่งชี้ผ่าตัด · ไฟล์ P'Ing ติ๊ก ✓ ทุกช้อยและแปะสไลด์ <b>\"Indication for Surgery: &gt; 6 cm · Persistent or enlarging abscess · CXR not better after 2 week ATB · Massive Hemoptysis · Ruptured to Pleural space · R/O CA\"</b>",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b> indication ของการผ่าตัดใน <b>lung abscess</b> — ต้องรู้ว่าฝีในปอดส่วนใหญ่หายด้วยยาปฏิชีวนะ และการผ่าตัดสงวนไว้เฉพาะกรณีที่ยาล้มเหลว ฝีใหญ่ มีภาวะแทรกซ้อนรุนแรง หรือสงสัยมะเร็ง ส่วนฝีเล็กที่ตอบสนองต่อยาไม่ต้องผ่าตัด",
+  "why": "Lung abscess ส่วนใหญ่เกิดจาก<b>การสำลัก (aspiration)</b> เชื้อในช่องปากซึ่งมักเป็น anaerobe ผสม (Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides) จึงมักอยู่ที่ <b>posterior segment ของ RUL หรือ superior segment ของ RLL</b> · CXR/CT เห็นโพรงผนังหนามี air-fluid level · การรักษาหลักคือ<b>ยาปฏิชีวนะนาน</b> (เช่น ampicillin-sulbactam หรือ clindamycin) มักให้ 3–6 สัปดาห์หรือจนภาพรังสีดีขึ้นชัด ร่วมกับ postural drainage/ กายภาพทรวงอก และหายด้วยยาราว 80–90% · ถ้าไม่ดีขึ้นในผู้ที่ผ่าตัดเสี่ยงสูงใช้ <b>percutaneous หรือ endoscopic drainage</b> · <b>Indication ของการผ่าตัด</b> (มักเป็น lobectomy) ได้แก่ ฝีใหญ่ &gt; 6 cm, ฝีคงอยู่หรือโตขึ้น/ CXR ไม่ดีขึ้นหลังยา 2 สัปดาห์, <b>massive hemoptysis</b>, <b>ฝีแตกเข้าเยื่อหุ้มปอด</b> (pyopneumothorax/ empyema, bronchopleural fistula) และ<b>สงสัยมะเร็ง</b>ที่อุดหลอดลมอยู่ข้างหลัง · ฝี 3 cm ที่ดีขึ้นด้วยยาจึงให้ยาต่อจนครบไม่ต้องผ่าตัด · ไฟล์ลายมือ P'Ing ติ๊ก ✓ ทุกช้อย A–E ของต้นฉบับ (E เดิมคือ <b>\"R/O CA\"</b>) และแปะสไลด์ Indication for Surgery ที่มีครบทั้ง 6 ข้อ",
   "wrong": {
-   "A": "เป็นข้อบ่งชี้ — ฝี &gt; 6 cm มักไม่หายด้วยยาอย่างเดียว · จะถูกถ้าช้อยเป็นฝี &lt; 6 cm ที่ตอบสนองต่อยา",
-   "B": "เป็นข้อบ่งชี้ — ไม่ดีขึ้นหลังยา 2 สัปดาห์ (persistent/ enlarging) · จะถูกถ้าช้อยบอกว่าไข้ลดและโพรงเล็กลงหลังให้ยา 2 สัปดาห์",
-   "C": "เป็นข้อบ่งชี้ — ไอเป็นเลือดมากคุกคามชีวิต (อาจ bronchial artery embolization ก่อน) · จะถูกถ้าช้อยเป็นเสมหะปนเลือดเล็กน้อยที่ดีขึ้นด้วยยา",
-   "D": "เป็นข้อบ่งชี้ — ฝีแตกเข้าช่องเยื่อหุ้มปอด (pyopneumothorax) ต้องระบาย ± ผ่าตัด · จะถูกถ้าช้อยบอกว่าฝียังอยู่ในเนื้อปอดและระบายทางหลอดลมได้ดี"
+   "A": "ข้อความถูก: ฝีขนาด &gt; 6 cm อยู่ในสไลด์ Indication for Surgery เพราะโพรงใหญ่ผนังหนามักไม่ยุบด้วยยาอย่างเดียว เสี่ยงแตกและเลือดออก — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชายติดสุรา 50 ปี ไข้ ไอเสมหะเหม็น CT เห็นฝีโพรงเดียวขนาด 8 cm ที่ superior segment RLL ซึ่งศัลยแพทย์วางแผน lobectomy",
+   "B": "ข้อความถูก: ฝีที่คงอยู่หรือโตขึ้น/ CXR ไม่ดีขึ้นหลังให้ยาเหมาะสม 2 สัปดาห์ถือว่า medical failure ต้องหาสาเหตุ (เชื้อดื้อยา สิ่งแปลกปลอม มะเร็ง) และระบายหรือผ่าตัด — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับหญิง 45 ปีได้ ampicillin-sulbactam 2 สัปดาห์แล้วยังไข้สูง โพรงฝีขยายขึ้นใน CT ซ้ำ",
+   "C": "ข้อความถูก: massive hemoptysis จากฝีที่กัดหลอดเลือด bronchial artery เป็นภาวะคุกคามชีวิต ต้องรักษาทางเดินหายใจ นอนตะแคงข้างที่มีโรคลง ทำ bronchial artery embolization หรือผ่าตัดเอาปอดส่วนนั้นออก — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 55 ปีที่มีฝีในปอด ไอเป็นเลือดสด 400 mL ใน 24 ชั่วโมง",
+   "D": "ข้อความถูก: ฝีแตกเข้าช่องเยื่อหุ้มปอดทำให้เกิด pyopneumothorax/ empyema และ bronchopleural fistula ต้องใส่ ICD ระบายแล้วมักต้องผ่าตัด decortication ร่วมกับตัดปอดส่วนที่เป็นฝี — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับผู้ป่วยฝีในปอดที่หอบเหนื่อยทันที CXR เห็น hydropneumothorax ข้างเดียวกันพร้อมหนองจากท่อระบาย"
   },
-  "trap": "คิดว่าฝีในปอดต้องผ่าตัดเหมือนฝีที่อื่น — ส่วนใหญ่หายด้วยยา ผ่าตัดเฉพาะมีข้อบ่งชี้ · ช้อยต้นฉบับทุกข้อเป็นข้อบ่งชี้ (คีย์ P'Ing ✓ ทั้งหมด)",
+  "trap": "ไฟล์ต้นฉบับไม่มีคำตอบเพราะทุกช้อยเป็น indication จริง (P'Ing ติ๊กครบทุกข้อ) ทำให้คนเลือกช้อยที่ดูน้อยที่สุดเช่นขนาด 6 cm · วิธีแยกในเว็บ: ฝีที่<b>เล็กและกำลังดีขึ้นด้วยยา</b>คือกลุ่มที่รักษาด้วยยาต่อได้ — indication ทุกข้อล้วนบ่งว่ายาล้มเหลว ฝีใหญ่ มีภาวะแทรกซ้อน หรือสงสัยมะเร็ง",
   "summary": [
-   "Lung abscess: สำลัก (ฟันไม่ดี ดื่มสุรา ชัก) · anaerobes · ปอดกลีบขวาบนส่วนหลัง/ ล่างส่วนบน",
-   "รักษา: ATB ครอบคลุม anaerobe (ampicillin-sulbactam, clindamycin) 4–6 สัปดาห์",
-   "ผ่าตัด: &gt; 6 cm · ไม่ดีขึ้น 2 สัปดาห์ · ไอเลือดมาก · แตกเข้าช่องเยื่อหุ้มปอด · สงสัยมะเร็ง",
-   "ผ่าตัดไม่ได้ → percutaneous drainage",
-   "ไอเลือดมาก → นอนตะแคงข้างที่เป็นลง · bronchial artery embolization",
-   "ผู้สูงอายุสูบบุหรี่ ไม่หาย → bronchoscopy หามะเร็งอุดหลอดลม"
+   "Lung abscess เกิดจาก aspiration เป็นหลัก (ติดสุรา ชัก หมดสติ ฟันผุ กลืนลำบาก) เชื้อ anaerobe ผสม · ตำแหน่งที่พบบ่อยคือ posterior segment RUL และ superior segment RLL เพราะสำลักขณะนอนหงาย",
+   "ภาพรังสีเห็นโพรงผนังหนามี air-fluid level · แยกจาก empyema ที่ CT: ฝีเป็นทรงกลมผนังหนาไม่สม่ำเสมอทำมุมแหลมกับผนังทรวงอก ส่วน empyema เป็นรูปเลนส์มี split pleura sign",
+   "รักษาด้วยยาปฏิชีวนะครอบคลุม anaerobe (ampicillin-sulbactam, clindamycin) นาน 3–6 สัปดาห์หรือจนภาพรังสีดีขึ้นชัด ร่วม postural drainage · หายด้วยยาราว 80–90%",
+   "ยาไม่ได้ผลในผู้ป่วยที่ผ่าตัดเสี่ยงสูง → percutaneous catheter drainage (CT-guided) หรือ endoscopic drainage เป็นทางเลือกก่อนผ่าตัด",
+   "Indication ผ่าตัด (สไลด์ในไฟล์): ฝี &gt; 6 cm · ฝีคงอยู่/โตขึ้น หรือ CXR ไม่ดีขึ้นหลังยา 2 สัปดาห์ · massive hemoptysis · แตกเข้า pleural space · R/O CA",
+   "ผ่าตัดมาตรฐานคือ lobectomy (ไม่ทำแค่ระบาย) และระหว่างดมยาต้องกันหนองไหลเข้าปอดอีกข้างด้วย double-lumen tube",
+   "ฝีในผู้ป่วยไม่มีปัจจัยสำลัก ไม่มีฟัน หรืออายุมากสูบบุหรี่ ให้คิดถึงมะเร็งอุดหลอดลมหรือ cavitating squamous cell carcinoma → bronchoscopy ทุกราย"
   ],
-  "opinion": "ตอบ E ความมั่นใจสูง — ช้อยต้นฉบับ A–E เป็นข้อบ่งชี้ผ่าตัดทั้งหมด (P'Ing ✓ ทุกข้อ ตามสไลด์ในไฟล์) จึงไม่มีคำตอบ เว็บเปลี่ยนช้อย E (R/O CA) เป็นฝี 3 cm ที่ดีขึ้นด้วยยา เพื่อให้มีคำตอบเดียว",
-  "mnemonic": "<b>'ฝีปอดผ่าเมื่อ: ใหญ่ (&gt; 6) · ดื้อ (2 wk) · เลือด (hemoptysis) · แตก (pleura) · ร้าย (CA)'</b>",
-  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung (infectious diseases); Shields' General Thoracic Surgery 8th ed. (2019)",
+  "opinion": "เห็นด้วยกับคำตอบ E ในเว็บ ความมั่นใจสูง — คีย์ในไฟล์ไม่มีคำตอบเพราะ P'Ing ติ๊ก ✓ ทุกช้อยของต้นฉบับซึ่งเป็น indication ทั้งหมดตามสไลด์ (รวม R/O CA) เว็บจึงเปลี่ยนช้อย E เป็นฝี 3 cm ที่ดีขึ้นด้วยยา ซึ่งเป็นกรณีที่รักษาด้วยยาต่อจนครบตามมาตรฐานและไม่ใช่ indication ผ่าตัดแน่นอน",
+  "mnemonic": "<b>'ผ่าฝีปอดเมื่อ \"ใหญ่ ไม่หาย ไอเลือด แตก มะเร็ง\" (6 cm · 2 wk · hemoptysis · rupture · R/O CA)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung: infectious diseases (lung abscess); Shields' General Thoracic Surgery 8th ed. (2019)",
   "variants": [
-   "ชายดื่มสุราฟันผุ ไข้ เสมหะเหม็น CXR โพรงมี air-fluid level → lung abscess → ATB",
-   "lung abscess ไอเลือด 300 mL/วัน → bronchial artery embolization/ ผ่าตัด",
-   "ชาย 65 ปีสูบบุหรี่ ฝีในปอดไม่ดีขึ้น 3 สัปดาห์ → bronchoscopy หามะเร็ง"
+   "ชายติดสุรา ไข้ ไอเสมหะเหม็น CXR เห็นโพรง air-fluid level 4 cm ที่ superior segment RLL → ยาปฏิชีวนะครอบคลุม anaerobe นานหลายสัปดาห์ร่วม postural drainage",
+   "ผู้ป่วยฝีในปอดอายุ 80 ปี โรคหัวใจรุนแรง ไข้ไม่ลงหลังยา 2 สัปดาห์ ฝีติดผนังทรวงอก → CT-guided percutaneous drainage แทนการผ่าตัด",
+   "ชาย 65 ปีสูบบุหรี่ ไม่มีประวัติสำลัก ฟันดี มีโพรงในปอดผนังหนาไม่สม่ำเสมอ → bronchoscopy หามะเร็งอุดหลอดลม",
+   "ทำไมการผ่าตัดฝีในปอดต้องใช้ double-lumen tube → กันหนองจากโพรงฝีไหลลงปอดอีกข้างระหว่างจับปอด"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 11 — ตัวพิมพ์: <b>Xx. What is not Indication for Surgery in lung abscess — A. &gt; 6 cm B. Not better after 2 week of conservative treatment C. Massive Hemoptysis D. Ruptured abscess E. R/O CA</b><br>ลายมือ: \"?\" หน้าข้อ · A ✓ · B ✓ · C ✓ · D ✓ · E ✓<br>ไฮไลต์: \"not Indication\" (ชมพู) · \"Surgery in lung abscess\"<br>รูปที่แปะ: สไลด์ Indication for Surgery — &gt; 6 cm · Persistent or enlarging abcess · CXR not better after 2 week ATB · Massive Hemoptysis · Ruptured to Pleural space · R/O CA (พร้อมลายมือเล็ก)<br>ที่ปรับในเว็บ: ช้อยทุกข้อเป็น indication → เปลี่ยน E เป็นฝี 3 cm ที่ดีขึ้นด้วยยา",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 11",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU70|RoB|ไม่มีเลข 9": {
-  "interp": "ชาย 60 ปี COPD สูบบุหรี่ 30 pack-year CT พบ<b>ก้อนในปอด</b> PFT เป็น <b>severe obstruction</b> → ถามการจัดการที่เหมาะสม",
-  "why": "ก้อนในปอดที่สงสัยมะเร็งในผู้ป่วย<b>สมรรถภาพปอดต่ำ</b> ต้อง<b>ได้การวินิจฉัยทางพยาธิวิทยาก่อนรักษา</b> (bronchoscopy/ EBUS หรือ CT-guided biopsy) ร่วมกับ staging (PET-CT, EBUS ต่อมน้ำเหลือง) และ<b>ประเมินความพร้อมผ่าตัด</b> (FEV1, DLCO, exercise test) · ผลชิ้นเนื้อกำหนดการรักษา: small cell → เคมี/ รังสี (ผ่าตัดแค่ palliative), non-small cell ระยะต้น → ผ่าตัดถ้าปอดพอ หรือ SBRT ถ้าผ่าตัดไม่ได้ · ไฟล์ P'Ing วง E ลายมือ <b>\"✓ definite dx before Tx\"</b> และแปะสรุป \"Sx → 1° CA lung ∴ ต้อง PFT ก่อน … FEV1 &gt;2L pneumonectomy ได้, &gt;1.5L lobectomy ได้, &gt;0.6L wedge resection ได้\"",
+  "interp": "ชาย 60 ปี COPD สูบบุหรี่ 30 pack-year พบก้อนในปอดจาก CT และ PFT เป็น severe obstruction — ถามขั้นต่อไปที่เหมาะสม ซึ่งต้องได้<b>การวินิจฉัยทางเนื้อเยื่อ</b>ก่อนตัดสินใจรักษา และต้องประเมินว่าปอดที่เหลือพอสำหรับการผ่าตัดหรือไม่",
+  "why": "ก้อนในปอดในผู้สูงอายุที่สูบบุหรี่ต้องคิดถึง <b>primary lung cancer</b> ก่อน · หลักคือ<b>ได้ tissue diagnosis และ staging ก่อนรักษา</b> เพราะชนิดเซลล์เปลี่ยนแผนทั้งหมด (small cell lung cancer ไม่ผ่าตัดเป็นหลัก ใช้เคมีบำบัดร่วมรังสี) และผู้ป่วย COPD รุนแรงอาจผ่าตัดใหญ่ไม่ได้ · ก้อนอยู่กลางหรือใกล้หลอดลม → <b>bronchoscopy</b> (± EBUS-TBNA ซึ่งได้ staging ต่อมน้ำเหลือง mediastinum พร้อมกัน) · ก้อนอยู่ริมปอด → CT-guided transthoracic needle biopsy (เสี่ยง pneumothorax มากขึ้นในถุงลมโป่งพอง) · ก่อนผ่าตัดแบบ anatomical resection ต้องประเมินปอด: <b>FEV1 และ DLCO</b> แล้วคำนวณ <b>ppo</b> (predicted postoperative) — ppo &gt; 60% ทั้งคู่เสี่ยงต่ำ, 30–60% ทำ stair climbing/ shuttle walk test, &lt; 30% หรือทดสอบไม่ผ่าน ทำ <b>CPET</b> (VO2max &lt; 10 mL/kg/min เสี่ยงสูงมาก) ตามแนวทาง ACCP · เกณฑ์เดิมใช้ FEV1 &gt; 2 L ทำ pneumonectomy ได้ &gt; 1.5 L ทำ lobectomy ได้ · ไฟล์วง E ลายมือ P'Ing <b>\"✓ definite dx before Tx\"</b> และเขียนที่ A <b>\"x post FEV1 &lt;1.5L ทำไม่ได้\"</b> พร้อมสรุปเกณฑ์ PFT/ DLCO/ exercise test",
   "wrong": {
-   "A": "Lobectomy ต้องมี postoperative FEV1 เพียงพอ (ลายมือ \"x post FEV1 &lt; 1.5 L ทำไม่ได้\") และยังไม่มีการวินิจฉัย · จะถูกถ้าชิ้นเนื้อยืนยัน NSCLC ระยะต้น FEV1 และ DLCO หลังผ่าตัดคาดการณ์ &gt; 60%",
-   "B": "Open wedge ใช้กับก้อนที่กระจายมาปอดหรือมะเร็งระยะต้นมากในผู้ที่ทำ lobectomy ไม่ได้ (ลายมือ \"x when lung metas, very early CA\") · จะถูกถ้าผู้ป่วยมะเร็งลำไส้ผ่าตัดแล้วพบก้อนกระจายที่ปอดก้อนเดียวรอบนอก",
-   "C": "VATS wedge เป็นการผ่าตัดเพื่อวินิจฉัย/ รักษาก้อนรอบนอกขนาดเล็ก แต่ผู้ป่วยปอดแย่มาก ควรได้ชิ้นเนื้อด้วยวิธีที่รุกล้ำน้อยกว่าก่อน · จะถูกถ้าก้อนรอบนอกขนาด 1.5 cm เจาะชิ้นเนื้อไม่ได้ ผู้ป่วยปอดพอผ่าตัด",
-   "D": "SBRT โดยไม่มีชิ้นเนื้อทำได้เฉพาะเมื่อเจาะชิ้นเนื้อไม่ได้/ เสี่ยงสูงมากและก้อนโอกาสมะเร็งสูงมาก หลังปรึกษาทีม · จะถูกถ้าก้อนรอบนอกโตขึ้นใน PET avid ผู้ป่วยเจาะชิ้นเนื้อไม่ได้และผ่าตัดไม่ได้"
+   "A": "Lobectomy ร่วมกับ mediastinal lymph node dissection เป็นมาตรฐานของ NSCLC ระยะต้น แต่ยังไม่มีผลชิ้นเนื้อและ staging และ severe COPD ทำให้ ppo FEV1 อาจต่ำจนเสี่ยงหายใจล้มเหลวหลังผ่าตัด (ลายมือ \"post FEV1 &lt;1.5L ทำไม่ได้\") — จะถูกถ้าเป็นชาย 60 ปี biopsy ยืนยัน adenocarcinoma 2.5 cm stage IA ไม่มีต่อมน้ำเหลือง FEV1 2.4 L และ ppo FEV1/ DLCO &gt; 60%",
+   "B": "Open wedge resection ผ่าน thoracotomy เจ็บปวดและกระทบการหายใจมากกว่า VATS จึงไม่เหมาะกับปอดที่สำรองน้อย และ wedge เป็น sublobar ที่ไม่ใช่มาตรฐานของมะเร็งปฐมภูมิทั่วไป (ลายมือ \"when lung metas, very early CA\") — จะถูกถ้าเป็นหญิง 50 ปีเคยผ่าตัดมะเร็งลำไส้ใหญ่ มี metastasis ที่ปอดก้อนเดียวริมปอด ที่ต้องคลำหาด้วยมือระหว่างผ่าตัด",
+   "C": "VATS wedge resection ใช้ได้ทั้งวินิจฉัยและรักษาก้อนเล็กริมปอดในผู้ที่ปอดสำรองน้อย แต่ควรทำหลังพยายามได้ชิ้นเนื้อและ staging แบบไม่ผ่าตัดแล้ว — จะถูกถ้าเป็นชาย 70 ปี ppo FEV1 35% มีก้อน 1.5 cm ริมปอด PET จับสารสูง needle biopsy ไม่ได้ผล และไม่มีต่อมน้ำเหลืองโต",
+   "D": "SBRT เป็นการรักษาหลักของ NSCLC ระยะต้นในผู้ที่ผ่าตัดไม่ได้ (เช่น COPD รุนแรง) แต่ควรพยายามได้ชิ้นเนื้อก่อน การฉายโดยไม่มีชิ้นเนื้อสงวนไว้เมื่อ biopsy เสี่ยงเกินหรือทำไม่ได้หลังทีมสหสาขาพิจารณา — จะถูกถ้าเป็นชาย 80 ปี FEV1 0.7 L ใช้ออกซิเจนที่บ้าน ก้อน 2 cm โตขึ้นใน CT ซ้ำและ PET จับสาร ซึ่ง biopsy เสี่ยง pneumothorax สูงมาก"
   },
-  "trap": "รีบผ่าตัดก้อนทันที — ผู้ป่วยปอดแย่มาก ต้องได้ชิ้นเนื้อและประเมินว่าผ่าตัดได้หรือไม่ก่อน",
+  "trap": "ผู้สูงอายุสูบบุหรี่มีก้อนในปอดชวนให้รีบผ่าตัด (lobectomy) หรือนึกถึง wedge เพราะปอดไม่ดี · แต่ขั้นแรกเสมอคือ<b>รู้ว่าเป็นอะไรก่อนรักษา</b> แล้วจึงประเมิน PFT/ DLCO/ ppo เพื่อเลือก lobectomy, sublobar หรือ SBRT · คำว่า severe obstruction ในโจทย์เป็นตัวบอกว่าการผ่าตัดใหญ่ทันทีไม่เหมาะ",
   "summary": [
-   "ก้อนสงสัยมะเร็ง: ชิ้นเนื้อ (bronchoscopy/ EBUS/ CT-guided) + staging (PET-CT)",
-   "ประเมินผ่าตัด: FEV1 · DLCO · ppoFEV1/ ppoDLCO",
-   "ppo &gt; 60%: เสี่ยงต่ำ · 30–60%: exercise test · &lt; 30%: เสี่ยงสูง (sublobar/ SBRT)",
-   "FEV1 &gt; 2 L: pneumonectomy · &gt; 1.5 L: lobectomy",
-   "Stair climbing/ VO2max &lt; 10 mL/kg/min → เสี่ยงสูงมาก",
-   "Small cell → เคมี + รังสี"
+   "ก้อนในปอดผู้สูบบุหรี่อายุมาก → CT chest ฉีดสี + PET-CT เพื่อ staging และหาตำแหน่งที่ biopsy ได้ผลสูงสุด · เจาะตำแหน่งที่ให้ทั้งการวินิจฉัยและ stage สูงสุดในครั้งเดียว",
+   "เลือกวิธีชิ้นเนื้อตามตำแหน่ง: ก้อนกลาง → bronchoscopy · ต่อมน้ำเหลือง mediastinum → EBUS-TBNA · ก้อนริมปอด → CT-guided transthoracic needle biopsy (pneumothorax ราว 15–25%)",
+   "ประเมินก่อนผ่าตัด: FEV1 และ DLCO ทุกราย · ppo = ค่าก่อนผ่าตัด × (1 − จำนวน segment ที่ตัด/ ทั้งหมด) · ppo &gt; 60% เสี่ยงต่ำ · 30–60% ทำ stair climb/ shuttle walk · &lt; 30% ทำ CPET",
+   "CPET: VO2max &gt; 20 mL/kg/min ผ่าตัดได้ถึง pneumonectomy · &lt; 10 mL/kg/min เสี่ยงสูงมาก ควรพิจารณา sublobar หรือ SBRT · เกณฑ์เดิม FEV1 &gt; 2 L pneumonectomy, &gt; 1.5 L lobectomy",
+   "NSCLC stage I–II ที่ร่างกายพร้อม: lobectomy + mediastinal LN dissection · ก้อนเล็ก ≤ 2 cm ริมปอดเลือกทำ segmentectomy ได้ (JCOG0802, CALGB 140503)",
+   "ผ่าตัดไม่ได้ (medically inoperable) ระยะต้น → SBRT ควบคุมก้อนเฉพาะที่ได้ราว 90% · small cell lung cancer ส่วนใหญ่รักษาด้วยเคมีบำบัดร่วมรังสี ผ่าตัดเฉพาะ T1–2N0 ที่พบน้อย",
+   "การเลิกบุหรี่ก่อนผ่าตัดและ pulmonary rehabilitation ลดภาวะแทรกซ้อนทางปอดหลังผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับวง E ✓ และลายมือในไฟล์ · ต้นฉบับไม่มีช้อย D จึงเติม SBRT without tissue",
-  "mnemonic": "<b>'ก้อนปอด + ปอดแย่ = ได้ชิ้นเนื้อก่อน (Dx) แล้วค่อยดูว่าปอดพอผ่าไหม'</b>",
-  "guide": "ACCP Physiologic Evaluation of the Patient With Lung Cancer Being Considered for Resectional Surgery (Chest 2013;143:e166S); NCCN Non-Small Cell Lung Cancer v.2025",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง E \"definite dx before Tx\" และให้เหตุผลว่า lobectomy ทำไม่ได้เมื่อ post FEV1 &lt; 1.5 L · ช้อย D (SBRT ไม่มีชิ้นเนื้อ) เว็บเติมเข้ามาเพราะต้นฉบับไม่มี D ใช้ได้เฉพาะเมื่อ biopsy ทำไม่ได้จริง จึงไม่ใช่ขั้นแรก",
+  "mnemonic": "<b>'\"Tissue is the issue\" — รู้ชนิดก่อนตัด แล้วเช็ก FEV1-DLCO-ppo'</b>",
+  "guide": "Brunelli A et al. ACCP Guidelines: Physiologic evaluation of the patient with lung cancer being considered for resectional surgery (Chest 2013); NCCN Guidelines Non-Small Cell Lung Cancer (2025)",
   "variants": [
-   "ชิ้นเนื้อ NSCLC stage I ppoFEV1 25% → SBRT",
-   "ชิ้นเนื้อ small cell lung cancer → เคมีบำบัด + รังสี",
-   "NSCLC stage I FEV1 2.5 L DLCO ปกติ → lobectomy + lymph node dissection"
+   "ชาย 65 ปี ก้อน 5 cm ติดหลอดลมใหญ่ข้างขวา ต่อมน้ำเหลือง subcarinal โต → EBUS-TBNA ได้ทั้งชิ้นเนื้อและ staging N2 ในครั้งเดียว",
+   "ผู้ป่วยวางแผน right pneumonectomy มี ppo FEV1 45% และ ppo DLCO 40% → ทำ stair climbing test หรือ shuttle walk ก่อนตัดสินใจ",
+   "ชาย 78 ปี FEV1 0.8 L ใช้ออกซิเจนที่บ้าน biopsy ยืนยัน adenocarcinoma 2 cm ไม่มีต่อมน้ำเหลือง → SBRT",
+   "ทำไม ppo FEV1 ต่ำกว่า 30% สำคัญ → ทำนายภาวะหายใจล้มเหลว ต้องใส่ท่อช่วยหายใจนานและเสียชีวิตหลังตัดปอดสูง"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 11 — ตัวพิมพ์: <b>Xx. ชาย60ปี เป็นCOPD สูบบุหรี่มา30pack-year อยู่ๆCT-chestเจอก้อนที่ปอด ทำlung function test เป็น (severe?) obstructive what is proper management — A. Lobectomy B.open wedge C. VAT wedge E. Bronchoscope to biopsy</b><br>ลายมือ: \"?\" หน้าข้อ (แดง) · A \"x post FEV1 &lt;1.5L ทำไม่ได้\" · B \"x when lung metas, very early CA\" (แดง) · E \"✓ definite dx before Tx\"<br>ไฮไลต์: วง E · \"COPD\" \"30pack-year\" \"CT-chestเจอก้อนที่ปอด\" \"function test เป็น (severe?) obstructive\"<br>รูปที่แปะ: สรุปลายมือ — Sx → 1° CA lung ∴ Sx แบบ anatomical resection ∴ ต้อง PFT ก่อน · เน้นดู FEV1 → บอก anatomical ที่ตัดได้: &gt;2L ∴ Sx ได้ชัวร์ (pneumonectomy ได้ = ตัดปอดครึ่งหนึ่งได้) · &gt;1.5L ∴ lobectomy 1 lobe ได้ · &gt;0.6L wedge resection ได้ · ppo &lt;30% high risk → wedge แล้ว RT ต่อ · 30–60% int. risk · &gt;60% low risk → go on Sx (คิดจาก % volume ปอดที่เหลือหลัง Sx × %FEV1 ที่ได้) · DLCO (diffusing capacity of the lungs for CO) → ตัดที่ 30, 60% เหมือน %FEV1 · exercise stress test → ดู O2 consumption · clinical : stair climbing test ถามว่าขึ้นบันไดได้กี่ชั้น · ถ้าเป็น small cell lung cancer → Sx แค่ palliative<br>ที่ปรับในเว็บ: ไม่มีช้อย D → เติม SBRT without tissue",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 11",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU70|RoC|1": {
-  "interp": "ก้อนที่ไต 5 cm <b>hyperechoic</b> บน US และ<b>มีไขมัน</b>บน CT ผู้ป่วย<b>ปวดสีข้างเป็นพักเวลาขยับ</b> → ถามการรักษา",
-  "why": "ก้อนไตที่มี<b>ไขมัน</b> (US hyperechoic, CT ≤ −20 HU) = <b>angiomyolipoma (AML)</b> เนื้องอกไม่ร้าย · ความเสี่ยงหลักคือ<b>เลือดออกเอง (Wunderlich syndrome)</b> ซึ่งสูงขึ้นเมื่อ<b>ก้อน &gt; 4 cm</b> มีหลอดเลือดโป่ง หรือตั้งครรภ์ · ก้อน<b>มีอาการ (ปวด)</b> หรือ &gt; 4 cm หรือโตเร็ว → รักษาแบบ<b>เก็บเนื้อไต</b>: <b>selective angioembolization</b> หรือ <b>partial nephrectomy</b> · ไม่มีอาการ &lt; 4 cm → ติดตามด้วยภาพ · TSC หลายก้อน → mTOR inhibitor (everolimus) · ไฟล์ P'Ing วง 3 ลายมือ <b>\"AML = fat density\"</b> <b>\"✓ symptomatic : flank pain / mass &gt;4cm / fast growing\"</b>",
+  "interp": "ก้อนที่ไต 5 cm ultrasound เป็น <b>hyperechoic</b> และ CT เห็น<b>ไขมัน</b> = <b>angiomyolipoma (AML)</b> ร่วมกับปวดสีข้างเป็นพัก ๆ เวลาขยับ — ถามการรักษา ซึ่งตัดสินจากขนาด (&gt; 4 cm) และอาการ ว่าเสี่ยงเลือดออกจนต้องรักษาเชิงรุก",
+  "why": "AML เป็นเนื้องอกไม่ร้ายของไต (กลุ่ม PEComa) ประกอบด้วย<b>หลอดเลือดผนังผิดปกติ กล้ามเนื้อเรียบ และไขมัน</b> · การวินิจฉัยใช้<b>ไขมันในก้อน</b>: US เป็น hyperechoic (แต่ RCC ก้อนเล็กก็ hyperechoic ได้ ต้องยืนยันด้วย CT) และ CT มีบริเวณ <b>attenuation ≤ −10 ถึง −20 HU</b> ซึ่งเมื่อเห็นแล้ว<b>ไม่ต้อง biopsy</b> · ราว 80% เกิดเดี่ยว ๆ ส่วนอีกราว 20% สัมพันธ์กับ <b>tuberous sclerosis complex</b> (หลายก้อนสองข้าง) · อันตรายหลักคือ<b>เลือดออกเอง</b>ในก้อน/ รอบไต (Wunderlich syndrome: ปวดสีข้าง ก้อน ช็อก) ความเสี่ยงสูงเมื่อ<b>ก้อน &gt; 4 cm</b>, มี aneurysm ในก้อน ≥ 5 mm, ตั้งครรภ์ · ก้อน &lt; 4 cm ไม่มีอาการ → ติดตามด้วยภาพ · ก้อนมีอาการหรือใหญ่ → รักษาเชิงรุกแบบ<b>เก็บเนื้อไต</b>: <b>partial nephrectomy</b> หรือ <b>selective arterial embolization</b> · TSC ใช้ mTOR inhibitor (everolimus) · ไฟล์วง 3 ลายมือ <b>\"✓ symptomatic : flank pain / mass &gt;4cm / fast growing\"</b> และ \"AML = fat density\" พร้อมสไลด์ Treatments ที่ใช้ 4-cm cut point",
   "wrong": {
-   "A": "ติดตามด้วย US ใช้กับ AML ไม่มีอาการและ &lt; 4 cm (ลายมือ \"x if asymptomatic + mass &lt; 4cm\") · จะถูกถ้าพบ AML 2 cm โดยบังเอิญ ไม่มีอาการ",
-   "B": "ไม่ต้องเจาะชิ้นเนื้อเพราะไขมันบน CT วินิจฉัย AML ได้ และเสี่ยงเลือดออก · จะถูกถ้าเป็น fat-poor AML ที่แยกจาก RCC ไม่ได้บนภาพ",
-   "D": "ตัดไตทั้งข้างเสียเนื้อไตเกินจำเป็นสำหรับเนื้องอกไม่ร้าย (ลายมือ \"x for multifocal\") · จะถูกถ้า AML ขนาดใหญ่มากแทนที่ไตทั้งข้าง หรือเลือดออกรุนแรงที่ embolization ไม่ได้ผล",
-   "E": "AML ไม่ใช้เคมีบำบัด · จะถูกถ้าเด็ก 3 ปีมีก้อนในท้องโต CT พบก้อนในไต (Wilms tumor) ให้เคมีบำบัดร่วมผ่าตัด"
+   "A": "Follow-up ultrasound (active surveillance) เหมาะกับ AML ที่ไม่มีอาการและเล็กกว่า 4 cm (ลายมือ \"x if asymptomatic + mass &lt;4cm\") แต่ก้อน 5 cm ที่ปวดแล้วเสี่ยงเลือดออก — จะถูกถ้าเป็นหญิง 45 ปีตรวจสุขภาพพบก้อน hyperechoic 2 cm ที่ไต CT มีไขมัน −40 HU ไม่มีอาการ",
+   "B": "Percutaneous biopsy ใช้เมื่อภาพไม่ชัดว่าเป็นเนื้องอกอะไร แต่เมื่อ CT เห็นไขมันชัดก็วินิจฉัย AML ได้เลย และการเจาะก้อนที่มีหลอดเลือดผิดปกติเสี่ยงเลือดออก — จะถูกถ้าเป็นชาย 60 ปีมีก้อนไต 3 cm ไม่มีไขมัน (fat-poor) ที่แยกจาก RCC ไม่ได้ และกำลังพิจารณาติดตามหรือ ablation",
+   "D": "Total nephrectomy เสียเนื้อไตทั้งข้างทั้งที่ก้อนไม่ร้าย และ AML มักเกิดหลายก้อนหรือเกิดใหม่โดยเฉพาะใน TSC (ลายมือ \"x for multifocal\") จึงควรเก็บเนื้อไต — จะถูกถ้าเป็นผู้ป่วย AML แตกเลือดออกรอบไตรุนแรงจนช็อก embolization ไม่สำเร็จ และไตข้างนั้นถูกก้อนแทนที่จนเก็บไม่ได้",
+   "E": "AML เป็นเนื้องอกไม่ร้ายไม่มีบทบาทของ chemotherapy ยาที่ลดขนาดก้อนได้คือ mTOR inhibitor (everolimus) ซึ่งใช้ใน TSC — การใช้ยาระบบจะถูกถ้าเป็นผู้ป่วย tuberous sclerosis อายุ 25 ปี มี AML หลายก้อนทั้งสองข้าง ขนาดใหญ่สุด 5 cm ไม่เหมาะผ่าตัด → everolimus"
   },
-  "trap": "เห็นก้อนไตแล้วคิดว่าต้องตัดไตทั้งข้างแบบมะเร็ง — มีไขมัน = AML ไม่ร้าย รักษาแบบเก็บไต",
+  "trap": "ก้อนไต 5 cm ทำให้นึกถึง RCC แล้วเลือก biopsy หรือ total nephrectomy · แต่<b>ไขมันใน CT = AML</b> ซึ่งไม่ร้าย จึงเน้นเก็บเนื้อไต · ตัวแยกการรักษาคือ <b>4 cm และอาการ</b>: ไม่มีอาการและเล็กกว่า 4 cm ติดตาม · มีอาการหรือใหญ่กว่า 4 cm ทำ partial nephrectomy/ embolization",
   "summary": [
-   "AML: ไขมันบน CT (≤ −20 HU) · US hyperechoic",
-   "เสี่ยงเลือดออก: &gt; 4 cm · aneurysm &gt; 5 mm · ตั้งครรภ์",
-   "ไม่มีอาการ &lt; 4 cm → ติดตามภาพ",
-   "มีอาการ/ &gt; 4 cm/ โตเร็ว → angioembolization หรือ partial nephrectomy",
-   "เลือดออกเฉียบพลัน (Wunderlich) → embolization",
-   "TSC หลายก้อน → everolimus"
+   "AML: เนื้องอกไม่ร้ายของไต (PEComa) มีหลอดเลือดผิดปกติ กล้ามเนื้อเรียบ และไขมัน · พบในผู้หญิงมากกว่า · ราว 20% สัมพันธ์กับ tuberous sclerosis complex (หลายก้อนสองข้าง)",
+   "วินิจฉัย: CT เห็นไขมัน ≤ −10 ถึง −20 HU = AML ไม่ต้อง biopsy · US hyperechoic อย่างเดียวไม่พอเพราะ RCC เล็กก็ hyperechoic ได้ · ก้อนมีไขมันร่วมกับ calcification ให้ระวัง RCC",
+   "Fat-poor AML (ราว 5%) แยกจาก RCC ด้วยภาพไม่ได้ ต้องใช้ MRI หรือ biopsy",
+   "ความเสี่ยงเลือดออก: ก้อน &gt; 4 cm (Oesterling), microaneurysm ≥ 5 mm, TSC, ตั้งครรภ์ · Wunderlich syndrome = ปวดสีข้าง + ก้อน + ช็อกจากเลือดออกรอบไต",
+   "ไม่มีอาการ &lt; 4 cm → ติดตามด้วย US/ CT · มีอาการ, &gt; 4 cm หรือโตเร็ว, หญิงวัยเจริญพันธุ์ → selective arterial embolization หรือ partial nephrectomy (nephron-sparing)",
+   "เลือดออกเฉียบพลัน: resuscitate แล้ว selective angioembolization เป็นขั้นแรก · nephrectomy เฉพาะเลือดออกที่คุมไม่ได้",
+   "TSC-AML ≥ 3 cm ที่โตขึ้น → everolimus ลดขนาดก้อนได้ (EXIST-2) และช่วยเก็บไตในโรคที่มีก้อนหลายก้อน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง 3 ✓ และลายมือในไฟล์ · ปัจจุบัน selective angioembolization ก็เป็นทางเลือกแรกที่ใช้บ่อย (ไม่มีในช้อย)",
-  "mnemonic": "<b>'ไตมีไขมัน = AML · 4 cm หรือปวด = จัดการ (embolize/ partial)'</b>",
-  "guide": "EAU Guidelines on Renal Cell Carcinoma 2024 — Angiomyolipoma; International TSC Consensus Recommendations (Pediatr Neurol 2021;123:50)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง 3 \"symptomatic : flank pain / mass &gt;4cm\" · AML 5 cm ที่ปวดต้องรักษาเชิงรุกแบบเก็บไต · ในแนวทางปัจจุบัน selective arterial embolization เป็นทางเลือกเท่ากัน (บางแห่งเลือกก่อน) แต่ไม่อยู่ในช้อย partial nephrectomy จึงดีที่สุดในตัวเลือก",
+  "mnemonic": "<b>'AML \"Fat = Benign · 4 cm = Bleed\" → ใหญ่หรือปวด เก็บไต (partial/ embolize)'</b>",
+  "guide": "EAU Guidelines on Renal Cell Carcinoma 2025 (section on angiomyolipoma); Campbell-Walsh-Wein Urology 12th ed. (2020) — Benign renal tumors",
   "variants": [
-   "AML 2 cm พบโดยบังเอิญ → ติดตาม US/ CT",
-   "AML 8 cm ปวดสีข้างทันที ช็อก → selective angioembolization",
-   "ผู้ป่วย TSC มี AML หลายก้อนสองข้างโตขึ้น → everolimus"
+   "หญิง 30 ปีตั้งครรภ์ 20 สัปดาห์ ปวดสีข้างทันที ซีด ความดันต่ำ CT เห็น AML 7 cm มีเลือดออกรอบไต → resuscitate + selective angioembolization",
+   "ก้อนไต 3 cm ไม่มีไขมันใน CT เพิ่มสารทึบรังสีชัด → คิดถึง RCC ก่อน (partial nephrectomy หรือ ablation)",
+   "เด็กชาย 12 ปีมี facial angiofibroma ชัก ปัญญาอ่อน ไตมีก้อนไขมันหลายก้อนสองข้าง → tuberous sclerosis complex",
+   "ทำไม AML เลือดออกง่าย → หลอดเลือดในก้อนผนังหนาแต่ไม่มี elastic lamina จึงโป่งเป็น aneurysm แตกง่ายเมื่อก้อนโต"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 13 — ตัวพิมพ์: <b>1.Mass at renal, hyperechoic, patient intermittent pain with movement. What is the proper managment? — 1. F/U ultrasound 2. Biopsy 3. Partial nephrectomy 4. Total nephrectomy 5. CMT</b><br>ลายมือ: \"AML = fat density\" เหนือ hyperechoic · 1 \"x if asymptomatic + mass &lt;4cm\" · 3 \"✓ symptomatic : flank pain / mass &gt;4cm / fast growing\" · 4 \"x for multifocal\" (แดง)<br>ไฮไลต์: วง 3 · \"Mass at renal\" · \"hyperechoic\" (เหลือง) · \"intermittent pain with movement\"<br>รูปที่แปะ: สไลด์ Diagnosis — Presence of fat component in lesion · USG: hyperechoic lesion · CT: area -20 HU or lower (ภาพ US/ CT) · สไลด์ Treatments — Depend on risk of bleeding: 4-cm cut point · Partial / total nephrectomy · Angioembolization (ลายมือเล็ก)<br>ที่ปรับในเว็บ: stem ระบุขนาด 5 cm และไขมันบน CT",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 13",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU70|RoC|2": {
-  "interp": "ชาย 70 ปี <b>สูบบุหรี่จัด</b> <b>ปัสสาวะเป็นเลือดเห็นด้วยตา ไม่เจ็บ</b> ไม่มี LUTS ไม่ปวดสีข้าง → ถามวินิจฉัย",
-  "why": "<b>Painless gross hematuria</b> ในผู้สูงอายุ<b>สูบบุหรี่</b> (ปัจจัยเสี่ยงสำคัญที่สุด) = <b>urothelial (transitional cell) carcinoma</b> โดยเฉพาะกระเพาะปัสสาวะ จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ปัจจัยเสี่ยงอื่น: สารเคมี aromatic amines (ย้อม ยาง), cyclophosphamide, ฉายรังสีอุ้งเชิงกราน, schistosomiasis (SCC) · ตรวจ: <b>cystoscopy + CT urography</b> (ดูทางเดินปัสสาวะส่วนบน) ± urine cytology → TURBT · ไฟล์ P'Ing วง 2 ลายมือ <b>\"✓ painless hematuria\"</b> \"↑ TCC risk\" และที่ 1 \"x มัก incidental finding (asymptomatic)\"",
+  "interp": "ชาย 70 ปี สูบบุหรี่จัด มี <b>gross painless hematuria</b> ไม่มีอาการทางเดินปัสสาวะส่วนล่างและไม่ปวดสีข้าง — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ซึ่งต้องจับคู่ปัจจัยเสี่ยง (อายุมาก บุหรี่) กับลักษณะเลือดออกแบบไม่เจ็บ",
+  "why": "<b>Painless gross hematuria</b> ในผู้สูงอายุเป็นอาการนำของ <b>urothelial carcinoma (TCC)</b> ราว 80–85% ของมะเร็งกระเพาะปัสสาวะ · <b>บุหรี่</b>เป็นปัจจัยเสี่ยงสำคัญที่สุด (เพิ่มความเสี่ยงราว 2–4 เท่า และเป็นสาเหตุราวครึ่งหนึ่งของผู้ป่วย) จากสาร aromatic amine ที่ขับออกทางปัสสาวะแล้วแช่ผิว urothelium ทั้งทางเดิน · ปัจจัยอื่น: สัมผัสสารเคมีอุตสาหกรรมสีย้อม/ ยาง, cyclophosphamide, aristolochic acid, การฉายรังสีอุ้งเชิงกราน · ชายพบมากกว่าหญิงราว 3–4 เท่า · เลือดมักออกเป็นพัก ๆ และหยุดเองได้ จึงห้ามตายใจ · การตรวจครบคือ <b>CT urography</b> ดู upper tract และ <b>cystoscopy</b> ดูกระเพาะปัสสาวะ (urine cytology เสริม) · ไม่มี LUTS ไม่ปวดสีข้างช่วยตัดนิ่ว ติดเชื้อ และ BPH · ไฟล์วง 2 ลายมือ P'Ing <b>\"✓ painless hematuria\"</b> เหนือ heavy smoker เขียน <b>\"↑ TCC risk\"</b> และที่ RCC เขียน \"x มัก incidental finding (asymptomatic)\"",
   "wrong": {
-   "A": "RCC ส่วนใหญ่พบโดยบังเอิญจากภาพ classic triad (ปวดสีข้าง ก้อน ปัสสาวะเลือด) พบ &lt; 10% (ลายมือ \"x มัก incidental finding\") · จะถูกถ้า CT ทำด้วยเหตุอื่นพบก้อนเนื้อแข็งในไต enhance",
-   "C": "นิ่วทำให้ปัสสาวะเป็นเลือดร่วมกับ<b>ปวด</b> (renal colic) (ลายมือ \"x painful hematuria\") · จะถูกถ้าชายปวดบิดสีข้างร้าวลงขาหนีบ ปัสสาวะเป็นเลือด",
-   "D": "BPH ทำให้ LUTS และปัสสาวะเป็นเลือดได้ แต่เป็นการวินิจฉัยหลังตัดมะเร็งออกแล้ว · จะถูกถ้าชายสูงอายุปัสสาวะลำบาก ไม่สุด ต่อมลูกหมากโต cystoscopy/ CT urography ไม่พบสาเหตุอื่น",
-   "E": "Cystitis มีปัสสาวะแสบ ขัด บ่อย · จะถูกถ้าหญิงปัสสาวะแสบ บ่อย ปัสสาวะเป็นเลือด UA มีหนอง"
+   "A": "RCC เลือดออกได้เมื่อก้อนลุกเข้า collecting system แต่ปัจจุบันกว่าครึ่งพบโดยบังเอิญจากภาพตรวจ (ลายมือ \"มัก incidental finding\") และ classic triad ปวดสีข้าง-ก้อน-hematuria พบราว 10% · บุหรี่เพิ่มความเสี่ยง RCC น้อยกว่า TCC — จะถูกถ้าเป็นชาย 60 ปีอ้วน ความดันสูง CT ตรวจไขมันพอกตับพบก้อนไต 4 cm เพิ่มสารทึบรังสีแบบไม่สม่ำเสมอ",
+   "C": "นิ่วทางเดินปัสสาวะทำให้เลือดออกร่วมกับปวดบิดเป็นพัก ๆ ร้าวลงขาหนีบ (ลายมือ \"x painful hematuria\") และส่วนใหญ่เป็น microscopic hematuria ไม่ใช่ gross แบบไม่เจ็บ — จะถูกถ้าเป็นชาย 35 ปีปวดบั้นเอวซ้ายรุนแรงทันทีร้าวลงอัณฑะ คลื่นไส้ บิดตัวไปมา UA มี RBC 20–30/HPF",
+   "D": "BPH ทำให้เลือดออกจากหลอดเลือดเปราะที่ผิว prostate ได้ แต่ต้องมี LUTS (ปัสสาวะลำบาก ไม่สุด ตื่นมาปัสสาวะกลางคืน) และเป็นการวินิจฉัยหลังตัดมะเร็งออกแล้วเท่านั้น — จะถูกถ้าเป็นชาย 72 ปีปัสสาวะไม่พุ่ง ต้องเบ่ง ตื่นปัสสาวะ 4 ครั้ง ต่อมลูกหมากโตเรียบ ผล CT urography และ cystoscopy ไม่พบมะเร็ง",
+   "E": "Cystitis ทำให้ปัสสาวะเป็นเลือด (hemorrhagic cystitis) ร่วมกับแสบขัด ปัสสาวะบ่อย ปวดท้องน้อย ซึ่งโจทย์บอกชัดว่าไม่มี LUTS และชายสูงอายุที่มีเลือดออกต้องหามะเร็งก่อนเสมอ — จะถูกถ้าเป็นหญิง 28 ปีปัสสาวะแสบขัด กะปริบกะปรอย ปัสสาวะมีเลือดปน UA มี WBC จำนวนมาก nitrite บวก"
   },
-  "trap": "นึกถึงไตเพราะปัสสาวะเป็นเลือด — painless hematuria + สูบบุหรี่ = มะเร็งเยื่อบุทางเดินปัสสาวะ",
+  "trap": "RCC และนิ่วก็ทำให้มีเลือดในปัสสาวะได้ทำให้ลังเล · ตัวแยกคือ<b>ไม่เจ็บ + สูบบุหรี่ + อายุมาก</b> ชี้ไป urothelial carcinoma ส่วน RCC มักไม่มีอาการและพบโดยบังเอิญ นิ่วต้องเจ็บ · กระเพาะปัสสาวะคือแหล่ง urothelium ที่ใหญ่ที่สุดจึงพบ TCC มากกว่าที่ไตหรือท่อไต",
   "summary": [
-   "Painless gross hematuria ผู้ใหญ่ → R/O มะเร็ง (cystoscopy + CT urography)",
-   "ปัจจัยเสี่ยง TCC: สูบบุหรี่ · aromatic amines · cyclophosphamide · รังสี",
-   "Schistosoma haematobium → SCC กระเพาะปัสสาวะ",
-   "RCC: ส่วนใหญ่ incidental · triad &lt; 10%",
-   "Bladder tumor → TURBT (วินิจฉัย + staging)",
-   "Microhematuria: แบ่งความเสี่ยงตาม AUA 2020"
+   "Urothelial carcinoma ราว 90% อยู่ในกระเพาะปัสสาวะ · upper tract urothelial carcinoma (renal pelvis, ureter) พบราว 5–10% และมักกลับเป็นซ้ำในกระเพาะปัสสาวะ",
+   "ปัจจัยเสี่ยง: บุหรี่ (สำคัญที่สุด), aromatic amine จากอุตสาหกรรมสีย้อม ยาง หนัง, cyclophosphamide, aristolochic acid, รังสีอุ้งเชิงกราน · Schistosoma haematobium และสายสวนค้างนานเสี่ยง squamous cell carcinoma",
+   "อาการ: painless gross hematuria ราว 80–85% · irritative LUTS โดยไม่มีติดเชื้อให้นึกถึง carcinoma in situ · ปวดสีข้างเมื่อก้อนอุดท่อไต",
+   "Gross hematuria ในผู้ใหญ่พบมะเร็งทางเดินปัสสาวะราว 10–20% ทุกรายต้องตรวจครบ: CT urography (upper tract) + cystoscopy (lower tract) ± urine cytology",
+   "Cystoscopy เห็นก้อน → TURBT ให้ได้กล้ามเนื้อ detrusor ในชิ้นเนื้อ เพื่อแยก NMIBC (Ta, T1, CIS) จาก MIBC (≥ T2)",
+   "RCC: กว่าครึ่งพบโดยบังเอิญ · triad ปวดสีข้าง ก้อน hematuria ราว 10% · paraneoplastic เช่น polycythemia, hypercalcemia, Stauffer syndrome",
+   "การเลิกบุหรี่ลดความเสี่ยงมะเร็งกระเพาะปัสสาวะลงชัดเจนในระยะยาว แต่ไม่กลับเป็นปกติเท่าคนไม่เคยสูบ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง 2 ✓ และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
-  "mnemonic": "<b>'เลือดในปัสสาวะไม่เจ็บ + บุหรี่ = TCC'</b>",
-  "guide": "AUA/SUFU Guideline: Microhematuria (J Urol 2020;204:778); EAU Guidelines on Non-muscle-invasive Bladder Cancer 2024",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง 2 (TCC) และเขียน \"✓ painless hematuria\" กับ \"↑ TCC risk\" ที่ heavy smoker · ต้นฉบับมีแค่ 3 ช้อย (RCC, TCC, Stone) เว็บเติม BPH และ cystitis ซึ่งถูกตัดได้ด้วยข้อความไม่มี LUTS",
+  "mnemonic": "<b>'\"Painless + Pack-years = Papillary TCC\"'</b>",
+  "guide": "EAU Guidelines on Non-muscle-invasive Bladder Cancer 2025; Campbell-Walsh-Wein Urology 12th ed. (2020) — Tumors of the bladder",
   "variants": [
-   "ชาย 65 ปีปัสสาวะเป็นเลือดไม่เจ็บ cystoscopy พบก้อน → TURBT",
-   "CT ทำเพราะปวดท้องพบก้อนในไต 4 cm enhance → RCC → partial nephrectomy",
-   "ชายปวดบิดสีข้าง ปัสสาวะเป็นเลือด → นิ่วท่อไต → NCCT"
+   "ชาย 68 ปีสูบบุหรี่ ปัสสาวะแสบขัดบ่อยมา 3 เดือน เพาะเชื้อไม่ขึ้น urine cytology พบ high-grade cells → carcinoma in situ ของกระเพาะปัสสาวะ ทำ cystoscopy + biopsy",
+   "ชายทำงานโรงงานย้อมผ้า 30 ปี ปัสสาวะเลือดไม่เจ็บ CT urography เห็น filling defect ใน renal pelvis → upper tract urothelial carcinoma",
+   "ผู้ป่วยเคยได้ cyclophosphamide รักษามะเร็งต่อมน้ำเหลือง ปัสสาวะเป็นเลือดเรื้อรัง → ต้องคิดทั้ง hemorrhagic cystitis และมะเร็งกระเพาะปัสสาวะ ทำ cystoscopy",
+   "ทำไมบุหรี่ทำให้มะเร็งกระเพาะปัสสาวะ → aromatic amine ถูกขับทางไตแล้วค้างในกระเพาะปัสสาวะสัมผัส urothelium นาน"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 13 — ตัวพิมพ์: <b>2. Male 70 yr, heavy smoker, gross painless hematuria, no LUTS, no flank pain. What is most likely diagnosis? — 1. RCC 2. TCC 3. Stone</b><br>ลายมือ: \"↑ TCC risk\" เหนือ heavy smoker · 1 \"x มัก incidental finding (asymptomatic)\" · 2 \"✓ painless hematuria\" · 3 \"x painful hematuria\" (แดง)<br>ไฮไลต์: วง 2 · \"70 yr, heavy smoker\" · \"gross painless hematuria\" (เหลือง) · \"no LUTS, no flank pain\"<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 13",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU70|RoC|3": {
-  "interp": "ชายมี<b>ก้อนแผลที่หัวองคชาต</b> → ถามขั้นต่อไปเพื่อวินิจฉัย",
-  "why": "ก้อน/ แผลที่องคชาตต้อง<b>ยืนยันทางพยาธิวิทยา</b>ก่อนรักษา → <b>incisional (หรือ excisional) biopsy</b> · ส่วนใหญ่เป็น <b>squamous cell carcinoma</b> (สัมพันธ์กับการไม่ขลิบ phimosis HPV สูบบุหรี่) · ต่อมน้ำเหลืองแรกที่กระจายคือ<b>ต่อมน้ำเหลืองขาหนีบ (inguinal)</b> · หลังยืนยันจึงวางแผนผ่าตัดเก็บอวัยวะ/ partial/ total penectomy และประเมินต่อมน้ำเหลือง (คลำ, US/ FNA, dynamic sentinel node biopsy) · ไฟล์ P'Ing ลายมือ <b>\"biopsy ก้อนเลย\"</b> และแปะสไลด์ <b>\"Diagnosis: Incisional biopsy · Squamous cell carcinoma · Primary LN metastasis : inguinal LN\"</b>",
+  "interp": "ชายมี<b>ก้อนเป็นแผลที่ glans penis</b> — ถามขั้นต่อไปเพื่อให้ได้การวินิจฉัย ซึ่งต้องคิดถึง <b>penile squamous cell carcinoma</b> และหลักว่าต้องมีผลชิ้นเนื้อยืนยันก่อนผ่าตัดหรือ staging",
+  "why": "ก้อนหรือแผลเรื้อรังที่ glans/ prepuce ในผู้ชายต้องคิดถึง <b>penile cancer</b> ซึ่งราว 95% เป็น <b>squamous cell carcinoma</b> · ปัจจัยเสี่ยงคือ<b>ไม่ได้ขลิบร่วมกับ phimosis</b> (smegma และการอักเสบเรื้อรัง), สุขอนามัยไม่ดี, <b>HPV 16/18</b> (ราวหนึ่งในสามถึงครึ่ง), บุหรี่, lichen sclerosus และ PUVA · การขลิบตั้งแต่เด็กลดความเสี่ยง · ตำแหน่งที่พบบ่อยที่สุดคือ glans รองลงมาคือ prepuce · <b>ต้องได้ชิ้นเนื้อยืนยันก่อนรักษา</b> ด้วย <b>incisional หรือ punch biopsy</b> (ก้อนเล็กทำ excisional ได้) เพื่อบอกชนิด grade และ lymphovascular invasion ซึ่งใช้ตัดสินจัดการต่อมน้ำเหลือง · <b>ต่อมน้ำเหลืองแรกที่กระจายคือ inguinal</b> (superficial → deep → pelvic) แทบไม่ข้ามขั้น · ต่อมน้ำเหลืองขาหนีบโตตอนแรกพบราวครึ่งหนึ่งแต่ส่วนหนึ่งเป็นแค่อักเสบ จึงใช้ FNA ยืนยัน · ไฟล์ตัวพิมพ์ <b>\"น่าจะตอบ incisional biopsy\"</b> ลายมือ P'Ing <b>\"biopsy ก้อนเลย\"</b> และแปะสไลด์ Diagnosis — Incisional biopsy · Squamous cell carcinoma · Primary LN metastasis: inguinal LN",
   "wrong": {
-   "B": "ตัดองคชาตบางส่วนทันทีโดยไม่มีชิ้นเนื้อยืนยัน อาจเป็นโรคไม่ร้ายหรือติดเชื้อ · จะถูกถ้าชิ้นเนื้อยืนยัน SCC ที่หัวองคชาตลุกลาม corpus cavernosum",
-   "C": "เลาะต่อมน้ำเหลืองขาหนีบทำหลังวินิจฉัยและประเมินต่อมน้ำเหลือง · จะถูกถ้ายืนยัน SCC องคชาตและคลำได้ต่อมน้ำเหลืองขาหนีบโต FNA บวก",
-   "D": "PET-CT ไม่ใช่ขั้นแรก และไม่ใช้แทนชิ้นเนื้อ · จะถูกถ้ายืนยันมะเร็งแล้วมีต่อมน้ำเหลืองขาหนีบบวก ต้องการหาการกระจายไกล",
-   "E": "ทา steroid โดยไม่ได้ชิ้นเนื้อเสี่ยงพลาดมะเร็ง · จะถูกถ้าชิ้นเนื้อยืนยัน lichen sclerosus (BXO) ที่หัวองคชาต"
+   "B": "Partial penectomy เป็นการรักษาก้อนที่ glans/ ปลายองคชาตที่ลุกลาม (T2 ขึ้นไป) แต่ต้องมีผลชิ้นเนื้อและ staging ก่อน เพราะรอยโรคอาจเป็น PeIN, condyloma หรือการติดเชื้อที่รักษาโดยไม่ตัดอวัยวะ — จะถูกถ้าเป็นชาย 60 ปี biopsy ยืนยัน SCC grade 2 ขนาด 3 cm ลุก corpus spongiosum ที่ glans ไม่มีต่อมน้ำเหลืองขาหนีบโต",
+   "C": "Inguinal lymph node dissection ใช้เมื่อพิสูจน์ว่าต่อมน้ำเหลืองมีมะเร็ง (FNA บวก) หรือก้อนปฐมภูมิเสี่ยงปานกลางถึงสูงที่ต่อมน้ำเหลืองคลำไม่ได้ (บางแห่งทำ dynamic sentinel node biopsy) แต่ต้องรู้ผลชิ้นเนื้อก้อนก่อน — จะถูกถ้าเป็นชาย 55 ปีเป็น penile SCC pT2 grade 3 ต่อมน้ำเหลืองขาหนีบขวาคลำได้ 2 cm และ FNA พบ SCC",
+   "D": "PET-CT ใช้ staging หา pelvic และ distant metastasis ในผู้ที่ต่อมน้ำเหลืองขาหนีบมีมะเร็งแล้ว ไม่ใช่ขั้นแรกก่อนมีชิ้นเนื้อ และไม่ให้การวินิจฉัยทางเนื้อเยื่อ — จะถูกถ้าเป็นชาย 65 ปี biopsy ยืนยัน penile SCC และ FNA ต่อมน้ำเหลืองขาหนีบสองข้างบวก ต้องประเมินต่อมน้ำเหลืองในอุ้งเชิงกรานก่อนผ่าตัด",
+   "E": "Topical steroid ใช้รักษา lichen sclerosus หรือ balanitis ที่ไม่ใช่เนื้องอก การลองยาในก้อนที่เป็นแผลทำให้วินิจฉัยมะเร็งล่าช้า — จะถูกถ้าเป็นชาย 40 ปีมีปื้นสีขาวแข็งรอบ glans และหนังหุ้มปลายตีบ ไม่มีก้อนหรือแผล biopsy เป็น lichen sclerosus"
   },
-  "trap": "รีบผ่าตัดใหญ่หรือเลาะต่อมน้ำเหลืองก่อนได้ชิ้นเนื้อ — ต้อง biopsy ก่อนเสมอ",
+  "trap": "คนที่รู้ว่า penile cancer รักษาด้วยการผ่าตัดอาจกระโดดไป partial penectomy หรือนึกถึงการกระจายไป inguinal LN แล้วเลือก dissection · คำถามถามว่า<b>ทำอะไรเพื่อวินิจฉัย</b> ซึ่งต้องได้ชิ้นเนื้อก่อนการรักษาที่ตัดอวัยวะทุกครั้ง · biopsy ยังบอก grade และ LVI ที่ใช้วางแผนต่อมน้ำเหลือง",
   "summary": [
-   "ก้อน/ แผลองคชาต → biopsy ก่อน",
-   "ชนิดส่วนใหญ่: SCC",
-   "ปัจจัยเสี่ยง: ไม่ขลิบ · phimosis · HPV · สูบบุหรี่ · lichen sclerosus",
-   "ต่อมน้ำเหลืองแรก: inguinal (superficial → deep → pelvic)",
-   "คลำต่อมน้ำเหลืองไม่ได้ + เสี่ยงปานกลาง/ สูง → dynamic sentinel node biopsy/ modified ILND",
-   "ผ่าตัด: เก็บอวัยวะ (ก้อนเล็ก) → partial → total penectomy"
+   "Penile cancer: ราว 95% เป็น SCC · พบที่ glans มากที่สุด รองลงมาคือ prepuce · ปัจจัยเสี่ยง phimosis/ ไม่ขลิบ, HPV 16/18, บุหรี่, lichen sclerosus, PUVA, สุขอนามัยไม่ดี",
+   "Precursor: penile intraepithelial neoplasia (PeIN; เดิม Bowen disease, erythroplasia of Queyrat) รักษาด้วย topical 5-FU/ imiquimod, laser หรือ glans resurfacing",
+   "วินิจฉัย: incisional/ punch biopsy ก่อนรักษา (ก้อนเล็กทำ excisional ได้) · MRI ช่วยประเมินการลุก corpora ก่อนผ่าตัดแบบสงวนอวัยวะ",
+   "ก้อนปฐมภูมิ: ระยะต้นใช้ penile-sparing (laser, wide local excision, glansectomy) · ลุกลามมากขึ้น partial penectomy · ลุกถึงโคน total penectomy + perineal urethrostomy",
+   "ต่อมน้ำเหลือง: กระจาย inguinal superficial → deep → pelvic ตามลำดับ · ต่อมน้ำเหลืองโตใช้ FNA ยืนยัน (ไม่ต้องรอยาปฏิชีวนะ 6 สัปดาห์แบบเดิม)",
+   "ต่อมน้ำเหลืองคลำไม่ได้แต่ก้อนเสี่ยงปานกลางถึงสูง (≥ pT1b หรือ grade 3/ LVI) → dynamic sentinel node biopsy หรือ modified inguinal lymphadenectomy",
+   "การพยากรณ์โรคขึ้นกับสถานะต่อมน้ำเหลืองมากที่สุด · ต่อมน้ำเหลืองขาหนีบมีมะเร็งหลายต่อมหรือลุกนอกแคปซูลให้เคมีบำบัดร่วม"
   ],
-  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับที่ผู้จดตอบ (incisional biopsy) และสไลด์ที่ P'Ing แปะในไฟล์ · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
-  "mnemonic": "<b>'ก้อนองคชาต: Biopsy ก่อน → SCC → ดูขาหนีบ'</b>",
-  "guide": "EAU-ASCO Collaborative Guidelines on Penile Cancer 2023 (Eur Urol 2024;85:257)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์ที่ตัวพิมพ์เขียน \"น่าจะตอบ incisional biopsy\" ลายมือ P'Ing \"biopsy ก้อนเลย\" และสไลด์ Diagnosis ที่ขึ้นต้นด้วย incisional biopsy · ต้นฉบับไม่มีช้อย เว็บแต่งช้อย B–E เป็นขั้นการรักษา/ staging ที่มาหลังได้ผลชิ้นเนื้อ",
+  "mnemonic": "<b>'\"แผลที่ปลาย → ตัดชิ้นเนื้อก่อนตัดอวัยวะ\" · ต่อมแรก = Inguinal'</b>",
+  "guide": "EAU-ASCO Collaborative Guidelines on Penile Cancer 2023 (Brouwer OR et al., Eur Urol 2023); Campbell-Walsh-Wein Urology 12th ed. (2020) — Tumors of the penis",
   "variants": [
-   "ชายไม่ขลิบ phimosis แผลเรื้อรังที่หัวองคชาต → biopsy",
-   "SCC องคชาต คลำต่อมน้ำเหลืองขาหนีบไม่ได้ T1b → dynamic sentinel node biopsy",
-   "SCC องคชาต + ต่อมน้ำเหลืองขาหนีบบวก → inguinal lymph node dissection"
+   "ชาย 70 ปีหนังหุ้มปลายตีบ มีก้อนกะหล่ำปลีเลือดออกใต้หนังหุ้ม เปิดไม่ได้ → dorsal slit/ circumcision เพื่อดูรอยโรคแล้ว biopsy",
+   "ผู้ป่วย penile SCC pT1a grade 1 ต่อมน้ำเหลืองคลำไม่ได้ → ติดตามต่อมน้ำเหลืองขาหนีบอย่างใกล้ชิด ไม่ต้องผ่าตัดต่อมน้ำเหลือง",
+   "ชาย 50 ปีมีปื้นแดงกำมะหยี่ขอบชัดที่ glans นาน 1 ปี biopsy เป็น PeIN → topical 5-FU หรือ imiquimod",
+   "ทำไมต้อง FNA ต่อมน้ำเหลืองขาหนีบโตก่อน dissection → ราวครึ่งหนึ่งโตจากการอักเสบของแผลติดเชื้อ ไม่ใช่มะเร็ง"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 13 — ตัวพิมพ์: <b>3. ก้อนที่ penis จะwork upอะไรต่อ น่าจะตอบ incisional biopsy ตรงแอคเก่า</b> (ไม่มีช้อย)<br>ลายมือ: \"biopsy ก้อนเลย\" เหนือ incisional biopsy<br>ไฮไลต์: \"ก้อนที่ penis จะwork upอะไรต่อ\" · ขีดเส้นใต้ \"incisional biopsy\"<br>รูปที่แปะ: สไลด์ Diagnosis — Incisional biopsy · Squamous cell carcinoma · Primary LN metastasis : inguinal LN<br>ที่ปรับในเว็บ: ไม่มีช้อย → แต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 13",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU70|RoC|5": {
-  "interp": "หญิง 55 ปี<b>ไม่มีอาการ</b> ปัสสาวะมีเลือดระดับกล้อง เคยผ่าตัด PCNL นิ่วเขากวางขวา 10 ปีก่อน → ถามการตรวจที่เหมาะสม",
-  "why": "Microscopic hematuria ในผู้ใหญ่ต้อง<b>ตัดมะเร็งออกก่อน</b> (โดยเฉพาะ urothelial carcinoma) แม้มีประวัตินิ่ว · ประเมิน: <b>ทางเดินปัสสาวะส่วนบน → CT urography</b> (ก่อนฉีด + nephrographic + <b>delayed/ excretory phase</b>) เห็นทั้งเนื้อไต นิ่ว และ filling defect ในกรวยไต/ ท่อไต · แพ้สารทึบรังสี/ ไตเสื่อม → MR urography หรือ retrograde pyelography + US/ CT ไม่ฉีดสี · <b>ทางเดินปัสสาวะส่วนล่าง → cystoscopy</b> (CIS, papillary เล็ก, flat lesion) · ไฟล์ P'Ing วง 2 และกรอบลายมือ <b>\"R/O cancer → upper tract : CT urography : CTWA + delayed phase · ถ้า contrast allergy : MR urography → lower tract : cystoscopy ∵ CIS, small papillary, flat lesion\"</b>",
+  "interp": "หญิง 55 ปี มี <b>asymptomatic microscopic hematuria</b> เคยทำ PCNL รักษา <b>staghorn stone</b> ข้างขวาเมื่อ 10 ปีก่อน — ถามการตรวจที่เหมาะสม ซึ่งต้อง R/O มะเร็งทางเดินปัสสาวะส่วนบนก่อน ไม่ใช่สรุปว่าเป็นนิ่วอย่างเดียว",
+  "why": "Microscopic hematuria คือ <b>≥ 3 RBC/HPF</b> จาก UA ที่ส่องกล้องจุลทรรศน์ (dipstick บวกอย่างเดียวไม่พอ) · หลังตัดสาเหตุชัดเจน (ติดเชื้อ ประจำเดือน ออกกำลังหนัก) ต้องประเมินมะเร็งตามความเสี่ยง (AUA/SUFU 2020) — อายุ เพศ บุหรี่ จำนวน RBC ประวัติ gross hematuria และปัจจัยเสี่ยงของ urothelium · การตรวจครบมีสองส่วน: <b>upper tract</b> ด้วย <b>CT urography</b> (มี delayed/ excretory phase ให้สารทึบรังสีเต็ม collecting system จึงเห็นทั้ง filling defect เนื้อไต และนิ่ว) และ <b>lower tract</b> ด้วย <b>cystoscopy</b> (เห็น CIS ก้อน papillary เล็ก และรอยโรคแบนที่ CT พลาด) · ผู้ป่วยมีประวัติ staghorn ซึ่งเป็นนิ่วติดเชื้อเรื้อรัง ทำให้ CT urography ได้ทั้งดูนิ่วเหลือ/ กลับเป็นซ้ำและการระคายเคืองเรื้อรังที่เสี่ยงมะเร็งของ renal pelvis (รวม squamous cell carcinoma) · แพ้สารทึบรังสี → MR urography · ไฟล์วง 2 ลายมือ P'Ing <b>\"ต้อง R/O cancer esp. TCC → upper tract : CT urography : CTWA + delayed phase … lower tract : cystoscopy\"</b> และ \"retrograde pyelography ไม่เห็น parenchyma ∴ + U/S or CT non contrast\"",
   "wrong": {
-   "A": "Retrograde pyelography เห็นเฉพาะภายในทางเดินปัสสาวะ ไม่เห็นเนื้อไต (ลายมือ \"ถ้า retrograde pyelography ไม่เห็น parenchyma ∴ + U/S or CT non contrast\") · จะถูกถ้าผู้ป่วยแพ้สารทึบรังสีรุนแรง/ ไตเสื่อมจนฉีดสีไม่ได้ (ทำร่วมกับ US/ NCCT)",
-   "C": "URS เป็นการตรวจรุกล้ำ ใช้เมื่อภาพพบความผิดปกติในทางเดินส่วนบน · จะถูกถ้า CT urography พบ filling defect ในกรวยไต ต้องการชิ้นเนื้อ",
-   "D": "VCUG ดูการไหลย้อนของปัสสาวะ (VUR) และท่อปัสสาวะในเด็ก ไม่ใช่การหาสาเหตุ hematuria · จะถูกถ้าเด็กเล็กติดเชื้อทางเดินปัสสาวะส่วนบนซ้ำ ๆ",
-   "E": "KUB เห็นเฉพาะนิ่วทึบรังสี พลาดเนื้องอก · จะถูกถ้าติดตามขนาดนิ่วที่ทึบรังสีหลังรักษา"
+   "A": "Retrograde pyelography ฉีดสารทึบรังสีผ่านสายที่ใส่ทางท่อไตระหว่างส่องกล้อง เห็นผิว collecting system ชัดแต่ไม่เห็นเนื้อไต (ลายมือ \"ไม่เห็น parenchyma\") และต้องดมยา จึงเป็นทางเลือกรอง — จะถูกถ้าเป็นหญิง 60 ปีมี hematuria แต่ eGFR 25 และแพ้สารทึบรังสีรุนแรง ใช้ RPG ระหว่าง cystoscopy ร่วมกับ US ไต",
+   "C": "Ureteroscopy เป็นหัตถการรุกล้ำที่ใช้ยืนยันและตัดชิ้นเนื้อเมื่อภาพพบรอยโรคใน upper tract หรือ cytology บวกแต่หาที่มาไม่เจอ ไม่ใช่การตรวจแรก — จะถูกถ้าเป็นหญิง 55 ปีที่ CT urography พบ filling defect 1 cm ใน renal pelvis ขวา ต้องการ biopsy ยืนยัน upper tract urothelial carcinoma",
+   "D": "VCUG ดูกระเพาะปัสสาวะและท่อปัสสาวะขณะถ่าย ใช้หา vesicoureteral reflux และ posterior urethral valve ในเด็ก ไม่ช่วยหาก้อนหรือนิ่วใน upper tract — จะถูกถ้าเป็นเด็กหญิง 2 ปีมีไข้จาก UTI ซ้ำ 2 ครั้ง US พบ hydronephrosis ต้องหา vesicoureteral reflux",
+   "E": "Plain KUB เห็นนิ่วทึบรังสีได้ (ราว 90% ของนิ่วแคลเซียม) แต่ไม่เห็นเนื้องอกหรือนิ่วโปร่งรังสี จึงตัดมะเร็งไม่ได้ — จะถูกถ้าเป็นหญิง 50 ปีที่ทำ PCNL นิ่วแคลเซียมไป 1 เดือนและนัดตรวจหานิ่วเหลือเทียบกับฟิล์มก่อนผ่าตัด"
   },
-  "trap": "คิดว่าเป็นนิ่วซ้ำเพราะมีประวัตินิ่ว — hematuria ในผู้ใหญ่ต้องตัดมะเร็งออกด้วย CT urography + cystoscopy",
+  "trap": "ประวัติ staghorn/ PCNL ชวนให้คิดว่าเลือดมาจากนิ่วแล้วเลือก KUB หรือ URS · แต่ microscopic hematuria ในผู้ใหญ่วัยนี้ต้อง <b>R/O cancer ก่อน</b> และ CT urography ตอบได้ทั้งนิ่วและเนื้องอกในครั้งเดียว · ส่วน retrograde pyelography ใช้เมื่อฉีดสีทางหลอดเลือดไม่ได้เท่านั้น",
   "summary": [
-   "Microhematuria: ≥ 3 RBC/HPF ในปัสสาวะที่ปั่น",
-   "AUA 2020: แบ่งเสี่ยงต่ำ/ ปานกลาง/ สูง (อายุ เพศ บุหรี่ ปริมาณเลือด)",
-   "เสี่ยงสูง: cystoscopy + CT urography",
-   "ฉีดสีไม่ได้: MR urography หรือ RPG + US/ NCCT",
-   "Cystoscopy: เห็น CIS/ papillary เล็ก/ flat lesion",
-   "ตัดสาเหตุชั่วคราวก่อน: UTI · ประจำเดือน · ออกกำลังหนัก"
+   "Microscopic hematuria = ≥ 3 RBC/HPF จาก UA ส่องกล้อง · dipstick บวกต้องยืนยันด้วยกล้องจุลทรรศน์ (myoglobin/ hemoglobin ทำให้ dipstick บวกโดยไม่มี RBC)",
+   "ตัดสาเหตุชั่วคราวก่อน: UTI (รักษาแล้วตรวจซ้ำ), ประจำเดือน, ออกกำลังหนัก · RBC รูปร่างผิดปกติ (dysmorphic), RBC cast, proteinuria หรือ creatinine สูง → คิดถึงโรคไตและส่ง nephrologist",
+   "AUA/SUFU 2020 แบ่งความเสี่ยงมะเร็ง: low (หญิง &lt; 50, ชาย &lt; 40, บุหรี่ &lt; 10 pack-year, 3–10 RBC) · high (อายุ ≥ 60, บุหรี่ &gt; 30 pack-year, &gt; 25 RBC หรือเคยมี gross hematuria)",
+   "การตรวจตามความเสี่ยง: low → ตรวจ UA ซ้ำหรือ cystoscopy + US ตามการตัดสินใจร่วม · intermediate → cystoscopy + renal US · high → cystoscopy + CT urography",
+   "CT urography มี 3 phase (non-contrast เห็นนิ่ว, nephrographic เห็นเนื้อไต, excretory เห็น filling defect ใน collecting system) · แพ้สารทึบรังสี → MR urography หรือ retrograde pyelography + US",
+   "การระคายเคืองเรื้อรังจากนิ่ว staghorn และการติดเชื้อเรื้อรังสัมพันธ์กับ squamous cell carcinoma ของ renal pelvis ซึ่งมักพบระยะลุกลาม",
+   "Cystoscopy จำเป็นแม้ CT ปกติ เพราะ CIS และรอยโรคแบนในกระเพาะปัสสาวะมองไม่เห็นในภาพตัดขวาง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง 2 และกรอบลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย (ผู้จดเขียน \"VCUG nm\" ไว้ในโจทย์) จึงเติม D, E",
-  "mnemonic": "<b>'Hematuria ผู้ใหญ่: บน = CT urography · ล่าง = Cystoscopy (CC)'</b>",
-  "guide": "AUA/SUFU Guideline: Microhematuria (J Urol 2020;204:778); EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma 2024",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง 2 และเขียนแผน R/O cancer ด้วย CT urography + cystoscopy · ตามเกณฑ์ AUA ผู้หญิงอายุ 55 อาจจัดอยู่ intermediate risk ที่ใช้ renal US ได้ แต่ประวัติ staghorn ที่ต้องดูนิ่วด้วยทำให้ CT urography คุ้มที่สุด และเป็นช้อยดูภาพ upper tract ที่ดีที่สุดในตัวเลือก",
+  "mnemonic": "<b>'Hematuria workup = \"2C\": CT urography + Cystoscopy'</b>",
+  "guide": "Barocas DA et al. AUA/SUFU Guideline: Microhematuria (J Urol 2020); Campbell-Walsh-Wein Urology 12th ed. (2020) — Evaluation of the urologic patient",
   "variants": [
-   "ชาย 60 ปีสูบบุหรี่ RBC 30/HPF → cystoscopy + CT urography",
-   "ผู้ป่วยแพ้สารทึบรังสี hematuria → MR urography/ RPG + US",
-   "หญิง 30 ปี ไม่สูบบุหรี่ RBC 5/HPF → ตรวจซ้ำ/ cystoscopy + US ตามความเสี่ยงต่ำ"
+   "ชาย 30 ปีไม่สูบบุหรี่ UA ตรวจสุขภาพ RBC 4/HPF ครั้งเดียว ไม่มีปัจจัยเสี่ยง → low risk ตรวจ UA ซ้ำ (หรือ cystoscopy + US ตามการตัดสินใจร่วม)",
+   "หญิง 62 ปีสูบบุหรี่ 35 pack-year RBC 30/HPF แต่ eGFR 20 → cystoscopy + retrograde pyelography ร่วมกับ renal US แทน CT urography",
+   "ผู้ป่วย microscopic hematuria มี RBC รูปร่างผิดปกติ RBC cast และ protein 2+ → glomerular disease ส่งปรึกษาอายุรแพทย์โรคไต",
+   "ทำไม CT urography ต้องมี excretory phase → ให้สารทึบรังสีเต็ม calyx-pelvis-ureter จึงเห็น filling defect ของ urothelial carcinoma"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 13 — ตัวพิมพ์: <b>5. female 55yr asymptomatic microscopic hematuria. Hx of right staghorn stone s/p PCNL 10 yr ago. VCUG nm proper investigation? — 1. retrograde pyelogram 2. CT urography 3. URS</b><br>ลายมือ: \"ต้อง R/O cancer esp. TCC\" · กรอบเหลือง \"R/O cancer → upper tract : CT urography : CTWA + delayed phase (ถ้า contrast allergy : MR urography) → lower tract : cystoscopy ∵ CIS, small papillary, flat lesion (ถ้า retrograde pyelography ไม่เห็น parenchyma ∴ + U/S or CT non contrast)\"<br>ไฮไลต์: วง 2 · \"55yr\" · \"asymptomatic microscopic hematuria\" (เหลือง) · \"Hx of right staghorn stone s/p PCNL\"<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D VCUG และ E KUB",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 13",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU70|RoC|9": {
-  "interp": "ถามผู้ป่วยรายใดควร<b>ใส่สายสวนปัสสาวะคาไว้ (retain Foley)</b>",
-  "why": "<b>Acute urinary retention (AUR)</b> ที่มีปัสสาวะค้างมาก → ใส่สายสวนคาไว้เพื่อ<b>ระบายกระเพาะปัสสาวะ</b> ให้กล้ามเนื้อฟื้น และป้องกันไตเสียหาย · หลักทั่วไป: residual &lt; 200 mL ไม่ต้องคา, &gt; 400 mL คาสาย (ในชายต่อมลูกหมากโตให้ alpha-blocker แล้ว trial without catheter ใน 2–3 วัน) · ระวัง post-obstructive diuresis · ไฟล์ P'Ing วง 1 ลายมือ <b>\"✓ acute urinary retention : residual urine &lt;200 mL ไม่ต้อง retain, &gt;400 mL retain foley\"</b> และที่ 4 \"→ ant. urethral injury : contusion, incomplete injury : retain foley cath · complete disruption : suprapubic cystostomy\"",
+  "interp": "ถามว่าผู้ป่วยกลุ่มใดควร<b>คาสาย Foley ไว้ (retain)</b> — ต้องรู้ข้อบ่งชี้ของการคาสายสวนปัสสาวะ ข้อห้ามใส่สายแบบไม่รู้กายวิภาค และความเสี่ยง catheter-associated UTI ที่ทำให้ไม่ควรคาสายโดยไม่จำเป็น",
+  "why": "ข้อบ่งชี้หลักของการคาสายสวนปัสสาวะคือ <b>acute urinary retention (AUR)</b>, bladder outlet obstruction ที่ทำให้ไตเสีย, ติดตามปัสสาวะในผู้ป่วยวิกฤต/ ระหว่างและหลังผ่าตัดบางชนิด และระบายเลือดก้อน · ใน AUR ใส่สายแล้ว<b>วัดปริมาณปัสสาวะที่ระบายออก</b>: ปริมาณน้อยอาจถอดได้ ปริมาณมากแสดงว่ากระเพาะปัสสาวะยืดมาก ต้องคาสายไว้ให้ detrusor ฟื้นตัว (ลายมือในไฟล์: &lt; 200 mL ไม่ต้อง retain, &gt; 400 mL retain) · ในชายที่เกิดจาก BPH ให้ <b>alpha-blocker</b> (เช่น alfuzosin/ tamsulosin) ตั้งแต่วันใส่สายแล้วทำ <b>trial without catheter</b> หลัง 2–3 วัน ซึ่งเพิ่มโอกาสถ่ายเองได้ · ระวัง <b>post-obstructive diuresis</b> (ปัสสาวะ &gt; 200 mL/ชม. นานหลายชั่วโมง) ในผู้ที่คั่งเรื้อรังและ creatinine สูง · การระบายหมดในครั้งเดียวทำได้ ไม่จำเป็นต้องหนีบสายเป็นช่วง · ทุกวันที่คาสายเพิ่มความเสี่ยง CAUTI จึงถอดทันทีที่หมดข้อบ่งชี้ · ไฟล์วง 1 ลายมือ P'Ing <b>\"✓ acute urinary retention : residual urine &lt;200mL ไม่ต้อง retain, &gt;400mL retain foley\"</b> และที่ช้อยตกคร่อมเขียน \"ant. urethral injury … complete disruption : suprapubic cystostomy\"",
   "wrong": {
-   "B": "สายสวนคาเพิ่มการติดเชื้อ ไม่ใช่การรักษา UTI ซ้ำ · จะถูกถ้าผู้ป่วย neurogenic bladder ติดเชื้อซ้ำจากปัสสาวะค้าง → clean intermittent catheterization (ไม่คาสาย)",
-   "C": "ปัสสาวะแสบมีหนองรักษาด้วยยาปฏิชีวนะ ไม่ต้องคาสาย · จะถูกถ้าผู้ป่วยติดเชื้อรุนแรงร่วมกับปัสสาวะไม่ออก (urosepsis + retention)",
-   "D": "ตกคร่อม + เลือดที่รูปัสสาวะ = สงสัย anterior urethral injury ต้องทำ <b>retrograde urethrogram ก่อน</b> ห้ามใส่สายสุ่ม · จะถูกถ้า RUG พบเพียง contusion/ incomplete injury (ใส่สายคาไว้โดยผู้เชี่ยวชาญ ตามลายมือ)",
-   "E": "Urge incontinence รักษาด้วย bladder training และยา (antimuscarinic, β3 agonist) การคาสายไม่เหมาะ · จะถูกถ้าคำถามถามการรักษาเบื้องต้นของ overactive bladder"
+   "B": "Recurrent UTI ไม่ใช่ข้อบ่งชี้ในการคาสาย การคาสายกลับเพิ่ม CAUTI จาก biofilm (ความเสี่ยงเพิ่มราว 3–7% ต่อวันที่คา) ต้องหาสาเหตุเช่น post-void residual สูง นิ่ว หรือความผิดปกติทางกายวิภาค — จะถูกถ้าเป็นชาย 75 ปี UTI ซ้ำ 3 ครั้งเพราะ neurogenic bladder มี post-void residual 500 mL ที่ทำ clean intermittent catheterization ไม่ได้",
+   "C": "Dysuria ร่วมกับ pyuria คือ cystitis รักษาด้วยยาปฏิชีวนะตามเชื้อ (เช่น nitrofurantoin, fosfomycin ในหญิง) การใส่สายเป็นทางให้เชื้อเพิ่มและไม่ช่วยระบายเพราะไม่ได้มีการคั่ง — จะถูกถ้าเป็นชาย 70 ปีมีไข้สูงจาก acute bacterial prostatitis และปัสสาวะไม่ออก post-void residual 600 mL (ระบายด้วย suprapubic catheter)",
+   "D": "ตกคร่อมแล้วมีเลือดออกที่ปลายท่อปัสสาวะ = anterior (bulbar) urethral injury ห้ามใส่สายสุ่มก่อนทำ retrograde urethrogram เพราะอาจเปลี่ยน partial เป็น complete tear · partial ใส่สายภายใต้การดูแลของ urologist ได้ complete ทำ suprapubic cystostomy แล้วแก้ทีหลัง — จะถูกถ้าเป็นชาย 25 ปีตกคร่อมราว RUG เห็นสารทึบรังสีรั่วเล็กน้อยแต่เข้ากระเพาะปัสสาวะได้ (partial injury) จึงใส่สายผ่านกล้องและคาไว้ 2–3 สัปดาห์",
+   "E": "Urge incontinence มาจาก detrusor overactivity รักษาด้วย bladder training ลดคาเฟอีน ยา antimuscarinic หรือ β3-agonist (mirabegron) และ botulinum toxin ไม่ใช่คาสายซึ่งทำให้ติดเชื้อและไม่แก้กลไก — จะถูกถ้าเป็นหญิงสูงอายุติดเตียงที่มีแผลกดทับ stage 4 บริเวณก้นเปื้อนปัสสาวะตลอด จนแผลไม่หาย"
   },
-  "trap": "ใส่สายในผู้ป่วยตกคร่อมเลือดออกที่รูปัสสาวะทันที — ต้อง RUG ก่อน",
+  "trap": "ช้อยตกคร่อมที่มีเลือดออกดูเหมือนต้องคาสายเพื่อ splint ท่อปัสสาวะ (ลายมือก็เขียนว่า incomplete injury retain foley) แต่<b>blood at meatus ห้ามสวนสุ่มก่อน RUG</b> · ตัวแยกคือ AUR ที่ระบายได้ปริมาณมากเป็นข้อบ่งชี้ตรงที่สุด ส่วน UTI/ incontinence การคาสายยิ่งทำให้แย่",
   "summary": [
-   "AUR: ใส่สายระบาย · residual &gt; 400 mL คาสาย",
-   "BPH + AUR: alpha-blocker + trial without catheter",
-   "ระวัง post-obstructive diuresis หลังระบายมาก",
-   "เลือดที่รูปัสสาวะ/ บาดเจ็บท่อปัสสาวะ → RUG ก่อนใส่สาย",
-   "Complete urethral disruption → suprapubic cystostomy",
-   "Neurogenic bladder → clean intermittent catheterization"
+   "AUR ในชายสูงอายุสาเหตุหลักคือ BPH · ตัวกระตุ้น: ยา anticholinergic/ antihistamine/ decongestant, ท้องผูก, ดื่มสุรา, หลังผ่าตัด/ ยาชาไขสันหลัง",
+   "จัดการ AUR: ใส่สายระบายทันที (urethral ไม่ได้ → suprapubic) · วัดปริมาณที่ได้ (&gt; 400 mL คาสาย) · เริ่ม alpha-blocker แล้ว trial without catheter หลัง 2–3 วัน",
+   "Post-obstructive diuresis: ปัสสาวะ &gt; 200 mL/ชม. นาน ≥ 2 ชม. หรือ &gt; 3 L/วัน · พบในคั่งเรื้อรังที่ไตเสีย ต้องติดตามสัญญาณชีพ เกลือแร่ และให้สารน้ำทดแทนบางส่วน",
+   "Retain catheter: AUR, ไตเสียจาก outlet obstruction, ติดตาม urine output ในผู้ป่วยวิกฤต, หลังผ่าตัดทางเดินปัสสาวะ/ อุ้งเชิงกราน, ล้างลิ่มเลือด, ดูแลระยะสุดท้าย",
+   "Urethral injury: blood at meatus, ปัสสาวะไม่ออก, prostate ลอยสูง, ฟกช้ำรูปผีเสื้อที่ฝีเย็บ → RUG ก่อนสวน · complete disruption → suprapubic cystostomy แล้ว urethroplasty ภายหลัง",
+   "CAUTI: ความเสี่ยงเพิ่มราว 3–7% ต่อวันที่คาสาย · ป้องกันด้วยการใส่เมื่อจำเป็น ปลอดเชื้อ ระบบปิด ถุงต่ำกว่ากระเพาะปัสสาวะ และถอดเร็วที่สุด",
+   "Neurogenic bladder ที่คั่งเรื้อรัง → clean intermittent catheterization ดีกว่าการคาสายถาวร"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง 1 ✓ และลายมือในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
-  "mnemonic": "<b>'Retain Foley = Retention (AUR) · เลือดที่รู = RUG ก่อน'</b>",
-  "guide": "EAU Guidelines on Urological Trauma 2024; EAU Guidelines on Non-neurogenic Male LUTS 2024 — Acute urinary retention",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง 1 (AUR) และกำหนดปริมาณ residual &gt; 400 mL ให้ retain · ลายมือที่ช้อย 4 ระบุว่า partial urethral injury คาสายได้ แต่ต้องทำหลัง RUG และโดย urologist ไม่ใช่สวนทันทีเมื่อมีเลือดที่ปลายท่อ จึงไม่ใช่คำตอบที่ดีที่สุด (ต้นฉบับมี 4 ช้อย เว็บเติม E)",
+  "mnemonic": "<b>'\"Retain for Retention\" · Blood at meatus → RUG ก่อนสวน'</b>",
+  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2025; EAU Guidelines on Urological Trauma 2025; ATLS 10th ed. (2018)",
   "variants": [
-   "ชาย 70 ปีปัสสาวะไม่ออก 12 ชม. residual 900 mL → ใส่สายคา + alpha-blocker",
-   "ตกคร่อมคานเลือดที่รูปัสสาวะ → RUG",
-   "RUG พบท่อปัสสาวะขาดทั้งหมด → suprapubic cystostomy"
+   "ชาย 72 ปีกินยาแก้หวัดแล้วปัสสาวะไม่ออก 12 ชม. สวนได้ 900 mL → คาสาย Foley + alfuzosin แล้ว trial without catheter ใน 2–3 วัน",
+   "ชาย 80 ปีปัสสาวะไม่ออก สวนได้ 1,500 mL creatinine 4.5 หลังสวนปัสสาวะออก 400 mL/ชม. → post-obstructive diuresis ติดตามเกลือแร่และให้สารน้ำทดแทน",
+   "ชาย 30 ปีอุบัติเหตุรถคว่ำ pelvic fracture มีเลือดที่ปลายท่อปัสสาวะ ปัสสาวะไม่ออก → RUG พบ complete posterior urethral disruption → suprapubic cystostomy",
+   "ทำไมต้องถอด Foley เร็วที่สุดหลังหมดข้อบ่งชี้ → biofilm เกิดบนสายภายในไม่กี่วัน ทุกวันที่คาเพิ่ม bacteriuria และ CAUTI"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 13 — ตัวพิมพ์: <b>9. ใครควรจะ retain foley — 1.AUR 2. Recurrent UTI 3. Dysuria+หนอง 4. ตกคร่อมตอ+bleeding</b><br>ลายมือ: 1 \"✓ acute urinary retention : residual urine &lt;200mL ไม่ต้อง retain, &gt;400mL retain foley\" · 4 \"→ ant. urethral injury: contusion, incomplete injury : retain foley cath · complete disruption : suprapubic cystostomy\"<br>ไฮไลต์: วง 1 · \"retain foley\"<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 13",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU70|RoC|16": {
-  "interp": "ชาย 20 ปี ไม่มีโรคประจำตัว ไม่มีอุบัติเหตุ ตื่นมา<b>ซึม</b> อ่อนแรงอย่างน้อย 3 แขนขา CT ไม่ฉีดสีพบ<b>เลือดออกในโพรงสมอง (IVH)</b> → ถามการตรวจขั้นต่อไป",
-  "why": "เลือดออกในสมอง/ โพรงสมองใน<b>คนอายุน้อยที่ไม่มีความดันสูงหรืออุบัติเหตุ</b> = ต้องหา<b>ความผิดปกติของหลอดเลือด</b> โดยเฉพาะ <b>AVM</b> (สาเหตุที่พบบ่อยที่สุดของ ICH ในคนหนุ่มสาว) รวมถึง aneurysm, moyamoya, เนื้องอก · <b>Primary IVH</b> พบน้อยและต้องทำ vascular imaging เสมอ → <b>CTA</b> (เร็ว ทำได้ทันที) ± <b>DSA</b> (มาตรฐานอ้างอิง) · ระวัง hydrocephalus → EVD · ไฟล์ P'Ing ลายมือ <b>\"✓ /angiogram · hemorrhagic stroke ในคนอายุน้อย R/O AVM\"</b> และแปะสไลด์ IVH \"Primary — very uncommon · Need vascular imaging study to search for AVM, aneurysm, moyamoya, tumor\"",
+  "interp": "ชาย 20 ปี ไม่มีโรคประจำตัวและไม่มีอุบัติเหตุ ซึมตอนเช้าและอ่อนแรงอย่างน้อย 3 แขนขา CT ไม่ฉีดสีพบ <b>intraventricular hemorrhage (IVH)</b> — ถามการตรวจต่อไป ซึ่งต้องหา<b>ความผิดปกติของหลอดเลือด</b>เป็นสาเหตุของเลือดออกในสมองในคนอายุน้อย",
+  "why": "เลือดออกในสมองแบบไม่มีอุบัติเหตุในคนอายุน้อยที่<b>ไม่มีความดันสูง</b> มักเกิดจาก<b>ความผิดปกติของหลอดเลือด (macrovascular cause)</b> ได้แก่ <b>arteriovenous malformation (AVM)</b> ซึ่งพบบ่อยสุดในวัยนี้, aneurysm, moyamoya (พบมากในคนเอเชีย ผู้ใหญ่มักมาด้วย IVH), dural AV fistula, cavernous malformation หรือเนื้องอก · <b>Primary IVH</b> (เลือดอยู่ในโพรงสมองเป็นหลัก) พบน้อยและต้องทำ vascular imaging ทุกราย ส่วน secondary IVH เกิดจาก ICH ใกล้โพรงสมองแตกเข้าราว 40% · AHA/ASA 2022 แนะนำ <b>CTA (± CTV)</b> ในผู้ป่วย ICH อายุน้อย, lobar, หรือ IVH เพื่อหา macrovascular cause · ถ้า CTA ปกติแต่ยังสงสัยมาก ทำ <b>DSA (catheter angiography)</b> ซึ่งเป็น gold standard · AVM ที่แตกแล้วเสี่ยงแตกซ้ำสูงโดยเฉพาะปีแรก จึงต้องหาให้เจอเพื่อวางแผนผ่าตัด/ embolization/ radiosurgery · IVH ที่มี hydrocephalus ใส่ EVD · ไฟล์ตัวพิมพ์ <b>\"ans: CTA r/o AVM\"</b> ลายมือ P'Ing <b>\"✓ hemorrhagic stroke ในคนอายุน้อย R/O AVM\"</b> และ \"/angiogram\" พร้อมสไลด์ Primary IVH: need vascular imaging study to search for AVM, aneurysm, moyamoya, tumor",
   "wrong": {
-   "B": "เจาะหลังไม่จำเป็นเพราะ CT เห็นเลือดแล้ว และเสี่ยงสมองเคลื่อนเมื่อมี IVH/ hydrocephalus · จะถูกถ้าปวดหัวรุนแรงทันที CT ปกติ (เกิน 6 ชม.) ยังสงสัย SAH → ดู xanthochromia",
-   "C": "EEG ใช้ประเมินชัก ไม่ช่วยหาสาเหตุเลือดออก · จะถูกถ้าผู้ป่วยซึมต่อเนื่องหลังชัก CT ปกติ สงสัย nonconvulsive status epilepticus",
-   "D": "รอ CT ซ้ำ 1 เดือนทำให้เลือดออกซ้ำจาก AVM/ aneurysm ได้ · จะถูกถ้า CTA/ DSA ครั้งแรกปกติแต่ hematoma บดบัง (ทำภาพหลอดเลือดซ้ำหลังเลือดสลาย)",
-   "E": "Ammonia ใช้ในสงสัย hepatic encephalopathy ไม่ใช่เลือดออกในสมอง · จะถูกถ้าผู้ป่วยตับแข็งซึมสับสน asterixis CT ปกติ"
+   "B": "Lumbar puncture ใช้หาเลือด (xanthochromia) เมื่อสงสัย SAH แต่ CT ปกติ ในรายที่ CT เห็นเลือดแล้วไม่ช่วยวินิจฉัย และ IVH ที่อุดทางเดินน้ำไขสันหลังจนเกิด obstructive hydrocephalus เสี่ยงสมองเคลื่อนเมื่อเจาะหลัง — จะถูกถ้าเป็นหญิง 40 ปีปวดหัวรุนแรงทันที 12 ชั่วโมงก่อน CT ไม่พบเลือดและไม่มีก้อนกดเบียด",
+   "C": "EEG ใช้ยืนยันชักหรือ nonconvulsive status epilepticus เมื่อซึมไม่สมกับรอยโรค ไม่ใช่การหาสาเหตุของเลือดออก — จะถูกถ้าเป็นชาย 20 ปีที่หลังผ่าตัด AVM แล้วยังซึมไม่ฟื้นทั้งที่ CT ไม่มีอะไรใหม่ และมีตากระตุกเป็นพัก ๆ สงสัย nonconvulsive seizure",
+   "D": "รอ CT ซ้ำ 1 เดือนทำให้พลาดการหาสาเหตุในช่วงที่เสี่ยงแตกซ้ำสูง แม้บางครั้งเลือดบดบังรอยโรคจนต้องทำ MRI/ angiography ซ้ำหลังเลือดสลาย (ราว 4–8 สัปดาห์) แต่ต้องทำ CTA ทันทีก่อน — จะถูกถ้าเป็นชาย 20 ปีที่ CTA และ DSA ระยะแรกไม่พบความผิดปกติเพราะก้อนเลือดกด ต้องตรวจภาพซ้ำหลังเลือดสลาย",
+   "E": "Serum ammonia ใช้ในผู้ที่ซึมจาก hepatic encephalopathy หรือ urea cycle defect ซึ่งไม่มีเลือดออกในสมอง CT จะปกติหรือสมองบวม — จะถูกถ้าเป็นชาย 50 ปีตับแข็งจากสุรา เลือดออกทางเดินอาหาร แล้วซึมสับสนมี asterixis CT สมองไม่มีเลือดออก"
   },
-  "trap": "หาสาเหตุทางเมตาบอลิกหรือรอดูอาการ — ICH/ IVH ในคนหนุ่มสาว = หา AVM ทันที",
+  "trap": "ซึมตอนเช้าและแขนขาอ่อนแรงในคนหนุ่มอาจชวนคิดถึงชักหรือเมตาบอลิก แล้วเลือก EEG/ ammonia · แต่ CT บอกแล้วว่ามี<b>เลือดออก</b> คำถามคือ<b>หาสาเหตุ</b> · คนหนุ่มไม่มีความดันสูง = หลอดเลือดผิดปกติจนกว่าจะพิสูจน์ได้ว่าไม่ใช่ → CTA/ DSA",
   "summary": [
-   "ICH ในคนอายุน้อย ไม่มี HT → vascular imaging (CTA ± DSA)",
-   "สาเหตุ: AVM · aneurysm · cavernoma · moyamoya · venous thrombosis · ยาเสพติด",
-   "Primary IVH: พบน้อย → หา AVM/ aneurysm/ moyamoya",
-   "Secondary IVH: ~40% ของ ICH ใกล้โพรงสมอง",
-   "Hydrocephalus → EVD",
-   "DSA = มาตรฐานอ้างอิง"
+   "ICH ในคนอายุ &lt; 45 ปีหรือไม่มีความดันสูง: ต้องหา macrovascular cause (AVM, aneurysm, moyamoya, dural AVF, cavernoma, tumor, venous thrombosis) และสาเหตุอื่น เช่น ยาบ้า/ cocaine, coagulopathy",
+   "AHA/ASA 2022: ICH ที่อายุน้อย, lobar, IVH หรือไม่มีประวัติความดันสูง → CTA ± CTV · ผลลบแต่สงสัยมาก → DSA · MRI หา cavernoma/ เนื้องอก",
+   "IVH: primary พบน้อยต้องหาหลอดเลือดผิดปกติ · secondary พบบ่อยกว่า (ราว 40% ของ ICH ที่อยู่ใกล้โพรงสมอง) · IVH ทำนายผลการรักษาแย่ลง",
+   "IVH ที่มี hydrocephalus/ ซึมลง → external ventricular drain (EVD) · intraventricular alteplase ผ่าน EVD ช่วยลดการเสียชีวิตแต่ไม่ช่วยผลการทำงาน (CLEAR III)",
+   "AVM: hemorrhage risk ราว 2–4% ต่อปีถ้าไม่เคยแตก และสูงกว่านี้ในปีแรกหลังแตก · Spetzler-Martin grade = ขนาด (&lt; 3, 3–6, &gt; 6 cm = 1–3) + eloquent cortex (0–1) + deep venous drainage (0–1)",
+   "รักษา AVM: microsurgical resection (SM I–II) · stereotactic radiosurgery สำหรับก้อนเล็กลึก (ปิดภายใน 2–3 ปี) · embolization มักใช้ก่อนผ่าตัด",
+   "Moyamoya: ตีบของ ICA ส่วนปลายสองข้างมีหลอดเลือดข้างเคียงรูปควันบุหรี่ · เด็กมักมาด้วย ischemia ผู้ใหญ่มักมาด้วยเลือดออก (มักเป็น IVH)"
   ],
-  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียน (CTA r/o AVM) และลายมือ/ สไลด์ในไฟล์ · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
-  "mnemonic": "<b>'เลือดออกในสมองคนหนุ่ม = AVM จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ → CTA'</b>",
-  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์ที่ตัวพิมพ์เขียน \"ans: CTA r/o AVM\" และลายมือ P'Ing \"hemorrhagic stroke ในคนอายุน้อย R/O AVM\" ร่วมกับสไลด์ Primary IVH ที่ต้องหา vascular lesion · ต้นฉบับไม่มีช้อย เว็บแต่งช้อย B–E เป็นการตรวจที่ไม่ตอบคำถามหาสาเหตุ",
+  "mnemonic": "<b>'\"Young bleeder = Vessel lesion\" → CTA ก่อน (ลบแต่สงสัย → DSA)'</b>",
+  "guide": "Greenberg SM et al. 2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "ชาย 70 ปีความดันสูง เลือดออก putamen → hypertensive ICH (CTA เมื่อสงสัย spot sign/ สาเหตุอื่น)",
-   "วัยรุ่นปวดหัวทันที เลือดออก lobar → CTA หา AVM",
-   "เด็กอ่อนแรงซ้ำ ๆ angiogram puff of smoke → moyamoya"
+   "หญิง 28 ปีปวดหัวทันทีแล้วชัก CT พบเลือดออก lobar ที่ parietal ซ้าย มี calcification และหลอดเลือดขด → CTA/ DSA หา AVM",
+   "ชาย 35 ปีชาวญี่ปุ่นมี IVH CTA เห็น ICA ส่วนปลายตีบสองข้างกับหลอดเลือดเล็กเป็นตาข่าย → moyamoya disease",
+   "ชาย 70 ปีความดันสูงไม่คุม เลือดออกที่ putamen ขวาเล็กน้อย → hypertensive ICH ควบคุมความดัน ไม่จำเป็นต้องทำ DSA ทุกราย",
+   "ทำไมต้องหาสาเหตุทันทีหลัง AVM แตก → เสี่ยงแตกซ้ำสูงในปีแรก และต้องวางแผนผ่าตัด/ radiosurgery ตาม Spetzler-Martin"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 13 — ตัวพิมพ์: <b>16. Male 20 years old with no U/D and no Hx of trauma presented with drowsiness in the morning/ motor at least 3 all extremities/ CT-nc: intraventricular hemorrhage ans: CTA r/o AVM</b><br>ลายมือ: \"✓ hemorrhagic stroke ในคนอายุน้อย R/O AVM\" · \"/angiogram\" ใต้ CTA<br>ไฮไลต์: วง \"ans\" · \"drowsiness in the morning/ motor at least 3 all extremities\" \"CT-nc: intraventricular hemorrhage\"<br>รูปที่แปะ: สไลด์ Intraventricular Hemorrhage (IVH) — Primary: very uncommon, Need vascular imaging study to search for AVM, aneurysm, moyamoya, tumor · Secondary: Complicates 40% of primary ICH originating near ventricles (พร้อมภาพ CT)<br>ที่ปรับในเว็บ: ไฟล์ไม่มีช้อย → แต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 13",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU70|RoC|17": {
-  "interp": "หญิง 38 ปี เกิด<b>อัมพาต CN VI และ VII ข้างขวา + ชาซีกซ้าย</b>ขึ้นเอง ภาพพบรอยโรคแบบ <b>popcorn</b> ที่ pons ขวา → ถามวินิจฉัย",
-  "why": "รอยโรคก้านสมองที่ทำให้<b>เส้นประสาทสมองข้างเดียวกัน + อาการแขนขาฝั่งตรงข้าม</b> (crossed syndrome) · ภาพ <b>\"popcorn\"</b> (สัญญาณผสมตรงกลางจากเลือดออกหลายระยะ ล้อมด้วยวง hemosiderin สีดำบน T2) = <b>cavernous malformation (cavernoma)</b> · เป็นหลอดเลือดฝอยขยายไม่มีเนื้อสมองคั่น <b>angiography มักปกติ (angiographically occult)</b> · <b>MRI gradient-echo/ SWI ไวที่สุด</b> (blooming) · อาการ: เลือดออกซ้ำ ชัก อาการทางประสาท · ก้านสมองที่เลือดออกซ้ำ/ ถึงผิว → ผ่าตัด · ไฟล์ P'Ing วง ans และแปะสไลด์ Cavernoma <b>\"The most sensitive study: MRI gradient-echo sequences\"</b>",
+  "interp": "หญิง 38 ปี มี <b>CN VI และ VII palsy ข้างขวา</b>ร่วมกับ<b>ชาครึ่งซีกซ้าย</b> (crossed brainstem syndrome ที่ pons ขวา) ภาพเห็นรอยโรค <b>popcorn pattern</b> ที่ pons ขวา — ถามการวินิจฉัย ต้องจำลักษณะภาพของ vascular malformation ชนิดต่าง ๆ",
+  "why": "อาการเส้นประสาทสมองข้างเดียวกับรอยโรค (CN VI, VII ขวา) ร่วมกับอาการแขนขาด้านตรงข้าม (ชาซีกซ้ายจาก medial lemniscus/ spinothalamic tract) บอกรอยโรคที่ <b>caudal pons ขวา</b> · <b>Cavernous malformation (cavernoma)</b> เป็นกลุ่มโพรงหลอดเลือดผนังบางแบบ sinusoid เรียงชิดกันโดย<b>ไม่มีเนื้อสมองแทรก</b> ไหลช้า จึง <b>angiography ไม่เห็น (angiographically occult)</b> · MRI เห็นแกนกลางสัญญาณผสมจากเลือดหลายระยะเป็นรูป<b>ข้าวโพดคั่ว/ mulberry</b> ล้อมด้วยวง hemosiderin สีดำบน T2 · <b>MRI gradient-echo/ SWI ไวที่สุด</b> (blooming) และเห็นรอยโรคเล็กหลายจุดในชนิดถ่ายทอดทางพันธุกรรม (CCM1/KRIT1, CCM2, CCM3) · มักพบร่วมกับ developmental venous anomaly ซึ่งต้องเก็บไว้ระหว่างผ่าตัด · ราว 2/3 อยู่ supratentorial (อาการชัก) ที่ brainstem มักมาด้วยเลือดออกและ cranial neuropathy · ไฟล์ตัวพิมพ์ <b>\"ans: cavernous malformation\"</b> และ P'Ing แปะสไลด์ Cavernoma: angiography negative · <b>the most sensitive study: MRI gradient-echo sequences</b>",
   "wrong": {
-   "B": "AVM มี nidus และ flow voids บน MRI เห็นชัดใน angiography ไม่ใช่ popcorn · จะถูกถ้าวัยรุ่นชักครั้งแรก MRI เห็นกลุ่ม flow voids มี feeding artery และ draining vein",
-   "C": "Pontine glioma (DIPG) พบในเด็ก pons โตบวมทั้งก้อน T2 สว่าง ไม่มีขอบ hemosiderin · จะถูกถ้าเด็ก 6 ปีมี CN VI, VII palsy เดินเซ MRI pons บวมโตทั้งก้อน",
-   "D": "ฝีในก้านสมองมีไข้ ภาพเป็น ring-enhancing ขอบเรียบ DWI restriction · จะถูกถ้าผู้ป่วยไข้ ภูมิต่ำ MRI ring-enhancing lesion ที่ pons",
-   "E": "Capillary telangiectasia มักไม่มีอาการ ไม่เลือดออก ภาพ enhance จาง ๆ แบบแปรง ไม่มี popcorn · จะถูกถ้า MRI ทำด้วยเหตุอื่นพบ enhancement จางที่ pons ไม่มีผลต่อมวลหรือเลือดออก"
+   "B": "AVM มี nidus ที่เลือดไหลจากแดงลงดำโดยตรง MRI เห็น flow void เป็นถุงงูและหลอดเลือดดำระบายโป่ง angiography เห็นชัด (ต่างจาก cavernoma ที่ angiography ปกติ) — จะถูกถ้าเป็นชาย 25 ปีชักครั้งแรก MRI เห็นกลุ่ม flow void ที่ parietal ซ้าย DSA มี feeding artery จาก MCA และหลอดเลือดดำระบายเร็ว",
+   "C": "Pontine glioma (diffuse midline glioma, H3 K27-altered) พบในเด็กอายุ 5–10 ปีเป็นหลัก ก้อนขยาย pons แบบกระจาย T2 สว่างสม่ำเสมอ ไม่มีวง hemosiderin อาการเป็นมากขึ้นเรื่อย ๆ หลายสัปดาห์ — จะถูกถ้าเป็นเด็กชาย 7 ปีเดินเซ ตาเหล่เข้าใน หน้าเบี้ยวมา 1 เดือน MRI เห็น pons บวมโตทั้งอันโอบ basilar artery",
+   "D": "Brainstem abscess พบน้อย มีไข้ แหล่งติดเชื้อ (หัวใจรั่ว ฟัน หู) MRI เห็นวงขอบเพิ่มสารทึบรังสีบางเรียบ ตรงกลาง restricted diffusion ไม่ใช่ popcorn — จะถูกถ้าเป็นชาย 30 ปีเป็น cyanotic congenital heart disease มีไข้ ปวดหัว เห็นภาพซ้อน MRI เห็นก้อน ring-enhancing ที่ pons และ DWI สว่าง",
+   "E": "Capillary telangiectasia เป็นหลอดเลือดฝอยขยายที่มีเนื้อสมองปกติแทรก มักอยู่ที่ pons แต่พบโดยบังเอิญ ไม่มี mass effect แทบไม่เลือดออก เพิ่มสารทึบรังสีจาง ๆ แบบแปรงทาสีและมืดเล็กน้อยใน SWI — จะถูกถ้าเป็นหญิง 45 ปี MRI ตรวจไมเกรนพบรอยโรคจุดเล็กที่ pons ไม่มีอาการ ไม่บวม เพิ่มสารแบบ brush-like"
   },
-  "trap": "เห็นหลอดเลือดผิดปกติแล้วตอบ AVM — popcorn + angiography ปกติ = cavernoma",
+  "trap": "รอยโรคหลอดเลือดที่เลือดออกในคนหนุ่มสาวทำให้คิด AVM อัตโนมัติ · ตัวแยกคือคำว่า <b>popcorn</b> + ขอบ hemosiderin + angiography ไม่เห็น = cavernoma · AVM ต้องมี flow void และ nidus · โจทย์ต้นฉบับเขียน CN \"CII\" ซึ่งน่าจะหมายถึง CN VII ตามกายวิภาคของ caudal pons",
   "summary": [
-   "Cavernoma: popcorn + hemosiderin rim (T2) · blooming บน GRE/ SWI",
-   "Angiographically occult",
-   "อาการ: เลือดออก · ชัก · focal deficit",
-   "ชนิด familial: หลายก้อน (CCM1–3)",
-   "ผ่าตัด: เลือดออกซ้ำ/ อาการแย่ลง/ ถึงผิวสมอง",
-   "มักพบร่วมกับ developmental venous anomaly (DVA)"
+   "Cavernoma: sinusoid ผนังบางไม่มีเนื้อสมองแทรก ไหลช้า → angiographically occult · พบราว 0.4–0.5% ของประชากร · 63–81% supratentorial (สไลด์ในไฟล์)",
+   "MRI: แกนกลางสัญญาณผสมรูป popcorn/ mulberry + วง hemosiderin มืดบน T2 · GRE/ SWI ไวที่สุด เห็น blooming และรอยโรคเล็กหลายจุด",
+   "ชนิดถ่ายทอดทางพันธุกรรม (autosomal dominant): CCM1/KRIT1 (พบมากในชาวฮิสแปนิก), CCM2, CCM3/PDCD10 · มักมีหลายก้อนและเกิดใหม่ได้",
+   "มักพบร่วม developmental venous anomaly (DVA) · ผ่าตัดต้องเก็บ DVA ไว้ ตัดออกเสี่ยง venous infarction",
+   "อาการ: ชัก (supratentorial), เลือดออก, focal deficit · ความเสี่ยงเลือดออกต่ำในรายที่ไม่เคยออก แต่สูงขึ้นชัดเมื่อเคยออกแล้วและอยู่ที่ brainstem",
+   "รักษา: ไม่มีอาการ → ติดตาม · supratentorial ที่ชักดื้อยา/ เลือดออก → ผ่าตัด · brainstem เลือดออกซ้ำและรอยโรคถึงผิว pia/ ependyma → ผ่าตัดโดยผู้เชี่ยวชาญ · radiosurgery ยังเป็นที่ถกเถียง",
+   "Crossed syndrome ของ caudal pons: CN VI + VII ข้างเดียวกับรอยโรค + อาการซีกตรงข้าม (Millard-Gubler: hemiplegia · Foville: ร่วม gaze palsy)"
   ],
-  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียนและสไลด์ Cavernoma ที่ P'Ing แปะ · ต้นฉบับเขียน \"CN VI, CII\" ซึ่งน่าจะหมายถึง CN VI, VII (ตำแหน่ง pons) · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
-  "mnemonic": "<b>'Popcorn ในสมอง = Cavernoma (กินป๊อปคอร์นในโรงหนัง cave)'</b>",
-  "guide": "Angioma Alliance: Guidelines for the Management of Cerebral Cavernous Malformations (Neurosurgery 2017;80:665)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์ที่ตัวพิมพ์เขียน \"ans: cavernous malformation\" และสไลด์ Cavernoma ที่ P'Ing แปะไว้ (angiography negative, MRI GRE ไวที่สุด) · เว็บปรับ \"CN VI, CII\" เป็น CN VI และ VII ให้ตรงกับรอยโรคที่ pons และแต่งช้อย B–E เป็น differential ของรอยโรคที่ brainstem",
+  "mnemonic": "<b>'\"Popcorn + Black ring + Angio negative = Cavernoma\"'</b>",
+  "guide": "Akers A et al. Synopsis of Guidelines for the Clinical Management of Cerebral Cavernous Malformations (Neurosurgery 2017); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "ผู้ป่วยชักครั้งแรก MRI popcorn lesion ที่ temporal lobe → cavernoma → ผ่าตัดได้",
-   "MRI เห็นกลุ่ม flow voids มี draining vein ใหญ่ → AVM",
-   "ครอบครัวหลายคนมี cavernoma หลายก้อน → familial CCM"
+   "หญิง 30 ปีชักครั้งแรก MRI เห็นก้อน popcorn ขอบดำที่ temporal ขวา ชักดื้อยา 2 ตัว → ผ่าตัดเอาก้อนออกพร้อม hemosiderin rim",
+   "แม่และลูกมีรอยโรคจุดดำหลายสิบจุดใน SWI ทั่วสมอง → familial cerebral cavernous malformation ตรวจยีน CCM",
+   "ผู้ป่วย cavernoma ที่ pons เลือดออกซ้ำ 2 ครั้ง รอยโรคโผล่ถึงผิวพื้นโพรงสมองที่ 4 → ผ่าตัดเอาออก",
+   "ทำไม DSA ของ cavernoma ปกติ → เลือดไหลช้ามากในโพรง sinusoid และไม่มี feeding artery ใหญ่ สารทึบรังสีจึงไม่เข้าไปเติมให้เห็น"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 14 — ตัวพิมพ์: <b>17. female 38 years old presented with spontaneous with right CN VI, CII palsies and left hemianesthesia/ CT: a popcorn pattern hyperintensity mass rt pons ans: cavernous malformation</b><br>ลายมือ: เครื่องหมายเล็กเหนือ CT<br>ไฮไลต์: วง \"ans\" · \"spontaneous with right CN VI, CII palsies and left hemianesthesia\" · \"CT: a popcorn pattern hyperintensity mass rt pons\" (เหลือง)<br>รูปที่แปะ: สไลด์ Cavernoma — Synonym: cavernous angioma, cavernous hemangioma, cavernous malformation · Tumor-like behavior · 63–81% supratentorially (พร้อมภาพพยาธิ) · สไลด์ Cavernoma — Presentation: hemorrhage, seizure, focal deficits · Angiography: negative, avascular area, venous pooling, capillary blush, neovascularization · The most sensitive study: MRI gradient-echo sequences (พร้อมภาพ MRI)<br>ที่ปรับในเว็บ: \"CN VI, CII\" เขียนเป็น CN VI และ VII · ไม่มีช้อย → แต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 14",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU70|RoC|18": {
-  "interp": "ผู้สูงอายุความดันสูง <b>ซึมลงทันที</b> CT ไม่ฉีดสีพบ<b>ก้อนเลือดขนาดใหญ่ในสมองน้อย</b> → ถามการรักษา",
-  "why": "<b>Cerebellar hemorrhage</b> อยู่ใน posterior fossa ซึ่งพื้นที่น้อย กดก้านสมองและอุด fourth ventricle (hydrocephalus) ได้เร็ว · ข้อบ่งชี้<b>ผ่าตัดเอาเลือดออกทันที (suboccipital craniectomy)</b>: <b>&gt; 3 cm</b> (หรือ ≥ 15 mL), <b>อาการทางประสาทแย่ลง</b>, <b>กดก้านสมอง</b>, <b>hydrocephalus</b> · การใส่ EVD อย่างเดียวโดยไม่เอาเลือดออกไม่แนะนำ · ผู้ป่วยซึมลง + ก้อนใหญ่ = ผ่าตัด · ไฟล์ P'Ing วง ans และแปะสไลด์ <b>\"Surgical Treatment · Craniotomy · Cerebellar hemorrhage &gt; 3 cm: Deteriorating neurologically, Brain stem compression, Hydrocephalus · Lobar clots within 1 cm of the surface\"</b>",
+  "interp": "ผู้สูงอายุความดันสูง ซึมลงทันที CT ไม่ฉีดสีพบ<b>ก้อนเลือดขนาดใหญ่ในสมองน้อย</b> (posterior fossa) — ถามการรักษา ซึ่งต้องรู้ว่า cerebellar hemorrhage ต่างจาก ICH ที่อื่นเพราะ posterior fossa แคบ กดก้านสมองและอุด 4th ventricle ได้เร็ว",
+  "why": "<b>Cerebellar hemorrhage</b> (ราว 10% ของ ICH) มักเกิดจากความดันสูงที่ทำให้หลอดเลือดเล็กแตก (บริเวณ dentate nucleus) อาการ: ปวดหัว อาเจียน เวียนหัว เดินเซ แล้วซึมลงอย่างรวดเร็ว · posterior fossa มีที่ว่างน้อย ก้อนเลือดจึง<b>กดก้านสมองโดยตรง</b>และ<b>อุด fourth ventricle จนเกิด obstructive hydrocephalus</b> ผู้ป่วยแย่ลงจากรู้ตัวเป็นโคม่าได้ในไม่กี่ชั่วโมง · ข้อบ่งชี้ผ่าตัดด่วน (<b>suboccipital craniectomy เอาก้อนเลือดออก</b>) ตาม AHA/ASA 2022: ซึมลงทางระบบประสาท, <b>กดก้านสมอง</b> และ/หรือ <b>hydrocephalus</b> จากการอุดโพรงสมอง หรือ<b>ปริมาตร ≥ 15 mL</b> (เดิมใช้เส้นผ่านศูนย์กลาง &gt; 3 cm) · การใส่ EVD อย่างเดียวโดยไม่เอาก้อนออกไม่แนะนำ เพราะอาจทำให้เกิด upward herniation และไม่แก้การกดก้านสมอง · ระหว่างเตรียมผ่าตัดคุม SBP ราว 140 mmHg แก้ coagulopathy · ไฟล์ตัวพิมพ์ <b>\"ans: surgical treatment indicated\"</b> และ P'Ing แปะสไลด์ Surgical Treatment — craniotomy: <b>cerebellar hemorrhage &gt; 3 cm</b> ที่ deteriorating neurologically, brain stem compression, hydrocephalus",
   "wrong": {
-   "B": "ลดความดันจำเป็นแต่ไม่พอสำหรับก้อนใหญ่ที่กดก้านสมอง · จะถูกถ้าเลือดออกในสมองน้อยขนาดเล็ก &lt; 3 cm ผู้ป่วยรู้สึกตัวดี ไม่มี hydrocephalus",
-   "C": "Mannitol ช่วยชั่วคราว แต่การรอดูทำให้ก้านสมองถูกกดจนเสียชีวิต · จะถูกถ้าใช้เป็นมาตรการชั่วคราวขณะเตรียมผ่าตัด",
-   "D": "เจาะหลังในก้อนใน posterior fossa เสี่ยงสมองเคลื่อนลง (tonsillar herniation) · จะถูกถ้าสงสัย meningitis ในผู้ป่วยไข้ คอแข็ง CT ปกติ",
-   "E": "ห้ามให้ยาละลายลิ่มเลือดในเลือดออกในสมอง · จะถูกถ้าเป็นสมองน้อยขาดเลือด (infarction) ภายใน 4.5 ชม. CT ไม่มีเลือดออก"
+   "B": "การลดความดันโลหิตลง SBP ราว 140 mmHg (ไม่ต่ำกว่า 130) ลดการขยายของก้อนเลือดใน ICH ทุกราย แต่ในก้อนใหญ่ของสมองน้อยที่ซึมลงแล้วต้องเอาก้อนออกด้วย การคุมความดันอย่างเดียวไม่พอ — จะถูกถ้าเป็นชาย 65 ปีความดัน 200/110 เลือดออกที่ putamen ขวา 10 mL รู้ตัวดี แขนขาซ้ายอ่อนแรง",
+   "C": "Mannitol/ hypertonic saline เป็นการลด ICP ชั่วคราวระหว่างรอผ่าตัดเท่านั้น ไม่แก้ก้อนที่กดก้านสมองใน posterior fossa และการรอดูอาการในก้อนใหญ่ทำให้แย่ลงเร็ว — จะถูกถ้าเป็นผู้ป่วย lobar ICH ขนาดกลางที่ซึมลงชั่วคราวและเข้าห้องผ่าตัดไม่ได้ทันที ให้ mannitol ระหว่างเตรียม",
+   "D": "Lumbar puncture ในก้อนเลือดที่ posterior fossa และ obstructive hydrocephalus ทำให้ความดันใต้ tentorium ลดฉับพลันจน tonsillar herniation เสียชีวิตได้ และไม่มีประโยชน์เมื่อ CT เห็นเลือดแล้ว — จะถูกถ้าเป็นชาย 35 ปีปวดหัวรุนแรงทันที 8 ชั่วโมงก่อน CT ปกติ ไม่มีก้อนกด ต้องหา xanthochromia เพื่อตัด SAH",
+   "E": "Thrombolysis (alteplase/ tenecteplase) เป็นยาสลายลิ่มเลือดสำหรับ ischemic stroke และมีเลือดออกในสมองเป็นข้อห้ามเด็ดขาด การให้จะทำให้ก้อนเลือดโตขึ้น — จะถูกถ้าเป็นชาย 70 ปีอ่อนแรงซีกขวาพูดไม่ได้ เริ่มมีอาการ 2 ชั่วโมง CT ไม่มีเลือดออก ความดัน 170/90 ไม่มีข้อห้ามอื่น"
   },
-  "trap": "ดูแลด้วยยาแบบ supratentorial ICH — ก้อนเลือดในสมองน้อยใหญ่/ ซึมลง ต้องผ่าตัดด่วน",
+  "trap": "ICH ทั่วไปส่วนใหญ่รักษาด้วยยาและคุมความดัน คนจึงเลือก BP control หรือ mannitol · แต่<b>สมองน้อยเป็นข้อยกเว้นสำคัญ</b>: ก้อนใหญ่กดก้านสมองและอุดโพรงสมองได้เร็ว การผ่าตัดเอาก้อนออกช่วยชีวิต และผู้ป่วยที่ผ่าตัดทันเวลาฟื้นตัวได้ดีกว่า supratentorial ICH",
   "summary": [
-   "Cerebellar ICH: &gt; 3 cm/ ≥ 15 mL + แย่ลง/ กดก้านสมอง/ hydrocephalus → ผ่าตัดทันที",
-   "EVD อย่างเดียวไม่แนะนำในก้อนสมองน้อยที่กดก้านสมอง",
-   "Supratentorial ICH: ผ่าตัดเฉพาะบางราย (lobar ใกล้ผิว &lt; 1 cm, แย่ลง)",
-   "คุมความดัน SBP ~140 mmHg",
-   "แก้ยาต้านการแข็งตัวของเลือดทันที",
-   "Hypertensive ICH: putamen &gt; thalamus &gt; pons &gt; cerebellum"
+   "ICH ความดันสูงเกิดตามลำดับ: putamen (มากสุด) &gt; thalamus &gt; lobar &gt; cerebellum (ราว 10%) และ pons · จากการแตกของหลอดเลือดเล็กที่เสื่อม (lipohyalinosis, Charcot-Bouchard microaneurysm)",
+   "Cerebellar hemorrhage: ปวดหัวท้ายทอย อาเจียน เวียนหัว เดินเซ ยืนไม่ได้ · gaze palsy ไปข้างรอยโรค · ซึมลงเร็วจากกดก้านสมอง/ hydrocephalus",
+   "AHA/ASA 2022: cerebellar ICH ที่ซึมลง กดก้านสมอง และ/หรือ hydrocephalus หรือปริมาตร ≥ 15 mL → suboccipital decompression เอาก้อนออกทันที ± EVD · EVD อย่างเดียวไม่แนะนำ",
+   "ปริมาตรก้อนเลือดคำนวณด้วย ABC/2 (ความยาว × ความกว้าง × จำนวน slice ที่หนา cm ÷ 2) · ICH score ใช้ GCS, ปริมาตร ≥ 30 mL, IVH, infratentorial, อายุ ≥ 80",
+   "ความดัน: SBP 150–220 ลดลงเป้า 140 (ช่วง 130–150) ปลอดภัยและอาจดีขึ้น · ลด &lt; 130 อาจมีผลเสีย · ลดแบบราบรื่นไม่แกว่ง",
+   "แก้ภาวะเลือดออกง่าย: warfarin → 4-factor PCC + vitamin K · dabigatran → idarucizumab · factor Xa inhibitor → andexanet หรือ PCC",
+   "Supratentorial ICH: ผ่าตัดในรายเลือกเฉพาะ เช่น lobar clot ใกล้ผิว (ภายใน 1 cm) ที่แย่ลง · minimally invasive evacuation มีหลักฐานเพิ่มขึ้น (ENRICH 2024)"
   ],
-  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียนและสไลด์ที่ P'Ing แปะ · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
-  "mnemonic": "<b>'เลือดออกสมองน้อย &gt; 3 cm = ผ่า (posterior fossa ไม่มีที่ว่าง)'</b>",
-  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์ที่ตัวพิมพ์เขียน \"ans: surgical treatment indicated\" และสไลด์ที่ P'Ing แปะเรื่อง cerebellar hemorrhage &gt; 3 cm ที่ซึมลง กดก้านสมอง หรือมี hydrocephalus · ต้นฉบับไม่มีช้อย เว็บแต่งช้อย B–E เป็นการรักษาที่ไม่พอหรือเป็นข้อห้าม",
+  "mnemonic": "<b>'\"Cerebellum ใหญ่ + ซึม = เปิดหัวด่วน\" (&gt; 3 cm / ≥ 15 mL / brainstem / hydrocephalus)'</b>",
+  "guide": "Greenberg SM et al. 2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "เลือดออกสมองน้อย 2 cm รู้สึกตัวดี → ดูแลใน ICU คุมความดัน",
-   "เลือดออกสมองน้อย + hydrocephalus ซึมลง → suboccipital craniectomy ± EVD",
-   "เลือดออก lobar ใกล้ผิวสมอง ซึมลง → craniotomy"
+   "หญิง 72 ปีความดันสูง เวียนหัว อาเจียน เดินไม่ได้ รู้ตัวดี CT เลือดออกสมองน้อย 2 cm ไม่มี hydrocephalus → ดูแลใน stroke unit คุมความดัน ติดตามอาการใกล้ชิดและ CT ซ้ำ",
+   "ผู้ป่วยกิน warfarin INR 3.5 มี cerebellar hemorrhage 4 cm ซึมลง → 4-factor PCC + vitamin K IV แล้วผ่าตัด suboccipital decompression",
+   "ชาย 60 ปีมี cerebellar hemorrhage และ hydrocephalus แพทย์ใส่ EVD อย่างเดียวแล้วอาการแย่ลง → upward transtentorial herniation ต้องเอาก้อนเลือดออก",
+   "ทำไมผู้ป่วยเลือดออกสมองน้อยที่ผ่าตัดทันเวลามักฟื้นดี → ความเสียหายเกิดจากการกดก้านสมองชั่วคราว ไม่ใช่เนื้อสมองส่วนสำคัญถูกทำลายเอง"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 14 — ตัวพิมพ์: <b>18. elderly with HT presented with sudden drowsiness/ CT-nc: large hematoma at posterior cranial fossa = cerebellar hemorrhage ans: surgical treatment indicated</b><br>ลายมือ: ไม่มี<br>ไฮไลต์: วง \"ans\" · \"elderly with HT\" \"sudden drowsiness\" \"large hematoma at posterior cranial fossa\" \"cerebellar hemorrhage\"<br>รูปที่แปะ: สไลด์ Surgical Treatment — 1. Craniotomy · Cerebellar hemorrhage &gt; 3 cm: Deteriorating neurologically, Brain stem compression, Hydrocephalus · Lobar clots within 1 cm of the surface (พร้อมภาพ CT)<br>ที่ปรับในเว็บ: ไฟล์ไม่มีช้อย → แต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 14",
@@ -330,30 +350,32 @@
   ]
  },
  "MDCU70|RoC|19": {
-  "interp": "ผู้สูงอายุความดันสูง <b>หมดสติทันที</b> ความดันสูง หายใจผิดจังหวะ coma ลึก <b>รูม่านตา 1 mm ไม่ตอบสนองแสงทั้งสองข้าง</b> <b>extensor posturing ทุกแขนขา</b> คอแข็ง → ถามวินิจฉัย",
-  "why": "กลุ่มอาการ<b>หมดสติทันที + รูม่านตาเล็กมาก (pinpoint) แต่ไม่ตอบสนองแสง + decerebrate (extensor) ทั้ง 4 แขนขา + หายใจผิดปกติ</b> ในผู้สูงอายุความดันสูง เป็นลักษณะคลาสสิกของ <b>pontine hemorrhage</b> (hypertensive ICH จาก paramedian perforators ของ basilar artery) · pinpoint pupils เกิดจาก sympathetic pathway ที่ pons ถูกทำลาย · <b>คอแข็ง</b>อธิบายได้จากเลือดแตกเข้า fourth ventricle/ ช่อง subarachnoid · ส่วน aneurysmal SAH มักปวดหัวรุนแรงทันที คอแข็ง และไม่ค่อยมี pinpoint pupils + quadriplegia แบบนี้ · ไฟล์ผู้จดตอบ <b>\"ans: SAH\"</b> และลายมือ P'Ing \"lesion ใต้ midbrain\" \"meningeal irritation\" ซึ่ง\"lesion ใต้ midbrain\" ตรงกับตำแหน่ง pons",
+  "interp": "ผู้สูงอายุความดันสูง หมดสติทันที หายใจไม่สม่ำเสมอ <b>coma ลึก รูม่านตา 1 mm สองข้างไม่ตอบสนองต่อแสง</b> extensor posturing ทุกแขนขา และคอแข็ง — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องใช้ localization ของรูม่านตาและท่าทางร่วมกับสาเหตุจากความดันสูง",
+  "why": "ผู้ป่วยความดันสูงที่มี<b>โคม่าทันที + pinpoint pupils สองข้าง + quadriparesis/ decerebrate (extensor) posturing + หายใจผิดปกติ</b> คือภาพคลาสสิกของ <b>pontine hemorrhage</b> จากการแตกของ paramedian perforator ของ basilar artery · <b>รูม่านตาเล็กเท่าหัวเข็ม</b>เกิดจากการทำลาย descending sympathetic pathway ใน pontine tegmentum ทั้งสองข้าง เหลือ parasympathetic ทำงานเดี่ยว (รูม่านตามักยังตอบสนองต่อแสงเล็กน้อยแต่ต้องใช้แว่นขยายดู) · รอยโรค<b>ใต้ midbrain</b> ทำให้เกิด extensor posturing · อาจพบไข้สูง ocular bobbing และไม่มี horizontal eye movement · <b>คอแข็ง</b>เกิดได้เมื่อเลือดแตกเข้า fourth ventricle แล้วไหลเข้า subarachnoid space · ในทางกลับกัน <b>aneurysmal SAH</b> มาด้วย<b>ปวดหัวรุนแรงทันที (thunderclap)</b> คอแข็ง ระดับความรู้ตัวลดลง และถ้ามีความผิดปกติของรูม่านตามักเป็น<b>รูม่านตาขยาย</b>จาก CN III palsy (posterior communicating aneurysm) ไม่ใช่ pinpoint สองข้าง · ไฟล์ตัวพิมพ์ <b>\"ans: SAH\"</b> ลายมือ P'Ing <b>\"lesion ใต้ midbrain\"</b> เหนือ abnormal extension และ \"meningeal irritation\" เหนือ neck stiffness พร้อมสไลด์ Clinical Presentation (SAH)",
   "wrong": {
-   "B": "SAH จาก aneurysm: ปวดหัวรุนแรงที่สุดในชีวิตทันที คอแข็ง ± CN III palsy (รูม่านตาขยาย) ไม่ใช่ pinpoint pupils + extensor ทั้ง 4 แขนขา (คีย์ในไฟล์ตอบข้อนี้) · จะถูกถ้าหญิง 50 ปีปวดหัวรุนแรงทันที คอแข็ง หนังตาตก รูม่านตาขยายข้างเดียว",
-   "C": "Putaminal hemorrhage: อ่อนแรงครึ่งซีกฝั่งตรงข้าม ตาเหลือบไปทางรอยโรค รูม่านตาปกติ · จะถูกถ้าผู้สูงอายุความดันสูงอ่อนแรงซีกซ้าย ตาเหลือบไปทางขวา",
-   "D": "Cerebellar infarction: เวียนหัว เดินเซ อาเจียน ไม่หมดสติทันทีพร้อม pinpoint pupils · จะถูกถ้าผู้ป่วยเวียนหัวทันที เดินเซ nystagmus CT ระยะแรกปกติ",
-   "E": "Thalamic hemorrhage: ชาครึ่งซีก ตามองลงล่างและเข้าใน (peering at nose) รูม่านตาเล็กแต่ยังตอบสนองแสง · จะถูกถ้าผู้ป่วยชาครึ่งซีก ตาเหลือบลงล่าง"
+   "B": "Aneurysmal SAH: thunderclap headache ปวดที่สุดในชีวิต คอแข็ง อาเจียน ความรู้ตัวลดลง subhyaloid hemorrhage และ CN III palsy ที่รูม่านตาขยาย · ไม่ทำให้ pinpoint pupils สองข้างร่วมกับ extensor posturing ทันทีแบบรอยโรคใน pons — จะถูกถ้าเป็นหญิง 50 ปีปวดหัวรุนแรงที่สุดในชีวิตทันทีขณะยกของ อาเจียน คอแข็ง หนังตาขวาตก รูม่านตาขวาขยาย 6 mm",
+   "C": "Putaminal hemorrhage พบบ่อยที่สุดของ hypertensive ICH ทำให้อ่อนแรงซีกตรงข้าม ชาครึ่งซีก และตาเหลือบไปข้างรอยโรค รูม่านตาปกติ จนกว่าก้อนใหญ่จะกดจน uncal herniation ซึ่งรูม่านตาข้างเดียวกันขยาย — จะถูกถ้าเป็นชาย 65 ปีความดันสูง แขนขาซ้ายอ่อนแรงทันที ตาเหลือบไปทางขวา พูดไม่ชัด รูม่านตาปกติ",
+   "D": "Cerebellar infarction มาด้วยเวียนหัว อาเจียน เดินเซ nystagmus ค่อยเป็นค่อยไปมากกว่าโคม่าทันที แย่ลงช่วงวันที่ 2–4 เมื่อสมองบวม และไม่ทำให้ pinpoint pupils ตั้งแต่แรก — จะถูกถ้าเป็นชาย 60 ปีเบาหวาน เวียนหัวบ้านหมุน อาเจียน เดินเซไปทางซ้าย MRI DWI สว่างที่สมองน้อยซีกซ้ายในเขต PICA",
+   "E": "Thalamic hemorrhage ทำให้ชาครึ่งซีกตรงข้ามเด่น อ่อนแรงจากกด internal capsule ตามองลงล่างและเข้าใน (upgaze palsy) รูม่านตาเล็กตอบสนองช้า แต่ไม่ทำให้ coma ทันทีพร้อม extensor posturing ทุกแขนขาแบบ pons — จะถูกถ้าเป็นหญิง 70 ปีความดันสูง ชาครึ่งซีกขวาทันที ตาทั้งสองมองลงล่างเหมือนมองปลายจมูก มองขึ้นไม่ได้"
   },
-  "trap": "เห็นคอแข็งแล้วตอบ SAH — pinpoint pupils + decerebrate ทั้ง 4 แขนขา + coma ทันที = pontine hemorrhage · คีย์ในไฟล์ตอบ SAH",
+  "trap": "คีย์ในไฟล์ตอบ SAH เพราะคำว่า <b>neck stiffness</b> (ลายมือเขียน meningeal irritation) และสไลด์ SAH ที่แปะ · แต่องค์ประกอบที่เหลือ — ความดันสูง โคม่าทันที <b>pinpoint pupils สองข้าง</b> extensor posturing ทุกแขนขา หายใจผิดจังหวะ — ชี้ไป pons · คอแข็งในเลือดออกที่ pons อธิบายได้จากเลือดแตกเข้าโพรงสมองแล้วไหลสู่ subarachnoid space",
   "summary": [
-   "Pontine hemorrhage: coma ทันที · pinpoint pupils · quadriplegia/ decerebrate · หายใจผิดปกติ · ไข้สูง",
-   "Putamen: hemiparesis + ตาเหลือบไปทางรอยโรค",
-   "Thalamus: ชาครึ่งซีก + ตามองลงล่าง",
-   "Cerebellum: เซ อาเจียน · ก้อนใหญ่ → ผ่าตัด",
-   "Lobar: ผู้สูงอายุ → amyloid angiopathy",
-   "SAH: thunderclap headache · คอแข็ง · CN III palsy"
+   "Pontine hemorrhage ราว 5–10% ของ ICH · paramedian perforator ของ basilar artery แตกในผู้ป่วยความดันสูง · พยากรณ์โรคแย่มากเมื่อก้อนใหญ่หรือมาด้วยโคม่า",
+   "ลักษณะ pons: coma ทันที, pinpoint pupils (ยังตอบสนองต่อแสงเล็กน้อย), quadriplegia/ decerebrate posturing, ocular bobbing, ไม่มี horizontal eye movement, hyperthermia, หายใจ apneustic/ ataxic",
+   "Localization จากรูม่านตา: pinpoint สองข้าง = pons (หรือ opioid/ organophosphate) · ข้างเดียวขยายไม่ตอบสนอง = CN III กด (uncal herniation, PComm aneurysm) · mid-position fixed = midbrain",
+   "ท่าทาง: decorticate (flexor) = รอยโรคเหนือ red nucleus · decerebrate (extensor) = รอยโรคระดับ midbrain–pons (ใต้ red nucleus)",
+   "SAH: thunderclap headache ราว 97% ของรายที่รู้ตัว, คอแข็ง, subhyaloid hemorrhage ราว 25% (สไลด์ในไฟล์), CN III palsy · CT ใน 6 ชม. แรกไวเกือบ 100%",
+   "Hypertensive ICH ตามตำแหน่ง: putamen (ตาเหลือบไปข้างรอยโรค), thalamus (มองลงล่าง ชาเด่น), cerebellum (เดินเซ อาเจียน), pons (โคม่า pinpoint)",
+   "รักษา pontine hemorrhage: ประคับประคอง คุมความดัน ดูแลทางเดินหายใจ ใส่ EVD ถ้ามี hydrocephalus · ไม่ผ่าตัดเอาก้อนออกเป็นมาตรฐาน"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (SAH) — ตอบ pontine hemorrhage ความมั่นใจปานกลาง-สูง เพราะ pinpoint pupils ไม่ตอบสนองแสง + extensor posturing ทั้ง 4 แขนขา + coma ทันทีในผู้ป่วยความดันสูง เป็นลักษณะคลาสสิกของเลือดออกที่ pons ซึ่งตรงกับลายมือ P'Ing \"lesion ใต้ midbrain\" ส่วนคอแข็งอธิบายได้จากเลือดแตกเข้าโพรงสมอง · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
-  "mnemonic": "<b>'Pons = Pinpoint pupils + Posturing (decerebrate) + Profound coma'</b>",
-  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282); Adams and Victor's Principles of Neurology 12th ed. (2023)",
+  "opinion": "เห็นด้วยกับคำตอบ A ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ที่ตัวพิมพ์เขียน \"ans: SAH\" (P'Ing วง ans และเขียน meningeal irritation) · ข้อมูลส่วนใหญ่ในโจทย์ (ความดันสูง โคม่าทันที pinpoint pupils สองข้าง extensor posturing ทุกแขนขา) เป็นภาพคลาสสิกของ pontine hemorrhage และลายมือ \"lesion ใต้ midbrain\" ก็ชี้ไปก้านสมอง ส่วนคอแข็งอธิบายได้จากเลือดเข้าโพรงสมอง · ต้นฉบับไม่มีช้อย เว็บแต่งช้อยให้ SAH อยู่เป็นตัวเลือก B",
+  "mnemonic": "<b>'\"Pinpoint + Posturing + Pressure (HT) = Pons\"'</b>",
+  "guide": "Greenberg SM et al. 2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022); Posner JB et al. Plum and Posner's Diagnosis of Stupor and Coma 5th ed. (2019)",
   "variants": [
-   "หญิง 50 ปีปวดหัวรุนแรงทันที คอแข็ง CT เลือดใน basal cisterns → aneurysmal SAH → CTA",
-   "ผู้สูงอายุความดันสูง อ่อนแรงซีกซ้าย ตาเหลือบขวา → right putaminal hemorrhage",
-   "ผู้ป่วยรูม่านตาเล็กมาก หายใจช้า ฟื้นด้วย naloxone → opioid overdose (แยกจาก pontine)"
+   "ชาย 45 ปีถูกพบหมดสติ รูม่านตาเล็กเท่าหัวเข็ม หายใจช้า 6 ครั้ง/นาที มีรอยเข็มที่แขน → opioid overdose ให้ naloxone",
+   "ผู้ป่วย ICH ที่ temporal ขวา ซึมลง รูม่านตาขวาขยายไม่ตอบสนองต่อแสง แขนขาซ้ายเกร็ง → uncal herniation ต้องลด ICP และผ่าตัดด่วน",
+   "หญิง 55 ปีปวดหัวรุนแรงที่สุดในชีวิตทันที CT ใน 3 ชม. ปกติ → CTA หรือ LP หา xanthochromia เพื่อตัด SAH",
+   "ทำไมเลือดออกใน pons ทำให้รูม่านตาเล็กมาก → ทำลาย sympathetic pathway ที่ลงผ่าน tegmentum ทั้งสองข้าง parasympathetic จาก Edinger-Westphal ไม่ถูกต้าน"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 14 — ตัวพิมพ์: <b>19. elderly with HT presented with sudden loss of consciousness/ high BP, irregular breathing, deep comatose, pupils 1 mm not reactive to light both eyes, abnormal extension motor response all extremities, neck stiffness +ve ans: SAH</b><br>ลายมือ: \"lesion ใต้ midbrain\" เหนือ abnormal extension · \"meningeal irritation\" เหนือ neck stiffness<br>ไฮไลต์: วง \"ans\" · \"elderly with HT\" · \"sudden loss of consciousness/ high BP\" (เหลือง) · \"irregular breathing\" \"deep comatose, pupils 1 mm not reactive to light both eyes\" \"abnormal extension motor response all extremities\" · \"neck stiffness +ve\" (เหลือง)<br>รูปที่แปะ: สไลด์ Clinical Presentation (SAH) — Sudden, severe headache · Disturbance of consciousness · Neck stiffness · Subhyaloid or vitreous hemorrhage (25% of patients) · Focal neurological deficits · Cranial nerve deficit e.g. CN III<br>ที่ปรับในเว็บ: เว็บตอบ pontine hemorrhage ต่างจากคีย์ (SAH) · ไม่มีช้อย → แต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 14",
@@ -363,30 +385,32 @@
   ]
  },
  "MDCU70|RoC|20": {
-  "interp": "ภาพหลังบาดเจ็บศีรษะพบ <b>cerebral contusion ที่ occipital lobe ซ้าย</b> → ถามการจัดการที่<b>ไม่เกิดประโยชน์</b>",
-  "why": "Cerebral contusion คือเนื้อสมองช้ำ/ มีเลือดออกเล็ก ๆ จากแรงกระแทก (coup/ contrecoup) <b>ไม่ใช่โรคหลอดเลือดที่มีจุดให้อุด</b> → <b>angiography + embolization ไม่มีประโยชน์</b> (ใช้กับ AVM, aneurysm, carotid-cavernous fistula, เลือดออกจากหลอดเลือดแดงใบหน้า) · การดูแล contusion: ICU, ศีรษะสูง 30°, <b>CT ซ้ำ</b> เพราะ contusion มักขยาย (blossoming) ใน 24–72 ชม., <b>ป้องกันชัก 7 วัน</b> (early PTS), ICP monitoring ตามข้อบ่งชี้ (GCS ≤ 8 + CT ผิดปกติ), <b>craniotomy/ decompression เมื่อ mass effect</b> · ไฟล์ผู้จดตอบ <b>\"ans: ทำ angiogram with embolisation ไม่เกิดประโยชน์\"</b> และ P'Ing ใส่ \"?\" หน้าข้อ",
+  "interp": "ภาพหลังบาดเจ็บศีรษะพบ <b>contusion ที่ occipital lobe ซ้าย</b> — ถามการรักษาที่<b>ไม่มีประโยชน์</b> ต้องรู้แนวทางดูแล cerebral contusion (ติดตามการขยาย คุม ICP ป้องกันชัก ผ่าตัดเมื่อกดเบียด) และบทบาทจำกัดของ angiography ใน TBI",
+  "why": "<b>Cerebral contusion</b> คือเนื้อสมองช้ำและมีเลือดออกเป็นจุดจากหลอดเลือดฝอยแตก ทั้งตำแหน่งที่ถูกกระแทก (coup) และด้านตรงข้าม (contrecoup) พบบ่อยที่ frontal และ temporal pole ที่เสียดสีกระดูกฐานกะโหลก · ลักษณะสำคัญคือ <b>contusion ขยายตัว (blossoming)</b> ใน 24–72 ชม.แรกได้บ่อย จึง<b>ทำ CT ซ้ำ</b>เมื่ออาการเปลี่ยนหรือตามเวลา · การดูแล: ยกหัวเตียง 30° คุม ICP (ICP monitoring ใน severe TBI GCS 3–8 ที่ CT ผิดปกติ ตาม Brain Trauma Foundation 4th ed.), รักษา CPP 60–70 mmHg, หลีกเลี่ยง hypoxia/ hypotension, <b>ป้องกันชัก 7 วัน</b>ลด early post-traumatic seizure · ผ่าตัด (craniotomy) เมื่อก้อนกดเบียด, ICP ดื้อยา หรืออาการแย่ลงจากรอยโรค · ส่วน<b>angiography with embolization ไม่มีบทบาท</b>ใน contusion เพราะเลือดออกจากเส้นเลือดฝอยกระจายในเนื้อสมอง ไม่มีหลอดเลือดใหญ่ให้อุด — ใช้เฉพาะเมื่อมี traumatic vascular injury (pseudoaneurysm, carotid-cavernous fistula, dissection) · ไฟล์ตัวพิมพ์ <b>\"ans: ทำ angiogram with embolisation ไม่เกิดประโยชน์\"</b> (ภาพเดาว่าเป็น left occipital lobe contusion) ลายมือ P'Ing มี \"?\" หน้าข้อ",
   "wrong": {
-   "A": "มีประโยชน์ — ศีรษะสูงช่วยลด ICP และวัด ICP เมื่อ GCS ≤ 8 ร่วมกับ CT ผิดปกติ · จะถูกถ้าช้อยบอกว่าให้นอนราบศีรษะต่ำในผู้ป่วย ICP สูง",
-   "B": "มีประโยชน์ — contusion ขยายได้ใน 24–72 ชม. ต้อง CT ซ้ำ · จะถูกถ้าช้อยบอกว่าไม่ต้องติดตาม CT แม้อาการแย่ลง",
-   "C": "มีประโยชน์ — ป้องกันชักระยะแรก (7 วัน) ในบาดเจ็บสมองรุนแรง · จะถูกถ้าช้อยเป็นการให้ยากันชักต่อเนื่องหลายปีเพื่อป้องกันชักระยะหลัง (ไม่มีประโยชน์)",
-   "E": "มีประโยชน์ — ผ่าตัดเมื่อ contusion มี mass effect/ ICP สูงคุมไม่ได้ · จะถูกถ้าช้อยบอกว่าผ่าตัด contusion เล็กที่ไม่มี mass effect ผู้ป่วยรู้สึกตัวดี"
+   "A": "ข้อความถูก: ยกหัวเตียง 30° ช่วยระบายเลือดดำจากศีรษะลด ICP และใส่ ICP monitor ใน severe TBI (GCS 3–8) ที่ CT ผิดปกติ ตาม Brain Trauma Foundation — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 25 ปีรถจักรยานยนต์ล้ม GCS 6 CT เห็น contusion หลายจุดและ cistern แคบ ที่ต้องคุม ICP &lt; 22 mmHg",
+   "B": "ข้อความถูก: contusion ขยายตัว (blossoming) ได้ในราว 1–3 วันแรก การทำ CT ซ้ำเมื่ออาการแย่ลงหรือตามเวลาช่วยพบก้อนที่โตจนต้องผ่าตัด — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 60 ปีกิน aspirin ล้มหัวฟาด CT แรกมี contusion 1 cm ที่ frontal อีก 6 ชม. GCS ลดจาก 14 เป็น 11",
+   "C": "ข้อความถูก: phenytoin หรือ levetiracetam 7 วันแรกลด early post-traumatic seizure ใน severe TBI (แต่ไม่ลด late seizure จึงไม่ให้นานเกิน 7 วันถ้าไม่ชัก) และ contusion ที่ cortex เป็นปัจจัยเสี่ยงชัก — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 30 ปี GCS 7 หลังรถชน CT เห็น contusion ที่ temporal ที่เริ่ม levetiracetam ป้องกันชัก",
+   "E": "ข้อความถูก: contusion ที่ขยายจนกดเบียด midline shift ≥ 5 mm, cistern ถูกกด, ICP ดื้อยา หรืออาการทางระบบประสาทแย่ลงจากรอยโรค → craniotomy เอาก้อนออก (หรือ decompressive craniectomy) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 40 ปีที่ contusion temporal ขวาโตเป็น 35 mL midline shift 7 mm และ GCS ลดลงเป็น 8"
   },
-  "trap": "คิดว่าทุกเลือดออกในสมองแก้ด้วยการอุดหลอดเลือด — contusion เป็นเนื้อสมองช้ำ ไม่มีหลอดเลือดเป้าหมาย",
+  "trap": "Embolization ฟังดูเป็นการหยุดเลือดที่ทันสมัยจึงดูมีประโยชน์ และคนอาจสับสนว่า seizure prophylaxis ไม่ได้ผล (เพราะไม่ลด late seizure) · ตัวแยกคือ<b>ชนิดของเลือดออก</b>: contusion เป็นเลือดออกจากหลอดเลือดฝอยในเนื้อสมอง ไม่มีหลอดเลือดเป้าหมายให้อุด ส่วนการป้องกันชัก 7 วันยังแนะนำสำหรับ early seizure",
   "summary": [
-   "Contusion: coup/ contrecoup · frontal และ temporal พบบ่อย",
-   "Blossoming ใน 24–72 ชม. → CT ซ้ำ",
-   "ป้องกันชักระยะแรก 7 วัน (levetiracetam/ phenytoin)",
-   "ICP monitoring: GCS ≤ 8 + CT ผิดปกติ",
-   "Mass effect/ ICP คุมไม่ได้ → craniotomy/ decompressive craniectomy",
-   "Embolization: AVM · aneurysm · CCF · เลือดออกจากหลอดเลือดใบหน้า"
+   "Contusion: เลือดออกจากหลอดเลือดฝอยในเนื้อสมองแบบ coup–contrecoup · พบบ่อยที่ frontal และ temporal pole · occipital contusion ทำให้ลานสายตาครึ่งซีกด้านตรงข้ามบกพร่อง (homonymous hemianopia)",
+   "Blossoming: contusion ขยายในราว 24–72 ชม.แรก โดยเฉพาะผู้กินยาต้านเกล็ดเลือด/ ยาต้านการแข็งตัว และมี coagulopathy → CT ซ้ำ แก้ coagulopathy",
+   "Brain Trauma Foundation 4th ed. (2016): ICP monitoring ใน severe TBI (GCS 3–8) ที่ CT ผิดปกติ · รักษาเมื่อ ICP &gt; 22 mmHg · CPP เป้า 60–70 mmHg · SBP ≥ 100–110 ตามอายุ",
+   "Seizure prophylaxis: phenytoin (หรือ levetiracetam) 7 วันลด early PTS (≤ 7 วัน) ไม่ลด late PTS · steroid ห้ามใช้ใน TBI (เพิ่มการตาย CRASH)",
+   "ผ่าตัด parenchymal lesion: อาการแย่ลงจากรอยโรค, ICP ดื้อยา หรือ mass effect · GCS 6–8 ร่วม frontal/temporal contusion &gt; 20 mL ที่ shift ≥ 5 mm หรือ cistern ถูกกด · รอยโรคใดก็ตาม &gt; 50 mL",
+   "Tranexamic acid ภายใน 3 ชม.หลังบาดเจ็บลดการตายจาก head injury ในกลุ่ม mild–moderate (CRASH-3)",
+   "Angiography ใน TBI ใช้เมื่อสงสัย traumatic vascular injury: กระดูกหักผ่าน carotid canal, pseudoaneurysm, carotid-cavernous fistula (ตาโปน chemosis bruit), blunt cerebrovascular injury"
   ],
-  "opinion": "ตอบ D ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียน แม้ผู้จดเดาภาพและ P'Ing ใส่ \"?\" ไว้ · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
-  "mnemonic": "<b>'Contusion = สมองช้ำ ไม่มีท่อให้อุด → ไม่ embolize'</b>",
-  "guide": "Brain Trauma Foundation: Guidelines for the Management of Severe Traumatic Brain Injury, 4th ed. (Neurosurgery 2017;80:6)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับไฟล์ที่ตัวพิมพ์เขียน \"ans: ทำ angiogram with embolisation ไม่เกิดประโยชน์\" · ต้นฉบับไม่มีภาพและช้อย (ผู้จดเดาว่าเป็น left occipital contusion และ P'Ing ใส่ ? ไว้) เว็บบรรยายภาพในโจทย์และแต่งช้อย A, B, C, E เป็นการดูแลมาตรฐานที่มีประโยชน์จริง",
+  "mnemonic": "<b>'Contusion = \"capillary bleed\" → ไม่มีเส้นให้ embolize · ดูแลด้วย \"Head up–Repeat CT–Keppra 7 d–Cut if mass\"'</b>",
+  "guide": "Carney N et al. Guidelines for the Management of Severe Traumatic Brain Injury, 4th ed. (Brain Trauma Foundation, Neurosurgery 2017); Bullock MR et al. Surgical Management of Traumatic Parenchymal Lesions (Neurosurgery 2006)",
   "variants": [
-   "contusion frontal 6 ชม.ต่อมา GCS ลดลง CT ก้อนโตขึ้น midline shift → craniotomy",
-   "บาดเจ็บสมองรุนแรง GCS 7 CT contusion → ICP monitoring",
-   "หลังบาดเจ็บตาโปน เสียงฟู่ที่ตา → carotid-cavernous fistula → endovascular embolization"
+   "ชาย 35 ปีหลังรถชน ตาขวาโปน แดง chemosis ได้ยินเสียงฟู่ที่ขมับ → traumatic carotid-cavernous fistula → angiography และ endovascular embolization (กรณีที่ embolization มีประโยชน์)",
+   "ผู้ป่วย severe TBI ได้ phenytoin ครบ 7 วันไม่เคยชัก → หยุดยากันชักได้ เพราะยาต่อไม่ลด late seizure",
+   "ชาย 50 ปีหลังล้มหัวฟาดมองไม่เห็นซีกขวาของลานสายตาทั้งสองตา CT เห็น contusion ที่ occipital ซ้าย → right homonymous hemianopia",
+   "ทำไมห้ามให้ corticosteroid ในบาดเจ็บศีรษะ → CRASH trial พบ methylprednisolone เพิ่มการเสียชีวิต"
   ],
   "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 14 — ตัวพิมพ์: <b>20. imaging: left occipital lobe contusion (เดา) ans: ทำ angiogram with embolisation ไม่เกิดประโยชน์</b><br>ลายมือ: \"?\" หน้าข้อ<br>ไฮไลต์: \"left occipital lobe contusion (เดา)\"<br>ที่ปรับในเว็บ: ไม่มีภาพและช้อย → บรรยายภาพในโจทย์และแต่งช้อย A–E",
   "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 14",

@@ -1,29 +1,31 @@
 {
  "MDCU79|RoD|Plastic 5": {
-  "interp": "แผล necrotizing fasciitis ที่หน้าแข้งหลัง debride แล้ว <b>มี granulation ดีขึ้นเต็มแผล</b> ขนาด 8 × 6 cm → ถามวิธีปิดแผล",
-  "why": "ใช้หลัก <b>reconstructive ladder</b> เลือกวิธีที่ง่ายที่สุดที่ได้ผล · แผลใหญ่ 8 × 6 cm (~48 cm²) ปล่อยหายเองช้ามาก (หลายเดือน) และได้แผลเป็นหดรั้ง · <b>granulation tissue ที่ดี</b> คือพื้นแผลที่มีเลือดมาเลี้ยงพอให้ผิวหนังติด → <b>split-thickness skin graft (STSG)</b> ติดได้ดี ปิดพื้นที่กว้างได้ (ทำ mesh ขยายได้) ใช้ผิวจากต้นขา · ต้องการ flap ก็ต่อเมื่อพื้นแผลไม่มีเลือดเลี้ยงพอ เช่น <b>กระดูกหรือเส้นเอ็นโผล่ไม่มี periosteum/ paratenon</b> หรือมีโลหะ/ ข้อต่อโผล่ ซึ่งโจทย์ไม่ได้บอก · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 5 B\"</b> = Split thickness skin graft ตรงกับคำตอบ",
+  "interp": "แผลหลัง debride <b>necrotizing fasciitis</b> ที่หน้าแข้ง ตอนนี้ฐานแผลเป็น <b>granulation tissue ที่ดี</b> ขนาด 8 × 6 cm — ถามวิธีปิดแผล ต้องเลือกตาม reconstructive ladder/elevator โดยดูที่<b>ฐานแผล</b>: ฐานมีเลือดเลี้ยงดีและไม่มีกระดูกหรือเอ็นโผล่ ใช้ skin graft ได้",
+  "why": "หลักเลือกวิธีปิดแผลคือ<b>ดูฐานแผลก่อนดูขนาด</b> · skin graft ไม่มีเลือดเลี้ยงของตัวเอง ต้องอาศัยฐานแผลที่มีหลอดเลือด: 24–48 ชั่วโมงแรกอยู่ด้วย <b>plasmatic imbibition</b> ต่อมาหลอดเลือดฐานแผลกับ graft ต่อกัน (<b>inosculation</b>) และหลอดเลือดใหม่งอกเข้า (revascularization) ภายในราว 4–7 วัน · <b>granulation tissue ที่แดงสด สะอาด ไม่มี slough และควบคุมการติดเชื้อได้แล้ว</b> เป็นฐานที่เหมาะกับ graft (เช่นเดียวกับกล้ามเนื้อ fascia periosteum paratenon) · แผล 48 cm² ใหญ่เกินกว่าจะใช้ FTSG (donor site จำกัด และ FTSG ติดยากกว่า) จึงใช้ <b>split-thickness skin graft</b> ซึ่งติดง่ายกว่าและ donor site (มักเป็นต้นขา) หายเองใน 10–14 วัน · อาจ mesh 1:1.5 ให้น้ำเหลืองระบายและคลุมพื้นที่ได้มากขึ้น ยึดด้วย bolster หรือ <b>negative pressure wound therapy</b> เพื่อกัน shear และ hematoma/seroma ซึ่งเป็นสาเหตุ graft ไม่ติดที่พบบ่อยที่สุด ร่วมกับยกขาสูงและพักขาราว 5–7 วัน · ถ้ามีกระดูก tibia ที่ไม่มี periosteum โผล่ จะต้องใช้ flap แทน · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"5 B\"</b> (ตัวพิมพ์ระบุ \"granulation ขึ้นแล้ว\")",
   "wrong": {
-   "A": "ปล่อยหายเองใช้กับแผลเล็ก หรือผู้ป่วยผ่าตัดไม่ได้ แผล 48 cm² ใช้เวลานานมากและได้แผลเป็นหดรั้ง · จะถูกถ้าแผล granulation ขนาด 1.5 cm ที่หน้าแข้ง หรือผู้ป่วยสภาพไม่พร้อมผ่าตัด (อาจใช้ NPWT ช่วย)",
-   "C": "FTSG ต้องการพื้นแผลดีมากและแหล่งผิวบริจาคมีจำกัด (ต้องเย็บปิดที่บริจาค) ใช้กับแผลเล็กบนหน้า/ มือ ไม่ใช่แผลใหญ่บนขา · จะถูกถ้าแผล 2 × 2 cm ที่ปลายจมูกหลังตัด BCC",
-   "D": "Local flap ใช้เมื่อพื้นแผลมีกระดูก/ เอ็นโผล่ขนาดเล็ก-กลาง ผิวหนังรอบหน้าแข้งตึง ย้ายได้น้อย · จะถูกถ้าแผล 3 cm ที่หน้าแข้งกลางมีกระดูก tibia โผล่ไม่มี periosteum",
-   "E": "Free flap ใช้กับแผลใหญ่ที่มีกระดูก/ ข้อ/ โลหะโผล่ โดยเฉพาะหน้าแข้งส่วนล่างที่ไม่มี local flap · จะถูกถ้าแผล 8 × 6 cm ที่หน้าแข้งส่วนล่างมีกระดูกหักและ plate โผล่"
+   "A": "Secondary intention ของแผล 48 cm² ที่หน้าแข้งใช้เวลาหลายเดือน แผลหดรั้งและได้ผิวบางจาก epithelialization ที่แตกง่าย (unstable scar) เสี่ยงเป็นแผลเรื้อรังและ Marjolin ulcer ระยะยาว · จะถูกถ้าเป็นชาย 40 ปีมีแผลเล็ก 1.5 cm ที่ติดเชื้อหรือปนเปื้อนมาก (เช่นแผลฝีระบายหนองที่ต้นขา) ปล่อยหายเองโดยทำแผลทุกวัน",
+   "C": "FTSG มีผิวหนังเต็มชั้นจึงหดน้อยและสีผิวดีกว่า แต่ต้องการฐานแผลดีมากกว่า STSG และ donor site ต้องเย็บปิดตรง จึงได้ขนาดจำกัด (หลังหู เหนือไหปลาร้า ขาหนีบ แขนด้านใน) ไม่พอสำหรับแผล 8 × 6 cm · จะถูกถ้าเป็นหญิง 70 ปีหลังตัด basal cell carcinoma ที่ปลายจมูก แผล 1.5 cm ฐานดี ใช้ FTSG จากหลังหู",
+   "D": "Local flap ใช้ปิดแผลขนาดเล็กถึงปานกลางที่มีโครงสร้างสำคัญโผล่และมีผิวรอบข้างหย่อนพอ ผิวหน้าแข้งตึงและบางจึงหมุนหรือเลื่อนได้น้อย และไม่จำเป็นเมื่อฐานเป็น granulation ดีแล้ว · จะถูกถ้าเป็นชาย 45 ปีมีแผล 2 cm ที่หน้าแข้งส่วนกลาง มีกระดูกโผล่เล็กน้อย ผิวรอบข้างดี ใช้ local fasciocutaneous/ perforator flap",
+   "E": "Free flap ใช้กับแผลใหญ่ที่มีกระดูก hardware หรือเส้นเอ็นโผล่ โดยเฉพาะ distal third ของขา ต้องใช้ microsurgery เวลาผ่าตัดนานและเสี่ยงสูงกว่ามาก จึงเกินความจำเป็นเมื่อฐานแผลรองรับ graft ได้ · จะถูกถ้าเป็นชาย 30 ปี open tibial fracture Gustilo IIIB ที่ distal third มีกระดูกและ plate โผล่ แผล 10 × 8 cm"
   },
-  "trap": "คิดว่าหน้าแข้งผิวบางต้องใช้ flap เสมอ — ถ้าพื้นแผลเป็น granulation ดี (ไม่มีกระดูกโผล่) STSG พอ",
+  "trap": "แผลที่หน้าแข้งชวนให้นึกถึงหลัก \"หน้าแข้งต้อง flap\" (gastrocnemius/soleus/free flap) · แต่ข้อบ่งชี้ของ flap คือ<b>ฐานแผลที่ไม่มีเลือดเลี้ยง</b> เช่น กระดูกเปลือยไม่มี periosteum เอ็นไม่มี paratenon หรือ hardware · เมื่อฐานเป็น <b>healthy granulation</b> แล้ว ขั้นที่เรียบง่ายและได้ผลคือ STSG · ขนาดใหญ่ไม่ได้แปลว่าต้อง flap",
   "summary": [
-   "Reconstructive ladder: หายเอง → เย็บปิด → STSG → FTSG → local flap → regional → free flap",
-   "Granulation ดี + ไม่มีโครงสร้างสำคัญโผล่ → STSG",
-   "กระดูกไม่มี periosteum/ เอ็นไม่มี paratenon/ โลหะโผล่ → flap",
-   "หน้าแข้ง: บน = gastrocnemius flap · กลาง = soleus flap · ล่าง = free flap",
-   "STSG หดตัวมากกว่า FTSG (secondary contraction)",
-   "NPWT ช่วยเตรียมพื้นแผลก่อนปลูกผิว"
+   "Necrotizing fasciitis: type I polymicrobial (เบาหวาน, ฝีเย็บ = Fournier) · type II GAS ± S. aureus · type III Vibrio vulnificus (น้ำทะเล, ตับแข็ง)/ Clostridium",
+   "อาการนำ: ปวดมากเกินกว่าที่เห็น บวมตึงเลยขอบแดง ตุ่มน้ำ ผิวคล้ำ crepitus · ผ่าเห็น dishwater fluid และ fascia ลอกได้ด้วยนิ้ว (finger test บวก)",
+   "รักษา: radical debridement ด่วน + broad-spectrum (carbapenem/ pip-tazo + vancomycin/ linezolid + clindamycin ยับยั้ง toxin) + re-look ภายใน 24–48 ชม. จนไม่มีเนื้อตาย",
+   "เตรียมฐานแผลก่อน graft: ควบคุมการติดเชื้อ ไม่มี slough/ biofilm, granulation แดงสด · NPWT ช่วยเร่ง granulation และลด edema",
+   "STSG: ติดง่าย donor หายเอง 10–14 วัน หดมาก (secondary contraction) · FTSG: หดน้อย สีและเนื้อดี donor ต้องเย็บปิด ใช้หน้าและมือ",
+   "Graft failure: hematoma/ seroma (บ่อยสุด) > infection (β-hemolytic Streptococcus ทำลาย graft ได้แม้เชื้อน้อย) > shear · ป้องกันด้วย bolster/ NPWT และ immobilization",
+   "ฐานรับ graft ได้: กล้ามเนื้อ fascia periosteum perichondrium paratenon granulation · รับไม่ได้: กระดูก/ เอ็น/ กระดูกอ่อนเปลือย, hardware, irradiated bed → flap"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ และโจทย์ต้นฉบับบอกว่า granulation ขึ้นแล้ว",
-  "mnemonic": "<b>'Granulation แดงดี = ปลูกผิวบาง (STSG) · กระดูกโผล่ = flap'</b>",
-  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Skin grafts; Lower extremity reconstruction",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"5 B\") และตัวพิมพ์ระบุว่า granulation ขึ้นแล้ว · แผลขนาด 8 × 6 cm บนฐาน granulation ที่ดีไม่มีกระดูกโผล่ จึงปิดได้ด้วย STSG ซึ่งเป็นขั้นที่เรียบง่ายที่สุดที่ได้ผลดีตาม reconstructive ladder",
+  "mnemonic": "<b>'ฐานแดง (Granulation) = Graft · ฐานขาว (Bone/ Tendon เปลือย) = Flap'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) Vol.1 Principles — Skin grafts; Grabb and Smith's Plastic Surgery 8th ed. (2020) — Lower Extremity Reconstruction; IDSA Practice Guidelines for Skin and Soft Tissue Infections 2014",
   "variants": [
-   "แผลหน้าแข้งกลาง 4 cm มีกระดูก tibia โผล่ไม่มี periosteum → soleus flap",
-   "แผลหน้าแข้งส่วนล่าง 6 cm มี plate โผล่ → free flap",
-   "แผล granulation 1 cm ที่ขา → ทำแผลให้หายเอง"
+   "หลัง debride necrotizing fasciitis ที่ต้นขา ฐานยังมี slough และ fascia ตาย → debride ซ้ำ + NPWT จน granulation ดี แล้วจึง STSG",
+   "หลังทำ STSG ที่หน้าแข้ง 5 วัน graft ขุ่น มีหนองสีเขียว กลิ่นเหม็น เพาะเชื้อขึ้น Pseudomonas → wound infection ทำให้ graft ไม่ติด ต้องทำแผลและ graft ใหม่เมื่อฐานพร้อม",
+   "แผลหลัง debride ที่ distal third หน้าแข้ง กระดูก tibia ไม่มี periosteum โผล่ 4 × 3 cm → ต้องใช้ flap (free flap หรือ local perforator flap) ไม่ใช่ graft",
+   "ทำไม β-hemolytic Streptococcus ทำให้ graft ล้มเหลวแม้มีเชื้อน้อย → เชื้อสร้าง fibrinolysin/ streptokinase ละลาย fibrin ที่ยึด graft กับฐานแผล"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 9 แถว Plastic 5 — ตัวพิมพ์: <b>แผล necrotizing fasciitis ที่ anterior tibia หลังจาก debride ไปแล้ว ไป granulation ขึ้นแล้ว ขนาดแผล 8x6 cm จะดูแลแผลยังไงต่อ — 1. ปล่อยให้แผล secondary healing เอง 2. Split thickness skin graft 3. Full thickness skin graft 4. Local flap 5. Free flap</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 9 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 6": {
-  "interp": "นักออกแบบกราฟิกปลายนิ้วชี้หายจากอุบัติเหตุ ต้องการ<b>เก็บความยาวนิ้วและความรู้สึกที่ปลายนิ้ว</b> → ถามการรักษา",
-  "why": "เป้าหมายคือคงความยาวและ<b>ความรู้สึกสัมผัส</b> (sensate pulp) ซึ่งสำคัญกับงานละเอียด · <b>V-Y advancement flap (Atasoy volar V-Y)</b> ใช้เนื้อ pulp ที่มีเส้นประสาทและเลือดมาเลี้ยงเลื่อนขึ้นมาปิดปลายนิ้ว ได้ทั้ง<b>เนื้อหนาบุ ความรู้สึก และความยาว</b> · เหมาะกับปลายนิ้วขาด<b>แนวตัดขวางหรือเฉียงไปทางหลังมือ (dorsal oblique)</b> ที่มีกระดูกโผล่เล็กน้อย · ถ้าขาดเฉียงไปทางฝ่ามือ (volar oblique) ใช้ cross-finger หรือ thenar flap · skin graft ได้ความรู้สึกน้อยและบาง · ตัดนิ้วสั้นลงเสียความยาว · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 6 C\"</b> = VY advancement ตรงกับคำตอบ",
+  "interp": "graphic designer สูญเสีย<b>ปลายนิ้วชี้</b> และต้องการ<b>คงความยาวนิ้วและการรับสัมผัสที่ปลายนิ้ว</b> — ถามการรักษาที่เหมาะสม คือการปิดปลายนิ้วด้วยเนื้อเยื่อ pulp ที่มีเส้นประสาทเลี้ยงของนิ้วเดิม (V-Y advancement flap)",
+  "why": "ปลายนิ้ว (pulp) มี glabrous skin ที่หนา ทนแรง และมีตัวรับสัมผัสหนาแน่น (Meissner, Merkel) ซึ่งสำคัญมากต่ออาชีพที่ใช้มือละเอียด · การเลือกวิธีปิดขึ้นกับ: ขนาดแผล, <b>มีกระดูกโผล่หรือไม่</b>, <b>ทิศทางของรอยตัด</b> (transverse, dorsal oblique, volar oblique) และความต้องการของผู้ป่วย · แผลเล็ก &lt; 1 cm² ไม่มีกระดูกโผล่ หายเองด้วย secondary intention ได้ดีและรับสัมผัสดี · เมื่อมีกระดูกโผล่และรอยตัดเป็นแนว<b>ขวางหรือเฉียงขึ้นด้านหลัง (dorsal oblique)</b> ใช้ <b>volar V-Y advancement flap (Atasoy-Kleinert)</b>: กรีดรูปตัว V ที่ pulp ด้านฝ่ามือ เลื่อนขึ้นคลุมปลายกระดูก แล้วเย็บเป็นรูป Y โดย flap ยังติดกับ neurovascular bundle ผ่านเนื้อเยื่อใต้ผิว จึงได้ <b>sensate glabrous tissue</b> คงความยาวนิ้ว ทำเสร็จในขั้นตอนเดียว (เลื่อนได้ราว 1 cm) · ถ้ารอยตัดเฉียงลงด้านฝ่ามือ (volar oblique) สูญเสีย pulp มาก ใช้ cross-finger flap หรือ thenar flap · นิ้วโป้งใช้ Moberg advancement flap · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"6 C\"</b> (ตัวพิมพ์ช้อย \"VY advancement\")",
   "wrong": {
-   "A": "Revision amputation ตัดกระดูกให้สั้นลงแล้วเย็บปิด ได้แผลดีเร็ว แต่<b>เสียความยาว</b> ขัดกับความต้องการของผู้ป่วย · จะถูกถ้าผู้ป่วยกรรมกรต้องการกลับไปทำงานเร็วที่สุด และปลายนิ้วขาดถึง nail matrix",
-   "B": "STSG บาง ไม่มีเนื้อบุ ความรู้สึกไม่ดี และหดตัว ไม่เหมาะกับ pulp ที่ต้องรับสัมผัส · จะถูกถ้าแผลที่หลังมือกว้างไม่มีเอ็นโผล่",
-   "D": "FTSG ปิดแผลปลายนิ้วที่ไม่มีกระดูกโผล่ได้ แต่ไม่ให้เนื้อบุหนาและความรู้สึกดีเท่า flap · จะถูกถ้าแผลปลายนิ้ว 1.5 cm² ที่ไม่มีกระดูกโผล่ในเด็กหรือผู้ที่ไม่ต้องการ flap",
-   "E": "Cross-finger flap ใช้กับแผลด้าน volar ที่ใหญ่หรือขาดเฉียงไปทางฝ่ามือ ต้องผ่าสองครั้งและนิ้วสองนิ้วติดกัน 2–3 สัปดาห์ ความรู้สึกด้อยกว่า V-Y · จะถูกถ้าปลายนิ้วขาดเฉียงไปทางฝ่ามือ pulp หายเกือบหมด"
+   "A": "Revision amputation (ตัดแต่งกระดูกให้สั้นลงแล้วเย็บปิดตรง) หายเร็ว กลับไปทำงานได้ไว แต่<b>เสียความยาวนิ้ว</b> และอาจเกิด neuroma หรือ hook nail ซึ่งขัดกับความต้องการของผู้ป่วย · จะถูกถ้าเป็นชายกรรมกร 55 ปี ปลายนิ้วนางขาดถึงโคนเล็บ กระดูกโผล่ยาว ต้องการกลับไปทำงานเร็วที่สุดและไม่สนใจความยาวนิ้ว",
+   "B": "STSG บนปลายนิ้วติดได้ถ้าไม่มีกระดูกโผล่ แต่ผิวบาง ไม่ทนแรงกด รับสัมผัสได้ไม่ดี หดตัว และวางบนกระดูกเปลือยไม่ติด · จะถูกถ้าเป็นชาย 35 ปีมีแผลถลอกลึกที่หลังมือขนาด 4 × 3 cm ฐานเป็น paratenon ดี ไม่มีเอ็นหรือกระดูกโผล่",
+   "D": "FTSG ปิดแผล pulp ที่<b>ไม่มีกระดูกโผล่</b>ได้ หนาและหดน้อยกว่า STSG แต่ไม่มีเส้นประสาทของตัวเอง การรับสัมผัสฟื้นได้บางส่วน และวางบนกระดูกเปลือยไม่ติด · จะถูกถ้าเป็นหญิง 30 ปีถูกมีดปาด pulp นิ้วกลางหลุดเป็นแผ่น 1.5 × 1.5 cm ไม่มีกระดูกโผล่ (ใช้ FTSG หรือเย็บแผ่นที่หลุดกลับเป็น composite graft)",
+   "E": "Cross-finger flap ย้ายผิวจากหลังนิ้วข้างเคียงมาคลุม ใช้กับ <b>volar oblique</b> amputation ที่สูญเสีย pulp มากจน V-Y เลื่อนไม่ถึง ต้องผ่าตัด 2 ครั้ง (ตัดแยกที่ราว 2–3 สัปดาห์) นิ้วติดกันทำให้ข้อติด มีแผลที่นิ้วผู้ให้ และการรับสัมผัสด้อยกว่า V-Y · จะถูกถ้าเป็นชาย 28 ปีปลายนิ้วชี้ขาดแนวเฉียงลงด้านฝ่ามือ สูญเสีย pulp เกือบทั้งหมด กระดูกโผล่"
   },
-  "trap": "เลือก cross-finger flap เพราะคิดว่า flap ใหญ่กว่าดีกว่า — ปลายนิ้วขาดแนวขวาง/ เฉียงหลัง ใช้ V-Y (เนื้อเดิม ความรู้สึกดีที่สุด)",
+  "trap": "ทุกช้อยปิดแผลได้ แต่คำถามให้เงื่อนไข 2 ข้อ: <b>คงความยาว</b> (ตัด A ออก) และ<b>คงการรับสัมผัส</b> (graft ทั้ง STSG/FTSG และ cross-finger ด้อยกว่า) · V-Y ใช้ pulp ที่มีเส้นประสาทของนิ้วเดิมจึงตอบทั้งสองเงื่อนไข · ต้องดูทิศรอยตัดด้วย: dorsal oblique/ transverse = V-Y, volar oblique = cross-finger/ thenar",
   "summary": [
-   "ปลายนิ้วขาด &lt; 1 cm² ไม่มีกระดูกโผล่ → ปล่อยหายเอง (ผลดีมาก)",
-   "กระดูกโผล่ แนวขวาง/ เฉียงหลัง → V-Y advancement (Atasoy)",
-   "เฉียงไปทางฝ่ามือ → cross-finger flap หรือ thenar flap",
-   "นิ้วโป้ง → Moberg volar advancement flap",
-   "ต้องการกลับงานเร็ว/ ขาดลึก → revision amputation",
-   "เป้าหมาย: ความยาว · เนื้อบุ · ความรู้สึก · เล็บ · กลับไปทำงาน"
+   "Fingertip injury เลือกวิธีตาม: ขนาดแผล, กระดูกโผล่หรือไม่, ทิศรอยตัด (transverse/ dorsal oblique/ volar oblique), นิ้วไหน, อาชีพและความต้องการ",
+   "แผล &lt; 1 cm² ไม่มีกระดูกโผล่ → secondary intention (ผลดีทั้งรูปร่างและการรับสัมผัส โดยเฉพาะในเด็ก)",
+   "Volar V-Y (Atasoy): transverse หรือ dorsal oblique ที่มีกระดูกโผล่ · Kutler: V-Y 2 ข้างจาก lateral · เลื่อนได้ราว 1 cm คง sensation",
+   "Volar oblique ที่ pulp หายมาก → cross-finger flap (2 ขั้น) หรือ thenar flap (คนหนุ่มสาว นิ้วชี้/กลาง) · นิ้วโป้ง → Moberg volar advancement flap",
+   "Revision amputation: เร็ว กลับไปทำงานไว แต่สั้นลง · ต้อง traction neurectomy ลด neuroma และตัด germinal matrix ที่เหลือกัน nail remnant",
+   "เด็กเล็กปลายนิ้วขาด: เย็บส่วนที่หลุดกลับเป็น composite graft ได้ผลดีกว่าผู้ใหญ่ · replantation พิจารณาเมื่อขาดที่ระดับเหนือ nail fold ที่มีหลอดเลือดต่อได้",
+   "Nail bed: ซ่อมด้วยไหมละลายเล็ก (เช่น 6-0/7-0) ใส่เล็บเดิมหรือวัสดุกัน eponychial fold ติด · subungual hematoma ไม่ต้องถอดเล็บถ้าเล็บและขอบเล็บปกติ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และหลักใน Green's Operative Hand Surgery",
-  "mnemonic": "<b>'ปลายนิ้วขาดขวาง อยากได้ความรู้สึก = V-Y (เลื่อนเนื้อเดิมขึ้นมา)'</b>",
-  "guide": "Green's Operative Hand Surgery 8th ed. (2022) — Fingertip and nail bed injuries",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"6 C\") และหลักใน Green's Operative Hand Surgery ที่ V-Y advancement ให้ sensate pulp และคงความยาวนิ้วในขั้นตอนเดียว · ข้อจำกัดคือตัวพิมพ์ไม่ได้ระบุทิศรอยตัดหรือการมีกระดูกโผล่ ถ้าเป็น volar oblique ที่ pulp หายมาก cross-finger จะเหมาะกว่า",
+  "mnemonic": "<b>'Dorsal oblique/ Transverse = V-Y · Volar oblique = Cross-finger/ Thenar · Thumb = Moberg'</b>",
+  "guide": "Green's Operative Hand Surgery 8th ed. (2022) — Fingertip and Nail Bed Injuries; Neligan's Plastic Surgery 5th ed. (2023) Vol.6 Hand and Upper Extremity",
   "variants": [
-   "ปลายนิ้วขาด 0.8 cm² ไม่มีกระดูกโผล่ → ทำแผลให้หายเอง",
-   "ปลายนิ้วขาดเฉียงไปทางฝ่ามือ pulp หายมาก → cross-finger flap",
-   "ปลายนิ้วโป้งขาด pulp → Moberg flap"
+   "เด็ก 3 ขวบนิ้วโดนประตูหนีบ ปลายนิ้วขาด 0.8 cm² ไม่มีกระดูกโผล่ → ทำแผลให้หายเอง (secondary intention) ผลดีมาก",
+   "ชาย 30 ปีปลายนิ้วโป้งหายแนวขวาง pulp หาย 1.5 cm กระดูกโผล่ → Moberg volar advancement flap",
+   "หญิง 25 ปีปลายนิ้วกลางขาดแนวเฉียงลงด้านฝ่ามือ pulp หายมาก กระดูกโผล่ → thenar flap หรือ cross-finger flap",
+   "ทำไม V-Y ยังรับสัมผัสได้ → flap ยังต่อกับ digital neurovascular branches ผ่าน subcutaneous pedicle ไม่ได้ตัดเส้นประสาทออกเหมือน graft"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 9 แถว Plastic 6 — ตัวพิมพ์: <b>โดน sth ตรงปลายนิ้วชี้หายไป คนไข้ทำงานเป็น graphic designer อยากให้ความยาวนิ้วและ tactile sensation preserve ทำไง — 1. ตัดนิ้วทิ้ง 2. Split thickness skin graft 3. VY advancement 4. Full thickness skin graft 5. Regional flap from นิ้วข้าง ๆ</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 9 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 7": {
-  "interp": "ผู้ป่วยโดนมีดฟันเป็นแผลยาวที่แก้มจากแถวขมับถึงใกล้คาง (ตามรูป) → ถามอาการที่<b>ไม่น่าจะพบ</b>",
-  "why": "แผลแนวแก้มจากขมับถึงคางตัดผ่าน<b>ต่อม parotid และ Stensen duct</b> และ<b>แขนงของ facial nerve (CN VII)</b> ที่ออกจากต่อม parotid: <b>temporal</b> (ยักคิ้ว → คิ้วตก), <b>zygomatic</b> (หลับตา → lagophthalmos), <b>buccal</b> และ <b>marginal mandibular</b> (มุมปาก → น้ำลายไหล drooling) · การบาดเจ็บต่อม/ ท่อ parotid → <b>sialocele</b> หรือ fistula · ส่วน <b>ptosis ของหนังตาบน</b> เกิดจากกล้ามเนื้อ levator palpebrae superioris (เส้นประสาท <b>CN III</b>) หรือ Müller muscle (sympathetic — Horner) ไม่เกี่ยวกับ facial nerve · ความผิดปกติจาก CN VII ทำให้<b>หลับตาไม่สนิท</b> ไม่ใช่หนังตาตก · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 7 B\"</b> = Ptosis ตรงกับคำตอบ",
+  "interp": "ถูกฟันด้วยมีดยาวพาดแก้มจาก<b>บริเวณขมับถึงใกล้คาง</b> — ถามแบบ <b>NOT</b>: อาการใด<b>ไม่น่าพบ</b> ต้องไล่ว่าแนวแผลตัดผ่านโครงสร้างอะไร (แขนงของ facial nerve ทั้ง 5 และ parotid gland/duct) และอาการใดที่เกิดจากเส้นประสาทอื่นที่ไม่อยู่ในแนวนี้",
+  "why": "แผลลึกพาดแก้มจากขมับถึงคางตัดผ่าน<b>parotid gland และ duct</b> และ<b>แขนงของ facial nerve (CN VII)</b> ที่แผ่ออกจากหน้าหูเป็นพัด: <b>temporal (frontal) branch</b> → frontalis อ่อน คิ้วตก (brow ptosis) ยักคิ้วไม่ได้ · <b>zygomatic branch</b> → orbicularis oculi อ่อน หลับตาไม่สนิท (<b>lagophthalmos</b>) เสี่ยง exposure keratitis · <b>buccal branch</b> → อาหารค้างกระพุ้งแก้ม ยิ้มเบี้ยว · <b>marginal mandibular branch</b> → depressor anguli oris/ labii inferioris อ่อน มุมปากตก <b>น้ำลายไหล (drooling)</b> · บาดเจ็บ parotid/Stensen duct (แนวจาก tragus ถึงกึ่งกลางริมฝีปากบน) → น้ำลายรั่วคั่งใต้ผิวเป็น <b>sialocele</b> หรือ salivary fistula · ส่วน <b>หนังตาบนตก (ptosis)</b> เกิดจาก <b>levator palpebrae superioris (CN III)</b> หรือ Müller muscle (sympathetic — Horner) ซึ่งไม่ได้เลี้ยงด้วย facial nerve และไม่อยู่ในแนวแผล · หลักซ่อม: แขนง facial nerve ที่ขาด<b>ด้านข้าง (lateral) ต่อแนวดิ่งผ่าน lateral canthus</b> ควรต่อแบบ primary microsurgical repair ภายใน 72 ชั่วโมง (ปลายส่วน distal ยังกระตุ้นด้วย nerve stimulator ได้) · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"7 B\"</b> (ตัวพิมพ์ช้อย \"Ptosis\" และระบุว่ารูปเป็น \"รูปประมาณนี้\")",
   "wrong": {
-   "A": "Sialocele = น้ำลายคั่งใต้ผิวหลังต่อม/ ท่อ parotid บาดเจ็บ พบได้จากแผลแนวนี้ · จะถูกถ้าไม่มีสถานการณ์ที่ sialocele ไม่น่าพบในแผลตัดผ่านต่อม parotid (ตอบข้อ NOT ไม่ได้)",
-   "C": "Lagophthalmos (หลับตาไม่สนิท) เกิดจาก zygomatic branch ของ CN VII ขาด พบได้ · จะถูกถ้าถามอาการที่ต้องรีบปกป้องกระจกตาในผู้ป่วยในโจทย์",
-   "D": "น้ำลายไหลจากมุมปากเกิดจาก buccal/ marginal mandibular branch ขาด ริมฝีปากปิดไม่สนิท พบได้ · จะถูกถ้าถามอาการเมื่อ marginal mandibular branch ขาดจากแผลใต้ขากรรไกร",
-   "E": "คิ้วตกจาก temporal (frontal) branch ขาด ยักคิ้วไม่ได้ พบได้เพราะแผลเริ่มแถวขมับ · จะถูกถ้าแผลเฉพาะบริเวณเหนือ zygomatic arch แล้วถามแขนงที่ขาด"
+   "A": "ข้อความถูก: <b>sialocele</b> พบได้เพราะแนวแผลผ่าน parotid gland และ Stensen duct น้ำลายรั่วคั่งเป็นถุงใต้ผิว รักษาด้วยเจาะดูด pressure dressing ยาลดน้ำลาย (anticholinergic) หรือ botulinum toxin และต้องตรวจ duct ระหว่างเย็บแผล (ใส่สายใน duct ดูน้ำเกลือรั่ว) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับภาวะแทรกซ้อนที่พบ 2 สัปดาห์หลังเย็บแผลแก้มของชาย 30 ปีที่บวมนุ่มเป็นถุงหน้าหูและบวมมากขึ้นตอนกินอาหาร",
+   "C": "ข้อความถูก: <b>lagophthalmos</b> พบได้จาก zygomatic (± temporal) branch ขาด ทำให้ orbicularis oculi อ่อน หลับตาไม่สนิท ต้องหล่อลื่นตาและปิดตาตอนนอนป้องกัน exposure keratitis · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับอาการตาที่ต้องรีบดูแลในชาย 25 ปีที่ถูกฟันบริเวณโหนกแก้มหน้าหูแล้วหลับตาข้างนั้นไม่สนิท",
+   "D": "ข้อความถูก: <b>drooling</b> พบได้จาก marginal mandibular branch ขาด (วิ่งใต้ขอบ mandible ใต้ platysma ช่วงหน้า facial artery) ทำให้มุมปากล่างดึงลงไม่ได้ ริมฝีปากล่างเบี้ยว น้ำลายไหลมุมปาก · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับอาการหลังผ่าตัด submandibular gland ในหญิง 45 ปีที่ยิ้มแล้วริมฝีปากล่างข้างนั้นไม่ลง",
+   "E": "ข้อความถูก: <b>คิ้วตก (brow ptosis)</b> พบได้จาก temporal (frontal) branch ขาด ซึ่งวิ่งตาม Pitanguy line (จากใต้ tragus 0.5 cm ถึงเหนือหางคิ้ว 1.5 cm) ทำให้ frontalis อ่อน หน้าผากไม่ย่น ยักคิ้วไม่ได้ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับอาการของชาย 40 ปีที่ถูกฟันบริเวณขมับเหนือโหนกแก้มแล้วหน้าผากข้างนั้นเรียบไม่ย่น"
   },
-  "trap": "สับสน ptosis (หนังตาตก — CN III/ sympathetic) กับ lagophthalmos (หลับตาไม่สนิท — CN VII)",
+  "trap": "คำว่า \"ptosis\" ปรากฏในช้อย B (หนังตาบน) และ E (คิ้ว) ทำให้สับสน · ให้แยกกล้ามเนื้อ: <b>ยกหนังตาบน = levator (CN III) + Müller (sympathetic)</b> ไม่ใช่ CN VII · ส่วน facial nerve ทำให้<b>หลับตาไม่สนิท</b> (lagophthalmos) และ<b>คิ้วตก</b> ไม่ใช่หนังตาตก · จำว่า CN VII ปิดตา CN III เปิดตา",
   "summary": [
-   "แขนง CN VII: Temporal · Zygomatic · Buccal · Marginal mandibular · Cervical (To Zanzibar By Motor Car)",
-   "Temporal → ยักคิ้วไม่ได้ คิ้วตก · Zygomatic → หลับตาไม่สนิท",
-   "Buccal → แก้มอ่อน อาหารค้างกระพุ้ง · Marginal mandibular → มุมปากตก น้ำลายไหล",
-   "Ptosis หนังตาบน: CN III (levator) หรือ Horner (Müller) — ไม่ใช่ CN VII",
-   "แผลแก้มลึก: ตรวจ Stensen duct (สอดสายผ่านรูเปิดตรงฟันกรามบน) และ facial nerve ก่อนเย็บ",
-   "เส้นประสาทขาดด้านหลังเส้นจาก lateral canthus → ซ่อมภายใน 72 ชม. (ยังกระตุ้นปลายเส้นได้)"
+   "แขนง facial nerve (ออกจาก stylomastoid foramen แตกใน parotid): Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical (To Zanzibar By Motor Car)",
+   "Temporal branch: Pitanguy line (0.5 cm ใต้ tragus → 1.5 cm เหนือหางคิ้ว) · ขาด → frontalis อ่อน คิ้วตก · มีแขนงเชื่อมกับแขนงอื่นน้อยจึงฟื้นเองยาก",
+   "Marginal mandibular: อยู่เหนือขอบ mandible ด้านหลัง facial artery แต่อาจต่ำกว่าขอบได้ · ขาด → ริมฝีปากล่างเบี้ยว น้ำลายไหล · ระวังใน submandibular incision (ลงแผล 2 นิ้วมือใต้ขอบ mandible)",
+   "ซ่อม facial nerve: แผลด้านข้างต่อแนวดิ่งผ่าน lateral canthus → microsurgical repair ภายใน 72 ชม. · ด้านในต่อแนวนี้แขนงแตกมากและเชื่อมกัน มักฟื้นเอง",
+   "Stensen duct: แนวกลางของเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน เปิดตรงฟันกรามบนซี่ที่ 2 · บาดเจ็บ → ซ่อมบนสาย stent · ตรวจโดยใส่สายในรูเปิดฉีดน้ำเกลือดูรั่วที่แผล",
+   "Sialocele/ salivary fistula: เจาะดูดซ้ำ + pressure dressing + anticholinergic · ดื้อ → botulinum toxin เข้าต่อม",
+   "Ptosis หนังตาบน: CN III palsy (ตาตก + ตาเหล่ออกล่าง ± รูม่านตาขยาย), Horner (ptosis เล็กน้อย + miosis + anhidrosis), aponeurotic ptosis ในผู้สูงอายุ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · รูปในไฟล์ผู้จดเขียน \"รูปประมาณนี้\" แต่คำตอบไม่ขึ้นกับรูป",
-  "mnemonic": "<b>'CN VII = หลับตาไม่สนิท ไม่ใช่หนังตาตก (ตาตก = CN III)'</b>",
-  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial soft-tissue injuries; Facial nerve anatomy",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"7 B\") · หนังตาบนตกเกิดจาก CN III หรือ sympathetic ซึ่งไม่ได้อยู่ในแนวแผลที่แก้ม ส่วนช้อยอื่นเกิดจาก facial nerve และ parotid ที่แผลตัดผ่าน · ไฟล์ระบุว่ารูปเป็น \"รูปประมาณนี้\" แต่คำตอบไม่ขึ้นกับรายละเอียดของรูป",
+  "mnemonic": "<b>'CN VII = ปิดตา (หลับไม่สนิท) · CN III = เปิดตา (หนังตาตก)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial Soft Tissue Trauma/ Facial Nerve; Neligan's Plastic Surgery 5th ed. (2023) Vol.3 — Facial Trauma; Gray's Anatomy 42nd ed. (2020) — Face",
   "variants": [
-   "แผลใต้ขอบขากรรไกรล่าง มุมปากข้างนั้นตกเวลายิ้ม → marginal mandibular branch",
-   "แผลแก้มกลาง มีน้ำใสไหลจากแผลตอนกิน → Stensen duct ขาด ซ่อมด้วยสายค้าง",
-   "หนังตาตก รูม่านตาเล็ก เหงื่อไม่ออกครึ่งหน้า → Horner syndrome"
+   "ชาย 20 ปีถูกฟันแก้มลึก น้ำลายไหลออกจากแผล ฉีดน้ำเกลือผ่านรูเปิดในปากตรงฟันกรามบนซี่ที่ 2 เห็นรั่วที่แผล → Stensen duct injury ซ่อมบนสาย stent",
+   "ชายถูกฟันแก้มหน้าหู ยิ้มไม่ขึ้นและหลับตาไม่สนิททันทีหลังบาดเจ็บ แผลอยู่ด้านข้างต่อ lateral canthus → สำรวจและต่อ facial nerve แบบ microsurgery ภายใน 72 ชั่วโมง",
+   "ชายถูกฟันข้างจมูกใกล้มุมตาด้านใน (medial ต่อแนว lateral canthus) แก้มอ่อนเล็กน้อย → ติดตามได้ แขนงปลายเชื่อมกันมากมักฟื้นเอง",
+   "ทำไมต้องต่อเส้นประสาทภายใน 72 ชั่วโมง → หลังจากนั้นปลายส่วน distal เสื่อม (Wallerian degeneration) กระตุ้นด้วย nerve stimulator ไม่ได้ หาแขนงยาก"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 9 แถว Plastic 7 — ตัวพิมพ์: <b>คนไข้โดนฟันหน้ามาแนวยาวตรงแก้มตั้งแต่แถว ๆ ขมับจนมาถึงใกล้ ๆ คาง ถามว่าอะไรไม่น่าใช่อาการที่เจอในคนไข้รายนี้ รูปประมาณนี้ — 1. Sialocele 2. Ptosis 3. Lagophthalmos 4. Drooling 5. Ptosis of eyebrow</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 9 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 8": {
-  "interp": "ผู้ป่วยถูกตีที่ขากรรไกร ภาพ panoramic ตามรูป → ถามวินิจฉัยตำแหน่งกระดูกขากรรไกรล่างหัก",
-  "why": "ภาพ panoramic อ่านโดย<b>ด้านขวาของภาพคือด้านซ้ายของผู้ป่วย</b> (มีเครื่องหมาย L มุมขวาล่าง) · ในภาพเห็น<b>เส้นทึบดำเฉียงตัดผ่าน body ของ mandible ด้านซ้ายของผู้ป่วย</b> ช่วงฟันกรามน้อย-กรามแรก ต่ำกว่า angle และอยู่หน้าต่อ ramus ไม่เกี่ยวกับ condyle หรือ symphysis → <b>left mandibular body fracture</b> · ตำแหน่งหักที่พบบ่อยของ mandible: condyle (~30%) > angle (~25%) > body/ symphysis · มักหัก 2 ตำแหน่งพร้อมกัน (เช่น body ข้างหนึ่งกับ condyle/ angle อีกข้าง) จึงต้องดูทั้งภาพ · อาการ: ฟันสบผิด (malocclusion) ชาริมฝีปากล่าง (inferior alveolar nerve) · รักษา: ORIF ด้วย plate หรือ maxillomandibular fixation · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"8 (ขึ้นกับรูป ต้องใส่เอง)\"</b> = ไม่มีคำตอบ ผู้จดให้อ่านจากรูป",
+  "interp": "ผู้ป่วยถูกกระแทกที่ขากรรไกร มีภาพ <b>panoramic radiograph</b> — ถามการวินิจฉัยตำแหน่งกระดูกขากรรไกรล่างหัก ต้องอ่านภาพ panoramic ให้ถูกด้าน (มีตัว L กำกับ) และรู้การแบ่งส่วนของ mandible (symphysis, parasymphysis, body, angle, ramus, condyle)",
+  "why": "ภาพ panoramic ในไฟล์มีเครื่องหมาย <b>\"L\" ที่มุมขวาล่าง</b> บอกว่าด้านขวาของภาพคือ<b>ด้านซ้ายของผู้ป่วย</b> · เห็น<b>เส้นหักโปร่งแสงแนวเฉียง</b>ผ่าน<b>ลำตัวของ mandible (body)</b> ด้านนั้น บริเวณใต้ฟันกรามน้อย/กรามซี่หน้า ระหว่าง parasymphysis กับ angle ไม่ใช่ที่ condyle หรือ symphysis · การแบ่งส่วน: <b>symphysis/parasymphysis</b> = ระหว่างฟันเขี้ยวสองข้าง · <b>body</b> = จากฟันเขี้ยวถึงขอบหน้าของ masseter (ราวฟันกรามซี่ที่ 2–3) · <b>angle</b> = บริเวณสามเหลี่ยมหลังฟันกรามซี่ที่ 3 ถึงมุมขากรรไกร · ramus · condyle/ coronoid · mandible เป็นวงแหวนจึงมักหัก 2 ตำแหน่ง (เช่น parasymphysis ข้างหนึ่งร่วมกับ angle หรือ condyle อีกข้าง) ต้องมองหาเสมอ · อาการ: สบฟันผิด (malocclusion), ขั้นบันไดที่แนวฟัน, <b>sublingual hematoma</b>, ชาริมฝีปากล่างและคาง (inferior alveolar nerve ใน body/angle) · ปัจจุบัน CT เป็นมาตรฐาน panoramic ใช้ร่วมได้ · ไฟล์เฉลยอย่างย่อหน้า 36 ไม่มีคำตอบ เขียนว่า <b>\"8 (ขึ้นกับรูป ต้องใส่เอง)\"</b> คำตอบจึงอ่านจากรูปในไฟล์",
   "wrong": {
-   "B": "Condyle หักเห็นรอยที่คอ condyle ด้านบนของ ramus ใกล้ข้อต่อขากรรไกร ในภาพไม่มีเส้นหักบริเวณนั้น · จะถูกถ้าภาพเห็นเส้นหักที่คอ condyle ข้างซ้าย ผู้ป่วยคางเบี้ยวไปซ้ายเวลาอ้าปาก",
-   "C": "ด้านขวาของผู้ป่วยอยู่ด้านซ้ายของภาพ ซึ่งไม่มีเส้นหัก (มีแค่ฟันที่ครอบ) · จะถูกถ้าเส้นหักอยู่ทางด้านซ้ายของภาพ panoramic",
-   "D": "Angle อยู่ตรงมุมระหว่าง body กับ ramus หลังฟันกรามซี่สุดท้าย เส้นหักในภาพอยู่หน้ากว่านั้นที่ body · จะถูกถ้าเส้นหักผ่านตำแหน่งฟันคุด (ฟันกรามซี่ที่ 3) ที่มุมขากรรไกร",
-   "E": "Symphysis อยู่กลางคางระหว่างฟันหน้าล่าง ในภาพบริเวณกลางไม่มีเส้นหัก · จะถูกถ้าเส้นหักแนวตั้งผ่านระหว่างฟันตัดล่างซี่กลาง"
+   "B": "Condylar fracture พบบ่อยมาก (มักจากแรงกระแทกที่คางส่งไปตามกระดูก) เส้นหักอยู่ที่คอหรือหัวของ condyle ใต้ TMJ ด้านหลังสุดของภาพ ผู้ป่วยมีปวดหน้าหู อ้าปากเบี้ยวไปข้างที่หัก และสบฟันกรามข้างนั้นก่อน (open bite ด้านตรงข้าม) · จะถูกถ้าเป็นชาย 25 ปีล้มคางกระแทกพื้น มีแผลที่คาง ปวดหน้าหูซ้าย อ้าปากแล้วคางเบี้ยวไปซ้าย และภาพเห็นเส้นหักที่คอ condyle ซ้าย",
+   "C": "Right body fracture คือเส้นหักแบบเดียวกันแต่อยู่<b>อีกด้าน</b> — ในภาพนี้เส้นหักอยู่ด้านที่มีตัว L (ซ้ายของผู้ป่วย) ด้านขวาของผู้ป่วยเห็นฟันกรามที่มีครอบฟันโลหะแต่กระดูกต่อเนื่องดี · จะถูกถ้าเป็นชาย 30 ปีถูกชกที่แก้มขวา สบฟันผิด ริมฝีปากล่างขวาชา และ panoramic เห็นเส้นหักที่ body ด้านตรงข้ามกับตัว L",
+   "D": "Angle fracture อยู่หลังฟันกรามซี่สุดท้าย บริเวณมุมขากรรไกร มักผ่านเบ้าฟันกรามซี่ที่ 3 (โดยเฉพาะฟันคุดเพิ่มความเสี่ยง) และเป็นตำแหน่งที่ติดเชื้อหลังผ่าตัดบ่อย ในภาพนี้เส้นหักอยู่หน้าต่อมุมขากรรไกรชัดเจน · จะถูกถ้าเป็นชาย 22 ปีมีฟันคุดล่างซ้าย ถูกชกที่ขากรรไกรซ้าย และภาพเห็นเส้นหักผ่านเบ้าฟันคุดถึงมุมขากรรไกร",
+   "E": "Symphysis fracture อยู่แนวกลางระหว่างฟันตัดล่างคู่กลาง (parasymphysis คือระหว่างฟันตัดกับฟันเขี้ยว) มักเกิดจากแรงกระแทกตรงคางและพบร่วมกับ condyle fracture ทั้งสองข้าง (guardsman fracture) · จะถูกถ้าเป็นชาย 50 ปีล้มคางกระแทกพื้น ฟันหน้าล่างเหลื่อมกัน มีเลือดคั่งใต้ลิ้น และภาพเห็นเส้นหักแนวดิ่งกลางคาง"
   },
-  "trap": "อ่านซ้าย-ขวาของ panoramic ผิด — ด้านขวาของภาพคือด้านซ้ายของผู้ป่วย (เหมือน CXR)",
+  "trap": "อ่านภาพ panoramic สลับด้านเป็นกับดักหลัก (เลือก C) — ต้อง<b>หาตัวกำกับ L/R</b> ทุกครั้ง เพราะภาพ panoramic แสดงแบบหันหน้าเข้าหาผู้ป่วย ด้านซ้ายของผู้ป่วยอยู่ขวาของภาพ · อีกกับดักคือแยก body กับ angle ไม่ได้: body อยู่ในช่วงที่มีฟัน ส่วน angle อยู่หลังฟันกรามซี่สุดท้าย",
   "summary": [
-   "Panoramic: ด้านขวาของภาพ = ซ้ายของผู้ป่วย",
-   "ตำแหน่งหักบ่อย: condyle > angle > body > symphysis",
-   "มักหักสองตำแหน่ง (ring structure) → หาแห่งที่สองทุกครั้ง",
-   "อาการ: malocclusion · ชาริมฝีปากล่าง/ คาง · อ้าปากผิดรูป",
-   "Imaging: panoramic + CT facial bones",
-   "รักษา: ORIF (plate) · MMF · condyle บางรายรักษาแบบ closed"
+   "ส่วนของ mandible: symphysis, parasymphysis, body, angle, ramus, coronoid, condyle · condyle และ angle พบหักบ่อย รองลงมาคือ body และ parasymphysis",
+   "Mandible เป็นวงแหวน → หัก 2 ตำแหน่งบ่อย (parasymphysis + angle/condyle อีกข้าง) · ล้มคางกระแทก → symphysis + condyle ทั้งสองข้าง (guardsman)",
+   "อาการ: malocclusion (ไวที่สุด), step-off, sublingual hematoma, ฟันโยก, trismus, ชาริมฝีปากล่าง (inferior alveolar nerve)",
+   "ภาพ: CT maxillofacial เป็นมาตรฐาน · panoramic ดูแนวฟันและกระดูกทั้งชิ้นในภาพเดียว แต่ condyle และ symphysis อาจเห็นไม่ชัด",
+   "Favorable vs unfavorable: ขึ้นกับแนวเส้นหักเทียบกับแรงดึงของ masseter/ temporalis/ medial pterygoid ที่ดึงชิ้น proximal ขึ้นบนและเข้าใน",
+   "รักษา: กระดูกหักผ่านเบ้าฟัน = open fracture ให้ antibiotic · closed reduction + MMF 4–6 สัปดาห์ หรือ ORIF ด้วย miniplate ตาม Champy lines",
+   "Condyle ในเด็ก: รักษาแบบ closed และขยับขากรรไกรเร็ว (เสี่ยง TMJ ankylosis และกระดูกโตผิดปกติถ้าตรึงนาน)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — ไฟล์ไม่มีคำตอบ (\"ขึ้นกับรูป ต้องใส่เอง\") จากภาพเห็นเส้นหักเฉียงที่ body ด้านขวาของภาพ = ซ้ายของผู้ป่วย · ผู้จดเขียนในหน้า 2 ว่ารูปบางส่วนเป็นแค่ภาพใกล้เคียง จึงอาจไม่ตรงข้อสอบจริง",
-  "mnemonic": "<b>'Panoramic อ่านเหมือน CXR: ขวาภาพ = ซ้ายคนไข้'</b>",
-  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Mandible fractures; AO Surgery Reference: CMF — Mandible",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ไฟล์ไม่มีคีย์ (เฉลยอย่างย่อเขียน \"8 (ขึ้นกับรูป ต้องใส่เอง)\") จึงอ่านจากภาพในไฟล์: มีตัว L ที่มุมขวาล่าง และเส้นหักเฉียงที่ body ด้านเดียวกัน = left mandibular body fracture · ข้อจำกัดคือหน้า 2 ของไฟล์แจ้งว่าภาพบางส่วนเป็นภาพใกล้เคียง จึงอาจไม่ตรงกับภาพข้อสอบจริงทุกรายละเอียด",
+  "mnemonic": "<b>'Panoramic มองหา L ก่อน · มีฟัน = Body · หลังฟันซี่สุดท้าย = Angle'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Mandible Fractures; AO Surgery Reference — CMF Mandible; ATLS 10th ed. (2018) — Maxillofacial Trauma",
   "variants": [
-   "Panoramic เห็นเส้นหักที่คอ condyle ข้างซ้าย และ body ข้างขวา → bilateral mandible fracture",
-   "เส้นหักผ่านฟันคุดที่มุมขากรรไกร → angle fracture",
-   "หลังหัก body ชาริมฝีปากล่าง → inferior alveolar nerve บาดเจ็บ"
+   "ชาย 28 ปีถูกชกที่คางซ้าย panoramic พบ parasymphysis ซ้ายหัก → ต้องมองหาเส้นหักที่ angle หรือ condyle ขวาเพิ่ม (กระดูกวงแหวนหัก 2 ตำแหน่ง)",
+   "กระดูก body หักผ่านเบ้าฟันกราม มีแผลที่เหงือก → open fracture ให้ antibiotic และนัด ORIF/ MMF",
+   "เด็ก 6 ขวบล้มคางกระแทก ปวดหน้าหูทั้งสองข้าง สบฟันหน้าไม่ชน (anterior open bite) → bilateral condylar fracture รักษาแบบ closed และขยับขากรรไกรเร็ว",
+   "ทำไม sublingual hematoma สำคัญ → เป็นอาการบ่งชี้ mandible fracture ที่ฉีกเยื่อบุด้านลิ้น และถ้าใหญ่อาจดันลิ้นอุดทางเดินหายใจ"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 10 แถว Plastic 8 — ตัวพิมพ์: <b>(มีรูป panoramic X-ray) Diagnosis — A. Left mandibular body fracture B. Left mandibular condyle fracture C. Right mandibular body fracture D. Left mandibular angle fracture E. Mandibular symphysis fracture</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 10 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 9": {
-  "interp": "Melanoma ที่เท้า <b>Breslow 3.2 mm</b> คลำต่อมน้ำเหลืองไม่ได้ → ถามขอบเขตการตัด (surgical margin)",
-  "why": "ขอบเขต wide local excision ของ melanoma กำหนดตาม <b>Breslow thickness</b>: in situ 0.5–1 cm · ≤ 1 mm <b>1 cm</b> · 1.01–2 mm <b>1–2 cm</b> · <b>> 2 mm → 2 cm</b> · Breslow 3.2 mm (T3) จึงใช้ขอบ 2 cm ซึ่งอยู่ในช้อย \"1–2 cm\" · ขอบที่กว้างกว่า 2 cm (เช่น 5 cm สมัยก่อน) ไม่เพิ่มการรอดชีวิต · ตัดลึกถึงชั้น fascia · เพราะหนา > 0.8 mm ต้องทำ <b>sentinel lymph node biopsy</b> ร่วมด้วยเพื่อ staging · ในไทย acral lentiginous melanoma (ฝ่าเท้า ฝ่ามือ ใต้เล็บ) พบบ่อย · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 9 A\"</b> = Wide excision margin 1–2 cm ตรงกับคำตอบ",
+  "interp": "Malignant melanoma ที่เท้า <b>Breslow thickness 3.2 mm</b> ไม่มีต่อมน้ำเหลืองโตทางคลินิก — ถาม surgical excision margin ที่เหมาะสม ซึ่งกำหนดตามความหนาของ Breslow (3.2 mm = T3 → margin 2 cm)",
+  "why": "หลังวินิจฉัยด้วย <b>excisional biopsy</b> (ขอบ 1–3 mm) ความหนา <b>Breslow</b> (วัดจาก granular layer ถึงจุดลึกสุดของเนื้องอก) เป็นปัจจัยพยากรณ์สำคัญที่สุดของ primary melanoma และใช้กำหนด <b>wide local excision margin</b> (NCCN/ AJCC 8th): in situ 0.5–1 cm · ≤ 1.0 mm → 1 cm · 1.01–2.0 mm → 1–2 cm · <b>&gt; 2.0 mm → 2 cm</b> · ตัดลึกถึง fascia ด้านล่างแต่ไม่ต้องเอา fascia ออก · ขอบที่กว้างกว่า 2 cm ไม่เพิ่มการรอดชีวิต · melanoma 3.2 mm ไม่มีต่อมน้ำเหลืองคลำได้ = <b>T3 (2.01–4.0 mm)</b> จึงต้องทำ <b>sentinel lymph node biopsy</b> ร่วมกับ wide excision 2 cm (SLNB แนะนำใน &gt; 1 mm และพิจารณาใน T1b) · ถ้า SLN บวกปัจจุบันไม่ทำ completion lymph node dissection ทุกราย (MSLT-II, DeCOG-SLT) แต่ติดตามด้วย nodal ultrasound และให้ adjuvant immunotherapy/ targeted therapy ตาม stage · melanoma ที่ฝ่าเท้าในคนเอเชียมักเป็น <b>acral lentiginous melanoma</b> ซึ่งพบบ่อยที่สุดในคนผิวสีเข้มและไม่สัมพันธ์กับแสงแดด · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"9 A\"</b> (ตัวพิมพ์ช้อย \"Wide excision margin 1–2 cm\")",
   "wrong": {
-   "B": "ขอบ 5 cm เป็นแนวทางเก่า การศึกษาแบบสุ่มพบว่าขอบกว้างเกิน 2 cm ไม่เพิ่มการรอดชีวิต แต่ทำให้แผลใหญ่ต้องปลูกผิว · จะถูกถ้าถามแนวทางในยุคก่อน 1980",
-   "C": "ขอบ 0.5 cm ใช้กับ melanoma in situ เท่านั้น ไม่พอสำหรับ invasive 3.2 mm · จะถูกถ้าพยาธิเป็น melanoma in situ (Tis) ที่ไม่ใช่ lentigo maligna กว้าง",
-   "D": "Mohs ใช้กับ BCC/ SCC และอาจใช้กับ melanoma in situ บนหน้า (lentigo maligna) ไม่ใช่ invasive melanoma หนา · จะถูกถ้าเป็น BCC ที่ปีกจมูก",
-   "E": "Melanoma หนา 3.2 mm ต้องตัดขอบกว้างและทำ SLNB หลัง excisional biopsy การดูอาการทำให้กลับเป็นซ้ำเฉพาะที่และพลาดการ staging · จะถูกถ้าพยาธิเป็นไฝธรรมดา (benign nevus) ตัดหมดแล้ว"
+   "B": "Margin 5 cm เป็นแนวคิดเก่า (Handley ต้นศตวรรษที่ 20) การศึกษาแบบสุ่มหลายชิ้นพิสูจน์ว่าขอบที่กว้างเกิน 2 cm ไม่เพิ่มการรอดชีวิต แต่เพิ่มความพิการและต้องใช้ graft/ flap ปิดแผล · จะถูกถ้าเป็นผู้ป่วยที่ต้องการ margin กว้างในมะเร็งชนิดอื่น เช่น ชาย 50 ปีมี dermatofibrosarcoma protuberans ที่ลำตัว ซึ่งรากของเนื้องอกแผ่ไกล (ตัดขอบ 2–4 cm หรือ Mohs)",
+   "C": "Margin 0.5 cm ใช้กับ <b>melanoma in situ</b> (0.5–1 cm) หรือ basal cell carcinoma เล็ก ไม่พอสำหรับ invasive melanoma หนา 3.2 mm ซึ่งเสี่ยง local recurrence สูง · จะถูกถ้าเป็นหญิง 60 ปีที่ผลชิ้นเนื้อเป็น melanoma in situ ที่ต้นแขน (ไม่ใช่ lentigo maligna บนใบหน้า)",
+   "D": "Mohs micrographic surgery หรือ staged excision ใช้กับ <b>melanoma in situ ชนิด lentigo maligna บนใบหน้า</b> หรือบริเวณที่ต้องเก็บเนื้อเยื่อ ซึ่งขอบเนื้องอกไม่ชัด ไม่ใช่มาตรฐานของ invasive melanoma หนาที่เท้า · จะถูกถ้าเป็นหญิง 75 ปีมีปื้นดำแบนขอบไม่ชัดที่แก้มขนาด 3 cm ผลชิ้นเนื้อเป็น lentigo maligna (in situ)",
+   "E": "การสังเกตหลัง excisional biopsy ไม่พอ เพราะ biopsy มีขอบแคบเพียง 1–3 mm ตั้งใจเพื่อวินิจฉัยและวัด Breslow เท่านั้น ยังต้อง wide excision และประเมิน SLNB · จะถูกถ้าเป็นหญิง 30 ปีที่ excisional biopsy ไฝที่หลังผลเป็น dysplastic nevus ชนิด mild atypia ขอบตัดหมด"
   },
-  "trap": "ใช้ตัวเลขเก่า 5 cm หรือใช้ขอบของ in situ — Breslow > 2 mm = 2 cm",
+  "trap": "ช้อย B (5 cm) ดูปลอดภัยเพราะ melanoma เป็นมะเร็งที่ดุ · ช้อย C (0.5 cm) ชวนสับสนกับ in situ · หลักคือ<b>ขอบตาม Breslow</b> และไม่เกิน 2 cm · คำตอบ \"1–2 cm\" ครอบค่า 2 cm ที่ใช้กับความหนา &gt; 2 mm · อย่าลืมว่า Breslow &gt; 1 mm ต้องคิดถึง SLNB ด้วย",
   "summary": [
-   "Margin: in situ 0.5–1 cm · ≤ 1 mm 1 cm · 1–2 mm 1–2 cm · > 2 mm 2 cm",
-   "SLNB: Breslow > 0.8 mm หรือ ≤ 0.8 mm ที่มี ulceration",
-   "Breslow thickness = ปัจจัยพยากรณ์สำคัญที่สุด (T stage)",
-   "Acral lentiginous: ฝ่ามือฝ่าเท้า ใต้เล็บ · พบมากในคนเอเชีย",
-   "ABCDE: Asymmetry · Border · Color · Diameter > 6 mm · Evolving",
-   "Excisional biopsy ขอบ 1–3 mm ก่อนเสมอ (ไม่ shave)"
+   "Breslow (มม.) เป็นปัจจัยพยากรณ์หลักของ primary melanoma · AJCC 8th T: T1 ≤ 1.0 (T1a &lt; 0.8 ไม่มี ulceration · T1b 0.8–1.0 หรือ &lt; 0.8 มี ulceration) · T2 1.01–2.0 · T3 2.01–4.0 · T4 &gt; 4.0",
+   "Margin: in situ 0.5–1 cm · ≤ 1 mm 1 cm · 1.01–2 mm 1–2 cm · &gt; 2 mm 2 cm · ลึกถึง fascia",
+   "วินิจฉัยด้วย excisional biopsy ขอบ 1–3 mm ตามแนวที่ไม่รบกวน SLNB/ wide excision · ก้อนใหญ่หรือบริเวณพิเศษใช้ incisional/ punch ที่ส่วนหนาสุด",
+   "SLNB: แนะนำเมื่อ &gt; 1 mm (T2 ขึ้นไป) พิจารณาใน T1b · SLN บวก → nodal US surveillance หรือ completion dissection ในบางราย + adjuvant therapy",
+   "Adjuvant: stage IIB–IIC และ III พิจารณา anti-PD-1 (pembrolizumab/ nivolumab) · BRAF V600 mutation ใน stage III ใช้ dabrafenib + trametinib ได้",
+   "Acral lentiginous melanoma: ฝ่ามือ ฝ่าเท้า ใต้เล็บ (Hutchinson sign = สีดำลามถึงผิวรอบเล็บ) พบบ่อยที่สุดในคนเอเชียและผิวสีเข้ม",
+   "ABCDE ของไฝที่ต้องสงสัย: Asymmetry, Border irregular, Color variegated, Diameter &gt; 6 mm, Evolving"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ NCCN Melanoma (Breslow > 2 mm → margin 2 cm)",
-  "mnemonic": "<b>'Melanoma margin: หนาเท่าไร (mm) ≈ ตัดกว้างเท่านั้น (cm) สูงสุด 2 cm'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Melanoma: Cutaneous v.2024; AJCC Cancer Staging Manual 8th ed. (2017) — Melanoma",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"9 A\") และ NCCN Melanoma Guidelines ที่ให้ margin 2 cm สำหรับ Breslow &gt; 2 mm ซึ่งอยู่ในช่วง 1–2 cm ของช้อย A · ควรทำ sentinel lymph node biopsy พร้อมกันเพราะความหนา 3.2 mm และต่อมน้ำเหลืองยังคลำไม่ได้",
+  "mnemonic": "<b>'Breslow ≤ 1 → 1 cm · 1–2 → 1–2 cm · &gt; 2 → 2 cm (ไม่เกิน 2 เสมอ)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Melanoma: Cutaneous v.2025; AJCC Cancer Staging Manual 8th ed. (2017) — Melanoma of the Skin; Faries MB et al. MSLT-II. N Engl J Med 2017",
   "variants": [
-   "Melanoma in situ ที่แขน → excision margin 0.5–1 cm",
-   "Melanoma Breslow 0.6 mm ไม่มี ulceration → margin 1 cm ไม่ต้อง SLNB",
-   "Melanoma ใต้เล็บนิ้วโป้งเท้า Breslow 2.5 mm → amputation ระดับ distal phalanx/ IP + SLNB"
+   "Melanoma หนา 0.6 mm ไม่มี ulceration ที่หลัง → wide excision margin 1 cm ไม่ต้องทำ SLNB (T1a)",
+   "Melanoma หนา 1.5 mm ที่ขา → wide excision 1–2 cm + sentinel lymph node biopsy",
+   "Melanoma ที่ฝ่าเท้าหนา 3.2 mm SLN บวก 1 ต่อม ไม่มีการแพร่กระจาย → nodal ultrasound surveillance + adjuvant anti-PD-1 (แทน completion dissection ทุกราย)",
+   "หญิงไทย 55 ปีมีแถบดำที่เล็บโป้งเท้ากว้างขึ้นและสีลามถึงผิวรอบเล็บ → Hutchinson sign สงสัย subungual melanoma ทำ nail matrix biopsy"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 12 แถว Plastic 9 — ตัวพิมพ์: <b>malignant melanoma ที่เท้าลึก 3.2 mm. Treatment — A. Wide excision margin 1–2 cm B. Wide excision margin 5 cm C. Wide excision margin 0.5 cm D. Mohs micrographic surgery E. Observation หลัง excisional biopsy</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 12 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 10": {
-  "interp": "ชาย 40 ปีมีเพศสัมพันธ์กับชาย มีตุ่มนูนผิวขรุขระคล้ายดอกกะหล่ำหลายตุ่มรอบทวารหนัก (ตามรูป) → ถามการรักษา",
-  "why": "ตุ่มนูนสีเนื้อ/ ชมพู<b>ผิวขรุขระคล้ายดอกกะหล่ำ</b> หลายตุ่มบริเวณรอบทวาร = <b>condyloma acuminata (anogenital warts)</b> จาก <b>HPV type 6 และ 11</b> · รอยโรคขนาดเล็ก-ปานกลางจำนวนไม่มากรักษาด้วย<b>ยาทาที่ผู้ป่วยทาเองได้</b>: <b>imiquimod 5% cream</b> (กระตุ้นภูมิคุ้มกันเฉพาะที่) ทาวันเว้นวัน 3 ครั้ง/ สัปดาห์ ได้ถึง 16 สัปดาห์ หรือ podophyllotoxin/ sinecatechins · ทางเลือกโดยแพทย์: cryotherapy, TCA, จี้ไฟฟ้า, ผ่าตัดตัดออก (สำหรับรอยโรคใหญ่/ ในทวาร) · MSM ควรตรวจ HIV, syphilis และส่องตรวจในทวาร (ตรวจหา anal intraepithelial neoplasia จาก HPV ชนิดเสี่ยงสูง) · วัคซีน HPV ป้องกันได้ · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 10 B\"</b> = Imiquimod 5% cream ตรงกับคำตอบ",
+  "interp": "ชาย 40 ปีมีเพศสัมพันธ์กับชาย (MSM) มีรอยโรคตามรูป — ตุ่มนูนสีชมพูขาวผิวขรุขระคล้ายดอกกะหล่ำหลายตุ่มรอบทวารหนัก = <b>condyloma acuminata (anogenital warts)</b> จาก HPV ถามการรักษา ซึ่งรอยโรคภายนอกขนาดไม่ใหญ่ใช้ยาทาเองได้ เช่น <b>imiquimod 5%</b>",
+  "why": "ภาพในไฟล์เป็นตุ่มเนื้อนูนหลายตุ่ม ผิวหยักเป็นติ่ง (verrucous, cauliflower-like) สีชมพูขาวรอบทวารหนัก = <b>หูดหงอนไก่ (condyloma acuminata)</b> เกิดจาก <b>HPV type 6 และ 11 (ราว 90%)</b> ซึ่งเป็น low-risk type · การรักษามุ่ง<b>กำจัดรอยโรคที่เห็นได้</b> เพราะยังไม่มียาที่กำจัดไวรัส HPV ออกจากร่างกาย และหูดอาจหายเอง คงที่ หรือโตขึ้น · CDC 2021 แบ่ง: (1) <b>ผู้ป่วยทาเอง</b> — <b>imiquimod 5% cream</b> (immune response modifier กระตุ้น TLR7 ให้สร้าง interferon และ cytokine) ทาก่อนนอนสัปดาห์ละ 3 ครั้ง ล้างออกหลัง 6–10 ชั่วโมง นานถึง 16 สัปดาห์ หรือ 3.75% ทุกคืน · podofilox 0.5% · sinecatechins 15% (2) <b>แพทย์ทำ</b> — cryotherapy, trichloroacetic/bichloroacetic acid 80–90%, surgical removal (ตัดชิดฐาน ขูด จี้ไฟฟ้า หรือ laser) · <b>หูดในทวารหนัก</b>ไม่ใช้ imiquimod/ podofilox ใช้ cryotherapy, TCA หรือผ่าตัด · MSM ที่มีหูดรอบทวารควรตรวจ anoscopy หา intra-anal warts ตรวจ HIV และ STI อื่น และแนะนำวัคซีน HPV ป้องกัน · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"10 B\"</b> (ตัวพิมพ์ช้อย \"Imiquimod 5% cream\")",
   "wrong": {
-   "A": "Wide excision (ตัดขอบกว้าง) ใช้กับมะเร็ง ไม่ใช่หูด ทำให้แผลใหญ่และทวารตีบ — การตัดหูดทำแบบ tangential excision เฉพาะรอยโรค · จะถูกถ้าชิ้นเนื้อเป็น squamous cell carcinoma ของผิวรอบทวาร",
-   "C": "ไม่มียาต้าน HPV ทางกระแสเลือดที่ใช้รักษาหูดได้ · จะถูกถ้าไม่มีสถานการณ์ใดที่ใช้ยาต้าน HPV ชนิดกินรักษาหูดหงอนไก่",
-   "D": "Acyclovir รักษา herpes simplex ซึ่งเป็นตุ่มน้ำใสเจ็บแล้วแตกเป็นแผลตื้น ไม่ใช่ตุ่มขรุขระ · จะถูกถ้าชายมีตุ่มน้ำเจ็บเป็นกลุ่มรอบทวารแล้วแตกเป็นแผล",
-   "E": "Benzathine penicillin รักษา syphilis ซึ่งระยะที่สองมี condyloma <b>lata</b> (ผิวเรียบ แบน ชื้น) ไม่ใช่ condyloma acuminata (ขรุขระ) · จะถูกถ้าตุ่มรอบทวารแบนเรียบชื้น มีผื่นฝ่ามือฝ่าเท้า VDRL บวก"
+   "A": "Wide excision (ตัดกว้างเผื่อขอบ) ไม่จำเป็นสำหรับหูดซึ่งเป็นรอยโรคที่ผิวตื้น การตัดกว้างทำให้แผลใหญ่ ปวด และทวารหนักตีบ การผ่าตัดหูดใช้การตัดชิดฐานหรือจี้เฉพาะรอยโรค · จะถูกถ้าเป็นชาย 55 ปีมีก้อนหูดยักษ์ขนาด 8 cm ลุกลามกินเนื้อเยื่อรอบทวารหนัก (Buschke-Löwenstein tumor/ verrucous carcinoma) ต้อง wide local excision",
+   "C": "ยังไม่มี<b>ยาต้านไวรัส HPV แบบ systemic</b> ที่กำจัดเชื้อได้ การป้องกันใช้วัคซีน HPV 9-valent (ครอบคลุม type 6, 11, 16, 18 และอื่น) ส่วนการรักษาหูดเป็นการกำจัดรอยโรคเฉพาะที่ · จะถูกถ้าเป็นชาย MSM อายุ 22 ปีที่ยังไม่มีหูดมาปรึกษาการป้องกัน HPV → ฉีดวัคซีน HPV (แนะนำถึงอายุ 26 ปี)",
+   "D": "Acyclovir ใช้รักษา <b>genital herpes (HSV)</b> ซึ่งมาด้วยตุ่มน้ำใสเป็นกลุ่มบนฐานแดงแล้วแตกเป็นแผลตื้นเจ็บมาก อาจมีไข้และต่อมน้ำเหลืองขาหนีบโตเจ็บ ไม่ใช่ตุ่มเนื้อนูนไม่เจ็บแบบหูด · จะถูกถ้าเป็นชาย 25 ปีมีตุ่มน้ำใสเป็นกลุ่มเจ็บแสบที่องคชาต 3 วันหลังมีเพศสัมพันธ์ใหม่ Tzanck smear เห็น multinucleated giant cells (acyclovir 7–10 วันในครั้งแรก)",
+   "E": "Benzathine penicillin G 2.4 ล้านยูนิต IM ใช้รักษา syphilis ระยะ primary/ secondary/ early latent · รอยโรครอบทวารที่ต้องแยกคือ <b>condylomata lata</b> ของ secondary syphilis ซึ่งเป็นปื้นนูน<b>แบน ผิวเรียบ ชื้น</b> สีเทาขาว ไม่ใช่ติ่งหยักแบบดอกกะหล่ำ · จะถูกถ้าเป็นชาย MSM 30 ปีมีปื้นนูนแบนผิวเรียบชื้นรอบทวาร ร่วมกับผื่นที่ฝ่ามือฝ่าเท้า และ RPR/ TPHA บวก"
   },
-  "trap": "สับสน condyloma acuminata (HPV — ขรุขระดอกกะหล่ำ) กับ condyloma lata (syphilis — แบนเรียบชื้น)",
+  "trap": "MSM + รอยโรคที่ทวารหนัก ชวนให้นึกถึง syphilis (condylomata lata) หรือ herpes · จุดแยกคือ<b>ลักษณะรอยโรค</b>: ติ่งหยักแบบดอกกะหล่ำไม่เจ็บ = หูดหงอนไก่ (HPV) · ปื้นแบนเรียบชื้น = condylomata lata · ตุ่มน้ำเจ็บ = herpes · และ HPV ไม่มียาฆ่าไวรัส systemic การรักษาคือกำจัดรอยโรค",
   "summary": [
-   "Condyloma acuminata: HPV 6/11 · ขรุขระคล้ายดอกกะหล่ำ",
-   "ผู้ป่วยทาเอง: imiquimod 5% · podophyllotoxin · sinecatechins",
-   "แพทย์ทำ: cryotherapy · TCA · จี้ไฟฟ้า/ laser · ผ่าตัดตัด (ใหญ่/ ในทวาร)",
-   "Condyloma lata = syphilis ระยะที่สอง → benzathine penicillin",
-   "HPV 16/18 → anal/ cervical cancer · Buschke-Löwenstein = giant condyloma",
-   "ตรวจ STI อื่น (HIV, syphilis) · วัคซีน HPV"
+   "Condyloma acuminata: HPV 6/11 (ราว 90%) · ตุ่มนูนหยักแบบดอกกะหล่ำ ไม่เจ็บ · วินิจฉัยจากลักษณะทางคลินิก biopsy เมื่อไม่แน่ใจ ไม่ตอบสนองการรักษา หรือสงสัยมะเร็ง",
+   "รักษาโดยผู้ป่วยทาเอง: imiquimod 5% (3 ครั้ง/สัปดาห์ ถึง 16 สัปดาห์) หรือ 3.75% (ทุกคืน ถึง 8 สัปดาห์) · podofilox 0.5% · sinecatechins 15% · ห้าม podofilox ในหญิงตั้งครรภ์",
+   "รักษาโดยแพทย์: cryotherapy (liquid nitrogen), TCA/ BCA 80–90% (ใช้ในครรภ์ได้), surgical removal (tangential excision, curettage, electrosurgery, laser)",
+   "หูดในทวารหนัก/ท่อปัสสาวะ/ช่องคลอด: cryotherapy, TCA หรือผ่าตัด · ไม่ใช้ imiquimod หรือ podofilox",
+   "MSM มีหูดรอบทวาร → anoscopy, ตรวจ HIV/ syphilis/ gonorrhea/ chlamydia · HIV เพิ่มความเสี่ยง anal intraepithelial neoplasia และมะเร็งทวารหนัก (HPV 16/18)",
+   "วัคซีน HPV 9-valent: แนะนำอายุ 9–26 ปี (เริ่ม 11–12 ปี) · 27–45 ปีตัดสินใจร่วมกัน · ป้องกันหูดและมะเร็ง",
+   "Giant condyloma (Buschke-Löwenstein): ก้อนหูดใหญ่ลุกลามเฉพาะที่ เปลี่ยนเป็น verrucous carcinoma ได้ → wide local excision"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ CDC STI Guidelines 2021 · รูปในไฟล์แสดงหูดหงอนไก่ชัดเจน",
-  "mnemonic": "<b>'ดอกกะหล่ำ = HPV → Imiquimod · แบนเรียบชื้น = Syphilis → Penicillin'</b>",
-  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines 2021 — Anogenital warts (MMWR Recomm Rep 2021;70(4)); ASCRS Clinical Practice Guidelines for Anal Squamous Cell Cancers and Precursors (Dis Colon Rectum 2018)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"10 B\") และ CDC STI Treatment Guidelines 2021 ที่ให้ imiquimod เป็นยาทาเองสำหรับหูดภายนอก · ภาพในไฟล์เป็นหูดหงอนไก่รอบทวารชัดเจน (ต้นฉบับมี 3 ช้อย เว็บเติม D–E) · ในทางปฏิบัติควรตรวจ anoscopy ก่อนเพราะหูดในทวารหนักต้องใช้วิธีอื่น",
+  "mnemonic": "<b>'Cauliflower = Condyloma (HPV) → Imiquimod/ Cryo/ TCA · Flat-moist = Lata (Syphilis) → Penicillin'</b>",
+  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines 2021 — Anogenital Warts (MMWR Recomm Rep 2021); ASCRS Clinical Practice Guidelines for the Management of Anal Squamous Cell Cancers 2018 (anal intraepithelial neoplasia)",
   "variants": [
-   "ตุ่มแบนเรียบชื้นรอบทวาร ผื่นฝ่ามือ VDRL บวก → condyloma lata ให้ benzathine penicillin",
-   "หูดก้อนใหญ่รอบทวารลุกลามเนื้อลึก → Buschke-Löwenstein tumor ผ่าตัดตัดออก",
-   "ตุ่มน้ำใสเจ็บเป็นกลุ่มรอบทวาร → herpes ให้ acyclovir"
+   "หญิงตั้งครรภ์ 28 สัปดาห์มีหูดหงอนไก่ที่ปากช่องคลอด → cryotherapy หรือ TCA (ห้าม podofilox และหลีกเลี่ยง imiquimod)",
+   "ชาย MSM ที่ HIV บวก มีหูดรอบทวารร่วมกับก้อนแข็งเป็นแผลไม่หาย → biopsy หา anal squamous cell carcinoma",
+   "ชาย 35 ปีหูดหงอนไก่ทาง imiquimod 16 สัปดาห์แล้วไม่ยุบ → เปลี่ยนเป็น cryotherapy หรือ surgical removal",
+   "ทำไมหูดหงอนไก่กลับเป็นซ้ำบ่อยแม้ทำให้หายแล้ว → การรักษากำจัดเฉพาะรอยโรคที่เห็น ไวรัส HPV ยังแฝงในผิวรอบข้างที่ดูปกติ"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 12 แถว Plastic 10 — ตัวพิมพ์: <b>40 year old man, MSM มีรูปนี้ treat ยังไง — 1. Wide excision 2. Imiquimod 5% cream 3. Systemic anti HPV drug</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 12 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU79|RoD|Plastic 11": {
-  "interp": "หญิงมีก้อนหน้าใบหู แข็ง ขยับได้ ไม่มีอาการ → ถามวินิจฉัยที่น่าจะเป็นที่สุด",
-  "why": "ก้อนเดี่ยว<b>หน้าใบหู (ต่อม parotid) แข็ง ขยับได้ ไม่เจ็บ โตช้า</b> ไม่มีอาการ facial nerve = <b>pleomorphic adenoma</b> · เป็นเนื้องอกต่อมน้ำลายที่<b>พบบ่อยที่สุด</b> (~60–70% ของเนื้องอก parotid) พบในหญิงวัยกลางคนมากกว่า · ส่วนใหญ่อยู่ใน superficial lobe · ตรวจด้วย US/ MRI + FNA · รักษาด้วย <b>superficial parotidectomy</b> เก็บ facial nerve (ห้าม enucleation เพราะมี pseudopod กลับเป็นซ้ำ) · ก้อนที่เจ็บ โตเร็ว หน้าเบี้ยว หรือติดแน่นบ่งชี้มะเร็ง · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Plastic 11 D\"</b> = Pleomorphic adenoma ตรงกับคำตอบ",
+  "interp": "หญิงมี<b>ก้อนหน้าหู แข็ง (firm) เคลื่อนได้ ไม่มีอาการ</b> — ก้อนตำแหน่งนี้คือ parotid gland ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องรู้ว่าเนื้องอก parotid ส่วนใหญ่ไม่ร้าย และชนิดที่พบบ่อยที่สุดคือ <b>pleomorphic adenoma</b> ส่วนลักษณะบ่งมะเร็งคือปวด โตเร็ว ยึดติด หน้าเบี้ยว",
+  "why": "เนื้องอกต่อมน้ำลายพบที่ <b>parotid มากที่สุด</b> (ราว 80%) และเนื้องอก parotid ราว <b>80% ไม่ร้าย</b> (ต่อมยิ่งเล็กยิ่งมีสัดส่วนมะเร็งมาก: submandibular ราวครึ่ง, sublingual/ minor salivary ส่วนใหญ่เป็นมะเร็ง) · <b>Pleomorphic adenoma (benign mixed tumor)</b> เป็นเนื้องอกที่พบบ่อยที่สุดของ parotid พบในหญิงวัยกลางคน 30–50 ปี โตช้าหลายปี ไม่เจ็บ แข็งแบบยาง ขอบเรียบ<b>เคลื่อนได้</b> facial nerve ปกติ · พยาธิมีทั้งเซลล์ epithelial/ myoepithelial และ stroma แบบ chondromyxoid มี<b>แคปซูลไม่สมบูรณ์และ pseudopodia</b> ยื่นออกนอกแคปซูล จึง<b>ห้าม enucleation</b> (กลับเป็นซ้ำหลายจุด) ต้องทำ <b>superficial parotidectomy</b> หรือ extracapsular dissection โดยหาและรักษา facial nerve · ถ้าทิ้งไว้นานกลายเป็นมะเร็ง (carcinoma ex pleomorphic adenoma) ได้ · การตรวจ: US ± <b>FNA หรือ core biopsy</b> และ MRI สำหรับก้อนใหญ่/ deep lobe · ห้าม open incisional biopsy · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"11 D\"</b> (ตัวพิมพ์บรรยาย \"firm mass movable no symptoms\" และระบุว่ารูปไม่เห็นหู)",
   "wrong": {
-   "A": "Adenoid cystic carcinoma เป็นมะเร็ง พบบ่อยในต่อมน้ำลายเล็ก ลามตามเส้นประสาท จึง<b>ปวด ชา หรือหน้าเบี้ยว</b> · จะถูกถ้าก้อนที่เพดานปวดและชา หรือก้อน parotid ที่มีหน้าเบี้ยว",
-   "B": "Warthin tumor พบใน<b>ชายสูงอายุที่สูบบุหรี่</b> ก้อนนุ่ม/ ยืดหยุ่น ที่หาง parotid เป็นสองข้างได้ · จะถูกถ้าชาย 65 ปีสูบบุหรี่มีก้อนนุ่มที่หางต่อม parotid สองข้าง",
-   "C": "Mucoepidermoid carcinoma เป็นมะเร็งต่อมน้ำลายที่พบบ่อยที่สุด แต่โดยรวมพบน้อยกว่า pleomorphic adenoma และชนิด high grade โตเร็ว เจ็บ ติดแน่น · จะถูกถ้าก้อน parotid โตเร็ว 2 เดือน แข็งติดแน่น มีต่อมน้ำเหลืองที่คอโต",
-   "E": "Acinic cell carcinoma เป็นมะเร็งเกรดต่ำ พบน้อย มักในหญิง/ เด็ก ไม่ใช่สิ่งที่น่าจะเป็นที่สุดของก้อนเนื้องอกทั่วไป · จะถูกถ้าพยาธิพบเซลล์มี zymogen granule เรียงแบบ acinar"
+   "A": "Adenoid cystic carcinoma เป็นมะเร็งที่พบบ่อยที่สุดของ submandibular และ minor salivary glands โตช้าแต่มีลักษณะเด่นคือ <b>perineural invasion</b> ทำให้ปวด ชา หรือ facial nerve palsy และกลับเป็นซ้ำหรือแพร่ไปปอดช้าแม้หลายปี · จะถูกถ้าเป็นหญิง 55 ปีมีก้อนที่เพดานปากหรือใต้ขากรรไกรโตช้า ปวดร้าวและชาบริเวณใบหน้า ชิ้นเนื้อพบ cribriform (Swiss cheese) pattern",
+   "B": "Warthin tumor (papillary cystadenoma lymphomatosum) เป็นเนื้องอกไม่ร้ายอันดับสองของ parotid พบใน<b>ชายสูงอายุที่สูบบุหรี่</b> มักอยู่ที่ tail ของ parotid นุ่มหรือเป็นถุงน้ำ เป็น<b>สองข้างได้ราว 10%</b> และติด Tc-99m pertechnetate · จะถูกถ้าเป็นชาย 65 ปีสูบบุหรี่จัด มีก้อนนุ่มที่มุมขากรรไกรทั้งสองข้าง FNA ได้ของเหลวข้นและ oncocytic cells ร่วม lymphocytes",
+   "C": "Mucoepidermoid carcinoma เป็น<b>มะเร็งที่พบบ่อยที่สุดของ parotid</b> และของต่อมน้ำลายในเด็ก ชนิด low grade อาจโตช้าคล้ายเนื้องอกไม่ร้าย แต่ high grade โตเร็ว ปวด ยึดติด มี facial nerve palsy และต่อมน้ำเหลืองคอโต · จะถูกถ้าเป็นชาย 60 ปีมีก้อนหน้าหูแข็งโตเร็วใน 3 เดือน ยึดติดผิว มุมปากตกข้างเดียวกัน และคลำได้ต่อมน้ำเหลืองคอ",
+   "E": "Acinic cell carcinoma เป็นมะเร็ง low-grade ที่เกิดใน parotid เกือบทั้งหมด พบในหญิงและอายุน้อยกว่ามะเร็งชนิดอื่น อาจเป็นสองข้าง โตช้าคล้ายเนื้องอกไม่ร้ายแต่กลับเป็นซ้ำได้ พบน้อยกว่า pleomorphic adenoma มาก · จะถูกถ้าเป็นหญิง 40 ปีที่ผ่าตัดก้อน parotid โตช้าแล้วพยาธิพบเซลล์คล้าย serous acinar cells ที่มี zymogen granules (PAS-positive, diastase-resistant)"
   },
-  "trap": "นึกถึงมะเร็งที่พบบ่อยสุด (mucoepidermoid) — ถามสิ่งที่น่าจะเป็นที่สุดของก้อนไม่มีอาการ = เนื้องอกที่พบบ่อยสุดโดยรวม",
+  "trap": "ทุกช้อยเกิดที่ parotid ได้ และ low-grade carcinoma อาจโตช้าคล้ายกัน · ใช้<b>ความน่าจะเป็นพื้นฐาน</b>: เนื้องอก parotid ส่วนใหญ่ไม่ร้ายและที่พบบ่อยสุดคือ pleomorphic adenoma โดยเฉพาะในหญิงวัยกลางคน ก้อนแข็งเคลื่อนได้ไม่มีอาการ · Warthin คือชายสูงอายุสูบบุหรี่ ก้อนนุ่มหรือสองข้าง · ปวด ยึดติด หน้าเบี้ยว = มะเร็ง",
   "summary": [
-   "Parotid: เนื้องอก ~80% ไม่ร้าย · pleomorphic adenoma พบบ่อยสุด",
-   "มะเร็งพบบ่อยสุด: mucoepidermoid carcinoma",
-   "Warthin: ชายสูงอายุ สูบบุหรี่ สองข้าง",
-   "Red flag มะเร็ง: ปวด · โตเร็ว · หน้าเบี้ยว · ติดแน่น · ต่อมน้ำเหลืองโต",
-   "ตรวจ: US/ MRI + FNA",
-   "รักษา: superficial parotidectomy เก็บ facial nerve"
+   "Rule of 80s (โดยประมาณ): เนื้องอกต่อมน้ำลาย 80% อยู่ที่ parotid · 80% ของ parotid ไม่ร้าย · ส่วนใหญ่ของเนื้องอกไม่ร้ายเป็น pleomorphic adenoma",
+   "ยิ่งต่อมเล็กยิ่งเป็นมะเร็งมาก: parotid ราว 20% · submandibular ราวครึ่ง · sublingual และ minor salivary glands ส่วนใหญ่เป็นมะเร็ง",
+   "Pleomorphic adenoma: หญิง 30–50 ปี โตช้า ไม่เจ็บ แข็งเคลื่อนได้ · pseudopodia → ห้าม enucleation · superficial parotidectomy หรือ extracapsular dissection รักษา facial nerve · เปลี่ยนเป็นมะเร็งได้ถ้าทิ้งนาน",
+   "Warthin: ชายสูงอายุสูบบุหรี่ · tail of parotid · bilateral ราว 10% · Tc-99m pertechnetate hot · ไม่เปลี่ยนเป็นมะเร็ง",
+   "มะเร็ง: mucoepidermoid (บ่อยสุดใน parotid และในเด็ก) · adenoid cystic (submandibular/ minor glands, perineural invasion) · acinic cell · carcinoma ex pleomorphic adenoma",
+   "สัญญาณมะเร็ง: ปวด, โตเร็ว, facial nerve palsy, ยึดติดผิว/กระดูก, ต่อมน้ำเหลืองคอโต, ก้อนแข็งมาก",
+   "Frey syndrome หลัง parotidectomy: เหงื่อออกและแดงที่แก้มขณะกินอาหาร จาก parasympathetic fiber งอกผิดไปเลี้ยงต่อมเหงื่อ (aberrant regeneration) · ทดสอบ Minor starch-iodine · รักษาด้วย botulinum toxin"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ผู้จดเขียนว่ารูปไม่เห็นหูและงงว่าเป็น cyst หรือไม่ แต่ลักษณะ firm movable ไม่มีอาการเข้ากับ pleomorphic adenoma",
-  "mnemonic": "<b>'ก้อนหน้าหู แข็ง ขยับได้ ไม่เจ็บ = Pleomorphic adenoma'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers v.2024 — Salivary gland tumors; Cummings Otolaryngology 7th ed. (2021) — Benign neoplasms of the salivary glands",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"11 D\") · ตัวพิมพ์บันทึกว่าก้อนแข็ง เคลื่อนได้ ไม่มีอาการ และรูปไม่เห็นหูชัด แต่ก้อนหน้าหูที่มีลักษณะนี้ในหญิงเข้ากับ pleomorphic adenoma ที่พบบ่อยที่สุดของ parotid (ต้นฉบับมี 4 ช้อย เว็บเติม acinic cell carcinoma)",
+  "mnemonic": "<b>'Parotid ก้อนแข็งเคลื่อนได้ในหญิง = Pleomorphic · ชายสูบบุหรี่ ก้อนนุ่ม 2 ข้าง = Warthin'</b>",
+  "guide": "Cummings Otolaryngology–Head and Neck Surgery 7th ed. (2021) — Benign and Malignant Neoplasms of the Salivary Glands; NCCN Guidelines Head and Neck Cancers v.2025 (Salivary Gland Tumors); WHO Classification of Head and Neck Tumours 5th ed. (2022)",
   "variants": [
-   "ชาย 70 ปีสูบบุหรี่ ก้อนนุ่มหางต่อม parotid สองข้าง → Warthin tumor",
-   "ก้อน parotid โตเร็ว ปวด หน้าเบี้ยว → มะเร็ง ส่ง FNA/ MRI",
-   "หลัง enucleation pleomorphic adenoma กลับเป็นซ้ำหลายก้อน → จาก pseudopod ที่เหลือ"
+   "หญิง 40 ปีก้อน parotid โตช้า 3 ปี FNA เป็น pleomorphic adenoma → superficial parotidectomy โดยหาและเก็บ facial nerve",
+   "หญิงที่เคยทำ enucleation pleomorphic adenoma 10 ปีก่อน ตอนนี้มีก้อนเล็กหลายก้อนในแผลเดิม → recurrent pleomorphic adenoma จาก pseudopodia ที่เหลือ",
+   "หญิง 60 ปีมีก้อน parotid ที่เป็นมา 20 ปี ช่วงหลังโตเร็วและมุมปากตก → สงสัย carcinoma ex pleomorphic adenoma",
+   "ทำไมห้าม enucleation pleomorphic adenoma → แคปซูลไม่สมบูรณ์และมี pseudopodia ยื่นออกนอกแคปซูล การควักเฉพาะก้อนทิ้งเซลล์ไว้ทำให้กลับเป็นซ้ำหลายตำแหน่ง"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 13 แถว Plastic 11 — ตัวพิมพ์: <b>เป็นรูปผู้หญิงมีก้อนที่หน้าหู เป็น firm mass movable no symptoms น่าจะเป็น cyst แต่รูปไม่เห็นหูด้วยซ้ำ งงค่ะะ ถาม diag — 1. Adenoid cystic carcinoma 2. Warthin tumor 3. Mucoepidermoid carcinoma 4. Pleomorphic adenoma</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Plastic\" — \"1 B · 2 B · 3 B · 4 B · 5 B · 6 C · 7 B · 8 (ขึ้นกับรูป ต้องใส่เอง) · 9 A · 10 B · 11 D · 12 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 13 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU79|RoD|CVT 1": {
-  "interp": "ถามอาการแสดงที่<b>ไม่ใช่</b>ของ aortic regurgitation (AR)",
-  "why": "AR ทำให้ <b>pulse pressure กว้าง</b> (systolic สูงจาก stroke volume มาก, diastolic ต่ำจากเลือดไหลกลับ) จึงเกิด<b>ชีพจรเต้นแรงและยุบเร็ว (bounding/ collapsing)</b> และสัญญาณต่าง ๆ: <b>Corrigan pulse</b> (water-hammer), <b>de Musset sign</b> (หัวพยักตามจังหวะหัวใจ), <b>Quincke sign</b> (เส้นเลือดฝอยที่โคนเล็บเต้น), Traube, Duroziez, Hill sign และเสียง <b>early diastolic decrescendo murmur</b> ที่ left sternal border (บางครั้งได้ยินแบบ to-and-fro เมื่อมี systolic flow murmur ร่วม) · ส่วน <b>pulsus parvus et tardus</b> (ชีพจรเบาและมาช้า) เป็นลักษณะของ <b>aortic stenosis</b> ตรงข้ามกับ AR · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"CVT 1 D\"</b> = Pulsus parvus et tardus ตรงกับคำตอบ",
+  "interp": "ถามแบบ <b>NOT</b>: อาการแสดงข้อใด<b>ไม่ใช่</b>ของ aortic regurgitation (AR) — ต้องรู้ว่า chronic AR ทำให้ stroke volume สูงและ diastolic pressure ต่ำ เกิด <b>wide pulse pressure</b> ซึ่งเป็นที่มาของ eponym signs ทั้งหลาย ขณะที่ pulsus parvus et tardus เป็นชีพจรของ aortic stenosis",
+  "why": "ใน <b>chronic AR</b> เลือดไหลย้อนจาก aorta กลับเข้า LV ช่วง diastole → LV ต้องรับ volume overload จึงขยายใหญ่ (eccentric hypertrophy) และบีบ <b>stroke volume สูงมาก</b> ทำให้ systolic pressure สูง ขณะที่เลือดไหลย้อนกลับทำให้ <b>diastolic pressure ต่ำ</b> → <b>wide pulse pressure</b> · อาการแสดงจากชีพจรแรงขึ้นและยุบเร็ว: <b>Corrigan pulse</b> (water-hammer/ collapsing pulse), <b>de Musset sign</b> (ศีรษะผงกตามจังหวะหัวใจ), <b>Quincke sign</b> (เห็นการเต้นของ capillary ที่ฐานเล็บ), Traube sign (pistol-shot ที่ femoral), Duroziez sign (กด femoral artery ได้ยินเสียงฟู่ทั้ง systole และ diastole), Müller sign (ลิ้นไก่เต้น), Hill sign (ความดัน popliteal สูงกว่า brachial มาก) · เสียงหัวใจ: early diastolic decrescendo murmur ที่ left sternal border (ชัดเมื่อนั่งโน้มตัวไปหน้า หายใจออกสุด) ร่วมกับ systolic flow murmur จาก stroke volume สูง = <b>to-and-fro murmur</b> และ Austin Flint murmur ที่ apex · ส่วน <b>pulsus parvus et tardus</b> (ชีพจรเบาและขึ้นช้า) เป็นลักษณะของ <b>aortic stenosis</b> ที่การไหลออกจาก LV ถูกกั้น · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"1 D\"</b> (หมวด CVT)",
   "wrong": {
-   "A": "Quincke sign = เห็นเส้นเลือดฝอยที่โคนเล็บแดง-ซีดตามจังหวะหัวใจ เป็นสัญญาณของ AR · จะถูกถ้าถามสัญญาณที่เห็นจากการกดปลายเล็บในผู้ป่วย AR",
-   "B": "To-and-fro murmur ได้ยินใน AR ที่มี systolic ejection murmur (จาก stroke volume มาก) ต่อด้วย diastolic murmur · จะถูกถ้าถามเสียงหัวใจใน AR รุนแรงที่ฟังได้ทั้ง systole และ diastole",
-   "C": "de Musset sign = ศีรษะพยักตามจังหวะชีพจร พบใน AR · จะถูกถ้าถามสัญญาณที่เห็นจากการสังเกตศีรษะของผู้ป่วย AR รุนแรง",
-   "E": "Corrigan pulse (water-hammer) = ชีพจรขึ้นแรงและยุบเร็ว เป็นสัญญาณคลาสสิกของ AR · จะถูกถ้าถามลักษณะชีพจรที่ carotid ใน AR"
+   "A": "ข้อความถูก: <b>Quincke sign</b> คือเห็นการเต้นเป็นจังหวะของ capillary bed ที่ฐานเล็บเมื่อกดปลายเล็บเบา ๆ (สีแดงสลับซีด) เกิดจาก pulse pressure กว้างใน AR (พบได้ในภาวะ high-output อื่นด้วย) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับอาการแสดงของชาย 35 ปีที่เป็น Marfan syndrome มี aortic root โตและ diastolic murmur ความดัน 160/40 mmHg",
+   "B": "ข้อความถูก: <b>to-and-fro murmur</b> ใน AR คือ systolic ejection flow murmur (จาก stroke volume สูงผ่านลิ้น) ต่อด้วย early diastolic regurgitant murmur ได้ยินเป็นเสียงไปกลับที่ฐานหัวใจ (ต่างจาก continuous murmur ของ PDA ที่ต่อเนื่องผ่าน S2) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเสียงหัวใจของชาย 50 ปีที่เป็น bicuspid aortic valve ร่วมกับ severe AR",
+   "C": "ข้อความถูก: <b>de Musset sign</b> คือศีรษะผงกขึ้นลงตามจังหวะการเต้นของหัวใจ จาก stroke volume สูงและ pulse pressure กว้างใน severe chronic AR · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับสิ่งที่สังเกตได้ขณะซักประวัติชาย 45 ปีที่เป็น rheumatic AR รุนแรง ความดัน 170/45 mmHg",
+   "E": "ข้อความถูก: <b>Corrigan pulse</b> (water-hammer/ collapsing pulse) คือชีพจรที่ขึ้นแรงและยุบลงเร็ว ตรวจโดยยกแขนผู้ป่วยขึ้นเหนือศีรษะแล้วคลำ radial pulse ด้วยฝ่ามือ เป็นอาการแสดงคลาสสิกของ chronic AR · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการตรวจชีพจรของหญิง 40 ปีที่มี severe AR จาก infective endocarditis ที่หายแล้ว"
   },
-  "trap": "สับสนชีพจรของ AS กับ AR — AS: parvus et tardus (เบา ช้า) · AR: water-hammer (แรง ยุบเร็ว)",
+  "trap": "eponym ของ AR มีหลายชื่อจนจำสับสน และ pulsus parvus et tardus เป็นภาษาละตินที่ฟังคล้ายกลุ่มเดียวกัน · ใช้<b>สรีรวิทยา</b>แยก: AR = stroke volume สูง + diastolic ต่ำ → ชีพจร<b>แรงและยุบเร็ว</b> · AS = ทางออกตีบ → ชีพจร<b>เบาและขึ้นช้า</b> (parvus = เล็ก, tardus = ช้า) ตรงข้ามกันโดยสิ้นเชิง",
   "summary": [
-   "AR: pulse pressure กว้าง · early diastolic decrescendo murmur ที่ LSB (นั่งโน้มตัวหายใจออก)",
-   "สัญญาณ AR: Corrigan · de Musset · Quincke · Traube · Duroziez · Hill (BP ขา > แขน > 60 mmHg)",
-   "Austin Flint: mid-diastolic rumble ที่ apex ใน AR รุนแรง",
-   "AS: pulsus parvus et tardus · ejection systolic murmur ร้าวไปคอ · S2 เบา",
-   "สาเหตุ AR: bicuspid valve · rheumatic · IE · Marfan · aortic dissection",
-   "AR เฉียบพลัน (IE, dissection) → ไม่มี pulse pressure กว้าง ช็อก ต้องผ่าด่วน"
+   "Chronic AR: volume overload → LV dilatation (eccentric hypertrophy) → stroke volume สูง + diastolic ต่ำ → wide pulse pressure · ทนได้นานก่อนมีอาการ",
+   "Peripheral signs ของ AR: Corrigan, de Musset, Quincke, Traube (pistol-shot), Duroziez, Müller (ลิ้นไก่), Hill (popliteal &gt; brachial SBP อย่างมาก)",
+   "เสียง AR: early diastolic decrescendo ที่ left sternal border (ฟังท่านั่งโน้มหน้า หายใจออกสุด) · Austin Flint = mid-diastolic rumble ที่ apex จาก regurgitant jet กระทบ anterior mitral leaflet",
+   "สาเหตุ AR: ลิ้นผิดปกติ (bicuspid, rheumatic, endocarditis) หรือ aortic root โต (Marfan, hypertension, aortic dissection, syphilitic aortitis, ankylosing spondylitis)",
+   "Acute AR (type A dissection, endocarditis): LV ไม่ทันปรับตัว → pulmonary edema, ช็อก, pulse pressure ไม่กว้าง murmur สั้น → ผ่าตัดด่วน",
+   "Severe chronic AR ผ่าตัด AVR เมื่อมีอาการ หรือไม่มีอาการแต่ LVEF ≤ 55% (ACC/AHA 2020) หรือ LVESD &gt; 50 mm · หรือผ่าตัดหัวใจอื่นอยู่แล้ว",
+   "AS: pulsus parvus et tardus, ejection systolic murmur ร้าวไปคอ, S2 เบา · severe: Vmax ≥ 4 m/s, mean gradient ≥ 40 mmHg, AVA ≤ 1.0 cm² · อาการ angina, syncope, heart failure"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และตำราอายุรศาสตร์/ ศัลยกรรมหัวใจ",
-  "mnemonic": "<b>'AR ชีพจรเต้นแรงยุบเร็ว (water-hammer) · AS ชีพจรเบาช้า (parvus et tardus)'</b>",
-  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72); Braunwald's Heart Disease 12th ed. (2022) — Aortic regurgitation",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (หมวด CVT \"1 D\") · pulsus parvus et tardus เป็นชีพจรของ aortic stenosis ซึ่งตรงข้ามกับชีพจรแรงยุบเร็วของ AR ส่วนช้อยที่เหลือเป็นอาการแสดงคลาสสิกของ chronic AR ทั้งหมดตามตำรา",
+  "mnemonic": "<b>'AR = Water-hammer (แรง-ยุบเร็ว) · AS = Parvus et Tardus (เล็ก-ช้า)'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Otto et al., Circulation 2021); 2021 ESC/EACTS Guidelines for the Management of Valvular Heart Disease; Braunwald's Heart Disease 12th ed. (2022) — Aortic Regurgitation",
   "variants": [
-   "ชายสูงอายุเป็นลมเวลาออกแรง ชีพจร carotid เบาช้า → aortic stenosis",
-   "Marfan เหนื่อย ฟังได้ early diastolic murmur → AR จาก aortic root dilatation",
-   "ผู้ป่วย IE ลิ้น aortic ความดันต่ำ หายใจหอบเฉียบพลัน → acute AR ต้องผ่าตัดด่วน"
+   "ชาย 40 ปี severe AR ไม่มีอาการ echo พบ LVEF 50% LVESD 52 mm → aortic valve replacement",
+   "ชาย 55 ปีปวดอกฉีกร้าวหลังทันที ความดันต่ำ ได้ยิน diastolic murmur ใหม่ → acute AR จาก type A aortic dissection ผ่าตัดฉุกเฉิน",
+   "ชาย 75 ปีเป็นลมขณะออกแรง ชีพจร carotid เบาและขึ้นช้า ejection systolic murmur ร้าวไปคอ → severe aortic stenosis (pulsus parvus et tardus)",
+   "ทำไม acute AR ไม่มี wide pulse pressure → LV ยังไม่ขยาย รับเลือดย้อนไม่ได้ ความดันใน LV ช่วง diastole สูงเร็ว stroke volume จึงไม่เพิ่ม"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 13 แถว CVT 1 — ตัวพิมพ์: <b>Which is not aortic regurgitation physical exam sign — 1. quincke sign 2. to and fro murmur 3. De musset 4. Pulsus parvus et tardus 5. Corrigan's pulse</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"CVT\" — \"1 D · 2 E · 3 A · 4 D · 5 B · 6 A · 7 A · 8 C · 9 B · 10 C · 11 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 13 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",

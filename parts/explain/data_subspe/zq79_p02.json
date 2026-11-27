@@ -1,29 +1,31 @@
 {
  "MDCU79|RoD|Surgical oncology 1": {
-  "interp": "ถามบทบาทที่<b>ถูกต้อง</b>ของ serum CEA ในมะเร็งลำไส้ใหญ่ — ต้องรู้ว่า CEA ใช้ติดตามหลังผ่าตัด ไม่ใช่คัดกรองหรือวินิจฉัย",
-  "why": "CEA เป็นไกลโคโปรตีนที่<b>ไวต่ำในระยะต้นและไม่จำเพาะ</b> (สูงในคนสูบบุหรี่ ตับแข็ง ตับอ่อนอักเสบ IBD มะเร็งอื่น) จึง<b>ใช้คัดกรองหรือวินิจฉัยไม่ได้</b> · บทบาทจริง: (1) วัด<b>ก่อนผ่าตัด</b>เป็นค่าตั้งต้นและบอกพยากรณ์ (2) <b>ติดตามหลังผ่าตัดหายขาด (stage II–III)</b> ทุก 3–6 เดือนใน 2 ปีแรก แล้วทุก 6 เดือนจนครบ 5 ปี เพื่อหาการกลับเป็นซ้ำที่ยังผ่าตัดได้ (เช่น ไปตับ) (3) ติดตามการตอบสนองต่อเคมีในระยะแพร่กระจาย · ค่าที่สูงขึ้นต่อเนื่องหลังผ่าตัด → ทำ CT ทรวงอก/ ช่องท้อง/ อุ้งเชิงกราน · <b>ไม่ใช่ตลอดชีวิต</b> เพราะหลัง 5 ปีโอกาสกลับเป็นซ้ำต่ำมาก · ไฟล์ 79D (ส่วน Gen Sx) หน้า 44 ช่องเฉลยว่าง ผู้จดพิมพ์ช้อย <b>\"Use for follow up only in patient already had colectomy\"</b> ซึ่งตรงกับคำตอบ (ตัดคำว่า only ออกเพราะ CEA ใช้ติดตามระยะแพร่กระจายได้ด้วย)",
+  "interp": "ถามบทบาทของ <b>serum CEA</b> ในมะเร็งลำไส้ใหญ่ว่าใช้ทำอะไรได้จริง — ต้องรู้ว่า CEA ไวและจำเพาะต่ำเกินกว่าจะใช้คัดกรองหรือวินิจฉัย แต่มีประโยชน์เป็น baseline ก่อนผ่าตัดและเป็นเครื่องมือ<b>เฝ้าระวังการกลับเป็นซ้ำหลังผ่าตัดหวังหายขาด</b> ในช่วงเวลาที่กำหนด",
+  "why": "CEA เป็น glycoprotein ที่สร้างจากเยื่อบุลำไส้ช่วงตัวอ่อน ค่าปกติราว &lt; 5 ng/mL (คนไม่สูบบุหรี่มักต่ำกว่า 3) · <b>ไวต่ำในมะเร็งระยะต้น</b> และ<b>ไม่จำเพาะ</b> สูงได้จากการสูบบุหรี่ ตับแข็ง IBD ตับอ่อนอักเสบ และมะเร็งอื่น (กระเพาะ ตับอ่อน เต้านม ปอด medullary thyroid) จึงห้ามใช้คัดกรองหรือวินิจฉัย · ประโยชน์จริงคือ (1) <b>วัดก่อนผ่าตัด</b>เป็น baseline และบอกพยากรณ์ — ค่าสูงก่อนผ่าตัดควรลดลงสู่ปกติภายในราว 4–6 สัปดาห์หลังตัดก้อนหมด ถ้าไม่ลดบ่งว่ามีโรคหลงเหลือ (2) <b>surveillance หลัง curative resection</b> stage II–III: NCCN/ASCO ให้ตรวจ CEA ทุก 3–6 เดือนใน 2 ปีแรก แล้วทุก 6 เดือนจนครบ 5 ปี ร่วมกับ CT chest/abdomen/pelvis ทุก 6–12 เดือน และ colonoscopy ที่ 1 ปี · CEA ที่สูงขึ้นต่อเนื่องนำไปหา recurrence ที่ยังผ่าตัดได้ เช่น liver metastasis ที่ resect ได้ (3) ติดตามการตอบสนองต่อเคมีบำบัดในโรคระยะแพร่กระจาย · ไฟล์ช่องเฉลยว่างและไม่มีไฟล์เฉลยของส่วน Gen Sx (ตัวพิมพ์มีช้อย 2 \"Use for follow up only in patient already had colectomy\")",
   "wrong": {
-   "A": "การติดตามด้วย CEA ทำแค่ 5 ปีหลังผ่าตัด ไม่ใช่ตลอดชีวิต เพราะหลังจากนั้นโอกาสกลับเป็นซ้ำต่ำและไม่คุ้ม · จะถูกถ้าถามระยะติดตามของ colonoscopy ที่ทำต่อเนื่องเป็นระยะ (1 ปีหลังผ่า แล้ว 3 ปี แล้วทุก 5 ปี) เพื่อหามะเร็งใหม่",
-   "C": "CEA ไวต่ำในระยะต้น (สูงไม่ถึงครึ่งของ stage I–II) และไม่จำเพาะ ใช้คัดกรองไม่ได้ · จะถูกถ้าถามเรื่อง FIT หรือ colonoscopy ซึ่งเป็นเครื่องมือคัดกรองมาตรฐานในคนอายุ 45–50 ปีขึ้นไป",
-   "D": "การวินิจฉัยต้องใช้ colonoscopy และชิ้นเนื้อ CEA ปกติไม่ตัดมะเร็ง และสูงได้จากโรคอื่น · จะถูกถ้าถามว่าค่า CEA ก่อนผ่าตัดใช้ทำอะไร (ค่าตั้งต้น + พยากรณ์)",
-   "E": "ญาติสายตรงคัดกรองด้วย colonoscopy เริ่มที่อายุ 40 ปีหรือ 10 ปีก่อนอายุที่ญาติเป็น ไม่ใช้ CEA · จะถูกถ้าถามว่าญาติสายตรงควรคัดกรองด้วยวิธีใดและเริ่มอายุเท่าไร"
+   "A": "การติดตามด้วย CEA ไม่ได้ทำตลอดชีวิต — การกลับเป็นซ้ำราว 80% เกิดใน 3 ปีแรกและเกือบทั้งหมดภายใน 5 ปี guideline จึงตรวจถึง 5 ปี (ถี่ทุก 3–6 เดือนช่วงแรก ไม่ใช่ทุก 6–12 เดือน) · จะถูกถ้าเป็นชาย 40 ปีที่มี Lynch syndrome ซึ่งต้องส่อง colonoscopy ทุก 1–2 ปีไปตลอดชีวิต (เป็นการส่องกล้อง ไม่ใช่ CEA)",
+   "C": "CEA ไม่ใช้คัดกรองเพราะไวต่ำในมะเร็งระยะต้นและ adenoma แทบไม่ทำให้ CEA สูง ทั้งยังผลบวกลวงจากบุหรี่หรือตับแข็ง — การคัดกรองใช้ FIT ทุกปีหรือ colonoscopy ทุก 10 ปี เริ่มอายุ 45 ปี · จะถูกถ้าเป็นหญิง 50 ปีความเสี่ยงปกติไม่มีอาการ มาขอตรวจคัดกรอง → FIT ทุกปี หรือ colonoscopy",
+   "D": "การวินิจฉัยมะเร็งลำไส้ใหญ่ต้องได้ชิ้นเนื้อจาก colonoscopy ค่า CEA ปกติไม่ตัดมะเร็งและค่าสูงก็ไม่ยืนยัน แต่ควรวัดก่อนผ่าตัดเพื่อเป็น baseline · จะถูกถ้าเป็นชาย 60 ปี ถ่ายเป็นเลือดปนมูก น้ำหนักลด ซีด → colonoscopy with biopsy เพื่อวินิจฉัย (แล้วจึงส่ง CEA ก่อนผ่าตัด)",
+   "E": "ญาติสายตรงของผู้ป่วยมะเร็งลำไส้ใหญ่คัดกรองด้วย colonoscopy ไม่ใช่ CEA — เริ่มที่อายุ 40 ปีหรือ 10 ปีก่อนอายุที่ญาติเป็น (ถ้าญาติเป็นก่อน 60 ปี หรือมีญาติสายตรง ≥ 2 คน) และส่องซ้ำทุก 5 ปี · จะถูกถ้าเป็นชาย 38 ปีที่พ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 48 ปี → colonoscopy ตอนนี้เลย"
   },
-  "trap": "เลือก lifelong follow-up เพราะคิดว่ายิ่งติดตามนานยิ่งดี — CEA ติดตามแค่ 5 ปีหลังผ่าตัดหายขาด",
+  "trap": "ช้อย A ดูเหมือนแนวปฏิบัติจริงเพราะมีตัวเลขช่วงเวลา และช้อย C/D ชวนให้คิดว่า tumor marker ต้องใช้คัดกรองหรือวินิจฉัย · วิธีแยก: CEA ไม่ไวไม่จำเพาะ ใช้ได้เฉพาะ<b>ติดตามหลังรักษาหวังหายขาด</b>และติดตามการรักษา และมีกรอบเวลา 5 ปี ไม่ใช่ตลอดชีวิต",
   "summary": [
-   "CEA ไม่ใช้คัดกรอง/ วินิจฉัย (ไวต่ำ ไม่จำเพาะ)",
-   "ก่อนผ่าตัด: ค่าตั้งต้น + บอกพยากรณ์",
-   "หลังผ่าตัด stage II–III: ทุก 3–6 เดือน 2 ปี แล้วทุก 6 เดือนจนครบ 5 ปี",
-   "CEA สูงขึ้น → CT C/A/P หาการกลับเป็นซ้ำที่ยังตัดได้",
-   "ใช้ติดตามการตอบสนองต่อเคมีในระยะแพร่กระจาย",
-   "สาเหตุ CEA สูงอื่น: สูบบุหรี่ · ตับแข็ง · ตับอ่อนอักเสบ · IBD · มะเร็งตับอ่อน/ กระเพาะ/ ปอด/ เต้านม"
+   "CEA ปกติราว &lt; 5 ng/mL · สูงได้จากบุหรี่ ตับแข็ง IBD ตับอ่อนอักเสบ hypothyroidism และมะเร็งอื่น (กระเพาะ ตับอ่อน เต้านม ปอด medullary thyroid) จึงไม่จำเพาะต่อ CRC",
+   "ไม่ใช้คัดกรองหรือวินิจฉัย เพราะไวต่ำในระยะต้น · การวินิจฉัยต้องได้ชิ้นเนื้อจาก colonoscopy แต่ควรวัด CEA ก่อนผ่าตัดทุกรายเพื่อเป็น baseline และพยากรณ์โรค",
+   "CEA สูงก่อนผ่าตัดควรกลับปกติภายในราว 4–6 สัปดาห์หลังตัดก้อนหมด ถ้ายังสูงหรือไม่ลดให้สงสัยโรคหลงเหลือหรือ occult metastasis",
+   "Surveillance หลัง curative resection stage II–III (NCCN): ซักประวัติตรวจร่างกาย + CEA ทุก 3–6 เดือนใน 2 ปี แล้วทุก 6 เดือนจนครบ 5 ปี",
+   "CT chest/abdomen/pelvis ทุก 6–12 เดือนนาน 5 ปี · colonoscopy ที่ 1 ปีหลังผ่าตัด (หรือ 3–6 เดือนถ้าก่อนผ่าตัดส่องไม่ตลอดเพราะก้อนอุด) แล้ว 3 ปี และทุก 5 ปี",
+   "การกลับเป็นซ้ำราว 80% เกิดใน 3 ปีแรก · เป้าหมายของ surveillance คือเจอ recurrence ที่ยังผ่าตัดได้ เช่น liver หรือ lung metastasis จำนวนน้อย",
+   "คัดกรองความเสี่ยงปกติเริ่มอายุ 45 ปี (FIT ทุกปี หรือ colonoscopy ทุก 10 ปี) · ญาติสายตรงเป็นก่อน 60 ปี → colonoscopy ที่ 40 ปีหรือ 10 ปีก่อนอายุญาติ ทุก 5 ปี"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ไฟล์ไม่มีเฉลย คำตอบตาม NCCN และ ASCO Follow-up Guideline · ต้นฉบับมีคำว่า \"only\" ซึ่งถ้าคงไว้จะผิดตามตัวอักษร จึงเกลาออก",
-  "mnemonic": "<b>'CEA = Check Every Again หลังผ่า 5 ปี ไม่ใช่คัดกรอง'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025 — Surveillance; ASCO Guideline: Follow-up care of colorectal cancer survivors (J Clin Oncol 2013;31:4465)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ไฟล์ไม่มีเฉลย (ช่องเฉลยว่าง) จึงตอบตาม NCCN และ ASCO ที่กำหนดให้ CEA ใช้ติดตามหลังผ่าตัดหวังหายขาด · ตัวพิมพ์ต้นฉบับมีคำว่า \"only\" ซึ่งถ้าคงไว้จะผิดตามตัวอักษร (CEA ใช้ติดตามการรักษาในโรคแพร่กระจายและวัดก่อนผ่าตัดได้ด้วย) เว็บจึงเกลาช้อยเป็น surveillance after curative colectomy",
+  "mnemonic": "<b>'CEA = Check Every-3-6-mo After resection (5 ปี) — ไม่ Screen ไม่ Diagnose'</b>",
+  "guide": "NCCN Guidelines Colon Cancer v.2025 (Surveillance); ASCO Follow-up Care, Surveillance Protocol for Colorectal Cancer (Meyerhardt et al., J Clin Oncol 2013); US Multi-Society Task Force on CRC screening 2017/ ACS 2018",
   "variants": [
-   "หลังผ่าตัด stage III 18 เดือน CEA จาก 2 เป็น 15 → CT C/A/P หาการกลับเป็นซ้ำ",
-   "คนสูบบุหรี่ไม่มีอาการ CEA 6 → ไม่ใช่การวินิจฉัยมะเร็ง ให้คัดกรองตามปกติ",
-   "มะเร็งลำไส้ระยะแพร่กระจายให้เคมี 3 รอบ CEA ลดจาก 80 เป็น 20 → ตอบสนองต่อการรักษา"
+   "หลัง right hemicolectomy stage IIIB ได้ adjuvant FOLFOX ครบ ปีที่ 2 CEA ขึ้นจาก 2 เป็น 9 ng/mL ในการตรวจ 2 ครั้ง → CT chest/abdomen/pelvis (± PET-CT) หาตำแหน่ง recurrence",
+   "ชายสูบบุหรี่จัด ตรวจสุขภาพพบ CEA 6 ng/mL ไม่มีอาการ → ไม่ใช่การวินิจฉัย CRC ดูความเสี่ยงตามอายุแล้วคัดกรองด้วย colonoscopy ตามปกติ",
+   "CEA ก่อนผ่าตัด 25 ng/mL หลัง resection 6 สัปดาห์ยัง 20 ng/mL → สงสัยโรคหลงเหลือ ต้องตรวจภาพหา occult metastasis",
+   "ทำไม CEA ไม่ใช้คัดกรอง → ไวต่ำมากใน stage I และ adenoma และผลบวกลวงสูงในประชากรทั่วไป ทำให้ทั้งพลาดโรคและตรวจเกินจำเป็น"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf (ส่วน Gen Sx) หน้า 44 — ตัวพิมพ์: <b>CEA คืออะไร ข้อใดถูก — 1. Use for life long follow up q 6-12 mo 2. Use for follow up only in patient already had colectomy 3. Use for screening 4.Use for diagnosis ca colon</b><br>ช่องเฉลย: ว่าง · ไม่มีไฟล์เฉลยของส่วน Gen Sx<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 44 (ส่วน Gen Sx) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -32,30 +34,32 @@
   ]
  },
  "MDCU79|RoD|Acute abdomen 1": {
-  "interp": "ชายผิวขาว 27 ปีท้องผูก อุจจาระลำเล็ก กดเจ็บ RLQ ไม่มี rebound ภาพเห็น<b>ผนัง jejunum และ ileum หนา</b> ไขมันรอบลำไส้อักเสบ และ <b>comb sign</b> → ถามวินิจฉัย",
-  "why": "<b>Comb sign</b> = vasa recta คั่งเลือดเรียงเป็นซี่หวีตั้งฉากกับผนังลำไส้ที่อักเสบ เป็นลักษณะเด่นของ <b>Crohn disease ระยะอักเสบ</b> · ร่วมกับ<b>ผนังลำไส้เล็กหนาเป็นช่วง ๆ (skip lesions) ทั้ง jejunum และ ileum</b> ไขมันรอบลำไส้อักเสบ (fat stranding/ creeping fat) ในคนหนุ่ม (พีค 15–35 ปี) เชื้อสายยุโรป → <b>small bowel Crohn disease</b> · อุจจาระลำเล็กและท้องผูกบอกว่ามีการตีบ (stricture) · Crohn เป็นได้ทุกส่วนตั้งแต่ปากถึงทวาร อักเสบทุกชั้น (transmural) จึงเกิด fistula, abscess, stricture · ตรวจต่อด้วย <b>CT/ MR enterography</b>, colonoscopy + biopsy ที่ terminal ileum (non-caseating granuloma) · ไฟล์ 79D (ส่วน Gen Sx) หน้า 45 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"Comb sign positive (engorgement of vasa recta)\"</b> และ <b>\"wall thickening at jejunum and ileum\"</b>",
+  "interp": "ชายผิวขาว 27 ปี ท้องผูกและอุจจาระลำเล็ก กดเจ็บ RLQ ไม่มี rebound ไม่คลำได้ก้อน ภาพถ่ายพบผนัง jejunum และ ileum หนา มี perienteric fat stranding และ <b>comb sign</b> — ถามการวินิจฉัย ต้องรู้ลักษณะภาพของ <b>small bowel Crohn disease</b> ที่ต่างจาก UC และโรค RLQ อื่น",
+  "why": "Crohn disease เป็น <b>transmural granulomatous inflammation</b> เกิดได้ทุกส่วนตั้งแต่ปากถึงทวารหนัก แบบ<b>เป็นหย่อม ๆ (skip lesions)</b> ตำแหน่งบ่อยสุดคือ terminal ileum (ileocolic ราว 40–50%, small bowel อย่างเดียวราว 30%, colon อย่างเดียวราว 20%) · พบในวัยหนุ่มสาว 15–30 ปี คนผิวขาวและ Ashkenazi Jewish มากกว่า การสูบบุหรี่เพิ่มความเสี่ยง · ภาพ CT/MR enterography ใน active disease: ผนังลำไส้หนา mural hyperenhancement, <b>comb sign</b> (vasa recta คั่งเรียงเป็นซี่หวีตั้งฉากกับลำไส้), fat stranding, creeping fat ด้าน mesentery และอาจมี stricture (string sign of Kantor) fistula abscess · การอักเสบทะลุผนังทำให้เกิด fibrostenotic stricture → อาการอุดตันบางส่วน ท้องผูก ปวดท้อง RLQ · โรคที่ลาม<b>ทั้ง jejunum และ ileum</b> ตัด UC (จำกัดที่ colon มีแค่ backwash ileitis สั้น ๆ) และตัดโรคเฉพาะจุดอย่าง appendicitis/Meckel · ไฟล์ช่องเฉลยว่างและไม่มีไฟล์เฉลยของส่วน Gen Sx (ตัวพิมพ์ระบุ \"Comb sign positive (engorgement of vasa recta)\")",
   "wrong": {
-   "A": "ไส้ติ่งอักเสบปวดย้ายมา RLQ มี rebound ภาพเห็นไส้ติ่งโต > 6 mm ไม่ใช่ผนังลำไส้เล็กหนายาวหลายช่วง · จะถูกถ้าชาย 20 ปีปวดรอบสะดือย้ายมา RLQ ไข้ rebound CT ไส้ติ่ง 10 mm มี fecalith",
-   "B": "Meckel อักเสบเป็นถุงเดียวที่ ileum ส่วนปลาย ห่าง ileocecal valve ~60 cm ไม่ทำให้ jejunum หนา · จะถูกถ้าเด็กปวดเหมือนไส้ติ่ง ผ่าตัดเห็นไส้ติ่งปกติแต่มีถุงอักเสบที่ ileum",
-   "D": "UC เริ่มที่ rectum ลามต่อเนื่องขึ้นไปใน colon เป็นแค่ชั้น mucosa ถ่ายเป็นเลือด backwash ileitis เป็นแค่ terminal ileum สั้น ๆ ไม่ถึง jejunum · จะถูกถ้าชาย 30 ปีถ่ายเป็นมูกเลือด colonoscopy อักเสบต่อเนื่องตั้งแต่ rectum ถึง cecum",
-   "E": "Diverticulosis ที่ cecum พบในเอเชีย ไม่มีอาการหรือมีเลือดออก ไม่ทำให้ลำไส้เล็กหนา · จะถูกถ้าชายเอเชีย 40 ปีปวด RLQ คล้ายไส้ติ่ง CT เห็นถุงยื่นจาก cecum มีไขมันรอบอักเสบ"
+   "A": "Acute appendicitis เริ่มปวดรอบสะดือย้ายมา RLQ มีไข้ เบื่ออาหาร และมักมี rebound tenderness ภาพจะเห็นไส้ติ่งโต &gt; 6 mm ผนังหนา มี periappendiceal fat stranding เฉพาะจุด ไม่ใช่ผนังลำไส้เล็กหนาเป็นแนวยาวทั้ง jejunum และ ileum · จะถูกถ้าเป็นชาย 20 ปี ปวดรอบสะดือ 12 ชั่วโมงแล้วย้ายมา RLQ มีไข้ กด McBurney เจ็บ rebound บวก CT พบไส้ติ่ง 10 mm มี appendicolith",
+   "B": "Meckel diverticulum เป็น true diverticulum ที่ antimesenteric border ของ ileum ห่าง ileocecal valve ราว 60 cm (กฎเลข 2) diverticulitis ให้อาการคล้าย appendicitis และภาพเห็นถุงอักเสบเฉพาะจุด ไม่ได้ทำให้ผนัง jejunum หนา · จะถูกถ้าเป็นเด็กชาย 10 ปี ปวด RLQ คล้ายไส้ติ่งอักเสบ แต่ผ่าตัดพบไส้ติ่งปกติ และเจอถุงอักเสบบน ileum ห่าง IC valve ราว 60 cm",
+   "D": "UC เป็น mucosal inflammation ต่อเนื่องจาก rectum ขึ้นไปใน colon เท่านั้น backwash ileitis คือ terminal ileum อักเสบสั้น ๆ ไม่กี่เซนติเมตรใน pancolitis ไม่ลามถึง jejunum และไม่ทำให้ comb sign ตลอดลำไส้เล็ก อาการหลักคือท้องเสียมีมูกเลือด · จะถูกถ้าเป็นหญิง 30 ปี ถ่ายเหลวปนมูกเลือด 6 สัปดาห์ colonoscopy พบอักเสบต่อเนื่องจาก rectum ถึง cecum และ terminal ileum แดงเล็กน้อย",
+   "E": "Cecal diverticulosis พบบ่อยในคนเอเชีย (right-sided) มักไม่มีอาการ ถ้าอักเสบให้อาการคล้ายไส้ติ่ง ภาพเห็นถุงที่ cecum/ascending colon มี fat stranding เฉพาะจุด ไม่ใช่โรคของลำไส้เล็ก · จะถูกถ้าเป็นชายไทย 45 ปี ปวด RLQ 3 วัน ไข้ต่ำ CT พบถุงยื่นจากผนัง cecum มี fat stranding รอบถุง ไส้ติ่งปกติ"
   },
-  "trap": "เห็นกดเจ็บ RLQ แล้วตอบไส้ติ่ง — ภาพบอกผนังลำไส้เล็กหนาทั้ง jejunum และ ileum + comb sign = Crohn",
+  "trap": "อาการ RLQ ในคนหนุ่มดึงให้คิดถึง appendicitis/Meckel และคำว่า ileitis ดึงไป UC backwash ileitis · จุดแยกคือ<b>ตำแหน่งที่เป็น</b>: ผนังหนายาวทั้ง jejunum และ ileum + comb sign + ไม่มี rebound = โรคอักเสบเรื้อรังทะลุผนังของลำไส้เล็ก = Crohn · UC ไม่ข้ามไป jejunum · ในคนไทยต้องแยก ileocecal TB ด้วยเสมอ",
   "summary": [
-   "Crohn: ปากถึงทวาร · skip lesions · transmural · granuloma · fistula/ stricture/ abscess",
-   "UC: เริ่ม rectum ต่อเนื่อง · mucosa · ถ่ายเลือด · toxic megacolon · PSC",
-   "CT/ MR enterography: ผนังหนา · comb sign · creeping fat · stricture · fistula",
-   "ผ่าตัด Crohn: เฉพาะภาวะแทรกซ้อน · ตัดให้น้อย (bowel-sparing) · strictureplasty",
-   "ยา Crohn: steroid ช่วงกำเริบ · thiopurine/ MTX · anti-TNF/ biologics",
-   "ในไทย: ileocecal TB เลียนแบบ Crohn ได้ — แยกด้วยชิ้นเนื้อ (caseating) และเพาะเชื้อ"
+   "Crohn: transmural, skip lesions, ปากถึงทวาร · terminal ileum บ่อยสุด · non-caseating granuloma · fistula, stricture, abscess, perianal disease · บุหรี่ทำให้แย่ลง",
+   "UC: mucosal เท่านั้น ต่อเนื่องจาก rectum · ไม่มี skip lesion ไม่มี fistula · บุหรี่ไม่เพิ่มความเสี่ยง · total proctocolectomy รักษาหายได้",
+   "ภาพ active Crohn: mural thickening/ hyperenhancement, comb sign, creeping fat, fat stranding · fibrostenotic: string sign of Kantor + prestenotic dilatation · CT/MR enterography เป็นการตรวจหลัก",
+   "ผ่าตัด Crohn เมื่อ obstruction/stricture, fistula, abscess, perforation, bleeding, ดื้อยา หรือมะเร็ง · ราว 70% ต้องผ่าตัดอย่างน้อย 1 ครั้งในชีวิต",
+   "หลักผ่าตัด Crohn: bowel-conserving ตัดเฉพาะส่วนที่มีอาการ ขอบไม่ต้องปลอดโรคทางกล้องจุลทรรศน์ · strictureplasty (Heineke-Mikulicz &lt; 10 cm, Finney 10–20 cm)",
+   "Abscess จาก Crohn: percutaneous drainage + antibiotics ก่อน แล้วผ่าตัดแบบ elective · โรคมักกลับเป็นซ้ำที่ anastomosis",
+   "ileocecal TB (คนไทย): transverse ulcers, IC valve อ้า (patulous), cecum หดสั้น, LN มี necrosis · caseating granuloma · ต้องแยกก่อนให้ steroid/ biologic"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ stem ต้นฉบับบอก comb sign และผนังหนาทั้ง jejunum และ ileum ซึ่งเป็นลักษณะ Crohn ชัดเจน · ควรนึก ileocecal TB ด้วยเมื่อเจอในคนไทย",
-  "mnemonic": "<b>'Comb sign + skip ลำไส้เล็ก = Crohn'</b>",
-  "guide": "ECCO Guidelines on Crohn's Disease: Surgical treatment (J Crohns Colitis 2020;14:155); ACG Clinical Guideline: Management of Crohn's Disease in Adults (Am J Gastroenterol 2018;113:481)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ไม่มีเฉลย (ช่องเฉลยว่าง) แต่ตัวพิมพ์ต้นฉบับให้ comb sign และผนังหนาทั้ง jejunum และ ileum ร่วมกับประวัติคนหนุ่มผิวขาวที่มีอาการอุดตันบางส่วน ซึ่งเป็นภาพคลาสสิกของ small bowel Crohn · ในบริบทไทยควรคิดถึง ileocecal TB ร่วมด้วยเสมอ",
+  "mnemonic": "<b>'Comb sign + Jejunum ถึง Ileum + Skip = Crohn · UC ไม่เคยขึ้น Jejunum'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Small Intestine: Crohn Disease; ECCO-ESGAR Guideline for Diagnostic Assessment in IBD 2019; ACG Clinical Guideline: Management of Crohn's Disease in Adults 2025",
   "variants": [
-   "ชาย 30 ปีถ่ายมูกเลือด colonoscopy อักเสบต่อเนื่องจาก rectum → ulcerative colitis",
-   "ผู้ป่วย Crohn มี fistula ไปผิวหนังรอบสะดือ มีอุจจาระออก → enterocutaneous fistula ประเมินด้วย CT/ MR enterography",
-   "คนไทยปวด RLQ น้ำหนักลด ไข้ต่ำ CT ผนัง ileocecal หนา → แยก ileocecal TB ด้วยชิ้นเนื้อ"
+   "ชาย 25 ปี Crohn ปวดท้องบิด ท้องอืด อาเจียน CT พบ stricture terminal ileum 8 cm มี prestenotic dilatation ดื้อยา → ileocecal resection หรือ strictureplasty",
+   "Crohn มีไข้ ปวด RLQ CT พบ abscess 5 cm ติดลำไส้ → percutaneous drainage + antibiotics แล้วนัดผ่าตัดเมื่อการอักเสบลดลง",
+   "ชายไทย 35 ปี ไข้ต่ำ น้ำหนักลด ปวด RLQ colonoscopy พบ transverse ulcer และ IC valve อ้า ชิ้นเนื้อมี caseating granuloma → ileocecal TB ให้ยาต้านวัณโรค",
+   "ทำไม Crohn เกิด fistula แต่ UC ไม่เกิด → Crohn อักเสบทะลุทุกชั้นของผนัง (transmural) ส่วน UC จำกัดที่ mucosa"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf (ส่วน Gen Sx) หน้า 45 — ตัวพิมพ์: <b>A 27 years caucasian male presented with constipation and tapering stool. Physical exam review tenderness at RLQ without rebound tenderness and no palpable mass. Imaging found wall thickening at jejunum and ileum with perienteric fat standing. Comb sign positive (engorgement of vasa recta). What is the diagnosis? — 1. Acute appendicitis 2. Meckel diverticulitis 3. Small bowel Crohn disease 4. Ulcerative colitis with backward ileitis 5. Cecal diverticulosis</b><br>ช่องเฉลย: ว่าง · ไม่มีไฟล์เฉลยของส่วน Gen Sx<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 45 (ส่วน Gen Sx) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -64,30 +68,32 @@
   ]
  },
  "MDCU79|RoD|Liver and biliary tract 1&2 ไม่มีเลข 2": {
-  "interp": "ผู้ป่วยเพิ่งวินิจฉัยมะเร็ง sigmoid และ CT staging พร้อมกันเห็นก้อนในตับหลายก้อน → ถามชื่อเรียกก้อนในตับ",
-  "why": "<b>Synchronous metastasis</b> = มะเร็งแพร่กระจายที่ตรวจพบ<b>พร้อมกับหรือใกล้เคียงเวลาวินิจฉัยมะเร็งต้นกำเนิด</b> (ส่วนใหญ่นิยามภายใน 3–6 เดือนแรก) · <b>Metachronous</b> = พบภายหลัง หลังจากรักษามะเร็งต้นกำเนิดไปแล้ว · ในมะเร็งลำไส้ใหญ่ ~15–25% มี liver metastasis แบบ synchronous ตอนวินิจฉัย · การจัดการ: ถ้าตัดได้ทั้งต้นกำเนิดและตับ → simultaneous resection, staged (colon-first) หรือ liver-first ร่วมกับ perioperative chemo · synchronous มักพยากรณ์แย่กว่า metachronous · ไฟล์ 79D (ส่วน Gen Sx) หน้า 46 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"เป็น sigmoid ca + เจอที่ตับหลายก้อนเรียกว่าไร — 1.synchronous metastasis\"</b> ตรงกับคำตอบ",
+  "interp": "ผู้ป่วยเพิ่งวินิจฉัย sigmoid colon cancer และ CT staging <b>ในเวลาเดียวกัน</b>พบก้อนที่ตับหลายก้อน — ถามชื่อเรียกของรอยโรคตับที่พบพร้อมกับการวินิจฉัย primary ซึ่งคือ <b>synchronous metastasis</b> ต่างจากที่เกิดภายหลังการรักษา",
+  "why": "Liver เป็นตำแหน่งแพร่กระจายที่พบบ่อยที่สุดของมะเร็งลำไส้ใหญ่ เพราะเลือดดำจาก colon ไหลผ่าน <b>portal vein</b> เข้าตับก่อน · ศัพท์ตามเวลา: <b>synchronous</b> = พบก่อนหรือพร้อมกับการวินิจฉัย primary (หลายสถาบันนับรวมที่พบภายใน 3–6 เดือนแรก) ส่วน <b>metachronous</b> = พบภายหลังการรักษา primary ไปแล้ว · ราว 15–25% ของผู้ป่วย CRC มี synchronous liver metastasis ตอนวินิจฉัย และราวครึ่งหนึ่งเกิด liver metastasis ในช่วงโรค · synchronous มักบ่งชีววิทยาที่รุนแรงกว่า · ถ้า resect ได้ (R0 โดยเหลือ future liver remnant ≥ 20–25% ในตับปกติ, ≥ 30% หลังเคมีบำบัดหนัก) การผ่าตัดตับร่วมกับเคมีบำบัดให้ 5-year survival ราว 40–50% · ลำดับผ่าตัดเลือกได้: classic (primary ก่อน), simultaneous หรือ liver-first (reverse) ขึ้นกับอาการของ primary และภาระโรคในตับ · ไฟล์ช่องเฉลยว่างและไม่มีไฟล์เฉลยของส่วน Gen Sx แต่ตัวพิมพ์ใส่ช้อยไว้ช้อยเดียวคือ <b>\"1.synchronous metastasis\"</b>",
   "wrong": {
-   "B": "Metachronous คือพบการกระจายภายหลังการรักษามะเร็งต้นกำเนิดแล้ว (เกิน 3–6 เดือน) · จะถูกถ้าผ่าตัด sigmoid ไป 2 ปีแล้วติดตามเจอก้อนในตับใหม่",
-   "C": "มะเร็งตับปฐมภูมิหลายก้อน (multifocal HCC) มักเกิดในตับแข็ง/ ไวรัสตับอักเสบ ไม่ใช่เมื่อมีมะเร็ง sigmoid อยู่ ก้อนในตับจากมะเร็งลำไส้เป็น metastasis จนพิสูจน์ได้ว่าไม่ใช่ · จะถูกถ้าผู้ป่วยตับแข็ง HBV มีก้อน arterial enhancement + washout หลายก้อน",
-   "D": "Skip metastasis เป็นการกระจายข้ามต่อมน้ำเหลืองชั้นแรกไปชั้นถัดไป (เช่นในมะเร็งหลอดอาหาร/ กระดูก) ไม่ใช่ชื่อของก้อนในตับ · จะถูกถ้าถามการกระจายไปต่อมน้ำเหลืองชั้นที่สองโดยชั้นแรกไม่มีมะเร็ง",
-   "E": "Satellite lesion คือก้อนเล็กรอบก้อนหลักของ HCC หรือ melanoma ไม่ใช่ศัพท์ของ colorectal metastasis · จะถูกถ้าถามก้อนเล็ก ๆ รอบ HCC ก้อนใหญ่ในตับ"
+   "B": "Metachronous metastasis คือการแพร่กระจายที่ตรวจพบหลังจากรักษา primary ไปแล้ว (มักหลัง 3–6 เดือน) ระหว่างการติดตาม ไม่ใช่พบใน staging ครั้งแรก · จะถูกถ้าเป็นหญิง 62 ปีที่ผ่าตัด sigmoid colon cancer stage III และได้เคมีบำบัดครบ 18 เดือนต่อมา CEA สูงขึ้นและ CT พบก้อนใหม่ที่ตับ 2 ก้อน",
+   "C": "Multiple primary liver cancers หมายถึง HCC หลายก้อนที่เกิดขึ้นเองหลายจุด (multicentric) ในตับที่มีพื้นโรค เช่น ตับแข็งจาก HBV/HCV ไม่ใช่ก้อนที่มาจาก colon · จะถูกถ้าเป็นชาย 58 ปี HBV carrier ตับแข็ง AFP สูง CT พบก้อน arterial enhancement และ washout หลายตำแหน่งแยกกันในตับ",
+   "D": "Skip metastasis คือการกระจายไปต่อมน้ำเหลืองสถานีไกลโดยข้ามสถานีแรก (เช่น papillary thyroid cancer ไป lateral neck โดย central neck ไม่มี) เป็นศัพท์ของ lymphatic spread ไม่ใช่ก้อนในตับ · จะถูกถ้าเป็นหญิง 35 ปี papillary thyroid carcinoma ที่ผ่าตัดพบ lateral neck node มีมะเร็งแต่ central compartment node ปกติ",
+   "E": "Satellite lesions คือก้อนเล็กที่อยู่ใกล้ก้อนหลักของ primary liver tumor (เช่น HCC) สะท้อน microvascular invasion และพยากรณ์แย่ ไม่ใช่ metastasis จาก colon ที่กระจายทั่วตับ · จะถูกถ้าเป็นชาย 60 ปีตับแข็ง CT พบ HCC 6 cm ที่ segment VI มีก้อนเล็ก 2–3 ก้อนอยู่ติดรอบก้อนหลัก"
   },
-  "trap": "สับสน synchronous กับ metachronous — synchronous = เจอพร้อมกันตอนวินิจฉัย",
+  "trap": "Synchronous กับ metachronous สับสนง่ายเพราะคล้ายกัน และ synchronous ยังใช้กับ <b>synchronous colorectal cancer</b> (มะเร็ง primary 2 ก้อนใน colon พร้อมกัน ราว 3–5%) · ให้ยึด<b>เวลาที่ตรวจพบ</b>: พบตอนวินิจฉัย/staging = synchronous, พบระหว่างติดตามหลังรักษา = metachronous · ส่วน satellite/skip/multicentric เป็นศัพท์คนละเรื่อง",
   "summary": [
-   "Synchronous: พบ metastasis พร้อม/ ใกล้เวลาวินิจฉัยต้นกำเนิด (≤ 3–6 เดือน)",
-   "Metachronous: พบหลังรักษาต้นกำเนิดไปแล้ว",
-   "CRC ~15–25% มี liver metastasis ตอนวินิจฉัย · รวมตลอดโรค ~50%",
-   "Synchronous ตัดได้ → simultaneous · colon-first · liver-first + perioperative chemo",
-   "คำเดียวกันใช้กับ second primary: synchronous/ metachronous cancer",
-   "Synchronous colon cancer (ต้นกำเนิด 2 ก้อนพร้อมกัน) ~3–5% → colonoscopy ทั้งลำไส้ก่อนผ่าตัด"
+   "Synchronous metastasis = พบก่อน/พร้อมการวินิจฉัย primary (บางนิยามรวมภายใน 3–6 เดือน) · metachronous = พบหลังรักษา primary ไปแล้ว",
+   "CRC ไปตับบ่อยสุดผ่าน portal venous drainage · rectum ส่วนล่างระบายผ่าน middle/inferior rectal vein เข้า systemic จึงไปปอดได้โดยตรง",
+   "ราว 15–25% ของ CRC มี synchronous liver metastasis ตอนวินิจฉัย · ราว 50% เกิด liver metastasis ตลอดช่วงโรค",
+   "Resectability: เอาออกได้หมด R0 + future liver remnant เพียงพอ (≥ 20–25% ตับปกติ, ≥ 30% หลังเคมีบำบัด, ≥ 40% ตับแข็ง) + เก็บ inflow/outflow/biliary drainage ได้",
+   "FLR ไม่พอ → portal vein embolization หรือ two-stage hepatectomy · resect ได้ + เคมีบำบัด 5-year survival ราว 40–50%",
+   "ลำดับผ่าตัด synchronous: classic (primary ก่อน) · simultaneous (ทำพร้อมกันถ้า hepatectomy ไม่ใหญ่) · liver-first (primary ไม่มีอาการ ภาระโรคตับมาก)",
+   "Synchronous colorectal cancer (primary หลายก้อนใน colon) ราว 3–5% → ต้อง colonoscopy ให้ตลอดก่อนผ่าตัด หรือภายใน 3–6 เดือนหลังผ่าตัดถ้าก้อนอุดจนส่องไม่ผ่าน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับช้อยที่ผู้จดพิมพ์ไว้ช้อยเดียว และนิยามในตำรา · แต่งช้อย B–E ด้วยศัพท์ที่สับสนได้",
-  "mnemonic": "<b>'Syn = พร้อมกัน (same time) · Meta = มาทีหลัง (after)'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025 — Management of synchronous metastatic disease; Blumgart's Surgery of the Liver, Biliary Tract and Pancreas 7th ed. (2023) — Colorectal liver metastases",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ตัวพิมพ์ใส่ช้อยไว้ช้อยเดียวคือ synchronous metastasis ซึ่งตรงกับนิยามในตำราว่าการแพร่กระจายที่พบพร้อมการวินิจฉัย primary · ช้อย B–E เว็บแต่งเพิ่มด้วยศัพท์ที่สับสนได้ (metachronous, multicentric, skip, satellite) เพื่อให้แยกนิยามได้ชัด",
+  "mnemonic": "<b>'Syn = Same time (พบพร้อมกัน) · Meta = later (มาทีหลัง)'</b>",
+  "guide": "NCCN Guidelines Colon Cancer v.2025 (Synchronous/Metachronous metastatic disease); Blumgart's Surgery of the Liver, Biliary Tract and Pancreas 7th ed. (2023); Sabiston Textbook of Surgery 21st ed. (2022) — The Liver",
   "variants": [
-   "ผ่าตัดมะเร็งลำไส้ไป 2 ปี CT ติดตามเจอก้อนในตับใหม่ → metachronous metastasis",
-   "Colonoscopy ก่อนผ่าตัดเจอมะเร็ง 2 ก้อนที่ sigmoid และ cecum → synchronous colon cancer",
-   "มะเร็ง sigmoid + liver met 2 ก้อนที่ตับขวา ตัดได้ → simultaneous resection หรือ staged ร่วมกับเคมี"
+   "Sigmoid cancer ไม่มีอาการอุดตัน + liver metastasis 6 ก้อนทั้ง 2 กลีบ FLR ก้ำกึ่ง → systemic chemotherapy ก่อนแล้วประเมิน resectability ใหม่ (± liver-first)",
+   "Sigmoid cancer อุดตันลำไส้ + liver metastasis 2 ก้อน resect ได้ → แก้อุดตันและตัด primary ก่อน (classic) แล้วผ่าตัดตับภายหลังร่วมกับเคมีบำบัด",
+   "FLR หลังวางแผน right hepatectomy เหลือ 18% ในตับปกติ → portal vein embolization ฝั่งขวาให้ตับซ้ายโตก่อนผ่าตัด",
+   "Colonoscopy ก่อนผ่าตัดพบมะเร็งที่ sigmoid และอีกก้อนที่ ascending colon → synchronous colorectal cancer (primary 2 ก้อน) ต้องวางแผนผ่าตัดครอบทั้งสองตำแหน่ง"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf (ส่วน Gen Sx) หน้า 46 — ตัวพิมพ์: <b>เป็น sigmoid ca + เจอที่ตับหลายก้อนเรียกว่าไร — 1.synchronous metastasis (พิมพ์ต่อในช่องเดียวกับแถว Liver 2 ไม่มีเลขข้อ)</b><br>ช่องเฉลย: ว่าง · ไม่มีไฟล์เฉลยของส่วน Gen Sx<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด)",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 46 (ส่วน Gen Sx) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -96,30 +102,32 @@
   ]
  },
  "MDCU79|RoD|Uro 1": {
-  "interp": "ชาย 65 ปี LUTS DRE ต่อมลูกหมากโตเล็กน้อย <b>PSA 12 ng/mL</b> ไม่มี UTI → ถามการจัดการ ต้องรู้ว่า PSA สูงต้องหามะเร็ง",
-  "why": "PSA > 4 ng/mL (หรือสูงกว่าค่าตามอายุ) <b>โดยไม่มีสาเหตุอื่น</b> (UTI, prostatitis, เพิ่งใส่สาย/ ส่องกล้อง) → ต้องหา <b>prostate cancer</b> · ค่า 12 สูงเกินกว่าที่จะอธิบายด้วย BPH เล็กน้อย · แนวทางปัจจุบันคือ <b>pre-biopsy multiparametric MRI</b> ก่อน แล้วทำ <b>targeted ± systematic biopsy</b> (ทาง transperineal ลดติดเชื้อ) · MRI ช่วยลดการ biopsy ที่ไม่จำเป็นและหามะเร็งที่มีนัยสำคัญได้ดีกว่า · ห้ามให้ 5-ARI ก่อนหาสาเหตุ เพราะยาลด PSA ลงครึ่งหนึ่ง บังมะเร็ง · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 1 C\"</b> = MRI prostate + biopsy ตรงกับคำตอบ",
+  "interp": "ชาย 65 ปี มี LUTS (ปัสสาวะบ่อย ลำอ่อน ตื่นกลางคืน) DRE ต่อมลูกหมากโตเล็กน้อย <b>PSA 12 ng/mL</b> ไม่มีอาการติดเชื้อ — ถามการจัดการที่เหมาะสม ประเด็นจริงคือ PSA สูงเกินเกณฑ์อย่างมีนัยต้อง<b>หามะเร็งต่อมลูกหมาก</b>ก่อนจะรักษาเป็น BPH",
+  "why": "PSA เป็น organ-specific แต่ไม่ cancer-specific สูงได้จาก BPH, prostatitis, การสวนปัสสาวะ หรือ retention · อย่างไรก็ตาม PSA 12 ng/mL (เกินทั้งเกณฑ์ 4 และค่าตามอายุ 60–69 ปีที่ราว 4.5) ในคนไม่มีการติดเชื้อมีโอกาสเป็นมะเร็งสูง — กลุ่ม PSA &gt; 10 พบมะเร็งได้ราวครึ่งหนึ่ง และ DRE ที่ปกติหรือโตเรียบไม่ตัดมะเร็งเพราะคลำได้แค่ด้านหลังของต่อม · แนวทางปัจจุบัน (EAU 2024): ตรวจ PSA ซ้ำยืนยันในไม่กี่สัปดาห์ แล้วทำ <b>multiparametric/biparametric MRI ก่อน biopsy</b> → PI-RADS ≥ 3 ทำ <b>MRI-targeted ร่วมกับ systematic biopsy</b> (แนะนำ transperineal เพราะติดเชื้อน้อยกว่า transrectal) · MRI ช่วยลดการเจาะที่ไม่จำเป็นและลดการพบมะเร็งที่ไม่มีนัยสำคัญ ขณะเพิ่มการพบ clinically significant cancer (ISUP grade ≥ 2) · การให้ยา BPH ก่อนโดยไม่หามะเร็งทำให้วินิจฉัยช้า · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"1 C\"</b> (ช่องเฉลยในตารางว่าง)",
   "wrong": {
-   "A": "5-ARI ลด PSA ~50% ทำให้มะเร็งถูกบดบัง ต้องหาสาเหตุ PSA สูงก่อน · จะถูกถ้าชาย BPH ต่อมใหญ่ > 40 g PSA ปกติตามอายุ อาการปานกลาง และตรวจแล้วไม่มีมะเร็ง",
-   "B": "Alpha-blocker รักษาอาการ LUTS แต่ไม่แก้ปัญหา PSA สูงที่ต้องหามะเร็ง · จะถูกถ้าชาย LUTS ปานกลาง DRE เรียบ PSA ปกติ ไม่มีภาวะแทรกซ้อน",
-   "D": "ให้ยาปฏิชีวนะ \"เพื่อลด PSA\" โดยไม่มีหลักฐานติดเชื้อไม่แนะนำ และทำให้วินิจฉัยช้า · จะถูกถ้ามีไข้ ปัสสาวะแสบ ต่อมลูกหมากกดเจ็บ (acute prostatitis) — รักษาแล้วรอ 6–8 สัปดาห์จึงตรวจ PSA ซ้ำ",
-   "E": "TURP รักษา BPH ที่มีภาวะแทรกซ้อน ไม่ใช่วิธีวินิจฉัยมะเร็ง และผู้ป่วยไม่มีข้อบ่งชี้ผ่าตัด · จะถูกถ้ามี retention ซ้ำหรือนิ่วในกระเพาะ และหามะเร็งแล้วไม่พบ"
+   "A": "5-ARI (finasteride, dutasteride) ลดขนาดต่อมและ<b>ลด PSA ราวครึ่งหนึ่ง</b>ใน 6–12 เดือน จึงบดบังมะเร็งถ้าเริ่มยาโดยไม่ประเมิน PSA ที่สูงก่อน และออกฤทธิ์ช้าหลายเดือน · จะถูกถ้าเป็นชาย 70 ปี LUTS ปานกลาง ต่อมโต &gt; 40 mL PSA 2.5 ng/mL ซึ่งเหมาะกับ BPH ที่ต่อมใหญ่ (ใช้ร่วม alpha-blocker ได้)",
+   "B": "Alpha-blocker (tamsulosin) เป็นยาแรกของ LUTS จาก BPH ออกฤทธิ์ในไม่กี่วัน และประเมินผลที่ 2–6 สัปดาห์ แต่ไม่ได้แก้ปัญหา PSA 12 ที่ต้องหามะเร็ง · จะถูกถ้าเป็นชาย 62 ปี ปัสสาวะลำอ่อน ตื่นกลางคืน 2 ครั้ง IPSS 14 DRE ต่อมโตเรียบ PSA 1.8 ng/mL UA ปกติ",
+   "D": "Antibiotics 4–6 สัปดาห์ใช้กับ chronic bacterial prostatitis ที่มีอาการและเพาะเชื้อยืนยัน การให้ยาฆ่าเชื้อเพื่อ \"ลด PSA\" ในคนไม่มีอาการติดเชื้อไม่แนะนำ และ PSA ที่ลดลงไม่ได้ตัดมะเร็ง · จะถูกถ้าเป็นชาย 45 ปี ปวดฝีเย็บและปวดหลังหลั่งน้ำอสุจิเป็นซ้ำหลายเดือน มี UTI ซ้ำด้วยเชื้อเดิม และ Meares-Stamey test พบเชื้อในน้ำหลั่งต่อมลูกหมาก",
+   "E": "TURP เป็นการผ่าตัด BPH สำหรับข้อบ่งชี้ เช่น refractory urinary retention, UTI ซ้ำ, นิ่วกระเพาะปัสสาวะ, hematuria ซ้ำ, ไตเสื่อมจากการอุดกั้น หรือดื้อยา — ไม่ใช่ขั้นแรกใน LUTS ที่ยังไม่ได้ลองยาและยังไม่ได้แยกมะเร็ง · จะถูกถ้าเป็นชาย 72 ปีที่ PSA ปกติ (หรือ biopsy ไม่พบมะเร็ง) ปัสสาวะไม่ออกซ้ำ 2 ครั้งแม้ได้ alpha-blocker และถอดสายสวนไม่ผ่าน"
   },
-  "trap": "คิดว่า DRE โตเล็กน้อย = BPH จึงให้ยา — PSA 12 ต้องหามะเร็งก่อนเสมอ",
+  "trap": "อาการ LUTS + ต่อมโต ชวนให้จบที่ BPH แล้วเลือกยา (A, B) หรือ TURP · แต่ตัวเลขที่ชี้ขาดคือ <b>PSA 12</b> โดยไม่มีการติดเชื้อ ซึ่งต้องหามะเร็งก่อน · BPH และมะเร็งต่อมลูกหมากอยู่ร่วมกันได้และมะเร็งระยะต้นไม่มีอาการ อาการ LUTS ส่วนใหญ่จึงมาจาก BPH ที่ร่วมอยู่",
   "summary": [
-   "PSA สูงโดยไม่มีสาเหตุชัด → mpMRI ก่อน biopsy",
-   "PI-RADS ≥ 3 → targeted ± systematic biopsy (transperineal ลดติดเชื้อ)",
-   "ค่าที่ช่วย: PSA density > 0.15 · free/total PSA ต่ำ · PSA velocity",
-   "สาเหตุ PSA สูงอื่น: BPH · prostatitis · UTI · ใส่สาย/ ส่องกล้อง · retention",
-   "5-ARI ลด PSA ~50% — คูณ 2 เมื่อแปลผล",
-   "DRE ผิดปกติ (ก้อนแข็ง) → biopsy แม้ PSA ปกติ"
+   "PSA สูงได้จากมะเร็ง, BPH, prostatitis, retention, การสวนหรือส่องกล้อง · ก่อนตัดสินใจ biopsy ควรตรวจ PSA ซ้ำยืนยันและแยกการติดเชื้อ",
+   "ค่า PSA ตามอายุโดยประมาณ: 40–49 ปี ≤ 2.5 · 50–59 ≤ 3.5 · 60–69 ≤ 4.5 · 70–79 ≤ 6.5 ng/mL · PSA density &gt; 0.15–0.20 ng/mL/cc เพิ่มความเสี่ยงมะเร็ง",
+   "Pathway ปัจจุบัน: PSA ผิดปกติ → MRI prostate ก่อน biopsy → PI-RADS ≥ 3 targeted + systematic biopsy · PI-RADS 1–2 และ PSA density ต่ำ อาจละเว้น biopsy แล้วติดตาม",
+   "แนะนำ transperineal biopsy มากกว่า transrectal เพราะติดเชื้อและ sepsis น้อยกว่า · ผลชิ้นเนื้อรายงาน Gleason/ ISUP grade group 1–5",
+   "5-ARI ลด PSA ราว 50% หลังใช้ 6–12 เดือน → ต้องคูณ 2 เมื่อแปลผล PSA ในคนที่ใช้ยา",
+   "BPH: alpha-blocker ช่วยอาการเร็ว · 5-ARI สำหรับต่อม &gt; 40 mL ลดความเสี่ยง retention และการผ่าตัด · combination ดีที่สุดในต่อมใหญ่อาการมาก",
+   "DRE ผิดปกติ (ก้อนแข็ง ขรุขระ) เป็นข้อบ่งชี้ biopsy ได้เองแม้ PSA ปกติ เพราะมะเร็งบางชนิดสร้าง PSA น้อย"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ EAU Prostate Cancer Guidelines 2024",
-  "mnemonic": "<b>'PSA สูง = MRI ก่อน แล้วค่อยเจาะ'</b>",
-  "guide": "EAU–EANM–ESTRO–ESUR–ISUP–SIOG Guidelines on Prostate Cancer 2024 — Diagnostic evaluation",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"1 C\") และ EAU Prostate Cancer Guidelines 2024 ที่ให้ทำ MRI ก่อน biopsy ใน PSA ผิดปกติ · ในทางปฏิบัติควรตรวจ PSA ซ้ำยืนยันก่อน แต่ไม่มีช้อยนี้ และ PSA 12 ที่ไม่มีการติดเชื้อก็สูงพอจะเดินหน้าหามะเร็ง",
+  "mnemonic": "<b>'PSA สูง → MRI ก่อน → เจาะตามเป้า (Image before you stab)'</b>",
+  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2024; EAU Guidelines on Management of Non-neurogenic Male LUTS 2024; Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "ชาย 70 ปี DRE ก้อนแข็งเหมือนไม้ PSA 3 → biopsy",
-   "ชายไข้ ปัสสาวะแสบ ต่อมลูกหมากกดเจ็บ PSA 25 → รักษา prostatitis แล้วตรวจ PSA ซ้ำ 6–8 สัปดาห์",
-   "MRI PI-RADS 2 PSA density 0.08 → ติดตาม PSA ไม่ต้อง biopsy ทันที"
+   "PSA 7 ng/mL MRI พบ PI-RADS 5 ขนาด 1.5 cm ที่ peripheral zone → MRI-targeted + systematic biopsy (transperineal)",
+   "PSA 5 ng/mL ต่อม 80 mL MRI PI-RADS 2 PSA density 0.06 → ละเว้น biopsy ได้ ติดตาม PSA และรักษา LUTS แบบ BPH",
+   "ชายกิน finasteride มา 1 ปี PSA 3 ng/mL → แปลผลเหมือน PSA ราว 6 ng/mL ต้องประเมินมะเร็งต่อ",
+   "ชาย 68 ปี ไข้สูง ปัสสาวะแสบขัด ต่อมกดเจ็บ PSA 25 → acute bacterial prostatitis ห้ามนวดต่อม ให้ยาฆ่าเชื้อ แล้วตรวจ PSA ซ้ำหลังหายหลายสัปดาห์ก่อนตัดสินใจ biopsy"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 2 แถว Uro 1 — ตัวพิมพ์: <b>ชายอายุ 65 ปี มาด้วยอาการ LUTS (ปัสสาวะบ่อย ลำปัสสาวะอ่อน ตื่นกลางคืนปัสสาวะ) ตรวจ DRE พบ prostate โตเล็กน้อย (mildly enlarged) ผล PSA 12 ng/mL ไม่มีอาการและอาการแสดงของ UTI การจัดการที่เหมาะสมที่สุดคือข้อใด — A. 5-alpha reductase inhibitor แล้วติดตามอาการ 3 เดือน B. Alpha-blocker แล้วติดตามอาการ 6 เดือน C. MRI prostate + biopsy D. ให้ antibiotic 4–6 สัปดาห์ แล้วตรวจ PSA ซ้ำเพียงอย่างเดียว E. TURP</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 2 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -129,30 +137,32 @@
   ]
  },
  "MDCU79|RoD|Uro 2": {
-  "interp": "ชาย 28 ปีคลำก้อนแข็งไม่เจ็บที่อัณฑะ US เห็น hypoechoic lesion ขอบไม่เรียบ<b>ในเนื้ออัณฑะ</b> ส่ง tumor marker แล้ว → ถามขั้นต่อไป",
-  "why": "ก้อนแข็งไม่เจ็บ<b>ในเนื้ออัณฑะ (intratesticular)</b> ที่ US เห็น hypoechoic = <b>มะเร็งอัณฑะจนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> (germ cell tumor พบบ่อยสุดในชาย 15–35 ปี) · ขั้นต่อไปหลังส่ง tumor marker (AFP, β-hCG, LDH) คือ <b>radical inguinal orchiectomy</b> — ผ่าทาง<b>ขาหนีบ</b> คุม spermatic cord ที่ internal ring ก่อน แล้วตัดอัณฑะพร้อม cord · เป็นทั้งการวินิจฉัย (พยาธิ) และรักษา · <b>ห้ามผ่าหรือเจาะผ่านถุงอัณฑะ</b> เพราะเปลี่ยนทางระบายน้ำเหลืองไปที่ขาหนีบ ทำให้มะเร็งกระจายเฉพาะที่ · หลังผ่าตัดทำ CT ทรวงอก/ ช่องท้อง/ อุ้งเชิงกราน และ marker ซ้ำเพื่อ staging · เสนอเก็บอสุจิก่อนผ่าตัด · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 2 D\"</b> = Radical (inguinal) orchiectomy",
+  "interp": "ชาย 28 ปี คลำพบ<b>ก้อนแข็งไม่เจ็บในอัณฑะ</b> US พบ hypoechoic intratesticular lesion ขอบไม่เรียบ ส่ง tumor marker แล้ว — ถาม next step ซึ่งก้อนในเนื้ออัณฑะถือเป็น germ cell tumor จนกว่าจะพิสูจน์ได้ และต้องได้ทั้งการวินิจฉัยและรักษาด้วยการผ่าตัดทาง inguinal",
+  "why": "ก้อนแข็งไม่เจ็บ<b>ใน</b>เนื้ออัณฑะ (intratesticular) ในชายอายุ 15–35 ปี ร่วมกับ US พบ hypoechoic lesion ถือเป็น <b>testicular germ cell tumor</b> (ราว 95% ของมะเร็งอัณฑะ) จนกว่าจะพิสูจน์ได้ · ขั้นตอนมาตรฐาน: ส่ง <b>AFP, β-hCG, LDH ก่อนผ่าตัด</b> → <b>radical inguinal orchiectomy</b> ผ่าแผลที่ขาหนีบ ผูก spermatic cord สูงที่ internal inguinal ring ก่อนดึงอัณฑะขึ้นมา (ควบคุมหลอดเลือดและท่อน้ำเหลืองก่อนจับก้อน) ได้ทั้ง histology และ local control · <b>ห้ามผ่าหรือเจาะผ่านถุงอัณฑะ</b> เพราะทำให้เกิด tumor seeding และเปลี่ยนทางระบายน้ำเหลืองไปที่ inguinal node · ควรเสนอ sperm banking ก่อนผ่าตัดและเสนอใส่ prosthesis · หลังผ่าตัดตรวจ marker ซ้ำตาม half-life (AFP 5–7 วัน, β-hCG 1–3 วัน) และ CT chest/abdomen/pelvis เพื่อ staging · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"2 D\"</b> (ตัวพิมพ์หมายเหตุว่าโจทย์ไม่มีช้อยส่ง tumor marker)",
   "wrong": {
-   "A": "ภาพเห็นก้อนในเนื้ออัณฑะชัดแล้ว ทำ Doppler ซ้ำไม่เปลี่ยนการจัดการและทำให้ล่าช้า · จะถูกถ้าปวดอัณฑะเฉียบพลันและสงสัย torsion (Doppler ดูเลือดไปเลี้ยง)",
-   "B": "MRI ใช้เมื่อ US กำกวม (เช่น แยก benign lesion) ไม่จำเป็นเมื่อ US บ่งชี้มะเร็งชัด · จะถูกถ้า US เห็นรอยโรคขนาดเล็กไม่ชัดว่าอยู่ในหรือนอกเนื้ออัณฑะ",
-   "C": "เจาะผ่านถุงอัณฑะห้ามทำเพราะเปลี่ยนทางระบายน้ำเหลืองและเสี่ยงฝังมะเร็งที่ผิวถุง · จะถูกถ้าไม่มีสถานการณ์ใดที่เลือก transscrotal biopsy ในก้อนสงสัยมะเร็งอัณฑะ",
-   "E": "ให้ยาปฏิชีวนะแล้วนัด US ซ้ำใช้กับ epididymo-orchitis ที่ปวดบวมแดง ไข้ ก้อนนี้ไม่เจ็บและอยู่ในเนื้ออัณฑะ · จะถูกถ้าชาย 25 ปีอัณฑะบวมปวด ไข้ ปัสสาวะแสบ US เห็น epididymis บวมเลือดมาก"
+   "A": "Doppler US ใช้ดูการไหลเวียนเลือด เช่น แยก torsion (ไม่มี flow) จาก epididymo-orchitis (flow เพิ่ม) แต่ US ครั้งแรกก็ระบุก้อนในเนื้ออัณฑะชัดแล้ว ทำซ้ำไม่เปลี่ยนการรักษาและทำให้ช้า · จะถูกถ้าเป็นเด็กชาย 14 ปี ปวดอัณฑะซ้ายเฉียบพลัน 3 ชั่วโมง อาเจียน อัณฑะยกสูง cremasteric reflex หาย และ US ครั้งแรกเห็นไม่ชัด (แต่ถ้าสงสัย torsion มากควรผ่าตัดสำรวจเลย)",
+   "B": "MRI testis ใช้เป็น problem-solving เมื่อ US ก้ำกึ่ง เช่น แยก lesion นอกเนื้ออัณฑะ, segmental infarction หรือ lesion เล็กมากที่ไม่ชัด — ไม่จำเป็นเมื่อ US และอาการบ่งมะเร็งชัด · จะถูกถ้าเป็นชาย 35 ปีที่ US พบ lesion 5 mm ขอบเรียบไม่แน่ใจว่าเป็น segmental infarction หรือก้อน marker ปกติ และต้องการตัดสินใจ testis-sparing surgery",
+   "C": "Transscrotal biopsy เป็นข้อห้าม เพราะทำให้มะเร็งแพร่ในถุงอัณฑะและเปลี่ยน lymphatic drainage ไปสู่ inguinal node ทำให้ต้องเพิ่มขอบเขตการรักษา · จะถูกถ้าเป็นชาย 32 ปีมีบุตรยาก azoospermia (ไม่มีก้อน) ที่ต้อง testicular sperm extraction หรือ biopsy ประเมินการสร้างอสุจิ",
+   "E": "ยาฆ่าเชื้อแล้วนัด US ใช้กับ epididymo-orchitis ที่ปวด บวม แดง มีไข้หรือ pyuria และ US เห็น epididymis โต flow เพิ่ม · ก้อนแข็งไม่เจ็บไม่ใช่ภาพการติดเชื้อ และการรอ 2 สัปดาห์ทำให้วินิจฉัยมะเร็งช้า · จะถูกถ้าเป็นชาย 25 ปี มีเพศสัมพันธ์ไม่ป้องกัน ปวดและบวมถุงอัณฑะ 2 วัน ไข้ ปัสสาวะแสบ Prehn sign บวก US พบ epididymis โต hyperemia"
   },
-  "trap": "เลือก biopsy เพราะคิดว่าต้องได้ชิ้นเนื้อก่อนตัด — มะเร็งอัณฑะใช้ radical inguinal orchiectomy เป็นทั้งการวินิจฉัยและรักษา",
+  "trap": "อยากได้ชิ้นเนื้อยืนยันก่อนตัดอวัยวะจึงเลือก biopsy หรืออยากตรวจเพิ่ม (Doppler/MRI) · แต่ในมะเร็งอัณฑะ <b>orchiectomy คือทั้งการวินิจฉัยและการรักษา</b> และต้องทำผ่าน <b>inguinal</b> เท่านั้น เพราะการผ่าผ่านถุงอัณฑะเปลี่ยนทางระบายน้ำเหลืองและเพิ่มการกลับเป็นซ้ำเฉพาะที่",
   "summary": [
-   "ก้อนแข็งไม่เจ็บในเนื้ออัณฑะ = มะเร็งจนพิสูจน์ได้ว่าไม่ใช่",
-   "ส่ง AFP · β-hCG · LDH ก่อนผ่าตัด",
-   "Radical inguinal orchiectomy: คุม cord ที่ internal ring ก่อน · ห้ามผ่าทางถุงอัณฑะ",
-   "Seminoma: AFP ปกติเสมอ · NSGCT: AFP และ/ หรือ β-hCG สูง",
-   "Staging: CT C/A/P · marker หลังผ่าตัด · เก็บอสุจิก่อนรักษา",
-   "ทางระบายน้ำเหลือง: retroperitoneum (ขวา interaortocaval · ซ้าย para-aortic)"
+   "มะเร็งอัณฑะพบบ่อยสุดในชาย 15–35 ปี · ปัจจัยเสี่ยง: cryptorchidism (แม้ทำ orchiopexy แล้ว), ประวัติมะเร็งอัณฑะอีกข้าง, ญาติสายตรงเป็น, Klinefelter syndrome, germ cell neoplasia in situ",
+   "Germ cell tumor ราว 95%: seminoma (ไวต่อรังสีและ platinum) กับ non-seminoma (embryonal, yolk sac, choriocarcinoma, teratoma)",
+   "Tumor markers: AFP สูง = มี non-seminoma component เสมอ (pure seminoma AFP ไม่สูง) · β-hCG สูงได้ทั้งสองกลุ่ม (สูงมากใน choriocarcinoma) · LDH สะท้อนภาระโรค",
+   "ตรวจ marker ก่อนและหลัง orchiectomy · half-life AFP 5–7 วัน, β-hCG 1–3 วัน · marker ที่ไม่ลดตาม half-life บ่งว่ามีโรคหลงเหลือ",
+   "Radical inguinal orchiectomy: แผลขาหนีบ ผูก cord สูงที่ internal ring · ห้าม scrotal violation · เสนอ sperm banking และ testicular prosthesis",
+   "Staging: CT chest/abdomen/pelvis + marker หลังผ่าตัด → ใช้ TNM + S (serum marker) และ IGCCCG risk สำหรับโรคแพร่กระจาย",
+   "Testis-sparing surgery พิจารณาเฉพาะก้อนเล็กในอัณฑะข้างเดียวที่เหลือ หรือ bilateral tumor ที่ marker ปกติ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ EAU Testicular Cancer Guidelines · ต้นฉบับหมายเหตุว่าไม่มีช้อยส่ง tumor marker จึงระบุใน stem ว่าส่งไปแล้ว",
-  "mnemonic": "<b>'ก้อนในอัณฑะ = ตัดทางขาหนีบ ห้ามแทงผ่านถุง'</b>",
-  "guide": "EAU Guidelines on Testicular Cancer 2024; NCCN Clinical Practice Guidelines in Oncology: Testicular Cancer v.2024",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"2 D\") และ EAU Testicular Cancer Guidelines · ตัวพิมพ์ต้นฉบับหมายเหตุว่าไม่มีช้อยส่ง tumor marker เว็บจึงเขียนใน stem ว่าส่ง marker ไปแล้ว ทำให้ขั้นต่อไปคือ inguinal orchiectomy ได้ชัดเจน",
+  "mnemonic": "<b>'ก้อนแข็งในอัณฑะ = Marker → Inguinal orchiectomy · Never cut the Scrotum'</b>",
+  "guide": "EAU Guidelines on Testicular Cancer 2024; AUA/ASTRO/SUO Guideline on Diagnosis and Treatment of Early Stage Testicular Cancer 2023; Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "ชาย 30 ปีก้อนอัณฑะ AFP 800 → non-seminoma (yolk sac component)",
-   "หลัง orchiectomy พยาธิ seminoma stage I → surveillance หรือ carboplatin 1 รอบ",
-   "ชาย 16 ปีปวดอัณฑะเฉียบพลัน 3 ชม. อัณฑะยกสูง cremasteric reflex หาย → scrotal exploration ด่วน (torsion)"
+   "ชาย 30 ปี ก้อนในอัณฑะ AFP 900 ng/mL พยาธิหลังผ่าตัดเป็น \"pure seminoma\" → ต้องรักษาเป็น non-seminoma เพราะ AFP สูงบ่งว่ามี non-seminoma component",
+   "ชาย 24 ปี ก้อนอัณฑะ + ไอเป็นเลือด CXR มีก้อนในปอดหลายก้อน β-hCG สูงมาก → choriocarcinoma/ non-seminoma ระยะแพร่กระจาย ยังต้อง orchiectomy (หรือเคมีก่อนถ้าอาการหนัก) + BEP",
+   "ชายที่เคยทำ orchiopexy ตอนเด็ก อายุ 22 ปีกังวลเรื่องมะเร็ง → สอนตรวจคลำอัณฑะตัวเอง ความเสี่ยงยังสูงกว่าคนทั่วไปแม้ทำ orchiopexy แล้ว",
+   "ทำไม AFP สูงจึงไม่ใช่ pure seminoma → AFP มาจาก yolk sac/ embryonal element ซึ่ง seminoma ไม่มี"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 2 แถว Uro 2 — ตัวพิมพ์: <b>ชายอายุ 28 ปี คลำพบก้อนแข็งไม่เจ็บที่ลูกอัณฑะข้างหนึ่ง ทำ scrotal ultrasound พบ hypoechoic lesion ที่มี irregular border อยู่ใน testis ข้อใดเป็น next management ที่เหมาะสมที่สุด (โจทย์ไม่มีช้อยส่ง tumor marker) — A. Doppler ultrasound ซ้ำ B. MRI testis C. Transscrotal needle biopsy D. Radical (inguinal) orchiectomy E. ให้ antibiotic แล้วทำ ultrasound ซ้ำใน 2 สัปดาห์</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 2 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -162,30 +172,32 @@
   ]
  },
  "MDCU79|RoD|Uro 3": {
-  "interp": "ถามตำแหน่งต่อมน้ำเหลืองที่<b>ไม่ใช่</b>ที่กระจายบ่อยของ non-seminomatous germ cell tumor ของอัณฑะ",
-  "why": "อัณฑะเจริญมาจากบริเวณไตแล้วเคลื่อนลงถุง จึงระบายน้ำเหลืองตาม gonadal vessel <b>ขึ้นไปที่ retroperitoneum</b> ไม่ใช่ขาหนีบ · อัณฑะ<b>ขวา → interaortocaval</b> (ตามด้วย paracaval, precaval) · อัณฑะ<b>ซ้าย → para-aortic</b> ใต้ left renal vein · จาก retroperitoneum ไปต่อที่ <b>supraclavicular (ซ้าย)</b> ผ่าน thoracic duct และ mediastinum · ต่อมน้ำเหลือง<b>ขาหนีบ</b>ได้รับน้ำเหลืองจากผิวถุงอัณฑะ จะเกี่ยวข้องก็ต่อเมื่อก้อนลามถึงผิวถุงอัณฑะ หรือเคยผ่าตัดขาหนีบ/ ถุงอัณฑะ (หรือมีการผ่า transscrotal) จึง<b>ไม่ใช่ตำแหน่งกระจายปกติ</b> · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 3 E\"</b> (Paraaortic LN) ซึ่ง<b>ไม่ตรงกับคำตอบ</b> — para-aortic เป็นตำแหน่งกระจายที่พบบ่อยที่สุดของอัณฑะซ้าย",
+  "interp": "ถามแบบ <b>NOT</b>: ตำแหน่งใด<b>ไม่ใช่</b>ที่แพร่กระจายทางต่อมน้ำเหลืองที่พบบ่อยของ non-seminomatous germ cell tumor ของอัณฑะ — ต้องรู้ว่าอัณฑะเจริญมาจาก retroperitoneum ระดับไต น้ำเหลืองจึงระบายไป retroperitoneal node ไม่ใช่ inguinal",
+  "why": "อัณฑะเกิดจาก gonadal ridge ระดับ L1–L2 แล้วเคลื่อนลงถุงอัณฑะโดยลากหลอดเลือดและท่อน้ำเหลืองตามมา ทางระบายน้ำเหลืองจึงวิ่งตาม gonadal vessels ไป <b>retroperitoneal lymph nodes</b> · อัณฑะ<b>ขวา</b> → <b>interaortocaval</b> เป็นสถานีแรก ตามด้วย paracaval/precaval และข้ามไปซ้ายได้บ่อย · อัณฑะ<b>ซ้าย</b> → <b>para-aortic</b> (left para-aortic/preaortic ใต้ left renal vein) ข้ามไปขวาได้น้อย · จาก retroperitoneum ไปต่อทาง cisterna chyli → thoracic duct → <b>supraclavicular node ด้านซ้าย</b> (non-regional node) และ hematogenous ไปปอด · <b>Inguinal node</b> ไม่ใช่ทางระบายปกติ จะเกี่ยวข้องเมื่อมี scrotal violation (เจาะ/ผ่าผ่านถุงอัณฑะ), เคยผ่าตัดขาหนีบหรือ orchiopexy หรือก้อนลามถึง tunica vaginalis/ผิวถุงอัณฑะ · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"3 E\"</b> (para-aortic) ซึ่งเป็นสถานีหลักของอัณฑะซ้าย เว็บจึงตอบ B",
   "wrong": {
-   "A": "Interaortocaval เป็นสถานีแรกของอัณฑะขวา จึงเป็นตำแหน่งที่พบบ่อย · จะถูกถ้าถามสถานีต่อมน้ำเหลืองแรกของมะเร็งอัณฑะข้างขวา",
-   "C": "Supraclavicular ซ้ายเป็นตำแหน่งกระจายต่อจาก retroperitoneum ผ่าน thoracic duct พบได้ในโรคระยะลุกลาม · จะถูกถ้าถามต่อมน้ำเหลืองนอกช่องท้องที่พบบ่อยในมะเร็งอัณฑะระยะลุกลาม",
-   "D": "Paracaval อยู่ในแนวระบายของอัณฑะขวา พบได้บ่อย · จะถูกถ้าถามตำแหน่งที่อยู่ในเขต RPLND ด้านขวา",
-   "E": "Para-aortic เป็นสถานีแรกของอัณฑะซ้ายและเป็นตำแหน่งที่พบบ่อยที่สุด จึงไม่ใช่คำตอบของข้อ NOT (คีย์ในไฟล์ตอบข้อนี้) · จะถูกถ้าถามสถานีต่อมน้ำเหลืองแรกของมะเร็งอัณฑะข้างซ้าย"
+   "A": "ข้อความถูก: interaortocaval node เป็น primary landing site ของ<b>อัณฑะขวา</b> และเป็นบริเวณที่ต้องเลาะใน RPLND ทุกแบบ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับตำแหน่งแรกที่ควรตรวจหาก้อนใน CT ของชาย 26 ปีที่เป็น non-seminoma อัณฑะขวา",
+   "C": "ข้อความถูก: supraclavicular node (มักด้านซ้าย) เป็นตำแหน่งแพร่กระจายที่รู้จักกันดีผ่าน thoracic duct จัดเป็น non-regional node (M1a) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับตำแหน่งที่ต้องคลำตรวจในชาย 30 ปี non-seminoma ที่มี retroperitoneal node ก้อนใหญ่และ marker สูง",
+   "D": "ข้อความถูก: paracaval (และ precaval) node เป็นส่วนของ landing zone ฝั่งขวาที่รับน้ำเหลืองจากอัณฑะขวาต่อจาก interaortocaval · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับต่อมน้ำเหลืองที่โตใน CT ของชาย 28 ปีที่มี embryonal carcinoma อัณฑะขวา stage II",
+   "E": "ข้อความถูก: para-aortic node (left para-aortic ใต้ left renal vein) เป็น primary landing site ของ<b>อัณฑะซ้าย</b> และเป็นตำแหน่ง metastasis ที่พบบ่อย ไม่ใช่คำตอบของข้อ NOT (คีย์ในไฟล์ตอบ E) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับตำแหน่งแรกที่แพร่กระจายในชาย 25 ปีที่มี non-seminoma อัณฑะซ้าย"
   },
-  "trap": "คิดว่าอัณฑะอยู่ในถุงจึงไปต่อมขาหนีบ — อัณฑะระบายขึ้น retroperitoneum ตาม embryology · คีย์ในไฟล์ตอบ E ซึ่งเป็นตำแหน่งที่พบบ่อยที่สุด",
+  "trap": "คนเลือก inguinal เป็นตำแหน่งแพร่กระจายเพราะคิดว่าถุงอัณฑะอยู่ใกล้ขาหนีบ — ถูกเฉพาะ<b>ผิวถุงอัณฑะ</b> (scrotal skin ระบายไป inguinal) ไม่ใช่เนื้ออัณฑะ · คีย์ในไฟล์ตอบ E (para-aortic) ซึ่งขัดกับ embryology เพราะ para-aortic คือสถานีแรกของอัณฑะซ้าย · จำว่าตำแหน่ง retroperitoneal ทั้งหมด + supraclavicular = ทางปกติ ส่วน inguinal = ผิดปกติ",
   "summary": [
-   "อัณฑะระบายน้ำเหลืองไป retroperitoneum ตาม gonadal vessels",
-   "ขวา → interaortocaval · paracaval · ซ้าย → para-aortic ใต้ renal vein",
-   "ขาหนีบเกี่ยวเมื่อ: ก้อนลามถึงผิวถุง · เคยผ่าขาหนีบ/ ถุงอัณฑะ · ผ่า transscrotal",
-   "ต่อไป: supraclavicular ซ้าย · mediastinum · ปอด",
-   "ผิวถุงอัณฑะ/ องคชาต → inguinal",
-   "RPLND ใช้กับ NSGCT ที่มี residual mass หลังเคมี หรือ stage I บางราย"
+   "น้ำเหลืองอัณฑะตาม gonadal vessels ไป retroperitoneum เพราะอัณฑะเจริญที่ระดับ L1–L2 แล้วเคลื่อนลง · ผิวถุงอัณฑะระบายไป superficial inguinal node",
+   "อัณฑะขวา → interaortocaval (สถานีแรก) → paracaval/precaval · crossover ขวาไปซ้ายพบได้บ่อย",
+   "อัณฑะซ้าย → left para-aortic/preaortic ใต้ left renal vein · crossover ซ้ายไปขวาพบน้อย",
+   "ทางต่อ: retroperitoneal → cisterna chyli → thoracic duct → left supraclavicular node · hematogenous ไปปอดบ่อยสุด ตามด้วยตับ กระดูก สมอง",
+   "Inguinal node involvement บ่งว่ามี scrotal violation, เคยผ่าตัดขาหนีบ/orchiopexy/ hernia repair หรือก้อนลาม tunica vaginalis/ ผิวถุงอัณฑะ",
+   "RPLND: modified template ตามข้างของก้อน + nerve-sparing เพื่อรักษา antegrade ejaculation (sympathetic fiber T12–L3)",
+   "Non-seminoma stage I: surveillance เป็นมาตรฐานในส่วนใหญ่ · มี lymphovascular invasion = ความเสี่ยงกลับเป็นซ้ำสูง พิจารณา BEP 1 รอบ"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (E) — คีย์เฉลยอย่างย่อตอบ para-aortic แต่ para-aortic เป็นสถานีแรกของอัณฑะซ้ายตาม EAU Testicular Cancer Guidelines · ตอบ B (inguinal) ความมั่นใจสูง เป็นตำแหน่งเดียวในช้อยที่ไม่ใช่ทางระบายปกติ",
-  "mnemonic": "<b>'อัณฑะลงมาจากไต → น้ำเหลืองกลับขึ้นไปหาไต ไม่ใช่ขาหนีบ'</b>",
-  "guide": "EAU Guidelines on Testicular Cancer 2024 — Staging; Campbell-Walsh-Wein Urology 12th ed. (2021) — Neoplasms of the testis",
+  "opinion": "เห็นด้วยกับคำตอบ B ในเว็บ ความมั่นใจสูง — ต่างจากคีย์ในไฟล์เฉลยอย่างย่อที่ตอบ 3 E (para-aortic) · ตาม embryology และ EAU Testicular Cancer Guidelines para-aortic เป็นสถานีแรกของอัณฑะซ้ายจึงเป็นตำแหน่งที่พบบ่อย ส่วน inguinal เป็นช้อยเดียวที่ไม่ใช่ทางระบายปกติ คีย์ E น่าจะคลาดเคลื่อน (อาจพิมพ์ผิดตำแหน่งหรือสลับช้อยตอนจด) เว็บจึงตอบ B",
+  "mnemonic": "<b>'ขวา Inter (aortocaval) · ซ้าย Para (aortic) · Inguinal = Intruder (มาเมื่อถุงอัณฑะถูกผ่า)'</b>",
+  "guide": "EAU Guidelines on Testicular Cancer 2024; Campbell-Walsh-Wein Urology 12th ed. (2020) — Surgery of Testicular Tumors/ RPLND; AJCC Cancer Staging Manual 8th ed. (2017) — Testis",
   "variants": [
-   "มะเร็งอัณฑะขวา CT เห็นต่อมโต → interaortocaval",
-   "ผู้ป่วยเคยผ่า orchiopexy ทางขาหนีบ แล้วเป็นมะเร็งอัณฑะ → ต่อมขาหนีบอาจได้รับการกระจาย",
-   "มะเร็งผิวถุงอัณฑะ (squamous cell) → กระจายไปต่อมน้ำเหลืองขาหนีบ"
+   "ชาย 27 ปี non-seminoma อัณฑะซ้าย CT พบ node 3 cm ใต้ left renal vein ข้าง aorta → para-aortic node stage IIB ตามทางระบายปกติ",
+   "ชายที่ถูกผ่าก้อนอัณฑะผ่านถุงอัณฑะที่คลินิกอื่น พยาธิเป็น germ cell tumor ต่อมามี inguinal node โต → ผลจาก scrotal violation",
+   "ชาย 30 ปี seminoma อัณฑะขวา CT ควรมองหาต่อมน้ำเหลืองตรงไหนก่อน → interaortocaval ระดับ L1–L2",
+   "ทำไมต้องรักษา sympathetic chain ใน RPLND → ป้องกันการหลั่งย้อนกลับ/ ไม่หลั่ง (loss of antegrade ejaculation) ซึ่งกระทบภาวะเจริญพันธุ์ในชายวัยหนุ่ม"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 2 แถว Uro 3 — ตัวพิมพ์: <b>Which is not common metastatic site of non-seminoma testicular cancer — A. Interaortocaval LN B. Inguinal LN C. Supraclavicular LN D. Paracaval LN E. Paraaortic LN</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 2 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -195,30 +207,32 @@
   ]
  },
  "MDCU79|RoD|Uro 4": {
-  "interp": "หญิงตั้งครรภ์รักษา asymptomatic bacteriuria ด้วยยาที่เชื้อไวแล้ว แต่<b>เพาะเชื้อซ้ำยังขึ้นเชื้อเดิม</b> → ถามการตรวจที่เหมาะสม",
-  "why": "Bacteriuria ที่<b>ไม่หายหรือกลับมาด้วยเชื้อเดิม (persistence/ relapse)</b> ทั้งที่เชื้อไวต่อยา บอกว่าอาจมี<b>แหล่งเชื้อหรือการอุดกั้นในทางเดินปัสสาวะ</b> เช่น นิ่ว hydronephrosis ความผิดปกติแต่กำเนิด · ในหญิงตั้งครรภ์ต้องเลือกการตรวจที่<b>ไม่มีรังสี</b> → <b>ultrasound ไตและกระเพาะปัสสาวะ (US KUB)</b> ปลอดภัยและดูนิ่ว/ การอุดกั้นได้ (แต่ต้องรู้ว่า hydronephrosis ข้างขวาเล็กน้อยพบได้ปกติในครรภ์) · ร่วมกับรักษาใหม่ตามผลเพาะเชื้อและให้ยาป้องกันจนคลอด · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 4 B\"</b> = Ultrasound KUB ตรงกับคำตอบ",
+  "interp": "หญิงตั้งครรภ์มี <b>asymptomatic bacteriuria</b> ได้ยาที่เชื้อไวแล้ว แต่ culture ซ้ำยัง<b>ขึ้นเชื้อเดิม</b> — ถามการตรวจที่เหมาะสม คือหาสาเหตุเชิงโครงสร้าง (นิ่ว การอุดกั้น ความผิดปกติของไต) ด้วยวิธีที่ไม่มีรังสีในคนท้อง",
+  "why": "ในหญิงตั้งครรภ์ต้อง<b>คัดกรองและรักษา asymptomatic bacteriuria</b> (ต่างจากคนทั่วไปที่ไม่ต้องรักษา) เพราะ progesterone ทำให้ท่อไตคลายตัว และมดลูกกดท่อไต (ขวามากกว่าซ้าย) เกิด physiological hydroureteronephrosis ปัสสาวะค้าง → ASB ที่ไม่รักษาพัฒนาเป็น <b>pyelonephritis ได้ราว 20–35%</b> ซึ่งสัมพันธ์กับคลอดก่อนกำหนดและทารกน้ำหนักน้อย · คัดกรองด้วย urine culture ในการฝากครรภ์ครั้งแรก (12–16 สัปดาห์) รักษาด้วยยาที่ปลอดภัย (nitrofurantoin, cephalexin, amoxicillin-clavulanate, fosfomycin) 5–7 วัน และทำ <b>test-of-cure culture</b> หลังรักษา · <b>ถ้ายังขึ้นเชื้อเดิมทั้งที่เชื้อไวต่อยา</b> (relapse/ persistence) บ่งว่ามีแหล่งเชื้อค้าง เช่น นิ่ว การอุดกั้น หรือความผิดปกติแต่กำเนิด → ตรวจ <b>renal/KUB ultrasound</b> ซึ่งไม่มีรังสี ทำข้างเตียงได้ ร่วมกับให้ยาใหม่และพิจารณา suppressive prophylaxis ไปจนคลอด · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"4 B\"</b> (ตัวพิมพ์ช้อย \"Ultrasound KUB\")",
   "wrong": {
-   "A": "Cystoscopy เป็นหัตถการรุกล้ำ ไม่ใช่ขั้นแรกในหญิงตั้งครรภ์ ใช้เมื่อสงสัยรอยโรคในกระเพาะ · จะถูกถ้าหญิงไม่ตั้งครรภ์อายุ 50 ปีมี hematuria ไม่มีการติดเชื้อ",
-   "C": "CT urography มีรังสีและสารทึบรังสี หลีกเลี่ยงในครรภ์ · จะถูกถ้าหญิงไม่ตั้งครรภ์มี UTI ซ้ำ US เห็นนิ่วและต้องวางแผนรักษา",
-   "D": "ผลเพาะเชื้อซ้ำยืนยันแล้วว่าเชื้อเดิมยังอยู่ การเพาะเชื้อซ้ำอีกไม่ช่วยหาสาเหตุ · จะถูกถ้าเพิ่งรักษาครั้งแรกจบและยังไม่ได้เพาะเชื้อยืนยัน (test of cure)",
-   "E": "VCUG มีรังสีและต้องใส่สาย ใช้หา VUR ในเด็ก ไม่ใช้ในหญิงตั้งครรภ์ · จะถูกถ้าเด็กหญิง 2 ขวบมี febrile UTI ครั้งที่สอง"
+   "A": "Cystoscopy เป็นหัตถการรุกล้ำ ใช้หาสาเหตุ hematuria หรือก้อนในกระเพาะปัสสาวะ ไม่ใช่การตรวจแรกของ bacteriuria ซ้ำ และการส่องกล้องในคนท้องที่มีเชื้อเสี่ยงติดเชื้อขึ้นไต · จะถูกถ้าเป็นหญิงไม่ตั้งครรภ์ 60 ปี สูบบุหรี่ มี gross hematuria ไม่เจ็บ เพาะเชื้อปัสสาวะไม่ขึ้น (ร่วมกับ CT urography)",
+   "C": "CT urography ให้ข้อมูลทั้ง upper tract ละเอียดแต่มีรังสีสูงและใช้ contrast จึงหลีกเลี่ยงในคนท้อง โดยเฉพาะเมื่อ US ตอบคำถามได้ · จะถูกถ้าเป็นหญิงไม่ตั้งครรภ์ 45 ปี pyelonephritis ไม่ดีขึ้นหลังยา IV 72 ชั่วโมง สงสัย renal abscess หรือนิ่วอุดกั้น (ในคนท้องที่ US ไม่ชัดใช้ MRU หรือ low-dose CT แทน)",
+   "D": "การเพาะเชื้อซ้ำเพียงอย่างเดียวไม่เปลี่ยนการจัดการ เพราะ test-of-cure ก็ยืนยันแล้วว่าเชื้อเดิมค้างอยู่ สิ่งที่ต้องทำคือหาสาเหตุเชิงโครงสร้างและรักษาใหม่ · จะถูกถ้าเป็นหญิงตั้งครรภ์ 14 สัปดาห์ที่ urine culture ครั้งแรกขึ้นเชื้อปนหลายชนิด (contaminated specimen) ต้องเก็บ midstream clean-catch ซ้ำเพื่อยืนยัน ASB",
+   "E": "VCUG ใช้หา vesicoureteral reflux ส่วนใหญ่ในเด็กที่มี febrile UTI ซ้ำหรือ US พบ hydronephrosis ผิดปกติ มีรังสีและต้องสวนปัสสาวะ ไม่เหมาะกับคนท้อง · จะถูกถ้าเป็นเด็กหญิง 2 ขวบ มี febrile UTI ครั้งที่ 2 และ renal US พบ hydronephrosis กับ renal scarring"
   },
-  "trap": "เลือก repeat culture เพราะเคยจำว่าต้องเพาะเชื้อซ้ำ — เพาะซ้ำแล้วยังขึ้นเชื้อเดิมต้องหาสาเหตุทางโครงสร้าง",
+  "trap": "ช้อย D (repeat culture) ดูปลอดภัยและไม่รุกล้ำ ส่วน C (CT urography) ดูละเอียดที่สุด · แต่ประเด็นคือ<b>เชื้อเดิมค้างทั้งที่ยาไวต่อเชื้อ</b> ต้องหาแหล่งเชื้อเชิงโครงสร้าง และในคน<b>ตั้งครรภ์</b>ต้องเลือกภาพที่ไม่มีรังสี = ultrasound · อย่าลืมว่าไตบวมน้ำเล็กน้อยด้านขวาในคนท้องเป็น physiological",
   "summary": [
-   "Asymptomatic bacteriuria ในครรภ์ → รักษาเสมอ (ลด pyelonephritis)",
-   "หลังรักษา → test of cure 1–2 สัปดาห์",
-   "เชื้อเดิมไม่หาย → US KUB หาการอุดกั้น/ นิ่ว + รักษาใหม่ + ยาป้องกันจนคลอด",
-   "เลี่ยงรังสีในครรภ์: CT, IVP, VCUG",
-   "Hydronephrosis ขวาเล็กน้อยพบได้ปกติในครรภ์ (มดลูกกด)",
-   "นอกครรภ์: asymptomatic bacteriuria ไม่ต้องรักษา (ยกเว้นก่อนผ่าตัดทางเดินปัสสาวะ)"
+   "ASB = เพาะเชื้อ ≥ 10⁵ CFU/mL เชื้อเดียวโดยไม่มีอาการ · คัดกรองและรักษาเฉพาะหญิงตั้งครรภ์และก่อนหัตถการทางเดินปัสสาวะที่ทำให้เยื่อบุเลือดออก",
+   "คัดกรองหญิงตั้งครรภ์ด้วย urine culture ช่วง 12–16 สัปดาห์ (ฝากครรภ์ครั้งแรก) · E. coli พบบ่อยสุด",
+   "ยาที่ใช้ในคนท้อง: nitrofurantoin (เลี่ยงใกล้คลอด/ G6PD deficiency), cephalexin, amoxicillin-clavulanate, fosfomycin · เลี่ยง fluoroquinolone, tetracycline, trimethoprim ไตรมาสแรก, sulfonamide ใกล้คลอด",
+   "ASB ไม่รักษา → pyelonephritis ราว 20–35% · เสี่ยงคลอดก่อนกำหนด ทารกน้ำหนักน้อย sepsis และ ARDS ในแม่",
+   "ทำ test-of-cure culture หลังรักษา · ASB/UTI ซ้ำ → รักษาใหม่ + พิจารณา suppressive prophylaxis (nitrofurantoin หรือ cephalexin ก่อนนอน) จนคลอด",
+   "ภาพในคนท้อง: US เป็นตัวแรก · ไม่ชัดหรือสงสัยนิ่วอุดกั้น → MR urography (ไม่ฉีด gadolinium) หรือ low-dose CT ในไตรมาส 2–3",
+   "Physiological hydronephrosis ในครรภ์: ขวามากกว่าซ้าย (มดลูกเอียงขวา + sigmoid colon กันฝั่งซ้าย) พบได้ถึง 90% ในไตรมาส 3"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ EAU Urological Infections Guidelines",
-  "mnemonic": "<b>'ท้อง + เชื้อไม่หาย = อัลตราซาวด์หาที่ซ่อน (ไม่ใช้รังสี)'</b>",
-  "guide": "EAU Guidelines on Urological Infections 2024 — Asymptomatic bacteriuria and UTI in pregnancy; ACOG Clinical Consensus No. 4 (Obstet Gynecol 2023;142:435)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"4 B\") · เชื้อเดิมค้างหลังให้ยาที่ไวบ่งว่ามีแหล่งเชื้อเชิงโครงสร้าง และ ultrasound เป็นภาพเดียวในช้อยที่ปลอดภัยในคนท้อง ในทางปฏิบัติต้องให้ยารักษาใหม่และพิจารณา suppressive prophylaxis ควบคู่ไปด้วย",
+  "mnemonic": "<b>'ท้อง + เชื้อเดิมไม่หาย → Ultrasound (No rads for the Mom)'</b>",
+  "guide": "EAU Guidelines on Urological Infections 2024; IDSA Clinical Practice Guideline for Management of Asymptomatic Bacteriuria 2019 (Nicolle et al., Clin Infect Dis); ACOG Clinical Consensus: Urinary Tract Infections in Pregnant Individuals 2023",
   "variants": [
-   "หญิงตั้งครรภ์ bacteriuria ครั้งแรก รักษาจบ → เพาะเชื้อซ้ำ (test of cure)",
-   "หญิงไม่ตั้งครรภ์ UTI ซ้ำ 4 ครั้ง/ ปี US เห็นนิ่ว → CT ทางเดินปัสสาวะเพื่อวางแผน",
-   "หญิงอายุ 75 ปีไม่มีอาการ urine culture ขึ้นเชื้อ → ไม่ต้องรักษา"
+   "หญิงตั้งครรภ์ 28 สัปดาห์ ไข้ 39°C ปวดเอวขวา CVA tenderness → pyelonephritis รับไว้ใน รพ. ให้ IV ceftriaxone แล้วพิจารณา suppressive prophylaxis จนคลอด",
+   "หญิงตั้งครรภ์ US พบไตขวาบวมน้ำเล็กน้อย ไม่มีไข้ ไม่ปวด ไม่มีนิ่ว → physiological hydronephrosis ติดตามได้",
+   "หญิงไม่ตั้งครรภ์ 70 ปี เบาหวาน เพาะเชื้อปัสสาวะขึ้น E. coli ไม่มีอาการ → ไม่ต้องให้ยาฆ่าเชื้อ (ASB ไม่ต้องรักษา)",
+   "ทำไม ASB ในคนท้องต้องรักษา → progesterone + มดลูกกดท่อไตทำให้ปัสสาวะค้าง เชื้อขึ้นไตง่าย และ pyelonephritis เพิ่มความเสี่ยงคลอดก่อนกำหนด"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 2 แถว Uro 4 — ตัวพิมพ์: <b>ผู้หญิงท้อง asymptomatic bacteriuria treat แล้ว follow up culture ขึ้นเป็นเชื้อเดิม ทำไงต่อ — 1. Cystoscope 2. Ultrasound KUB 3. CT urography 4. Repeat culture 5. VCUG</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 2 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
@@ -228,30 +242,32 @@
   ]
  },
  "MDCU79|RoD|Uro 5": {
-  "interp": "ผู้ป่วยไข้ 39 °C เคาะไตเจ็บ ภาพเห็นนิ่วท่อไต 5 mm กับ hydronephrosis ข้างเดียวกัน → ถามขั้นต่อไป ต้องรู้ว่าเป็น <b>obstructed infected kidney</b>",
-  "why": "นิ่วอุดท่อไต + ไข้ + เคาะไตเจ็บ = <b>obstructive pyelonephritis</b> เป็น<b>ภาวะฉุกเฉินทางระบบปัสสาวะ</b> หนองค้างในไตที่อุดตันทำให้เกิด urosepsis ได้เร็ว · หลักการคือ <b>ระบายไตทันที (urgent decompression)</b> ด้วย <b>double-J ureteric stent</b> หรือ <b>percutaneous nephrostomy</b> (ได้ผลเท่ากัน) ร่วมกับยาปฏิชีวนะ IV และเพาะเชื้อปัสสาวะ/ เลือด · <b>ห้ามทำลายนิ่วตอนมีการติดเชื้อ</b> (ESWL/ URS) เพราะดันเชื้อเข้ากระแสเลือด → รักษานิ่วภายหลัง (definitive treatment) เมื่อติดเชื้อหายแล้ว · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Urology 5 B\"</b> = DJ stent for urinary diversion ตรงกับคำตอบ",
+  "interp": "ผู้ป่วยไข้ 39°C, CVA tenderness, ภาพพบนิ่วท่อไต 5 mm กับ hydronephrosis ข้างเดียวกัน = <b>obstructive pyelonephritis (infected obstructed kidney)</b> — ถามขั้นต่อไป ซึ่งคือการ<b>ระบายปัสสาวะด่วน</b> ไม่ใช่การรอนิ่วหลุดหรือสลายนิ่ว",
+  "why": "ไตที่อุดตันร่วมกับติดเชื้อเป็น <b>urological emergency</b> เพราะปัสสาวะติดเชื้อค้างภายใต้แรงดันสูง ยาฆ่าเชื้อเข้าไปในระบบที่อุดได้น้อย และเชื้อเข้ากระแสเลือดเร็วจนเกิด <b>urosepsis</b> ที่เสียชีวิตได้ · แม้นิ่ว 5 mm จะหลุดเองได้ราว 2 ใน 3 ในภาวะปกติ แต่เมื่อมีไข้ + การอุดกั้น ห้ามรอ · การจัดการ: ส่ง urine/blood culture, CBC, creatinine, lactate → ให้ IV antibiotic → <b>decompression ทันที</b> ด้วย <b>retrograde ureteral (double-J) stent</b> หรือ <b>percutaneous nephrostomy</b> (EAU ถือว่าได้ผลเท่ากัน เลือกตามความพร้อมและสภาพผู้ป่วย เช่น coagulopathy นิยม stent ส่วนนิ่วใหญ่อุดแน่นหรือใส่ stent ไม่ผ่านใช้ nephrostomy) · <b>เลื่อนการรักษานิ่วจริง</b> (URS, SWL) ไปจนติดเชื้อหายแล้ว เพราะการสลายหรือส่องนิ่วขณะติดเชื้อดันเชื้อเข้ากระแสเลือด · เพาะเชื้อจากปัสสาวะที่ระบายออกมาด้วยเพื่อปรับยา · ไฟล์เฉลยอย่างย่อหน้า 36 ตอบ <b>\"5 B\"</b> (ตัวพิมพ์ช้อย \"DJ stent for urinary diversion\")",
   "wrong": {
-   "A": "ยาปฏิชีวนะจำเป็นแต่ไม่พอ ไตที่อุดตันยาเข้าไม่ถึงหนอง การรอให้นิ่วหลุดเสี่ยง sepsis · จะถูกถ้าเป็น pyelonephritis โดยไม่มีนิ่วหรือการอุดกั้น",
-   "C": "ESWL ห้ามทำระหว่างมีการติดเชื้อ เพราะเศษนิ่วและเชื้อกระจายเข้ากระแสเลือด และนิ่ว 5 mm ยังอาจหลุดเองหลังติดเชื้อหาย · จะถูกถ้านิ่วในไต 1.2 cm ไม่มีไข้ ไม่มีการอุดกั้นรุนแรง",
-   "D": "Medical expulsive therapy ใช้กับนิ่ว &lt; 10 mm ที่<b>ไม่มีการติดเชื้อ</b> ไตทำงานดี และคุมปวดได้ · จะถูกถ้านิ่วท่อไตส่วนล่าง 5 mm ไม่มีไข้ ปวดคุมได้ creatinine ปกติ",
-   "E": "URS ทำลายนิ่วตอนติดเชื้อเสี่ยง urosepsis ควรระบายก่อนแล้วทำทีหลัง · จะถูกถ้านิ่วท่อไต 8 mm ไม่มีไข้ ปวดคุมไม่ได้ หรือ MET ไม่สำเร็จ 4 สัปดาห์"
+   "A": "การส่ง UA, culture และให้ IV antibiotic เป็นส่วนที่ต้องทำจริง แต่ \"รอนิ่วหลุดเอง\" ในไตที่อุดตันและติดเชื้อเสี่ยง urosepsis เพราะยาเข้าไม่ถึงปัสสาวะที่ค้าง ต้องระบายร่วมด้วยเสมอ · จะถูกถ้าเป็นหญิง 30 ปี ไข้ ปวดเอว ปัสสาวะแสบขัด (acute pyelonephritis) US ไม่มีนิ่วหรือ hydronephrosis → ให้ยาฆ่าเชื้ออย่างเดียว",
+   "C": "SWL (ESWL) ใช้รักษานิ่วไตหรือท่อไตส่วนต้นที่ไม่ติดเชื้อ การสลายนิ่วขณะมีการติดเชื้อและการอุดกั้นเป็นข้อห้ามเพราะปล่อยเชื้อและ endotoxin เข้ากระแสเลือด (ข้อห้ามอื่น: ตั้งครรภ์ coagulopathy ที่แก้ไม่ได้) · จะถูกถ้าเป็นชาย 45 ปี นิ่วไตใน renal pelvis 12 mm ไม่มีไข้ ปัสสาวะไม่ติดเชื้อ ไตทำงานปกติ",
+   "D": "Medical expulsive therapy ด้วย tamsulosin เหมาะกับนิ่วท่อไตส่วนปลาย &gt; 5 mm ที่ปวดควบคุมได้ ไม่มีไข้ ไตทำงานปกติ และติดตามได้ — การมีไข้และ hydronephrosis เป็นข้อห้ามของการรักษาแบบรอสังเกต · จะถูกถ้าเป็นชาย 35 ปี ปวดเอวร้าวลงขาหนีบ ไม่มีไข้ CT พบนิ่ว distal ureter 6 mm hydronephrosis เล็กน้อย creatinine ปกติ",
+   "E": "Ureteroscopic laser lithotripsy ทันทีเป็นการรักษาที่ได้ผลในนิ่วท่อไตที่ไม่ติดเชื้อ แต่ในภาวะติดเชื้อ แรงดันน้ำระหว่างส่องกล้องดันเชื้อเข้ากระแสเลือดเกิด sepsis — ต้องระบายก่อนแล้วค่อยทำเมื่อหายติดเชื้อ · จะถูกถ้าเป็นชาย 40 ปี ไม่มีไข้ นิ่ว mid-ureter 8 mm ปวดไม่หายด้วยยา ไม่ผ่านหลังรอ 4 สัปดาห์ หรือหลังใส่ DJ stent จนติดเชื้อหายแล้ว"
   },
-  "trap": "เห็นนิ่วเล็ก 5 mm แล้วตอบ MET — มีไข้ + การอุดกั้น = ระบายก่อนเสมอ ไม่รักษานิ่วตอนติดเชื้อ",
+  "trap": "นิ่ว 5 mm ทำให้คิดว่าหลุดเองได้แล้วเลือก MET (D) หรือ antibiotic แล้วรอ (A) · หรือคิดว่าต้องเอานิ่วออกเลย (C, E) · ตัวชี้ขาดคือ <b>ไข้ + hydronephrosis = infected obstructed kidney</b> ซึ่งขนาดนิ่วไม่สำคัญ หลักคือ <b>drain first, treat stone later</b>",
   "summary": [
-   "นิ่วอุด + ติดเชื้อ (ไข้ เคาะไตเจ็บ) → ระบายด่วน: DJ stent หรือ PCN",
-   "ร่วมกับ IV ATB + เพาะเชื้อปัสสาวะ/ เลือด (ปัสสาวะจากไตส่งเพาะด้วย)",
-   "รักษานิ่วภายหลังเมื่อติดเชื้อหาย",
-   "ข้อบ่งชี้ระบายด่วนอื่น: ไตข้างเดียว · ไตวายเฉียบพลัน · ปวดคุมไม่ได้ · นิ่วอุดทั้งสองข้าง",
-   "MET (tamsulosin): นิ่วท่อไตส่วนล่าง &lt; 10 mm ไม่มีภาวะแทรกซ้อน",
-   "นิ่ว &lt; 5 mm หลุดเอง ~70–80% · 5–10 mm ~50%"
+   "Obstructive pyelonephritis/ infected hydronephrosis = urological emergency → culture + IV antibiotic + decompression ทันที",
+   "Decompression: retrograde DJ stent หรือ percutaneous nephrostomy ได้ผลเท่ากัน · PCN เหมาะเมื่อใส่ stent ไม่ผ่าน นิ่วใหญ่อุดแน่น หรือ pyonephrosis · stent เหมาะกับ coagulopathy",
+   "การรักษานิ่วจริง (URS, SWL, PCNL) เลื่อนไปหลังติดเชื้อหายและได้ยาครบ",
+   "โอกาสนิ่วหลุดเอง: ≤ 5 mm ราว 2 ใน 3 · 5–10 mm ราวครึ่งหนึ่ง · นิ่ว distal ureter หลุดง่ายกว่า proximal",
+   "MET (alpha-blocker เช่น tamsulosin) แนะนำในนิ่ว distal ureter &gt; 5 mm ที่ไม่มีข้อบ่งชี้ต้องผ่าตัด · ติดตามไม่เกิน 4–6 สัปดาห์",
+   "ข้อบ่งชี้ intervention: ติดเชื้อร่วมอุดกั้น, ปวดดื้อยา, AKI/ ไตเดี่ยวอุดตัน, อุดตันทั้งสองข้าง, นิ่วไม่ขยับในเวลาที่เหมาะสม",
+   "CT KUB ไม่ฉีดสี (low-dose) เป็นการตรวจมาตรฐานของ renal colic · US ใช้ในคนท้อง เด็ก และเป็นตัวแรกในบางสถานการณ์"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ EAU Urolithiasis Guidelines",
-  "mnemonic": "<b>'นิ่ว + ไข้ = ระบายก่อน ทุบทีหลัง'</b>",
-  "guide": "EAU Guidelines on Urolithiasis 2024 — Management of sepsis and/or anuria in obstructed kidney",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับไฟล์เฉลยอย่างย่อหน้า 36 (\"5 B\") และ EAU Urolithiasis Guidelines ที่ให้ decompress ระบบที่อุดตันและติดเชื้อทันทีด้วย stent หรือ nephrostomy ร่วมกับยาฆ่าเชื้อ แล้วค่อยรักษานิ่วภายหลัง · ช้อย A มีส่วนถูก (culture + IV antibiotic) แต่ขาดการระบาย",
+  "mnemonic": "<b>'Fever + Stone + Hydro = Drain it NOW (stent/PCN) · Stone later'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2024; AUA/Endourological Society Guideline: Surgical Management of Stones 2016 (amended 2019); Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "นิ่วท่อไตซ้าย 6 mm ไม่มีไข้ ปวดคุมได้ → tamsulosin + ยาแก้ปวด นัดติดตาม",
-   "ไตข้างเดียวมีนิ่วอุด creatinine ขึ้น → ระบายด่วน (stent/ PCN)",
-   "หลังใส่ DJ stent ติดเชื้อหายแล้ว → URS หรือ ESWL เอานิ่วออก"
+   "ไข้ 39°C ความดัน 80/50 นิ่ว proximal ureter 8 mm + hydronephrosis มี INR 2.5 จากยา warfarin → retrograde DJ stent (เลี่ยง nephrostomy ที่ต้องเจาะผ่านไต) + IV antibiotic + resuscitation",
+   "ใส่ DJ stent ระบายแล้ว ได้ยาครบ ติดเชื้อหาย 2 สัปดาห์ต่อมา → นัดทำ ureteroscopic laser lithotripsy เอานิ่วออก",
+   "ไข้ ปวดเอว นิ่วอุดแน่นที่ UPJ ส่องกล้องใส่ stent ไม่ผ่าน → percutaneous nephrostomy",
+   "ทำไมห้าม URS ขณะติดเชื้อ → แรงดันน้ำในระบบปัสสาวะระหว่างส่องกล้องดันเชื้อและ endotoxin เข้ากระแสเลือดผ่าน pyelovenous backflow เกิด urosepsis"
   ],
   "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 3 แถว Uro 5 — ตัวพิมพ์: <b>ผู้ป่วยไข้ 39 CVA tenderness film เจอ stone 5 mm. ทำอะไรต่อ — A. ส่ง UA, UC, CBC ร่วมกับให้ IV antibiotic แล้วรอให้นิ่วหลุดเอง B. DJ stent for urinary diversion C. ESWL D. Medical expulsive therapy ด้วย Tamsulosin และยาแก้ปวด นัดติดตาม 1 สัปดาห์ E. Ureteroscopic laser lithotripsy ทันที</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Urology\" — \"1 C · 2 D · 3 E · 4 B · 5 B · 6 A · 7 B · 8 A · 9 A · 10 A · 11 A · 12 A · 13 A · 14 A · 15 A · 16 A · 17 D\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
   "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 3 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",

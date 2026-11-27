@@ -1,245 +1,412 @@
 {
  "MDCU74|RoA|19": {
-  "interp": "เด็กหอบเหนื่อย + systolic ejection murmur + fixed split S2 + ECG incomplete RBBB → ถามการวินิจฉัย (กลุ่ม acyanotic L→R shunt)",
-  "why": "ลายมือ P'Ing: <b>ASD L→R shunt → RV volume overload → flow murmur ที่ pulmonic area, fixed split S2, EKG incomplete RBBB</b><br><b>นอกสไลด์:</b> Murmur ไม่ได้เกิดจากเลือดไหลผ่านรู (ความดันสอง atrium ต่างกันน้อย) แต่เป็นเลือดปริมาณมากไหลผ่าน pulmonic valve · S2 แยกกว้างและไม่เปลี่ยนตามการหายใจ เพราะ RV ได้เลือดเพิ่มทั้งช่วงหายใจเข้าและออก",
+  "interp": "เด็กชาย 4 ปี เหนื่อย ตรวจพบ <b>systolic ejection murmur</b> + <b>fixed split S2</b> และ ECG เป็น <b>incomplete RBBB</b> — ถามการวินิจฉัย ต้องเชื่อมเสียงหัวใจและ ECG เข้ากับ<b>ภาวะ RV volume overload</b> จาก left-to-right shunt ระดับ atrium",
+  "why": "<b>Atrial septal defect</b> (ชนิดที่พบบ่อยคือ secundum ~70–75%) ทำให้เลือดไหล <b>left-to-right ระดับ atrium</b> → right atrium/ RV รับเลือดเกิน (<b>RV volume overload</b>) · เสียง murmur ไม่ได้เกิดจากเลือดผ่านรูรั่ว (ความดันสองฝั่งต่างกันน้อย) แต่เกิดจากเลือดปริมาณมากผ่าน pulmonic valve → <b>systolic ejection (flow) murmur ที่ left upper sternal border</b> ± mid-diastolic rumble ที่ tricuspid เมื่อ shunt ใหญ่ · <b>fixed widely split S2</b>: RV ปล่อยเลือดนานขึ้นทำให้ P2 มาช้า และรูรั่วทำให้ปริมาตรเลือดฝั่งขวาเท่ากันทั้งหายใจเข้าและออก การแยกของ S2 จึงไม่เปลี่ยนตามการหายใจ · RV ขยาย → ECG <b>incomplete RBBB (rsR' ใน V1) + right axis deviation</b> (ostium primum มี left axis deviation) · ส่วนใหญ่ไม่มีอาการในเด็ก ตรวจพบจาก murmur · รูเล็ก &lt; 5 mm มักปิดเอง · secundum ที่มี RV dilatation หรือ Qp:Qs ≥ 1.5 ปิดด้วย <b>transcatheter device</b> หรือผ่าตัดราวอายุ 2–5 ปี ก่อนเกิด pulmonary hypertension/ arrhythmia · ไฟล์ P'Ing วง A และเขียนลายมืออธิบาย <b>\"ASD L→R shunt → RV volume overload → flow murmur ที่ pulmonic area, fixed split S2, EKG incomplete RBBB\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> VSD เป็น harsh holosystolic murmur ที่ left lower sternal border S2 แยกตามการหายใจปกติ · จะถูกถ้าเด็กมีเสียงฟู่ holosystolic ดังที่ LLSB ร่วมกับ thrill เลี้ยงไม่โต",
-   "C": "<b>นอกสไลด์:</b> TOF เป็น cyanotic heart disease S2 เดี่ยว ECG เป็น RVH · จะถูกถ้าเด็กเขียวมากขึ้นเวลาร้อง นั่งยอง ๆ CXR หัวใจรูป boot",
-   "D": "<b>นอกสไลด์:</b> PDA ให้ continuous (machinery) murmur ใต้กระดูกไหปลาร้าซ้าย ชีพจรแรง · จะถูกถ้าทารกคลอดก่อนกำหนดหรือมารดาติดหัดเยอรมันมี continuous murmur ชีพจร bounding",
-   "E": "<b>นอกสไลด์:</b> Coarctation ทำให้ความดันแขนสูงกว่าขา ชีพจรขาเบาและมาช้า · จะถูกถ้าเด็กโตมีความดันสูงที่แขน ชีพจรขาคลำได้เบา CXR มี rib notching"
+   "B": "VSD เป็น left-to-right shunt ระดับ ventricle เสียงเป็น <b>holosystolic (pansystolic) murmur ที่ left lower sternal border</b> รูเล็กเสียงดังมาก S2 แยกปกติ overload ฝั่ง LA/ LV (ECG LVH หรือ biventricular hypertrophy) — จะถูกถ้าเป็นทารก 2 เดือน ดูดนมเหนื่อย เหงื่อออก น้ำหนักขึ้นน้อย มี harsh holosystolic murmur grade 4/6 ที่ LLSB",
+   "C": "Tetralogy of Fallot (VSD, RVOT obstruction, overriding aorta, RVH) มี<b>เขียว</b> เสียง ejection murmur จาก RVOT stenosis และ <b>single S2</b> (P2 เบา) ECG RVH และ CXR boot-shaped heart — จะถูกถ้าเป็นเด็ก 2 ปี เขียวมากขึ้นเวลาร้อง นั่งยอง ๆ (squatting) หลังวิ่งเล่น CXR หัวใจรูปรองเท้าบูท",
+   "D": "PDA ทำให้เกิด <b>continuous machinery murmur</b> ที่ left infraclavicular area และ bounding pulse/ wide pulse pressure overload ฝั่ง LA/ LV — จะถูกถ้าเป็นทารกคลอดก่อนกำหนด 28 สัปดาห์อายุ 1 สัปดาห์ หายใจลำบาก มี continuous murmur ใต้กระดูกไหปลาร้าซ้าย ชีพจรแรงกระแทก",
+   "E": "Coarctation of the aorta มี<b>ความดันแขนสูงกว่าขา ชีพจรขาเบา/ ช้า (radio-femoral delay)</b> murmur ที่หลังระหว่างสะบัก ECG LVH และในเด็กโต CXR rib notching — จะถูกถ้าเป็นเด็กหญิง 10 ปี (อาจเป็น Turner syndrome) ความดันแขนขวา 150/90 ขา 90/60 คลำ femoral pulse เบาและช้ากว่า radial"
   },
-  "trap": "Fixed split S2 คือคำใบ้หลักของ ASD · อย่าคิดว่า murmur เกิดที่รู ASD — เป็น flow murmur ที่ pulmonic area",
+  "trap": "คำว่า 'dyspnea + murmur' ชวนให้นึกถึง VSD ที่พบบ่อยที่สุด · ต้องจับ <b>fixed split S2</b> (pathognomonic ของ ASD) และ <b>incomplete RBBB</b> ที่บอก RV volume overload · murmur ของ ASD เป็น ejection murmur ที่ pulmonic area ไม่ใช่ holosystolic ที่ LLSB แบบ VSD",
   "summary": [
-   "ลายมือในคีย์: L→R shunt ระดับ atrium → RV volume overload → flow murmur + fixed split S2 + incomplete RBBB",
-   "<b>นอกสไลด์:</b> Secundum (fossa ovalis) พบบ่อยสุด → ECG right axis · primum (AVSD, Down syndrome) → left axis · sinus venosus สัมพันธ์กับ PAPVR",
-   "<b>นอกสไลด์:</b> ปิดรูเมื่อ RV โต หรือ Qp:Qs ≥ 1.5 · secundum ปิดด้วย device ได้ · primum/sinus venosus ต้องผ่าตัด"
+   "ASD ชนิด: secundum (~70–75%, fossa ovalis) · primum (endocardial cushion, พบใน Down syndrome, cleft mitral, LAD) · sinus venosus (ร่วม partial anomalous pulmonary venous return) · coronary sinus",
+   "Physiology: L→R shunt ระดับ atrium → RA/ RV/ pulmonary artery volume overload · ไม่ค่อยมีอาการในเด็ก อาการมักโผล่ในผู้ใหญ่ (เหนื่อย, atrial fibrillation/ flutter)",
+   "ตรวจร่างกาย: RV heave, ejection murmur ที่ LUSB, fixed widely split S2, mid-diastolic rumble ที่ LLSB เมื่อ Qp:Qs สูง",
+   "ECG secundum: incomplete RBBB + right axis deviation · primum: incomplete RBBB + left axis deviation · CXR: หัวใจห้องขวาโต pulmonary vascular marking เพิ่ม",
+   "Echocardiography วินิจฉัย (TTE ในเด็ก, TEE ก่อนปิดด้วย device) · secundum &lt; 5 mm ปิดเองบ่อยในขวบปีแรก ๆ",
+   "ปิดเมื่อ RV dilatation หรือ Qp:Qs ≥ 1.5 · secundum ขอบพอ → device closure · primum/ sinus venosus/ รูใหญ่ขอบไม่พอ → ผ่าตัด · Eisenmenger (PVR สูงจน shunt กลับ) ห้ามปิด",
+   "Paradoxical embolism ผ่าน ASD/ PFO ทำให้ stroke ในคนอายุน้อยได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — สัญญาณครบตามลายมือ P'Ing · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียนกลไก L→R shunt → RV volume overload ครบทั้ง flow murmur, fixed split S2 และ incomplete RBBB · triad ของข้อนี้เป็นภาพคลาสสิกของ secundum ASD อาการเหนื่อยในเด็ก 4 ปีพบได้น้อยแต่ไม่เปลี่ยนการวินิจฉัย",
+  "mnemonic": "<b>'ASD = 'Fixed split + rsR' (RBBB)' — เลือดเกินฝั่งขวา'</b>",
+  "guide": "Stout KK et al. 2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease, Circulation 2019; Sabiston Textbook of Surgery 21st ed. (2022) Congenital Heart Disease; Nelson Textbook of Pediatrics 22nd ed. (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ใหญ่มี ASD ใหญ่ไม่เคยรักษา ตอนนี้เขียว นิ้วปุ้ม ความดันหลอดเลือดปอดสูงมากจนเลือดไหลกลับขวาไปซ้าย → Eisenmenger ห้ามปิดรู"
+   "หญิง 40 ปี ใจสั่น ECG atrial flutter echo พบ secundum ASD 20 mm RV ขยาย → ปิดด้วย transcatheter device (ขอบรูพอ)",
+   "เด็ก Down syndrome ECG incomplete RBBB + left axis deviation มี mitral regurgitation → ostium primum ASD (partial AV septal defect) → ผ่าตัดปิดและซ่อม cleft mitral",
+   "ทำไม S2 ใน ASD แยกคงที่ไม่เปลี่ยนตามการหายใจ → atrium สองฝั่งเชื่อมกัน การหายใจเข้าที่เพิ่มเลือดกลับฝั่งขวาถูกชดเชยด้วย shunt ที่ลดลง ปริมาตร RV จึงคงที่",
+   "ชาย 35 ปี เป็น stroke ไม่มีปัจจัยเสี่ยง bubble study พบฟองอากาศผ่านไปหัวใจซ้าย → paradoxical embolism ผ่าน PFO/ ASD"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 1 — ตัวพิมพ์: <b>19. A 4 years old boy presents with dyspnea. Physical examination shows systolic ejection murmur and fixed split S2. EKG shows incomplete right bundle branch block. What is the diagnosis? — A. ASD B. VSD C. TOF D. PDA E. Coarctation of aorta</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing ลายมือแดงอธิบาย physiology ของ ASD",
+  "src": "S74AQ · หน้า 1",
+  "kimg": [
+   "kp74a_19"
   ]
  },
  "MDCU74|RoA|29": {
-  "interp": "ถามว่า aortic dissection แบบใดรักษาด้วยยาอย่างเดียว = Stanford B ที่ไม่มีภาวะแทรกซ้อน (uncomplicated)",
-  "why": "ลายมือ P'Ing: <b>B = Stanford B ✓ · A = Stanford A</b> + สไลด์ Aortic dissection Type A/B<br><b>นอกสไลด์:</b> Uncomplicated type B → ยา anti-impulse: β-blocker ทางหลอดเลือดก่อน (ลดอัตราหัวใจและแรงบีบ) แล้วค่อยเพิ่ม vasodilator ถ้าความดันยังสูง + ยาแก้ปวด · type A และ type B ที่มีภาวะแทรกซ้อนต้องผ่าตัดหรือ TEVAR",
+  "interp": "ถามว่า aortic dissection แบบใด<b>รักษาด้วยยาอย่างเดียว</b>ได้ — ต้องแยก <b>Stanford A</b> (เกี่ยวกับ ascending aorta = ผ่าตัดด่วน) กับ <b>Stanford B</b> (ไม่เกี่ยว ascending) และแยก type B ที่ <b>uncomplicated</b> (ใช้ยา) ออกจาก complicated (malperfusion, rupture)",
+  "why": "<b>Stanford classification</b>: type A = มี ascending aorta เกี่ยวข้อง (ไม่ว่า tear อยู่ที่ใด) ตายราว 1–2% ต่อชั่วโมงในช่วงแรกจาก rupture เข้า pericardium (tamponade), acute aortic regurgitation, coronary occlusion → <b>ผ่าตัดด่วน</b>เปลี่ยน ascending aorta ด้วย graft · type B = อยู่หลัง left subclavian artery → <b>uncomplicated type B</b> รักษาด้วย <b>anti-impulse therapy</b>: IV β-blocker (esmolol, labetalol) ก่อนเพื่อคุม <b>HR &lt; 60/min</b> แล้วลด <b>SBP 100–120 mmHg</b> (เพิ่ม vasodilator เช่น nitroprusside/ nicardipine หลังให้ β-blocker เพื่อกัน reflex tachycardia) + ยาแก้ปวด ICU monitoring และ CT ติดตาม · <b>complicated type B</b> (malperfusion ของไต/ ลำไส้/ ขา, rupture หรือ impending rupture, ปวดหรือความดันคุมไม่ได้, ขยายเร็ว) → <b>TEVAR</b> ปิด entry tear · ช้อย B intimal flap ที่ descending aorta อย่างเดียวจึงเป็น uncomplicated type B · ไฟล์ P'Ing วง B ลายมือ <b>\"= stanford B ✓\"</b> และเขียนที่ A ว่า \"= stanford A\" พร้อมแปะสไลด์ Aortic dissection Type A/ B",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> IMH เป็นรูปแบบหนึ่งของ acute aortic syndrome ใช้การแบ่ง Stanford เหมือน dissection · IMH ที่ ascending = type A → ผ่าตัดเป็นมาตรฐาน · จะถูกถ้าผู้ป่วยสูงอายุมีโรคร่วมมากจนเสี่ยงผ่าตัดสูง และ IMH บางไม่มี ulcer-like projection — บางแนวทางยอมให้รักษาด้วยยาร่วมกับตรวจภาพซ้ำถี่",
-   "C": "<b>นอกสไลด์:</b> ไตขาดเลือดจาก dissection = malperfusion → complicated ต้องทำ TEVAR/ผ่าตัด · จะถูกถ้าไตทำงานลดลงจาก renal artery stenosis ที่เป็นอยู่เดิม (ไม่ใช่จากแผ่น dissection) ในผู้ป่วย type B ไม่มีภาวะแทรกซ้อนอื่นและ creatinine คงที่",
-   "D": "<b>นอกสไลด์:</b> น้ำในช่องเยื่อหุ้มปอดเป็นเลือด = aorta รั่ว/แตก · ไม่มีสถานการณ์ใดที่ dissection ที่แตกรั่วรักษาด้วยยาอย่างเดียว เพราะเลือดจะออกต่อจนเสียชีวิต (น้ำในเยื่อหุ้มปอดเล็กน้อยแบบ reactive ไม่ใช่เลือด แยกจากกัน)",
-   "E": "<b>นอกสไลด์:</b> AR ที่เกิดจาก dissection แปลว่าลามถึง aortic root = type A → ผ่าตัด · จะถูกถ้า AR เป็นของเดิม (เช่น bicuspid aortic valve) ในผู้ป่วยที่เกิด type B dissection ไม่มีภาวะแทรกซ้อน"
+   "A": "Intramural hematoma (เลือดออกใน media โดยไม่มี intimal flap ชัด) เป็น acute aortic syndrome ที่รักษาตามตำแหน่งเหมือน dissection — IMH ของ ascending aorta = type A ต้องผ่าตัด (ลายมือ \"= stanford A\") — จะถูกถ้าเป็นชาย 70 ปี (ให้ยาอย่างเดียวได้) ที่มี IMH จำกัดที่ descending aorta หนา 8 mm ไม่มี ulcer-like projection ไม่มี malperfusion ปวดคุมได้ด้วยยา",
+   "C": "Renal malperfusion (creatinine ขึ้น ไตติดสีน้อยบน CT) ทำให้ type B กลายเป็น <b>complicated</b> ต้องเปิดเลือดกลับด้วย TEVAR ± renal stent ยาลดความดันอย่างเดียวไม่พอ — จะถูกถ้าเป็นชาย 55 ปี type B dissection ความดันคุมได้ ไม่ปวด ไม่มีอวัยวะขาดเลือด creatinine และ lactate ปกติ (ให้ยาอย่างเดียว)",
+   "D": "Hemorrhagic pleural effusion (มักซ้าย) บ่งว่า aorta รั่วหรือใกล้แตก (rupture/ impending rupture) เป็น complicated dissection ต้อง TEVAR หรือผ่าตัดด่วน — จะถูกถ้าเป็นหญิง 60 ปี type B dissection มี pleural effusion เล็กน้อยใสจาก reactive inflammation ไม่มี hemothorax ความดันและ Hb คงที่ ปวดหายด้วยยา",
+   "E": "Acute aortic regurgitation เกิดเมื่อ dissection ลามถึง aortic root ทำให้ commissure หลุด = type A ต้องผ่าตัดด่วน (ซ่อม/ เปลี่ยนลิ้น + ascending graft) — จะถูกถ้าเป็นชาย 50 ปีที่มี chronic AR เล็กน้อยจาก bicuspid valve อยู่เดิม และ dissection ครั้งนี้จำกัดที่ descending aorta ไม่มีภาวะแทรกซ้อน"
   },
-  "trap": "คิดว่า IMH เบากว่า dissection จึงรักษาด้วยยาเสมอ — ใช้ตำแหน่ง (ascending หรือไม่) ตัดสินเหมือน dissection",
+  "trap": "ช้อย A 'hematoma' ฟังดูไม่รุนแรงเท่า dissection แต่ IMH ของ ascending aorta อันตรายเท่า type A · ช้อย C–E ไม่ได้บอกตำแหน่ง ทำให้คนเลือกเพราะคิดว่าอาจเป็น type B — แต่ <b>malperfusion, bleeding (hemorrhagic effusion), AR</b> ล้วนเป็นภาวะแทรกซ้อนที่ต้องหัตถการ เหลือข้อเดียวที่ไม่มีภาวะแทรกซ้อนและอยู่ descending",
   "summary": [
-   "สไลด์ในคีย์: Stanford A = เกี่ยวกับ ascending → ผ่าตัด · Stanford B = ไม่เกี่ยวกับ ascending",
-   "<b>นอกสไลด์:</b> Complicated type B: malperfusion (ไต ลำไส้ ขา ไขสันหลัง) · แตกรั่ว · ปวดไม่หยุด · ความดันคุมไม่ได้ · aorta ขยายเร็ว → TEVAR",
-   "<b>นอกสไลด์:</b> เป้าหมายยา: HR &lt; 60 ครั้ง/นาที · SBP 100–120 mmHg"
+   "Stanford A (ascending ± arch/ descending) → ผ่าตัดด่วน · Stanford B (หลัง left subclavian) → ยา ถ้า uncomplicated · DeBakey I (ascending ลาม descending), II (ascending อย่างเดียว), III (descending)",
+   "อาการ: ปวดหน้าอก/ หลังฉีกขาดทันที ความดันแขนสองข้างต่างกัน &gt; 20 mmHg, pulse deficit, AR murmur, อาการทางระบบประสาท · CXR mediastinum กว้าง",
+   "ปัจจัยเสี่ยง: ความดันสูง (สำคัญที่สุด), Marfan/ Ehlers-Danlos/ Loeys-Dietz, bicuspid aortic valve, Turner, coarctation, cocaine, การตั้งครรภ์, iatrogenic",
+   "วินิจฉัย: CTA chest-abdomen-pelvis ในผู้ที่ hemodynamic คงที่ · ไม่คงที่ → TEE ข้างเตียง · ห้ามให้ thrombolytic/ antiplatelet เมื่อสงสัย",
+   "Anti-impulse: IV esmolol/ labetalol → HR &lt; 60, SBP 100–120 mmHg · ให้ β-blocker ก่อน vasodilator · ระวังใน AR รุนแรง/ tamponade",
+   "Complicated type B: malperfusion, rupture/ impending (hemothorax, periaortic hematoma), ปวดซ้ำ/ ความดันคุมไม่ได้, ขยายเร็ว → TEVAR",
+   "Type A + tamponade: ห้ามเจาะระบายด้วยเข็มเต็มที่ (ความดันขึ้นแล้ว aorta แตกเพิ่ม) ไปห้องผ่าตัดเลย · ติดตามระยะยาวด้วย CT/ MRI เพราะ aneurysmal dilatation"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — uncomplicated type B ใช้ยา ตามสไลด์ที่ P'Ing แปะ · ช้อย E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B และเขียน \"= stanford B ✓\" · ต้นฉบับจดช้อยสั้น ๆ 4 ช้อย เว็บปรับคำให้ชัดและเติมช้อย E (AR) ซึ่งเป็น type A จึงไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'A = Ascending = ผ่าตัด (Act now) · B = Beta-blocker (ถ้าไม่มี Bad complication)'</b>",
+  "guide": "Isselbacher EM et al. 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease, Circulation 2022; Czerny M et al. EACTS/STS Guidelines for Diagnosing and Treating Acute and Chronic Syndromes of the Aortic Organ, Eur J Cardiothorac Surg 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย type B dissection ไม่มีภาวะแทรกซ้อน แต่เป็นหอบหืดรุนแรงใช้ β-blocker ไม่ได้ → ลดอัตราหัวใจด้วย non-dihydropyridine CCB (diltiazem/verapamil)",
-   "<b>นอกสไลด์:</b> Dissection ความดันต่ำ หลอดเลือดดำคอโป่ง เสียงหัวใจเบา → type A ที่มี tamponade ผ่าตัดฉุกเฉิน"
+   "ชาย 58 ปี ปวดหลังฉีกขาด CTA พบ dissection เริ่มหลัง left subclavian ลงถึง iliac ความดัน 190/110 ไม่มีภาวะแทรกซ้อน → IV esmolol + nicardipine ใน ICU",
+   "ชาย 60 ปี type B dissection ปวดท้องมากขึ้น lactate ขึ้น CT พบ SMA ติดสีน้อย → mesenteric malperfusion → TEVAR ด่วน",
+   "หญิง 32 ปี Marfan ปวดหน้าอกทันที echo พบ flap ใน ascending aorta และ pericardial effusion → type A → ผ่าตัดด่วน",
+   "ทำไมต้องให้ β-blocker ก่อน vasodilator → vasodilator เดี่ยวทำให้หัวใจเต้นเร็วและเพิ่ม dP/dt แรงเฉือนต่อผนัง aorta ทำให้ dissection ลามได้"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 1 — ตัวพิมพ์: <b>29. Which of the following aortic dissections requires only medical treatment? — A. Hematoma in ascending aorta B. Flap in descending aorta C. Reduced renal perfusion D. With pleural effusion</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 4 ช้อย → เติม E · ปรับคำช้อยให้ชัด (Hematoma in ascending → intramural hematoma, Reduced renal perfusion → dissection with reduced renal perfusion) · P'Ing แปะสไลด์ Aortic dissection",
+  "src": "S74AQ · หน้า 1",
+  "kimg": [
+   "kp74a_29"
   ]
  },
  "MDCU74|RoA|38": {
-  "interp": "ทารกครบกำหนดหายใจลำบากตั้งแต่เกิด ฟังเสียงหัวใจชัดทางขวา (หัวใจถูกดัน) ท้องแฟบ (scaphoid) = congenital diaphragmatic hernia ซ้าย → ถามการจัดการเบื้องต้น",
-  "why": "ลายมือ P'Ing: <b>CDH · B ✓ prepare for Sx · A ✗ (ทำหลัง stabilize) · ห้าม bag-mask (ลมเข้าลำไส้)</b><br><b>นอกสไลด์:</b> ลมจาก bag-mask เข้ากระเพาะและลำไส้ที่อยู่ในช่องอก ยิ่งกดปอดและหัวใจ · จึงใส่ท่อช่วยหายใจทันที + ใส่ OG tube ดูดลม แล้วช่วยหายใจแบบ gentle ventilation (ยอม CO2 สูงได้ เลี่ยงความดันสูงเพื่อไม่ให้ปอดที่เล็กฉีก)",
+  "interp": "ทารกครบกำหนด 38 สัปดาห์ หายใจลำบากตั้งแต่เกิด ได้ยินเสียงหัวใจชัดที่<b>หน้าอกขวา</b> (หัวใจถูกดันไปขวา) และ<b>ท้องแฟบ (scaphoid abdomen)</b> = <b>left congenital diaphragmatic hernia (CDH)</b> — ถามการดูแลที่ถูกต้อง ซึ่งคือการ stabilize ทางเดินหายใจและ decompress ลำไส้ก่อน ไม่ใช่ผ่าตัดทันที",
+  "why": "<b>CDH</b> ส่วนใหญ่เป็น <b>Bochdalek hernia ด้านซ้ายหลัง (~85%)</b> ลำไส้/ กระเพาะขึ้นไปในทรวงอก → <b>pulmonary hypoplasia</b> ทั้งสองข้าง (ข้างเดียวกันเป็นมากกว่า) + <b>pulmonary hypertension</b> ซึ่งเป็นตัวกำหนดการรอด ไม่ใช่ตัวรูรั่ว · ทารกมีหายใจลำบาก เขียว ท้องแฟบ อกโป่ง เสียงหัวใจย้ายไปขวา เสียงหายใจซ้ายลด · ดูแลทันทีในห้องคลอด: <b>ใส่ endotracheal tube ทันที</b> (หลีกเลี่ยง <b>bag-mask ventilation</b> เพราะลมเข้ากระเพาะและลำไส้ในทรวงอก ทำให้ยิ่งกดปอดและดันหัวใจ) และใส่ <b>orogastric/ NG tube ต่อ suction</b> decompress ลำไส้ · ใช้ <b>gentle ventilation</b>: PIP ≤ 25 cmH2O, ยอม permissive hypercapnia (PaCO2 ราว 50–70 mmHg) และเป้า preductal SpO2 ราว 80–95% (CDH EURO consortium) · รักษา pulmonary hypertension (iNO, vasopressor), ECMO เมื่อไม่ตอบสนอง · <b>ผ่าตัดซ่อม (delayed repair)</b> หลัง stabilize แล้ว ไม่ใช่ emergency · ไฟล์ P'Ing วง B เขียน <b>\"✓ prepare for Sx\"</b> ลายมือ \"= CDH\" ที่ A \"✗\" (ทำหลัง stabilize) และเตือน \"ห้าม bag-mask (ลมเข้าลำไส้)\"",
   "wrong": {
-   "A": "ลายมือ P'Ing: A ✗ ทำหลัง stabilize · <b>นอกสไลด์:</b> ปัญหาที่ทำให้ทารกเสียชีวิตคือปอดเจริญไม่ดีและ pulmonary hypertension ไม่ใช่ลำไส้ในอก จึงซ่อมแบบ delayed · จะถูกถ้าเป็น CDH ที่มาช้าในเด็กโตและลำไส้ในช่องอกบิดหรือขาดเลือด",
-   "C": "ลายมือ P'Ing: ห้าม bag-mask · จะถูกถ้าทารกแรกเกิดไม่หายใจหรือหัวใจเต้นช้าจากสาเหตุอื่น (เช่น birth asphyxia) ที่ไม่มีลำไส้ในช่องอก — เริ่ม PPV ทาง mask ตาม NRP",
-   "D": "<b>นอกสไลด์:</b> ภาพนี้คือลำไส้ในอก ไม่ใช่ลมรั่ว การแทงสายอาจทะลุลำไส้ · จะถูกถ้าทารกที่ใส่เครื่องช่วยหายใจ (เช่น จาก meconium aspiration) เกิด pneumothorax ทั้งสองข้าง",
-   "E": "<b>นอกสไลด์:</b> ECMO เป็นทางเลือกสุดท้าย · ไม่มีสถานการณ์ใดที่เริ่ม ECMO ก่อน stabilize เพราะต้องใส่ท่อช่วยหายใจและให้การรักษามาตรฐานก่อน แล้วใช้ ECMO เมื่อยังขาดออกซิเจนรุนแรงแม้รักษาเต็มที่"
+   "A": "การผ่าตัดซ่อม CDH ไม่ใช่ภาวะฉุกเฉิน ผ่าตัดเร็วตอน pulmonary hypertension ยังสูงทำให้แย่ลง ปัจจุบันทำ delayed repair หลังสัญญาณชีพและ PH คงที่ (มักหลัง 24–72 ชม.หรือนานกว่า) — จะถูกถ้าเป็นทารก CDH อายุ 4 วัน ได้ ET tube และ OG tube แล้ว ventilator setting ต่ำ preductal SpO2 คงที่ &gt; 85% lactate และ urine output ปกติ echo PH ลดลง",
+   "C": "Bag-mask ventilation ดันลมเข้ากระเพาะและลำไส้ที่อยู่ในทรวงอก ทำให้ขยายตัวกดปอดและหัวใจ (P'Ing เขียน \"ห้าม bag-mask\") — จะถูกถ้าเป็นทารกครบกำหนดคลอดแล้วไม่หายใจจากภาวะขาดออกซิเจนช่วงคลอด ท้องปกติ เสียงหัวใจอยู่ซ้าย (NRP: PPV ด้วย bag-mask ภายใน 60 วินาทีแรก)",
+   "D": "Chest tube จะแทงโดนลำไส้หรือกระเพาะที่อยู่ในทรวงอก และ CDH ไม่มีลมหรือของเหลวในช่องเยื่อหุ้มปอดให้ระบาย การใส่สองข้างยิ่งไม่มีเหตุผล — จะถูกถ้าเป็นทารกที่ใส่ ventilator ด้วยความดันสูงแล้วอาการทรุดทันที เสียงหายใจข้างหนึ่งหายไป transillumination สว่างข้างเดียว (tension pneumothorax)",
+   "E": "ECMO ใช้เมื่อทารกล้มเหลวจากการดูแลมาตรฐานแล้ว (เช่น preductal SpO2 ไม่ถึง 85% แม้ใช้ ventilator และ iNO เต็มที่, OI ≥ 40, hypotension ดื้อยา) ไม่ใช่ใช้ก่อน stabilize — จะถูกถ้าเป็นทารก CDH ที่ได้ intubation, OG decompression, gentle ventilation และ iNO แล้ว ยังมี preductal SpO2 70% oxygenation index 45"
   },
-  "trap": "เห็นคำว่า hernia แล้วคิดว่าต้องผ่าตัดด่วน · หรือเริ่มช่วยหายใจด้วย bag-mask ตามความเคยชิน",
+  "trap": "เห็นคำว่า 'hernia' แล้วตอบผ่าตัดด่วน (ไฟล์ต้นฉบับมีแค่ emergency repair vs ET + OG) · หรือเห็นทารกหายใจลำบากแล้วตอบ bag-mask ตามสัญชาตญาณ NRP · หลักของ CDH คือ <b>ใส่ท่อเลย ห้าม bag-mask, decompress ลำไส้, stabilize ก่อนผ่าตัด</b> เพราะปัญหาหลักคือปอดเล็กและ PH",
   "summary": [
-   "ลายมือในคีย์: CDH → intubate + OG decompression → stabilize → ผ่าตัดภายหลัง · ห้าม bag-mask",
-   "<b>นอกสไลด์:</b> Bochdalek (posterolateral) ซ้ายพบบ่อยสุด · Morgagni (anterior) พบน้อย มักไม่มีอาการ",
-   "<b>นอกสไลด์:</b> ปัญหาหลัก: pulmonary hypoplasia + pulmonary hypertension → gentle ventilation · iNO · ECMO เมื่อล้มเหลว",
-   "<b>นอกสไลด์:</b> ก่อนคลอด: lung-to-head ratio และตับขึ้นไปในอกบอกพยากรณ์"
+   "CDH ชนิด: Bochdalek (posterolateral, ซ้าย ~85%) · Morgagni (anteromedial, retrosternal, มักไม่มีอาการ) · อุบัติการณ์ราว 1 ใน 2,500–4,000",
+   "พยากรณ์โรคขึ้นกับ pulmonary hypoplasia + pulmonary hypertension · ก่อนคลอดประเมินด้วย observed/expected LHR, ตับขึ้นไปในทรวงอก (liver up = แย่)",
+   "FETO (fetoscopic endoluminal tracheal occlusion) ในรายรุนแรงก่อนคลอดเพิ่มการรอด (TOTAL trial 2021) แต่เพิ่มคลอดก่อนกำหนด",
+   "ห้องคลอด: intubate ทันที, OG/ NG suction, เลี่ยง bag-mask, ไม่ต้องรีบ surfactant ในทารกครบกำหนด",
+   "Gentle ventilation: PIP ≤ 25 cmH2O, permissive hypercapnia, เป้า preductal SpO2 ~80–95% · PH → iNO, milrinone · ไม่ตอบสนอง → ECMO",
+   "Repair: delayed หลัง stabilize · primary repair หรือใช้ patch เมื่อรูใหญ่ · minimally invasive ทำได้ในรายคงที่",
+   "ภาวะระยะยาว: chronic lung disease, GERD (พบบ่อย), พัฒนาการช้า, recurrence (โดยเฉพาะ patch repair), chest wall deformity"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ตรงกับลายมือ P'Ing · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B \"✓ prepare for Sx\" และกากบาท A emergency repair · ต้นฉบับมีแค่ 2 ช้อย เว็บเติม bag-mask (สิ่งที่ห้ามตาม P'Ing), chest tube และ ECMO ซึ่งล้วนผิดลำดับ จึงไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'CDH: 'Tube ทั้งบน-ล่าง' (ET + OG) · ห้าม Bag · ผ่าทีหลัง'</b>",
+  "guide": "Snoek KG et al. Standardized Postnatal Management of Infants with CDH in Europe: The CDH EURO Consortium Consensus 2015 Update, Neonatology 2016; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Congenital Diaphragmatic Hernia; Deprest JA et al. TOTAL trial, N Engl J Med 2021",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก CDH หลังใส่ท่อช่วยหายใจ SpO2 มือขวา 95% แต่ที่เท้า 80% → pulmonary hypertension มี right-to-left shunt ผ่าน ductus"
+   "ทารก CDH หลังใส่ ET tube ได้ PIP 30 แล้ว SpO2 ลดฉับพลัน เสียงหายใจขวาหาย → tension pneumothorax ข้างปอดดี → needle decompression/ chest tube ข้างขวา",
+   "เด็ก 4 ปี ไอเรื้อรัง CXR พบเงาลำไส้หลังกระดูกอกด้านขวาหน้า → Morgagni hernia → ผ่าตัดซ่อม (มักผ่านกล้อง)",
+   "ทำไมผ่าตัด CDH เร็วไม่ช่วยให้รอดดีขึ้น → ปอดที่เล็กและ PH ไม่หายทันทีเมื่อเอาลำไส้ลง และการผ่าตัดในช่วง PH สูงทำให้ทรุด",
+   "Ultrasound ก่อนคลอดพบกระเพาะอยู่ข้างหัวใจในทรวงอกซ้าย o/e LHR 20% ตับขึ้น → CDH รุนแรง → ส่งต่อศูนย์ที่มี ECMO/ พิจารณา FETO"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 2 — ตัวพิมพ์: <b>38. A 38 weeks GA male infant presents with respiratory distress since birth. Heart sounds are heard at the right chest and scaphoid abdomen is observed. What is the proper management? — A. Emergence repair B. Endotracheal tube and OG tube</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E · P'Ing ลายมือ = CDH, A ✗ (decompress), B ✓ prepare for Sx",
+  "src": "S74AQ · หน้า 2",
+  "kimg": [
+   "kp74a_38"
   ]
  },
  "MDCU74|RoA|44": {
-  "interp": "ทารก 6 เดือน ก้อนถุงน้ำในถุงอัณฑะ ดันไม่ยุบ ขนาดไม่เปลี่ยน ส่องไฟทะลุ อัณฑะปกติ = non-communicating hydrocele → ถามการจัดการ",
-  "why": "ลายมือ P'Ing: <b>non-communicating hydrocele · A ✓ หายเองได้ 1–2 ขวบ</b><br><b>นอกสไลด์:</b> Processus vaginalis ปิดแล้วเหลือน้ำค้างใน tunica vaginalis จึงถูกดูดซึมได้เอง · ขนาดไม่เปลี่ยนตลอดวันบอกว่าไม่ต่อกับช่องท้อง",
+  "interp": "เด็กชาย 6 เดือน มีถุงน้ำที่ถุงอัณฑะขวา ดันกลับไม่ได้ ขนาดไม่เปลี่ยน ส่องไฟผ่าน (transilluminate) และคลำอัณฑะได้ปกติสองข้าง = <b>non-communicating hydrocele</b> — ถามการดูแลที่เหมาะที่สุด ต้องรู้ธรรมชาติของ hydrocele ในทารกและเกณฑ์อายุที่ต้องผ่าตัด",
+  "why": "ช่วงตั้งครรภ์ <b>processus vaginalis</b> ยื่นตามอัณฑะลงถุง แล้วปิดตัวเองช่วงปลายครรภ์ถึงขวบปีแรก · ถ้าปิดแล้วแต่ยังมีน้ำค้างใน tunica vaginalis = <b>non-communicating hydrocele</b> ขนาดคงที่ไม่เปลี่ยนตามวัน น้ำค่อย ๆ ถูกดูดซึม<b>หายเองได้ส่วนใหญ่ภายในอายุ 1–2 ปี</b> → <b>observation</b> · ถ้า processus ยังเปิด (<b>communicating hydrocele</b>) ขนาดจะเปลี่ยน — เช้าเล็ก เย็น/ ร้องไห้แล้วโต บีบแล้วยุบ — เป็นกลไกเดียวกับ indirect inguinal hernia · ข้อบ่งชี้ผ่าตัด: ไม่หายหลังอายุ 1–2 ปี (EAU-ESPU: เฝ้าดูได้ราว 12–24 เดือน), ขนาดเปลี่ยน/ communicating ที่ยังอยู่, ใหญ่ตึงมาก หรือสงสัยมี hernia ร่วม · ผ่าตัดเด็กใช้ <b>inguinal approach</b> ผูก patent processus vaginalis สูง (high ligation) + ระบายน้ำส่วนปลาย ไม่ใช้ทางถุงอัณฑะ · ต้องแยกจาก hernia (ดันกลับได้ มีเสียงลำไส้ คลำขอบบนไม่ได้) และ testicular tumor (ก้อนแข็งไม่ส่องไฟผ่าน → US) · ไฟล์ P'Ing วง A ✓ และเขียนลายมือ <b>\"หายเองได้ 1–2 ขวบ\"</b> และ \"non-communicating hydrocele\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Marsupialization คือเปิดผนังถุงน้ำเย็บขอบกับผิวให้ระบายตลอด ใช้กับถุงน้ำบางชนิด ไม่ใช่การรักษา hydrocele · ไม่มีสถานการณ์ใดที่ใช้กับ hydrocele เด็ก เพราะต้นเหตุคือ processus vaginalis ที่ต้องผูกทางขาหนีบ",
-   "C": "<b>นอกสไลด์:</b> ผ่าตัดทางขาหนีบเพื่อผูก processus vaginalis · จะถูกถ้าเด็กอายุเกิน 1–2 ปีแล้วยังไม่หาย หรือก้อนโตขึ้นยุบลงตามเวลา (communicating hydrocele)",
-   "D": "<b>นอกสไลด์:</b> ผ่าทางถุงอัณฑะ (Jaboulay/Lord) ไม่ได้ผูก processus · จะถูกถ้าเป็นผู้ใหญ่มี hydrocele ขนาดใหญ่รบกวนชีวิต",
-   "E": "<b>นอกสไลด์:</b> ดูดน้ำออกแล้วกลับเป็นซ้ำและเสี่ยงติดเชื้อ · จะถูกถ้าผู้สูงอายุมี hydrocele แต่ไม่เหมาะจะผ่าตัด (ดูดน้ำร่วมกับฉีดสาร sclerosant)"
+   "B": "ไม่มีหัตถการ 'marsupialization of the cord' เป็นมาตรฐานในการรักษา hydrocele เด็ก — การเปิดถุงเย็บขอบพลิกออกเป็นหลักเดียวกับ Jaboulay/ Lord ที่ทำทางถุงอัณฑะในผู้ใหญ่ — จะถูกถ้าเป็นชาย 65 ปีที่มี hydrocele ขนาดใหญ่หลายปี ผนังบาง ไม่มีทางติดต่อกับช่องท้อง รบกวนการเดิน (hydrocelectomy แบบพลิกถุงผ่านทางถุงอัณฑะ)",
+   "C": "Inguinal hydrocelectomy + high ligation ของ processus vaginalis เป็นการผ่าตัดที่ถูกวิธีในเด็ก แต่ทำเมื่อมีข้อบ่งชี้ ไม่ใช่ที่อายุ 6 เดือนซึ่งยังหายเองได้ — จะถูกถ้าเป็นเด็กชาย 3 ปี มี hydrocele ขวาตั้งแต่เกิด ขนาดโตขึ้นตอนเย็นและยุบตอนเช้า ไม่หายเอง (communicating hydrocele)",
+   "D": "Scrotal approach (Jaboulay/ Lord) เป็นวิธีในผู้ใหญ่ที่ processus ปิดแล้ว ในเด็กไม่ได้แก้ patent processus จึงเป็นซ้ำ/ เกิด hernia ได้ — จะถูกถ้าเป็นชาย 50 ปี มี hydrocele ขวาใหญ่ขึ้นช้า ๆ 3 ปี ส่องไฟผ่าน US อัณฑะปกติ รำคาญเวลาเดิน",
+   "E": "การเจาะดูดในเด็กเสี่ยงติดเชื้อ เลือดออก เจาะโดนลำไส้ถ้ามี hernia ร่วม และกลับเป็นซ้ำแทบทุกราย จึงไม่ทำ — จะถูกถ้าเป็นชายสูงอายุ 85 ปี มีโรคหัวใจรุนแรงไม่เหมาะดมยา hydrocele ใหญ่ เจาะดูด ± ฉีด sclerosant เพื่อบรรเทาอาการชั่วคราว"
   },
-  "trap": "คำว่า irreducible ชวนคิดถึงไส้เลื่อนติดคา — ส่องไฟทะลุ ขนาดคงที่ อัณฑะปกติ และเด็กไม่เจ็บ = hydrocele",
+  "trap": "เห็นถุงน้ำที่อัณฑะแล้วรีบเลือกผ่าตัด และสับสนว่าผ่าตัดเด็กใช้ทางไหน · แยกด้วย<b>อายุ</b> (&lt; 1–2 ปี เฝ้าดู) และ<b>ขนาดเปลี่ยนหรือไม่</b> (non-communicating ขนาดคงที่ หายเองบ่อย) · ถ้าต้องผ่าตัดในเด็ก = <b>inguinal</b> approach ส่วน scrotal approach เป็นของผู้ใหญ่",
   "summary": [
-   "ลายมือในคีย์: non-communicating hydrocele ในทารก → หายเองได้ภายใน 1–2 ขวบ",
-   "<b>นอกสไลด์:</b> Communicating hydrocele (ขนาดเปลี่ยนตามวัน) → ผ่าตัดทางขาหนีบเหมือน herniotomy",
-   "<b>นอกสไลด์:</b> Hydrocele เด็กผ่าทางขาหนีบ · ผู้ใหญ่ผ่าทางถุงอัณฑะ",
-   "<b>นอกสไลด์:</b> Hydrocele ที่เกิดใหม่ในวัยรุ่น/ผู้ใหญ่ → US ดูอัณฑะ แยกเนื้องอกหรือการอักเสบ"
+   "Hydrocele ทารก: พบบ่อย (หลายเปอร์เซ็นต์ของทารกชายแรกเกิด) ส่วนใหญ่ non-communicating และหายเองภายใน 1–2 ปี",
+   "Non-communicating: ขนาดคงที่ ดันไม่ยุบ ส่องไฟผ่าน คลำขอบบนได้ · Communicating: ขนาดเปลี่ยนตามเวลา/ แรงดันในท้อง บีบยุบได้",
+   "Inguinal hernia ในเด็ก: ต้องผ่าตัดเมื่อวินิจฉัย (ไม่รอ) เพราะเสี่ยง incarceration สูงในขวบปีแรก · hydrocele รอได้",
+   "Hydrocele of the cord (encysted): ถุงน้ำแยกตามแนว spermatic cord เหนืออัณฑะ ดึงอัณฑะแล้วก้อนเลื่อนตาม · จัดการแบบเดียวกัน",
+   "ผ่าตัดเด็ก: inguinal incision → แยก patent processus vaginalis จาก cord → high ligation → ระบาย/ เปิดถุงส่วนปลาย",
+   "Hydrocele ผู้ใหญ่ (acquired): ต้องหาสาเหตุ — testicular tumor, epididymo-orchitis, torsion, trauma, filariasis (ในเขตร้อน) · ทำ scrotal US · รักษาด้วย Jaboulay/ Lord ทางถุงอัณฑะ",
+   "Hydrocele เกิดใหม่ในวัยรุ่น/ ผู้ใหญ่ หรือคลำอัณฑะไม่ได้ ต้อง US ทุกรายเพื่อตัดเนื้องอก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · stem เติมรายละเอียดให้ชัดว่าเป็น non-communicating และช้อย E แต่งเพิ่ม · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียน \"หายเองได้ 1–2 ขวบ\" กับ non-communicating hydrocele · ต้นฉบับไม่บอกว่าขนาดเปลี่ยนหรือไม่ เว็บเติม 'ขนาดไม่เปลี่ยน ส่องไฟผ่าน' ให้ตรงกับการวินิจฉัยของ P'Ing และเติมช้อย E ซึ่งไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Hydrocele เด็ก: 'รอ 2 ขวบ' · ต้องผ่า = 'ขาหนีบ' (เด็ก) / 'ถุง' (ผู้ใหญ่)'</b>",
+  "guide": "EAU-ESPU Guidelines on Paediatric Urology 2025 (Hydrocele); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Inguinal Hernias and Hydroceles",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 2 เดือน ก้อนขาหนีบลงถุงอัณฑะ ดันยุบได้ ฟังได้เสียงลำไส้ → inguinal hernia ผ่าตัดตามนัดโดยเร็ว ไม่รอให้หายเอง",
-   "<b>นอกสไลด์:</b> เด็กชาย 2 ปี ก้อนกลมเหนืออัณฑะ ส่องไฟทะลุ ดึงอัณฑะลงแล้วก้อนเคลื่อนตาม → encysted hydrocele of the cord"
+   "เด็กชาย 2 ปีครึ่ง hydrocele ขวาตั้งแต่เกิด ตอนเช้าเล็ก ตอนเย็นโต ไม่หาย → inguinal herniotomy (high ligation of patent processus vaginalis)",
+   "ทารกชาย 3 เดือน ก้อนที่ขาหนีบขวาโผล่เวลาร้อง ดันกลับได้ → inguinal hernia → นัดผ่าตัดเร็ว (ไม่ต้องรอ)",
+   "ชาย 25 ปี hydrocele ขวาเกิดใหม่ คลำอัณฑะไม่ชัด → scrotal US ก่อน เพื่อตัด testicular tumor",
+   "ทำไมผ่าตัด hydrocele เด็กต้องผ่านขาหนีบ → ต้องผูกปิด patent processus vaginalis ที่ internal ring ซึ่งเป็นต้นเหตุ"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 2 — ตัวพิมพ์: <b>44. A 6 months old boy presented with irreducible cystic lesion at the right scrotal sac, both testes are palpable and normal. What is the most appropriate management? — A. Observation B. Marsupialization of the cord C. Hydrocelectomy by inguinal approach D. Hydrocelectomy by scrotal approach</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 4 ช้อย → เติม E · เติม \"does not change in size, transilluminates\" ให้ชัดว่าเป็น non-communicating hydrocele (P'Ing เขียน non-communicating hydrocele) · มี ? หน้าข้อ",
+  "src": "S74AQ · หน้า 2",
+  "kimg": [
+   "kp74a_44"
   ]
  },
  "MDCU74|RoA|48": {
-  "interp": "หูซ้ายตึง + เสียงในหู · Rinne AC > BC ทั้งสองข้าง + Weber ไปข้างขวา = sensorineural hearing loss ซ้าย · ร่วมกับ cerebellar signs ซ้าย และชาโหนกแก้มซ้าย (CN V) → ก้อนใหญ่ที่ cerebellopontine angle ซ้าย",
-  "why": "ลายมือ P'Ing: <b>Weber/Rinne สลับกันในไฟล์ → SNHL left ear = CN VIII · sensory (CN V) · cerebellum → CP angle</b><br><b>นอกสไลด์:</b> Vestibular schwannoma เป็นก้อนที่ CP angle พบบ่อยที่สุด เริ่มจากหูตึงข้างเดียวและเสียงในหู เมื่อโตขึ้นจะกด CN V (ชาหน้า corneal reflex ลดลง) แล้วกด cerebellum/brainstem",
+  "interp": "หญิง 51 ปี หูซ้ายได้ยินลดลง + เสียงในหู · Rinne AC &gt; BC สองข้าง + Weber ไปขวา = <b>sensorineural hearing loss หูซ้าย</b> · มี<b>อาการ cerebellum</b> (finger-to-nose, heel-to-knee ผิด) และ<b>ชาที่โหนกแก้มซ้าย (V2)</b> = รอยโรคกด CN VIII, cerebellum และ CN V — ถามตำแหน่ง/ ชนิดรอยโรค = ก้อนที่ <b>cerebellopontine angle</b> ซ้าย",
+  "why": "ตีความหูก่อน: Rinne AC &gt; BC สองข้าง = ไม่มี conductive loss · <b>Weber ไปขวา</b> (หูดี) ทั้งที่หูซ้ายแย่ = <b>SNHL ซ้าย</b> · <b>Vestibular schwannoma</b> (acoustic neuroma) เกิดจาก Schwann cell ของ vestibular nerve ที่รอยต่อ Obersteiner-Redlich ใน internal auditory canal เป็นก้อนที่พบบ่อยที่สุดของ CPA (~80%) · อาการตามขนาด: ① ใน IAC → <b>unilateral progressive SNHL + tinnitus</b> (อาการแรกที่พบบ่อยที่สุด) ทรงตัวไม่ดี ② โตเข้า CPA → กด <b>CN V</b> (ชาหน้า, corneal reflex ลดเป็นสัญญาณแรก) ③ ใหญ่กด <b>cerebellum/ middle cerebellar peduncle</b> → ataxia, dysmetria ④ กด 4th ventricle → hydrocephalus · CN VII มักทนได้แม้ถูกยืด (facial weakness มาช้า) · ตรวจ <b>MRI with gadolinium</b> เห็นก้อนติดสีรูป 'ice cream cone' ขยาย IAC · รักษา: เล็กไม่มีอาการ → เฝ้าดูด้วย MRI · ขนาดกลาง (≤ 2.5–3 cm) → stereotactic radiosurgery หรือผ่าตัด · ใหญ่กดก้านสมอง → microsurgery (retrosigmoid, translabyrinthine, middle fossa) · bilateral = NF2 · ไฟล์ P'Ing วง B และเขียนลายมือ <b>\"SNHL left ear = CN VIII\"</b> \"sensory cerebellum\" และ \"มีทั้งที่ CP angle ?\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ก้อนที่ jugular foramen (เช่น glomus jugulare) กด CN IX–XI · จะถูกถ้าผู้ป่วยเสียงแหบ กลืนลำบาก ได้ยินเสียงตุบในหูตามชีพจร และเห็นก้อนแดงหลังแก้วหู",
-   "C": "<b>นอกสไลด์:</b> Hemangioblastoma อยู่ในเนื้อ cerebellum ไม่ทำให้หูตึงหรือชาหน้า · จะถูกถ้าผู้ใหญ่มีอาการเดินเซ เลือดข้น (polycythemia) และมี retinal hemangioblastoma (VHL)",
-   "D": "<b>นอกสไลด์:</b> Epidermoid อยู่ที่ CP angle ได้แต่พบน้อยกว่ามาก มักมาด้วยปวดหน้าแบบ trigeminal neuralgia ในคนอายุน้อย · จะถูกถ้า MRI เป็นก้อนสว่างใน DWI ไม่ enhance แทรกตามช่องรอบ brainstem",
-   "E": "<b>นอกสไลด์:</b> Trigeminal schwannoma เริ่มจากชาหรือปวดใบหน้า หูตึงไม่เด่น · จะถูกถ้าผู้ป่วยชาใบหน้าค่อย ๆ มากขึ้น กล้ามเนื้อเคี้ยวอ่อนแรง โดยไม่มีหูตึง"
+   "A": "Jugular foramen tumor (เช่น glomus jugulare, schwannoma ของ CN IX–XI) ทำให้ <b>Vernet syndrome</b> — กลืนลำบาก เสียงแหบ ยักไหล่/ หันศีรษะอ่อนแรง — และ glomus ทำให้ pulsatile tinnitus กับ conductive hearing loss ไม่มีชาหน้า — จะถูกถ้าเป็นหญิง 50 ปี ได้ยินเสียงหึ่งในหูตามจังหวะชีพจร เห็นก้อนสีแดงหลังเยื่อแก้วหู เสียงแหบ กลืนสำลัก และลิ้นไก่เบี้ยว",
+   "C": "Cerebellar hemangioblastoma เป็นเนื้องอกใน cerebellum ของผู้ใหญ่ (มักเป็น cyst + mural nodule) ทำให้ ataxia และ hydrocephalus แต่ไม่ทำให้หูดับข้างเดียวหรือชาหน้า อาจมี polycythemia จาก erythropoietin — จะถูกถ้าเป็นชาย 35 ปี เดินเซ ปวดศีรษะ อาเจียน Hct 58% มี retinal angioma และ renal cell carcinoma ในครอบครัว (von Hippel-Lindau)",
+   "D": "Epidermoid ของ CPA (ก้อน CPA อันดับ 3 รองจาก schwannoma และ meningioma) โตช้าแทรกไปตามช่องว่าง มักมาด้วย<b>trigeminal neuralgia</b> หรือ hemifacial spasm มากกว่าหูดับ MRI เป็น DWI restricted (สว่าง) และไม่ติดสี — จะถูกถ้าเป็นชาย 35 ปี ปวดแปล๊บเหมือนไฟช็อตที่หน้าซ้าย MRI พบก้อนที่ CPA ไม่ติด gadolinium แต่สว่างบน DWI",
+   "E": "Trigeminal schwannoma เกิดที่ Meckel cave/ CN V ทำให้ชาหน้า ปวดหน้า และกล้ามเนื้อเคี้ยวอ่อนแรงเป็นอาการเด่น การได้ยินมักปกติ ก้อนอาจเป็นรูป dumbbell ข้าม middle-posterior fossa — จะถูกถ้าเป็นหญิง 45 ปี ชาหน้าซ้ายทั้ง V1–V3 กล้ามเนื้อ masseter ซ้ายลีบ การได้ยินปกติ MRI พบก้อนติดสีใน Meckel cave"
   },
-  "trap": "ไฟล์ต้นฉบับจด Weber กับ Rinne สลับกัน (P'Ing ขีดแก้) — อ่านผลให้ถูก: Rinne AC > BC สองข้าง + Weber ไปข้างดี = SNHL ข้างที่ Weber ไม่ไป",
+  "trap": "ต้นฉบับจด Weber กับ Rinne สลับกัน (P'Ing ขีดแก้) ทำให้ตีความหูผิดได้ · อาการชาหน้า (CN V) ล่อให้เลือก trigeminal schwannoma และอาการ cerebellum ล่อให้เลือก hemangioblastoma · แต่อาการ<b>แรกและเด่น</b>คือ SNHL + tinnitus ข้างเดียว ส่วน CN V และ cerebellum เป็นอาการเมื่อ vestibular schwannoma โตใหญ่ใน CPA",
   "summary": [
-   "<b>นอกสไลด์:</b> แปลผล: SNHL → Rinne AC > BC + Weber ไปข้างดี · conductive → Rinne BC > AC ข้างเสีย + Weber ไปข้างเสีย",
-   "<b>นอกสไลด์:</b> VS โตตามลำดับ: CN VIII (หูตึง เสียงในหู เวียนศีรษะ) → CN V (corneal reflex หายเป็นสัญญาณแรก ชาหน้า) → cerebellum → hydrocephalus",
-   "<b>นอกสไลด์:</b> CN VII อยู่ข้าง CN VIII แต่หน้าเบี้ยวพบช้าและน้อย"
+   "CPA tumors: vestibular schwannoma ~80% · meningioma ~10% · epidermoid ~5% · อื่น ๆ (facial/ trigeminal schwannoma, metastasis, arachnoid cyst)",
+   "Tuning fork: Weber ไปข้างหูดี + Rinne AC &gt; BC = SNHL ข้างหูแย่ · Weber ไปข้างหูแย่ + Rinne BC &gt; AC = conductive loss",
+   "Unilateral/ asymmetric SNHL หรือ tinnitus ข้างเดียว → MRI IAC with gadolinium (มาตรฐานคัดกรอง VS)",
+   "ลำดับอาการ VS: หูดับ/ tinnitus → ทรงตัว → CN V (corneal reflex ลด) → cerebellar signs → hydrocephalus · CN VII มาท้าย",
+   "NF2-related schwannomatosis: bilateral VS (diagnostic), meningioma, ependymoma, juvenile cataract · NF2 gene บนโครโมโซม 22",
+   "รักษา VS: observation (เล็ก ผู้สูงอายุ) · SRS (≤ 2.5–3 cm) · microsurgery (ใหญ่ กดก้านสมอง) — translabyrinthine เสียการได้ยิน, retrosigmoid/ middle fossa พยายามเก็บการได้ยิน",
+   "ภาวะแทรกซ้อนหลังผ่าตัด: facial nerve palsy (House-Brackmann), CSF leak, เสียการได้ยิน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ไฟล์มีช้อย vestibular schwannoma กับ CP angle schwannoma ซ้อนกัน จึงเปลี่ยนช้อย C เป็น hemangioblastoma ให้เหลือคำตอบเดียว · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B และสรุปว่า SNHL ซ้าย = CN VIII ร่วม sensory/ cerebellum · ต้นฉบับมีช้อย B (vestibular schwannoma) และ C (CP angle schwannoma) ซ้อนกัน ซึ่ง P'Ing ก็สังเกตว่า \"มีทั้งที่ CP angle ?\" เว็บจึงเปลี่ยน C เป็น hemangioblastoma ให้เหลือคำตอบเดียว และเขียน Rinne/ Weber ให้ถูกตามที่ P'Ing แก้",
+  "mnemonic": "<b>'หูดับข้างเดียว + เสียงหึ่ง → 'VIII ก่อน V แล้ว Cerebellum' = Vestibular schwannoma'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) Vestibular Schwannoma; Goldbrunner R et al. EANO guideline on the diagnosis and treatment of vestibular schwannoma, Neuro Oncol 2020",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหูตึงข้างเดียวเฉียบพลันภายใน 3 วัน audiogram เป็น SNHL → sudden SNHL ให้ steroid เร็ว แล้วทำ MRI หา vestibular schwannoma"
+   "หญิง 30 ปี หูดับสองข้าง MRI พบ vestibular schwannoma ทั้งสองข้างและ meningioma → NF2-related schwannomatosis",
+   "ชาย 70 ปี หูซ้ายดับช้า ๆ MRI พบ VS ขนาด 8 mm ใน IAC ไม่มีอาการอื่น → เฝ้าดูด้วย MRI ซ้ำ 6–12 เดือน",
+   "หญิง 45 ปี VS ขนาด 4 cm กดก้านสมอง มี hydrocephalus → microsurgical resection (± CSF diversion)",
+   "ทำไม corneal reflex ลดเป็นสัญญาณแรกของการกด CN V จาก CPA tumor → เส้นใย sensory ของกระจกตา (V1) ไวต่อการกดก่อนรู้สึกชาที่ผิวหน้า"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 2 — ตัวพิมพ์: <b>48. A 51-year-old female presented with left side hearing loss and tinnitus in left ear. Weber test air conduction > bone conduction in both sides, Rinne test lateralized to the right side. Impaired finger to nose, heel to knee tests. Malar pinprick sensation loss. Where is the site of the lesion? — A. Left jugular foramen B. Left vestibular schwannoma C. Left CP angle schwannoma D. Left CP angle epidermoid E. Left trigeminal schwannoma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จด Weber กับ Rinne สลับกัน (P'Ing ขีดแก้: Weber → Rinne, Rinne → Weber) → stem ภาษาอังกฤษเขียนตามที่ถูก · ช้อย B (vestibular schwannoma) กับ C (CP angle schwannoma) ในไฟล์ซ้อนกัน (VS ก็อยู่ที่ CP angle) → เปลี่ยน C เป็น cerebellar hemangioblastoma ให้เหลือคำตอบเดียว · P'Ing เขียน \"มีทั้งที่ CP angle ?\" ที่ B–C",
+  "src": "S74AQ · หน้า 2",
+  "kimg": [
+   "kp74a_48"
   ]
  },
  "MDCU74|RoA|51": {
-  "interp": "บาดเจ็บศีรษะ 3 สัปดาห์ก่อน มี Battle sign (กะโหลกฐานแตก) และน้ำใน mastoid air cells · ตอนนี้ไข้ ปวดศีรษะ คอแข็ง → ถามการวินิจฉัย",
-  "why": "ลายมือ P'Ing: <b>Battle sign = bruising over the mastoid · CSF leakage from fracture → meningitis</b><br><b>นอกสไลด์:</b> กะโหลกฐานแตกที่ petrous temporal ทำให้ dura ฉีก มีทางเชื่อมระหว่าง subarachnoid space กับหูชั้นกลาง/mastoid → เชื้อเข้าเยื่อหุ้มสมอง · เชื้อที่พบบ่อยคือ S. pneumoniae จากทางเดินหายใจส่วนบน · ไข้ + คอแข็ง = meningitis",
+  "interp": "ชายไทย ไข้ + ปวดศีรษะ 1 สัปดาห์ หลัง<b>ศีรษะกระแทก 3 สัปดาห์</b> ตรวจพบ <b>Battle sign</b> หลังหูขวา (= <b>basilar skull fracture</b> ของ temporal bone) <b>คอแข็ง</b> และมีน้ำเล็กน้อยใน mastoid air cells — ถามการวินิจฉัย ต้องเชื่อมกระดูกฐานกะโหลกแตก → CSF leak → เชื้อเข้าสู่เยื่อหุ้มสมอง",
+  "why": "<b>Basilar skull fracture</b> แสดงด้วย <b>Battle sign</b> (ห้อเลือดเหนือ mastoid ปรากฏหลังบาดเจ็บ 1–3 วัน), raccoon eyes, hemotympanum, CSF otorrhea/ rhinorrhea และอาจมี CN VII/ VIII injury · รอยแตกที่ petrous temporal bone ฉีก dura ทำให้มีทางติดต่อระหว่าง subarachnoid space กับ <b>middle ear/ mastoid air cells</b> (น้ำใน mastoid คือเลือด/ CSF) และกับโพรงจมูก → <b>เชื้อในทางเดินหายใจส่วนบนเข้าสู่ CSF</b> → <b>post-traumatic bacterial meningitis</b> เชื้อที่พบบ่อยที่สุดคือ <b>Streptococcus pneumoniae</b> · อาการ: ไข้ ปวดศีรษะ คอแข็ง ซึม · เจาะ CSF (เมื่อไม่มีข้อห้าม — CT ก่อนถ้ามีอาการทางระบบประสาทเฉพาะที่/ ซึมลง) และให้ empirical <b>vancomycin + ceftriaxone</b> ร่วม dexamethasone ทันที · CSF leak หลังบาดเจ็บส่วนใหญ่หยุดเองใน 7–10 วันด้วย bed rest ยกหัวสูง เลี่ยงสั่งน้ำมูก/ เบ่ง ± lumbar drain · leak นานหรือมี meningitis → ผ่าตัดซ่อม dura · ไม่แนะนำยาปฏิชีวนะป้องกันในทุกราย · ไฟล์ P'Ing วง A เขียน <b>\"✓ from CSF leakage\"</b> และลายมือ \"bruising over the mastoid process, CSF leakage from fracture, meningitis ICP↑\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Encephalitis เด่นที่ความรู้สึกตัวเปลี่ยน ชัก อาการทางสมองเฉพาะที่ ไม่ได้สัมพันธ์กับ CSF leak · จะถูกถ้าผู้ป่วยไข้ สับสน ชัก MRI มีรอยโรคที่ temporal lobe (HSV)",
-   "C": "<b>นอกสไลด์:</b> Cerebritis เป็นระยะแรกของฝีในสมอง ทำให้มีอาการเฉพาะที่มากกว่าคอแข็ง · จะถูกถ้าหลังแผลทะลุกะโหลกหรือไซนัสอักเสบ CT เห็นบริเวณ hypodense ขอบไม่ชัดในเนื้อสมอง ยังไม่มีผนังฝี",
-   "D": "<b>นอกสไลด์:</b> น้ำใน mastoid ที่นี่คือเลือด/CSF จากรอยแตก ไม่ใช่หนอง · จะถูกถ้าเด็กเป็นหูน้ำหนวก มีไข้ หลังหูบวมแดงกดเจ็บ ใบหูกาง",
-   "E": "<b>นอกสไลด์:</b> Hydrocephalus หลังบาดเจ็บทำให้ปวดศีรษะ อาเจียน ซึมลง แต่ไม่มีไข้และคอแข็ง · จะถูกถ้าผู้ป่วยหลังบาดเจ็บศีรษะหรือเลือดออกใต้เยื่อหุ้มสมองค่อย ๆ ซึมลง CT เห็น ventricle โต"
+   "B": "Encephalitis (เช่น HSV) เด่นที่<b>เนื้อสมอง</b> — สับสน พฤติกรรมเปลี่ยน ชัก อาการทางระบบประสาทเฉพาะที่ คอแข็งไม่เด่น และไม่สัมพันธ์กับกะโหลกแตก — จะถูกถ้าเป็นหญิง 30 ปี ไข้ 3 วัน สับสน พูดแปลก ชักเฉพาะที่ MRI พบ T2 สว่างที่ medial temporal lobe CSF lymphocyte เด่นและ HSV PCR บวก",
+   "C": "Cerebritis เป็นระยะแรกของ brain abscess (เนื้อสมองอักเสบเป็นบริเวณ ยังไม่มี capsule) อาการเด่นคือ focal deficit/ ชัก CT เห็นบริเวณความหนาแน่นต่ำขอบไม่ชัด — จะถูกถ้าเป็นชาย 40 ปีที่มีหูน้ำหนวกเรื้อรัง ไข้ ปวดศีรษะ แขนขาซ้ายอ่อนแรง CT พบรอยโรคขอบไม่ชัดใน temporal lobe ยังไม่มี ring enhancement",
+   "D": "Mastoiditis เป็นภาวะแทรกซ้อนของหูชั้นกลางอักเสบ มีปวด บวมแดงกดเจ็บหลังหู ใบหูกาง และหนองใน mastoid ไม่ใช่น้ำเล็กน้อยหลังกะโหลกแตก และไม่ทำให้คอแข็งเอง (ยกเว้นลามเข้าเยื่อหุ้มสมอง) — จะถูกถ้าเป็นเด็ก 4 ปี เป็นหูชั้นกลางอักเสบ 2 สัปดาห์ มีไข้ หลังหูบวมแดงกดเจ็บ ใบหูกางออก CT พบ mastoid air cells ถูกทำลาย",
+   "E": "Hydrocephalus หลังบาดเจ็บหรือหลังเยื่อหุ้มสมองอักเสบทำให้ปวดศีรษะ อาเจียน ซึมลง เดินลำบาก แต่ไม่ได้ทำให้มีไข้และคอแข็ง — จะถูกถ้าเป็นชาย 60 ปี หลัง subarachnoid hemorrhage 2 เดือน เดินลำบาก ปัสสาวะราด ความจำแย่ลง CT พบ ventricle โตทั้งหมด"
   },
-  "trap": "เห็นน้ำใน mastoid แล้วตอบ mastoiditis — ในบริบทกะโหลกฐานแตกคือเลือด/CSF · ไข้ + คอแข็ง = meningitis",
+  "trap": "Battle sign + น้ำใน mastoid ทำให้คนตอบ <b>mastoiditis</b> เพราะคำว่า mastoid ซ้ำกัน · แต่ Battle sign คือห้อเลือดจาก<b>กะโหลกฐานแตก</b> ไม่ใช่การอักเสบหลังหู และน้ำใน mastoid คือเลือด/ CSF จากรอยแตก · ไข้ + ปวดศีรษะ + <b>คอแข็ง</b> หลังกะโหลกฐานแตก = meningitis จาก CSF leak",
   "summary": [
-   "ลายมือในคีย์: Battle sign (ช้ำหลังหู) = basilar skull fracture → CSF leak → meningitis",
-   "<b>นอกสไลด์:</b> สัญญาณกะโหลกฐานแตก: raccoon eyes · Battle sign · CSF rhinorrhea/otorrhea · hemotympanum · CN VII/VIII เสีย",
-   "<b>นอกสไลด์:</b> CSF leak ส่วนใหญ่หยุดเองในราว 1 สัปดาห์ · ไม่แนะนำให้ยาปฏิชีวนะป้องกัน · รั่วนานหรือ meningitis ซ้ำ → ผ่าตัดซ่อม dura"
+   "Basilar skull fracture signs: Battle sign (mastoid ecchymosis), raccoon eyes (periorbital), hemotympanum, CSF rhinorrhea/ otorrhea, CN VII/ VIII palsy",
+   "ยืนยัน CSF leak: β2-transferrin (หรือ β-trace protein) ในน้ำที่ไหล · halo/ ring sign บนผ้าใช้คร่าว ๆ · หาตำแหน่งด้วย high-resolution CT ± CT/ MR cisternography",
+   "Post-traumatic CSF leak: ส่วนใหญ่หยุดเองใน 7–10 วัน · conservative (ยกหัว เลี่ยงเบ่ง/ สั่งน้ำมูก, stool softener) → lumbar drain → ผ่าตัด/ endoscopic repair ถ้าไม่หยุดหรือมี meningitis",
+   "ยาปฏิชีวนะป้องกันใน basilar skull fracture ไม่ลด meningitis (Cochrane) · พิจารณาวัคซีน pneumococcal ในผู้ที่มี CSF leak",
+   "Meningitis หลังกะโหลกฐานแตก: S. pneumoniae พบบ่อยสุด · empirical vancomycin + ceftriaxone/ cefotaxime (IDSA) + dexamethasone ก่อน/ พร้อมยาครั้งแรก",
+   "CSF bacterial: neutrophil เด่น, glucose ต่ำ (CSF/serum &lt; 0.4), protein สูง, opening pressure สูง",
+   "ในไทยระวัง Streptococcus suis (กินหมูดิบ/ สัมผัสหมู) ทำให้ meningitis ร่วมหูดับถาวร"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A \"✓ from CSF leakage\" และอธิบายกลไก fracture → CSF leak → meningitis · ต้นฉบับเขียน Battle sign ที่ 'right temporal area' และ 'mastoid sinus' เว็บแก้เป็น mastoid area/ mastoid air cells ให้ถูกกายวิภาค ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Battle (หลังหู) + Raccoon (รอบตา) = ฐานกะโหลกแตก → CSF รั่ว → เชื้อ (pneumococcus) เข้าเยื่อหุ้มสมอง'</b>",
+  "guide": "Tunkel AR et al. IDSA Practice Guidelines for the Management of Bacterial Meningitis, Clin Infect Dis 2004; Tunkel AR et al. IDSA Clinical Practice Guidelines for Healthcare-Associated Ventriculitis and Meningitis, Clin Infect Dis 2017; Greenberg's Handbook of Neurosurgery 10th ed. (2023) Skull Fractures/ CSF Fistula",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังบาดเจ็บศีรษะมีน้ำใสไหลจากจมูกเมื่อก้มหน้า ถามวิธียืนยันว่าเป็น CSF → ตรวจ β2-transferrin",
-   "<b>นอกสไลด์:</b> ผู้ป่วยกะโหลกฐานแตกมีน้ำใสไหลจากจมูก ต้องใส่สายให้อาหาร → ใส่ทางปาก (OG) ห้ามใส่ทางจมูกเพราะเสี่ยงหลุดเข้ากะโหลก"
+   "ชาย 25 ปี หลังอุบัติเหตุมีน้ำใสไหลจากจมูกข้างเดียวเวลาก้มหน้า น้ำตรวจ β2-transferrin บวก → CSF rhinorrhea → bed rest ยกหัวสูง เฝ้าดู 7–10 วัน",
+   "น้ำใสไหลจากจมูกหลังบาดเจ็บนาน 3 สัปดาห์ แม้ทำ lumbar drain แล้ว → endoscopic repair ของ skull base defect",
+   "ทำไม CSF leak ทำให้ meningitis กลับเป็นซ้ำได้หลายปี → ทางติดต่อระหว่างโพรงจมูก/ หูชั้นกลางกับ subarachnoid space ยังเปิดอยู่จนกว่าจะซ่อม",
+   "ชายไทย 55 ปี ชำแหละหมู มีไข้ คอแข็ง หูดับสองข้าง → Streptococcus suis meningitis → ceftriaxone ± dexamethasone"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 2 — ตัวพิมพ์: <b>51. A Thai male presents with fever and headache for 1 week. He had head trauma 3 weeks ago. PE: Battle sign at right temporal area, stiff neck positive. Minimal fluid was observed in the mastoid sinus. What is the most likely diagnosis? — A. Meningitis B. Encephalitis C. Cerebritis D. Mastoiditis E. Hydrocephalus</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์เขียน Battle sign at right temporal area และ mastoid sinus → stem ใช้ mastoid area/mastoid air cells · ช้อยอยู่คอลัมน์ขวา → ครอป 2 ส่วน",
+  "src": "S74AQ · หน้า 2",
+  "kimg": [
+   "kp74a_51a",
+   "kp74a_51b"
   ]
  },
  "MDCU74|RoA|55": {
-  "interp": "ผู้ใหญ่ชักครั้งแรก สัญญาณชีพปกติ ไม่มี deficit · CT ไม่ฉีดสีพบก้อนมีหินปูน → ถามขั้นต่อไป",
-  "why": "คีย์ P'Ing ไม่ได้วงช้อย (มี ?) — <b>Claude เฉลย B</b><br><b>นอกสไลด์:</b> ชักครั้งแรกในผู้ใหญ่ต้องหารอยโรคในสมอง · ก้อนมีหินปูนเป็นได้ทั้งเนื้องอก (oligodendroglioma, meningioma, ganglioglioma) หลอดเลือดผิดปกติ (cavernoma, AVM) และ granuloma (cysticercosis, TB) · การฉีดสีบอกได้ว่ามี enhancement/edema รอบก้อนหรือไม่ ซึ่งแยกรอยโรคที่ยัง active ออกจากหินปูนเก่า · MRI with gadolinium ดีที่สุด ในช้อยมี contrast CT",
+  "interp": "ชาย 40 ปี <b>ชักครั้งแรก</b> 2 ชม.ก่อนมา ความดันปกติ ไม่มี neurological deficit · non-contrast CT พบ<b>ก้อนที่มีหินปูน (calcified mass)</b> — ถามขั้นต่อไป ต้องรู้ว่าผู้ป่วยคงที่ (ไม่มีภาวะเร่งด่วนให้ลดความดันในกะโหลกหรือผ่าตัด) งานต่อไปคือ<b>หาลักษณะของรอยโรคด้วยภาพที่ฉีดสารทึบรังสี</b>",
+  "why": "ชักครั้งแรกในผู้ใหญ่ต้องหา structural cause และ non-contrast CT เป็นการตรวจแรกในห้องฉุกเฉินเพื่อหาเลือดออก/ ก้อน · ก้อนที่มี<b>หินปูน</b>แยกโรคได้หลายอย่าง: <b>oligodendroglioma</b> (หินปูนบ่อยที่สุดในกลุ่ม glioma), <b>meningioma</b>, <b>cavernous malformation</b>, AVM, low-grade glioma อื่น, และในไทยที่พบบ่อยคือ<b>เนื้องอกติดเชื้อ/ granuloma</b> เช่น <b>neurocysticercosis</b> (หมูดิบ), tuberculoma · NCCT บอกได้แค่ว่ามีหินปูน การ<b>ฉีด contrast</b> ช่วยดูการติดสี (enhancement) ขอบเขต ก้อนเนื้อ/ ถุงน้ำ, edema และ mass effect จึงแยกเนื้องอก ฝี และ vascular lesion ได้ · การตรวจที่ดีที่สุดคือ <b>MRI with gadolinium</b> (ไม่อยู่ในช้อย) เลือก <b>contrast-enhanced CT</b> เมื่อไม่มี MRI · ผู้ป่วยความดันปกติ ไม่มี deficit ไม่มีสัญญาณ herniation → ยังไม่ต้อง mannitol หรือผ่าตัดด่วน · ชักครั้งแรกที่มีรอยโรคโครงสร้าง (remote symptomatic) มีโอกาสชักซ้ำสูง จึงพิจารณาให้ยากันชัก (เช่น levetiracetam) ร่วมด้วย · ไฟล์ P'Ing ไม่ได้วงคำตอบ มีเพียง <b>\"?\"</b> หน้าข้อ เว็บเฉลย B",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> เฝ้าดูได้เฉพาะหินปูนเก่าที่ไม่ active · จะถูกถ้าภาพฉีดสีแล้วเป็นจุดหินปูนเล็ก ไม่มี enhancement ไม่มี edema เข้ากับ cysticercosis ระยะหินปูน (ให้ยากันชักอย่างเดียว)",
-   "C": "<b>นอกสไลด์:</b> MRA ดูหลอดเลือด ไม่ได้บอกชนิดก้อนเนื้อ · จะถูกถ้าภาพฉีดสีพบกลุ่มหลอดเลือดผิดปกติ (AVM) และต้องการดูหลอดเลือดที่เลี้ยงและระบาย",
-   "D": "<b>นอกสไลด์:</b> Mannitol ใช้ลด ICP เมื่อมีสัญญาณสมองเคลื่อน · จะถูกถ้าผู้ป่วยซึมลง รูม่านตาไม่เท่ากัน หรือมี Cushing triad จากก้อนที่บวมกดเบียด",
-   "E": "<b>นอกสไลด์:</b> ยังไม่รู้ชนิดก้อนและผู้ป่วยคงที่ · จะถูกถ้าก้อนมีเลือดออกขนาดใหญ่ เบียด midline และผู้ป่วยซึมลงเร็ว"
+   "A": "การเฝ้าดูอย่างเดียวโดยยังไม่รู้ว่าก้อนคืออะไรอาจพลาดเนื้องอกที่รักษาได้ (เช่น oligodendroglioma, meningioma) — การเฝ้าดูใช้ได้เมื่อรู้ชนิดรอยโรคแล้วว่าไม่ต้องรักษา — จะถูกถ้าเป็นชาย 40 ปีที่ CT เห็นจุดหินปูนเล็ก 3 mm จุดเดียวไม่มี edema รอบ ไม่ติดสีบน MRI เข้าได้กับ neurocysticercosis ระยะ calcified (ไม่ต้องให้ยาฆ่าพยาธิ)",
+   "C": "MR angiography ดูหลอดเลือด ใช้เมื่อสงสัย vascular lesion เช่น AVM (ก้อนหลอดเลือดคดเคี้ยว มีหินปูน/ เลือดออก) หรือ aneurysm แต่ไม่ใช่ขั้นแรกในการหาลักษณะของก้อน และ cavernoma มักไม่เห็นใน angiography — จะถูกถ้าเป็นหญิง 25 ปี ชักและ CT พบเลือดออกใน lobe ร่วมหลอดเลือดคดเคี้ยวมีหินปูน สงสัย AVM",
+   "D": "Mannitol ใช้ลดความดันในกะโหลกเฉียบพลันเมื่อมีสัญญาณ herniation เช่น ซึมลง รูม่านตาขยายข้างเดียว Cushing response — ผู้ป่วยรู้ตัวดีไม่มี deficit จึงไม่ต้องใช้ — จะถูกถ้าเป็นชาย 40 ปี GCS ลดจาก 14 เป็น 8 รูม่านตาซ้ายขยาย CT พบก้อนพร้อม edema รอบมากและ midline shift 10 mm (ระหว่างรอผ่าตัด)",
+   "E": "Emergency craniotomy ทำเมื่อมี mass effect คุกคามชีวิต เช่น herniation หรือเลือดออกในก้อนจำนวนมาก — ผู้ป่วยคงที่ ควรวางแผนผ่าตัดแบบ elective หลังรู้ลักษณะก้อนจาก MRI — จะถูกถ้าเป็นชาย 50 ปี ซึมลงเร็ว CT พบเลือดออกใน temporal lobe ปริมาณมากจากก้อนเนื้องอก ทำให้ uncal herniation"
   },
-  "trap": "คิดว่าก้อนมีหินปูน = ไม่ร้าย ไม่ต้องตรวจต่อ — เนื้องอกหลายชนิดมีหินปูนได้ ต้องฉีดสีก่อนตัดสิน",
+  "trap": "ข้อที่ไม่มีคีย์ในไฟล์ (P'Ing ใส่ ?) และช้อยดูไม่มีข้อที่สมบูรณ์เพราะ MRI with contrast ไม่อยู่ในช้อย · คนอาจเลือก observation เพราะผู้ป่วยดูปกติ หรือเลือก MRA เพราะเห็นคำว่า MR · หลักคือ <b>เจอก้อนจาก NCCT → ภาพที่ฉีด contrast</b> (MRI ดีที่สุด, CT contrast เมื่อไม่มี MRI) ส่วน mannitol/ craniotomy ไว้สำหรับคนที่ทรุด",
   "summary": [
-   "<b>นอกสไลด์:</b> ก้อนมีหินปูนในสมอง: oligodendroglioma · meningioma · ganglioglioma · craniopharyngioma (เด็ก, sellar) · cavernoma/AVM · cysticercosis · TB",
-   "<b>นอกสไลด์:</b> ชักครั้งแรกในผู้ใหญ่: ภาพสมอง (MRI ดีกว่า CT) + EEG + ตรวจเลือดหาสาเหตุ metabolic"
+   "ชักครั้งแรกในผู้ใหญ่: ประวัติ (provoked หรือไม่), electrolyte/ glucose, toxicology, NCCT ในห้องฉุกเฉิน แล้ว MRI สมองและ EEG (AAN/ AES 2015)",
+   "รอยโรคในสมองที่มีหินปูน: oligodendroglioma, meningioma, cavernous malformation, AVM, ependymoma, craniopharyngioma (เด็ก), neurocysticercosis, tuberculoma, toxoplasmosis ที่รักษาแล้ว",
+   "Neurocysticercosis: สาเหตุชักที่ป้องกันได้บ่อยในประเทศกำลังพัฒนา · ระยะ vesicular (ถุงมี scolex) → colloidal (ติดสีรูปวง edema) → nodular → calcified",
+   "ระยะ active ของ neurocysticercosis: albendazole ± praziquantel + corticosteroid + ยากันชัก · ระยะ calcified: ยากันชักอย่างเดียว",
+   "Oligodendroglioma: IDH-mutant + 1p/19q codeleted · ผู้ใหญ่ 30–50 ปี มักมาด้วยชัก · หินปูนบ่อย · ตอบสนองต่อ PCV/ temozolomide + RT",
+   "Cavernous malformation: MRI T2 'popcorn' ขอบ hemosiderin ดำ · angiographically occult · ชักและเลือดออกซ้ำ",
+   "ยากันชักหลังชักครั้งแรก: ให้เมื่อโอกาสชักซ้ำสูง — มีรอยโรคโครงสร้าง, EEG epileptiform, ชักขณะหลับ, ประวัติสมองบาดเจ็บ"
   ],
-  "opinion": "คีย์ไม่ได้วงช้อย — Claude ตอบ B เพราะต้องแยกเนื้องอกจากรอยโรคอื่นด้วยการฉีดสี (MRI with gadolinium ดีที่สุดถ้ามีในช้อย) · ช้อย E แต่งเพิ่ม · ความมั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ในไฟล์ไม่มีคีย์ (P'Ing ไม่ได้วงช้อย ใส่ ? หน้าข้อ) เว็บจึงเฉลยเอง · ผู้ป่วยคงที่และรู้เพียงว่ามีก้อนหินปูน ขั้นต่อไปคือภาพที่ฉีด contrast เพื่อแยกชนิดก้อน ถ้ามีช้อย MRI with gadolinium จะดีกว่า CT contrast · mannitol และผ่าตัดด่วนไม่เข้ากับผู้ป่วยที่ไม่มี deficit",
+  "mnemonic": "<b>'NCCT 'เห็นก้อน' → Contrast 'ดูหน้าตาก้อน' → MRI ดีสุด · Mannitol/ ผ่าด่วน 'เมื่อทรุด''</b>",
+  "guide": "Krumholz A et al. AAN/AES Evidence-based guideline: Management of an unprovoked first seizure in adults, Neurology 2015; White AC Jr et al. IDSA/ASTMH Guidelines for the Diagnosis and Treatment of Neurocysticercosis, Clin Infect Dis 2018; Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ใหญ่ชักครั้งแรกไม่มีสาเหตุกระตุ้น MRI และ EEG ปกติ → โดยทั่วไปยังไม่เริ่มยากันชัก เพราะโอกาสชักซ้ำไม่สูง"
+   "ชาย 35 ปี ชาวอีสาน ชักครั้งแรก MRI พบ cyst หลายอันมีจุด scolex ไม่มี edema → neurocysticercosis ระยะ vesicular → albendazole + corticosteroid + ยากันชัก",
+   "หญิง 45 ปี ปวดศีรษะเรื้อรัง MRI พบก้อนติดสีเท่ากันติด dura มี dural tail และหินปูน → meningioma → ผ่าตัด (Simpson grade) หรือเฝ้าดูถ้าเล็กไม่มีอาการ",
+   "ชาย 40 ปี ชักครั้งแรก MRI พบก้อน frontal ไม่ติดสี มีหินปูน → สงสัย oligodendroglioma → maximal safe resection แล้วส่งตรวจ IDH และ 1p/19q",
+   "ทำไม NCCT เป็นการตรวจแรกหลังชักแม้ MRI ดีกว่า → หาได้เร็วว่ามีเลือดออก/ ก้อนที่ต้องรักษาเร่งด่วนหรือไม่ และหาได้ทุกโรงพยาบาล"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 2 — ตัวพิมพ์: <b>55. A 40-year-old male presents with first episode of seizure 2 hr PTA. BP 120/80 mmHg without neurological deficits. Calcified mass is found in CT brain. What is the next step of management? — A. Observe B. CT contrast C. MR angiography D. IV mannitol</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไม่มีคำตอบในไฟล์ (P'Ing ไม่ได้วง มี ?) → Claude เฉลย B · เติมช้อย E",
+  "src": "S74AQ · หน้า 2",
+  "kimg": [
+   "kp74a_55"
   ]
  },
  "MDCU74|RoA|56": {
-  "interp": "ไข้ คอแข็ง CSF: WBC สูง glucose ต่ำ protein สูง = bacterial meningitis → ข้อ NOT: ยาใด <b>ใช้ไม่ได้</b>",
-  "why": "ลายมือ P'Ing: <b>bacterial meningitis · A ✗ aminoglycoside · B–E ผ่าน meningeal inflammation</b> + ตาราง CSF profile และสไลด์ CNS infection & antibiotics<br><b>นอกสไลด์:</b> Aminoglycoside เป็นโมเลกุลมีขั้ว ผ่าน blood–brain barrier ได้น้อยแม้เยื่อหุ้มสมองอักเสบ ระดับใน CSF ไม่พอฆ่าเชื้อ · ยาที่เข้า CSF ได้ดีเมื่อมีการอักเสบ: ceftriaxone/cefotaxime, penicillin/ampicillin, vancomycin, meropenem",
+  "interp": "ผู้ป่วยไข้ + คอแข็ง CSF มี WBC สูง <b>glucose ต่ำ protein สูง</b> = <b>acute bacterial meningitis</b> — ถามแบบปฏิเสธว่ายาปฏิชีวนะใด<b>ใช้ไม่ได้</b> ต้องรู้ว่ายาต้องผ่าน blood-brain barrier ได้ดีจึงจะรักษาการติดเชื้อในเยื่อหุ้มสมอง",
+  "why": "CSF profile ของ <b>bacterial meningitis</b>: neutrophil เด่น (มักหลายร้อยถึงหลายพัน cells/µL), <b>glucose ต่ำ</b> (CSF/ serum &lt; 0.4), <b>protein สูง</b>, opening pressure สูง (ต่างจาก viral ที่ lymphocyte เด่น glucose ปกติ และ TB/ fungal ที่ lymphocyte เด่น glucose ต่ำ) · ยาที่ใช้ต้อง bactericidal และ<b>ผ่าน BBB</b>ได้ระดับพอ — β-lactam ผ่านได้ดีขึ้นเมื่อเยื่อหุ้มสมองอักเสบ · empirical ในผู้ใหญ่: <b>ceftriaxone 2 g IV q12h</b> (หรือ cefotaxime) + <b>vancomycin</b> (ครอบคลุม pneumococcus ที่ดื้อ) + ampicillin เมื่ออายุ &gt; 50 ปี/ ภูมิคุ้มกันต่ำ (Listeria) + <b>dexamethasone 0.15 mg/kg q6h 2–4 วัน</b> ก่อนหรือพร้อมยาครั้งแรก · <b>penicillin G</b> ใช้เมื่อผลเพาะเชื้อไวต่อยา (N. meningitidis, pneumococcus ที่ไว) · <b>gentamicin (aminoglycoside)</b> เป็นโมเลกุลมีขั้วสูง ผ่าน BBB น้อยมาก ระดับใน CSF ไม่พอ และฤทธิ์ลดลงในสภาวะกรด/ หนอง จึง<b>ไม่ใช้เป็นยาหลักทางหลอดเลือดในผู้ใหญ่</b> · ไฟล์ P'Ing วง A เขียน <b>\"✗ aminoglycoside\"</b> ลายมือ \"bacterial meningitis\" และ B–E ผ่าน meningeal inflammation พร้อมแปะตาราง CSF profile และสไลด์ CNS infection &amp; antibiotics",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Ceftriaxone เป็นยาหลัก empirical · จะถูก (ใช้ไม่ได้) ถ้าเป็นทารกแรกเกิดที่ตัวเหลืองหรือต้องได้แคลเซียมทางหลอดเลือด — ใช้ cefotaxime แทน",
-   "C": "<b>นอกสไลด์:</b> Cefotaxime เข้า CSF ได้ดีและเป็นยาหลักในทารก · จะถูก (ใช้ไม่ได้) ถ้าเพาะเชื้อได้ Listeria monocytogenes — cephalosporin ทุกตัวไม่มีฤทธิ์ ต้องใช้ ampicillin",
-   "D": "<b>นอกสไลด์:</b> Penicillin G เข้า CSF ได้เมื่ออักเสบ ใช้กับ meningococcus/pneumococcus ที่ไวต่อยา · จะถูก (ใช้ไม่ได้) ถ้าเป็น pneumococcus ที่ดื้อ penicillin (MIC สูง)",
-   "E": "<b>นอกสไลด์:</b> Vancomycin ใส่ใน empirical เพื่อครอบคลุม pneumococcus ดื้อยา · จะถูก (ใช้ไม่ได้เป็นยาเดี่ยว) ถ้าเพาะเชื้อได้แบคทีเรียแกรมลบ เช่น E. coli ในทารก — vancomycin ไม่มีฤทธิ์ต่อแกรมลบ"
+   "B": "ข้อความถูก: ceftriaxone ผ่าน BBB ดีเมื่อเยื่อหุ้มสมองอักเสบ ครอบคลุม S. pneumoniae, N. meningitidis, H. influenzae เป็นแกนของ empirical therapy (2 g IV q12h) — จะถูกถ้าต้องเลือกยาเริ่มต้นสำหรับชาย 30 ปี ไข้สูง ซึม คอแข็ง มีผื่น petechiae ตามตัว สงสัย meningococcal meningitis",
+   "C": "ข้อความถูก: cefotaxime เป็น cephalosporin รุ่น 3 ฤทธิ์ใกล้เคียง ceftriaxone ใช้ได้ดีใน meningitis และนิยมในทารกแรกเกิด (ceftriaxone แย่ง bilirubin และตกตะกอนกับ calcium) — จะถูกถ้าต้องเลือกยาให้ทารกอายุ 10 วันที่มีไข้ ซึม กระหม่อมโป่ง CSF neutrophil สูง (ร่วมกับ ampicillin)",
+   "D": "ข้อความถูก: penicillin G ผ่าน BBB ที่อักเสบได้ ใช้เป็น definitive therapy เมื่อเชื้อไวต่อยา เช่น N. meningitidis หรือ pneumococcus ที่ MIC ต่ำ — จะถูกถ้าต้องเลือกยาปรับลดลงสำหรับหญิง 20 ปี meningococcal meningitis ที่ผลเพาะเชื้อไวต่อ penicillin",
+   "E": "ข้อความถูก: vancomycin ผ่าน BBB ได้เมื่ออักเสบ ใช้ร่วมกับ ceftriaxone เพื่อครอบคลุม pneumococcus ที่ดื้อ cephalosporin และใช้ใน meningitis หลังผ่าตัดสมอง/ shunt (MRSA, CoNS) — จะถูกถ้าต้องเลือกยาสำหรับชาย 40 ปี มีไข้คอแข็งหลังผ่าตัดใส่ VP shunt 2 สัปดาห์ (vancomycin + cefepime/ meropenem)"
   },
-  "trap": "ข้อนี้ถามยาที่ใช้ไม่ได้ อย่าเลือกยาที่ดีที่สุด · CSF ที่ WBC สูง glucose ต่ำ protein สูง บอกว่าเป็นแบคทีเรีย",
+  "trap": "คนที่จำว่า gentamicin ใช้ใน <b>neonatal sepsis/ meningitis</b> (ampicillin + gentamicin) อาจลังเล · แต่ในทารกใช้เพื่อ synergy กับ ampicillin ต่อ GBS/ Listeria และยาหลักที่เข้า CSF คือ ampicillin/ cefotaxime ไม่ใช่ gentamicin · ข้อนี้เป็นหลักการว่า <b>aminoglycoside ผ่าน BBB ได้น้อย</b> ส่วนอีก 4 ตัวผ่านได้เมื่อเยื่อหุ้มสมองอักเสบ",
   "summary": [
-   "ตาราง CSF ในคีย์: bacterial = neutrophil เด่น glucose ต่ำ protein สูง · viral = lymphocyte glucose ปกติ · TB/fungal = lymphocyte glucose ต่ำ protein สูงมาก",
-   "<b>นอกสไลด์:</b> Empirical ผู้ใหญ่: ceftriaxone + vancomycin (+ ampicillin ถ้าอายุ > 50 ปีหรือภูมิคุ้มกันต่ำ เพื่อครอบคลุม Listeria) + dexamethasone ก่อนหรือพร้อมยาเข็มแรก",
-   "<b>นอกสไลด์:</b> ยาอื่นที่เข้า CSF ได้ไม่ดี: cephalosporin รุ่น 1 (cefazolin) · clindamycin"
+   "CSF: bacterial = neutrophil สูง glucose ต่ำ protein สูง · viral = lymphocyte glucose ปกติ protein สูงเล็กน้อย · TB/ fungal = lymphocyte glucose ต่ำ protein สูงมาก (TB มัก &gt; 1 g/L)",
+   "เชื้อตามอายุ: ทารก &lt; 1 เดือน GBS, E. coli, Listeria · 1 เดือน–50 ปี S. pneumoniae, N. meningitidis · &gt; 50 ปี/ ภูมิคุ้มกันต่ำ S. pneumoniae, Listeria, gram-negative",
+   "Empirical: ceftriaxone/ cefotaxime + vancomycin · เพิ่ม ampicillin ถ้า &gt; 50 ปี/ ภูมิคุ้มกันต่ำ/ ทารก · หลังผ่าตัดสมอง/ shunt: vancomycin + cefepime/ ceftazidime/ meropenem",
+   "Dexamethasone 0.15 mg/kg q6h 2–4 วัน ให้ก่อนหรือพร้อมยาครั้งแรก ลดตายและหูดับใน pneumococcal meningitis · หยุดถ้าไม่ใช่ pneumococcus/ H. influenzae",
+   "CT ก่อนเจาะหลังเมื่อ: ภูมิคุ้มกันต่ำ, โรคสมองเดิม, ชักใหม่, papilledema, ซึมลง, focal deficit — แต่ห้ามรอ CT ก่อนให้ยา (เพาะเลือดแล้วให้ยาทันที)",
+   "ยาที่ผ่าน BBB ดี: penicillin/ cephalosporin รุ่น 3–4, carbapenem (meropenem), vancomycin (เมื่ออักเสบ), metronidazole, chloramphenicol, TMP-SMX, fluoroquinolone, linezolid · ผ่านน้อย: aminoglycoside, cephalosporin รุ่น 1, clindamycin",
+   "ป้องกันผู้สัมผัสใกล้ชิด meningococcal: rifampin, ciprofloxacin หรือ ceftriaxone ครั้งเดียว"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — aminoglycoside เข้า CSF ไม่พอ ตรงกับลายมือ P'Ing · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A และเขียน \"✗ aminoglycoside\" ระบุว่า B–E ผ่าน meningeal inflammation ได้ · gentamicin ยังใช้คู่ ampicillin ในทารกแรกเกิดเพื่อ synergy แต่ไม่ใช่ยาที่พึ่งระดับใน CSF จึงเป็นช้อยเดียวที่ใช้รักษา bacterial meningitis ไม่ได้",
+  "mnemonic": "<b>'Aminoglycoside 'ติดหน้าประตูสมอง' (BBB) — Ceph-3 + Vanco ผ่านเข้าไปได้เมื่ออักเสบ'</b>",
+  "guide": "Tunkel AR et al. IDSA Practice Guidelines for the Management of Bacterial Meningitis, Clin Infect Dis 2004; van de Beek D et al. ESCMID guideline: diagnosis and treatment of acute bacterial meningitis, Clin Microbiol Infect 2016",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมีสาย EVD เกิด ventriculitis จากแกรมลบดื้อยาหลายขนาน → ให้ aminoglycoside หรือ colistin ฉีดเข้า ventricle ร่วมกับยาทางหลอดเลือด",
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลังผ่าตัดสมองมีไข้ คอแข็ง CSF เข้ากับแบคทีเรีย → vancomycin + cefepime หรือ meropenem (ครอบคลุม MRSA และ Pseudomonas)"
+   "ชาย 65 ปี เบาหวาน ไข้ ซึม คอแข็ง CSF neutrophil สูง glucose ต่ำ → ceftriaxone + vancomycin + ampicillin + dexamethasone",
+   "ชายหนุ่มไข้สูงทันที ผื่นจ้ำเลือดลามเร็ว ความดันตก → meningococcemia → ให้ ceftriaxone ทันทีก่อนเจาะหลัง + ยาป้องกันแก่คนในบ้าน",
+   "หญิง 30 ปี ไข้ต่ำ ๆ 3 สัปดาห์ ปวดศีรษะ CN VI palsy CSF lymphocyte เด่น glucose ต่ำ protein 2 g/L → TB meningitis → ยาต้านวัณโรค + dexamethasone",
+   "ทำไม β-lactam ผ่าน BBB ได้ดีขึ้นตอนเยื่อหุ้มสมองอักเสบ → tight junction ของหลอดเลือดสมองเปิดกว้างขึ้น และระดับยาจะลดลงเมื่ออาการดีขึ้น จึงต้องให้ขนาดสูงตลอด"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 2 — ตัวพิมพ์: <b>56. A patient presents with fever and neck stiffness. CSF result shows elevated WBC, low glucose, elevated protein. Which antibiotic cannot be used? — A. Gentamicin B. Ceftriaxone C. Cefotaxime D. Penicillin E. Vancomycin</b><br>ลายมือ/ ไฮไลต์ในไฟล์: P'Ing แปะตาราง CSF profile in infectious meningitis + สไลด์ CNS Infection &amp; Antibiotics · ข้อคล้ายกับ 75C Neuro 1 (คนละปี)",
+  "src": "S74AQ · หน้า 2",
+  "kimg": [
+   "kp74a_56"
   ]
  },
  "MDCU74|RoA|61": {
-  "interp": "ถามการรักษาเริ่มต้นของ <b>acute</b> anal fissure (ยังไม่ถึงเกณฑ์ chronic)",
-  "why": "ลายมือ P'Ing: <b>A ✓ conservative · B ✗ chronic</b> + สไลด์ anal fissure<br><b>นอกสไลด์:</b> Fissure เกิดจากอุจจาระแข็งฉีกเยื่อบุ แล้วหูรูดชั้นในเกร็งทำให้เลือดเลี้ยงแผล (โดยเฉพาะ posterior midline) ลดลง · ทำให้อุจจาระนิ่มด้วยใยอาหาร + ยาระบาย + แช่น้ำอุ่นลดการเกร็ง acute fissure ส่วนใหญ่หายใน 6–8 สัปดาห์",
+  "interp": "ถามการรักษาเริ่มต้นของ <b>acute anal fissure</b> — ต้องแยก acute (&lt; 6–8 สัปดาห์ ขอบแผลคม ไม่มี sentinel pile) กับ chronic และรู้ลำดับการรักษาแบบขั้นบันได จากไม่รุกล้ำ → ยาคลายหูรูด → ผ่าตัด",
+  "why": "<b>Anal fissure</b> คือรอยแผลฉีกที่ anoderm ใต้ dentate line ส่วนใหญ่ (~90%) อยู่ <b>posterior midline</b> (anterior พบในหญิงหลังคลอดได้มากขึ้น) เกิดจากอุจจาระแข็ง/ ท้องเสีย → ปวดมาก → <b>internal anal sphincter หดเกร็ง (hypertonia)</b> → ความดันสูงลดเลือดไปเลี้ยง posterior midline ที่เลือดเลี้ยงน้อยอยู่แล้ว → แผลหายยาก เป็นวงจร · อาการ: <b>ปวดแสบมากขณะถ่ายและหลังถ่ายนานเป็นชั่วโมง</b> + เลือดสดติดกระดาษเล็กน้อย · <b>acute fissure</b> หายได้ราวครึ่งหนึ่งหรือมากกว่าด้วยการรักษาแบบ <b>conservative</b>: เพิ่ม fiber (25–35 g/วัน) + น้ำ + <b>stool softener</b> + <b>sitz bath</b> น้ำอุ่น ± topical anesthetic · ถ้าไม่หาย/ เป็น <b>chronic</b> (&gt; 6–8 สัปดาห์, sentinel pile, hypertrophied anal papilla, เห็นใย IAS ที่ฐาน) → <b>chemical sphincterotomy</b> ด้วย topical nitroglycerin 0.2–0.4% หรือ CCB (diltiazem 2%, nifedipine) 6–8 สัปดาห์ (CCB ปวดศีรษะน้อยกว่า) หรือ <b>botulinum toxin</b> → ล้มเหลว → <b>lateral internal sphincterotomy</b> (หายราว 90–95% แต่เสี่ยงกลั้นอุจจาระไม่ได้บางส่วน) · ไฟล์ P'Ing วง A เขียน <b>\"✓ conservative\"</b> ที่ B เขียน \"✗ chronic\" และแปะสไลด์ anal fissure",
   "wrong": {
-   "B": "ลายมือ P'Ing: B ✗ ใช้กับ chronic · ไม่มีสถานการณ์ใดที่ LIS เป็นการรักษาเริ่มต้นของ acute fissure เพราะ acute fissure ส่วนใหญ่หายเองด้วยการรักษาแบบอนุรักษ์ และ LIS มีความเสี่ยงกลั้นอุจจาระ/ลมไม่อยู่ — LIS ใช้กับ chronic fissure ที่ยาไม่ได้ผล",
-   "C": "<b>นอกสไลด์:</b> การถ่างทวารด้วยมือเลิกใช้แล้วเพราะหูรูดฉีกไม่สม่ำเสมอ กลั้นไม่อยู่สูง · ไม่มีสถานการณ์ใดที่เป็นการรักษาเริ่มต้นของ acute fissure เพราะ acute fissure ไม่ต้องทำหัตถการกับหูรูด",
-   "D": "<b>นอกสไลด์:</b> Fissurectomy + advancement flap ใช้กับ chronic fissure ที่หูรูดความดันต่ำ · ไม่มีสถานการณ์ใดที่เป็นการรักษาเริ่มต้นของ acute fissure เพราะเป็นการผ่าตัดสำหรับแผลเรื้อรังที่ไม่หายจากวิธีอื่น",
-   "E": "<b>นอกสไลด์:</b> Botulinum toxin เป็นขั้นที่สองของ chronic fissure เมื่อยาทาไม่ได้ผล · ไม่มีสถานการณ์ใดที่เป็นการรักษาเริ่มต้นของ acute fissure เพราะข้ามการรักษาแบบอนุรักษ์ที่ได้ผลอยู่แล้ว"
+   "B": "Lateral internal sphincterotomy เป็น gold standard ของ <b>chronic</b> fissure ที่ไม่ตอบสนองต่อยา หายสูงสุด แต่เสี่ยง incontinence ต่อลม/ อุจจาระเหลวบางส่วน จึงไม่ใช้กับ acute fissure (P'Ing \"✗ chronic\") — จะถูกถ้าเป็นชาย 35 ปี fissure posterior midline มา 4 เดือน มี sentinel pile และ hypertrophied papilla ใช้ diltiazem ทา 8 สัปดาห์แล้วไม่หาย",
+   "C": "Anal dilatation (Lord's stretch) ยืดหูรูดแบบควบคุมไม่ได้ ทำให้หูรูดฉีกหลายตำแหน่งและกลั้นอุจจาระไม่ได้สูงกว่า LIS จึงเลิกใช้แล้ว — จะถูกถ้าเป็นแนวคิดเดิมสำหรับ chronic fissure ในยุคก่อน ปัจจุบันมีเพียง controlled pneumatic balloon dilatation ในชาย 40 ปีที่มี chronic fissure ดื้อยาและกลัวผลของการตัดหูรูด (บางศูนย์)",
+   "D": "Fissurectomy + anal advancement flap (anoplasty) ใช้ปิดแผลเรื้อรังโดยไม่ตัดหูรูด เหมาะเมื่อความดันหูรูดต่ำ/ ปกติหรือเสี่ยง incontinence — ไม่ใช่การรักษาแรกของ acute fissure — จะถูกถ้าเป็นหญิง 40 ปี คลอดบุตรทางช่องคลอด 3 ครั้ง มี chronic anterior fissure ไม่หายด้วยยา anal manometry พบ resting pressure ต่ำ",
+   "E": "Botulinum toxin ฉีดเข้า internal sphincter ทำให้คลายชั่วคราว 2–3 เดือน ใช้ใน chronic fissure ที่ยาทาไม่ได้ผล หรือผู้ที่เสี่ยง incontinence ไม่อยากตัดหูรูด — จะถูกถ้าเป็นหญิง 60 ปี chronic fissure ไม่หายด้วย GTN และ diltiazem มีกลั้นลมไม่ค่อยได้อยู่เดิม จึงเลี่ยงการตัดหูรูด"
   },
-  "trap": "ต้องแยก acute กับ chronic ก่อนเลือกการรักษา — acute = ขอบแผลคม ไม่มี sentinel tag ไม่เห็นกล้ามเนื้อหูรูดที่ก้นแผล",
+  "trap": "คนที่จำว่า LIS เป็น 'gold standard' อาจเลือก B โดยไม่ดูคำว่า <b>acute</b> · ลำดับคือ acute → conservative (fiber, stool softener, sitz bath) · chronic → ยาคลายหูรูด (GTN/ CCB) หรือ botox → LIS · และ fissure นอก midline/ หลายแผล/ ไม่เจ็บ ต้องคิดถึง Crohn's, TB, HIV, syphilis, มะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> Acute fissure: เป็นมาไม่ถึงราว 6–8 สัปดาห์ แผลตื้นขอบคม",
-   "<b>นอกสไลด์:</b> Chronic fissure: เกินราว 6–8 สัปดาห์ · sentinel skin tag · hypertrophied anal papilla · เห็นใยกล้ามเนื้อ internal sphincter ที่ก้นแผล"
+   "Anal fissure: posterior midline ~90% · anterior ~10% (มากขึ้นในหญิงหลังคลอด) · นอก midline → Crohn's, TB, HIV, syphilis, มะเร็ง → EUA + biopsy",
+   "Acute: &lt; 6–8 สัปดาห์ ขอบแผลคม · Chronic: &gt; 6–8 สัปดาห์ ขอบหนา sentinel pile ภายนอก hypertrophied anal papilla ภายใน เห็นใย IAS",
+   "กลไก: IAS hypertonia → ความดันสูง → ischemia ที่ posterior midline → แผลไม่หาย",
+   "Conservative: fiber 25–35 g/วัน, น้ำ, stool softener, sitz bath, topical lidocaine · acute หายได้ราวครึ่งหนึ่งหรือมากกว่า",
+   "Chemical sphincterotomy: GTN 0.2–0.4% (ปวดศีรษะบ่อย) หรือ diltiazem 2%/ nifedipine 6–8 สัปดาห์ หายราว 50–70% · botox หายใกล้เคียง",
+   "LIS: ตัด IAS ด้านข้างยาวเท่า fissure หรือถึง dentate line · หาย &gt; 90% · incontinence ต่อลม/ ของเหลวราวไม่กี่เปอร์เซ็นต์ · ระวังในหญิงหลังคลอดและผู้สูงอายุ",
+   "ตรวจด้วยการแหวกก้นดูเบา ๆ — ห้ามฝืน DRE/ anoscopy ขณะปวดมาก ถ้าจำเป็นทำ EUA"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · ช้อย C–E แต่งเพิ่ม · ความมั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ลายมือ P'Ing ที่วง A \"✓ conservative\" และขีด B ว่าใช้ใน chronic · ต้นฉบับมีแค่ 2 ช้อย เว็บเติม dilatation, flap และ botox ซึ่งล้วนเป็นการรักษา chronic fissure จึงไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Fissure: 'อ่อน (stool softener) → ทา (GTN/ CCB) → ฉีด (Botox) → ตัด (LIS)''</b>",
+  "guide": "Davids JS et al. ASCRS Clinical Practice Guidelines for the Management of Anal Fissures, Dis Colon Rectum 2023; Sabiston Textbook of Surgery 21st ed. (2022) Anus",
   "variants": [
-   "<b>นอกสไลด์:</b> Fissure ที่ด้านข้างทวาร 3 แผล ร่วมกับท้องเสียเรื้อรังและน้ำหนักลด → ส่องกล้องหา Crohn disease"
+   "หญิงหลังคลอด 2 เดือน ปวดก้นมากเวลาถ่ายมีเลือดสดติดกระดาษ แผลที่ anterior midline 1 สัปดาห์ → conservative (fiber, stool softener, sitz bath)",
+   "ชาย 25 ปี มี fissure หลายแผลที่ด้านข้าง ไม่ค่อยเจ็บ ร่วมท้องเสียเรื้อรังและน้ำหนักลด → สงสัย Crohn's disease → EUA biopsy + colonoscopy",
+   "ชาย 40 ปี chronic fissure ใช้ GTN แล้วปวดศีรษะมากจนหยุดยา → เปลี่ยนเป็น diltiazem 2% ทา",
+   "ทำไม fissure ส่วนใหญ่เกิดที่ posterior midline → เลือดที่มาเลี้ยง anoderm ด้านหลังน้อยที่สุด และความดันหูรูดที่สูงกดหลอดเลือดที่ผ่านหูรูด"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 2 — ตัวพิมพ์: <b>61. What is the appropriate management for acute anal fissure? — A. Stool softener B. Lateral internal sphincterotomy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มี 2 ช้อย → เติม C–E",
+  "src": "S74AQ · หน้า 2",
+  "kimg": [
+   "kp74a_61"
   ]
  },
  "MDCU74|RoA|69": {
-  "interp": "หญิงมีหูดหงอนไก่รอบทวาร (HPV) มี anal sex · ตรวจทวารแล้วไม่มีรอยโรคในรูทวาร และรอยโรคภายนอกรักษาด้วย TCA ได้ → ถามสิ่งที่ต้องทำต่อ",
-  "why": "คีย์ P'Ing วง A (imiquimod) และมี ? ที่ B · <b>Claude ตอบ B ให้ตรงกับข้อเดียวกันของชุด 75 (คีย์ PV exam)</b><br><b>นอกสไลด์:</b> HPV ติดทั้งบริเวณ anogenital หญิงที่มีหูดรอบทวารต้องตรวจภายในหาหูดที่ช่องคลอด/ปากมดลูก และตรวจ STI อื่น (HIV, syphilis) · การมีหูดไม่ใช่เหตุให้ตรวจคัดกรองมะเร็งปากมดลูกถี่กว่าปกติ (CDC 2021) แต่ควรได้คัดกรองตามรอบ",
+  "interp": "หญิงผู้ใหญ่มีรอยโรครอบทวารหนักและคัน มีประวัติ anal sex ตรวจพบ <b>condylomata acuminata เล็ก ๆ</b> ไม่มีรอยโรคในรูทวาร (anoscopy แล้ว) และวางแผนรักษาด้วย <b>trichloroacetic acid</b> แล้ว — ถาม<b>ขั้นต่อไป</b> ซึ่งไม่ใช่การเลือกวิธีรักษาหูดอีก แต่คือการหารอยโรค HPV ในตำแหน่งอื่นที่ติดเชื้อร่วม โดยเฉพาะ<b>ช่องคลอดและปากมดลูก</b>",
+  "why": "<b>Anogenital warts</b> เกิดจาก HPV ชนิดเสี่ยงต่ำ (6, 11 ราว 90%) แต่ผู้ป่วยมักติดเชื้อ HPV หลายชนิดพร้อมกันรวมถึงชนิดเสี่ยงสูง (16, 18) และ HPV เป็นโรค <b>multifocal</b> ของบริเวณ anogenital ทั้งหมด (field effect) · ในหญิงที่มีหูดรอบทวาร ต้องตรวจ<b>ช่องคลอดและปากมดลูก</b> (per vaginal/ speculum examination) หาหูดในช่องคลอด/ ปากมดลูก และทำ <b>cervical cancer screening</b> ตามเกณฑ์ (Pap/ HPV test) เพราะ CIN/ มะเร็งปากมดลูกเกี่ยวข้องกับ HPV เดียวกัน · ตรวจ anoscopy เพื่อดูหูดในรูทวาร (โจทย์บอกไม่มีแล้ว) และคัดกรอง STI อื่น (HIV, syphilis, hepatitis B) · ทางเลือกรักษา: provider-applied — <b>TCA/ BCA 80–90%</b> สัปดาห์ละครั้ง (ใช้ในหญิงตั้งครรภ์และหูดในรูทวารได้), cryotherapy, surgical excision · patient-applied — <b>imiquimod 5%</b> (3 ครั้ง/สัปดาห์ นานสุด 16 สัปดาห์), podofilox, sinecatechins (ไม่ใช้ในรูทวาร/ ตั้งครรภ์) · HPV ไม่มียาต้านไวรัสจำเพาะ · ไฟล์ P'Ing วง A เขียน <b>\"✓ ให้ pt กลับไปทา\"</b> และลายมือ \"HPV infection, genital warts\" โดยใส่ <b>\"?\"</b> ที่ช้อย B",
   "wrong": {
-   "A": "คีย์ P'Ing เลือกช้อยนี้ · <b>นอกสไลด์:</b> imiquimod เป็นยาทาที่ผู้ป่วยทำเองได้ แต่รอยโรคภายนอกรักษาด้วย TCA อยู่แล้ว สิ่งที่ยังขาดคือการตรวจหารอยโรคที่อื่น · จะถูกถ้าหญิงที่ตรวจภายในและตรวจ STI ครบแล้ว ไม่ตั้งครรภ์ ต้องการทายารักษาหูดภายนอกเองที่บ้าน",
-   "C": "<b>นอกสไลด์:</b> acyclovir/valacyclovir ไม่มีฤทธิ์ต่อ HPV · จะถูกถ้าเป็นตุ่มน้ำเจ็บหรือแผลตื้นหลายแผลที่อวัยวะเพศ/รอบทวาร (herpes) — ให้ acyclovir หรือ valacyclovir",
-   "D": "<b>นอกสไลด์:</b> หูดรอบทวารไม่ใช่ข้อบ่งชี้ส่องลำไส้ใหญ่ · จะถูกถ้ามีเลือดออกทางทวารร่วมกับถ่ายผิดนิสัย หรืออายุถึงเกณฑ์คัดกรองมะเร็งลำไส้ใหญ่",
-   "E": "<b>นอกสไลด์:</b> ตรวจอุจจาระไม่เกี่ยวกับหูด · จะถูกถ้าผู้ที่มีเพศสัมพันธ์ทางทวารมีท้องเสียเป็นมูกเลือดเรื้อรัง สงสัยพยาธิหรือโปรโตซัว (เช่น Entamoeba)"
+   "A": "Imiquimod 5% เป็น immune response modifier ที่ผู้ป่วยทาเองที่บ้าน ใช้ได้ดีกับหูดภายนอก (P'Ing เลือกข้อนี้เพราะให้ผู้ป่วยกลับไปทาเอง) แต่ข้อนี้เลือกรักษาด้วย TCA แล้ว ขั้นต่อไปจึงเป็นการตรวจหารอยโรคร่วม ไม่ใช่เปลี่ยนยา — จะถูกถ้าเป็นหญิง 28 ปี มีหูดภายนอกรอบทวารหลายจุด ตรวจปากมดลูกและ anoscopy ปกติแล้ว ไม่ได้ตั้งครรภ์ อยากรักษาเองที่บ้านแทนมาโรงพยาบาลทุกสัปดาห์",
+   "C": "ไม่มียาต้านไวรัสจำเพาะต่อ HPV (acyclovir/ valacyclovir ใช้กับ herpes simplex) การรักษาหูดคือทำลายรอยโรคหรือกระตุ้นภูมิคุ้มกัน — จะถูกถ้าเป็นหญิง 25 ปี มีตุ่มน้ำใสเป็นกลุ่มบนฐานแดงที่ปากช่องคลอด เจ็บแสบมาก ต่อมน้ำเหลืองขาหนีบโต (genital herpes ครั้งแรก → acyclovir/ valacyclovir)",
+   "D": "Colonoscopy ไม่จำเป็นสำหรับหูดรอบทวารที่ไม่มีรอยโรคในรูทวาร เพราะ HPV ไม่ลามขึ้นลำไส้ใหญ่ — จะถูกถ้าเป็นหญิง 55 ปี ถ่ายมีเลือดปนมูก อุจจาระลีบ ซีด หรือเป็นคนอายุ ≥ 45 ปีที่ถึงเกณฑ์คัดกรองมะเร็งลำไส้ใหญ่",
+   "E": "ตรวจอุจจาระหาพยาธิ/ เม็ดเลือดใช้กับอาการท้องเสีย/ คันก้นจากพยาธิ ไม่เกี่ยวกับหูดจาก HPV — จะถูกถ้าเป็นเด็ก 6 ปี คันก้นมากตอนกลางคืน พี่น้องในบ้านมีอาการเหมือนกัน (pinworm → scotch tape test) หรือผู้ใหญ่ท้องเสียเรื้อรังสงสัยพยาธิ"
   },
-  "trap": "เลือก imiquimod เพราะเป็นยารักษาหูด (คีย์ P'Ing) — โจทย์บอกว่ารักษาด้วย TCA ได้แล้ว ขั้นต่อไปคือหารอยโรคที่อื่น",
+  "trap": "ทั้ง TCA และ imiquimod เป็นการรักษาหูดที่ถูกต้อง คนจึงเลือก A (ตามคีย์ลายมือ) · แต่โจทย์บอกแล้วว่าจะรักษาด้วย TCA คำถาม '<b>next step</b>' จึงหมายถึงสิ่งที่ต้องทำเพิ่ม — HPV เป็นโรคหลายตำแหน่ง ผู้หญิงต้องตรวจช่องคลอดและปากมดลูก (และคัดกรอง STI อื่น)",
   "summary": [
-   "<b>นอกสไลด์:</b> หูดหงอนไก่: HPV 6/11 · แพทย์ทำ: TCA/BCA, จี้เย็น, ตัด · ผู้ป่วยทาเอง: imiquimod, podofilox (ทั้งสองตัวไม่ใช้ในหญิงตั้งครรภ์)",
-   "<b>นอกสไลด์:</b> ประเมินร่วม: anoscopy ในผู้ที่มี receptive anal sex · ตรวจภายใน · ตรวจ HIV และ syphilis",
-   "<b>นอกสไลด์:</b> วัคซีน HPV ป้องกันได้ทั้งหูด (6/11) และมะเร็ง (16/18)"
+   "Condylomata acuminata: HPV 6/11 ~90% · ติดต่อทางเพศสัมพันธ์ (ไม่จำเป็นต้องมี anal sex ก็เกิดรอบทวารได้) · มักติด HPV เสี่ยงสูงร่วม",
+   "ประเมินผู้ป่วยหูดรอบทวาร: anoscopy ทุกราย (หูดในรูทวาร) · หญิงตรวจช่องคลอด/ ปากมดลูก + cervical screening · ชายตรวจองคชาต/ ท่อปัสสาวะ · คัดกรอง HIV, syphilis",
+   "Provider-applied: TCA/ BCA 80–90% สัปดาห์ละครั้ง (ใช้ได้ในตั้งครรภ์และในรูทวาร), cryotherapy (liquid nitrogen), surgical excision/ electrocautery",
+   "Patient-applied (หูดภายนอกเท่านั้น): imiquimod 5% 3 ครั้ง/สัปดาห์ ≤ 16 สัปดาห์ · podofilox 0.5% · sinecatechins 15% — ห้ามในหญิงตั้งครรภ์ (ยกเว้น imiquimod ข้อมูลจำกัด)",
+   "หูดใหญ่/ ลุกลาม (Buschke-Löwenstein, giant condyloma) → ผ่าตัดกว้างและส่งพยาธิ เพราะอาจมี verrucous carcinoma",
+   "กลับเป็นซ้ำราว 30% ภายใน 3 เดือนไม่ว่าวิธีใด · วัคซีน HPV 9-valent ป้องกัน 6, 11, 16, 18 และอื่น ๆ",
+   "HIV/ MSM ที่มีหูด: เสี่ยง anal HSIL/ SCC สูง → anal cytology/ high-resolution anoscopy"
   ],
-  "opinion": "ไม่ตรงกับคีย์ P'Ing (A imiquimod — P'Ing เองมี ? ที่ B) · ตอบ B ให้ตรงกับข้อเดียวกันของชุด 75 ทั้งคลัง เพราะรอยโรคภายนอกจัดการด้วย TCA แล้ว · ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ต่างจากคีย์ลายมือ P'Ing ที่วง A (imiquimod, \"ให้ pt กลับไปทา\") แต่ P'Ing เองใส่ ? ที่ B · เว็บตอบ B ให้ตรงกับคีย์ของข้อเดียวกันในชุด 75C (Colo) ที่ตอบ PV exam · เหตุผล: โจทย์ระบุวิธีรักษา (TCA) ไว้แล้ว ขั้นต่อไปที่เป็นมาตรฐานคือหารอยโรค HPV ที่ช่องคลอด/ ปากมดลูก imiquimod เป็นเพียงวิธีรักษาอีกแบบ",
+  "mnemonic": "<b>'หูดก้น 1 ที่ = หา HPV ทุกที่ (ทวาร-ช่องคลอด-ปากมดลูก) + STI อื่น'</b>",
+  "guide": "Workowski KA et al. CDC Sexually Transmitted Infections Treatment Guidelines 2021 (Anogenital Warts), MMWR Recomm Rep 2021; Stewart DB et al. ASCRS Clinical Practice Guidelines for the Management of Anal Condyloma Acuminata and Anal Intraepithelial Neoplasia, Dis Colon Rectum 2018",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กเล็กมีหูดหงอนไก่รอบทวาร → ประเมินความเป็นไปได้ของการล่วงละเมิดทางเพศ (แม้ติดจากแม่ตอนคลอดหรือการสัมผัสทั่วไปได้)"
+   "หญิงตั้งครรภ์ 20 สัปดาห์ มีหูดรอบทวารและปากช่องคลอด → TCA 80–90% หรือ cryotherapy (ห้าม podofilox, sinecatechins)",
+   "ชาย 30 ปี MSM มีหูดในรูทวารเห็นจาก anoscopy → TCA, cryotherapy หรือ excision/ fulguration (ห้าม imiquimod ทาในรูทวาร) + ตรวจ HIV",
+   "ชาย 55 ปี หูดรอบทวารก้อนใหญ่ 8 cm ลามลึกเป็นฝีและรูทะลุ → Buschke-Löwenstein tumor → wide local excision + ส่งพยาธิหา verrucous carcinoma",
+   "ทำไมผู้หญิงที่มีหูดรอบทวารต้องตรวจปากมดลูก → HPV ติดทั้ง anogenital tract และมักมีชนิดเสี่ยงสูงร่วมซึ่งทำให้เกิด CIN"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 2 — ตัวพิมพ์: <b>69. Adult female presents with anal pile with pruritus. There is history of anal sex. Anal examination shows small condyloma without intra-anal lesion. This condyloma could be treated by trichloroacetic acid. What should be the next step of management? — A. Imiquimod cream B. Per vaginal examination C. Antiviral agents D. Colonoscopy</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไม่ตรงกับคีย์ P'Ing (A imiquimod) · ข้อนี้ = ประเด็นเดียวกับ 75C Colo 1 ซึ่งคีย์ COOK/GUN ตอบ PV exam → ตอบ B ให้ตรงกันทั้งคลัง · ไฟล์เขียน \"anal pile\" (P'Ing ไม่ได้แก้) → stem ใช้ perianal lesions · เติมช้อย E",
+  "src": "S74AQ · หน้า 2",
+  "kimg": [
+   "kp74a_69a",
+   "kp74a_69b"
   ]
  },
  "MDCU74|RoA|88": {
-  "interp": "เด็ก 3 ขวบ ไฝดำมีขนขนาด 10 cm ที่หลังตั้งแต่เกิด = congenital melanocytic nevus (CMN) ขนาดใหญ่ (คาดขนาดตอนผู้ใหญ่เกิน 20 cm) → ถามการจัดการ",
-  "why": "คีย์ P'Ing ไม่ได้วงช้อย (มี ? และเขียน \"hair tuft\") — <b>Claude เฉลย D</b><br><b>นอกสไลด์:</b> ไฝที่หลังเด็กจะโตตามตัวราว 2–3 เท่า 10 cm ตอน 3 ขวบจึงเป็น large CMN · ตัดครั้งเดียวไม่ได้เพราะผิวรอบข้างดึงปิดไม่พอ ถ้าเลือกผ่าตัดจะตัดเป็นระยะ (serial/staged excision) ± tissue expander หรือ graft · เหตุผลคือความสวยงาม อาการคัน และลดเนื้อไฝ แต่การตัดไม่ได้ลดความเสี่ยง melanoma จนหมด",
+  "interp": "เด็ก 3 ปี มี<b>ไฝดำมีขน ขนาด 10 cm ที่หลังตั้งแต่เกิด</b> = <b>large congenital melanocytic nevus (CMN)</b> (ขนาดคาดการณ์ในผู้ใหญ่น่าจะ ≥ 20 cm) — ถามการรักษาที่เหมาะสม ต้องรู้ทั้งความเสี่ยง melanoma, neurocutaneous melanosis และข้อจำกัดของการตัดก้อนใหญ่ครั้งเดียว",
+  "why": "<b>Congenital melanocytic nevus</b> แบ่งตาม<b>ขนาดคาดการณ์เมื่อเป็นผู้ใหญ่</b> (projected adult size): small &lt; 1.5 cm · medium 1.5–20 cm · <b>large 20–40 cm</b> · giant &gt; 40 cm — ไฝขยายตามการเติบโตของร่างกาย ก้อน 10 cm ที่ลำตัวในเด็กเล็กจึงมักเข้าเกณฑ์ large · ความเสี่ยง <b>melanoma</b> ตลอดชีวิตของ large/ giant CMN ราว 2–5% (สูงสุดใน &gt; 40 cm และมี satellite nevi จำนวนมาก) ราวครึ่งหนึ่งเกิดในวัยเด็กเล็ก และอาจเกิดในชั้นลึกหรือใน CNS · ก้อนที่<b>แนวกลางหลัง/ posterior axial</b> หรือมี satellite nevi มาก เสี่ยง <b>neurocutaneous melanosis</b> → MRI สมองและไขสันหลัง (ควรทำก่อน 4–6 เดือน) · การผ่าตัดช่วยเรื่องรูปลักษณ์ จิตใจ และลดปริมาณเซลล์ไฝ (ลดความเสี่ยงได้บางส่วน แต่ไม่เป็นศูนย์) · ก้อนใหญ่ปิดด้วยการตัดครั้งเดียวไม่ได้ → <b>staged (serial) excision</b> ตัดทีละส่วนให้ผิวรอบยืดระหว่างรอบ ± <b>tissue expansion</b>, skin graft หรือ flap · ลายมือ \"hair tuft\" ในไฟล์เตือนว่าขนที่หลังแนวกลางอาจสัมพันธ์กับ occult spinal dysraphism · ไฟล์ P'Ing ไม่ได้วงคำตอบ ใส่ <b>\"?\"</b> หน้าข้อและเขียน <b>\"hair tuft\"</b> เว็บเฉลย D",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ตัดครั้งเดียวแล้วเย็บปิดได้เฉพาะไฝเล็ก · จะถูกถ้าเป็น CMN ขนาดเล็กหรือกลางที่ผิวรอบข้างหย่อนพอเย็บปิดได้ครั้งเดียว",
-   "B": "<b>นอกสไลด์:</b> Wide excision คือตัดเผื่อขอบแบบมะเร็ง · จะถูกถ้าก้อนที่เกิดใหม่บน large CMN ตัดชิ้นเนื้อแล้วเป็น melanoma",
-   "C": "<b>นอกสไลด์:</b> การเฝ้าดูเป็นทางเลือกจริงใน large CMN เพราะ melanoma อาจเกิดในชั้นลึกหรือในระบบประสาทซึ่งตัดไม่ได้ · จะถูกถ้าไฝอยู่ตำแหน่งที่ผ่าตัดแล้วพิการมาก หรือครอบครัวเลือกไม่ผ่าตัดหลังรับทราบข้อมูล — ตรวจผิวหนังและคลำก้อนเป็นระยะ",
-   "E": "<b>นอกสไลด์:</b> การขัดผิวลอกชั้นบนออกได้แค่บางส่วน · จะถูกถ้าทำในทารกอายุไม่กี่สัปดาห์ ซึ่งเซลล์ไฝยังอยู่ตื้น เพื่อลดสีเพื่อความสวยงาม"
+   "A": "การตัดครั้งเดียว (simple excision) ปิดแผลตรงได้เฉพาะไฝเล็ก — ก้อน 10 cm ที่หลังเด็ก 3 ปีตัดครั้งเดียวแล้วดึงขอบชนกันไม่ได้หรือตึงจนแผลแยก — จะถูกถ้าเป็นเด็ก 8 ปีมี small CMN 1 cm ที่แขน สีไม่สม่ำเสมอ พ่อแม่กังวลและต้องการตัดออก",
+   "B": "Wide excision (ขอบกว้าง 1–2 cm) เป็นการรักษา melanoma ที่ยืนยันแล้ว ไม่ใช่การรักษาไฝ — ไฝไม่ต้องการ margin กว้าง และก้อนใหญ่ขนาดนี้ทำ wide excision ครั้งเดียวไม่ได้ — จะถูกถ้าเป็นเด็ก 5 ปีที่มีก้อนนูนเปลี่ยนสีเร็วใน large CMN แล้ว biopsy ยืนยันว่าเป็น melanoma",
+   "C": "Close observation (ถ่ายรูป ตรวจผิวหนังและคลำทุก 6–12 เดือน) เป็นทางเลือกมาตรฐานของ small/ medium CMN และเป็นส่วนหนึ่งของการดูแล large CMN ทุกราย แต่เมื่อขนาดใหญ่และผ่าตัดได้ทั่วไปแนะนำ staged excision — จะถูกถ้าเป็นเด็ก 3 ปีมี medium CMN 3 cm ที่ต้นขา สีสม่ำเสมอ ไม่เปลี่ยนแปลง",
+   "E": "Dermabrasion/ curettage/ laser ลอกชั้นบนช่วยให้สีจางลง (ทำได้ดีในช่วงสัปดาห์แรกหลังเกิด) แต่เซลล์ไฝในชั้นลึกยังอยู่ ไม่ลดความเสี่ยงมะเร็ง และติดตามยาก — จะถูกถ้าเป็นทารกอายุ 2 สัปดาห์ที่มี giant CMN ทั้งหลังซึ่งผ่าตัดเอาออกได้ยาก และครอบครัวต้องการลดสีเพื่อรูปลักษณ์"
   },
-  "trap": "ขนาด CMN ต้องคิดเป็นขนาดตอนผู้ใหญ่ — 10 cm ที่หลังเด็ก 3 ขวบคือ large CMN ตัดครั้งเดียวไม่ได้",
+  "trap": "ข้อนี้ไม่มีคีย์ในไฟล์ ช้อยทั้ง excision, wide excision และ staged excision ล้วน 'เอาออก' ทำให้เลือกยาก · แยกด้วย<b>ขนาด</b>: ก้อนใหญ่ตัดครั้งเดียวไม่ได้ → staged · wide excision เป็นของ melanoma · observation เหมาะกับไฝเล็ก/ กลาง · อย่าลืมว่าหลังแนวกลางต้องคิดถึง neurocutaneous melanosis/ spinal dysraphism (hair tuft) ก่อนผ่าตัด",
   "summary": [
-   "<b>นอกสไลด์:</b> CMN แบ่งตามขนาดที่คาดตอนผู้ใหญ่: small &lt; 1.5 cm · medium 1.5–20 cm · large 20–40 cm · giant > 40 cm",
-   "<b>นอกสไลด์:</b> กลุ่มขนที่แนวกลางหลังส่วนล่าง (hair tuft) → คิดถึง spinal dysraphism ตรวจ US/MRI"
+   "CMN จัดตาม projected adult size: small &lt; 1.5 · medium 1.5–20 · large 20–40 · giant &gt; 40 cm · satellite nevi นับจำนวนด้วย",
+   "ความเสี่ยง melanoma: small/ medium ต่ำมาก (&lt; 1%) · large/ giant ราว 2–5% ตลอดชีวิต ครึ่งหนึ่งเกิดก่อนอายุ 5 ปี · อาจเกิดใน CNS หรือชั้นลึก",
+   "Neurocutaneous melanosis: melanocyte ใน leptomeninges · เสี่ยงใน posterior axial CMN, giant CMN, satellite nevi &gt; 20 → MRI สมอง/ ไขสันหลังก่อน 4–6 เดือน · อาการ hydrocephalus ชัก",
+   "Staged/ serial excision: ตัดเป็นรอบ ๆ ห่างกันหลายเดือนให้ผิวยืด · tissue expander ขยายผิวรอบข้างก่อนตัด · skin graft/ flap สำหรับก้อนใหญ่มาก",
+   "ติดตามทุกรายด้วยการตรวจผิวและคลำก้อนใต้ผิว ถ่ายรูปเปรียบเทียบ · ก้อนเกิดใหม่ แผล เปลี่ยนสีเร็ว → biopsy",
+   "Lumbosacral hair tuft, dimple เหนือ gluteal cleft, hemangioma, lipoma แนวกลาง → สงสัย occult spinal dysraphism (tethered cord) → US (ทารก &lt; 3–6 เดือน) หรือ MRI",
+   "Melanoma: wide excision margin ตามความหนา (in situ 0.5–1 cm · ≤ 2 mm 1 cm · &gt; 2 mm 2 cm) ± sentinel lymph node biopsy"
   ],
-  "opinion": "คีย์ไม่ได้วงช้อย — Claude ตอบ D (staged excision) ตามแนวทางผ่าตัด large CMN · ปัจจุบันการเฝ้าดู (C) ก็ยอมรับได้ตามดุลยพินิจ จึงความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง — ในไฟล์ไม่มีคีย์ (P'Ing ใส่ ? หน้าข้อ และเขียน hair tuft) เว็บเฉลยเอง · ก้อน 10 cm ตัดครั้งเดียวไม่ได้ staged excision จึงเหมาะที่สุดในช้อย แต่แนวทางปัจจุบันยอมรับว่าการตัดไม่ได้ลดความเสี่ยง melanoma ได้ทั้งหมด การตัดสินใจจึงเป็นรายบุคคลและการติดตามใกล้ชิดก็ยอมรับได้",
+  "mnemonic": "<b>'ไฝแต่กำเนิดใหญ่ = 'แบ่งตัดทีละคำ' (Staged) · Wide = Melanoma'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) Congenital Melanocytic Nevi; Krengel S et al. New recommendations for the categorization of cutaneous features of congenital melanocytic nevi, J Am Acad Dermatol 2013; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกมี large CMN ที่หลังร่วมกับไฝเล็กกระจายหลายสิบจุด แล้วมีอาการชัก → neurocutaneous melanosis (MRI สมอง)"
+   "ทารก 2 เดือน มี giant CMN ที่หลังและก้น ร่วม satellite nevi มากกว่า 20 จุด → MRI สมองและไขสันหลังหา neurocutaneous melanosis",
+   "เด็ก 6 ปีมี large CMN ที่หลัง เกิดก้อนนูนแข็งใหม่โตเร็วในไฝ → biopsy ก้อนนั้น",
+   "ทารกมีกระจุกขนที่ lumbosacral แนวกลาง ขาปกติ → spinal ultrasound (หรือ MRI) หา occult spinal dysraphism",
+   "ทำไมใช้ tissue expander ก่อนตัดไฝใหญ่ที่หลัง → ได้ผิวข้างเคียงสีและเนื้อใกล้เคียง ปิดแผลได้โดยไม่ต้องใช้ skin graft"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 3 — ตัวพิมพ์: <b>88. A 3 years old child presents with a black hairy nevus 10 cm on the back since birth. What is the proper management? — A. Excision B. Wide excision C. Closed observation D. Staged excision E. Dermabrasion</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไม่มีคำตอบในไฟล์ (P'Ing มี ? และเขียน hair tuft) → Claude เฉลย D",
+  "src": "S74AQ · หน้า 3",
+  "kimg": [
+   "kp74a_88"
   ]
  },
  "MDCU74|RoA|89": {
-  "interp": "ภาพในปาก: ก้อนขยายบริเวณขากรรไกรล่างส่วนหลัง (retromolar/ramus) เยื่อบุคลุมเรียบ ฟันข้างเคียงถูกดัน → ถามการวินิจฉัย",
-  "why": "ลายมือ P'Ing: <b>\"m/c benign odontogenic tumor\"</b><br><b>นอกสไลด์:</b> Ameloblastoma มาจากเยื่อบุที่สร้างฟัน มักอยู่ posterior mandible โตช้า ไม่เจ็บ ทำให้ขากรรไกรขยาย ฟันโยก/ถูกดัน · ภาพรังสีเป็น multilocular radiolucency (soap bubble) · ไม่ร้ายแต่ลุกลามเฉพาะที่ ขูดออกแล้วกลับเป็นซ้ำสูง จึงตัดขากรรไกรเผื่อขอบแล้วสร้างใหม่ (เช่น fibula free flap)",
+  "interp": "ภาพช่องปากแสดง<b>ก้อนขยายตัวที่ขากรรไกรล่างด้านหลัง (ยื่นเข้าช่องปากบริเวณ retromolar/ ramus)</b> เยื่อบุคลุมยังค่อนข้างเรียบ ฟันข้างเคียงถูกดันเคลื่อน — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องรู้ลักษณะของเนื้องอกที่กำเนิดจากเนื้อเยื่อสร้างฟัน (odontogenic) เทียบกับก้อนอื่นในช่องปาก",
+  "why": "<b>Ameloblastoma</b> เป็น <b>odontogenic epithelial tumor ที่สำคัญทางคลินิกที่พบบ่อยที่สุด</b> (odontoma พบบ่อยกว่าแต่เป็น hamartoma) เกิดจากเซลล์ที่เหลือจากการสร้างเคลือบฟัน · ราว 80% อยู่ที่ <b>mandible ส่วน molar-ramus</b> พบบ่อยอายุ 30–50 ปี · อาการ: <b>ก้อนโตช้า ไม่เจ็บ ขากรรไกรโป่ง (cortical expansion)</b> ฟันโยก/ เคลื่อน เยื่อบุคลุมปกติ — ตรงกับภาพ · ภาพรังสี: <b>multilocular radiolucency แบบ 'soap bubble'/ honeycomb</b> มี <b>root resorption</b> อาจอยู่ใกล้ฟันคุด · พยาธิ: palisading columnar cells กับ stellate reticulum-like cells (follicular/ plexiform) · เป็นเนื้องอก benign แต่ <b>locally aggressive</b> แทรกตาม medullary bone เกินขอบที่เห็น จึงกลับเป็นซ้ำสูงมากถ้าแค่ curettage/ enucleation → รักษาด้วย <b>segmental/ marginal resection ขอบกระดูก 1–1.5 cm</b> แล้ว reconstruct (เช่น fibula free flap) · พบ BRAF V600E บ่อยใน mandibular ameloblastoma · ไฟล์ P'Ing วง B เขียน <b>\"✓ m/c benign odontogenic tumor\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Hemangioma เป็นก้อนนิ่มสีม่วงแดง กดยุบ ไม่ทำให้ขากรรไกรขยาย · จะถูกถ้าภาพเป็นก้อนนิ่มสีม่วงที่ลิ้นหรือริมฝีปาก กดแล้วซีด",
-   "C": "<b>นอกสไลด์:</b> Sarcoma โตเร็ว เจ็บ ทำลายกระดูก · จะถูกถ้าวัยรุ่นมีก้อนที่ขากรรไกรโตเร็วหลายสัปดาห์ ภาพรังสีมี periosteal reaction แบบ sunburst (osteosarcoma)",
-   "D": "<b>นอกสไลด์:</b> SCC เป็นแผลหรือก้อนผิวขรุขระขอบนูนแข็ง ไม่ใช่ก้อนเยื่อบุเรียบ · จะถูกถ้าผู้สูงอายุสูบบุหรี่/เคี้ยวหมากมีแผลเรื้อรังขอบแข็งที่ลิ้นด้านข้างหรือพื้นปาก",
-   "E": "<b>นอกสไลด์:</b> Pyogenic granuloma เป็นก้อนแดงเล็กบนเหงือก โตเร็ว เลือดออกง่าย ไม่ขยายกระดูก · จะถูกถ้าหญิงตั้งครรภ์มีก้อนแดงสดบนเหงือก แตะแล้วเลือดออก"
+   "A": "Hemangioma ในช่องปากเป็นก้อนนุ่ม สีแดง-ม่วง-น้ำเงิน กดแล้วซีด (blanch) อยู่ที่ลิ้น ริมฝีปาก กระพุ้งแก้ม ไม่ทำให้กระดูกขากรรไกรโป่งแข็งแบบในภาพ — จะถูกถ้าเป็นทารก 4 เดือนที่มีก้อนสีแดงสดนูนที่ริมฝีปากล่าง โตเร็วในช่วงเดือนแรกแล้วค่อยยุบ (infantile hemangioma → propranolol ถ้ามีปัญหา)",
+   "C": "Soft tissue sarcoma ของช่องปาก/ ใบหน้า (เช่น rhabdomyosarcoma ในเด็ก) เป็นก้อนเนื้อโตเร็ว มักเจ็บ แทรกเนื้อเยื่ออ่อนและทำลายกระดูกแบบไม่มีขอบ ไม่ใช่ก้อนโตช้าเยื่อบุปกติ — จะถูกถ้าเป็นเด็ก 6 ปีมีก้อนที่แก้มโตเร็วใน 1 เดือน ตาโปน MRI พบก้อนเนื้อเยื่ออ่อนลุกลาม biopsy พบ small round blue cells ย้อม myogenin บวก",
+   "D": "SCC ช่องปากเป็นแผล/ ก้อนขอบนูนแข็ง ผิวขรุขระ เลือดออกง่าย ที่ขอบลิ้น พื้นปาก มีปัจจัยเสี่ยงบุหรี่ เหล้า หมาก ไม่ใช่ก้อนโป่งใต้เยื่อบุปกติ — จะถูกถ้าเป็นชาย 65 ปีเคี้ยวหมากสูบบุหรี่ มีแผลไม่หายที่ขอบลิ้นซ้าย 2 เดือน ขอบนูนแข็ง คลำได้ต่อมน้ำเหลืองใต้คางโต",
+   "E": "Pyogenic granuloma (lobular capillary hemangioma) เป็นก้อนเนื้อสีแดงสด มีก้าน ผิวเป็นแผล เลือดออกง่าย มักที่เหงือก โตเร็วในหญิงตั้งครรภ์ (pregnancy epulis) ไม่ใช่ก้อนกระดูกโป่ง — จะถูกถ้าเป็นหญิงตั้งครรภ์ 24 สัปดาห์มีก้อนแดงนุ่มมีก้านที่เหงือกหน้า เลือดออกเวลาแปรงฟัน"
   },
-  "trap": "ก้อนในปากที่ขากรรไกรขยายแต่เยื่อบุเรียบไม่เป็นแผล ให้นึกถึงเนื้องอกจากกระดูก/ฟัน ไม่ใช่ SCC ของเยื่อบุ",
+  "trap": "ก้อนใหญ่ในช่องปากผู้ใหญ่ทำให้นึกถึง <b>SCC</b> ทันทีเพราะเป็นมะเร็งช่องปากที่พบบ่อยที่สุด · แต่ภาพเป็นก้อน<b>ขยายจากในกระดูกขากรรไกรล่างด้านหลัง เยื่อบุคลุมเรียบ ฟันถูกดัน</b> ไม่ใช่แผลขอบนูนแข็ง → นึกถึง odontogenic tumor = ameloblastoma · ภาพรังสี soap bubble ช่วยยืนยัน",
   "summary": [
-   "<b>นอกสไลด์:</b> Ameloblastoma: อายุ 30–50 ปี · posterior mandible · soap-bubble radiolucency · ฟันรอบ ๆ รากละลาย",
-   "<b>นอกสไลด์:</b> แยกกับ odontogenic keratocyst (สัมพันธ์ Gorlin syndrome)",
-   "<b>นอกสไลด์:</b> รักษา: ตัดขากรรไกรเผื่อขอบ (marginal/segmental mandibulectomy) + สร้างใหม่"
+   "Ameloblastoma: odontogenic epithelial tumor · mandible ~80% (molar-ramus) · อายุ 30–50 ปี · โตช้า ไม่เจ็บ ขากรรไกรโป่ง ฟันโยก",
+   "ภาพรังสี: multilocular 'soap bubble'/ honeycomb radiolucency, cortical expansion, root resorption · CT ดูขอบเขต/ cortical perforation",
+   "ชนิด: conventional (solid/ multicystic) aggressive ที่สุด · unicystic (คนอายุน้อย ร่วมฟันคุด อาจ enucleation ได้บางชนิด) · peripheral (ในเหงือก) · metastasizing ameloblastoma พบน้อยมาก",
+   "รักษา conventional: resection ขอบกระดูก 1–1.5 cm (marginal ถ้าขอบล่างยังพอ, segmental ถ้าลุกลาม) + reconstruction (fibula free flap) · curettage อย่างเดียวกลับเป็นซ้ำสูง",
+   "Differential multilocular radiolucency ของ mandible: ameloblastoma, odontogenic keratocyst (Gorlin), central giant cell granuloma, odontogenic myxoma",
+   "Odontogenic keratocyst: ขยายตาม medulla ไม่ค่อยโป่ง เป็นหลายอันใน Gorlin syndrome (PTCH1) ร่วม basal cell carcinoma",
+   "ก้อนในช่องปากที่เป็นแผลขอบแข็งในผู้ใหญ่ที่เคี้ยวหมาก/ สูบบุหรี่ → biopsy หา SCC"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ภาพเป็นก้อนขยายที่ขากรรไกรล่างส่วนหลังเยื่อบุเรียบ เข้ากับ ameloblastoma · ช้อย E แต่งเพิ่ม · ความมั่นใจปานกลาง–สูง (ยืนยันด้วยภาพรังสีและชิ้นเนื้อ)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง-สูง — ตรงกับคีย์ลายมือ P'Ing ที่วง B \"m/c benign odontogenic tumor\" · ภาพเป็นก้อนขยายที่ mandible ด้านหลัง เยื่อบุเรียบ ฟันถูกดัน เข้าได้กับ ameloblastoma มากกว่าแผลมะเร็ง · หมายเหตุ: ถ้านับ hamartoma ด้วย odontoma พบบ่อยกว่า แต่ ameloblastoma เป็นเนื้องอกที่สำคัญทางคลินิกที่พบบ่อยที่สุด ต้นฉบับมี 4 ช้อย เว็บเติม pyogenic granuloma",
+  "mnemonic": "<b>'ขากรรไกรล่างโป่ง + ฟองสบู่ (soap bubble) = Ameloblastoma → ตัดกระดูก 1 cm'</b>",
+  "guide": "WHO Classification of Head and Neck Tumours 5th ed. (2022) Odontogenic and Maxillofacial Bone Tumours; Grabb and Smith's Plastic Surgery 8th ed. (2020); Sabiston Textbook of Surgery 21st ed. (2022) Head and Neck",
   "variants": [
-   "<b>นอกสไลด์:</b> ภาพรังสีขากรรไกรล่างพบ radiolucency ล้อมรอบตัวฟันกรามซี่สามที่ยังไม่ขึ้น → dentigerous cyst"
+   "ชาย 35 ปี ขากรรไกรล่างขวาโป่งช้า ๆ 2 ปี panoramic X-ray พบ multilocular radiolucency + root resorption → incisional biopsy → ameloblastoma → segmental mandibulectomy + fibula free flap",
+   "ชาย 20 ปี เป็น basal cell carcinoma หลายจุด X-ray พบถุงน้ำหลายอันในขากรรไกร → odontogenic keratocyst ใน Gorlin syndrome",
+   "ทำไม ameloblastoma กลับเป็นซ้ำสูงหลัง curettage → เนื้องอกแทรกตาม medullary bone เกินขอบที่เห็นบนภาพ",
+   "หญิง 25 ปี ถุงน้ำรอบมงกุฎฟันคุดล่าง ขอบเรียบช่องเดียว → dentigerous cyst → ถอนฟันคุด + enucleation"
+  ],
+  "notes": "ไฟล์ S74AQ หน้า 3 — ตัวพิมพ์: <b>89. From the image, what is the most likely diagnosis? (รูปช่องปาก) — A. Hemangioma B. Ameloblastoma C. Soft tissue sarcoma D. Squamous cell carcinoma</b><br>ลายมือ/ ไฮไลต์ในไฟล์: รูปในโจทย์ = qs74a_89 จากไฟล์โจทย์ S74AQ หน้า 3 · ไฟล์มี 4 ช้อย → เติม E",
+  "src": "S74AQ · หน้า 3",
+  "kimg": [
+   "kp74a_89"
   ]
  }
 }

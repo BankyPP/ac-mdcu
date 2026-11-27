@@ -1,156 +1,274 @@
 {
  "MDCU66|RoD|27": {
-  "interp": "ภาพ acromegaly (หน้าผากกว้าง ขากรรไกรล่างยื่น มือใหญ่) · ถามสาเหตุ",
-  "why": "<b>คีย์: ขีด a</b><br><b>นอกสไลด์:</b> GH เกินหลังกระดูกปิด → กระดูกและเนื้อเยื่ออ่อนหนาขึ้น (หน้าผาก คาง มือ เท้า) · สาเหตุเกือบทั้งหมดคือ pituitary adenoma ที่หลั่ง GH",
+  "interp": "ภาพผู้ป่วยที่มี<b>หน้าผากกว้าง ขากรรไกรล่างยื่น (prognathism) มือใหญ่</b> คือลักษณะของ <b>acromegaly</b> — ถามว่าความผิดปกตินี้เกิดจากอะไร ต้องรู้ว่าฮอร์โมนตัวไหนเกินแล้วทำให้กระดูกและเนื้อเยื่ออ่อนโตหลังกระดูกปิด และต้นเหตุที่พบบ่อยที่สุดคืออะไร",
+  "why": "Acromegaly เกิดจาก <b>growth hormone (GH) เกินหลัง epiphyseal plate ปิด</b> · GH กระตุ้นตับให้สร้าง <b>IGF-1</b> ซึ่งทำให้กระดูกหนาขึ้นตามแนวกว้าง (periosteal growth) และเนื้อเยื่ออ่อนหนา จึงเห็น frontal bossing, prognathism ฟันห่าง ลิ้นโต จมูกและริมฝีปากหนา มือเท้าโตจนต้องเปลี่ยนไซซ์แหวนและรองเท้า · สาเหตุมากกว่า 95% คือ <b>somatotroph (GH-secreting) pituitary adenoma</b> ซึ่งส่วนใหญ่เป็น macroadenoma (&gt; 1 cm) เพราะโรคดำเนินช้าและวินิจฉัยช้าเฉลี่ยหลายปี · สาเหตุที่เหลือหายากมาก เช่นเนื้องอกที่หลั่ง GHRH นอกต่อม (carcinoid ปอด, pancreatic NET) · ผลแทรกซ้อนที่ทำให้อายุสั้นคือ cardiomyopathy ความดันสูง เบาหวาน sleep apnea และเสี่ยง colon polyp · ไฟล์ขีด a <b>\"Growth hormone producing tumor\"</b> (ไฟล์มีช้อยเดียว)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าภาพเป็นหน้ากลม หนอกที่ต้นคอ ลายแตกสีม่วง แขนขาลีบ (Cushing disease จาก adenoma หลั่ง ACTH)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นหญิงขาดประจำเดือนมีน้ำนมไหล หรือชายความต้องการทางเพศลดร่วมกับตามัวด้านข้าง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กตัวเตี้ย โตช้า ตามัวด้านข้างสองข้าง ภาพเห็นก้อนเหนือ sella มีถุงน้ำและหินปูน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กชายเข้าสู่วัยหนุ่มก่อนวัยจาก germ cell tumor ที่ pineal หลั่ง hCG"
+   "B": "ACTH-producing pituitary adenoma ทำให้ <b>Cushing disease</b> — ใบหน้ากลม (moon face) หนอกที่ต้นคอ อ้วนลำตัว แขนขาลีบ ลายแตกสีม่วงกว้าง &gt; 1 cm ไม่ทำให้กระดูกใบหน้าและมือโต · จะถูกถ้าเป็นหญิง 35 ปี อ้วนลงพุง ความดันสูง น้ำตาลสูง ผิวบางช้ำง่าย late-night salivary cortisol สูง ACTH ไม่ถูกกด MRI พบ microadenoma",
+   "C": "Prolactinoma เป็น functioning pituitary adenoma ที่<b>พบบ่อยที่สุด</b> แต่ฮอร์โมนที่เกินคือ prolactin ทำให้กด GnRH ไม่ใช่ทำให้กระดูกโต · จะถูกถ้าเป็นหญิง 28 ปี ประจำเดือนขาด 6 เดือน มีน้ำนมไหล ตรวจครรภ์ลบ prolactin 180 ng/mL (รักษาด้วย cabergoline เป็นหลัก ไม่ต้องผ่าตัดก่อน)",
+   "D": "Craniopharyngioma เป็นเนื้องอก suprasellar จาก Rathke pouch มีถุงน้ำ (\"machinery oil\") และหินปูน กดต่อมใต้สมองทำให้<b>ฮอร์โมนขาด</b> (ตัวเตี้ย DI) ไม่ใช่ GH เกิน · จะถูกถ้าเป็นเด็ก 9 ปี โตช้ากว่าเพื่อน ปวดศีรษะ ตามัวด้านข้างสองข้าง ปัสสาวะมาก CT เห็นก้อน suprasellar มี calcification",
+   "E": "Pineal tumor (ส่วนใหญ่ germinoma ในเด็กชาย) กด tectum และ aqueduct ทำให้ <b>Parinaud syndrome</b> และ hydrocephalus ไม่เกี่ยวกับ GH · จะถูกถ้าเป็นเด็กชาย 12 ปี ปวดศีรษะ อาเจียนตอนเช้า มองขึ้นบนไม่ได้ pupil ตอบสนองต่อแสงไม่ดีแต่หดเมื่อมองใกล้ (light-near dissociation)"
   },
-  "trap": "GH เกิน \"ก่อน\" epiphysis ปิด = gigantism (ตัวสูงมาก) · \"หลัง\" ปิด = acromegaly (ไม่สูงขึ้น แต่ใบหน้า มือ เท้าโต) — สาเหตุเดียวกัน",
+  "trap": "Prolactinoma เป็น pituitary adenoma ที่พบบ่อยที่สุดจึงชวนเลือกเมื่อเห็นคำว่า pituitary · แต่ฟีโนไทป์บอกฮอร์โมนชัด: <b>กระดูกและเนื้อเยื่อโต = GH/IGF-1</b> · หน้ากลมลายแตก = ACTH · น้ำนมไหลขาดประจำเดือน = prolactin · ตัวเตี้ยตามัว = craniopharyngioma",
   "summary": [
-   "<b>นอกสไลด์:</b> วินิจฉัย acromegaly: IGF-1 สูง (คัดกรอง) → ยืนยันด้วย GH ไม่ถูกกดหลังกินน้ำตาล 75 g → MRI ต่อมใต้สมอง (ส่วนใหญ่เป็น macroadenoma)"
+   "Acromegaly: GH เกินหลัง epiphysis ปิด → กระดูกโตด้านกว้างและเนื้อเยื่ออ่อนหนา · ก่อน epiphysis ปิด = gigantism (ตัวสูงผิดปกติ)",
+   "ลักษณะเด่น: frontal bossing, prognathism ฟันล่างยื่นเกินฟันบนและห่าง ลิ้นโต มือเท้าโต เหงื่อออกมาก ผิวมัน skin tag carpal tunnel syndrome",
+   "คัดกรองด้วย <b>IGF-1</b> (เทียบตามอายุและเพศ) → ยืนยันด้วย <b>OGTT 75 g</b> แล้ว GH ไม่ถูกกด (nadir ≥ 1 µg/L หรือ ≥ 0.4 ด้วย assay ไวสูง) → MRI sella",
+   "สาเหตุ &gt; 95% คือ somatotroph adenoma ส่วนใหญ่เป็น macroadenoma · ส่วนน้อยหลั่ง prolactin ร่วม (mammosomatotroph) · หายากมาก: GHRH นอกต่อม",
+   "ภาวะแทรกซ้อน: hypertrophic cardiomyopathy, ความดันสูง, เบาหวาน, obstructive sleep apnea, arthropathy, colon polyp (แนะนำส่องกล้องลำไส้ใหญ่)",
+   "รักษาอันดับแรก: <b>transsphenoidal surgery</b> · เหลือโรค → somatostatin analog (octreotide, lanreotide), pegvisomant (GH receptor antagonist), cabergoline หรือฉายรังสี"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a \"Growth hormone producing tumor\" · ภาพหน้าผากกว้าง ขากรรไกรยื่น มือใหญ่ เป็นภาพคลาสสิกของ GH เกินในผู้ใหญ่ ช้อย B–E ที่เว็บเติมเป็นเนื้องอกในหรือรอบ sella ที่ให้ฟีโนไทป์ต่างกันชัด",
+  "mnemonic": "<b>'หน้า-คาง-มือ โต = GH โต (IGF-1 สูง → OGTT ไม่กด)'</b>",
+  "guide": "Fleseriu M, et al. A Pituitary Society update to acromegaly management guidelines. Pituitary 2021;24:1–13; Katznelson L, et al. Acromegaly: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2014;99:3933",
   "variants": [
-   "<b>นอกสไลด์:</b> อาการ acromegaly ชัด IGF-1 สูง แต่ MRI ต่อมใต้สมองปกติ → หาเนื้องอกนอกต่อมที่หลั่ง GHRH (carcinoid ปอด, neuroendocrine tumor ตับอ่อน)",
-   "<b>นอกสไลด์:</b> adenoma ต่อมใต้สมองที่หลั่งทั้ง GH และ prolactin → มีทั้งอาการ acromegaly และน้ำนมไหล/ขาดประจำเดือน"
+   "ชาย 45 ปี แหวนแต่งงานใส่ไม่ได้ ต้องเปลี่ยนเบอร์รองเท้า นอนกรนมาก IGF-1 สูง 3 เท่า → OGTT 75 g ยืนยัน แล้ว MRI sella",
+   "เด็กชาย 13 ปี สูง 190 cm epiphysis ยังไม่ปิด IGF-1 สูงมาก → gigantism จาก GH-secreting adenoma",
+   "หลังผ่าตัด transsphenoidal ยังมี IGF-1 สูงและเหลือก้อนใน cavernous sinus → somatostatin analog (octreotide LAR) ต่อ",
+   "ทำไมผู้ป่วย acromegaly ต้องส่อง colonoscopy → GH/IGF-1 กระตุ้นการเจริญของเยื่อบุ เพิ่มความเสี่ยง adenomatous polyp และมะเร็งลำไส้ใหญ่"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 — ตัวพิมพ์: <b>27. รูป Acromegaly หน้าผากกว้าง ปาดล่างยื่นๆ มือใหญ่ ถามว่าเกิดจากอะไร — a. Growth hormone producing tumor</b><br>ลายมือ: ขีด a (เส้นแดง)<br>ไฮไลต์: \"Acromegaly หน้าผากกว้าง ปาดล่างยื่นๆ มือใหญ่\" · \"Growth hormone producing tumor\" (เหลือง)<br>ที่ปรับในเว็บ: ไฟล์มีช้อยเดียว → เติมช้อย B–E (ACTH-producing tumor, prolactinoma, craniopharyngioma, pineal tumor) · แปลโจทย์เป็นอังกฤษ (\"ปาดล่าง\" ในไฟล์ = ขากรรไกรล่าง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_27"
   ]
  },
  "MDCU66|RoD|28": {
-  "interp": "ริดสีดวงภายในยื่นค้างมีลิ่มเลือด (thrombosed, prolapsed internal hemorrhoid) = ริดสีดวงที่มีภาวะแทรกซ้อน · ถามการจัดการ",
-  "why": "<b>สไลด์: indications for surgery</b><br><b>นอกสไลด์:</b> ริดสีดวงภายในที่ยื่นค้างมีลิ่มเลือดบวมเจ็บมาก ดันกลับไม่ได้ และเสี่ยงเนื้อตาย → ผ่าตัด hemorrhoidectomy เร็ว (ASCRS) · หัตถการในห้องตรวจใช้ไม่ได้กับก้อนที่มีภาวะแทรกซ้อน",
+  "interp": "ผู้ป่วย<b>ริดสีดวงภายในที่ยื่นออกมาและมีลิ่มเลือดอุดตัน (prolapsed thrombosed internal hemorrhoid)</b> — ถามการจัดการ ต้องรู้ว่าภาวะนี้เป็นภาวะแทรกซ้อนของริดสีดวงที่อยู่ในข้อบ่งชี้ผ่าตัด ไม่ใช่ริดสีดวงทั่วไปที่ใช้หัตถการผู้ป่วยนอก",
+  "why": "Internal hemorrhoid เกิดเหนือ dentate line (เยื่อบุ columnar ไม่มีเส้นประสาทรับความเจ็บ) แบ่ง grade ตามการยื่น: I ไม่ยื่น · II ยื่นแล้วกลับเอง · III ต้องดันกลับ · IV ดันกลับไม่ได้ · เมื่อก้อนที่ยื่นออกมาถูก anal sphincter บีบรัด (incarcerated) เลือดดำไหลกลับไม่ได้ → <b>thrombosis</b> บวม ปวดมาก และอาจขาดเลือดเป็น strangulated/gangrene · ภาวะนี้ <b>ห้ามทำ rubber band ligation หรือ sclerotherapy</b> เพราะเนื้อเยื่ออักเสบบวมและปวดมาก ทำแล้วเจ็บ ติดเชื้อ และไม่แก้ก้อนที่ยื่น · แนวทาง ASCRS: incarcerated/thrombosed internal hemorrhoid ทำ <b>urgent excisional hemorrhoidectomy</b> ได้อย่างปลอดภัย (บางสถาบันเริ่มด้วยยาลดปวด แช่น้ำอุ่น ลดบวมก่อนถ้าไม่มีเนื้อตาย แต่ถ้ามี gangrene หรือปวดมากต้องผ่าตัด) · ไฟล์ขีด a และแปะสไลด์ <b>\"Indications for surgery — Complications: prolapsed strangulated hemorrhoid, thrombosis, prolapsed thrombosed → Hemorrhoidectomy\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยอยู่ช่วงเม็ดเลือดขาวต่ำหลังเคมีบำบัด ซึ่งแผลผ่าตัดทวารเสี่ยงติดเชื้อรุนแรง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นริดสีดวงภายใน grade I–II ที่เลือดออกซ้ำในผู้ป่วยที่ต้องกิน warfarin ต่อเนื่อง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นริดสีดวง grade III ที่ไม่มีลิ่มเลือด ดันกลับได้ และยังยื่นหรือเลือดออกแม้กินใยอาหารเพียงพอ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ flavonoid อย่างเดียวเป็นการรักษาที่เพียงพอ เพราะยากลุ่มนี้บรรเทาอาการช่วงกำเริบเท่านั้น การรักษาพื้นฐานทุกรายต้องมีใยอาหารและน้ำร่วมด้วย"
+   "B": "Warm sitz bath + ยาแก้ปวด + ยาระบาย เป็นการรักษาประคับประคองที่ลดปวดและ spasm ได้ แต่ไม่แก้ก้อนภายในที่ยื่นและมีลิ่มเลือดซึ่งเสี่ยงเนื้อตาย · จะถูกถ้าเป็นชาย 30 ปี มีก้อนสีม่วงคล้ำที่ขอบทวารใต้ dentate line ปวดมา 5 วันและเริ่มดีขึ้นเอง (thrombosed <b>external</b> hemorrhoid เกิน 72 ชม.)",
+   "C": "Sclerotherapy (เช่น 5% phenol in oil) ฉีดใต้เยื่อบุเหนือ dentate line ให้เกิด fibrosis ยึดเนื้อเยื่อ ใช้กับก้อนเล็กที่ไม่อักเสบ ฉีดในก้อนที่บวมมีลิ่มเลือดทำให้ปวดและเนื้อตาย · จะถูกถ้าเป็นหญิง 40 ปี ถ่ายเป็นเลือดสดหยดหลังถ่าย ไม่มีก้อนยื่น ส่องพบ grade I internal hemorrhoid ที่ดื้อต่อการปรับอาหาร",
+   "D": "Rubber band ligation เป็นหัตถการผู้ป่วยนอกที่ได้ผลดีที่สุดสำหรับ grade I–III แต่ต้องรัดเหนือ dentate line บนก้อนที่ไม่อักเสบ รัดก้อนที่ thrombosed ทำให้ปวดรุนแรงและเสี่ยง pelvic sepsis · จะถูกถ้าเป็นชาย 50 ปี ก้อนยื่นตอนเบ่งแล้วกลับเข้าเอง ถ่ายมีเลือดสด (grade II) ไม่มีปวดหรือลิ่มเลือด",
+   "E": "Flavonoid (เช่น micronized purified flavonoid fraction) ช่วยลดเลือดออกและอาการในระยะเฉียบพลันได้บ้าง ใช้เสริมเท่านั้น การให้อย่างเดียวในก้อนที่ยื่นและมีลิ่มเลือดไม่พอ · จะถูกถ้าเป็นหญิงตั้งครรภ์ไตรมาสสาม มีเลือดออกจาก grade I–II hemorrhoid เล็กน้อย ต้องการรักษาประคับประคองระหว่างรอคลอด"
   },
-  "trap": "คิดว่าต้องรอให้ก้อนยุบก่อนผ่าตัด (กลัวทวารตีบหรือติดเชื้อ) — การผ่าตัดช่วงเฉียบพลันปลอดภัยไม่ต่างจากผ่าตัดนัด",
+  "trap": "ช้อย warm sitz bath ชวนเลือกเพราะเป็นการรักษาของ <b>thrombosed external hemorrhoid</b> ที่เกิน 72 ชม. · ต้องแยกให้ได้ว่าโจทย์เป็น <b>internal</b> ที่ยื่นและอุดตัน (grade IV ที่มีภาวะแทรกซ้อน) ซึ่งอยู่ในข้อบ่งชี้ผ่าตัด และ banding/sclerotherapy ห้ามทำในก้อนที่อักเสบ",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ผ่าตัดริดสีดวง: ล้มเหลวจากหัตถการในห้องตรวจ · grade III–IV ที่มีอาการ · มีภาวะแทรกซ้อน (ลิ่มเลือดยื่นค้าง เนื้อตาย) · มีโรคทวารร่วมที่ต้องผ่าตัด · ริดสีดวงภายในร่วมภายนอกที่มีอาการ"
+   "Internal hemorrhoid (เหนือ dentate line): เลือดสดไม่เจ็บ ± ก้อนยื่น · grade I ไม่ยื่น · II กลับเอง · III ดันกลับ · IV ดันกลับไม่ได้",
+   "External hemorrhoid (ใต้ dentate line, มี somatic nerve): thrombosed → ปวดมาก ก้อนม่วง · &lt; 72 ชม. ตัดก้อนออก (excision) · &gt; 72 ชม. ประคับประคอง",
+   "รักษาเบื้องต้นทุก grade: ใยอาหาร 25–35 g/วัน น้ำ ลดการเบ่งและนั่งส้วมนาน ± flavonoid",
+   "Office procedure: rubber band ligation (grade I–III ดีที่สุด) · sclerotherapy/infrared coagulation (grade I–II) · ห้ามในผู้ที่ภูมิคุ้มกันต่ำหรือก้อนอักเสบ",
+   "ข้อบ่งชี้ hemorrhoidectomy: grade III–IV, ล้มเหลวจาก office procedure, external + internal (combined), skin tag ที่มีอาการ, <b>incarcerated/thrombosed/strangulated</b>, เลือดออกจนซีด",
+   "Excisional hemorrhoidectomy (Milligan–Morgan เปิด หรือ Ferguson ปิด) ได้ผลดีที่สุด เกิดซ้ำน้อย แต่ปวดมากหลังผ่าตัด · ภาวะแทรกซ้อน: urinary retention, เลือดออก (วันที่ 7–10), anal stenosis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a และสไลด์ที่แปะระบุ prolapsed thrombosed เป็นข้อบ่งชี้ hemorrhoidectomy · ในทางปฏิบัติบางรายที่ไม่มีเนื้อตายอาจเริ่มประคับประคองก่อน แต่ในช้อยนี้ urgent hemorrhoidectomy เป็นการรักษาที่ตรงข้อบ่งชี้ที่สุด",
+  "mnemonic": "<b>'Internal ยื่น + Thrombosed/Strangulated = Hemorrhoidectomy (ห้าม Band ก้อนอักเสบ)'</b>",
+  "guide": "Hawkins AT, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Hemorrhoids. Dis Colon Rectum 2024; Sabiston Textbook of Surgery 21st ed. (2022) — Anus",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัดริดสีดวง 6 ชม. ปัสสาวะไม่ออก ท้องน้อยโป่ง → สวนปัสสาวะ · ป้องกันด้วยจำกัดสารน้ำระหว่างผ่าตัดและคุมปวดให้ดี",
-   "<b>นอกสไลด์:</b> หลัง hemorrhoidectomy 2 เดือน ถ่ายลำบาก ลำอุจจาระเล็ก นิ้วสอดเข้าทวารไม่ได้ → ทวารตีบ: ใยอาหารและขยายทวาร รุนแรงทำ anoplasty"
+   "ชาย 35 ปี ก้อนม่วงเจ็บมากที่ขอบทวาร เป็นมา 24 ชม. อยู่ใต้ dentate line → excision ของ thrombosed external hemorrhoid ภายใต้ยาชาเฉพาะที่",
+   "หญิง 45 ปี ก้อนยื่นตอนถ่ายต้องใช้นิ้วดันกลับ ถ่ายมีเลือดสด ไม่ดีขึ้นหลังปรับอาหาร → rubber band ligation (grade III) หรือ hemorrhoidectomy",
+   "หลัง hemorrhoidectomy วันที่ 8 มีเลือดออกสดจำนวนมาก → secondary hemorrhage จาก sloughing ของ pedicle ตรวจและห้ามเลือดในห้องผ่าตัด",
+   "ผู้ป่วยชายหลัง hemorrhoidectomy 6 ชม. ปัสสาวะไม่ออก ท้องน้อยตึง → urinary retention ใส่สายสวน จำกัดน้ำเกลือและคุมปวด"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 — ตัวพิมพ์: <b>28. .ผู้ป่วยเป็น prolapsed thrombosed internal hemorrhoid ควรจะ manage อย่างไร — a. urgent hemorrhoidectomy b. warm sitz bath + pain control c. sclerosing agent d. rubber band ligation</b><br>ลายมือ: ขีด a · ใส่เครื่องหมายคำพูดแดงรอบ \"thrombosed\"<br>ไฮไลต์: \"prolapsed thrombosed internal hemorrhoid\" · \"manage อย่างไร\" · \"urgent hemorrhoidectomy\" (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ <b>\"Indications for surgery\"</b> (กรอบแดง) — Gr 3, 4 int hemorrhoid (ลายมือแดง \"prolapsed + manual reduction\" · \"incarceration\") · External hemorrhoid (ลายมือ \"ที่มีอาการ\") · Combine hemorrhoid · Skin tag (ลายมือ \"ที่คนไข้ทนไม่ไหว\") · Complications (ลายมือ \"ของ hemorrhoid\") → prolapsed strangulated hemorrhoid, thrombosis, (ลายมือ \"prolapsed thrombosed\"), continuous bleeding (ลายมือแดง \"anemia\") ⇒ <b>Hemorrhoidectomy</b> · ลายมือขาวบนสไลด์ \"ถ้า ambulatory Tx ไม่ได้\" และ \"indication\" · ลายมือเหลือง \"ในตปท. ประกันไม่ครอบคลุม\" (ชี้ไป external hemorrhoid และ skin tag)<br>ที่ปรับในเว็บ: ไฟล์มีช้อย 4 ข้อ → เติม E (oral flavonoid only) · แปลโจทย์เป็นอังกฤษ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_28"
   ]
  },
  "MDCU66|RoD|29": {
-  "interp": "ฝีในปอด (lung abscess) · ถามข้อบ่งชี้ผ่าตัด (โจทย์เดียวกับ RoD 15 ช้อยเรียงต่าง)",
-  "why": "<b>ลายมือ: C ต้องเป็น massive</b><br><b>นอกสไลด์:</b> ฝีที่ได้ยาเหมาะสมแล้วไม่ดีขึ้นเป็นข้อบ่งชี้ให้ระบายหรือผ่าตัด · ไอเป็นเลือดต้องปริมาณมากจึงเป็นข้อบ่งชี้",
+  "interp": "ถามข้อบ่งชี้การผ่าตัดใน <b>lung abscess</b> — ต้องรู้ว่า lung abscess ส่วนใหญ่หายด้วยยาปฏิชีวนะ (และระบายหนองผ่านหลอดลม) การผ่าตัดมีที่ใช้เฉพาะเมื่อรักษาด้วยยาไม่ได้ผล ก้อนใหญ่ มีภาวะแทรกซ้อนที่อันตราย หรือสงสัยมะเร็ง",
+  "why": "Lung abscess ราว <b>80–90% หายด้วยยาปฏิชีวนะ</b>ที่ครอบคลุม anaerobe (เช่น ampicillin-sulbactam หรือ clindamycin) ให้นาน 3–8 สัปดาห์จนภาพรังสีดีขึ้นชัด ร่วมกับกายภาพบำบัดทรวงอกและ postural drainage · ข้อบ่งชี้ผ่าตัด (มักเป็น <b>lobectomy</b>) ได้แก่ <b>ไม่ดีขึ้นหลังให้ยาเพียงพอ</b> (ไข้ไม่ลง ฟิล์มไม่ดีขึ้นหลัง ~2 สัปดาห์ หรือโพรงคงอยู่/โตขึ้น) · <b>ขนาด &gt; 6 cm</b> (ยามักไม่พอ) · <b>massive hemoptysis</b> ซึ่งอาจทำให้สำลักเลือดจน asphyxia · สงสัยหรือแยก<b>มะเร็ง</b>ไม่ได้ (cavitating carcinoma มี central necrosis) · ภาวะแทรกซ้อนเช่นแตกเข้าช่องเยื่อหุ้มปอดเป็น empyema/bronchopleural fistula ซึ่งต้องระบายด้วย chest tube ก่อน · ผู้ที่ผ่าตัดไม่ไหวใช้ percutaneous drainage แทน · ไฟล์ขีด A แก้ช้อย C เป็น <b>\"massive\"</b> และแปะสไลด์ \"Indication for Surgery: &gt; 6 cm · Persistent or enlarging abscess · CXR not better after 2 week ATB · Massive hemoptysis · Ruptured to pleural space · R/O CA\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ฝีหลายก้อนสองข้างในผู้ป่วยภูมิคุ้มกันต่ำเป็นข้อบ่งชี้ผ่าตัด เพราะเกิดจากเชื้อกระจายทางกระแสเลือดหรือเชื้อฉวยโอกาสทั่วปอด ตัดออกไม่หมด ต้องรักษาด้วยยาตามเชื้อ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เลือดปนเสมหะเป็นครั้งคราวต้องผ่าตัด เพราะเกิดจากผนังโพรงที่อักเสบ และหายไปเมื่อฝียุบด้วยยา",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าฝีแตกเข้าช่องเยื่อหุ้มปอดเป็น pyopneumothorax ที่ใส่สายระบายแล้วลมยังรั่วไม่หยุดและปอดไม่ขยาย",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกช้อยเป็นข้อบ่งชี้ผ่าตัดพร้อมกัน เพราะเลือดปนเสมหะเล็กน้อยและฝีหลายก้อนจากกระแสเลือดรักษาด้วยยา"
+   "B": "Abscess หลายก้อนทั้งสองปอดในผู้ภูมิคุ้มกันต่ำมักเกิดจาก <b>hematogenous spread</b> (septic emboli, เชื้อรา, S. aureus) รักษาด้วยยาตามเชื้อ การผ่าตัดเอาออกทั้งสองข้างทำไม่ได้และไม่ช่วย · จะถูกถ้าเป็นผู้ป่วยติดยาเสพติดชนิดฉีด มีไข้ เสียงฟู่ tricuspid regurgitation CT พบก้อนโพรงเล็กหลายก้อนรอบนอกปอดสองข้าง (septic pulmonary emboli จาก right-sided endocarditis)",
+   "C": "ไอเป็นเลือดเล็กน้อยเป็นครั้งคราวพบได้บ่อยใน lung abscess และหายเมื่อการอักเสบลดลง ไม่ใช่ข้อบ่งชี้ผ่าตัด — ไฟล์เองขีดคำว่า occasional แล้วเขียน massive · จะถูกถ้าเป็นผู้ป่วย lung abscess ที่ไอเป็นเลือดสด 300 mL ใน 24 ชม. ออกซิเจนต่ำ (massive hemoptysis → bronchial artery embolization หรือ lobectomy)",
+   "D": "Bronchopleural fistula เป็นภาวะแทรกซ้อนเมื่อ abscess แตกเข้าช่องเยื่อหุ้มปอด ทำให้เกิด pyopneumothorax ขั้นแรกคือ<b>ใส่ chest tube ระบายหนอง</b> แล้วผ่าตัดเมื่อรั่วต่อเนื่องหรือมี empyema ไม่หาย จึงไม่ใช่ข้อบ่งชี้ผ่าตัดหลักที่ทำทันที · จะถูกถ้าเป็นผู้ป่วยที่ใส่ chest tube แล้ว 2–3 สัปดาห์ยังมีลมรั่วต่อเนื่องและ empyema ไม่ขยาย (persistent BPF → decortication ± muscle flap ปิดรูรั่ว)",
+   "E": "ไม่ใช่ทุกข้อเพราะ B (หลายก้อนสองปอดในผู้ภูมิคุ้มกันต่ำ) และ C (ไอเลือดเป็นครั้งคราว) รักษาด้วยยา ไม่ต้องผ่าตัด · จะถูกถ้าเป็นผู้ป่วยที่ abscess ก้อนเดียวไม่ดีขึ้นหลังให้ยา 2 สัปดาห์ ขนาดโตขึ้นเป็น 7 cm และมีไอเลือดสดปริมาณมาก ซึ่งทุกลักษณะที่ให้มาเป็นข้อบ่งชี้ผ่าตัด (ตอบทุกข้อได้)"
   },
-  "trap": "โพรงฝียุบช้าได้หลายสัปดาห์แม้รักษาได้ผล — ตัดสินว่า \"ไม่ตอบสนอง\" จากไข้และอาการ ไม่ใช่จากภาพที่ยังเห็นโพรง",
+  "trap": "คำว่า hemoptysis และ bronchopleural fistula ฟังดูรุนแรงจึงชวนเลือก E · ต้องดูคำขยาย: hemoptysis ต้องเป็น <b>massive</b> ถึงผ่าตัด · ก้อนหลายก้อนสองข้างในผู้ภูมิคุ้มกันต่ำเป็นโรคทั้งระบบรักษาด้วยยา · BPF ระบายด้วย chest tube ก่อน · ข้อที่ตรงที่สุดคือ<b>รักษาด้วยยาแล้วไม่ดีขึ้น</b>",
   "summary": [
-   "<b>นอกสไลด์:</b> ฝีในปอดส่วนใหญ่หายด้วยยา · \"ไม่ตอบสนอง\" = ยังไข้หรืออาการไม่ดีขึ้นหลังได้ยาเหมาะสมราว 2 สัปดาห์",
-   "<b>นอกสไลด์:</b> ทางเลือกเมื่อไม่ตอบสนอง: ระบายผ่านผิวหนังใต้ CT (ฝีชิดผนังอก หรือเสี่ยงผ่าตัดสูง) หรือ lobectomy โดยใช้ท่อช่วยหายใจแยกปอดกันหนองไหลลงปอดอีกข้าง"
+   "Lung abscess: โพรงหนอง &gt; 2 cm จากเนื้อปอดตาย · ส่วนใหญ่เกิดจาก aspiration ในผู้ที่ระดับความรู้สึกตัวลด (สุรา ชัก ยาสลบ) ฟันผุ กลืนลำบาก",
+   "รักษาหลัก: ยาปฏิชีวนะครอบคลุม anaerobe (ampicillin-sulbactam, clindamycin, หรือ beta-lactam/beta-lactamase inhibitor) 3–8 สัปดาห์ + postural drainage · หายราว 80–90%",
+   "ข้อบ่งชี้ผ่าตัด: ไม่ดีขึ้นหลังให้ยาเพียงพอ (~2 สัปดาห์), ขนาด &gt; 6 cm, massive hemoptysis, สงสัยมะเร็ง, empyema/BPF ที่ระบายไม่หาย",
+   "ผ่าตัดที่ทำบ่อย: lobectomy (หลีกเลี่ยง wedge เพราะหนองเลอะ) · ระหว่างดมยาใช้ double-lumen tube กันหนองไหลไปปอดอีกข้าง",
+   "ผู้ที่ผ่าตัดไม่ไหว: CT-guided percutaneous drainage หรือ endoscopic drainage",
+   "ทำ bronchoscopy เมื่อไม่ตอบสนองหรือมีลักษณะผิดปกติ (ไม่มีไข้, อายุมาก, สูบบุหรี่, ตำแหน่งไม่ใช่ dependent) เพื่อหา obstructing tumor หรือ foreign body"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด A และสไลด์ที่แปะ (CXR not better after 2 week ATB) · BPF เป็นภาวะแทรกซ้อนที่บางตำราจัดเป็นข้อบ่งชี้ผ่าตัดได้ แต่ขั้นแรกคือระบายด้วย chest tube จึงไม่ตรงเท่า A",
+  "mnemonic": "<b>'ผ่า Abscess เมื่อ \"ยาไม่ได้ผล – ใหญ่ > 6 – เลือด Massive – สงสัย CA\"'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung: Lung abscess; Shields' General Thoracic Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กสำลักถั่วแล้วไอเรื้อรัง มีฝีในปอดกลีบล่างขวาไม่ดีขึ้นด้วยยา → rigid bronchoscopy เอาสิ่งแปลกปลอมออก",
-   "<b>นอกสไลด์:</b> ผู้ป่วยภูมิคุ้มกันต่ำมีฝีในปอดไม่ดีขึ้นด้วยยาคลุม anaerobe → หาเชื้ออื่น (Nocardia, เชื้อรา, วัณโรค) ด้วย bronchoscopy หรือเจาะดูด"
+   "ชายติดสุรา 50 ปี ไข้ ไอเสมหะเหม็น CXR โพรงมี air-fluid level ที่ superior segment RLL → ยาปฏิชีวนะครอบคลุม anaerobe และ postural drainage",
+   "lung abscess ขนาด 8 cm ให้ยามา 3 สัปดาห์ไข้ไม่ลง โพรงไม่เล็กลง → lobectomy",
+   "ชายสูบบุหรี่ 65 ปี ไม่มีไข้ โพรงผนังหนาไม่เรียบใน upper lobe → bronchoscopy/biopsy แยก cavitating squamous cell carcinoma",
+   "ผู้ป่วย lung abscess ทรุดลงทันที เหนื่อย CXR เห็น hydropneumothorax → ใส่ chest tube ระบาย (abscess แตกเข้าช่องเยื่อหุ้มปอด)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 — ตัวพิมพ์: <b>29. Indication for surgery in lung abscess — A. 2wk antibiotics with no improvement B. multiple abscess both lungs in immunocompromised patient C. Occasional hemoptysis D. Bronchopleural fistula E. All of the above</b><br>ลายมือ: ขีด A · ช้อย C ขีดฆ่าคำว่า \"Occasional\" แล้วเขียน \"massive\" ด้านบน<br>ไฮไลต์: \"Indication for surgery in lung abscess\" · \"2wk antibiotics with no improvement\" (เหลือง)<br>รูปที่แปะ: สไลด์ <b>\"Indication for Surgery\"</b> (มีวง I/C และดาวแดง) — &gt; 6 cm · Persistent or enlarging abscess (ลายมือ \"หลัง Tx 2 wk ATB\") · CXR not better after 2 week ATB (ลายมือ \"ให้ ATB ไม่ดีขึ้น\") · Massive Hemoptysis (ลายมือ \"life threatening → asphyxia ได้ → แม้ abscess จะ 1–2 cm ก็ lobectomy เลย\" · \"invade vss. แล้วแตกเข้า airway = life threatening → ต้อง lobectomy เลย ∵ เกิด airway obstruct → asphyxia\") · Ruptured to Pleural space (ลายมือ \"CXR อยู่ดีๆ abscess หายไป → pleural effusion มาแทน แปลว่ามัน rupture\" · \"abscess ทะลุ → empyema → ใส่ ICD drain หนอง\") · R/O CA (ลายมือ \"cannot\" · \"ต้อง Bx ให้ชัวร์ ต้องเอา tissue ทำ CT scan → biopsy\" · \"central necrosis\") · สไลด์เล็ก \"Lung Abscesses — Etiology: Blood (Dental Caries, Septicemia, Imm Suppression) · Airway (Decreased state of consciousness, Neuromuscular Esophageal Dz, Bronchial Obstruction)\" พร้อมลายมือตัวเล็กมาก<br>ที่ปรับในเว็บ: เรียงช้อยเหมือนไฟล์ แปลเป็นอังกฤษกระชับ (ข้อนี้ซ้ำกับอีกข้อในชุดเดียวกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_29"
   ]
  },
  "MDCU66|RoD|30": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับฝีในปอด — กลไก ตำแหน่ง อาการ และเชื้อ",
-  "why": "<b>ลายมือ: A airway · D anaerobe</b><br><b>นอกสไลด์:</b> ฝีในปอดส่วนใหญ่เกิดจากสำลักเชื้อในช่องปากทางหลอดลม → ไปตามแรงโน้มถ่วงลงส่วนของปอดที่อยู่ต่ำตามท่า และขวามากกว่าซ้ายเพราะหลอดลมใหญ่ขวาตรงและกว้างกว่า",
+  "interp": "ถามข้อความที่ถูกเกี่ยวกับ <b>lung abscess</b> — ต้องรู้กลไกหลัก (aspiration ทางหลอดลม) ตำแหน่งที่พบบ่อยตามท่าที่สำลัก เชื้อที่เป็นสาเหตุ และอาการเด่น เพื่อจับว่าช้อยไหนกลับด้านความจริง",
+  "why": "Lung abscess ส่วนใหญ่เป็น <b>primary abscess จาก aspiration</b> ของเชื้อในช่องปาก (ฟันผุ เหงือกอักเสบ) ในผู้ที่ความรู้สึกตัวลดหรือกลืนผิดปกติ — เชื้อหลักจึงเป็น <b>anaerobe ปนกันหลายชนิด</b> (Peptostreptococcus, Prevotella, Bacteroides, Fusobacterium) ร่วมกับ microaerophilic streptococci · ตำแหน่งขึ้นกับแรงโน้มถ่วงขณะสำลัก: นอนหงาย → <b>posterior segment ของ upper lobe และ superior segment ของ lower lobe</b> · นั่ง/ยืน → basal segment ของ lower lobe · <b>ปอดขวาพบบ่อยกว่า</b>เพราะ right main bronchus กว้าง สั้น และตั้งชันกว่า · อาการดำเนินแบบกึ่งเฉียบพลัน ไข้ น้ำหนักลด ไอ<b>เสมหะเหม็นเน่า</b> (ลักษณะของ anaerobe) และไอเป็นเลือดพบได้บ่อย · CXR เห็นโพรงผนังหนามี air-fluid level · ไฟล์ขีด B ลายมือ <b>\"1st\" เหนือ superior lower lobe · \"2nd\" เหนือ posterior upper lobe · \"∵ ต่ำสุดตอนนอนหงาย\"</b> และแก้ช้อยอื่น (hematologic → airway, uncommon → common, Staphylococcus → anaerobe)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ใช้ยาเสพติดทางหลอดเลือดที่มี tricuspid endocarditis — ฝีหลายก้อนในปอดจาก septic emboli",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นฝีที่ยังไม่แตกเข้าหลอดลม (ยังไม่เห็นระดับลม–น้ำ) จึงยังไม่มีเสมหะหนองหรือเลือดออกมา",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นฝีในปอดที่ตามหลังไข้หวัดใหญ่ ซึ่ง S. aureus ทำให้เนื้อปอดตายเป็นโพรง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความทุกข้อเป็นจริงพร้อมกัน เพราะฝีจากการสำลักซึ่งพบบ่อยที่สุด มีเชื้อ anaerobe และเสมหะเหม็นเป็นลักษณะเด่น"
+   "A": "Hematogenous seeding เป็นกลไกของ <b>secondary abscess</b> ที่พบน้อยกว่า aspiration มาก — ไฟล์ขีดฆ่าแล้วเขียน \"airway\" · ลักษณะคือก้อนหลายก้อนรอบนอกปอดทั้งสองข้าง · จะถูกถ้าเป็นผู้ป่วยฉีดยาเสพติดเข้าเส้น มีไข้สูง tricuspid valve vegetation และ CT พบ cavitating nodule หลายก้อนที่ปลายปอดสองข้าง (septic emboli)",
+   "C": "กลับด้านความจริง — ไอเสมหะเหม็นเน่าเป็นลักษณะเด่นของการติดเชื้อ anaerobe และไอเป็นเลือดพบบ่อย (ไฟล์ขีด un ทิ้งให้เป็น common) · จะถูกถ้าเป็นผู้ป่วย <b>pneumatocele</b> หลังปอดอักเสบจาก Staphylococcus ในเด็ก ซึ่งเป็นโพรงอากาศผนังบางที่มักไม่มีเสมหะเหม็นหรือไอเลือด",
+   "D": "Staphylococcus aureus ทำให้เกิด abscess ได้ (โดยเฉพาะหลังไข้หวัดใหญ่ หรือจาก hematogenous spread) แต่ไม่ใช่เชื้อหลักของ lung abscess ทั่วไป ซึ่งเป็น anaerobe ปน (ไฟล์เขียน \"anaerobe\") · จะถูกถ้าเป็นเด็กหรือผู้ใหญ่ที่เป็นไข้หวัดใหญ่แล้วตามด้วยปอดอักเสบรุนแรง มีโพรงหลายจุดและ necrotizing pneumonia จาก MRSA ที่สร้าง PVL toxin",
+   "E": "ไม่ใช่ทุกข้อเพราะ A, C, D เป็นข้อความผิดทั้งหมด มีเพียง B ที่ถูก · จะถูกถ้าเป็นชุดข้อความเกี่ยวกับผู้ป่วยสำลักขณะเมาสุราแล้วเกิด abscess ที่ superior segment RLL โดยทุกข้อพูดถึง aspiration, anaerobe และเสมหะเหม็นอย่างถูกต้อง"
   },
-  "trap": "ตำแหน่งขึ้นกับท่าขณะสำลัก — นอนหงายไม่ได้ลงฐานปอด แต่ลง posterior segment ของกลีบบนและ superior segment ของกลีบล่าง",
+  "trap": "ช้อยแต่ละข้อถูกครึ่งหนึ่ง (Staphylococcus ทำ abscess ได้จริง hematogenous ก็เกิดได้จริง) จึงชวนเลือก E · ต้องจับคำ <b>common/usual</b> ซึ่งต้องเป็นกลไกหลักคือ aspiration และ anaerobe · ตำแหน่งให้คิดจากท่าสำลัก: นอนหงาย = ส่วนหลังของปอด",
   "summary": [
-   "<b>นอกสไลด์:</b> ตำแหน่งฝีจากการสำลัก: นอนหงาย → posterior segment ของกลีบบน, superior segment ของกลีบล่าง · ยืน/นั่ง → basal segments ของกลีบล่าง · ขวามากกว่าซ้าย",
-   "<b>นอกสไลด์:</b> เชื้อ: anaerobe ในช่องปาก (Peptostreptococcus, Prevotella, Fusobacterium) ร่วมกับ Streptococcus กลุ่ม anginosus · ฝีที่ไม่ได้มาจากสำลัก: S. aureus, Klebsiella"
+   "Primary lung abscess: aspiration ของเชื้อในช่องปาก ในผู้ที่ความรู้สึกตัวลด (สุรา ยาสลบ ชัก stroke) กลืนลำบาก ฟันผุ/เหงือกอักเสบ",
+   "เชื้อ: anaerobe ปน (Peptostreptococcus, Prevotella, Bacteroides, Fusobacterium) + microaerophilic streptococci · ผู้ไม่มีฟัน (edentulous) เกิด anaerobic abscess น้อย ถ้าพบให้หามะเร็งอุดหลอดลม",
+   "ตำแหน่ง: นอนหงาย → posterior segment RUL และ superior segment RLL · นั่ง/ยืน → basal segment lower lobe · ปอดขวา &gt; ซ้าย",
+   "Secondary abscess: หลอดลมอุดจากมะเร็ง/สิ่งแปลกปลอม, hematogenous (septic emboli จาก right-sided endocarditis), ต่อจาก necrotizing pneumonia (S. aureus, Klebsiella)",
+   "อาการ: ไข้ น้ำหนักลด ไอเสมหะเหม็นเน่าปริมาณมาก ไอเป็นเลือด · CXR โพรงผนังหนามี air-fluid level · CT แยก empyema (มุมป้านกับผนังอก, split pleura sign) จาก abscess (มุมแหลม)",
+   "ยา: ampicillin-sulbactam หรือ clindamycin นาน 3–8 สัปดาห์ จนภาพรังสีหายหรือเหลือรอยเล็กคงที่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด B พร้อมลายมือ \"∵ ต่ำสุดตอนนอนหงาย\" และไฟล์แก้ช้อยอื่นเป็น airway, common, anaerobe ซึ่งตรงกับความรู้ปัจจุบันทุกจุด",
+  "mnemonic": "<b>'สำลักนอนหงาย → \"หลังบน–บนล่าง ขวา\" · เชื้อ Anaerobe เสมหะเหม็น'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung: Lung abscess; Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
   "variants": [
-   "<b>นอกสไลด์:</b> วัยรุ่นเจ็บคอ 1 สัปดาห์ ต่อมาคอบวมข้างหนึ่ง ไข้สูง ปอดมีฝีหลายก้อน → Lemierre syndrome (Fusobacterium necrophorum + หลอดเลือดดำ internal jugular อักเสบมีลิ่มเลือด)",
-   "<b>นอกสไลด์:</b> ผู้ป่วยติดสุรา ไอเสมหะเลือดปนสีแดงคล้ำเหนียว ปอดกลีบบนขวาบวมจนรอยแยกโป่งและมีโพรง → Klebsiella pneumoniae"
+   "ชายเมาสุราหมดสติข้างถนน 2 สัปดาห์ต่อมามีไข้ ไอเสมหะเหม็น CXR โพรงที่ superior segment RLL → aspiration lung abscess ให้ ampicillin-sulbactam",
+   "ผู้ป่วยไม่มีฟันทั้งปาก อายุ 68 ปี สูบบุหรี่ มี lung abscess → bronchoscopy หามะเร็งอุดหลอดลม",
+   "ทำไมสำลักแล้วลงปอดขวาบ่อยกว่า → right main bronchus กว้าง สั้น และทำมุมชันกับ trachea มากกว่าซ้าย",
+   "ผู้ป่วยสำลักขณะยืนหรือนั่ง (เช่นกินอาหารแล้วสำลักขณะนั่ง) → abscess ที่ basal segment ของ lower lobe"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 — ตัวพิมพ์: <b>30. What is true about lung abscess — A. Hematologic seeding is a common mechanism B. Posterior upper lobe and superior lower lobe of right lung are the most common site C. Hemoptysis and foul smell sputum are uncommon D. Staphylococcus is a common pathogen E. All of the above</b><br>ลายมือ: เขียน \"(ตำราศัลย์ฯ)\" เหนือข้อ · ขีด B · ช้อย A ขีดฆ่า \"Hematologic seeding\" เขียน \"airway\" · ช้อย B เขียน \"2nd\" เหนือ Posterior upper lobe และ \"1st\" เหนือ superior lower lobe · \"∵ ต่ำสุดตอนนอนหงาย\" · ช้อย C กากบาท \"un\" ของ uncommon · ช้อย D ขีดฆ่า \"Staphylococcus\" เขียน \"anaerobe\"<br>ไฮไลต์: \"true about lung abscess\" · \"Posterior upper lobe\" · \"superior lower lobe of right lung\" · \"most common site\" (เหลือง) · ช้อย A, C, D (ส้ม)<br>ที่ปรับในเว็บ: ย่อช้อยเป็นภาษาอังกฤษสั้น (B = dependent right lung segments) · ไฟล์ใช้ \"Hematologic\" เว็บใช้ hematogenous",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_30"
   ]
  },
  "MDCU66|RoD|31": {
-  "interp": "ข้อ NOT — ถามสิ่งที่ \"ไม่ใช่\" ภาวะแทรกซ้อนของอัณฑะค้างที่ไม่ได้ทำ orchiopexy",
-  "why": "<b>คีย์: ขีด orchitis</b><br><b>นอกสไลด์:</b> orchitis เกิดจากการติดเชื้อ (mumps, STI, ทางเดินปัสสาวะลามมา) ไม่เกี่ยวกับตำแหน่งของอัณฑะ · ช้อยอื่นเป็นผลโดยตรงของอัณฑะที่ค้าง",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>ภาวะแทรกซ้อนของ <b>undescended testis ที่ไม่ได้ทำ orchiopexy</b> — ต้องรู้ผลระยะยาวของอัณฑะที่ค้างอยู่นอกถุงอัณฑะ (อุณหภูมิสูง ตำแหน่งผิด มี patent processus vaginalis) แล้วหาช้อยที่ไม่ได้เกิดจากกลไกเหล่านี้",
+  "why": "อัณฑะที่ค้างใน inguinal canal หรือช่องท้องอยู่ในอุณหภูมิ core สูงกว่าถุงอัณฑะ 2–4 °C → germ cell เสื่อมตั้งแต่อายุ 6–12 เดือน จึงแนะนำ <b>orchiopexy ที่อายุ 6–18 เดือน</b> · ถ้าไม่ผ่าตัดเกิด: <b>infertility</b> (ข้างเดียวอัตราการมีบุตรลดเล็กน้อย สองข้างลดมาก) · <b>malignancy</b> (germ cell tumor เสี่ยงสูงขึ้นราว 2–8 เท่า ส่วนใหญ่ seminoma; ผ่าตัดก่อนวัยรุ่นลดความเสี่ยงและทำให้คลำตรวจได้) · <b>inguinal hernia</b> จาก patent processus vaginalis (พบร่วมเกือบทุกราย) · <b>torsion</b> เพราะการยึดตรึงผิดปกติ · <b>trauma</b> เพราะถูกกดกับ pubic tubercle · <b>ด้านจิตใจ/ความสวยงาม</b> ถุงอัณฑะว่าง · ส่วน <b>orchitis</b> เป็นการอักเสบติดเชื้อ (mumps, จาก epididymitis) ไม่ได้เพิ่มขึ้นจากตำแหน่งที่ค้าง · ไฟล์ขีด <b>orchitis</b> เขียน <b>\"not\"</b> หน้าข้อ และเติมลายมือ \"cosmetic\" \"trauma\" ในรายการ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ไส้เลื่อนเป็นภาวะแทรกซ้อนของอัณฑะค้าง\" ผิด เพราะ processus vaginalis ไม่ปิดเกือบทุกราย จึงเป็น indirect inguinal hernia ได้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"มีบุตรยากเป็นภาวะแทรกซ้อน\" ผิด เพราะอุณหภูมิในขาหนีบหรือช่องท้องที่สูงกว่าถุงอัณฑะทำลาย germ cell ตั้งแต่ขวบปีแรก",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"torsion เป็นภาวะแทรกซ้อน\" ผิด เพราะอัณฑะที่ค้างยึดตัวผิดปกติจึงบิดได้ง่ายกว่าอัณฑะในถุง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"มะเร็งเป็นภาวะแทรกซ้อน\" ผิด เพราะความเสี่ยง germ cell tumor (seminoma มากที่สุด) สูงขึ้นหลายเท่า โดยเฉพาะอัณฑะที่ค้างในช่องท้อง"
+   "B": "ข้อความถูก: inguinal hernia พบร่วมกับ undescended testis เกือบทุกรายเพราะ processus vaginalis ไม่ปิด และต้องผูก hernia sac ไประหว่าง orchiopexy · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็กชาย 1 ปีที่คลำอัณฑะซ้ายได้ใน inguinal canal และมีก้อนตุงขาหนีบเวลาร้อง",
+   "C": "ข้อความถูก: infertility เกิดจาก germ cell เสื่อมจากอุณหภูมิสูง โดยเฉพาะเมื่อเป็นสองข้างหรือผ่าตัดช้า · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 28 ปีที่มีประวัติอัณฑะไม่ลงสองข้างและผ่าตัดตอนอายุ 10 ปี ตรวจน้ำอสุจิพบ oligospermia",
+   "D": "ข้อความถูก: torsion เกิดง่ายในอัณฑะที่ค้างเพราะยึดตรึงผิดปกติ มาด้วยก้อนที่ขาหนีบเจ็บและแดง · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเด็กชายที่ถุงอัณฑะขวาว่าง แล้วมีก้อนเจ็บมากที่ขาหนีบขวาทันที ร่วมกับอาเจียน",
+   "E": "ข้อความถูก: germ cell tumor (ส่วนใหญ่ seminoma) เสี่ยงสูงขึ้น และอัณฑะในช่องท้องเสี่ยงสูงกว่าใน inguinal canal · orchiopexy ก่อนวัยรุ่นช่วยลดความเสี่ยงและทำให้ตรวจคลำเองได้ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชาย 30 ปีที่มีอัณฑะในช่องท้องไม่เคยผ่าตัดแล้วพบก้อนในอุ้งเชิงกราน AFP ปกติ beta-hCG สูงเล็กน้อย"
   },
-  "trap": "torsion ของอัณฑะที่ค้างมาด้วยปวดและก้อนบวมที่ขาหนีบ (ไม่ใช่ที่ถุง) — เด็กปวดขาหนีบต้องคลำถุงอัณฑะทุกครั้ง ถุงว่างข้างนั้นคือเบาะแส",
+  "trap": "ทุกช้อยฟังดูเป็นโรคของอัณฑะจึงสับสน · ให้ไล่จากกลไก 3 ข้อ: <b>อุณหภูมิสูง</b> (infertility, cancer) · <b>ตำแหน่งผิด/ยึดไม่ดี</b> (torsion, trauma, cosmetic) · <b>processus vaginalis เปิด</b> (hernia) — orchitis เป็นการติดเชื้อที่ไม่อยู่ในกลไกใด",
   "summary": [
-   "<b>นอกสไลด์:</b> ภาวะแทรกซ้อนของอัณฑะค้าง: มีบุตรยาก (สองข้างมากกว่าข้างเดียว) · มะเร็ง · torsion · ไส้เลื่อนขาหนีบ · บาดเจ็บ (อัณฑะในขาหนีบถูกกระแทกกับกระดูกหัวหน่าว) · ผลทางจิตใจ"
+   "Undescended testis (cryptorchidism) พบ ~3% ของทารกครบกำหนด ~30% ของทารกคลอดก่อนกำหนด · ส่วนใหญ่ลงเองใน 3–6 เดือนแรก หลังนั้นลงเองน้อยมาก",
+   "ต้องแยก <b>retractile testis</b> (ดึงลงถุงได้และค้างอยู่ได้ จาก cremasteric reflex แรง) ซึ่งไม่ต้องผ่าตัดแต่ติดตามเพราะอาจกลายเป็น ascending testis",
+   "Timing: orchiopexy อายุ 6–18 เดือน (AUA/EAU) · ไม่แนะนำ ultrasound ก่อนส่งต่อเพราะไม่เปลี่ยนการรักษา",
+   "คลำได้ → inguinal orchiopexy (dartos pouch) · คลำไม่ได้ → diagnostic laparoscopy ± Fowler–Stephens (ตัด testicular vessels เป็นขั้น)",
+   "ภาวะแทรกซ้อนถ้าไม่ผ่าตัด: infertility, malignancy, inguinal hernia, torsion, trauma, cosmetic/จิตใจ",
+   "คลำไม่ได้ทั้งสองข้างร่วมกับ hypospadias → ต้องประเมิน disorder of sex development (karyotype) ก่อน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด orchitis และเขียน \"not\" หน้าข้อ · สไลด์ที่แปะระบุภาวะแทรกซ้อน 6 ข้อ (inguinal hernia, torsion, trauma, infertility, malignancy, cosmetic) ไม่มี orchitis",
+  "mnemonic": "<b>'UDT ไม่ผ่า → \"HIT-CT\": Hernia · Infertility · Torsion · Cancer · Trauma (+ cosmetic) · ไม่มี orchitis'</b>",
+  "guide": "Kolon TF, et al. Evaluation and Treatment of Cryptorchidism: AUA Guideline (J Urol 2014;192:337; amended 2018); EAU Guidelines on Paediatric Urology (2024) — Undescended testes",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 28 ปี ไม่เคยผ่าตัดอัณฑะค้างสองข้าง แต่งงาน 2 ปีไม่มีบุตร น้ำอสุจิไม่พบตัวอสุจิ → azoospermia จากอัณฑะค้างสองข้าง",
-   "<b>นอกสไลด์:</b> เด็กชาย 10 ปี อัณฑะบวมเจ็บ มีไข้ หลังต่อมน้ำลายหน้าหูบวม 5 วัน → mumps orchitis: รักษาประคับประคอง"
+   "เด็กชาย 8 เดือน ถุงอัณฑะซ้ายว่าง คลำได้อัณฑะที่ external ring ดึงลงแล้วเด้งกลับ → inguinal orchiopexy ช่วงอายุ 6–18 เดือน",
+   "เด็กชาย 1 ปี คลำอัณฑะขวาไม่ได้เลย → diagnostic laparoscopy (ไม่ต้องทำ ultrasound ก่อน)",
+   "เด็กชาย 5 ปี อัณฑะลงถุงตอนอาบน้ำอุ่นหรือนอน แต่ขึ้นไปตอนตกใจ ดึงลงแล้วค้างได้ → retractile testis ติดตามปีละครั้ง",
+   "ทารกคลอดครบกำหนด คลำอัณฑะไม่ได้ทั้งสองข้างร่วมกับ hypospadias รุนแรง → ตรวจ karyotype และฮอร์โมนแยก DSD (เช่น CAH ในเพศพันธุกรรมหญิง)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154–155 — ตัวพิมพ์: <b>31. Complication จาก undescended testis แล้วไม่ได้ทำ orchidopexy - hernia</b> (หน้า 154) <b>- infertile - torsion testis, - cancer - orchitis</b> (หน้า 155)<br>ลายมือ: เขียน \"not\" สีแดงหน้า Complication · ขีด orchitis · เติมบรรทัด \"- cosmetic\" (ลายมือแดง) และ \"trauma\" ต่อท้าย torsion testis<br>ไฮไลต์: \"Complication จาก undescended testis แล้วไม่ได้ทำ orchidopexy\" · hernia · cosmetic · infertile · torsion testis, trauma · cancer (เหลือง) · orchitis (ส้ม)<br>รูปที่แปะ: ภาพถ่ายถุงอัณฑะว่างข้างหนึ่ง (วงแดง) และสไลด์ <b>\"Undescended testis — Timing of surgery: 6–18 months of age · Operation: Orchidopexy · If surgery hasn't been performed, what would happen? 1. Inguinal hernia (due to patent processus vaginalis) 2. Torsion testis 3. Trauma 4. Infertility 5. Malignancy 6. Cosmetic\"</b> พร้อมลายมือตัวเล็ก (DDx retractile testis, Sx @ 0.5–1.5 yo, palpable: inguinal approach / non-palpable: laparoscopic, ลายมือข้าง infertility \"sperm สร้างที่ temp. &lt; core temp\", trauma \"@ pubic tubercle\")<br>ที่ปรับในเว็บ: ไฟล์เป็นรายการไม่มีตัวอักษรช้อย → จัดเป็น 5 ข้อ (orchitis, hernia, infertility, torsion, cancer) และเปลี่ยนเป็นคำถามแบบ NOT ตามลายมือ \"not\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_31"
   ]
  },
  "MDCU66|RoD|32": {
-  "interp": "ประวัติเข้าได้กับ chronic anal fissure (เป็นนานกว่า 6–8 สัปดาห์ มีติ่งเนื้อเฝ้า/เห็นใยหูรูด) · ถาม \"best treatment\" (โจทย์คล้าย RoA 3)",
-  "why": "<b>ไฮไลต์: LIS · ลายมือ: NTG ใช้ใน acute anal fissure</b><br><b>นอกสไลด์:</b> chronic fissure หายช้าเพราะหูรูดภายในหดเกร็งจนเลือดไปเลี้ยงแผลน้อย → ตัดหูรูดภายในด้านข้าง (LIS) ลดความดันถาวร หายสูงสุดและเป็นซ้ำน้อยสุด",
+  "interp": "ประวัติเข้าได้กับ <b>chronic anal fissure</b> — ถามการรักษาที่ดีที่สุด ต้องรู้ว่า chronic fissure เกิดจาก internal sphincter หดเกร็งจนขาดเลือด และวิธีที่ลด resting pressure ได้ผลถาวรที่สุดคืออะไร",
+  "why": "Anal fissure คือรอยแตกของ anoderm ใต้ dentate line ส่วนใหญ่ที่ <b>posterior midline</b> (ผนังส่วนนี้เลือดเลี้ยงน้อย) · ปวดมากขณะถ่ายและหลังถ่ายนานเป็นชั่วโมง มีเลือดสดเล็กน้อย · <b>chronic</b> เมื่อนาน &gt; 6–8 สัปดาห์ หรือเห็น sentinel pile, hypertrophied anal papilla, เห็นใย internal sphincter ที่ฐานแผล · กลไกหลักคือ <b>internal anal sphincter hypertonia → resting pressure สูง → anoderm ขาดเลือด</b> แผลจึงไม่หาย · ลำดับรักษา: ใยอาหาร แช่น้ำอุ่น → chemical sphincterotomy (NTG 0.2–0.4% หายราว 50% ปวดศีรษะบ่อย, diltiazem 2% ผลใกล้เคียงแต่ข้างเคียงน้อยกว่า, botulinum toxin) → <b>lateral internal sphincterotomy (LIS)</b> ซึ่งหายได้ &gt; 90–95% และเป็น <b>gold standard</b> ของ chronic fissure ที่ไม่ตอบสนองต่อยา โดยแลกกับความเสี่ยงกลั้นลม/อุจจาระไม่อยู่เล็กน้อย · ไฟล์ไฮไลต์ LIS เขียน <b>\"(LIS)\"</b> ลายมือที่ NTG ว่า <b>\"ใช้ใน acute anal fissure ด้วย\" \"หาย 40%\"</b> และสไลด์ที่แปะเขียน \"ตอบ Gold standard คือ Lateral internal sphincterotomy (LIS)\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผลเพิ่งเป็นไม่กี่สัปดาห์ ขอบบาง ไม่มีติ่งเนื้อเฝ้า (acute fissure) และใยอาหารอย่างเดียวยังไม่หาย",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่แช่น้ำอุ่นอย่างเดียวเป็นการรักษาที่ดีที่สุดของ anal fissure เพราะต้องแก้อุจจาระแข็งด้วยใยอาหารและน้ำร่วมด้วยเสมอ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย chronic fissure ที่ความดันหูรูดสูงต้องการเลี่ยงการตัดหูรูด → ขยายด้วยบอลลูนแบบควบคุมขนาด (ไม่ใช่ใช้นิ้วถ่าง)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นริดสีดวงภายในยื่นค้างมีลิ่มเลือดหรือเนื้อตาย โดยไม่มีแผลปริที่ทวาร"
+   "B": "ยาระบายร่วมกับ NTG ointment (chemical sphincterotomy) เป็นการรักษาขั้นแรกที่ควรลองก่อนผ่าตัด แต่หายเพียงราวครึ่งหนึ่ง กลับเป็นซ้ำบ่อย และปวดศีรษะจนหยุดยา ไม่ใช่วิธีที่ดีที่สุดของ chronic fissure · จะถูกถ้าเป็นหญิง 25 ปี ปวดแสบทวารขณะถ่ายมา 2 สัปดาห์หลังท้องผูก แผลขอบเรียบไม่มี sentinel pile (acute fissure)",
+   "C": "แช่น้ำอุ่นช่วยคลาย sphincter และลดปวดชั่วคราว แต่ใช้อย่างเดียวไม่ทำให้ chronic fissure หาย · จะถูกถ้าเป็นทารก 6 เดือนที่ถ่ายแข็งแล้วร้องและมีเลือดติดอุจจาระเล็กน้อย พบรอยแตกตื้นที่ posterior midline (รักษาด้วยปรับอาหาร แช่น้ำอุ่น ยาระบาย)",
+   "D": "Anal dilatation (stretch) ยืด sphincter แบบควบคุมไม่ได้ ทำให้ sphincter ฉีกไม่เป็นระเบียบและกลั้นอุจจาระไม่อยู่สูงกว่า LIS จึงเลิกใช้ในแนวทางปัจจุบัน · จะถูกถ้าเป็นผู้ป่วยหลัง hemorrhoidectomy ที่มี anal stenosis เล็กน้อยและต้องการขยายด้วย dilator ขนาดเพิ่มทีละขั้นภายใต้การดูแล",
+   "E": "Hemorrhoidectomy รักษาริดสีดวง ไม่ลด internal sphincter tone และตัด anoderm เพิ่มทำให้แผลแย่ลง · จะถูกถ้าเป็นชาย 50 ปี ก้อนยื่นจากทวารต้องดันกลับเองทุกครั้ง ถ่ายเลือดสดไม่เจ็บ (grade III internal hemorrhoid) ไม่มีแผลแตก"
   },
-  "trap": "การถ่างทวารด้วยนิ้วแบบเดิม (Lord) เลิกใช้แล้ว เพราะหูรูดฉีกแบบควบคุมไม่ได้และกลั้นไม่อยู่มากกว่า LIS — ต่างจากการขยายด้วยบอลลูนที่ควบคุมขนาด",
+  "trap": "NTG + laxative เป็นสิ่งที่ทำ<b>ก่อน</b>ในทางปฏิบัติ จึงชวนเลือก · แต่คำถามคือ \"การรักษาที่ดีที่สุด\" ของ <b>chronic</b> fissure ซึ่งวัดจากอัตราหาย LIS ดีที่สุด (&gt; 90%) · และอย่าสับสนกับ anal dilatation ที่เลิกใช้เพราะ incontinence",
   "summary": [
-   "<b>นอกสไลด์:</b> LIS: ตัด internal sphincter ด้านข้าง (เลี่ยงแนวกลางด้านหลังที่ทำให้แผลเป็นร่อง) ความสูงเท่าความยาวแผลหรือไม่เกิน dentate line · ภาวะแทรกซ้อนหลักคือกลั้นลมหรืออุจจาระเหลวไม่อยู่"
+   "Anal fissure: ~90% posterior midline · ~10% anterior (หญิงหลังคลอดบ่อยกว่า) · ตำแหน่งนอก midline หรือหลายแผล → คิดถึง Crohn, TB, HIV, syphilis, มะเร็ง",
+   "Chronic เมื่อ &gt; 6–8 สัปดาห์ หรือมี triad: sentinel pile (ด้านนอก) + hypertrophied anal papilla (ด้านใน) + เห็นใย internal sphincter",
+   "พยาธิกลไก: internal sphincter hypertonia → resting pressure สูง → posterior anoderm ขาดเลือด → แผลไม่หาย",
+   "ขั้นแรก: ใยอาหาร 25–35 g ยาระบาย แช่น้ำอุ่น ยาชาทา · acute fissure หายด้วยวิธีนี้ราว 50% หรือมากกว่า",
+   "Chemical sphincterotomy: NTG 0.2–0.4% (ปวดศีรษะ ~20–30%) · diltiazem 2% หรือ nifedipine (ข้างเคียงน้อยกว่า) · botulinum toxin ฉีด internal sphincter",
+   "LIS: ตัด internal sphincter ด้านข้างยาวเท่าความยาวแผลหรือถึง dentate line · หาย &gt; 90–95% · เสี่ยงกลั้นลม/อุจจาระไม่อยู่เล็กน้อย · ระวังในหญิงหลังคลอดหรือ sphincter อ่อนแรงเดิม (พิจารณา anal advancement flap)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง (แนวทางให้ลองยาคลายหูรูดก่อนได้ แต่ \"best treatment\" คือ LIS)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ไฮไลต์ LIS และสไลด์ที่แปะเขียน \"ตอบ Gold standard คือ Lateral internal sphincterotomy (LIS)\" · ลายมือที่ NTG (\"ใช้ใน acute anal fissure ด้วย\" \"หาย 40%\") ยืนยันว่ายาทาเป็นขั้นต้นไม่ใช่วิธีที่ดีที่สุด",
+  "mnemonic": "<b>'Chronic fissure = Spasm → Ischemia · Gold = LIS (ยา NTG/CCB/Botox ลองก่อน)'</b>",
+  "guide": "Stewart DB Sr, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Anal Fissures. Dis Colon Rectum 2023;66:190–199; Sabiston Textbook of Surgery 21st ed. (2022) — Anus",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลปริที่ด้านข้างทวาร หลายแผล ไม่ค่อยเจ็บ ร่วมท้องเสียเรื้อรัง → หา Crohn (หรือ TB, HIV, syphilis, มะเร็ง) ด้วยการส่องกล้องและตัดชิ้นเนื้อ ไม่ทำ LIS",
-   "<b>นอกสไลด์:</b> หญิงหลังคลอดมี chronic fissure และ endoanal US พบหูรูดเคยฉีก → เลี่ยง LIS ใช้ botulinum toxin หรือ advancement flap"
+   "หญิง 30 ปี ปวดมากหลังถ่าย 3 เดือน แผล posterior midline มี sentinel pile ใช้ NTG 8 สัปดาห์ไม่หาย → lateral internal sphincterotomy",
+   "ผู้ป่วย fissure ใช้ NTG แล้วปวดศีรษะมากทนไม่ได้ → เปลี่ยนเป็น topical diltiazem 2% หรือ nifedipine",
+   "ชาย 25 ปี แผลที่ขอบทวารด้านข้างหลายแผล ร่วมกับท้องเสียเรื้อรังน้ำหนักลด → สงสัย Crohn disease ส่องกล้องและตัดชิ้นเนื้อ (ไม่ทำ LIS)",
+   "หญิงหลังคลอดหลายครั้ง มี chronic fissure และ sphincter อ่อนแรงจาก endoanal ultrasound → botulinum toxin หรือ anal advancement flap แทน LIS"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>32. ให้ประวัติ เหมือนเป็น chronic anal fissure ถามการรักษาที่ดีที่สุด - laxative + NTG ointment - Lateral internal sphincterotomy</b><br>ลายมือ: เขียน \"(LIS)\" ต่อท้าย Lateral internal sphincterotomy · เหนือ laxative + NTG เขียน \"ใช้ใน acute anal fissure ด้วย\" และ \"หาย 40%\" ต่อท้าย<br>ไฮไลต์: \"chronic anal fissure\" · \"การรักษาที่ดีที่สุด\" · \"Lateral internal sphincterotomy\" (เหลือง)<br>รูปที่แปะ: (1) ภาพถ่ายสไลด์ <b>\"Treatment — Acute fissure · Conservative treatment · Break cycle of hard stool · Cream, ointment, suppositories · Nitroglycerine\"</b> ลายมือ \"main: lifestyle mod.: เพิ่มน้ำ, fiber, exercise\" · \"Stool softener: MOM\" · \"ointment! oral\" · \"for sphincter spasm\" · \"1. ทำให้เจ็บ ↓ → แช่ก้น, ยาแก้ปวด 2. แก้อึแข็ง → fiber, น้ำ, exercise\" (2) ภาพถ่ายสไลด์ <b>\"Ischemic and high anal resting pressure play an important role in the cause of CAF · Chronic anal fissure — Indication for surgery: presence of persistent pain and bleeding, lack of response to medical treatment · Aim: ↓ spasm ↑ anodermal blood flow\"</b> กล่องดำ \"NTG ointment / Calcium channels blockers → Botulinum toxin → LIS Lateral internal sphincterotomy\" ลายมือ \"Gold Standard Tx: lateral internal sphincterotomy → ลด spasm → แก้ ischemia (Complication = incontinence 10% เพราะตัดผิดไป)\" · \"1st line = lifestyle modification\" · \"1. life-style mod. 2. Medical sphincterotomy — ยาทา: nitroglycerine/nifedipine ointment ทาต่อเนื่อง 8 wk หาย 40% · ยาฉีด: botox injection ฤทธิ์ ~3 mo ฉีด 2–3 ครั้ง หาย 60–70% 3. Lateral internal sphincterotomy (LIS) หาย 100% แต่ incontinence 10% (irreversible)\" · \"เริ่มจาก medical ก่อน ค่อย Lateral int. sphinc.\" · \"ตอบ Gold standard คือ Lateral internal sphincterotomy (LIS)\" ✓<br>ที่ปรับในเว็บ: ไฟล์มีช้อย 2 ข้อ → เติม C (warm sitz bath alone), D (anal dilatation), E (hemorrhoidectomy) · แปลโจทย์เป็นอังกฤษ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_32"
   ]
  },
  "MDCU66|RoD|33": {
-  "interp": "แผลฉีกขาดกลางแก้มซ้าย (ภาพตามที่บันทึกไว้) · ถามโครงสร้างที่อาจบาดเจ็บ (โจทย์เดียวกับ RoD 25)",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> กลางแก้มคือแนวทางเดินของท่อน้ำลาย parotid (Stensen duct) ซึ่งวิ่งบนกล้ามเนื้อ masseter ก่อนเจาะ buccinator ไปเปิดในกระพุ้งแก้ม",
+  "interp": "ภาพแผลฉีกขาดที่<b>กลางแก้มซ้าย</b> — ถามโครงสร้างที่อาจบาดเจ็บ ต้องรู้กายวิภาคพื้นผิวของแก้ม: แนวทางเดินของ parotid (Stensen) duct และแขนงของ facial nerve ที่วิ่งผ่านบริเวณนี้ เทียบกับโครงสร้างที่อยู่ตำแหน่งอื่นของใบหน้า",
+  "why": "<b>Stensen (parotid) duct</b> ยาวราว 5–7 cm ออกจากขอบหน้าของ parotid gland วิ่งตาม<b>กึ่งกลางของเส้นจาก tragus ไปจุดกึ่งกลางริมฝีปากบน</b> ข้ามผิวด้านนอกของ masseter แล้วหักลึกทะลุ buccinator ไปเปิดในปากตรงข้าม<b>ฟันกรามบนซี่ที่ 2</b> · แขนง <b>buccal ของ facial nerve</b> วิ่งคู่ไปกับ duct จึงมักบาดเจ็บร่วมกัน (ตรวจยิ้ม ยกริมฝีปากบน) · การตรวจ duct: ใส่สาย (lacrimal probe/angiocath) เข้าทาง papilla ในปากแล้วฉีด saline หรือ methylene blue ดูว่ารั่วออกที่แผลหรือไม่ · ถ้าขาด → ต่อปลายชนปลาย (microsurgical repair) บนสาย stent คาไว้ราว 2 สัปดาห์ · ถ้าไม่ซ่อมจะเกิด sialocele หรือ salivary fistula · ไฟล์ขีด A <b>Stensen's duct</b> และเขียน <b>\"ซ้ำ\"</b> ที่เลขข้อ (ข้อเดียวกับอีกชุดที่ลายมือเขียน \"parotid duct\" และ \"buccal br.\")",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผลลึกที่ขมับหรือเหนือโหนกแก้มบนแนวจากติ่งหูไปเหนือหางคิ้ว — ยักคิ้วข้างนั้นไม่ขึ้น",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่ใต้มุมปากใกล้ขอบล่างของขากรรไกรล่าง — ริมฝีปากล่างข้างนั้นดึงลงไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ากระดูกโหนกแก้ม (zygoma) หักหรือแผลอยู่ใต้ขอบเบ้าตาล่าง — ชาแก้ม ปีกจมูก ริมฝีปากบน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่ที่หว่างคิ้วเหนือสันจมูก"
+   "B": "Frontal (temporal) branch วิ่งข้าม <b>zygomatic arch</b> ตามแนว Pitanguy line (จาก 0.5 cm ใต้ tragus ไป 1.5 cm เหนือหางคิ้ว) อยู่สูงกว่ากลางแก้ม · บาดเจ็บแล้วยักคิ้วไม่ได้ หน้าผากข้างนั้นเรียบ · จะถูกถ้าเป็นชาย 30 ปี มีแผลฉีกเหนือ zygomatic arch ด้านข้างขมับ แล้วยักคิ้วข้างนั้นไม่ขึ้น",
+   "C": "Marginal mandibular branch วิ่งตาม<b>ขอบล่างของ mandible</b> ด้านหน้า facial artery ไม่ผ่านกลางแก้ม · บาดเจ็บแล้วมุมปากข้างนั้นดึงลงไม่ได้ ยิ้มเบี้ยว (เป็นจุดที่ต้องระวังในผ่าตัด submandibular gland) · จะถูกถ้าเป็นผู้ป่วยแผลฉีกตามขอบกรามล่างหน้าต่อมุมกราม แล้วเวลายิงฟันริมฝีปากล่างข้างนั้นไม่ลง",
+   "D": "Infraorbital nerve (V2) ออกจาก infraorbital foramen ใต้ขอบล่างของเบ้าตาราว 1 cm เป็นเส้นประสาทรับความรู้สึก บาดเจ็บจาก orbital floor หรือ zygomaticomaxillary complex fracture มากกว่าแผลฉีกกลางแก้ม · จะถูกถ้าเป็นผู้ป่วยถูกชกโหนกแก้ม ชาที่แก้ม ริมฝีปากบนและปีกจมูก CT พบ ZMC fracture",
+   "E": "Procerus เป็นกล้ามเนื้อเล็กที่ <b>glabella</b> ระหว่างคิ้วเหนือสันจมูก ดึงหัวคิ้วลงทำให้เกิดรอยย่นแนวนอนที่โคนจมูก ไม่อยู่ที่แก้ม (เป็นเป้าฉีด botulinum toxin ร่วมกับ corrugator) · จะถูกถ้าเป็นผู้ป่วยมีแผลฉีกแนวนอนระหว่างคิ้วเหนือสันจมูกจากกระจกบาด"
   },
-  "trap": "แผลแก้มที่ไม่ได้ซ่อมท่อจะเริ่มมีปัญหาหลังเย็บไปแล้วหลายวัน (ก้อนน้ำลายคั่ง) — ถ้าสงสัยต้องตรวจท่อตั้งแต่ตอนเย็บ",
+  "trap": "เห็นคำว่า laceration ที่ใบหน้าแล้วนึกถึง facial nerve อย่างเดียวจึงเลือกแขนงที่คุ้นชื่อ · ต้องใช้ตำแหน่ง: <b>กลางแก้ม = duct + buccal branch</b> · frontal = เหนือ zygoma · marginal mandibular = ขอบกราม · แผลที่แก้มลึกต้องตรวจ duct และการขยับหน้าทุกครั้งก่อนเย็บ",
   "summary": [
-   "<b>นอกสไลด์:</b> ซ่อมท่อ parotid ตามตำแหน่ง: ในเนื้อต่อม → เย็บแคปซูลต่อม + พันกดทับ ไม่ต้องต่อท่อ · บน masseter → ต่อท่อปลายชนปลายโดยใส่ stent · หน้าต่อ masseter → ต่อท่อหรือเปิดท่อเข้ากระพุ้งแก้มใหม่"
+   "Parotid duct: แนวกลางของเส้น tragus → กึ่งกลางริมฝีปากบน · ข้าม masseter · ทะลุ buccinator · เปิดตรงฟันกรามบนซี่ที่ 2",
+   "Facial nerve 5 แขนง: temporal (frontal), zygomatic, buccal, marginal mandibular, cervical · แขนงที่<b>อยู่หน้าต่อแนวดิ่งจาก lateral canthus</b> มีแขนงไขว้มากและฟื้นเองได้ ไม่จำเป็นต้องต่อ",
+   "แผลแก้มลึก: ตรวจ duct ด้วยการใส่สายทาง papilla + ฉีด saline/methylene blue · ตรวจกล้ามเนื้อใบหน้าทุกกลุ่มก่อนให้ยาชา",
+   "Duct ขาด → ต่อปลายชนปลายบน stent · ถ้าไม่ซ่อม: sialocele/salivary fistula (รักษาด้วยเจาะดูด ผ้ากด ยาลดน้ำลาย หรือ botulinum toxin เข้าต่อม)",
+   "Facial nerve ที่ขาดหลังแนว lateral canthus ควรต่อภายใน 72 ชม. (ยังใช้ nerve stimulator หาปลายส่วนปลายได้) ด้วย microsurgery",
+   "Frontal branch: Pitanguy line · อยู่ตื้นบน zygomatic arch ใต้ SMAS/temporoparietal fascia · บาดเจ็บแล้วคิ้วตก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด A · กลางแก้มเป็นแนวทางเดินของ Stensen duct และ buccal branch ส่วนช้อยอื่นอยู่คนละตำแหน่งของใบหน้า ช้อย E ในไฟล์สะกด \"Proceneus\" ซึ่งคือ procerus",
+  "mnemonic": "<b>'Tragus → กลางริมฝีปากบน: กลางเส้น = Stensen duct (คู่ buccal branch)'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) Vol.3 — Facial soft-tissue injuries; Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial soft tissue trauma",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังเย็บแผลกลางแก้ม 2 สัปดาห์ มีก้อนนุ่มบวมที่แก้ม เจาะได้น้ำใส amylase สูง → sialocele: เจาะดูด + พันกดทับ ± botulinum toxin เข้าต่อม",
-   "<b>นอกสไลด์:</b> หลังเย็บแผลแก้ม มีน้ำใสไหลออกทางผิวหนังทุกครั้งที่กินอาหาร → salivary fistula: ซ่อมท่อหรือเปิดท่อเข้ากระพุ้งแก้ม"
+   "ชาย 25 ปี ถูกมีดฟันกลางแก้ม มีน้ำใสไหลจากแผลเวลาเคี้ยว → ใส่สายทาง papilla ฉีด methylene blue พบรั่ว → ต่อ parotid duct บน stent",
+   "ผู้ป่วยหลังเย็บแผลแก้ม 2 สัปดาห์ มีก้อนนิ่มบวมขึ้นเวลากินอาหาร → sialocele เจาะดูดและพันกด",
+   "ผู้ป่วยแผลฉีกหน้าหูลึก ยิ้มแล้วริมฝีปากบนข้างนั้นไม่ยก แผลอยู่หลังแนว lateral canthus → สำรวจและต่อ buccal branch ภายใน 72 ชม.",
+   "ทำไมแผลที่ใกล้จมูกซึ่งอยู่หน้าแนว lateral canthus ไม่ต้องต่อเส้นประสาท → แขนงส่วนปลายมีการไขว้เชื่อมกันมาก จึงฟื้นตัวเองได้"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>33. สิ่งใดต่อไปนี้จะได้รับบาดเจ็บหากมี laceration wound ที่บริเวณดังภาพ (ภาพแผลฉีกที่กลางๆแก้มข้างซ้าย) — A. Stensen's duct B. Frontal branch of facial nerve C. Marginal branch of facial nerve D. Infraorbital nerve E. Proceneus muscle??</b><br>ลายมือ: เขียน \"ซ้ำ\" สีแดงทับเลขข้อ · ขีด A<br>ไฮไลต์: \"ได้รับบาดเจ็บหากมี laceration wound ที่บริเวณดังภาพ (ภาพแผลฉีกที่กลางๆแก้มข้างซ้าย\" · \"Stensen's duct\" (เหลือง)<br>ที่ปรับในเว็บ: แปลโจทย์เป็นอังกฤษ · C เขียนเต็มเป็น marginal mandibular branch · E \"Proceneus\" แก้เป็น procerus muscle · ไฟล์ไม่มีรูปแผลจริง (ผู้จดบรรยายไว้)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_33"
   ]
  },
  "MDCU66|RoD|34": {
-  "interp": "ถามเนื้องอกในท้องเด็กที่มักเห็นหินปูนบนภาพรังสีช่องท้อง (plain film)",
-  "why": "<b>ลายมือ: scattered calcification</b><br><b>นอกสไลด์:</b> neuroblastoma มีเนื้อตายและเลือดออกในก้อนจนเกิดหินปูนแบบจุดกระจายบ่อย — เห็นได้แม้บน plain film",
+  "interp": "ถามเนื้องอกในเด็กที่<b>มักเห็น calcification บนภาพรังสีช่องท้องธรรมดา</b> — ต้องเทียบลักษณะภาพของก้อนในท้องเด็กที่พบบ่อย (neuroblastoma, Wilms, hepatoblastoma และอื่น ๆ) ว่าก้อนไหนมีหินปูนบ่อยที่สุด",
+  "why": "<b>Neuroblastoma</b> เป็นเนื้องอกแข็งนอกกะโหลกที่พบบ่อยที่สุดในเด็ก มาจาก neural crest (adrenal medulla และ sympathetic chain) อายุเฉลี่ยราว 2 ปี · เนื้องอกโตเร็วจนเนื้อตายและมีเลือดออก จึงเกิด<b>หินปูนแบบจุดกระจาย (fine, stippled/scattered)</b> ซึ่ง CT พบได้ราว 80–90% และเห็นได้บ่อยแม้ใน plain film · ลักษณะอื่นที่ช่วยแยกจาก Wilms: ก้อน<b>ข้ามเส้นกลาง</b> ห่อหุ้มหลอดเลือด (encase aorta/IVC) ดันไตลงล่างและออกด้านข้างโดยไตยังปกติ เด็กดูป่วย (ปวดกระดูก ตาโปนช้ำ raccoon eyes, opsoclonus–myoclonus) · ตรวจ urine <b>VMA/HVA</b> สูง และ MIBG scan · Wilms tumor เกิดจากเนื้อไต มี claw sign เด็กมักดูแข็งแรง และมี calcification น้อย (~10–15%) · ไฟล์ขีด B ลายมือ <b>\"→ scattered calcification\"</b> และเขียน \"ซ้ำ\" ที่เลขข้อ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Wilms tumor เป็นเนื้องอกที่มักเห็นหินปูน เพราะเป็นก้อนเนื้อของไตที่มีหินปูนเพียงส่วนน้อย และมักเป็นเส้นโค้งที่ขอบ ไม่ใช่จุดกระจาย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ในตับของเด็กอายุต่ำกว่า 3 ปีร่วมกับ AFP สูงมาก — hepatoblastoma ก็มีหินปูนได้บ่อย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ rhabdomyosarcoma เป็นเนื้องอกที่มักเห็นหินปูน เพราะเป็นก้อนเนื้อเยื่ออ่อนที่ไม่ค่อยมีหินปูน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกที่มีก้อนในตับร่วมหัวใจล้มเหลวจากเลือดลัดในก้อน (hepatic hemangioma) ซึ่งเห็นหินปูนจุดเล็กได้"
+   "A": "Wilms tumor (nephroblastoma) เป็นมะเร็งไตเด็กที่พบบ่อยที่สุด อายุ 3–4 ปี ก้อนเรียบไม่ข้ามเส้นกลาง เกิดจากเนื้อไต (claw sign) ลามเข้า renal vein/IVC ได้ หินปูนพบน้อย · จะถูกถ้าเป็นเด็ก 3 ปี แม่คลำพบก้อนท้องด้านขวาขณะอาบน้ำ เด็กร่าเริงดี ความดันสูง ปัสสาวะเป็นเลือด CT เห็นก้อนเกิดจากไตขวา",
+   "C": "Hepatoblastoma เป็นมะเร็งตับที่พบบ่อยที่สุดในเด็กเล็ก (&lt; 3 ปี) สัมพันธ์กับคลอดก่อนกำหนดน้ำหนักน้อย Beckwith–Wiedemann และ FAP · AFP สูงมาก อาจมีหินปูนหยาบได้แต่ไม่ใช่ลักษณะเด่นที่สุด · จะถูกถ้าเป็นเด็กชาย 18 เดือน อดีตคลอด 28 สัปดาห์ ท้องโตคลำก้อนตับแข็งที่ชายโครงขวา AFP สูงหลายหมื่น",
+   "D": "Rhabdomyosarcoma เป็น soft tissue sarcoma ที่พบบ่อยที่สุดในเด็ก ตำแหน่งที่พบบ่อย: ศีรษะคอ (orbit) และทางเดินปัสสาวะ-อวัยวะสืบพันธุ์ ก้อนเนื้อเยื่ออ่อนไม่ค่อยมีหินปูน · จะถูกถ้าเป็นเด็กหญิง 2 ปี มีก้อนลักษณะคล้ายพวงองุ่นยื่นจากช่องคลอด (sarcoma botryoides) ร่วมกับเลือดออก",
+   "E": "Infantile hepatic hemangioma เป็นเนื้องอกหลอดเลือดในทารก &lt; 6 เดือน อาจมีหินปูนบ้างแต่ไม่ใช่ลักษณะเด่น ปัญหาสำคัญคือ high-output heart failure และ consumptive hypothyroidism · จะถูกถ้าเป็นทารก 2 เดือน ตับโต หัวใจล้ม มี hemangioma ที่ผิวหนังหลายจุด ultrasound เห็นก้อนในตับเลือดไหลเวียนมาก TSH สูง"
   },
-  "trap": "ก้อนในตับเด็กที่มีหินปูนไม่ได้เป็น neuroblastoma เสมอ — ดูอวัยวะต้นกำเนิดก่อน (ต่อมหมวกไต vs ตับ) แล้วใช้ marker แยก (catecholamine vs AFP)",
+  "trap": "Wilms tumor และ neuroblastoma เป็นก้อนในท้องเด็กที่ถูกถามคู่กันบ่อยจนสลับลักษณะ · จำให้แม่น: <b>neuroblastoma = calcification + ข้ามเส้นกลาง + เด็กดูป่วย + VMA/HVA</b> · Wilms = ไม่ค่อยมีหินปูน ไม่ข้ามเส้นกลาง claw sign เด็กดูปกติ · hepatoblastoma ก็มีหินปูนได้แต่ไม่บ่อยเท่า",
   "summary": [
-   "<b>นอกสไลด์:</b> หินปูนในก้อนท้องเด็ก: neuroblastoma ส่วนใหญ่ (บน CT ราว 85–90%) แบบจุดกระจาย · hepatoblastoma ราวครึ่ง · Wilms ส่วนน้อย (ราว 10–15%) เป็นเส้นโค้ง"
+   "Neuroblastoma: เนื้องอกแข็งนอกกะโหลกที่พบบ่อยที่สุดในเด็ก · จาก neural crest · ~ครึ่งหนึ่งอยู่ที่ adrenal · อายุเฉลี่ย ~18 เดือน–2 ปี",
+   "ภาพ: calcification จุดกระจาย (CT ~80–90%) · ข้ามเส้นกลาง encase หลอดเลือด · ดันไตลงล่าง (drooping lily ใน IVP)",
+   "อาการพิเศษ: raccoon eyes (metastasis เบ้าตา), blueberry muffin skin (ทารก), opsoclonus–myoclonus, Horner (ก้อนที่คอ), ท้องเสียจาก VIP, ความดันสูง",
+   "ตรวจ: urine VMA/HVA สูง (~90%) · MIBG scan · bone marrow · ปัจจัยพยากรณ์: อายุ &lt; 18 เดือนดีกว่า, MYCN amplification แย่, histology (Shimada)",
+   "Stage MS (เดิม 4S): ทารก &lt; 18 เดือน กระจายไปตับ ผิวหนัง ไขกระดูก (&lt; 10%) · ยุบเองได้บ่อย พยากรณ์ดี",
+   "Wilms: อายุ 3–4 ปี ก้อนเรียบไม่ข้ามเส้นกลาง claw sign · สัมพันธ์ WAGR, Denys–Drash, Beckwith–Wiedemann · ห้ามคลำแรง ๆ ซ้ำ ๆ (เสี่ยงก้อนแตก upstage)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด B พร้อมลายมือ \"scattered calcification\" · หินปูนเป็นลักษณะภาพที่พบบ่อยที่สุดของ neuroblastoma เมื่อเทียบกับก้อนในท้องเด็กอื่น ๆ ในช้อย",
+  "mnemonic": "<b>'NeuroBlastoma = Bone-like calcification + ข้าม midline · Wilms = Within kidney'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Neuroblastoma; Wilms tumor; Liver tumors",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนในท้องเด็กมีทั้งไขมัน หินปูน และฟัน → teratoma",
-   "<b>นอกสไลด์:</b> เด็ก 2 ปี ก้อนใน posterior mediastinum มีหินปูน → neuroblastoma (หรือ ganglioneuroma) จากปมประสาทข้างกระดูกสันหลัง"
+   "เด็ก 2 ปี ซีด ปวดขา ตาโปนช้ำรอบตา ก้อนท้องแข็งข้ามเส้นกลาง → neuroblastoma ตรวจ urine VMA/HVA และ MIBG",
+   "ทารก 4 เดือน มีตุ่มสีน้ำเงินที่ผิวหนัง ตับโต ไขกระดูกมีเซลล์เนื้องอก 5% → neuroblastoma stage MS ติดตามได้ มักยุบเอง",
+   "ทำไมห้ามคลำก้อน Wilms ซ้ำ ๆ → ก้อนเปราะ แตกได้ ทำให้เซลล์มะเร็งกระจายในช่องท้องและเลื่อนเป็น stage III",
+   "เด็ก 1 ปี ตากระตุกไปมาเร็ว แขนขากระตุก เดินเซ (opsoclonus–myoclonus) → หา neuroblastoma ด้วย CT/MRI ทรวงอกและท้อง"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 155 — ตัวพิมพ์: <b>34. ข้อใดที่มักพบ calcification ใน plain abdomen x-ray ในเด็ก — A. Wilm's tumor B. Neuroblastoma C. Hepatoblastoma D. Rhabdomyosarcoma E. Hemangioma</b><br>ลายมือ: เขียน \"ซ้ำ\" สีแดงทับเลขข้อ · ขีด B · เขียน \"→ scattered calcification\" ต่อท้าย Neuroblastoma<br>ไฮไลต์: \"มักพบ calcification\" · \"plain abdomen x-ray ในเด็ก\" · \"Neuroblastoma\" (เหลือง)<br>ที่ปรับในเว็บ: แปลโจทย์เป็นอังกฤษ · แก้สะกด Wilm's → Wilms",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 155",
+  "kimg": [
+   "fsk_p155",
+   "kp66d_34"
   ]
  }
 }
