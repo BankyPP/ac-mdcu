@@ -1,243 +1,411 @@
 {
  "MDCU74|RoC|4": {
-  "interp": "สบฟันผิดและปวดขากรรไกรหลังถูกทำร้าย สงสัยขากรรไกรล่างหัก → ถามภาพรังสีธรรมดาที่ดูขากรรไกรล่าง <b>ได้ทั้งหมด</b> เป็นอันดับแรก",
-  "why": "ผู้จดเขียน <b>Panoramic</b> (\"ตรง Ac\") · P'Ing แปะข้อ AC เดิม: <b>suspected fractured mandible condyle → Towne</b><br><b>นอกสไลด์:</b> Panoramic (OPG) แผ่ภาพขากรรไกรล่างตั้งแต่ condyle ข้างหนึ่งถึงอีกข้างในภาพเดียว เห็นรอยหักที่ body, angle, symphysis และสัมพันธ์กับฟัน · ปัจจุบัน CT ดีที่สุด โดยเฉพาะ condyle และรอยหักหลายชิ้น",
+  "interp": "ชาย 22 ปี ถูกทำร้าย มี<b>ฟันสบผิด (malocclusion)</b> และปวดขากรรไกร สงสัย <b>mandible fracture</b> — ถามภาพรังสีธรรมดา (plain film) ท่าใดเป็นการตรวจเริ่มต้นที่ดีที่สุดเพื่อดู<b>ขากรรไกรล่างทั้งอัน</b> ต้องรู้ว่าแต่ละท่าเห็นกระดูกส่วนไหนของใบหน้า",
+  "why": "Mandible เป็นกระดูกรูปเกือกม้า/ วงแหวน แรงกระแทกจึงมักทำให้หัก<b>มากกว่า 1 ตำแหน่ง</b> (เช่นหักที่ parasymphysis ร่วมกับ condyle ฝั่งตรงข้าม) ตำแหน่งที่พบบ่อย: condyle, angle, body, symphysis/ parasymphysis · อาการสำคัญคือ <b>malocclusion</b> (ไวที่สุด), ปวด, อ้าปากได้น้อย (trismus), ขากรรไกรเบี้ยว, ชาริมฝีปากล่าง/ คาง (inferior alveolar nerve), เลือดออกใต้ลิ้น (sublingual hematoma) และ step-off ของแนวฟัน · <b>Panoramic radiograph (orthopantomogram, OPG)</b> ถ่ายภาพโค้งตามขากรรไกรได้<b>ทั้ง mandible ตั้งแต่ condyle ข้างหนึ่งถึงอีกข้าง</b>รวมฟันและรากฟันในภาพเดียว จึงเป็น plain film เริ่มต้นที่ดีที่สุด (ต้องให้ผู้ป่วยนั่ง/ ยืนนิ่ง) · ปัจจุบัน <b>CT maxillofacial</b> ไวที่สุดและเป็นมาตรฐานในผู้บาดเจ็บหลายระบบหรือ condyle fracture แต่ไม่อยู่ในช้อย · รักษา: MMF (intermaxillary fixation) หรือ ORIF ด้วย miniplate ตามแนว Champy · หักผ่านเบ้าฟัน = open fracture ให้ยาปฏิชีวนะ · ไฟล์ผู้จดเขียน <b>\"panoramic\"</b> และ \"ตรง Ac\" ส่วน P'Ing ไฮไลต์ mandible fracture และแปะข้อสอบ AC เดิมที่ถาม condyle → Towne",
   "wrong": {
-   "B": "ข้อ AC เดิมในคีย์: Towne ใช้เมื่อสงสัย condyle · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Towne ดูขากรรไกรล่างได้ทั้งหมด เพราะเป็นภาพหน้า–หลังเอียงที่เห็นเฉพาะ condyle และ ramus — ใช้เสริม OPG เมื่อสงสัยรอยหักที่ condyle",
-   "C": "<b>นอกสไลด์:</b> Waters view ดูกระดูกใบหน้าส่วนกลาง (ไซนัส maxilla, โหนกแก้ม, พื้นเบ้าตา) · ไม่มีสถานการณ์ใดที่ใช้ดูขากรรไกรล่างทั้งหมด เพราะมุมภาพเน้นใบหน้าส่วนกลาง ขากรรไกรล่างซ้อนกับโครงสร้างอื่น",
-   "D": "<b>นอกสไลด์:</b> Lateral cephalogram ใช้วัดความสัมพันธ์ของขากรรไกรในงานจัดฟัน/ผ่าตัดแก้การสบฟัน · ไม่มีสถานการณ์ใดที่ใช้ดูขากรรไกรล่างหักทั้งหมด เพราะสองข้างซ้อนทับกันในภาพด้านข้าง",
-   "E": "<b>นอกสไลด์:</b> Submentovertex ดู zygomatic arch และฐานกะโหลก · ไม่มีสถานการณ์ใดที่ใช้ดูขากรรไกรล่างทั้งหมด เพราะถ่ายจากใต้คางขึ้นไปเห็นแนว arch ไม่เห็นตัวขากรรไกรครบ"
+   "B": "Towne view (AP ก้มคาง 30°) เห็น <b>condyle และ ramus</b> ของ mandible ทั้งสองข้างได้ดี และใช้ดู occipital bone แต่ไม่เห็น body/ symphysis และฟันชัด (ข้อสอบ AC เดิมที่ P'Ing แปะถาม condyle → Towne) — จะถูกถ้าเป็นชาย 25 ปีล้มคางกระแทกพื้น ปวดหน้าหูสองข้าง เปิดปากแล้วคางเบี้ยว สงสัย bilateral condylar fracture และมีแค่ plain film",
+   "C": "Waters view (occipitomental) ใช้ดู<b>ใบหน้าส่วนกลาง</b> — maxillary sinus, zygoma, orbital floor, orbital rim — ไม่เห็น mandible ทั้งอัน — จะถูกถ้าเป็นชาย 30 ปีถูกต่อยที่โหนกแก้มซ้าย แก้มแบน ชาแก้มและริมฝีปากบน (infraorbital nerve) มองขึ้นแล้วเห็นภาพซ้อน สงสัย zygomaticomaxillary complex/ orbital floor fracture",
+   "D": "Lateral cephalogram ใช้วัดสัดส่วนกระดูกใบหน้าและฟันเพื่อวางแผนจัดฟันหรือ orthognathic surgery ไม่ใช่ภาพวินิจฉัยกระดูกหัก (ภาพซ้อนสองข้างทับกัน) — จะถูกถ้าเป็นหญิง 20 ปีคางยื่น (mandibular prognathism, Class III) มาปรึกษาผ่าตัดแก้ขากรรไกร",
+   "E": "Submentovertex (jug-handle) view ใช้ดู <b>zygomatic arch</b> และฐานกะโหลก — ไม่ใช่ท่าสำหรับ mandible — จะถูกถ้าเป็นชาย 28 ปีถูกตีด้วยไม้ที่ข้างแก้ม มีรอยบุ๋มเหนือโหนกแก้ม อ้าปากไม่ได้เพราะ arch ที่หักกด coronoid process สงสัย isolated zygomatic arch fracture"
   },
-  "trap": "จำข้อ AC เดิมที่ตอบ Towne — ข้อนั้นถามเฉพาะ condyle · ข้อนี้ถามขากรรไกรทั้งชิ้น จึงตอบ panoramic",
+  "trap": "P'Ing แปะข้อสอบเก่าที่ตอบ <b>Towne</b> ทำให้คนเลือก B · แต่ Towne ดูเฉพาะ <b>condyle/ ramus</b> ส่วนข้อนี้ถามการดู<b>ทั้ง mandible</b> = panoramic · อีกกับดักคือสับสนท่าดูใบหน้า: Waters = midface/ orbit, SMV = zygomatic arch, lateral ceph = วางแผนจัดฟัน",
   "summary": [
-   "ข้อ AC เดิมในคีย์: สงสัย condyle หัก → Towne view",
-   "<b>นอกสไลด์:</b> ตำแหน่งที่ขากรรไกรล่างหักบ่อย: condyle · angle · body · symphysis · มักหัก 2 ตำแหน่ง (เช่น body ข้างหนึ่งกับ condyle อีกข้าง)",
-   "<b>นอกสไลด์:</b> รอยหักผ่านเบ้าฟันถือเป็นกระดูกหักแบบเปิด → ให้ยาปฏิชีวนะ"
+   "Mandible fracture: ตำแหน่งบ่อย condyle (~30%) > angle > body > symphysis/ parasymphysis · มักหัก ≥ 2 ตำแหน่ง (วงแหวน)",
+   "อาการ: malocclusion (สำคัญสุด), trismus, step-off, sublingual hematoma, ชาริมฝีปากล่าง/ คาง (inferior alveolar nerve), คางเบี้ยวไปข้างที่ condyle หัก",
+   "ภาพ: CT maxillofacial เป็นมาตรฐาน · plain film: panoramic (ทั้ง mandible + ฟัน) · Towne (condyle/ ramus) · PA mandible (angle/ ramus) · lateral oblique",
+   "รักษา: undisplaced + สบฟันปกติ → อาหารเหลว/ อ่อน · displaced → MMF 4–6 สัปดาห์ หรือ ORIF miniplate ตามแนว Champy (ทำให้อ้าปากได้เร็ว)",
+   "Condylar fracture: ส่วนใหญ่ closed/ functional treatment (โดยเฉพาะเด็ก) · ORIF เมื่อ condyle เคลื่อนเข้าแอ่งกลาง (middle cranial fossa), สบฟันแก้ไม่ได้, มีสิ่งแปลกปลอม",
+   "Open fracture (ผ่าน tooth socket/ mucosa): ยาปฏิชีวนะ · ฟันที่อยู่ในแนวหักถ้าโยกมาก/ ติดเชื้อให้ถอน",
+   "ภาวะแทรกซ้อน: ติดเชื้อ (angle พบบ่อยสุด), malunion/ nonunion, TMJ ankylosis (เด็กหลัง condyle fracture), ชาถาวร"
   ],
-  "opinion": "เห็นด้วยกับคีย์ panoramic · ไฟล์มีหัวข้อนี้ 2 แถวจึงรวมเป็นข้อเดียว · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — ตรงกับคีย์ในไฟล์ที่ผู้จดเขียน panoramic ทั้งสองแถว · ข้อสอบ AC เดิมที่ P'Ing แปะถามเฉพาะ condyle จึงตอบ Towne ซึ่งต่างโจทย์กัน ถ้ามีช้อย CT maxillofacial ในทางปฏิบัติปัจจุบันจะเลือก CT แต่ในกลุ่ม plain film panoramic เห็น mandible ได้ครบที่สุด",
+  "mnemonic": "<b>'Panoramic = 'พาโนรามาทั้งขากรรไกร' · Towne = 'Top (condyle)' · Waters = 'กลางหน้า/ ไซนัส' · SMV = 'หูหิ้วโหนกแก้ม (arch)''</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) Mandible Fractures; AO Surgery Reference — Craniomaxillofacial: Mandible; Sabiston Textbook of Surgery 21st ed. (2022) Head and Neck",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยถูกชกที่คาง อ้าปากแล้วคางเบี้ยวไปทางซ้าย → สงสัย condyle ซ้ายหัก (คางเบี้ยวไปข้างที่หัก)",
-   "<b>นอกสไลด์:</b> ผู้ป่วยถูกตีที่โหนกแก้ม อ้าปากไม่ได้ กดเจ็บที่ zygomatic arch → submentovertex view หรือ CT"
+   "ชาย 30 ปีหลังอุบัติเหตุมอเตอร์ไซค์ มี malocclusion ชาคาง CT พบ parasymphysis fracture ขวา + condylar fracture ซ้าย → ORIF parasymphysis + จัดการ condyle แบบ closed",
+   "เด็ก 6 ปีล้มคางกระแทก ปวดหน้าหูสองข้าง CT พบ condylar fracture ไม่เคลื่อนมาก → closed treatment อาหารอ่อน ฝึกอ้าปากเร็วเพื่อกัน ankylosis",
+   "ชาย 25 ปี mandible angle fracture ผ่านฟันคุดที่ติดเชื้อ → ยาปฏิชีวนะ + ถอนฟันคุดในแนวหัก + ORIF",
+   "ทำไมเจอ mandible fracture จุดหนึ่งแล้วต้องหาอีกจุด → mandible เป็นโครงวงแหวน แรงถ่ายไปหักอีกฝั่งได้บ่อย โดยเฉพาะ condyle ฝั่งตรงข้าม"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>Mandible (Ac) — panoramic · (แถวซ้ำในไฟล์หน้า 3: มี malocclusion - mandible fracture นะ - ถาม view — panoramic · town condyle of mandibular?)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ไฟล์มีหัวข้อนี้ 2 แถว (หน้า 1 \"Mandible (Ac)\" และหน้า 3 \"มี malocclusion - mandible fracture - ถาม view\" + \"town condyle of mandibular?\") = ข้อเดียวกันในปีเดียวกัน → รวมเป็นข้อเดียว · ครอปทั้ง 2 แถว",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_4a",
+   "kp74c_4b"
   ]
  },
  "MDCU74|RoC|5": {
-  "interp": "ก้อนแนวกลางคอ ขยับขึ้นเมื่อแลบลิ้น ในเด็ก → ถาม congenital neck mass ที่พบบ่อยที่สุดในเด็ก",
-  "why": "ผู้จดใส่ :) ที่ <b>thyroglossal duct cyst</b><br><b>นอกสไลด์:</b> Thyroglossal duct cyst เป็น congenital neck mass ที่พบบ่อยที่สุดในเด็ก เกิดจากท่อที่ต่อมไทรอยด์เคลื่อนลงจาก foramen cecum ไม่ปิด จึงยึดกับ hyoid และขยับขึ้นเมื่อแลบลิ้นหรือกลืน",
+  "interp": "เด็ก 5 ปี มี<b>ก้อนแนวกลางคอ ไม่เจ็บ เลื่อนขึ้นเมื่อแลบลิ้น</b> = <b>thyroglossal duct cyst</b> — ถาม<b>ก้อนที่คอแต่กำเนิด (congenital neck mass) ที่พบบ่อยที่สุดในเด็ก</b> ต้องรู้ embryology ของต่อมไทรอยด์และวิธีแยกก้อนแนวกลางกับก้อนด้านข้างคอ",
+  "why": "ต่อมไทรอยด์เริ่มที่ <b>foramen cecum</b> โคนลิ้น แล้วเคลื่อนลงตามแนวกลางผ่านหน้า/ ทะลุ <b>hyoid bone</b> ไปอยู่หน้าหลอดลมในสัปดาห์ที่ 4–7 ทางเดินคือ thyroglossal duct ซึ่งควรสลายไป ถ้าค้างอยู่จะมีถุงน้ำ = <b>thyroglossal duct cyst (TGDC)</b> — <b>congenital neck mass ที่พบบ่อยที่สุดในเด็ก</b> (ราว 70% ของความผิดปกติแต่กำเนิดที่คอ) · อยู่<b>แนวกลาง</b> ระดับ hyoid หรือใต้ hyoid เลื่อนขึ้นเมื่อ<b>กลืนและแลบลิ้น</b> (เพราะยึดกับ hyoid และโคนลิ้น) มักโผล่หลังติดเชื้อทางเดินหายใจ อาจติดเชื้อเป็นฝีหรือ sinus · ก่อนผ่าตัดทำ <b>ultrasound</b> ยืนยันว่ามีไทรอยด์ปกติในตำแหน่งเดิม (ป้องกันตัด ectopic thyroid ที่เป็นเนื้อไทรอยด์เพียงแห่งเดียว) · รักษาด้วย <b>Sistrunk procedure</b>: ตัดถุงน้ำ + ทางเดิน + <b>ส่วนกลางของ hyoid bone</b> + แกนเนื้อเยื่อโคนลิ้นถึง foramen cecum — recurrence ราว 3–5% เทียบกับตัดเฉพาะถุงที่กลับเป็นซ้ำสูงมาก · ติดเชื้ออยู่ → ยาปฏิชีวนะให้ยุบก่อนแล้วผ่าตัด · พบ papillary carcinoma ใน TGDC ราว 1% (ผู้ใหญ่) · ไฟล์ผู้จดใส่ <b>\":)\"</b> ที่ thyroglossal duct cyst และ P'Ing ไฮไลต์หัวข้อ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Dermoid cyst อยู่แนวกลางได้ (ใต้คาง) แต่พบน้อยกว่าและไม่ยึดกับ hyoid จึงไม่ขยับตามลิ้น · ไม่มีสถานการณ์ใดที่เป็น congenital neck mass ที่พบบ่อยที่สุดในเด็ก เพราะความถี่ต่ำกว่า TGDC และ branchial anomaly",
-   "C": "<b>นอกสไลด์:</b> Branchial cleft cyst เป็นอันดับสองและพบบ่อยที่สุดในกลุ่มก้อนด้านข้างคอ · ไม่มีสถานการณ์ใดที่เป็นอันดับหนึ่งของ congenital neck mass ในเด็กโดยรวม เพราะพบน้อยกว่า TGDC",
-   "D": "<b>นอกสไลด์:</b> Cystic hygroma (lymphatic malformation) มักเห็นตั้งแต่เกิดที่ posterior triangle · ไม่มีสถานการณ์ใดที่เป็นอันดับหนึ่งของ congenital neck mass ในเด็ก เพราะพบน้อยกว่า TGDC",
-   "E": "<b>นอกสไลด์:</b> Ranula เป็นถุงน้ำลายใต้ลิ้นจากต่อม sublingual ไม่ใช่ congenital neck mass โดยตรง · ไม่มีสถานการณ์ใดที่เป็นคำตอบของคำถามนี้ เพราะเป็นถุงน้ำที่เกิดภายหลังจากท่อน้ำลายรั่ว"
+   "B": "Dermoid cyst ก็อยู่แนวกลาง (มักใต้คาง) แต่ยึดกับผิวหนัง<b>ไม่เลื่อนตามการแลบลิ้น</b> เนื้อแน่นกว่า มี keratin/ skin appendage ข้างใน พบน้อยกว่า TGDC — จะถูกถ้าเป็นเด็ก 3 ปีมีก้อนกลมแน่นแนวกลางใต้คาง ขยับตามผิวหนังแต่ไม่ขยับเมื่อแลบลิ้นหรือกลืน US เป็นก้อนมีเนื้อปน (heterogeneous)",
+   "C": "Branchial cleft cyst เป็นก้อน congenital ที่พบบ่อย<b>อันดับสอง</b> อยู่<b>ด้านข้างคอ</b> ตามขอบหน้า sternocleidomastoid (ส่วนใหญ่ 2nd cleft) ไม่ใช่แนวกลางและไม่เลื่อนตามลิ้น — จะถูกถ้าเป็นวัยรุ่น 15 ปีมีก้อนนุ่มด้านข้างคอขวาใต้มุมขากรรไกรตามขอบหน้า SCM บวมเจ็บหลังเป็นหวัด",
+   "D": "Cystic hygroma (macrocystic lymphatic malformation) มักอยู่ <b>posterior triangle</b> นุ่ม กดยุบ ส่องไฟผ่าน เห็นตั้งแต่แรกเกิดหรือก่อน 2 ขวบ สัมพันธ์กับ Turner/ trisomy — จะถูกถ้าเป็นทารกแรกเกิดมีก้อนนุ่มใหญ่หลายช่องที่ด้านหลังคอซ้าย ส่องไฟผ่าน (รักษาด้วย sclerotherapy เช่น OK-432/ doxycycline/ bleomycin หรือผ่าตัด)",
+   "E": "Ranula เป็นถุงเมือกจาก sublingual gland ที่<b>พื้นปาก</b> สีฟ้าใสคล้ายท้องกบ ถ้าลามลงใต้ mylohyoid เป็น plunging ranula ที่คอ — จะถูกถ้าเป็นเด็ก 10 ปีมีถุงน้ำสีฟ้านุ่มที่พื้นปากด้านซ้ายข้างลิ้น ใหญ่ขึ้นช้า ๆ (รักษาด้วยตัด sublingual gland)"
   },
-  "trap": "ไฟล์จดแค่ \"most common neck mass\" — ถ้าทุกวัยและไม่จำกัด congenital คำตอบคือต่อมน้ำเหลืองโต จึงระบุ congenital ในเด็กให้ตรงกับคำตอบ",
+  "trap": "ไฟล์ต้นฉบับจดแค่ 'most common neck mass' ซึ่งถ้าไม่จำกัดว่าแต่กำเนิด คำตอบจริงในเด็กคือ <b>reactive lymphadenopathy</b> · เว็บจึงระบุ congenital · อีกกับดักคือ dermoid cyst ที่อยู่แนวกลางเหมือนกัน — แยกด้วยการ<b>เลื่อนขึ้นเมื่อแลบลิ้น</b> (TGDC) และ branchial cyst อยู่ด้านข้าง",
   "summary": [
-   "<b>นอกสไลด์:</b> ก้อนแนวกลางคอ: TGDC (ขยับตามลิ้น) · dermoid (ใต้คาง ไม่ขยับตามลิ้น) · ก้อนไทรอยด์",
-   "<b>นอกสไลด์:</b> ผ่าตัด TGDC แบบ Sistrunk: ตัดถุงน้ำ + กลางกระดูก hyoid + ท่อจนถึงโคนลิ้น — ถ้าไม่ตัดกลาง hyoid กลับเป็นซ้ำสูง",
-   "<b>นอกสไลด์:</b> ก่อนผ่าตัดตรวจ US คอ ยืนยันว่ามีต่อมไทรอยด์ปกติ (ก้อนอาจเป็น ectopic thyroid ที่เป็นเนื้อไทรอยด์ชิ้นเดียว)"
+   "ก้อนที่คอเด็กโดยรวม: reactive/ infectious lymphadenopathy พบบ่อยที่สุด · congenital: TGDC อันดับ 1, branchial anomaly อันดับ 2",
+   "แนวกลาง: TGDC (เลื่อนตามลิ้น), dermoid (ไม่เลื่อน), ectopic thyroid, ต่อมน้ำเหลือง delphian · ด้านข้าง: branchial cyst, lymphatic malformation, ต่อมน้ำเหลือง, fibromatosis colli (ทารก ก้อนใน SCM + torticollis)",
+   "TGDC: US ก่อนผ่าตัดยืนยันไทรอยด์ปกติ ± TFT · ectopic thyroid อาจเป็นเนื้อไทรอยด์แห่งเดียว (lingual thyroid)",
+   "Sistrunk procedure: cyst + tract + กลาง hyoid + core โคนลิ้นถึง foramen cecum · recurrence ~3–5% · ตัดเฉพาะถุงกลับเป็นซ้ำสูง",
+   "TGDC ติดเชื้อ (มักเชื้อในช่องปาก): ยาปฏิชีวนะ ± เจาะดูด (เลี่ยง incision ที่ทำให้แผลเป็นและ recurrence) แล้ว Sistrunk เมื่อยุบ",
+   "Carcinoma ใน TGDC ~1% ส่วนใหญ่ papillary · พบในผู้ใหญ่มากกว่า",
+   "ก้อนคอผู้ใหญ่ที่โตต่อเนื่อง &gt; 2–3 สัปดาห์ ให้คิดมะเร็งก่อน (metastatic SCC จาก head and neck) → ตรวจ ENT + FNA ไม่ excisional biopsy ทันที"
   ],
-  "opinion": "เห็นด้วยกับคีย์ TGDC · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์และระบุ congenital/เด็ก · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ผู้จดใส่ :) ที่ thyroglossal duct cyst และ P'Ing ไฮไลต์หัวข้อ · ต้นฉบับจดแค่ 'most common neck mass' ซึ่งถ้าตีความกว้างคำตอบคือ lymphadenopathy เว็บจึงระบุเด็กและ congenital พร้อมใส่ลักษณะเลื่อนตามลิ้น ทำให้เหลือคำตอบเดียว",
+  "mnemonic": "<b>'แนวกลาง + แลบลิ้นแล้วขยับ = TGDC → Sistrunk (ตัดกลาง Hyoid)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Lesions of the Head and Neck; Cummings Otolaryngology Head and Neck Surgery 7th ed. (2021) Congenital Malformations of the Neck",
   "variants": [
-   "<b>นอกสไลด์:</b> TGDC อักเสบแดงบวมเจ็บ → ให้ยาปฏิชีวนะจนสงบก่อน แล้วจึงผ่าตัด Sistrunk",
-   "<b>นอกสไลด์:</b> ผู้ใหญ่ที่มี TGDC มีก้อนแข็งในถุงน้ำ → คิดถึงมะเร็งในถุงน้ำ (ส่วนใหญ่ papillary thyroid carcinoma)"
+   "เด็ก 6 ปีมีก้อนแนวกลางคอ US ไม่พบต่อมไทรอยด์ในตำแหน่งปกติ ก้อนเป็นเนื้อแน่น → ectopic thyroid → ห้ามตัด ตรวจ TFT และ thyroid scan",
+   "เด็ก 4 ปี TGDC บวมแดงเจ็บ มีไข้ → ยาปฏิชีวนะให้ยุบก่อน แล้วนัดทำ Sistrunk procedure",
+   "ทำไมต้องตัดส่วนกลางของ hyoid ใน Sistrunk → thyroglossal duct วิ่งผ่านหน้า/ ทะลุ hyoid ถ้าไม่ตัดจะเหลือเศษทางเดินกลับเป็นซ้ำ",
+   "ทารก 3 สัปดาห์ คอเอียงไปขวา คลำได้ก้อนแข็งใน SCM ขวา → fibromatosis colli (congenital muscular torticollis) → กายภาพบำบัดยืดกล้ามเนื้อ"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>most common neck mass — thyroglossal duct cyst :) · Dermoid cyst</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ หัวข้อจดแค่ \"most common neck mass\" → ระบุ congenital/เด็ก ให้ตรงกับคำตอบ TGDC",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_5"
   ]
  },
  "MDCU74|RoC|6": {
-  "interp": "เด็กมีรูหน้าหู (preauricular sinus) ติดเชื้อ 3 ครั้งใน 1 ปี ตอนนี้หายอักเสบแล้ว → ถามการจัดการ",
-  "why": "ผู้จดเขียน <b>Excision</b><br><b>นอกสไลด์:</b> รูหน้าหูเป็นทางเดินบุด้วยเยื่อบุผิวที่แตกแขนง เมื่อติดเชื้อซ้ำจะเป็นอีกเรื่อย ๆ จึงตัดทั้ง tract และแขนงออกหมดในช่วงที่ไม่อักเสบ · ถ้าตัดไม่หมดกลับเป็นซ้ำได้มาก",
+  "interp": "เด็กหญิง 10 ปี มี <b>preauricular sinus</b> ติดเชื้อมีหนองไหล<b>ซ้ำ 3 ครั้งใน 1 ปี</b> ขณะนี้การติดเชื้อหายแล้ว — ถามการดูแลที่เหมาะสมที่สุด ต้องรู้ว่า sinus ที่ไม่มีอาการไม่ต้องรักษา แต่ที่ติดเชื้อซ้ำต้อง<b>ตัดออกทั้งทางเดินในช่วงที่ไม่อักเสบ</b>",
+  "why": "<b>Preauricular sinus/ pit</b> เป็นความผิดปกติแต่กำเนิดจากการเชื่อมกันไม่สมบูรณ์ของ <b>six hillocks of His</b> (จาก 1st และ 2nd pharyngeal arch) ที่สร้างใบหู · รูเปิดเล็กมักอยู่<b>หน้าส่วนต้นของ helix (ascending crus)</b> ทางเดินแตกกิ่ง บุด้วย squamous epithelium และมักยึดกับ perichondrium ของกระดูกอ่อน helix · เป็นสองข้างได้บ่อย มีประวัติครอบครัว (autosomal dominant ที่แสดงออกไม่เต็มที่) · <b>ไม่มีอาการ → ไม่ต้องรักษา</b> · ติดเชื้อ (S. aureus, Streptococcus) → ยาปฏิชีวนะ ± เจาะ/ ระบายหนองถ้าเป็นฝี · <b>ติดเชื้อซ้ำหรือมีหนองเรื้อรัง → complete surgical excision</b> ใน<b>ช่วงที่การอักเสบสงบ</b> ตัดทางเดินทั้งหมดรวมเนื้อเยื่อรอบและ perichondrium/ กระดูกอ่อน helix ที่ยึดอยู่ (เช่น supra-auricular approach) เพื่อไม่ให้เหลือ epithelium → recurrence ลดลงอย่างมาก ส่วนการตัดเฉพาะรู (simple sinectomy) กลับเป็นซ้ำได้สูง · ถ้ามี branchial anomaly หูดับ หรือ dysmorphism ร่วม → คิด <b>branchio-oto-renal syndrome</b> ตรวจการได้ยินและ renal ultrasound · ไฟล์ผู้จดเขียนหัวข้อ <b>\"Preauricular sinus - excision\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ระบายหนองแก้แค่ฝีครั้งนั้น tract ยังอยู่ · จะถูกถ้ากำลังเป็นฝีหน้าหูที่มีหนองคลำได้และไม่ดีขึ้นด้วยยา — ระบายก่อนแล้วนัดตัด tract ภายหลัง",
-   "C": "<b>นอกสไลด์:</b> ยาปฏิชีวนะระยะยาวไม่กำจัด tract · ไม่มีสถานการณ์ใดที่เป็นการรักษาที่เหมาะ เพราะเชื้อกลับมาเมื่อหยุดยา และต้นเหตุคือ tract ที่ต้องตัดออก",
-   "D": "<b>นอกสไลด์:</b> Sclerotherapy ใช้กับถุงน้ำน้ำเหลือง · จะถูกถ้าเด็กมี macrocystic lymphatic malformation ที่คอ",
-   "E": "<b>นอกสไลด์:</b> เฝ้าดูใช้กับรูที่ไม่เคยมีอาการ · จะถูกถ้าเป็นรูหน้าหูที่ไม่เคยติดเชื้อหรือมีหนองไหล"
+   "B": "I&amp;D ระบายหนองเป็นการรักษาฝีเฉียบพลันชั่วคราว ไม่เอาทางเดินที่บุด้วย epithelium ออก จึงกลับเป็นซ้ำ และการติดเชื้อตอนนี้หายแล้วไม่มีหนองให้ระบาย — จะถูกถ้าเป็นเด็กหญิง 10 ปีที่มีฝีหน้าใบหูขวาบวมแดง fluctuant ขนาด 2 cm ปวดมาก ไม่ยุบด้วยยาปฏิชีวนะ 48 ชม. (I&amp;D ก่อน แล้วนัดตัดทางเดินภายหลัง)",
+   "C": "ยาปฏิชีวนะระยะยาวไม่ทำให้ทางเดินหายไป เมื่อหยุดยาก็ติดเชื้อซ้ำ และเพิ่มเชื้อดื้อยา — ยาใช้รักษาช่วงติดเชื้อเฉียบพลันเท่านั้น — จะถูกถ้าเป็นเด็ก 7 ปีที่ preauricular sinus เพิ่งติดเชื้อครั้งแรก รอบรูแดงบวมเล็กน้อยกดเจ็บ ไม่มีฝี (ให้ยาครอบคลุม S. aureus 7–10 วัน)",
+   "D": "Sclerotherapy ใช้กับ lymphatic/ venous malformation ที่เป็นช่องว่างมีของเหลว ไม่ได้ผลกับทางเดินที่บุด้วย squamous epithelium และมีกิ่งก้าน — จะถูกถ้าเป็นเด็ก 2 ปีมีก้อนนุ่มหลายช่องที่คอด้านหลัง ส่องไฟผ่าน MRI เป็น macrocystic lymphatic malformation",
+   "E": "Observation เหมาะกับ preauricular pit ที่<b>ไม่มีอาการ</b> แต่ผู้ป่วยติดเชื้อซ้ำ 3 ครั้งใน 1 ปีแล้ว มีข้อบ่งชี้ผ่าตัด — จะถูกถ้าเป็นทารก 2 เดือนพบรูเล็กหน้าใบหูทั้งสองข้าง ไม่เคยมีหนองหรือบวม การได้ยินปกติ ไม่มีความผิดปกติอื่น"
   },
-  "trap": "รูหน้าหูไม่มีอาการไม่ต้องทำอะไร แต่ติดเชื้อซ้ำต้องตัด — และตัดตอนไม่อักเสบ ไม่ใช่ตอนเป็นฝี",
+  "trap": "คนคิดว่าเป็นแค่ 'รูเล็ก' จึงเลือกยาปฏิชีวนะต่อเนื่องหรือเฝ้าดู หรือเลือก I&amp;D เพราะคุ้นกับการรักษาฝี · หลักคือ sinus มี<b>ทางเดินบุด้วย epithelium</b> ซึ่งต้องตัดออกทั้งหมดจึงหายขาด และต้องผ่าตัด<b>ตอนที่ไม่อักเสบ</b> (ซึ่งโจทย์บอกว่าหายแล้ว)",
   "summary": [
-   "<b>นอกสไลด์:</b> Preauricular sinus เกิดจากเนื้อนูน 6 ก้อนที่รวมเป็นใบหูเชื่อมไม่สนิท",
-   "<b>นอกสไลด์:</b> ผ่าตัด: ตัด tract ทั้งหมดรวมส่วนที่ติดกระดูกอ่อนหู (มักใช้แผลเหนือหูเพื่อเห็นทั้งหมด)"
+   "Preauricular sinus: hillocks of His (1st/ 2nd arch) เชื่อมไม่สมบูรณ์ · รูหน้า ascending helix · สองข้างได้ราว 1/4–1/2 · ถ่ายทอดในครอบครัวได้",
+   "ไม่มีอาการ → ไม่ต้องทำอะไร · ติดเชื้อครั้งแรก → ยาปฏิชีวนะ (anti-staphylococcal) · ฝี → เจาะ/ I&amp;D",
+   "ติดเชื้อซ้ำ/ มีหนองเรื้อรัง → complete excision ช่วงสงบ · supra-auricular/ wide local excision รวมเนื้อเยื่อและกระดูกอ่อนที่ยึด ลด recurrence เทียบกับ simple sinectomy",
+   "Branchio-oto-renal (BOR) syndrome: preauricular pit + branchial cleft sinus/ cyst + hearing loss + renal anomaly (EYA1) → hearing test + renal US",
+   "Preauricular tag (ติ่งเนื้อหน้าหู) ไม่เหมือน sinus — ตัดเพื่อความสวยงาม · ถ้ามีร่วม hemifacial microsomia ให้ตรวจการได้ยิน",
+   "First branchial cleft anomaly: ทางเดินใกล้ external auditory canal และสัมพันธ์กับ facial nerve/ parotid · ต้องระวัง facial nerve ขณะผ่าตัด",
+   "Isolated preauricular pit ไม่ต้องทำ renal US ทุกราย — ทำเมื่อมีความผิดปกติอื่นร่วม/ ประวัติครอบครัวหูดับ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ excision · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ผู้จดเขียนหัวข้อ \"Preauricular sinus - excision\" · ต้นฉบับจดเพียงหัวข้อ เว็บแต่งเคสที่ติดเชื้อซ้ำและการอักเสบสงบแล้ว ซึ่งเป็นข้อบ่งชี้และจังหวะผ่าตัดที่ถูกต้อง ช้อยอื่นเป็นการรักษาชั่วคราวหรือไม่ได้ผล",
+  "mnemonic": "<b>'Preauricular sinus: 'เงียบ = ปล่อย · ติดเชื้อ = ยา · ซ้ำ = ตัดทั้งราก (ตอนสงบ)''</b>",
+  "guide": "Cummings Otolaryngology Head and Neck Surgery 7th ed. (2021) Congenital Malformations of the External Ear; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Lesions of the Head and Neck",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กมีรูหน้าหูสองข้าง มีรูข้างคอ และไตผิดปกติ → branchio-oto-renal syndrome ตรวจการได้ยินและ US ไต"
+   "ทารกแรกเกิดมี preauricular pit สองข้าง ร่วมรูเปิดเล็กตามขอบหน้า SCM สองข้าง และคัดกรองการได้ยินไม่ผ่าน → BOR syndrome → ตรวจ ABR และ renal ultrasound",
+   "เด็กหลัง simple sinectomy กลับมาเป็นซ้ำที่เดิม 6 เดือน → re-excision แบบกว้างรวมกระดูกอ่อน helix ที่ยึด",
+   "เด็ก 8 ปีมีรูเปิดเล็กใต้ติ่งหูใกล้มุมขากรรไกร มีหนองซึมเรื้อรัง ต่อกับ external auditory canal → first branchial cleft anomaly → ผ่าตัดโดยระวัง facial nerve",
+   "ทำไมต้องรอให้การอักเสบสงบก่อนตัด → เนื้อเยื่ออักเสบบวมทำให้แยกทางเดินยาก ตัดไม่หมด เลือดออกและกลับเป็นซ้ำมากขึ้น"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>Preauricular sinus — excision</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Preauricular sinus - excision\" → แต่งโจทย์",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_6"
   ]
  },
  "MDCU74|RoC|7": {
-  "interp": "เด็ก 9 ปี phimosis แบบผิดปกติ (หนังหุ้มเป็นแผลเป็น) + balanoposthitis ซ้ำ แม้ได้ steroid ทาครบแล้ว → ถามการรักษา",
-  "why": "ผู้จดเขียน <b>Circumcision</b><br><b>นอกสไลด์:</b> Pathological phimosis คือหนังหุ้มตีบจากแผลเป็น (เช่น balanitis xerotica obliterans) ไม่ใช่การยึดตามธรรมชาติ · เมื่อ steroid ทาไม่ได้ผลหรือมีภาวะแทรกซ้อนซ้ำ (ติดเชื้อซ้ำ ปัสสาวะลำบาก UTI) → ขลิบ",
+  "interp": "เด็กชาย 9 ปี มี <b>pathological phimosis</b> — หนังหุ้มปลายเป็น<b>แผลเป็น</b> และ<b>หนังหุ้มปลายอักเสบซ้ำ (recurrent balanoposthitis)</b> แม้ใช้ topical steroid ครบคอร์สแล้ว — ถามการรักษาที่เหมาะสม ต้องแยก physiologic phimosis (เฝ้าดู) ออกจาก pathologic phimosis ที่ต้องผ่าตัด",
+  "why": "<b>Physiologic phimosis</b> คือหนังหุ้มที่ยังแยกจาก glans ไม่หมดตามธรรมชาติ ปลายหนังนุ่ม ไม่มีแผลเป็น ค่อย ๆ รูดได้เองเมื่อโต (ส่วนใหญ่ก่อน/ ช่วงวัยรุ่น) ไม่ต้องรักษา · <b>Pathologic phimosis</b> คือหนังหุ้มตีบจาก<b>แผลเป็น</b> — ปลายหนังเป็นวงขาวแข็ง (cicatrix) มักจาก <b>balanitis xerotica obliterans (BXO, lichen sclerosus)</b> หรือการอักเสบซ้ำ/ การรูดดึงแรง ๆ · ขั้นแรกของ phimosis ที่ไม่มีแผลเป็นชัดคือ topical corticosteroid (เช่น 0.05–0.1% betamethasone) 4–8 สัปดาห์ แต่เมื่อ<b>มีแผลเป็นและไม่ตอบสนองต่อ steroid</b> หรือมี balanoposthitis ซ้ำ, UTI ซ้ำร่วมความผิดปกติทางเดินปัสสาวะ, ปัสสาวะลำบาก/ ปัสสาวะค้าง → <b>circumcision</b> (ใน BXO ส่งชิ้นเนื้อพยาธิและตรวจ meatus เพราะอาจมี meatal stenosis) · ข้อห้ามขลิบ: hypospadias, chordee, buried/ webbed penis (ต้องเก็บหนังไว้ซ่อม) · ไฟล์ผู้จดเขียนหัวข้อ <b>\"Phimosis - circumcision\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ถ้า steroid จะได้ผลจะเห็นในราว 4–8 สัปดาห์ · ไม่มีสถานการณ์ใดที่ควรทาต่อนาน 1 ปี เพราะไม่เพิ่มโอกาสสำเร็จ และเสี่ยงผิวบาง",
-   "C": "<b>นอกสไลด์:</b> การรูดแรง ๆ ทำให้หนังหุ้มฉีก เกิดแผลเป็นตีบมากขึ้นหรือรูดค้าง (paraphimosis) · ไม่มีสถานการณ์ใดที่แนะนำ เพราะทำร้ายเนื้อเยื่อ — สอนรูดเบา ๆ เท่าที่ไปได้ตอนอาบน้ำเท่านั้น",
-   "D": "<b>นอกสไลด์:</b> เฝ้าดูใช้กับ physiologic phimosis · จะถูกถ้าเด็กรูดหนังหุ้มไม่ลงแต่ปลายนุ่ม ไม่มีแผลเป็น ไม่เคยติดเชื้อหรือปัสสาวะลำบาก",
-   "E": "<b>นอกสไลด์:</b> ยาปฏิชีวนะรักษาการติดเชื้อแต่ละครั้ง ไม่แก้หนังหุ้มที่ตีบ · จะถูกถ้าเป็น balanoposthitis ครั้งแรกที่มีหนองในเด็กที่หนังหุ้มไม่มีแผลเป็น"
+   "B": "ทาสเตียรอยด์ต่อนาน 1 ปีไม่แก้แผลเป็นที่แข็งแล้ว และใช้นานเสี่ยงผิวบาง — steroid ได้ผลกับหนังที่ยังไม่มีแผลเป็นในช่วงคอร์ส 4–8 สัปดาห์ (ทำซ้ำได้ 1 คอร์สถ้าตอบสนองบางส่วน) — จะถูกถ้าเป็นเด็กชาย 6 ปีหนังหุ้มตีบไม่มีวงขาวแข็ง ทาครบ 6 สัปดาห์แล้วรูดได้มากขึ้นแต่ยังไม่สุด จึงให้คอร์สที่สองอีก 4–6 สัปดาห์",
+   "C": "การรูดดึงหนังหุ้มอย่างแรงทำให้ฉีกขาด เกิดแผลเป็นเพิ่มจนเป็น pathologic phimosis และเสี่ยง paraphimosis จึงไม่ควรทำ — จะถูกถ้าเปลี่ยนเป็นการรูดเบา ๆ ด้วยตัวเองเพื่อทำความสะอาด เช่นเด็กชาย 12 ปีที่หนังหุ้มรูดได้เองตามธรรมชาติแล้ว แนะนำให้รูดลงล้างขณะอาบน้ำแล้วรูดกลับทุกครั้ง",
+   "D": "การเฝ้าดูถึงวัยรุ่นเหมาะกับ physiologic phimosis ที่ไม่มีอาการ ไม่ใช่หนังที่มีแผลเป็นและอักเสบซ้ำ ซึ่งไม่หายเองและเสี่ยงปัสสาวะลำบาก — จะถูกถ้าเป็นเด็กชาย 4 ปีหนังหุ้มรูดไม่ลง ปลายหนังนุ่มไม่มีแผลเป็น หนังโป่งเวลาปัสสาวะแต่ไม่เคยติดเชื้อ",
+   "E": "ยาปฏิชีวนะรักษา balanoposthitis ครั้งที่เป็นอยู่ (ร่วมกับทำความสะอาด) แต่ไม่แก้สาเหตุคือหนังหุ้มตีบ จึงอักเสบซ้ำอีก — จะถูกถ้าเป็นเด็กชาย 5 ปีมีปลายองคชาตบวมแดงมีหนองเป็นครั้งแรก ไข้ต่ำ มี cellulitis ลามที่ shaft (ให้ยาปฏิชีวนะทางปากร่วม sitz bath)"
   },
-  "trap": "สับสน pathological phimosis (แผลเป็น ติดเชื้อซ้ำ → ขลิบ) กับ physiologic phimosis ในเด็กเล็ก (ปกติ → เฝ้าดู)",
+  "trap": "ข้อความ 'phimosis ในเด็กส่วนใหญ่หายเอง' ทำให้คนเลือกเฝ้าดูหรือทายาต่อ · ต้องแยกให้ได้ว่าข้อนี้มี<b>แผลเป็น + อักเสบซ้ำ + ไม่ตอบสนอง steroid</b> = pathologic → circumcision · คนละหัวข้อกับ 'phimosis ยังไม่ 4 ขวบ - follow up' ที่ท้ายไฟล์ซึ่งเป็น physiologic",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ขลิบ: pathological phimosis/BXO · balanoposthitis ซ้ำ · UTI ซ้ำในเด็กที่มีความผิดปกติทางเดินปัสสาวะ · steroid ไม่ได้ผล",
-   "<b>นอกสไลด์:</b> ข้อห้ามขลิบ: hypospadias และ chordee (เก็บหนังหุ้มไว้ใช้ซ่อม) · buried penis"
+   "Physiologic phimosis: ปลายหนังนุ่ม เมื่อรูดเบา ๆ จะเห็นรูปปากแตร (pouting) ไม่มีแผลเป็น · หนังโป่งเวลาปัสสาวะในเด็กเล็กไม่ใช่ข้อบ่งชี้ผ่าตัด",
+   "Pathologic phimosis: วงขาวแข็ง/ แผลเป็นที่ปลายหนัง · BXO (lichen sclerosus) พบมากขึ้นช่วงอายุ 8–11 ปี",
+   "Topical steroid 4–8 สัปดาห์ (betamethasone 0.05–0.1%) สำเร็จสูงในหนังที่ไม่มีแผลเป็น · BXO ตอบสนองน้อย",
+   "ข้อบ่งชี้ circumcision: pathologic phimosis/ BXO, balanoposthitis ซ้ำ, paraphimosis ซ้ำ, UTI ซ้ำร่วม VUR/ ความผิดปกติทางเดินปัสสาวะ, ศาสนา/ ความต้องการของครอบครัว",
+   "ข้อห้าม circumcision: hypospadias, chordee, buried/ webbed penis, micropenis, ภาวะเลือดออกง่ายที่ยังไม่แก้",
+   "ภาวะแทรกซ้อนหลังขลิบ: เลือดออก (พบบ่อยสุด), ติดเชื้อ, meatal stenosis (โดยเฉพาะ BXO), ตัดหนังมาก/ น้อยเกิน, trapped penis",
+   "ทางเลือกอนุรักษ์หนัง: preputioplasty (ผ่าคลายวงตีบแล้วเย็บตามขวาง) ในครอบครัวที่ไม่ต้องการขลิบและไม่มี BXO"
   ],
-  "opinion": "เห็นด้วยกับคีย์ circumcision · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ให้เป็น pathological phimosis · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ผู้จดเขียนหัวข้อ \"Phimosis - circumcision\" · ต้นฉบับจดเพียงหัวข้อ เว็บแต่งเคสเป็น pathologic phimosis ที่มีแผลเป็นและอักเสบซ้ำหลัง steroid เพื่อให้ circumcision เป็นคำตอบเดียว และแยกจากหัวข้อ physiologic phimosis ที่ให้เฝ้าดู",
+  "mnemonic": "<b>'Phimosis: 'นุ่ม = รอ · ทาสเตียรอยด์ = ลอง · แผลเป็น/ อักเสบซ้ำ = ขลิบ''</b>",
+  "guide": "EAU-ESPU Guidelines on Paediatric Urology 2025 (Phimosis); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Circumcision",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกแรกเกิดรูเปิดท่อปัสสาวะอยู่ใต้องคชาตและหนังหุ้มด้านล่างขาด ผู้ปกครองขอขลิบ → ห้ามขลิบ (hypospadias) ส่งศัลยแพทย์ทางเดินปัสสาวะเด็ก"
+   "เด็กชาย 10 ปี ปลายหนังเป็นวงขาวแข็ง ปัสสาวะลำเล็กต้องเบ่ง → BXO → circumcision ส่งพยาธิ และตรวจ meatus หา meatal stenosis",
+   "ทารกชาย 3 เดือน UTI มีไข้ 2 ครั้ง VCUG พบ VUR grade IV → พิจารณา circumcision ลดความเสี่ยง UTI ซ้ำ ร่วม antibiotic prophylaxis",
+   "ทารกชายแรกเกิด รูเปิดท่อปัสสาวะอยู่ใต้ glans หนังหุ้มด้านล่างขาดหาย → hypospadias → ห้ามขลิบ เก็บหนังไว้ซ่อม",
+   "ทำไมห้ามบังคับรูดหนังหุ้มในเด็กเล็ก → ทำให้ฉีกขาดเป็นแผลเป็น เปลี่ยน physiologic เป็น pathologic phimosis และเสี่ยง paraphimosis"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>Phimosis — circumcision</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Phimosis - circumcision\" → แต่งโจทย์ให้เป็น pathological phimosis ที่ต้อง circumcision (แยกจากหัวข้อ \"Phimosis ยังไม่ 4 ขวบ - Follow up\" ท้ายไฟล์)",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_7"
   ]
  },
  "MDCU74|RoC|8": {
-  "interp": "ทารกผนังหน้าท้องเป็นรูเต็มความหนา ลำไส้ไม่มีถุงหุ้ม = gastroschisis → ถามข้อความที่ถูก (เทียบกับ omphalocele)",
-  "why": "ผู้จดใส่ :) ที่ <b>Anomalies</b> และจดว่า <b>\"Lt umbilical\" ผิด</b><br><b>นอกสไลด์:</b> Gastroschisis เกิดจากผนังหน้าท้องข้างสายสะดือ (ด้านขวา) อ่อนแอจนแตก ไม่ใช่ความผิดปกติของการปิดตัวของตัวอ่อนทั้งระบบ จึงมีความผิดปกติร่วมน้อย — ที่พบคือ intestinal atresia ซึ่งเกิดจากลำไส้ขาดเลือดตรงรูแคบ",
+  "interp": "ทารกแรกเกิดมีรูผนังหน้าท้องทะลุทุกชั้น ลำไส้ออกมา<b>ไม่มีอะไรคลุม</b> = <b>gastroschisis</b> — ถามข้อความที่ถูกเกี่ยวกับ gastroschisis ต้องรู้ตำแหน่งรูรั่ว การไม่มีถุงหุ้ม อายุมารดา ความเร่งด่วนของการรักษา และอัตราความผิดปกติร่วมเทียบกับ omphalocele",
+  "why": "<b>Gastroschisis</b> เชื่อว่าเกิดจากความผิดปกติของหลอดเลือดผนังหน้าท้อง (right omphalomesenteric artery/ right umbilical vein ฝ่อ) ทำให้ผนังด้าน<b>ขวาของสายสะดือ</b>อ่อนแอและแตก รูมักเล็ก 2–4 cm สายสะดือเกาะปกติ · ลำไส้ออกมา<b>โดยไม่มีถุงหุ้ม</b> แช่น้ำคร่ำนานจึงบวม สั้นลง ผิวมี fibrinous peel · อุบัติการณ์เพิ่มขึ้นทั่วโลก สัมพันธ์กับ<b>มารดาอายุน้อย</b> (&lt; 20 ปี) สูบบุหรี่ แอลกอฮอล์ ยา vasoactive/ สารเสพติด · <b>ความผิดปกติร่วมพบน้อยกว่า omphalocele มาก</b> (ส่วนใหญ่เป็นของลำไส้เอง — <b>intestinal atresia ~10–15%</b>, malrotation โดยสภาพ, undescended testis) ขณะที่ omphalocele มี anomaly ร่วมเกินครึ่ง · ก่อนคลอดติดตามด้วย US (ลำไส้ขยาย, การเจริญเติบโตช้า) คลอดราว 37 สัปดาห์ในศูนย์ที่มีศัลยแพทย์เด็ก คลอดทางช่องคลอดได้ · หลังเกิด: คลุมลำไส้ด้วยถุงพลาสติก ไม่ให้บิดพับ, OG decompression, IV fluid ปริมาณมาก ยาปฏิชีวนะ → <b>ปิดหน้าท้องด่วน</b> (primary closure หรือ preformed silo แล้วค่อย ๆ ดันกลับ) · รอดมากกว่า 90% · ไฟล์ผู้จดใส่ <b>\":)\"</b> ที่ <b>\"Anomalies\"</b> และจด \"Lt umbilical\" ซึ่ง P'Ing ระบุว่าผิด (defect อยู่ขวา)",
   "wrong": {
-   "B": "ผู้จดระบุว่าผิด · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ถูก เพราะข้อความพูดถึงตำแหน่งที่พบส่วนใหญ่ ซึ่ง gastroschisis อยู่ด้านขวาของสายสะดือ",
-   "C": "<b>นอกสไลด์:</b> ถุงหุ้มเป็นลักษณะของ omphalocele · ไม่มีสถานการณ์ใดที่ข้อความนี้ถูกกับ gastroschisis เพราะตามนิยามลำไส้ออกนอกตัวโดยไม่มีถุง จึงบวมแข็งมีพังผืดคลุม (peel) จากสัมผัสน้ำคร่ำ",
-   "D": "<b>นอกสไลด์:</b> มารดาอายุมากเป็นของ omphalocele · ไม่มีสถานการณ์ใดที่ข้อความนี้ถูกกับ gastroschisis เพราะสัมพันธ์กับมารดาอายุน้อย สูบบุหรี่ ใช้สารเสพติด",
-   "E": "<b>นอกสไลด์:</b> ผนังหน้าท้องต้องคลุมและปิดภายในไม่กี่วัน · จะถูก (ในส่วนการต่อลำไส้) ถ้า gastroschisis มี intestinal atresia ร่วม — ปิดผนังหน้าท้องก่อน แล้วค่อยผ่าตัดต่อลำไส้ภายหลังเมื่อ peel ยุบ"
+   "B": "รูของ gastroschisis เกือบทั้งหมดอยู่<b>ขวา</b>ของสายสะดือ (ผู้จดจำช้อย \"Lt umbilical\" ไว้ ซึ่งเป็นข้อผิด) การอยู่ซ้ายพบน้อยมาก — จะถูกถ้าเป็นรายงานผู้ป่วยหายากของ left-sided gastroschisis ในทารกที่ลำไส้ออกจากรูข้างซ้ายของสายสะดือ ซึ่งมักพบความผิดปกติร่วมมากกว่าชนิดขวา",
+   "C": "ถุงเยื่อบุช่องท้อง/ amnion ที่คลุมลำไส้เป็นลักษณะของ <b>omphalocele</b> gastroschisis ไม่มีถุงหุ้ม — จะถูกถ้าเป็นทารกที่มีก้อนออกจากฐานสายสะดือตรงกลาง คลุมด้วยเยื่อบางใส เห็นลำไส้และตับอยู่ข้างใน สายสะดือเกาะบนยอดถุง",
+   "D": "มารดาอายุมากสัมพันธ์กับ omphalocele และความผิดปกติของโครโมโซม ส่วน gastroschisis สัมพันธ์กับ<b>มารดาอายุน้อย</b> — จะถูกถ้าเป็นมารดาอายุ 42 ปี US ไตรมาสสองพบผนังหน้าท้องมีถุงยื่นที่สะดือร่วมหัวใจพิการ ตรวจโครโมโซมทารกเป็น trisomy 18 (omphalocele)",
+   "E": "Gastroschisis รอไม่ได้ ลำไส้ที่ไม่มีอะไรคลุมเสียน้ำ ความร้อน ติดเชื้อ และขาดเลือดถ้าบิดพับ ต้องคลุม/ ปิดภายในไม่กี่ชั่วโมงถึงไม่กี่วัน — จะถูกถ้าเป็นทารก giant omphalocele ที่ถุงไม่แตก ตับอยู่ในถุง ปอดเล็ก ใช้วิธีทายาให้ผิวขึ้นคลุมถุงแล้วผ่าตัดซ่อมไส้เลื่อนเมื่ออายุหลายเดือน-ปี"
   },
-  "trap": "ผู้จดจำช้อยได้ไม่ครบ จึงแต่งช้อยให้ข้อ anomalies เป็นข้อถูกตามที่ผู้จดตอบ · ระวังสลับลักษณะของสองโรค",
+  "trap": "ข้อความ 'anomalies' ฟังดูเป็นลบ คนจึงอาจคิดว่า gastroschisis มี anomaly มาก · ความจริงตรงข้าม — anomaly ร่วมของ gastroschisis <b>น้อยกว่า</b> omphalocele และส่วนใหญ่จำกัดที่ลำไส้ (atresia) · ช้อยที่เหลือเป็นลักษณะของ omphalocele (ถุง, มารดาอายุมาก, รอผ่าตัดได้) หรือข้างผิด (ซ้าย)",
   "summary": [
-   "<b>นอกสไลด์:</b> Gastroschisis: ขวาของสายสะดือ · ไม่มีถุง · มารดาอายุน้อย (ต่ำกว่าราว 20 ปี) · ความผิดปกติร่วมน้อย (มี intestinal atresia ราว 10%) · atresia ร่วม → ต่อลำไส้ภายหลังราว 4–6 สัปดาห์",
-   "<b>นอกสไลด์:</b> ดูแลแรกเกิด: คลุมลำไส้ด้วยถุงพลาสติกใสปลอดเชื้อ จัดให้ลำไส้ไม่บิด · สารน้ำมากกว่าปกติ · OG ดูดลม · ยาปฏิชีวนะ · รักษาอุณหภูมิ",
-   "<b>นอกสไลด์:</b> ปิดแบบ primary ถ้าดันกลับได้โดยความดันช่องท้องไม่สูง · ไม่ได้ → silo แล้วปิดภายหลัง · หลังผ่าตัดลำไส้มักทำงานช้า ต้องให้อาหารทางหลอดเลือดนาน"
+   "Gastroschisis: ขวาสายสะดือ · ไม่มีถุง · ลำไส้ (บางครั้งกระเพาะ/ gonad) ไม่มีตับ · มารดาอายุน้อย บุหรี่ ยา · อุบัติการณ์เพิ่มขึ้น",
+   "Anomaly ร่วม: ส่วนใหญ่ intestinal atresia ~10–15%, non-rotation, undescended testis · chromosomal/ หัวใจพบน้อย (ต่างจาก omphalocele)",
+   "Simple vs complex gastroschisis: complex = มี atresia, perforation, necrosis หรือ volvulus → ตายและ short bowel มากกว่า ต้อง TPN นาน",
+   "ก่อนคลอด: maternal serum AFP สูง · US ติดตามลำไส้ขยาย/ ผนังหนา และ IUGR · วางแผนคลอดราว 37 สัปดาห์ในศูนย์ที่มีศัลยกรรมเด็ก",
+   "แรกเกิด: ห่อลำไส้ (bowel bag) จัดให้อยู่ตรงกลางไม่บิดพับ ตะแคงขวา OG suction IV fluid มาก (เสียน้ำทางลำไส้) ยาปฏิชีวนะ ตรวจเลือดไปลำไส้บ่อย ๆ",
+   "ปิดหน้าท้อง: primary closure (ระวัง abdominal compartment syndrome — วัด bladder pressure) หรือ preformed silo ค่อย ๆ ลดลำไส้ 3–7 วันแล้วปิด (sutureless closure ได้)",
+   "หลังผ่าตัด: ลำไส้ทำงานช้าหลายสัปดาห์ ต้อง TPN · ภาวะแทรกซ้อน NEC, cholestasis จาก TPN, short bowel ใน complex"
   ],
-  "opinion": "เห็นด้วยกับคีย์ (anomalies น้อยกว่า omphalocele) · ช้อยแต่งให้ครบเพราะผู้จดจำได้ไม่ครบ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ผู้จดใส่ :) ที่ข้อ Anomalies และ P'Ing ระบุว่า Lt umbilical ผิด · ต้นฉบับจำช้อยได้แค่ 2 ข้อ เว็บแต่งช้อย C–E เป็นลักษณะของ omphalocele ทั้งหมดและเขียนข้อถูกให้ชัดว่า anomaly พบน้อยกว่า omphalocele",
+  "mnemonic": "<b>'Gastroschisis = 'G'o right · no bag · young mom · fast cover · few anomalies (ยกเว้น atresia)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Abdominal Wall Defects; Sabiston Textbook of Surgery 21st ed. (2022) Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก gastroschisis หลังใส่ silo ลำไส้ตรงรูเปิดคล้ำลง → รูรัดลำไส้ (closing gastroschisis) ขยายรูหรือย้ายลำไส้ทันที"
+   "ทารก gastroschisis หลังทำ primary closure ปัสสาวะน้อย ท้องตึง ความดันในกระเพาะปัสสาวะ 25 mmHg ventilator ต้องใช้ความดันสูง → abdominal compartment syndrome → เปิดแผลออกใส่ silo",
+   "ทารก gastroschisis ระหว่างผ่าตัดพบ jejunal atresia ลำไส้บวมหนามาก → ลดลำไส้และปิดหน้าท้องก่อน แล้วต่อลำไส้ในอีก 4–6 สัปดาห์เมื่อบวมยุบ",
+   "ทารก gastroschisis ใน silo ลำไส้ส่วนหนึ่งสีคล้ำ → ตรวจหาจุดบิดพับ/ รูรัดแคบ ขยายรูหรือจัดลำไส้ใหม่ด่วน",
+   "ทำไมทารก gastroschisis เสียน้ำและความร้อนมาก → ลำไส้ไม่มีผิวหนังหรือถุงคลุม พื้นที่ผิวเปียกสัมผัสอากาศโดยตรง"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>Gastroschisis ข้อไหนถูก — Anomalies :) · Lt umbilical · …….</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ผู้จดจำช้อยได้แค่ \"Anomalies :)\" และ \"Lt umbilical\" → แต่งช้อยให้ครบ โดยให้ข้อเรื่อง anomalies เป็นข้อถูกตามที่ผู้จดตอบ",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_8"
   ]
  },
  "MDCU74|RoC|9": {
-  "interp": "ทารก 2 วันอาเจียนน้ำดี ท้องอืด AXR triple bubble ไม่มีลมส่วนปลาย · ผ่าตัดพบ proximal jejunal atresia → ถามการรักษา",
-  "why": "ผู้จดเขียน <b>jejunojejunostomy</b> · P'Ing เขียน <b>jejunal atresia: bowel anastomosis</b> + ภาพ AXR และ classification<br><b>นอกสไลด์:</b> Jejunoileal atresia เกิดจากหลอดเลือดลำไส้อุดตันในครรภ์ ส่วนต้นจะโป่งมากและบีบตัวไม่ดี จึงตัดหรือเย็บเรียว (taper) ส่วนที่โป่งแล้วต่อปลายกับปลาย · ต้องตรวจตลอดลำไส้หา atresia ตำแหน่งอื่นด้วย",
+  "interp": "ทารก 2 วัน อาเจียนน้ำดี ท้องอืด ภาพรังสีเป็น <b>triple bubble sign</b> ไม่มีลมส่วนปลาย และผ่าตัดพบ <b>proximal jejunal atresia</b> — ถามการผ่าตัดที่เหมาะสม ต้องรู้ว่าการอุดตันที่ jejunum แก้ด้วยการตัดส่วนที่ขยายผิดรูปแล้วต่อลำไส้ปลายต่อปลาย",
+  "why": "<b>Jejunoileal atresia</b> เกิดจาก<b>อุบัติเหตุทางหลอดเลือด mesentery ในครรภ์</b> (volvulus, intussusception, ไส้เลื่อนรัด, gastroschisis) ทำให้ลำไส้ส่วนนั้นขาดเลือดและหายไป — ต่างจาก <b>duodenal atresia</b> ที่เกิดจาก failure of recanalization และสัมพันธ์กับ Down syndrome/ annular pancreas · ภาพรังสี: <b>double bubble</b> = duodenal atresia · <b>triple bubble</b> (กระเพาะ + duodenum + jejunum ส่วนต้น) = <b>proximal jejunal atresia</b> · หลายห่วงขยาย = ileal atresia (contrast enema เห็น microcolon) · Grosfeld classification: I membrane/ web · II fibrous cord · IIIa mesentery ขาดเป็นรูปตัว V · IIIb apple-peel (SMA ส่วนปลายหาย ลำไส้พันรอบหลอดเลือด) · IV หลายตำแหน่ง · การผ่าตัด: ตรวจตลอดลำไส้หาตำแหน่งอุดอื่น (ฉีดน้ำเกลือส่วนปลาย) → <b>ตัดส่วนต้นที่โป่งพองมาก</b>ซึ่งบีบตัวไม่ดี หรือทำ tapering jejunoplasty เมื่อต้องเก็บความยาว → <b>end-to-back/ end-to-oblique jejunojejunostomy</b> แบบ primary anastomosis · เก็บความยาวลำไส้ให้มากที่สุด (กัน short bowel) · ไฟล์ผู้จดเขียนหัวข้อ <b>\"Three bubbles treatment - jejunojejunostomy\"</b> และ P'Ing เขียน \"jejunal atresia: bowel anastomosis\" พร้อมแปะภาพ AXR และ classification",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ต่อ duodenum ข้ามจุดตัน ใช้กับ duodenal atresia · จะถูกถ้าทารกอาเจียนตั้งแต่วันแรก AXR เป็น double bubble ไม่มีลมส่วนปลาย (มักร่วมกับ Down syndrome)",
-   "C": "<b>นอกสไลด์:</b> ต่อกระเพาะกับ jejunum ข้ามการอุดกั้น ไม่ได้แก้จุดตัน และทิ้งลำไส้ส่วนต้นที่โป่งไว้ · จะถูกถ้าผู้ใหญ่มีกระเพาะอุดกั้นจากมะเร็งที่ตัดไม่ได้ ต้องผ่าตัดทางเบี่ยงแบบประคับประคอง",
-   "D": "<b>นอกสไลด์:</b> Ladd procedure แก้ malrotation · จะถูกถ้าทารกอาเจียนน้ำดีเฉียบพลัน UGI study เห็น duodenojejunal junction อยู่ขวาของกระดูกสันหลังหรือ corkscrew (midgut volvulus)",
-   "E": "<b>นอกสไลด์:</b> ทำ stoma อย่างเดียวเมื่อต่อลำไส้ไม่ปลอดภัย · จะถูกถ้าทารก atresia มี meconium peritonitis ลำไส้บวมอักเสบมาก หรืออาการไม่คงที่ — ทำ stoma ก่อนแล้วต่อภายหลัง"
+   "A": "Duodenoduodenostomy (diamond-shaped, Kimura) เป็นการผ่าตัดของ <b>duodenal atresia/ stenosis</b> หรือ annular pancreas ต่อ duodenum ส่วนก่อนและหลังจุดอุดข้ามตับอ่อน ไม่ใช่สำหรับ jejunum — จะถูกถ้าเป็นทารก Down syndrome อาเจียนเขียวตั้งแต่วันแรก ภาพรังสี double bubble ไม่มีลมส่วนปลาย ผ่าตัดพบ annular pancreas",
+   "C": "Gastrojejunostomy ในเด็กเลี่ยงเพราะเกิด blind loop, marginal ulcer และไม่แก้จุดอุดตันที่ jejunum ซึ่งอยู่ส่วนปลายกว่าที่จะต่อ — ใช้ในผู้ใหญ่เพื่อ bypass การอุดทางออกกระเพาะ — จะถูกถ้าเป็นชาย 70 ปีมะเร็งหัวตับอ่อนลุกลามตัดไม่ได้ อาเจียนจาก gastric outlet obstruction ต้องผ่าตัดทางเบี่ยงแบบประคับประคอง",
+   "D": "Ladd procedure แก้ <b>malrotation</b> (คลายเกลียว volvulus ตัด Ladd band ขยายฐาน mesentery ตัดไส้ติ่ง) ไม่ใช่การแก้ atresia — แม้ทั้งสองทำให้อาเจียนเขียว — จะถูกถ้าเป็นทารก 10 วันที่เคยกินนมดี แล้วอาเจียนเขียวทันที UGI พบ DJ flexure อยู่ขวาของกระดูกสันหลัง ลำไส้เป็นเกลียว corkscrew",
+   "E": "Ileostomy อย่างเดียวไม่แก้ atresia ที่ jejunum ส่วนต้น (stoma จะอยู่ปลายจุดอุด) และ stoma สูงทำให้เสียน้ำมาก — stoma ใช้เมื่อต่อลำไส้ไม่ปลอดภัย — จะถูกถ้าเป็นทารกคลอดก่อนกำหนดที่เป็น NEC ลำไส้ ileum ทะลุ ช็อก ต้องตัดลำไส้ส่วนตายและนำปลายออกเป็น stoma"
   },
-  "trap": "สับสน double bubble (duodenal atresia → duodenoduodenostomy) กับ triple bubble (jejunal atresia → ตัดต่อ jejunum)",
+  "trap": "คำว่า 'bubble' ทำให้นึกถึง duodenal atresia (double bubble) แล้วตอบ duodenoduodenostomy · ต้องนับ <b>สาม</b> bubble = อุดที่ jejunum ส่วนต้น · อีกกับดักคือ Ladd procedure เพราะอาเจียนเขียวในทารกชวนให้คิด malrotation — แต่ผ่าตัดพบ atresia แล้วจึงต้องต่อลำไส้",
   "summary": [
-   "สไลด์ในคีย์: AXR และ classification ของ jejunal atresia",
-   "<b>นอกสไลด์:</b> Classification: I เยื่อกั้น · II สายพังผืดต่อสองปลาย · IIIa ขาดและ mesentery แหว่งเป็นรูปตัว V · IIIb apple-peel · IV หลายตำแหน่ง",
-   "<b>นอกสไลด์:</b> Duodenal atresia ต่างกลไก: ท่อไม่กลับมากลวงหลังระยะตัน (recanalization) และสัมพันธ์ Down syndrome"
+   "Bubble sign: single = pyloric atresia/ obstruction · double = duodenal atresia (ไม่มีลมส่วนปลาย) · triple = proximal jejunal atresia · หลายห่วง = ileal atresia/ meconium ileus/ Hirschsprung",
+   "Duodenal atresia: failure of recanalization · Down syndrome ~30% · polyhydramnios · ใต้ ampulla → อาเจียนเขียว · รักษา duodenoduodenostomy",
+   "Jejunoileal atresia: vascular accident ในครรภ์ · anomaly นอกลำไส้น้อย · cystic fibrosis สัมพันธ์กับ ileal atresia/ meconium ileus",
+   "Grosfeld: I web · II cord · IIIa V-shaped mesenteric defect · IIIb apple-peel (เสี่ยง short bowel) · IV multiple ('string of sausages')",
+   "ผ่าตัด: ตรวจ patency ทั้งเส้นด้วยน้ำเกลือ · ตัด/ taper ส่วนต้นที่โป่ง · end-to-back anastomosis · เก็บความยาว",
+   "ก่อนผ่าตัด: NG/ OG decompression, IV fluid, แก้ electrolyte · contrast enema ใน distal obstruction (microcolon) และแยก Hirschsprung/ meconium ileus",
+   "ลำไส้เล็กเหลือ &lt; ~25% ของความยาวปกติในทารก → เสี่ยง short bowel syndrome · ต้องดูแลด้วย intestinal rehabilitation"
   ],
-  "opinion": "เห็นด้วยกับคีย์ jejunojejunostomy · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ผู้จดเขียน jejunojejunostomy และ P'Ing เขียน jejunal atresia: bowel anastomosis · ต้นฉบับจดเพียงหัวข้อ 'Three bubbles treatment' เว็บแต่งเคสให้ระบุ proximal jejunal atresia ชัด และช้อยอื่นเป็นการผ่าตัดของ duodenal atresia, malrotation หรือการทำ stoma",
+  "mnemonic": "<b>'Bubble นับเลข: 1 = pylorus · 2 = duodenum (Down) · 3 = jejunum → ต่อ jejunum (JJ)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Jejunoileal Atresia and Stenosis; Sabiston Textbook of Surgery 21st ed. (2022) Pediatric Surgery",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกท้องอืดมาก อาเจียนน้ำดีวันที่ 2 ไม่ถ่ายขี้เทา AXR ลำไส้โป่งหลายห่วง contrast enema เห็นลำไส้ใหญ่เล็ก (microcolon) → ileal atresia หรือ meconium ileus"
+   "ทารก 1 วัน ท้องอืดมาก อาเจียนเขียว AXR หลายห่วงขยาย contrast enema พบ microcolon → distal ileal atresia → ผ่าตัด resection + ileoileostomy",
+   "ผ่าตัดพบ jejunal atresia ชนิด apple-peel ลำไส้ส่วนปลายพันรอบหลอดเลือดเส้นเดียว → type IIIb → ต่อลำไส้อย่างระวัง เสี่ยง short bowel",
+   "ทารก Down syndrome อาเจียนเขียว double bubble → duodenal atresia → echocardiography หาโรคหัวใจก่อนผ่าตัด duodenoduodenostomy",
+   "ทำไมต้องตัดหรือ taper ลำไส้ส่วนต้นที่โป่งก่อนต่อ → ส่วนที่โป่งมากบีบตัวไม่ได้ ทำให้อาหารค้าง ลำไส้อุดแบบ functional และเสี่ยงรอยต่อรั่ว"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>Three bubbles treatment — jejunojejunostomy · …….</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Three bubbles treatment - jejunojejunostomy\" → แต่งโจทย์",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_9"
   ]
  },
  "MDCU74|RoC|10": {
-  "interp": "เด็ก 12 ปี ก้อนนิ่มไม่เจ็บที่ขอบหน้ากล้ามเนื้อ SCM รอยต่อส่วนบนกับส่วนกลาง บวมเจ็บหลังหวัด → ถามการวินิจฉัย",
-  "why": "ไฟล์จดแค่ว่ามีข้อสอบเรื่อง <b>branchial cleft cyst</b> 1 ข้อ — Claude แต่งโจทย์<br><b>นอกสไลด์:</b> Second branchial cleft เป็น branchial anomaly ที่พบบ่อยที่สุด ถุงน้ำอยู่ขอบหน้า SCM รอยต่อส่วนบนกับส่วนกลาง มักโตหรืออักเสบหลังติดเชื้อทางเดินหายใจ เพราะผนังมีเนื้อเยื่อน้ำเหลือง · ถ้าเป็นรูเปิด จะเปิดที่ขอบหน้า SCM ส่วนล่าง และท่อวิ่งผ่านระหว่าง internal กับ external carotid ไปเปิดที่ tonsillar fossa",
+  "interp": "เด็กชาย 12 ปี มีก้อนนุ่มไม่เจ็บ<b>ด้านข้างคอตามขอบหน้า sternocleidomastoid รอยต่อ 1/3 บนกับ 1/3 กลาง</b> บวมเจ็บขึ้นหลังติดเชื้อทางเดินหายใจส่วนบน = <b>second branchial cleft cyst</b> — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ต้องใช้ตำแหน่งของก้อน (แนวกลาง vs ด้านข้าง, หน้า vs หลัง SCM) แยกก้อนแต่กำเนิดที่คอ",
+  "why": "ช่วงตัวอ่อนมี pharyngeal (branchial) arch, cleft (ด้านนอก) และ pouch (ด้านใน) ถ้าส่วนของ cleft/ pouch ไม่ปิดจะเหลือเป็น cyst, sinus หรือ fistula · <b>Second branchial cleft anomaly</b> พบบ่อยที่สุด (~90–95% ของ branchial anomalies) · <b>cyst</b> อยู่ที่<b>ขอบหน้าของ SCM ราวรอยต่อ 1/3 บนกับกลาง</b> ใต้มุมขากรรไกร มักโผล่ในเด็กโต/ วัยหนุ่มสาว <b>บวมเจ็บหลังติดเชื้อทางเดินหายใจ</b> (lymphoid tissue ในผนังถุงตอบสนอง) · <b>sinus/ fistula</b> มีรูเปิดที่ขอบหน้า SCM ส่วนล่าง ทางเดินวิ่ง<b>ระหว่าง internal และ external carotid artery</b> เหนือ CN IX และ XII ไปเปิดที่ <b>tonsillar fossa</b> · ตรวจ US/ CT/ MRI เห็นถุงน้ำผนังบาง · รักษาด้วย<b>ผ่าตัดตัดออกทั้งหมด</b>ในช่วงที่ไม่อักเสบ (ติดเชื้ออยู่ให้ยาปฏิชีวนะก่อน) — ทางเดินยาวใช้ stepladder incision · ในผู้ใหญ่ &gt; 40 ปีที่มีก้อนถุงน้ำด้านข้างคอ ต้องคิดถึง <b>cystic metastasis จาก HPV-associated oropharyngeal SCC</b> หรือ papillary thyroid carcinoma ก่อน · ไฟล์ผู้จดเขียนเพียง <b>\"Branchial cleft cyst ข้อนึง\"</b> ไม่มีโจทย์และช้อย เว็บแต่งโจทย์ทั้งข้อ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> TGDC อยู่แนวกลางคอและยึดกับ hyoid · จะถูกถ้าก้อนอยู่แนวกลางคอและขยับขึ้นเมื่อแลบลิ้น",
-   "C": "<b>นอกสไลด์:</b> Cystic hygroma นิ่มส่องไฟทะลุ มักเห็นตั้งแต่เกิดหรือก่อน 2 ขวบ ที่ posterior triangle · จะถูกถ้าทารกมีก้อนนิ่มขนาดใหญ่หลัง SCM ส่องไฟทะลุ",
-   "D": "<b>นอกสไลด์:</b> Dermoid อยู่แนวกลางใต้คาง เนื้อแน่น · จะถูกถ้าเด็กมีก้อนแน่นแนวกลางใต้คางที่ไม่ขยับตามการแลบลิ้น",
-   "E": "<b>นอกสไลด์:</b> Thymic cyst พบน้อย อยู่คอส่วนล่างด้านข้าง (มักซ้าย) ต่อเนื่องลงช่องอก · จะถูกถ้าเด็กมีก้อนถุงน้ำคอส่วนล่างซ้าย และ CT เห็นต่อเนื่องลงไปใน anterior mediastinum"
+   "B": "Thyroglossal duct cyst อยู่<b>แนวกลาง</b>คอระดับ hyoid และเลื่อนขึ้นเมื่อแลบลิ้น/ กลืน ไม่ใช่ด้านข้างตามขอบ SCM แม้จะบวมหลังติดเชื้อทางเดินหายใจได้เหมือนกัน — จะถูกถ้าเป็นเด็กชาย 6 ปีมีก้อนกลมนุ่มแนวกลางคอใต้ hyoid เลื่อนขึ้นเวลาแลบลิ้น US ไทรอยด์ปกติ",
+   "C": "Cystic hygroma (lymphatic malformation) มักเห็นตั้งแต่แรกเกิดหรือก่อน 2 ขวบ อยู่ <b>posterior triangle</b> นุ่มหลายช่อง ส่องไฟผ่าน ขอบไม่ชัด อาจโตเร็วจากเลือดออก/ ติดเชื้อ — จะถูกถ้าเป็นทารก 3 เดือนมีก้อนนุ่มใหญ่ไม่เจ็บหลัง SCM ด้านซ้าย ส่องไฟผ่าน MRI เป็นถุงน้ำหลายช่องแทรกระหว่างกล้ามเนื้อ",
+   "D": "Dermoid cyst อยู่แนวกลาง (ใต้คาง/ submental) ก้อนแน่นติดผิวหนัง ไม่บวมเจ็บตามการติดเชื้อทางเดินหายใจเป็นลักษณะเด่น และไม่อยู่ขอบ SCM — จะถูกถ้าเป็นเด็ก 4 ปีมีก้อนแน่นไม่เจ็บแนวกลางใต้คาง ขยับตามผิว CT เห็นไขมันปนในถุง",
+   "E": "Thymic cyst พบน้อยมาก เกิดจากเศษ thymopharyngeal duct (3rd pouch) อยู่ด้านข้างคอ<b>ส่วนล่าง</b>ใกล้ thoracic inlet มักด้านซ้าย อาจลงไปใน mediastinum — จะถูกถ้าเป็นเด็ก 7 ปีมีถุงน้ำด้านซ้ายคอส่วนล่างเหนือกระดูกไหปลาร้า CT พบถุงต่อเนื่องลงไปใน anterior mediastinum"
   },
-  "trap": "ตำแหน่งบอกโรค — ขอบหน้า SCM ส่วนบนกลาง = second branchial cleft · แนวกลาง = TGDC/dermoid · หลัง SCM ในทารก = lymphatic malformation",
+  "trap": "ก้อนที่บวมหลังติดเชื้อทางเดินหายใจเกิดได้ทั้ง TGDC และ branchial cyst · ตัวแยกคือ<b>ตำแหน่ง</b>: แนวกลาง + เลื่อนตามลิ้น = TGDC · <b>ด้านข้าง ขอบหน้า SCM</b> = 2nd branchial · posterior triangle นุ่มส่องไฟผ่าน = lymphatic malformation · ในผู้ใหญ่อย่าด่วนสรุปว่าเป็น branchial cyst ต้องตัดมะเร็งที่แพร่มาต่อมน้ำเหลืองก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> First cleft: ใกล้ใบหู/ต่อม parotid · สัมพันธ์กับ facial nerve",
-   "<b>นอกสไลด์:</b> Second cleft (พบบ่อยสุด): ขอบหน้า SCM · ท่อผ่านระหว่าง ICA กับ ECA → tonsillar fossa",
-   "<b>นอกสไลด์:</b> Third/fourth: ท่อเปิดที่ pyriform sinus · fourth มักซ้าย ทำให้ไทรอยด์อักเสบเป็นหนองซ้ำ",
-   "<b>นอกสไลด์:</b> รักษา: ให้ยาจนอักเสบสงบ แล้วตัดถุงน้ำและท่อทั้งหมด"
+   "Branchial anomalies: 2nd cleft ~90–95% · 1st cleft (ใกล้หู/ parotid, เสี่ยง facial nerve) · 3rd/ 4th pouch (pyriform sinus fistula → thyroiditis/ ฝีคอซ้ายซ้ำ)",
+   "2nd cleft fistula: รูภายนอกขอบหน้า SCM ส่วนล่าง → ผ่านระหว่าง ICA/ ECA เหนือ CN IX, XII → tonsillar fossa",
+   "Cyst มักโผล่ช่วงเด็กโต-ผู้ใหญ่อายุน้อย · sinus/ fistula มักเห็นตั้งแต่เด็กเล็ก (มีเมือกซึมจากรูที่คอ)",
+   "การวินิจฉัย: US ในเด็ก · CT/ MRI ก่อนผ่าตัดดูความสัมพันธ์กับหลอดเลือด · fistulogram ในบางราย",
+   "รักษา: complete excision ช่วงสงบ (ติดเชื้อให้ยาก่อน ไม่ incise ถ้าเลี่ยงได้) · stepladder incisions สำหรับ fistula ยาว · กลับเป็นซ้ำสูงขึ้นหลังติดเชื้อ/ ผ่าตัดซ้ำ",
+   "4th pouch/ pyriform sinus fistula: ฝีคอซ้ายซ้ำ ๆ หรือ suppurative thyroiditis ในเด็ก → endoscopic cauterization ของรูใน pyriform sinus",
+   "ผู้ใหญ่ &gt; 40 ปีที่มีก้อนถุงน้ำด้านข้างคอ → FNA + ตรวจ oropharynx (HPV/ p16) ก่อนตัดเป็น branchial cyst"
   ],
-  "opinion": "ไฟล์ไม่มีโจทย์และคีย์ — Claude แต่งโจทย์ทั้งข้อให้คำตอบเป็น second branchial cleft cyst · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูงในแง่เนื้อหา — ไฟล์ไม่มีคีย์ของข้อนี้จริง ผู้จดจำได้เพียงว่ามีข้อเรื่อง \"Branchial cleft cyst ข้อนึง\" เว็บจึงแต่งเคสคลาสสิกของ second branchial cleft cyst ทั้งโจทย์และช้อย ลักษณะตำแหน่งขอบหน้า SCM และบวมหลังหวัดตรงตำรา",
+  "mnemonic": "<b>'ข้างคอหน้า SCM + บวมหลังหวัด = 2nd Branchial · ทางเดินลอด 'ระหว่าง carotid สองเส้น' ไป tonsil'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Lesions of the Head and Neck; Cummings Otolaryngology Head and Neck Surgery 7th ed. (2021) Congenital Malformations of the Neck",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ใหญ่อายุ 55 สูบบุหรี่ มีก้อนถุงน้ำด้านข้างคอตำแหน่งเดียวกัน → คิดถึง cystic metastasis จากมะเร็งคอหอย (HPV-related oropharyngeal SCC) ก่อน branchial cyst"
+   "เด็ก 4 ปีมีรูเล็กที่ขอบหน้า SCM ส่วนล่างขวา มีเมือกใสซึมเป็นพัก ๆ ตั้งแต่เกิด → second branchial cleft sinus/ fistula → ตัดทางเดินทั้งหมดถึง tonsillar fossa",
+   "เด็กหญิง 8 ปีเป็นฝีคอซ้ายด้านหน้าซ้ำ 3 ครั้งร่วม thyroiditis → pyriform sinus fistula (3rd/ 4th pouch) → laryngoscopy + endoscopic cauterization",
+   "ชาย 50 ปีมีก้อนถุงน้ำด้านข้างคอขวา ไม่เจ็บ 2 เดือน → FNA + ตรวจ oropharynx/ p16 หา HPV-associated SCC ก่อนสรุป branchial cyst",
+   "ทำไมผ่าตัด branchial cyst ช่วงที่ติดเชื้อกลับเป็นซ้ำมาก → เนื้อเยื่อพังผืดอักเสบทำให้แยกผนังถุงออกไม่หมด"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>Branchial cleft cyst ข้อนึง (ผู้จดจำได้แค่ว่าออกเรื่องนี้ 1 ข้อ)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่ว่าออกเรื่อง branchial cleft cyst 1 ข้อ ไม่มีโจทย์/ช้อย → Claude แต่งโจทย์ทั้งข้อ (case-based)",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_10"
   ]
  },
  "MDCU74|RoC|11": {
-  "interp": "ข้อ INCORRECT: ข้อความเกี่ยวกับ biliary atresia ข้อใด <b>ผิด</b> · ประเด็นคือการผ่าตัด Kasai และหลังผ่าตัด",
-  "why": "ผู้จดจำได้แค่ช้อย <b>\"Kasai ใน 60 วัน\"</b> (P'Ing ✓ = ข้อความถูก) — Claude แต่งช้อยที่เหลือและให้ D เป็นข้อผิด<br><b>นอกสไลด์:</b> Kasai ที่ล้มเหลว (น้ำดีไม่ไหล ตัวเหลืองไม่ลด ตับแข็ง portal hypertension) เป็นข้อบ่งชี้ปลูกถ่ายตับ ไม่ใช่ข้อห้าม · biliary atresia เป็นข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก",
+  "interp": "ถามข้อความที่<b>ผิด</b>เกี่ยวกับ <b>biliary atresia</b> (ข้อแบบ incorrect) — ต้องรู้การวินิจฉัย (cholestasis ทารก, อุจจาระซีด, intraoperative cholangiogram) จังหวะผ่าตัด Kasai, ภาวะแทรกซ้อนหลังผ่าตัด และบทบาทของ liver transplantation",
+  "why": "<b>Biliary atresia</b> คือท่อน้ำดีนอกตับ (± ในตับ) อักเสบและตีบตันแบบ progressive fibro-obliterative ในทารก เป็นสาเหตุอันดับหนึ่งของ neonatal cholestasis ที่ต้องผ่าตัด และ<b>ข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก</b> · อาการ: ตัวเหลืองเกิน 2 สัปดาห์ <b>conjugated hyperbilirubinemia</b>, <b>อุจจาระซีด (acholic)</b> ปัสสาวะเข้ม ตับโต · ตรวจ: direct bilirubin, GGT สูง, US (triangular cord sign, ถุงน้ำดีเล็ก/ ผิดรูป), hepatobiliary scintigraphy (ไม่มีสารออกลำไส้), liver biopsy (bile ductular proliferation, bile plug) · <b>ยืนยันด้วย intraoperative cholangiography</b> · รักษา: <b>Kasai hepatoportoenterostomy</b> ตัด fibrous remnant ที่ porta hepatis แล้วต่อ Roux-en-Y jejunal limb — ผลดีที่สุดเมื่อทำ<b>ก่อน 60 วัน</b> (ยิ่งเร็วยิ่งดี) · ภาวะแทรกซ้อนแรกที่พบบ่อยที่สุดคือ <b>cholangitis</b> · ระยะยาว portal hypertension, cirrhosis · ราวครึ่งหนึ่งถึงสองในสามต้องปลูกถ่ายตับภายในวัยเด็กแม้ Kasai สำเร็จ · <b>Kasai ล้มเหลว (ตัวเหลืองไม่ลด) เป็นข้อบ่งชี้ liver transplantation</b> ไม่ใช่ข้อห้าม — ช้อย D จึงผิด · ไฟล์ผู้จดจำได้เพียงช้อย <b>\"Kasai ใน 60 วัน\"</b> ซึ่ง P'Ing ติ๊ก ✓ ว่าเป็นข้อความถูก ไม่ได้จดว่าข้อไหนผิด",
   "wrong": {
-   "A": "ข้อความถูก (P'Ing ✓) · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะยิ่งผ่าตัดเร็ว ตับยิ่งเป็นพังผืดน้อย โอกาสน้ำดีไหลสูงกว่า",
-   "B": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะท่อน้ำดีอุดตันทำให้บิลิรูบินชนิด conjugated คั่ง ปัสสาวะเข้ม และน้ำดีไม่ถึงลำไส้ อุจจาระจึงซีด",
-   "C": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ intraoperative cholangiogram เห็นโดยตรงว่าสารทึบรังสีไม่ผ่านท่อน้ำดี เป็นมาตรฐานยืนยันก่อนทำ Kasai",
-   "E": "<b>นอกสไลด์:</b> ข้อความถูก · ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะการต่อลำไส้กับขั้วตับเปิดทางให้เชื้อในลำไส้ขึ้นท่อน้ำดีเล็ก cholangitis จึงเป็นภาวะแทรกซ้อนช่วงแรกที่พบบ่อยที่สุด"
+   "A": "ข้อความถูก: Kasai ได้ผลดีที่สุดเมื่อทำก่อนอายุราว 60 วัน (บางศูนย์ตั้งเป้า &lt; 45 วัน) ก่อนตับเกิดพังผืดมาก โอกาสน้ำดีไหลและรอดด้วยตับตัวเองลดลงตามอายุที่ผ่าตัด (ตรงกับที่ P'Ing ✓) — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับจังหวะผ่าตัดของทารก 6 สัปดาห์ตัวเหลือง อุจจาระสีซีด direct bilirubin สูง สงสัย biliary atresia",
+   "B": "ข้อความถูก: biliary atresia ทำให้น้ำดีลงลำไส้ไม่ได้ อุจจาระจึงซีด (acholic, สีขาวขุ่น/ ดินเหนียว) bilirubin ชนิด conjugated สูง ปัสสาวะเข้ม ใช้บัตรเทียบสีอุจจาระคัดกรองได้ — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลักษณะทางคลินิกของทารก 5 สัปดาห์ที่ตัวเหลืองต่อเนื่อง แม่สังเกตว่าอุจจาระสีซีดลงเรื่อย ๆ",
+   "C": "ข้อความถูก: intraoperative cholangiography (ฉีดสีผ่านถุงน้ำดี) เป็นมาตรฐานยืนยันการวินิจฉัย ถ้าสีไม่ผ่านขึ้นท่อในตับ/ ลงลำไส้ = biliary atresia แล้วทำ Kasai ต่อในการผ่าตัดเดียว — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับการยืนยันโรคในทารก 7 สัปดาห์ที่ scintigraphy ไม่มีสารออกลำไส้และ liver biopsy เข้าได้กับ biliary obstruction",
+   "E": "ข้อความถูก: cholangitis เป็นภาวะแทรกซ้อนหลัง Kasai ที่พบบ่อยที่สุด (มักในช่วง 1–2 ปีแรก) จากเชื้อในลำไส้ขึ้นท่อน้ำดีผ่าน Roux limb ทำให้น้ำดีไหลลดและตับแย่ลง — จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับทารก 4 เดือนหลัง Kasai ที่มีไข้ ตัวเหลืองกลับมา อุจจาระซีดลง (ให้ยาปฏิชีวนะ IV ทันที)"
   },
-  "trap": "ข้อนี้ถามข้อความที่ผิด · อย่าคิดว่า Kasai ล้มเหลวแล้วหมดทางรักษา — ปลูกถ่ายตับคือทางต่อไป",
+  "trap": "คนอาจคิดว่าเมื่อ Kasai ล้มเหลวคือ 'จบแล้ว' หรือสับสนกับข้อห้ามปลูกถ่ายตับอื่น ๆ · ความจริง biliary atresia เป็น<b>ข้อบ่งชี้อันดับหนึ่ง</b>ของ pediatric liver transplant และ Kasai ทำหน้าที่ยื้อเวลาให้เด็กโตพอ · ข้อความอื่นทั้งหมดเป็นหลักการที่ถูก รวมถึงช้อย Kasai ใน 60 วันที่ P'Ing ติ๊ก ✓",
   "summary": [
-   "<b>นอกสไลด์:</b> หลัง Kasai: ราว 1 ใน 3 ดีระยะยาว · ราว 1 ใน 3 ตับแข็งต้องปลูกถ่ายภายหลัง · ราว 1 ใน 3 ล้มเหลวเร็ว",
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ปลูกถ่ายตับ: ตัวเหลืองไม่ลดหลัง Kasai · ไม่โต · portal hypertension (เลือดออกจาก varices) · cholangitis ซ้ำ · ตับวาย",
-   "<b>นอกสไลด์:</b> ทารกที่มาช้าและตับแข็งแล้ว อาจปลูกถ่ายตับเลยโดยไม่ทำ Kasai"
+   "Neonatal cholestasis: ตัวเหลือง &gt; 2 สัปดาห์ (ครบกำหนด) หรือ &gt; 3 สัปดาห์ (คลอดก่อนกำหนด/ นมแม่) ต้องตรวจ direct bilirubin · direct &gt; 1 mg/dL ผิดปกติ",
+   "Biliary atresia: อุจจาระซีด ปัสสาวะเข้ม ตับโตแข็ง · GGT สูง · US triangular cord sign/ ถุงน้ำดีผิดรูป · scintigraphy ไม่ excrete · biopsy ductular proliferation",
+   "BASM (biliary atresia splenic malformation): polysplenia, situs anomalies, preduodenal portal vein, interrupted IVC — พยากรณ์แย่กว่า",
+   "Kasai hepatoportoenterostomy: ก่อน 60 วัน (ยิ่งเร็วยิ่งดี) · ทำให้น้ำดีไหล (bilirubin ปกติ) ได้ราวครึ่งหนึ่ง · corticosteroid หลังผ่าตัดยังไม่มีหลักฐานชัดเรื่องการรอด",
+   "หลัง Kasai: ป้องกัน cholangitis (prophylactic antibiotics ในหลายศูนย์), ursodeoxycholic acid, วิตามินที่ละลายในไขมัน (A, D, E, K), MCT formula",
+   "Liver transplantation: Kasai ล้มเหลว, cirrhosis/ portal hypertension ลุกลาม, เจริญเติบโตไม่ได้ · living-donor (left lateral segment) ใช้บ่อยในเด็ก · รอด 5 ปีมากกว่า 90%",
+   "Stool color card screening ช่วยให้วินิจฉัยและผ่าตัดเร็วขึ้น (เช่น ไต้หวัน)"
   ],
-  "opinion": "ไฟล์จดได้แค่ช้อยเดียว — Claude แต่งช้อยและให้ D (ข้อห้ามปลูกถ่ายตับ) เป็นข้อผิดตามความรู้มาตรฐาน · ความมั่นใจสูงในเนื้อหา",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ไฟล์ไม่มีคีย์ของข้อผิด ผู้จดจำได้แค่ช้อย Kasai ใน 60 วันซึ่ง P'Ing ติ๊ก ✓ ว่าถูก เว็บจึงแต่งช้อยที่เหลือและตั้ง D เป็นข้อผิด ซึ่งผิดชัดตามหลักฐาน: biliary atresia ที่ Kasai ล้มเหลวคือข้อบ่งชี้หลักของการปลูกถ่ายตับในเด็ก",
+  "mnemonic": "<b>'Biliary atresia: 'อุจจาระขาว → Cholangiogram → Kasai ก่อน 60 วัน → ไม่ได้ผล = เปลี่ยนตับ''</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Biliary Atresia; Fawaz R et al. Guideline for the Evaluation of Cholestatic Jaundice in Infants: NASPGHAN/ESPGHAN, J Pediatr Gastroenterol Nutr 2017",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกอายุราว 100 วันเพิ่งวินิจฉัย BA ยังไม่มีตับแข็งระยะท้าย → ยังทำ Kasai ได้ (อายุมากไม่ใช่ข้อห้ามเด็ดขาด แต่โอกาสสำเร็จลดลง)"
+   "ทารก 10 สัปดาห์ตัวเหลือง อุจจาระซีด ผ่าตัดยืนยัน biliary atresia → ทำ Kasai แม้เลย 60 วัน (ยังได้ประโยชน์) แต่โอกาสต้องเปลี่ยนตับสูงขึ้น",
+   "เด็ก 1 ปีหลัง Kasai อาเจียนเป็นเลือด ม้ามโต เกล็ดเลือดต่ำ → portal hypertension → endoscopic band ligation และประเมินปลูกถ่ายตับ",
+   "ทารก 2 เดือนหลัง Kasai 6 สัปดาห์ bilirubin ไม่ลด อุจจาระยังซีด → Kasai ล้มเหลว → ส่งประเมิน liver transplantation",
+   "ทำไมผล Kasai แย่ลงตามอายุ → การอักเสบตีบตันลามเข้าท่อในตับและเกิดพังผืด/ cirrhosis มากขึ้นทุกสัปดาห์"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 1 — ตัวพิมพ์: <b>Biliary atresia ข้อใดผิด — Kasai ใน 60 วัน · …….</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์จดแค่ช้อยเดียวที่เป็นข้อความถูก → Claude แต่งช้อยที่เหลือ และตั้งช้อย D เป็นข้อผิด",
+  "src": "S74CQ · หน้า 1",
+  "kimg": [
+   "kp74c_11"
   ]
  },
  "MDCU74|RoC|12": {
-  "interp": "เด็ก 2 ขวบถ่ายเลือดสีแดงอิฐ ไม่ปวด สัญญาณชีพคงที่ ท้องนุ่ม → ถามการตรวจที่เหมาะที่สุด (สงสัย Meckel diverticulum)",
-  "why": "ผู้จดเขียน <b>Meckel scan</b> · P'Ing ✓<br><b>นอกสไลด์:</b> Meckel diverticulum ที่มีเยื่อบุกระเพาะผิดที่ หลั่งกรดจนเกิดแผลที่ ileum ข้างเคียง เลือดออกมากไม่ปวด · Tc-99m pertechnetate จับเยื่อบุกระเพาะ จึงเห็น diverticulum ที่มีเนื้อเยื่อกระเพาะ (ไวขึ้นเมื่อให้ H2 blocker ก่อนตรวจ)",
+  "interp": "เด็กชาย 2 ปี ถ่ายเป็นเลือด<b>สีแดงอิฐ (brick-red/ maroon) ไม่เจ็บ</b> hemodynamic คงที่ ท้องนุ่ม = นึกถึง <b>bleeding Meckel diverticulum</b> — ถามการตรวจที่เหมาะสมที่สุด ต้องรู้ว่าเลือดออกเกิดจาก ectopic gastric mucosa ซึ่งตรวจพบด้วยสารกัมมันตรังสีที่จับเซลล์ของกระเพาะ",
+  "why": "<b>Meckel diverticulum</b> คือเศษของ <b>omphalomesenteric (vitelline) duct</b> ที่ไม่ปิด เป็น true diverticulum อยู่ด้าน antimesenteric ของ ileum · กฎ <b>rule of 2s</b>: พบราว 2% ของประชากร อยู่ห่าง ileocecal valve ราว 2 ฟุต ยาวราว 2 นิ้ว มีเนื้อเยื่อผิดที่ 2 ชนิด (gastric, pancreatic) มีอาการก่อนอายุ 2 ปีบ่อย ชาย:หญิง ~2:1 · ในเด็กเล็ก อาการที่พบบ่อยที่สุดคือ<b>เลือดออกไม่เจ็บ</b> ปริมาณมาก สีแดงคล้ำ/ แดงอิฐ จาก <b>ectopic gastric mucosa</b> หลั่งกรดทำให้เกิดแผลที่ ileum ข้างเคียง · การตรวจเลือกคือ <b>Tc-99m pertechnetate scan (Meckel scan)</b> สารจับ mucus-secreting cells ของเยื่อบุกระเพาะ เห็นจุดสว่างที่ท้องน้อยขวาพร้อมกับกระเพาะ ไวราว 85–90% ในเด็ก เพิ่มความไวด้วย H2 blocker (famotidine), pentagastrin หรือ glucagon · ผล negative แต่ยังสงสัยมาก → diagnostic laparoscopy · รักษา: เลือดออก → <b>segmental ileal resection</b> (แผลอยู่ที่ ileum ข้างเคียง) หรือ diverticulectomy · ไฟล์ผู้จดเขียนหัวข้อ <b>\"Bloody stool investigation - Meckel scan\"</b> และ P'Ing ติ๊ก ✓",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> Colonoscopy เหมาะกับเลือดสดปนอุจจาระจากลำไส้ใหญ่ · จะถูกถ้าเด็ก 2–5 ขวบถ่ายมีเลือดสดเคลือบอุจจาระเป็นครั้ง ๆ ไม่ปวด สงสัย juvenile polyp",
-   "C": "<b>นอกสไลด์:</b> Barium enema ไม่เห็น ileum ที่เป็นแหล่งเลือด และปัจจุบันแทบไม่ใช้หาสาเหตุเลือดออก · ไม่มีสถานการณ์ใดที่เป็นการตรวจที่เหมาะที่สุดของเลือดออกทางทวารในเด็ก เพราะ colonoscopy และการตรวจทางเวชศาสตร์นิวเคลียร์ให้ข้อมูลมากกว่าโดยไม่บดบังการส่องกล้อง",
-   "D": "<b>นอกสไลด์:</b> CTA ใช้หาจุดเลือดออกที่กำลังออกมาก · จะถูกถ้าเด็กเลือดออกมากจนสัญญาณชีพไม่คงที่ หรือ Meckel scan ผลลบแต่ยังออกซ้ำ",
-   "E": "<b>นอกสไลด์:</b> EGD หาเลือดออกส่วนบน · จะถูกถ้าเด็กอาเจียนเป็นเลือดหรือถ่ายดำ สงสัย peptic ulcer หรือ varices"
+   "B": "Colonoscopy ใช้หาสาเหตุในลำไส้ใหญ่ เช่น <b>juvenile polyp</b> ซึ่งทำให้เลือดสด<b>ปริมาณน้อย</b>ติดอุจจาระเป็นพัก ๆ ในเด็ก 2–5 ปี แต่ไม่เห็น Meckel diverticulum ที่ ileum — จะถูกถ้าเป็นเด็กชาย 4 ปีถ่ายมีเลือดสดเป็นเส้นติดผิวอุจจาระเป็นพัก ๆ ไม่เจ็บ ไม่ซีด (สงสัย juvenile polyp → colonoscopy + polypectomy)",
+   "C": "Double-contrast barium enema เป็นการตรวจเก่า ไม่เห็น ectopic gastric mucosa และไม่เติม Meckel diverticulum ได้ดี ปัจจุบันใช้ contrast enema ในทารกที่ลำไส้อุดตันส่วนปลาย — จะถูกถ้าเป็นทารก 2 สัปดาห์ท้องผูก ถ่าย meconium ช้ากว่า 48 ชม. ท้องอืด สงสัย Hirschsprung disease (ทำ contrast enema ดู transition zone แล้ว rectal biopsy)",
+   "D": "CT angiography ใช้หาตำแหน่งเลือดออกที่<b>กำลังออก</b>เร็ว (≥ 0.3–0.5 mL/min) ในผู้ป่วยไม่คงที่ ให้รังสีและ contrast สูงในเด็ก และเด็กที่คงที่ควรเริ่มด้วย Meckel scan — จะถูกถ้าเป็นชาย 70 ปีถ่ายเลือดสดจำนวนมาก ความดันตกแม้ได้สารน้ำ ต้องหาตำแหน่งก่อน embolization",
+   "E": "Upper GI endoscopy หาเลือดออกส่วนบน (ulcer, varices) ซึ่งมักมาด้วยอาเจียนเป็นเลือด/ ถ่ายดำ — เลือดสีแดงอิฐในเด็กคงที่ชวนคิดลำไส้เล็กส่วนปลาย — จะถูกถ้าเป็นเด็ก 8 ปีที่มี portal vein thrombosis (เคยใส่ umbilical catheter ตอนแรกเกิด) อาเจียนเป็นเลือดสด ม้ามโต (esophageal varices)"
   },
-  "trap": "เลือดแดงอิฐ/สีเลือดหมู ปริมาณมาก ไม่ปวด ในเด็กเล็ก = Meckel จนกว่าจะพิสูจน์ · เลือดสดเคลือบอุจจาระเป็นของ polyp",
+  "trap": "เลือดออกทางทวารในเด็กทำให้นึกถึง colonoscopy เป็นอันดับแรก (คิดเหมือนผู้ใหญ่) · ต้องจับคำ <b>เด็กเล็ก + ไม่เจ็บ + เลือดมาก สีแดงอิฐ/ คล้ำ</b> = Meckel → Tc-99m pertechnetate scan · ส่วนเลือดสดน้อย ๆ ติดอุจจาระ = juvenile polyp และเลือดปนมูก + ปวดเป็นพัก = intussusception",
   "summary": [
-   "<b>นอกสไลด์:</b> Rule of 2: ราว 2% ของประชากร · ห่าง ileocecal valve ราว 2 ฟุต · ยาวราว 2 นิ้ว · เนื้อเยื่อผิดที่ 2 ชนิด (กระเพาะ ตับอ่อน) · มักมีอาการก่อน 2 ขวบ",
-   "<b>นอกสไลด์:</b> Meckel เป็น true diverticulum (มีทุกชั้นของผนังลำไส้) อยู่ด้าน antimesenteric"
+   "Meckel rule of 2s: 2% ประชากร · 2 ฟุตจาก ileocecal valve · ยาว 2 นิ้ว · 2 เนื้อเยื่อผิดที่ (gastric &gt; pancreatic) · มักแสดงอาการก่อน 2 ปี · ชาย:หญิง 2:1",
+   "อาการ: เด็กเล็ก — เลือดออกไม่เจ็บ · เด็กโต/ ผู้ใหญ่ — ลำไส้อุดตัน (intussusception มี Meckel เป็น lead point, volvulus รอบ band) · diverticulitis คล้ายไส้ติ่งอักเสบ · Littre hernia",
+   "Meckel scan (Tc-99m pertechnetate): ไวราว 85–90% ในเด็ก ต่ำกว่าในผู้ใหญ่ · เสริมด้วย H2 blocker/ pentagastrin/ glucagon · ผลลบเท็จเมื่อ gastric mucosa น้อย",
+   "Scan ลบแต่สงสัยมาก/ เลือดออกซ้ำ → diagnostic laparoscopy · เลือดออกเร็วมาก → CTA/ angiography หรือ tagged RBC scan",
+   "รักษาเมื่อมีอาการ: เลือดออก → segmental ileal resection + anastomosis (แผลอยู่ ileum ข้างเคียง) · ฐานแคบไม่มีเลือดออก → diverticulectomy",
+   "Meckel ที่พบโดยบังเอิญในผู้ใหญ่: พิจารณาตัดเมื่อชาย &lt; 50 ปี, ยาว &gt; 2 cm, คลำได้เนื้อผิดที่ หรือมี band (ตามบางแนวทาง)",
+   "เลือดออกทางทวารในเด็กแยกตามอายุ: ทารก — anal fissure, NEC, malrotation, cow's milk protein allergy · 1–2 ปี — Meckel, intussusception · 2–5 ปี — juvenile polyp"
   ],
-  "opinion": "เห็นด้วยกับคีย์ Meckel scan · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ผู้จดเขียน Meckel scan และ P'Ing ติ๊ก ✓ · ต้นฉบับจดเพียงหัวข้อ 'Bloody stool investigation' เว็บแต่งเคสเด็ก 2 ปีถ่ายเลือดสีแดงอิฐไม่เจ็บ hemodynamic คงที่ ให้ตรงกับข้อบ่งชี้ของ Tc-99m pertechnetate scan",
+  "mnemonic": "<b>'เด็ก 2 ขวบ + เลือดแดงอิฐ + ไม่เจ็บ = Meckel → 'Tc-99m จับกระเพาะที่หลงมา''</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Meckel Diverticulum; Sabiston Textbook of Surgery 21st ed. (2022) Small Intestine",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กปวดท้องเป็นพัก ๆ อาเจียน ถ่ายเลือดปนมูก ผ่าตัดพบลำไส้กลืนกันโดยมี Meckel diverticulum เป็นจุดนำ → ตัดลำไส้ส่วนนั้นรวม diverticulum"
+   "เด็กชาย 3 ปีถ่ายเลือดคล้ำซ้ำ 2 ครั้ง Meckel scan ผลลบ Hb ลดเหลือ 7 g/dL → diagnostic laparoscopy หา Meckel diverticulum",
+   "เด็ก 18 เดือนปวดท้องเป็นพัก ๆ อาเจียน ถ่ายมูกเลือด ผ่าตัดเพราะ enema ไม่สำเร็จ พบ Meckel diverticulum เป็นจุดนำ intussusception → ileal resection",
+   "ชาย 25 ปีผ่าตัดไส้ติ่งพบไส้ติ่งปกติ → ตรวจ ileum ย้อนขึ้นไปหา Meckel diverticulitis",
+   "ทำไมเลือดออกจาก Meckel ต้องตัดลำไส้ ileum ข้างเคียงด้วย → แผลจากกรดที่ ectopic gastric mucosa หลั่งเกิดที่เยื่อบุ ileum ตรงข้าม/ ข้างฐาน diverticulum"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>Bloody stool investigation — Meckel scan · …….</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Bloody stool investigation - Meckel scan\" → แต่งโจทย์",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_12"
   ]
  },
  "MDCU74|RoC|13@p2": {
-  "interp": "เกษตรกรชักครั้งแรก MRI มีถุงน้ำเล็กหลายถุง แต่ละถุงมีจุดคล้ายเม็ดอยู่ชิดขอบ (scolex) → ถามเชื้อก่อโรค",
-  "why": "ผู้จดลังเลระหว่าง pyogenic cyst กับ <b>\"น่าจะ taenia solium\"</b> — Claude ตอบ Taenia solium<br><b>นอกสไลด์:</b> จุดในถุงคือ scolex ของตัวอ่อนพยาธิตืดหมู (cysticercus) เป็นลักษณะเฉพาะของ neurocysticercosis · ติดจากการกลืนไข่ที่ปนเปื้อนอุจจาระคน (มือ อาหาร น้ำ) ไม่ใช่จากกินหมูดิบ — หมูดิบที่มีตัวอ่อนทำให้มีพยาธิตัวแก่ในลำไส้ (taeniasis) แล้วผู้นั้นปล่อยไข่ออกมา",
+  "interp": "ชาวนา 28 ปี <b>ชักครั้งแรก</b> MRI สมองพบ<b>ถุงน้ำเล็กหลายถุง แต่ละถุงมีจุดเล็ก ๆ อยู่ค่อนข้างขอบ</b> ('hole-with-dot' = scolex) = <b>neurocysticercosis</b> — ถามเชื้อก่อโรค ต้องรู้ว่าตัวอ่อนของพยาธิตืดหมูเป็นสาเหตุ และแยกจากรอยโรคถุง/ ring-enhancing อื่นในสมอง",
+  "why": "<b>Neurocysticercosis</b> เกิดจากการกิน<b>ไข่</b>ของ <b>Taenia solium</b> (พยาธิตืดหมู) ที่ปนเปื้อนอาหาร/ น้ำ หรือจากผู้ที่มีพยาธิตัวแก่ในลำไส้ (fecal-oral, autoinfection) — ไข่ฟักเป็น oncosphere ไชผ่านลำไส้ไปตามเลือดเกาะที่สมอง กล้ามเนื้อ ตา แล้วเป็น <b>cysticercus</b> (ส่วนการกินหมูดิบที่มี cysticerci ทำให้เกิดพยาธิตัวแก่ในลำไส้ = taeniasis) · เป็น<b>สาเหตุของโรคลมชักที่ป้องกันได้ที่พบบ่อยที่สุดในโลก</b> พบในเขตเลี้ยงหมูแบบปล่อย/ สุขาภิบาลไม่ดี รวมถึงชนบทไทย · ระยะบน CT/ MRI: <b>vesicular</b> — ถุงน้ำใสมี <b>scolex เป็นจุดเยื้องศูนย์ (hole-with-dot sign)</b> ไม่มี edema (ตรงกับโจทย์) → <b>colloidal</b> — ตัวอ่อนตาย ถุงขุ่น ring enhancement + edema (มักชักช่วงนี้) → granular nodular → <b>calcified</b> · แบ่ง parenchymal กับ extraparenchymal (intraventricular, subarachnoid/ racemose → hydrocephalus) · รักษา parenchymal ที่ยัง viable: <b>albendazole</b> (± praziquantel เมื่อ &gt; 2 ถุง) + <b>corticosteroid</b> ลดการอักเสบเมื่อตัวอ่อนตาย + <b>ยากันชัก</b> · ตรวจตา (fundus) ก่อนให้ยาฆ่าพยาธิ ระวัง hydrocephalus · ไฟล์ผู้จดไม่แน่ใจเขียน <b>\"ใช่ pyogenic cyst ป่าวนะ\"</b> และ <b>\"อีกข้อ: น่าจะ taenia solium\"</b> P'Ing ไม่ได้ทำเครื่องหมาย",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ฝีจาก S. aureus เป็น ring-enhancing ผนังหนา ตรงกลาง restricted diffusion ไม่มี scolex · จะถูกถ้าผู้ป่วย infective endocarditis จากการฉีดยาเสพติดมีไข้ และ MRI พบฝีหลายก้อนตามแนวหลอดเลือด",
-   "C": "<b>นอกสไลด์:</b> Tuberculoma เป็นก้อน enhance ไม่มี scolex มักมี basal meningitis ร่วม · จะถูกถ้าผู้ป่วยวัณโรคปอดมีไข้เรื้อรัง ปวดศีรษะ เส้นประสาทสมองอ่อนแรง MRI เห็น basal meningeal enhancement",
-   "D": "<b>นอกสไลด์:</b> Toxoplasmosis เป็น ring-enhancing หลายก้อนที่ basal ganglia ในผู้ภูมิคุ้มกันต่ำมาก · จะถูกถ้าผู้ป่วย HIV CD4 ต่ำมากมีไข้ ชัก อ่อนแรงครึ่งซีก",
-   "E": "<b>นอกสไลด์:</b> Cryptococcus มักทำ meningitis ปวดศีรษะเรื้อรัง ความดัน CSF สูง · จะถูกถ้าผู้ป่วย HIV ปวดศีรษะหลายสัปดาห์ opening pressure สูง และ CSF cryptococcal antigen บวก"
+   "B": "S. aureus ทำให้ <b>pyogenic brain abscess</b> — ก้อนเดี่ยว/ ไม่กี่ก้อน ผนัง ring-enhancing หนาเรียบ edema รอบมาก <b>DWI restricted ตรงกลาง</b> ไม่มีจุด scolex มักมีไข้/ แหล่งติดเชื้อ (หลังบาดเจ็บ ผ่าตัด endocarditis) — จะถูกถ้าเป็นชาย 30 ปีหลังผ่าตัดเปิดกะโหลก 3 สัปดาห์ ไข้ ปวดศีรษะ MRI พบก้อน ring-enhancing ใต้แผลผ่าตัด DWI สว่าง",
+   "C": "Tuberculoma เป็นก้อน granuloma แน่น/ ring-enhancing ผนังหนา มักหลายก้อนรวมกลุ่ม (conglomerate) ร่วม basal meningitis และ hydrocephalus อาการต่อเนื่องหลายสัปดาห์ ไม่ใช่ถุงน้ำใสมีจุด — จะถูกถ้าเป็นชาย 35 ปีไข้ต่ำ ๆ น้ำหนักลด 2 เดือน CXR มี miliary pattern MRI พบ ring-enhancing หลายก้อนที่ฐานสมองร่วม basal meningeal enhancement",
+   "D": "Toxoplasma gondii ทำให้ ring-enhancing หลายก้อนที่ <b>basal ganglia</b>/ gray-white junction ใน<b>ภูมิคุ้มกันต่ำ (HIV CD4 &lt; 100)</b> อาจเห็น eccentric target sign แต่เป็นก้อนที่ติดสีพร้อม edema ไม่ใช่ถุงน้ำใสในคนแข็งแรง — จะถูกถ้าเป็นชาย 32 ปี HIV CD4 40 ไม่ได้กินยา ไข้ แขนขาอ่อนแรง สับสน MRI พบ ring-enhancing หลายก้อนที่ basal ganglia Toxoplasma IgG บวก",
+   "E": "Cryptococcus neoformans ทำให้ <b>meningitis</b> ในภูมิคุ้มกันต่ำ ปวดศีรษะมาก opening pressure สูง และ gelatinous pseudocysts ใน Virchow-Robin space ที่ basal ganglia (soap-bubble) ไม่มี scolex — จะถูกถ้าเป็นหญิง 35 ปี HIV CD4 30 ปวดศีรษะ 2 สัปดาห์ opening pressure 35 cmH2O CSF India ink และ cryptococcal antigen บวก"
   },
-  "trap": "ผู้จดลังเลกับ pyogenic abscess — ฝีไม่มีจุด scolex ในถุง · จุดเยื้องขอบในถุง = cysticercosis",
+  "trap": "ผู้จดเองลังเลว่าเป็น pyogenic cyst เพราะเห็นถุงในสมอง · จุดแยกคือ<b>จุดเล็กเยื้องศูนย์ในถุงน้ำใส (scolex)</b> หลายถุงในคนแข็งแรงจากชนบท = neurocysticercosis · ฝีหนองมักก้อนน้อยผนังหนา edema มาก DWI สว่าง · Toxoplasma/ Cryptococcus ต้องมีภูมิคุ้มกันต่ำ",
   "summary": [
-   "<b>นอกสไลด์:</b> วงจร: คนกินหมูดิบที่มีตัวอ่อน → พยาธิตัวแก่ในลำไส้ (taeniasis) → ปล่อยไข่ออกทางอุจจาระ → คน (หรือหมู) กลืนไข่ → ตัวอ่อนไปฝังในสมอง กล้ามเนื้อ ตา (cysticercosis)",
-   "<b>นอกสไลด์:</b> Neurocysticercosis เป็นสาเหตุโรคลมชักที่เกิดภายหลังที่พบบ่อยในประเทศกำลังพัฒนา"
+   "Taenia solium: กิน cysticerci ในหมูดิบ → taeniasis (พยาธิตัวแก่ในลำไส้) · กิน<b>ไข่</b> (fecal-oral จากคนที่มี taeniasis) → cysticercosis (สมอง กล้ามเนื้อ ตา ผิวหนัง)",
+   "ระยะภาพ: vesicular (ถุงใส + scolex, ไม่มี edema) → colloidal (ring enhancement + edema) → granular nodular → calcified (จุดหินปูน)",
+   "วินิจฉัย: CT (เห็นหินปูนดี) + MRI (เห็น scolex/ ถุงในโพรงสมองดีกว่า) + serology (EITB) · เกณฑ์ Del Brutto",
+   "Parenchymal viable cysts: albendazole 15 mg/kg/วัน 10–14 วัน (± praziquantel ถ้า &gt; 2 ถุง) + dexamethasone/ prednisolone + ยากันชัก · calcified: ยากันชักอย่างเดียว",
+   "ก่อนให้ยาฆ่าพยาธิ: ตรวจตาหา ocular cysticercosis และรักษา hydrocephalus/ ความดันในกะโหลกสูงก่อน (ห้ามให้ใน cysticercotic encephalitis)",
+   "Extraparenchymal: intraventricular → endoscopic removal/ shunt · subarachnoid (racemose) → ยาฆ่าพยาธิระยะยาว + steroid ± shunt",
+   "ป้องกัน: ปรุงหมูให้สุก ล้างมือ สุขาภิบาล รักษา taeniasis ในคนในบ้าน (praziquantel/ niclosamide) และตรวจคนในบ้าน"
   ],
-  "opinion": "ผู้จดไม่แน่ใจและคีย์ไม่ได้ทำเครื่องหมาย — Claude ตอบ A ตามภาพถุงน้ำมี scolex · ไฟล์ไม่มีรูปจึงบรรยายภาพใน stem · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — ไฟล์ไม่มีคีย์ชัดเจน ผู้จดไม่แน่ใจระหว่าง pyogenic cyst กับ Taenia solium และ P'Ing ไม่ได้ทำเครื่องหมาย ไฟล์ไม่มีรูป เว็บจึงบรรยายภาพใน stem เป็นถุงหลายถุงมี scolex ซึ่งเป็นภาพจำเพาะของ neurocysticercosis · ถ้าข้อสอบจริงเป็นภาพฝีผนังหนา คำตอบอาจต่างได้",
+  "mnemonic": "<b>''Hole-with-dot' = ตืดหมู (T. solium) · กินหมูดิบ = พยาธิในลำไส้ · กินไข่ = ถุงในสมอง'</b>",
+  "guide": "White AC Jr et al. IDSA/ASTMH Clinical Practice Guidelines for the Diagnosis and Treatment of Neurocysticercosis, Clin Infect Dis 2018; Del Brutto OH et al. Revised diagnostic criteria for neurocysticercosis, J Neurol Sci 2017",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย neurocysticercosis ถามสมาชิกในบ้านที่ควรตรวจ → ตรวจอุจจาระหาพยาธิตืดหมูตัวแก่ในคนใกล้ชิด (ผู้แพร่ไข่) แล้วรักษา",
-   "<b>นอกสไลด์:</b> ผู้ป่วยมีถุงน้ำใต้ผิวหนังและในกล้ามเนื้อหลายก้อน ร่วมกับชัก → cysticercosis ตรวจตาด้วย (ตัวอ่อนในตา)"
+   "ชาย 40 ปีชักซ้ำ CT พบจุดหินปูนเล็กหลายจุดในเนื้อสมอง ไม่มีถุงหรือ edema → calcified neurocysticercosis → ยากันชักอย่างเดียว",
+   "หญิง 30 ปีปวดศีรษะ อาเจียน MRI พบถุงใน 4th ventricle ร่วม hydrocephalus → intraventricular cysticercosis → endoscopic removal (ยังไม่ให้ยาฆ่าพยาธิก่อนแก้ hydrocephalus)",
+   "เด็ก 10 ปีชักครั้งแรก CT พบก้อน ring-enhancing เดี่ยว &lt; 2 cm มี edema รอบ ไม่มี midline shift ในพื้นที่ระบาด → single enhancing cysticercus granuloma → ยากันชัก ± albendazole + steroid",
+   "ทำไมต้องให้ corticosteroid ร่วม albendazole → เมื่อตัวอ่อนตายจะปล่อยแอนติเจน เกิดการอักเสบ edema และชักมากขึ้น steroid ลดปฏิกิริยานี้"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>ให้ดูรูป neuro — ใช่ pyogenic cyst ป่าวนะ · อีกข้อ: น่าจะ taenia solium</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ไฟล์บอกว่าให้ดูรูป แต่ไม่มีรูปในไฟล์ → บรรยายภาพใน stem · ผู้จดไม่แน่ใจ 2 ข้อ (อาจเป็น 2 ข้อจากรูปเดียว) → รวมเป็นข้อเดียวถามเชื้อก่อโรค",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_13"
   ]
  },
  "MDCU74|RoC|14": {
-  "interp": "ความดันสูงเรื้อรังมีเลือดออกในเนื้อสมองเอง → ถามตำแหน่งที่พบ <b>น้อยที่สุด</b> ของ hypertensive ICH จากช้อย",
-  "why": "ผู้จดใส่ :) และ P'Ing วง <b>Pons</b><br><b>นอกสไลด์:</b> ความดันสูงเรื้อรังทำให้หลอดเลือดแดงเล็กที่แทงเข้าเนื้อสมองส่วนลึก (lenticulostriate, thalamoperforator, paramedian basilar) ผนังเสื่อม (lipohyalinosis) แล้วแตก · ตำแหน่งตามความถี่: putamen/basal ganglia > lobar > thalamus > pons ≈ cerebellum",
+  "interp": "ชาย 60 ปี ความดันสูงไม่คุมมานาน เกิด <b>spontaneous intracerebral hemorrhage</b> — ถามตำแหน่งที่<b>พบน้อยที่สุด</b>ของ hypertensive ICH ในช้อย ต้องรู้ความถี่ของแต่ละตำแหน่งและว่าทำไมความดันสูงทำให้เลือดออกในโครงสร้างลึก",
+  "why": "ความดันสูงเรื้อรังทำให้ <b>small penetrating arteries</b> (lenticulostriate จาก MCA, thalamoperforator, paramedian branches ของ basilar, superior cerebellar) เสื่อมแบบ <b>lipohyalinosis</b> และ Charcot-Bouchard microaneurysm → แตกที่<b>โครงสร้างลึก</b> · ความถี่ของ hypertensive ICH โดยประมาณ: <b>putamen/ basal ganglia ~35–50%</b> (มากที่สุด) · lobar/ subcortical ~10–20% (ในผู้สูงอายุ lobar มักเป็น cerebral amyloid angiopathy) · <b>thalamus ~10–15%</b> · <b>pons ~5–10%</b> · cerebellum ~5–10% · caudate ~5% · ในช้อยที่ให้ <b>pons</b> จึงพบน้อยที่สุด · อาการ pontine hemorrhage: โคม่าเร็ว <b>pinpoint pupils</b> (แต่ยังมีปฏิกิริยา) quadriplegia ไข้สูง หายใจผิดปกติ พยากรณ์แย่มาก ไม่ผ่าตัด · การดูแล ICH: NCCT, ลด SBP ให้ราว 140 mmHg (ไม่ต่ำกว่า 130) ภายในชั่วโมงแรก, แก้ฤทธิ์ยาต้านการแข็งตัวของเลือด, ผ่าตัดใน <b>cerebellar hemorrhage &gt; 3 cm</b> หรือกดก้านสมอง/ hydrocephalus · ไฟล์ผู้จดใส่ <b>\":)\"</b> ที่ <b>Pons</b> และ P'Ing วง Pons",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> Putamen เป็นตำแหน่งที่พบบ่อยที่สุด · ไม่มีสถานการณ์ใดที่เป็นตำแหน่งพบน้อยที่สุด เพราะ lenticulostriate artery เป็นหลอดเลือดที่เสื่อมจากความดันสูงบ่อยที่สุด",
-   "B": "<b>นอกสไลด์:</b> Thalamus พบรองลงมาและบ่อยกว่า pons · ไม่มีสถานการณ์ใดที่เป็นตำแหน่งพบน้อยที่สุดในช้อยนี้ เพราะความถี่สูงกว่า pons",
-   "C": "<b>นอกสไลด์:</b> Lobar พบได้บ่อยในเลือดออกในสมองโดยรวม (ในผู้สูงอายุมักจาก cerebral amyloid angiopathy) · ไม่มีสถานการณ์ใดที่น้อยกว่า pons เพราะความถี่ของ lobar สูงกว่า pons หลายเท่า",
-   "E": "<b>นอกสไลด์:</b> Basal ganglia (รวม putamen) เป็นกลุ่มที่พบบ่อยที่สุด · ไม่มีสถานการณ์ใดที่เป็นตำแหน่งพบน้อยที่สุด เพราะเป็นแหล่งหลักของ hypertensive ICH"
+   "A": "Putamen เป็นตำแหน่ง hypertensive ICH ที่<b>พบบ่อยที่สุด</b> (lenticulostriate artery) ไม่ใช่น้อยที่สุด — อาการ hemiparesis/ hemisensory loss ฝั่งตรงข้าม ตาเหลือบไปทางรอยโรค — จะถูกถ้าเป็นชาย 58 ปีความดัน 210/120 แขนขาซ้ายอ่อนแรงทันที ตาเหลือบไปทางขวา CT พบเลือดออกที่ putamen ขวา (ตำแหน่งที่พบบ่อยที่สุด)",
+   "B": "Thalamus พบราว 10–15% บ่อยกว่า pons — อาการ hemisensory loss เด่น อาจตาเหลือบลงล่างและเข้าใน (looking at the nose) และเลือดแตกเข้า ventricle ทำให้ hydrocephalus — จะถูกถ้าเป็นหญิง 65 ปีความดันสูง ชาครึ่งซีกขวา ตามองลงล่างเข้าใน ซึมลง CT พบเลือดออกที่ thalamus ซ้ายแตกเข้า third ventricle",
+   "C": "Lobar hemorrhage พบราว 10–20% ของ ICH ในผู้สูงอายุมักเกิดจาก <b>cerebral amyloid angiopathy</b> มากกว่าความดันสูง และพบบ่อยกว่า pons — จะถูกถ้าเป็นหญิง 78 ปีความดันปกติ สับสนและชักทันที CT พบเลือดออกใน parietal lobe ใต้เปลือกสมอง MRI SWI พบ microbleeds กระจายตามผิวสมอง (CAA)",
+   "E": "Basal ganglia (putamen + caudate + globus pallidus) รวมกันเป็นกลุ่มตำแหน่งที่<b>พบบ่อยที่สุด</b>ของ hypertensive ICH — จะถูกถ้าเป็นชาย 50 ปีความดันสูงไม่กินยา hemiplegia ขวา aphasia CT พบเลือดออกบริเวณ basal ganglia ซ้ายขนาด 30 mL (ตำแหน่งที่พบบ่อยที่สุดของ hypertensive ICH)"
   },
-  "trap": "ช้อยต้นฉบับมี \"Subarachnoid\" ซึ่งไม่ใช่ ICH จึงตัดออก · pons กับ cerebellum ความถี่ใกล้กันจึงไม่ใส่ cerebellum ในช้อย",
+  "trap": "คนอาจตอบ lobar เพราะจำว่าความดันสูงทำให้เลือดออก 'ลึก' ไม่ใช่ที่ผิวสมอง · แต่ lobar ICH พบรวมราว 10–20% (มี CAA ปนในผู้สูงอายุ) ยังบ่อยกว่า pons · ลำดับจำ: <b>putamen &gt; lobar ≈ thalamus &gt; pons ≈ cerebellum</b> · ช้อย basal ganglia กับ putamen ซ้อนกันแต่เป็นตำแหน่งที่บ่อยที่สุดทั้งคู่ ไม่กระทบคำตอบ",
   "summary": [
-   "<b>นอกสไลด์:</b> ความถี่โดยประมาณ: putamen/basal ganglia ราว 35–50% · lobar 20–30% · thalamus 10–15% · pons 5–10% · cerebellum 5–10%",
-   "<b>นอกสไลด์:</b> Pontine hemorrhage: โคม่าเร็ว รูม่านตาเล็กเท่าปลายเข็ม แขนขาอ่อนแรงทั้งสี่ ไข้สูง · ไม่ผ่าตัด",
-   "<b>นอกสไลด์:</b> Lobar ICH ในผู้สูงอายุที่เป็นซ้ำและมี microbleed ที่ผิวสมอง → cerebral amyloid angiopathy"
+   "Hypertensive ICH: lipohyalinosis + Charcot-Bouchard microaneurysm ของ penetrating arteries → putamen, thalamus, pons, cerebellum, caudate",
+   "ความถี่โดยประมาณ: putamen 35–50% · lobar 10–20% · thalamus 10–15% · pons 5–10% · cerebellum 5–10% · caudate ~5%",
+   "Lobar ICH ในผู้สูงอายุความดันปกติ → cerebral amyloid angiopathy (microbleeds ผิวสมองบน SWI, superficial siderosis) · คนอายุน้อย → AVM, cavernoma, ยาเสพติด",
+   "อาการตามตำแหน่ง: putamen — hemiparesis + gaze ไปข้างรอยโรค · thalamus — sensory + ตามองลงเข้าใน · pons — โคม่า pinpoint pupils quadriplegia · cerebellum — เวียน อาเจียน เดินไม่ได้ ไม่มี hemiparesis",
+   "ดูแล: NCCT/ CTA (spot sign = เลือดยังออก), SBP เป้า ~140 mmHg, reverse anticoagulant (PCC + vitamin K สำหรับ warfarin; idarucizumab/ andexanet ตามยา), ICP management",
+   "ผ่าตัด: cerebellar ICH &gt; 3 cm หรือกดก้านสมอง/ hydrocephalus → suboccipital craniectomy ด่วน · supratentorial ผิวสมองที่ทรุดลง → พิจารณา evacuation · EVD สำหรับ hydrocephalus",
+   "ICH score (GCS, ปริมาตร ≥ 30 mL, IVH, infratentorial, อายุ ≥ 80) ใช้ทำนาย 30-day mortality"
   ],
-  "opinion": "เห็นด้วยกับคีย์ pons · ช้อยแต่งใหม่ให้เป็นตำแหน่ง ICH จริง · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง-สูง — ตรงกับคีย์ในไฟล์ที่ผู้จดใส่ :) ที่ Pons และ P'Ing วง Pons · ต้นฉบับมีช้อย subarachnoid ซึ่งไม่ใช่ ICH เว็บจึงเปลี่ยนเป็นตำแหน่ง ICH จริงและไม่ใส่ cerebellum เพราะความถี่ใกล้เคียง pons ทำให้เหลือคำตอบเดียว",
+  "mnemonic": "<b>'ความดันแตก 'ลึก': Putamen มากสุด → Lobar/ Thalamus → Pons/ Cerebellum น้อยสุด'</b>",
+  "guide": "Greenberg SM et al. 2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage, Stroke 2022; Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยความดันสูงมีเลือดออกที่ cerebellum 20 mL ซึมลงและ CT เห็น hydrocephalus → ผ่าตัดเอาก้อนเลือดออก"
+   "ชาย 62 ปีความดันสูง เวียนศีรษะ อาเจียน เดินไม่ได้ ซึมลง CT พบเลือดออกที่ cerebellum 4 cm กด 4th ventricle → suboccipital craniectomy ด่วน",
+   "ชาย 55 ปีหมดสติทันที รูม่านตาเล็กเท่าปลายเข็มสองข้าง แขนขาอ่อนแรงทั้งสี่ ไข้สูง → pontine hemorrhage → ดูแลประคับประคอง",
+   "หญิง 80 ปี lobar hemorrhage ซ้ำครั้งที่สอง MRI พบ cortical microbleeds หลายจุด → cerebral amyloid angiopathy → เลี่ยง antithrombotic ถ้าเลี่ยงได้",
+   "ทำไม hypertensive ICH มักเกิดที่ basal ganglia → lenticulostriate artery แตกออกจาก MCA เป็นมุมฉาก รับแรงดันเต็มที่โดยไม่ผ่านหลอดเลือดเล็กลดแรงดัน จึงเสื่อมจากความดันเร็ว"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>ICH hypertension เจอ lobe ไหนน้อยสุด — Lobar · Subarachnoid · Pons :) · …..</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ⚠ ช้อยในไฟล์ไม่ครบ (Lobar, Subarachnoid, Pons, …) → แต่งช้อยใหม่ให้เป็นตำแหน่ง ICH จริง (ตัด Subarachnoid ซึ่งไม่ใช่ ICH) · pons กับ cerebellum ความถี่ใกล้กัน จึงไม่ใส่ cerebellum ในช้อย",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_14"
   ]
  },
  "MDCU74|RoC|15": {
-  "interp": "ลานสายตาแคบสองข้างขมับ MRI พบ non-functioning pituitary macroadenoma 2.5 cm กด optic chiasm · prolactin สูงเล็กน้อย 40 ng/mL → ถามการรักษา",
-  "why": "ผู้จดใส่ :) ที่ <b>Transsphenoidal Sx</b> · P'Ing เขียน <b>med ✗ prolactinoma only</b><br><b>นอกสไลด์:</b> ก้อนที่กดเส้นประสาทตาต้องลดการกดเร็ว · non-functioning adenoma ไม่ตอบสนองต่อยา จึงผ่าตัดผ่านโพรงจมูก–sphenoid · prolactin สูงเล็กน้อยเกิดจากก้อนกดก้านต่อมใต้สมอง (stalk effect) ทำให้ dopamine ลงมายับยั้งไม่ได้ ไม่ใช่ prolactinoma",
+  "interp": "ชาย 50 ปี <b>ตามัวขอบนอกสองข้าง (bitemporal hemianopia)</b> ที่แย่ลง MRI พบ <b>non-functioning pituitary macroadenoma 2.5 cm กด optic chiasm</b> prolactin สูงเล็กน้อย 40 ng/mL — ถาม treatment of choice ต้องแยก non-functioning adenoma ที่ prolactin สูงจาก <b>stalk effect</b> ออกจาก prolactinoma ที่รักษาด้วยยา",
+  "why": "Macroadenoma (≥ 1 cm) โตขึ้นเหนือ sella กด <b>optic chiasm</b> จากด้านล่าง ทำลายเส้นใยที่ไขว้จาก nasal retina → <b>bitemporal hemianopia</b> (มักเริ่ม superior quadrant) · <b>Non-functioning pituitary adenoma (NFPA)</b> ไม่หลั่งฮอร์โมนเกิน มาด้วย mass effect (ตามัว ปวดศีรษะ) และ hypopituitarism · prolactin สูงเล็กน้อย (มักน้อยกว่าราว 100 ng/mL) จาก <b>stalk effect</b> — ก้อนกด pituitary stalk ขัดการส่ง dopamine จาก hypothalamus ที่ยับยั้ง lactotroph ต่างจาก <b>macroprolactinoma</b> ที่ prolactin มักสูงหลายร้อย (&gt; 250 ng/mL) · NFPA ที่กด chiasm มีข้อบ่งชี้ผ่าตัด → <b>endoscopic/ microscopic transsphenoidal surgery</b> ลดก้อนและคืนการมองเห็นได้ราว 70–80% · ประเมินฮอร์โมนทุกแกนก่อนผ่าตัด ให้ hydrocortisone เมื่อขาด cortisol (และให้ก่อนเริ่ม thyroxine) · หลังผ่าตัดเฝ้าระวัง diabetes insipidus/ SIADH, CSF leak, hypopituitarism · ก้อนเหลือ/ โตซ้ำ → stereotactic radiosurgery หรือ fractionated RT · ไฟล์ผู้จดใส่ <b>\":)\"</b> ที่ <b>Transsphenoidal Sx</b> และ P'Ing วงพร้อมเขียน <b>\"med ✗ prolactinoma only\"</b>",
   "wrong": {
-   "A": "P'Ing: ยาใช้กับ prolactinoma เท่านั้น · <b>นอกสไลด์:</b> จะถูกถ้า prolactin สูงมาก (หลายร้อย ng/mL) ร่วมกับ macroadenoma — prolactinoma ใช้ cabergoline เป็นการรักษาแรกแม้กดเส้นประสาทตา",
-   "C": "<b>นอกสไลด์:</b> Whole-brain RT ใช้กับมะเร็งกระจายมาสมองหลายก้อน · ไม่มีสถานการณ์ใดที่ใช้กับ pituitary adenoma เพราะเมื่อต้องฉายรังสี (ก้อนเหลือหรือกลับเป็นซ้ำ) จะฉายเฉพาะจุด เช่น stereotactic radiosurgery",
-   "D": "<b>นอกสไลด์:</b> เฝ้าดูใช้กับก้อนที่ไม่กดอะไร · จะถูกถ้าพบ non-functioning microadenoma (&lt; 1 cm) โดยบังเอิญ ลานสายตาและฮอร์โมนปกติ",
-   "E": "<b>นอกสไลด์:</b> Octreotide ใช้กับ GH-secreting adenoma · จะถูกถ้าผู้ป่วย acromegaly ยังมี IGF-1 สูงหลังผ่าตัด"
+   "A": "Cabergoline (dopamine agonist) เป็น treatment of choice ของ <b>prolactinoma</b> แม้เป็น macroadenoma ที่กด chiasm (ก้อนยุบและตาดีขึ้นด้วยยา) แต่ไม่ลดขนาด NFPA (P'Ing \"med ✗ prolactinoma only\") — จะถูกถ้าเป็นชาย 45 ปี libido ลด ตามัวขอบนอกสองข้าง MRI พบ macroadenoma 3 cm prolactin 2,500 ng/mL",
+   "C": "Whole-brain radiotherapy ใช้กับ brain metastasis หลายตำแหน่ง ไม่ใช่ pituitary adenoma ซึ่งเมื่อต้องฉายรังสีจะใช้ stereotactic radiosurgery/ fractionated RT ที่ sella เฉพาะก้อนที่เหลือหรือโตซ้ำ และผลช้าหลายปีจึงไม่แก้ตามัวเร่งด่วน — จะถูกถ้าเป็นหญิง 60 ปีมะเร็งปอดแพร่กระจายไปสมองมากกว่า 10 ก้อนทั่วสมอง ไม่เหมาะกับ radiosurgery",
+   "D": "การเฝ้าดูด้วย MRI ใช้กับ incidentaloma/ microadenoma ที่ไม่หลั่งฮอร์โมนและ<b>ไม่กด chiasm</b> ไม่มีความผิดปกติของลานสายตา — ผู้ป่วยตามัวลุกลามจึงรอไม่ได้ — จะถูกถ้าเป็นหญิง 45 ปี MRI สมองจากอาการปวดศีรษะพบ pituitary adenoma 6 mm บังเอิญ ฮอร์โมนปกติ ลานสายตาปกติ",
+   "E": "Octreotide/ lanreotide (somatostatin analog) ใช้กับ <b>acromegaly</b> (GH-secreting adenoma) ที่ผ่าตัดไม่หายหรือผ่าตัดไม่ได้ และ TSH-oma ไม่ใช่ NFPA — จะถูกถ้าเป็นชาย 48 ปีมือเท้าโต คางยื่น IGF-1 สูง GH ไม่ถูกกดหลัง OGTT ผ่าตัด transsphenoidal แล้วยังมีก้อนเหลือใน cavernous sinus"
   },
-  "trap": "Prolactin สูงเล็กน้อยชวนคิดว่าเป็น prolactinoma — prolactinoma ขนาด macroadenoma มักมี prolactin หลายร้อย · ค่าไม่สูงมากกับก้อนใหญ่ = stalk effect",
+  "trap": "คนเห็น prolactin สูงแล้วตอบ cabergoline (ต้นฉบับจดช้อย 'med' ไว้ด้วย) · แต่ prolactin <b>40 ng/mL</b> กับก้อน 2.5 cm ไม่เข้ากับ prolactinoma ซึ่งจะสูงหลายร้อย — เป็น <b>stalk effect</b> ของ NFPA · ระวัง <b>hook effect</b> ในก้อนยักษ์ที่ prolactin ต่ำเท็จ ต้องสั่งตรวจแบบเจือจาง",
   "summary": [
-   "ลายมือในคีย์: ยาใช้กับ prolactinoma เท่านั้น อย่างอื่นผ่าตัด",
-   "<b>นอกสไลด์:</b> Transsphenoidal surgery เป็นการรักษาแรกของ non-functioning macroadenoma ที่กดเบียด · acromegaly · Cushing disease",
-   "<b>นอกสไลด์:</b> Stalk effect: prolactin มักไม่เกินราว 100–150 ng/mL"
+   "Pituitary adenoma: micro &lt; 1 cm · macro ≥ 1 cm · ชนิด prolactinoma (บ่อยสุดในกลุ่มหลั่งฮอร์โมน), NFPA (บ่อยสุดใน macroadenoma), GH (acromegaly), ACTH (Cushing disease), TSH (พบน้อย)",
+   "ประเมิน: MRI sella with gadolinium, ลานสายตา, prolactin (เจือจางในก้อนใหญ่ — hook effect), IGF-1, morning cortisol ± ACTH, TSH/ free T4, LH/ FSH/ testosterone หรือ estradiol",
+   "Prolactinoma: cabergoline เป็นการรักษาแรกแม้ก้อนใหญ่/ กด chiasm · ผ่าตัดเมื่อดื้อยา ทนยาไม่ได้ หรือ apoplexy",
+   "NFPA/ acromegaly/ Cushing disease: transsphenoidal surgery เป็นการรักษาแรก · ยาและรังสีเป็นการรักษาเสริม",
+   "Pituitary apoplexy: ปวดศีรษะทันทีรุนแรง ตามัว ophthalmoplegia ความดันตก → hydrocortisone ขนาด stress ทันที ± ผ่าตัดลดความดันด่วน",
+   "หลังผ่าตัด: DI (ปัสสาวะมาก Na สูง) ใน 1–2 วันแรก → SIADH ราววันที่ 5–10 (triphasic response) · CSF leak · hypopituitarism · ตรวจลานสายตาและ MRI ติดตาม",
+   "Stalk effect: ก้อนใด ๆ ที่กด stalk (adenoma, craniopharyngioma, Rathke cleft cyst) ทำให้ prolactin สูงเล็กน้อย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ transsphenoidal surgery · ไฟล์จดเป็นหัวข้อจึงแต่งโจทย์ตามที่ P'Ing เขียน · ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ที่ผู้จดใส่ :) ที่ Transsphenoidal Sx และ P'Ing เขียนว่ายาใช้กับ prolactinoma เท่านั้น · ต้นฉบับจดแค่หัวข้อ 'Pituitary adenoma treatment' เว็บแต่งเคส non-functioning macroadenoma กด chiasm พร้อม prolactin สูงเล็กน้อยจาก stalk effect ให้ตรงกับคำตอบ",
+  "mnemonic": "<b>'Pituitary: 'Prolactin = Pill (cabergoline) · ที่เหลือ = Pass ทางจมูก (transsphenoidal)''</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) Pituitary Adenomas; Petersenn S et al. Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement, Nat Rev Endocrinol 2023; Melmed's Williams Textbook of Endocrinology 14th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย pituitary macroadenoma ปวดศีรษะรุนแรงเฉียบพลัน ตามัว ความดันต่ำ → pituitary apoplexy ให้ hydrocortisone ทันที ± ผ่าตัดลดการกดด่วน",
-   "<b>นอกสไลด์:</b> หลังผ่าตัด transsphenoidal ปัสสาวะออกมากเจือจาง Na สูงขึ้น → central diabetes insipidus ให้ desmopressin"
+   "หญิง 28 ปีประจำเดือนขาด น้ำนมไหล MRI microadenoma 7 mm prolactin 150 ng/mL → cabergoline",
+   "ชาย 55 ปีปวดศีรษะทันทีรุนแรง ตามัว หนังตาตก ความดันตก MRI พบเลือดออกใน macroadenoma → pituitary apoplexy → hydrocortisone IV ทันที ± transsphenoidal decompression",
+   "วันที่ 2 หลังผ่าตัด transsphenoidal ปัสสาวะ 6 ลิตร Na 150 urine osmolality ต่ำ → central diabetes insipidus → desmopressin",
+   "ทำไม bitemporal hemianopia มักเริ่มที่ลานสายตาบน → ก้อนกด chiasm จากด้านล่าง เส้นใยจาก inferior nasal retina (รับภาพลานบนด้านขมับ) ถูกกดก่อน"
+  ],
+  "notes": "ไฟล์ S74CQ หน้า 2 — ตัวพิมพ์: <b>Pituitary adenoma treatment — med · Transphenoidal Sx :)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: หัวข้อจดแค่ \"Pituitary adenoma treatment - med / Transphenoidal Sx :)\" → แต่งโจทย์ให้เป็น non-functioning macroadenoma ตามที่ P'Ing เขียนว่า med ใช้กับ prolactinoma เท่านั้น",
+  "src": "S74CQ · หน้า 2",
+  "kimg": [
+   "kp74c_15"
   ]
  }
 }
