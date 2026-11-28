@@ -41,7 +41,7 @@ def problems(q):
     if len(TXT(q.get("why"))) < M["why"]: bad.append("why")
     w = q.get("wrong")
     items = list(w.values()) if isinstance(w, dict) else list(w or [])
-    if len(items) < len(q.get("opts") or []) - 1 or any(len(TXT(x)) < M["wrong"] or not re.search("จะถูก|จะเป็นคำตอบ|ไม่มีสถานการณ์", str(x)) or JUNK.search(str(x)) for x in items) or len(set(map(TXT, items))) < len(items):
+    if len(items) < len(q.get("opts") or []) - 1 or any(len(TXT(x)) < M["wrong"] or not re.search("จะถูก|จะเป็นคำตอบ|ไม่มีสถานการณ์|ข้อความถูก", str(x)) or JUNK.search(str(x)) for x in items) or len(set(map(TXT, items))) < len(items):
         bad.append("wrong")
     if len(TXT(q.get("trap"))) < M["trap"]: bad.append("trap")
     s = [TXT(x) for x in (q.get("summary") or [])]

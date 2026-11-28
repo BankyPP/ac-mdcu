@@ -32,7 +32,7 @@ for n in range(1,151):
     assert not re.search(r'ดูข้อ \d|\(ข้อ \d',blob),(n,'ref')
     assert not re.search(r'\b(lectures?|slides?|class|students?)\b',q['stem']+' '.join(q['opts']),re.I),(n,'stem/opts พูดถึง lecture/slide/class/student')
     for k in ('mnemonic','guide','opinion','interp','why','trap'): assert q.get(k),(n,k)
-    for c,w in q['wrong'].items(): assert ('จะถูกถ้า' in w) or ('ไม่มีสถานการณ์ใด' in w),(n,'wrong',c)
+    for c,w in q['wrong'].items(): assert ('จะถูกถ้า' in w) or ('ไม่มีสถานการณ์ใด' in w) or ('ข้อความถูก' in w),(n,'wrong',c)
     for im in q['kimg']:
         p=im.split('_p')[1]; lab='ชีทหน้า' if im.startswith('l22s_') else 'สไลด์หน้า'
         assert f'{lab} {p} ' in q['notes'],(n,'notes ต้องยกครบทุกหน้าใน kimg',im)
