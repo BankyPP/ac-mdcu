@@ -5,17 +5,19 @@
 const fs=require('fs'),path=require('path');
 const R=path.join(__dirname,'..'),slug=process.argv[2];
 const {issues,T}=require(__dirname+'/explain_quality.js');
-const files=fs.readdirSync(path.join(R,'parts/explain',slug)).filter(f=>/^zq.*\.json$/.test(f)).sort();
+const files=fs.readdirSync(path.join(R,'parts/explain',slug)).filter(f=>/^z[qz].*\.json$/.test(f)).sort();
 if(!files.length){console.log(`gate ${slug}: ไม่มีแพตช์ zq* — ข้าม`);process.exit(0);}
 const keys=new Set();for(const f of files)Object.keys(JSON.parse(fs.readFileSync(path.join(R,'parts/explain',slug,f),'utf8'))).forEach(k=>keys.add(k));
+const exf=path.join(R,'parts/explain',slug,'_depth_exempt.txt');
+const EXEMPT=fs.existsSync(exf)?fs.readFileSync(exf,'utf8').split('\n').map(x=>x.replace(/#.*/,'').trim()).filter(Boolean):[];
 const {QB}=require(__dirname+'/load.js')();
 const oc={},hit=new Map();
 for(const q of QB){const b=q.set+'|'+(q.ro||'')+'|'+q.orig,bp=b+'@p'+q.page,n=oc[bp]=(oc[bp]||0)+1;
   for(const k of [bp+'#'+n,bp,b])if(keys.has(k)){if(!hit.has(k))hit.set(k,[]);hit.get(k).push(q);break;}}
 const missing=[...keys].filter(k=>!hit.has(k));
-const bad=[];for(const [k,qs] of hit)for(const q of qs){const is=issues(q,{gate:true});if(is.length)bad.push([k,is]);}
+const bad=[];for(const [k,qs] of hit)for(const q of qs){const is=issues(q,{gate:true,depth:!EXEMPT.some(e=>k.startsWith(e))});if(is.length)bad.push([k,is]);}
 if(missing.length)console.log('❌ key ไม่ตรงข้อใด: '+missing.join(' · '));
-if(bad.length){console.log(`❌ gate ${slug}: ${bad.length} ข้อในแพตช์ zq* ยังไม่ผ่านมาตรฐาน (kit/มาตรฐานเฉลย.md) — แก้ก่อน build/push`);
+if(bad.length){console.log(`❌ gate ${slug}: ${bad.length} ข้อในแพตช์ zq* ยังไม่ผ่านมาตรฐานระดับ 78 (kit/มาตรฐานเฉลย-แบบ78-GenSx.md · tools/explain_quality.js DEPTH78) — แก้ก่อน build/push`);
   bad.slice(0,40).forEach(([k,is])=>console.log('  '+k+' → '+is.map(x=>x.f+': '+x.m).join(' · ')));process.exit(1);}
 if(missing.length)process.exit(1);
 // รายงานเทียบ Gen Sx (มัธยฐาน ตัวอักษร) — แนบให้ผู้ใช้ทุกครั้งที่ push

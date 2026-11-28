@@ -8,10 +8,14 @@ const MINL={interp:100,why:350,wrong:100,trap:120,sumN:5,sum:600,bullet:15,opini
 // ผู้ใช้สั่ง 24 พ.ย. 2026 15:3x: "มีเกณฑ์มันไม่ใช่เรื่อง … ขอให้ทำแบบ Gen Sx" → gate (build) ไม่มีขั้นต่ำความยาวแล้ว
 //   เช็คแค่ช่องไม่ว่าง + ทุกช้อยผิดมี "จะถูกถ้า/ไม่มีสถานการณ์" + ไม่ซ้ำ + บอกคีย์เดิมเมื่อ ans ≠ คีย์ · MIN ยังใช้แค่ ac_full_check (นับข้อเก่าที่บาง)
 const GATE={interp:1,why:1,wrong:1,trap:1,sumN:1,sum:1,bullet:1,opinion:1,varN:1,variants:1,variant:1};
+// ด่านความลึกระดับ Subspe 78 (ผู้ใช้สั่ง 26 พ.ย. 18:10 + 28 พ.ย. 12:31 "ให้วอร์ดหน้าได้เฉลยที่มีคุณภาพ") — explain_gate.js ใช้กับแพตช์ zq*/zz* ทุกวอร์ด
+//   ตั้งจากมัธยฐาน 78 (interp 181 · why 504 · trap 217 · summary 755 · opinion 193 · variants 401) ที่ราว p25 · ชุดต้นแบบที่ยกเว้น: parts/explain/<slug>/_depth_exempt.txt
+const DEPTH78={interp:120,why:350,wrong:110,trap:130,sumN:5,sum:550,bullet:15,opinion:120,varN:4,variants:300,variant:40};
+const BANNED=/นอกสไลด์|จะถูกถ้า\s*คำถาม/;
 const txt=v=>T(typeof v==='string'?v:JSON.stringify(v));
 // คืนรายการปัญหา [{f:ฟิลด์, m:เหตุผล}] · ว่าง = ผ่าน
 function issues(q,opt){
-  const MIN=opt&&opt.gate?GATE:MINL;
+  const MIN=opt&&opt.depth?DEPTH78:opt&&opt.gate?GATE:MINL;
   const out=[],add=(f,m)=>out.push({f,m}),n=(q.opts||[]).length;
   const ansTxt=n?T(q.opts[q.ans]):'';
   // ตีความโจทย์
@@ -44,7 +48,10 @@ function issues(q,opt){
   // ans ไม่ตรงคีย์ไฟล์ → ต้องบอกใน trap หรือ opinion
   const flag=T(q.key)+' '+T(q.notes);
   if(/ไม่ตรงกับคีย์|Claude ตอบ|คีย์ 2 ไฟล์ไม่ตรง/.test(flag)&&!/คีย์/.test(tr+' '+op))add('trap','ans ต่างจากคีย์ไฟล์ แต่ trap/opinion ไม่ได้บอกคีย์เดิม');
+  if(opt&&opt.depth){const all=['interp','why','trap','opinion'].map(f=>T(q[f])).concat(Object.values(q.wrong||{}).map(T),(q.summary||[]).map(T),(q.variants||[]).map(txt)).join(' ');
+    const m=all.match(BANNED);if(m)add('ข้อความ',`มีคำต้องห้าม "${m[0]}"`);
+    for(const f of ['mnemonic','guide'])if(!T(q[f]))add(f,'ว่าง');}
   return out;
 }
 const fields=q=>[...new Set(issues(q).map(x=>x.f))];
-module.exports={issues,fields,MIN:MINL,GATE,T};
+module.exports={issues,fields,MIN:MINL,GATE,DEPTH78,T};

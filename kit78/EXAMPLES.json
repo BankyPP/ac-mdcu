@@ -1,0 +1,155 @@
+{
+ "MDCU78|RoB|3": {
+  "stem": "A 60-year-old man has a large traumatic wound over the anterior tibia after a motorcycle accident. There is exposed bone with minimal surrounding soft tissue, and the wound bed is poorly vascularized. What is the most appropriate management for wound coverage?",
+  "opts": [
+   "Healing by secondary intention",
+   "Split-thickness skin graft",
+   "Full-thickness skin graft",
+   "Latissimus dorsi free flap",
+   "Primary closure under tension"
+  ],
+  "ans": 3,
+  "key": "D — อยากได้ Free flap (คีย์ในไฟล์ Key 78B)",
+  "interp": "แผลกว้างจากอุบัติเหตุที่หน้าแข้ง กระดูกโผล่ เนื้อเยื่อรอบน้อยและฐานแผลเลือดเลี้ยงไม่ดี — ถามวิธีปิดแผล ซึ่งต้องใช้เนื้อเยื่อที่มีเลือดเลี้ยงของตัวเอง (flap) เพราะ graft จะไม่ติด",
+  "why": "Skin graft ไม่มีเลือดเลี้ยงของตัวเอง อยู่รอดด้วย plasmatic imbibition (48 ชม.แรก) แล้ว inosculation และ revascularization จากฐานแผล · ฐานแผลที่ไม่มีเลือดเลี้ยง เช่น <b>กระดูกที่ไม่มี periosteum</b>, tendon ที่ไม่มี paratenon, cartilage, hardware หรือบริเวณที่ฉายรังสี → graft ไม่ติด ต้องใช้ <b>flap</b> ซึ่งมีหลอดเลือดของตัวเองนำเลือดมาเลี้ยงกระดูกและต้านการติดเชื้อ · หน้าแข้งผิวบางไม่มีกล้ามเนื้อคลุม: proximal 1/3 → gastrocnemius flap · middle 1/3 → soleus flap · distal 1/3 หรือแผลใหญ่ → <b>free flap</b> (latissimus dorsi, anterolateral thigh, gracilis) ต่อหลอดเลือดด้วย microsurgery · แผลใหญ่และฐานแย่ในรายนี้จึงเหมาะกับ free flap ตามคีย์ (\"อยากได้ Free flap\")",
+  "wrong": {
+   "A": "Healing by secondary intention ใช้เวลาหลายเดือน กระดูกที่โผล่จะแห้ง ตาย และติดเชื้อ (osteomyelitis) จึงไม่เหมาะกับแผลที่กระดูกโผล่ — จะถูกถ้าเป็นแผลตื้นที่ติดเชื้อหรือแผลเล็กบริเวณเว้า (เช่นหัวตา) ที่ไม่มีโครงสร้างสำคัญโผล่",
+   "B": "Split-thickness skin graft ต้องการฐานแผลที่มีเลือดเลี้ยง (granulation tissue, กล้ามเนื้อ, fascia, periosteum) — วางบนกระดูกเปลือยจะไม่ติด; จะถูกถ้าเป็นแผลกว้างที่ฐานเป็น granulation tissue ดี หรือใช้คลุมกล้ามเนื้อของ flap อีกที",
+   "C": "Full-thickness skin graft หนากว่าจึงต้องการเลือดเลี้ยงจากฐานมากกว่า STSG อีก และใช้กับแผลเล็กที่ต้องการสีและเนื้อผิวใกล้เคียง — จะถูกถ้าเป็นแผลเล็กที่ใบหน้า (เช่น หลังตัด BCC ที่จมูก) บนฐานที่มีเลือดดี",
+   "E": "เย็บปิดแบบตึงที่หน้าแข้งซึ่งผิวไม่ยืด ทำให้ขอบแผลขาดเลือด แผลแยก และเนื้อตายจนกระดูกโผล่ซ้ำ — จะถูก (เย็บปิดตรง) ถ้าแผลเล็กที่ขอบดึงมาชนกันได้โดยไม่ตึง"
+  },
+  "trap": "เลือก skin graft เพราะเป็นวิธีปิดแผลกว้างที่ง่าย — ต้องดูฐานแผลก่อน: กระดูกเปลือย/ฐานไม่มีเลือด = graft ไม่ติด ต้อง flap · และปัจจุบันใช้ reconstructive elevator คือเลือกขั้นที่เหมาะเลย ไม่ต้องไล่จากง่ายไปยาก",
+  "summary": [
+   "Reconstructive ladder: secondary intention → primary closure → skin graft → local flap → regional flap → free flap · ปัจจุบันเป็น elevator: ข้ามไปขั้นที่ให้ผลดีที่สุดได้",
+   "Graft take: imbibition (0–48 ชม.) → inosculation → revascularization · ล้มเหลวจาก hematoma/seroma (บ่อยสุด), infection, shear",
+   "Graft ไม่ติดบน: กระดูกไม่มี periosteum, tendon ไม่มี paratenon, cartilage, hardware, irradiated bed",
+   "STSG: ติดง่ายกว่า หดตัวมากกว่า (secondary contraction) · FTSG: สีและเนื้อดีกว่า หดน้อย ใช้หน้าและมือ แต่ติดยากกว่า",
+   "หน้าแข้ง: proximal 1/3 gastrocnemius · middle 1/3 soleus · distal 1/3 free flap",
+   "Open tibia fracture Gustilo IIIB (กระดูกโผล่ต้องใช้ flap): ปิดแผลด้วย flap ภายใน 72 ชม. ร่วมกับ fixation (BOAST)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — ไฟล์ Key 78B เขียนว่า \"อยากได้ Free flap\" ตรงกับหลักว่ากระดูกเปลือยบนฐานแผลไม่ดีต้องใช้ flap; ตำแหน่งแผลไม่ได้บอกว่าอยู่ส่วนไหนของ tibia แต่แผลใหญ่และฐานแย่ทำให้ free flap เหมาะที่สุดในช้อย",
+  "mnemonic": "\"Bone/Tendon bare = Flap there\"",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) Vol.4 Lower Extremity; BOAST/BAPRAS Standards for Open Fractures 2017",
+  "variants": [
+   "แผลที่ proximal 1/3 ของหน้าแข้ง กระดูกโผล่ ขนาด 5 cm → gastrocnemius muscle flap + STSG คลุม",
+   "ทำไม skin graft ไม่ติดบนกระดูกที่ไม่มี periosteum → ฐานไม่มีเลือดเลี้ยงให้ imbibition และ inosculation",
+   "แผลกว้างที่ต้นขา ฐานเป็น granulation tissue สีแดงดี → split-thickness skin graft",
+   "หลังทำ STSG 5 วัน graft ซีดและยกตัวตรงกลาง มีเลือดคั่งใต้ graft → hematoma (สาเหตุล้มเหลวที่พบบ่อยที่สุด)"
+  ]
+ },
+ "MDCU76|RoA|1": {
+  "stem": "A 70-year-old man with bladder cancer undergoes TURBT. Pathology shows urothelial carcinoma invading the lamina propria without invasion of the muscularis propria. What is the most appropriate next management?",
+  "opts": [
+   "Clinical observation",
+   "Follow-up cystoscopy in 3 months",
+   "Intravesical BCG",
+   "PET-CT",
+   "Radical cystectomy"
+  ],
+  "ans": 2,
+  "key": "C (วงไว้ เขียน \"-slide\") · ช้อย B ไฮไลต์แดง เขียน \"P'dent URO\" และ \"ไม่เคยมี staging แต่ f/u 3 mo\" (คีย์ในไฟล์ Key 76A)",
+  "interp": "หลัง TURBT พยาธิพบ urothelial carcinoma ลุก lamina propria แต่ไม่ถึง muscularis propria = pT1 → ยังเป็น non-muscle invasive bladder cancer (NMIBC) แต่จัดเป็น high risk · ถามการรักษาเสริมหลัง TURBT ไม่ใช่การผ่าตัดเอากระเพาะปัสสาวะออก",
+  "why": "เส้นแบ่งของมะเร็งกระเพาะปัสสาวะคือ muscularis propria (detrusor): Ta/T1/CIS = NMIBC ส่วน ≥ T2 = MIBC · T1 มักเป็น high grade กลับเป็นซ้ำบ่อยและลุกลามเป็น MIBC ได้ → จัดเป็น high-risk NMIBC (AUA/EAU) · แนวทาง: re-TURBT ใน 2–6 สัปดาห์ (T1 มักมีเนื้องอกหลงเหลือหรือ understage) แล้วให้ intravesical BCG — induction สัปดาห์ละครั้ง 6 ครั้ง เริ่มหลัง TURBT ราว 2–4 สัปดาห์ ตามด้วย maintenance 1–3 ปี · BCG เป็นภูมิคุ้มกันบำบัดที่ลดทั้ง recurrence และ progression ได้ดีกว่า intravesical chemotherapy จึงเป็นมาตรฐานของ high-risk NMIBC ที่ยังเก็บกระเพาะปัสสาวะไว้ได้",
+  "wrong": {
+   "A": "Observation อย่างเดียวไม่เหมาะกับ T1 ซึ่งกลับเป็นซ้ำและลุกลามเป็น MIBC ได้สูงถ้าไม่ได้ยาเสริม; จะถูกถ้าผลพยาธิเป็น inverted papilloma (เนื้องอกไม่ร้าย) ที่ตัดออกหมดแล้ว",
+   "B": "Cystoscopy ที่ 3 เดือนต้องทำทุกราย (ที่ resident ไฮไลต์) แต่เป็นการติดตามที่ทำคู่กับ BCG ไม่ใช่การรักษาแทน; จะถูกถ้าเป็น low-risk NMIBC (Ta low grade ก้อนเดียว &lt; 3 cm) ที่ตัดหมดและได้ single immediate intravesical chemotherapy แล้ว",
+   "D": "PET-CT ไม่ใช่ staging มาตรฐานของ NMIBC — สิ่งที่ต้องตรวจเพิ่มคือ upper tract ด้วย CT urography; จะถูกถ้าเป็น MIBC (≥ T2) ที่ CT สงสัยต่อมน้ำเหลืองหรือการแพร่กระจาย และต้องการข้อมูลก่อนตัดสินใจ cystectomy",
+   "E": "Radical cystectomy ใช้ใน MIBC หรือ NMIBC ความเสี่ยงสูงมาก — ยังไม่ใช่ขั้นแรกของ T1 ทั่วไปที่เก็บกระเพาะปัสสาวะได้; จะถูกถ้า T1 high grade กลับเป็นซ้ำหลังได้ BCG ครบ (BCG-unresponsive) หรือ T1 ร่วมกับ CIS, lymphovascular invasion หรือ variant histology"
+  },
+  "trap": "คำว่า \"invading\" ชวนให้คิดว่าเป็น invasive แล้วตอบ cystectomy — เส้นแบ่ง MIBC คือ muscularis propria ไม่ใช่ lamina propria · อีกกับดักคือนัดส่องกล้อง 3 เดือน (ที่ resident ไฮไลต์) ซึ่งต้องทำจริงแต่ไม่ครบ T1 ต้องได้ BCG",
+  "summary": [
+   "TNM: Ta papillary ไม่ลุก · Tis (CIS) flat high grade · T1 ลุก lamina propria · T2 ลุก muscularis propria · T3 perivesical fat · T4 อวัยวะข้างเคียง — Ta/T1/CIS = NMIBC (ราว 75% ของผู้ป่วยใหม่)",
+   "Risk ย่อ: low = Ta low grade ก้อนเดียว &lt; 3 cm · intermediate = ระหว่างกลาง (เช่น Ta low grade หลายก้อนหรือกลับเป็นซ้ำ) · high = T1 high grade, CIS, Ta high grade ที่ก้อนใหญ่/หลายก้อน · very high = T1 HG ร่วม CIS, LVI, variant histology",
+   "การรักษาหลัง TURBT ตาม risk: low → single immediate intravesical chemotherapy (mitomycin C/gemcitabine ภายใน 24 ชม.) · intermediate → chemotherapy หรือ BCG induction ± maintenance 1 ปี · high → BCG induction + maintenance 1–3 ปี",
+   "re-TURBT 2–6 สัปดาห์: T1 ทุกราย หรือชิ้นเนื้อไม่มี detrusor muscle (ยกเว้น Ta low grade/CIS เดี่ยว)",
+   "BCG ข้อห้ามเด็ดขาด: ภายใน 2 สัปดาห์หลัง TURBT, gross hematuria, traumatic catheterization, UTI มีอาการ · ภูมิคุ้มกันบกพร่องเป็นข้อห้ามสัมพัทธ์ · BCG-unresponsive high risk → radical cystectomy (ผู้ไม่ผ่าตัดมียาทางเลือก เช่น pembrolizumab)",
+   "ติดตาม: cystoscopy ที่ 3 เดือนทุกราย แล้วถี่ตาม risk · high risk ตรวจ upper tract เป็นระยะ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76A) มั่นใจสูง — pT1 เป็น high-risk NMIBC มาตรฐานคือ re-TURBT แล้ว BCG; ช้อย B ที่ resident ไฮไลต์ว่า \"ไม่เคยมี staging แต่ f/u 3 mo\" ถูกในแง่ว่าต้องส่องกล้องที่ 3 เดือนจริง แต่เป็นการติดตามคู่กับ BCG · ข้อนี้ไม่มีช้อย re-TURBT ถ้ามีควรเลือกเป็นขั้นแรกก่อน BCG",
+  "mnemonic": null,
+  "guide": "EAU Guidelines on Non-muscle-invasive Bladder Cancer 2025; AUA/SUO NMIBC Guideline 2024",
+  "variants": [
+   "TURBT พบ T1 high grade แต่ชิ้นเนื้อไม่มี detrusor muscle → re-TURBT ใน 2–6 สัปดาห์ก่อนให้ BCG",
+   "ระหว่างนัดใส่ BCG ครั้งที่ 3 ผู้ป่วยมีไข้ ปัสสาวะแสบขัด → งดใส่ BCG รักษา UTI ก่อน (UTI ที่มีอาการเป็นข้อห้ามเด็ดขาด)",
+   "TURBT พบ urothelial carcinoma ลุกถึง detrusor (T2) ไม่มีต่อมน้ำเหลืองหรือแพร่กระจาย → neoadjuvant cisplatin-based chemotherapy + radical cystectomy"
+  ]
+ },
+ "MDCU66|RoA|60": {
+  "stem": "A previously well 3-month-old infant presents with sudden onset of bilious vomiting. What is the most probable diagnosis?",
+  "opts": [
+   "Pyloric stenosis",
+   "Duodenal atresia",
+   "Intussusception",
+   "Necrotizing enterocolitis",
+   "Malrotation with midgut volvulus"
+  ],
+  "ans": 4,
+  "key": "C (ขีด c + ลายมือ 2 mo–2 yr · e peak 1st mo) (คีย์ลายมือในไฟล์รวม MCQ Key 2)",
+  "interp": "ทารก 3 เดือนที่แข็งแรงดีมาก่อน มี<b>อาเจียนเป็นน้ำดีขึ้นทันที</b> — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ซึ่งต้องคิดถึงภาวะที่อันตรายถึงชีวิตและต้องผ่าตัดด่วนก่อน",
+  "why": "อาเจียนเป็นน้ำดี (สีเขียว) ในทารกบ่งว่าการอุดอยู่<b>ใต้ ampulla of Vater</b> และถือเป็น surgical emergency จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ในทารกที่เคยปกติแล้วเกิดทันที ต้องคิดถึง <b>malrotation with midgut volvulus</b> เป็นอันดับแรก — ลำไส้หมุนผิดปกติทำให้ mesentery ฐานแคบ ลำไส้ทั้ง midgut บิดรอบ superior mesenteric artery → ขาดเลือดทั้งหมดได้ในไม่กี่ชั่วโมง · volvulus เกิดได้ทุกวัยแต่ราวครึ่งหนึ่งเกิดในเดือนแรกและส่วนใหญ่ในขวบปีแรก · ตรวจด่วนด้วย <b>UGI contrast study</b> (DJ flexure อยู่ขวาของกระดูกสันหลัง ลำไส้รูป corkscrew) แล้วผ่าตัด <b>Ladd procedure</b> · ไฟล์ขีด c (intussusception) แต่ลายมือที่ช้อย e เขียน <b>\"peak 1st mo\"</b>",
+  "wrong": {
+   "A": "Pyloric stenosis อาเจียน<b>ไม่มีน้ำดี</b>เพราะอุดเหนือ ampulla และพบอายุ 2–8 สัปดาห์ (ลายมือ ✗) · จะถูกถ้าเป็นทารกชาย 4 สัปดาห์อาเจียนพุ่งเป็นนมสีขาวหลังกิน คลำได้ก้อนรูปมะกอก",
+   "B": "Duodenal atresia มีอาการตั้งแต่วันแรกหลังคลอด ไม่ใช่ทารกที่แข็งแรงมา 3 เดือน (ลายมือ ✗) · จะถูกถ้าเป็นทารก Down syndrome อาเจียนเขียวในวันแรก X-ray เห็น double bubble",
+   "C": "Intussusception พบอายุ 3 เดือน–3 ปี (peak 6–18 เดือน ลายมือเขียน 3–8 เดือน) อาการเด่นคือปวดท้องเป็นพัก ๆ ร้องกวนขาขึ้นท้อง อาเจียน ถ่ายมูกเลือด (currant jelly) และคลำได้ก้อนรูปไส้กรอก อาเจียนน้ำดีเป็นอาการระยะหลังเมื่ออุดตันมากแล้ว · จะถูกถ้าเป็นเด็ก 8 เดือนที่ร้องกวนเป็นพัก ๆ ทุก 15–20 นาที ระหว่างนั้นซึม ถ่ายมูกปนเลือด คลำได้ก้อนใต้ชายโครงขวา",
+   "D": "NEC พบในทารกคลอดก่อนกำหนดสัปดาห์แรก ๆ หลังเริ่มกินนม มีท้องอืด ถ่ายเป็นเลือด และ pneumatosis intestinalis ไม่ใช่ทารก 3 เดือนที่แข็งแรง · จะถูกถ้าเป็นทารกคลอด 30 สัปดาห์ที่เริ่มกินนมได้ 1 สัปดาห์แล้วท้องอืด ถ่ายมีเลือด"
+  },
+  "trap": "อายุ 3 เดือนอยู่ในช่วงของ intussusception ทำให้เลือกตามคีย์ในไฟล์ (c) · แต่คำถามเน้น <b>อาเจียนน้ำดีทันที</b>ในทารกที่เคยปกติ โดยไม่มีปวดเป็นพัก ๆ หรือถ่ายมูกเลือด ซึ่งเป็นสัญญาณของ midgut volvulus ที่ถ้าพลาดลำไส้ตายทั้งหมด",
+  "summary": [
+   "อาเจียนน้ำดีในทารก = surgical emergency → UGI study ด่วน (หรือผ่าตัดเลยถ้า peritonitis/ ช็อก)",
+   "Malrotation: DJ flexure อยู่ขวาของ midline · cecum อยู่สูง · Ladd band ข้าม duodenum · mesentery ฐานแคบ",
+   "Midgut volvulus: ~50% ในเดือนแรก ~75–90% ในขวบปีแรก · UGI เห็น corkscrew/ bird's beak ที่ duodenum",
+   "Ladd procedure: คลายเกลียวทวนเข็มนาฬิกา · ตัด Ladd band · ขยายฐาน mesentery · วางลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย · ตัดไส้ติ่ง",
+   "Intussusception: 3 เดือน–3 ปี · ปวดเป็นพัก ๆ อาเจียน currant jelly ก้อนไส้กรอก · US target sign",
+   "Intussusception รักษา: air/ hydrostatic enema reduction สำเร็จ ~80–90% · peritonitis/ ทะลุ → ผ่าตัด",
+   "Pyloric stenosis: อาเจียนไม่มีน้ำดี 2–8 สัปดาห์ · duodenal atresia: วันแรก double bubble"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด c (intussusception) · อาเจียนน้ำดีทันทีในทารกที่เคยปกติเป็นลักษณะเด่นของ midgut volvulus และเป็นภาวะที่ต้องไม่พลาด ส่วน intussusception มักมาด้วยปวดเป็นพัก ๆ และถ่ายมูกเลือดก่อน",
+  "mnemonic": "<b>'Bilious vomiting ในทารก = Volvulus until proven otherwise'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Malrotation and midgut volvulus; Intussusception",
+  "variants": [
+   "ทารก 2 สัปดาห์ แข็งแรงดี อาเจียนเขียวทันที ท้องไม่อืด → UGI study ด่วน → malrotation with volvulus → Ladd procedure",
+   "ทารกอาเจียนเขียว ท้องอืดตึง ถ่ายเป็นเลือด ช็อก → ผ่าตัดทันทีไม่ต้องรอ UGI",
+   "เด็ก 9 เดือน ร้องขาขึ้นท้องเป็นพัก ๆ ถ่ายมูกปนเลือด US target sign → intussusception → air enema reduction",
+   "ทำไม volvulus อันตรายกว่า → ลำไส้บิดรอบ SMA ทำให้ midgut ทั้งหมดขาดเลือด อาจต้องตัดลำไส้เกือบทั้งหมด (short bowel)"
+  ]
+ },
+ "MDCU66|RoA|21": {
+  "stem": "A 70-year-old woman, ex-smoker for 15 years after 25 years of smoking, with DM, has painless gross hematuria for 2 days (an episode 7 days ago resolved). UA: RBC 0–1, WBC 0–1. What should be done?",
+  "opts": [
+   "Upper tract imaging and cystoscopy",
+   "Non-contrast CT KUB only",
+   "Antibiotics for 5 days and repeat UA",
+   "No further workup",
+   "Urine cytology alone"
+  ],
+  "ans": 0,
+  "key": "B (ขีด B + ลายมือ R/O stones · R/O malignancy → CT urography + cystoscopy) (คีย์ลายมือในไฟล์รวม MCQ Key 2)",
+  "interp": "หญิง 70 ปี เคยสูบบุหรี่ 25 ปี มี <b>gross hematuria ไม่เจ็บ ออกตลอดสาย</b> ไม่มีอาการติดเชื้อ แม้เลือดหยุดแล้วและ UA ปกติ — ถามการตรวจที่ควรทำ ซึ่งต้องคิดถึงมะเร็งทางเดินปัสสาวะก่อน",
+  "why": "ปัสสาวะเป็นเลือดชนิดมองเห็นได้ ไม่เจ็บ ในผู้สูงอายุที่สูบบุหรี่ ต้องถือว่าเป็น<b>มะเร็งทางเดินปัสสาวะจนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> (gross hematuria พบมะเร็งราว 10–20%) · มะเร็งกระเพาะปัสสาวะมักเลือดออกเป็นพัก ๆ การที่เลือดหยุดเองจึงตัดมะเร็งไม่ได้ · การตรวจครบต้องดูทั้ง <b>upper tract</b> ด้วย <b>CT urography</b> (มี excretory/ delayed phase ให้ contrast เข้า collecting system) และ <b>lower tract</b> ด้วย <b>cystoscopy</b> เพราะ CT มองไม่เห็นรอยโรคบางแบน เช่น carcinoma in situ หรือก้อน papillary เล็ก · ถ้าแพ้ contrast หรือไตเสื่อม ใช้ MR urography หรือ retrograde pyelography ร่วมกับ US · ลายมือในไฟล์เขียน <b>\"R/O malignancy → upper tr.: CT urography · lower tr.: cystoscopy\"</b> (ไฟล์ขีด B CT KUB และเขียน R/O stones ไว้ด้วย)",
+  "wrong": {
+   "B": "CT KUB ไม่ฉีดสีไวต่อนิ่วมาก แต่ไม่เห็นเนื้องอกใน collecting system และดูกระเพาะปัสสาวะได้ไม่ละเอียด ผู้ป่วยไม่มีอาการปวดแบบนิ่ว · จะถูกถ้าเป็นชาย 35 ปี ปวดบั้นเอวร้าวลงขาหนีบ บิดตัวไปมา มี microscopic hematuria",
+   "C": "UA ไม่มีหลักฐานติดเชื้อ (WBC ปกติ) การให้ยาฆ่าเชื้อแล้วนัดดูผลทำให้วินิจฉัยมะเร็งล่าช้า · จะถูกถ้าเป็นหญิง 25 ปี มีปัสสาวะแสบขัด ปัสสาวะบ่อย มีเลือดปนจาก hemorrhagic cystitis และ UA พบ WBC จำนวนมาก (ตรวจ UA ซ้ำหลังรักษา)",
+   "D": "การที่เลือดหยุดไม่ได้ตัดมะเร็ง และผู้ป่วยไม่ได้มีการติดเชื้อตั้งแต่แรก · จะถูกถ้าเป็นชายหนุ่มที่ปัสสาวะสีแดงครั้งเดียวหลังวิ่งมาราธอน (exercise-induced hematuria) แล้ว UA ซ้ำปกติ",
+   "E": "Urine cytology จำเพาะสูงแต่ไวต่ำในก้อน low-grade จึงใช้เสริมไม่ใช่แทน CT urography และ cystoscopy · จะถูกถ้าเป็นผู้ป่วยที่ cystoscopy เห็นเยื่อบุแดงเป็นปื้นสงสัย CIS และต้องการตรวจเสริมหา high-grade urothelial carcinoma"
+  },
+  "trap": "คีย์ในไฟล์ขีด B (CT KUB) พร้อมลายมือ R/O stones · แต่ผู้ป่วยไม่มีอาการปวดแบบนิ่ว และมีปัจจัยเสี่ยงมะเร็งชัด (อายุ 70 สูบบุหรี่ gross hematuria ไม่เจ็บ) ซึ่งต้องตรวจครบทั้ง upper และ lower tract · ลายมือด้านล่างของผู้จดเองก็เขียนแผนแบบนี้",
+  "summary": [
+   "Gross hematuria ไม่เจ็บ + อายุมาก + สูบบุหรี่/ สารเคมี → มะเร็ง urothelial จนกว่าจะพิสูจน์ได้",
+   "เลือดออกเป็นพัก ๆ หยุดเองไม่ตัดมะเร็ง",
+   "Upper tract: CT urography (มี excretory phase) · แพ้ contrast/ ไตเสื่อม → MR urography หรือ retrograde pyelography + US",
+   "Lower tract: cystoscopy ทุกราย (เห็น CIS/ ก้อนเล็กที่ CT พลาด)",
+   "Urine cytology: เสริม ไวต่อ high-grade/ CIS",
+   "Microscopic hematuria (≥ 3 RBC/HPF): ประเมินตามความเสี่ยง (AUA แบ่ง low/ intermediate/ high risk ตามอายุ เพศ บุหรี่ จำนวน RBC) · high risk ทำ CT urography + cystoscopy",
+   "ปวดบั้นเอวร้าว + hematuria → CT KUB non-contrast หานิ่ว"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ในเว็บ ความมั่นใจสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด B (CT KUB) · ลายมือในไฟล์เองเขียนว่าต้อง R/O malignancy ด้วย CT urography + cystoscopy ซึ่งตรงกับช้อย A (ในไฟล์เขียน Ultrasound KUB, IVP, ส่องกล้อง เว็บปรับเป็น upper tract imaging + cystoscopy ตามแนวทางปัจจุบัน)",
+  "mnemonic": "<b>'เลือดในปัสสาวะไม่เจ็บ = Cancer → CT urography + Cystoscopy (2C)'</b>",
+  "guide": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (2024) · AUA/SUFU Guideline: Microhematuria (J Urol 2025)",
+  "variants": [
+   "ชาย 65 ปี สูบบุหรี่ ปัสสาวะเลือดไม่เจ็บเป็นพัก ๆ → CT urography + cystoscopy",
+   "ชาย 30 ปี ปวดบั้นเอวร้าวลงขาหนีบ microscopic hematuria → CT KUB non-contrast",
+   "Cystoscopy พบก้อน papillary ที่ผนังกระเพาะปัสสาวะ → TURBT (ให้ได้กล้ามเนื้อ detrusor ในชิ้นเนื้อ)",
+   "ผู้ป่วยแพ้ contrast รุนแรงต้องดู upper tract → MR urography หรือ retrograde pyelography ร่วมกับ US"
+  ]
+ }
+}
