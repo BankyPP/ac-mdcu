@@ -1,0 +1,305 @@
+import json
+P={}
+K='MDCU76|RoD|'
+P[K+'23']=dict(
+summary=[
+"แกนของข้อ: Treacher Collins syndrome = <b>mandibulofacial dysostosis</b> สองข้างสมมาตรจาก pharyngeal arch 1–2 → ปัญหาเด่นคือ <b>conductive hearing loss</b> (ราว 40–50%) และทางเดินหายใจ ขณะที่สมองและ<b>สติปัญญาปกติ</b>",
+"พันธุกรรม: ส่วนใหญ่กลายพันธุ์ที่ <b>TCOF1</b> (treacle) ถ่ายทอดแบบ autosomal dominant · ส่วนน้อย POLR1C/POLR1D (บางชนิด recessive) · ราวครึ่งหนึ่งขึ้นไปเป็น de novo และความรุนแรงต่างกันมากแม้ในครอบครัวเดียวกัน",
+"ลักษณะหน้า: palpebral fissure เฉียงลง, <b>coloboma ที่ 1/3 ด้านนอกของเปลือกตาล่าง</b> (ขนตาด้านในต่อรอยแหว่งหาย), zygoma/malar hypoplasia, micrognathia, microtia ± ช่องหูตีบตัน, cleft palate ราว 1/3",
+"Pharyngeal arch 1: maxilla, zygoma, mandible, malleus, incus, ส่วนหนึ่งของใบหู · arch 2: stapes, styloid, hyoid ส่วนบน, กล้ามเนื้อใบหน้า → arch 1–2 ผิดรูปจึงกระทบทั้งใบหู ช่องหู และกระดูกหูชั้นกลาง",
+"ทางเดินหายใจ: ขากรรไกรล่างเล็กร่วมลิ้นตก → obstructive sleep apnea และ difficult intubation · ระดับน้อยจัดท่าคว่ำ/ตะแคง หรือ nasopharyngeal airway · รุนแรง → mandibular distraction osteogenesis หรือ tracheostomy",
+"การได้ยิน: หูชั้นในปกติ จึงตรวจ ABR ตั้งแต่แรกเกิด แล้วใช้ <b>bone conduction hearing aid</b> (softband ตั้งแต่ทารก → bone-anchored ภายหลัง) ได้ผลดีกว่าการผ่าตัดสร้างช่องหู (atresiaplasty) เพราะกระดูกหูผิดรูป · ซ่อมใบหูด้วยกระดูกอ่อนซี่โครงช่วงวัยเรียน"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก A ลายมือ Treacher Collins (bilat), 1st & 2nd branchial arch defect ตรงกับหลักว่าความผิดปกติอยู่ที่หูชั้นนอกและชั้นกลาง จึงเกิด conductive hearing loss ขณะที่สติปัญญาปกติ · ข้อสังเกต: ภาพไม่ได้แนบในไฟล์และต้นฉบับมีช้อยเพียง 2 ตัว (C–E เติมเอง) การวินิจฉัยจึงอิงลายมือในคีย์ · ไม่มีข้อมูลปัจจุบันที่ขัดกับคีย์",
+variants=[
+"ทารก Treacher Collins ช่องหูตันสองข้าง ABR เป็น conductive loss 60 dB → bone conduction hearing aid แบบ softband ตั้งแต่ไม่กี่เดือน เพื่อไม่ให้พัฒนาการพูดล่าช้า",
+"เด็กมีหน้าข้างเดียวเล็ก หูข้างนั้นผิดรูป ร่วมก้อนเนื้อสีขาวที่ตาขาว (epibulbar dermoid) → hemifacial microsomia/Goldenhar (arch 1–2 ข้างเดียว ไม่สมมาตร)",
+"ทารกมี microtia ข้างเดียว หูอีกข้างได้ยินปกติ → ตรวจ ABR ยืนยันหูข้างดี ติดตามพัฒนาการพูด และนัดสร้างใบหูเมื่อกระดูกอ่อนซี่โครงโตพอ",
+"พ่อมีตาเฉียงลงเล็กน้อยและโหนกแก้มแบน ลูกคนแรกเป็น Treacher Collins ชัดเจน → สงสัย TCOF1 แบบ autosomal dominant ในพ่อ → ลูกคนถัดไปมีโอกาส 50% → ให้ genetic counseling"])
+P[K+'24']=dict(
+why="Hemorrhoid คือ <b>vascular cushion</b> ปกติของ anal canal (ตำแหน่ง left lateral, right anterior, right posterior) ที่เลื่อนลงเมื่อเนื้อเยื่อยึด (Treitz muscle) เสื่อม ร่วมกับการ<b>นั่งเบ่งนาน</b>ซึ่งเพิ่มความดันและทำให้เลือดคั่งใน cushion · internal hemorrhoid อยู่<b>เหนือ dentate line</b> คลุมด้วยเยื่อบุที่รับความรู้สึกแบบ visceral จึงรัดยางได้โดยไม่เจ็บ · ทุก grade เริ่มด้วย <b>fiber 25–35 g/วัน ดื่มน้ำ และเลิกนั่งเบ่งนาน</b> ถ้ายังมีอาการใน <b>grade I–III</b> → office procedure ที่ได้ผลดีและกลับเป็นซ้ำน้อยที่สุดคือ <b>rubber band ligation</b> รัดยางที่ฐานเหนือ dentate line ก้อนขาดเลือดหลุดใน 5–7 วัน และเกิดพังผืดยึดเยื่อบุกลับที่ ทำได้ครั้งละ 1–3 ตำแหน่งและทำซ้ำทุก 4–6 สัปดาห์ ไม่ต้องดมยา · การผ่าตัดเก็บไว้เมื่อ office procedure ล้มเหลว grade IV หรือมี external component มาก · ตรงคีย์ Key 76D ติ๊ก B พร้อมจด <b>\"int\"</b> (internal)",
+trap="เห็นพฤติกรรมนั่งส้วมนานเป็นจุดเด่นของโจทย์จึงเลือกปรับพฤติกรรมอย่างเดียว หรือเห็น grade III แล้วกระโดดไป hemorrhoidectomy · วิธีแยก: stem บอกชัดว่าให้คำแนะนำแล้ว (conservative ล้มเหลว) และ grade II–III ยังอยู่ในช่วงที่ RBL ได้ผล · sclerotherapy ในช้อย E ผิดที่ตำแหน่ง เพราะ external hemorrhoid อยู่ใต้ dentate line ซึ่งเจ็บมาก",
+summary=[
+"แกนของข้อ: internal hemorrhoid grade II–III ที่ conservative ล้มเหลว → <b>rubber band ligation</b> เป็น office procedure อันดับแรก กลับเป็นซ้ำน้อยกว่า sclerotherapy และ infrared coagulation ที่ใช้เป็นทางเลือก",
+"Goligher: I ไม่ยื่น เลือดออกอย่างเดียว · II ยื่นขณะเบ่งแล้วกลับเอง · III ยื่นแล้วต้องใช้มือดันกลับ · IV ดันไม่กลับหรือยื่นค้าง (รวม strangulated)",
+"Dentate line แบ่ง internal (เหนือ, visceral, ไม่เจ็บ, มาด้วยเลือดสดไม่ปวดหลังถ่าย) กับ external (ใต้, somatic จาก pudendal nerve, ปวดมากเมื่อ thrombosed) — office procedure ทำได้เฉพาะเหนือ dentate line",
+"Conservative ทุก grade: fiber 25–35 g/วัน, ดื่มน้ำพอ, จำกัดเวลานั่งส้วมเพียงไม่กี่นาที (ไม่เล่นโทรศัพท์ในส้วม), รักษาท้องผูก/ท้องเสีย · flavonoid (MPFF) ช่วยลดเลือดออกระยะสั้น",
+"ภาวะแทรกซ้อนของ rubber band: ปวด (ถ้ารัดใกล้ dentate line), เลือดออกเมื่อก้อนหลุดราววันที่ 7–10 (ระวังผู้กินยาต้านเกล็ดเลือด/ยาต้านการแข็งตัวของเลือด), pelvic sepsis (พบน้อยแต่อันตราย — ปวดมาก ไข้ ปัสสาวะไม่ออก)",
+"ผ่าตัด: excisional hemorrhoidectomy (Milligan–Morgan แบบเปิด, Ferguson แบบปิด) ผลถาวรที่สุดแต่ปวดมาก · stapled hemorrhoidopexy/doppler-guided ligation ปวดน้อยกว่าแต่กลับเป็นซ้ำมากกว่า · thrombosed external hemorrhoid ภายใน 72 ชม. → excision"],
+opinion="เห็นด้วยกับคีย์ B ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก B จด int ยืนยันว่าเป็น internal hemorrhoid ซึ่งรัดยางได้ · ตรงกับ ASCRS Clinical Practice Guidelines for Hemorrhoids (ฉบับปรับปรุง 2024) และ ESCP guideline 2020 ที่ให้ RBL เป็น office procedure แรกของ grade I–III ที่ conservative ไม่ได้ผล · ข้อสังเกต: ต้นฉบับอ้างรูปที่ไม่มีในไฟล์ และ grade III ที่มี external component มากอาจได้ประโยชน์จากการผ่าตัดมากกว่า",
+variants=[
+"หลังรัดยาง hemorrhoid 3 วัน ปวดทวารมาก ไข้ ปัสสาวะไม่ออก → pelvic sepsis → รับไว้ ให้ยาปฏิชีวนะ IV ครอบคลุม anaerobe และ EUA",
+"Hemorrhoid ยื่นค้างดันไม่กลับ บวมคล้ำ ปวดมาก → grade IV/strangulated → hemorrhoidectomy (ไม่ใช้ office procedure)",
+"ก้อนสีม่วงปวดมากที่ขอบทวารเกิดขึ้นเมื่อวาน → thrombosed external hemorrhoid → ตัดออกทั้งก้อนภายใต้ยาชาเฉพาะที่",
+"ชาย 55 ปีถ่ายเป็นเลือดสด ตรวจพบ internal hemorrhoid grade II แต่ไม่เคยส่องลำไส้ใหญ่ → colonoscopy ก่อนสรุปว่าเลือดออกจาก hemorrhoid เพื่อไม่พลาดมะเร็งลำไส้ใหญ่"])
+P[K+'25']=dict(
+interp="ทารกดูดนมแม่แล้วหงุดหงิด น้ำหนักขึ้นน้อย แม่เจ็บหัวนม ตรวจพบพังผืดใต้ลิ้นสั้นตึง = <b>ankyloglossia (tongue-tie) ที่มีผลต่อการให้นมจริง</b> · ถามการจัดการที่เหมาะที่สุด ซึ่งต้องเลือกหัตถการที่พอดีกับอายุทารกและยังเก็บการให้นมแม่ไว้",
+trap="เลือกเปลี่ยนเป็นนมขวดเพราะคิดว่าแก้น้ำหนักได้เร็ว เลือกรอดูเพราะเชื่อว่าพังผืดยืดเอง หรือเลือก frenuloplasty ใต้ GA เพราะคิดว่าเป็นการผ่าตัดต้องเข้าห้องผ่าตัด · วิธีแยก: ทารกเล็กที่มีปัญหาการดูดนมจริง → frenotomy ที่ OPD (ลายมือคีย์: อายุน้อยกว่า 3 เดือนใช้ LA) · frenuloplasty ใต้ GA เก็บไว้สำหรับเด็กโตหรือพังผืดหนา",
+summary=[
+"แกนของข้อ: tongue-tie ที่ทำให้ปัญหาการให้นม (ดูดไม่ติด น้ำหนักขึ้นน้อย แม่เจ็บ/หัวนมแตก) → <b>frenotomy</b> · งานวิจัยพบว่าลดอาการเจ็บหัวนมของแม่ได้ชัด ส่วนผลต่อประสิทธิภาพการดูดของทารกยังไม่สม่ำเสมอ",
+"Ankyloglossia พบราว 4–10% ของทารก ชายมากกว่าหญิง · ลิ้นยื่นไม่พ้นเหงือก ปลายลิ้นเป็นรูปหัวใจเมื่อยื่น ยกลิ้นแตะเพดานไม่ได้ · ประเมินด้วยเครื่องมือมาตรฐาน เช่น Hazelbaker หรือ Bristol Tongue Assessment Tool",
+"ข้อบ่งชี้: ทารกที่มีปัญหาการดูดนม/แม่เจ็บหัวนมที่ผู้เชี่ยวชาญการให้นมประเมินการเข้าเต้าแล้ว · เด็กโตที่มีปัญหาการพูดหรือในช่องปากที่สัมพันธ์กับพังผืด · ไม่ตัดป้องกันในเด็กที่ไม่มีอาการ",
+"เทคนิค frenotomy: ยกลิ้นด้วย grooved director แล้วตัดพังผืดบางด้วยกรรไกรปลายมนชิดลิ้น เลี่ยงรูเปิด Wharton duct และหลอดเลือดใต้ลิ้น · ทารกเล็กไม่ต้องดมยา ให้ดูดนมทันทีหลังทำช่วยห้ามเลือดและปลอบ",
+"อายุกับวิธี (ลายมือคีย์: น้อยกว่า 3 เดือน LA · มากกว่า 3 เดือน GA): ทารกโตขึ้นดิ้นแรง ฟันเริ่มขึ้น และพังผืดหนาขึ้น → frenuloplasty (เช่น Z-plasty หรือตัดแนวขวางเย็บแนวตั้ง) ใต้การดมยา",
+"ภาวะแทรกซ้อนพบน้อย: เลือดออก ติดเชื้อ บาดเจ็บ submandibular duct พังผืดกลับติดใหม่ · ก่อนทำถามประวัติเลือดออกง่ายและการได้ vitamin K แรกเกิด · AAO-HNS ไม่สนับสนุนการตัด posterior tongue-tie หรือ lip-tie เป็นประจำ"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก A ลายมือ ankyloglossia, tongue tie, อายุน้อยกว่า 3 เดือนใช้ LA มากกว่า 3 เดือนใช้ GA ตรงกับ AAO-HNS Clinical Consensus Statement on Ankyloglossia (2020) ที่ให้ frenotomy ในทารกที่มีปัญหาการให้นมจาก tongue-tie · สิ่งที่แนวทางปัจจุบันเน้นเพิ่มจากคีย์: ให้ผู้เชี่ยวชาญการให้นมประเมินก่อนเสมอ และระวังการตัดเกินข้อบ่งชี้",
+variants=[
+"ทารก 2 สัปดาห์ tongue-tie แม่หัวนมแตก ทารกดูดนมนานแต่ไม่อิ่ม น้ำหนักต่ำกว่าแรกเกิด → frenotomy ที่ OPD แล้วให้ดูดนมทันที",
+"หลัง frenotomy มีเลือดซึมเล็กน้อยใต้ลิ้น → ให้ดูดนมหรือกดผ้าก๊อซไม่กี่นาที เลือดหยุดเอง ไม่ต้องเย็บ",
+"ทารก 6 เดือนมีพังผืดใต้ลิ้นแต่ดูดนมดี น้ำหนักขึ้นดี พ่อแม่กลัวว่าจะพูดไม่ชัด → ยังไม่ตัด ให้คำแนะนำและติดตามพัฒนาการพูด",
+"ทารก 5 เดือน tongue-tie ดูดนมลำบาก ดิ้นแรงมาก พังผืดหนา → frenotomy/frenuloplasty ภายใต้ GA ตามเกณฑ์อายุในลายมือคีย์"])
+P[K+'26']=dict(
+interp="โจทย์ให้ภาพระบาดวิทยา: นิ่วกระเพาะปัสสาวะในเด็กเคยพบชุกเป็นถิ่น (endemic) ที่ภาคอีสานเมื่อหลายสิบปีก่อน และปัจจุบันลดลงมาก → เป็น <b>primary (endemic) bladder stone</b> ที่ไม่มีการอุดกั้นหรือการติดเชื้อนำ · ถามปัจจัยหลักที่ทำให้เกิด ซึ่งคือภาวะโภชนาการของทารกและเด็กเล็ก",
+trap="ใช้ภาพนิ่วกระเพาะปัสสาวะในผู้ใหญ่ (BOO, neurogenic bladder, UTI → struvite) มาตอบ chronic UTI หรือคิดว่าอากาศร้อนของอีสานทำให้ขาดน้ำเป็นสาเหตุหลัก · วิธีแยก: คำว่า endemic ในเด็ก และการที่นิ่วหายไปเมื่อเศรษฐกิจและอาหารดีขึ้น (ทั้งที่พันธุกรรมและภูมิอากาศไม่ได้เปลี่ยน) ชี้ว่าเป็นปัจจัยด้านอาหารโปรตีนสัตว์และฟอสเฟตต่ำ",
+summary=[
+"แกนของข้อ: endemic bladder stone ในเด็กอีสาน = ปัญหาโภชนาการ — ทารกได้ข้าวเหนียวบดเร็วแทนนม โปรตีนสัตว์และ <b>phosphate ต่ำ</b> ร่วมผักที่ oxalate สูงและดื่มน้ำน้อย → ปัสสาวะ phosphate ต่ำ oxalate และ ammonium สูง เกิดผลึกง่าย",
+"การศึกษาในเด็กไทยภาคอีสานพบว่าการเสริม <b>orthophosphate</b> หรืออาหารโปรตีนสูง (นม ไข่) ลด crystalluria ของ calcium oxalate ได้ · ยุโรปในศตวรรษที่ 19 ก็เคยมีนิ่วชนิดนี้แล้วหายไปเมื่อโภชนาการดีขึ้น",
+"องค์ประกอบ: <b>ammonium acid urate</b> ± calcium oxalate · พบมากในเด็กชายเล็ก (อายุไม่เกิน 10 ปี) สัดส่วนชายมากกว่าหญิงชัดเจน · ปัจจุบันยังพบในบางประเทศ เช่น อัฟกานิสถาน ปากีสถาน และบางส่วนของแอฟริกา",
+"นิ่วกระเพาะปัสสาวะในผู้ใหญ่ส่วนใหญ่เป็น secondary: bladder outlet obstruction (BPH, urethral stricture), neurogenic bladder, สิ่งแปลกปลอม/สายสวนค้าง, การติดเชื้อเชื้อสร้าง urease",
+"อาการในเด็ก: ปัสสาวะสะดุดกลางคัน ปวดเบ่ง ดึงหรือขยี้อวัยวะเพศขณะปัสสาวะ เลือดปลายสาย ติดเชื้อซ้ำ · ultrasound เป็นด่านแรกในเด็ก ร่วม KUB (นิ่ว urate ล้วนอาจทึบรังสีน้อย)",
+"รักษา: เอานิ่วออก — percutaneous cystolithotomy หรือ open cystolithotomy ในเด็กเล็กที่ท่อปัสสาวะแคบ, transurethral cystolitholapaxy ถ้ากล้องเหมาะกับขนาดท่อ · ร่วมกับแก้อาหารและดื่มน้ำ เพื่อป้องกันนิ่วกลับมา"],
+opinion="เห็นด้วยกับคีย์ C ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก C ตรงกับข้อมูลระบาดวิทยาคลาสสิกว่า endemic bladder stone ในเด็กสัมพันธ์กับอาหารโปรตีนสัตว์และฟอสเฟตต่ำ และหายไปเมื่อโภชนาการดีขึ้น · EAU Paediatric Urology Guidelines (2025) ยังจัดเป็นนิ่วจากภาวะโภชนาการในประเทศกำลังพัฒนา ไม่มีข้อมูลใหม่ที่ขัดคีย์ · หมายเหตุ ช้อย E เติมเอง ไม่อยู่ในต้นฉบับ",
+variants=[
+"เด็กชาย 4 ขวบในชนบทปัสสาวะสะดุด ดึงอวัยวะเพศขณะปัสสาวะ มีเลือดปลายสาย → นิ่วกระเพาะปัสสาวะ → ultrasound/KUB แล้วเอานิ่วออก",
+"ชุมชนชนบทที่เด็กเล็กเป็นนิ่วกระเพาะปัสสาวะบ่อย → ป้องกันด้วยการให้นมแม่ต่อเนื่อง อาหารที่มีโปรตีนและฟอสเฟตพอ (นม ไข่) และดื่มน้ำมากขึ้น",
+"ชาย 70 ปี BPH ปัสสาวะลำบากมาหลายปี ultrasound พบนิ่วกระเพาะปัสสาวะหลายก้อน → secondary stone → เอานิ่วออกร่วมแก้ BOO (เช่น TURP) ในครั้งเดียว",
+"ผู้ป่วยอัมพาตครึ่งล่างใส่สายสวนค้างนาน ติดเชื้อ Proteus ซ้ำ ปัสสาวะด่าง พบนิ่วในกระเพาะปัสสาวะ → struvite stone → เอานิ่วออกและเปลี่ยนเป็นการสวนปัสสาวะเป็นระยะ"])
+P[K+'27']=dict(
+why="Perianal abscess ส่วนใหญ่เกิดจาก <b>cryptoglandular infection</b>: anal gland ที่เปิดเข้า crypt ระดับ dentate line อุดตันและติดเชื้อ หนองลามในช่อง intersphincteric แล้วลงมาที่ขอบทวาร (perianal พบบ่อยที่สุด) หรือทะลุ external sphincter ออกด้านข้างเป็น ischioanal · หนองในโพรงปิดยาปฏิชีวนะเข้าไม่ถึง การรักษาหลักจึงเป็น <b>source control: incision and drainage ทันทีที่วินิจฉัย</b> ไม่ต้องรอให้นิ่มหรือแตกเอง · กรีดใกล้ anal verge ให้มากที่สุด (ถ้าเกิด fistula ทางจะสั้น) เปิดแผลกว้างพอให้ระบาย · ในคนสุขภาพดีที่ระบายได้ดีและไม่มี cellulitis หรือ systemic sign <b>ไม่ต้องให้ยาปฏิชีวนะเป็นประจำ</b> (ASCRS 2022) ให้เมื่อ cellulitis กว้าง sepsis ภูมิคุ้มกันบกพร่อง (เบาหวานคุมไม่ดี, HIV, neutropenia) หรือมีลิ้นหัวใจเทียม · หลังระบายราว 1/3 เกิด fistula-in-ano ตามมา · ตรงคีย์ Key 76D ติ๊ก 1 พร้อมจด <b>\"ATB if ICH, complex, cellulitis, sepsis\"</b>",
+trap="ผู้ป่วยดูแข็งแรงไม่มีไข้จึงเลือกยาปฏิชีวนะกินหรือแช่น้ำอุ่นรอ หรือรู้ว่าฝีรอบทวารมักต่อกับ fistula จึงเลือก fistulotomy · วิธีแยก: ฝีที่ fluctuant คือมีหนองเป็นโพรงแล้ว ต้อง I&D ทันที ยาปฏิชีวนะเป็นเพียงตัวเสริมในกลุ่มเสี่ยงตามลายมือคีย์ · fistulotomy เป็นการรักษาระยะเรื้อรังหลังฝียุบ ไม่ใช่ระยะเฉียบพลัน",
+summary=[
+"แกนของข้อ: anorectal abscess ทุกชนิดรักษาหลักด้วย <b>I&D ทันที</b> · ยาปฏิชีวนะเสริมเฉพาะเมื่อมี cellulitis, systemic sign/sepsis, ภูมิคุ้มกันบกพร่อง, ลิ้นหัวใจเทียม หรือฝีซับซ้อน",
+"ชนิดตามตำแหน่ง: perianal (บ่อยที่สุด) > ischioanal > intersphincteric > supralevator · ฝีที่ลามรอบทวารผ่าน deep postanal space เป็น horseshoe abscess ต้องระบายที่ช่องหลังทวารร่วมกับแผลด้านข้าง",
+"เทคนิค: กรีดใกล้ขอบทวารให้มากที่สุด เปิดแผลกว้างพอไม่ให้ปิดเร็ว ไม่จำเป็นต้องอัดผ้าแน่น (การอัดผ้าเพิ่มความปวดโดยไม่ลดการเป็นซ้ำ) · ฝีใหญ่อาจใส่สายระบายเล็ก (mushroom catheter)",
+"ฝีลึก (intersphincteric, supralevator) อาจไม่เห็นก้อนภายนอก — ปวดมาก ไข้ กดเจ็บใน PR → EUA หรือ CT/MRI · intersphincteric ระบายเข้าทาง anal canal · supralevator ต้องหาต้นเหตุก่อน (จากในทวารหรือจากอุ้งเชิงกราน)",
+"ระยะเฉียบพลันไม่ควานหา fistula · ทำ fistulotomy พร้อมกันเฉพาะรูตื้นชัดเจนผ่านหูรูดน้อยโดยผู้ชำนาญ · หลังระบาย fistula-in-ano เกิดราว 1/3 · Goodsall rule ช่วยเดาตำแหน่งรูภายใน",
+"ฝีเป็นซ้ำหรือลักษณะผิดปกติ → คิดถึง Crohn disease, TB, HIV, มะเร็ง · ผู้ป่วยเบาหวาน/ภูมิคุ้มกันต่ำ ฝีลามเร็วเป็น necrotizing infection (Fournier gangrene) ได้"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก 1 (= A) และลายมือ ATB if ICH, complex, cellulitis, sepsis ตรงกับ ASCRS Clinical Practice Guidelines for Anorectal Abscess, Fistula-in-Ano and Rectovaginal Fistula (2022) ที่ให้ I&D ทันทีเป็นหลัก และใช้ยาปฏิชีวนะเฉพาะ cellulitis กว้าง systemic sign หรือภูมิคุ้มกันบกพร่อง · ไม่มีจุดที่แนวทางปัจจุบันขัดกับคีย์",
+variants=[
+"ปวดทวารมาก ไข้ ไม่เห็นก้อนภายนอก PR กดเจ็บสูงด้านหนึ่ง → ฝีลึก (intersphincteric/supralevator) → EUA หรือ MRI แล้วระบาย",
+"ผู้ป่วยเบาหวานมีฝีรอบทวาร ผิวดำคล้ำ มี crepitus ลามถึงถุงอัณฑะ → Fournier gangrene → debridement ฉุกเฉิน + ยาปฏิชีวนะ broad-spectrum",
+"หลังระบายฝีรอบทวาร 3 เดือน มีหนองซึมจากรูข้างทวารเป็นระยะ → fistula-in-ano → ตรวจ MRI/EUA ดูความสัมพันธ์กับหูรูดก่อนเลือกระหว่าง fistulotomy กับ seton",
+"ฝีรอบทวารเป็นซ้ำหลายครั้ง ร่วมท้องเสียเรื้อรังและน้ำหนักลด → สงสัย Crohn disease → colonoscopy + MRI pelvis · ระบายฝีและใส่ loose seton แทนการตัดหูรูด"])
+P[K+'28']=dict(
+wrong=dict(E="Thrombolysis (เช่น tenecteplase) ใช้สลายลิ่มเลือดใน STEMI, PE หรือ ischemic stroke · ในหลอดอาหารทะลุที่มีการอักเสบและ sepsis ยาจะทำให้เลือดออกไม่หยุดใน mediastinum และช่องอก จึงเป็นข้อห้าม และ pneumomediastinum ไม่ใช่ภาพของลิ่มเลือดอุดตัน; จะถูกถ้าชายเจ็บแน่นอก ECG ST ยกที่ V1–V4 ภายใน 3 ชม. และไปถึงห้องสวนหัวใจไม่ทันภายใน 120 นาที"),
+trap="ภาพเจ็บอกรุนแรงในชายวัยกลางคนชวนให้คิด ACS (สวนหัวใจหรือให้ thrombolysis) และประวัติอาเจียนหลังดื่มเหล้าชวนให้คิด Mallory–Weiss (ให้ PPI แล้วสังเกตอาการ) · วิธีแยก: pneumomediastinum + left pleural effusion = รูทะลุทุกชั้น ไม่ใช่แค่เยื่อบุฉีก · และการมาภายใน 12 ชม. โดยไม่ใช่ contained leak = ผ่าตัดซ่อม ไม่ใช่ conservative",
+summary=[
+"แกนของข้อ: Boerhaave = <b>spontaneous transmural perforation</b> มักที่ผนังด้านซ้าย-หลังของหลอดอาหารส่วนปลาย (ราว 2–3 cm เหนือ GE junction) · มาเร็วและเนื้อเยื่อดี → primary repair · อัตราตายเพิ่มชัดเมื่อการรักษาช้าเกิน 24 ชม.",
+"Mackler triad: อาเจียน + เจ็บหน้าอกรุนแรง + subcutaneous emphysema (พบครบไม่บ่อย) · อาจได้ยิน Hamman sign (เสียงกรอบแกรบตามจังหวะหัวใจ) จาก pneumomediastinum",
+"ยืนยัน: CT ทรวงอกร่วม oral water-soluble contrast หรือ esophagram (เริ่มด้วย water-soluble แล้วตามด้วย barium ถ้ายังไม่เห็นรอยรั่ว) · น้ำในช่องเยื่อหุ้มปอด: amylase สูง pH ต่ำ มีเศษอาหาร",
+"แยก Mallory–Weiss: ฉีกเฉพาะเยื่อบุบริเวณ GE junction มาด้วยอาเจียนเป็นเลือดหลังอาเจียนแรง ไม่มีลมใน mediastinum ส่วนใหญ่หยุดเอง ถ้ายังออกห้ามเลือดผ่านกล้อง",
+"รักษา: resuscitate + ยาปฏิชีวนะ broad-spectrum ± antifungal + NPO + ระบายช่องอก · ผ่าตัดซ่อมทาง left thoracotomy (ผ่ากล้ามเนื้อตามยาวให้เห็นรอยฉีกเยื่อบุครบ เย็บสองชั้น เสริมด้วย flap) และวาง feeding jejunostomy",
+"มาช้า/เนื้อเยื่อเปื่อย/ผู้ป่วยแย่ → ระบาย + esophageal exclusion/diversion หรือ esophagectomy · รูเล็กที่ contained ไม่มี sepsis → conservative หรือ endoscopic stent/clip/endoluminal vacuum ในศูนย์ที่ชำนาญ · โดยรวม iatrogenic perforation พบบ่อยกว่า Boerhaave"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก 1 ลายมือ Boerhaave, within 12 hr ตรงกับหลักว่ารูทะลุที่ไม่ contained ซึ่งมาเร็วควรผ่าตัดซ่อม · WSES guidelines on esophageal emergencies (2019) ไม่ได้ยึดเวลา 12 หรือ 24 ชม. ตายตัว แต่ดูสภาพเนื้อเยื่อ ขนาดการปนเปื้อน และ sepsis ร่วมด้วย และยอมรับ endoscopic therapy เป็นทางเลือกในผู้ป่วยที่เลือกแล้ว",
+variants=[
+"อาเจียนแรงแล้วเจ็บอก CXR ปกติแต่ยังสงสัยหลอดอาหารทะลุ → CT ทรวงอกร่วม oral water-soluble contrast",
+"Boerhaave มาช้า 3 วัน sepsis เนื้อเยื่อเปื่อยซ่อมไม่ได้ → ระบายช่องอก + esophageal exclusion/diversion หรือ esophagectomy",
+"ผู้ป่วยกลืนกรดแล้วเจ็บอก มีลมใน mediastinum → หลอดอาหารทะลุจากสารกัดกร่อน → ผ่าตัดฉุกเฉิน",
+"หลังส่องกล้องขยายหลอดอาหารส่วนคอ 2 ชม. เจ็บคอ มีลมใต้ผิวหนังที่คอ CT พบรั่วเล็กจำกัดที่ cervical esophagus ไม่มีไข้ → NPO ยาปฏิชีวนะ และระบายทางคอถ้าเกิดหนอง"])
+P[K+'29']=dict(
+summary=[
+"แกนของข้อ: ทารกแรกเกิด ท้องแฟบ + เสียงหายใจลดข้างซ้าย + mediastinum เลื่อนขวา = left CDH · สิ่งที่<b>ห้าม</b>คือ chest drain (เจาะลำไส้/กระเพาะในอก) และ <b>bag-mask ventilation</b> (ลมเข้ากระเพาะลำไส้จนกดปอด)",
+"CDH: Bochdalek (posterolateral) ราว 80–90% ส่วนใหญ่ข้างซ้าย · Morgagni (anterior, มักขวา) พบน้อย อาการน้อย มักพบในเด็กโตหรือผู้ใหญ่โดยบังเอิญ",
+"ปัญหาหลักไม่ใช่รูที่กะบังลม แต่เป็น <b>pulmonary hypoplasia</b> + <b>pulmonary hypertension</b> (ทั้งสองข้าง ข้างที่เป็นแย่กว่า) ซึ่งกำหนดอัตรารอดชีวิต",
+"แรกคลอด: ใส่ท่อทันที (ไม่ใช้ mask) + OG decompression + gentle ventilation (PIP ไม่เกินราว 25 cmH₂O, ยอม pCO₂ 50–70 mmHg) + ตั้งเป้า preductal SpO₂ 80–95% · ดู SpO₂ ก่อน/หลัง ductus",
+"ผ่าตัดเมื่อทารกคงที่ (delayed repair) ไม่ใช่ผ่าตัดฉุกเฉิน · เย็บตรงหรือใช้ patch ถ้ารูใหญ่ · รายรุนแรงอาจต้อง iNO, prostaglandin เปิด ductus หรือ ECMO",
+"ก่อนคลอด: ultrasound ประเมิน observed/expected lung-to-head ratio และตับขึ้นไปในอก (พยากรณ์แย่) · รายรุนแรงพิจารณา FETO (fetoscopic tracheal occlusion) ตามผล TOTAL trial 2021"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก A ลายมือ ห้าม on mask, CDH ตรงกับ CDH EURO Consortium consensus (ฉบับปรับปรุง 2015) ที่ให้ใส่ท่อช่วยหายใจทันทีหลังคลอด ห้าม bag-mask และใส่ OG ระบายลม · ส่วนช้อย B–E เป็นการดูแลพื้นฐานที่ทำได้ทั้งหมด จึงเหลือ chest drain เป็นสิ่งที่ไม่ควรทำ · ไม่มีข้อมูลปัจจุบันที่ขัดคีย์",
+variants=[
+"ตรวจพบ CDH ก่อนคลอด → นัดคลอดในศูนย์ที่มี NICU/ECMO และใส่ท่อช่วยหายใจทันทีหลังคลอด",
+"ทารก CDH SpO₂ ที่มือขวา 95% แต่ที่เท้า 75% → pulmonary hypertension มี right-to-left shunt ผ่าน ductus → gentle ventilation ± iNO",
+"เด็ก 5 ขวบอาการน้อย CXR พบลำไส้ในทรวงอกด้านหน้าขวา → Morgagni hernia → ผ่าตัดแบบ elective",
+"ทารกหายใจลำบากหลังคลอด CXR เห็นเงาคล้ายถุงลมหลายถุงในอกซ้าย แยก CDH กับ CPAM ไม่ได้ → ใส่ OG แล้วถ่าย CXR ซ้ำ ถ้าปลายสายอยู่ในอกยืนยัน CDH"])
+P[K+'30']=dict(
+interp="หญิงวัยเจริญพันธุ์มีบุตรยาก 2 ปี ประจำเดือนผิดปกติ มี galactorrhea สองข้าง และมองไม่เห็นด้านข้าง (<b>bitemporal hemianopia</b> จากก้อนกด optic chiasm) → กลุ่มอาการ hyperprolactinemia ร่วมก้อนขนาดใหญ่ที่ sella · ถามการวินิจฉัยที่น่าจะเป็นที่สุด คือ macroprolactinoma",
+trap="เห็นลานสายตาผิดปกติแล้วนึกถึงก้อนเหนือ sella ชนิดอื่น (craniopharyngioma, metastasis, hypophysitis) ซึ่งก็ทำให้ prolactin สูงเล็กน้อยได้จาก stalk effect · วิธีแยก: galactorrhea + ประจำเดือนผิดปกติ/มีบุตรยากเป็นภาพเด่นของ prolactin ที่สูงมากจากก้อนเอง · Sheehan กลับตรงข้าม (ไม่มีน้ำนม ไม่มีก้อน)",
+summary=[
+"แกนของข้อ: prolactin สูงยับยั้ง GnRH (ผ่าน kisspeptin) → hypogonadotropic hypogonadism (ประจำเดือนผิดปกติ มีบุตรยาก) + galactorrhea · ก้อนเกิน 1 cm กด chiasm = <b>macroprolactinoma</b>",
+"Prolactinoma: pituitary adenoma ชนิดหลั่งฮอร์โมนที่พบบ่อยที่สุด · หญิงมาเร็ว (ประจำเดือน, galactorrhea) ชายมาช้า (libido ลด, ED) จึงมักเป็น macroadenoma แล้วตอนวินิจฉัย",
+"ระดับ prolactin: เกินราว 250 ng/mL ชี้ prolactinoma (macroadenoma มักสูงหลายร้อยถึงหลายพัน) · stalk effect จากก้อนอื่นมักไม่เกินราว 100–150 ng/mL · ก้อนใหญ่แต่ค่าต่ำผิดคาด → hook effect",
+"Workup: prolactin, ตรวจการตั้งครรภ์, TSH (primary hypothyroidism), ทบทวนยา (antipsychotic, metoclopramide), creatinine, macroprolactin ถ้าไม่มีอาการ, MRI ต่อมใต้สมอง และลานสายตา",
+"รักษา: <b>dopamine agonist เป็นแรกแม้มีลานสายตาผิดปกติ</b> — cabergoline ได้ผลและทนได้ดีกว่า · bromocriptine มีข้อมูลการตั้งครรภ์มากที่สุด · ลานสายตามักดีขึ้นในไม่กี่วันถึงสัปดาห์",
+"ผ่าตัด transsphenoidal เมื่อดื้อยา ทนยาไม่ได้ pituitary apoplexy หรือ CSF leak หลังก้อนยุบ · cabergoline ขนาดสูงระยะยาวเสี่ยง valvulopathy → echocardiography เป็นระยะ"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก 1 ลายมือ dopamine agonist, Tx: bromocriptine การวินิจฉัย prolactinoma ตรงคีย์ · ส่วนการรักษา Pituitary Society International Consensus Statement (2023) ให้ cabergoline เป็นยาแรก และยอมรับได้ในผู้ที่วางแผนตั้งครรภ์ (หยุดเมื่อยืนยันการตั้งครรภ์) โดย bromocriptine ยังเป็นทางเลือกที่มีข้อมูลการตั้งครรภ์มากที่สุด ลายมือในคีย์จึงไม่ผิดแต่ไม่ใช่ยาแรกตามแนวทางปัจจุบัน",
+variants=[
+"หญิงกิน risperidone มี galactorrhea ประจำเดือนไม่มา prolactin 60 ng/mL MRI ปกติ → prolactin สูงจากยา → ปรึกษาจิตแพทย์เปลี่ยนยา (เช่น aripiprazole)",
+"Macroadenoma 4 cm แต่ prolactin วัดได้แค่ 40 ng/mL → สงสัย hook effect → เจือจางตัวอย่างแล้ววัดซ้ำก่อนสรุปว่าเป็น non-functioning adenoma",
+"ชายมีหย่อนสมรรถภาพทางเพศ ลานสายตาด้านข้างหาย prolactin 3,000 ng/mL → macroprolactinoma → cabergoline โดยไม่ต้องผ่าตัดก่อน",
+"หญิงรักษา macroprolactinoma ด้วยยาจนตั้งครรภ์ ไตรมาส 2 ปวดศีรษะ ลานสายตาแคบลง → MRI ไม่ฉีด gadolinium แล้วกลับมาให้ dopamine agonist"])
+P[K+'31']=dict(
+trap="นึกว่าคอเอียงนานทำให้กล้ามเนื้อคอข้างตรงข้ามฝ่อ หรือคิดว่า DDH ไม่เกี่ยวเพราะอยู่คนละตำแหน่ง · วิธีแยก: สิ่งที่สัมพันธ์กับ CMT มี 2 กลุ่ม คือผลตามมาจากท่าศีรษะ (plagiocephaly, hemifacial hypoplasia, scoliosis ชดเชย) และ packaging disorder ที่เกิดร่วม (DDH, metatarsus adductus) · trapezius ฝ่อไม่อยู่ในทั้งสองกลุ่ม",
+summary=[
+"แกนของข้อ: CMT เป็นโรคของ <b>SCM ข้างเดียว</b> ที่มีพังผืดและสั้น → ศีรษะเอียงไปข้าง SCM ที่สั้น คางหันไปข้างตรงข้าม · สิ่งที่ไม่ใช่ผลหรือภาวะร่วมคือ trapezius ข้างตรงข้ามฝ่อ",
+"สาเหตุ: ท่าในครรภ์ที่แคบ คลอดยาก ท่าก้น หรือใช้คีม → SCM ขาดเลือดคล้าย compartment syndrome แล้วเป็นพังผืด · ช่วง 2–4 สัปดาห์แรกอาจคลำได้ก้อนใน SCM (fibromatosis colli) ซึ่งยุบใน 4–6 เดือน",
+"พบร่วม/ตามมา: plagiocephaly (บ่อยที่สุด), hemifacial hypoplasia, scoliosis ชดเชย, DDH, metatarsus adductus → ตรวจสะโพกทุกราย",
+"รักษา: stretching + จัดท่าให้ทารกหันไปข้างที่หมุนได้น้อย (เล่น ให้นม วางของเล่น) · เริ่มก่อน 3 เดือนได้ผลกว่า 90% ตามสไลด์ในคีย์ · plagiocephaly ที่ยังรุนแรงหลังจัดท่าพิจารณา helmet",
+"ผ่าตัด SCM release (unipolar/bipolar) เมื่อทำกายภาพ 6–12 เดือนแล้วยังหมุนคอได้น้อยกว่าอีกข้างเกินราว 15° มีแถบ SCM ตึง หรือใบหน้าไม่สมมาตรเพิ่มขึ้น · มักทำช่วงอายุ 1–4 ปี",
+"คอเอียงที่ไม่ใช่จากกล้ามเนื้อ ต้องแยก: ocular (superior oblique palsy), กระดูกคอผิดรูป (hemivertebra, Klippel–Feil), Grisel syndrome (C1–C2 เคลื่อนหลังคออักเสบ), เนื้องอกใน posterior fossa, Sandifer syndrome (GERD)"],
+opinion="เห็นด้วยกับคีย์ D ความมั่นใจปานกลางถึงสูง — ไฟล์ Key 76D ติ๊ก D ลายมือ D ไม่เกี่ยว และแปะสไลด์ congenital fibrosis & SCM shortening ตรงกับ APTA Clinical Practice Guideline for CMT (2018) และตำราออร์โธปิดิกส์เด็กที่ไม่มี trapezius atrophy ในลักษณะของ CMT · ลดความมั่นใจลงเพราะต้นฉบับใช้คำว่า cause ซึ่งคีย์ขีดทิ้งและลายมือเขียน เป็น cause ได้?? จึงปรับเป็น associated",
+variants=[
+"ทารก CMT → ตรวจสะโพก (Ortolani/Barlow ± ultrasound สะโพก) ทุกราย เพราะเป็น packaging disorder ร่วม",
+"เด็ก 3 ขวบคอเอียงหลังคออักเสบ มีไข้ ไม่มีก้อนใน SCM → Grisel syndrome → CT C1–C2",
+"เด็กคอเอียงที่หายเมื่อปิดตาข้างหนึ่ง → ocular torticollis → ส่งจักษุแพทย์",
+"ทารก 3 สัปดาห์คลำได้ก้อนแข็งใน SCM ขวา ศีรษะเอียงขวา คางหันซ้าย → fibromatosis colli → ultrasound ยืนยันแล้วเริ่ม stretching ไม่ต้องตัดชิ้นเนื้อ"])
+P[K+'32']=dict(
+why="Keloid เกิดจากการหายของแผลที่ระยะ proliferation/remodeling ไม่หยุด: fibroblast ตอบสนองต่อ <b>TGF-β</b> มากผิดปกติ สร้าง <b>collagen type I และ III</b> ต่อเนื่องเกินการสลาย จึง<b>ลามเกินขอบแผลเดิม</b>คล้ายเนื้องอกไม่ร้าย <b>ไม่ยุบเอง</b> และเป็นซ้ำสูงหลังตัด · ปัจจัยเสี่ยง: ผิวสีเข้ม อายุ 10–30 ปี ประวัติครอบครัว และตำแหน่งเสี่ยง (ติ่งหู กลางอก ไหล่ หลังส่วนบน) · การเจาะหูเป็นสาเหตุคลาสสิกของ keloid ที่ติ่งหู · ต่างจาก <b>hypertrophic scar</b> ที่อยู่ในขอบแผล เกิดภายใน 4–8 สัปดาห์หลังแผล และยุบลงใน 1–2 ปี · histology: keloid มี collagen หนาเป็นก้อน (keloidal collagen) เรียงไม่เป็นระเบียบ ส่วน hypertrophic scar เป็นมัดเรียงขนานผิว · ตรงคีย์ Key 76D ติ๊ก 2 พร้อมแปะ <b>\"keloids spread beyond the borders of the initial injury and do not regress\"</b>",
+trap="แยก keloid กับ hypertrophic scar จากลักษณะนูนแดงซึ่งเหมือนกันทั้งคู่ · ตัวแยกจริงคือ (1) ขอบเขต: เกินขอบแผลเดิม = keloid (2) เวลา: เกิดช้าและโตต่อหลายปีไม่ยุบ = keloid (3) ตำแหน่ง: ติ่งหูหลังเจาะเป็น keloid คลาสสิก ส่วนแผลตามข้อพับที่ตึงชวนคิด hypertrophic scar",
+summary=[
+"แกนของข้อ: ก้อนแผลเป็นหลังเจาะหู 3 ปีที่<b>โตเกินขอบแผลเดิม</b>และไม่ยุบ = <b>keloid</b> · hypertrophic scar อยู่ในขอบแผลและยุบลงได้เอง",
+"Keloid: เกินขอบแผล ไม่ยุบ เป็นซ้ำได้ · พบในคนผิวเข้ม อายุ 10–30 ปี · ตำแหน่ง: ติ่งหู กลางอก ไหล่ · คันและเจ็บได้ · histology: keloidal collagen หนาเรียงไม่เป็นระเบียบ",
+"Hypertrophic scar: อยู่ในขอบแผล เกิดเร็วภายในไม่กี่สัปดาห์ ยุบได้ใน 1–2 ปี มักที่ข้อพับหรือแผลที่ตึง/แผลไฟไหม้ · collagen เรียงขนานผิว · ทำให้เกิด contracture ได้",
+"รักษา keloid แรก: <b>intralesional triamcinolone</b> (10–40 mg/mL ทุก 4–6 สัปดาห์) ± 5-FU · silicone gel/sheet วันละหลายชั่วโมงหลายเดือน · pressure therapy (เช่น ต่างหูกด)",
+"ตัดออกอย่างเดียวเป็นซ้ำสูงมาก (ราว 45–100%) → ตัดออกร่วมฉีด steroid หลังผ่าตัด หรือฉายรังสีภายใน 24–72 ชม. หลังผ่าตัด ลดการเป็นซ้ำได้มาก · cryotherapy ใช้กับก้อนเล็ก",
+"ป้องกันในผู้มีประวัติ keloid: เลี่ยงการเจาะ/ผ่าตัดเสริมความงาม เย็บลดแรงตึงตามแนว skin tension line และใช้ silicone หรือ tape หลังแผลปิด"],
+opinion="เห็นด้วยกับคีย์ B ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก 2 พร้อมแปะเกณฑ์แยก keloid (เกินขอบแผล ไม่ยุบ) กับ hypertrophic scar ซึ่งตรงกับ International Clinical Recommendations on Scar Management (ฉบับปรับปรุง 2014) · ข้อสังเกต: stem เติมคำว่าโตเกินขอบแผลเดิมเพราะรูปไม่อยู่ในไฟล์ ช่วยให้ตอบได้ชัดขึ้น · ไม่มีข้อมูลปัจจุบันที่ขัดคีย์",
+variants=[
+"Keloid ที่ติ่งหูตัดออกแล้วโตกลับ → ตัดออกร่วมฉีด triamcinolone หรือฉายรังสีหลังผ่าตัด + ต่างหูกดแผล",
+"แผลผ่าตัดกลางอกนูนแข็งคัน โตเกินขอบแผล → keloid → intralesional triamcinolone",
+"แผลไฟไหม้ที่ข้อศอกนูนแข็งดึงรั้งจนเหยียดไม่สุด → hypertrophic scar contracture → silicone/pressure garment ± Z-plasty",
+"Keloid ที่ฉีด triamcinolone ซ้ำหลายครั้ง ผิวรอบก้อนบางลง สีจาง เห็นเส้นเลือดฝอย → ผลข้างเคียงจาก steroid (atrophy, hypopigmentation, telangiectasia) → เว้นระยะหรือลดความเข้มข้นของยา"])
+P[K+'33']=dict(
+why="Pancoast (superior sulcus) tumor คือมะเร็งปอดที่ยอดปอดลุกผ่าน pleura เข้าทางออกของทรวงอก (thoracic inlet) · ลุก <b>stellate ganglion/sympathetic chain</b> → Horner syndrome (ptosis, miosis, anhidrosis ข้างเดียวกัน) · ลุก <b>C8–T1 roots ของ brachial plexus</b> → ปวดไหล่ร้าวแขนด้านในถึงนิ้วนางนิ้วก้อย กล้ามเนื้อมือลีบ · ลุกซี่โครงซี่ 1–2 และกระดูกสันหลัง · เกือบทั้งหมดเป็น <b>NSCLC</b> และตำราคลาสสิกสอนว่า <b>squamous cell carcinoma</b> พบมากที่สุด (สัมพันธ์กับบุหรี่จัด) แม้ข้อมูลรุ่นหลังพบ adenocarcinoma ใกล้เคียงหรือมากกว่า · small cell เป็น Pancoast ได้น้อยมาก · Pancoast ที่ตัดได้ (T3–T4 N0–1) รักษาด้วย <b>induction chemoradiotherapy แล้วผ่าตัด en bloc</b> · ตรงคีย์ Key 76D ติ๊กและไฮไลต์ 2 พร้อมจด <b>\"Pancoast — NSCLC\"</b> และ <b>\"Adenocarcinoma — non-smoke\"</b>",
+trap="เห็น heavy smoker แล้วตอบ small cell เพราะสัมพันธ์กับบุหรี่แรงที่สุด หรือรู้ว่า adenocarcinoma พบมากที่สุดโดยรวมจึงเลือก A · วิธีแยก: คำถามใช้คำว่า classically associated → คำตอบตามตำราคือ squamous · small cell มักเป็นก้อนกลางใกล้ hilum ไม่ใช่ superior sulcus · adenocarcinoma ถูกได้ตามข้อมูลปัจจุบันแต่ไม่ใช่คำตอบคลาสสิก",
+summary=[
+"แกนของข้อ: Horner syndrome + ก้อนยอดปอดในผู้สูบบุหรี่ = <b>Pancoast (superior sulcus) tumor</b> ซึ่งเกือบทั้งหมดเป็น NSCLC · คำตอบคลาสสิกคือ <b>squamous cell carcinoma</b> แม้ข้อมูลใหม่พบ adenocarcinoma มากขึ้น",
+"อาการ Pancoast: ปวดไหล่ร้าวแขนด้านใน (C8–T1) เป็นอาการแรกที่พบบ่อยที่สุด, Horner syndrome, กล้ามเนื้อมือลีบ, ซี่โครงบนและกระดูกสันหลังถูกทำลาย · ก้อนเล็กที่ยอดปอดมองข้ามใน CXR ได้ง่าย",
+"ชนิดมะเร็งปอด: squamous → ก้อนกลาง มีโพรง hypercalcemia (PTHrP) สัมพันธ์บุหรี่ · adenocarcinoma → รอบนอก พบในผู้ไม่สูบบุหรี่ มี driver mutation · small cell → ก้อนกลาง paraneoplastic (SIADH, Cushing, Lambert–Eaton)",
+"Horner: ptosis เล็กน้อย miosis anhidrosis ข้างเดียวกัน · ก้อนยอดปอดกด neuron ลำดับที่ 2 (preganglionic) · Horner ที่เพิ่งเกิดในผู้สูบบุหรี่ต้องตรวจภาพยอดปอดเสมอ",
+"ก่อนรักษา Pancoast: MRI ดู brachial plexus, subclavian vessels และกระดูกสันหลัง + PET-CT + staging ต่อมน้ำเหลือง mediastinum (EBUS/mediastinoscopy) + ชิ้นเนื้อยืนยัน",
+"รักษา: ตัดได้ (T3–T4 N0–1) → induction chemoradiotherapy แล้วผ่าตัด en bloc (ตามผล SWOG 9416) · N2/N3 หรือตัดไม่ได้ → definitive chemoradiotherapy แล้ว durvalumab"],
+variants=[
+"ผู้สูบบุหรี่มี hypercalcemia ก้อนกลางปอดมีโพรง → squamous cell carcinoma (หลั่ง PTHrP)",
+"ผู้สูบบุหรี่มีก้อนกลางปอดร่วม Cushing และ hyponatremia → small cell lung cancer",
+"ก้อนยอดปอดขวา ปวดร้าวแขนด้านในถึงนิ้วก้อย มือลีบ → ลุก C8–T1 brachial plexus → MRI ก่อนวางแผนรักษา",
+"หญิง 45 ปีไม่สูบบุหรี่มีก้อนยอดปอดร่วม Horner → มีโอกาสเป็น adenocarcinoma สูง → ตรวจ EGFR/ALK จากชิ้นเนื้อเพื่อวางแผนยามุ่งเป้า"])
+P[K+'34']=dict(
+interp="ถูกกระแทกที่ศีรษะด้านซ้าย (บริเวณขมับ) หมดสติ 5 นาทีจาก concussion แล้วตื่นดีเดินได้ (<b>lucid interval</b>) ก่อนซึมลงภายใน 2 ชม. → ก้อนเลือดที่โตเร็วจากหลอดเลือดแดงกดสมอง · ถามการวินิจฉัยที่น่าจะเป็นที่สุด = acute epidural hematoma ซึ่งต้องผ่าตัดด่วน",
+trap="เห็นคำว่าซึมลงหลังบาดเจ็บแล้วตอบ chronic SDH หรือคิดว่าบาดเจ็บแรงต้องเป็น ICH · วิธีแยกจากเวลา: เป็นชั่วโมง + lucid interval = EDH (เลือดแดง middle meningeal) · เป็นวันถึงสัปดาห์ในผู้สูงอายุ = chronic SDH (bridging vein) · ซึมตั้งแต่แรกโดยไม่มีช่วงดี = acute SDH, contusion หรือ DAI",
+summary=[
+"แกนของข้อ: lucid interval + ซึมลงภายในชั่วโมง = <b>acute EDH</b> จาก middle meningeal artery ฉีก (มักร่วมกระดูก temporal ร้าว) · เลือดแดงจึงโตเร็วกว่า SDH",
+"EDH: biconvex/lens-shaped · ไม่ข้าม suture (dura ยึดแน่นที่ suture) · lucid interval พบเพียงส่วนหนึ่ง (ไม่มีก็ไม่ตัด EDH) · พยากรณ์ดีถ้าผ่าตัดทัน เพราะสมองใต้ก้อนมักบาดเจ็บน้อย",
+"SDH: bridging vein · crescent · ข้าม suture แต่ไม่ข้าม falx · acute SDH มักร่วมสมองบาดเจ็บ พยากรณ์แย่กว่า EDH · chronic SDH ในผู้สูงอายุ/สมองฝ่อ/ยาต้านการแข็งตัวของเลือด",
+"ผ่าตัด EDH (BTF): ปริมาตร &gt; 30 mL ไม่ว่า GCS เท่าใด · GCS ≤ 8 ร่วม anisocoria → ด่วนที่สุด · รักษาแบบเฝ้าดูได้ถ้า &lt; 30 mL หนา &lt; 15 mm shift &lt; 5 mm GCS &gt; 8 ไม่มี focal deficit (CT ซ้ำ) · acute SDH: หนา &gt; 10 mm หรือ shift &gt; 5 mm",
+"Uncal herniation: รูม่านตาข้างเดียวกับก้อนโต (CN III ถูกกด) + อ่อนแรงซีกตรงข้าม · Cushing reflex (ความดันสูง ชีพจรช้า หายใจผิดปกติ) บอก ICP สูงมาก",
+"ดูแลเบื้องต้น: ABCDE ป้องกัน secondary brain injury — เลี่ยง hypotension (SBP ≥ 100–110 mmHg ตามอายุ) และ hypoxia (SpO₂ &gt; 90%) ศีรษะสูง 30° · CT สมองไม่ฉีดสีทันทีเมื่อ GCS ลด"],
+opinion="เห็นด้วยกับคีย์ B ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก B ลายมือ lucid interval, EDH lens, middle meningeal และ SDH crescent, bridging v. ตรงกับตำราและ Brain Trauma Foundation Surgical Management of TBI Guidelines (2006) ที่ยังใช้เกณฑ์ผ่าตัด EDH เกิน 30 mL · ข้อสังเกต: lucid interval พบเพียงราวครึ่งหนึ่งหรือน้อยกว่าของ EDH จึงไม่จำเป็นต่อการวินิจฉัย",
+variants=[
+"EDH 20 mL หนา 10 mm GCS 15 ไม่มี focal deficit → สังเกตอาการใกล้ชิดใน ICU + CT ซ้ำ 6–8 ชม.",
+"ผู้ป่วย EDH ซึมลง รูม่านตาซ้ายโต อ่อนแรงซีกขวา → uncal herniation → craniotomy ด่วน",
+"CT หลังบาดเจ็บศีรษะพบก้อนเลือดรูป crescent หนา 12 mm ข้าม suture midline shift 7 mm → acute SDH → craniotomy",
+"เด็ก 8 ขวบตกจักรยาน ศีรษะด้านหลังกระแทก อาเจียนซ้ำ GCS 14 CT พบ biconvex hematoma ที่ posterior fossa → EDH ตำแหน่งอันตรายกดก้านสมองเร็ว → ปรึกษาผ่าตัดทันที"])
+P[K+'35']=dict(
+why="นิ่วในท่อปัสสาวะส่วนใหญ่เป็น secondary คือนิ่วจากไตหรือกระเพาะปัสสาวะที่หลุดลงมาติดตรงจุดแคบ ได้แก่ bladder neck, prostatic urethra, bulbar urethra, fossa navicularis และ external meatus · นิ่ว 1.5 cm ติดกลางคันทำให้ปัสสาวะหยุดทันที ปวดปลายองคชาต และเกิด <b>acute urinary retention</b> · เป้าหมายเร่งด่วนคือระบายกระเพาะปัสสาวะโดยไม่บาดเจ็บท่อปัสสาวะ: ฉีด <b>2% lidocaine jelly</b> เข้าท่อ (ชา หล่อลื่น คลายการเกร็ง) แล้ว<b>ดันนิ่วย้อนกลับ (push back) เข้ากระเพาะปัสสาวะ</b> ด้วยการรีดหรือสายสวน จากนั้นจึงใส่ Foley ระบาย และนัดสลายนิ่วในกระเพาะปัสสาวะ (cystolitholapaxy) ภายหลัง · นิ่วใกล้รูเปิดดึงออกได้ ส่วนนิ่วฝังแน่นต้อง urethroscopic lithotripsy · ถ้าทำไม่ได้และต้องระบายด่วน → suprapubic cystostomy · ตรงคีย์ Key 76D ติ๊ก B พร้อมจดลายมือ <b>\"ทำก่อนใส่ foley?\"</b>",
+trap="เห็น acute urinary retention แล้วทำตาม reflex คือใส่ Foley ทันที ซึ่งปลายสายจะชนนิ่ว ดันให้ติดแน่นหรือทำท่อฉีกขาดจนเกิด false passage หรือคิดว่าท่ออุดแล้วต้อง suprapubic เลย · วิธีแยก: เมื่อรู้ว่ามีนิ่วอุดใน urethra ขั้นแรกคือ lidocaine jelly + push back แล้วจึงใส่สาย · suprapubic เป็นทางสำรองเมื่อดันไม่ได้",
+summary=[
+"แกนของข้อ: retention จากนิ่วติด urethra → <b>lidocaine jelly + push back เข้ากระเพาะปัสสาวะ</b> → ใส่ Foley → จัดการนิ่วในกระเพาะปัสสาวะภายหลัง · ไม่ใส่สายดันนิ่วตรง ๆ",
+"นิ่วในท่อปัสสาวะส่วนใหญ่มาจากไตหรือกระเพาะปัสสาวะ (primary urethral stone พบน้อย มักเกิดหลังท่อตีบหรือ urethral diverticulum) · อาการ: ปัสสาวะหยุดทันที ปวดปลายองคชาต คลำได้ก้อนแข็งตามแนวท่อ",
+"ตำแหน่งกับวิธี: posterior/bulbar → lidocaine jelly + ดันกลับเข้ากระเพาะปัสสาวะ → สลายนิ่วด้วยกล้อง · ใกล้รูเปิด (fossa navicularis) → ดึงออก ± meatotomy · ฝังแน่น → urethroscopic lithotripsy ในที่",
+"ภาพ: KUB เห็นนิ่วทึบรังสีส่วนใหญ่ตามแนวท่อปัสสาวะ · ultrasound หรือ non-contrast CT ช่วยหานิ่วไต/ท่อไตที่เป็นต้นทาง และดูกระเพาะปัสสาวะ",
+"หลังเอานิ่วออก หาสาเหตุ: นิ่วไต (metabolic evaluation, 24-h urine ในรายเป็นซ้ำ), bladder outlet obstruction, urethral stricture หรือ diverticulum",
+"จัดการผิดหรือปล่อยนิ่วค้างนาน: false passage, urethral stricture, periurethral abscess, urethrocutaneous fistula และ upper tract obstruction/ติดเชื้อ"],
+variants=[
+"นิ่วติดที่ fossa navicularis คลำได้ใกล้รูเปิด → ดึงออกทางรูเปิด ± meatotomy",
+"ปัสสาวะสะดุดกลางคันแต่เปลี่ยนท่าแล้วออกต่อได้ ปวดร้าวปลายองคชาต → นิ่วกระเพาะปัสสาวะ (ball-valve) ไม่ใช่นิ่วติดท่อปัสสาวะ",
+"หลังดันนิ่วกลับและใส่ Foley แล้ว ultrasound พบนิ่ว 1.5 cm ในกระเพาะปัสสาวะ → นัด transurethral cystolitholapaxy",
+"ชายมีนิ่วติดท่อปัสสาวะซ้ำหลายครั้ง CT พบนิ่วไตหลายก้อน → รักษานิ่วไตต้นทางและทำ metabolic workup เพื่อป้องกันการเป็นซ้ำ"])
+P[K+'36']=dict(
+why="ก้อน 2 cm = <b>T1b</b> (TNM 8th: เกิน 1 ถึง 2 cm) + N0 M0 = <b>stage IA2</b> · NSCLC stage I–II ในผู้ที่ทนการผ่าตัดได้ การรักษาที่หวังหายขาดคือ <b>anatomic resection + systematic mediastinal lymph node dissection/sampling</b> (อย่างน้อย 3 สถานี mediastinum รวม subcarinal ร่วม hilar) เพื่อ staging ที่ถูกต้อง · <b>lobectomy</b> เป็นมาตรฐานตั้งแต่การศึกษา LCSG (1995) ที่พบว่า limited resection กลับเป็นซ้ำเฉพาะที่มากกว่า · ข้อมูลใหม่ (JCOG0802 2022, CALGB 140503 2023) พบว่า <b>segmentectomy/sublobar</b> ไม่ด้อยกว่าในก้อน<b>รอบนอกไม่เกิน 2 cm</b> ที่ต่อมน้ำเหลืองลบ · <b>pneumonectomy</b> ไม่ได้ผลดีกว่าเมื่อ lobectomy ตัดได้ครบ แต่อัตราตายสูงกว่ามาก · stage IA ไม่ต้องให้ยาก่อนหรือหลังผ่าตัด (ตารางที่แปะในคีย์ให้ adjuvant เมื่อเกิน 4 cm หรือ N+) · ตรงคีย์ Key 76D ติ๊กและไฮไลต์ A พร้อมจด <b>\"T1\"</b> และ <b>\"N0\"</b>",
+trap="คิดว่าตัดมากยิ่งหายขาดจึงเลือก pneumonectomy หรือคิดว่ามะเร็งทุกรายต้องได้ยาก่อน/ร่วม (neoadjuvant, CRT) · วิธีแยก: ดู stage ก่อน — T1b N0 M0 เป็น stage IA ผ่าตัดอย่างเดียวพอ ขอบเขตคือ lobectomy + lymph node dissection · perioperative therapy ใช้เมื่อก้อนตั้งแต่ 4 cm หรือ N+ ส่วน definitive CRT ใช้ stage III ที่ผ่าตัดไม่ได้",
+summary=[
+"แกนของข้อ: NSCLC stage IA ในผู้ที่ผ่าตัดได้ → <b>lobectomy + mediastinal lymph node dissection</b> ผ่าตัดอย่างเดียว ไม่ต้องให้ยาเสริม",
+"T ตามขนาด (TNM 8th): T1a ≤ 1 cm · T1b &gt; 1–2 · T1c &gt; 2–3 · T2a &gt; 3–4 · T2b &gt; 4–5 · T3 &gt; 5–7 · T4 &gt; 7 cm หรือลุกโครงสร้างสำคัญ",
+"ขอบเขตผ่าตัด: lobectomy เป็นมาตรฐาน · segmentectomy ในก้อนรอบนอกไม่เกิน 2 cm (ผลไม่ด้อยกว่าในการศึกษาล่าสุด) · sleeve lobectomy แทน pneumonectomy เมื่อก้อนติด bronchus ส่วนต้น · pneumonectomy เมื่อจำเป็นจริง",
+"ก่อนผ่าตัด: PET-CT ทุกราย · ตรวจต่อม mediastinum แบบรุกล้ำ (EBUS/mediastinoscopy) เมื่อก้อนอยู่กลาง เกิน 3 cm หรือ PET/CT สงสัยต่อม · PFT ดู ppoFEV1 และ ppoDLCO (เกิน 60% = ความเสี่ยงต่ำ)",
+"ระยะที่สูงขึ้น: ก้อนตั้งแต่ 4 cm หรือ N+ ที่ผ่าตัดได้ → perioperative therapy (neoadjuvant chemo-immunotherapy หรือ adjuvant chemotherapy ± immunotherapy/targeted therapy ตาม biomarker)",
+"ผู้ป่วย stage I ที่ผ่าตัดไม่ได้หรือปฏิเสธผ่าตัด → SBRT · ผ่าตัดปัจจุบันนิยม minimally invasive (VATS/RATS) ปวดน้อยกว่าและฟื้นตัวเร็วกว่า thoracotomy"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊กและไฮไลต์ A ลายมือ T1, N0 และแปะตาราง TNM/treatment ตรงกับ NCCN NSCLC Guidelines (2025) ที่ให้ anatomic resection + nodal evaluation ใน stage IA · สิ่งที่เปลี่ยนไปจากคีย์: หลัง JCOG0802/CALGB 140503 segmentectomy เป็นทางเลือกที่ยอมรับในก้อนรอบนอกไม่เกิน 2 cm แต่ไม่มีในช้อย lobectomy จึงยังเป็นคำตอบที่ดีที่สุด",
+variants=[
+"ก้อน NSCLC 1.8 cm ผู้ป่วย COPD สมรรถภาพปอดต่ำมาก ผ่าตัดไม่ได้ → SBRT",
+"ก้อน spiculated 2.5 cm PET uptake สูง เจาะชิ้นเนื้อก่อนผ่าตัดยาก ผู้ป่วยแข็งแรง → ผ่าตัด wedge ส่ง frozen section แล้ว lobectomy ในครั้งเดียว",
+"CT พบต่อม subcarinal 1.8 cm PET uptake สูงในผู้ป่วยก้อนปอด 2 cm → EBUS-TBNA ยืนยัน N2 ก่อน ไม่ผ่าตัด lobectomy ทันที",
+"หลัง lobectomy พยาธิพบ adenocarcinoma 3.5 cm N1 มี EGFR exon 19 deletion → adjuvant chemotherapy แล้วตามด้วย osimertinib 3 ปี (ADAURA)"])
+P[K+'37']=dict(
+interp="CT urography พบ filling defect 5 mm ใน ureter ขวา ร่วม hydronephrosis เล็กน้อย cytology สรุปไม่ได้ → สงสัย <b>upper tract urothelial carcinoma (UTUC)</b> ที่ยังไม่มีชิ้นเนื้อและยังไม่รู้ grade · ถามขั้นตอนถัดไปที่เหมาะที่สุด คือยืนยันและแบ่ง risk ก่อน หรือตัดไตทันที",
+trap="เห็น filling defect + hydronephrosis แล้วจำว่า RNU คือการรักษามาตรฐานของ UTUC (คีย์ในไฟล์ก็ตอบ RNU) · วิธีแยก: ก่อนตัดไตทิ้งต้องรู้ว่าเป็นมะเร็งจริงหรือไม่ และเป็น low หรือ high risk เพราะก้อนเล็ก low grade เก็บไตได้ · เมื่อ imaging + cytology ยังไม่พอ ขั้นต่อไปคือ ureteroscopy + biopsy · filling defect อาจเป็นนิ่ว radiolucent ลิ่มเลือด หรือ polyp ก็ได้",
+summary=[
+"แกนของข้อ: filling defect ใน upper tract ที่ cytology ไม่ชัด → <b>diagnostic ureteroscopy + biopsy</b> เพื่อยืนยันและแบ่ง low/high risk ก่อนเลือก kidney-sparing กับ RNU (EAU 2025)",
+"UTUC: urothelial carcinoma ของ renal pelvis/ureter (ราว 5–10% ของ urothelial carcinoma) · ปัจจัยเสี่ยง: บุหรี่, aristolochic acid, Lynch syndrome, ยา phenacetin",
+"Workup: CT urography + cytology + cystoscopy (มะเร็งกระเพาะปัสสาวะร่วมได้) + ureteroscopy + biopsy เมื่อภาพ/cytology ยังไม่พอ",
+"Low risk (ก้อนเดียว &lt; 2 cm, low grade, CT ไม่ลุกลาม) → kidney-sparing: endoscopic ablation หรือ segmental ureterectomy · high risk (hydronephrosis, ≥ 2 cm, high grade, หลายตำแหน่ง) → RNU + bladder cuff",
+"หลัง RNU: ใส่ยาเคมีเข้ากระเพาะปัสสาวะครั้งเดียวลดการเกิดซ้ำในกระเพาะปัสสาวะ · ติดตามด้วย cystoscopy เป็นระยะ เพราะเกิดซ้ำในกระเพาะปัสสาวะราว 1/4–1/2",
+"Differential ของ filling defect: นิ่ว uric acid (โปร่งรังสีใน KUB แต่เห็นใน CT), ลิ่มเลือด, fibroepithelial polyp, sloughed papilla (papillary necrosis), fungus ball"],
+variants=[
+"Ureteroscopic biopsy ได้ low-grade ก้อนเดียว 1 cm → laser ablation ผ่านกล้อง + ติดตามด้วย ureteroscopy",
+"ผู้ป่วยอายุ 45 ปีมี UTUC ร่วมประวัติครอบครัวมะเร็งลำไส้ใหญ่และมะเร็งเยื่อบุโพรงมดลูก → ตรวจ MMR/Lynch syndrome",
+"ไตเดียวมี UTUC high-grade → พิจารณาการรักษาแบบเก็บไตเพื่อเลี่ยงการฟอกไต แม้ความเสี่ยงสูง",
+"หลัง RNU พยาธิ pT3N0 ไตที่เหลือทำงานดี → adjuvant platinum-based chemotherapy (ตามผล POUT trial)"])
+P[K+'38']=dict(
+interp="ถูกแทงที่หลัง (บาดเจ็บทะลุไขสันหลังด้านเดียว) ขาขวาอ่อนแรงและเสีย proprioception ขาซ้ายเสียความรู้สึกเจ็บและร้อนเย็น → การเสียแยกข้างตาม tract = <b>Brown-Séquard syndrome</b> จากไขสันหลังขาดครึ่งซีกขวา · ถามชนิด/กลไกการบาดเจ็บไขสันหลังที่อธิบายอาการทั้งหมด",
+why="อธิบายด้วยตำแหน่งที่ tract ไขว้: <b>lateral corticospinal tract</b> (motor) ไขว้ที่ pyramidal decussation ใน medulla และ <b>dorsal column–medial lemniscus</b> (proprioception, vibration, fine touch) ก็ไขว้ที่ medulla → ในไขสันหลังทั้งสอง tract อยู่ข้างเดียวกับร่างกายที่ดูแล แผลซีกขวาจึงเสีย motor และ proprioception <b>ข้างขวา (ipsilateral)</b> ต่ำกว่าระดับ · ส่วน <b>lateral spinothalamic tract</b> (pain, temperature) เข้าไขสันหลังแล้วขึ้น 1–2 ปล้องก่อนไขว้ผ่าน anterior white commissure → เสีย<b>ข้างซ้าย (contralateral)</b> เริ่มราว 1–2 ระดับต่ำกว่าแผล · ที่ระดับแผลมี LMN sign และแถบเสียความรู้สึกข้างเดียวกัน ต่ำกว่าระดับเป็น UMN sign (ระยะแรกอาจถูกบังด้วย spinal shock) · สาเหตุคลาสสิกคือแผลถูกแทงหรือกระสุน ซึ่งในความจริงมักเป็นแบบไม่ครบ (Brown-Séquard-plus) · พยากรณ์ดีที่สุดใน incomplete syndrome ส่วนใหญ่กลับมาเดินได้ · ตรงคีย์ Key 76D ติ๊ก A พร้อมจด <b>\"Brown-Séquard · R propio, R motor · L pain temp contralat below\"</b>",
+trap="สับสนข้างที่เสีย: จำว่า pain/temp ไขว้เร็ว (ในไขสันหลัง) จึงเสียข้างตรงข้าม ส่วน motor และ dorsal column ไขว้ช้า (ที่ medulla) จึงเสียข้างเดียวกับแผล · และสับสน anterior cord (เสีย motor + pain/temp สองข้าง เหลือ proprioception) กับ central cord (แขนมากกว่าขา) · การเสียแยกซ้าย–ขวาตามชนิด tract มีใน hemisection เท่านั้น",
+summary=[
+"แกนของข้อ: <b>hemisection</b> = ipsilateral motor + dorsal column (proprioception, vibration) และ contralateral pain/temperature ต่ำกว่าระดับ · แผลแทงคือสาเหตุคลาสสิก",
+"Brown-Séquard: พยากรณ์ดีที่สุดใน incomplete syndrome ส่วนใหญ่กลับมาเดินและควบคุมการขับถ่ายได้ · สาเหตุอื่น: กระสุน, disc herniation ด้านข้าง, เนื้องอก, MS",
+"Anterior cord: เสีย motor + pain/temp สองข้าง dorsal column ปกติ · เกิดจาก anterior spinal artery ขาดเลือด (ผ่าตัด aorta, hypotension) หรือ flexion injury · พยากรณ์แย่ที่สุด",
+"Central cord: พบบ่อยที่สุดใน incomplete injury แขนอ่อนแรงมากกว่าขา มือแสบร้อน มี sacral sparing · ผู้สูงอายุ cervical spondylosis + hyperextension · posterior cord เสีย proprioception อย่างเดียว (พบน้อย)",
+"Spinal shock (reflex หายชั่วคราว bulbocavernosus กลับมาก่อน ความดันปกติ) ≠ neurogenic shock (บาดเจ็บเหนือ T6 เสีย sympathetic → ความดันต่ำ ชีพจรช้า ผิวอุ่น) รักษาด้วยสารน้ำ + vasopressor ± atropine",
+"ISNCSCI/ASIA: A complete (ไม่มี motor/sensory ที่ S4–S5) · B sensory incomplete · C/D motor incomplete (แบ่งตามกล้ามเนื้อหลักต่ำกว่าระดับที่แรงตั้งแต่ grade 3 น้อยกว่าหรือมากกว่าครึ่ง) · E ปกติ"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก A ลายมือ Brown-Séquard, R propio R motor, L pain temp contralat below และแยก anterior cord, central cord, neurogenic shock, spinal shock ไว้ครบ ตรงกับตำราประสาทกายวิภาคและ ISNCSCI (ฉบับปรับปรุง 2019) · ข้อสังเกต: stem ปรับคำว่า sensation ในต้นฉบับเป็น proprioception เพื่อให้ตรงกับ tract ไม่เปลี่ยนคำตอบ",
+variants=[
+"หลังบาดเจ็บไขสันหลัง 24 ชม. bulbocavernosus reflex กลับมาแล้ว แต่ยังไม่มีการเคลื่อนไหวและความรู้สึกต่ำกว่าระดับ รวมถึงรอบทวาร → complete injury พยากรณ์ฟื้นน้อย",
+"ผู้ป่วยบาดเจ็บไขสันหลังระดับ T4 ปวดศีรษะรุนแรง BP 200/110 ชีพจรช้า กระเพาะปัสสาวะเต็ม → autonomic dysreflexia → นั่งหัวสูง ระบายปัสสาวะ",
+"ตรวจพบความรู้สึกรอบทวารและขมิบทวารได้ (sacral sparing) แม้ขาอ่อนแรง → incomplete injury พยากรณ์ดีกว่า",
+"ผู้ป่วยถูกแทงหลังระดับ T10 ด้านซ้าย → ขาซ้ายอ่อนแรงและรับรู้การสั่นสะเทือนไม่ได้ ส่วนขาขวาไม่รู้สึกเจ็บและร้อนเย็น → left hemisection"])
+P[K+'39']=dict(
+interp="ข้อ NOT: ให้ 5 สถานการณ์ของผู้ป่วย spontaneous pneumothorax (อาชีพนักบิน นักดำน้ำ อยู่พื้นที่ห่างไกล air leak 1 วัน และเป็นฝั่งตรงข้ามในการนอนโรงพยาบาลเดียวกัน) · ถามข้อที่ <b>ไม่ใช่</b> ข้อบ่งชี้ผ่าตัด (VATS) ซึ่งต้องรู้ทั้งรายการข้อบ่งชี้และเกณฑ์จำนวนวันของ persistent air leak",
+trap="อ่านคำว่า persistent air leak แล้วจำแค่ว่าเป็นข้อบ่งชี้ผ่าตัดโดยไม่ดูจำนวนวัน หรือคิดว่าอาชีพและที่อยู่ไม่ใช่เรื่องทางการแพทย์ · วิธีแยก: air leak ในวันแรกหลังใส่สายเป็นเรื่องปกติ เกณฑ์คือยังรั่วหลัง 3–5 วัน (BTS 2010) ถึง 5–7 วัน (ตารางในคีย์) · ส่วนอาชีพเสี่ยงและที่อยู่ห่างไกลเป็นข้อบ่งชี้เพราะถ้าเป็นซ้ำแล้วอันตรายถึงชีวิต",
+summary=[
+"แกนของข้อ: ข้อบ่งชี้ผ่าตัด pneumothorax = เป็นซ้ำข้างเดิม, ฝั่งตรงข้ามครั้งแรก, สองข้างพร้อมกัน, <b>air leak ต่อเนื่องหลังใส่สายหลายวัน</b>, ปอดไม่ขยาย, hemopneumothorax, อาชีพเสี่ยง (นักบิน นักดำน้ำ), ตั้งครรภ์ · air leak 1 วันยังไม่ใช่",
+"BTS 2023: ตัดสินการรักษาจากอาการและปัจจัยเสี่ยง ไม่ใช้ขนาดอย่างเดียว · primary อาการน้อย → conservative · มีอาการ → needle aspiration, ambulatory device หรือสายเล็ก · secondary (มีโรคปอด) → ใส่สายและพิจารณาผ่าตัดเร็ว",
+"การเป็นซ้ำ: primary pneumothorax ครั้งแรกเป็นซ้ำราว 1/3 ส่วนใหญ่ภายใน 1–2 ปี · หลังเป็นซ้ำแล้วโอกาสเป็นอีกสูงขึ้นมาก จึงเป็นเหตุผลให้ผ่าตัดหลังครั้งที่สอง",
+"ผ่าตัด: VATS ตัด bleb/bullae + pleurodesis (mechanical abrasion หรือ pleurectomy) · การเป็นซ้ำหลังผ่าตัดเหลือราวไม่เกิน 5% · chemical pleurodesis (talc) ใช้ในผู้ที่ผ่าตัดไม่ได้",
+"Air leak นานเกินเกณฑ์ในผู้ผ่าตัดไม่ได้ (มักเป็น secondary pneumothorax จาก COPD) → endobronchial valve หรือ autologous blood patch pleurodesis",
+"คำแนะนำอาชีพ/กิจกรรม: ห้ามดำน้ำลึกถาวรเว้นแต่ได้ผ่าตัด pleurectomy · การขึ้นเครื่องบินทำได้เมื่อ CXR ยืนยันว่าปอดขยายเต็มแล้ว (สายการบินมักให้รอราว 1–2 สัปดาห์)"],
+opinion="เห็นด้วยกับคีย์ D ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก D ลายมือ 5–7 d และแปะ Indications for surgical advice ตรงกับรายการของ BTS · ตัวเลขต่างกันเล็กน้อย: BTS 2010 แนะนำขอความเห็นศัลยแพทย์เมื่อ air leak หรือปอดไม่ขยายนาน 3–5 วัน ส่วนตำราอื่นใช้ 5–7 วันตามที่แปะในคีย์ · ไม่ว่าใช้เกณฑ์ใด air leak 1 วันยังไม่ใช่ข้อบ่งชี้ผ่าตัด",
+variants=[
+"ชายหนุ่ม primary pneumothorax ครั้งแรก อาการน้อย สัญญาณชีพปกติ → conservative ได้ไม่ว่าขนาด (BTS 2023)",
+"Primary pneumothorax ข้างเดิมเป็นซ้ำครั้งที่ 2 → VATS bullectomy + pleurodesis",
+"หญิงเป็น pneumothorax ข้างขวาซ้ำช่วงมีประจำเดือน → catamenial pneumothorax → VATS ตรวจกะบังลม + ยาฮอร์โมน",
+"หญิงตั้งครรภ์ 28 สัปดาห์เป็น pneumothorax ซ้ำ → ดูแลร่วมกับสูติแพทย์ ระบายตามอาการ และวางแผน VATS หลังคลอด"])
+P[K+'40']=dict(
+trap="ใช้แนวทางมะเร็ง rectum (RT/CCRT) กับมะเร็ง colon หรือเห็นว่า T ต่ำ (ไม่เกิน muscularis propria) แล้วคิดว่าเป็นระยะต้นติดตามอย่างเดียวได้ · วิธีแยก: stage ของ colon เปลี่ยนเป็น III ทันทีเมื่อต่อมน้ำเหลืองบวกไม่ว่า T เท่าใด → adjuvant chemotherapy · รังสีมีที่ใช้ใน rectum เพราะอยู่ในอุ้งเชิงกรานติดผนัง เสี่ยง local recurrence",
+summary=[
+"แกนของข้อ: มะเร็ง colon ต่อมน้ำเหลืองบวก (stage III) ไม่ว่า T → <b>adjuvant oxaliplatin-based chemotherapy</b> (FOLFOX/CAPOX) เริ่มภายในราว 6–8 สัปดาห์หลังผ่าตัด · ไม่ใช้รังสี",
+"N stage: N1a = 1 ต่อม · N1b = 2–3 · N1c = tumor deposit ไม่มีต่อมบวก · N2a = 4–6 · N2b ≥ 7 · นับรวมต่อม pericolic และ apical (ทุกต่อมใน regional) · ต้องตรวจต่อมอย่างน้อย 12 ต่อม",
+"Stage group: T1–2 N0 = I · T3–4 N0 = II · N+ = III (T1–2 N1 = IIIA) · M1 = IV · ข้อนี้ T2 + 3 ต่อม (N1b) = stage IIIA",
+"Stage I: ผ่าตัดอย่างเดียว · stage II: ยาเคมีเมื่อมีลักษณะเสี่ยงสูง (T4, ต่อมน้อยกว่า 12, LVI/PNI, อุดตัน/ทะลุ, poorly differentiated) · dMMR stage II ไม่ให้ 5-FU เดี่ยว · stage III: ยาเคมีทุกรายที่สภาพร่างกายรับได้",
+"ระยะเวลา (IDEA): stage III ความเสี่ยงต่ำ (T1–3 N1) → CAPOX 3 เดือนพอ · ความเสี่ยงสูง (T4 หรือ N2) → 6 เดือน · oxaliplatin ทำให้ปลายประสาทอักเสบสะสมตามขนาด",
+"ติดตาม: CEA ทุก 3–6 เดือนใน 2 ปีแรกแล้วห่างขึ้นจนครบ 5 ปี, CT ทรวงอก/ช่องท้องทุก 6–12 เดือน, colonoscopy ที่ 1 ปีหลังผ่าตัด"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก A ขีดฆ่า RT/CCRT ลายมือ N1 → stage 3A และ colon ตรงกับ NCCN Colon Cancer Guidelines (2025) ที่ให้ adjuvant oxaliplatin-based ใน stage III และ CAPOX 3 เดือนในกลุ่มความเสี่ยงต่ำตาม IDEA · จุดคลาดในคีย์: ลายมือเขียน T1 แต่ลุกถึง muscularis propria คือ T2 (T2 N1b ยังเป็น IIIA) จึงไม่เปลี่ยนคำตอบ",
+variants=[
+"มะเร็ง colon T3N0 ได้ต่อม 18 ต่อม ไม่มีลักษณะเสี่ยง เป็น dMMR → ไม่ต้องให้ยาเคมีเสริม",
+"มะเร็ง colon T4bN2 → FOLFOX หรือ CAPOX 6 เดือน",
+"ระหว่างได้ oxaliplatin เป็นยาเสริม ชาปลายมือปลายเท้าจนติดกระดุมไม่ได้ → ลดหรือหยุด oxaliplatin ให้ fluoropyrimidine ต่อ",
+"ชาย 80 ปีมะเร็ง colon T3N1 ช่วยเหลือตัวเองได้ดี → capecitabine เดี่ยว เพราะประโยชน์ของการเพิ่ม oxaliplatin ในผู้สูงอายุไม่ชัดและพิษมากกว่า"])
+P[K+'41']=dict(
+wrong=dict(E="Definitive radiotherapy เดี่ยวขนาดสูงใช้กับ thymoma ที่ผ่าตัดไม่ได้ หรือผู้ป่วยที่ไม่พร้อมผ่าตัด · ก้อนขอบเรียบไม่ลุกลามตัดออกได้ทั้งก้อน การผ่าตัดให้โอกาสหายขาดสูงกว่ารังสี และ thymectomy ยังช่วยอาการ MG ด้วย; จะถูกถ้าผู้ป่วยอายุ 85 ปี โรคหัวใจรุนแรงทนการผ่าตัดไม่ได้ และชิ้นเนื้อยืนยัน thymoma"),
+trap="คิดว่าก้อนใน mediastinum ต้องเจาะชิ้นเนื้อก่อนเสมอ หรือมะเร็งทุกชนิดต้องได้ยา/รังสีก่อนผ่าตัด หรือคิดว่าคุม MG ด้วยยาก็พอ · วิธีแยก: anterior mediastinal mass + MG + ขอบเรียบไม่ลุกลาม = thymoma ที่ตัดได้ → total thymectomy โดยไม่ต้อง biopsy · biopsy เก็บไว้เมื่อสงสัย lymphoma/germ cell tumor หรือก้อนตัดไม่ได้",
+summary=[
+"แกนของข้อ: thymoma ที่ตัดได้ร่วม MG → <b>total thymectomy</b> (เอาต่อมไทมัสและไขมันรอบออกทั้งหมด en bloc) ทั้งรักษามะเร็งและช่วย MG · ไม่ต้องเจาะชิ้นเนื้อก่อนเพราะเสี่ยงเซลล์หลุดตามทาง",
+"ก้อน anterior mediastinum ผู้ใหญ่: thymoma (พบบ่อยที่สุด), lymphoma, germ cell tumor, thyroid (ส่วนใหญ่ retrosternal goiter) · ชายหนุ่มตรวจ AFP/β-hCG · germ cell tumor ร้ายใน mediastinum แทบทั้งหมดเป็นชาย",
+"Thymoma: ราว 30–50% มี MG (ผู้ป่วย MG ราว 10–15% มี thymoma) · Masaoka–Koga I–II → total thymectomy · III–IV → induction chemo → ผ่าตัด ± รังสี · รังสีเสริมเมื่อลุกลามหรือขอบตัดบวก",
+"ก่อนผ่าตัด: คุมอาการ MG ให้คงที่ (IVIG หรือ plasma exchange ถ้ายังอ่อนแรงมาก) · หลังผ่าตัดระวัง myasthenic crisis และการหายใจล้มเหลว",
+"วิธีผ่าตัด: median sternotomy เป็นมาตรฐาน · VATS/RATS ในก้อนเล็กระยะต้นโดยผู้ชำนาญ · MGTX trial (2016) พบว่า thymectomy ช่วย generalized MG ที่ AChR antibody บวกแม้ไม่มี thymoma",
+"ก้อนกด SVC ที่สงสัย lymphoma: เลี่ยง steroid/รังสีก่อนได้ชิ้นเนื้อ ยกเว้นวิกฤตทางเดินหายใจหรือ SVC syndrome รุนแรง เพราะจะทำให้วินิจฉัยทางพยาธิไม่ได้"],
+opinion="เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 76D ติ๊ก A ลายมือ thymoma → MG ตรงกับ NCCN Thymomas and Thymic Carcinomas (2025) และ ESMO Clinical Practice Guidelines for thymic epithelial tumours (2015) ที่ให้ผ่าตัดเอาออกทั้งก้อนในก้อนที่ตัดได้โดยไม่ต้องเจาะชิ้นเนื้อก่อน แล้วพิจารณารังสีเสริมตาม stage และขอบตัด · ปัจจุบันใช้ TNM 8th (ITMIG/IASLC) ร่วมกับ Masaoka–Koga",
+variants=[
+"ชาย 25 ปีก้อน anterior mediastinum AFP สูงมาก → nonseminomatous germ cell tumor → ยาเคมี (BEP) แล้วผ่าตัดก้อนที่เหลือ",
+"ผู้ป่วย MG ที่จะทำ thymectomy ยังอ่อนแรงมาก FVC ต่ำ → IVIG หรือ plasma exchange ให้คงที่ก่อนผ่าตัด",
+"หลัง thymectomy พยาธิพบลุกผ่าน capsule ขอบตัดบวก → รังสีเสริม",
+"ผู้ป่วย thymoma ซีดมาก reticulocyte ต่ำมาก ไขกระดูกไม่มี erythroid precursor → pure red cell aplasia (paraneoplastic) → thymectomy ± immunosuppression"])
+A=json.load(open('/home/claude/h/all.json'))
+for k,v in P.items():
+  if 'wrong' in v:
+    w=dict(A[k]['wrong']);w.update(v['wrong']);v['wrong']=w
+json.dump(P,open('/home/claude/ac-mdcu/parts/explain/data_subspe/zz76_06.json','w'),ensure_ascii=False,indent=1)
+print(len(P))
