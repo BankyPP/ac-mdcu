@@ -1,245 +1,245 @@
 {
-"MDCU72|RoD|3": {
- "wrong": {
-  "A": "ข้อนี้ \"ควรทำ\" ได้: medical expulsive therapy ด้วย alpha-blocker (tamsulosin) ช่วยให้นิ่ว distal ureter 5–10 mm หลุดได้มากขึ้นและเร็วขึ้น (ลายมือ: α-blocker ใช้ distal ureter) ถ้าไม่มีไข้ ปวดคุมได้ ไตทำงานปกติ · จะเป็นคำตอบถ้าโจทย์ถามการรักษาแรกของนิ่ว distal ureter 6 mm ที่อาการคงที่",
-  "B": "ข้อนี้ \"ควรทำ\" ได้: SWL เป็นทางเลือกของนิ่วท่อไต < 10 mm (ผลใน distal ureter ด้อยกว่า URS เล็กน้อยแต่ไม่ invasive) · จะเป็นคำตอบถ้าผู้ป่วยไม่ต้องการดมยาหรือนิ่วอยู่ proximal ureter < 10 mm",
-  "C": "ข้อนี้ \"ควรทำ\" ได้: ureteroscopy เป็น first-line ของนิ่ว distal ureter ที่ > 5–10 mm หรือ MET ไม่สำเร็จ (stone-free rate สูงสุด) · จะเป็นคำตอบถ้าโจทย์ถามการรักษาที่ได้ stone-free เร็วที่สุด",
-  "E": "ข้อนี้ \"ควรทำ\" ได้: potassium citrate ใช้ป้องกันนิ่วกลับเป็นซ้ำ (citrate จับ Ca²⁺ ลด supersaturation และ alkalinize ปัสสาวะ) โดยเฉพาะ hypocitraturia (ลายมือ: จับ Ca²⁺) · จะเป็นคำตอบถ้าโจทย์ถามการป้องกัน calcium stone ใน hypocitraturia หรือ uric acid stone (dissolution)"
+ "MDCU72|RoD|3": {
+  "wrong": {
+   "A": "ข้อนี้ \"ควรทำ\" ได้: medical expulsive therapy ด้วย alpha-blocker (tamsulosin) ช่วยให้นิ่ว distal ureter 5–10 mm หลุดได้มากขึ้นและเร็วขึ้น (ลายมือ: α-blocker ใช้ distal ureter) ถ้าไม่มีไข้ ปวดคุมได้ ไตทำงานปกติ · จะเป็นคำตอบถ้าโจทย์ถามการรักษาแรกของนิ่ว distal ureter 6 mm ที่อาการคงที่",
+   "B": "ข้อนี้ \"ควรทำ\" ได้: SWL เป็นทางเลือกของนิ่วท่อไต < 10 mm (ผลใน distal ureter ด้อยกว่า URS เล็กน้อยแต่ไม่ invasive) · จะเป็นคำตอบถ้าผู้ป่วยไม่ต้องการดมยาหรือนิ่วอยู่ proximal ureter < 10 mm",
+   "C": "ข้อนี้ \"ควรทำ\" ได้: ureteroscopy เป็น first-line ของนิ่ว distal ureter ที่ > 5–10 mm หรือ MET ไม่สำเร็จ (stone-free rate สูงสุด) · จะเป็นคำตอบถ้าโจทย์ถามการรักษาที่ได้ stone-free เร็วที่สุด",
+   "E": "ข้อนี้ \"ควรทำ\" ได้: potassium citrate ใช้ป้องกันนิ่วกลับเป็นซ้ำ (citrate จับ Ca²⁺ ลด supersaturation และ alkalinize ปัสสาวะ) โดยเฉพาะ hypocitraturia (ลายมือ: จับ Ca²⁺) · จะเป็นคำตอบถ้าโจทย์ถามการป้องกัน calcium stone ใน hypocitraturia หรือ uric acid stone (dissolution)"
+  },
+  "trap": "ข้อ NOT: ห้าม \"จำกัดน้ำ/ทำให้ขาดน้ำ\" ในผู้ป่วยนิ่ว — ต้องดื่มน้ำให้ปัสสาวะ > 2–2.5 L/วัน (ลายมือ: ต้อง rehydration) แม้ช่วง renal colic ไม่จำเป็นต้องให้น้ำปริมาณมาก ๆ แต่ต้องไม่ขาดน้ำ · ไฟล์เขียน chemolysis with citrate (แปลเป็น potassium citrate) และ dehydration (แปลเป็น fluid restriction) · นิ่ว > 5 mm โอกาสหลุดเองลดลง (ลายมือ)",
+  "summary": [
+   "Spontaneous passage: < 5 mm ~70–90% · 5–10 mm ~50% · distal หลุดง่ายกว่า proximal",
+   "Distal ureteric stone: MET (tamsulosin) ใน 5–10 mm ที่ไม่มีข้อบ่งชี้เร่งด่วน · URS first-line > 10 mm หรือ MET ล้มเหลว · SWL ทางเลือก",
+   "Urgent decompression: obstructed infected kidney, AKI, solitary kidney, ปวดคุมไม่ได้",
+   "Prevention: ดื่มน้ำ > 2.5 L/วัน, ลดเกลือ/โปรตีนสัตว์, ไม่ต้องจำกัด calcium ในอาหาร, citrate ใน hypocitraturia, thiazide ใน hypercalciuria"
+  ]
  },
- "trap": "ข้อ NOT: ห้าม \"จำกัดน้ำ/ทำให้ขาดน้ำ\" ในผู้ป่วยนิ่ว — ต้องดื่มน้ำให้ปัสสาวะ > 2–2.5 L/วัน (ลายมือ: ต้อง rehydration) แม้ช่วง renal colic ไม่จำเป็นต้องให้น้ำปริมาณมาก ๆ แต่ต้องไม่ขาดน้ำ · ไฟล์เขียน chemolysis with citrate (แปลเป็น potassium citrate) และ dehydration (แปลเป็น fluid restriction) · นิ่ว > 5 mm โอกาสหลุดเองลดลง (ลายมือ)",
- "summary": [
-  "Spontaneous passage: < 5 mm ~70–90% · 5–10 mm ~50% · distal หลุดง่ายกว่า proximal",
-  "Distal ureteric stone: MET (tamsulosin) ใน 5–10 mm ที่ไม่มีข้อบ่งชี้เร่งด่วน · URS first-line > 10 mm หรือ MET ล้มเหลว · SWL ทางเลือก",
-  "Urgent decompression: obstructed infected kidney, AKI, solitary kidney, ปวดคุมไม่ได้",
-  "Prevention: ดื่มน้ำ > 2.5 L/วัน, ลดเกลือ/โปรตีนสัตว์, ไม่ต้องจำกัด calcium ในอาหาร, citrate ใน hypocitraturia, thiazide ใน hypercalciuria"
- ]
-},
-"MDCU72|RoD|8": {
- "wrong": {
-  "A": "Physiologic phimosis ในเด็ก < 4 ปีส่วนใหญ่หายเองโดยไม่ต้องรักษา แต่รายนี้มี balanoposthitis ซ้ำ 2 ครั้งแล้ว (มีภาวะแทรกซ้อน) จึงไม่ควรปล่อยไว้ · จะถูกถ้าเด็กมี phimosis แต่ไม่มีอาการ (ballooning ตอนปัสสาวะเล็กน้อยก็ถือว่าปกติ)",
-  "B": "Topical corticosteroid (เช่น betamethasone 0.05% 4–8 สัปดาห์) เป็น first-line ของ phimosis ที่มีปัญหาเล็กน้อย ได้ผล ~80% แต่ในเด็กที่ balanoposthitis ซ้ำ คีย์และแนวทางหลายแห่งแนะนำ circumcision เพื่อป้องกันการติดเชื้อซ้ำ · จะถูกถ้าเด็กมี phimosis ที่ต้องการให้เปิดได้ (ปัสสาวะลำบากเล็กน้อย ติดเชื้อครั้งเดียว) และผู้ปกครองต้องการเลี่ยงการผ่าตัด",
-  "D": "การดึงรูดหนังหุ้มปลายแรง ๆ (forceful retraction) ทำให้ฉีกขาดเป็นแผล เกิด scar → pathologic (secondary) phimosis และอาจเกิด paraphimosis · ไม่ควรทำ · จะถูกถ้าโจทย์ถามสิ่งที่ห้ามทำ/สาเหตุของ secondary phimosis",
-  "E": "ยาปฏิชีวนะรับประทานรักษา balanoposthitis ครั้งที่เป็นอยู่ได้ (ร่วมกับ sitz bath) แต่ไม่แก้สาเหตุ (หนังหุ้มตีบ ขังสิ่งสกปรก) จึงเป็นซ้ำอีก · จะถูกถ้าเป็นการรักษาครั้งแรกของ acute balanoposthitis ที่มีหนองบวมแดง"
+ "MDCU72|RoD|8": {
+  "wrong": {
+   "A": "Physiologic phimosis ในเด็ก < 4 ปีส่วนใหญ่หายเองโดยไม่ต้องรักษา แต่รายนี้มี balanoposthitis ซ้ำ 2 ครั้งแล้ว (มีภาวะแทรกซ้อน) จึงไม่ควรปล่อยไว้ · จะถูกถ้าเด็กมี phimosis แต่ไม่มีอาการ (ballooning ตอนปัสสาวะเล็กน้อยก็ถือว่าปกติ)",
+   "B": "Topical corticosteroid (เช่น betamethasone 0.05% 4–8 สัปดาห์) เป็น first-line ของ phimosis ที่มีปัญหาเล็กน้อย ได้ผล ~80% แต่ในเด็กที่ balanoposthitis ซ้ำ คีย์และแนวทางหลายแห่งแนะนำ circumcision เพื่อป้องกันการติดเชื้อซ้ำ · จะถูกถ้าเด็กมี phimosis ที่ต้องการให้เปิดได้ (ปัสสาวะลำบากเล็กน้อย ติดเชื้อครั้งเดียว) และผู้ปกครองต้องการเลี่ยงการผ่าตัด",
+   "D": "การดึงรูดหนังหุ้มปลายแรง ๆ (forceful retraction) ทำให้ฉีกขาดเป็นแผล เกิด scar → pathologic (secondary) phimosis และอาจเกิด paraphimosis · ไม่ควรทำ · จะถูกถ้าโจทย์ถามสิ่งที่ห้ามทำ/สาเหตุของ secondary phimosis",
+   "E": "ยาปฏิชีวนะรับประทานรักษา balanoposthitis ครั้งที่เป็นอยู่ได้ (ร่วมกับ sitz bath) แต่ไม่แก้สาเหตุ (หนังหุ้มตีบ ขังสิ่งสกปรก) จึงเป็นซ้ำอีก · จะถูกถ้าเป็นการรักษาครั้งแรกของ acute balanoposthitis ที่มีหนองบวมแดง"
+  },
+  "trap": "Physiologic phimosis เป็นเรื่องปกติจนถึงวัยเรียน (หนังหุ้มแยกจาก glans เองตามอายุ) ไม่ต้องรักษา · ข้อบ่งชี้ circumcision: recurrent balanoposthitis, pathologic phimosis (scar/BXO), recurrent UTI โดยเฉพาะร่วมกับ urinary tract anomaly, paraphimosis ซ้ำ · ห้ามขลิบถ้ามี hypospadias/chordee (เก็บหนังไว้ซ่อม) · ช้อยแปลจากภาษาไทยและเติม E"
  },
- "trap": "Physiologic phimosis เป็นเรื่องปกติจนถึงวัยเรียน (หนังหุ้มแยกจาก glans เองตามอายุ) ไม่ต้องรักษา · ข้อบ่งชี้ circumcision: recurrent balanoposthitis, pathologic phimosis (scar/BXO), recurrent UTI โดยเฉพาะร่วมกับ urinary tract anomaly, paraphimosis ซ้ำ · ห้ามขลิบถ้ามี hypospadias/chordee (เก็บหนังไว้ซ่อม) · ช้อยแปลจากภาษาไทยและเติม E"
-},
-"MDCU72|RoD|9": {
- "wrong": {
-  "B": "Retrograde pyelography ต้องทำผ่าน cystoscopy ใต้ยาสลบ ใช้ดู ureter/renal pelvis เมื่อ imaging อื่นไม่ชัด (filling defect, stricture) ไม่ใช่การตรวจหา VUR · จะถูกถ้าโจทย์ถามการประเมินระดับ obstruction ของ ureter ก่อนผ่าตัดหรือหา urothelial tumor",
-  "C": "CT urography มีรังสีสูงในเด็ก และไม่แสดง reflux (เพราะดูขาลงของ contrast) · จะถูกถ้าผู้ใหญ่มี hematuria หา urothelial tumor/นิ่ว หรือเด็กที่ต้องดูกายวิภาคซับซ้อนที่ US/MRI ทำไม่ได้",
-  "D": "Cystoscopy ไม่ใช่การตรวจขั้นแรกของ hydronephrosis + UTI ในเด็ก (invasive ต้องดมยา) ใช้เมื่อจะรักษา เช่น endoscopic injection หรือ ablate posterior urethral valve · จะถูกถ้า VCUG ยืนยัน posterior urethral valve ในเด็กชายแล้ววางแผน valve ablation",
-  "E": "การเพาะเชื้อซ้ำอย่างเดียวไม่พอ เพราะ hydronephrosis ทั้งสองข้างบ่งชี้ว่าอาจมี structural cause (VUR, obstruction, neurogenic bladder) ที่ต้องหาเพื่อป้องกัน UTI ซ้ำและ renal scar · จะถูกถ้าเด็กเป็น UTI ครั้งแรก US ปกติ (บางแนวทางไม่ทำ VCUG ทันที)"
+ "MDCU72|RoD|9": {
+  "wrong": {
+   "B": "Retrograde pyelography ต้องทำผ่าน cystoscopy ใต้ยาสลบ ใช้ดู ureter/renal pelvis เมื่อ imaging อื่นไม่ชัด (filling defect, stricture) ไม่ใช่การตรวจหา VUR · จะถูกถ้าโจทย์ถามการประเมินระดับ obstruction ของ ureter ก่อนผ่าตัดหรือหา urothelial tumor",
+   "C": "CT urography มีรังสีสูงในเด็ก และไม่แสดง reflux (เพราะดูขาลงของ contrast) · จะถูกถ้าผู้ใหญ่มี hematuria หา urothelial tumor/นิ่ว หรือเด็กที่ต้องดูกายวิภาคซับซ้อนที่ US/MRI ทำไม่ได้",
+   "D": "Cystoscopy ไม่ใช่การตรวจขั้นแรกของ hydronephrosis + UTI ในเด็ก (invasive ต้องดมยา) ใช้เมื่อจะรักษา เช่น endoscopic injection หรือ ablate posterior urethral valve · จะถูกถ้า VCUG ยืนยัน posterior urethral valve ในเด็กชายแล้ววางแผน valve ablation",
+   "E": "การเพาะเชื้อซ้ำอย่างเดียวไม่พอ เพราะ hydronephrosis ทั้งสองข้างบ่งชี้ว่าอาจมี structural cause (VUR, obstruction, neurogenic bladder) ที่ต้องหาเพื่อป้องกัน UTI ซ้ำและ renal scar · จะถูกถ้าเด็กเป็น UTI ครั้งแรก US ปกติ (บางแนวทางไม่ทำ VCUG ทันที)"
+  },
+  "why": "เด็กหญิง 3 ปีที่เคยเป็น UTI ตอนนี้ปัสสาวะ sterile แล้ว และ US พบ hydronephrosis ทั้งสองข้าง → สงสัย vesicoureteral reflux (bilateral) → ตรวจ voiding cystourethrography (VCUG) ซึ่งเป็น gold standard ในการวินิจฉัยและ grading VUR (I–V) และดูกายวิภาคของ bladder/urethra · ทำหลังติดเชื้อหายแล้ว (urine sterile) เพื่อลดความเสี่ยงการติดเชื้อจากการสวน · DMSA scan ใช้ดู renal scar · คีย์ลายมือ P'Ing วง A \"VCUG สงสัย VUR\"",
+  "trap": "ลำดับการตรวจเด็ก febrile UTI: US ไต/กระเพาะปัสสาวะ → ถ้าผิดปกติ (hydronephrosis, scar) หรือ UTI ซ้ำ → VCUG หลัง urine sterile → DMSA ถ้าต้องการดู scar · ในเด็กชายที่ hydronephrosis สองข้างให้คิดถึง posterior urethral valve ด้วย (VCUG เห็น dilated posterior urethra) · ไฟล์มีช้อยเดียว เติมให้ครบ",
+  "summary": [
+   "Febrile UTI ในเด็ก: US ทุกราย · VCUG ถ้า US ผิดปกติ, UTI ซ้ำ, เชื้อผิดปกติ (non-E. coli) หรือ HT",
+   "VUR grade I–V จาก VCUG (I ไม่ถึงไต · III ไตบวมเล็กน้อย · V ureter คดเคี้ยว calyx ผิดรูป)",
+   "DMSA: scar/acute pyelonephritis · MAG3: obstruction/split function",
+   "High-grade VUR → continuous antibiotic prophylaxis ± endoscopic injection/reimplantation ถ้า breakthrough UTI"
+  ]
  },
- "why": "เด็กหญิง 3 ปีที่เคยเป็น UTI ตอนนี้ปัสสาวะ sterile แล้ว และ US พบ hydronephrosis ทั้งสองข้าง → สงสัย vesicoureteral reflux (bilateral) → ตรวจ voiding cystourethrography (VCUG) ซึ่งเป็น gold standard ในการวินิจฉัยและ grading VUR (I–V) และดูกายวิภาคของ bladder/urethra · ทำหลังติดเชื้อหายแล้ว (urine sterile) เพื่อลดความเสี่ยงการติดเชื้อจากการสวน · DMSA scan ใช้ดู renal scar · คีย์ลายมือ P'Ing วง A \"VCUG สงสัย VUR\"",
- "trap": "ลำดับการตรวจเด็ก febrile UTI: US ไต/กระเพาะปัสสาวะ → ถ้าผิดปกติ (hydronephrosis, scar) หรือ UTI ซ้ำ → VCUG หลัง urine sterile → DMSA ถ้าต้องการดู scar · ในเด็กชายที่ hydronephrosis สองข้างให้คิดถึง posterior urethral valve ด้วย (VCUG เห็น dilated posterior urethra) · ไฟล์มีช้อยเดียว เติมให้ครบ",
- "summary": [
-  "Febrile UTI ในเด็ก: US ทุกราย · VCUG ถ้า US ผิดปกติ, UTI ซ้ำ, เชื้อผิดปกติ (non-E. coli) หรือ HT",
-  "VUR grade I–V จาก VCUG (I ไม่ถึงไต · III ไตบวมเล็กน้อย · V ureter คดเคี้ยว calyx ผิดรูป)",
-  "DMSA: scar/acute pyelonephritis · MAG3: obstruction/split function",
-  "High-grade VUR → continuous antibiotic prophylaxis ± endoscopic injection/reimplantation ถ้า breakthrough UTI"
- ]
-},
-"MDCU72|RoD|10": {
- "wrong": {
-  "A": "TURP ใช้รักษา BPH ที่มี LUTS/retention (ตัดเฉพาะ transition zone ที่อุดช่อง) ไม่ได้ตัดมะเร็งใน peripheral zone ออก และไม่ใช่การรักษาหายขาดของมะเร็ง (ลายมือ: A ✗ BPH) · จะถูกถ้าเป็น BPH ที่มี AUR ซ้ำ หรือมะเร็งระยะลุกลามที่มี bladder outlet obstruction (channel TURP บรรเทาอาการ)",
-  "C": "Retropubic simple prostatectomy (Millin) ตัดเฉพาะ adenoma ของ BPH ขนาดใหญ่ (> 80–100 mL) เหลือ capsule ไว้ ไม่ใช่ radical (ไม่ได้เอา capsule, seminal vesicle, node) · จะถูกถ้าเป็น BPH ต่อมใหญ่มาก > 80–100 mL หรือมีนิ่วใน bladder ร่วม",
-  "D": "Active surveillance เหมาะกับ low-risk (ISUP grade group 1, PSA < 10, T1–T2a) หรือ favorable intermediate บางราย · รายนี้ poorly differentiated (high grade) + PSA 14 + ทั้งสองกลีบ (T2c) = high risk ไม่เหมาะ · จะถูกถ้า Gleason 3+3 ปริมาณน้อย PSA < 10",
-  "E": "ADT อย่างเดียวใช้ใน metastatic disease หรือผู้ที่ไม่เหมาะกับการรักษาเฉพาะที่ ใน localized high-risk ADT ใช้ \"ร่วมกับ\" RT (2–3 ปี) ไม่ใช้เดี่ยว ๆ เพราะไม่หายขาด · จะถูกถ้ามี bone metastasis หรือผู้ป่วยอายุมาก/โรคร่วมมาก life expectancy สั้นแต่มีอาการ"
+ "MDCU72|RoD|10": {
+  "wrong": {
+   "A": "TURP ใช้รักษา BPH ที่มี LUTS/retention (ตัดเฉพาะ transition zone ที่อุดช่อง) ไม่ได้ตัดมะเร็งใน peripheral zone ออก และไม่ใช่การรักษาหายขาดของมะเร็ง (ลายมือ: A ✗ BPH) · จะถูกถ้าเป็น BPH ที่มี AUR ซ้ำ หรือมะเร็งระยะลุกลามที่มี bladder outlet obstruction (channel TURP บรรเทาอาการ)",
+   "C": "Retropubic simple prostatectomy (Millin) ตัดเฉพาะ adenoma ของ BPH ขนาดใหญ่ (> 80–100 mL) เหลือ capsule ไว้ ไม่ใช่ radical (ไม่ได้เอา capsule, seminal vesicle, node) · จะถูกถ้าเป็น BPH ต่อมใหญ่มาก > 80–100 mL หรือมีนิ่วใน bladder ร่วม",
+   "D": "Active surveillance เหมาะกับ low-risk (ISUP grade group 1, PSA < 10, T1–T2a) หรือ favorable intermediate บางราย · รายนี้ poorly differentiated (high grade) + PSA 14 + ทั้งสองกลีบ (T2c) = high risk ไม่เหมาะ · จะถูกถ้า Gleason 3+3 ปริมาณน้อย PSA < 10",
+   "E": "ADT อย่างเดียวใช้ใน metastatic disease หรือผู้ที่ไม่เหมาะกับการรักษาเฉพาะที่ ใน localized high-risk ADT ใช้ \"ร่วมกับ\" RT (2–3 ปี) ไม่ใช้เดี่ยว ๆ เพราะไม่หายขาด · จะถูกถ้ามี bone metastasis หรือผู้ป่วยอายุมาก/โรคร่วมมาก life expectancy สั้นแต่มีอาการ"
+  },
+  "summary": [
+   "Risk group (NCCN/EAU): PSA + ISUP grade + T stage · high risk = PSA > 20 หรือ grade group 4–5 หรือ T3a (บางระบบนับ T2c)",
+   "Localized/locally advanced high risk + life expectancy > 10 ปี: radical prostatectomy + extended PLND หรือ RT + ADT 18–36 เดือน",
+   "Low risk: active surveillance (PSA, DRE, MRI, repeat biopsy) · very low risk สูงอายุ: watchful waiting",
+   "RP complications: incontinence, erectile dysfunction, anastomotic stricture · TURP/simple prostatectomy เป็นการรักษา BPH ไม่ใช่มะเร็ง"
+  ]
  },
- "summary": [
-  "Risk group (NCCN/EAU): PSA + ISUP grade + T stage · high risk = PSA > 20 หรือ grade group 4–5 หรือ T3a (บางระบบนับ T2c)",
-  "Localized/locally advanced high risk + life expectancy > 10 ปี: radical prostatectomy + extended PLND หรือ RT + ADT 18–36 เดือน",
-  "Low risk: active surveillance (PSA, DRE, MRI, repeat biopsy) · very low risk สูงอายุ: watchful waiting",
-  "RP complications: incontinence, erectile dysfunction, anastomotic stricture · TURP/simple prostatectomy เป็นการรักษา BPH ไม่ใช่มะเร็ง"
- ]
-},
-"MDCU72|RoD|14": {
- "wrong": {
-  "A": "การงดเพศสัมพันธ์ 1 เดือนไม่ใช่การรักษามาตรฐาน ไม่แก้ปัญหาระยะยาว (กลับมามีเพศสัมพันธ์ก็เป็นซ้ำ) และกระทบคุณภาพชีวิต · จะถูกถ้าโจทย์ถามคำแนะนำช่วงที่กำลังรักษา acute cystitis/ปวดมาก (งดชั่วคราวจนหาย)",
-  "C": "Vaginal estrogen cream ใช้ป้องกัน recurrent UTI ในหญิงวัยหมดประจำเดือน (ฟื้น Lactobacillus/pH ช่องคลอด) · หญิงอายุ 40 ที่ยังมีประจำเดือนไม่ได้ประโยชน์ (P'Ing กากบาท) · จะถูกถ้าเป็นหญิงอายุ 60 มี atrophic vaginitis และ UTI ซ้ำ",
-  "D": "Urethral dilatation ไม่มีหลักฐานว่าลด recurrent cystitis และอาจทำให้บาดเจ็บ/stricture (P'Ing กากบาท) · จะถูกถ้าหญิงมี urethral stricture จริง (พบน้อย) ที่ยืนยันด้วย uroflow/cystoscopy",
-  "E": "อาการเป็น cystitis (dysuria, hematuria หลังเพศสัมพันธ์ ไม่มีไข้) ไม่ใช่ gonococcal urethritis/cervicitis ซึ่งมีตกขาวเป็นหนองและ urine culture มัก sterile pyuria การตรวจสามีหา gonorrhea จึงไม่ใช่การรักษาปัญหานี้ · จะถูกถ้าผู้ป่วยมี purulent discharge, sterile pyuria และคู่นอนมี urethritis"
+ "MDCU72|RoD|14": {
+  "wrong": {
+   "A": "การงดเพศสัมพันธ์ 1 เดือนไม่ใช่การรักษามาตรฐาน ไม่แก้ปัญหาระยะยาว (กลับมามีเพศสัมพันธ์ก็เป็นซ้ำ) และกระทบคุณภาพชีวิต · จะถูกถ้าโจทย์ถามคำแนะนำช่วงที่กำลังรักษา acute cystitis/ปวดมาก (งดชั่วคราวจนหาย)",
+   "C": "Vaginal estrogen cream ใช้ป้องกัน recurrent UTI ในหญิงวัยหมดประจำเดือน (ฟื้น Lactobacillus/pH ช่องคลอด) · หญิงอายุ 40 ที่ยังมีประจำเดือนไม่ได้ประโยชน์ (P'Ing กากบาท) · จะถูกถ้าเป็นหญิงอายุ 60 มี atrophic vaginitis และ UTI ซ้ำ",
+   "D": "Urethral dilatation ไม่มีหลักฐานว่าลด recurrent cystitis และอาจทำให้บาดเจ็บ/stricture (P'Ing กากบาท) · จะถูกถ้าหญิงมี urethral stricture จริง (พบน้อย) ที่ยืนยันด้วย uroflow/cystoscopy",
+   "E": "อาการเป็น cystitis (dysuria, hematuria หลังเพศสัมพันธ์ ไม่มีไข้) ไม่ใช่ gonococcal urethritis/cervicitis ซึ่งมีตกขาวเป็นหนองและ urine culture มัก sterile pyuria การตรวจสามีหา gonorrhea จึงไม่ใช่การรักษาปัญหานี้ · จะถูกถ้าผู้ป่วยมี purulent discharge, sterile pyuria และคู่นอนมี urethritis"
+  },
+  "trap": "ไฟล์ไม่มีวงคำตอบชัด P'Ing กากบาท B, C, D และใส่ ? ไว้ — ข้อนี้ตอบ B ตาม EAU (post-coital antibiotic prophylaxis เป็น strong recommendation ใน recurrent UTI ที่สัมพันธ์กับเพศสัมพันธ์) จึงต่างจากเครื่องหมายกากบาทของ P'Ing ที่ B · ยาที่เหมาะคือ nitrofurantoin, fosfomycin, trimethoprim (fluoroquinolone ไม่ใช่ยาแรก) · ร่วมกับปัสสาวะหลังมีเพศสัมพันธ์ ดื่มน้ำ เลี่ยง spermicide"
  },
- "trap": "ไฟล์ไม่มีวงคำตอบชัด P'Ing กากบาท B, C, D และใส่ ? ไว้ — ข้อนี้ตอบ B ตาม EAU (post-coital antibiotic prophylaxis เป็น strong recommendation ใน recurrent UTI ที่สัมพันธ์กับเพศสัมพันธ์) จึงต่างจากเครื่องหมายกากบาทของ P'Ing ที่ B · ยาที่เหมาะคือ nitrofurantoin, fosfomycin, trimethoprim (fluoroquinolone ไม่ใช่ยาแรก) · ร่วมกับปัสสาวะหลังมีเพศสัมพันธ์ ดื่มน้ำ เลี่ยง spermicide"
-},
-"MDCU72|RoD|15": {
- "wrong": {
-  "A": "Oral antibiotic ไม่พอสำหรับผู้ป่วยไข้ 39 °C หนาวสั่น (acute bacterial prostatitis ที่ systemic/septic) และมี retention ต้องให้ IV antibiotics ก่อน แล้วค่อยเปลี่ยนเป็น oral เมื่อดีขึ้น · จะถูกถ้าเป็น acute prostatitis ที่อาการน้อย ไม่มีไข้สูง กินยาได้ ไม่มี retention",
-  "C": "Intermittent catheterization + alpha-blocker เป็นแนวทางของ AUR จาก BPH ที่ไม่มีการติดเชื้อ (trial without catheter) แต่ไม่รักษาการติดเชื้อ และการสวนซ้ำ ๆ ผ่าน prostate ที่อักเสบเพิ่ม bacteremia · จะถูกถ้าเป็น AUR จาก BPH ที่ไม่มีไข้ (ใส่สาย + alpha-blocker แล้ว TWOC)",
-  "D": "Intermittent catheter + oral ATB ไม่เหมาะ: ผู้ป่วย septic ต้อง IV ATB และ retention ร่วมกับการติดเชื้อต้องระบายต่อเนื่อง ไม่ควรสวนเข้าออกซ้ำผ่านต่อมที่อักเสบ · จะถูกถ้าเป็น neurogenic bladder ที่ใช้ CIC อยู่เดิมแล้วมี cystitis ไม่รุนแรง",
-  "E": "IV ATB ถูกต้อง แต่ intermittent catheterization ไม่เหมาะใน retention + acute prostatitis เพราะต้องสวนซ้ำ ๆ ผ่านท่อปัสสาวะส่วน prostate ที่บวมอักเสบ เจ็บและเสี่ยงแพร่เชื้อ ควรระบายต่อเนื่อง (indwelling ขนาดเล็กหรือ SPC) · จะถูกถ้าผู้ป่วยมี retention เล็กน้อยและใส่สายค้างไม่ได้ (ยังไม่ใช่แนวทางมาตรฐาน)"
+ "MDCU72|RoD|15": {
+  "wrong": {
+   "A": "Oral antibiotic ไม่พอสำหรับผู้ป่วยไข้ 39 °C หนาวสั่น (acute bacterial prostatitis ที่ systemic/septic) และมี retention ต้องให้ IV antibiotics ก่อน แล้วค่อยเปลี่ยนเป็น oral เมื่อดีขึ้น · จะถูกถ้าเป็น acute prostatitis ที่อาการน้อย ไม่มีไข้สูง กินยาได้ ไม่มี retention",
+   "C": "Intermittent catheterization + alpha-blocker เป็นแนวทางของ AUR จาก BPH ที่ไม่มีการติดเชื้อ (trial without catheter) แต่ไม่รักษาการติดเชื้อ และการสวนซ้ำ ๆ ผ่าน prostate ที่อักเสบเพิ่ม bacteremia · จะถูกถ้าเป็น AUR จาก BPH ที่ไม่มีไข้ (ใส่สาย + alpha-blocker แล้ว TWOC)",
+   "D": "Intermittent catheter + oral ATB ไม่เหมาะ: ผู้ป่วย septic ต้อง IV ATB และ retention ร่วมกับการติดเชื้อต้องระบายต่อเนื่อง ไม่ควรสวนเข้าออกซ้ำผ่านต่อมที่อักเสบ · จะถูกถ้าเป็น neurogenic bladder ที่ใช้ CIC อยู่เดิมแล้วมี cystitis ไม่รุนแรง",
+   "E": "IV ATB ถูกต้อง แต่ intermittent catheterization ไม่เหมาะใน retention + acute prostatitis เพราะต้องสวนซ้ำ ๆ ผ่านท่อปัสสาวะส่วน prostate ที่บวมอักเสบ เจ็บและเสี่ยงแพร่เชื้อ ควรระบายต่อเนื่อง (indwelling ขนาดเล็กหรือ SPC) · จะถูกถ้าผู้ป่วยมี retention เล็กน้อยและใส่สายค้างไม่ได้ (ยังไม่ใช่แนวทางมาตรฐาน)"
+  },
+  "trap": "ไข้สูง หนาวสั่น ปวด perineum + ปัสสาวะไม่ออก ในชายที่มี LUTS = acute bacterial prostatitis (DRE: ต่อมกดเจ็บ บวม อุ่น) → ห้ามนวด prostate (เสี่ยง bacteremia) · ระบาย bladder ด้วย urethral catheter ขนาดเล็กหรือ suprapubic catheter (หลายแนวทางนิยม SPC มากกว่า แต่ไม่มีในช้อย — P'Ing ใส่ ? หน้าข้อ) · ถ้าไม่ดีขึ้น 48–72 ชม. → TRUS/CT หา prostatic abscess"
  },
- "trap": "ไข้สูง หนาวสั่น ปวด perineum + ปัสสาวะไม่ออก ในชายที่มี LUTS = acute bacterial prostatitis (DRE: ต่อมกดเจ็บ บวม อุ่น) → ห้ามนวด prostate (เสี่ยง bacteremia) · ระบาย bladder ด้วย urethral catheter ขนาดเล็กหรือ suprapubic catheter (หลายแนวทางนิยม SPC มากกว่า แต่ไม่มีในช้อย — P'Ing ใส่ ? หน้าข้อ) · ถ้าไม่ดีขึ้น 48–72 ชม. → TRUS/CT หา prostatic abscess"
-},
-"MDCU72|RoD|17": {
- "wrong": {
-  "A": "ข้อความนี้ \"ถูก\": continuous (machinery) murmur ในทารกเกิดก่อนกำหนดน้ำหนักน้อย = PDA (ductus ปิดช้าในทารก preterm เพราะไวต่อ prostaglandin และ hypoxia) ยืนยันด้วย echocardiography · จะเป็นคำตอบถ้าโจทย์ถามการวินิจฉัย",
-  "C": "ข้อความนี้ \"ถูก\": ต้องรักษา pneumonia/sepsis ที่ร่วมอยู่ (sepsis เพิ่ม prostaglandin ทำให้ duct ไม่ปิด และ hemodynamic ไม่ดี) · จะเป็นคำตอบถ้าโจทย์ถามการดูแลทั่วไปของทารก preterm ที่มี PDA",
-  "D": "ข้อความนี้ \"ถูก\": ผ่าตัด ligation (หรือ transcatheter closure ในทารกตัวเล็กที่ศูนย์ทำได้) เมื่อยาปิดไม่สำเร็จหลัง 1–2 courses หรือมีข้อห้ามใช้ยา และ PDA ยัง hemodynamically significant · จะเป็นคำตอบถ้าโจทย์ถามข้อบ่งชี้ผ่าตัด",
-  "E": "ข้อความนี้ \"ถูก\": NSAIDs (indomethacin, ibuprofen) ยับยั้ง COX → prostaglandin E2 ลด → duct หดตัวปิด (paracetamol เป็นทางเลือก) · จะเป็นคำตอบถ้าโจทย์ถามกลไกของยาปิด PDA ใน preterm"
+ "MDCU72|RoD|17": {
+  "wrong": {
+   "A": "ข้อความนี้ \"ถูก\": continuous (machinery) murmur ในทารกเกิดก่อนกำหนดน้ำหนักน้อย = PDA (ductus ปิดช้าในทารก preterm เพราะไวต่อ prostaglandin และ hypoxia) ยืนยันด้วย echocardiography · จะเป็นคำตอบถ้าโจทย์ถามการวินิจฉัย",
+   "C": "ข้อความนี้ \"ถูก\": ต้องรักษา pneumonia/sepsis ที่ร่วมอยู่ (sepsis เพิ่ม prostaglandin ทำให้ duct ไม่ปิด และ hemodynamic ไม่ดี) · จะเป็นคำตอบถ้าโจทย์ถามการดูแลทั่วไปของทารก preterm ที่มี PDA",
+   "D": "ข้อความนี้ \"ถูก\": ผ่าตัด ligation (หรือ transcatheter closure ในทารกตัวเล็กที่ศูนย์ทำได้) เมื่อยาปิดไม่สำเร็จหลัง 1–2 courses หรือมีข้อห้ามใช้ยา และ PDA ยัง hemodynamically significant · จะเป็นคำตอบถ้าโจทย์ถามข้อบ่งชี้ผ่าตัด",
+   "E": "ข้อความนี้ \"ถูก\": NSAIDs (indomethacin, ibuprofen) ยับยั้ง COX → prostaglandin E2 ลด → duct หดตัวปิด (paracetamol เป็นทางเลือก) · จะเป็นคำตอบถ้าโจทย์ถามกลไกของยาปิด PDA ใน preterm"
+  },
+  "why": "ข้อ incorrect: ทารก preterm 800 g ที่มี PDA ต้องเริ่มด้วย medical closure ก่อน (indomethacin, ibuprofen หรือ paracetamol) ร่วมกับ supportive care (จำกัดน้ำพอเหมาะ, PEEP, รักษา sepsis/pneumonia) · ผ่าตัด ligation หรือ transcatheter closure เป็นทางเลือกเมื่อยาล้มเหลว/มีข้อห้าม (ไตวาย, เลือดออก, NEC, เกล็ดเลือดต่ำ) ไม่ใช่ขั้นแรก · คีย์: ตรงแอค P'Ing แปะข้อ 89 ของ 70A (B ✗ premature baby: NSAIDs ปิด PDA)",
+  "trap": "ข้อนี้ถามข้อ \"incorrect\" — ช้อยอื่นถูกหมด · ใน term infant/เด็กโต NSAIDs ไม่ได้ผล (duct ไม่ไวต่อ prostaglandin) ต้องปิดด้วย transcatheter/surgery · ไฟล์จดว่าตรงแอค (70A เลข 89) ช้อยจึงใช้ตามข้อเดิม",
+  "summary": [
+   "PDA ใน preterm พบบ่อย (ยิ่งตัวเล็กยิ่งพบ) · continuous machinery murmur, bounding pulse, wide pulse pressure",
+   "Medical closure: indomethacin/ibuprofen (ข้อห้าม: ไตวาย, active bleeding, NEC, platelet ต่ำ) หรือ paracetamol",
+   "ยาล้มเหลว/ข้อห้าม → surgical ligation หรือ transcatheter closure",
+   "Term/เด็กโต: NSAIDs ไม่ได้ผล → transcatheter device/coil หรือ surgery"
+  ]
  },
- "why": "ข้อ incorrect: ทารก preterm 800 g ที่มี PDA ต้องเริ่มด้วย medical closure ก่อน (indomethacin, ibuprofen หรือ paracetamol) ร่วมกับ supportive care (จำกัดน้ำพอเหมาะ, PEEP, รักษา sepsis/pneumonia) · ผ่าตัด ligation หรือ transcatheter closure เป็นทางเลือกเมื่อยาล้มเหลว/มีข้อห้าม (ไตวาย, เลือดออก, NEC, เกล็ดเลือดต่ำ) ไม่ใช่ขั้นแรก · คีย์: ตรงแอค P'Ing แปะข้อ 89 ของ 70A (B ✗ premature baby: NSAIDs ปิด PDA)",
- "trap": "ข้อนี้ถามข้อ \"incorrect\" — ช้อยอื่นถูกหมด · ใน term infant/เด็กโต NSAIDs ไม่ได้ผล (duct ไม่ไวต่อ prostaglandin) ต้องปิดด้วย transcatheter/surgery · ไฟล์จดว่าตรงแอค (70A เลข 89) ช้อยจึงใช้ตามข้อเดิม",
- "summary": [
-  "PDA ใน preterm พบบ่อย (ยิ่งตัวเล็กยิ่งพบ) · continuous machinery murmur, bounding pulse, wide pulse pressure",
-  "Medical closure: indomethacin/ibuprofen (ข้อห้าม: ไตวาย, active bleeding, NEC, platelet ต่ำ) หรือ paracetamol",
-  "ยาล้มเหลว/ข้อห้าม → surgical ligation หรือ transcatheter closure",
-  "Term/เด็กโต: NSAIDs ไม่ได้ผล → transcatheter device/coil หรือ surgery"
- ]
-},
-"MDCU72|RoD|18": {
- "interp": "ผู้ป่วย mechanical valve ได้ warfarin INR 3.2 มี acute appendicitis ซึ่งต้องผ่าตัดเร่งด่วน → ต้อง reverse INR อย่างเร็วและชั่วคราว (FFP/PCC) ไม่ใช้ vitamin K ขนาดสูง (ข้อเดียวกับ 72B เลข 10 / 70A เลข 77)",
- "why": "INR 3.2 อยู่ในช่วงเป้าหมายของ mechanical valve (~2.5–3.5; ลายมือ keep 2–3.5) แต่สูงเกินกว่าจะผ่าตัดอย่างปลอดภัย · appendicitis ต้องผ่าตัดภายในหลายชั่วโมง → reverse ด้วย FFP (หรือ 4-factor PCC ที่เร็วกว่าและปริมาตรน้อยกว่า) ให้ INR < 1.5 แล้วผ่าตัด appendectomy ภายใน ~12 ชม. · เลี่ยง vitamin K ขนาดสูงเพราะทำให้ warfarin ไม่ได้ผลหลังผ่าตัดหลายวัน เสี่ยง valve thrombosis · หลังผ่าตัด bridging ด้วย UFH/LMWH แล้วเริ่ม warfarin · คีย์ลายมือ P'Ing วง B ✓ A ✗ C ✗",
- "wrong": {
-  "A": "Vitamin K ออกฤทธิ์ช้า 6–24 ชม. ไม่ทันผ่าตัดเร่งด่วน และขนาดสูงทำให้ดื้อ warfarin หลังผ่าตัด เสี่ยงลิ่มเลือดที่ลิ้นหัวใจเทียม (ลายมือ: A ✗) · จะถูกถ้าผู้ป่วยไม่มี mechanical valve (เช่น AF) หรือการผ่าตัดเลื่อนได้ 24 ชม. ใช้ vitamin K ขนาดต่ำร่วมด้วยได้",
-  "C": "หยุด warfarin รอ INR ลดเองใช้ 4–5 วัน appendicitis จะแตกระหว่างรอ (ลายมือ: C ✗) · จะถูกถ้าเป็นการผ่าตัด elective เช่น hernia repair (หยุดยา 5 วัน + bridging)",
-  "D": "Antibiotics alone มีหลักฐานใน uncomplicated appendicitis แต่ recurrence สูงและไม่ใช่มาตรฐานหลัก · ผู้ป่วย anticoagulated ที่ต้องผ่าตัดซ้ำภายหลังยิ่งเสี่ยง · จะถูกถ้าผู้ป่วยเสี่ยงผ่าตัดสูงมาก/ปฏิเสธผ่าตัด และ CT เป็น uncomplicated ไม่มี appendicolith",
-  "E": "ผ่าตัดโดยไม่แก้ INR 3.2 เสี่ยงเลือดออกระหว่าง/หลังผ่าตัดและ hematoma ที่แผล · จะถูกถ้าเป็นหัตถการเลือดออกน้อยมาก (เช่น ถอนฟันบางชนิด, cataract) ที่ทำได้โดยไม่หยุด warfarin"
+ "MDCU72|RoD|18": {
+  "interp": "ผู้ป่วย mechanical valve ได้ warfarin INR 3.2 มี acute appendicitis ซึ่งต้องผ่าตัดเร่งด่วน → ต้อง reverse INR อย่างเร็วและชั่วคราว (FFP/PCC) ไม่ใช้ vitamin K ขนาดสูง (ข้อเดียวกับ 72B เลข 10 / 70A เลข 77)",
+  "why": "INR 3.2 อยู่ในช่วงเป้าหมายของ mechanical valve (~2.5–3.5; ลายมือ keep 2–3.5) แต่สูงเกินกว่าจะผ่าตัดอย่างปลอดภัย · appendicitis ต้องผ่าตัดภายในหลายชั่วโมง → reverse ด้วย FFP (หรือ 4-factor PCC ที่เร็วกว่าและปริมาตรน้อยกว่า) ให้ INR < 1.5 แล้วผ่าตัด appendectomy ภายใน ~12 ชม. · เลี่ยง vitamin K ขนาดสูงเพราะทำให้ warfarin ไม่ได้ผลหลังผ่าตัดหลายวัน เสี่ยง valve thrombosis · หลังผ่าตัด bridging ด้วย UFH/LMWH แล้วเริ่ม warfarin · คีย์ลายมือ P'Ing วง B ✓ A ✗ C ✗",
+  "wrong": {
+   "A": "Vitamin K ออกฤทธิ์ช้า 6–24 ชม. ไม่ทันผ่าตัดเร่งด่วน และขนาดสูงทำให้ดื้อ warfarin หลังผ่าตัด เสี่ยงลิ่มเลือดที่ลิ้นหัวใจเทียม (ลายมือ: A ✗) · จะถูกถ้าผู้ป่วยไม่มี mechanical valve (เช่น AF) หรือการผ่าตัดเลื่อนได้ 24 ชม. ใช้ vitamin K ขนาดต่ำร่วมด้วยได้",
+   "C": "หยุด warfarin รอ INR ลดเองใช้ 4–5 วัน appendicitis จะแตกระหว่างรอ (ลายมือ: C ✗) · จะถูกถ้าเป็นการผ่าตัด elective เช่น hernia repair (หยุดยา 5 วัน + bridging)",
+   "D": "Antibiotics alone มีหลักฐานใน uncomplicated appendicitis แต่ recurrence สูงและไม่ใช่มาตรฐานหลัก · ผู้ป่วย anticoagulated ที่ต้องผ่าตัดซ้ำภายหลังยิ่งเสี่ยง · จะถูกถ้าผู้ป่วยเสี่ยงผ่าตัดสูงมาก/ปฏิเสธผ่าตัด และ CT เป็น uncomplicated ไม่มี appendicolith",
+   "E": "ผ่าตัดโดยไม่แก้ INR 3.2 เสี่ยงเลือดออกระหว่าง/หลังผ่าตัดและ hematoma ที่แผล · จะถูกถ้าเป็นหัตถการเลือดออกน้อยมาก (เช่น ถอนฟันบางชนิด, cataract) ที่ทำได้โดยไม่หยุด warfarin"
+  },
+  "trap": "ข้อนี้มีหลายเวอร์ชันในชุดเดียวกัน (72B เลข 10) และ 70A เลข 77 — หลักเดียวกัน: urgent surgery + mechanical valve → FFP/PCC ไม่ใช่ vitamin K ขนาดสูง · INR 3.2 ใน mechanical valve ไม่ใช่ supratherapeutic"
  },
- "trap": "ข้อนี้มีหลายเวอร์ชันในชุดเดียวกัน (72B เลข 10) และ 70A เลข 77 — หลักเดียวกัน: urgent surgery + mechanical valve → FFP/PCC ไม่ใช่ vitamin K ขนาดสูง · INR 3.2 ใน mechanical valve ไม่ใช่ supratherapeutic"
-},
-"MDCU72|RoD|20": {
- "wrong": {
-  "B": "Lobectomy ไม่ใช่ขั้นแรก — ปัญหาตอนนี้คือ empyema ต้องระบายหนองก่อน · การผ่าตัดปอดใช้กับ lung abscess ที่ไม่ตอบสนองต่อยา 6–8 สัปดาห์, ก้อนใหญ่ > 6 cm, สงสัยมะเร็ง หรือ massive hemoptysis · จะถูกถ้า abscess ไม่ยุบหลังให้ยานานและสงสัยมะเร็งอุดหลอดลม",
-  "C": "Segmentectomy ก็เป็นการตัดเนื้อปอดเช่นกัน ไม่ใช่การจัดการ empyema เฉียบพลัน · จะถูกถ้าเป็น bronchiectasis เฉพาะ segment หรือ lung abscess เล็กเฉพาะที่ที่รักษาด้วยยาไม่หาย",
-  "D": "Pneumonectomy เป็นการผ่าตัดใหญ่ อัตราตายสูง ใช้ในปอดทั้งข้างถูกทำลาย (destroyed lung) หรือมะเร็งตรงกลาง ไม่ใช่ empyema · จะถูกถ้าปอดข้างนั้นเสียหายทั้งหมดจาก TB/bronchiectasis ที่ติดเชื้อซ้ำและเลือดออก",
-  "E": "Antibiotics alone ไม่พอสำหรับ empyema (complicated parapneumonic effusion/หนอง) เพราะยาเข้าโพรงหนองได้น้อย ต้องระบาย · จะถูกถ้าเป็น simple parapneumonic effusion (pH > 7.2, glucose > 60, ไม่มีเชื้อ) หรือ lung abscess ที่ยังไม่แตก (ส่วนใหญ่หายด้วยยา + postural drainage)"
+ "MDCU72|RoD|20": {
+  "wrong": {
+   "B": "Lobectomy ไม่ใช่ขั้นแรก — ปัญหาตอนนี้คือ empyema ต้องระบายหนองก่อน · การผ่าตัดปอดใช้กับ lung abscess ที่ไม่ตอบสนองต่อยา 6–8 สัปดาห์, ก้อนใหญ่ > 6 cm, สงสัยมะเร็ง หรือ massive hemoptysis · จะถูกถ้า abscess ไม่ยุบหลังให้ยานานและสงสัยมะเร็งอุดหลอดลม",
+   "C": "Segmentectomy ก็เป็นการตัดเนื้อปอดเช่นกัน ไม่ใช่การจัดการ empyema เฉียบพลัน · จะถูกถ้าเป็น bronchiectasis เฉพาะ segment หรือ lung abscess เล็กเฉพาะที่ที่รักษาด้วยยาไม่หาย",
+   "D": "Pneumonectomy เป็นการผ่าตัดใหญ่ อัตราตายสูง ใช้ในปอดทั้งข้างถูกทำลาย (destroyed lung) หรือมะเร็งตรงกลาง ไม่ใช่ empyema · จะถูกถ้าปอดข้างนั้นเสียหายทั้งหมดจาก TB/bronchiectasis ที่ติดเชื้อซ้ำและเลือดออก",
+   "E": "Antibiotics alone ไม่พอสำหรับ empyema (complicated parapneumonic effusion/หนอง) เพราะยาเข้าโพรงหนองได้น้อย ต้องระบาย · จะถูกถ้าเป็น simple parapneumonic effusion (pH > 7.2, glucose > 60, ไม่มีเชื้อ) หรือ lung abscess ที่ยังไม่แตก (ส่วนใหญ่หายด้วยยา + postural drainage)"
+  },
+  "why": "Lung abscess ที่ให้ยามา 6 วันแล้ว cavity หายไปทันทีพร้อมมี pleural effusion ใหม่ = abscess แตกเข้า pleural space → empyema thoracis (± bronchopleural fistula, pyopneumothorax) → ต้องระบายด้วย intercostal chest drain (tube thoracostomy) ร่วมกับ antibiotics · ถ้าเป็น loculated/organizing → intrapleural fibrinolytic (tPA + DNase) หรือ VATS decortication · คีย์ลายมือ P'Ing วง A \"empyema thoracis\" (ข้อเดียวกับ 71A ไม่มีเลข 1)",
+  "trap": "Cavity ที่ \"หาย\" ไม่ได้แปลว่าดีขึ้น — ถ้าหายเร็วพร้อม effusion ใหม่ คือหนองแตกออกไปอยู่ในช่องปอด · empyema: pleural fluid เป็นหนอง/gram stain/culture บวก หรือ pH < 7.2, glucose < 60 → ระบาย · lung abscess เองส่วนใหญ่รักษาด้วยยา ไม่ต้องใส่ท่อ (เสี่ยงทำ BPF)",
+  "summary": [
+   "Lung abscess: aspiration (alcohol, ชัก, ฟันผุ) → posterior segment RUL/superior segment RLL · Rx ATB 4–6 สัปดาห์ (คลุม anaerobe)",
+   "Complication: แตกเข้า pleura → empyema/pyopneumothorax, massive hemoptysis, BPF",
+   "Empyema stage: exudative → fibrinopurulent → organizing · Rx: ICD + ATB → fibrinolytic/VATS → decortication",
+   "Surgery for abscess: ไม่ตอบสนอง 6–8 สัปดาห์, > 6 cm, สงสัยมะเร็ง, massive hemoptysis"
+  ]
  },
- "why": "Lung abscess ที่ให้ยามา 6 วันแล้ว cavity หายไปทันทีพร้อมมี pleural effusion ใหม่ = abscess แตกเข้า pleural space → empyema thoracis (± bronchopleural fistula, pyopneumothorax) → ต้องระบายด้วย intercostal chest drain (tube thoracostomy) ร่วมกับ antibiotics · ถ้าเป็น loculated/organizing → intrapleural fibrinolytic (tPA + DNase) หรือ VATS decortication · คีย์ลายมือ P'Ing วง A \"empyema thoracis\" (ข้อเดียวกับ 71A ไม่มีเลข 1)",
- "trap": "Cavity ที่ \"หาย\" ไม่ได้แปลว่าดีขึ้น — ถ้าหายเร็วพร้อม effusion ใหม่ คือหนองแตกออกไปอยู่ในช่องปอด · empyema: pleural fluid เป็นหนอง/gram stain/culture บวก หรือ pH < 7.2, glucose < 60 → ระบาย · lung abscess เองส่วนใหญ่รักษาด้วยยา ไม่ต้องใส่ท่อ (เสี่ยงทำ BPF)",
- "summary": [
-  "Lung abscess: aspiration (alcohol, ชัก, ฟันผุ) → posterior segment RUL/superior segment RLL · Rx ATB 4–6 สัปดาห์ (คลุม anaerobe)",
-  "Complication: แตกเข้า pleura → empyema/pyopneumothorax, massive hemoptysis, BPF",
-  "Empyema stage: exudative → fibrinopurulent → organizing · Rx: ICD + ATB → fibrinolytic/VATS → decortication",
-  "Surgery for abscess: ไม่ตอบสนอง 6–8 สัปดาห์, > 6 cm, สงสัยมะเร็ง, massive hemoptysis"
- ]
-},
-"MDCU72|RoD|22": {
- "wrong": {
-  "A": "Low-dose CT chest เป็นการตรวจคัดกรองมะเร็งปอดในคนที่ไม่มีอาการ/ไม่มีก้อน (สูบบุหรี่หนัก อายุ 50–80) · เมื่อพบก้อนสงสัยแล้วต้องใช้ diagnostic contrast CT (ลายมือ: A ✗ screening) · จะถูกถ้าโจทย์ถามการคัดกรองมะเร็งปอดในผู้สูบบุหรี่ที่ CXR ยังปกติ",
-  "C": "Bronchoscopic biopsy เป็นขั้นตอนหลัง CT ใช้กับก้อนตรงกลาง (central) ที่เข้าถึงทางหลอดลมได้ · ก้อนที่ upper lobe ขนาด 2 cm มักอยู่ peripheral → CT-guided biopsy หรือ navigational bronchoscopy หลังรู้ตำแหน่งจาก CT · จะถูกถ้า CT เห็นก้อน central ใน main/lobar bronchus",
-  "D": "Mediastinoscopy ใช้ staging mediastinal node เมื่อ CT/PET สงสัย node บวก (ปัจจุบันนิยม EBUS-TBNA ก่อน) ต้องทำหลัง CT/PET (ลายมือ: C, D then biopsy) · จะถูกถ้า PET เห็น N2 node avid และต้องยืนยันก่อนวางแผนรักษา",
-  "E": "PET-CT มีบทบาทใน staging หลัง diagnostic CT (ดู node, distant metastasis) แต่ไม่ใช้แทน contrast CT ที่ให้รายละเอียดกายวิภาค และไม่ใช่ \"alone\" ต้องตามด้วย tissue · จะถูกถ้าโจทย์ถาม investigation ถัดจาก CT chest/abdomen ใน suspected lung cancer ก่อนผ่าตัด"
+ "MDCU72|RoD|22": {
+  "wrong": {
+   "A": "Low-dose CT chest เป็นการตรวจคัดกรองมะเร็งปอดในคนที่ไม่มีอาการ/ไม่มีก้อน (สูบบุหรี่หนัก อายุ 50–80) · เมื่อพบก้อนสงสัยแล้วต้องใช้ diagnostic contrast CT (ลายมือ: A ✗ screening) · จะถูกถ้าโจทย์ถามการคัดกรองมะเร็งปอดในผู้สูบบุหรี่ที่ CXR ยังปกติ",
+   "C": "Bronchoscopic biopsy เป็นขั้นตอนหลัง CT ใช้กับก้อนตรงกลาง (central) ที่เข้าถึงทางหลอดลมได้ · ก้อนที่ upper lobe ขนาด 2 cm มักอยู่ peripheral → CT-guided biopsy หรือ navigational bronchoscopy หลังรู้ตำแหน่งจาก CT · จะถูกถ้า CT เห็นก้อน central ใน main/lobar bronchus",
+   "D": "Mediastinoscopy ใช้ staging mediastinal node เมื่อ CT/PET สงสัย node บวก (ปัจจุบันนิยม EBUS-TBNA ก่อน) ต้องทำหลัง CT/PET (ลายมือ: C, D then biopsy) · จะถูกถ้า PET เห็น N2 node avid และต้องยืนยันก่อนวางแผนรักษา",
+   "E": "PET-CT มีบทบาทใน staging หลัง diagnostic CT (ดู node, distant metastasis) แต่ไม่ใช้แทน contrast CT ที่ให้รายละเอียดกายวิภาค และไม่ใช่ \"alone\" ต้องตามด้วย tissue · จะถูกถ้าโจทย์ถาม investigation ถัดจาก CT chest/abdomen ใน suspected lung cancer ก่อนผ่าตัด"
+  },
+  "why": "ผู้สูบบุหรี่หนักอายุ 65 ปี มีก้อน 2 cm spiculated ที่ left upper lobe = ความเสี่ยงมะเร็งปอดสูง → ขั้นต่อไปคือ contrast CT chest รวม upper abdomen (liver, adrenal) เพื่อประเมิน T (ขนาด, การลุก), N (mediastinal node) และ M (adrenal/liver) ในครั้งเดียว → PET-CT ± MRI brain → tissue diagnosis (CT-guided biopsy/bronchoscopy/EBUS) หรือผ่าตัดวินิจฉัยและรักษา · คีย์ลายมือ P'Ing วง B ✓ \"T staging · < 3 cm = lung nodule สงสัย 1° cancer\" (ข้อเดียวกับ 73B CVT 3 / 72C ไม่มีเลข 6)",
+  "trap": "LDCT = screening ไม่ใช่ diagnostic · ลำดับ workup: CT chest/upper abdomen → PET-CT → invasive staging/tissue · nodule ≤ 3 cm, mass > 3 cm · ข้อนี้มีหลายเวอร์ชันในชุดเดียวกัน",
+  "summary": [
+   "Lung nodule ≤ 3 cm vs mass > 3 cm · ลักษณะมะเร็ง: spiculated, upper lobe, > 8 mm, โตขึ้น, subsolid ที่มี solid component",
+   "Workup: contrast CT chest + upper abdomen → PET-CT ± MRI brain → tissue + mediastinal staging (EBUS ก่อน mediastinoscopy)",
+   "Peripheral ก้อน → CT-guided biopsy/navigational bronchoscopy · central → bronchoscopy",
+   "Stage I–II resectable → lobectomy + node dissection · ผ่าตัดไม่ได้ → SBRT"
+  ]
  },
- "why": "ผู้สูบบุหรี่หนักอายุ 65 ปี มีก้อน 2 cm spiculated ที่ left upper lobe = ความเสี่ยงมะเร็งปอดสูง → ขั้นต่อไปคือ contrast CT chest รวม upper abdomen (liver, adrenal) เพื่อประเมิน T (ขนาด, การลุก), N (mediastinal node) และ M (adrenal/liver) ในครั้งเดียว → PET-CT ± MRI brain → tissue diagnosis (CT-guided biopsy/bronchoscopy/EBUS) หรือผ่าตัดวินิจฉัยและรักษา · คีย์ลายมือ P'Ing วง B ✓ \"T staging · < 3 cm = lung nodule สงสัย 1° cancer\" (ข้อเดียวกับ 73B CVT 3 / 72C ไม่มีเลข 6)",
- "trap": "LDCT = screening ไม่ใช่ diagnostic · ลำดับ workup: CT chest/upper abdomen → PET-CT → invasive staging/tissue · nodule ≤ 3 cm, mass > 3 cm · ข้อนี้มีหลายเวอร์ชันในชุดเดียวกัน",
- "summary": [
-  "Lung nodule ≤ 3 cm vs mass > 3 cm · ลักษณะมะเร็ง: spiculated, upper lobe, > 8 mm, โตขึ้น, subsolid ที่มี solid component",
-  "Workup: contrast CT chest + upper abdomen → PET-CT ± MRI brain → tissue + mediastinal staging (EBUS ก่อน mediastinoscopy)",
-  "Peripheral ก้อน → CT-guided biopsy/navigational bronchoscopy · central → bronchoscopy",
-  "Stage I–II resectable → lobectomy + node dissection · ผ่าตัดไม่ได้ → SBRT"
- ]
-},
-"MDCU72|RoD|28": {
- "interp": "Blunt thoracic aortic injury จากแรง deceleration เกิดที่รอยต่อระหว่างส่วนที่เคลื่อนที่ได้ (arch) กับส่วนที่ยึดตายตัว (descending ที่ ligamentum arteriosum) = isthmus",
- "why": "Blunt aortic injury จากอุบัติเหตุรถยนต์เกิดจากแรง deceleration ทำให้ arch ที่เคลื่อนที่ได้เหวี่ยงไปข้างหน้าขณะที่ descending aorta ถูกยึดกับกระดูกสันหลัง เกิด shear force ที่ isthmus (distal ต่อ left subclavian artery ตรงที่ ligamentum arteriosum ยึด) ~90% ของผู้ที่มีชีวิตมาถึงโรงพยาบาล · ส่วนใหญ่เป็น contained rupture (pseudoaneurysm) · Dx: CTA chest · Rx: anti-impulse (β-blocker) + TEVAR · คีย์ลายมือ P'Ing วง D ✓ 90% และ B ✗ ร้อยละน้อย (ชุดเดียวกันมีโจทย์นี้อีกข้อ ไม่มีเลข 1 ช้อยเรียงต่าง)",
- "wrong": {
-  "A": "Aortic arch และจุดแยก great vessels บาดเจ็บได้แต่พบน้อยกว่า isthmus มาก · จะถูกถ้าโจทย์ถามตำแหน่งบาดเจ็บของ innominate artery ที่ถูกกดระหว่าง sternum กับกระดูกสันหลัง",
-  "B": "Ascending aorta (รวม root) บาดเจ็บได้จากแรงกดตรงและการบิดของหัวใจ แต่ส่วนใหญ่เสียชีวิตที่เกิดเหตุ (tamponade, exsanguination) จึงพบน้อยในโรงพยาบาล (ลายมือ: ร้อยละน้อย) · จะถูกถ้าโจทย์ถามตำแหน่งที่พบบ่อยใน autopsy series ที่รวม cardiac injury",
-  "C": "Mid descending aorta ยึดกับ vertebra ตลอดแนวจึงไม่มีจุดเปลี่ยนแรงเฉือนเด่น พบบาดเจ็บน้อย · จะถูกถ้าเป็น thoracic spine fracture-dislocation ที่กระดูกทิ่มหลอดเลือดหรือ penetrating trauma",
-  "E": "เหนือ diaphragm (aortic hiatus) เป็นจุดยึดอีกจุดที่บาดเจ็บได้แต่พบน้อย · จะถูกถ้าโจทย์บรรยาย severe deceleration ร่วมกับ diaphragmatic rupture/thoracolumbar fracture และ CTA เห็น injury ที่ distal descending aorta"
+ "MDCU72|RoD|28": {
+  "interp": "Blunt thoracic aortic injury จากแรง deceleration เกิดที่รอยต่อระหว่างส่วนที่เคลื่อนที่ได้ (arch) กับส่วนที่ยึดตายตัว (descending ที่ ligamentum arteriosum) = isthmus",
+  "why": "Blunt aortic injury จากอุบัติเหตุรถยนต์เกิดจากแรง deceleration ทำให้ arch ที่เคลื่อนที่ได้เหวี่ยงไปข้างหน้าขณะที่ descending aorta ถูกยึดกับกระดูกสันหลัง เกิด shear force ที่ isthmus (distal ต่อ left subclavian artery ตรงที่ ligamentum arteriosum ยึด) ~90% ของผู้ที่มีชีวิตมาถึงโรงพยาบาล · ส่วนใหญ่เป็น contained rupture (pseudoaneurysm) · Dx: CTA chest · Rx: anti-impulse (β-blocker) + TEVAR · คีย์ลายมือ P'Ing วง D ✓ 90% และ B ✗ ร้อยละน้อย (ชุดเดียวกันมีโจทย์นี้อีกข้อ ไม่มีเลข 1 ช้อยเรียงต่าง)",
+  "wrong": {
+   "A": "Aortic arch และจุดแยก great vessels บาดเจ็บได้แต่พบน้อยกว่า isthmus มาก · จะถูกถ้าโจทย์ถามตำแหน่งบาดเจ็บของ innominate artery ที่ถูกกดระหว่าง sternum กับกระดูกสันหลัง",
+   "B": "Ascending aorta (รวม root) บาดเจ็บได้จากแรงกดตรงและการบิดของหัวใจ แต่ส่วนใหญ่เสียชีวิตที่เกิดเหตุ (tamponade, exsanguination) จึงพบน้อยในโรงพยาบาล (ลายมือ: ร้อยละน้อย) · จะถูกถ้าโจทย์ถามตำแหน่งที่พบบ่อยใน autopsy series ที่รวม cardiac injury",
+   "C": "Mid descending aorta ยึดกับ vertebra ตลอดแนวจึงไม่มีจุดเปลี่ยนแรงเฉือนเด่น พบบาดเจ็บน้อย · จะถูกถ้าเป็น thoracic spine fracture-dislocation ที่กระดูกทิ่มหลอดเลือดหรือ penetrating trauma",
+   "E": "เหนือ diaphragm (aortic hiatus) เป็นจุดยึดอีกจุดที่บาดเจ็บได้แต่พบน้อย · จะถูกถ้าโจทย์บรรยาย severe deceleration ร่วมกับ diaphragmatic rupture/thoracolumbar fracture และ CTA เห็น injury ที่ distal descending aorta"
+  },
+  "trap": "อย่าสับสนกับ spontaneous aortic dissection Stanford A ที่มักเริ่มที่ ascending aorta — trauma ต่างกลไก · ข้อนี้ช้อยเรียงต่างจากข้อ 72A เลข 43 และอีกข้อในชุดเดียวกัน คำตอบคือ isthmus เสมอ",
+  "summary": [
+   "Blunt thoracic aortic injury: isthmus ~90% (ligamentum arteriosum) · กลไก deceleration",
+   "CXR: widened mediastinum, obscured aortic knob, apical cap, trachea/NG เบี้ยวขวา, left main bronchus ถูกกดลง, 1st/2nd rib fracture",
+   "Dx: CTA chest · grading I (intimal tear) → IV (rupture)",
+   "Rx: β-blocker (HR < 80, SBP < 100) → TEVAR (grade II–IV) · grade I มักรักษาด้วยยาและติดตาม"
+  ]
  },
- "trap": "อย่าสับสนกับ spontaneous aortic dissection Stanford A ที่มักเริ่มที่ ascending aorta — trauma ต่างกลไก · ข้อนี้ช้อยเรียงต่างจากข้อ 72A เลข 43 และอีกข้อในชุดเดียวกัน คำตอบคือ isthmus เสมอ",
- "summary": [
-  "Blunt thoracic aortic injury: isthmus ~90% (ligamentum arteriosum) · กลไก deceleration",
-  "CXR: widened mediastinum, obscured aortic knob, apical cap, trachea/NG เบี้ยวขวา, left main bronchus ถูกกดลง, 1st/2nd rib fracture",
-  "Dx: CTA chest · grading I (intimal tear) → IV (rupture)",
-  "Rx: β-blocker (HR < 80, SBP < 100) → TEVAR (grade II–IV) · grade I มักรักษาด้วยยาและติดตาม"
- ]
-},
-"MDCU72|RoD|29": {
- "interp": "ถาม posterior mediastinal mass ที่พบบ่อยที่สุด → neurogenic tumor และในผู้ใหญ่ชนิดที่พบมากสุดคือ neurilemmoma (schwannoma) (ข้อเดียวกับ 72C เลข 44)",
- "why": "Posterior mediastinum (paravertebral sulcus) ส่วนใหญ่เป็น neurogenic tumor (~50–60%) แบ่งเป็น nerve sheath tumor (schwannoma/neurilemmoma > neurofibroma > MPNST) ที่พบในผู้ใหญ่ และ autonomic ganglion tumor (neuroblastoma, ganglioneuroblastoma, ganglioneuroma) ที่พบในเด็ก · โดยรวม schwannoma เป็นชนิดที่พบบ่อยที่สุด เป็นก้อนกลมเรียบมี capsule โตช้า อาจขยายเข้า neural foramen (dumbbell) · คีย์ลายมือ P'Ing วง 1 (= A) และ 2 ✗ \"M/C ped CA\" พร้อมตาราง mediastinal mass",
- "wrong": {
-  "B": "Neuroblastoma เป็นมะเร็ง solid นอกสมองที่พบบ่อยที่สุดในเด็ก (ลายมือ: M/C ped CA) และเป็น posterior mediastinal mass ที่พบบ่อยในเด็กเล็ก แต่โดยรวม (รวมผู้ใหญ่) schwannoma พบมากกว่า · จะถูกถ้าโจทย์ระบุเด็กอายุ < 2 ปีมีก้อน posterior mediastinum มี calcification และ VMA/HVA สูง",
-  "C": "Pheochromocytoma/paraganglioma ในทรวงอกพบน้อยมาก (< 2% ของ pheo) แม้อยู่ posterior mediastinum ได้ · จะถูกถ้าผู้ป่วยมีความดันสูงเป็นพัก ๆ ใจสั่น เหงื่อออก และ metanephrine สูงแต่ adrenal ปกติ",
-  "D": "Neurenteric cyst เป็น foregut duplication cyst ที่ติดต่อกับไขสันหลัง (มักมี vertebral anomaly) พบน้อย ส่วนใหญ่ในเด็ก · จะถูกถ้าเด็กมีก้อน cystic posterior mediastinum ร่วมกับ hemivertebra/butterfly vertebra",
-  "E": "Neurofibroma เป็น nerve sheath tumor อันดับรองจาก schwannoma ไม่มี capsule สัมพันธ์กับ NF1 และเปลี่ยนเป็น MPNST ได้ · จะถูกถ้าผู้ป่วยมี NF1 (café-au-lait, Lisch nodule) และก้อนหลายก้อน/plexiform"
+ "MDCU72|RoD|29": {
+  "interp": "ถาม posterior mediastinal mass ที่พบบ่อยที่สุด → neurogenic tumor และในผู้ใหญ่ชนิดที่พบมากสุดคือ neurilemmoma (schwannoma) (ข้อเดียวกับ 72C เลข 44)",
+  "why": "Posterior mediastinum (paravertebral sulcus) ส่วนใหญ่เป็น neurogenic tumor (~50–60%) แบ่งเป็น nerve sheath tumor (schwannoma/neurilemmoma > neurofibroma > MPNST) ที่พบในผู้ใหญ่ และ autonomic ganglion tumor (neuroblastoma, ganglioneuroblastoma, ganglioneuroma) ที่พบในเด็ก · โดยรวม schwannoma เป็นชนิดที่พบบ่อยที่สุด เป็นก้อนกลมเรียบมี capsule โตช้า อาจขยายเข้า neural foramen (dumbbell) · คีย์ลายมือ P'Ing วง 1 (= A) และ 2 ✗ \"M/C ped CA\" พร้อมตาราง mediastinal mass",
+  "wrong": {
+   "B": "Neuroblastoma เป็นมะเร็งนอกกะโหลกที่พบบ่อยที่สุดในเด็ก และเป็นก้อน posterior mediastinum ที่พบบ่อยใน<b>เด็กเล็ก</b> แต่ไม่ใช่โดยรวมทุกวัย — จะถูกถ้าเด็กอายุต่ำกว่า 2 ขวบมีก้อนข้างกระดูกสันหลังส่วนอก ภาพรังสีเห็นหินปูนในก้อน และ VMA/HVA ในปัสสาวะสูง",
+   "C": "Pheochromocytoma/paraganglioma ในทรวงอกพบน้อยมาก (< 2% ของ pheo) แม้อยู่ posterior mediastinum ได้ · จะถูกถ้าผู้ป่วยมีความดันสูงเป็นพัก ๆ ใจสั่น เหงื่อออก และ metanephrine สูงแต่ adrenal ปกติ",
+   "D": "Neurenteric cyst เป็น foregut duplication cyst ที่ติดต่อกับไขสันหลัง (มักมี vertebral anomaly) พบน้อย ส่วนใหญ่ในเด็ก · จะถูกถ้าเด็กมีก้อน cystic posterior mediastinum ร่วมกับ hemivertebra/butterfly vertebra",
+   "E": "Neurofibroma เป็น nerve sheath tumor อันดับรองจาก schwannoma ไม่มี capsule สัมพันธ์กับ NF1 และเปลี่ยนเป็น MPNST ได้ · จะถูกถ้าผู้ป่วยมี NF1 (café-au-lait, Lisch nodule) และก้อนหลายก้อน/plexiform"
+  },
+  "trap": "Neurilemmoma = schwannoma · ถ้าโจทย์ระบุ \"เด็ก\" คำตอบเปลี่ยนเป็น neuroblastoma/ganglioneuroma · bronchogenic cyst เป็น cyst ที่พบบ่อยที่สุดแต่อยู่ middle mediastinum · คีย์ในไฟล์เขียนเป็นเลข 1 = ช้อย A",
+  "summary": [
+   "Posterior mediastinum: neurogenic tumor มากสุด — ผู้ใหญ่ schwannoma > neurofibroma · เด็ก neuroblastoma > ganglioneuroma",
+   "Dumbbell tumor (ขยายเข้า neural foramen) → MRI ก่อนผ่าตัด ± ร่วมกับ neurosurgeon",
+   "Anterior: 4T (thymoma, teratoma, thyroid, lymphoma) · middle: bronchogenic/pericardial cyst, node",
+   "Rx schwannoma: complete excision (VATS) พยากรณ์ดีมาก"
+  ]
  },
- "trap": "Neurilemmoma = schwannoma · ถ้าโจทย์ระบุ \"เด็ก\" คำตอบเปลี่ยนเป็น neuroblastoma/ganglioneuroma · bronchogenic cyst เป็น cyst ที่พบบ่อยที่สุดแต่อยู่ middle mediastinum · คีย์ในไฟล์เขียนเป็นเลข 1 = ช้อย A",
- "summary": [
-  "Posterior mediastinum: neurogenic tumor มากสุด — ผู้ใหญ่ schwannoma > neurofibroma · เด็ก neuroblastoma > ganglioneuroma",
-  "Dumbbell tumor (ขยายเข้า neural foramen) → MRI ก่อนผ่าตัด ± ร่วมกับ neurosurgeon",
-  "Anterior: 4T (thymoma, teratoma, thyroid, lymphoma) · middle: bronchogenic/pericardial cyst, node",
-  "Rx schwannoma: complete excision (VATS) พยากรณ์ดีมาก"
- ]
-},
-"MDCU72|RoD|36": {
- "interp": "Diverticulitis + pericolic abscess (ติดลำไส้) + ไม่มี peritonitis → Hinchey class I (ข้อเดียวกับ 72B เลข 1 / 72C ไม่มีเลข 1)",
- "why": "Original Hinchey classification: I = pericolic/mesocolic abscess · II = pelvic, intra-abdominal หรือ retroperitoneal (distant) abscess · III = generalized purulent peritonitis · IV = generalized feculent peritonitis · รายนี้มีฝีติดผนังลำไส้ ไม่มี peritonitis = class I → IV antibiotics ± CT-guided percutaneous drainage ถ้าฝี ≥ 3–4 cm · หลังหาย colonoscopy ใน 6–8 สัปดาห์เพื่อแยกมะเร็ง · คีย์ลายมือ P'Ing วง A และขีด B pelvic abscess, C purulent, D feculent, E ไม่มี",
- "wrong": {
-  "B": "Class 2 = pelvic หรือ distant abscess ที่อยู่ห่างจากลำไส้ที่อักเสบ (เช่น pouch of Douglas, retroperitoneum) ไม่ใช่ pericolic · จะถูกถ้า CT เห็นฝีในอุ้งเชิงกรานแยกจาก sigmoid",
-  "C": "Class 3 = generalized purulent peritonitis จากฝีแตกเข้าช่องท้อง (ไม่มีรูติดต่อกับลำไส้แล้ว) ผู้ป่วยท้องแข็งทั่วไป · จะถูกถ้าผ่าตัดพบหนองขุ่นกระจายทั่วช่องท้องแต่ไม่มีอุจจาระ",
-  "D": "Class 4 = generalized feculent peritonitis (ลำไส้ทะลุอิสระ) อัตราตายสูงที่สุด ต้องทำ Hartmann's procedure · จะถูกถ้าผู้ป่วย septic shock + free air มาก ผ่าตัดเจออุจจาระในช่องท้อง",
-  "E": "ไม่มี Hinchey class 5 · original มี I–IV และ modified (Wasvary) มี 0, Ia, Ib, II, III, IV · จะถูกถ้าโจทย์ถามระบบอื่นที่มี 5 ระดับ เช่น AAST grade ของ acute diverticulitis"
+ "MDCU72|RoD|36": {
+  "interp": "Diverticulitis + pericolic abscess (ติดลำไส้) + ไม่มี peritonitis → Hinchey class I (ข้อเดียวกับ 72B เลข 1 / 72C ไม่มีเลข 1)",
+  "why": "Original Hinchey classification: I = pericolic/mesocolic abscess · II = pelvic, intra-abdominal หรือ retroperitoneal (distant) abscess · III = generalized purulent peritonitis · IV = generalized feculent peritonitis · รายนี้มีฝีติดผนังลำไส้ ไม่มี peritonitis = class I → IV antibiotics ± CT-guided percutaneous drainage ถ้าฝี ≥ 3–4 cm · หลังหาย colonoscopy ใน 6–8 สัปดาห์เพื่อแยกมะเร็ง · คีย์ลายมือ P'Ing วง A และขีด B pelvic abscess, C purulent, D feculent, E ไม่มี",
+  "wrong": {
+   "B": "Class 2 = pelvic หรือ distant abscess ที่อยู่ห่างจากลำไส้ที่อักเสบ (เช่น pouch of Douglas, retroperitoneum) ไม่ใช่ pericolic · จะถูกถ้า CT เห็นฝีในอุ้งเชิงกรานแยกจาก sigmoid",
+   "C": "Class 3 = generalized purulent peritonitis จากฝีแตกเข้าช่องท้อง (ไม่มีรูติดต่อกับลำไส้แล้ว) ผู้ป่วยท้องแข็งทั่วไป · จะถูกถ้าผ่าตัดพบหนองขุ่นกระจายทั่วช่องท้องแต่ไม่มีอุจจาระ",
+   "D": "Class 4 = generalized feculent peritonitis (ลำไส้ทะลุอิสระ) อัตราตายสูงที่สุด ต้องทำ Hartmann's procedure · จะถูกถ้าผู้ป่วย septic shock + free air มาก ผ่าตัดเจออุจจาระในช่องท้อง",
+   "E": "ไม่มี Hinchey class 5 · original มี I–IV และ modified (Wasvary) มี 0, Ia, Ib, II, III, IV · จะถูกถ้าโจทย์ถามระบบอื่นที่มี 5 ระดับ เช่น AAST grade ของ acute diverticulitis"
+  },
+  "trap": "ข้อนี้ซ้ำในหลาย rotation ของปี 72 (B เลข 1, C ไม่มีเลข 1) · แยก I กับ II ที่ตำแหน่งฝี (ติดลำไส้ vs ห่างออกไป) · แยก III กับ IV ที่มีอุจจาระหรือไม่ · modified Hinchey แยก Ia (phlegmon/pericolic inflammation) กับ Ib (pericolic abscess)",
+  "summary": [
+   "Hinchey I pericolic · II pelvic/distant abscess · III purulent peritonitis · IV feculent peritonitis",
+   "I–II: IV ATB ± percutaneous drainage (≥ 3–4 cm) · III: lavage หรือ resection ± anastomosis · IV: Hartmann",
+   "Uncomplicated diverticulitis ที่ไม่มี systemic sign อาจไม่ต้องให้ ATB (AVOD, DIABOLO)",
+   "Colonoscopy 6–8 สัปดาห์หลังหายใน complicated diverticulitis เพื่อแยกมะเร็ง"
+  ]
  },
- "trap": "ข้อนี้ซ้ำในหลาย rotation ของปี 72 (B เลข 1, C ไม่มีเลข 1) · แยก I กับ II ที่ตำแหน่งฝี (ติดลำไส้ vs ห่างออกไป) · แยก III กับ IV ที่มีอุจจาระหรือไม่ · modified Hinchey แยก Ia (phlegmon/pericolic inflammation) กับ Ib (pericolic abscess)",
- "summary": [
-  "Hinchey I pericolic · II pelvic/distant abscess · III purulent peritonitis · IV feculent peritonitis",
-  "I–II: IV ATB ± percutaneous drainage (≥ 3–4 cm) · III: lavage หรือ resection ± anastomosis · IV: Hartmann",
-  "Uncomplicated diverticulitis ที่ไม่มี systemic sign อาจไม่ต้องให้ ATB (AVOD, DIABOLO)",
-  "Colonoscopy 6–8 สัปดาห์หลังหายใน complicated diverticulitis เพื่อแยกมะเร็ง"
- ]
-},
-"MDCU72|RoD|37": {
- "interp": "ผู้สูงอายุถ่ายเลือดสดจำนวนมาก (massive LGIB) ได้ aspirin (เพิ่มเลือดออก) และ metoprolol (กลบ tachycardia) → สาเหตุที่พบบ่อยที่สุดตาม incidence คือ diverticular bleeding",
- "why": "สาเหตุที่พบบ่อยที่สุดของ acute/massive lower GI bleeding ในผู้ใหญ่และผู้สูงอายุคือ diverticulosis (~30–40%) — vasa recta ที่ถูกยืดตามโดม diverticulum ฉีกขาด เลือดออกมาก ไม่เจ็บ และ ~75–80% หยุดเอง · aspirin/NSAID/antiplatelet เพิ่มความเสี่ยงเลือดออกจาก diverticulum · β-blocker (metoprolol) ทำให้ไม่เห็น tachycardia จึงประเมิน shock ต่ำไป ต้องดู BP, lactate, urine output · คีย์ลายมือ P'Ing วง A ✓ \"M/C lower GI bleed in adults · Tx = colonoscopy\"",
- "wrong": {
-  "B": "Angiodysplasia เป็นสาเหตุอันดับรองในผู้สูงอายุ (cecum/right colon) มักเลือดออกเป็นพัก ๆ ไม่มาก สัมพันธ์กับ aortic stenosis (Heyde) และ CKD · จะถูกถ้าผู้สูงอายุมี AS + iron deficiency anemia/เลือดออกซ้ำ ๆ ไม่เจ็บ",
-  "C": "Colorectal cancer มักเลือดออกแบบเรื้อรัง/occult ทำ iron deficiency anemia หรือถ่ายเลือดปนเล็กน้อย ไม่ค่อยเป็น massive bleed · จะถูกถ้าผู้สูงอายุมี change in bowel habit น้ำหนักลด ซีดเรื้อรัง",
-  "D": "Ischemic colitis เป็นสาเหตุ LGIB ที่พบบ่อยในผู้สูงอายุที่มี vascular disease (PAD ก็เป็น risk) แต่มาด้วยปวดท้องเฉียบพลันตามด้วยถ่ายเลือดปน ปริมาณไม่มาก (watershed: splenic flexure, rectosigmoid) · จะถูกถ้าผู้สูงอายุปวดท้องซ้ายฉับพลันแล้วถ่ายเป็นเลือดปนมูก หลังช่วง hypotension/dehydration",
-  "E": "Hemorrhoid ทำถ่ายเลือดสดหยดหลังอุจจาระปริมาณน้อย ไม่ใช่ massive bleeding (ยกเว้นมี coagulopathy/portal hypertension) · จะถูกถ้าโจทย์ถามสาเหตุของเลือดสดเคลือบอุจจาระ/หยดหลังถ่ายในผู้ป่วยนอก"
+ "MDCU72|RoD|37": {
+  "interp": "ผู้สูงอายุถ่ายเลือดสดจำนวนมาก (massive LGIB) ได้ aspirin (เพิ่มเลือดออก) และ metoprolol (กลบ tachycardia) → สาเหตุที่พบบ่อยที่สุดตาม incidence คือ diverticular bleeding",
+  "why": "สาเหตุที่พบบ่อยที่สุดของ acute/massive lower GI bleeding ในผู้ใหญ่และผู้สูงอายุคือ diverticulosis (~30–40%) — vasa recta ที่ถูกยืดตามโดม diverticulum ฉีกขาด เลือดออกมาก ไม่เจ็บ และ ~75–80% หยุดเอง · aspirin/NSAID/antiplatelet เพิ่มความเสี่ยงเลือดออกจาก diverticulum · β-blocker (metoprolol) ทำให้ไม่เห็น tachycardia จึงประเมิน shock ต่ำไป ต้องดู BP, lactate, urine output · คีย์ลายมือ P'Ing วง A ✓ \"M/C lower GI bleed in adults · Tx = colonoscopy\"",
+  "wrong": {
+   "B": "Angiodysplasia เป็นสาเหตุอันดับรองในผู้สูงอายุ (cecum/right colon) มักเลือดออกเป็นพัก ๆ ไม่มาก สัมพันธ์กับ aortic stenosis (Heyde) และ CKD · จะถูกถ้าผู้สูงอายุมี AS + iron deficiency anemia/เลือดออกซ้ำ ๆ ไม่เจ็บ",
+   "C": "Colorectal cancer มักเลือดออกแบบเรื้อรัง/occult ทำ iron deficiency anemia หรือถ่ายเลือดปนเล็กน้อย ไม่ค่อยเป็น massive bleed · จะถูกถ้าผู้สูงอายุมี change in bowel habit น้ำหนักลด ซีดเรื้อรัง",
+   "D": "Ischemic colitis เป็นสาเหตุ LGIB ที่พบบ่อยในผู้สูงอายุที่มี vascular disease (PAD ก็เป็น risk) แต่มาด้วยปวดท้องเฉียบพลันตามด้วยถ่ายเลือดปน ปริมาณไม่มาก (watershed: splenic flexure, rectosigmoid) · จะถูกถ้าผู้สูงอายุปวดท้องซ้ายฉับพลันแล้วถ่ายเป็นเลือดปนมูก หลังช่วง hypotension/dehydration",
+   "E": "Hemorrhoid ทำถ่ายเลือดสดหยดหลังอุจจาระปริมาณน้อย ไม่ใช่ massive bleeding (ยกเว้นมี coagulopathy/portal hypertension) · จะถูกถ้าโจทย์ถามสาเหตุของเลือดสดเคลือบอุจจาระ/หยดหลังถ่ายในผู้ป่วยนอก"
+  },
+  "trap": "ประวัติ PAD + HT อาจชวนคิด ischemic colitis แต่ ischemic colitis มัก \"ปวดท้อง\" ก่อนและเลือดออกไม่มาก · massive painless bleeding ในผู้สูงอายุ = diverticular ก่อน · β-blocker กลบ tachycardia — อย่าเชื่อว่า HR ปกติแปลว่าไม่ shock",
+  "summary": [
+   "LGIB ผู้ใหญ่: diverticulosis > ischemic colitis > angiodysplasia/hemorrhoid/post-polypectomy > cancer/IBD",
+   "Resuscitate · แยก brisk UGIB ถ้า unstable (EGD) · หยุด/ปรับ antiplatelet ตามความเสี่ยงหัวใจ",
+   "Stable → colonoscopy ภายใน 24 ชม. (hemostasis: clip, band, epinephrine) · unstable → CTA → embolization",
+   "Diverticular bleeding มัก right colon แม้ diverticula ส่วนใหญ่อยู่ sigmoid · rebleed ~20–40%"
+  ]
  },
- "trap": "ประวัติ PAD + HT อาจชวนคิด ischemic colitis แต่ ischemic colitis มัก \"ปวดท้อง\" ก่อนและเลือดออกไม่มาก · massive painless bleeding ในผู้สูงอายุ = diverticular ก่อน · β-blocker กลบ tachycardia — อย่าเชื่อว่า HR ปกติแปลว่าไม่ shock",
- "summary": [
-  "LGIB ผู้ใหญ่: diverticulosis > ischemic colitis > angiodysplasia/hemorrhoid/post-polypectomy > cancer/IBD",
-  "Resuscitate · แยก brisk UGIB ถ้า unstable (EGD) · หยุด/ปรับ antiplatelet ตามความเสี่ยงหัวใจ",
-  "Stable → colonoscopy ภายใน 24 ชม. (hemostasis: clip, band, epinephrine) · unstable → CTA → embolization",
-  "Diverticular bleeding มัก right colon แม้ diverticula ส่วนใหญ่อยู่ sigmoid · rebleed ~20–40%"
- ]
-},
-"MDCU72|RoD|43": {
- "interp": "ข้อ false เกี่ยวกับ Fournier gangrene: anal cancer ไม่ใช่สาเหตุที่พบบ่อยที่สุด สาเหตุหลักคือ anorectal infection (perianal/ischiorectal abscess) (ข้อเดียวกับ 72A เลข 58 / 72B เลข 3)",
- "why": "Fournier gangrene คือ necrotizing fasciitis ของ perineum/genitalia จากเชื้อหลายชนิด · แหล่งที่พบบ่อยที่สุดคือ anorectal infection (perianal/ischiorectal abscess) รองลงมาคือ genitourinary (urethral stricture, การสวนปัสสาวะ, trauma) และผิวหนัง · anal cancer เป็นสาเหตุที่พบน้อย จึงเป็นข้อความที่ false · ข้ออื่นถูก: ต้อง radical debridement, เป็น perineal necrotizing fasciitis, บางรายต้อง colostomy และให้ empirical antibiotics ทันทีก่อนผล culture · คีย์ลายมือ P'Ing วง 5 ✗ \"anorectal infection\" และ 1–4 ✓",
- "wrong": {
-  "A": "ข้อความนี้ \"ถูก\": radical surgical debridement ตัดเนื้อตายจนถึงเนื้อดีที่เลือดออก และ second-look ทุก 24–48 ชม. เป็นหัวใจของการรักษา · จะเป็นคำตอบถ้าโจทย์ถามการรักษาที่สำคัญที่สุดและลดอัตราตายได้มากที่สุด",
-  "B": "ข้อความนี้ \"ถูก\": Fournier = necrotizing fasciitis ของ perineum, scrotum/penis และ perianal ลามตาม Colles' fascia ขึ้น Scarpa's fascia · จะเป็นคำตอบถ้าโจทย์ถามนิยามหรือทาง fascia ที่ใช้ลาม",
-  "C": "ข้อความนี้ \"ถูก\": บางรายที่เนื้อตายใกล้/ถึง anal sphincter หรือแผลปนเปื้อนอุจจาระตลอด ต้องทำ diverting colostomy (หรือ fecal management system) · จะเป็นคำตอบถ้าโจทย์ถามการจัดการแผล perianal ที่ปนเปื้อนซ้ำ",
-  "D": "ข้อความนี้ \"ถูก\": ให้ empirical broad-spectrum antibiotics ทันที (คลุม Gram-positive, Gram-negative, anaerobe + clindamycin ยับยั้ง toxin) โดยไม่ต้องรอผล culture · จะเป็นคำตอบถ้าโจทย์ถามว่าต้องรอผลเพาะเชื้อก่อนให้ยาหรือไม่"
+ "MDCU72|RoD|43": {
+  "interp": "ข้อ false เกี่ยวกับ Fournier gangrene: anal cancer ไม่ใช่สาเหตุที่พบบ่อยที่สุด สาเหตุหลักคือ anorectal infection (perianal/ischiorectal abscess) (ข้อเดียวกับ 72A เลข 58 / 72B เลข 3)",
+  "why": "Fournier gangrene คือ necrotizing fasciitis ของ perineum/genitalia จากเชื้อหลายชนิด · แหล่งที่พบบ่อยที่สุดคือ anorectal infection (perianal/ischiorectal abscess) รองลงมาคือ genitourinary (urethral stricture, การสวนปัสสาวะ, trauma) และผิวหนัง · anal cancer เป็นสาเหตุที่พบน้อย จึงเป็นข้อความที่ false · ข้ออื่นถูก: ต้อง radical debridement, เป็น perineal necrotizing fasciitis, บางรายต้อง colostomy และให้ empirical antibiotics ทันทีก่อนผล culture · คีย์ลายมือ P'Ing วง 5 ✗ \"anorectal infection\" และ 1–4 ✓",
+  "wrong": {
+   "A": "ข้อความนี้ \"ถูก\": radical surgical debridement ตัดเนื้อตายจนถึงเนื้อดีที่เลือดออก และ second-look ทุก 24–48 ชม. เป็นหัวใจของการรักษา · จะเป็นคำตอบถ้าโจทย์ถามการรักษาที่สำคัญที่สุดและลดอัตราตายได้มากที่สุด",
+   "B": "ข้อความนี้ \"ถูก\": Fournier = necrotizing fasciitis ของ perineum, scrotum/penis และ perianal ลามตาม Colles' fascia ขึ้น Scarpa's fascia · จะเป็นคำตอบถ้าโจทย์ถามนิยามหรือทาง fascia ที่ใช้ลาม",
+   "C": "ข้อความนี้ \"ถูก\": บางรายที่เนื้อตายใกล้/ถึง anal sphincter หรือแผลปนเปื้อนอุจจาระตลอด ต้องทำ diverting colostomy (หรือ fecal management system) · จะเป็นคำตอบถ้าโจทย์ถามการจัดการแผล perianal ที่ปนเปื้อนซ้ำ",
+   "D": "ข้อความนี้ \"ถูก\": ให้ empirical broad-spectrum antibiotics ทันที (คลุม Gram-positive, Gram-negative, anaerobe + clindamycin ยับยั้ง toxin) โดยไม่ต้องรอผล culture · จะเป็นคำตอบถ้าโจทย์ถามว่าต้องรอผลเพาะเชื้อก่อนให้ยาหรือไม่"
+  },
+  "trap": "ข้อนี้ถามข้อ \"false\" และซ้ำหลายครั้งในปี 72 (A58, B3) — ช้อยอื่นถูกหมด · คีย์ในไฟล์เขียนเลข 5 = ช้อย E · อย่าลืม SGLT2 inhibitor มีรายงานสัมพันธ์กับ Fournier"
  },
- "trap": "ข้อนี้ถามข้อ \"false\" และซ้ำหลายครั้งในปี 72 (A58, B3) — ช้อยอื่นถูกหมด · คีย์ในไฟล์เขียนเลข 5 = ช้อย E · อย่าลืม SGLT2 inhibitor มีรายงานสัมพันธ์กับ Fournier"
-},
-"MDCU72|RoD|46": {
- "wrong": {
-  "A": "H-type TEF (type E) ไม่มี atresia — หลอดอาหารต่อเนื่องดี NG tube ผ่านลงกระเพาะได้ มาด้วยไอ/สำลักเวลากินนม ปอดอักเสบซ้ำ ท้องอืดจากลม มักวินิจฉัยช้าหลังแรกเกิด · จะถูกถ้าทารกอายุหลายสัปดาห์สำลักนมซ้ำ ๆ และ pneumonia ซ้ำ โดย NG ผ่านได้",
-  "B": "Esophageal stricture ในทารกแรกเกิดพบน้อย (congenital stenosis) NG มักผ่านได้บางส่วนหรือติดต่ำกว่านี้ และมีลมในลำไส้ (หลอดอาหารยังต่อเนื่อง) · จะถูกถ้าเด็กโตกลืนลำบากกับอาหารแข็งหลังซ่อม EA หรือหลังกลืนสารกัดกร่อน",
-  "D": "EA with distal TEF (type C) พบบ่อยที่สุด (~85%) NG coil ในทรวงอกเหมือนกัน แต่ลมผ่าน distal fistula เข้ากระเพาะ/ลำไส้ จึงเห็น \"ลมในท้อง\" (ลายมือ: D ✗ type C) · จะถูกถ้า film เห็น NG coil ที่ upper pouch ร่วมกับลมในกระเพาะ/ลำไส้",
-  "E": "Esophageal duplication cyst เป็นก้อน cystic ข้างหลอดอาหาร อาจกดทำให้กลืนลำบาก/หายใจลำบาก แต่หลอดอาหารยังต่อเนื่อง NG ผ่านได้ และมีลมในลำไส้ปกติ · จะถูกถ้า CXR เห็นก้อนกลมที่ posterior mediastinum และ NG ผ่านลงกระเพาะ"
+ "MDCU72|RoD|46": {
+  "wrong": {
+   "A": "H-type TEF (type E) ไม่มี atresia — หลอดอาหารต่อเนื่องดี NG tube ผ่านลงกระเพาะได้ มาด้วยไอ/สำลักเวลากินนม ปอดอักเสบซ้ำ ท้องอืดจากลม มักวินิจฉัยช้าหลังแรกเกิด · จะถูกถ้าทารกอายุหลายสัปดาห์สำลักนมซ้ำ ๆ และ pneumonia ซ้ำ โดย NG ผ่านได้",
+   "B": "Esophageal stricture ในทารกแรกเกิดพบน้อย (congenital stenosis) NG มักผ่านได้บางส่วนหรือติดต่ำกว่านี้ และมีลมในลำไส้ (หลอดอาหารยังต่อเนื่อง) · จะถูกถ้าเด็กโตกลืนลำบากกับอาหารแข็งหลังซ่อม EA หรือหลังกลืนสารกัดกร่อน",
+   "D": "EA with distal TEF (type C) พบบ่อยที่สุด (~85%) NG coil ในทรวงอกเหมือนกัน แต่ลมผ่าน distal fistula เข้ากระเพาะ/ลำไส้ จึงเห็น \"ลมในท้อง\" (ลายมือ: D ✗ type C) · จะถูกถ้า film เห็น NG coil ที่ upper pouch ร่วมกับลมในกระเพาะ/ลำไส้",
+   "E": "Esophageal duplication cyst เป็นก้อน cystic ข้างหลอดอาหาร อาจกดทำให้กลืนลำบาก/หายใจลำบาก แต่หลอดอาหารยังต่อเนื่อง NG ผ่านได้ และมีลมในลำไส้ปกติ · จะถูกถ้า CXR เห็นก้อนกลมที่ posterior mediastinum และ NG ผ่านลงกระเพาะ"
+  },
+  "why": "ทารกแรกเกิดน้ำลายฟูมปาก ใส่ NG ไม่ผ่าน ขดอยู่ในทรวงอก = esophageal atresia · ตัวแยกชนิดคือ \"ลมในท้อง\": ไม่มีลมในกระเพาะ/ลำไส้เลย (gasless abdomen) = ไม่มี distal fistula → isolated EA without TEF (Gross type A, ~8%) ซึ่งมัก long-gap · ถ้ามีลมในท้อง = มี distal TEF (type C, บ่อยสุด) · การรักษา type A: gastrostomy + Replogle suction ของ upper pouch แล้วรอ (delayed primary anastomosis หรือ esophageal replacement/Foker) · คีย์ลายมือ P'Ing วง C ✓ type A (ข้อเดียวกับ 70B เลข 36 / 71A เลข 57)",
+  "trap": "Gasless abdomen + NG coil = EA without distal TEF (type A หรือ B ที่มีแค่ proximal fistula) · ลมในท้อง + NG coil = type C (มี distal TEF) · H-type ใส่ NG ผ่านได้ · ต้องหา VACTERL association (echo ก่อนผ่าตัดดู right aortic arch)",
+  "summary": [
+   "Gross classification: A isolated EA (gasless) · B proximal TEF · C EA + distal TEF (~85%, บ่อยสุด) · D ทั้งสองข้าง · E H-type",
+   "อาการ: polyhydramnios, น้ำลายฟูม, สำลักเมื่อป้อนนม, NG coil ในทรวงอก",
+   "VACTERL: vertebral, anorectal, cardiac, TE fistula, renal, limb · echo ดู aortic arch ก่อนผ่าตัด",
+   "Type C: right thoracotomy/thoracoscopy ปิด fistula + primary anastomosis · type A: long-gap → gastrostomy แล้ว delayed repair"
+  ]
  },
- "why": "ทารกแรกเกิดน้ำลายฟูมปาก ใส่ NG ไม่ผ่าน ขดอยู่ในทรวงอก = esophageal atresia · ตัวแยกชนิดคือ \"ลมในท้อง\": ไม่มีลมในกระเพาะ/ลำไส้เลย (gasless abdomen) = ไม่มี distal fistula → isolated EA without TEF (Gross type A, ~8%) ซึ่งมัก long-gap · ถ้ามีลมในท้อง = มี distal TEF (type C, บ่อยสุด) · การรักษา type A: gastrostomy + Replogle suction ของ upper pouch แล้วรอ (delayed primary anastomosis หรือ esophageal replacement/Foker) · คีย์ลายมือ P'Ing วง C ✓ type A (ข้อเดียวกับ 70B เลข 36 / 71A เลข 57)",
- "trap": "Gasless abdomen + NG coil = EA without distal TEF (type A หรือ B ที่มีแค่ proximal fistula) · ลมในท้อง + NG coil = type C (มี distal TEF) · H-type ใส่ NG ผ่านได้ · ต้องหา VACTERL association (echo ก่อนผ่าตัดดู right aortic arch)",
- "summary": [
-  "Gross classification: A isolated EA (gasless) · B proximal TEF · C EA + distal TEF (~85%, บ่อยสุด) · D ทั้งสองข้าง · E H-type",
-  "อาการ: polyhydramnios, น้ำลายฟูม, สำลักเมื่อป้อนนม, NG coil ในทรวงอก",
-  "VACTERL: vertebral, anorectal, cardiac, TE fistula, renal, limb · echo ดู aortic arch ก่อนผ่าตัด",
-  "Type C: right thoracotomy/thoracoscopy ปิด fistula + primary anastomosis · type A: long-gap → gastrostomy แล้ว delayed repair"
- ]
-},
-"MDCU72|RoD|47": {
- "interp": "ทารกอายุ 3 วันอาเจียนน้ำดี + UGI เห็น corkscrew = malrotation with midgut volvulus ซึ่งเป็น surgical emergency → Ladd procedure ทันที",
- "why": "อาเจียนน้ำดีในทารกแรกเกิด = malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ เพราะลำไส้ทั้ง midgut (SMA territory) ขาดเลือดได้ภายในไม่กี่ชั่วโมง · UGI contrast เป็น investigation of choice: DJ flexure อยู่ขวาของ spine/ต่ำกว่า pylorus, corkscrew (volvulus) หรือ bird beak · Rx: resuscitation แล้ว emergency Ladd procedure — คลายเกลียว (detorsion ทวนเข็มนาฬิกา), ตัด Ladd's bands, ขยาย mesentery base, จัดลำไส้เล็กไปขวา colon ไปซ้าย และตัด appendix · คีย์ลายมือ P'Ing วง A ✓ \"คลายเกลียว\" (ข้อเดียวกับ 70B เลข 34)",
- "wrong": {
-  "B": "Observation อันตรายมาก — midgut volvulus ทำให้ลำไส้ขาดเลือดและเน่าทั้งเส้นได้ภายใน 6–12 ชม. → short bowel syndrome หรือเสียชีวิต · จะถูกถ้าเป็น malrotation ที่ไม่มีอาการพบโดยบังเอิญ (ยังถกเถียง ส่วนใหญ่แนะนำผ่าตัดแบบ elective)",
-  "C": "Barium enema ดูตำแหน่ง cecum (อาจอยู่ผิดที่) แต่ไม่แม่นเท่า UGI และไม่ได้รักษา volvulus · ไม่ควรทำเพราะทำให้ผ่าตัดล่าช้า · จะถูกถ้าทารกมี distal bowel obstruction สงสัย Hirschsprung/meconium plug",
-  "D": "Duodenoduodenostomy (diamond-shaped) เป็นการผ่าตัดรักษา duodenal atresia/stenosis หรือ annular pancreas (double bubble ไม่มีลมด้านล่าง สัมพันธ์กับ Down syndrome) · จะถูกถ้า AXR เห็น double bubble ในทารกที่อาเจียนน้ำดีตั้งแต่วันแรก",
-  "E": "Pyloromyotomy เป็นการรักษา hypertrophic pyloric stenosis ซึ่งอาเจียน \"ไม่มีน้ำดี\" อายุ 2–8 สัปดาห์ · จะถูกถ้าทารกอายุ 4 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี คลำ olive และ US pylorus หนา ≥ 4 mm"
- },
- "trap": "Bilious vomiting ในทารก = surgical emergency (volvulus) จนกว่าจะพิสูจน์ได้ · ทารกอาจดูดีในตอนแรก AXR อาจปกติ อย่ารอ · ใน Ladd ต้อง detorsion \"ทวนเข็มนาฬิกา\" (volvulus บิดตามเข็ม) · ไฟล์มีช้อยเดียว เติมให้ครบ",
- "summary": [
-  "Malrotation: ลำไส้หมุนไม่ครบ 270° → mesentery แคบ → midgut volvulus + Ladd's bands กด duodenum",
-  "อาการ: bilious vomiting ในทารก (ส่วนใหญ่เดือนแรก) → peritonitis, เลือดออก, shock เมื่อลำไส้ขาดเลือด",
-  "UGI: DJ flexure ผิดตำแหน่ง, corkscrew, bird beak · US: whirlpool sign, SMV อยู่ซ้ายของ SMA",
-  "Ladd: detorsion ทวนเข็ม, ตัด Ladd's bands, ขยาย mesentery, appendectomy, จัดลำไส้ (เล็กขวา ใหญ่ซ้าย)"
- ]
-}
+ "MDCU72|RoD|47": {
+  "interp": "ทารกอายุ 3 วันอาเจียนน้ำดี + UGI เห็น corkscrew = malrotation with midgut volvulus ซึ่งเป็น surgical emergency → Ladd procedure ทันที",
+  "why": "อาเจียนน้ำดีในทารกแรกเกิด = malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ เพราะลำไส้ทั้ง midgut (SMA territory) ขาดเลือดได้ภายในไม่กี่ชั่วโมง · UGI contrast เป็น investigation of choice: DJ flexure อยู่ขวาของ spine/ต่ำกว่า pylorus, corkscrew (volvulus) หรือ bird beak · Rx: resuscitation แล้ว emergency Ladd procedure — คลายเกลียว (detorsion ทวนเข็มนาฬิกา), ตัด Ladd's bands, ขยาย mesentery base, จัดลำไส้เล็กไปขวา colon ไปซ้าย และตัด appendix · คีย์ลายมือ P'Ing วง A ✓ \"คลายเกลียว\" (ข้อเดียวกับ 70B เลข 34)",
+  "wrong": {
+   "B": "Observation อันตรายมาก — midgut volvulus ทำให้ลำไส้ขาดเลือดและเน่าทั้งเส้นได้ภายใน 6–12 ชม. → short bowel syndrome หรือเสียชีวิต · จะถูกถ้าเป็น malrotation ที่ไม่มีอาการพบโดยบังเอิญ (ยังถกเถียง ส่วนใหญ่แนะนำผ่าตัดแบบ elective)",
+   "C": "Barium enema ดูตำแหน่ง cecum (อาจอยู่ผิดที่) แต่ไม่แม่นเท่า UGI และไม่ได้รักษา volvulus · ไม่ควรทำเพราะทำให้ผ่าตัดล่าช้า · จะถูกถ้าทารกมี distal bowel obstruction สงสัย Hirschsprung/meconium plug",
+   "D": "Duodenoduodenostomy (diamond-shaped) เป็นการผ่าตัดรักษา duodenal atresia/stenosis หรือ annular pancreas (double bubble ไม่มีลมด้านล่าง สัมพันธ์กับ Down syndrome) · จะถูกถ้า AXR เห็น double bubble ในทารกที่อาเจียนน้ำดีตั้งแต่วันแรก",
+   "E": "Pyloromyotomy เป็นการรักษา hypertrophic pyloric stenosis ซึ่งอาเจียน \"ไม่มีน้ำดี\" อายุ 2–8 สัปดาห์ · จะถูกถ้าทารกอายุ 4 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี คลำ olive และ US pylorus หนา ≥ 4 mm"
+  },
+  "trap": "Bilious vomiting ในทารก = surgical emergency (volvulus) จนกว่าจะพิสูจน์ได้ · ทารกอาจดูดีในตอนแรก AXR อาจปกติ อย่ารอ · ใน Ladd ต้อง detorsion \"ทวนเข็มนาฬิกา\" (volvulus บิดตามเข็ม) · ไฟล์มีช้อยเดียว เติมให้ครบ",
+  "summary": [
+   "Malrotation: ลำไส้หมุนไม่ครบ 270° → mesentery แคบ → midgut volvulus + Ladd's bands กด duodenum",
+   "อาการ: bilious vomiting ในทารก (ส่วนใหญ่เดือนแรก) → peritonitis, เลือดออก, shock เมื่อลำไส้ขาดเลือด",
+   "UGI: DJ flexure ผิดตำแหน่ง, corkscrew, bird beak · US: whirlpool sign, SMV อยู่ซ้ายของ SMA",
+   "Ladd: detorsion ทวนเข็ม, ตัด Ladd's bands, ขยาย mesentery, appendectomy, จัดลำไส้ (เล็กขวา ใหญ่ซ้าย)"
+  ]
+ }
 }
