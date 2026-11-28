@@ -1,0 +1,280 @@
+import sys; sys.path.insert(0,'/home/claude/ac-mdcu/parts')
+from l22_common import mk, save
+Q={}
+
+# ---------------- 61 Furuncle ----------------
+mk(Q, 61, [65, 66, 's7'],
+ stem="""A 22-year-old man has a fluctuant, painful 2-cm axillary nodule with a central pustule. What is the best treatment?""",
+ opts=["""Wide excision of the axillary skin""","""Topical mupirocin alone""","""Incision and drainage""","""Observation""","""Oral antibiotics alone"""],
+ interp="""ก้อนเดี่ยวที่รักแร้ แดง ปวด คลำได้ fluctuant ขนาด 2 cm มีหัวหนองตรงกลาง ในชายหนุ่มที่ไม่มีโรคประจำตัวและไม่มีประวัติเป็นซ้ำ → เป็น <b>furuncle</b> คือฝีที่เริ่มจากรูขุมขนเดียวจนกลายเป็นโพรงหนองใน dermis → ถามการรักษาหลัก ต้องใช้หลักว่าหนองที่ขังเป็นโพรงแล้วต้องระบายออกทางกายภาพ ยาอย่างเดียวไม่พอ""",
+ why="""<b>Furuncle (boil)</b> เกิดจาก folliculitis ที่ลึกลงจนเป็น<b>ฝีรอบรูขุมขนหนึ่งรู</b> เชื้อหลักคือ <b>S. aureus</b> (รวม community MRSA) · เมื่อคลำได้ <b>fluctuation</b> แปลว่ามีหนองขังเป็นโพรงซึ่งผนังเป็นเนื้ออักเสบที่ยาเข้าถึงได้น้อย การรักษาหลักจึงเป็น <b>incision and drainage</b>: ฉีดยาชา กรีดตรงจุดที่นุ่มที่สุดตามแนว skin crease ให้ยาวพอ ระบายหนอง ใช้ปลายเครื่องมือเลาะผนังกั้น (loculation) ล้างโพรง แล้วปล่อยแผลเปิดหรือใส่ wick สั้น ๆ ส่งหนองเพาะเชื้อเมื่อเป็นซ้ำหรือจะให้ยา · <b>IDSA 2014</b> ระบุว่าฝีที่ระบายดีส่วนใหญ่ไม่ต้องให้ยา ให้ยาที่ครอบคลุม MRSA เมื่อมี <b>SIRS</b> หรือภูมิคุ้มกันต่ำ และแนวทาง MRSA ของ IDSA 2011 เพิ่มกรณีฝีหลายจุด cellulitis รอบกว้าง อายุสุดขั้ว หรือระบายได้ไม่ครบ · ตุ่มที่ยังแข็งไม่มีหนองขังใช้<b>ประคบอุ่น</b>ให้หนองรวมตัวก่อน · ที่รักแร้ต้องแยก <b>hidradenitis suppurativa</b> ซึ่งเป็นซ้ำหลายจุด มี sinus tract และแผลเป็น · สไลด์หน้า 65 ลายมือ <b>": abscess → I&amp;D"</b>""",
+ wrong={
+  "A":"""การตัดผิวรักแร้ออกกว้างเป็นการรักษาให้หายขาดของ hidradenitis suppurativa ระยะเรื้อรังที่มี sinus tract เชื่อมกันและแผลเป็น ไม่ใช่ฝีเดี่ยวครั้งแรกที่ระบายแล้วหายได้ การตัดกว้างกับฝีเดี่ยวเสียผิวและเสี่ยงแผลหดรั้งโดยไม่จำเป็น · จะถูกถ้าหญิงอายุ 30 ปี มีฝีและโพรงหนองที่รักแร้สองข้างเป็นซ้ำมา 6 ปี มี sinus tract หลายช่องเชื่อมกันและแผลเป็นรั้ง ทั้งที่ระบายหนองและกินยามาหลายรอบ (Hurley stage III)""",
+  "B":"""Mupirocin เป็นยาฆ่าเชื้อชนิดทา ใช้กับ impetigo ที่เป็นไม่กว้าง และใช้ทาในรูจมูกเพื่อกำจัดเชื้อ S. aureus ที่อาศัยอยู่ แต่ยาไม่ซึมเข้าโพรงหนองที่อยู่ใน dermis จึงรักษาฝีที่ fluctuant ไม่ได้ · จะถูกถ้าเด็กหญิงอายุ 5 ปี มีแผลตื้นสะเก็ดสีน้ำผึ้งเฉพาะรอบจมูกสองสามจุด ไม่มีไข้ ไม่มีก้อนหนอง (impetigo เฉพาะที่) ซึ่งทายาฆ่าเชื้อก็หาย""",
+  "D":"""การเฝ้าดูเหมาะกับรอยโรคที่หายเองได้ ฝีที่มีหนองขัง 2 cm และปวดมากอาจแตกเองได้ แต่มักใช้เวลานาน ปวดทรมาน และระบายไม่หมด จึงไม่ใช่การรักษาที่ดีที่สุด · จะถูกถ้าชายอายุ 20 ปี มีตุ่มหนองเล็ก 1–2 mm ที่รูขุมขนต้นขาหลายจุดหลังโกนขน ไม่มีก้อน ไม่มีไข้ (superficial folliculitis) ซึ่งชีทหน้า 7 ระบุว่าทำความสะอาดแล้วค่อย ๆ ดีขึ้นเอง""",
+  "E":"""ยากินอย่างเดียวใช้รักษา cellulitis ที่เป็นการอักเสบแผ่ในผิวโดยไม่มีโพรงหนอง แต่ฝีที่ fluctuant มีหนองขังซึ่งยาเข้าถึงได้น้อย ให้ยาโดยไม่ระบายมักไม่หายหรือเป็นซ้ำ ยาเป็นเพียงส่วนเสริมหลัง I&amp;D ในบางกรณี · จะถูกถ้าชายอายุ 40 ปี มีผื่นแดงร้อนกดเจ็บที่ปลายแขนหลังถูกแมวข่วน ขอบไม่ชัด ไม่มีหนอง ไม่มีก้อน fluctuant สัญญาณชีพปกติ (cellulitis ไม่รุนแรง)"""},
+ trap="""คำว่า 'ติดเชื้อ' ชวนให้นึกถึงยาปฏิชีวนะก่อน และตำแหน่งรักแร้ชวนให้นึกถึง hidradenitis suppurativa — ตัวแยกคือ fluctuant + หัวหนองเดียว + เป็นครั้งแรก = ฝีเดี่ยวที่มีหนองขัง ต้องระบาย ส่วน HS ต้องมีประวัติเป็นซ้ำหลายจุด มี sinus tract และแผลเป็น ยาเป็นแค่ส่วนเสริมเมื่อมีข้อบ่งชี้""",
+ summary=[
+  """แกน: ฝีที่ fluctuant (furuncle) → <b>incision and drainage</b> เป็นการรักษาหลัก ยาไม่ทดแทนการระบาย (ลายมือสไลด์หน้า 65)""",
+  """ลำดับโรค: folliculitis (ตุ่มหนองตื้นที่รูขุมขน) → furuncle (ฝีรอบรูขุมขนเดียว ลึกถึง dermis) → carbuncle (หลาย furuncle เชื่อมกัน มีหลายรูเปิด)""",
+  """เชื้อหลัก S. aureus — เมื่อต้องให้ยาในพื้นที่ที่มี community MRSA เลือก TMP-SMX, clindamycin หรือ doxycycline""",
+  """ให้ยาเสริมเมื่อมี SIRS ภูมิคุ้มกันต่ำ cellulitis รอบกว้าง ฝีหลายจุด อายุสุดขั้ว หรือระบายได้ไม่ครบ (IDSA)""",
+  """ตุ่มแข็งที่ยังไม่มีหนองขัง → ประคบอุ่นให้หนองรวมตัวและแตกออกเอง บางรายให้ยาร่วม (ชีทหน้า 7)""",
+  """ฝีที่รักแร้หรือขาหนีบที่เป็นซ้ำ หลายจุด มี sinus tract และแผลเป็น → คิดถึง hidradenitis suppurativa ไม่ใช่ furuncle ธรรมดา"""],
+ opinion="""เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ลายมือสไลด์หน้า 65 เขียนตรงตัวว่า ': abscess → I&amp;D' และสอดคล้องกับ IDSA 2014 ที่ให้ I&amp;D เป็นการรักษาหลักของ furuncle, carbuncle และ abscess · จุดที่ต่าง: ชีทหน้า 7 เน้นประคบน้ำอุ่นให้หนองไหลออกเองและให้ยาเป็นบางครั้ง ซึ่งเหมาะกับระยะที่ยังไม่มีหนองขังมากกว่าฝีที่ fluctuant ชัดแล้ว · หลักฐานจาก RCT ขนาดใหญ่ปี 2016–2017 พบว่าการให้ TMP-SMX หรือ clindamycin หลัง I&amp;D ในฝีผิวหนังขนาดไม่เกิน 5 cm เพิ่มอัตราหายเล็กน้อยและลดการเป็นซ้ำ แนวปฏิบัติบางแห่งจึงพิจารณาให้ยาร่วมเป็นรายไป แต่ไม่เปลี่ยนหลักว่าการระบายคือหัวใจของการรักษา""",
+ mnemonic="""<b>'มีหนองต้องระบาย — Pus = I&amp;D ยาเป็นแค่ผู้ช่วย'</b>""",
+ guide="""IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (2014); IDSA Clinical Practice Guidelines for the Treatment of MRSA Infections (2011); Sabiston Textbook of Surgery 21st ed. (2022)""",
+ variants=[
+  """ชายอายุ 30 ปี ฝี fluctuant 3 cm ที่ต้นแขน ระบายแล้วแต่ไข้ 38.8 °C ชีพจร 112 → มี SIRS ให้ยาที่ครอบคลุม MRSA ร่วมกับ I&amp;D และนัดดูแผลใน 48 ชั่วโมง""",
+  """หญิงเป็น furuncle ซ้ำ 4 ครั้งในปีเดียว และสามีก็เป็น → เพาะเชื้อจากหนอง ทำ decolonization ทั้งบ้าน: mupirocin ทาในจมูก + อาบน้ำด้วย chlorhexidine และแยกผ้าเช็ดตัว""",
+  """ชายมีตุ่มแดงปวดที่ริมฝีปากบนติดจมูก ยังไม่ fluctuant → ห้ามบีบ เพราะเชื้อลามผ่าน facial vein ที่ไม่มีลิ้นไปยัง cavernous sinus ได้ ให้ยาและประคบอุ่น""",
+  """เด็กชายมีตุ่มหนองตื้นที่รูขุมขนหลายจุดตามลำตัวหลัง 2 วันหลังแช่อ่างน้ำร้อน → hot tub folliculitis จาก Pseudomonas มักหายเองโดยไม่ต้องผ่า"""])
+
+# ---------------- 62 Carbuncle ----------------
+mk(Q, 62, [67, 68, 's8'],
+ stem="""A 60-year-old diabetic man has a 7-cm indurated, painful lesion on the back of the neck with multiple draining sinus openings and surrounding erythema. What is the most appropriate surgical management?""",
+ opts=["""Oral antibiotics with warm compresses only""","""Wide excision to deep fascia with immediate flap closure""","""A single small stab incision over the largest opening""","""Debridement of the involved skin and pockets""","""Repeated needle aspiration"""],
+ interp="""ชายเบาหวาน ก้อนแข็งใหญ่ 7 cm ที่ท้ายทอย ปวด มีรูหนองไหลหลายรู ผิวรอบแดง → เป็น <b>carbuncle</b> (ฝีฝักบัว) คือหลาย furuncle ที่โพรงหนองเชื่อมกันใต้ผิว → ถามการผ่าตัดที่เหมาะ ต้องรู้ว่าโพรงหลายช่องต้องเปิดและตัดเนื้อตายให้ครบทุกช่อง และแผลติดเชื้อต้องเปิดไว้ ไม่ปิดทันที""",
+ why="""<b>Carbuncle</b> คือการติดเชื้อ S. aureus ของ<b>รูขุมขนหลายรูที่อยู่ติดกัน</b> หนองลามในชั้น dermis และไขมันใต้ผิวเป็น<b>หลายโพรง (pocket) ที่เชื่อมกันโดยมีผนังกั้น</b> แล้วแตกออกเป็นหลายรูเหมือนฝักบัว มักเกิดที่ผิวหนาของ<b>ท้ายทอย หลัง ต้นขา</b> โดยเฉพาะใน<b>เบาหวาน</b> อ้วน หรือภูมิคุ้มกันต่ำ · ผิวที่คลุมโพรงมักตายบางส่วน การกรีดจุดเดียวจึงระบายได้แค่โพรงที่อยู่ใกล้แผล โพรงอื่นยังขังหนองและเนื้อตาย → ต้อง<b>กรีดเปิดเป็นรูปกากบาทหรือตัดผิวที่ตายออก เลาะผนังกั้นทุกช่อง ตัดเนื้อตายจนถึงเนื้อดี</b> แล้ว<b>เปิดแผลไว้</b> ทำแผลจนมี granulation ค่อยปล่อยหายเองหรือปิดภายหลัง · เบาหวาน + ก้อนใหญ่ + ผิวแดงรอบ ควรให้ยาที่ครอบคลุม S. aureus (รวม MRSA ตามพื้นที่) ร่วมกับคุมน้ำตาล · ชีทหน้า 8 ให้ทั้ง I&amp;D หรือ <b>wide excision of infected tissue and sinuses</b> · สไลด์หน้า 67 ลายมือ <b>"= หลาย pockets ติดกัน → I&amp;D อาจไม่ครบทุก pockets → Debride skin เลย"</b>""",
+ wrong={
+  "A":"""ยากินร่วมกับประคบอุ่นใช้ได้กับฝีรอบรูขุมขนระยะต้นที่ยังไม่มีหนองขัง แต่ carbuncle มีหนองหลายโพรงและผิวคลุมตายบางส่วน ยาเข้าไม่ถึงหนองที่ขัง และในเบาหวานยิ่งลามเร็ว · จะถูกถ้าชายอายุ 35 ปี ไม่มีโรคประจำตัว มีตุ่มแดงแข็งกดเจ็บ 1 cm ที่ต้นคอ ขึ้นมา 2 วัน ยังไม่มีหนองขังหรือรูเปิด และมีผื่นแดงรอบเล็กน้อย ซึ่งยังไม่มีสิ่งให้ผ่า""",
+  "B":"""การตัดกว้างลึกถึง deep fascia เกินความจำเป็นเพราะ carbuncle อยู่ในชั้นผิวและไขมัน และการปิดด้วย flap ทันทีบนแผลที่ยังมีหนองเสี่ยงติดเชื้อซ้ำและ flap เสีย แผลติดเชื้อต้องเปิดไว้ก่อน · จะถูกถ้าชายอายุ 55 ปี มีแผลเป็นไฟไหม้เรื้อรังที่ท้ายทอยซึ่งชิ้นเนื้อยืนยัน SCC ความเสี่ยงสูง (Marjolin ulcer) ต้องตัดกว้างให้ขอบปลอดมะเร็งแล้วปิดด้วย flap""",
+  "C":"""การกรีดเล็กจุดเดียวเพียงพอเมื่อหนองอยู่ในโพรงเดียว แต่ carbuncle มีหลายโพรงที่มีผนังกั้น การกรีดจุดเดียวทำให้โพรงอื่นยังขังหนอง ไข้และหนองไหลจะไม่หยุด · จะถูกถ้าชายอายุ 25 ปี มีฝีเดี่ยว fluctuant ขนาด 1.5 cm รอบรูขุมขนที่ต้นแขน มีหัวหนองเดียว (furuncle) — กรีดตรงจุดนุ่มที่สุดก็ระบายได้หมด""",
+  "E":"""การเจาะดูดด้วยเข็มระบายได้เฉพาะหนองเหลวในโพรงเดียวที่ไม่มีผนังกั้น ใน carbuncle หนองข้นปนเนื้อตายและแบ่งเป็นหลายช่อง เข็มดูดไม่ออกและมักเป็นซ้ำ · จะถูกถ้าหญิงให้นมบุตรอายุ 28 ปี มีฝีในเต้านมโพรงเดียวขนาด 2.5 cm ผิวด้านบนปกติ อัลตราซาวนด์ไม่พบผนังกั้น — เจาะดูดซ้ำร่วมกับยาเป็นทางเลือกแรก"""},
+ trap="""รูหนองหลายรูที่ไหลอยู่แล้วทำให้ดูเหมือนหนองระบายออกเองได้ จึงเลือกการรักษาเบา ๆ หรือกรีดจุดเดียว — แต่รูที่เห็นคือปลายของหลายโพรงที่มีผนังกั้น ผิวคลุมมักตาย ต้องเปิดและตัดเนื้อตายให้ครบทุกโพรง ขณะเดียวกันไม่ต้องตัดกว้างลึกแบบมะเร็งหรือปิดแผลทันที""",
+ summary=[
+  """แกน: carbuncle = หลาย pocket เชื่อมกัน → <b>debride ผิวที่ตายและเปิดทุก pocket</b> แล้วเปิดแผลไว้ — การกรีดจุดเดียวไม่พอ""",
+  """ภาพสไลด์หน้า 68: pimple → furuncle (หนองรอบรูขุมขนเดียว) → carbuncle (cluster of boils ลงลึกถึงไขมัน) ลายมือ 'มีหลายรูเปิด → ต้อง debride'""",
+  """ตำแหน่งพบบ่อย: ท้ายทอย หลัง ต้นขา — ผิวหนาทำให้หนองแตกออกด้านบนยาก จึงลามด้านข้างเป็นโพรงกว้าง""",
+  """ปัจจัยเสี่ยง: เบาหวาน อ้วน ภูมิคุ้มกันต่ำ ใช้ steroid — ต้องคุมน้ำตาลและให้ยาที่ครอบคลุม S. aureus ร่วม""",
+  """หลัง debride: แผลเปิดทำแผลจน granulation ขึ้น → หายเอง, delayed closure หรือ skin graft""",
+  """ชีทหน้า 8: carbuncle แตกออกเป็น sinus tract หลายแห่ง (ฝีฝักบัว) รักษาด้วย I&amp;D หรือตัดผิวที่ติดเชื้อและ sinus ออกทั้งหมด"""],
+ opinion="""เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ลายมือสไลด์หน้า 67 และ 68 ระบุว่า I&amp;D อาจไม่ครบทุก pocket จึงต้อง debride ผิว และชีทหน้า 8 ให้ทั้ง I&amp;D หรือ wide excision of infected tissue and sinuses ซึ่งเป็นแนวเดียวกัน · IDSA 2014 จัด carbuncle ไว้กลุ่มเดียวกับ abscess ให้ I&amp;D เป็นหลักและให้ยาเมื่อมี SIRS หรือภูมิคุ้มกันต่ำ — ในทางปฏิบัติก้อนใหญ่ในผู้ป่วยเบาหวานมักได้ยาร่วม · คำว่า 'wide excision' ในชีทควรเข้าใจว่าตัดเฉพาะผิวและเนื้อที่ติดเชื้อจนถึงเนื้อดี ไม่ใช่ตัดเผื่อขอบแบบเนื้องอก""",
+ mnemonic="""<b>'ฝีฝักบัว หลายรู หลายห้อง — เปิดทุกห้อง ตัดหลังคาที่ตาย'</b>""",
+ guide="""IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (2014); Sabiston Textbook of Surgery 21st ed. (2022); Schwartz's Principles of Surgery 11th ed. (2019)""",
+ variants=[
+  """หญิงเบาหวานหลัง debride carbuncle ที่หลัง ได้แผลเปิด 8 cm สัปดาห์ที่ 2 แผลสะอาด granulation แดงดี → ปิดด้วย split-thickness skin graft หรือ delayed closure ได้""",
+  """ชายอายุ 50 ปี มาด้วย carbuncle ที่ท้ายทอยเป็นครั้งแรก ไม่เคยตรวจสุขภาพ → ตรวจน้ำตาลและ HbA1c เพราะ carbuncle อาจเป็นอาการแรกของเบาหวานที่ยังไม่วินิจฉัย""",
+  """ชายมี carbuncle ที่ต้นคอ ไข้ 39 °C ความดันต่ำ ผลเพาะเชื้อในเลือดขึ้น S. aureus → นอนโรงพยาบาล ให้ยาทางหลอดเลือด และทำ echocardiography หา endocarditis"""])
+
+# ---------------- 63 Necrotizing fasciitis ----------------
+mk(Q, 63, [69, 's8'],
+ stem="""A 50-year-old diabetic man has severe leg pain, fever and hypotension. The skin shows only a small dusky area with bullae, yet the pain far exceeds the visible findings. At surgery, the fascia separates easily from the overlying fat with a finger. What is the diagnosis and treatment?""",
+ opts=["""Furuncle requiring incision and drainage""","""Deep vein thrombosis requiring heparin""","""Necrotizing fasciitis needing urgent debridement and broad antibiotics""","""Pyomyositis requiring image-guided drainage of the muscle""","""Cellulitis requiring oral antibiotics, leg elevation and outpatient follow-up"""],
+ interp="""ชายเบาหวาน ไข้ ความดันต่ำ (sepsis) ปวดขามากเกินผิวที่เห็น ผิวมีเพียงจุดคล้ำกับตุ่มน้ำ และขณะผ่าตัดใช้นิ้วเซาะ fascia ออกจากไขมันได้ง่าย (finger test บวก) → เข้ากับ necrotizing fasciitis → ถามทั้งการวินิจฉัยและการรักษา ต้องรู้ว่าหัวใจคือ source control ด้วยการผ่าตัดทันที ร่วมกับยาครอบคลุมเชื้อผสมและ resuscitation""",
+ why="""<b>Necrotizing fasciitis</b> เป็นการติดเชื้อที่ลามไปตาม<b>ระนาบ superficial fascia</b> ได้เร็วมาก ทำให้หลอดเลือดและ perforator อุดตัน ผิวด้านบนจึงดูน้อยกว่าความเสียหายจริง · อาการเตือน: <b>ปวดมากเกินสัดส่วนกับที่เห็น</b>, บวมแข็งเกินขอบผื่นแดง, ตุ่มน้ำ (โดยเฉพาะตุ่มน้ำเลือด), ผิวคล้ำ, ชา, crepitus และ <b>sepsis หรือ shock</b> · ขณะผ่าตัด: fascia เทาบวม ไม่มีเลือดออก มีน้ำหนองขุ่นแบบ <b>dishwater</b> และ <b>finger test</b> บวก (นิ้วเซาะระนาบได้โดยไม่มีแรงต้าน) · เชื้อ: type I <b>polymicrobial</b> (G+, G−, anaerobe) พบบ่อยในเบาหวาน · type II group A Streptococcus ± S. aureus · การรักษา: <b>ผ่าตัด debride ด่วน</b>ตัดเนื้อตายจนถึงเนื้อที่เลือดออกดี + ยาครอบคลุมกว้าง เช่น vancomycin หรือ linezolid ร่วมกับ piperacillin-tazobactam หรือ carbapenem และ <b>clindamycin</b> เพื่อยับยั้ง toxin (IDSA 2014) + resuscitation · กลับไปดูซ้ำ (second look) ภายใน 24–48 ชั่วโมงจนไม่มีเนื้อตายเพิ่ม · ความล่าช้าในการผ่าตัดเพิ่มอัตราตายชัดเจน ไม่ควรรอ imaging เมื่อคลินิกชัด · สไลด์หน้า 69 ลายมือ <b>"→ แผลอาจไม่ใหญ่ แต่มี sepsis"</b> และ <b>"Tx : debride (กรีดแล้วเอานิ้วเซาะออก)"</b>""",
+ wrong={
+  "A":"""Furuncle เป็นฝีเดี่ยวรอบรูขุมขนที่อยู่ในชั้น dermis ระบายหนองแล้วหาย ไม่ทำให้ช็อก ไม่มีตุ่มน้ำหรือผิวคล้ำ และขณะผ่าตัดจะพบโพรงหนองจำกัดที่ ไม่ใช่ fascia ที่แยกออกจากไขมันเป็นแนวยาว · จะถูกถ้าชายอายุ 24 ปี มีก้อนแดงปวด fluctuant 2 cm มีหัวหนองที่ต้นขา สัญญาณชีพปกติ ไม่มีตุ่มน้ำหรือผิวคล้ำ""",
+  "B":"""DVT ทำให้ขาบวมปวดได้ แต่ไม่ทำให้ผิวมีตุ่มน้ำคล้ำร่วมกับ septic shock และไม่ทำให้ fascia แยกง่ายด้วยนิ้ว แม้ภาวะ DVT รุนแรงที่ขาเขียวคล้ำก็บวมทั้งขาโดยไม่มีภาพ fascia ตาย · จะถูกถ้าหญิงอายุ 55 ปี หลังผ่าตัดสะโพก 5 วัน ขาซ้ายบวมทั้งขา ปวดน่อง ผิวไม่มีตุ่มน้ำหรือคล้ำ ไม่มีไข้สูง และ duplex พบลิ่มเลือดใน femoral vein""",
+  "D":"""Pyomyositis คือฝีในกล้ามเนื้อ มักเกิดจาก S. aureus ในเขตร้อนหรือผู้ภูมิคุ้มกันต่ำ ขาบวมแข็งปวดลึก แต่ผิวด้านบนไม่ตายและ fascia ไม่แยกง่าย ภาพ CT หรือ MRI พบโพรงหนองในกล้ามเนื้อ · จะถูกถ้าชายเกษตรกรอายุ 30 ปี ไข้และปวดต้นขาลึก ๆ มา 10 วัน ผิวปกติ MRI พบโพรงหนอง 5 cm ในกล้ามเนื้อ quadriceps — ระบายผ่านผิวหนังใต้ภาพนำทางร่วมกับยา""",
+  "E":"""Cellulitis เป็นการอักเสบของชั้นผิวและไขมันตื้น ปวดสมกับผื่นที่เห็น ไม่มีช็อก ตุ่มน้ำคล้ำ หรือ fascia ตาย การปล่อยกลับบ้านในภาพที่มี sepsis และปวดเกินสัดส่วนเป็นความผิดพลาดร้ายแรง · จะถูกถ้าชายสุขภาพดีอายุ 35 ปี มีผื่นแดงร้อนกดเจ็บที่น่อง ปวดพอดีกับผื่น ไม่มีไข้สูง ไม่มีตุ่มน้ำหรือผิวคล้ำ และเดินได้ปกติ"""},
+ trap="""ผิวที่ดูไม่มากทำให้วินิจฉัยเป็น cellulitis แล้วรักษาแบบผู้ป่วยนอก — ตัวแยกคือ sepsis และความปวดที่ไม่สมกับผิวที่เห็น ร่วมกับตุ่มน้ำคล้ำ ขณะผ่าตัดยืนยันด้วย finger test · อย่าใช้คะแนน LRINEC ที่ต่ำหรือการรอ CT มาตัดโรคออกเมื่อคลินิกชัด เพราะทุกชั่วโมงที่ช้าเพิ่มอัตราตาย""",
+ summary=[
+  """แกน: sepsis + ปวดเกินสัดส่วน + ตุ่มน้ำหรือผิวคล้ำ → necrotizing fasciitis → <b>ผ่าตัด debride ด่วน + ยากว้าง + resuscitation</b>""",
+  """พยาธิกำเนิด: ลามตาม superficial fascia → perforator อุดตัน → ผิวตายตามหลัง ผิวจึงดูน้อยกว่าความเสียหายจริง (ลายมือสไลด์หน้า 69 'กิน fascia ได้ไกล')""",
+  """เชื้อ: type I polymicrobial (เบาหวาน, perineum, หลังผ่าตัดลำไส้) · type II group A Streptococcus · กลุ่มเชื้อทะเลเช่น Vibrio vulnificus ในผู้ป่วยตับแข็ง""",
+  """ยาเริ่มต้น (IDSA 2014): vancomycin หรือ linezolid + piperacillin-tazobactam หรือ carbapenem + clindamycin เพื่อยับยั้ง toxin""",
+  """ขณะผ่าตัด: fascia เทา ไม่มีเลือดออก น้ำหนองแบบ dishwater, finger test บวก → ตัดจนถึงเนื้อดี และ second look ใน 24–48 ชั่วโมง""",
+  """ชีทหน้า 8: ปัจจัยเสี่ยง เบาหวาน ขาดสารอาหาร อ้วน สุรา โรคหลอดเลือดส่วนปลาย มะเร็งเม็ดเลือดขาว ตับแข็ง ไตวาย ภูมิคุ้มกันบกพร่อง — ลามเร็วจน septic shock"""],
+ opinion="""เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ภาพในโจทย์ครบทั้ง sepsis ปวดเกินสัดส่วน ตุ่มน้ำคล้ำ และ finger test บวก ตรงกับลายมือสไลด์หน้า 69 ที่ว่าแผลอาจไม่ใหญ่แต่มี sepsis เชื้อผสม G+, G− และ anaerobe และรักษาด้วยการกรีดแล้วใช้นิ้วเซาะ · แนวทางปัจจุบัน (IDSA 2014, WSES/SIS-E 2018) เพิ่มรายละเอียดที่สไลด์ไม่ได้เขียน: ให้ clindamycin เพื่อลด toxin ใน streptococcal และ clostridial infection, ทำ second look ภายใน 24–48 ชั่วโมง และไม่ใช้ LRINEC เพื่อตัดโรคออกเพราะความไวต่ำ · IVIG ยังเป็นทางเลือกที่หลักฐานไม่ชัด ใช้เฉพาะ streptococcal toxic shock บางราย""",
+ mnemonic="""<b>'ปวดเกินเห็น ช็อกเกินแผล — นิ้วเซาะ fascia ได้ ผ่าเดี๋ยวนี้'</b>""",
+ guide="""IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (2014); WSES/SIS-E Consensus Conference: Recommendations for the Management of Skin and Soft-Tissue Infections (2018); Sabiston Textbook of Surgery 21st ed. (2022)""",
+ variants=[
+  """ชายตับแข็งกินหอยนางรมดิบ 1 วันต่อมาขาบวม มีตุ่มน้ำเลือดและช็อก → Vibrio vulnificus necrotizing infection ให้ doxycycline ร่วมกับ ceftriaxone และ debride ด่วน""",
+  """เด็กอายุ 6 ปี เป็นอีสุกอีใสแล้วตุ่มหนึ่งที่ต้นขาบวมแดงปวดมาก ไข้สูง ความดันลดลง → group A streptococcal necrotizing fasciitis ร่วม toxic shock — debride ด่วน + penicillin + clindamycin""",
+  """ชายเบาหวานปวดต้นขามากก่อนผิวเปลี่ยน CT พบแก๊สตามระนาบ fascia → ยืนยันการติดเชื้อชนิด necrotizing ส่งผ่าตัดทันที แต่ CT ที่ไม่มีแก๊สก็ไม่ได้ตัดโรคออก"""])
+
+# ---------------- 64 Fournier ----------------
+mk(Q, 64, [69, 's8'],
+ stem="""A 58-year-old diabetic man has rapidly spreading necrosis of the scrotal and perineal skin with sepsis. What is the diagnosis?""",
+ opts=["""Fournier gangrene""","""Scrotal cellulitis""","""Carbuncle""","""Hidradenitis suppurativa""","""Perianal abscess"""],
+ interp="""ชายเบาหวาน ผิวถุงอัณฑะและฝีเย็บตายลามเร็วร่วมกับ sepsis → เป็นภาพของ necrotizing soft tissue infection ที่บริเวณ perineum และอวัยวะเพศภายนอก → ถามชื่อเฉพาะของภาวะนี้ ต้องรู้ว่าโรคเดียวกับ necrotizing fasciitis เมื่อเกิดที่ perineum มีชื่อเรียกเฉพาะ และต่างจากรอยโรคเฉพาะที่ซึ่งอาจเป็นต้นเหตุ""",
+ why="""<b>Fournier gangrene</b> คือ <b>necrotizing fasciitis ของ perineum อวัยวะเพศภายนอก และรอบทวารหนัก</b> ลามไปตาม Colles' fascia → dartos → Scarpa's fascia ขึ้นถึงผนังหน้าท้องได้ · ต้นเหตุมักมาจาก<b>ฝีรอบทวารหนักหรือโรคทวารหนัก</b>, ทางเดินปัสสาวะ (urethral stricture, การใส่สายสวน) หรือแผลที่ผิวบริเวณนั้น · เชื้อเป็น<b>polymicrobial</b> (E. coli, Bacteroides, streptococci, staphylococci) · ปัจจัยเสี่ยงหลักคือ<b>เบาหวาน</b> สุรา ภูมิคุ้มกันต่ำ และมีรายงานสัมพันธ์กับยากลุ่ม <b>SGLT2 inhibitor</b> · การรักษา: resuscitation + ยากว้าง + <b>debride ด่วนและซ้ำ</b> · <b>อัณฑะมักรอด</b>เพราะได้เลือดจาก testicular artery ที่แยกจาก aorta ไม่ได้ผ่านผิวถุงอัณฑะ · อาจต้องเบี่ยงอุจจาระด้วย colostomy หรืออุปกรณ์จัดการอุจจาระเมื่อแผลใกล้ทวาร · ชีทหน้า 8 ระบุตำแหน่ง external genitalia, perineum และ abdominal wall พร้อมปัจจัยเสี่ยง · สไลด์หน้า 69 ลายมือ <b>"· ถ้าเป็นที่ perineum = Fournier gangrene"</b>""",
+ wrong={
+  "B":"""Cellulitis ของถุงอัณฑะทำให้บวมแดงร้อนได้ แต่ผิวไม่ตายเป็นแผ่น ไม่มีตุ่มน้ำคล้ำหรือ crepitus และไม่ลามเร็วจนช็อก การเรียกผิดเป็น cellulitis ทำให้ผ่าตัดช้าและอัตราตายสูงขึ้น · จะถูกถ้าชายอายุ 45 ปี มีถุงอัณฑะบวมแดงร้อนกดเจ็บหลังมีแผลถลอก ผิวไม่คล้ำ ไม่มีตุ่มน้ำ สัญญาณชีพปกติ และอาการดีขึ้นใน 48 ชั่วโมงหลังให้ยา""",
+  "C":"""Carbuncle เป็นฝีหลายโพรงจาก S. aureus ที่รูขุมขนหลายรู มีหลายรูเปิดหนองไหล ผิวคลุมตายเฉพาะจุดเหนือโพรง ไม่ลามเป็นแผ่นกว้างตาม fascia ภายในไม่กี่ชั่วโมง และไม่ใช่ชื่อของ necrotizing infection · จะถูกถ้าชายเบาหวานอายุ 62 ปี มีก้อนแข็งแดง 6 cm ที่ท้ายทอยมีรูหนองไหลหลายรู ไข้ต่ำ ๆ เป็นมา 1 สัปดาห์""",
+  "D":"""Hidradenitis suppurativa เป็นโรคอักเสบเรื้อรังของรูขุมขนในบริเวณที่มี apocrine gland เช่นรักแร้ ขาหนีบ และฝีเย็บ จึงอยู่ตำแหน่งเดียวกันได้ แต่เป็นซ้ำเป็นปี ไม่ทำให้ผิวตายลามเร็วร่วมกับ sepsis · จะถูกถ้าหญิงอายุ 26 ปี มีตุ่มฝีที่ขาหนีบและรักแร้เป็น ๆ หาย ๆ มา 5 ปี มี sinus tract เชื่อมกัน แผลเป็นรั้ง และกลิ่นเหม็น""",
+  "E":"""ฝีรอบทวารหนักเป็นต้นเหตุที่พบบ่อยที่สุดอย่างหนึ่งของ Fournier gangrene แต่ตัวฝีเองเป็นโพรงหนองจำกัดที่ ปวดบวมข้างทวาร ไม่ใช่ผิวถุงอัณฑะและฝีเย็บตายลามเร็วร่วมกับ sepsis · จะถูกถ้าชายอายุ 40 ปี ปวดตุบ ๆ ข้างทวารหนัก 3 วัน คลำได้ก้อนแดงกดเจ็บ fluctuant 3 cm ผิวรอบไม่คล้ำ ไม่มี crepitus และไม่ช็อก"""},
+ trap="""ผิวที่ตายบริเวณ perineum ชวนให้ตอบชื่อรอยโรคตามตำแหน่ง เช่น ฝีรอบทวาร HS หรือ cellulitis ของถุงอัณฑะ — ตัวชี้คือ 'ผิวตายลามเร็ว + sepsis' ซึ่งเป็นนิยามของ necrotizing infection และเมื่ออยู่ที่ perineum หรืออวัยวะเพศจึงเรียก Fournier gangrene ฝีรอบทวารอาจเป็นต้นเหตุแต่ไม่ใช่การวินิจฉัย""",
+ summary=[
+  """แกน: necrotizing fasciitis ที่ perineum อวัยวะเพศภายนอก และรอบทวาร = <b>Fournier gangrene</b> (ลายมือสไลด์หน้า 69)""",
+  """ต้นเหตุ: anorectal (ฝีรอบทวาร พบบ่อย) · urogenital (urethral stricture, สายสวน) · แผลที่ผิวบริเวณนั้น""",
+  """ทางลาม: Colles' fascia → dartos → Scarpa's fascia ขึ้นผนังหน้าท้อง (ชีทหน้า 8: external genitalia, perineum, abdominal wall)""",
+  """ปัจจัยเสี่ยง: เบาหวาน สุรา ภูมิคุ้มกันต่ำ ตับแข็ง ไตวาย ขาดสารอาหาร — เชื้อเป็นแบบผสม""",
+  """อัณฑะมักรอดเพราะเลือดมาจาก testicular artery — ไม่ต้องตัดอัณฑะเป็นปกติ""",
+  """รักษาตามหลัก necrotizing infection: resuscitation + ยากว้าง + debride ด่วนและซ้ำจนไม่มีเนื้อตายเพิ่ม"""],
+ opinion="""เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ลายมือสไลด์หน้า 69 เขียนตรงว่าถ้าเป็นที่ perineum = Fournier gangrene และชีทหน้า 8 ระบุตำแหน่ง external genitalia, perineum และ abdominal wall พร้อมปัจจัยเสี่ยงที่ตรงกับโจทย์ · ข้อสังเกต: ชีทเขียนเหมือนชื่อนี้ใช้กับ necrotizing soft tissue infection ที่ผนังหน้าท้องด้วย ขณะที่ตำราปัจจุบันใช้ชื่อ Fournier เฉพาะเมื่อเริ่มที่ perineum และอวัยวะเพศ แม้จะลามขึ้นผนังหน้าท้องได้ · US FDA ปี 2018 เตือนความสัมพันธ์กับยา SGLT2 inhibitor และโรคนี้พบในผู้หญิงได้แม้น้อยกว่า ซึ่งสไลด์และชีทยังไม่ได้กล่าวถึง""",
+ mnemonic="""<b>'Fournier = Fasciitis ที่ง่ามขา — อัณฑะรอด เพราะเลือดมาจากในท้อง'</b>""",
+ guide="""EAU Guidelines on Urological Infections (2024) — Fournier's gangrene; IDSA Practice Guidelines for Skin and Soft Tissue Infections (2014); Campbell-Walsh-Wein Urology 12th ed. (2020)""",
+ variants=[
+  """หญิงเบาหวานอายุ 60 ปี ที่ใช้ empagliflozin มีปวดบวมแคมและฝีเย็บพร้อมไข้และผิวคล้ำ → สงสัย Fournier gangrene แม้เป็นผู้หญิง หยุดยา SGLT2 inhibitor และส่งผ่าตัดด่วน""",
+  """หลัง debride Fournier gangrene ผิวถุงอัณฑะหายไปทั้งหมดแต่อัณฑะทั้งสองข้างดี → ฝังอัณฑะไว้ใต้ผิวต้นขาชั่วคราว หรือรอแผลสะอาดแล้วปิดด้วย skin graft หรือ flap""",
+  """ชายใส่สายสวนปัสสาวะนานจนเกิด urethral stricture แล้วผิวองคชาตและถุงอัณฑะตาย → นอกจาก debride ต้องเบี่ยงปัสสาวะด้วย suprapubic cystostomy""",
+  """ชายมีแผลตายที่ฝีเย็บติดขอบทวารหนักหลัง debride ซ้ำ อุจจาระเปื้อนแผลทุกวัน → ทำ diverting colostomy หรือใช้ระบบจัดการอุจจาระเพื่อให้แผลหาย"""])
+
+# ---------------- 65 Perforator mechanism ----------------
+mk(Q, 65, [2, 69, 's3', 's8'],
+ stem="""A 47-year-old man has necrotizing fasciitis of the leg. The skin over the infected fascia becomes dusky and then necrotic, although the skin was not the initial site of infection. Why does the overlying skin die?""",
+ opts=["""Toxic injury to the skin from the antibiotics given""","""Primary infection of the epidermis spreading downward""","""Thrombosis of suprafascial vessels and their skin perforators""","""Loss of melanocytes from the basal layer""","""Congestion from thrombosis of the deep leg veins beneath the fascia"""],
+ interp="""Necrotizing fasciitis ที่ขา ผิวเหนือ fascia ที่ติดเชื้อค่อย ๆ คล้ำแล้วตาย ทั้งที่ผิวไม่ใช่จุดเริ่มติดเชื้อ → ถามกลไกที่ทำให้ผิวด้านบนตาย ต้องใช้ความรู้ว่าผิวได้เลือดจากหลอดเลือดที่วิ่งบน fascia ผ่าน perforator และลำดับเหตุการณ์ที่ลายมือบนสไลด์เขียนไว้""",
+ why="""ลำดับเหตุการณ์คือ <b>การติดเชื้อลามตามระนาบ fascia → หลอดเลือดที่วิ่งเหนือ fascia และ perforator อุดตันจาก thrombosis (ร่วมกับ toxin ทำลาย endothelium และความดันในเนื้อเยื่อที่บวม) → cutaneous ischemia → ผิวตาย</b> · ผิวหนังไม่มีหลอดเลือดใหญ่ของตัวเอง ได้เลือดจาก <b>perforator</b> ที่แทงขึ้นมาเลี้ยง <b>subdermal plexus</b> และ dermo-epidermal plexus ซึ่งเชื่อมกันด้วยหลอดเลือดแนวตั้ง (สไลด์หน้า 2, ชีทหน้า 3) เมื่อแหล่งเลือดถูกตัดที่ระนาบ fascia ผิวทั้งแผ่นจึงขาดเลือดพร้อมกัน · ความหมายทางคลินิก: (1) ผิวเปลี่ยนสี<b>ช้ากว่า</b>ความเสียหายใต้ผิว ขอบ fascia ที่ตายจึงกว้างกว่าผิวคล้ำ (2) เส้นประสาทผิวที่วิ่งในชั้นเดียวกันถูกทำลายด้วย ผิวจึง<b>ชา</b>ทั้งที่ระยะแรกปวดมาก (3) ผิวที่ตายแล้วไม่ฟื้น ยาเข้าไม่ถึงเนื้อที่ไม่มีเลือด ต้องตัดทิ้งพร้อม fascia · สไลด์หน้า 69 ลายมือ <b>"vss. เหนือ fascia พัง ↓ perforator พัง ↓ cut. ischemia ↓ necrosis"</b>""",
+ wrong={
+  "A":"""ยาปฏิชีวนะบางชนิดทำให้เกิดผื่นแพ้รุนแรงได้ แต่ไม่ทำให้ผิวตายเป็นแผ่นเฉพาะเหนือ fascia ที่ติดเชื้อ และยาเป็นสิ่งที่ต้องให้ต่อ · ไม่มีสถานการณ์ใดที่ยาที่ให้รักษาเป็นกลไกทำให้ผิวเหนือ necrotizing fasciitis ตาย เพราะผิวตายจาก perforator อุดตันตั้งแต่ก่อนให้ยา ส่วน SJS หรือ TEN จากยาทำให้ผิวลอกกระจายทั่วตัว ไม่ใช่เฉพาะเหนือ fascia ที่ติดเชื้อ""",
+  "B":"""Necrotizing fasciitis เริ่มและลามในระนาบ fascia ผิวด้านบนดูปกติก่อนแล้วจึงคล้ำตามมา การติดเชื้อที่เริ่มจาก epidermis ลงไปข้างล่างเป็นภาพของ impetigo หรือ cellulitis · ไม่มีสถานการณ์ใดที่ผิวเหนือ necrotizing fasciitis ตายเพราะเชื้อเริ่มที่ epidermis แล้วลามลง เพราะนิยามของโรคคือการติดเชื้อที่ลามตาม fascia และผิวตายเป็นผลตามจากการขาดเลือด แม้จุดเข้าของเชื้ออาจเป็นแผลเล็กที่ผิว""",
+  "D":"""Melanocyte อยู่ใน basal layer มีหน้าที่สร้าง melanin ปกป้องผิวจาก UV การสูญเสีย melanocyte ทำให้ผิวด่างขาวแบบ vitiligo แต่ผิวยังมีชีวิตปกติ ไม่เกี่ยวกับการขาดเลือด · ไม่มีสถานการณ์ใดที่การสูญเสีย melanocyte ทำให้ผิวตาย เพราะ melanocyte ไม่ได้ทำหน้าที่เลี้ยงหรือค้ำจุนเซลล์ผิว ผิวที่ไม่มี melanocyte เลยยังมีชีวิตได้ตามปกติ""",
+  "E":"""Deep vein อยู่ใต้ fascia และระบายเลือดจากกล้ามเนื้อ DVT ที่รุนแรงมากอาจทำให้ขาเขียวคล้ำจนเกิด venous gangrene ได้ แต่จะเป็นทั้งขาส่วนปลาย ไม่ใช่เฉพาะผิวเหนือ fascia ที่ติดเชื้อ · จะถูกถ้าชายอายุ 60 ปี เป็นมะเร็งตับอ่อน ขาซ้ายบวมมากทั้งขา เขียวคล้ำ ปวด ชีพจรเท้าเบาลง แล้วนิ้วเท้าดำ จาก iliofemoral DVT รุนแรง (venous gangrene)"""},
+ trap="""เห็นผิวตายก็คิดว่าเชื้อเริ่มที่ผิว หรือเห็นขาบวมก็คิดถึงลิ่มเลือดในหลอดเลือดดำลึก — ตัวแยกคือผิวตายเป็นแผ่นเฉพาะเหนือ fascia ที่ติดเชื้อ และเกิดตามหลังความปวด แปลว่าผิวเป็นเหยื่อของการขาดเลือดจาก perforator ไม่ใช่จุดตั้งต้นของเชื้อหรือเลือดคั่งทั้งขา""",
+ summary=[
+  """แกน: ผิวเหนือ necrotizing fasciitis ตายเพราะ <b>vessels เหนือ fascia และ perforator อุดตัน → cutaneous ischemia</b> (ลายมือสไลด์หน้า 69)""",
+  """ผิวเปลี่ยนช้ากว่าความเสียหายใต้ผิว: fascia ที่ตายกว้างกว่าผิวคล้ำ → ขอบการตัดตัดสินจาก fascia ไม่ใช่จากสีผิว""",
+  """ลำดับอาการผิว: ปกติแต่ปวดมาก → บวมแข็ง → ตุ่มน้ำ ตุ่มน้ำเลือด → คล้ำม่วง → ชาและดำ""",
+  """อาการเปลี่ยนจากปวดมากเป็นชา = เส้นประสาทผิวที่วิ่งชั้นเดียวกับหลอดเลือดถูกทำลาย — เป็นสัญญาณร้าย""",
+  """เนื้อที่ไม่มีเลือดยาเข้าไม่ถึง → ต้องผ่าตัดตัดผิวที่ตายและ fascia ทิ้ง ยาอย่างเดียวไม่พอ""",
+  """ชีทหน้า 8: necrotizing fasciitis เป็นการติดเชื้อของชั้น fascia ซึ่งอยู่ลึกกว่าชั้นไขมัน ลุกลามเร็วจนติดเชื้อในกระแสเลือดและ septic shock"""],
+ opinion="""เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ลายมือสไลด์หน้า 69 เขียนลำดับ vss. เหนือ fascia พัง → perforator พัง → cut. ischemia → necrosis ตรงตัว และลายมือสไลด์หน้า 2 ระบุว่าเส้นเลือดวิ่งเหนือ fascia แทงขึ้นเป็น perforator สอดคล้องกับชีทหน้า 3 ที่บรรยาย plexus สองระดับ · ตำราปัจจุบันเพิ่มว่ากลไกไม่ได้มีแค่ thrombosis แต่รวม toxin ของเชื้อที่ทำลาย endothelium และความดันในเนื้อเยื่อที่บวมกดหลอดเลือดด้วย ซึ่งไม่ขัดกับคำตอบ · ไม่พบจุดที่สไลด์หรือชีทขัดกับแนวทางปัจจุบันในเรื่องกลไกนี้""",
+ mnemonic="""<b>'รากพังก่อน ใบเหี่ยวทีหลัง — fascia พัง perforator ขาด ผิวตายตาม'</b>""",
+ guide="""Sabiston Textbook of Surgery 21st ed. (2022) — Skin and soft tissue infections; Grabb and Smith's Plastic Surgery 8th ed. (2020) — Cutaneous blood supply; IDSA Practice Guidelines for Skin and Soft Tissue Infections (2014)""",
+ variants=[
+  """ชายถูกล้อรถทับขาแบบ degloving ผิวหลุดจาก fascia เป็นแผ่นแต่ยังติดที่ฐาน → ผิวแผ่นนั้นมักตายเพราะ perforator จาก fascia ขาดหมด ต้องประเมินแล้วตัดหรือนำไปใช้เป็น graft""",
+  """หญิงหลังผ่าตัด abdominoplasty ที่สูบบุหรี่จัด ผิวส่วนปลายของ flap หน้าท้องคล้ำแล้วตาย → perforator ถูกตัดระหว่างเลาะ flap ผิวส่วนไกลได้เลือดผ่าน plexus ไม่พอ""",
+  """หญิงฉีด filler ที่จมูกแล้วผิวซีดเป็นลายตามแนวหลอดเลือดและปวดทันที → หลอดเลือดแดงที่เลี้ยงผิวอุดตันจากสารฉีด ผิวในพื้นที่ของหลอดเลือดนั้นจะตายถ้าไม่แก้ไขด่วน"""])
+
+# ---------------- 66 Neurofibroma ----------------
+mk(Q, 66, [70, 's14'],
+ stem="""A 35-year-old woman has several soft, skin-colored papules on the trunk. When pressed, each papule invaginates into the skin and pops back when released. What is the most likely diagnosis?""",
+ opts=["""Keratoacanthoma""","""Dermatofibroma""","""Seborrheic keratosis""","""Acrochordon""","""Neurofibroma"""],
+ interp="""หญิงวัยทำงาน มีตุ่มนุ่มสีผิวหลายตุ่มที่ลำตัว กดแล้วจมลงไปในผิวเหมือนกดกระดุมและเด้งกลับเมื่อปล่อย (buttonhole sign) → ถามการวินิจฉัย ต้องรู้ลักษณะทางคลินิกที่แยก neurofibroma ออกจากตุ่มเนื้อสีผิวชนิดอื่น และรู้ว่าเมื่อมีหลายก้อนต้องค้นหา NF1 ต่อ""",
+ why="""<b>Cutaneous neurofibroma</b> เป็นเนื้องอกไม่ร้ายของ <b>peripheral nerve sheath</b> ประกอบด้วย Schwann cell, fibroblast และ mast cell ปะปนกันใน dermis · ลักษณะคลินิก: ตุ่มหรือก้อน<b>นุ่ม สีผิวหรือชมพูอ่อน</b> บางก้อนเป็นติ่ง กดแล้ว<b>จมลงไปในผิว</b>ได้ (<b>buttonhole sign</b>) ต่างจาก dermatofibroma ที่แข็งและบีบแล้วบุ๋ม (dimple sign) · ก้อนเดี่ยวพบในคนทั่วไปแบบ sporadic แต่ถ้า<b>มีหลายก้อน (≥ 2)</b> ต้องค้นหา <b>NF1</b>: café-au-lait, กระที่รักแร้หรือขาหนีบ, Lisch nodule และประวัติครอบครัว · cutaneous neurofibroma แทบไม่กลายเป็นมะเร็ง ที่ต้องระวังคือ <b>plexiform neurofibroma</b> และก้อนลึกซึ่งกลายเป็น MPNST ได้ อาการเตือนคือก้อนโตเร็ว ปวดมาก หรือแข็งขึ้น · รักษาเมื่อมีอาการหรือเพื่อความสวยงามด้วยการตัด, electrodesiccation หรือ laser · ชีทหน้า 14 จัด neurofibroma ไว้ในกลุ่ม neural tumor คู่กับ neurilemmoma · สไลด์หน้า 70 ลายมือภาพ C <b>"neurofibroma"</b> และเส้นชี้ก้อน <b>"นุ่ม"</b>""",
+ wrong={
+  "A":"""Keratoacanthoma เป็นก้อนโดมสีผิวถึงชมพูที่โตเร็วในไม่กี่สัปดาห์ ตรงกลางเป็นปล่องมี keratin อุด (ภาพ D บนสไลด์หน้าเดียวกัน) มักเป็นก้อนเดียวบนผิวที่โดนแดด เนื้อแข็ง ไม่จมเมื่อกด · จะถูกถ้าชายอายุ 68 ปี มีก้อนโดม 1.5 cm ที่หลังมือ โตเร็วใน 4 สัปดาห์ ตรงกลางเป็นหลุมมี keratin อุดแน่น ขอบเรียบ""",
+  "B":"""Dermatofibroma เป็นตุ่มแข็งสีน้ำตาลแดงขนาด 1–2 cm มักที่แขนขา อาจเกิดหลังแมลงกัด (ชีทหน้า 14) ลักษณะเด่นคือบีบด้านข้างแล้วตรงกลางบุ๋มลง (dimple sign) ไม่ใช่ตุ่มนุ่มที่กดแล้วจมลงตรง ๆ · จะถูกถ้าหญิงอายุ 40 ปี มีตุ่มแข็งเดี่ยวสีน้ำตาลแดง 8 mm ที่ต้นแขน คลำแข็งเหมือนกระดุมฝังในผิว บีบสองข้างแล้วตรงกลางบุ๋ม เป็นมาหลายปีไม่โต""",
+  "C":"""Seborrheic keratosis เป็นรอยโรคของ epidermis สีน้ำตาลถึงดำ ผิวขรุขระมันเยิ้มเหมือนแปะติดบนผิว (stuck-on) มีจุด keratin เล็ก ๆ (horn cyst) ไม่ใช่ตุ่มนุ่มสีผิวที่กดแล้วจม · จะถูกถ้าชายอายุ 65 ปี มีปื้นนูนสีน้ำตาลเข้มหลายอันที่หลังและหน้าอก ผิวขรุขระเหมือนขี้ผึ้ง ดูเหมือนแปะอยู่บนผิวและแกะแล้วหลุดบางส่วน""",
+  "D":"""Acrochordon หรือ skin tag เป็นติ่งเนื้อนุ่มสีผิวมีก้านเล็ก ห้อยตามรอยพับ เช่นคอ รักแร้ ขาหนีบ พบบ่อยในคนอ้วนหรือมี insulin resistance แม้นุ่มเหมือนกันแต่เป็นติ่งที่จับแกว่งได้ ไม่ใช่ตุ่มที่กดแล้วจมลงในผิว · จะถูกถ้าหญิงอ้วนอายุ 50 ปี มีติ่งเนื้อนุ่มสีผิวขนาด 2–3 mm มีก้านเล็กหลายสิบติ่งรอบคอและรักแร้ ถูกเสื้อผ้าเสียดสีบ่อย"""},
+ trap="""ตุ่มนุ่มสีผิวหลายตุ่มดูคล้าย skin tag ส่วนคำว่าตุ่มที่ผิวทำให้นึกถึง dermatofibroma — วิธีแยก: neurofibroma นุ่มและกดแล้วจมลงในผิว (buttonhole), skin tag เป็นติ่งมีก้านอยู่ตามรอยพับ, dermatofibroma แข็งและบีบแล้วบุ๋ม เมื่อพบ neurofibroma หลายก้อนให้ตรวจหาเกณฑ์ NF1 ต่อทันที""",
+ summary=[
+  """แกน: ตุ่มนุ่มสีผิว กดแล้วจมลงในผิว (<b>buttonhole sign</b>) = cutaneous neurofibroma""",
+  """สไลด์หน้า 70 รวมรอยโรคไม่ร้าย: A seborrheic keratosis · B nevus sebaceous (premalignant → excision) · C neurofibroma 'นุ่ม' · D keratoacanthoma""",
+  """Neurofibroma มาจาก nerve sheath: Schwann cell + fibroblast + mast cell · ต่างจาก neurilemmoma (schwannoma) ที่เป็น Schwann cell ล้วน มีแคปซูล ปวดร้าวตามเส้นประสาท (ชีทหน้า 14)""",
+  """Neurofibroma ≥ 2 ก้อน หรือ plexiform 1 ก้อน = เกณฑ์ NF1 หนึ่งข้อ → ตรวจ café-au-lait กระรักแร้ ตา และครอบครัว""",
+  """ความเสี่ยงมะเร็ง (MPNST) มาจาก plexiform และก้อนลึกเป็นหลัก ไม่ใช่ตุ่มผิวเล็ก ๆ""",
+  """แยกตุ่มสีผิวอื่น: dermatofibroma แข็ง dimple sign · skin tag มีก้าน · lipoma อยู่ใต้ผิว นุ่มเป็นพู โยกได้"""],
+ opinion="""เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ลายมือสไลด์หน้า 70 กำกับภาพ C ว่า neurofibroma และเขียนว่า 'นุ่ม' ตรงกับ buttonhole sign · จุดที่ต่าง: ชีทหน้า 14 บรรยาย neurofibroma ว่าเป็น firm nodule ซึ่งไม่ตรงกับลักษณะของ cutaneous neurofibroma ที่นุ่ม (ก้อนแข็งมักเป็น dermatofibroma หรือเป็นสัญญาณเตือนในก้อนลึก) และชีทเขียนว่าก้อน neurofibroma มีโอกาสเป็นมะเร็ง 8–16% ซึ่งตัวเลขนี้ควรเข้าใจว่าเป็นความเสี่ยงตลอดชีวิตของ MPNST ในผู้ป่วย NF1 ที่มาจาก plexiform หรือก้อนลึกเป็นหลัก ไม่ใช่โอกาสที่ตุ่มผิวแต่ละตุ่มจะกลายเป็นมะเร็ง""",
+ mnemonic="""<b>'Neuro นุ่ม กดจมเหมือนกระดุม — Dermato แข็ง บีบแล้วบุ๋ม'</b>""",
+ guide="""Bolognia Dermatology 4th ed. (2018) — Neural and neuroendocrine neoplasms; Revised diagnostic criteria for neurofibromatosis type 1 and Legius syndrome: an international consensus recommendation, Genetics in Medicine (2021)""",
+ variants=[
+  """เด็ก NF1 อายุ 7 ปี มีก้อนนุ่มใหญ่ที่เปลือกตาบนและขมับ คลำเหมือนถุงใส่หนอน มีอาการและผ่าตัดออกหมดไม่ได้ → plexiform neurofibroma ใช้ selumetinib ซึ่งเป็น MEK inhibitor""",
+  """หญิงมี neurofibroma หลายก้อนเฉพาะผิวหน้าอกด้านขวาเป็นแถบเดียว ไม่มีอาการอื่น พ่อแม่ปกติ → segmental หรือ mosaic NF1""",
+  """ผู้ป่วย NF1 มีตุ่มผิวนับร้อยที่ลำตัว รบกวนความสวยงามและคัน → ตัดเฉพาะก้อนที่มีอาการ หรือใช้ CO2 laser หรือ electrodesiccation จำนวนมากในครั้งเดียว"""])
+
+# ---------------- 67 NF1 criteria ----------------
+mk(Q, 67, [71, 72, 's14'],
+ stem="""A 10-year-old boy has seven café-au-lait macules larger than 5 mm and freckling in both axillae. His mother has multiple soft skin nodules on her trunk. What is the diagnosis?""",
+ opts=["""Neurofibromatosis type 2""","""Neurofibromatosis type 1""","""Legius syndrome""","""McCune–Albright syndrome""","""Tuberous sclerosis complex"""],
+ interp="""เด็กชายก่อนวัยรุ่นมี café-au-lait &gt; 5 mm เจ็ดจุด ร่วมกับกระที่รักแร้สองข้าง และแม่มีตุ่มนุ่มที่ผิวหลายตุ่มซึ่งน่าจะเป็น neurofibroma → ถามการวินิจฉัย ต้องใช้เกณฑ์วินิจฉัย NF1 (≥ 2 ข้อ) และแยกจากกลุ่มอาการอื่นที่มี café-au-lait หรือรอยโรคผิวคล้ายกัน""",
+ why="""เกณฑ์วินิจฉัย <b>NF1</b> ต้องมี<b>อย่างน้อย 2 ใน 7 ข้อ</b>: (1) <b>café-au-lait ≥ 6 จุด</b> ขนาด <b>&gt; 5 mm ก่อนวัยรุ่น</b> หรือ <b>&gt; 15 mm หลังวัยรุ่น</b> (2) neurofibroma ≥ 2 ก้อน หรือ plexiform 1 ก้อน (3) <b>กระที่รักแร้หรือขาหนีบ</b> (4) optic glioma (5) Lisch nodule ≥ 2 (6) รอยโรคกระดูกจำเพาะ เช่น sphenoid dysplasia หรือ long bone cortex บาง ± pseudarthrosis (7) <b>ญาติสายตรงเป็น NF1</b> · เด็กมี café-au-lait 7 จุด + กระรักแร้ = ครบ 2 ข้อแล้ว และแม่มี neurofibroma หลายก้อนเป็นข้อที่สาม · โรคถ่ายทอดแบบ autosomal dominant ยีน NF1 บนโครโมโซม 17 สร้าง <b>neurofibromin</b> ซึ่งยับยั้ง RAS · ลำดับการปรากฏ: café-au-lait ตั้งแต่ขวบปีแรก → กระรักแร้ช่วงวัยอนุบาลถึงประถม → Lisch nodule และ neurofibroma ช่วงใกล้วัยรุ่น · เกณฑ์ฉบับปรับปรุงปี 2021 เพิ่มการตรวจพบ pathogenic NF1 variant และ choroidal abnormality และเตือนว่าถ้ามีแต่ลักษณะสีผิวโดยไม่มีอย่างอื่นต้องนึกถึง Legius syndrome ด้วย · สไลด์หน้า 72 ตัวพิมพ์ <b>"Diagnostic criteria (≥ 2 of the following)"</b> และลายมือหน้า 71 <b>"มี 2-7 ข้อ"</b>""",
+ wrong={
+  "A":"""NF2 (ปัจจุบันเรียก NF2-related schwannomatosis) เป็นโรคของระบบประสาทส่วนกลาง ยีนบนโครโมโซม 22 ลักษณะเด่นคือ vestibular schwannoma สองข้าง meningioma และต้อกระจกในวัยเยาว์ café-au-lait มีได้แต่จำนวนน้อย และไม่มีกระรักแร้ · จะถูกถ้าชายอายุ 24 ปี หูอื้อสองข้างและเดินเซ MRI พบ vestibular schwannoma สองข้าง และพ่อเคยผ่าตัด meningioma""",
+  "C":"""Legius syndrome จากยีน SPRED1 มี café-au-lait หลายจุดและกระรักแร้ได้เหมือน NF1 จึงเลียนแบบเกณฑ์สองข้อแรกได้ แต่ไม่มี neurofibroma, Lisch nodule หรือ optic glioma ส่วนแม่ในโจทย์มีตุ่มนุ่มหลายตุ่มซึ่งไม่พบใน Legius · จะถูกถ้าเด็กหญิงอายุ 9 ปี มี café-au-lait 8 จุดและกระรักแร้ ไม่มี neurofibroma ตาปกติ แม่มีแต่ café-au-lait โดยไม่มีก้อน และตรวจยีนพบ SPRED1 pathogenic variant""",
+  "D":"""McCune–Albright syndrome เกิดจาก GNAS mutation แบบ mosaic จึงไม่ถ่ายทอดในครอบครัว café-au-lait เป็นปื้นใหญ่จำนวนน้อย ขอบหยักไม่เรียบ และมักอยู่ข้างเดียวไม่ข้ามแนวกลางตัว ร่วมกับ polyostotic fibrous dysplasia และ precocious puberty · จะถูกถ้าเด็กหญิงอายุ 5 ปี มีประจำเดือนก่อนวัย ปื้น café-au-lait ใหญ่ขอบหยักที่หลังด้านขวาข้างเดียว และกระดูกต้นขาหักซ้ำจาก fibrous dysplasia""",
+  "E":"""Tuberous sclerosis complex จากยีน TSC1 หรือ TSC2 มีรอยโรคผิวคือปื้นขาวรูปใบไม้ (hypomelanotic macule), facial angiofibroma, shagreen patch และ ungual fibroma ร่วมกับชักและ cortical tuber ไม่ใช่ café-au-lait จำนวนมากกับกระรักแร้ · จะถูกถ้าเด็กชายอายุ 8 ปี ชักตั้งแต่ขวบแรก มีปื้นขาวรูปใบไม้ 4 ปื้นที่ลำตัว ตุ่มแดงเล็กกระจายที่แก้มและจมูก และ MRI พบ cortical tuber"""},
+ trap="""café-au-lait เป็นลักษณะร่วมของหลายกลุ่มอาการ จึงอาจเลือก NF2 เพราะชื่อคล้าย หรือ Legius เพราะสีผิวเหมือนกัน — ตัวแยกคือ 'จำนวน ≥ 6 + กระรักแร้ + ญาติสายตรงมี neurofibroma' ครบเกณฑ์ NF1 และ neurofibroma ไม่พบใน Legius ส่วน NF2 เด่นที่ schwannoma ของเส้นประสาทหูมากกว่ารอยโรคผิว""",
+ summary=[
+  """แกน: เกณฑ์ NF1 ≥ 2 ใน 7 ข้อ — <b>café-au-lait ≥ 6 จุด + กระรักแร้ + ญาติสายตรง</b> = NF1""",
+  """ขนาด café-au-lait: &gt; 5 mm ก่อนวัยรุ่น · &gt; 15 mm หลังวัยรุ่น (สไลด์หน้า 71–72)""",
+  """สไลด์หน้า 72: อาการแรกที่มักปรากฏ = café-au-lait · เนื้องอกไม่ร้ายที่พบบ่อยที่สุด = neurofibroma""",
+  """ลายมือหน้า 71: NF1 = periphery มีหลายจุด · cf. type 2 — central""",
+  """เกณฑ์ปรับปรุงปี 2021: เพิ่ม pathogenic NF1 variant และ choroidal abnormality · ลักษณะสีผิวอย่างน้อยหนึ่งอย่างควรเป็นสองข้าง""",
+  """ตัวเลียนแบบ: Legius (SPRED1 — สีผิวอย่างเดียว ไม่มีก้อน) · McCune–Albright (ปื้นใหญ่ขอบหยักข้างเดียว) · TSC (ปื้นขาวรูปใบไม้)"""],
+ opinion="""เห็นด้วยกับคำตอบ B ความมั่นใจสูง — สไลด์หน้า 71–72 ใช้เกณฑ์ NIH แบบ 7 ข้อ ≥ 2 ข้อ ซึ่งเด็กในโจทย์ครบชัดเจน · จุดที่สไลด์ต่างจากปัจจุบัน: เกณฑ์ปรับปรุงนานาชาติปี 2021 (Genetics in Medicine) เพิ่มการตรวจพบ heterozygous pathogenic NF1 variant และ choroidal abnormality ที่เห็นด้วย OCT, กำหนดให้ café-au-lait หรือกระอย่างน้อยหนึ่งอย่างต้องเป็นสองข้าง, ให้ระวัง Legius syndrome เมื่อมีแต่ลักษณะสีผิว และถ้าพ่อแม่เป็น NF1 ลูกมีแค่ 1 ข้อก็วินิจฉัยได้ · ลายมือ 'periphery vs central' ใช้แยกคร่าว ๆ ได้ แต่ NF1 ก็มี optic glioma ในระบบประสาทส่วนกลางด้วย""",
+ mnemonic="""<b>'CAFE SPOT': Café-au-lait · Axillary freckling · Fibromas · Eye Lisch · Skeletal · Positive family · Optic Tumor — ครบ ≥ 2 = NF1</b>""",
+ guide="""Revised diagnostic criteria for neurofibromatosis type 1 and Legius syndrome: an international consensus recommendation, Genetics in Medicine (2021); AAP Clinical Report: Health Supervision for Children With Neurofibromatosis Type 1 (2019)""",
+ variants=[
+  """ทารกอายุ 8 เดือน มี café-au-lait 6 จุดขนาด 6 mm และพ่อเป็น NF1 → วินิจฉัย NF1 ได้เลย เพราะลูกของผู้ป่วย NF1 ใช้เกณฑ์เพียง 1 ข้อ""",
+  """เด็กหญิงอายุ 3 ปี มี café-au-lait 7 จุด ไม่มีอย่างอื่น พ่อแม่ปกติ → ยังไม่ครบเกณฑ์ ตรวจยีน NF1 หรือนัดตรวจผิวและตาทุกปีเพราะลักษณะอื่นมักตามมาตามอายุ""",
+  """เด็ก NF1 อายุ 4 ปี ตามัวข้างหนึ่งและตาโปน → optic pathway glioma ทำ MRI สมองและส่งจักษุแพทย์""",
+  """เด็กชายอายุ 2 ปี ขาโก่งไปด้านหน้าข้างเดียว หน้าแข้งหักแล้วไม่ติด → tibial pseudarthrosis ซึ่งเป็นรอยโรคกระดูกจำเพาะของ NF1"""])
+
+# ---------------- 68 NF1 inheritance ----------------
+mk(Q, 68, [72, 's14'],
+ stem="""A 25-year-old woman with neurofibromatosis type 1 asks about inheritance. Neither parent is affected. Which statement is correct?""",
+ opts=["""It cannot be passed on because neither parent carries it""","""Autosomal dominant, NF1 gene on chromosome 17, about half de novo""","""Autosomal recessive with the gene on chromosome 22, so both parents are silent carriers""","""A sporadic chromosome 13 deletion that is never transmitted""","""X-linked, so her sons are at higher risk than her daughters"""],
+ interp="""หญิงที่เป็น NF1 แต่พ่อแม่ไม่เป็น ถามเรื่องการถ่ายทอด → ต้องอธิบายได้ว่าทำไมพ่อแม่ปกติแต่ลูกเป็นได้ และความเสี่ยงต่อลูกของเธอ → ใช้ความรู้ว่า NF1 เป็น autosomal dominant ยีนบนโครโมโซม 17 และราวครึ่งหนึ่งเกิดจาก mutation ใหม่ (de novo) ซึ่งเมื่อเกิดแล้วก็ถ่ายทอดต่อได้""",
+ why="""<b>NF1</b> ถ่ายทอดแบบ <b>autosomal dominant</b> ยีน <b>NF1 อยู่บนโครโมโซม 17q11.2</b> สร้าง neurofibromin (tumor suppressor ที่ยับยั้ง RAS) · ราว <b>50% ได้รับจากพ่อหรือแม่</b> อีก <b>50% เป็น de novo mutation</b> เพราะยีนนี้มีอัตรากลายพันธุ์สูงที่สุดยีนหนึ่งในมนุษย์ · penetrance เกือบ 100% แต่ <b>variable expressivity</b> สูงมากแม้ในครอบครัวเดียวกัน → ก่อนสรุปว่า de novo ต้องตรวจพ่อแม่อย่างละเอียด (ผิวหนังและ slit-lamp หา Lisch nodule) เพราะอาการน้อยอาจถูกมองข้าม · เมื่อเธอเป็นแล้ว ไม่ว่าจะได้รับมาหรือเกิดใหม่ <b>ลูกแต่ละคนเสี่ยง 50%</b> เท่ากันทั้งชายและหญิง และความรุนแรงในลูกทำนายไม่ได้ · พี่น้องของเธอเสี่ยงต่ำแต่ไม่เป็นศูนย์จาก gonadal mosaicism ของพ่อหรือแม่ · เมื่อทราบ variant แล้วสามารถทำ prenatal diagnosis หรือ preimplantation genetic testing ได้ · สไลด์หน้า 72 <b>"Mode of inheritance? ✓ AD (50%) ✓ De novo (50%) ✓ NF1 gene on chromosome 17"</b>""",
+ wrong={
+  "A":"""ความเชื่อว่าพ่อแม่ไม่เป็นแล้วโรคไม่ถ่ายทอดนั้นผิด เพราะ mutation ที่เกิดใหม่ในตัวเธออยู่ในทุกเซลล์รวมถึงเซลล์สืบพันธุ์ และถ่ายทอดต่อแบบ AD เหมือนรายที่ได้รับมา · ไม่มีสถานการณ์ใดที่ผู้ป่วย NF1 แบบทั่วร่างกายถ่ายทอดโรคไม่ได้เลย เพราะ mutation อยู่ใน germline ด้วย แม้ในราย mosaic ที่อาการเฉพาะส่วน ความเสี่ยงต่อลูกจะลดลงแต่ไม่เป็นศูนย์""",
+  "C":"""Autosomal recessive บนโครโมโซม 22 ผิดสองจุด: NF1 เป็น AD และยีนอยู่บนโครโมโซม 17 ส่วนโครโมโซม 22 เป็นตำแหน่งของ NF2 ซึ่งก็ถ่ายทอดแบบ AD เช่นกัน พ่อแม่จึงไม่ใช่พาหะเงียบ · ไม่มีสถานการณ์ใดที่ NF1 ถ่ายทอดแบบ recessive จากพ่อแม่ที่เป็นพาหะ เพราะการมี NF1 allele ผิดปกติเพียงชุดเดียวก็แสดงอาการแล้ว ส่วนพ่อแม่ปกติอธิบายได้ด้วย de novo mutation""",
+  "D":"""การขาดของโครโมโซม 13 (13q14) เกี่ยวกับยีน RB1 ของ retinoblastoma ไม่ใช่ NF1 และแม้ NF1 ราว 5–10% เกิดจาก microdeletion ของทั้งยีน แต่ก็อยู่บน 17q11.2 และถ่ายทอดต่อได้ · ไม่มีสถานการณ์ใดที่ NF1 เกิดจากการขาดของโครโมโซม 13 เพราะยีน NF1 อยู่บนโครโมโซม 17 และ NF1 microdeletion ก็ถ่ายทอดต่อแบบ AD ได้เหมือนกัน""",
+  "E":"""X-linked ทำให้ผู้ชายเป็นมากกว่าและไม่มีการถ่ายทอดจากพ่อสู่ลูกชาย แต่ NF1 เป็นได้เท่ากันทั้งสองเพศ และพ่อที่เป็นถ่ายทอดให้ลูกชายได้ · ไม่มีสถานการณ์ใดที่ NF1 ถ่ายทอดแบบ X-linked เพราะยีนอยู่บน autosome คือโครโมโซม 17 ลูกชายและลูกสาวของเธอจึงเสี่ยงเท่ากันคือ 50%"""},
+ trap="""พ่อแม่ปกติชวนให้คิดว่าเป็น recessive (พาหะเงียบ) หรือคิดว่าไม่ถ่ายทอด — ใน AD ที่มี de novo สูงอย่าง NF1 ผู้ป่วยอาจเป็นคนแรกของครอบครัวที่มี mutation และเมื่อเป็นแล้วถ่ายทอดต่อ 50% ทุกการตั้งครรภ์ อีกกับดักคือสับโครโมโซม 17 (NF1) กับ 22 (NF2)""",
+ summary=[
+  """แกน: NF1 = <b>autosomal dominant · ยีนบนโครโมโซม 17 · ราว 50% familial ราว 50% de novo</b> (สไลด์หน้า 72)""",
+  """ลูกของผู้ป่วยทุกคน รวมถึงรายที่เป็น de novo เสี่ยง 50% เท่ากันทั้งชายหญิง · ความรุนแรงในลูกทำนายไม่ได้""",
+  """Penetrance เกือบ 100% แต่ variable expressivity สูง — ตรวจพ่อแม่ให้ละเอียดก่อนสรุปว่าเป็น de novo""",
+  """Neurofibromin = tumor suppressor ยับยั้ง RAS → เป็นเหตุผลที่ยา MEK inhibitor ใช้ได้ใน plexiform neurofibroma""",
+  """NF2: ยีนบนโครโมโซม 22 (merlin) ถ่ายทอด AD เช่นกัน — คนละโรค คนละยีน""",
+  """ชีทหน้า 14: neurofibroma หลายก้อน = von Recklinghausen disease ถ่ายทอดทางพันธุกรรมแบบ autosomal dominant"""],
+ opinion="""เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับสไลด์หน้า 72 ที่ติ๊ก AD (50%), de novo (50%) และ NF1 gene on chromosome 17 และชีทหน้า 14 ที่ระบุ autosomal dominant · ข้อควรระวังในการอ่านสไลด์: 'AD 50% / de novo 50%' หมายถึงที่มาของ mutation ในผู้ป่วย ไม่ได้แปลว่าครึ่งหนึ่งไม่ใช่ AD — ทุกรายถ่ายทอดต่อแบบ AD · แนวทาง AAP 2019 แนะนำ genetic counseling ทุกครอบครัว ตรวจพ่อแม่ทั้งผิวหนังและตา และเสนอ prenatal หรือ preimplantation testing เมื่อทราบ variant · ไม่พบจุดที่สไลด์หรือชีทขัดกับความรู้ปัจจุบัน""",
+ mnemonic="""<b>'NF1 → 17 เพราะ Neurofibromatosis มี 17 ตัวอักษร · NF2 → 22 (two-two)'</b>""",
+ guide="""AAP Clinical Report: Health Supervision for Children With Neurofibromatosis Type 1 (2019); Revised diagnostic criteria for neurofibromatosis type 1 and Legius syndrome, Genetics in Medicine (2021)""",
+ variants=[
+  """พ่อแม่ปกติมีลูกคนแรกเป็น NF1 แบบ de novo ถามความเสี่ยงของลูกคนถัดไป → ต่ำมากแต่ไม่เป็นศูนย์ จาก gonadal mosaicism ไม่ใช่ 50% และไม่ใช่ 0""",
+  """แม่บอกว่าไม่มีอาการ แต่ตรวจละเอียดพบ café-au-lait 6 จุดและ Lisch nodule → แม่เป็น NF1 อาการน้อย ลูกจึงเป็นแบบ familial และน้องคนต่อไปเสี่ยง 50%""",
+  """ชายเป็น NF1 ทราบ pathogenic variant แล้ว ภรรยาปกติ ต้องการมีบุตรที่ไม่เป็นโรค → ทำ IVF ร่วมกับ preimplantation genetic testing เลือกตัวอ่อนที่ไม่มี variant""",
+  """เด็กมี neurofibroma จำนวนมากตั้งแต่เล็ก หน้าตาผิดรูป และพัฒนาการช้าชัดเจน → นึกถึง NF1 microdeletion ทั้งยีน ซึ่งรุนแรงกว่าและเสี่ยง MPNST สูงกว่า"""])
+
+# ---------------- 69 Melanoma among photos ----------------
+mk(Q, 69, [73],
+ stem="""Four photographed skin lesions are compared: an ulcer with a dirty red base, a small dark nodule with a rolled border, a red scaly plaque with telangiectasia, and a pink nodule with an attached black component. Which one is malignant melanoma?""",
+ opts=["""The red scaly plaque with telangiectasia""","""The pink nodule with a black component""","""The small dark nodule with a rolled border""","""The ulcer with a dirty base""","""None of the four lesions"""],
+ interp="""ภาพรอยโรคมะเร็งผิวหนังสี่แบบ: แผลพื้นแดงสกปรก, ก้อนเล็กสีเข้มขอบม้วน, ปื้นแดงมีสะเก็ดและ telangiectasia, ก้อนชมพูที่มีส่วนสีดำติดอยู่ → ถามว่าภาพไหนคือ melanoma ต้องรู้ลักษณะทางคลินิกที่แยก SCC, BCC ทั้งชนิดมีสีและ nodular ออกจาก melanoma และไม่ตัดสินจากความดำเพียงอย่างเดียว""",
+ why="""การแยกมะเร็งผิวสามชนิดจากภาพ: <b>SCC</b> — ก้อนหรือแผลบนผิวที่โดนแดดหรือแผลเรื้อรัง ขอบนูนแข็ง <b>พื้นแผลแดงสกปรก มี keratin หรือสะเก็ด</b> · <b>BCC</b> — ก้อนมันวาวแบบไข่มุก <b>ขอบม้วน (rolled border)</b> มี <b>arborizing telangiectasia</b> และในคนเอเชียมักเป็น <b>pigmented BCC</b> สีน้ำตาลดำ จึงสับสนกับ melanoma ได้ · <b>Melanoma</b> — ใช้ <b>ABCDE</b> (Asymmetry, Border irregular, Color variegation, Diameter &gt; 6 mm, Evolving) และสำหรับชนิด nodular ใช้ <b>EFG</b> (Elevated, Firm, Growing) · ภาพ D เป็นก้อนชมพูนูนที่มีก้อนสีดำน้ำตาลติดอยู่ข้างหนึ่ง = <b>สีไม่สม่ำเสมอและไม่สมมาตร</b> เข้ากับ melanoma โดยส่วนสีชมพูคือส่วนที่ไม่สร้างสี (amelanotic) · การยืนยันต้อง biopsy: เมื่อสงสัย melanoma แนวทาง NCCN แนะนำ <b>excisional biopsy ขอบแคบ 1–3 mm</b> เพื่อวัด Breslow ทั้งก้อน ใช้ incisional หรือ punch ที่ส่วนหนาที่สุดเมื่อก้อนใหญ่หรืออยู่ที่หน้า มือ เท้า · สไลด์หน้า 73 ลายมือภาพ D <b>"malignant melonoma"</b>""",
+ wrong={
+  "A":"""ปื้นแดงมีสะเก็ดและ telangiectasia ในภาพ C ลายมือกำกับว่า BCC nodular type เพราะ telangiectasia แบบกิ่งไม้บนผิวมันวาวเป็นลักษณะเด่นของ BCC และไม่มีสีดำหรือความไม่สมมาตรของสี · จะถูกถ้าชายอายุ 70 ปี มีปื้นแดงมีสะเก็ดบาง ๆ และหลอดเลือดฝอยที่หลัง โตเร็วใน 3 เดือน ไม่มีสีดำเลย และชิ้นเนื้อยืนยัน amelanotic melanoma — melanoma ไม่จำเป็นต้องมีสีดำ""",
+  "C":"""ก้อนเล็กสีเข้มขอบม้วนในภาพ B ลายมือกำกับว่า BCC 'ขอบม้วน' คือ pigmented BCC ที่พบบ่อยในคนเอเชีย สีเข้มมาจาก melanin ในก้อน BCC ไม่ได้แปลว่าเป็น melanoma · ไม่มีสถานการณ์ใดที่ขอบม้วนแบบไข่มุกเป็นลักษณะที่ใช้บ่งชี้ melanoma เพราะ rolled pearly border เกิดจากรังของ basaloid cell ที่ดันผิวขอบก้อนขึ้นมา ซึ่งเป็นลักษณะของ BCC แม้ melanoma บางก้อนจะมีสีเข้มคล้ายกันก็ต้องยืนยันด้วยชิ้นเนื้อ""",
+  "D":"""แผลพื้นแดงสกปรกขอบนูนในภาพ A ลายมือกำกับว่า SCC — ไม่มีสีดำ ขอบแข็งนูน เข้ากับ SCC บนผิวที่โดนแดดหรือแผลเรื้อรัง · จะถูกถ้าชายอายุ 62 ปี มีแผลพื้นสกปรกที่ปลายนิ้วหัวแม่เท้าใต้เล็บที่หลุดไป ไม่หายมา 6 เดือน และขอบแผลมีสีดำลามออกมาที่ผิวรอบเล็บ — subungual melanoma ที่แตกเป็นแผล""",
+  "E":"""การตอบว่าไม่มี melanoma เลยผิด เพราะภาพ D มีลักษณะสีไม่สม่ำเสมอ ก้อนนูนสองส่วนสีต่างกัน และลายมือกำกับว่า malignant melanoma · จะถูกถ้าชุดภาพของอีกคลินิกหนึ่งประกอบด้วย seborrheic keratosis, keratoacanthoma, nevus sebaceous และ neurofibroma ทั้งหมด ซึ่งเป็นชุดรอยโรคไม่ร้ายและ premalignant ไม่มีภาพใดเป็น melanoma"""},
+ trap="""ภาพที่มีสีเข้มทั้งก้อน (pigmented BCC ขอบม้วน) ล่อให้ตอบ melanoma เพราะจำว่า melanoma = สีดำ — แต่ขอบม้วนมุกเป็นของ BCC ส่วน melanoma ในภาพเป็นก้อนชมพูที่มีส่วนดำ = หลายสีและไม่สมมาตร ต้องมองหาความไม่สม่ำเสมอของสีและรูปร่าง ไม่ใช่ดูแค่ว่าดำหรือไม่""",
+ summary=[
+  """แกน: <b>melanoma = หลายสี ไม่สมมาตร</b> (ภาพ D ก้อนชมพู + ส่วนดำ) · ขอบม้วนหรือ telangiectasia = BCC · พื้นแผลสกปรก ขอบนูนแข็ง = SCC""",
+  """ลายมือสไลด์หน้า 73: malignant — ถ้าสงสัย skin CA → ทำ biopsy ส่งตรวจก่อนวางแผนผ่าตัด""",
+  """ABCDE: Asymmetry · Border irregular · Color variegation · Diameter &gt; 6 mm · Evolving""",
+  """Pigmented BCC พบบ่อยในคนเอเชีย — สีดำไม่ได้แปลว่า melanoma ต้องดูขอบมุกและ telangiectasia""",
+  """Amelanotic melanoma ไม่มีสีหรือมีสีน้อย มักวินิจฉัยช้า — ก้อนชมพูที่โตเร็วต้อง biopsy""",
+  """สงสัย melanoma: excisional biopsy ขอบ 1–3 mm ดีที่สุดเพื่อวัด Breslow — หลีกเลี่ยง shave ตื้นที่ตัดผ่านฐานก้อน"""],
+ opinion="""เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ลายมือกำกับภาพ D ว่า malignant melanoma และภาพอื่นถูกกำกับเป็น SCC และ BCC ชัดเจน · จุดที่ลายมือต่างจากแนวทางปัจจุบัน: ลายมือมุมบนสไลด์หน้า 73 เขียนให้ทำ incisional biopsy ส่งก่อนและขีดฆ่าคำว่า excisional ทิ้ง ซึ่งเหมาะกับ BCC หรือ SCC ก้อนใหญ่ แต่เมื่อสงสัย melanoma แนวทาง NCCN Melanoma: Cutaneous (2025) และ AAD (2019) แนะนำ excisional biopsy ขอบแคบ 1–3 mm เป็นอันดับแรก ใช้ incisional หรือ punch เฉพาะก้อนใหญ่หรือตำแหน่งสำคัญ เช่น หน้า มือ เท้า เพราะ biopsy บางส่วนอาจประเมิน Breslow ต่ำกว่าจริง · ลายมือภาพ B เขียน 'ขอบม้วน' ถูกต้องตามลักษณะ BCC""",
+ mnemonic="""<b>'ดำทั้งก้อนขอบมุก = BCC · ชมพูปนดำไม่สมมาตร = Melanoma · แผลสกปรกขอบแข็ง = SCC'</b>""",
+ guide="""NCCN Clinical Practice Guidelines in Oncology: Melanoma: Cutaneous (2025); AAD Guidelines of Care for the Management of Primary Cutaneous Melanoma (2019); NCCN Basal Cell Skin Cancer (2025)""",
+ variants=[
+  """ชายอายุ 70 ปี มีก้อนนูนดำสมมาตร ขอบเรียบ สีเดียว ขนาด 5 mm แต่แข็งและโตเร็วใน 2 เดือน → nodular melanoma ที่เข้า EFG แม้ไม่เข้า ABCD ทำ excisional biopsy""",
+  """หญิงอายุ 72 ปี มีปื้นสีน้ำตาลดำ 4 cm ที่แก้มซึ่งโตช้ามาหลายปี สงสัย lentigo maligna → ใช้ incisional biopsy หลายจุดหรือ broad shave ได้เพราะรอยโรคใหญ่บนใบหน้า""",
+  """ชายมีก้อนมุกขอบม้วนที่ข้างจมูก dermoscopy พบ arborizing vessels และ blue-gray ovoid nests → BCC ทำ punch หรือ shave biopsy ยืนยันก่อนวางแผนรักษา"""])
+
+# ---------------- 70 Hemangioma vs malformation ----------------
+mk(Q, 70, [17, 18, 19, 's15'],
+ stem="""A 4-month-old boy has a bright red lesion on the cheek that was not visible at birth, appeared at 2 weeks of age, and has grown much faster than the child. Which feature distinguishes it from a vascular malformation?""",
+ opts=["""Rapid proliferation followed by involution""","""Persistence without involution into adulthood""","""Growth in proportion to the child's body""","""Being fully grown at birth with no later growth""","""Compressibility with a red-purple color"""],
+ interp="""ทารก 4 เดือน รอยโรคสีแดงที่ไม่มีตอนเกิด โผล่ตอนอายุ 2 สัปดาห์ แล้วโตเร็วกว่าตัวเด็ก → infantile hemangioma ระยะ proliferative → ถามลักษณะที่แยกออกจาก vascular malformation ต้องใช้การแบ่งตาม natural history: เนื้องอกที่โตเร็วเกินตัวแล้วยุบ เทียบกับความผิดปกติโครงสร้างที่โตตามตัวและไม่ยุบ""",
+ why="""การแบ่ง vascular anomaly ตาม <b>ISSVA</b> แยกเป็น <b>vascular tumor</b> กับ <b>vascular malformation</b> โดยดูจาก natural history และชีววิทยา · <b>Infantile hemangioma</b> เป็น<b>เนื้องอก</b>ของ endothelial cell ที่ยังแบ่งตัว: ตอนเกิดมักไม่เห็นหรือเห็นเป็นรอยจาง → ปรากฏชัดราว <b>2–4 สัปดาห์</b> → <b>proliferative phase</b> โตเร็วที่สุดช่วง 1–3 เดือนแรก และโตส่วนใหญ่เสร็จราว 5 เดือน → <b>involution</b> ช้า ๆ หลายปี เหลือผิวย่นหรือ fibrofatty tissue · ย้อม <b>GLUT-1 บวก</b> · <b>Vascular malformation</b> เป็นความผิดปกติทางโครงสร้างที่เกิดตั้งแต่ fetal development มีตั้งแต่เกิด (บางชนิดเห็นชัดภายหลัง) endothelium ไม่แบ่งตัว <b>โตตามสัดส่วนตัว</b> อาจขยายเร็วชั่วคราวจากฮอร์โมนวัยรุ่น การตั้งครรภ์ การบาดเจ็บ หรือติดเชื้อ และ<b>ไม่ยุบเอง</b> · ดังนั้นสิ่งที่แยกคือ <b>'โตเร็วเกินตัวแล้วยุบ'</b> ซึ่งเกิดเฉพาะ hemangioma · เมื่อจำเป็นต้องรักษา (ใกล้ตา ทางเดินหายใจ แผล) ใช้ <b>propranolol</b> เป็นยาแรก (AAP 2019) · สไลด์หน้า 18 ตัวพิมพ์ <b>"Rapid cellular proliferation over the first year of life · 90% involute over time"</b>""",
+ wrong={
+  "B":"""การคงอยู่โดยไม่ยุบจนเป็นผู้ใหญ่เป็นลักษณะของ vascular malformation (สไลด์หน้า 19 'Never involute') จึงเป็นลักษณะของอีกฝั่ง ไม่ใช่ตัวแยก hemangioma · ไม่มีสถานการณ์ใดที่การไม่ยุบจนเป็นผู้ใหญ่ใช้แยก infantile hemangioma ออกจาก malformation เพราะ infantile hemangioma เกือบทุกรายยุบ แม้จะทิ้ง fibrofatty tissue หรือผิวย่นไว้ แต่ตัวก้อนไม่ได้คงอยู่แบบเดิม""",
+  "C":"""การโตตามสัดส่วนตัวเป็นนิยามของ malformation (สไลด์หน้า 19 'Grow in proportion to the body' ลายมือ 'โตตามขนาดตัว ไม่มีช่วงโตเร็ว') ส่วน hemangioma โตเร็วเกินตัวในขวบปีแรก · ไม่มีสถานการณ์ใดที่การโตตามสัดส่วนตัวเป็นลักษณะแยก infantile hemangioma เพราะธรรมชาติของเนื้องอกชนิดนี้คือการแบ่งตัวเร็วในช่วงแรกแล้วจึงยุบ""",
+  "D":"""ก้อนที่โตเต็มตั้งแต่เกิดแล้วไม่โตต่อคือ congenital hemangioma (RICH หรือ NICH) ซึ่งเป็นอีกโรคที่ GLUT-1 ลบ ไม่ใช่ลักษณะของ infantile hemangioma · ไม่มีสถานการณ์ใดที่ลักษณะนี้แยก infantile hemangioma ออกจาก malformation เพราะ infantile hemangioma มีช่วงโตหลังคลอดเสมอ และ NICH เองก็คงอยู่โตตามตัวคล้าย malformation จึงไม่ใช่ตัวแยกที่ถาม""",
+  "E":"""การกดยุบได้และสีแดงม่วงเป็นลักษณะร่วม: ชีทหน้า 15 ระบุว่า hemangioma กดแล้วยุบได้ (compressible) และ venous malformation ก็ยุบเมื่อกดเช่นกัน · ไม่มีสถานการณ์ใดที่การกดยุบและสีแดงม่วงใช้แยก hemangioma ออกจาก malformation เพราะสีขึ้นกับความลึกและชนิดของหลอดเลือดมากกว่าชนิดโรค hemangioma ที่อยู่ลึกยังมีสีฟ้าได้"""},
+ trap="""คำถามให้เลือกลักษณะของ hemangioma ที่ใช้แยกจาก malformation แต่ช้อยส่วนใหญ่เป็นลักษณะของ malformation หรือเป็นลักษณะร่วม (กดยุบ สีแดงม่วง) — อ่านเร็วจะเลือกผิดฝั่ง ให้ยึดหลักเวลา: hemangioma โผล่หลังเกิด โตเร็ว แล้วยุบ ส่วน malformation มีตั้งแต่เกิด โตตามตัว ไม่ยุบ และก้อนที่โตเต็มตั้งแต่เกิดคือ congenital hemangioma""",
+ summary=[
+  """แกน: <b>ช่วงโตเร็วเกินตัวแล้วยุบ = infantile hemangioma เท่านั้น</b> — malformation โตตามตัวและไม่ยุบ (สไลด์หน้า 17–19)""",
+  """ชีทหน้า 15: hemangioma = เนื้องอก endothelium ยังแบ่งตัว · malformation = ความผิดปกติโครงสร้าง endothelium ไม่แบ่งตัว""",
+  """ตัวช่วยแยกเพิ่ม: GLUT-1 บวกเฉพาะ infantile hemangioma · ultrasound Doppler พบก้อนเนื้อแน่นที่มีเลือดไหลเร็ว เทียบกับช่องหลอดเลือดผิดรูปของ malformation""",
+  """Malformation อาจโตเร็วชั่วคราวจากฮอร์โมนวัยรุ่น การตั้งครรภ์ การบาดเจ็บ หรือติดเชื้อ แต่ไม่ยุบเอง""",
+  """ลายมือหน้า 19: malformation แบ่ง high flow (AVM: pulse, thrill, bruit) กับ low flow (venous ม่วงน้ำเงิน · capillary แดงเข้ม · lymphatic สีผิว)""",
+  """การรักษา hemangioma ที่มีภาวะแทรกซ้อน: propranolol ยาแรก (AAP 2019) · malformation รักษาตามชนิดการไหล"""],
+ opinion="""เห็นด้วยกับคำตอบ A ความมั่นใจสูง — สไลด์หน้า 18 (Rapid cellular proliferation, 90% involute) เทียบกับหน้า 19 (Grow in proportion, Never involute) ตอบตรงตัว · จุดที่ต้องระวัง: ลายมือหน้า 17 เขียนเวลาสลับกัน — ให้ hemangioma 'เป็นตั้งแต่เกิด' และ malformation 'เกิดใน 2 wk หลังคลอด' ซึ่งตรงข้ามกับชีทหน้า 15 (hemangioma พบหลังคลอด 2–4 สัปดาห์) และ ISSVA 2018 ที่ malformation มีตั้งแต่เกิด · ลายมือหน้า 18 ให้ IFN ซึ่งเลิกใช้แล้วเพราะเสี่ยง spastic diplegia — AAP 2019 ใช้ propranolol เป็นยาแรก · ตัวเลขการยุบในชีท (5 ปี 50%, 7 ปี 70%) เป็นกฎเก่า ข้อมูลปัจจุบันพบว่าส่วนใหญ่ยุบเสร็จราวอายุ 4 ปี""",
+ mnemonic="""<b>'Hemangioma: โผล่ – โต – ยุบ · Malformation: มีมาแต่เกิด – โตตามตัว – อยู่ตลอดไป'</b>""",
+ guide="""ISSVA Classification of Vascular Anomalies (2018); AAP Clinical Practice Guideline for the Management of Infantile Hemangiomas (2019)""",
+ variants=[
+  """เด็กอายุ 6 ปี มีก้อนนิ่มสีฟ้าจาง ๆ ใต้ผิวหน้าผากที่ยุบลงจากตอนขวบแรก ผิวด้านบนย่นและมีไขมันเหลือ → infantile hemangioma ระยะ involuted ส่วนที่เหลือแก้ด้วยผ่าตัดหรือ laser ภายหลัง""",
+  """ทารกแรกเกิดมีก้อนม่วง 5 cm ที่ต้นขาตั้งแต่ในครรภ์ แล้วยุบเร็วจนแบนเหลือผิวบางเมื่ออายุ 10 เดือน → RICH (rapidly involuting congenital hemangioma)""",
+  """ทารก 5 สัปดาห์ มี hemangioma แบบแผ่นกว้างตามแนวหน้าครึ่งซีก (segmental) → ตรวจหา PHACE: MRI และ MRA สมองและคอ ตรวจหัวใจและตา""",
+  """ทารก 3 เดือน มี hemangioma ที่ผิวตั้งแต่ 5 จุดขึ้นไป → ทำ ultrasound ตับหา hepatic hemangioma"""])
+
+save(Q, 'parts/fill/l22_r07.json')

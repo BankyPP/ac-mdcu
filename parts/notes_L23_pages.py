@@ -28,3 +28,10 @@ PG = {
        None,
        NOHW_S),
 }
+
+# หน้าที่ถอดเพิ่ม (28 พ.ย. 2026) — parts/notes_pg/L23/*.json · {"12": [ตัวพิมพ์, รูป|null, ลายมือ/ไฮไลต์], "s5": [...]}
+import glob as _g, json as _j, os as _o
+for _f in sorted(_g.glob(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)), 'notes_pg', 'L23', '*.json'))):
+    for _k, _v in _j.load(open(_f, encoding='utf-8')).items():
+        _kk = _k if _k.startswith('s') else int(_k)
+        if _kk not in PG: PG[_kk] = tuple(_v)

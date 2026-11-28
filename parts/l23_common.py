@@ -22,7 +22,7 @@ def notes(pages):
             out.append(f'สไลด์หน้า {p} — ตัวพิมพ์: {t}')
             if im: out.append(f'รูปในสไลด์หน้า {p}: {im}')
             out.append(f'ลายมือ/ไฮไลต์หน้า {p}: {hw}')
-    out.append(FAC)
+    out.append(FAC if not any('สัญลักษณ์คณะ' in (PG[p][2] or '') for p in pages) else 'สัญลักษณ์คณะ: ตามที่ระบุในลายมือ/ไฮไลต์ของหน้าข้างบน')
     return '<br>'.join(out)
 
 def src(pages):
@@ -31,7 +31,7 @@ def src(pages):
     where = ' + '.join(x for x in [('สไลด์หน้า ' + ', '.join(sl)) if sl else '', ('ชีท อ.อภิชัย หน้า ' + ', '.join(sh)) if sh else ''] if x)
     hw = any(not isinstance(p, str) and not PG[p][2].startswith('ไม่มีลายมือ') for p in pages)
     kinds = 'ตัวพิมพ์' + (' + ลายมือ + ไฮไลต์' if hw else '') + (' + รูป' if any(PG[p][1] for p in pages) else '')
-    return f'L23 Burns · {where} · ไม่มีสัญลักษณ์คณะ · {kinds}'
+    return f'L23 Burns · {where} · {"มีสัญลักษณ์คณะ (ดู notes)" if any("สัญลักษณ์คณะ" in (PG[p][2] or "") for p in pages) else "ไม่มีสัญลักษณ์คณะ"} · {kinds}'
 
 def mk(Q, n, pages, **f):
     o = O[n]

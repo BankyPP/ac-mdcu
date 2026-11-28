@@ -1,0 +1,42 @@
+# ข้อเท็จจริงที่ผู้ตรวจอิสระเคยยืนยัน/แก้ (ใช้ตามนี้ — ห้ามเขียนขัด)
+## L22 Skin and Subcutaneous Tissue
+- random flap ปลายดำเพราะ subdermal plexus ถูกทำลาย (perforator ใต้ flap ขาดอยู่แล้ว)
+- CMN พบ 1% ของทารก (ทุกขนาด) ชนิด giant พบน้อยมาก · ขนาดคาดเมื่อเป็นผู้ใหญ่: large 20–40 cm, giant > 40 cm · CMN ใหญ่กลางหลัง/มี satellite มาก → MRI สมองไขสันหลัง
+- KA หลายก้อนจาก BRAF inhibitor เดี่ยว (vemurafenib) — ให้ร่วม MEK inhibitor เกิดน้อยลงมาก · KA อาจยุบเองแต่แยก SCC ไม่ได้ → ตัด/bx
+- inflamed epidermoid cyst: IDSA I&D อย่างเดียวพอ ให้ยาเมื่อ SIRS/ภูมิต่ำ (ชีทเขียนให้ยาคลุม S. aureus)
+- hemangioma: propranolol ยาแรก (AAP 2019) · IFN เลิกใช้ (spastic diplegia) แม้ลายมือหน้า 18 เขียน · RICH/NICH โตเต็มตั้งแต่เกิด · VM รักษาหลักปัจจุบัน sclerotherapy (ethanol, STS, bleomycin) ± ผ่าตัด
+- nevus sebaceous: BCC พบน้อยกว่าที่เคยเชื่อ เนื้องอกส่วนใหญ่ benign (trichoblastoma, SCAP)
+- BCC low-risk NCCN ขอบ 4 mm · cSCC low-risk 4–6 mm · melanoma NCCN ขอบสูงสุด 2 cm (สไลด์ > 4 mm เขียน 2–3) · 5 cm เป็นแนวทางเก่า · Marjolin = SCC ความเสี่ยงสูง อย่าเขียนว่าขอบ 1 cm พอ
+- venous ulcer ที่ไม่หายตามคาดต้อง biopsy · compression เมื่อ ABI ปกติ · varicose: endovenous ablation มาก่อน stripping
+- แผลเป็นไฟไหม้เรื้อรัง (unstable scar) ต้องตัดแผลเป็นก่อนปิด ไม่ปลูกผิวทับ
+- ไหมไม่ละลายในชั้นลึกใช้กับ fascia/เอ็น · ไหมละลายเร็วใช้เย็บผิวได้ในเด็ก/หน้า · ตัดไหม: หน้า ~5 วัน ลำตัว 7–10 แขนขา 10–14
+- Eikenella ดื้อ clindamycin → amoxicillin-clavulanate · ชีทหน้า 5 สัตว์กัด: Pasteurella ในหมา/แมว และมี E. corrodens ในรายการ
+- actinomycosis: ปัจจุบัน penicillin ขนาดสูงนานหลายเดือน
+- **ชีท L22 หน้า 10 เขียนผิดว่า molluscum เกิดจาก HPV 6/11 — จริงคือ poxvirus** (บอกใน opinion)
+- ABCD สไลด์ D > 6 mm แต่ชีทใช้ > 8 mm
+- AK รักษาหลัก cryotherapy/5-FU/imiquimod/PDT — ผ่าตัดเมื่อสงสัย SCC/รอยโรคหนา
+- NPIAP 2016 เห็นกล้ามเนื้อ = stage 4 (สไลด์จัด III) · NPIAP ตุ่มน้ำเลือด = DTPI
+- ชีทหน้า 12: SK รักษา cryotherapy/shave/dermabrasion · ชีทหน้า 13 skin tag ใช้ electrocautery/ตัด · HS อยู่ชีทหน้า 8 · HS biologics: adalimumab + secukinumab/bimekizumab · SCC กระจายต่อมน้ำเหลือง 2–5% (ชีทหน้า 18) · ชีทหน้า 17 เขียนว่า SCC มาจาก basal layer · ชีทหน้า 15 hemangioma = neoplasm, malformation = ความผิดปกติโครงสร้าง · NF1 เสี่ยงมะเร็งเต้านม/GIST/JMML ด้วย · neurofibroma กลายเป็นมะเร็ง 8–16% (ชีทหน้า 14)
+## L23 Burns
+- relative adrenal insufficiency/หยุด steroid (secondary) ไม่ทำให้ K สูง (K สูง = primary: Addison, adrenal hemorrhage)
+- ซีดใน burn: ช่วงแรกความร้อนทำลายเม็ดเลือดแดง + เซลล์ครึ่งชีวิตสั้น (ชีทหน้า 4 = สาเหตุหลัก) ระยะหลังเสียเลือดผ่าตัด/ทำแผล เจาะเลือด ไขกระดูกสร้างน้อย
+- ผู้ใหญ่ 12% ยังไม่ถึงเกณฑ์ IV resuscitation (ผู้ใหญ่ ~15–20%, เด็ก ~10%)
+- **ลายมือ L23 หน้า 26 เขียน "blood gas = PaO2 ↓" ผิด — PaO2 มักปกติในพิษ CO** · SpO2/SaO2 คำนวณปกติลวง ต้อง co-oximetry
+- ลายมือหน้า 12 "peak ตอน 8 hr" = ช่วงรั่วเร็วสุด · สองแหล่งเวลาบวมทางเดินหายใจต่างกัน: ลายมือหน้า 35 vs ชีทหน้า 11
+- ลายมือหน้า 14 admit/refer ผู้ใหญ่ > 10% เด็กได้เลย vs ABA ในชีทหน้า 17
+- Lund & Browder หน้า 18 แยกคอ 2% ออกจากศีรษะ
+- ABA ปัจจุบันเริ่มผู้ใหญ่ 2 mL/kg/% (เด็ก 3) แต่ข้อสอบตามสไลด์ใช้ 4 (Parkland) · เด็ก total crystalloid ต้องรวม maintenance (มี dextrose)
+- escharotomy ทำทันทีในแผลลึกรอบวง · chest escharotomy: anterior axillary สองข้าง + ใต้ชายโครง
+- type c รอ 14–21 วันตามสไลด์ แต่แนวปัจจุบันประเมินซ้ำวันที่ 3–5
+- เป้า UO สไลด์หน้า 21 ผู้ใหญ่ 30–50 mL/hr vs ชีทหน้า 6 0.5–1 mL/kg/hr · ไฟฟ้าแรงสูง + myoglobinuria เป้า 75–100 mL/hr
+- ตาราง COHb หน้า 27 ไม่มีคำว่าชัก
+- pressure garment คุมแผลเป็นนูนเป็นหลัก — ข้อติดป้องกันด้วยกายภาพเร็ว + จัดท่า/ดาม (ชีทหน้า 34)
+- Curreri มักให้พลังงานเกิน — ปัจจุบัน indirect calorimetry · ชีทหน้า 31 สูตรเด็ก 60/35 ไม่ระบุชื่อ Davies (ชื่ออยู่สไลด์หน้า 74)
+- **ชีทหน้า 7 เขียนว่า albumin "สังเคราะห์" — จริงคือสกัดจากพลาสมาผ่านความร้อน**
+- ชีทหน้า 22 เปลี่ยนสาย IV ทุก 72 ชม. — แนวปัจจุบันไม่เปลี่ยน central line ตามรอบ
+- ห้าม neutralize ก่อนล้าง (ล้างน้ำมาก ๆ ก่อน antidote เป็นขั้นถัดไป — ชีทหน้า 35) · HF พิษทั่วร่างเมื่อกรดเข้มข้นแม้ราว 1–2.5% TBSA · ที่นิ้วใช้ calcium gluconate intra-arterial/IV ใต้ tourniquet
+- พิษ CO: ชีทใช้ HCO₃⁻ > 20 เป็นจุดหยุด O₂ — ปัจจุบัน COHb กลับปกติ (&lt; 3–5%, คนสูบบุหรี่ &lt; 10%) + อาการหาย · acidosis ค้าง → คิดถึง cyanide
+- zone of stasis ตายเพิ่มจาก resuscitation ไม่พอเป็นหลัก · bronchoscopy มีข้อห้ามสัมพัทธ์จริง
+- รูป img/l23_p59.jpg ไม่มีลายมือ — ลายมือหน้านั้นอยู่ใน notes ของ L23_orig (type d: "ปล่อยหายเองได้ → ตาปิด(ไม่ได้) ∴ อย่าปล่อย ให้ graft แยกส่วน")
+- Integra ใช้กับแผล full thickness ที่ตัดเนื้อตายแล้ว (ผิวตัวเองไม่พอ) · wheeze อย่างเดียว → bronchodilator (ชีทหน้า 13) · ชีทหน้า 37: ไฟฟ้าเสี่ยง compartment syndrome · quantitative culture > 10⁵/กรัมเนื้อเยื่อ (สไลด์หน้า 69) ต้องตัดชิ้นเนื้อ ไม่ใช่ swab · ชีทหน้า 23 culture สัปดาห์ละ 1–2 ครั้ง แม่นไม่เท่า histology · ลายมือหน้า 33 primary survey: A ใส่ท่อ · B O2 สำหรับ CO · C Parkland (ต้องรู้ %TBSA)
+- หน้า 8 สไลด์อ้าง Feldman ปี 1987 ฉบับ 62:4 แต่จริงตีพิมพ์ 1978 (บอกใน opinion)
